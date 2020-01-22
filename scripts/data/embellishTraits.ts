@@ -25,7 +25,7 @@ export default async function getTraits (traits: any) {
       }
     }).sort((a, b) => a.name.localeCompare(b.name));
 
-    await fs.writeFile(path.join(__dirname, '..', 'data', 'traits.json'), JSON.stringify(result))
+    await fs.writeFile(path.join(__dirname, '..', '..', 'data', 'traits.json'), JSON.stringify(result))
     return traits;
   } catch (e) {
     console.error('Error', e.message);

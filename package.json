@@ -12,7 +12,9 @@
     "prettier:check": "prettier --list-different './pages/**/*.{js,jsx,ts,tsx}'",
     "build": "next build",
     "test": "echo 'Todo'",
-    "data": "npx ts-node --project scripts/tsconfig.json scripts/data.ts"
+    "data": "npx ts-node --project scripts/tsconfig.json scripts/data",
+    "assets": "npx ts-node --project scripts/tsconfig.json scripts/assets",
+    "sync": "yarn data && yarn assets"
   },
   "husky": {
     "hooks": {

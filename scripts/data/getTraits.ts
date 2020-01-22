@@ -16,7 +16,7 @@ export default async function getTraits () {
         wikiUrl: `https://temtem.gamepedia.com${$(el).attr('href')}`
       }
     }).toArray();
-    await fs.writeFile(path.join(__dirname, '..', 'data', 'traits.json'), JSON.stringify(traits))
+    await fs.writeFile(path.join(__dirname, '..', '..', 'data', 'traits.json'), JSON.stringify(traits))
     return traits;
   } catch (e) {
     console.error('Error', e.message)

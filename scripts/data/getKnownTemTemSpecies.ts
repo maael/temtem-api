@@ -16,7 +16,7 @@ export default async function getKnownTemTemSpecies () {
     const tems = temRows.map((_i, row) => getTemInfoFromRow($, row));
     console.info('Example received:', JSON.stringify(tems[0]));
     const ar = tems.toArray();
-    await fs.writeFile(path.join(__dirname, '..', 'data', 'knownTemTemSpecies.json'), JSON.stringify(ar))
+    await fs.writeFile(path.join(__dirname, '..', '..', 'data', 'knownTemTemSpecies.json'), JSON.stringify(ar))
     return ar;
   } catch (e) {
     console.error('Error', e.message);

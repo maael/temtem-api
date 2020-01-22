@@ -38,11 +38,15 @@ function Home() {
         }
       `}</style>
       <div style={{display: 'flex', flexDirection: 'column', flex: 1}}>
-      {tems.map(({name, number, portraitWikiUrl, wikiUrl}) => (
+      {tems.map(({name, number, wikiUrl, types, evolution}: any) => (
         <div key={name} style={{flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around'}}>
           <div>{number}</div>
           <div><a href={wikiUrl}>{name}</a></div>
-          <div><img src={portraitWikiUrl} /></div>
+          <div>{types.map((t) => <img key={t} height={30} src={`/images/icons/types/${t === 'Unknown' ? 'UnknownType' : t}.png`} />)}</div>
+          <div><img src={`/images/portraits/temtem/${name}.png`} /></div>
+          <div>
+            {evolution.evolves ? evolution.evolutionTree.map(({name, levels}) => levels ? `${name} after ${levels} levels` : name).join(' -> ') : 'X'}
+          </div>
         </div>
       ))}
       </div>

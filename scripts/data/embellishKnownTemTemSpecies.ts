@@ -25,7 +25,7 @@ export default async function embellishKnownTemTemSpecies (ar: any) {
       evolution: getEvolutionInfo(ar, item, html),
     };
   }).sort((a, b) => a.number - b.number);
-  await fs.writeFile(path.join(__dirname, '..', 'data', 'knownTemTemSpecies.json'), JSON.stringify(result))
+  await fs.writeFile(path.join(__dirname, '..', '..', 'data', 'knownTemTemSpecies.json'), JSON.stringify(result))
 }
 
 function getTraits (html: string) {

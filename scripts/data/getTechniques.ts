@@ -16,7 +16,7 @@ export default async function getTechniques () {
         wikiUrl: `https://temtem.gamepedia.com${$(el).attr('href')}`
       }
     }).toArray();
-    await fs.writeFile(path.join(__dirname, '..', 'data', 'techniques.json'), JSON.stringify(techniques))
+    await fs.writeFile(path.join(__dirname, '..', '..', 'data', 'techniques.json'), JSON.stringify(techniques))
     return techniques;
   } catch (e) {
     console.error('Error', e.message)
