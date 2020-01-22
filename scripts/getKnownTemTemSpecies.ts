@@ -2,26 +2,28 @@ import {promises as fs} from 'fs';
 import path from 'path';
 import got from 'got';
 import cheerio from 'cheerio';
-console.info('Starting');
 
-(async () => {
+export default async function getKnownTemTemSpecies () {
+  console.info('Starting');
   try {
     console.info('Running');
     const result = await got('https://temtem.gamepedia.com/Temtem_Species');
     const $ = cheerio.load(result.body);
     const temRows = $('table.temtem-list>tbody>tr').filter((_i, el) => {
-      return $(el).find('td').length;
+      return !!$(el).find('td').length;
     });
     console.info(`Found ${temRows.length} tems`);
     const tems = temRows.map((_i, row) => getTemInfoFromRow($, row));
     console.info('Example received:', JSON.stringify(tems[0]));
-    fs.writeFile(path.join(__dirname, '..', 'data', 'knownTemTemSpecies.json'), JSON.stringify(tems.toArray()))
+    const ar = tems.toArray();
+    await fs.writeFile(path.join(__dirname, '..', 'data', 'knownTemTemSpecies.json'), JSON.stringify(ar))
+    return ar;
   } catch (e) {
     console.error('Error', e.message);
   } finally {
     console.info('Finished');
   }
-})();
+};
 
 function getTemInfoFromRow ($, row) {
   const basicStats = $(row).find('td').text().split('\n').map((t) => t.trim()).map((t) => isNaN(Number(t)) ? t : Number(t));
