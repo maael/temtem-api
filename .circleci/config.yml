@@ -1,0 +1,120 @@
+version: 2.1
+
+orbs:
+  doctl: digitalocean/cli@0.1.1
+
+commands:
+  setup:
+    description: Basic steps to install packages, lint, prettier, and build
+    steps:
+      - checkout
+      - run:
+          name: Get App Name
+          command: |
+            echo 'export APP_NAME="$(partial=${CIRCLE_PROJECT_REPONAME/.$DOKKU_BASE_DOMAIN/''} && echo ${partial/$DOKKU_BASE_DOMAIN/'main'})"' >> $BASH_ENV
+            echo "Found app name: $(partial=${CIRCLE_PROJECT_REPONAME/.$DOKKU_BASE_DOMAIN/''} && echo ${partial/$DOKKU_BASE_DOMAIN/'main'})"
+      - run:
+          name: Versions
+          command: |
+            echo "Yarn: $(yarn -v)" && echo "Node: $(node -v)" && echo "NPM: $(npm -v)"
+      - restore_cache:
+          keys:
+            - v3-dependencies-{{ checksum "yarn.lock" }}
+            - v3-dependencies-
+      - run:
+          name: Install
+          command: yarn install
+      - run:
+          name: Lint
+          command: yarn lint
+      - run:
+          name: Prettier
+          command: yarn prettier:check
+      - run:
+          name: Build
+          command: yarn build
+      - save_cache:
+          paths:
+            - ./node_modules
+            - ./.next/cache
+          key: v3-dependencies-{{ checksum "yarn.lock" }}
+  failure_notification:
+    description: Send SMS on failure
+    steps:
+      - run:
+          name: Send Notification
+          command: |
+            curl -X POST -d "Body=Hi, $CIRCLE_PROJECT_REPONAME just failed to deploy. The commit was \"$(git log --format="%s%b" -n 1 $CIRCLE_SHA1)\" See $CIRCLE_BUILD_URL for the build." \
+              -d "From=CountDokku" -d "To=$NOTIFICATION_NUMBER_TO" \
+              "https://api.twilio.com/2010-04-01/Accounts/$TWILIO_SID/Messages" \
+              -u "$TWILIO_SID:$TWILIO_AUTH_TOKEN" || 0
+          when: on_fail
+
+jobs:
+  all:
+    docker:
+      - image: circleci/node:10.17
+    working_directory: ~/repo
+    steps:
+      - setup
+      - run:
+          name: Test
+          command: yarn test
+
+  pre-deploy:
+    docker:
+      - image: circleci/node:10.17
+    working_directory: ~/repo
+    steps:
+      - setup
+      - run:
+          name: Test
+          command: yarn test
+      - run:
+          command: npx now --token $NOW_TOKEN
+
+  now-deploy:
+    docker:
+      - image: circleci/node:10.17
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          command: npx now --token $NOW_TOKEN  --prod
+      - failure_notification
+
+workflows:
+  version: 2
+  all:
+    jobs:
+      - all:
+          context: common-env-vars
+          filters:
+            branches:
+              ignore:
+                - master
+                - gh-pages
+
+  deploy:
+    jobs:
+      - pre-deploy:
+          context: common-env-vars
+          filters:
+            branches:
+              only: master
+      - approve-deploy:
+          type: approval
+          context: common-env-vars
+          requires:
+            - pre-deploy
+          filters:
+            branches:
+              only: master
+      - now-deploy:
+          name: now-deploy
+          context: common-env-vars
+          requires:
+            - approve-deploy
+          filters:
+            branches:
+              only: master
