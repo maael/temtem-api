@@ -63,8 +63,7 @@ export default async function embellishTechniques (techniques: any) {
         description: $('#Description').parent().next().text().trim()
       }
     }).sort((a, b) => a.name.localeCompare(b.name));
-    console.info('Technique', result[0]);
-
+    console.info('Example received', JSON.stringify(result[0]));
     await fs.writeFile(path.join(__dirname, '..', '..', 'data', 'techniques.json'), JSON.stringify(result))
     return techniques;
   } catch (e) {
