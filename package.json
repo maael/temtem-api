@@ -14,11 +14,6 @@
     "test": "echo 'Todo'",
     "data:knownTemTemSpecies": "npx ts-node --project scripts/tsconfig.json scripts/getKnownTemTemSpecies.ts"
   },
-  "engines": {
-    "npm": "^6.11.3",
-    "node": "^13.7.0",
-    "yarn": "^1.19.1"
-  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
