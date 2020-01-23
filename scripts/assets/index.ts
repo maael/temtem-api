@@ -1,12 +1,14 @@
 import getTypeIcons from './getTypeIcons';
-import getTemPortraits from './getTemPortraits';
-import getStatusIcons from './getStatusIcons';
+import getTemPortraitsSmall from './getTemPortraitsSmall';
+import getTemPortraitsLarge from './getTemPortraitsLarge';
+import getConditionIcons from './getConditionIcons';
 import getGearIcons from './getGearIcons';
 import * as log from '../util/log';
 
 (async () => {
   await getTypeIcons();
-  await getTemPortraits();
-  await getStatusIcons();
+  await getTemPortraitsSmall();
+  await getTemPortraitsLarge();
+  await getConditionIcons();
   await getGearIcons();
 })().catch(log.error);

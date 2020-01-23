@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Cold",
+    "description": "If Cold is afflicted twice, the Temtem becomes Frozen. Frozen Temtem cannot attack, but they can rest normally. Cold and Frozen also serve to erase the Burnt Condition from a Temtem, while Burnt erases both Cold and Frozen",
+    "icon": "/images/icons/conditions/Cold.png"
+  },
+  {
+    "name": "Frozen",
+    "description": "If Cold is afflicted twice, the Temtem becomes Frozen. Frozen Temtem cannot attack, but they can rest normally. Cold and Frozen also serve to erase the Burnt Condition from a Temtem, while Burnt erases both Cold and Frozen",
+    "icon": "/images/icons/conditions/Frozen.png"
+  },
+  {
+    "name": "Asleep",
+    "description": "Asleep Temtem cannot attack, but if they are damaged, they wake up (the condition is removed). Any damage that is done to the Temtem will remove the Asleep Condition. Mental type Temtem are immune against this condition.",
+    "icon": "/images/icons/conditions/Asleep.png"
+  },
+  {
+    "name": "Trapped",
+    "description": "Trapped Temtem cannot swap out.",
+    "icon": "/images/icons/conditions/Trapped.png"
+  },
+  {
+    "name": "Doom",
+    "description": "Once the turn counter on the Doomed Temtem hits 0, the Temtem faints.",
+    "icon": "/images/icons/conditions/Doom.png"
+  },
+  {
+    "name": "Seized",
+    "description": "Seized Temtem lose their gear's effect.",
+    "icon": "/images/icons/conditions/Seized.png"
+  },
+  {
+    "name": "Poisoned",
+    "description": "Poisoned Temtem lose 1/8 of their health every turn. Temtem of the Toxic Type are immune against this condition.",
+    "icon": "/images/icons/conditions/Poisoned.png"
+  },
+  {
+    "name": "Burnt",
+    "description": "Burnt Temtem lose 1/16 of health every turn and it reduces both attack and special attack by 30%. Temtem of the Fire Type are immune against this condition. The Burnt condition erases Cold and Frozen when applied to a Temtem, while both can similarly erase the Burnt from a Temtem.",
+    "icon": "/images/icons/conditions/Burnt.png"
+  },
+  {
+    "name": "Exhausted",
+    "description": "The Stamina costs of an Exhausted Temtem increase by 50%.",
+    "icon": "/images/icons/conditions/Exhausted.png"
+  },
+  {
+    "name": "Vigorized",
+    "description": "The Stamina costs of a Vigorized Temtem decrease by 50%.",
+    "icon": "/images/icons/conditions/Vigorized.png"
+  },
+  {
+    "name": "Immune",
+    "description": "Immune Temtem are unable to be subject to new status conditions.",
+    "icon": "/images/icons/conditions/Immune.png"
+  },
+  {
+    "name": "Regenerated",
+    "description": "Each turn, the Regenerated Temtem heals 1/10 of their health.",
+    "icon": "/images/icons/conditions/Regenerated.png"
+  },
+  {
+    "name": "Neutralized",
+    "description": "Neutralized Temtem have their resistances and weaknesses omitted.",
+    "icon": "/images/icons/conditions/Neutralized.png"
+  },
+  {
+    "name": "Exiled",
+    "description": "Synergies do not work with Exiled Temtem (currently does not exist in game, subject to change).",
+    "icon": "/images/icons/conditions/Exiled.png"
+  }
+]

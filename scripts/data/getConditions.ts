@@ -16,13 +16,13 @@ export default async function getStatuses () {
       const description = $(el).parent('h2').next('p').text().trim().replace(/\n/g, '');
       const conditions = $(el).text().split(' and ').map((c) => ({
         name: c.trim(),
-        description
+        description,
+        icon: `/images/icons/conditions/${c.trim()}.png`
       }));
       statuses.push(...conditions);
     });
-    await write('statuses', statuses);
+    await write('conditions', statuses);
   } catch (e) {
     log.error(e.message)
   }
-  process.exit(0);
 }

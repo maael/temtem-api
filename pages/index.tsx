@@ -42,7 +42,7 @@ function Home() {
         }
       `}</style>
       <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
-        {tems.map(({ name, number: num, wikiUrl, types, evolution }: any) => (
+        {tems.map(({ name, number: num, wikiUrl, types, evolution, icon }: any) => (
           <div
             key={name}
             style={{
@@ -61,7 +61,7 @@ function Home() {
               {types.map(t => (
                 <img
                   key={t}
-                  height={30}
+                  height={50}
                   src={`/images/icons/types/${
                     t === "Unknown" ? "UnknownType" : t
                   }.png`}
@@ -69,7 +69,7 @@ function Home() {
               ))}
             </div>
             <div>
-              <img src={`/images/portraits/temtem/${name}.png`} />
+              <img src={icon} />
             </div>
             <div>
               {evolution.evolves

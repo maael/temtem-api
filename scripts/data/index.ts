@@ -1,6 +1,7 @@
 import getWeaknessTable from './getWeaknessTable';
 import getGear from './getGear';
-import getStatuses from './getStatuses';
+import embellishGear from './embellishGear';
+import getConditions from './getConditions';
 import getTechniques from './getTechniques';
 import embellishTechniques from './embellishTechniques';
 import getTraits from './getTraits';
@@ -10,9 +11,10 @@ import embellishKnownTemTemSpecies from './embellishKnownTemTemSpecies';
 import * as log from '../util/log';
 
 (async () => {
-  await getGear();
-  await getStatuses();
+  await getConditions();
   await getWeaknessTable();
+  const gear = await getGear();
+  await embellishGear(gear!);
   const techniques = await getTechniques();
   await embellishTechniques(techniques);
   const traits = await getTraits();

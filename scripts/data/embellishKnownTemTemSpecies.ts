@@ -1,3 +1,4 @@
+import path from 'path';
 import cheerio from 'cheerio';
 import * as log from '../util/log';
 import write from '../util/write';
@@ -14,9 +15,16 @@ export default async function embellishKnownTemTemSpecies (ar: any) {
       techniques: getTechniques(html),
       trivia: getTrivia(html),
       evolution: getEvolutionInfo(ar, item, html),
+      wikiPortraitUrlLarge: getWikiPortraitUrl(html),
+      icon: `/images/portraits/temtem/large/${item.name}.png`
     };
   }).sort((a, b) => a.number - b.number);
   await write('knownTemTemSpecies', result);
+}
+
+function getWikiPortraitUrl(html: string) {
+  const $ = cheerio.load(html);
+  return $('#mw-content-text .infobox-table img').first().attr('src');
 }
 
 function getTraits (html: string) {
