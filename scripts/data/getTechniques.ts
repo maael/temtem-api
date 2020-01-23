@@ -1,5 +1,3 @@
-import {promises as fs} from 'fs';
-import path from 'path';
 import got from 'got';
 import cheerio from 'cheerio';
 import * as log from '../util/log';

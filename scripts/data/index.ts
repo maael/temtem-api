@@ -10,8 +10,8 @@ import embellishKnownTemTemSpecies from './embellishKnownTemTemSpecies';
 
 (async () => {
   await getGear();
-  await getWeaknessTable();
   await getStatuses();
+  await getWeaknessTable();
   const techniques = await getTechniques();
   await embellishTechniques(techniques);
   const traits = await getTraits();
