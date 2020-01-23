@@ -18,7 +18,7 @@ export default async function getStatuses () {
         name: c.trim(),
         description
       }));
-      statuses.concat(conditions);
+      statuses.push(...conditions);
     });
     await write('statuses', statuses);
   } catch (e) {
