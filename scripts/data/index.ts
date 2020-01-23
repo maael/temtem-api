@@ -7,6 +7,7 @@ import getTraits from './getTraits';
 import embellishTraits from './embellishTraits';
 import getKnownTemTemSpecies from './getKnownTemTemSpecies';
 import embellishKnownTemTemSpecies from './embellishKnownTemTemSpecies';
+import * as log from '../util/log';
 
 (async () => {
   await getGear();
@@ -18,4 +19,4 @@ import embellishKnownTemTemSpecies from './embellishKnownTemTemSpecies';
   await embellishTraits(traits);
   const knownTemTem = await getKnownTemTemSpecies();
   await embellishKnownTemTemSpecies(knownTemTem);
-})();
+})().catch(log.error);

@@ -5,11 +5,15 @@ function Home() {
   const [tems, setTems] = useState([]);
   useEffect(() => {
     (async () => {
-      const res = await fetch('/api/known-tem-tems');
-      if (res.ok) {
-        setTems(await res.json());
+      try {
+        const res = await fetch('/api/known-tem-tems');
+        if (res.ok) {
+          setTems(await res.json());
+        }
+      } catch (e) {
+        console.error(e);
       }
-    })();
+    })().catch((e) => console.error(e))
   }, [])
   return (
     <div
@@ -38,14 +42,14 @@ function Home() {
         }
       `}</style>
       <div style={{display: 'flex', flexDirection: 'column', flex: 1}}>
-      {tems.map(({name, number, wikiUrl, types, evolution}: any) => (
+      {tems.map(({name, number: num, wikiUrl, types, evolution}: any) => (
         <div key={name} style={{flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around'}}>
-          <div>{number}</div>
+          <div>{num}</div>
           <div><a href={wikiUrl}>{name}</a></div>
           <div>{types.map((t) => <img key={t} height={30} src={`/images/icons/types/${t === 'Unknown' ? 'UnknownType' : t}.png`} />)}</div>
           <div><img src={`/images/portraits/temtem/${name}.png`} /></div>
           <div>
-            {evolution.evolves ? evolution.evolutionTree.map(({name, levels}) => levels ? `${name} after ${levels} levels` : name).join(' -> ') : 'X'}
+            {evolution.evolves ? evolution.evolutionTree.map(({name: evoName, levels}) => levels ? `${evoName} after ${levels} levels` : evoName).join(' -> ') : 'X'}
           </div>
         </div>
       ))}

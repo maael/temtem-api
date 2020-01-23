@@ -1,5 +1,5 @@
 import * as log from '../util/log';
 
-export default function getGearIcons () {
+export default async function getGearIcons () {
   log.todo('get gear icons');
 }

@@ -1,5 +1,5 @@
 import * as log from '../util/log';
 
-export default function getStatusIcons () {
+export default async function getStatusIcons () {
   log.todo('get status icons');
 }

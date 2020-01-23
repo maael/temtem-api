@@ -86,7 +86,7 @@ function getEvolutionInfo (items: any[], item: any, html: string) {
             }
           }
           log.warn('Gave up on evolution table for', item.name);
-          return;
+          return {};
         }
       }
     }
@@ -106,7 +106,7 @@ function getEvolutionInfo (items: any[], item: any, html: string) {
         prev.push({
           number: evoItem ? evoItem.number : -1,
           name: cur,
-          stage: prev.length + 1
+          stage: Number(prev.length) + 1
         })
       } else if (prev.length) {
         prev[prev.length - 1].levels = cur
@@ -114,7 +114,7 @@ function getEvolutionInfo (items: any[], item: any, html: string) {
       return prev;
     }, []);
     return {
-      stage: evolutionTree.findIndex(({name}) => item.name === name) + 1,
+      stage: Number(evolutionTree.findIndex(({name}) => item.name === name)) + 1,
       evolutionTree,
       evolves: true,
       type: 'level'

@@ -5,7 +5,7 @@ import * as log from '../util/log';
 (async () => {
   const git = simpleGit(path.join(__dirname, '..', '..', 'data'));
   const status = await git.status();
-  const dataFiles = status.files.map(({path}) => path)
+  const dataFiles = status.files.map(({path: p}) => p)
     .filter((p) => p.startsWith('data')).map((p) => path.resolve(path.join(__dirname, '..', '..', p))).filter(testChanged);
   if (dataFiles.length) {
     log.info('Staging data files', dataFiles);
@@ -16,7 +16,7 @@ import * as log from '../util/log';
   } else {
     log.info('No safe data changes found, skipping');
   }
-})();
+})().catch(log.error);
 
 function testChanged (p: string) {
   try {
