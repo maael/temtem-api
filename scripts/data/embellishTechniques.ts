@@ -1,10 +1,7 @@
-import {promises as fs} from 'fs';
-import path from 'path';
 import cheerio from 'cheerio';
-import throat from 'throat';
-import got from 'got/dist/source';
-
-const CONCURRENCY_LIMIT = 10;
+import * as log from '../util/log';
+import write from '../util/write';
+import fetchHTML from '../util/fetchHTML';
 
 function getInfoBox ($: any, str: string) {
   const text = $('.infobox-row').filter((_i, el) => {
@@ -36,16 +33,10 @@ function getPriority ($: any) {
 }
 
 export default async function embellishTechniques (techniques: any) {
-  console.info('Starting');
+  log.info('Starting');
   try {
-    console.info('Running');
-    const webpages: any[] = await Promise.all(techniques.map(throat(CONCURRENCY_LIMIT, async (item) => {
-      return {
-        item,
-        html: (await got((item as any).wikiUrl)).body
-      }
-    })));
-
+    log.info('Running');
+    const webpages = await fetchHTML('techniques', techniques, 'wikiUrl');
     const result = webpages.map(({item, html}) => {
       const $ = cheerio.load(html);
       const hold = getInfoBox($, 'Hold');
@@ -63,10 +54,10 @@ export default async function embellishTechniques (techniques: any) {
         description: $('#Description').parent().next().text().trim()
       }
     }).sort((a, b) => a.name.localeCompare(b.name));
-    console.info('Example received', JSON.stringify(result[0]));
-    await fs.writeFile(path.join(__dirname, '..', '..', 'data', 'techniques.json'), JSON.stringify(result))
+    log.info('Example received', JSON.stringify(result[0]));
+    await write('techniques', result);
     return techniques;
   } catch (e) {
-    console.error('Error', e.message);
+    log.error(e.message);
   }
 }

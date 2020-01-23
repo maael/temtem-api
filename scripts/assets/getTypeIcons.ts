@@ -1,22 +1,22 @@
-import stream from 'stream';
-import {promisify} from 'util';
-import fs from 'fs';
 import path from 'path';
 import got from 'got';
 import cheerio from 'cheerio';
-
-const pipeline = promisify(stream.pipeline);
+import pipeFile from '../util/pipeFile';
+import * as log from '../util/log';
 
 export default async function getTypeIcons () {
+  log.info('Starting');
   const result = await got('https://temtem.gamepedia.com/Category:Type_icons');
   const $ = cheerio.load(result.body);
   const images = $('#mw-content-text').find('img').map((_i, el) => $(el).attr('src')).toArray();
   await Promise.all(images.map(async (img) => {
     const p = path.parse(img as unknown as string);
     const filename = `${p.name.split('-')[1]}${p.ext.split('?')[0]}`;
-    await pipeline(
-      got.stream(img as unknown as string),
-      fs.createWriteStream(path.join(__dirname, '..', '..', 'public', 'images', 'icons', 'types', filename))
-    )
+    try {
+      await pipeFile(img as unknown as string, ['images', 'icons', 'types', filename]);
+    } catch (e) {
+      log.error(e.message);
+    }
   }));
+  log.info('Finished');
 }

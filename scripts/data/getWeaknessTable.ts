@@ -1,7 +1,7 @@
-import {promises as fs} from 'fs';
-import path from 'path';
 import got from 'got';
 import cheerio from 'cheerio';
+import * as log from '../util/log';
+import write from '../util/write';
 
 const ordering = [
   'Neutral',
@@ -20,6 +20,7 @@ const ordering = [
 
 export default async function getWeaknessTable () {
   try {
+    log.info('getting weaknesses');
     const res = await got('https://temtem.gamepedia.com/Temtem_Types#Strengths_and_Weaknesses');
     const $ = cheerio.load(res.body);
     const $table = $('#ttw-type-interactions-dynamic');
@@ -33,8 +34,8 @@ export default async function getWeaknessTable () {
       });
       table[ordering[i - 1]] = row;
     });
-    await fs.writeFile(path.join(__dirname, '..', '..', 'data', 'weaknesses.json'), JSON.stringify(table))
+    await write('weaknesses', table);
   } catch (e) {
-    console.error('Error', e.message);
+    log.error(e.message);
   }
 }

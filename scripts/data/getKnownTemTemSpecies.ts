@@ -1,27 +1,27 @@
-import {promises as fs} from 'fs';
-import path from 'path';
 import got from 'got';
 import cheerio from 'cheerio';
+import * as log from '../util/log';
+import write from '../util/write';
 
 export default async function getKnownTemTemSpecies () {
-  console.info('Starting');
+  log.info('Starting');
   try {
-    console.info('Running');
+    log.info('Running');
     const result = await got('https://temtem.gamepedia.com/Temtem_Species');
     const $ = cheerio.load(result.body);
     const temRows = $('table.temtem-list>tbody>tr').filter((_i, el) => {
       return !!$(el).find('td').length;
     });
-    console.info(`Found ${temRows.length} tems`);
+    log.info(`Found ${temRows.length} tems`);
     const tems = temRows.map((_i, row) => getTemInfoFromRow($, row));
-    console.info('Example received:', JSON.stringify(tems[0]));
+    log.info('Example received:', JSON.stringify(tems[0]));
     const ar = tems.toArray();
-    await fs.writeFile(path.join(__dirname, '..', '..', 'data', 'knownTemTemSpecies.json'), JSON.stringify(ar))
+    await write('knownTemTemSpecies', ar);
     return ar;
   } catch (e) {
-    console.error('Error', e.message);
+    log.error(e.message);
   } finally {
-    console.info('Finished');
+    log.info('Finished');
   }
 };
 

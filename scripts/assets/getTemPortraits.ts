@@ -1,21 +1,19 @@
-import stream from 'stream';
-import {promisify} from 'util';
-import fs from 'fs';
-import path from 'path';
-import got from 'got';
 import throat from 'throat';
+import pipeFile from '../util/pipeFile';
+import * as log from '../util/log';
 
 const knownTems = require('../../data/knownTemTemSpecies.json');
-
-const pipeline = promisify(stream.pipeline);
 
 const CONCURRENCY_LIMIT = 10;
 
 export default async function getTemPortraits () {
+  log.info('Starting');
   await Promise.all(knownTems.map(throat(CONCURRENCY_LIMIT, async (item) => {
-    await pipeline(
-      got.stream(item.portraitWikiUrl as unknown as string),
-      fs.createWriteStream(path.join(__dirname, '..', '..', 'public', 'images', 'portraits', 'temtem', `${item.name}.png`))
-    )
+    try {
+      await pipeFile(item.portraitWikiUrl as unknown as string, ['images', 'portraits', 'temtem', `${item.name}.png`]);
+    } catch (e) {
+      log.error(e.message);
+    }
   })));
+  log.info('Finished');
 }

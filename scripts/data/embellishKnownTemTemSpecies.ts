@@ -1,20 +1,11 @@
-import {promises as fs} from 'fs';
-import path from 'path';
-import got from 'got';
-import throat from 'throat';
 import cheerio from 'cheerio';
-
-const CONCURRENCY_LIMIT = 10;
+import * as log from '../util/log';
+import write from '../util/write';
+import fetchHTML from '../util/fetchHTML';
 
 export default async function embellishKnownTemTemSpecies (ar: any) {
-  console.info(`Embellishing ${ar.length} tems`);
-  const webpages: any[] = await Promise.all(ar.map(throat(CONCURRENCY_LIMIT, async (item) => {
-    const res = await got(`https://temtem.gamepedia.com/${item.name}`);
-    return {
-      item,
-      html: res.body
-    }
-  })));
+  log.info(`Embellishing ${ar.length} tems`);
+  const webpages = await fetchHTML('temtem', ar, 'name', true);
   const result = webpages.map(({item, html}) => {
     return {
       ...item,
@@ -25,7 +16,7 @@ export default async function embellishKnownTemTemSpecies (ar: any) {
       evolution: getEvolutionInfo(ar, item, html),
     };
   }).sort((a, b) => a.number - b.number);
-  await fs.writeFile(path.join(__dirname, '..', '..', 'data', 'knownTemTemSpecies.json'), JSON.stringify(result))
+  await write('knownTemTemSpecies', result);
 }
 
 function getTraits (html: string) {
@@ -94,7 +85,7 @@ function getEvolutionInfo (items: any[], item: any, html: string) {
               description: 'Tuwai can evolve into Tuvine by taking one to the Crystal Shrine, and selecting it. This requires that you beat the Cultist Hunt side-quest.'
             }
           }
-          console.warn('Gave up on evolution table for', item.name);
+          log.warn('Gave up on evolution table for', item.name);
           return;
         }
       }
@@ -130,7 +121,7 @@ function getEvolutionInfo (items: any[], item: any, html: string) {
     }
   } else {
     return {
-      evoles: false
+      evolves: false
     };
   }
 }

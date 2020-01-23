@@ -1,22 +1,13 @@
-import {promises as fs} from 'fs';
-import path from 'path';
 import cheerio from 'cheerio';
-import throat from 'throat';
-import got from 'got/dist/source';
-
-const CONCURRENCY_LIMIT = 10;
+import * as log from '../util/log';
+import write from '../util/write';
+import fetchHTML from '../util/fetchHTML';
 
 export default async function getTraits (traits: any) {
-  console.info('Starting');
+  log.info('Starting');
   try {
-    console.info('Running');
-    const webpages: any[] = await Promise.all(traits.map(throat(CONCURRENCY_LIMIT, async (item) => {
-      return {
-        item,
-        html: (await got((item as any).wikiUrl)).body
-      }
-    })));
-
+    log.info('Running');
+    const webpages = await fetchHTML('traits', traits, 'wikiUrl');
     const result = webpages.map(({item, html}) => {
       const $ = cheerio.load(html);
       return {
@@ -24,10 +15,9 @@ export default async function getTraits (traits: any) {
         description: $('#In-Game_Description').parent().next().text().trim().replace(/\\n/g, '')
       }
     }).sort((a, b) => a.name.localeCompare(b.name));
-
-    await fs.writeFile(path.join(__dirname, '..', '..', 'data', 'traits.json'), JSON.stringify(result))
+    await write('traits', result);
     return traits;
   } catch (e) {
-    console.error('Error', e.message);
+    log.error(e.message);
   }
 }

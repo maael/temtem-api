@@ -1,12 +1,12 @@
-import {promises as fs} from 'fs';
-import path from 'path';
 import got from 'got';
 import cheerio from 'cheerio';
+import * as log from '../util/log';
+import write from '../util/write';
 
 export default async function getTraits () {
-  console.info('Starting');
+  log.info('Starting');
   try {
-    console.info('Running');
+    log.info('Running');
     const result = await got('https://temtem.gamepedia.com/Category:Traits');
     const $ = cheerio.load(result.body);
     const page = $('#mw-pages');
@@ -16,9 +16,9 @@ export default async function getTraits () {
         wikiUrl: `https://temtem.gamepedia.com${$(el).attr('href')}`
       }
     }).toArray();
-    await fs.writeFile(path.join(__dirname, '..', '..', 'data', 'traits.json'), JSON.stringify(traits))
+    await write('traits', traits);
     return traits;
   } catch (e) {
-    console.error('Error', e.message)
+    log.error(e.message)
   }
 }
