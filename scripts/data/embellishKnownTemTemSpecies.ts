@@ -65,7 +65,37 @@ function getDetailSafely (str: string, key: string, i: number) {
 }
 
 function getTechniques (html: string) {
-  return [];
+  const $ = cheerio.load(html);
+  const techniques: any[] = [];
+  $('#mw-content-text table').each((_i, el) => {
+    const type = getTechniqueTableType($(el).find('caption').first().text().trim());
+    if (!type) return;
+    const typeTechniques = getTechniquesFromTable($, el, type);
+    techniques.push(...typeTechniques);
+  });
+  return techniques;
+}
+
+function getTechniqueTableType (caption: any) {
+  if (!caption.startsWith('List of Techniques')) return undefined;
+  if (caption.includes('Leveling')) {
+    return 'Levelling';
+  } else if (caption.includes('Courses')) {
+    return 'TechniqueCourses'
+  } else if (caption.includes('Breeding')) {
+    return 'Breeding';
+  } else {
+    return undefined;
+  }
+}
+
+function getTechniquesFromTable ($: any, table: any, type: ReturnType<typeof getTechniqueTableType>) {
+  return $(table).find('tbody>tr').map((i, el) => {
+    if (i === 0) return;
+    const tdIndex = type === 'Breeding' ? 0 : 1;
+    const techniqueName = $(el).find('td').eq(tdIndex).text().trim();
+    return !techniqueName || techniqueName === '?' ? undefined : { name: techniqueName, type };
+  }).toArray().filter(Boolean);
 }
 
 function getTrivia (html: string) {
