@@ -79,13 +79,17 @@ export default async function embellishTechniques(techniques: any) {
   }
 }
 
-function getDescription ($: any) {
+function getDescription($: any) {
   const description = $("#Description")
-          .parent()
-          .next()
-          .text()
-          .trim();
+    .parent()
+    .next()
+    .text()
+    .trim();
   return description === "Game Description[edit | edit source]"
-  ? $('#Game_Description').parent().next().text().trim()
-  : description;
+    ? $("#Game_Description")
+        .parent()
+        .next()
+        .text()
+        .trim()
+    : description;
 }
