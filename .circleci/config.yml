@@ -95,7 +95,7 @@ jobs:
           command: yarn test
       - run:
           name: Sync & Push
-          commnd: yarn sync:push
+          command: yarn sync:push
 
 workflows:
   version: 2
