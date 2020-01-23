@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react';
+import { useEffect, useState } from "react";
 import Head from "next/head";
 
 function Home() {
@@ -6,15 +6,15 @@ function Home() {
   useEffect(() => {
     (async () => {
       try {
-        const res = await fetch('/api/known-tem-tems');
+        const res = await fetch("/api/known-tem-tems");
         if (res.ok) {
           setTems(await res.json());
         }
       } catch (e) {
         console.error(e);
       }
-    })().catch((e) => console.error(e))
-  }, [])
+    })().catch(e => console.error(e));
+  }, []);
   return (
     <div
       style={{
@@ -41,18 +41,47 @@ function Home() {
           padding: 0;
         }
       `}</style>
-      <div style={{display: 'flex', flexDirection: 'column', flex: 1}}>
-      {tems.map(({name, number: num, wikiUrl, types, evolution}: any) => (
-        <div key={name} style={{flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around'}}>
-          <div>{num}</div>
-          <div><a href={wikiUrl}>{name}</a></div>
-          <div>{types.map((t) => <img key={t} height={30} src={`/images/icons/types/${t === 'Unknown' ? 'UnknownType' : t}.png`} />)}</div>
-          <div><img src={`/images/portraits/temtem/${name}.png`} /></div>
-          <div>
-            {evolution.evolves ? evolution.evolutionTree.map(({name: evoName, levels}) => levels ? `${evoName} after ${levels} levels` : evoName).join(' -> ') : 'X'}
+      <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
+        {tems.map(({ name, number: num, wikiUrl, types, evolution }: any) => (
+          <div
+            key={name}
+            style={{
+              flex: 1,
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+              justifyContent: "space-around"
+            }}
+          >
+            <div>{num}</div>
+            <div>
+              <a href={wikiUrl}>{name}</a>
+            </div>
+            <div>
+              {types.map(t => (
+                <img
+                  key={t}
+                  height={30}
+                  src={`/images/icons/types/${
+                    t === "Unknown" ? "UnknownType" : t
+                  }.png`}
+                />
+              ))}
+            </div>
+            <div>
+              <img src={`/images/portraits/temtem/${name}.png`} />
+            </div>
+            <div>
+              {evolution.evolves
+                ? evolution.evolutionTree
+                    .map(({ name: evoName, levels }) =>
+                      levels ? `${evoName} after ${levels} levels` : evoName
+                    )
+                    .join(" -> ")
+                : "X"}
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
       </div>
     </div>
   );
