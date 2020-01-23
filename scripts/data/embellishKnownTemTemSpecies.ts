@@ -69,7 +69,7 @@ function getTechniques (html: string) {
   const techniques: any[] = [];
   $('#mw-content-text table').each((_i, el) => {
     const type = getTechniqueTableType($(el).find('caption').first().text().trim());
-    if (!type) return;
+    if (!type) return undefined;
     const typeTechniques = getTechniquesFromTable($, el, type);
     techniques.push(...typeTechniques);
   });
@@ -91,7 +91,7 @@ function getTechniqueTableType (caption: any) {
 
 function getTechniquesFromTable ($: any, table: any, type: ReturnType<typeof getTechniqueTableType>) {
   return $(table).find('tbody>tr').map((i, el) => {
-    if (i === 0) return;
+    if (i === 0) return undefined;
     const tdIndex = type === 'Breeding' ? 0 : 1;
     const techniqueName = $(el).find('td').eq(tdIndex).text().trim();
     return !techniqueName || techniqueName === '?' ? undefined : { name: techniqueName, source: type };
