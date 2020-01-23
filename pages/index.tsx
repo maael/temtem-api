@@ -42,46 +42,48 @@ function Home() {
         }
       `}</style>
       <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
-        {tems.map(({ name, number: num, wikiUrl, types, evolution, icon }: any) => (
-          <div
-            key={name}
-            style={{
-              flex: 1,
-              display: "flex",
-              flexDirection: "row",
-              alignItems: "center",
-              justifyContent: "space-around"
-            }}
-          >
-            <div>{num}</div>
-            <div>
-              <a href={wikiUrl}>{name}</a>
+        {tems.map(
+          ({ name, number: num, wikiUrl, types, evolution, icon }: any) => (
+            <div
+              key={name}
+              style={{
+                flex: 1,
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "space-around"
+              }}
+            >
+              <div>{num}</div>
+              <div>
+                <a href={wikiUrl}>{name}</a>
+              </div>
+              <div>
+                {types.map(t => (
+                  <img
+                    key={t}
+                    height={50}
+                    src={`/images/icons/types/${
+                      t === "Unknown" ? "UnknownType" : t
+                    }.png`}
+                  />
+                ))}
+              </div>
+              <div>
+                <img src={icon} />
+              </div>
+              <div>
+                {evolution.evolves
+                  ? evolution.evolutionTree
+                      .map(({ name: evoName, levels }) =>
+                        levels ? `${evoName} after ${levels} levels` : evoName
+                      )
+                      .join(" -> ")
+                  : "X"}
+              </div>
             </div>
-            <div>
-              {types.map(t => (
-                <img
-                  key={t}
-                  height={50}
-                  src={`/images/icons/types/${
-                    t === "Unknown" ? "UnknownType" : t
-                  }.png`}
-                />
-              ))}
-            </div>
-            <div>
-              <img src={icon} />
-            </div>
-            <div>
-              {evolution.evolves
-                ? evolution.evolutionTree
-                    .map(({ name: evoName, levels }) =>
-                      levels ? `${evoName} after ${levels} levels` : evoName
-                    )
-                    .join(" -> ")
-                : "X"}
-            </div>
-          </div>
-        ))}
+          )
+        )}
       </div>
     </div>
   );
