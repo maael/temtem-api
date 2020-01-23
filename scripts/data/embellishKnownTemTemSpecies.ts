@@ -94,7 +94,7 @@ function getTechniquesFromTable ($: any, table: any, type: ReturnType<typeof get
     if (i === 0) return;
     const tdIndex = type === 'Breeding' ? 0 : 1;
     const techniqueName = $(el).find('td').eq(tdIndex).text().trim();
-    return !techniqueName || techniqueName === '?' ? undefined : { name: techniqueName, type };
+    return !techniqueName || techniqueName === '?' ? undefined : { name: techniqueName, source: type };
   }).toArray().filter(Boolean);
 }
 

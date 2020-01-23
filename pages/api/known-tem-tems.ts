@@ -11,7 +11,7 @@ export default (req, res) => {
   } else {
     const result = pruned
       .map(expandFields(traits, "traits", "name"))
-      .map(expandFields(techniques, "techniques", "name"));
+      .map(expandFields(techniques, "techniques", "name", "name"));
     res.json(result);
   }
 };
