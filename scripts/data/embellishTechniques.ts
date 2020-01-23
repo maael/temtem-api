@@ -56,11 +56,6 @@ export default async function embellishTechniques(techniques: any) {
       .map(({ item, html }) => {
         const $ = cheerio.load(html);
         const hold = getInfoBox($, "Hold");
-        const description = $("#Description")
-          .parent()
-          .next()
-          .text()
-          .trim();
         return {
           ...item,
           type: getInfoBox($, "Type"),
@@ -72,10 +67,7 @@ export default async function embellishTechniques(techniques: any) {
           syngery: getInfoBox($, "Synergy"),
           synergyEffect: getInfoBox($, "Synergy Effect"),
           targets: getInfoBox($, "Targets"),
-          description:
-            description === "Game Description[edit | edit source]"
-              ? ""
-              : description
+          description: getDescription($)
         };
       })
       .sort((a, b) => a.name.localeCompare(b.name));
@@ -85,4 +77,15 @@ export default async function embellishTechniques(techniques: any) {
   } catch (e) {
     log.error(e.message);
   }
+}
+
+function getDescription ($: any) {
+  const description = $("#Description")
+          .parent()
+          .next()
+          .text()
+          .trim();
+  return description === "Game Description[edit | edit source]"
+  ? $('#Game_Description').parent().next().text().trim()
+  : description;
 }
