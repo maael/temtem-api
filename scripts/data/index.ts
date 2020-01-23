@@ -1,3 +1,4 @@
+import getTypes from "./getTypes";
 import getWeaknessTable from "./getWeaknessTable";
 import getGear from "./getGear";
 import embellishGear from "./embellishGear";
@@ -11,6 +12,7 @@ import embellishKnownTemTemSpecies from "./embellishKnownTemTemSpecies";
 import * as log from "../util/log";
 
 (async () => {
+  await getTypes();
   await getConditions();
   await getWeaknessTable();
   const gear = await getGear();
