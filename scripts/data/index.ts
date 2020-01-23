@@ -1,14 +1,14 @@
-import getWeaknessTable from './getWeaknessTable';
-import getGear from './getGear';
-import embellishGear from './embellishGear';
-import getConditions from './getConditions';
-import getTechniques from './getTechniques';
-import embellishTechniques from './embellishTechniques';
-import getTraits from './getTraits';
-import embellishTraits from './embellishTraits';
-import getKnownTemTemSpecies from './getKnownTemTemSpecies';
-import embellishKnownTemTemSpecies from './embellishKnownTemTemSpecies';
-import * as log from '../util/log';
+import getWeaknessTable from "./getWeaknessTable";
+import getGear from "./getGear";
+import embellishGear from "./embellishGear";
+import getConditions from "./getConditions";
+import getTechniques from "./getTechniques";
+import embellishTechniques from "./embellishTechniques";
+import getTraits from "./getTraits";
+import embellishTraits from "./embellishTraits";
+import getKnownTemTemSpecies from "./getKnownTemTemSpecies";
+import embellishKnownTemTemSpecies from "./embellishKnownTemTemSpecies";
+import * as log from "../util/log";
 
 (async () => {
   await getConditions();
