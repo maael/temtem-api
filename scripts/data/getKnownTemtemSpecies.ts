@@ -3,7 +3,7 @@ import cheerio from "cheerio";
 import * as log from "../util/log";
 import write from "../util/write";
 
-export default async function getKnownTemTemSpecies() {
+export default async function getKnownTemtemSpecies() {
   log.info("Starting");
   try {
     log.info("Running");
@@ -16,7 +16,7 @@ export default async function getKnownTemTemSpecies() {
     const tems = temRows.map((_i, row) => getTemInfoFromRow($, row));
     log.info("Example received:", JSON.stringify(tems[0]));
     const ar = tems.toArray();
-    await write("knownTemTemSpecies", ar);
+    await write("knownTemtemSpecies", ar);
     return ar;
   } catch (e) {
     log.error(e.message);

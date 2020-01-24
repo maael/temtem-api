@@ -1,6 +1,6 @@
 import pruneData from "../../util/pruneData";
 import expandFields from "../../util/expandFields";
-const knownTemTems = require("../../data/knownTemTemSpecies.json");
+const knownTemtems = require("../../data/knownTemtemSpecies.json");
 const traits = require("../../data/traits.json");
 const techniques = require("../../data/techniques.json");
 const types = require("../../data/types.json");
@@ -8,7 +8,7 @@ const types = require("../../data/types.json");
 const identity = (a: any) => a;
 
 export default (req, res) => {
-  const pruned = pruneData(knownTemTems, req.query.names, req.query.fields);
+  const pruned = pruneData(knownTemtems, req.query.names, req.query.fields);
   if (!req.query.hasOwnProperty("expand") || req.query.expand === false) {
     res.json(pruned);
   } else {

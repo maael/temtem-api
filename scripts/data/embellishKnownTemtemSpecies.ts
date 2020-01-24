@@ -4,7 +4,7 @@ import * as log from "../util/log";
 import write from "../util/write";
 import fetchHTML from "../util/fetchHTML";
 
-export default async function embellishKnownTemTemSpecies(ar: any) {
+export default async function embellishKnownTemtemSpecies(ar: any) {
   log.info(`Embellishing ${ar.length} tems`);
   const webpages = await fetchHTML("temtem", ar, "name", true);
   const result = webpages
@@ -21,7 +21,7 @@ export default async function embellishKnownTemTemSpecies(ar: any) {
       };
     })
     .sort((a, b) => a.number - b.number);
-  await write("knownTemTemSpecies", result);
+  await write("knownTemtemSpecies", result);
 }
 
 function getWikiPortraitUrl(html: string) {

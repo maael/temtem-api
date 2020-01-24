@@ -6,7 +6,7 @@ function Home() {
   useEffect(() => {
     (async () => {
       try {
-        const res = await fetch("/api/known-tem-tems");
+        const res = await fetch("/api/known-temtems");
         if (res.ok) {
           setTems(await res.json());
         }
@@ -29,11 +29,11 @@ function Home() {
       }}
     >
       <Head>
-        <title>TemTem API</title>
+        <title>Temtem API</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <meta name="author" content="Matthew Elphick" />
-        <meta name="description" content="TemTem API" />
+        <meta name="description" content="Temtem API" />
       </Head>
       <style jsx global>{`
         body {

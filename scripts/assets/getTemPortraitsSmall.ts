@@ -2,7 +2,7 @@ import throat from "throat";
 import pipeFile from "../util/pipeFile";
 import * as log from "../util/log";
 
-const knownTems = require("../../data/knownTemTemSpecies.json");
+const knownTems = require("../../data/knownTemtemSpecies.json");
 
 const CONCURRENCY_LIMIT = 10;
 
