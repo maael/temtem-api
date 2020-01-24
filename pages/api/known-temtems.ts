@@ -1,3 +1,4 @@
+import cors from "../../util/cors";
 import pruneData from "../../util/pruneData";
 import expandFields from "../../util/expandFields";
 const knownTemtems = require("../../data/knownTemtemSpecies.json");
@@ -7,7 +8,7 @@ const types = require("../../data/types.json");
 
 const identity = (a: any) => a;
 
-export default (req, res) => {
+export default cors((req, res) => {
   const pruned = pruneData(knownTemtems, req.query.names, req.query.fields);
   if (!req.query.hasOwnProperty("expand") || req.query.expand === false) {
     res.json(pruned);
@@ -31,4 +32,4 @@ export default (req, res) => {
       );
     res.json(result);
   }
-};
+});

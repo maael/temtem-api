@@ -1,3 +1,5 @@
-export default (req, res) => {
+import cors from "../../util/cors";
+
+export default cors((req, res) => {
   res.json([]);
-};
+});

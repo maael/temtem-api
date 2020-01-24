@@ -1,5 +1,6 @@
+import cors from "../../util/cors";
 const types = require("../../data/types.json");
 
-export default (req, res) => {
+export default cors((req, res) => {
   res.json(types);
-};
+});

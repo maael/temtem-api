@@ -1,7 +1,8 @@
+import cors from "../../../util/cors";
 import { TYPES } from "../../../util/constants";
 const weaknesses = require("../../../data/weaknesses.json");
 
-export default (req, res) => {
+export default cors((req, res) => {
   const attacking = (req.query.attacking || "").trim();
   const defending = (req.query.defending || "").split(",").map(t => t.trim());
   if (
@@ -21,4 +22,4 @@ export default (req, res) => {
   } else {
     res.status(400).json({ error: "An unknown type is present" });
   }
-};
+});
