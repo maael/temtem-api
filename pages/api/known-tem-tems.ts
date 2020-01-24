@@ -14,9 +14,21 @@ export default (req, res) => {
   } else {
     const expand = (req.query.expand || "").split(",").map(t => t.trim());
     const result = pruned
-      .map(expand.includes('traits') ? expandFields(traits, "traits", "name") : identity)
-      .map(expand.includes('techniques') ? expandFields(techniques, "techniques", "name", "name") : identity)
-      .map(expand.includes('types') ? expandFields(types, "types", "name") : identity);
+      .map(
+        expand.includes("traits")
+          ? expandFields(traits, "traits", "name")
+          : identity
+      )
+      .map(
+        expand.includes("techniques")
+          ? expandFields(techniques, "techniques", "name", "name")
+          : identity
+      )
+      .map(
+        expand.includes("types")
+          ? expandFields(types, "types", "name")
+          : identity
+      );
     res.json(result);
   }
 };
