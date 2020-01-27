@@ -23,5 +23,5 @@ import write from "../util/write";
     dataStats
   };
   log.info("mostRecent", toWrite.mostRecent);
-  write("summary", toWrite);
+  await write("summary", toWrite);
 })().catch(log.error);

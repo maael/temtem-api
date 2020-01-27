@@ -37,7 +37,7 @@ function useNum(url: string) {
       } catch (e) {
         console.error(e);
       }
-    })();
+    })().catch((e) => console.error(e));
   }, []);
   return num;
 }
@@ -61,7 +61,7 @@ function useInfo() {
       } catch (e) {
         console.error(e);
       }
-    })();
+    })().catch((e) => console.error(e));
   }, []);
   return info;
 }
