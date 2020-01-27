@@ -34,7 +34,7 @@
     "class": "special",
     "damage": 67,
     "staminaCost": 17,
-    "hold": 1,
+    "hold": 0,
     "priority": "normal",
     "syngery": "None",
     "synergyEffect": "-",
@@ -188,7 +188,7 @@
     "class": "status",
     "damage": 0,
     "staminaCost": 16,
-    "hold": 0,
+    "hold": 1,
     "priority": "high",
     "syngery": "None",
     "synergyEffect": "-",
@@ -263,7 +263,7 @@
     "syngery": "None",
     "synergyEffect": "-",
     "targets": "?",
-    "description": "A shivery draft that deals light damage and inflicts Cold for 2 turns."
+    "description": "A shivery draft that deals light damage and inflicts Cold for 3 turns."
   },
   {
     "name": "Confiscate",
@@ -368,11 +368,11 @@
     "wikiUrl": "https://temtem.gamepedia.com/Data_Burst",
     "type": "Digital",
     "class": "?",
-    "damage": "",
-    "staminaCost": "",
+    "damage": 48,
+    "staminaCost": 6,
     "hold": "",
     "priority": "unknown",
-    "syngery": "",
+    "syngery": "None",
     "synergyEffect": "?",
     "targets": "?",
     "description": "To be Announced"
@@ -586,6 +586,20 @@
     "synergyEffect": "-",
     "targets": "Single Other Target",
     "description": "Unleash a mighty Fire storm against your opponents. Try to wear nothing flammable..."
+  },
+  {
+    "name": "Firewall",
+    "wikiUrl": "https://temtem.gamepedia.com/Firewall",
+    "type": "Digital",
+    "class": "?",
+    "damage": 0,
+    "staminaCost": 15,
+    "hold": 1,
+    "priority": "unknown",
+    "syngery": "None",
+    "synergyEffect": "?",
+    "targets": "?",
+    "description": "To be Announced"
   },
   {
     "name": "Flood",
@@ -1040,11 +1054,11 @@
     "wikiUrl": "https://temtem.gamepedia.com/Mechanical_Heat",
     "type": "Fire",
     "class": "?",
-    "damage": "",
-    "staminaCost": "",
+    "damage": 55,
+    "staminaCost": 7,
     "hold": "",
-    "priority": "unknown",
-    "syngery": "",
+    "priority": "normal",
+    "syngery": "None",
     "synergyEffect": "?",
     "targets": "?",
     "description": "To be Announced"
@@ -1246,6 +1260,20 @@
     "description": "Going for the ring out can be a dangerous Melee move in the smallest islands."
   },
   {
+    "name": "Overclock",
+    "wikiUrl": "https://temtem.gamepedia.com/Overclock",
+    "type": "Digital",
+    "class": "status",
+    "damage": 0,
+    "staminaCost": 10,
+    "hold": "",
+    "priority": "normal",
+    "syngery": "None",
+    "synergyEffect": "?",
+    "targets": "?",
+    "description": "To be Announced"
+  },
+  {
     "name": "Paralysing Poison",
     "wikiUrl": "https://temtem.gamepedia.com/Paralysing_Poison",
     "type": "Toxic",
@@ -1350,7 +1378,7 @@
     "class": "special",
     "damage": 1,
     "staminaCost": 19,
-    "hold": 2,
+    "hold": 1,
     "priority": "normal",
     "syngery": "Mental",
     "synergyEffect": 169,
@@ -1902,6 +1930,20 @@
     "synergyEffect": 10,
     "targets": "Single Team",
     "description": "\"Summon a rarely seen tidal wave that damages a whole team.\""
+  },
+  {
+    "name": "Turbo attack",
+    "wikiUrl": "https://temtem.gamepedia.com/Turbo_attack",
+    "type": "Digital",
+    "class": "special",
+    "damage": 140,
+    "staminaCost": 27,
+    "hold": 1,
+    "priority": "normal",
+    "syngery": "Fire",
+    "synergyEffect": "?",
+    "targets": "?",
+    "description": "To be Announced"
   },
   {
     "name": "Turbo Charge",

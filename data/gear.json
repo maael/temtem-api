@@ -26,6 +26,19 @@
     "gameDescription": "When entering the battlefield, removes stage changes."
   },
   {
+    "name": "Coat",
+    "wikiUrl": "https://temtem.gamepedia.com/Coat",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/b/bb/Decoy.png",
+    "icon": "/images/icons/gear/Decoy.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "Coat grants -20% damage when hit by Wind Techniques.",
+    "gameDescription": "\"Damage taken from Wind techniques is reduced by 20%.\""
+  },
+  {
     "name": "Coward's Cloak",
     "wikiUrl": "https://temtem.gamepedia.com/Coward%27s_Cloak",
     "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/e/e9/CowardsCloak.png",
@@ -114,7 +127,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Fire Chip grants +10% damage when using Fire Techniques.",
-    "gameDescription": "NEEDS DESCRIPTION"
+    "gameDescription": "Damage done by Fire Techniques is increased by 10%."
   },
   {
     "name": "Four-leaf Clover",
@@ -126,8 +139,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Four-leaf Clover Increases the catch-rate when capturing untamed Temtem.",
-    "gameDescription": "NEEDS DESCRIPTION"
+    "description": "Four-leaf Clover increases the catch-rate when capturing untamed Temtem.",
+    "gameDescription": "Increases the catch percentage when facing wild Temtem."
   },
   {
     "name": "Gifted DNA Strand",
@@ -166,7 +179,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Hand Fan +10% damage when using Wind Techniques.",
-    "gameDescription": "NEEDS DESCRIPTION"
+    "gameDescription": "Damage done by  Wind Techniques is increased by 10%."
   },
   {
     "name": "Hardening DNA Strand",
@@ -218,7 +231,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Lightning Rod grants -20% damage when hit by Electric Techniques.",
-    "gameDescription": "NEEDS DESCRIPTION"
+    "gameDescription": "Damage taken from  Electric Techniques is reduced by 20%."
   },
   {
     "name": "Lithe DNA Strand",
@@ -270,7 +283,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Pansunscreen Prevents the Burned Status condition.",
-    "gameDescription": "NEEDS DESCRIPTION"
+    "gameDescription": "Prevents the  Burned Status condition."
   },
   {
     "name": "Pillow",
@@ -283,7 +296,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Pillow Restores 10% max HP of an Asleep Temtem at turn start.",
-    "gameDescription": "NEEDS DESCRIPTION"
+    "gameDescription": "At the start of the turn, restores 10% of max hp of an  Asleep Temtem."
   },
   {
     "name": "Proteins",
@@ -296,7 +309,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Proteins Doubles the TV gain from defeating untamed Temtem.",
-    "gameDescription": "NEEDS DESCRIPTION"
+    "gameDescription": "Is obtained at the end of the Giant Banyan inside of the building. You must walk through the door. Inside are three item boxes: Proteins, a Green dye, and Lady Lottie's Diary."
   },
   {
     "name": "Rock Shield",
@@ -424,7 +437,7 @@
     "consumable": true,
     "limitedQuantity": false,
     "purchasable": true,
-    "buyPrice": 10,
+    "buyPrice": 1000,
     "description": "Vitality DNA Strand This single-use DNA strand ensures the egg inherits the parent's HP.",
     "gameDescription": "NEEDS DESCRIPTION"
   }
