@@ -43,6 +43,7 @@ function useNum(url: string) {
 }
 
 function IconFieldNote() {
+  // tslint:disable-next-line:strict-type-predicates
   const url = typeof window !== "undefined" ? window.location.origin : "";
   return (
     <p>

@@ -3,6 +3,7 @@ import { sendPageView } from "../../util/gaMeasurementProtocol";
 const summary = require("../../data/summary.json");
 
 export default async (req, res) => {
+  // tslint:disable-next-line:no-floating-promises
   sendPageView(req, "info");
   const [lastChecked, lastBuildStatus] = await Promise.all([
     getCiInfo(),

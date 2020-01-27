@@ -11,6 +11,7 @@ const types = require("../../data/types.json");
 const identity = (a: any) => a;
 
 export default cors((req, res) => {
+  // tslint:disable-next-line:no-floating-promises
   sendPageView(req, "known-temtems");
   const pruned = pruneData(knownTemtems, req.query.names, req.query.fields);
   if (!req.query.hasOwnProperty("expand") || req.query.expand === false) {
