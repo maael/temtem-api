@@ -14,12 +14,7 @@ export default () => (
         margin: 0;
       }
     `}</style>
-    <Jumbrotron>
-      <div style={{ textAlign: "center" }}>
-        <div style={{ fontWeight: "bold", marginBottom: 5 }}>Temtem API</div>
-        <div>JSON data from the official wiki, updated every hour</div>
-      </div>
-    </Jumbrotron>
+    <Header />
     <KnownTemtemsBlock />
     <TypesBlock />
     <ConditionsBlock />
@@ -45,6 +40,47 @@ function useNum(url: string) {
     })();
   }, []);
   return num;
+}
+
+function useInfo() {
+  const [info, setInfo] = useState({
+    lastUpdated: '???',
+    lastChecked: '???'
+  });
+  useEffect(() => {
+    (async () => {
+      try {
+        const res = await fetch('/api/info');
+        const data = await res.json();
+        setInfo({
+          lastChecked: formatDate(data.lastChecked),
+          lastUpdated: formatDate(data.lastUpdated)
+        })
+      } catch (e) {
+        console.error(e);
+      }
+    })();
+  }, []);
+  return info;
+}
+
+function formatDate (inp: string) {
+  const d = new Date(inp);
+  return `${d.toDateString()} @ ${d.toTimeString().split(' ')[0].split(':').slice(0, 2).join(':')}`
+}
+
+function Header () {
+  const info = useInfo();
+  return (
+    <Jumbrotron>
+      <div style={{ textAlign: "center" }}>
+        <div style={{ fontWeight: "bold", marginBottom: 5 }}>Temtem API</div>
+        <div style={{marginBottom: 5}}>JSON data from the official wiki, updated every hour</div>
+        <div style={{fontSize: 12}}>Last check: {info.lastChecked}</div>
+        <div style={{fontSize: 12}}>Last updated: {info.lastUpdated}</div>
+      </div>
+    </Jumbrotron>
+  );
 }
 
 function KnownTemtemsBlock() {
