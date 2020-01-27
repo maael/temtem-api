@@ -1,92 +1,71 @@
-import { useEffect, useState } from "react";
-import Head from "next/head";
+import Jumbrotron from '@maael/jumbotron-component';
+import ApiBlock from '@maael/api-block-component';
+import ApiHeader from '@maael/api-header-component';
+import ApiParamBlock from '@maael/api-param-block-component';
+import * as examples from '../util/examples';
 
-function Home() {
-  const [tems, setTems] = useState([]);
-  useEffect(() => {
-    (async () => {
-      try {
-        const res = await fetch("/api/known-temtems");
-        if (res.ok) {
-          setTems(await res.json());
-        }
-      } catch (e) {
-        console.error(e);
+export default () => (
+  <>
+    <style jsx global>{`
+      html, body {
+        padding: 0;
+        margin: 0;
       }
-    })().catch(e => console.error(e));
-  }, []);
-  return (
-    <div
-      style={{
-        width: "100vw",
-        minHeight: "100vh",
-        margin: 0,
-        padding: 0,
-        display: "flex",
-        flexDirection: "row",
-        alignItems: "center",
-        justifyContent: "center"
-      }}
-    >
-      <Head>
-        <title>Temtem API</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-        <meta name="author" content="Matthew Elphick" />
-        <meta name="description" content="Temtem API" />
-      </Head>
-      <style jsx global>{`
-        body {
-          margin: 0;
-          padding: 0;
-        }
-      `}</style>
-      <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
-        {tems.map(
-          ({ name, number: num, wikiUrl, types, evolution, icon }: any) => (
-            <div
-              key={name}
-              style={{
-                flex: 1,
-                display: "flex",
-                flexDirection: "row",
-                alignItems: "center",
-                justifyContent: "space-around"
-              }}
-            >
-              <div>{num}</div>
-              <div>
-                <a href={wikiUrl}>{name}</a>
-              </div>
-              <div>
-                {types.map(t => (
-                  <img
-                    key={t}
-                    height={50}
-                    src={`/images/icons/types/${
-                      t === "Unknown" ? "UnknownType" : t
-                    }.png`}
-                  />
-                ))}
-              </div>
-              <div>
-                <img src={icon} />
-              </div>
-              <div>
-                {evolution.evolves
-                  ? evolution.evolutionTree
-                      .map(({ name: evoName, levels }) =>
-                        levels ? `${evoName} after ${levels} levels` : evoName
-                      )
-                      .join(" -> ")
-                  : "X"}
-              </div>
-            </div>
-          )
-        )}
-      </div>
-    </div>
-  );
-}
-
-export default Home;
+    `}</style>
+    <Jumbrotron>
+      <div>Temtem API</div>
+    </Jumbrotron>
+    <ApiBlock example={examples.knownTemtemExample}>
+      <>
+        <ApiHeader path='/api/known-temtems' />
+        <ApiParamBlock params={[
+          {name: 'names', required: false, description: ''},
+          {name: 'fields', required: false, description: ''},
+          {name: 'expand', required: false, description: ''}
+        ]} />
+      </>
+    </ApiBlock>
+    <ApiBlock example={examples.typeExample}>
+      <ApiHeader path='/api/types' />
+    </ApiBlock>
+    <ApiBlock example={examples.conditionExample}>
+      <ApiHeader path='/api/conditions' />
+    </ApiBlock>
+    <ApiBlock example={examples.techniqueExample}>
+      <>
+        <ApiHeader path='/api/techniques' />
+        <ApiParamBlock params={[
+          {name: 'names', required: false, description: ''},
+          {name: 'fields', required: false, description: ''},
+        ]} />
+      </>
+    </ApiBlock>
+    <ApiBlock example={examples.traitExample}>
+      <>
+        <ApiHeader path='/api/traits' />
+        <ApiParamBlock params={[
+          {name: 'names', required: false, description: ''},
+          {name: 'fields', required: false, description: ''},
+        ]} />
+      </>
+    </ApiBlock>
+    <ApiBlock example={examples.gearExample}>
+      <ApiHeader path='/api/gear' />
+    </ApiBlock>
+    <ApiBlock example={examples.weaknessesExample}>
+      <ApiHeader path='/api/weaknesses' />
+    </ApiBlock>
+    <ApiBlock example={examples.weaknessCalculateExample}>
+      <>
+        <ApiHeader path='/api/weaknesses/calculate' />
+        <ApiParamBlock params={[
+          {name: 'attacking', required: false, description: ''},
+          {name: 'defending', required: false, description: ''},
+        ]} />
+      </>
+    </ApiBlock>
+    <ApiBlock example={examples.breedingExample}>
+      <ApiHeader path='/api/breeding' />
+    </ApiBlock>
+  </>
+);
