@@ -3,7 +3,7 @@ import ApiBlock from "@maael/api-block-component";
 import ApiHeader from "@maael/api-header-component";
 import ApiParamBlock from "@maael/api-param-block-component";
 import * as examples from "../util/examples";
-import Header from '../components/Header';
+import Header from "../components/Header";
 
 export default () => (
   <>
@@ -42,12 +42,12 @@ function useNum(url: string) {
   return num;
 }
 
-
-
-function IconFieldNote () {
-  const url = typeof window !== 'undefined' ? window.location.origin : '';
+function IconFieldNote() {
+  const url = typeof window !== "undefined" ? window.location.origin : "";
   return (
-    <p><b>Note:</b> The icon field is the path to an image under {url}.</p>
+    <p>
+      <b>Note:</b> The icon field is the path to an image under {url}.
+    </p>
   );
 }
 

@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import Header from '../components/Header';
+import Link from "next/link";
+import Header from "../components/Header";
 
-export default function ErrorPage () {
+export default function ErrorPage() {
   return (
     <>
       <style jsx global>{`
@@ -12,8 +12,16 @@ export default function ErrorPage () {
         }
       `}</style>
       <Header />
-      <div style={{textAlign: 'center', width: '100%', marginTop: 20, fontSize: 32, fontFamily: 'Arial, sans-serif'}}>
-        <Link href='/'>Back to the docs</Link>
+      <div
+        style={{
+          textAlign: "center",
+          width: "100%",
+          marginTop: 20,
+          fontSize: 32,
+          fontFamily: "Arial, sans-serif"
+        }}
+      >
+        <Link href="/">Back to the docs</Link>
       </div>
     </>
   );
