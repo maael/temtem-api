@@ -1,5 +1,6 @@
 module.exports = {
   env: {
-    ROOT: __dirname
+    ROOT: __dirname,
+    CIRCLECI: process.env.CIRCLECI_TOKEN
   }
 };

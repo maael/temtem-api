@@ -10,7 +10,7 @@ export default async (req, res) => {
 }
 
 async function getCiInfo () {
-  const TOKEN = '3b6d3971d41d29eddc376f700a3db8c90ac74dd5';
+  const TOKEN = process.env.CIRCLECI;
   const url = `https://circleci.com/api/v1.1/project/gh/maael/temtem-api?circle-token=${TOKEN}&limit=50&filter=completed`;
   const res = await got<any>(url, {responseType: 'json'});
   const updaterJobs = res.body.filter((item) => item.build_parameters.CIRCLE_JOB === 'updater');
