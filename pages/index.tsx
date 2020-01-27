@@ -44,19 +44,19 @@ function useNum(url: string) {
 
 function useInfo() {
   const [info, setInfo] = useState({
-    lastUpdated: '???',
-    lastChecked: '???',
-    lastBuildStatus: '???'
+    lastUpdated: "???",
+    lastChecked: "???",
+    lastBuildStatus: "???"
   });
   useEffect(() => {
     (async () => {
       try {
-        const res = await fetch('/api/info');
+        const res = await fetch("/api/info");
         const data = await res.json();
         setInfo({
-          lastChecked: data.lastChecked ? formatDate(data.lastChecked) : '???',
-          lastUpdated: data.lastUpdated ? formatDate(data.lastUpdated) : '???',
-          lastBuildStatus: data.lastBuildStatus ? data.lastBuildStatus : '???'
+          lastChecked: data.lastChecked ? formatDate(data.lastChecked) : "???",
+          lastUpdated: data.lastUpdated ? formatDate(data.lastUpdated) : "???",
+          lastBuildStatus: data.lastBuildStatus ? data.lastBuildStatus : "???"
         });
       } catch (e) {
         console.error(e);
@@ -66,21 +66,28 @@ function useInfo() {
   return info;
 }
 
-function formatDate (inp: string) {
+function formatDate(inp: string) {
   const d = new Date(inp);
-  return `${d.toDateString()} @ ${d.toTimeString().split(' ')[0].split(':').slice(0, 2).join(':')}`
+  return `${d.toDateString()} @ ${d
+    .toTimeString()
+    .split(" ")[0]
+    .split(":")
+    .slice(0, 2)
+    .join(":")}`;
 }
 
-function Header () {
+function Header() {
   const info = useInfo();
   return (
     <Jumbrotron>
       <div style={{ textAlign: "center" }}>
         <div style={{ fontWeight: "bold", marginBottom: 5 }}>Temtem API</div>
-        <div style={{marginBottom: 5}}>JSON data from the official wiki, updated every hour</div>
-        <div style={{fontSize: 12}}>Last check: {info.lastChecked}</div>
-        <div style={{fontSize: 12}}>Last updated: {info.lastUpdated}</div>
-        <div style={{fontSize: 12}}>Last build: {info.lastBuildStatus}</div>
+        <div style={{ marginBottom: 5 }}>
+          JSON data from the official wiki, updated every hour
+        </div>
+        <div style={{ fontSize: 12 }}>Last check: {info.lastChecked}</div>
+        <div style={{ fontSize: 12 }}>Last updated: {info.lastUpdated}</div>
+        <div style={{ fontSize: 12 }}>Last build: {info.lastBuildStatus}</div>
       </div>
     </Jumbrotron>
   );
