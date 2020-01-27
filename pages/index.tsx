@@ -53,9 +53,9 @@ function useInfo() {
         const res = await fetch('/api/info');
         const data = await res.json();
         setInfo({
-          lastChecked: formatDate(data.lastChecked),
-          lastUpdated: formatDate(data.lastUpdated)
-        })
+          lastChecked: data.lastChecked ? formatDate(data.lastChecked) : '???',
+          lastUpdated: data.lastUpdated ? formatDate(data.lastUpdated) : '???'
+        });
       } catch (e) {
         console.error(e);
       }
