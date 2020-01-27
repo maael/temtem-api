@@ -5,6 +5,7 @@ export default function expandFields(
   subKey?: string
 ) {
   return (object: any) => {
+    if (!object[objectKey]) return object;
     return {
       ...object,
       [objectKey]: object[objectKey].map(obItem => ({
