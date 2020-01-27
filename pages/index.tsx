@@ -54,7 +54,7 @@ function KnownTemtemsBlock () {
         <ApiHeader path='/api/known-temtems' style={{marginBottom: 10}} />
         <ApiParamBlock style={{margin: 10}} params={[
           {name: 'names', required: false, description: 'A comma separated list of the Temtem names that you want information about.'},
-          {name: 'fields', required: false, description: 'A comma separated list of fields you want returned'},
+          {name: 'fields', required: false, description: 'A comma separated list of fields you want returned.'},
           {name: 'expand', required: false, description: 'A comma separated list of fields you want extended.'}
         ]} />
         <p>Currently has information for {num} Temtems.</p>
