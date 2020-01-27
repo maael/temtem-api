@@ -95,7 +95,7 @@ jobs:
           command: yarn test
       - run:
           name: Sync & Push
-          command: yarn sync:push
+          command: git config user.email "matt.a.elphy@gmail.com" && git config user.name "Matthew Elphick" && yarn sync:push
 
 workflows:
   version: 2
@@ -136,7 +136,7 @@ workflows:
   updater:
     triggers:
       - schedule:
-          cron: '0 6,11,12,18,0 * * *'
+          cron: '0 0-23 * * *'
           filters:
             branches:
               only: master
