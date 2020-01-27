@@ -44,9 +44,9 @@ function useNum(url: string) {
 
 function useInfo() {
   const [info, setInfo] = useState({
-    lastUpdated: "???",
-    lastChecked: "???",
-    lastBuildStatus: "???"
+    lastUpdated: "🔄",
+    lastChecked: "🔄",
+    lastBuildStatus: "🔄"
   });
   useEffect(() => {
     (async () => {
@@ -54,9 +54,11 @@ function useInfo() {
         const res = await fetch("/api/info");
         const data = await res.json();
         setInfo({
-          lastChecked: data.lastChecked ? formatDate(data.lastChecked) : "???",
-          lastUpdated: data.lastUpdated ? formatDate(data.lastUpdated) : "???",
-          lastBuildStatus: data.lastBuildStatus ? data.lastBuildStatus : "???"
+          lastChecked: data.lastChecked ? formatDate(data.lastChecked) : "❔",
+          lastUpdated: data.lastUpdated ? formatDate(data.lastUpdated) : "❔",
+          lastBuildStatus: data.lastBuildStatus
+            ? formatStatus(data.lastBuildStatus)
+            : "❔"
         });
       } catch (e) {
         console.error(e);
@@ -74,6 +76,20 @@ function formatDate(inp: string) {
     .split(":")
     .slice(0, 2)
     .join(":")}`;
+}
+
+function formatStatus(inp: string) {
+  if (inp === "success") {
+    return "✅";
+  } else if (inp === "completed") {
+    return "✅";
+  } else if (inp === "running") {
+    return "🏃‍♂️";
+  } else if (inp === "failed") {
+    return "❌";
+  } else {
+    return "❔";
+  }
 }
 
 function Header() {

@@ -2,10 +2,14 @@ import got from "got";
 const summary = require("../../data/summary.json");
 
 export default async (req, res) => {
+  const [lastChecked, lastBuildStatus] = await Promise.all([
+    getCiInfo(),
+    getCiMostRecentStatus()
+  ]);
   res.json({
-    lastChecked: await getCiInfo(),
+    lastChecked,
     lastUpdated: summary.mostRecent,
-    lastBuildStatus: await getCiMostRecentStatus()
+    lastBuildStatus
   });
 };
 
