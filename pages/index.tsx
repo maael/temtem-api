@@ -45,7 +45,8 @@ function useNum(url: string) {
 function useInfo() {
   const [info, setInfo] = useState({
     lastUpdated: '???',
-    lastChecked: '???'
+    lastChecked: '???',
+    lastBuildStatus: '???'
   });
   useEffect(() => {
     (async () => {
@@ -54,7 +55,8 @@ function useInfo() {
         const data = await res.json();
         setInfo({
           lastChecked: data.lastChecked ? formatDate(data.lastChecked) : '???',
-          lastUpdated: data.lastUpdated ? formatDate(data.lastUpdated) : '???'
+          lastUpdated: data.lastUpdated ? formatDate(data.lastUpdated) : '???',
+          lastBuildStatus: data.lastBuildStatus ? data.lastBuildStatus : '???'
         });
       } catch (e) {
         console.error(e);
@@ -78,6 +80,7 @@ function Header () {
         <div style={{marginBottom: 5}}>JSON data from the official wiki, updated every hour</div>
         <div style={{fontSize: 12}}>Last check: {info.lastChecked}</div>
         <div style={{fontSize: 12}}>Last updated: {info.lastUpdated}</div>
+        <div style={{fontSize: 12}}>Last build: {info.lastBuildStatus}</div>
       </div>
     </Jumbrotron>
   );

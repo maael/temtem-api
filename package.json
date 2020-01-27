@@ -14,7 +14,8 @@
     "test": "echo 'Todo'",
     "data": "npx ts-node --project scripts/tsconfig.json scripts/data",
     "assets": "npx ts-node --project scripts/tsconfig.json scripts/assets",
-    "sync": "yarn data && yarn assets",
+    "summary": "npx ts-node --project scripts/tsconfig.json scripts/summary",
+    "sync": "yarn data && yarn assets && yarn summary",
     "push": "npx ts-node --project scripts/tsconfig.json scripts/updater",
     "sync:push": "yarn sync && yarn push"
   },
