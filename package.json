@@ -26,20 +26,20 @@
   },
   "dependencies": {
     "@maael/api-block-component": "^1.0.4",
-    "@maael/api-header-component": "^1.1.0",
+    "@maael/api-header-component": "^1.1.1",
     "@maael/api-param-block-component": "^1.1.1",
     "@maael/jumbotron-component": "^1.1.0",
     "micro-cors": "^0.1.1",
     "next": "^9.2.0",
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "got": "^10.2.2"
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.15",
     "@types/node": "^12.12.6",
     "@types/react": "^16.9.11",
     "cheerio": "^1.0.0-rc.3",
-    "got": "^10.2.2",
     "husky": "^3.0.9",
     "prettier": "^1.18.2",
     "pretty-quick": "^2.0.1",

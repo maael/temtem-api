@@ -3,7 +3,8 @@
   "version": 2,
   "build": {
     "env": {
-      "CIRCLECI_TOKEN": "@temtem-api-circleci-token"
+      "CIRCLECI_TOKEN": "@temtem-api-circleci-token",
+      "GA_TOKEN": "@temtem-api-ga"
     }
   }
 }

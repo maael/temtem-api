@@ -109,6 +109,13 @@ function Header() {
   );
 }
 
+function IconFieldNote () {
+  const url = typeof window !== 'undefined' ? window.location.origin : '';
+  return (
+    <p><b>Note:</b> The icon field is the path to an image under {url}.</p>
+  );
+}
+
 function KnownTemtemsBlock() {
   const num = useNum("/api/known-temtems");
   return (
@@ -142,6 +149,7 @@ function KnownTemtemsBlock() {
           fields, which then means they will return an array of data in the
           shape returned by the endpoints below instead of the shape shown here.
         </p>
+        <IconFieldNote />
       </>
     </ApiBlock>
   );
@@ -154,6 +162,7 @@ function TypesBlock() {
       <>
         <ApiHeader path="/api/types" style={{ marginBottom: 10 }} />
         <p>Currently has information for {num} types.</p>
+        <IconFieldNote />
       </>
     </ApiBlock>
   );
@@ -166,6 +175,7 @@ function ConditionsBlock() {
       <>
         <ApiHeader path="/api/conditions" style={{ marginBottom: 10 }} />
         <p>Currently has information for {num} conditions.</p>
+        <IconFieldNote />
       </>
     </ApiBlock>
   );
@@ -234,6 +244,7 @@ function GearBlock() {
       <>
         <ApiHeader path="/api/gear" style={{ marginBottom: 10 }} />
         <p>Currently has information for {num} pieces of gear.</p>
+        <IconFieldNote />
       </>
     </ApiBlock>
   );

@@ -1,7 +1,9 @@
 import got from "got";
+import {sendPageView} from '../../util/gaMeasurementProtocol';
 const summary = require("../../data/summary.json");
 
 export default async (req, res) => {
+  sendPageView(req, 'info');
   const [lastChecked, lastBuildStatus] = await Promise.all([
     getCiInfo(),
     getCiMostRecentStatus()

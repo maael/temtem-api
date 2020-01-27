@@ -1,8 +1,11 @@
 import cors from "../../../util/cors";
 import { TYPES } from "../../../util/constants";
+import {sendPageView} from '../../../util/gaMeasurementProtocol';
+
 const weaknesses = require("../../../data/weaknesses.json");
 
 export default cors((req, res) => {
+  sendPageView(req, 'weakness/calculate');
   const attacking = (req.query.attacking || "").trim();
   const defending = (req.query.defending || "").split(",").map(t => t.trim());
   if (
