@@ -1,5 +1,5 @@
 import path from "path";
-import getGit, {getStagedDataFiles} from '../util/git';
+import getGit, { getStagedDataFiles } from "../util/git";
 import * as log from "../util/log";
 
 (async () => {
