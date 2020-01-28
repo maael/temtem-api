@@ -1069,12 +1069,12 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@maael/api-block-component@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@maael/api-block-component/-/api-block-component-1.1.2.tgz#c91c9a752114716445bf6bec8d956849623cc28d"
-  integrity sha512-YSNBOptce46H2b+NQqQzcSmkazO6uSmssdkdS9Yzd3bn9+0rZKxr/ElZapLvl+PH0lkN8gPsCsjeD4IrPZmNDQ==
+"@maael/api-block-component@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@maael/api-block-component/-/api-block-component-1.1.3.tgz#32b5c4966d6c15f50f0982df6d479ef7ea83f7f9"
+  integrity sha512-/fT4cqv3BW1nxDQBkxCxjJOWVpGlCfAMbLYjV6zV8GYnKv7TrVr20p5AYZvsiWiWfe+DW+vesP+hZuTxXItgxQ==
   dependencies:
-    "@maael/use-breakpoints" "^1.0.1"
+    "@maael/use-breakpoints" "^1.0.2"
     highlight.js "^9.18.0"
     react "^16.12.0"
     react-syntax-highlighter "^12.2.1"
@@ -1103,10 +1103,10 @@
     react "^16.12.0"
     react-syntax-highlighter "^12.2.1"
 
-"@maael/use-breakpoints@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@maael/use-breakpoints/-/use-breakpoints-1.0.1.tgz#caa99ed9b8488b7637880d322fb1477bcd4bb628"
-  integrity sha512-oJdD5QEB/pXs4UoXLhznCJ7cbfjLsF9RaS2R6h/LPZuwTVJvFgw9MyBliB4QKoTf7LmlPzF+9zLoGNCFhhgUcQ==
+"@maael/use-breakpoints@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@maael/use-breakpoints/-/use-breakpoints-1.0.2.tgz#08015bfe4bece742a7112b3853ea5e0d60c4a882"
+  integrity sha512-jUsyOlAyRjo0WQS6SPwXnl9n1k0ta/36pTy4PSfJJydgf7a+0zX34cyGL057vQafr9bDzJn+BiZq20V61HOiRw==
   dependencies:
     react "^16.12.0"
 
