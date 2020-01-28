@@ -21,7 +21,9 @@ export default function ErrorPage() {
           fontFamily: "Arial, sans-serif"
         }}
       >
-        <Link href="/">Back to the docs</Link>
+        <Link href="/">
+          <a>Back to the docs</a>
+        </Link>
       </div>
     </>
   );
