@@ -9,7 +9,9 @@ let existing = {
 };
 try {
   existing = require("../../data/summary.json");
-} catch {}
+} catch {
+  // Do nothing
+}
 
 (async () => {
   log.info("Building summary");
