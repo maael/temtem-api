@@ -70,8 +70,8 @@ jobs:
       - run:
           name: Test
           command: yarn test
-      - run:
-          command: npx now --token $NOW_TOKEN
+      # - run:
+      #     command: npx now --token $NOW_TOKEN
 
   now-deploy:
     docker:
@@ -79,8 +79,8 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run:
-          command: npx now --token $NOW_TOKEN  --prod
+      # - run:
+      #     command: npx now --token $NOW_TOKEN  --prod
       - failure_notification
 
   updater:
