@@ -19,7 +19,10 @@ import * as log from "../util/log";
   } else {
     log.info("No safe data changes found, skipping");
   }
-})().catch(log.error);
+})().catch(e => {
+  log.error(e);
+  throw e;
+});
 
 function testChanged(p: string) {
   try {

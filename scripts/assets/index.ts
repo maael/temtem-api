@@ -11,4 +11,7 @@ import * as log from "../util/log";
   await getTemPortraitsLarge();
   await getConditionIcons();
   await getGearIcons();
-})().catch(log.error);
+})().catch(e => {
+  log.error(e);
+  throw e;
+});

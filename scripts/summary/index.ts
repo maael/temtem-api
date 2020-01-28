@@ -24,4 +24,7 @@ import write from "../util/write";
   };
   log.info("mostRecent", toWrite.mostRecent);
   await write("summary", toWrite);
-})().catch(log.error);
+})().catch(e => {
+  log.error(e);
+  throw e;
+});

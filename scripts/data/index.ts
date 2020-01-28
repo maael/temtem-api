@@ -23,4 +23,7 @@ import * as log from "../util/log";
   await embellishTraits(traits);
   const knownTemtem = await getKnownTemtemSpecies();
   await embellishKnownTemtemSpecies(knownTemtem);
-})().catch(log.error);
+})().catch(e => {
+  log.error(e);
+  throw e;
+});
