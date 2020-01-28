@@ -1069,12 +1069,12 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@maael/api-block-component@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@maael/api-block-component/-/api-block-component-1.1.3.tgz#32b5c4966d6c15f50f0982df6d479ef7ea83f7f9"
-  integrity sha512-/fT4cqv3BW1nxDQBkxCxjJOWVpGlCfAMbLYjV6zV8GYnKv7TrVr20p5AYZvsiWiWfe+DW+vesP+hZuTxXItgxQ==
+"@maael/api-block-component@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@maael/api-block-component/-/api-block-component-1.1.4.tgz#bf628b3ef4aef84f403b14a9b80dd331404b55a9"
+  integrity sha512-4gSA0Vj6ADiETUtTzdPq/9vduWNtKuBJdls9g6eRq7a3UqxhD21jWpUS/5VUSG8UVAs6KYJ2Sjb6YLAr8bUwVA==
   dependencies:
-    "@maael/use-breakpoints" "^1.0.2"
+    "@maael/use-breakpoints" "^1.0.3"
     highlight.js "^9.18.0"
     react "^16.12.0"
     react-syntax-highlighter "^12.2.1"
@@ -1103,10 +1103,18 @@
     react "^16.12.0"
     react-syntax-highlighter "^12.2.1"
 
-"@maael/use-breakpoints@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@maael/use-breakpoints/-/use-breakpoints-1.0.2.tgz#08015bfe4bece742a7112b3853ea5e0d60c4a882"
-  integrity sha512-jUsyOlAyRjo0WQS6SPwXnl9n1k0ta/36pTy4PSfJJydgf7a+0zX34cyGL057vQafr9bDzJn+BiZq20V61HOiRw==
+"@maael/use-breakpoints@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@maael/use-breakpoints/-/use-breakpoints-1.0.3.tgz#978fbbca791f64b0648e953a8ab873fb9cf2f6a9"
+  integrity sha512-boHdOJVEO1sEYnI96eHLbK1c69Lofp/cNgdc0dVnw/sm0Q1Dz7y5U+KSj6fWX5oXaulh32j5mBCRcawsKOYSbA==
+  dependencies:
+    "@maael/use-is-mounted" "^1.0.1"
+    react "^16.12.0"
+
+"@maael/use-is-mounted@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@maael/use-is-mounted/-/use-is-mounted-1.0.1.tgz#479046a82bca9ddfc8b63bd38dbfae0c9d2753cc"
+  integrity sha512-y31DcfYNedMSqrrD4PGMcCSQpFUr6nThy56x8eYqj2C5bk5shLye83GV3bItIJrgFD7JxyFHCkNA5D1CdJxY/A==
   dependencies:
     react "^16.12.0"
 
