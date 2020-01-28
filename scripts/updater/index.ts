@@ -1,15 +1,10 @@
 import path from "path";
-import simpleGit from "simple-git/promise";
+import getGit, {getStagedDataFiles} from '../util/git';
 import * as log from "../util/log";
 
 (async () => {
-  const git = simpleGit(path.join(__dirname, "..", "..", "data"));
-  const status = await git.status();
-  const dataFiles = status.files
-    .map(({ path: p }) => p)
-    .filter(p => p.startsWith("data"))
-    .map(p => path.resolve(path.join(__dirname, "..", "..", p)))
-    .filter(testChanged);
+  const git = getGit();
+  const dataFiles = await getStagedDataFiles(git);
   if (dataFiles.length) {
     log.info("Staging data files", dataFiles);
     await git.add(dataFiles);
@@ -23,15 +18,3 @@ import * as log from "../util/log";
   log.error(e);
   throw e;
 });
-
-function testChanged(p: string) {
-  try {
-    const data = require(p);
-    if (typeof data !== "object") throw new Error("Unexpected type");
-    log.info("Checked and adding", p);
-    return true;
-  } catch (e) {
-    log.warn("Checked and failed", p, `(${e.message})`);
-    return false;
-  }
-}

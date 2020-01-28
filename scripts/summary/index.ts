@@ -1,29 +1,42 @@
 import path from "path";
-import { promises as fs } from "fs";
 import * as log from "../util/log";
+import getGit, {getStagedDataFiles} from '../util/git';
 import write from "../util/write";
+
+let existing = {
+  mostRecent: '',
+  dataStats: []
+};
+try {
+  existing = require('../../data/summary.json');
+} catch {}
 
 (async () => {
   log.info("Building summary");
-  const dataRoot = path.join(__dirname, "..", "..", "data");
-  const dataFiles = (await fs.readdir(dataRoot)).filter(
-    n => ![".gitkeep", "summary.json"].includes(n)
-  );
-  const dataStats = await Promise.all(
-    dataFiles.map(async d => ({
-      mtime: (await fs.stat(path.join(dataRoot, d))).mtime,
-      name: d
-    }))
-  );
-  const toWrite = {
-    mostRecent: dataStats
-      .map(({ mtime }) => mtime)
-      .sort()
-      .pop(),
-    dataStats
-  };
-  log.info("mostRecent", toWrite.mostRecent);
-  await write("summary", toWrite);
+  const git = getGit();
+  const status = await getStagedDataFiles(git, ['summary.json']);
+  const getFilenames = status.map((f) => path.parse(f).name);
+  const updateTime = (new Date()).toISOString();
+  const updateMap = getFilenames.map((name) => ({
+    mtime: updateTime,
+    name
+  }));
+  const mergedDataStats = [...existing.dataStats, ...updateMap];
+  const newMostRecent = mergedDataStats
+    .map(({ mtime }) => mtime)
+    .sort()
+    .pop();
+  if (newMostRecent === existing.mostRecent) {
+    log.info('Skipping as mostRecent has not changed', existing.mostRecent);
+  } else {
+    const toWrite = {
+      ...existing,
+      mostRecent: newMostRecent,
+      dataStats: mergedDataStats.sort((a, b) => b.name.localeCompare(a.name))
+    }
+    log.info("mostRecent", toWrite.mostRecent);
+    await write("summary", toWrite);
+  }
 })().catch(e => {
   log.error(e);
   throw e;
