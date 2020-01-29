@@ -16,11 +16,40 @@ export default async function embellishKnownTemtemSpecies(ar: any) {
         trivia: getTrivia(html),
         evolution: getEvolutionInfo(ar, item, html),
         wikiPortraitUrlLarge: getWikiPortraitUrl(html),
+        locations: getLocations(html),
         icon: `/images/portraits/temtem/large/${item.name}.png`
       };
     })
     .sort((a, b) => a.number - b.number);
   await write("knownTemtemSpecies", result);
+}
+
+function getLocations(html: string) {
+  const $ = cheerio.load(html);
+  const locations = $("#Location")
+    .parent()
+    .next("table")
+    .find("tbody>tr")
+    .map((_i, row) => {
+      const cells = $(row).find("td");
+      const item = (cells
+        .map((_j, cell) => {
+          return $(cell)
+            .text()
+            .trim();
+        })
+        .toArray() as unknown) as string[];
+      if (item[0] === undefined || item.every(i => i === "?")) return undefined;
+      return {
+        location: item[0],
+        island: item[1],
+        frequency: (item[2] || "").replace(/\[\d+\]/, ""),
+        level: (item[3] || "").replace(/\[\d+\]/, "")
+      };
+    })
+    .toArray()
+    .filter(Boolean);
+  return locations;
 }
 
 function getWikiPortraitUrl(html: string) {

@@ -159,6 +159,26 @@ export const knownTemtemExample = [
     },
     wikiPortraitUrlLarge:
       "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/bc/Ganki.png/250px-Ganki.png?version=d18706728e9cc3706caea19e24063ac4",
+    locations: [
+      {
+        location: "Thalassian Cliffs",
+        island: "Deniz",
+        frequency: "Common",
+        level: "5-8"
+      },
+      {
+        location: "The Gifted Bridges",
+        island: "Deniz",
+        frequency: "Common",
+        level: ""
+      },
+      {
+        location: "Windward Fort",
+        island: "Deniz",
+        frequency: "Common",
+        level: "12-14"
+      }
+    ],
     icon: "/images/portraits/temtem/large/Ganki.png"
   }
 ];
