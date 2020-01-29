@@ -2197,16 +2197,28 @@
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/76/Fomu.png/250px-Fomu.png?version=f26a576737492e369d78b384d64cd6d8",
     "locations": [
       {
+        "location": "The Gifted Bridges",
+        "island": "Deniz",
+        "frequency": "Common (80%)",
+        "level": "12-15"
+      },
+      {
         "location": "Sillaro River",
         "island": "Deniz",
-        "frequency": "Common",
-        "level": "14-15"
+        "frequency": "50%-100%",
+        "level": "13-15"
       },
       {
         "location": "Windward Fort",
         "island": "Deniz",
-        "frequency": "Extremely Common",
-        "level": "11-12"
+        "frequency": "Rare/Uncommon (10%-50%)",
+        "level": "9-12"
+      },
+      {
+        "location": "Surfing in Windward Fort Basement",
+        "island": "Deniz",
+        "frequency": "100%",
+        "level": "11-14"
       },
       {
         "location": "Aguamarina Caves",
