@@ -1,3 +1,5 @@
+import getPatches from "./getPatches";
+import embellishPatches from "./embellishPatches";
 import getTypes from "./getTypes";
 import getWeaknessTable from "./getWeaknessTable";
 import getGear from "./getGear";
@@ -12,6 +14,8 @@ import embellishKnownTemtemSpecies from "./embellishKnownTemtemSpecies";
 import * as log from "../util/log";
 
 (async () => {
+  const patches = await getPatches();
+  await embellishPatches(patches);
   await getTypes();
   await getConditions();
   await getWeaknessTable();

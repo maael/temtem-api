@@ -215,7 +215,6 @@ function PatchesBlock() {
       <>
         <ApiHeader path="/api/patches" style={{ marginBottom: 10 }} />
         <p>Currently has information for {num} patches.</p>
-        <WipNote />
       </>
     </ApiBlock>
   );

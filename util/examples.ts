@@ -343,4 +343,24 @@ export const weaknessCalculateExample = {
 
 export const breedingExample = [];
 
-export const patchesExample = [];
+export const patchesExample = [
+  {
+    name: "Temtem 0.5.5",
+    version: "0.5.5",
+    url: "https://crema.gg/temtem/temtem-0-5-5/",
+    date: "25th January 2020",
+    patchInfo: {
+      fixes: [
+        "Fixed not receiving the surfboard in the Beached Narwhal quest after delivering a Toxolotl.",
+        "Fixed errors when changing the Squad order while they were being healed.",
+        "The Tamer Info screen can now be closed even when there’s an error and it doesn’t display information.",
+        "Fixed some interactions between moving platforms and opening eggs.",
+        "Fixed Name Reservation missing icon.",
+        "Fixed some dialogs."
+      ],
+      improvements: [],
+      features: [],
+      balance: ["Increased the price for all breeding gears."]
+    }
+  }
+];

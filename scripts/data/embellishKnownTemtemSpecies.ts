@@ -1,4 +1,3 @@
-import path from "path";
 import cheerio from "cheerio";
 import * as log from "../util/log";
 import write from "../util/write";
