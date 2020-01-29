@@ -59,20 +59,53 @@ export default function Header() {
         <div style={{ textAlign: "center" }}>
           <div style={{ fontWeight: "bold", marginBottom: 5 }}>Temtem API</div>
           <div style={{ marginBottom: 5 }}>
-            JSON data from the official wiki, updated every hour
+            JSON data from the official wiki, updated every 4 hours
           </div>
           <div style={{ fontSize: 12 }}>Checked: {info.lastChecked}</div>
           <div style={{ fontSize: 12 }}>Updated: {info.lastUpdated}</div>
           <div style={{ fontSize: 12 }}>Status: {info.lastBuildStatus}</div>
         </div>
       </Jumbrotron>
-      <div style={{fontFamily: 'Arial, sans-serif', fontSize: 14, textAlign: 'center', backgroundColor: 'rebeccapurple', color: '#FFFFFF'}}>
-        <a style={{fontSize: 12, color: '#B28CD9', textDecoration: 'none'}} href="https://github.com/maael/temtem-api">
+      <div
+        style={{
+          fontFamily: "Arial, sans-serif",
+          fontSize: 14,
+          textAlign: "center",
+          backgroundColor: "rebeccapurple",
+          color: "#FFFFFF"
+        }}
+      >
+        <a
+          style={{ fontSize: 12, color: "#B28CD9", textDecoration: "none" }}
+          href="https://github.com/maael/temtem-api"
+        >
           Feature request or issue? Open a ticket here.
         </a>
       </div>
-      <div style={{fontFamily: 'Arial, sans-serif', fontSize: 14, textAlign: 'center', padding: 10, backgroundColor: 'rebeccapurple', color: '#FFFFFF'}}>
-        Typescript types for responses are available from <code><a href="https://www.npmjs.com/package/@maael/temtem-types" style={{textDecoration: 'none', color: '#B28CD9', fontWeight: 'bold'}}>@maael/temtem-types</a></code>.
+      <div
+        style={{
+          fontFamily: "Arial, sans-serif",
+          fontSize: 14,
+          textAlign: "center",
+          padding: 10,
+          backgroundColor: "rebeccapurple",
+          color: "#FFFFFF"
+        }}
+      >
+        Typescript types for responses are available from{" "}
+        <code>
+          <a
+            href="https://www.npmjs.com/package/@maael/temtem-types"
+            style={{
+              textDecoration: "none",
+              color: "#B28CD9",
+              fontWeight: "bold"
+            }}
+          >
+            @maael/temtem-types
+          </a>
+        </code>
+        .
       </div>
     </>
   );
