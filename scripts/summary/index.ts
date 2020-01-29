@@ -5,7 +5,7 @@ import write from "../util/write";
 
 let existing = {
   mostRecent: "",
-  dataStats: []
+  dataStats: [] as any[]
 };
 try {
   existing = require("../../data/summary.json");
@@ -23,7 +23,7 @@ try {
     mtime: updateTime,
     name
   }));
-  const mergedDataStats = [...existing.dataStats, ...updateMap];
+  const mergedDataStats = [...existing.dataStats.filter(({name}) => !getFilenames.includes(name)), ...updateMap];
   const newMostRecent = mergedDataStats
     .map(({ mtime }) => mtime)
     .sort()
