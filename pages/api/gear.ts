@@ -3,8 +3,7 @@ import { sendPageView } from "../../util/gaMeasurementProtocol";
 
 const gear = require("../../data/gear.json");
 
-export default cors((req, res) => {
-  // tslint:disable-next-line:no-floating-promises
-  sendPageView(req, "gear");
+export default cors(async (req, res) => {
+  await sendPageView(req, "gear");
   res.json(gear);
 });

@@ -11,9 +11,8 @@ const types = require("../../../data/types.json");
 
 const identity = (a: any) => a;
 
-export default cors((req: NextApiRequest, res: NextApiResponse) => {
-  // tslint:disable-next-line:no-floating-promises
-  sendPageView(req, "temtem");
+export default cors(async (req: NextApiRequest, res: NextApiResponse) => {
+  await sendPageView(req, "temtem");
   const temtem = knownTemtems.find(
     ({ number: num }) => num === Number(req.query.number)
   );

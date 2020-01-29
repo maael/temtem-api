@@ -4,8 +4,7 @@ import { sendPageView } from "../../util/gaMeasurementProtocol";
 
 const traits = require("../../data/traits.json");
 
-export default cors((req, res) => {
-  // tslint:disable-next-line:no-floating-promises
-  sendPageView(req, "traits");
+export default cors(async (req, res) => {
+  await sendPageView(req, "traits");
   res.json(pruneData(traits, req.query.names, req.query.fields));
 });
