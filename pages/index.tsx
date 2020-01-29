@@ -22,6 +22,7 @@ export default () => (
     <TechniquesBlock />
     <TraitsBlock />
     <GearBlock />
+    <PatchesBlock />
     <WeaknessesBlock />
     <CalculateBlock />
     <BreedingBlock />
@@ -47,7 +48,19 @@ function IconFieldNote() {
   // tslint:disable-next-line:strict-type-predicates
   const url = typeof window !== "undefined" ? window.location.origin : "";
   return (
-    <ApiNoteBlock>{`The icon field is the path to an image under ${url}.`}</ApiNoteBlock>
+    <ApiNoteBlock style={{margin: 5}}>{`The icon field is the path to an image under ${url}.`}</ApiNoteBlock>
+  );
+}
+
+function WipNote() {
+  return (
+    <ApiNoteBlock style={{margin: 5}}>This is work in progress.</ApiNoteBlock>
+  );
+}
+
+function TypeNote({type} : {type: string}) {
+  return (
+    <ApiNoteBlock style={{margin: 5}} label="type"><code>{type}</code></ApiNoteBlock>
   );
 }
 
@@ -85,6 +98,7 @@ function KnownTemtemsBlock() {
           shape returned by the endpoints below instead of the shape shown here.
         </p>
         <IconFieldNote />
+        <TypeNote type="TemTemApiTem[]" />
       </>
     </ApiBlock>
   );
@@ -98,6 +112,7 @@ function TypesBlock() {
         <ApiHeader path="/api/types" style={{ marginBottom: 10 }} />
         <p>Currently has information for {num} types.</p>
         <IconFieldNote />
+        <TypeNote type="TemTemApiType[]" />
       </>
     </ApiBlock>
   );
@@ -111,6 +126,7 @@ function ConditionsBlock() {
         <ApiHeader path="/api/conditions" style={{ marginBottom: 10 }} />
         <p>Currently has information for {num} conditions.</p>
         <IconFieldNote />
+        <TypeNote type="TemTemApiCondition[]" />
       </>
     </ApiBlock>
   );
@@ -139,6 +155,7 @@ function TechniquesBlock() {
           ]}
         />
         <p>Currently has information for {num} techniques.</p>
+        <TypeNote type="TemTemApiTechnique[]" />
       </>
     </ApiBlock>
   );
@@ -167,6 +184,7 @@ function TraitsBlock() {
           ]}
         />
         <p>Currently has information for {num} traits.</p>
+        <TypeNote type="TemTemApiTrait[]" />
       </>
     </ApiBlock>
   );
@@ -180,6 +198,20 @@ function GearBlock() {
         <ApiHeader path="/api/gear" style={{ marginBottom: 10 }} />
         <p>Currently has information for {num} pieces of gear.</p>
         <IconFieldNote />
+        <TypeNote type="TemTemApiGear[]" />
+      </>
+    </ApiBlock>
+  );
+}
+
+function PatchesBlock () {
+  const num = useNum("/api/patches");
+  return (
+    <ApiBlock example={examples.patchesExample}>
+      <>
+        <ApiHeader path="/api/patches" style={{ marginBottom: 10 }} />
+        <p>Currently has information for {num} patches.</p>
+        <WipNote />
       </>
     </ApiBlock>
   );
@@ -188,7 +220,10 @@ function GearBlock() {
 function WeaknessesBlock() {
   return (
     <ApiBlock example={examples.weaknessesExample}>
-      <ApiHeader path="/api/weaknesses" style={{ marginBottom: 10 }} />
+      <>
+        <ApiHeader path="/api/weaknesses" style={{ marginBottom: 10 }} />
+        <TypeNote type="TemTemApiWeaknesses" />
+      </>
     </ApiBlock>
   );
 }
@@ -225,7 +260,10 @@ function CalculateBlock() {
 function BreedingBlock() {
   return (
     <ApiBlock example={examples.breedingExample}>
-      <ApiHeader path="/api/breeding" style={{ marginBottom: 10 }} />
+      <>
+        <ApiHeader path="/api/breeding" style={{ marginBottom: 10 }} />
+        <WipNote />
+      </>
     </ApiBlock>
   );
 }

@@ -342,3 +342,5 @@ export const weaknessCalculateExample = {
 };
 
 export const breedingExample = [];
+
+export const patchesExample = [];
