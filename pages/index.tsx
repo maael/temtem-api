@@ -48,19 +48,23 @@ function IconFieldNote() {
   // tslint:disable-next-line:strict-type-predicates
   const url = typeof window !== "undefined" ? window.location.origin : "";
   return (
-    <ApiNoteBlock style={{margin: 5}}>{`The icon field is the path to an image under ${url}.`}</ApiNoteBlock>
+    <ApiNoteBlock
+      style={{ margin: 5 }}
+    >{`The icon field is the path to an image under ${url}.`}</ApiNoteBlock>
   );
 }
 
 function WipNote() {
   return (
-    <ApiNoteBlock style={{margin: 5}}>This is work in progress.</ApiNoteBlock>
+    <ApiNoteBlock style={{ margin: 5 }}>This is work in progress.</ApiNoteBlock>
   );
 }
 
-function TypeNote({type} : {type: string}) {
+function TypeNote({ type }: { type: string }) {
   return (
-    <ApiNoteBlock style={{margin: 5}} label="type"><code>{type}</code></ApiNoteBlock>
+    <ApiNoteBlock style={{ margin: 5 }} label="type">
+      <code>{type}</code>
+    </ApiNoteBlock>
   );
 }
 
@@ -204,7 +208,7 @@ function GearBlock() {
   );
 }
 
-function PatchesBlock () {
+function PatchesBlock() {
   const num = useNum("/api/patches");
   return (
     <ApiBlock example={examples.patchesExample}>
