@@ -4,13 +4,8 @@ import { NextApiRequest } from "next";
 const BASE = "https://www.google-analytics.com/collect";
 
 export async function sendPageView(req: NextApiRequest, page: string) {
-  if (!process.env.GA_TOKEN) return;
-  const clientId = Object.entries(req.headers)
-    .reduce((s, [k, v]) => `${s}${k}${v}`, "")
-    .split("")
-    .map(v => v.codePointAt(0))
-    .filter(Boolean)
-    .join("");
+  const clientId =
+    req.connection.remoteAddress || req.headers["x-forwarded-for"];
   try {
     const qss = qs.encode({
       v: 1,
@@ -22,6 +17,10 @@ export async function sendPageView(req: NextApiRequest, page: string) {
       dt: page,
       ds: "server"
     });
+    if (!process.env.GA_TOKEN) {
+      console.info("ga:pageView", qss);
+      return;
+    }
     const res = await got.post(BASE, { body: qss });
     if (res.statusCode !== 200) {
       console.info("not ok", res.statusCode, res.body);
