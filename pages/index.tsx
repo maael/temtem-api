@@ -16,7 +16,8 @@ export default () => (
       }
     `}</style>
     <Header />
-    <KnownTemtemsBlock />
+    <TemtemsBlock />
+    <TemtemBlock />
     <TypesBlock />
     <ConditionsBlock />
     <TechniquesBlock />
@@ -68,12 +69,12 @@ function TypeNote({ type }: { type: string }) {
   );
 }
 
-function KnownTemtemsBlock() {
-  const num = useNum("/api/known-temtems");
+function TemtemsBlock() {
+  const num = useNum("/api/temtems");
   return (
     <ApiBlock example={examples.knownTemtemExample}>
       <>
-        <ApiHeader path="/api/known-temtems" style={{ marginBottom: 10 }} />
+        <ApiHeader path="/api/temtems" style={{ marginBottom: 10 }} />
         <ApiParamBlock
           style={{ margin: 10 }}
           params={[
@@ -103,6 +104,42 @@ function KnownTemtemsBlock() {
         </p>
         <IconFieldNote />
         <TypeNote type="TemTemApiTem[]" />
+      </>
+    </ApiBlock>
+  );
+}
+
+function TemtemBlock() {
+  return (
+    <ApiBlock example={examples.knownTemtemExample[0]}>
+      <>
+        <ApiHeader path="/api/temtems/[number]" style={{ marginBottom: 10 }} />
+        <ApiParamBlock
+          style={{ margin: 10 }}
+          params={[
+            {
+              name: "fields",
+              required: false,
+              description: "A comma separated list of fields you want returned."
+            },
+            {
+              name: "expand",
+              required: false,
+              description: "A comma separated list of fields you want extended."
+            }
+          ]}
+        />
+        <p>
+          Currently has information for a specific Temtem, specified by its
+          number.
+        </p>
+        <p>
+          You can extend the <b>trait</b>, <b>technique</b>, and <b>type</b>{" "}
+          fields, which then means they will return an array of data in the
+          shape returned by the endpoints below instead of the shape shown here.
+        </p>
+        <IconFieldNote />
+        <TypeNote type="TemTemApiTem" />
       </>
     </ApiBlock>
   );
