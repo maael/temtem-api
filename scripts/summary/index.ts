@@ -23,7 +23,10 @@ try {
     mtime: updateTime,
     name
   }));
-  const mergedDataStats = [...existing.dataStats.filter(({name}) => !getFilenames.includes(name)), ...updateMap];
+  const mergedDataStats = [
+    ...existing.dataStats.filter(({ name }) => !getFilenames.includes(name)),
+    ...updateMap
+  ];
   const newMostRecent = mergedDataStats
     .map(({ mtime }) => mtime)
     .sort()

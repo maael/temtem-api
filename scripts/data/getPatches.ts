@@ -56,17 +56,22 @@ const monthMap = {
   September: 9,
   October: 10,
   November: 11,
-  December: 11,
-}
+  December: 11
+};
 
-function getFormattedDate ($: any, el: any) {
+function getFormattedDate($: any, el: any) {
   const rawDate = $(el)
     .parent()
     .next(".entry-meta")
     .text()
     .trim();
-  const potentialDate = Object.entries(monthMap).reduce((acc, [month, num]) => {
-    return acc.replace(month, num);
-  }, rawDate).replace(/[a-z]/g, '').split(' ').reverse().join('-');
+  const potentialDate = Object.entries(monthMap)
+    .reduce((acc, [month, num]) => {
+      return acc.replace(month, num);
+    }, rawDate)
+    .replace(/[a-z]/g, "")
+    .split(" ")
+    .reverse()
+    .join("-");
   return potentialDate;
 }
