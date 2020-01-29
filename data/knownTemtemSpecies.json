@@ -713,13 +713,13 @@
       {
         "location": "Prasine Coast",
         "island": "Deniz",
-        "frequency": "Common",
+        "frequency": "Uncommon (40%)",
         "level": "2-5"
       },
       {
         "location": "Thalassian Cliffs",
         "island": "Deniz",
-        "frequency": "Common",
+        "frequency": "Rare (20%)",
         "level": "5-8"
       }
     ],
@@ -849,20 +849,26 @@
       {
         "location": "The Canopath",
         "island": "Omninesia",
-        "frequency": "20%",
-        "level": "17-19"
+        "frequency": "Rare (20%)",
+        "level": "16-19"
       },
       {
-        "location": "Citeroir Omninesia",
+        "location": "The Flywalk",
         "island": "Omninesia",
-        "frequency": "",
+        "frequency": "Uncommon (50%)",
         "level": "19-20"
+      },
+      {
+        "location": "The Hangroad",
+        "island": "Omninesia",
+        "frequency": "Rare (20%)",
+        "level": "15-20"
       },
       {
         "location": "The Glassyway",
         "island": "Omninesia",
-        "frequency": "",
-        "level": "1922"
+        "frequency": "Common (80%)",
+        "level": "19-22<"
       }
     ],
     "icon": "/images/portraits/temtem/large/Loali.png"
@@ -1156,13 +1162,13 @@
       {
         "location": "Thalassian Cliffs",
         "island": "Deniz",
-        "frequency": "90%",
+        "frequency": "Common (90%)",
         "level": "4-6"
       },
       {
         "location": "The Gifted Bridges",
         "island": "Deniz",
-        "frequency": "Common",
+        "frequency": "Common (60%-95%)",
         "level": "7-10"
       }
     ],
@@ -1291,34 +1297,28 @@
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/2c/Paharac.png/250px-Paharac.png?version=415ed2494c1c351d7d630c56ed01fc95",
     "locations": [
       {
-        "location": "Thalassian Cliffs",
-        "island": "Deniz",
-        "frequency": "Common",
-        "level": ""
-      },
-      {
         "location": "The Gifted Bridges",
         "island": "Deniz",
-        "frequency": "Common",
-        "level": ""
+        "frequency": "Very Rare (5%)",
+        "level": "8-10"
       },
       {
         "location": "The Canopath",
         "island": "Omninesia",
-        "frequency": "Uncommon",
-        "level": "17-18"
+        "frequency": "Rare (20%)",
+        "level": "16-18"
       },
       {
         "location": "The Flywalk",
         "island": "Omninesia",
-        "frequency": "",
-        "level": "20"
+        "frequency": "Rare (20%)",
+        "level": "18-21"
       },
       {
         "location": "The Glassyway",
         "island": "Omninesia",
-        "frequency": "",
-        "level": "20"
+        "frequency": "Rare (20%)",
+        "level": "20-22"
       }
     ],
     "icon": "/images/portraits/temtem/large/Paharac.png"
@@ -3013,7 +3013,13 @@
         "location": "Corrupted Badlands",
         "island": "Tucma",
         "frequency": "Uncommon",
-        "level": "24-26"
+        "level": "24-27"
+      },
+      {
+        "location": "Xolot Reservoir",
+        "island": "Tucma",
+        "frequency": "Uncommon (50%)",
+        "level": "27-29"
       }
     ],
     "icon": "/images/portraits/temtem/large/Orphyll.png"
@@ -6773,14 +6779,7 @@
       "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/50/Raignet.png/250px-Raignet.png?version=837b1000e7196d236cec536883478778",
-    "locations": [
-      {
-        "location": "?",
-        "island": "Cipanku",
-        "frequency": "?",
-        "level": "?"
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Raignet.png"
   },
   {
@@ -7068,14 +7067,7 @@
       "evolves": false
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fe/Zizare.png/250px-Zizare.png?version=9ac8f17d68eec44bf2c6dd677be0cfc8",
-    "locations": [
-      {
-        "location": "?",
-        "island": "Kisiwa",
-        "frequency": "?",
-        "level": "?"
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Zizare.png"
   },
   {
@@ -7968,19 +7960,19 @@
       {
         "location": "Corrupted Badlands",
         "island": "Tucma",
-        "frequency": "60%",
+        "frequency": "Uncommon (60%)",
         "level": "24-28"
       },
       {
         "location": "Kupeleleza",
         "island": "Tucma",
-        "frequency": "common/rare in some places",
+        "frequency": "Uncommon (35%-60%)",
         "level": "30-37"
       },
       {
-        "location": "Left of Kupeleleza small island",
+        "location": "Small island left of Kupeleleza",
         "island": "Tucma",
-        "frequency": "95%",
+        "frequency": "Common (95%)",
         "level": "35-37"
       }
     ],
@@ -8092,9 +8084,9 @@
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/87/Volarend.png/250px-Volarend.png?version=c897ec310683c1e52035cbb7fdfbba54",
     "locations": [
       {
-        "location": "Left of Kupeleleza small island",
+        "location": "Small island left of Kupeleleza main route",
         "island": "Tucma",
-        "frequency": "5%",
+        "frequency": "Very Rare (5%)",
         "level": "37-39"
       }
     ],
@@ -8626,7 +8618,7 @@
     "number": 124,
     "name": "Valiar",
     "types": [
-      "Mental"
+      "Unknown"
     ],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7b/Valiar.png/50px-Valiar.png",
     "wikiUrl": "https://temtem.gamepedia.com/Valiar",
@@ -8662,14 +8654,7 @@
       "evolves": false
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7b/Valiar.png/250px-Valiar.png?version=9e7a48bdc2aa27a198957eefd0b5c3f4",
-    "locations": [
-      {
-        "location": "?",
-        "island": "Arbury",
-        "frequency": "?",
-        "level": "?"
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Valiar.png"
   },
   {
