@@ -15,10 +15,11 @@ export default cors((req: NextApiRequest, res: NextApiResponse) => {
   // tslint:disable-next-line:no-floating-promises
   sendPageView(req, "temtem");
   const temtem = knownTemtems.find(
-    ({ number }) => number === Number(req.query.number)
+    ({ number: num }) => num === Number(req.query.number)
   );
   if (!temtem) {
-    return res.status(404).json({ error: "Missing temtem" });
+    res.status(404).json({ error: "Missing temtem" });
+    return;
   }
   const pruned = pruneData(
     [temtem],

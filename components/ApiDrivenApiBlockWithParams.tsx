@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import ApiBlock from "@maael/api-block-component";
 import ApiHeader from "@maael/api-header-component";
-import ApiParamBlock from "@maael/api-param-block-component";
-import { Props as ParamBlockProps } from "@maael/api-param-block-component";
+import ApiParamBlock, {
+  Props as ParamBlockProps
+} from "@maael/api-param-block-component";
 
 export interface Props {
   url: string;

@@ -39,6 +39,7 @@ function getLocations(html: string) {
             .trim();
         })
         .toArray() as unknown) as string[];
+      // tslint:disable-next-line:strict-type-predicates
       if (item[0] === undefined || item.every(i => i === "?")) return undefined;
       return {
         location: item[0],
