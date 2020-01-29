@@ -1069,10 +1069,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@maael/api-block-component@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@maael/api-block-component/-/api-block-component-1.2.0.tgz#f157c52f00a198e45f30b465fba99b6f2d2f451f"
-  integrity sha512-oxZKg1EqbYPTZSIQJKfl7tsuaIJh76xTORM00BuAaeREJOWioidttQvJ0kyrBaSew8TSvfEKisZ1Nxn8FBj68Q==
+"@maael/api-block-component@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@maael/api-block-component/-/api-block-component-1.2.1.tgz#738cf98be64ec6479c0911ecd911a31ea0d568a0"
+  integrity sha512-kbPIiGEqx6Bn1WBZgtA2AEjqpvkwzC/JmR6NWj0P8UXz1aFIVi+c3yqSCHBOmcgK5EUubvDEm0OdzQXe0ii7HQ==
   dependencies:
     "@maael/use-breakpoints" "^1.0.3"
     highlight.js "^9.18.0"
@@ -1086,6 +1086,13 @@
   dependencies:
     react "^16.12.0"
     react-syntax-highlighter "^12.2.1"
+
+"@maael/api-note-block-component@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@maael/api-note-block-component/-/api-note-block-component-1.0.0.tgz#218fff5f3f049433bede32c06f057e346b68ff20"
+  integrity sha512-U5sEQUnFh8zjyiFKLmEvXg4j3UhdXk8vcsHUulCxuNAvWUuu/34jmDDGNcyKluB5JGDNyrkCsMBvJU8OhZl6kA==
+  dependencies:
+    react "^16.12.0"
 
 "@maael/api-param-block-component@^1.1.1":
   version "1.1.1"

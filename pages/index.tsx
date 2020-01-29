@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import ApiBlock from "@maael/api-block-component";
 import ApiHeader from "@maael/api-header-component";
 import ApiParamBlock from "@maael/api-param-block-component";
+import ApiNoteBlock from "@maael/api-note-block-component";
 import * as examples from "../util/examples";
 import Header from "../components/Header";
 
@@ -46,9 +47,7 @@ function IconFieldNote() {
   // tslint:disable-next-line:strict-type-predicates
   const url = typeof window !== "undefined" ? window.location.origin : "";
   return (
-    <p>
-      <b>Note:</b> The icon field is the path to an image under {url}.
-    </p>
+    <ApiNoteBlock>{`The icon field is the path to an image under ${url}.`}</ApiNoteBlock>
   );
 }
 
