@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Head from "next/head";
 import ApiBlock from "@maael/api-block-component";
 import ApiHeader from "@maael/api-header-component";
 import ApiParamBlock from "@maael/api-param-block-component";
@@ -8,6 +9,14 @@ import Header from "../components/Header";
 
 export default () => (
   <>
+    <Head>
+      <title>Temtem API</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+      <meta name=" theme-color" content="#663399" />
+      <meta name="author" content="Matthew Elphick" />
+      <meta name="description" content="Temtem API" />
+    </Head>
     <style jsx global>{`
       html,
       body {
@@ -35,7 +44,9 @@ function useNum(url: string) {
   useEffect(() => {
     (async () => {
       try {
-        const res = await fetch(url);
+        const res = await fetch(
+          `${url}?${new URLSearchParams({ skipPV: "true" })}`
+        );
         setNum((await res.json()).length);
       } catch (e) {
         console.error(e);

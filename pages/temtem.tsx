@@ -31,7 +31,8 @@ function Home() {
       <Head>
         <title>Temtem API</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+        <meta name=" theme-color" content="#663399" />
         <meta name="author" content="Matthew Elphick" />
         <meta name="description" content="Temtem API" />
       </Head>

@@ -4,6 +4,9 @@ import { NextApiRequest } from "next";
 const BASE = "https://www.google-analytics.com/collect";
 
 export async function sendPageView(req: NextApiRequest, page: string) {
+  if (req.url !== "/api/info" && req.query.skipPV) {
+    return;
+  }
   const clientId =
     req.connection.remoteAddress || req.headers["x-forwarded-for"];
   try {
