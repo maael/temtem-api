@@ -8,7 +8,6 @@ export default async function embellishPatches(patches: any) {
   const webpages = await fetchHTML("patches", patches, "url");
   const result = webpages.map(embellishPatch);
   await write("patches", result);
-  process.exit(0);
 }
 
 function embellishPatch({ item, html }) {

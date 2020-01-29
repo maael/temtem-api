@@ -29,11 +29,7 @@ export default async function getPatches() {
                 .text()
                 .trim(),
           url: $(el).attr("href"),
-          date: $(el)
-            .parent()
-            .next(".entry-meta")
-            .text()
-            .trim()
+          date: getFormattedDate($, el)
         };
       })
       .toArray();
@@ -46,4 +42,31 @@ export default async function getPatches() {
   } catch (e) {
     log.error(e.message);
   }
+}
+
+const monthMap = {
+  January: 1,
+  February: 2,
+  March: 3,
+  April: 4,
+  May: 5,
+  June: 6,
+  July: 7,
+  August: 8,
+  September: 9,
+  October: 10,
+  November: 11,
+  December: 11,
+}
+
+function getFormattedDate ($: any, el: any) {
+  const rawDate = $(el)
+    .parent()
+    .next(".entry-meta")
+    .text()
+    .trim();
+  const potentialDate = Object.entries(monthMap).reduce((acc, [month, num]) => {
+    return acc.replace(month, num);
+  }, rawDate).replace(/[a-z]/g, '').split(' ').reverse().join('-');
+  return potentialDate;
 }

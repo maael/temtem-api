@@ -348,7 +348,7 @@ export const patchesExample = [
     name: "Temtem 0.5.5",
     version: "0.5.5",
     url: "https://crema.gg/temtem/temtem-0-5-5/",
-    date: "25th January 2020",
+    date: "2020-1-25",
     patchInfo: {
       fixes: [
         "Fixed not receiving the surfboard in the Beached Narwhal quest after delivering a Toxolotl.",
