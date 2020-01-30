@@ -1,5 +1,35 @@
 [
   {
+    "name": "Temtem 0.5.9",
+    "version": "0.5.9",
+    "url": "https://crema.gg/temtem/temtem-0-5-9/",
+    "date": "2020-1-30",
+    "patchInfo": {
+      "fixes": [
+        "Fixed not being able to use the Acid-Proof Surfboard while on co-op.",
+        "Fixed players getting stuck in battles after exiting the game mid battles and getting back after waiting at least two hours.",
+        "Fixed being able to filter eggs by their gender.",
+        "Fixed being stuck in battles after using the run hotkey.",
+        "Fixed some more cases where known Tems weren’t registered in the Tempedia.",
+        "Fixed the Tempedia not displaying the latest Tem if the last two were Unknown.",
+        "Fixed a zone in the Xolot Reservoir where players got kicked out by the server while surfing.",
+        "Fixed default dialog type speed being set to slow.",
+        "Fixed some more cases where players were incorrectly being reported as busy.",
+        "Fixed some pronoun tags not being replaced correctly.",
+        "Fixed some more dialogs."
+      ],
+      "improvements": [
+        "Retweaked experience and level up sounds.",
+        "Terminating a co-op party will now teleport you back to your original position before starting the co-op party. This helps solve some cases where a player could get stuck with items they have only got by doing a co-op party (stuck in an island without surf, stuck in a crystal place without skates…). This will only affect players whose savegame is being lowered by creating the co-op party."
+      ],
+      "features": [
+        "Added a new Setting for choosing the target framerate while the game is running on the background.",
+        "French and Japanese translations completed."
+      ],
+      "balance": []
+    }
+  },
+  {
     "name": "Temtem 0.5.8",
     "version": "0.5.8",
     "url": "https://crema.gg/temtem/temtem-0-5-8/",
@@ -211,25 +241,6 @@
         "Added a setting to disable the chat (although in the current early access release, it will be always disabled while we work on the final chat implementation).",
         "Added a profanity filter check to the character names."
       ],
-      "balance": []
-    }
-  },
-  {
-    "name": "Temtem 0.4.2",
-    "version": "0.4.2",
-    "url": "https://crema.gg/temtem/temtem-0-4-2/",
-    "date": "2020-1-19",
-    "patchInfo": {
-      "fixes": [
-        "Improved Steam authentication to solve errors on the Press Any Key screen.",
-        "Loading screens not waiting until the server OK response leading to users joining the game while disconnected from the server. This caused various problems with pickable objects, cinematics or NPCs.",
-        "Improved character creation load on the server to prevent lag issues while a huge amount of users was creating their characters.",
-        "Errors when naming a Temtem using an apostrophe."
-      ],
-      "improvements": [
-        "Improved the initial queue to load the game to better reflect the real waiting time."
-      ],
-      "features": [],
       "balance": []
     }
   }
