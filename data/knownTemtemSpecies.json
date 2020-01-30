@@ -17,7 +17,9 @@
       "spdef": 31,
       "total": 342
     },
-    "traits": [],
+    "traits": [
+      "Attack T"
+    ],
     "details": {
       "height": {
         "cm": 128,
@@ -110,7 +112,9 @@
       "spdef": 44,
       "total": 436
     },
-    "traits": [],
+    "traits": [
+      "Attack T"
+    ],
     "details": {
       "height": {
         "cm": 213,
@@ -5900,7 +5904,10 @@
       "spdef": "-",
       "total": "-"
     },
-    "traits": [],
+    "traits": [
+      "Dreaded Alarm",
+      "Rejuvenate"
+    ],
     "details": {
       "height": {
         "cm": 190,
@@ -5913,7 +5920,7 @@
     },
     "techniques": [
       {
-        "name": "Beta Burst",
+        "name": "Ninja Jutsu",
         "source": "Levelling"
       }
     ],
@@ -8502,7 +8509,8 @@
       }
     ],
     "trivia": [
-      "Shuine's name derives from the words shui (Water in Chinese) and pristine."
+      "Shuine's name derives from the words shui (Water in Chinese) and pristine.",
+      "Shuina is based on the feathered deities of Mesoamerican religions, with western dragon ears."
     ],
     "evolution": {
       "evolves": false
@@ -9728,8 +9736,8 @@
       "atk": 60,
       "def": 72,
       "spatk": 45,
-      "spdef": 72,
-      "total": 433
+      "spdef": 92,
+      "total": 453
     },
     "traits": [
       "Friendship",
