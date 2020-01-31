@@ -1,5 +1,30 @@
 [
   {
+    "name": "Temtem 0.5.10",
+    "version": "0.5.10",
+    "url": "https://crema.gg/temtem/temtem-0-5-10/",
+    "date": "2020-1-31",
+    "patchInfo": {
+      "fixes": [
+        "Fixed a squad desync after capturing and releasing a Temtem and capturing another one in the same battle.",
+        "Fixed some problems introduced in the previous patch with the co-op teleport feature.",
+        "Fixed being stuck after creating a co-op party just after the partner enters your server room.",
+        "Fixed fainter curse visual order to display the Temtem being knocked-out after the target Temtem.",
+        "Fixed some problems in battles after releasing a Temtem.",
+        "Fixed a UI scale issue in the Notification Center when deleting or accepting multiple notifications.",
+        "Fixed some errors inspecting other users after their characters were deleted."
+      ],
+      "improvements": [
+        "Four-leaf clover can now be acquired without using the Skates.",
+        "Every Temtem spawn zone from the Anak Volcano has been replicated in new zones in the exterior too in order to have access to them without using the Skates.",
+        "The basic Temcard and Balm can now be acquired from every Temporium and miniTemporium.",
+        "Improved movement sync on remote players."
+      ],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
     "name": "Temtem 0.5.9",
     "version": "0.5.9",
     "url": "https://crema.gg/temtem/temtem-0-5-9/",
@@ -192,55 +217,6 @@
         "Greatly improved the cosmetics data synchronization made by the server to avoid lag spikes when the rooms were full."
       ],
       "features": [],
-      "balance": []
-    }
-  },
-  {
-    "name": "Temtem 0.5 – Early Access",
-    "version": "0.5",
-    "url": "https://crema.gg/temtem/temtem-0-5-early-access/",
-    "date": "2020-1-21",
-    "patchInfo": {
-      "fixes": [
-        "👥 Regenerating tutorial showing an incorrect HP recovered amount.",
-        "👥 Incorrect EXP showed after using a growth enhancer.",
-        "Being able to use several items from the Backpack when having high lag.",
-        "Paparazzo’s quest marker not being displayed in the minimap.",
-        "Being able to pick items near a wall while sliding."
-      ],
-      "improvements": [
-        "Improved the starter pick animation.",
-        "Improved the character creation screen: removed scrolls, increased size of the body type sprites, tweaked how the style animations are displayed…",
-        "Added and changed some of the cosmetics available during the character creation to allow more diversity in options.",
-        "When two players send each other the same online request (co-op, add friend, trade…), the request will be automatically accepted.",
-        "Added a cooldown after finishing a conversation and before starting it again.",
-        "Improved navigation in the Squad interface when in co-op.",
-        "Added a visual cue in the HealTem machines to depict the Temessence Phial refilling.",
-        "Added a system message when a co-op party is created.",
-        "Emotes menu won’t cancel notifications anymore.",
-        "Added a gender filter in the Temdeck.",
-        "Added all current breeding gears to the breeding center store.",
-        "Time required for creating an egg has been reduced from 25 / 15 to 10 / 5.",
-        "During the animation when sending a Temtem, the proper Temcard will now be displayed."
-      ],
-      "features": [
-        "Added French, German, Spanish, Japanese, Korean and Simplified Chinese translations. Translations are a work in progress so it is expected to have some parts of the game missing localizations.",
-        "Added a “Redeem” option in the main menu in order to redeem promo codes (Kickstarter backers, future promotions, etc).",
-        "Added a search button on the friends screen. Works both using the exact name or the tamer ID.",
-        "Added hidden hotkeys for every possible action in battleTechnique One: LT+X / Key 1Technique Two: LT+Y / Key 2Technique Three: LT+A / Key 3Technique Four: LT+B / Key 4Swap: RT+X / Key 5Rest: RT+Y / Key 6Item: RT+A / Key 7Run: RT+B / Key 8",
-        "Technique One: LT+X / Key 1",
-        "Technique Two: LT+Y / Key 2",
-        "Technique Three: LT+A / Key 3",
-        "Technique Four: LT+B / Key 4",
-        "Swap: RT+X / Key 5",
-        "Rest: RT+Y / Key 6",
-        "Item: RT+A / Key 7",
-        "Run: RT+B / Key 8",
-        "Added a setting to tweak the dialogs’ speed.",
-        "Added a setting to disable the characters’ voices in dialogs.",
-        "Added a setting to disable the chat (although in the current early access release, it will be always disabled while we work on the final chat implementation).",
-        "Added a profanity filter check to the character names."
-      ],
       "balance": []
     }
   }
