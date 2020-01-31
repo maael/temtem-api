@@ -22,7 +22,7 @@ export default async function getTypes() {
     log.info("Running");
     const types = ordering.map(t => ({
       name: t,
-      icon: `/images/icon/types/${t}.png`
+      icon: `/images/icons/types/${t}.png`
     }));
     await write("types", types);
     return types;

@@ -1,7 +1,7 @@
 export const typeExample = [
   {
     name: "Neutral",
-    icon: "/images/icon/types/Neutral.png"
+    icon: "/images/icons/types/Neutral.png"
   }
 ];
 
