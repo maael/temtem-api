@@ -5,23 +5,27 @@ import fetchHTML from "../util/fetchHTML";
 
 export default async function embellishKnownTemtemSpecies(ar: any) {
   log.info(`Embellishing ${ar.length} tems`);
-  const webpages = await fetchHTML("temtem", ar, "name", true);
-  const result = webpages
-    .map(({ item, html }) => {
-      return {
-        ...item,
-        traits: getTraits(html),
-        details: getDetails(html),
-        techniques: getTechniques(html),
-        trivia: getTrivia(html),
-        evolution: getEvolutionInfo(ar, item, html),
-        wikiPortraitUrlLarge: getWikiPortraitUrl(html),
-        locations: getLocations(html),
-        icon: `/images/portraits/temtem/large/${item.name}.png`
-      };
-    })
-    .sort((a, b) => a.number - b.number);
-  await write("knownTemtemSpecies", result);
+  try {
+    const webpages = await fetchHTML("temtem", ar, "name", true);
+    const result = webpages
+      .map(({ item, html }) => {
+        return {
+          ...item,
+          traits: getTraits(html),
+          details: getDetails(html),
+          techniques: getTechniques(html),
+          trivia: getTrivia(html),
+          evolution: getEvolutionInfo(ar, item, html),
+          wikiPortraitUrlLarge: getWikiPortraitUrl(html),
+          locations: getLocations(html),
+          icon: `/images/portraits/temtem/large/${item.name}.png`
+        };
+      })
+      .sort((a, b) => a.number - b.number);
+    await write("knownTemtemSpecies", result);
+  } catch (e) {
+    log.error(e);
+  }
 }
 
 function getLocations(html: string) {

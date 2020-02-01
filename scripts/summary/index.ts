@@ -15,8 +15,8 @@ try {
 
 (async () => {
   log.info("Building summary");
-  const git = getGit();
-  const status = await getStagedDataFiles(git, ["summary.json"]);
+  const git = getGit("data");
+  const status = await getStagedDataFiles(git, ["summary.json"], "data");
   const getFilenames = status.map(f => path.parse(f).name);
   const updateTime = new Date().toISOString();
   const updateMap = getFilenames.map(name => ({

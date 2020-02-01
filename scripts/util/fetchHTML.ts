@@ -17,11 +17,19 @@ export default async function htmlFetcher<T = any>(
         const url = prefix
           ? `https://temtem.gamepedia.com/${item[itemKey]}`
           : item[itemKey];
-        const res = await got(url);
-        return {
-          item,
-          html: res.body
-        };
+        try {
+          const res = await got(url);
+          return {
+            item,
+            html: res.body
+          };
+        } catch (e) {
+          log.warn("error getting html for", url);
+          return {
+            item,
+            html: ""
+          };
+        }
       })
     )
   );

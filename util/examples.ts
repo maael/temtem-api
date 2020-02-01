@@ -24,7 +24,7 @@ export const techniqueExample = [
     staminaCost: 11,
     hold: 0,
     priority: "high",
-    syngery: "Wind",
+    synergy: "Wind",
     synergyEffect: 20,
     targets: "Single Other Target",
     description:

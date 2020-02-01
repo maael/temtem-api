@@ -13,11 +13,12 @@ export default async function getKnownTemtemSpecies() {
       return !!$(el).find("td").length;
     });
     log.info(`Found ${temRows.length} tems`);
-    const tems = temRows.map((_i, row) => getTemInfoFromRow($, row));
+    const tems = (temRows
+      .map((_i, row) => getTemInfoFromRow($, row))
+      .toArray() as any).filter(({ number: num }) => num !== 0);
     log.info("Example received:", JSON.stringify(tems[0]));
-    const ar = tems.toArray();
-    await write("knownTemtemSpecies", ar);
-    return ar;
+    await write("knownTemtemSpecies", tems);
+    return tems;
   } catch (e) {
     log.error(e.message);
   } finally {

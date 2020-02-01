@@ -56,6 +56,10 @@ export default async function embellishTechniques(techniques: any) {
       .map(({ item, html }) => {
         const $ = cheerio.load(html);
         const hold = getInfoBox($, "Hold");
+        const synergyEffect = getInfoBox($, "Synergy Effect").replace(
+          /^\-$/,
+          ""
+        );
         return {
           ...item,
           type: getInfoBox($, "Type"),
@@ -64,8 +68,13 @@ export default async function embellishTechniques(techniques: any) {
           staminaCost: getInfoBox($, "Stamina Cost"),
           hold: hold === "None" ? 0 : hold,
           priority: getPriority($),
-          syngery: getInfoBox($, "Synergy"),
-          synergyEffect: getInfoBox($, "Synergy Effect"),
+          synergy: getInfoBox($, "Synergy"),
+          synergyEffect:
+            typeof synergyEffect === "number"
+              ? `+${synergyEffect} damage`
+              : synergyEffect,
+          synergyEffectDamage:
+            typeof synergyEffect === "number" ? synergyEffect : 0,
           targets: getInfoBox($, "Targets"),
           description: getDescription($)
         };
