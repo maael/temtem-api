@@ -32,9 +32,10 @@ I used `node@10.17.0` to develop it.
 
 ## Config
 
-| Environment Variable | Description |
-| CIRCLECI | Token for [CircleCI](http://circleci.com/), used in the `/api/info` endpoint to get status of last build. |
-| GA_TOKEN | Token for google analytics, used on server to see API endpoint usage numbers. |
+| Environment Variable | Description                                                                                               |
+| -------------------- | --------------------------------------------------------------------------------------------------------- |
+| `CIRCLECI_TOKEN`     | Token for [CircleCI](http://circleci.com/), used in the `/api/info` endpoint to get status of last build. |
+| `GA_TOKEN`           | Token for google analytics, used on server to see API endpoint usage numbers.                             |
 
 ## Endpoints
 
