@@ -70,6 +70,11 @@ export default async function embellishTechniques(techniques: any) {
           hold: hold === "None" ? 0 : hold,
           priority: getPriority($),
           synergy: getInfoBox($, "Synergy"),
+          /**
+           * TODO: Fix this for when there are multiple synergy effects
+           * TODO: and cases like Water Cannon https://temtem.gamepedia.com/Water_Cannon
+           * TODO: where it thinks it is damage when it is a condition
+           */
           synergyEffect:
             typeof cleanedSynergyEffect === "number"
               ? `+${cleanedSynergyEffect} damage`
