@@ -2,6 +2,7 @@ import cheerio from "cheerio";
 import * as log from "../util/log";
 import write from "../util/write";
 import fetchHTML from "../util/fetchHTML";
+import { cleanToNumber } from "../util/cleaners";
 
 function getInfoBox($: any, str: string): string | number {
   const text = $(".infobox-row")
@@ -45,10 +46,6 @@ function getPriority($: any) {
   } else {
     return "unknown";
   }
-}
-
-function cleanToNumber(input: number | string): number {
-  return typeof input === "string" ? 0 : input;
 }
 
 export default async function embellishTechniques(techniques: any) {

@@ -2,6 +2,7 @@ import cheerio from "cheerio";
 import * as log from "../util/log";
 import write from "../util/write";
 import fetchHTML from "../util/fetchHTML";
+import { cleanToNumber } from "../util/cleaners";
 
 export default async function embellishKnownTemtemSpecies(ar: any) {
   log.info(`Embellishing ${ar.length} tems`);
@@ -109,22 +110,22 @@ function getDetails(html: string) {
     .text();
   return {
     height: {
-      cm: getDetailSafely(heightInfo, "cm", 0),
-      inches: getDetailSafely(heightInfo, '"', 1)
+      cm: cleanToNumber(getDetailSafely(heightInfo, "cm", 0)),
+      inches: cleanToNumber(getDetailSafely(heightInfo, '"', 1))
     },
     weight: {
-      kg: getDetailSafely(weightInfo, "kg", 0),
-      lbs: getDetailSafely(weightInfo, "lbs", 1)
+      kg: cleanToNumber(getDetailSafely(weightInfo, "kg", 0)),
+      lbs: cleanToNumber(getDetailSafely(weightInfo, "lbs", 1))
     }
   };
 }
 
 function getDetailSafely(str: string, key: string, i: number) {
-  if (!str.includes(key)) return "?";
+  if (!str.includes(key)) return 0;
   try {
     return parseInt(str.split("/")[i], 10);
   } catch {
-    return "?";
+    return 0;
   }
 }
 

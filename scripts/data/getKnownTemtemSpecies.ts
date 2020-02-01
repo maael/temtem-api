@@ -2,6 +2,7 @@ import got from "got";
 import cheerio from "cheerio";
 import * as log from "../util/log";
 import write from "../util/write";
+import { cleanToNumber } from "../util/cleaners";
 
 export default async function getKnownTemtemSpecies() {
   log.info("Starting");
@@ -45,14 +46,14 @@ function getTemInfoFromRow($, row) {
     portraitWikiUrl,
     wikiUrl: `https://temtem.gamepedia.com/${basicStats[1]}`,
     stats: {
-      hp: basicStats[3],
-      sta: basicStats[4],
-      spd: basicStats[5],
-      atk: basicStats[6],
-      def: basicStats[7],
-      spatk: basicStats[8],
-      spdef: basicStats[9],
-      total: basicStats[10]
+      hp: cleanToNumber(basicStats[3]),
+      sta: cleanToNumber(basicStats[4]),
+      spd: cleanToNumber(basicStats[5]),
+      atk: cleanToNumber(basicStats[6]),
+      def: cleanToNumber(basicStats[7]),
+      spatk: cleanToNumber(basicStats[8]),
+      spdef: cleanToNumber(basicStats[9]),
+      total: cleanToNumber(basicStats[10])
     }
   };
   return tem;
