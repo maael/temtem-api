@@ -4,6 +4,8 @@ import * as log from "../util/log";
 import write from "../util/write";
 import { cleanToNumber } from "../util/cleaners";
 
+const UNSAFE_NAME_REGEX = /\//;
+
 export default async function getKnownTemtemSpecies() {
   log.info("Starting");
   try {
@@ -14,9 +16,12 @@ export default async function getKnownTemtemSpecies() {
       return !!$(el).find("td").length;
     });
     log.info(`Found ${temRows.length} tems`);
+    // TODO: Probably check we only have 1 of each number
     const tems = (temRows
       .map((_i, row) => getTemInfoFromRow($, row))
-      .toArray() as any).filter(({ number: num }) => num !== 0);
+      .toArray() as any).filter(
+      ({ number: num, name }) => num !== 0 && !UNSAFE_NAME_REGEX.test(name)
+    );
     log.info("Example received:", JSON.stringify(tems[0]));
     await write("knownTemtemSpecies", tems);
     return tems;
