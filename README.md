@@ -67,6 +67,10 @@ After this a summary file is created, listing all produced data files, and when 
 
 The `./data` and `./public` directories are then pushed to GitHub, where [now](https://github.com/zeit/now) will deploy the changes.
 
+## Types
+
+Some extremely fuzzy and out of date types are available from [@maael/temtem-types](https://www.npmjs.com/package/@maael/temtem-types).
+
 ## Contributing
 
 - Make sure `prettier` has been run, it should do it as a pre-commit hook thanks to [husky](https://www.npmjs.com/package/husky) and [pretty-quick](https://www.npmjs.com/package/pretty-quick).
@@ -76,5 +80,7 @@ Also fair warning, I made this quick, so while it is Typescript, it's super loos
 ## Todo
 
 - [ ] Breeding API endpoint
-- [ ] Automatic typing with [quicktype](https://app.quicktype.io/) or something
+- [ ] Better typing throughout project
+  - Use proper cheerio types, though cheerio's `toArray` sucks as it isn't generic and just assumes it returns `CheerioElement`s.
+- [ ] Better typing for endpoints, maybe automatic typing with [quicktype](https://app.quicktype.io/) or something
   - [ ] Check fetched data to see type matches, if failed don't update, as this prevents the API from unexpectedly breaking
