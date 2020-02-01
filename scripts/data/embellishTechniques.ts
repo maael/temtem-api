@@ -3,7 +3,7 @@ import * as log from "../util/log";
 import write from "../util/write";
 import fetchHTML from "../util/fetchHTML";
 
-function getInfoBox($: any, str: string) {
+function getInfoBox($: any, str: string): string | number {
   const text = $(".infobox-row")
     .filter((_i, el) => {
       return !!$(el)
@@ -47,6 +47,10 @@ function getPriority($: any) {
   }
 }
 
+function cleanToNumber(input: number | string): number {
+  return typeof input === "string" ? 0 : input;
+}
+
 export default async function embellishTechniques(techniques: any) {
   log.info("Starting");
   try {
@@ -65,9 +69,9 @@ export default async function embellishTechniques(techniques: any) {
           ...item,
           type: getInfoBox($, "Type"),
           class: getInfoBox($, "Class"),
-          damage: getInfoBox($, "Damage"),
-          staminaCost: getInfoBox($, "Stamina Cost"),
-          hold: hold === "None" ? 0 : hold,
+          damage: cleanToNumber(getInfoBox($, "Damage")),
+          staminaCost: cleanToNumber(getInfoBox($, "Stamina Cost")),
+          hold: cleanToNumber(hold),
           priority: getPriority($),
           synergy: getInfoBox($, "Synergy"),
           /**
