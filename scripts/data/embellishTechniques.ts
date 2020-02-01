@@ -72,8 +72,11 @@ export default async function embellishTechniques(techniques: any) {
           synergy: getInfoBox($, "Synergy"),
           /**
            * TODO: Fix this for when there are multiple synergy effects
+           * TODO: like https://temtem.gamepedia.com/Tsunami (dmg + cold)
            * TODO: and cases like Water Cannon https://temtem.gamepedia.com/Water_Cannon
            * TODO: where it thinks it is damage when it is a condition
+           * TODO: and https://temtem.gamepedia.com/Turbo_Choreography
+           * TODO: where it is a team buff
            */
           synergyEffect:
             typeof cleanedSynergyEffect === "number"
