@@ -25,7 +25,8 @@ export const techniqueExample = [
     hold: 0,
     priority: "high",
     synergy: "Wind",
-    synergyEffect: 20,
+    synergyEffect: "+20 damage",
+    synergyEffectDamage: 20,
     targets: "Single Other Target",
     description:
       'A miniature version of the "star-rain" that is said to have spawned the Archipelago.'
