@@ -86,3 +86,6 @@ Also fair warning, I made this quick, so while it is Typescript, it's super loos
   - Use proper cheerio types, though cheerio's `toArray` sucks as it isn't generic and just assumes it returns `CheerioElement`s.
 - [ ] Better typing for endpoints, maybe automatic typing with [quicktype](https://app.quicktype.io/) or something
   - [ ] Check fetched data to see type matches, if failed don't update, as this prevents the API from unexpectedly breaking
+- [ ] Finish making data available under graphql endpoint. ([minimal example here](https://github.com/zeit/next.js/pull/7804/files))
+- [ ] Collect Quest data.
+- [ ] Fix [this TODO](./scripts/data/embellishTechniques.ts#L74-L81) for technique synergy data.
