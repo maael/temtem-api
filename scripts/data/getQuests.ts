@@ -37,11 +37,11 @@ export default async function getQuests() {
         if ($(el).find("td").length === 0) return;
         const td = ($(el)
           .find("td")
-          .map((_j, td) => ({
-            text: $(td)
+          .map((_j, tdEl) => ({
+            text: $(tdEl)
               .text()
               .trim(),
-            link: `https://temtem.gamepedia.com${$(td)
+            link: `https://temtem.gamepedia.com${$(tdEl)
               .find("a")
               .attr("href")}`
           }))
