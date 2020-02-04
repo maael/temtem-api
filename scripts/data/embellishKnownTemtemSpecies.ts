@@ -18,8 +18,10 @@ export default async function embellishKnownTemtemSpecies(ar: any) {
           trivia: getTrivia(html),
           evolution: getEvolutionInfo(ar, item, html),
           wikiPortraitUrlLarge: getWikiPortraitUrl(html),
+          lumaWikiPortraitUrlLarge: "",
           locations: getLocations(html),
-          icon: `/images/portraits/temtem/large/${item.name}.png`
+          icon: `/images/portraits/temtem/large/${item.name}.png`,
+          lumaIcon: `/images/portraits/temtem/luma/large/${item.name}.png`
         };
       })
       .sort((a, b) => a.number - b.number);

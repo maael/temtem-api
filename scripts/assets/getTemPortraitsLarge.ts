@@ -4,7 +4,7 @@ import * as log from "../util/log";
 
 const knownTems = require("../../data/knownTemtemSpecies.json");
 
-const CONCURRENCY_LIMIT = 10;
+const CONCURRENCY_LIMIT = 5;
 
 export default async function getTemPortraits() {
   log.info("Starting");
@@ -12,12 +12,22 @@ export default async function getTemPortraits() {
     knownTems.map(
       throat(CONCURRENCY_LIMIT, async item => {
         try {
-          await pipeFile(item.wikiPortraitUrlLarge, [
-            "images",
-            "portraits",
-            "temtem",
-            "large",
-            `${item.name}.png`
+          await Promise.all([
+            pipeFile(item.wikiPortraitUrlLarge, [
+              "images",
+              "portraits",
+              "temtem",
+              "large",
+              `${item.name}.png`
+            ]),
+            pipeFile(item.lumaWikiPortraitUrlLarge, [
+              "images",
+              "portraits",
+              "temtem",
+              "luma",
+              "large",
+              `${item.name}.png`
+            ])
           ]);
         } catch (e) {
           log.error(e.message);

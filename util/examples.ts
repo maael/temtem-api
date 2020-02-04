@@ -41,6 +41,23 @@ export const traitExample = [
   }
 ];
 
+export const questExample = [
+  {
+    name: "Flight of the Narwhal",
+    wikiUrl: "https://temtem.gamepedia.com/Flight_of_the_Narwhal",
+    type: "main"
+  },
+  {
+    name: "The Denizan Icarus",
+    wikiUrl: "https://temtem.gamepedia.com/The_Denizan_Icarus",
+    island: "Deniz",
+    location: "Thalassian Cliffs",
+    requirements: "Barnshe",
+    reward: "TC003: Turbo Choreography",
+    type: "side"
+  }
+];
+
 export const gearExample = [
   {
     name: "Aggressive DNA Strand",

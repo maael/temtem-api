@@ -1,3 +1,5 @@
+import getQuests from "./getQuests";
+import embellishQuests from "./embellishQuests";
 import getPatches from "./getPatches";
 import embellishPatches from "./embellishPatches";
 import getTypes from "./getTypes";
@@ -14,6 +16,8 @@ import embellishKnownTemtemSpecies from "./embellishKnownTemtemSpecies";
 import * as log from "../util/log";
 
 (async () => {
+  const quests = await getQuests();
+  await embellishQuests(quests);
   const patches = await getPatches();
   await embellishPatches(patches);
   await getTypes();

@@ -49,6 +49,7 @@ function getTemInfoFromRow($, row) {
     name: basicStats[1],
     types: [].concat(basicStats[2].replace(/(.)([A-Z])/g, "$1 $2").split(" ")),
     portraitWikiUrl,
+    lumaPortraitWikiUrl: "",
     wikiUrl: `https://temtem.gamepedia.com/${basicStats[1]}`,
     stats: {
       hp: cleanToNumber(basicStats[3]),
