@@ -56,7 +56,7 @@
     "synergy": "Earth",
     "synergyEffect": "+24 damage",
     "synergyEffectDamage": 24,
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "\"An ingenious application of hydraulic pressure for ballistic purposes\" (Sophia d'Arissola)."
   },
   {
@@ -101,8 +101,8 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
-    "description": "Give'em the old razzle dazzle! (Target avoids the next Technique or attack directed at it)."
+    "targets": "Single Target",
+    "description": "Give'em the old razzle dazzle! The target avoids the next technique directed at it."
   },
   {
     "name": "Bark Shield",
@@ -116,8 +116,8 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
-    "description": "The Omninenesian Temtem use pieces of Banyan bark as shields, increasing team DEF by 2 stages."
+    "targets": "Single Team",
+    "description": "Omninenesian Temtem use pieces of Banyan bark as shields, giving the whole team DEF +2."
   },
   {
     "name": "Beta Burst",
@@ -146,7 +146,7 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "Cold and furious like the mistral winds in the Thalassian Cliffs."
   },
   {
@@ -311,8 +311,8 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
-    "description": "Team equality! This equalises all team member's STA with the team average."
+    "targets": "Single Team",
+    "description": "Team equality! This equalizes all team members' STA with the team average."
   },
   {
     "name": "Crystal Bite",
@@ -387,7 +387,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Self",
-    "description": "Inspired by the ruins of the Amethyst Barrens, this crystal crust provides DEF +2 but SPD -1."
+    "description": "Inspired by the ruins of the Amethyst Barrens, this crystal crust provides protection at the expense of speed: DEF +2 but SPD -1."
   },
   {
     "name": "Data Burst",
@@ -596,7 +596,7 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "Also known as \"siren slap\". Hurts your pride more than anything else."
   },
   {
@@ -807,7 +807,7 @@
     "synergyEffect": "?",
     "synergyEffectDamage": 0,
     "targets": "Self",
-    "description": "Hey, I'm still warming up! Fire technique that increases attack in 2 stages."
+    "description": "Hey, I'm still warming up! ATK +2."
   },
   {
     "name": "Heavy Blow",
@@ -1197,7 +1197,7 @@
     "synergyEffect": "+3 damage",
     "synergyEffectDamage": 3,
     "targets": "Self",
-    "description": "\"The monks of Miyako developed this technique to eliminate all altered states on the temtem.\""
+    "description": "The monks of Miyako developed this technique to eliminate all altered states on the Temtem."
   },
   {
     "name": "Mud Shower",
@@ -1286,8 +1286,8 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
-    "description": "Through rigorous training, Temtem can become extra fast (SPD +1)."
+    "targets": "Single Other Target",
+    "description": "Through rigorous training, Temtem can become extra fast and gain SPD +1."
   },
   {
     "name": "Ninja Jutsu",
@@ -1421,8 +1421,8 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
-    "description": "Nature Temtem are unique in their use of Pan-sunlight to nourish themselves (Recover 50% STA)."
+    "targets": "Self",
+    "description": "Nature Temtem are unique in their use of Pan-sunlight to nourish themselves and recover 50% STA."
   },
   {
     "name": "Pollution",
@@ -1511,8 +1511,8 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
-    "description": "The red mist makes a Temtem brutal (ATK +2) but also careless (DEF -2)."
+    "targets": "Self",
+    "description": "The red mist makes a Temtem brutal but also careless, getting ATK +2 and DEF -2."
   },
   {
     "name": "Rampage",
@@ -1584,10 +1584,10 @@
     "hold": 1,
     "priority": "normal",
     "synergy": "Nature",
-    "synergyEffect": "Stamina cost reduced to 11, recovers 10% of the user's HP as well",
+    "synergyEffect": "STA -4 Recovers 10% of user's HP",
     "synergyEffectDamage": 0,
     "targets": "Single Team",
-    "description": "“\n\nAntisceptic and a couple of plasters. Targt recovers 25% HP.\n\n„\n\n\n\n\n~ In-Game Description"
+    "description": "Antiseptic and a couple of bandages. Target recovers 25% HP."
   },
   {
     "name": "Roar",
@@ -1632,7 +1632,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Other Target",
-    "description": "A Temtem may pay the ultimate price to heal the target of all Status conditions and give them DEF++ and SPDEF++."
+    "description": "Temtem may pay the ultimate price to heal the target of all Status conditions and give them DEF++ and SPDEF++."
   },
   {
     "name": "Sand Splatter",
@@ -1661,8 +1661,8 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
-    "description": "“\n\nAlmost any claw or nail can scratch the surface. Sometimes that's enough.\n\n„\n\n\n\n\n~ In- Game Description"
+    "targets": "Single Other Target",
+    "description": "Almost any claw or nail can scratch the surface. Sometimes that's enough."
   },
   {
     "name": "Sharp Leaf",
@@ -1827,7 +1827,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Other Target",
-    "description": "This Temtem's intimidating stare makes rivals feel more vulnerable (DEF -1)."
+    "description": "This Temtem's intimidating stare makes rivals feel more vulnerable, giving them DEF -1."
   },
   {
     "name": "Stone Ball",
@@ -2037,7 +2037,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "?",
-    "description": "Toxic-carrying spores that inoculate with Poison for 3 turns."
+    "description": "Toxin-carrying spores that inoculate with Poison for 3 turns."
   },
   {
     "name": "Training Course",
