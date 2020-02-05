@@ -43,18 +43,48 @@ export const traitExample = [
 
 export const questExample = [
   {
-    name: "Flight of the Narwhal",
-    wikiUrl: "https://temtem.gamepedia.com/Flight_of_the_Narwhal",
-    type: "main"
+    name: "Adventure in the Myrisles",
+    wikiUrl: "https://temtem.gamepedia.com/Adventure_in_the_Myrisles",
+    type: "main",
+    steps: [
+      "Find Rawiri at his Dojo in Mokupuni.",
+      "Go to Mokupuni and beat Dojo Master Rawiri",
+      "Investigate what is going on at the Giant Banyan.",
+      "Ambush the off-duty Belsotos at the pond.",
+      "Meet Carlos outside the Giant Banyan",
+      "Infiltrate the Giant Banyan.",
+      "Reach the Anak Volcano and stop the eruption.",
+      "Put an end to Dr. Hamijo's dastardly plan!",
+      "Time to return to Nanga and Check on Tihani...",
+      "Beat Tihani to prove your mettle.",
+      "Fly to Kisiwa on the Narwhal"
+    ],
+    rewards: [
+      "Lift key",
+      "Belsoto grunt uniform",
+      "Crystal skates",
+      "Anahir",
+      "Deendre"
+    ],
+    startingLocation: "Nanga",
+    startingNPC: "",
+    requirements: ""
   },
   {
-    name: "The Denizan Icarus",
-    wikiUrl: "https://temtem.gamepedia.com/The_Denizan_Icarus",
-    island: "Deniz",
-    location: "Thalassian Cliffs",
-    requirements: "Barnshe",
-    reward: "TC003: Turbo Choreography",
-    type: "side"
+    name: "Paparazzo",
+    wikiUrl: "https://temtem.gamepedia.com/Paparazzo",
+    island: "Omninesia",
+    location: "Mokupuni",
+    requirements: "Lift key",
+    reward: "Pillow",
+    type: "side",
+    steps: [
+      "Locate the famous Visesia in Citerior Omninesia",
+      "Talk to Paparazzo."
+    ],
+    rewards: ["Pillow"],
+    startingLocation: "Mokupuni or The Flywalk",
+    startingNPC: "Paparazzo or Visesia"
   }
 ];
 

@@ -2,61 +2,176 @@
   {
     "name": "First Steps",
     "wikiUrl": "https://temtem.gamepedia.com/First_Steps",
-    "type": "main"
+    "type": "main",
+    "steps": [
+      "The day has come! Start your journey!",
+      "Join Professor Konstantinos at his lab.",
+      "Choose your first Temtem!",
+      "Meet the Professor outside...",
+      "Catch up with Max and the Professor in Briçal de Mar.",
+      "Aquire a map from Luisouvenirs to explore further.",
+      "Further your training at Sophia's Dojo in Arissola.",
+      "Look for Sophia beyond the Gifted Bridges.",
+      "Find the key and free Sophia from Windward Fort.",
+      "Release Sophia!",
+      "Get back to the Arissola Dojo and challenge Sophia!",
+      "Talk to Adia Turay in the airship terminal.",
+      "Find Tihani in Turquesa",
+      "All aboard! Sail in the Narwhal!"
+    ],
+    "rewards": ["Tuwai", "Temessence phial", "Surfboard", "Airship ticket"],
+    "startingLocation": "Zadar",
+    "startingNPC": "",
+    "requirements": "None"
   },
   {
     "name": "Flight of the Narwhal",
     "wikiUrl": "https://temtem.gamepedia.com/Flight_of_the_Narwhal",
-    "type": "main"
+    "type": "main",
+    "steps": [
+      "Talk to captain Adia Turay.",
+      "Ask navigator Kemal for those charts.",
+      "Get Kemal a cup of coffee.",
+      "Bring that hot caffeine to Kemal.",
+      "Make sure the captain gets the charts.",
+      "Let Adia Turay know when you're ready to land."
+    ],
+    "rewards": [],
+    "startingLocation": "Narwhal",
+    "startingNPC": "",
+    "requirements": ""
   },
   {
     "name": "Adventure in the Myrisles",
     "wikiUrl": "https://temtem.gamepedia.com/Adventure_in_the_Myrisles",
-    "type": "main"
+    "type": "main",
+    "steps": [
+      "Find Rawiri at his Dojo in Mokupuni.",
+      "Go to Mokupuni and beat Dojo Master Rawiri",
+      "Investigate what is going on at the Giant Banyan.",
+      "Ambush the off-duty Belsotos at the pond.",
+      "Meet Carlos outside the Giant Banyan",
+      "Infiltrate the Giant Banyan.",
+      "Reach the Anak Volcano and stop the eruption.",
+      "Put an end to Dr. Hamijo's dastardly plan!",
+      "Time to return to Nanga and Check on Tihani...",
+      "Beat Tihani to prove your mettle.",
+      "Fly to Kisiwa on the Narwhal"
+    ],
+    "rewards": [
+      "Lift key",
+      "Belsoto grunt uniform",
+      "Crystal skates",
+      "Anahir",
+      "Deendre"
+    ],
+    "startingLocation": "Nanga",
+    "startingNPC": "",
+    "requirements": ""
   },
   {
     "name": "A trip to Kisiwa",
     "wikiUrl": "https://temtem.gamepedia.com/A_trip_to_Kisiwa",
-    "type": "main"
+    "type": "main",
+    "steps": [
+      "Go to the main deck and see what's going on...",
+      "Shiver me Timbers! Defeat the Belsoto pirates!"
+    ],
+    "rewards": [],
+    "startingLocation": "Narwhal",
+    "startingNPC": "",
+    "requirements": ""
   },
   {
     "name": "Shipwrecked in Tucma!",
     "wikiUrl": "https://temtem.gamepedia.com/Shipwrecked_in_Tucma!",
-    "type": "main"
+    "type": "main",
+    "steps": [],
+    "rewards": [
+      "Tucma Mask",
+      "Incognito Hood",
+      "Anonymous Cloak",
+      "Rock-hopping hook"
+    ],
+    "startingLocation": "Narwhal",
+    "startingNPC": "",
+    "requirements": ""
   },
   {
     "name": "First Aid",
     "wikiUrl": "https://temtem.gamepedia.com/First_Aid",
-    "type": "main"
+    "type": "main",
+    "steps": [
+      "Buy some medicines from the Temporium.",
+      "Bring the medicines to Octlana"
+    ],
+    "rewards": ["TC016: Held Anger"],
+    "startingLocation": "Quetzal",
+    "startingNPC": "",
+    "requirements": ""
   },
   {
     "name": "Free Matthew",
     "wikiUrl": "https://temtem.gamepedia.com/Free_Matthew",
-    "type": "main"
+    "type": "main",
+    "steps": [
+      "Talk to Matthew in the prison.",
+      "Convince the Captain to liberate Matthew.",
+      "Scout the isle in the northern Xolot Reservoir",
+      "Find the renegade guards in an island in Xolot.",
+      "Bring the icon back to the Captain of Quetzal"
+    ],
+    "rewards": [],
+    "startingLocation": "Quetzal",
+    "startingNPC": "",
+    "requirements": ""
   },
   {
     "name": "Beached Narwhal",
     "wikiUrl": "https://temtem.gamepedia.com/Beached_Narwhal",
-    "type": "main"
+    "type": "main",
+    "steps": ["Tip:"],
+    "rewards": ["Shuine's Horn"],
+    "startingLocation": "Quetzal",
+    "startingNPC": "",
+    "requirements": ""
   },
   {
     "name": "Water Supply",
     "wikiUrl": "https://temtem.gamepedia.com/Water_Supply",
-    "type": "main"
+    "type": "main",
+    "steps": [
+      "Go underground and get water samples.",
+      "Get the second water sample",
+      "Bring the water samples to Sugey"
+    ],
+    "rewards": ["TC009: Antitoxins", "Acid-proof Surfboard"],
+    "startingLocation": "Xolot Reservoir",
+    "startingNPC": "",
+    "requirements": ""
   },
   {
     "name": "Find Kemal",
     "wikiUrl": "https://temtem.gamepedia.com/Find_Kemal",
-    "type": "main"
+    "type": "main",
+    "steps": ["Tip:"],
+    "rewards": ["Squeezer", "Energy Drink", "TC008: Awful Song", "Rock Shield"],
+    "startingLocation": "Quetzal",
+    "startingNPC": "",
+    "requirements": ""
   },
   {
     "name": "A Better Future",
     "wikiUrl": "https://temtem.gamepedia.com/A_Better_Future",
     "island": "Deniz",
     "location": "Sillaro River",
-    "requirements": "Varies",
+    "requirements": "See sub-quests",
     "reward": "???",
-    "type": "side"
+    "type": "side",
+    "steps": ["Ask Pasiphaë at her Turquesa townhouse."],
+    "rewards": [],
+    "startingLocation": "Sillaro River",
+    "startingNPC": "Minos or Pasiphaë."
   },
   {
     "name": "Archipelago Colors",
@@ -65,16 +180,36 @@
     "location": "The Flywalk",
     "requirements": "Access to Tucma and Kisiwa",
     "reward": "2100",
-    "type": "side"
+    "type": "side",
+    "steps": [
+      "Get some purple paint from Luisouvenirs ((Brical de Mar))",
+      "Briçal de Mar",
+      "Bring the purple paint to Ara in The Hangroad.",
+      "The Flywalk",
+      "Find Alizarin red dye for Ara.",
+      "Mines of Mictlan",
+      "Acquire lapiz blue pigment in Kisiwa."
+    ],
+    "rewards": [],
+    "startingLocation": "The Flywalk",
+    "startingNPC": "Ara"
   },
   {
     "name": "Better Future: Ariadne",
     "wikiUrl": "https://temtem.gamepedia.com/Better_Future:_Ariadne",
     "island": "Deniz",
     "location": "Sillaro River",
-    "requirements": "Access to Kisiwa",
+    "requirements": "Lift key  Access to Kisiwa",
     "reward": "1000",
-    "type": "side"
+    "type": "side",
+    "steps": [
+      "Find Ara in Omninesia and ask her to mentor Ariadne.",
+      "Return to Pasiphae's house and tell Ariadne.",
+      "Visit Ara and Ariadne in Kisiwa."
+    ],
+    "rewards": [],
+    "startingLocation": "Sillaro River",
+    "startingNPC": "Ariadne"
   },
   {
     "name": "Better Future: Asterion",
@@ -83,7 +218,15 @@
     "location": "Sillaro River",
     "requirements": "Completion of First Steps",
     "reward": "700 or Pewki with 3 Perfect Single Values",
-    "type": "side"
+    "type": "side",
+    "steps": [
+      "Ask Adia Turay to help Asterion",
+      "Return to Pasiphae's and tell Asterion the good news.",
+      "Check on Asterion aboard the Narwhal."
+    ],
+    "rewards": ["Pewki"],
+    "startingLocation": "Sillaro River",
+    "startingNPC": "Asterion"
   },
   {
     "name": "Better Future: Phaedra",
@@ -92,7 +235,11 @@
     "location": "Sillaro River",
     "requirements": "Access to Arbury",
     "reward": "???",
-    "type": "side"
+    "type": "side",
+    "steps": [],
+    "rewards": [],
+    "startingLocation": "Sillaro River",
+    "startingNPC": "Phaedra"
   },
   {
     "name": "Blueprint Delivery",
@@ -101,16 +248,27 @@
     "location": "Nanga",
     "requirements": "Access to Tucma",
     "reward": "Lightning Rod",
-    "type": "side"
+    "type": "side",
+    "steps": [
+      "Deliver the blueprints to the Guildmaster of Tucma.",
+      "Get back to Myrisles Engineering."
+    ],
+    "rewards": ["Lightning Rod", "Snare"],
+    "startingLocation": "Nanga",
+    "startingNPC": "Oliana"
   },
   {
     "name": "Endaira's Quest",
     "wikiUrl": "https://temtem.gamepedia.com/Endaira%27s_Quest",
     "island": "Deniz",
     "location": "Arissola",
-    "requirements": "Access to Kisiwa",
+    "requirements": "???",
     "reward": "???",
-    "type": "side"
+    "type": "side",
+    "steps": ["Find a coveted copy of \"Endaira's Quest\" in Kisiwa."],
+    "rewards": [],
+    "startingLocation": "Arissola",
+    "startingNPC": "Laura"
   },
   {
     "name": "Gone with the Sillaro",
@@ -119,25 +277,43 @@
     "location": "Zadar",
     "requirements": "Surfboard",
     "reward": "TC001: Tsunami",
-    "type": "side"
+    "type": "side",
+    "steps": [
+      "Find the missing pendant...",
+      "Return the pendant to Clara in Zadar"
+    ],
+    "rewards": ["TC001: Tsunami"],
+    "startingLocation": "Zadar",
+    "startingNPC": "Clara"
   },
   {
     "name": "Lottie's Diary",
     "wikiUrl": "https://temtem.gamepedia.com/Lottie%27s_Diary",
     "island": "Omninesia",
     "location": "Giant Banyan",
-    "requirements": "Beating Anak Volcano",
+    "requirements": "???",
     "reward": "???",
-    "type": "side"
+    "type": "side",
+    "steps": ["See what Carlos can learn from Lady Lottie's diary..."],
+    "rewards": [],
+    "startingLocation": "Giant Banyan",
+    "startingNPC": ""
   },
   {
     "name": "Message in a Bottle",
     "wikiUrl": "https://temtem.gamepedia.com/Message_in_a_Bottle",
     "island": "Deniz",
     "location": "Sillaro River",
-    "requirements": "Surfboard",
+    "requirements": "",
     "reward": "Revive",
-    "type": "side"
+    "type": "side",
+    "steps": [
+      "Consult with Carlos in Briçal.",
+      "Alternatively, if you have already advanced in the main story, talk to Old Despina in Turquesa."
+    ],
+    "rewards": ["Revive"],
+    "startingLocation": "Sillaro River",
+    "startingNPC": ""
   },
   {
     "name": "Missing Kids",
@@ -146,7 +322,14 @@
     "location": "Briçal de Mar",
     "requirements": "Surfboard",
     "reward": "Decoy",
-    "type": "side"
+    "type": "side",
+    "steps": [
+      "Find Yusuf and Roger in Briçal.",
+      "Report back to the Headmistress of the Accademia."
+    ],
+    "rewards": ["Decoy"],
+    "startingLocation": "Briçal de Mar",
+    "startingNPC": "Headmistress Dolça"
   },
   {
     "name": "No Head For Numbers",
@@ -155,7 +338,16 @@
     "location": "Briçal de Mar",
     "requirements": "None",
     "reward": "Vital Apple x2",
-    "type": "side"
+    "type": "side",
+    "steps": [
+      "Talk to the Accademia receptionist.",
+      "Talk to Josep at the Accademia.",
+      "Look for the slip of paper in the Briçal Temporium.",
+      "Return the slip of paper to Josep at the Accademia."
+    ],
+    "rewards": ["Vital Apple"],
+    "startingLocation": "Briçal de Mar",
+    "startingNPC": "Josep"
   },
   {
     "name": "Paparazzo",
@@ -164,7 +356,14 @@
     "location": "Mokupuni",
     "requirements": "Lift key",
     "reward": "Pillow",
-    "type": "side"
+    "type": "side",
+    "steps": [
+      "Locate the famous Visesia in Citerior Omninesia",
+      "Talk to Paparazzo."
+    ],
+    "rewards": ["Pillow"],
+    "startingLocation": "Mokupuni or The Flywalk",
+    "startingNPC": "Paparazzo or Visesia"
   },
   {
     "name": "Perilous Archaeology",
@@ -173,25 +372,40 @@
     "location": "Sillaro River",
     "requirements": "Surfboard",
     "reward": "30 Tiny Crystal",
-    "type": "side"
+    "type": "side",
+    "steps": [],
+    "rewards": [],
+    "startingLocation": "Sillaro River",
+    "startingNPC": "Distressed Archaeologist and Assistant"
   },
   {
     "name": "Pigepic Fan",
     "wikiUrl": "https://temtem.gamepedia.com/Pigepic_Fan",
     "island": "Deniz",
     "location": "Briçal de Mar",
-    "requirements": "Pigepic",
+    "requirements": "Capture Pigepic and show it to the Cute Toddler",
     "reward": "Revive x1",
-    "type": "side"
+    "type": "side",
+    "steps": [],
+    "rewards": ["Revive"],
+    "startingLocation": "Briçal de Mar",
+    "startingNPC": "Cute Toddler"
   },
   {
     "name": "Salty Business",
     "wikiUrl": "https://temtem.gamepedia.com/Salty_Business",
     "island": "Deniz",
     "location": "The Gifted Bridges",
-    "requirements": "Gifted Bridges",
+    "requirements": "Surfboard",
     "reward": "Sea Salt x3  Scent x5",
-    "type": "side"
+    "type": "side",
+    "steps": [
+      "Acquire the goods from Lorenzo, near Turquesa.",
+      "Bring back the salt to Parfumier."
+    ],
+    "rewards": ["Sea Salt", "Scent"],
+    "startingLocation": "The Gifted Bridges",
+    "startingNPC": "Giulia"
   },
   {
     "name": "Study Up",
@@ -200,7 +414,11 @@
     "location": "Mokupuni",
     "requirements": "None",
     "reward": "TC004: Wake Up",
-    "type": "side"
+    "type": "side",
+    "steps": ["OBJECTIVE NEEDED", "Giant Banyan", "Vulvir", "Mokupuni"],
+    "rewards": ["TC004: Wake Up"],
+    "startingLocation": "Mokupuni (Inside the building)",
+    "startingNPC": "Sanyu"
   },
   {
     "name": "The Denizan Icarus",
@@ -209,7 +427,14 @@
     "location": "Thalassian Cliffs",
     "requirements": "Barnshe",
     "reward": "TC003: Turbo Choreography",
-    "type": "side"
+    "type": "side",
+    "steps": [
+      "Show Daedalus your Tempedia",
+      "Daedalus (Thalassian Cliffs) needs a Barnshe."
+    ],
+    "rewards": ["TC003: Turbo Choreography"],
+    "startingLocation": "Thalassian Cliffs",
+    "startingNPC": "Daedalus"
   },
   {
     "name": "The Turquesa Ferry",
@@ -218,7 +443,18 @@
     "location": "Briçal de Mar",
     "requirements": "Surfboard",
     "reward": "Revive x2  Smoke Bomb x3",
-    "type": "side"
+    "type": "side",
+    "steps": [
+      "Ask at the Riverine Fellowship in Turquesa",
+      "Ask Jana, the owner of Sirokos",
+      "Find Idris at the pier of Turquesa.",
+      "Find the missing ferry, somewhere in the Sillaro.",
+      "Break the bad news to Idris in Turquesa.",
+      "Inform Theodora about the cancelled ferry."
+    ],
+    "rewards": ["Revive", "Smoke Bomb"],
+    "startingLocation": "Briçal de Mar",
+    "startingNPC": "Theodora"
   },
   {
     "name": "Tour Guide",
@@ -227,16 +463,27 @@
     "location": "Arissola",
     "requirements": "None",
     "reward": "Umbrella",
-    "type": "side"
+    "type": "side",
+    "steps": [
+      "Give the tourist in Arissola a guided tour of Deniz",
+      "Inform the tour operator in Arissola of your success"
+    ],
+    "rewards": ["Umbrella"],
+    "startingLocation": "Arissola",
+    "startingNPC": "Tour Operator"
   },
   {
     "name": "Travel Writer",
     "wikiUrl": "https://temtem.gamepedia.com/Travel_Writer",
     "island": "Omninesia",
     "location": "Narwhal",
-    "requirements": "Varies",
+    "requirements": "???",
     "reward": "Lure  Hand Fan",
-    "type": "side"
+    "type": "side",
+    "steps": ["Omninesia."],
+    "rewards": ["Lure", "Hand Fan", "Coat"],
+    "startingLocation": "Narwhal",
+    "startingNPC": "Tarlae"
   },
   {
     "name": "Wild Imagination",
@@ -245,6 +492,10 @@
     "location": "Arissola",
     "requirements": "None",
     "reward": "Energetic Kiwi",
-    "type": "side"
+    "type": "side",
+    "steps": ["Do you know as much about Temtem as little Liliana?"],
+    "rewards": ["Energetic Kiwi"],
+    "startingLocation": "Arissola",
+    "startingNPC": "Liliana"
   }
 ]
