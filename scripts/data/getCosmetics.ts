@@ -31,7 +31,7 @@ function getItems($, selector, type) {
     .next()
     .find("tr")
     .map((i, el) => {
-      if (i === 0) return;
+      if (i === 0) return undefined;
       const items = $(el)
         .find("td")
         .map((_j, td) => ({

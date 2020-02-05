@@ -15,8 +15,8 @@ export default async function getDyes() {
       .next()
       .find("tr")
       .map((i, el) => {
-        if (i === 0) return;
-        const td = $(el)
+        if (i === 0) return undefined;
+        const tdItems = $(el)
           .find("td")
           .map((_j, td) => {
             const style = $(td).attr("style") || "";
@@ -46,11 +46,11 @@ export default async function getDyes() {
           })
           .toArray() as any;
         return {
-          wikiImageUrl: td[0].image,
-          color: td[0].color,
-          name: td[1].text,
-          description: td[2].text,
-          bundles: td[3].items
+          wikiImageUrl: tdItems[0].image,
+          color: tdItems[0].color,
+          name: tdItems[1].text,
+          description: tdItems[2].text,
+          bundles: tdItems[3].items
         };
       })
       .toArray();
