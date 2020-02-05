@@ -33,6 +33,8 @@ export default () => (
     <TraitsBlock />
     <GearBlock />
     <QuestsBlock />
+    <CosmeticsBlock />
+    <DyesBlock />
     <PatchesBlock />
     <WeaknessesBlock />
     <CalculateBlock />
@@ -327,6 +329,30 @@ function BreedingBlock() {
       <>
         <ApiHeader path="/api/breeding" style={{ marginBottom: 10 }} />
         <WipNote />
+      </>
+    </ApiBlock>
+  );
+}
+
+function DyesBlock() {
+  const num = useNum("/api/dyes");
+  return (
+    <ApiBlock example={examples.dyesExample}>
+      <>
+        <ApiHeader path="/api/dyes" style={{ marginBottom: 10 }} />
+        <p>Currently has information for {num} dyes.</p>
+      </>
+    </ApiBlock>
+  );
+}
+
+function CosmeticsBlock() {
+  const num = useNum("/api/cosmetics");
+  return (
+    <ApiBlock example={examples.cosmeticsExample}>
+      <>
+        <ApiHeader path="/api/cosmetics" style={{ marginBottom: 10 }} />
+        <p>Currently has information for {num} cosmetics.</p>
       </>
     </ApiBlock>
   );

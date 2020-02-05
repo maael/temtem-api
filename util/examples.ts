@@ -432,3 +432,27 @@ export const patchesExample = [
     }
   }
 ];
+
+export const cosmeticsExample = [
+  {
+    type: "bottom",
+    wikiImageUrl:
+      "https:://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/dc/TieDownPants.png/100px-TieDownPants.png",
+    wikiUrl: "https://temtem.gamepedia.com/Tie_Down_Pants",
+    name: "Tie Down Pants",
+    location: "Mokupuni",
+    cost: 24999,
+    requirement: "",
+    description:
+      "Practical shorts, enhanced with tied rope details for a rustic touch."
+  }
+];
+
+export const dyesExample = [
+  {
+    color: "#f79935",
+    name: "Sea Queen Dye",
+    description: "The hue of secrets as deep as the Sillaro.",
+    bundles: ["Fury of Anak", "Sillaro Romance"]
+  }
+];

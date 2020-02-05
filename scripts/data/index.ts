@@ -1,3 +1,5 @@
+import getDyes from "./getDyes";
+import getCosmetics from "./getCosmetics";
 import getQuests from "./getQuests";
 import embellishQuests from "./embellishQuests";
 import getPatches from "./getPatches";
@@ -16,6 +18,8 @@ import embellishKnownTemtemSpecies from "./embellishKnownTemtemSpecies";
 import * as log from "../util/log";
 
 (async () => {
+  await getDyes();
+  await getCosmetics();
   const quests = await getQuests();
   await embellishQuests(quests);
   const patches = await getPatches();
