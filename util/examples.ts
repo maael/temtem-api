@@ -450,6 +450,8 @@ export const cosmeticsExample = [
 
 export const dyesExample = [
   {
+    wikiImageUrl:
+      "https:://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/cc/Seaqueendye.png/100px-Seaqueendye.png",
     color: "#f79935",
     name: "Sea Queen Dye",
     description: "The hue of secrets as deep as the Sillaro.",

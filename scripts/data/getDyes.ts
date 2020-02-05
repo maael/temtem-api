@@ -1,4 +1,4 @@
-// import url from 'url';
+import url from "url";
 import got from "got";
 import cheerio from "cheerio";
 import * as log from "../util/log";
@@ -25,6 +25,10 @@ export default async function getDyes() {
             const text = $(td)
               .text()
               .trim();
+            const image = $(td)
+              .find("img")
+              .attr("src");
+            const imageParts = url.parse(image || "");
             const items = $(td)
               .find("a")
               .map((_k, a) =>
@@ -35,12 +39,14 @@ export default async function getDyes() {
               .toArray();
             return {
               color,
+              image: `${imageParts.protocol}://${imageParts.host}${imageParts.pathname}`,
               text,
               items
             };
           })
           .toArray() as any;
         return {
+          wikiImageUrl: td[0].image,
           color: td[0].color,
           name: td[1].text,
           description: td[2].text,
