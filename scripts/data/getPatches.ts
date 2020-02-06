@@ -2,6 +2,14 @@ import got from "got";
 import cheerio from "cheerio";
 import * as log from "../util/log";
 import write from "../util/write";
+import { typedToArray } from "../util/cheerioHelpers";
+
+interface Patch {
+  name: string;
+  version: string;
+  url: string;
+  date: string;
+}
 
 let existing: any[] = [];
 try {
@@ -16,8 +24,8 @@ export default async function getPatches() {
     log.info("Running");
     const result = await got("https://crema.gg/category/temtem/");
     const $ = cheerio.load(result.body);
-    const patches = $("#main .category-patch-notes .entry-title a")
-      .map((_i, el) => {
+    const patches = typedToArray<Patch>(
+      $("#main .category-patch-notes .entry-title a").map((_i, el) => {
         const potentialVersion = $(el)
           .text()
           .match(/\d+\.\d+(.\d+)?/);
@@ -32,7 +40,7 @@ export default async function getPatches() {
           date: getFormattedDate($, el)
         };
       })
-      .toArray();
+    );
     const existingNames = existing.map(({ name }) => name);
     const toWrite = patches
       .filter(({ name }) => !existingNames.includes(name))

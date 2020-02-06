@@ -3,8 +3,28 @@ import cheerio from "cheerio";
 import * as log from "../util/log";
 import write from "../util/write";
 import { cleanToNumber } from "../util/cleaners";
+import { typedToArray } from "../util/cheerioHelpers";
 
 const UNSAFE_NAME_REGEX = /\//;
+
+interface Temtem {
+  number: number;
+  name: string;
+  types: string[];
+  portraitWikiUrl: string;
+  lumaPortraitWikiUrl: string;
+  wikiUrl: string;
+  stats: {
+    hp: number;
+    sta: number;
+    spd: number;
+    atk: number;
+    def: number;
+    spatk: number;
+    spdef: number;
+    total: number;
+  };
+}
 
 export default async function getKnownTemtemSpecies() {
   log.info("Starting");
@@ -15,16 +35,16 @@ export default async function getKnownTemtemSpecies() {
     const temRows = $("table.temtem-list>tbody>tr").filter((_i, el) => {
       return !!$(el).find("td").length;
     });
-    log.info(`Found ${temRows.length} tems`);
+    log.info(`Found ${temRows.length} temtem`);
     // TODO: Probably check we only have 1 of each number
-    const tems = (temRows
-      .map((_i, row) => getTemInfoFromRow($, row))
-      .toArray() as any).filter(
+    const temtem = typedToArray<Temtem>(
+      temRows.map((_i, row) => getTemInfoFromRow($, row))
+    ).filter(
       ({ number: num, name }) => num !== 0 && !UNSAFE_NAME_REGEX.test(name)
     );
-    log.info("Example received:", JSON.stringify(tems[0]));
-    await write("knownTemtemSpecies", tems);
-    return tems;
+    log.info("Example received:", JSON.stringify(temtem[0]));
+    await write("knownTemtemSpecies", temtem);
+    return temtem;
   } catch (e) {
     log.error(e.message);
   } finally {
@@ -32,7 +52,7 @@ export default async function getKnownTemtemSpecies() {
   }
 }
 
-function getTemInfoFromRow($, row) {
+function getTemInfoFromRow($, row): Temtem {
   const basicStats = $(row)
     .find("td")
     .text()

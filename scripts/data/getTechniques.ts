@@ -2,6 +2,12 @@ import got from "got";
 import cheerio from "cheerio";
 import * as log from "../util/log";
 import write from "../util/write";
+import { typedToArray } from "../util/cheerioHelpers";
+
+interface Technique {
+  name: string;
+  wikiUrl: string;
+}
 
 export default async function getTechniques() {
   log.info("Starting");
@@ -12,9 +18,8 @@ export default async function getTechniques() {
     );
     const $ = cheerio.load(result.body);
     const page = $(".mw-category").last();
-    const techniques = page
-      .find("a")
-      .map((_i, el) => {
+    const techniques = typedToArray<Technique>(
+      page.find("a").map((_i, el) => {
         return {
           name: $(el)
             .text()
@@ -22,7 +27,7 @@ export default async function getTechniques() {
           wikiUrl: `https://temtem.gamepedia.com${$(el).attr("href")}`
         };
       })
-      .toArray();
+    );
     await write("techniques", techniques);
     return techniques;
   } catch (e) {
