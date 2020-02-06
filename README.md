@@ -49,7 +49,9 @@ I used `node@10.17.0` to develop it.
 | `/api/conditions`         | https://temtem-api.mael.tech/#/api/conditions         |
 | `/api/techniques`         | https://temtem-api.mael.tech/#/api/techniques         |
 | `/api/traits`             | https://temtem-api.mael.tech/#/api/traits             |
-| `/api/api/gear`           | https://temtem-api.mael.tech/#/api/api/gear           |
+| `/api/gear`               | https://temtem-api.mael.tech/#/api/gear               |
+| `/api/cosmetics`          | https://temtem-api.mael.tech/#/api/cosmetics          |
+| `/api/dyes`               | https://temtem-api.mael.tech/#/api/dyes               |
 | `/api/patches`            | https://temtem-api.mael.tech/#/api/patches            |
 | `/api/weaknesses`         | https://temtem-api.mael.tech/#/api/weaknesses         |
 | `/api/weakness/calculate` | https://temtem-api.mael.tech/#/api/weakness/calculate |
