@@ -2,8 +2,15 @@ import cheerio from "cheerio";
 import * as log from "../util/log";
 import write from "../util/write";
 import fetchHTML from "../util/fetchHTML";
+import { Trait as MinimalTrait } from "./getTraits";
 
-export default async function getTraits(traits: any) {
+export interface Trait extends MinimalTrait {
+  description: string;
+}
+
+export default async function getTraits(
+  traits: MinimalTrait[]
+): Promise<Trait[] | undefined> {
   log.info("Starting");
   try {
     log.info("Running");
@@ -23,7 +30,7 @@ export default async function getTraits(traits: any) {
       })
       .sort((a, b) => a.name.localeCompare(b.name));
     await write("traits", result);
-    return traits;
+    return result;
   } catch (e) {
     log.error(e.message);
   }

@@ -4,17 +4,19 @@ import * as log from "../util/log";
 import write from "../util/write";
 import { typedToArray } from "../util/cheerioHelpers";
 
-enum QuestType {
+export enum QuestType {
   MAIN = "main",
   SIDE = "side"
 }
 
-interface MainQuest {
+export type Quest = MainQuest | SideQuest;
+
+export interface MainQuest {
   name: string;
   wikiUrl: string;
   type: QuestType.MAIN;
 }
-interface SideQuest {
+export interface SideQuest {
   name: string;
   wikiUrl: string;
   island: string;

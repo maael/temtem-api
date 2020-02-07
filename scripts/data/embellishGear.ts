@@ -3,6 +3,19 @@ import cheerio from "cheerio";
 import * as log from "../util/log";
 import write from "../util/write";
 import fetchHTML from "../util/fetchHTML";
+import { Gear as MinimalGear } from "./getGear";
+
+export interface Gear extends MinimalGear {
+  wikiIconUrl: string;
+  icon: string;
+  category: string;
+  consumable: boolean;
+  limitedQuantity: boolean;
+  purchasable: boolean;
+  buyPrice: number;
+  description: string;
+  gameDescription: string;
+}
 
 function getInfoBox($: any, str: string) {
   const text = $(".infobox-row")
@@ -19,7 +32,9 @@ function getInfoBox($: any, str: string) {
   return isNaN(parseInt(text, 10)) ? text : parseInt(text, 10);
 }
 
-export default async function embellishGear(gear: any[]) {
+export default async function embellishGear(
+  gear: MinimalGear[]
+): Promise<Gear[] | undefined> {
   log.info("Starting");
   try {
     log.info("Running");
@@ -60,7 +75,7 @@ export default async function embellishGear(gear: any[]) {
       .sort((a, b) => a.name.localeCompare(b.name));
     log.info("Example received", JSON.stringify(result[0]));
     await write("gear", result);
-    return gear;
+    return result;
   } catch (e) {
     log.error(e.message);
   }

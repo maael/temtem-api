@@ -3,8 +3,75 @@ import * as log from "../util/log";
 import write from "../util/write";
 import fetchHTML from "../util/fetchHTML";
 import { cleanToNumber } from "../util/cleaners";
+import { typedToArray } from "../util/cheerioHelpers";
+import { Temtem as MinimalTemtem } from "./getKnownTemtemSpecies";
 
-export default async function embellishKnownTemtemSpecies(ar: any) {
+export enum TechniqueSource {
+  LEVELLING = "Levelling",
+  TECHNIQUE_COURSES = "TechniqueCourses",
+  BREEDING = "Breeding"
+}
+
+export enum TemtemEvolutionType {
+  LEVEL = "level",
+  SPECIAL = "special"
+}
+
+export interface TemtemTechnique {
+  name: string;
+  source: TechniqueSource;
+}
+
+export interface TemtemLocation {
+  location: string;
+  island: string;
+  frequency: string;
+  level: string;
+}
+
+export interface TemtemEvolutionTree {
+  number: number;
+  name: string;
+  stage: number;
+}
+
+export interface TemtemEvolution {
+  stage?: number;
+  evolutionTree?: TemtemEvolutionTree[];
+  evolves?: true;
+  type: TemtemEvolutionType;
+  description?: string;
+}
+
+export interface TemtemNoEvolution {
+  evolves: false;
+}
+
+export interface Temtem extends MinimalTemtem {
+  traits: string[];
+  details: {
+    height: {
+      cm: number;
+      inches: number;
+    };
+    weight: {
+      kg: number;
+      lbs: number;
+    };
+  };
+  techniques: TemtemTechnique[];
+  trivia: string[];
+  evolution: TemtemEvolution | TemtemNoEvolution;
+  wikiPortraitUrlLarge: string;
+  lumaWikiPortraitUrlLarge: string;
+  locations: TemtemLocation[];
+  icon: string;
+  lumaIcon: string;
+}
+
+export default async function embellishKnownTemtemSpecies(
+  ar: MinimalTemtem[]
+): Promise<Temtem[] | undefined> {
   log.info(`Embellishing ${ar.length} tems`);
   try {
     const webpages = await fetchHTML("temtem", ar, "name", true);
@@ -26,6 +93,7 @@ export default async function embellishKnownTemtemSpecies(ar: any) {
       })
       .sort((a, b) => a.number - b.number);
     await write("knownTemtemSpecies", result);
+    return result;
   } catch (e) {
     log.error(e);
   }
@@ -33,38 +101,41 @@ export default async function embellishKnownTemtemSpecies(ar: any) {
 
 function getLocations(html: string) {
   const $ = cheerio.load(html);
-  const locations = $("#Location")
-    .parent()
-    .next("table")
-    .find("tbody>tr")
-    .map((_i, row) => {
-      const cells = $(row).find("td");
-      const item = (cells
-        .map((_j, cell) => {
-          return $(cell)
-            .text()
-            .trim();
-        })
-        .toArray() as unknown) as string[];
-      // tslint:disable-next-line:strict-type-predicates
-      if (item[0] === undefined || item.every(i => i === "?")) return undefined;
-      return {
-        location: item[0],
-        island: item[1],
-        frequency: (item[2] || "").replace(/\[\d+\]/, ""),
-        level: (item[3] || "").replace(/\[\d+\]/, "")
-      };
-    })
-    .toArray()
-    .filter(Boolean);
+  const locations = typedToArray<TemtemLocation>(
+    $("#Location")
+      .parent()
+      .next("table")
+      .find("tbody>tr")
+      .map((_i, row) => {
+        const cells = $(row).find("td");
+        const item = (cells
+          .map((_j, cell) => {
+            return $(cell)
+              .text()
+              .trim();
+          })
+          .toArray() as unknown) as string[];
+        // tslint:disable-next-line:strict-type-predicates
+        if (item[0] === undefined || item.every(i => i === "?"))
+          return undefined;
+        return {
+          location: item[0],
+          island: item[1],
+          frequency: (item[2] || "").replace(/\[\d+\]/, ""),
+          level: (item[3] || "").replace(/\[\d+\]/, "")
+        };
+      })
+  );
   return locations;
 }
 
 function getWikiPortraitUrl(html: string) {
   const $ = cheerio.load(html);
-  return $("#mw-content-text .infobox-table img")
-    .first()
-    .attr("src");
+  return (
+    $("#mw-content-text .infobox-table img")
+      .first()
+      .attr("src") || ""
+  );
 }
 
 function getTraits(html: string) {
@@ -78,14 +149,13 @@ function getTraits(html: string) {
     .first()
     .find(".infobox-row-value")
     .last();
-  return $traitInfo
-    .find("a")
-    .map((_i, el) =>
+  return typedToArray<string>(
+    $traitInfo.find("a").map((_i, el) =>
       $(el)
         .text()
         .trim()
     )
-    .toArray();
+  );
 }
 
 function getDetails(html: string) {
@@ -149,22 +219,22 @@ function getTechniques(html: string) {
   return techniques;
 }
 
-function getTechniqueTableType(caption: any) {
+function getTechniqueTableType(caption: string) {
   if (!caption.startsWith("List of Techniques")) return undefined;
   if (caption.includes("Leveling")) {
-    return "Levelling";
+    return TechniqueSource.LEVELLING;
   } else if (caption.includes("Courses")) {
-    return "TechniqueCourses";
+    return TechniqueSource.TECHNIQUE_COURSES;
   } else if (caption.includes("Breeding")) {
-    return "Breeding";
+    return TechniqueSource.BREEDING;
   } else {
     return undefined;
   }
 }
 
 function getTechniquesFromTable(
-  $: any,
-  table: any,
+  $: CheerioStatic,
+  table: CheerioElement,
   type: ReturnType<typeof getTechniqueTableType>
 ) {
   return $(table)
@@ -187,18 +257,19 @@ function getTechniquesFromTable(
 
 function getTrivia(html: string) {
   const $ = cheerio.load(html);
-  const trivia = $("#Trivia")
-    .parent()
-    .next()
-    .find("li")
-    .map((_i, el) =>
-      $(el)
-        .text()
-        .replace(/\[.\]/g, "")
-        .replace(/\\/g, "")
-        .trim()
-    )
-    .toArray();
+  const trivia = typedToArray<string>(
+    $("#Trivia")
+      .parent()
+      .next()
+      .find("li")
+      .map((_i, el) =>
+        $(el)
+          .text()
+          .replace(/\[.\]/g, "")
+          .replace(/\\/g, "")
+          .trim()
+      )
+  );
   return trivia;
 }
 
@@ -220,7 +291,7 @@ function getEvolutionInfo(items: any[], item: any, html: string) {
               type: "special",
               description:
                 "Tuwai can evolve into Tuvine by taking one to the Crystal Shrine, and selecting it. This requires that you beat the Cultist Hunt side-quest."
-            };
+            } as any;
           }
           log.warn("Gave up on evolution table for", item.name);
           return {};

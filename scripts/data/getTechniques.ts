@@ -4,7 +4,7 @@ import * as log from "../util/log";
 import write from "../util/write";
 import { typedToArray } from "../util/cheerioHelpers";
 
-interface Technique {
+export interface Technique {
   name: string;
   wikiUrl: string;
 }

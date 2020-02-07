@@ -5,14 +5,14 @@ import * as log from "../util/log";
 import write from "../util/write";
 import { typedToArray } from "../util/cheerioHelpers";
 
-enum CosmeticType {
+export enum CosmeticType {
   HEAD = "head",
   TOP = "top",
   BOTTOM = "bottom",
   SET = "set",
   BAG = "bag"
 }
-interface Cosmetic {
+export interface Cosmetic {
   type: CosmeticType;
   wikiImageUrl: string;
   wikiUrl: string;

@@ -7,7 +7,7 @@ import { typedToArray } from "../util/cheerioHelpers";
 
 const UNSAFE_NAME_REGEX = /\//;
 
-interface Temtem {
+export interface Temtem {
   number: number;
   name: string;
   types: string[];

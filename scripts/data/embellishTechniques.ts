@@ -3,9 +3,33 @@ import * as log from "../util/log";
 import write from "../util/write";
 import fetchHTML from "../util/fetchHTML";
 import { cleanToNumber } from "../util/cleaners";
+import { Technique as MinimalTechnique } from "./getTechniques";
 
-function getInfoBox($: any, str: string): string | number {
-  const text = $(".infobox-row")
+export enum TechniquePriority {
+  ULTRA = "ultra",
+  VERY_HIGH = "veryhigh",
+  HIGH = "high",
+  NORMAL = "normal",
+  LOW = "low",
+  VERY_LOW = "verylow",
+  UNKNOWN = "unknown"
+}
+export interface Technique extends MinimalTechnique {
+  type: string;
+  class: string;
+  damage: number;
+  staminaCost: number;
+  hold: number;
+  priority: TechniquePriority;
+  synergy: string;
+  synergyEffect: string;
+  synergyEffectDamage: number;
+  targets: string;
+  description: string;
+}
+
+function getInfoBox($: any, str: string): string {
+  return $(".infobox-row")
     .filter((_i, el) => {
       return !!$(el)
         .text()
@@ -16,6 +40,10 @@ function getInfoBox($: any, str: string): string | number {
     .last()
     .text()
     .trim();
+}
+
+function getInfoBoxNumeric($: any, str: string): string | number {
+  const text = getInfoBox($, str);
   return isNaN(parseInt(text, 10)) ? text : parseInt(text, 10);
 }
 
@@ -30,25 +58,27 @@ function getPriority($: any) {
     .find(".infobox-row-value")
     .last()
     .html();
-  if (!priority) return "unknown";
+  if (!priority) return TechniquePriority.UNKNOWN;
   if (priority.includes("Priority_Ultra.png")) {
-    return "ultra";
+    return TechniquePriority.ULTRA;
   } else if (priority.includes("Priority_High.png")) {
-    return "high";
+    return TechniquePriority.HIGH;
   } else if (priority.includes("Priority_VeryHigh.png")) {
-    return "veryhigh";
+    return TechniquePriority.VERY_HIGH;
   } else if (priority.includes("Priority_Normal.png")) {
-    return "normal";
+    return TechniquePriority.NORMAL;
   } else if (priority.includes("Priority_Low.png")) {
-    return "low";
+    return TechniquePriority.LOW;
   } else if (priority.includes("Priority_VeryLow.png")) {
-    return "verylow";
+    return TechniquePriority.VERY_LOW;
   } else {
-    return "unknown";
+    return TechniquePriority.UNKNOWN;
   }
 }
 
-export default async function embellishTechniques(techniques: any) {
+export default async function embellishTechniques(
+  techniques: MinimalTechnique[]
+): Promise<Technique[] | undefined> {
   log.info("Starting");
   try {
     log.info("Running");
@@ -56,8 +86,8 @@ export default async function embellishTechniques(techniques: any) {
     const result = webpages
       .map(({ item, html }) => {
         const $ = cheerio.load(html);
-        const hold = getInfoBox($, "Hold");
-        const synergyEffect = getInfoBox($, "Synergy Effect");
+        const hold = getInfoBoxNumeric($, "Hold");
+        const synergyEffect = getInfoBoxNumeric($, "Synergy Effect");
         const cleanedSynergyEffect =
           typeof synergyEffect === "string"
             ? synergyEffect.replace(/^\-$/, "")
@@ -66,8 +96,8 @@ export default async function embellishTechniques(techniques: any) {
           ...item,
           type: getInfoBox($, "Type"),
           class: getInfoBox($, "Class"),
-          damage: cleanToNumber(getInfoBox($, "Damage")),
-          staminaCost: cleanToNumber(getInfoBox($, "Stamina Cost")),
+          damage: cleanToNumber(getInfoBoxNumeric($, "Damage")),
+          staminaCost: cleanToNumber(getInfoBoxNumeric($, "Stamina Cost")),
           hold: cleanToNumber(hold),
           priority: getPriority($),
           synergy: getInfoBox($, "Synergy"),
@@ -92,7 +122,7 @@ export default async function embellishTechniques(techniques: any) {
       .sort((a, b) => a.name.localeCompare(b.name));
     log.info("Example received", JSON.stringify(result[0]));
     await write("techniques", result);
-    return techniques;
+    return result;
   } catch (e) {
     log.error(e.message);
   }

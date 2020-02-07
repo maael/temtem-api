@@ -2,8 +2,30 @@ import cheerio from "cheerio";
 import * as log from "../util/log";
 import write from "../util/write";
 import fetchHTML from "../util/fetchHTML";
+import {
+  Quest as MinimalQuest,
+  MainQuest as MinimalMainQuest,
+  SideQuest as MinimalSideQuest
+} from "./getQuests";
 
-function getInfoBoxEl($: any, str: string) {
+export type Quest = MainQuest | SideQuest;
+
+export interface MainQuest extends MinimalMainQuest {
+  steps: string[];
+  rewards: string[];
+  startingLocation: string;
+  startingNPC: string;
+  requirements: string;
+}
+export interface SideQuest extends MinimalSideQuest {
+  steps: string[];
+  rewards: string[];
+  startingLocation: string;
+  startingNPC: string;
+  requirements: string;
+}
+
+function getInfoBoxEl($: any, str: string): Cheerio {
   return $(".infobox-row")
     .filter((_i, el) => {
       return !!$(el)
@@ -15,7 +37,7 @@ function getInfoBoxEl($: any, str: string) {
     .last();
 }
 
-export default async function embellishQuests(quests: any) {
+export default async function embellishQuests(quests: MinimalQuest[]) {
   log.info("Starting");
   const webpages = await fetchHTML("quests", quests, "wikiUrl");
   const embellished = webpages.map(({ item, html }) => {
