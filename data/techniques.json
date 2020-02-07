@@ -251,8 +251,8 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "Single Other Target",
-    "description": "“\n\nLifts the spirits of the target and reduces its Hold by 1.\n\n„\n\n\n\n\n~ In-Game Description"
+    "targets": "Single Target",
+    "description": "Lifts the spirits of the target and gives -1 Hold."
   },
   {
     "name": "Clinch",
@@ -1077,7 +1077,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Self",
-    "description": "\"There is an edge to this madness -  those willing to take 25% Damage will get SPDEF[++] and SPATK[++].\""
+    "description": "There is an edge to this madness - those willing to take 25% Damage will get SPDEF +2 and SPATK +2."
   },
   {
     "name": "Magma Cannon",
@@ -1148,7 +1148,7 @@
     "staminaCost": 0,
     "hold": 0,
     "priority": "unknown",
-    "synergy": "",
+    "synergy": "Unknown",
     "synergyEffect": "?",
     "synergyEffectDamage": 0,
     "targets": "?",
@@ -1538,7 +1538,7 @@
     "staminaCost": 0,
     "hold": 0,
     "priority": "unknown",
-    "synergy": "",
+    "synergy": "Unknown",
     "synergyEffect": "?",
     "synergyEffectDamage": 0,
     "targets": "?",

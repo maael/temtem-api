@@ -1186,19 +1186,55 @@
       {
         "location": "Prasine Coast",
         "island": "Deniz",
-        "frequency": "Common",
-        "level": "2-7"
+        "frequency": "70%",
+        "level": "2"
+      },
+      {
+        "location": "Prasine Coast",
+        "island": "Deniz",
+        "frequency": "20%",
+        "level": "3-4"
+      },
+      {
+        "location": "Prasine Coast",
+        "island": "Deniz",
+        "frequency": "90%",
+        "level": "4-7"
+      },
+      {
+        "location": "Prasine Coast",
+        "island": "Deniz",
+        "frequency": "20%",
+        "level": "3-5"
+      },
+      {
+        "location": "Prasine Coast",
+        "island": "Deniz",
+        "frequency": "50%",
+        "level": "4-6"
+      },
+      {
+        "location": "Prasine Coast",
+        "island": "Deniz",
+        "frequency": "70%",
+        "level": "2-3"
       },
       {
         "location": "Thalassian Cliffs",
         "island": "Deniz",
-        "frequency": "Common (90%)",
+        "frequency": "90%",
         "level": "4-6"
       },
       {
         "location": "The Gifted Bridges",
         "island": "Deniz",
-        "frequency": "Common (60%-95%)",
+        "frequency": "95%",
+        "level": "7-8"
+      },
+      {
+        "location": "The Gifted Bridges",
+        "island": "Deniz",
+        "frequency": "60%",
         "level": "7-10"
       }
     ],
@@ -7901,10 +7937,6 @@
       },
       {
         "name": "Confiscate",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Madness Buff",
         "source": "TechniqueCourses"
       }
     ],
