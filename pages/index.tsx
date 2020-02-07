@@ -307,12 +307,12 @@ function CalculateBlock() {
           params={[
             {
               name: "attacking",
-              required: false,
+              required: true,
               description: "A valid Temtem type to use as the attack value."
             },
             {
               name: "defending",
-              required: false,
+              required: true,
               description:
                 "A comma separated list of valid Temtem types to use as the defending values"
             }
