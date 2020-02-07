@@ -3306,6 +3306,11 @@ format@^0.2.0:
   resolved "https://registry.yarnpkg.com/format/-/format-0.2.2.tgz#d6170107e9efdc4ed30c9dc39016df942b5cb58b"
   integrity sha1-1hcBB+nv3E7TDJ3DkBbflCtctYs=
 
+fp-ts@^2.4.4:
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.4.4.tgz#d1ffe3e62ee4fa789562242d5a3f9b957740b783"
+  integrity sha512-J5wFa/BzT57A+DIvwAYS5LTsbRiXsvF9hsefP3ZfzsHLuWGjtHAheG1WscG1tX3og1PDZyv6mZAUTlpH1MmHhA==
+
 fragment-cache@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/fragment-cache/-/fragment-cache-0.2.1.tgz#4290fad27f13e89be7f33799c6bc5a0abfff0d19"
@@ -3790,6 +3795,11 @@ invariant@^2.2.2:
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
   dependencies:
     loose-envify "^1.0.0"
+
+io-ts@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/io-ts/-/io-ts-2.0.6.tgz#49e65cb8508ace0329a45bfa94cd9d29d1e0cce5"
+  integrity sha512-WNfGzm4csMVwL4hX6QlpQWu65SV6GmOUtDo259GKlLYH1cC5bpOENgYHqQIRJ9uR3FuU1RQKDke5STwHZAn3KA==
 
 is-accessor-descriptor@^0.1.6:
   version "0.1.6"

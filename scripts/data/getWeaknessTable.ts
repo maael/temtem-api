@@ -47,6 +47,7 @@ export default async function getWeaknessTable() {
         table[ordering[i - 1]] = row;
       });
     await write("weaknesses", table);
+    return table;
   } catch (e) {
     log.error(e.message);
   }

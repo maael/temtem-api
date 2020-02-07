@@ -70,6 +70,8 @@ Once the data scripts are done, assets are collected, usually from items found i
 
 After this a summary file is created, listing all produced data files, and when they were updated.
 
+Then the files in `./data` are checked against codecs in `./scripts/checker/codecs` to see if the produced shapes conform to what's expected, using [io-ts](https://github.com/gcanti/io-ts).
+
 The `./data` and `./public` directories are then pushed to GitHub, where [now](https://github.com/zeit/now) will deploy the changes.
 
 ## Types
@@ -85,9 +87,6 @@ Also fair warning, I made this quick, so while it is Typescript, it's super loos
 ## Todo
 
 - [ ] Breeding API endpoint
-- [ ] Better typing throughout project
-  - Use proper cheerio types, though cheerio's `toArray` sucks as it isn't generic and just assumes it returns `CheerioElement`s.
-- [ ] Better typing for endpoints, maybe automatic typing with [quicktype](https://app.quicktype.io/) or something
-  - [ ] Check fetched data to see type matches, if failed don't update, as this prevents the API from unexpectedly breaking
+- [ ] Maybe automatic typing with [quicktype](https://app.quicktype.io/) or something
 - [ ] Finish making data available under graphql endpoint. ([minimal example here](https://github.com/zeit/next.js/pull/7804/files))
 - [ ] Fix [this TODO](./scripts/data/embellishTechniques.ts#L74-L81) for technique synergy data.

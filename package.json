@@ -15,9 +15,10 @@
     "data": "npx ts-node --project scripts/tsconfig.json scripts/data",
     "assets": "npx ts-node --project scripts/tsconfig.json scripts/assets",
     "summary": "npx ts-node --project scripts/tsconfig.json scripts/summary",
+    "checker": "npx ts-node --project scripts/tsconfig.json scripts/checker",
     "sync": "yarn data && yarn assets && yarn summary",
     "push": "npx ts-node --project scripts/tsconfig.json scripts/updater",
-    "sync:push": "yarn sync && yarn push"
+    "sync:push": "yarn sync && yarn checker && yarn push"
   },
   "husky": {
     "hooks": {
@@ -30,7 +31,9 @@
     "@maael/api-note-block-component": "^1.1.0",
     "@maael/api-param-block-component": "^1.1.1",
     "@maael/jumbotron-component": "^1.1.0",
+    "fp-ts": "^2.4.4",
     "got": "^10.2.2",
+    "io-ts": "^2.0.6",
     "micro-cors": "^0.1.1",
     "next": "^9.2.1",
     "react": "^16.12.0",
