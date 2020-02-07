@@ -77,7 +77,9 @@ function getItems($, selector, type) {
         const parsedCost = parseInt(items[3].text, 10);
         return {
           type,
-          wikiImageUrl: `${imageParts.protocol}://${imageParts.host}${imageParts.pathname}`,
+          wikiImageUrl: items[0].wikiImageUrl
+            ? `${imageParts.protocol}://${imageParts.host}${imageParts.pathname}`
+            : "",
           wikiUrl: `https://temtem.gamepedia.com${items[1].wikiUrl}`,
           name: items[1].text,
           location: items[2].text,
