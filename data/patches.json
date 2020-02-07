@@ -1,5 +1,38 @@
 [
   {
+    "name": "Temtem 0.5.11",
+    "version": "0.5.11",
+    "url": "https://crema.gg/temtem/temtem-0-5-11/",
+    "date": "2020-2-7",
+    "patchInfo": {
+      "fixes": [
+        "Fixed being stuck in battles after all your Tems are knocked-out and your co-op partner breaks the party.",
+        "Fixed being stuck in battles after all your partner Tems are knocked-out and they break the party.",
+        "Fixed getting stuck on “Waiting for” in battles after reconnecting during a turn where your latest Temtem is knocked-out and being in a co-op party.",
+        "Fixed pronouns not working properly in some languages.",
+        "Fixed getting stuck in certain cinematics (Max, Lottie…) after a reconnection.",
+        "Fixed Chain Lighting doing more damage to the second target after hitting an x2/x4 technique against the first target.",
+        "Swapping sit places rapidly won’t kick players anymore.",
+        "Fixed frozen animations on players after customizing their cosmetics.",
+        "Fixed being stuck in Ocelotl’s dialog after receiving the new Tems while on co-op.",
+        "Fixed incorrect egg techniques on NPC traded Tems (Taifu <> Ukama).",
+        "Fixed getting duplicate quest items while on co-op.",
+        "Fixed being able to give away your last Tem to an NPC and having an egg-only squad.",
+        "Fixed a problem during the prison quest while being on a co-op party that causes a player getting stuck without any Temtem and outside of the prison.",
+        "Fixed being stuck in the experience screen after spamming several Growth Enhancers.",
+        "Fixed desynchronization in dialogs while on co-op during the prison quest.",
+        "Fixed Temtem not being removed from the battle after getting knocked-out with poison and exactly 0 HP.",
+        "Fixed not being able to enter the Kakama Cenote while on co-op.",
+        "Fixed quests not progressing after defeating Tihani for the second time while on co-op."
+      ],
+      "improvements": [
+        "If the player needs to be teleported back after breaking a co-op party, it will now go back to the latest visited Temporium instead of the latest saved place."
+      ],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
     "name": "Temtem 0.5.10",
     "version": "0.5.10",
     "url": "https://crema.gg/temtem/temtem-0-5-10/",
@@ -198,23 +231,6 @@
       ],
       "improvements": [
         "Several optimizations and improvements on connectivity between the server and the client."
-      ],
-      "features": [],
-      "balance": []
-    }
-  },
-  {
-    "name": "Temtem 0.5.1",
-    "version": "0.5.1",
-    "url": "https://crema.gg/temtem/temtem-0-5-1/",
-    "date": "2020-1-22",
-    "patchInfo": {
-      "fixes": [
-        "Not being able to search long names in the add friend screen.",
-        "Neutral pronouns being used by default on notifications independently of the player’s selected pronoun."
-      ],
-      "improvements": [
-        "Greatly improved the cosmetics data synchronization made by the server to avoid lag spikes when the rooms were full."
       ],
       "features": [],
       "balance": []
