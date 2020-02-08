@@ -160,7 +160,7 @@ function getTraits(html: string) {
 
 function getDetails(html: string) {
   const $ = cheerio.load(html);
-  const heightInfo = $(".infobox-row")
+  const heightInfo = $(".infobox-half-row")
     .filter((_i, el) => {
       return !!$(el)
         .text()
