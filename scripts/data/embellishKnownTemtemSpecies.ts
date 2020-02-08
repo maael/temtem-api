@@ -170,7 +170,7 @@ function getDetails(html: string) {
     .find(".infobox-row-value")
     .last()
     .text();
-  const weightInfo = $(".infobox-row")
+  const weightInfo = $(".infobox-half-row")
     .filter((_i, el) => {
       return !!$(el)
         .text()
