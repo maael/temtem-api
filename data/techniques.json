@@ -654,10 +654,10 @@
     "hold": 1,
     "priority": "normal",
     "synergy": "Earth",
-    "synergyEffect": "Decreases enemy Speed 2 stages",
-    "synergyEffectDamage": 0,
+    "synergyEffect": "+-2 damage",
+    "synergyEffectDamage": -2,
     "targets": "Single Team",
-    "description": "\"Watch the opponent get all bogged down. Decreases Speed in 1 stage for whole enemy team.\""
+    "description": "Watch the opponent get all bogged down. The whole team gets SPD -1."
   },
   {
     "name": "Footwork",
@@ -803,8 +803,8 @@
     "staminaCost": 23,
     "hold": 0,
     "priority": "normal",
-    "synergy": "?",
-    "synergyEffect": "?",
+    "synergy": "None",
+    "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Self",
     "description": "Hey, I'm still warming up! ATK +2."
