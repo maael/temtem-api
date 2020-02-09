@@ -197,6 +197,29 @@
     "startingNPC": "Minos or Pasiphaë."
   },
   {
+    "name": "A Rock Too Far",
+    "wikiUrl": "https://temtem.gamepedia.com/A_Rock_Too_Far",
+    "island": "Tucma",
+    "location": "Kupeleleza",
+    "requirements": "",
+    "reward": "TC015: Footwork",
+    "type": "side",
+    "steps": [
+      "Report the missing kid to the Lifeguard!",
+      "Talk to Zulia again",
+      "Find Yaba's friend, a girl named Tochtli",
+      "Give the bad news to Zulia",
+      "Ask the tracker to help you find Yaba.",
+      "Find Yaba at the eastern tip of Kupeleleza being held captured by a pair of bandits.",
+      "Get back to Zulia for your reward"
+    ],
+    "rewards": [
+      "TC015: Footwork"
+    ],
+    "startingLocation": "Tucma",
+    "startingNPC": "Zulia"
+  },
+  {
     "name": "Archipelago Colors",
     "wikiUrl": "https://temtem.gamepedia.com/Archipelago_Colors",
     "island": "Omninesia",
@@ -286,6 +309,25 @@
     "startingNPC": "Oliana"
   },
   {
+    "name": "Cultist Hunt",
+    "wikiUrl": "https://temtem.gamepedia.com/Cultist_Hunt",
+    "island": "Tucma",
+    "location": "Kupeleleza",
+    "requirements": "Defeat Valentina & Federico",
+    "reward": "Sweatband",
+    "type": "side",
+    "steps": [
+      "Find the Crystal Temtem cultist.",
+      "team",
+      "Report back to Valentina"
+    ],
+    "rewards": [
+      "Sweatband"
+    ],
+    "startingLocation": "",
+    "startingNPC": "Valentina"
+  },
+  {
     "name": "Endaira's Quest",
     "wikiUrl": "https://temtem.gamepedia.com/Endaira%27s_Quest",
     "island": "Deniz",
@@ -317,6 +359,25 @@
     ],
     "startingLocation": "Zadar",
     "startingNPC": "Clara"
+  },
+  {
+    "name": "Freeing bandits",
+    "wikiUrl": "https://temtem.gamepedia.com/Freeing_bandits",
+    "island": "Tucma",
+    "location": "Xolot Reservoir",
+    "requirements": "Acid-proof Surfboard",
+    "reward": "TC018: Major Slash",
+    "type": "side",
+    "steps": [
+      "Get the prison key from the off-duty Smith",
+      "Free Tlaloc from the prison",
+      "Rejoin Tlaloc and Tokatl in the Xolot island."
+    ],
+    "rewards": [
+      "TC018: Major Slash"
+    ],
+    "startingLocation": "Tucma",
+    "startingNPC": "Tokatl"
   },
   {
     "name": "Lottie's Diary",
@@ -475,6 +536,24 @@
     "startingNPC": "Sanyu"
   },
   {
+    "name": "Temtem Connoisseur",
+    "wikiUrl": "https://temtem.gamepedia.com/Temtem_Connoisseur",
+    "island": "Tucma",
+    "location": "Quetzal",
+    "requirements": "",
+    "reward": "Egg Timer",
+    "type": "side",
+    "steps": [
+      "Breed a Bigu and bring it to the man.",
+      "Important:"
+    ],
+    "rewards": [
+      "Egg Timer"
+    ],
+    "startingLocation": "Quetzal",
+    "startingNPC": "Temtem Connoisseur"
+  },
+  {
     "name": "The Denizan Icarus",
     "wikiUrl": "https://temtem.gamepedia.com/The_Denizan_Icarus",
     "island": "Deniz",
@@ -539,7 +618,7 @@
     "island": "Omninesia",
     "location": "Narwhal",
     "requirements": "???",
-    "reward": "Lure  Hand Fan",
+    "reward": "Lure  Hand Fan  Coat",
     "type": "side",
     "steps": [
       "Omninesia."
