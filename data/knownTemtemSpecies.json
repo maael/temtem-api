@@ -9015,7 +9015,7 @@
           "levels": 18
         },
         {
-          "number": -1,
+          "number": 128,
           "name": "Kalabyss",
           "stage": 2
         }
@@ -9047,6 +9047,138 @@
     ],
     "icon": "/images/portraits/temtem/large/Kalazu.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Kalazu.png"
+  },
+  {
+    "number": 128,
+    "name": "Kalabyss",
+    "types": [
+      "Water",
+      "Toxic"
+    ],
+    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/90/Kalabyss.png/50px-Kalabyss.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Kalabyss",
+    "stats": {
+      "hp": 82,
+      "sta": 35,
+      "spd": 37,
+      "atk": 75,
+      "def": 100,
+      "spatk": 65,
+      "spdef": 55,
+      "total": 449
+    },
+    "traits": [
+      "Botanophobia",
+      "Loneliness"
+    ],
+    "details": {
+      "height": {
+        "cm": 170,
+        "inches": 66
+      },
+      "weight": {
+        "kg": 163,
+        "lbs": 359
+      }
+    },
+    "techniques": [
+      {
+        "name": "Bubbles",
+        "source": "Levelling"
+      },
+      {
+        "name": "Tentacle Whip",
+        "source": "Levelling"
+      },
+      {
+        "name": "Water Blade",
+        "source": "Levelling"
+      },
+      {
+        "name": "Strangle",
+        "source": "Levelling"
+      },
+      {
+        "name": "Aqua Stone",
+        "source": "Levelling"
+      },
+      {
+        "name": "Toxic Ink",
+        "source": "Levelling"
+      },
+      {
+        "name": "High-pressure Water",
+        "source": "Levelling"
+      },
+      {
+        "name": "Humiliating Slap",
+        "source": "Levelling"
+      },
+      {
+        "name": "Flood",
+        "source": "Levelling"
+      },
+      {
+        "name": "Tsunami",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Wake Up",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Major Slash",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Iced Stalactite",
+        "source": "Breeding"
+      },
+      {
+        "name": "Toxic Slime",
+        "source": "Breeding"
+      },
+      {
+        "name": "Clinch",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [
+      "Kalabyss was revealed to the public on the official discord and the Kickstarter update #30.",
+      "Kalabyss' name comes from the combination of the words Calamari + Abyss.",
+      "Kalabyss' name (originally Calabyss) was suggested by the discord user lepastro#3547 in the naming suggestion poll from August 14 and was later modified to Kalabyss to better match its pre-evolutions name."
+    ],
+    "evolution": {
+      "stage": 2,
+      "evolutionTree": [
+        {
+          "number": 127,
+          "name": "Kalazu",
+          "stage": 1,
+          "levels": 18
+        },
+        {
+          "number": 128,
+          "name": "Kalabyss",
+          "stage": 2
+        }
+      ],
+      "evolves": true,
+      "type": "level"
+    },
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/90/Kalabyss.png/250px-Kalabyss.png?version=f0f8a29fec8bbdfd9401e190524b0719",
+    "lumaWikiPortraitUrlLarge": "",
+    "locations": [
+      {
+        "location": "Xolot Reservoir",
+        "island": "Tucma",
+        "frequency": "Rare (10%)",
+        "level": "29-33"
+      }
+    ],
+    "icon": "/images/portraits/temtem/large/Kalabyss.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Kalabyss.png"
   },
   {
     "number": 129,
