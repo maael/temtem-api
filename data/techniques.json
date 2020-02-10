@@ -12,7 +12,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Team",
-    "description": "A burst of allergen spores that inflicts damage to the whole enemy team."
+    "description": "A burst of allergen spores that inflicts damage to the whole team."
   },
   {
     "name": "Antitoxins",
@@ -27,7 +27,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Other Target",
-    "description": "\"Advanced antitoxins that cure Poison on the inoculated target.\""
+    "description": "Advanced antitoxins that cure Poison on the inoculated target."
   },
   {
     "name": "Aqua Bullet Hell",
@@ -42,7 +42,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Other Target",
-    "description": "“\n\nA devastating Water technique developed by legendary tamer Dan Maku.\n\n„\n\n\n\n\n~ In-Game Description"
+    "description": "A devastating Water technique developed by legendary tamer Dan Maku."
   },
   {
     "name": "Aqua Stone",
@@ -57,7 +57,7 @@
     "synergyEffect": "+24 damage",
     "synergyEffectDamage": 24,
     "targets": "Single Other Target",
-    "description": "\"An ingenious application of hydraulic pressure for ballistic purposes\" (Sophia d'Arissola)."
+    "description": "\"An ingenious application of hydraulic pressure for ballistic purposes\" - Sophia d'Arissola."
   },
   {
     "name": "Aquatic Whirlwind",
@@ -72,7 +72,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Other Target",
-    "description": "This water technique is faster than an angry Kalabyss."
+    "description": "This Water technique is faster than an angry Kalabyss."
   },
   {
     "name": "Awful Song",
@@ -87,7 +87,7 @@
     "synergyEffect": "Damage whole team",
     "synergyEffectDamage": 0,
     "targets": "Single Other Target",
-    "description": "\"Ninety-nine Temesseeeence phiaaaals! This horrible Tucmani drinking song does considerable damage (especially to the eardrums!).\""
+    "description": "Ninety-nine Temesseeeence viaaaals! This horrible Tucmani drinking song does considerable damage (especially to the eardrums!)."
   },
   {
     "name": "Bamboozle",
@@ -155,14 +155,14 @@
     "type": "Melee",
     "class": "Status",
     "damage": 0,
-    "staminaCost": 15,
+    "staminaCost": 16,
     "hold": 1,
-    "priority": "high",
+    "priority": "normal",
     "synergy": "None",
-    "synergyEffect": "?",
+    "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Self",
-    "description": "Thou shall not pass! A Melee technique that confers DEF +2."
+    "description": "Thou shall not pass! A  Melee technique that confers DEF +2."
   },
   {
     "name": "Boomerang",
@@ -237,7 +237,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Target",
-    "description": "A Neutral technique that whips the target with heavy chains."
+    "description": "A Neutral technique that whips the opponent with heavy chains."
   },
   {
     "name": "Cheer Up",
@@ -282,7 +282,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Other Target",
-    "description": "A shivery draft that deals light damage and inflicts Cold for 3 turns."
+    "description": "A shivery draft that deals light damage and chills the target with  Cold for 3 turns."
   },
   {
     "name": "Confiscate",
@@ -297,7 +297,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Other Target",
-    "description": "\"Gimme all your stuff! The target is Seized for 3 turns.\""
+    "description": "Gimme all your stuff! The target is Seized for 3 turns."
   },
   {
     "name": "Cooperation",
@@ -368,8 +368,8 @@
     "staminaCost": 27,
     "hold": 0,
     "priority": "high",
-    "synergy": "?",
-    "synergyEffect": "?",
+    "synergy": "None",
+    "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Other Target",
     "description": "This nana-Anak analogue tectonic effect causes crystal shards to extrude from the ground and do damage."
@@ -399,10 +399,10 @@
     "hold": 0,
     "priority": "unknown",
     "synergy": "None",
-    "synergyEffect": "?",
+    "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
-    "description": "To be Announced"
+    "targets": "Single Other Target",
+    "description": "To be Announced."
   },
   {
     "name": "DC Beam",
@@ -417,7 +417,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Other Target",
-    "description": "“\n\nLightning, an elemental force - not extremely powerful, but always reliable.\n\n„\n\n\n\n\n~ In-Game Description"
+    "description": "Lightning, an elemental force; not extremely powerful, but always reliable."
   },
   {
     "name": "Diamond Fort",
@@ -507,7 +507,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Team",
-    "description": "True Electric storm like the monsoon over Cipanku. Damages the whole team."
+    "description": "Game Description"
   },
   {
     "name": "Embers",
