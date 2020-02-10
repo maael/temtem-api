@@ -73,7 +73,7 @@
           "number": 2,
           "name": "Oree",
           "stage": 1,
-          "levels": 0
+          "levels": "+? Levels"
         },
         {
           "number": 3,
@@ -86,14 +86,7 @@
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/99/Oree.png/250px-Oree.png?version=be49bf47c5dd84fff22f85d8154c3ffc",
     "lumaWikiPortraitUrlLarge": "",
-    "locations": [
-      {
-        "location": "?",
-        "island": "Cipanku",
-        "frequency": "?",
-        "level": "?"
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Oree.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Oree.png"
   },
@@ -139,18 +132,12 @@
       "Zaobian's name is derived from zhào (megabyte in Chinese) and túbiàn (mutation in Chinese)."
     ],
     "evolution": {
-      "stage": 2,
+      "stage": 1,
       "evolutionTree": [
-        {
-          "number": 2,
-          "name": "Oree",
-          "stage": 1,
-          "levels": 0
-        },
         {
           "number": 3,
           "name": "Zaobian",
-          "stage": 2
+          "stage": 1
         }
       ],
       "evolves": true,
