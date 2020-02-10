@@ -507,7 +507,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Team",
-    "description": "Game Description"
+    "description": "True Electric storm like the monsoon over Cipanku. Damages whole team."
   },
   {
     "name": "Embers",
@@ -515,7 +515,7 @@
     "type": "Fire",
     "class": "Physical",
     "damage": 63,
-    "staminaCost": 13,
+    "staminaCost": 15,
     "hold": 0,
     "priority": "normal",
     "synergy": "None",
@@ -537,7 +537,7 @@
     "synergyEffect": "+15 damage",
     "synergyEffectDamage": 15,
     "targets": "Single Other Target",
-    "description": "A simple yet quick mental attack that exhausts the target for 1 turn"
+    "description": "A simple yet quick  Mental attack that  exhausts the target for 1 turn."
   },
   {
     "name": "Extinction",
@@ -567,7 +567,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Other Target",
-    "description": "\"Even the softest feather becomes potent when used wisely.\" - Miyako proverb."
+    "description": "\"Even the softest feather becomes a sword if the hand is ture.\" - Miyako proverb."
   },
   {
     "name": "Fierce Claw",
@@ -581,7 +581,7 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "Raw as untamed Temtem and unstoppable as a Kisiwan stampede."
   },
   {
@@ -639,10 +639,10 @@
     "hold": 1,
     "priority": "unknown",
     "synergy": "None",
-    "synergyEffect": "?",
+    "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "?",
-    "description": "To be Announced"
+    "description": "To be Announced."
   },
   {
     "name": "Flood",
@@ -654,8 +654,8 @@
     "hold": 1,
     "priority": "normal",
     "synergy": "Earth",
-    "synergyEffect": "+-2 damage",
-    "synergyEffectDamage": -2,
+    "synergyEffect": "+-1 damage",
+    "synergyEffectDamage": -1,
     "targets": "Single Team",
     "description": "Watch the opponent get all bogged down. The whole team gets SPD -1."
   },
@@ -669,10 +669,10 @@
     "hold": 1,
     "priority": "high",
     "synergy": "None",
-    "synergyEffect": "?",
+    "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Self",
-    "description": "In-Game Description[edit | edit source]"
+    "description": "Advanced balance training developed by Tucmani rockhoppers: it confers SPD +2."
   },
   {
     "name": "Frond Whip",
@@ -701,8 +701,8 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
-    "description": "Invoke the ancient spirit of the Omninesian Jungle to recover 100% STA."
+    "targets": "Self",
+    "description": "Invoke the ancient spirit of the Omninesian jungle to recover 100% STA."
   },
   {
     "name": "Glass Blade",
@@ -731,8 +731,8 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
-    "description": "A slashing open-hand strike in the Cipanki martial tradition. Inflicts Physical damage and leaves them Asleep the same turn."
+    "targets": "Single Other Target",
+    "description": "A slashing open-hand strike in the Cipanki martial arts tradition. Inflicts  Physical damage and leaves them  Asleep the same turn."
   },
   {
     "name": "Hallucination",
@@ -777,7 +777,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Target",
-    "description": "There are many clever uses for a large skull. This is not one of them - but it's effective."
+    "description": "There are many clever uses for a large skull. This is not one of them, but it's effective."
   },
   {
     "name": "Head Ram",
@@ -837,7 +837,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Other Target",
-    "description": "\"All that suppressed rage keeps building up... until it bursts in a nova of wrath.\""
+    "description": "All that suppressed rage keeps building up... until it bursts in a nova of wrath."
   },
   {
     "name": "High-pressure Water",
@@ -851,8 +851,8 @@
     "synergy": "Fire",
     "synergyEffect": "+3 damage",
     "synergyEffectDamage": 3,
-    "targets": "?",
-    "description": "“\n\nAn industrial-grade water jet that packs real punch.\n\n„\n\n\n\n\n~ In-Game Description"
+    "targets": "Single Other Target",
+    "description": "An industrial-grade water jet that packs real punch."
   },
   {
     "name": "Humiliating Slap",
@@ -867,7 +867,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Other Target",
-    "description": "A wounded ego hurts more than a hurt body. This is just the thing. Target loses 1 stage of defense."
+    "description": "A bruised ego hurts more than a wounded body. This is just the thing! DEF -1."
   },
   {
     "name": "Hyperkinetic Strike",
@@ -896,7 +896,7 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "Single Target",
+    "targets": "Single Other Target",
     "description": "A brain hack developed by Arburian Mind specialists that makes the target  Asleep for 2 turns."
   },
   {
@@ -957,7 +957,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Other Target",
-    "description": "Cold *does* bother you anyway... This giant icicle inflicts damage and also Cold for 3 turns."
+    "description": "Cold *does* bother you anyway... This giant icicle inflicts damage and also  Cold for 3 turns."
   },
   {
     "name": "Inner Spirit",
@@ -971,7 +971,7 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "It is said this attack channels the spirit of a long-lost, draconic variety of Temtem, for massive damage."
   },
   {
@@ -986,8 +986,8 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
-    "description": "That \"don't mess with me\" look makes the Temtem untargetable for the next turn"
+    "targets": "Self",
+    "description": "That \"don't mess with me\" look makes the Temtem avoid techniques for the next turn."
   },
   {
     "name": "Jaw Strike",
@@ -1001,7 +1001,7 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "Temtem with powerful jaws always know how to use them..."
   },
   {
@@ -1017,7 +1017,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Other Target",
-    "description": "“\n\nPrimal and instinctive, sometimes a good kick is all you need.\n\n„\n\n\n\n\n~ In-Game Description"
+    "description": "Primal and instinctive, sometimes a good kick is all you need."
   },
   {
     "name": "King's Roar",
@@ -1092,7 +1092,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Other Target",
-    "description": "\"Like a surge of Anak lava to the face! Fire technique that burns for 3 turns.\""
+    "description": "Like a surge of Anak lava to the face! Fire technique that  burns for 3 turns."
   },
   {
     "name": "Major Slash",
@@ -1107,7 +1107,7 @@
     "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "Single Other Target",
-    "description": "\"This blow targets the enemy's weak spot for massive damage.\""
+    "description": "This blow targets the enemy's weak spot for massive damage."
   },
   {
     "name": "Martial Strike",
@@ -1121,8 +1121,8 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
-    "description": "All Melee Temtem are trained to perform this basic but effective attack."
+    "targets": "Single Other Target",
+    "description": "Many Melee Temtem are trained to perform this basic but effective technique."
   },
   {
     "name": "Mechanical Heat",
@@ -1134,10 +1134,10 @@
     "hold": 0,
     "priority": "normal",
     "synergy": "None",
-    "synergyEffect": "?",
+    "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
-    "description": "To be Announced"
+    "targets": "Single Other Target",
+    "description": "To be Announced."
   },
   {
     "name": "Meditation",
@@ -1149,10 +1149,10 @@
     "hold": 0,
     "priority": "unknown",
     "synergy": "Unknown",
-    "synergyEffect": "?",
+    "synergyEffect": "",
     "synergyEffectDamage": 0,
     "targets": "?",
-    "description": "To be Announced"
+    "description": "To be Announced."
   },
   {
     "name": "Meteor Swarm",
@@ -1181,7 +1181,7 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "Single Target",
+    "targets": "Self",
     "description": "\"Mirror, mirror in my hand, who's the best tamer in the Archipelago?\" \"No idea, but you get SPDEF +2\"."
   },
   {
