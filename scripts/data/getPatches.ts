@@ -46,7 +46,7 @@ export default async function getPatches() {
       .filter(({ name }) => !existingNames.includes(name))
       .concat(existing);
     await write("patches", toWrite);
-    return patches;
+    return toWrite;
   } catch (e) {
     log.error(e.message);
   }

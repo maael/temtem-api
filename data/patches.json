@@ -172,9 +172,7 @@
       ],
       "improvements": [],
       "features": [],
-      "balance": [
-        "Increased the price for all breeding gears."
-      ]
+      "balance": ["Increased the price for all breeding gears."]
     }
   },
   {
@@ -231,6 +229,91 @@
       ],
       "improvements": [
         "Several optimizations and improvements on connectivity between the server and the client."
+      ],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
+    "name": "Temtem 0.5.1",
+    "version": "0.5.1",
+    "url": "https://crema.gg/temtem/temtem-0-5-1/",
+    "date": "2020-1-22",
+    "patchInfo": {
+      "fixes": [
+        "Not being able to search long names in the add friend screen.",
+        "Neutral pronouns being used by default on notifications independently of the player’s selected pronoun."
+      ],
+      "improvements": [
+        "Greatly improved the cosmetics data synchronization made by the server to avoid lag spikes when the rooms were full."
+      ],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
+    "name": "Temtem 0.5 – Early Access",
+    "version": "0.5",
+    "url": "https://crema.gg/temtem/temtem-0-5-early-access/",
+    "date": "2020-1-21",
+    "patchInfo": {
+      "fixes": [
+        "👥 Regenerating tutorial showing an incorrect HP recovered amount.",
+        "👥 Incorrect EXP showed after using a growth enhancer.",
+        "Being able to use several items from the Backpack when having high lag.",
+        "Paparazzo’s quest marker not being displayed in the minimap.",
+        "Being able to pick items near a wall while sliding."
+      ],
+      "improvements": [
+        "Improved the starter pick animation.",
+        "Improved the character creation screen: removed scrolls, increased size of the body type sprites, tweaked how the style animations are displayed…",
+        "Added and changed some of the cosmetics available during the character creation to allow more diversity in options.",
+        "When two players send each other the same online request (co-op, add friend, trade…), the request will be automatically accepted.",
+        "Added a cooldown after finishing a conversation and before starting it again.",
+        "Improved navigation in the Squad interface when in co-op.",
+        "Added a visual cue in the HealTem machines to depict the Temessence Phial refilling.",
+        "Added a system message when a co-op party is created.",
+        "Emotes menu won’t cancel notifications anymore.",
+        "Added a gender filter in the Temdeck.",
+        "Added all current breeding gears to the breeding center store.",
+        "Time required for creating an egg has been reduced from 25 / 15 to 10 / 5.",
+        "During the animation when sending a Temtem, the proper Temcard will now be displayed."
+      ],
+      "features": [
+        "Added French, German, Spanish, Japanese, Korean and Simplified Chinese translations. Translations are a work in progress so it is expected to have some parts of the game missing localizations.",
+        "Added a “Redeem” option in the main menu in order to redeem promo codes (Kickstarter backers, future promotions, etc).",
+        "Added a search button on the friends screen. Works both using the exact name or the tamer ID.",
+        "Added hidden hotkeys for every possible action in battleTechnique One: LT+X / Key 1Technique Two: LT+Y / Key 2Technique Three: LT+A / Key 3Technique Four: LT+B / Key 4Swap: RT+X / Key 5Rest: RT+Y / Key 6Item: RT+A / Key 7Run: RT+B / Key 8",
+        "Technique One: LT+X / Key 1",
+        "Technique Two: LT+Y / Key 2",
+        "Technique Three: LT+A / Key 3",
+        "Technique Four: LT+B / Key 4",
+        "Swap: RT+X / Key 5",
+        "Rest: RT+Y / Key 6",
+        "Item: RT+A / Key 7",
+        "Run: RT+B / Key 8",
+        "Added a setting to tweak the dialogs’ speed.",
+        "Added a setting to disable the characters’ voices in dialogs.",
+        "Added a setting to disable the chat (although in the current early access release, it will be always disabled while we work on the final chat implementation).",
+        "Added a profanity filter check to the character names."
+      ],
+      "balance": []
+    }
+  },
+  {
+    "name": "Temtem 0.4.2",
+    "version": "0.4.2",
+    "url": "https://crema.gg/temtem/temtem-0-4-2/",
+    "date": "2020-1-19",
+    "patchInfo": {
+      "fixes": [
+        "Improved Steam authentication to solve errors on the Press Any Key screen.",
+        "Loading screens not waiting until the server OK response leading to users joining the game while disconnected from the server. This caused various problems with pickable objects, cinematics or NPCs.",
+        "Improved character creation load on the server to prevent lag issues while a huge amount of users was creating their characters.",
+        "Errors when naming a Temtem using an apostrophe."
+      ],
+      "improvements": [
+        "Improved the initial queue to load the game to better reflect the real waiting time."
       ],
       "features": [],
       "balance": []
