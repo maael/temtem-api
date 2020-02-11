@@ -138,31 +138,38 @@ export const knownTemtemExample = [
     techniques: [
       {
         name: "Sparks",
-        source: "Levelling"
+        source: "Levelling",
+        levels: 1
       },
       {
         name: "Nimble",
-        source: "Levelling"
+        source: "Levelling",
+        levels: 3
       },
       {
         name: "Wind Blade",
-        source: "Levelling"
+        source: "Levelling",
+        levels: 5
       },
       {
         name: "DC Beam",
-        source: "Levelling"
+        source: "Levelling",
+        levels: 7
       },
       {
         name: "Chain Lightning",
-        source: "Levelling"
+        source: "Levelling",
+        levels: 16
       },
       {
         name: "Drill Impact",
-        source: "Levelling"
+        source: "Levelling",
+        levels: 22
       },
       {
         name: "Electric Storm",
-        source: "Levelling"
+        source: "Levelling",
+        levels: 32
       },
       {
         name: "Turbo Choreography",
