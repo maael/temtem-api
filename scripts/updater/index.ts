@@ -4,13 +4,13 @@ import * as log from "../util/log";
 (async () => {
   await processFiles("data");
   await processFiles("public");
-  await processFiles("logs");
+  await processFiles("codec-logs");
 })().catch(e => {
   log.error(e);
   throw e;
 });
 
-async function processFiles(type: "data" | "public" | "logs") {
+async function processFiles(type: "data" | "public" | "codec-logs") {
   log.info(`Processing ${type} files`);
   const dataGit = getGit(type);
   const dataFiles = await getStagedDataFiles(dataGit, [], type);
