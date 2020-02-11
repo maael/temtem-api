@@ -245,9 +245,22 @@ function getTechniquesFromTable(
         .eq(tdIndex)
         .text()
         .trim();
-      return !techniqueName || techniqueName === "?"
-        ? undefined
-        : { name: techniqueName, source: type };
+      const data =
+        !techniqueName || techniqueName === "?"
+          ? undefined
+          : { name: techniqueName, source: type };
+      if (data && type === "Levelling") {
+        const levels = parseInt(
+          $(el)
+            .find("td")
+            .eq(0)
+            .text()
+            .trim(),
+          10
+        );
+        (data as any).levels = isNaN(levels) ? 0 : levels;
+      }
+      return data;
     })
     .toArray()
     .filter(Boolean);
