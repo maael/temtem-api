@@ -1,7 +1,6 @@
 import got from "got";
 import cheerio from "cheerio";
 import * as log from "../util/log";
-import write from "../util/write";
 import { typedToArray } from "../util/cheerioHelpers";
 
 export interface Technique {
@@ -28,7 +27,6 @@ export default async function getTechniques() {
         };
       })
     );
-    await write("techniques", techniques);
     return techniques;
   } catch (e) {
     log.error(e.message);

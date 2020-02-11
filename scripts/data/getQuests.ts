@@ -1,7 +1,6 @@
 import got from "got";
 import cheerio from "cheerio";
 import * as log from "../util/log";
-import write from "../util/write";
 import { typedToArray } from "../util/cheerioHelpers";
 
 export enum QuestType {
@@ -84,8 +83,6 @@ export default async function getQuests() {
         })
     );
     const quests = [...mainQuests, ...sideQuests];
-    log.info(`Got ${quests.length} quests`);
-    await write("quests", quests);
     return quests;
   } catch (e) {
     log.error(e.message);

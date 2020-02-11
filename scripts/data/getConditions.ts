@@ -1,7 +1,6 @@
 import got from "got";
 import cheerio from "cheerio";
 import * as log from "../util/log";
-import write from "../util/write";
 
 export interface Condition {
   name: string;
@@ -35,7 +34,6 @@ export default async function getStatuses() {
         }));
       statuses.push(...conditions);
     });
-    await write("conditions", statuses);
     return statuses;
   } catch (e) {
     log.error(e.message);

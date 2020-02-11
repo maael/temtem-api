@@ -1,6 +1,5 @@
 import cheerio from "cheerio";
 import * as log from "../util/log";
-import write from "../util/write";
 import fetchHTML from "../util/fetchHTML";
 import { cleanToNumber } from "../util/cleaners";
 import { Technique as MinimalTechnique } from "./getTechniques";
@@ -121,7 +120,6 @@ export default async function embellishTechniques(
       })
       .sort((a, b) => a.name.localeCompare(b.name));
     log.info("Example received", JSON.stringify(result[0]));
-    await write("techniques", result);
     return result;
   } catch (e) {
     log.error(e.message);

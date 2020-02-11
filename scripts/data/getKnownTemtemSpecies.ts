@@ -1,7 +1,6 @@
 import got from "got";
 import cheerio from "cheerio";
 import * as log from "../util/log";
-import write from "../util/write";
 import { cleanToNumber } from "../util/cleaners";
 import { typedToArray } from "../util/cheerioHelpers";
 
@@ -43,7 +42,6 @@ export default async function getKnownTemtemSpecies() {
       ({ number: num, name }) => num !== 0 && !UNSAFE_NAME_REGEX.test(name)
     );
     log.info("Example received:", JSON.stringify(temtem[0]));
-    await write("knownTemtemSpecies", temtem);
     return temtem;
   } catch (e) {
     log.error(e.message);

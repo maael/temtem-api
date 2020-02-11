@@ -1,6 +1,5 @@
 import cheerio from "cheerio";
 import * as log from "../util/log";
-import write from "../util/write";
 import fetchHTML from "../util/fetchHTML";
 import { cleanToNumber } from "../util/cleaners";
 import { typedToArray } from "../util/cheerioHelpers";
@@ -92,7 +91,6 @@ export default async function embellishKnownTemtemSpecies(
         };
       })
       .sort((a, b) => a.number - b.number);
-    await write("knownTemtemSpecies", result);
     return result;
   } catch (e) {
     log.error(e);

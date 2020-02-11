@@ -1,7 +1,6 @@
 import path from "path";
 import cheerio from "cheerio";
 import * as log from "../util/log";
-import write from "../util/write";
 import fetchHTML from "../util/fetchHTML";
 import { Gear as MinimalGear } from "./getGear";
 
@@ -65,7 +64,6 @@ export default async function embellishGear(
       })
       .sort((a, b) => a.name.localeCompare(b.name));
     log.info("Example received", JSON.stringify(result[0]));
-    await write("gear", result);
     return result;
   } catch (e) {
     log.error(e.message);

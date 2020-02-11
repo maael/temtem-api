@@ -2,7 +2,6 @@ import url from "url";
 import got from "got";
 import cheerio from "cheerio";
 import * as log from "../util/log";
-import write from "../util/write";
 import { typedToArray } from "../util/cheerioHelpers";
 
 export enum CosmeticType {
@@ -42,7 +41,6 @@ export default async function getCosmetics() {
       ...getItems($, "#Set", "set"),
       ...getItems($, "#Bag", "bag")
     ];
-    await write("cosmetics", all);
     return all;
   } catch (e) {
     log.error(e.message);

@@ -1,7 +1,6 @@
 import got from "got";
 import cheerio from "cheerio";
 import * as log from "../util/log";
-import write from "../util/write";
 
 const ordering = [
   "Neutral",
@@ -46,7 +45,6 @@ export default async function getWeaknessTable() {
           });
         table[ordering[i - 1]] = row;
       });
-    await write("weaknesses", table);
     return table;
   } catch (e) {
     log.error(e.message);

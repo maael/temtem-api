@@ -2,7 +2,6 @@ import url from "url";
 import got from "got";
 import cheerio from "cheerio";
 import * as log from "../util/log";
-import write from "../util/write";
 import { typedToArray } from "../util/cheerioHelpers";
 
 export interface Dye {
@@ -72,7 +71,6 @@ export default async function getDyes() {
           };
         })
     );
-    await write("dyes", dyes);
     return dyes;
   } catch (e) {
     log.error(e.message);

@@ -1,6 +1,4 @@
 import cheerio from "cheerio";
-import * as log from "../util/log";
-import write from "../util/write";
 import fetchHTML from "../util/fetchHTML";
 import { Patch as MinimalPatch } from "./getPatches";
 
@@ -16,10 +14,8 @@ export interface Patch extends MinimalPatch {
 export default async function embellishPatches(
   patches: MinimalPatch[]
 ): Promise<Patch[]> {
-  log.todo(`Embellishing ${patches.length} patches`);
   const webpages = await fetchHTML("patches", patches, "url");
   const result = webpages.map(embellishPatch);
-  await write("patches", result);
   return result;
 }
 

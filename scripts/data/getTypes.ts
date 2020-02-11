@@ -1,5 +1,4 @@
 import * as log from "../util/log";
-import write from "../util/write";
 
 const ordering = [
   "Neutral",
@@ -24,7 +23,6 @@ export default async function getTypes() {
       name: t,
       icon: `/images/icons/types/${t}.png`
     }));
-    await write("types", types);
     return types;
   } catch (e) {
     log.error(e.message);

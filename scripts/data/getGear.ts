@@ -1,7 +1,6 @@
 import got from "got";
 import cheerio from "cheerio";
 import * as log from "../util/log";
-import write from "../util/write";
 import { typedToArray } from "../util/cheerioHelpers";
 
 export interface Gear {
@@ -28,7 +27,6 @@ export default async function getGear() {
         };
       })
     );
-    await write("gear", gear);
     return gear;
   } catch (e) {
     log.error(e.message);

@@ -1,7 +1,6 @@
 import got from "got";
 import cheerio from "cheerio";
 import * as log from "../util/log";
-import write from "../util/write";
 import { typedToArray } from "../util/cheerioHelpers";
 
 export interface Patch {
@@ -45,7 +44,6 @@ export default async function getPatches() {
     const toWrite = patches
       .filter(({ name }) => !existingNames.includes(name))
       .concat(existing);
-    await write("patches", toWrite);
     return toWrite;
   } catch (e) {
     log.error(e.message);

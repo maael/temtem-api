@@ -1,6 +1,5 @@
 import cheerio from "cheerio";
 import * as log from "../util/log";
-import write from "../util/write";
 import fetchHTML from "../util/fetchHTML";
 import { Trait as MinimalTrait } from "./getTraits";
 
@@ -29,7 +28,6 @@ export default async function getTraits(
         };
       })
       .sort((a, b) => a.name.localeCompare(b.name));
-    await write("traits", result);
     return result;
   } catch (e) {
     log.error(e.message);

@@ -1,6 +1,5 @@
 import cheerio from "cheerio";
 import * as log from "../util/log";
-import write from "../util/write";
 import fetchHTML from "../util/fetchHTML";
 import {
   Quest as MinimalQuest,
@@ -73,6 +72,5 @@ export default async function embellishQuests(quests: MinimalQuest[]) {
         .trim()
     };
   });
-  await write("quests", embellished);
   return embellished;
 }
