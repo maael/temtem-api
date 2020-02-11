@@ -69,6 +69,9 @@ const SEPARATOR = `\n\n${Array.from({ length: 10 })
   .join("")}\n\n`;
 
 async function openGitHubIssue(codecKey: Codec, data: any, report: string[]) {
+  if (!process.env.CI) {
+    return "[Local issue]";
+  }
   try {
     const { url } = await got(
       `https://api.github.com/repos/maael/temtem-api/issues`,
