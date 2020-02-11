@@ -59,17 +59,8 @@ export default async function embellishGear(
           limitedQuantity: getInfoBox($, "Limited Quantity") === "Yes",
           purchasable: getInfoBox($, "Purchasable") === "Yes",
           buyPrice: getInfoBox($, "Buy Price") || 0,
-          description: $("#mw-content-text>.mw-parser-output>p")
-            .first()
-            .text()
-            .replace(/\n/g, "")
-            .trim(),
-          gameDescription: $("#Description")
-            .parent()
-            .next()
-            .text()
-            .replace(/\n/g, "")
-            .trim()
+          description: getDescription($),
+          gameDescription: getGameDescription($)
         };
       })
       .sort((a, b) => a.name.localeCompare(b.name));
@@ -79,4 +70,32 @@ export default async function embellishGear(
   } catch (e) {
     log.error(e.message);
   }
+}
+
+function getDescription($: CheerioStatic) {
+  const firstP = $("#mw-content-text>.mw-parser-output>p")
+    .first()
+    .text()
+    .replace(/\n/g, "")
+    .trim();
+  const firstPSibling = $("#mw-content-text>.mw-parser-output>p")
+    .first()
+    .next();
+  let potentialSecondPContent = "";
+  if (firstPSibling[0] && firstPSibling[0].name === "p") {
+    potentialSecondPContent = firstPSibling
+      .text()
+      .replace(/\n/g, "")
+      .trim();
+  }
+  return `${firstP}${potentialSecondPContent}`;
+}
+
+function getGameDescription($: CheerioStatic) {
+  return $("#Description")
+    .parent()
+    .next()
+    .text()
+    .replace(/\n/g, "")
+    .trim();
 }
