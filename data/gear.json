@@ -1,138 +1,444 @@
 [
   {
     "name": "Aggressive DNA Strand",
-    "wikiUrl": "https://temtem.gamepedia.com/Aggressive_DNA_Strand"
+    "wikiUrl": "https://temtem.gamepedia.com/Aggressive_DNA_Strand",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/82/Aggressive_DNA_Strand.png/250px-Aggressive_DNA_Strand.png",
+    "icon": "/images/icons/gear/Aggressive_DNA_Strand.png",
+    "category": "Gear",
+    "consumable": true,
+    "limitedQuantity": false,
+    "purchasable": true,
+    "buyPrice": 1000,
+    "description": "",
+    "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's ATK."
   },
   {
     "name": "Chamomile",
-    "wikiUrl": "https://temtem.gamepedia.com/Chamomile"
+    "wikiUrl": "https://temtem.gamepedia.com/Chamomile",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/3/31/Chamomile.png",
+    "icon": "/images/icons/gear/Chamomile.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "When entering the battlefield, removes stage changes."
   },
   {
     "name": "Coat",
-    "wikiUrl": "https://temtem.gamepedia.com/Coat"
+    "wikiUrl": "https://temtem.gamepedia.com/Coat",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/b/bb/Decoy.png",
+    "icon": "/images/icons/gear/Decoy.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "\"Damage taken from Wind techniques is reduced by 20%.\""
   },
   {
     "name": "Coward's Cloak",
-    "wikiUrl": "https://temtem.gamepedia.com/Coward%27s_Cloak"
+    "wikiUrl": "https://temtem.gamepedia.com/Coward%27s_Cloak",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/8e/Coward%27s_Cloak.png",
+    "icon": "/images/icons/gear/Coward%27s_Cloak.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "\"Revolutionary cogno-cloak that allows the Temtem holding it to gain experience from battle without even taking part in it.\""
   },
   {
     "name": "Decoy",
-    "wikiUrl": "https://temtem.gamepedia.com/Decoy"
+    "wikiUrl": "https://temtem.gamepedia.com/Decoy",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/b/bb/Decoy.png",
+    "icon": "/images/icons/gear/Decoy.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "\"Useful distraction if you want to run away.\""
   },
   {
     "name": "Dominant DNA Strand",
-    "wikiUrl": "https://temtem.gamepedia.com/Dominant_DNA_Strand"
+    "wikiUrl": "https://temtem.gamepedia.com/Dominant_DNA_Strand",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/3f/Dominant_DNA_Strand.png/250px-Dominant_DNA_Strand.png",
+    "icon": "/images/icons/gear/Dominant_DNA_Strand.png",
+    "category": "Gear",
+    "consumable": true,
+    "limitedQuantity": false,
+    "purchasable": true,
+    "buyPrice": 1000,
+    "description": "",
+    "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's SPDEF."
   },
   {
     "name": "Endurance DNA Strand",
-    "wikiUrl": "https://temtem.gamepedia.com/Endurance_DNA_Strand"
+    "wikiUrl": "https://temtem.gamepedia.com/Endurance_DNA_Strand",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5a/Endurance_DNA_Strand.png/250px-Endurance_DNA_Strand.png",
+    "icon": "/images/icons/gear/Endurance_DNA_Strand.png",
+    "category": "Gear",
+    "consumable": true,
+    "limitedQuantity": false,
+    "purchasable": true,
+    "buyPrice": 1000,
+    "description": "",
+    "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's STA."
   },
   {
     "name": "Energy Drink",
-    "wikiUrl": "https://temtem.gamepedia.com/Energy_Drink"
+    "wikiUrl": "https://temtem.gamepedia.com/Energy_Drink",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/7/7e/Energy_Drink.png",
+    "icon": "/images/icons/gear/Energy_Drink.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "NEEDS DESCRIPTION"
   },
   {
     "name": "Engineered DNA Strand",
-    "wikiUrl": "https://temtem.gamepedia.com/Engineered_DNA_Strand"
+    "wikiUrl": "https://temtem.gamepedia.com/Engineered_DNA_Strand",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/91/Engineered_DNA_Strand.png/250px-Engineered_DNA_Strand.png",
+    "icon": "/images/icons/gear/Engineered_DNA_Strand.png",
+    "category": "Gear",
+    "consumable": true,
+    "limitedQuantity": false,
+    "purchasable": false,
+    "buyPrice": 10000,
+    "description": "",
+    "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's trait slot."
   },
   {
     "name": "Fire Chip",
-    "wikiUrl": "https://temtem.gamepedia.com/Fire_Chip"
+    "wikiUrl": "https://temtem.gamepedia.com/Fire_Chip",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/88/Fire_Chip.png",
+    "icon": "/images/icons/gear/Fire_Chip.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "Damage done by Fire Techniques is increased by 10%."
   },
   {
     "name": "Four-Leaf Clover",
-    "wikiUrl": "https://temtem.gamepedia.com/Four-Leaf_Clover"
+    "wikiUrl": "https://temtem.gamepedia.com/Four-Leaf_Clover",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/3/37/Four-leaf_Clover.png",
+    "icon": "/images/icons/gear/leaf_Clover.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "Increases the catch percentage when facing wild Temtem."
   },
   {
     "name": "Gifted DNA Strand",
-    "wikiUrl": "https://temtem.gamepedia.com/Gifted_DNA_Strand"
+    "wikiUrl": "https://temtem.gamepedia.com/Gifted_DNA_Strand",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/06/Gifted_DNA_Strand.png/250px-Gifted_DNA_Strand.png",
+    "icon": "/images/icons/gear/Gifted_DNA_Strand.png",
+    "category": "Gear",
+    "consumable": true,
+    "limitedQuantity": false,
+    "purchasable": true,
+    "buyPrice": 1000,
+    "description": "",
+    "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's SPATK."
   },
   {
     "name": "Grease",
-    "wikiUrl": "https://temtem.gamepedia.com/Grease"
+    "wikiUrl": "https://temtem.gamepedia.com/Grease",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/9/91/Grease.png",
+    "icon": "/images/icons/gear/Grease.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "Prevents the Trapped status condition."
   },
   {
     "name": "Hand Fan",
-    "wikiUrl": "https://temtem.gamepedia.com/Hand_Fan"
+    "wikiUrl": "https://temtem.gamepedia.com/Hand_Fan",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7f/Hand_Fan.png/250px-Hand_Fan.png",
+    "icon": "/images/icons/gear/Hand_Fan.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "Damage done by  Wind Techniques is increased by 10%."
   },
   {
     "name": "Hardening DNA Strand",
-    "wikiUrl": "https://temtem.gamepedia.com/Hardening_DNA_Strand"
+    "wikiUrl": "https://temtem.gamepedia.com/Hardening_DNA_Strand",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d2/Hardening_DNA_Strand.png/250px-Hardening_DNA_Strand.png",
+    "icon": "/images/icons/gear/Hardening_DNA_Strand.png",
+    "category": "Gear",
+    "consumable": true,
+    "limitedQuantity": false,
+    "purchasable": true,
+    "buyPrice": 1000,
+    "description": "",
+    "gameDescription": "Hardening DNA Strand This single-use DNA strand ensures the egg inherits the parent's DEF."
   },
   {
     "name": "Ice Cube",
-    "wikiUrl": "https://temtem.gamepedia.com/Ice_Cube"
+    "wikiUrl": "https://temtem.gamepedia.com/Ice_Cube",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/f/ff/IceCube.png",
+    "icon": "/images/icons/gear/IceCube.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "Damage taken from Fire Techniques is reduced by 20%."
   },
   {
     "name": "Immunity DNA Strand",
-    "wikiUrl": "https://temtem.gamepedia.com/Immunity_DNA_Strand"
+    "wikiUrl": "https://temtem.gamepedia.com/Immunity_DNA_Strand",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/33/Immunity_DNA_Strand.png/250px-Immunity_DNA_Strand.png",
+    "icon": "/images/icons/gear/Immunity_DNA_Strand.png",
+    "category": "Gear",
+    "consumable": true,
+    "limitedQuantity": false,
+    "purchasable": false,
+    "buyPrice": 5000,
+    "description": "",
+    "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's DEF and SPDEF."
   },
   {
     "name": "Lightning Rod",
-    "wikiUrl": "https://temtem.gamepedia.com/Lightning_Rod"
+    "wikiUrl": "https://temtem.gamepedia.com/Lightning_Rod",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/6/62/Lightning_Rod.png",
+    "icon": "/images/icons/gear/Lightning_Rod.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "Damage taken from  Electric Techniques is reduced by 20%."
   },
   {
     "name": "Lithe DNA Strand",
-    "wikiUrl": "https://temtem.gamepedia.com/Lithe_DNA_Strand"
+    "wikiUrl": "https://temtem.gamepedia.com/Lithe_DNA_Strand",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a2/Lithe_DNA_Strand.png/250px-Lithe_DNA_Strand.png",
+    "icon": "/images/icons/gear/Lithe_DNA_Strand.png",
+    "category": "Gear",
+    "consumable": true,
+    "limitedQuantity": false,
+    "purchasable": true,
+    "buyPrice": 1000,
+    "description": "",
+    "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's SPD."
   },
   {
     "name": "Lure",
-    "wikiUrl": "https://temtem.gamepedia.com/Lure"
+    "wikiUrl": "https://temtem.gamepedia.com/Lure",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/1/11/Lure.png",
+    "icon": "/images/icons/gear/Lure.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "Untamed Temtem can't ignore this delicious Lure and are forced to target the bearer. (Equipped Temtem will be the focus of all attacks in wild encounters)"
   },
   {
     "name": "Mighty DNA Strand",
-    "wikiUrl": "https://temtem.gamepedia.com/Mighty_DNA_Strand"
+    "wikiUrl": "https://temtem.gamepedia.com/Mighty_DNA_Strand",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/67/Mighty_DNA_Strand.png/250px-Mighty_DNA_Strand.png",
+    "icon": "/images/icons/gear/Mighty_DNA_Strand.png",
+    "category": "Gear",
+    "consumable": true,
+    "limitedQuantity": false,
+    "purchasable": false,
+    "buyPrice": 5000,
+    "description": "",
+    "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's ATK and SPATK"
   },
   {
     "name": "Pansunscreen",
-    "wikiUrl": "https://temtem.gamepedia.com/Pansunscreen"
+    "wikiUrl": "https://temtem.gamepedia.com/Pansunscreen",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/2/22/Pansunscreen.png",
+    "icon": "/images/icons/gear/Pansunscreen.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "Prevents the  Burned Status condition."
   },
   {
     "name": "Pillow",
-    "wikiUrl": "https://temtem.gamepedia.com/Pillow"
+    "wikiUrl": "https://temtem.gamepedia.com/Pillow",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/3/36/Pillow.png",
+    "icon": "/images/icons/gear/Pillow.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "At the start of the turn, restores 10% of max hp of an  Asleep Temtem."
   },
   {
     "name": "Proteins",
-    "wikiUrl": "https://temtem.gamepedia.com/Proteins"
+    "wikiUrl": "https://temtem.gamepedia.com/Proteins",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/9/93/Proteins.png",
+    "icon": "/images/icons/gear/Proteins.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "Is obtained at the end of the Giant Banyan inside of the building. You must walk through the door. Inside are three item boxes: Proteins, a Green dye, and Lady Lottie's Diary."
   },
   {
     "name": "Rock Shield",
-    "wikiUrl": "https://temtem.gamepedia.com/Rock_Shield"
+    "wikiUrl": "https://temtem.gamepedia.com/Rock_Shield",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/be/Rock_Shield.png/250px-Rock_Shield.png",
+    "icon": "/images/icons/gear/Rock_Shield.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "Obtaining[edit | edit source]"
   },
   {
     "name": "Shuine's Horn",
-    "wikiUrl": "https://temtem.gamepedia.com/Shuine%27s_Horn"
+    "wikiUrl": "https://temtem.gamepedia.com/Shuine%27s_Horn",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e9/Shuine%27s_Horn.png/250px-Shuine%27s_Horn.png",
+    "icon": "/images/icons/gear/Shuine%27s_Horn.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "Changes the Temtem's Toxic-type Techniques to Water"
   },
   {
     "name": "Snare",
-    "wikiUrl": "https://temtem.gamepedia.com/Snare"
+    "wikiUrl": "https://temtem.gamepedia.com/Snare",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/b/b9/Snare.png",
+    "icon": "/images/icons/gear/Snare.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "When attacked, disables the attacker's gear."
   },
   {
     "name": "Squeezer",
-    "wikiUrl": "https://temtem.gamepedia.com/Squeezer"
+    "wikiUrl": "https://temtem.gamepedia.com/Squeezer",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/c/c8/Squeezer.png",
+    "icon": "/images/icons/gear/Squeezer.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "Healing medicine items used in battle restore an additional 70% HP"
   },
   {
     "name": "Sweatband",
-    "wikiUrl": "https://temtem.gamepedia.com/Sweatband"
+    "wikiUrl": "https://temtem.gamepedia.com/Sweatband",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/1/1b/Sweatband.png",
+    "icon": "/images/icons/gear/Sweatband.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "At the start of the turn restores 15% of max STA"
   },
   {
     "name": "Talisman",
-    "wikiUrl": "https://temtem.gamepedia.com/Talisman"
+    "wikiUrl": "https://temtem.gamepedia.com/Talisman",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/9/99/Talisman.png",
+    "icon": "/images/icons/gear/Talisman.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "\"Prevents the Doomed Status condition.\""
   },
   {
     "name": "Tucma Mask",
-    "wikiUrl": "https://temtem.gamepedia.com/Tucma_Mask"
+    "wikiUrl": "https://temtem.gamepedia.com/Tucma_Mask",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/a/a1/Tucma_Mask.png",
+    "icon": "/images/icons/gear/Tucma_Mask.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "Damage taken from Toxic Techniques is reduced by 20%"
   },
   {
     "name": "Umbrella",
-    "wikiUrl": "https://temtem.gamepedia.com/Umbrella"
+    "wikiUrl": "https://temtem.gamepedia.com/Umbrella",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/0/06/Umbrella.png",
+    "icon": "/images/icons/gear/Umbrella.png",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "",
+    "gameDescription": "\"Damage taken from Water Techniques is reduced by 20%\""
   },
   {
     "name": "Vigor DNA Strand",
-    "wikiUrl": "https://temtem.gamepedia.com/Vigor_DNA_Strand"
+    "wikiUrl": "https://temtem.gamepedia.com/Vigor_DNA_Strand",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/29/Vigor_DNA_Strand.png/250px-Vigor_DNA_Strand.png",
+    "icon": "/images/icons/gear/Vigor_DNA_Strand.png",
+    "category": "Gear",
+    "consumable": true,
+    "limitedQuantity": false,
+    "purchasable": false,
+    "buyPrice": 5000,
+    "description": "",
+    "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's HP and STA."
   },
   {
     "name": "Vitality DNA Strand",
-    "wikiUrl": "https://temtem.gamepedia.com/Vitality_DNA_Strand"
+    "wikiUrl": "https://temtem.gamepedia.com/Vitality_DNA_Strand",
+    "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/46/Vitality_DNA_Strand.png/250px-Vitality_DNA_Strand.png",
+    "icon": "/images/icons/gear/Vitality_DNA_Strand.png",
+    "category": "Gear",
+    "consumable": true,
+    "limitedQuantity": false,
+    "purchasable": true,
+    "buyPrice": 1000,
+    "description": "",
+    "gameDescription": "Vitality DNA Strand This single-use DNA strand ensures the egg inherits the parent's HP."
   }
 ]
