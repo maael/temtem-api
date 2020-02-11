@@ -74,7 +74,7 @@ function getItems($, selector, type) {
             }))
         );
         const imageParts = url.parse(items[0].wikiImageUrl || "");
-        const parsedCost = parseInt(items[3].text, 10);
+        const parsedCost = parseInt(items[3].text.replace(/,/g, ""), 10);
         return {
           type,
           wikiImageUrl: items[0].wikiImageUrl
