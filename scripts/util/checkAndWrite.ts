@@ -1,5 +1,6 @@
 import { promises as fs } from "fs";
 import path from "path";
+import got from "got";
 import { PathReporter } from "io-ts/lib/PathReporter";
 import codecMap, { Codec } from "../checker/codecs";
 import * as log from "./log";
@@ -51,13 +52,54 @@ async function writeErrorLog(
       .split(".")[0];
     const logName = `[error]-[${dateTime}]-[${codecKey}]-[${file}].log`;
     const logPath = path.join(__dirname, "..", "..", "codec-logs", logName);
-    await fs.writeFile(
-      logPath,
-      `${JSON.stringify(data, undefined, 2)}\n\n${Array.from({ length: 10 })
-        .map(() => "-")
-        .join("")}\n\n${report.join("\n")}`
-    );
+    const issueUrl = await openGitHubIssue(codecKey, data, report);
+    const body = `Issue: ${issueUrl}${SEPARATOR}${JSON.stringify(
+      data,
+      undefined,
+      2
+    )}${SEPARATOR}${report.join("\n")}`;
+    await fs.writeFile(logPath, body);
   } catch (e) {
     log.error(`Problem writing error log: "${e.message}"`);
+  }
+}
+
+const SEPARATOR = `\n\n${Array.from({ length: 10 })
+  .map(() => "-")
+  .join("")}\n\n`;
+
+async function openGitHubIssue(codecKey: Codec, data: any, report: string[]) {
+  try {
+    const { url } = await got(
+      `https://api.github.com/repos/maael/temtem-api/issues`,
+      {
+        method: "POST",
+        headers: {
+          Authorization: `token ${process.env.GITHUB_TOKEN}`
+        },
+        body: JSON.stringify({
+          title: `[${codecKey}] data codec failure`,
+          body: `
+${codecKey} data failed its codec check.
+
+# Report
+
+-\`${report.join("`\n-`")}\`
+
+# Data
+
+${"```json"}
+${JSON.stringify(data, undefined, 2)}
+${"```"}
+        `,
+          labels: ["bug", "data issue"],
+          assignees: ["maael"]
+        })
+      }
+    ).json();
+    return url;
+  } catch (e) {
+    log.error(`Problem creating GitHub issue: "${e.message}"`);
+    return "[No issue]";
   }
 }
