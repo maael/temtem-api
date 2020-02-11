@@ -90,5 +90,7 @@ Also fair warning, I made this quick, so while it is Typescript, it's super loos
 - [ ] Breeding API endpoint
 - [ ] Maybe automatic typing with [quicktype](https://app.quicktype.io/) or something
 - [ ] Make failing codec checks remove just that file from the push, and post an issue to GitHub with the failing diff.
+  - [x] Data failing codec checks is not written.
+  - [ ] Post an issue to GitHub with the failing data/report.
 - [ ] Finish making data available under graphql endpoint. ([minimal example here](https://github.com/zeit/next.js/pull/7804/files))
 - [ ] Fix [this TODO](./scripts/data/embellishTechniques.ts#L74-L81) for technique synergy data.
