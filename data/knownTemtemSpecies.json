@@ -5429,12 +5429,12 @@
     "stats": {
       "hp": 66,
       "sta": 46,
-      "spd": 48,
+      "spd": 40,
       "atk": 46,
       "def": 74,
       "spatk": 69,
       "spdef": 43,
-      "total": 392
+      "total": 384
     },
     "traits": [
       "Furor",
@@ -6898,8 +6898,8 @@
       }
     ],
     "trivia": [
+      "Magmis' name is a combination of malleus (Hammer in Latin) and ignis (Fire in Latin).",
       "Magmis was first revealed via Twitter.",
-      "Magmis's name is a combination of malleus (Hammer in Latin) and ignis (Fire in Latin).",
       "Magmis was the first Temtem with a confirmed evolution."
     ],
     "evolution": {
@@ -7021,8 +7021,8 @@
       }
     ],
     "trivia": [
-      "Mastione was first revealed via Twitter.",
       "Mastione's name is derived from malleus (Hammer in Latin) and combustione (Combustion in Latin).",
+      "Mastione was first revealed via Twitter.",
       "Mastione was the first Temtem with a confirmed preevolution."
     ],
     "evolution": {
@@ -7144,8 +7144,10 @@
       }
     ],
     "trivia": [
-      "Umishi was first seen in iNinjaHero's Twitch stream on 08/08/2018.",
-      "Umishi's name is derived from umi (sea in Japanese) and tenshi (angel in Japanese)."
+      "Umishi's name is derived from umi (sea in Japanese) and tenshi (angel in Japanese).\nThe name Umishi was suggested by Ava Duhrkopp#4286 of the Temtem Discord in the Temtem naming suggestion poll from September 24 2018.",
+      "The name Umishi was suggested by Ava Duhrkopp#4286 of the Temtem Discord in the Temtem naming suggestion poll from September 24 2018.",
+      "The overall design seems to be based off salamander larvae. This would make it one of the several known temtems to be based off salamanders.",
+      "Umishi was first seen in iNinjaHero's Twitch stream on 08/08/2018."
     ],
     "evolution": {
       "stage": 1,
@@ -7172,7 +7174,7 @@
         "location": "Thalassian Cliffs",
         "island": "Deniz",
         "frequency": "Common (50%-90%)",
-        "level": "17-19"
+        "level": "17-18"
       },
       {
         "location": "Sillaro River",
@@ -7181,10 +7183,10 @@
         "level": "13-15"
       },
       {
-        "location": "Aguamarina Caves[citation needed]",
+        "location": "Aguamarina Caves? (Need confirmation of location)",
         "island": "Deniz",
-        "frequency": "",
-        "level": ""
+        "frequency": "Common (?%)",
+        "level": "18-20"
       }
     ],
     "icon": "/images/portraits/temtem/large/Umishi.png",
@@ -7352,9 +7354,9 @@
     },
     "techniques": [],
     "trivia": [
+      "Raignet's name is a combination of the words rai (thunder in japanese, 雷) and magnet (a metallic object that can attract other metals).",
       "Raignet was first revealed via Twitter.",
-      "Raignet's name is a combination of the words 雷 rai (thunder) and magnet (a metallic object that can attract other metals).",
-      "Raignet may not be an Electric Type temtem, but it's design, name and being included in the Electric type examples suggests it almost certainly is."
+      "Raignet may not be an Electric Type Temtem, but it's design, name and being included in the Electric type examples suggests it almost certainly is."
     ],
     "evolution": {
       "stage": 2,
@@ -7363,7 +7365,7 @@
           "number": -1,
           "name": "Unknown",
           "stage": 1,
-          "levels": "+ Levels"
+          "levels": "+? Levels"
         },
         {
           "number": 91,
@@ -7473,7 +7475,7 @@
       }
     ],
     "trivia": [
-      "Smazee's name is derived trom smack and chimpanzee."
+      "Smazee's name is derived from smack and chimpanzee."
     ],
     "evolution": {
       "stage": 1,
@@ -7488,7 +7490,7 @@
           "number": 93,
           "name": "Baboong",
           "stage": 2,
-          "levels": 0
+          "levels": "+? Levels"
         },
         {
           "number": -1,
@@ -7501,14 +7503,7 @@
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f7/Smazee.png/250px-Smazee.png?version=7935f03519b742cab5db6f412b746f07",
     "lumaWikiPortraitUrlLarge": "",
-    "locations": [
-      {
-        "location": "?",
-        "island": "Arbury",
-        "frequency": "?",
-        "level": "?"
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Smazee.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Smazee.png"
   },
@@ -7630,7 +7625,7 @@
           "number": 93,
           "name": "Baboong",
           "stage": 2,
-          "levels": 0
+          "levels": "+? Levels"
         },
         {
           "number": -1,
@@ -7643,13 +7638,7 @@
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/28/Baboong.png/250px-Baboong.png?version=3089a006c1697f592a47467468b3a209",
     "lumaWikiPortraitUrlLarge": "",
-    "locations": [
-      {
-        "location": "",
-        "frequency": "",
-        "level": ""
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Baboong.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Baboong.png"
   },
@@ -7685,8 +7674,8 @@
     },
     "techniques": [],
     "trivia": [
-      "Zizare was first seen through the Kickstarter Video then fully revealed on Twitter.",
-      "Zizare is the Basque word for \"earthworm\". Coincidentally, the name could also be a combination of the words \"zig-zag\" and \"bizarre\"."
+      "Zizare is the Basque word for \"earthworm\". Coincidentally, the name could also be a combination of the words \"zig-zag\" and \"bizarre\".",
+      "Zizare was first seen through the Kickstarter Video then fully revealed on Twitter."
     ],
     "evolution": {
       "evolves": false
