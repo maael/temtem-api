@@ -931,7 +931,7 @@
         "location": "The Glassyway",
         "island": "Omninesia",
         "frequency": "Common (80%)",
-        "level": "19-22<"
+        "level": "19-22"
       }
     ],
     "icon": "/images/portraits/temtem/large/Loali.png",
@@ -1058,7 +1058,7 @@
       }
     ],
     "trivia": [
-      "Tateru's name comes from the Japanese word for stand/erect: 立てる / tateru.",
+      "Tateru's name comes from tateru (Japanese word for stand/erect: 立てる).",
       "Tateru was first revealed through its color test concept art.",
       "Tateru was recolored many times before the final look was chosen, as depicted in its concept art.",
       "Tateru has an emote on the official Temtem Discord. It portrays a police officer."
@@ -1082,16 +1082,16 @@
         "level": "4-6"
       },
       {
-        "location": "The Gifted Bridges",
-        "island": "Deniz",
-        "frequency": "Uncommon",
-        "level": "8-10"
-      },
-      {
         "location": "Windward Fort",
         "island": "Deniz",
         "frequency": "Rare",
         "level": "12-13"
+      },
+      {
+        "location": "The Gifted Bridges",
+        "island": "Deniz",
+        "frequency": "Uncommon",
+        "level": "8-10"
       },
       {
         "location": "Aguamarina Caves",
@@ -1100,7 +1100,7 @@
         "level": "15-18"
       },
       {
-        "location": "Waterfall floor of Aguamarina Caves",
+        "location": "Aguamarina Caves",
         "island": "Deniz",
         "frequency": "Rare",
         "level": "18-20"
@@ -2115,7 +2115,7 @@
       {
         "location": "The Canopath",
         "island": "Omninesia",
-        "frequency": "40%",
+        "frequency": "Uncommon (40%)",
         "level": "14-17"
       },
       {
@@ -6198,7 +6198,7 @@
         "level": "28-30"
       },
       {
-        "location": "Kupeleleza (furthest east island which is covered with grass)",
+        "location": "KupelelezaFurthest east island which is covered with grass",
         "island": "Tucma",
         "frequency": "Very Rare (5%)",
         "level": "24-28"
@@ -6378,7 +6378,7 @@
       }
     ],
     "trivia": [
-      "The term \"Hocus Pocus\" is a common phrase attributed to magicians and witches. Both Hocus and it's evolution are named after the phrase.",
+      "The term \"Hocus Pocus\" is a common phrase attributed to magicians and witches. Both Hocus and it's evolution, Pocus, are named after the phrase.",
       "Hocus is Lady Lottie's signature Temtem."
     ],
     "evolution": {
@@ -6388,7 +6388,7 @@
           "number": 79,
           "name": "Hocus",
           "stage": 1,
-          "levels": 0
+          "levels": 17
         },
         {
           "number": 80,
@@ -6401,14 +6401,7 @@
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d7/Hocus.png/250px-Hocus.png?version=fef98f08c5fea97385ed36931d5b5635",
     "lumaWikiPortraitUrlLarge": "",
-    "locations": [
-      {
-        "location": "The Gifted Bridges",
-        "island": "Deniz",
-        "frequency": "20%",
-        "level": "25-30"
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Hocus.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Hocus.png"
   },
@@ -6462,7 +6455,7 @@
           "number": 79,
           "name": "Hocus",
           "stage": 1,
-          "levels": 0
+          "levels": 17
         },
         {
           "number": 80,
@@ -6475,14 +6468,7 @@
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fb/Pocus.png/250px-Pocus.png?version=7c2ab438239957313985627902ca26ce",
     "lumaWikiPortraitUrlLarge": "",
-    "locations": [
-      {
-        "location": "?",
-        "island": "Arbury",
-        "frequency": "?",
-        "level": "?"
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Pocus.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Pocus.png"
   },
@@ -6557,25 +6543,39 @@
       }
     ],
     "trivia": [
+      "Sparzy's name derives from a combination of the word \"spark\" which is a small flash of light that is made from electricity, and the word \"crazy\" which means mad, wild, or overenthusiastic behaviour.",
       "Sparzy was first revealed unnamed via Twitter.",
-      "\"Sparzy\" name derives from a combination of the word \"spark\" which is a small flash of light that is made from electricity, and the word \"crazy\" which means mad, wild, or overenthusiastic behaviour.",
       "Sparzy’s name came from Yerin's suggestion on Twitter.",
       "Sparzy has an emote on the official Temtem discord.",
       "What might be an earlier evolution-stage of Sparzy can be seen in the official Anime-styled trailer of Temtem. It has a very strong resemblance to Sparzy in both colour scheme and shape."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 2,
+      "evolutionTree": [
+        {
+          "number": -1,
+          "name": "Unknown",
+          "stage": 1,
+          "levels": "+? Levels"
+        },
+        {
+          "number": 82,
+          "name": "Sparzy",
+          "stage": 2,
+          "levels": "+? Levels"
+        },
+        {
+          "number": -1,
+          "name": "Unknown",
+          "stage": 3
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/80/Sparzy.png/250px-Sparzy.png?version=2e48ac98b1c077a9ab73f01b07365152",
     "lumaWikiPortraitUrlLarge": "",
-    "locations": [
-      {
-        "location": "?",
-        "island": "Cipanku",
-        "frequency": "?",
-        "level": "?"
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Sparzy.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Sparzy.png"
   },
@@ -9960,9 +9960,9 @@
     "lumaWikiPortraitUrlLarge": "",
     "locations": [
       {
-        "location": "Crystal Shrine in Corrupted Badlands",
+        "location": "Corrupted Badlands",
         "island": "Tucma",
-        "frequency": "5%",
+        "frequency": "Very Rare (5%)",
         "level": "5-10"
       }
     ],
@@ -10448,10 +10448,16 @@
     "lumaWikiPortraitUrlLarge": "",
     "locations": [
       {
+        "location": "Anak Volcano",
+        "island": "Omninesia",
+        "frequency": "Rare (20%)",
+        "level": "30-35"
+      },
+      {
         "location": "Mines of Mictlan",
         "island": "Tucma",
-        "frequency": "?",
-        "level": "?"
+        "frequency": "Rare (25%)",
+        "level": "32-34"
       }
     ],
     "icon": "/images/portraits/temtem/large/Vulor.png",
