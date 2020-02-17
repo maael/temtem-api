@@ -57,7 +57,7 @@
     "synergyEffect": "+24 damage",
     "synergyEffectDamage": 24,
     "targets": "Single Other Target",
-    "description": "\"An ingenious application of hydraulic pressure for ballistic purposes\" - Sophia d'Arissola."
+    "description": "Standard[edit | edit source]"
   },
   {
     "name": "Aquatic Whirlwind",
@@ -747,7 +747,7 @@
     "synergyEffect": "+50 damage",
     "synergyEffectDamage": 50,
     "targets": "Single Other Target",
-    "description": "Suggestive and Toxic visions that exhaust the mind and  tire the target for 2 turns."
+    "description": "Suggestive and Toxic visions that exhaust the mind and   tire the target for 2 turns."
   },
   {
     "name": "Harmful Lick",
@@ -1046,7 +1046,7 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
+    "targets": "Self",
     "description": "“\n\nThe sap of life, from the living heart of the Giant Banyan. Heals 10% HP for 7 turns.\n\n„\n\n\n\n\n~ In-Game Description"
   },
   {
@@ -1691,7 +1691,7 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "Rather like snow, if snow was razor-sharp ice needles instead of gentle flakes."
   },
   {
@@ -1796,7 +1796,7 @@
     "synergy": "None",
     "synergyEffect": "",
     "synergyEffectDamage": 0,
-    "targets": "Self",
+    "targets": "Single Target",
     "description": "Nothing perks you up like a spark-up! (SPATK +1)."
   },
   {
@@ -2216,7 +2216,7 @@
     "synergy": "Toxic",
     "synergyEffect": "+2 damage",
     "synergyEffectDamage": 2,
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "The strongest Sillaro current has nothing on this unstoppable jet."
   },
   {
