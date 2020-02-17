@@ -4666,25 +4666,25 @@
       {
         "location": "The Gifted Bridges",
         "island": "Deniz",
-        "frequency": "Rare",
+        "frequency": "5%",
         "level": "9-11"
       },
       {
         "location": "The Canopath",
-        "island": "Omninesia",
-        "frequency": "Rare",
+        "island": "Superior Omninesia",
+        "frequency": "5%",
         "level": "16-18"
       },
       {
         "location": "The Glassyway",
-        "island": "Omninesia",
-        "frequency": "Rare",
-        "level": "16-18"
+        "island": "Ulterior Omninesia",
+        "frequency": "25%",
+        "level": "19-22"
       },
       {
         "location": "Kupeleleza",
         "island": "Tucma",
-        "frequency": "Uncommon (40%)",
+        "frequency": "40%",
         "level": "34-37"
       }
     ],
@@ -8018,28 +8018,22 @@
     "lumaWikiPortraitUrlLarge": "",
     "locations": [
       {
-        "location": "Giant Banyan",
-        "island": "Omninesia",
-        "frequency": "Common",
-        "level": ""
-      },
-      {
-        "location": "Mokupuni Dojo",
-        "island": "Omninesia",
-        "frequency": "Gift",
-        "level": "35"
-      },
-      {
         "location": "The Canopath",
-        "island": "Omninesia",
-        "frequency": "Rare",
-        "level": "-? (20 spotted)"
+        "island": "Superior Omninesia",
+        "frequency": "Very Rare (5%)",
+        "level": "17-20"
+      },
+      {
+        "location": "The Flywalk",
+        "island": "Citerior Omninesia",
+        "frequency": "Very Rare (5%)",
+        "level": "19-20"
       },
       {
         "location": "The Hangroad",
-        "island": "Omninesia",
-        "frequency": "Rare",
-        "level": "20-"
+        "island": "Ulterior Omninesia",
+        "frequency": "Very Rare (5%)",
+        "level": "16-22"
       }
     ],
     "icon": "/images/portraits/temtem/large/Deendre.png",
@@ -8710,14 +8704,6 @@
         "levels": 39
       },
       {
-        "name": "Noxious Bomb",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Rend",
-        "source": "TechniqueCourses"
-      },
-      {
         "name": "Feather Gatling",
         "source": "Breeding"
       }
@@ -9247,6 +9233,12 @@
         "location": "Aguamarina Caves (Waterfall floor)",
         "island": "Deniz",
         "frequency": "Very Rare (5%)",
+        "level": ""
+      },
+      {
+        "location": "Saipark (First Area Pools)",
+        "island": "Deniz",
+        "frequency": "Common (30%)",
         "level": ""
       }
     ],

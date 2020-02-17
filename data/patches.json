@@ -1,5 +1,56 @@
 [
   {
+    "name": "Temtem 0.5.12",
+    "version": "0.5.12",
+    "url": "https://crema.gg/temtem/temtem-0-5-12/",
+    "date": "2020-2-17",
+    "patchInfo": {
+      "fixes": [
+        "Fixed being able to get out of the Quetzal’s Dojo puzzle.",
+        "Fixed several co-op stuck situations in battles.",
+        "Fixed getting stuck in the prison quest while on co-op after a disband.",
+        "Fixed quest not progressing after picking items while on a co-op party (or after the party is disbanded).",
+        "Fixed not being able to see the actions for the co-op partner while having severe lag.",
+        "Fixed a visual bug in the stamina bar when quickly hovering a technique before using it.",
+        "Fixed players seeing their friends with their old cosmetic items after a reset.",
+        "Fixed getting stuck inside tables after disconnecting while seated near it.",
+        "Fixed getting stuck while reading a dialog and your co-op partner disbanding.",
+        "Fixed getting stuck in Omninesia’s Lift after a player disbands the co-op party.",
+        "Fixed (hopefully) character reset not properly working and leaving players with an empty character and getting stuck in some interactions (getting a starter, going into a battle…).",
+        "Fixed incorrect camera angle after knocking-out a Temtem with Haito Uchi.",
+        "Fixed incorrect behavior when releasing a Temtem and capturing a new one in the same turn.",
+        "Fixed getting stuck behind some NPCs.",
+        "Fixed Raican’s Prideful trait triggering only once when knocking-out two Temtem at the same time.",
+        "Fixed Coat’s missing icon."
+      ],
+      "improvements": [
+        "Stat stage modifiers have been reworked to speed up the animations. Instead of having an animation per stat change, all stat changes for a Temtem are now unified in the same animation.",
+        "The Pick&Ban screen now maintains the proper color based on which player is the first (blue) and which one is the second (orange). Previous to this change, every player would see themselves with the color of the first player.",
+        "The Competitive battle screen now displays the speed arrow holder.",
+        "The Battle screen will now display separately the Temcards for each player while they are on a co-op party."
+      ],
+      "features": [
+        "The Saipark opens its doors.The Saipark is a new end-game area and the first natural reserve in the whole Archipelago.Each week, the Saipark will hold two different species of Temtem. These species will present special features like having more chances of being Luma, presenting egg moves or even having guaranteed minimum SVs.Regular Temcards won’t work inside the premises of the Saipark. Instead, players will need to buy a special Temcard type called Saicards. Saicards only work inside the premises of the Saipark and they will expire at the end of the week.In order to be able to get Saicards, players will need to pay an initial fee to enter the park and get a pack of Saicards. Players will also be able to buy more Saicards during the week, but the fee will be more and more expensive each time.Currently, the configuration for the week is not displayed inside the game. While we work on a screen that will showcase that info, we will be posting the info on our social networks.",
+        "The Saipark is a new end-game area and the first natural reserve in the whole Archipelago.",
+        "Each week, the Saipark will hold two different species of Temtem. These species will present special features like having more chances of being Luma, presenting egg moves or even having guaranteed minimum SVs.",
+        "Regular Temcards won’t work inside the premises of the Saipark. Instead, players will need to buy a special Temcard type called Saicards. Saicards only work inside the premises of the Saipark and they will expire at the end of the week.",
+        "In order to be able to get Saicards, players will need to pay an initial fee to enter the park and get a pack of Saicards. Players will also be able to buy more Saicards during the week, but the fee will be more and more expensive each time.",
+        "Currently, the configuration for the week is not displayed inside the game. While we work on a screen that will showcase that info, we will be posting the info on our social networks.",
+        "Player’s Vault.The Vault can be accessed from each big Temporium and it will serve as additional storage for items.Items put in the Vault will be kept between resets (but if you want to reset while having anything in the Vault you’ll need to wait 10 days since your previous reset, similar situation as it already happens with trading).Items redeemed through Promo codes will be put directly in the player’s vault, and they will automatically be stored there between resets too.",
+        "The Vault can be accessed from each big Temporium and it will serve as additional storage for items.",
+        "Items put in the Vault will be kept between resets (but if you want to reset while having anything in the Vault you’ll need to wait 10 days since your previous reset, similar situation as it already happens with trading).",
+        "Items redeemed through Promo codes will be put directly in the player’s vault, and they will automatically be stored there between resets too.",
+        "Player avatars now have an idle animation which will happen if the player is idling for a bit."
+      ],
+      "balance": [
+        "Reduced overall Luma rate from 1 / 6000 to 1 / 8000.",
+        "Reduced the overall selling price of items from 70% to 50% of their value. Sellable-only items are not affected by this change (silicons, crystals, and sea salts).",
+        "Telomere Hacks will now reduce the affected Temtem fertility by 1 (if the Temtem doesn’t have any fertility left, the SV addition will be applied anyway and the fertility reduction will be ignored).",
+        "Swapped some of the tint items that could be found as pickables for other more useful items during the campaign."
+      ]
+    }
+  },
+  {
     "name": "Temtem 0.5.11",
     "version": "0.5.11",
     "url": "https://crema.gg/temtem/temtem-0-5-11/",
