@@ -119,8 +119,14 @@ function getLocations(html: string) {
         return {
           location: item[0],
           island: item[1],
-          frequency: (item[2] || "").replace(/\[\d+\]/, ""),
-          level: (item[3] || "").replace(/\[\d+\]/, "")
+          frequency: (item[2] || "")
+            .replace(/\[\d+\]/, "")
+            .replace("?", "")
+            .trim(),
+          level: (item[3] || "")
+            .replace(/\[\d+\]/, "")
+            .replace("?", "")
+            .trim()
         };
       })
   );
@@ -335,7 +341,13 @@ function getEvolutionInfo(items: any[], item: any, html: string) {
           stage: Number(prev.length) + 1
         });
       } else if (prev.length) {
-        prev[prev.length - 1].levels = cur;
+        const cleaned = `${cur}`
+          .replace(/./g, i => (!isNaN(Number(i)) ? i : ""))
+          .trim();
+        prev[prev.length - 1].levels = `${cur}`.includes("?")
+          ? 0
+          : parseInt(cleaned, 10);
+        prev[prev.length - 1].trading = `${cur}`.includes("Trading");
       }
       return prev;
     }, []);
