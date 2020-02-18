@@ -8,6 +8,7 @@ import { CosmeticList } from "./cosmetics";
 import { QuestList } from "./quests";
 import { TechniqueList } from "./techniques";
 import { Codec as WeaknessTable } from "./weaknesses";
+import { SaiparkList } from "./saipark";
 
 const codecMap = {
   gear: GearList,
@@ -19,7 +20,8 @@ const codecMap = {
   cosmetics: CosmeticList,
   quests: QuestList,
   techniques: TechniqueList,
-  weaknesses: WeaknessTable
+  weaknesses: WeaknessTable,
+  saipark: SaiparkList
 };
 
 export type Codec = keyof typeof codecMap;

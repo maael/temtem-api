@@ -476,3 +476,27 @@ export const dyesExample = [
     bundles: ["Fury of Anak", "Sillaro Romance"]
   }
 ];
+
+export const saipark = [
+  {
+    dateRange: "Feb 17 - Feb 23, 2020",
+    startDate: "2020-02-17T00:00:00.000Z",
+    endDate: "2020-02-23T00:00:00.000Z",
+    land: [
+      {
+        temtem: "Barnshe",
+        lumaRate: 2,
+        minSvs: 0,
+        eggMoves: 0
+      }
+    ],
+    water: [
+      {
+        temtem: "Oceara",
+        lumaRate: 2,
+        minSvs: 0,
+        eggMoves: 0
+      }
+    ]
+  }
+];

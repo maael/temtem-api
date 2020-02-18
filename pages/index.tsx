@@ -33,6 +33,7 @@ export default () => (
     <TraitsBlock />
     <GearBlock />
     <QuestsBlock />
+    <SaiparkBlock />
     <CosmeticsBlock />
     <DyesBlock />
     <PatchesBlock />
@@ -278,6 +279,18 @@ function PatchesBlock() {
       <>
         <ApiHeader path="/api/patches" style={{ marginBottom: 10 }} />
         <p>Currently has information for {num} patches.</p>
+      </>
+    </ApiBlock>
+  );
+}
+
+function SaiparkBlock() {
+  const num = useNum("/api/saipark");
+  return (
+    <ApiBlock example={examples.saipark}>
+      <>
+        <ApiHeader path="/api/saipark" style={{ marginBottom: 10 }} />
+        <p>Currently has information for {num} saipark rotations.</p>
       </>
     </ApiBlock>
   );
