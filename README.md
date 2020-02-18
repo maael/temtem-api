@@ -90,4 +90,3 @@ Also fair warning, I made this quick, so while it is Typescript, it's super loos
 - [ ] Breeding API endpoint
 - [ ] Maybe automatic typing with [quicktype](https://app.quicktype.io/) or something
 - [ ] Finish making data available under graphql endpoint. ([minimal example here](https://github.com/zeit/next.js/pull/7804/files))
-- [ ] Fix [this TODO](./scripts/data/embellishTechniques.ts#L74-L81) for technique synergy data.
