@@ -4,8 +4,8 @@ export function traverseObject(
 ) {
   const clone = JSON.parse(JSON.stringify(obj));
   for (const i in clone) {
-    clone[i] = func.apply(this, [clone[i], i]);
-    if (clone[i] !== null && typeof clone[i] == "object") {
+    clone[i] = func.apply(null, [clone[i], i]);
+    if (clone[i] !== null && typeof clone[i] === "object") {
       traverseObject(clone[i], func);
     }
   }
