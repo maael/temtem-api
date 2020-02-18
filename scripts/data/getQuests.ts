@@ -76,8 +76,8 @@ export default async function getQuests() {
             wikiUrl: td[0].link,
             island: td[1].text,
             location: td[2].text,
-            requirements: td[3].text,
-            reward: td[4].text,
+            requirements: td[3].text.replace(/\s\s/g, ", "),
+            reward: td[4].text.replace(/\s\s/g, ", "),
             type: QuestType.SIDE
           };
         })
