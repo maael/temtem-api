@@ -19,14 +19,24 @@ export const techniqueExample = [
     name: "Crystal Dust",
     wikiUrl: "https://temtem.gamepedia.com/Crystal_Dust",
     type: "Crystal",
-    class: "special",
+    class: "Special",
     damage: 60,
     staminaCost: 11,
     hold: 0,
     priority: "high",
     synergy: "Wind",
-    synergyEffect: "+20 damage",
-    synergyEffectDamage: 20,
+    synergyEffects: [
+      {
+        effect: "+20 Base Power",
+        type: "damage",
+        damage: 20
+      },
+      {
+        effect: "+1 Priority",
+        type: "priority",
+        damage: 0
+      }
+    ],
     targets: "Single Other Target",
     description:
       'A miniature version of the "star-rain" that is said to have spawned the Archipelago.'
