@@ -84,7 +84,7 @@ export default async function embellishKnownTemtemSpecies(
           trivia: getTrivia(html),
           evolution: getEvolutionInfo(ar, item, html),
           wikiPortraitUrlLarge: getWikiPortraitUrl(html),
-          lumaWikiPortraitUrlLarge: "",
+          lumaWikiPortraitUrlLarge: getWikiLumaPortraitUrl(html),
           locations: getLocations(html),
           icon: `/images/portraits/temtem/large/${item.name}.png`,
           lumaIcon: `/images/portraits/temtem/luma/large/${item.name}.png`
@@ -136,7 +136,16 @@ function getLocations(html: string) {
 function getWikiPortraitUrl(html: string) {
   const $ = cheerio.load(html);
   return (
-    $("#mw-content-text .infobox-table img")
+    $("#mw-content-text .infobox-table #ttw-temtem img")
+      .first()
+      .attr("src") || ""
+  );
+}
+
+function getWikiLumaPortraitUrl(html: string) {
+  const $ = cheerio.load(html);
+  return (
+    $("#mw-content-text .infobox-table #ttw-temtem-luma img")
       .first()
       .attr("src") || ""
   );
