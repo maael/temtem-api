@@ -211,7 +211,8 @@ export const knownTemtemExample = [
           number: 113,
           name: "Ganki",
           stage: 1,
-          levels: 27
+          levels: 27,
+          trading: false
         },
         {
           number: 114,
