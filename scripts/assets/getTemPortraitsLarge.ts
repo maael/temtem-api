@@ -20,14 +20,16 @@ export default async function getTemPortraits() {
               "large",
               `${item.name}.png`
             ]),
-            pipeFile(item.lumaWikiPortraitUrlLarge, [
-              "images",
-              "portraits",
-              "temtem",
-              "luma",
-              "large",
-              `${item.name}.png`
-            ])
+            item.lumaWikiPortraitUrlLarge
+              ? pipeFile(item.lumaWikiPortraitUrlLarge, [
+                  "images",
+                  "portraits",
+                  "temtem",
+                  "luma",
+                  "large",
+                  `${item.name}.png`
+                ])
+              : undefined
           ]);
         } catch (e) {
           log.error(e.message);

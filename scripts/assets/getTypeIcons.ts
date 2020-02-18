@@ -15,7 +15,10 @@ export default async function getTypeIcons() {
   await Promise.all(
     images.map(async img => {
       const p = path.parse((img as unknown) as string);
-      const filename = `${p.name.split("-")[1]}${p.ext.split("?")[0]}`;
+      let filename = `${p.name.split("-")[1]}${p.ext.split("?")[0]}`;
+      if (filename === "UnknownType.png") {
+        filename = "Unknown.png";
+      }
       try {
         await pipeFile((img as unknown) as string, [
           "images",
