@@ -27,7 +27,7 @@ export default async function getTechniques() {
         };
       })
     );
-    return techniques;
+    return techniques.filter(({ name }) => name !== "Training Course");
   } catch (e) {
     log.error(e.message);
   }

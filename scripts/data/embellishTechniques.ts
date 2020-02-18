@@ -13,6 +13,15 @@ export enum TechniquePriority {
   VERY_LOW = "verylow",
   UNKNOWN = "unknown"
 }
+
+export enum SynergyType {
+  DAMAGE = "damage",
+  BUFF = "buff",
+  DEBUFF = "debuff",
+  CONDITION = "condition",
+  PRIORITY = "priority",
+  UNKNOWN = "unknown"
+}
 export interface Technique extends MinimalTechnique {
   type: string;
   class: string;
@@ -21,8 +30,7 @@ export interface Technique extends MinimalTechnique {
   hold: number;
   priority: TechniquePriority;
   synergy: string;
-  synergyEffect: string;
-  synergyEffectDamage: number;
+  synergyEffects: Array<{ damage: number; effect: string }>;
   targets: string;
   description: string;
 }
@@ -86,11 +94,6 @@ export default async function embellishTechniques(
       .map(({ item, html }) => {
         const $ = cheerio.load(html);
         const hold = getInfoBoxNumeric($, "Hold");
-        const synergyEffect = getInfoBoxNumeric($, "Synergy Effect");
-        const cleanedSynergyEffect =
-          typeof synergyEffect === "string"
-            ? synergyEffect.replace(/^\-$/, "")
-            : synergyEffect;
         return {
           ...item,
           type: getInfoBox($, "Type"),
@@ -99,21 +102,7 @@ export default async function embellishTechniques(
           staminaCost: cleanToNumber(getInfoBoxNumeric($, "Stamina Cost")),
           hold: cleanToNumber(hold),
           priority: getPriority($),
-          synergy: getInfoBox($, "Synergy"),
-          /**
-           * TODO: Fix this for when there are multiple synergy effects
-           * TODO: like https://temtem.gamepedia.com/Tsunami (dmg + cold)
-           * TODO: and cases like Water Cannon https://temtem.gamepedia.com/Water_Cannon
-           * TODO: where it thinks it is damage when it is a condition
-           * TODO: and https://temtem.gamepedia.com/Turbo_Choreography
-           * TODO: where it is a team buff
-           */
-          synergyEffect:
-            typeof cleanedSynergyEffect === "number"
-              ? `+${cleanedSynergyEffect} damage`
-              : cleanedSynergyEffect,
-          synergyEffectDamage:
-            typeof cleanedSynergyEffect === "number" ? cleanedSynergyEffect : 0,
+          ...getSynergyData($),
           targets: getInfoBox($, "Targets"),
           description: getDescription($)
         };
@@ -123,6 +112,72 @@ export default async function embellishTechniques(
     return result;
   } catch (e) {
     log.error(e.message);
+  }
+}
+
+function getSynergyData($: CheerioStatic) {
+  const synergyEffects = getInfoBox($, "Synergy Effect")
+    .split("\n")
+    .map(e => e.split(","))
+    .reduce((acc, pre) => [...acc, ...pre], [])
+    .map(e => e.trim())
+    .filter(e => e && !["-", "?"].includes(e));
+  return {
+    synergy: getInfoBox($, "Synergy"),
+    synergyEffects: synergyEffects.map(processSynergyEffect)
+  };
+}
+
+function processSynergyEffect(text: string) {
+  const synergyEffectNumeric = isNaN(parseInt(text, 10))
+    ? text
+    : parseInt(text, 10);
+  const type = getSynergyEffectType(text);
+  const cleanedSynergyEffect =
+    typeof synergyEffectNumeric === "string"
+      ? synergyEffectNumeric.replace(/^\-$/, "")
+      : synergyEffectNumeric;
+  return {
+    effect: text,
+    type,
+    damage:
+      type === SynergyType.DAMAGE
+        ? typeof cleanedSynergyEffect === "number"
+          ? cleanedSynergyEffect
+          : 0
+        : 0
+  };
+}
+
+function getSynergyEffectType(text: string) {
+  const ltext = text.toLowerCase();
+  if (
+    ltext.includes("damage") ||
+    ltext.includes("dmg") ||
+    ltext.includes("power")
+  ) {
+    return SynergyType.DAMAGE;
+  } else if (ltext.includes("priority")) {
+    return SynergyType.PRIORITY;
+  } else if (
+    ltext.includes("status") ||
+    ltext.includes("apply") ||
+    ltext.includes("turn")
+  ) {
+    return SynergyType.CONDITION;
+  } else if (
+    ltext.includes("stamina") ||
+    ltext.includes("sta") ||
+    (ltext.includes("spd") && ltext.includes("+"))
+  ) {
+    return SynergyType.BUFF;
+  } else if (
+    ltext.includes("targets get") ||
+    (ltext.includes("spd") && ltext.includes("-"))
+  ) {
+    return SynergyType.DEBUFF;
+  } else {
+    return SynergyType.UNKNOWN;
   }
 }
 

@@ -10,6 +10,15 @@ const Priority = t.union([
   t.literal("unknown")
 ]);
 
+const SynergyType = t.union([
+  t.literal("damage"),
+  t.literal("buff"),
+  t.literal("debuff"),
+  t.literal("condition"),
+  t.literal("priority"),
+  t.literal("unknown")
+]);
+
 export const Codec = t.type({
   name: t.string,
   wikiUrl: t.string,
@@ -20,8 +29,9 @@ export const Codec = t.type({
   hold: t.number,
   priority: Priority,
   synergy: t.string,
-  synergyEffect: t.string,
-  synergyEffectDamage: t.number,
+  synergyEffects: t.array(
+    t.type({ effect: t.string, damage: t.number, type: SynergyType })
+  ),
   targets: t.string,
   description: t.string
 });
