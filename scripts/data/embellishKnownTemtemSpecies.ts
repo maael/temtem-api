@@ -360,6 +360,11 @@ function getEvolutionInfo(items: any[], item: any, html: string) {
       }
       return prev;
     }, []);
+    if (evolutionTree.length === 1) {
+      return {
+        evolves: false
+      };
+    }
     return {
       stage:
         Number(evolutionTree.findIndex(({ name }) => item.name === name)) + 1,
