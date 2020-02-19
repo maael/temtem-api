@@ -78,14 +78,9 @@
           "stage": 1
         },
         {
-          "number": -1,
-          "name": "???",
-          "stage": 2
-        },
-        {
           "number": 3,
           "name": "Zaobian",
-          "stage": 3
+          "stage": 2
         }
       ],
       "evolves": true,
@@ -136,7 +131,21 @@
       "Zaobian's name is derived from zhào (megabyte in Chinese) and túbiàn (mutation in Chinese)."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 2,
+      "evolutionTree": [
+        {
+          "number": 2,
+          "name": "Oree",
+          "stage": 1
+        },
+        {
+          "number": 3,
+          "name": "Zaobian",
+          "stage": 2
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/54/Zaobian.png/250px-Zaobian.png?version=cc9cfb9398169a6ca15b2b0a5ecb3a78",
     "lumaWikiPortraitUrlLarge": "",
@@ -1593,14 +1602,9 @@
           "stage": 1
         },
         {
-          "number": -1,
-          "name": "???",
-          "stage": 2
-        },
-        {
           "number": 20,
           "name": "Amphatyr",
-          "stage": 3
+          "stage": 2
         }
       ],
       "evolves": true,
@@ -1646,7 +1650,7 @@
       "The name of Amphatyr was proposed by a community member ( ItsTomas ) of the official Discord, and later chosen as the winner during the Choose a Temtem names poll in the 6th update of Temtem's Kickstarter."
     ],
     "evolution": {
-      "stage": 3,
+      "stage": 2,
       "evolutionTree": [
         {
           "number": 19,
@@ -1654,14 +1658,9 @@
           "stage": 1
         },
         {
-          "number": -1,
-          "name": "???",
-          "stage": 2
-        },
-        {
           "number": 20,
           "name": "Amphatyr",
-          "stage": 3
+          "stage": 2
         }
       ],
       "evolves": true,
@@ -2898,13 +2897,8 @@
         },
         {
           "number": -1,
-          "name": "???",
-          "stage": 3
-        },
-        {
-          "number": -1,
           "name": "Unknown",
-          "stage": 4
+          "stage": 3
         }
       ],
       "evolves": true,
@@ -3040,13 +3034,8 @@
         },
         {
           "number": -1,
-          "name": "???",
-          "stage": 3
-        },
-        {
-          "number": -1,
           "name": "Unknown",
-          "stage": 4
+          "stage": 3
         }
       ],
       "evolves": true,
@@ -5999,13 +5988,8 @@
         },
         {
           "number": -1,
-          "name": "???",
-          "stage": 3
-        },
-        {
-          "number": -1,
           "name": "Unknown",
-          "stage": 4
+          "stage": 3
         }
       ],
       "evolves": true,
@@ -6131,13 +6115,8 @@
         },
         {
           "number": -1,
-          "name": "???",
-          "stage": 3
-        },
-        {
-          "number": -1,
           "name": "Unknown",
-          "stage": 4
+          "stage": 3
         }
       ],
       "evolves": true,
@@ -6359,7 +6338,7 @@
       "What might be an earlier evolution-stage of Sparzy can be seen in the official Anime-styled trailer of Temtem. It has a very strong resemblance to Sparzy in both colour scheme and shape."
     ],
     "evolution": {
-      "stage": 3,
+      "stage": 2,
       "evolutionTree": [
         {
           "number": -1,
@@ -6367,24 +6346,14 @@
           "stage": 1
         },
         {
-          "number": -1,
-          "name": "???",
-          "stage": 2
-        },
-        {
           "number": 82,
           "name": "Sparzy",
-          "stage": 3
-        },
-        {
-          "number": -1,
-          "name": "???",
-          "stage": 4
+          "stage": 2
         },
         {
           "number": -1,
           "name": "Unknown",
-          "stage": 5
+          "stage": 3
         }
       ],
       "evolves": true,
@@ -7145,7 +7114,7 @@
       "Raignet may not be an Electric Type Temtem, but it's design, name and being included in the Electric type examples suggests it almost certainly is."
     ],
     "evolution": {
-      "stage": 3,
+      "stage": 2,
       "evolutionTree": [
         {
           "number": -1,
@@ -7153,14 +7122,9 @@
           "stage": 1
         },
         {
-          "number": -1,
-          "name": "???",
-          "stage": 2
-        },
-        {
           "number": 91,
           "name": "Raignet",
-          "stage": 3
+          "stage": 2
         }
       ],
       "evolves": true,
@@ -7277,13 +7241,8 @@
         },
         {
           "number": -1,
-          "name": "???",
-          "stage": 3
-        },
-        {
-          "number": -1,
           "name": "Unknown",
-          "stage": 4
+          "stage": 3
         }
       ],
       "evolves": true,
@@ -7410,13 +7369,8 @@
         },
         {
           "number": -1,
-          "name": "???",
-          "stage": 3
-        },
-        {
-          "number": -1,
           "name": "Unknown",
-          "stage": 4
+          "stage": 3
         }
       ],
       "evolves": true,

@@ -331,16 +331,16 @@ function getEvolutionInfo(items: any[], item: any, html: string) {
         .trim();
       if (
         text.includes("Levels") ||
-        ($(el).children("a").length && text !== "" && text !== "100x100px")
+        ($(el).children("a").length &&
+          text !== "" &&
+          text !== "100x100px" &&
+          text !== "???")
       ) {
         evolutionParts.push(
           isNaN(parseInt(text, 10)) ? text : parseInt(text, 10)
         );
       }
     });
-    if (item.name === "Zaobian") {
-      evolutionParts.splice(0, 2);
-    }
     const evolutionTree = evolutionParts.reduce<any>((prev, cur) => {
       if (typeof cur === "string" && !cur.includes("Levels")) {
         const evoItem = items.find(({ name }) => name === cur);
