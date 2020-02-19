@@ -79,14 +79,17 @@
         {
           "number": 2,
           "name": "Oree",
-          "stage": 1,
-          "levels": 0,
-          "trading": false
+          "stage": 1
+        },
+        {
+          "number": -1,
+          "name": "???",
+          "stage": 2
         },
         {
           "number": 3,
           "name": "Zaobian",
-          "stage": 2
+          "stage": 3
         }
       ],
       "evolves": true,
@@ -1073,7 +1076,16 @@
       "Tateru has an emote on the official Temtem Discord. It portrays a police officer."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 12,
+          "name": "Tateru",
+          "stage": 1
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/55/Tateru.png/250px-Tateru.png?version=6bdaab87e5320c9d7836e7f20886cfc1",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/de/LumaTateru.png/250px-LumaTateru.png?version=40cfd148546338f2071cf8a17edf0eaf",
@@ -1655,14 +1667,17 @@
         {
           "number": 19,
           "name": "Ampling",
-          "stage": 1,
-          "levels": 0,
-          "trading": false
+          "stage": 1
+        },
+        {
+          "number": -1,
+          "name": "???",
+          "stage": 2
         },
         {
           "number": 20,
           "name": "Amphatyr",
-          "stage": 2
+          "stage": 3
         }
       ],
       "evolves": true,
@@ -1711,19 +1726,22 @@
       "The name of Amphatyr was proposed by a community member ( ItsTomas ) of the official Discord, and later chosen as the winner during the Choose a Temtem names poll in the 6th update of Temtem's Kickstarter."
     ],
     "evolution": {
-      "stage": 2,
+      "stage": 3,
       "evolutionTree": [
         {
           "number": 19,
           "name": "Ampling",
-          "stage": 1,
-          "levels": 0,
-          "trading": false
+          "stage": 1
+        },
+        {
+          "number": -1,
+          "name": "???",
+          "stage": 2
         },
         {
           "number": 20,
           "name": "Amphatyr",
-          "stage": 2
+          "stage": 3
         }
       ],
       "evolves": true,
@@ -2447,12 +2465,6 @@
         "island": "Deniz",
         "frequency": "100%",
         "level": "11-14"
-      },
-      {
-        "location": "Aguamarina Caves",
-        "island": "Deniz",
-        "frequency": "Common",
-        "level": ""
       }
     ],
     "icon": "/images/portraits/temtem/large/Fomu.png",
@@ -3013,14 +3025,17 @@
         {
           "number": 33,
           "name": "Tental",
-          "stage": 2,
-          "levels": 0,
-          "trading": false
+          "stage": 2
+        },
+        {
+          "number": -1,
+          "name": "???",
+          "stage": 3
         },
         {
           "number": -1,
           "name": "Unknown",
-          "stage": 3
+          "stage": 4
         }
       ],
       "evolves": true,
@@ -3159,14 +3174,17 @@
         {
           "number": 33,
           "name": "Tental",
-          "stage": 2,
-          "levels": 0,
-          "trading": false
+          "stage": 2
+        },
+        {
+          "number": -1,
+          "name": "???",
+          "stage": 3
         },
         {
           "number": -1,
           "name": "Unknown",
-          "stage": 3
+          "stage": 4
         }
       ],
       "evolves": true,
@@ -3822,14 +3840,17 @@
         {
           "number": 40,
           "name": "Azuroc",
-          "stage": 2,
-          "levels": 25,
-          "trading": true
+          "stage": 2
+        },
+        {
+          "number": -1,
+          "name": "Trading / 25",
+          "stage": 3
         },
         {
           "number": 41,
           "name": "Zenoreth",
-          "stage": 3
+          "stage": 4
         }
       ],
       "evolves": true,
@@ -3951,14 +3972,17 @@
         {
           "number": 40,
           "name": "Azuroc",
-          "stage": 2,
-          "levels": 25,
-          "trading": true
+          "stage": 2
+        },
+        {
+          "number": -1,
+          "name": "Trading / 25",
+          "stage": 3
         },
         {
           "number": 41,
           "name": "Zenoreth",
-          "stage": 3
+          "stage": 4
         }
       ],
       "evolves": true,
@@ -4070,7 +4094,7 @@
       "Zenoreth's design was revealed during the naming contest for #039."
     ],
     "evolution": {
-      "stage": 3,
+      "stage": 4,
       "evolutionTree": [
         {
           "number": 39,
@@ -4082,14 +4106,17 @@
         {
           "number": 40,
           "name": "Azuroc",
-          "stage": 2,
-          "levels": 25,
-          "trading": true
+          "stage": 2
+        },
+        {
+          "number": -1,
+          "name": "Trading / 25",
+          "stage": 3
         },
         {
           "number": 41,
           "name": "Zenoreth",
-          "stage": 3
+          "stage": 4
         }
       ],
       "evolves": true,
@@ -4804,7 +4831,16 @@
       "A level 35 Valash is gifted to the player as a part of the main story questline Shipwrecked in Tucma!"
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 50,
+          "name": "Valash",
+          "stage": 1
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/80/Valash.png/250px-Valash.png?version=550813faa5fe91e8e5b84ff03a525083",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/42/LumaValash.png/250px-LumaValash.png?version=69a1af862f42f700e0716b3d3b88c324",
@@ -4945,7 +4981,16 @@
       "The first Luma Barnshe was caught by Laknightress (IGN) during Alpha 1, with a 5% encounter rate and 1/4000 Luma chance."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 53,
+          "name": "Barnshe",
+          "stage": 1
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/6c/Barnshe.png/250px-Barnshe.png?version=50a894010b67adaf7af592db1a31802a",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e3/LumaBarnshe.png/250px-LumaBarnshe.png?version=106874d697508646094376f6c7b8b1a3",
@@ -5085,7 +5130,16 @@
       "Gyalis's name is derived from gyalisméno (polished in Greek) and mantis."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 54,
+          "name": "Gyalis",
+          "stage": 1
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d6/Gyalis.png/250px-Gyalis.png?version=77871f88bf39ad1ecbcc3758613262f6",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f1/LumaGyalis.png/250px-LumaGyalis.png?version=cb8a9ef29b0c50ea4bfe625d45c7c649",
@@ -6084,7 +6138,16 @@
       "Saipat first appeared as small pieces of an image that were slowly revealed in the official Discord, until fans guessed its design while creating fan art."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 69,
+          "name": "Saipat",
+          "stage": 1
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e3/Saipat.png/250px-Saipat.png?version=228eb2f6dc2edc1f2a8b31f3f301346e",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/29/LumaSaipat.png/250px-LumaSaipat.png?version=ea876a7f7c76bc41321961d354aa0bbe",
@@ -6236,14 +6299,17 @@
         {
           "number": 73,
           "name": "Sherald",
-          "stage": 2,
-          "levels": 0,
-          "trading": false
+          "stage": 2
+        },
+        {
+          "number": -1,
+          "name": "???",
+          "stage": 3
         },
         {
           "number": -1,
           "name": "Unknown",
-          "stage": 3
+          "stage": 4
         }
       ],
       "evolves": true,
@@ -6372,14 +6438,17 @@
         {
           "number": 73,
           "name": "Sherald",
-          "stage": 2,
-          "levels": 0,
-          "trading": false
+          "stage": 2
+        },
+        {
+          "number": -1,
+          "name": "???",
+          "stage": 3
         },
         {
           "number": -1,
           "name": "Unknown",
-          "stage": 3
+          "stage": 4
         }
       ],
       "evolves": true,
@@ -6615,26 +6684,32 @@
       "What might be an earlier evolution-stage of Sparzy can be seen in the official Anime-styled trailer of Temtem. It has a very strong resemblance to Sparzy in both colour scheme and shape."
     ],
     "evolution": {
-      "stage": 2,
+      "stage": 3,
       "evolutionTree": [
         {
           "number": -1,
           "name": "Unknown",
-          "stage": 1,
-          "levels": 0,
-          "trading": false
+          "stage": 1
+        },
+        {
+          "number": -1,
+          "name": "???",
+          "stage": 2
         },
         {
           "number": 82,
           "name": "Sparzy",
-          "stage": 2,
-          "levels": 0,
-          "trading": false
+          "stage": 3
+        },
+        {
+          "number": -1,
+          "name": "???",
+          "stage": 4
         },
         {
           "number": -1,
           "name": "Unknown",
-          "stage": 3
+          "stage": 5
         }
       ],
       "evolves": true,
@@ -7432,19 +7507,22 @@
       "Raignet may not be an Electric Type Temtem, but it's design, name and being included in the Electric type examples suggests it almost certainly is."
     ],
     "evolution": {
-      "stage": 2,
+      "stage": 3,
       "evolutionTree": [
         {
           "number": -1,
           "name": "Unknown",
-          "stage": 1,
-          "levels": 0,
-          "trading": false
+          "stage": 1
+        },
+        {
+          "number": -1,
+          "name": "???",
+          "stage": 2
         },
         {
           "number": 91,
           "name": "Raignet",
-          "stage": 2
+          "stage": 3
         }
       ],
       "evolves": true,
@@ -7564,14 +7642,17 @@
         {
           "number": 93,
           "name": "Baboong",
-          "stage": 2,
-          "levels": 0,
-          "trading": false
+          "stage": 2
+        },
+        {
+          "number": -1,
+          "name": "???",
+          "stage": 3
         },
         {
           "number": -1,
           "name": "Unknown",
-          "stage": 3
+          "stage": 4
         }
       ],
       "evolves": true,
@@ -7701,14 +7782,17 @@
         {
           "number": 93,
           "name": "Baboong",
-          "stage": 2,
-          "levels": 0,
-          "trading": false
+          "stage": 2
+        },
+        {
+          "number": -1,
+          "name": "???",
+          "stage": 3
         },
         {
           "number": -1,
           "name": "Unknown",
-          "stage": 3
+          "stage": 4
         }
       ],
       "evolves": true,
@@ -9224,7 +9308,16 @@
       "Oceara seems to be based off the Qilin/Kirin, antelopine divine creatures in Chinese and Japanese mythology respectively."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 115,
+          "name": "Oceara",
+          "stage": 1
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/26/Oceara.png/250px-Oceara.png?version=2d39fe51d12d259fe1223416010943db",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/ea/LumaOceara.png/250px-LumaOceara.png?version=cebd9922a9f9b3bb346c30aaf2fe80ec",
@@ -9338,7 +9431,16 @@
       "Shuine is based on the feathered deities of Mesoamerican religions, with western dragon ears."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 122,
+          "name": "Shuine",
+          "stage": 1
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d9/Shuine.png/250px-Shuine.png?version=eaf40b01f6d3abacab71b426f04889ca",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a4/LumaShuine.png/250px-LumaShuine.png?version=3af1a80a9099425b0b1e82b72bd3e3e5",
@@ -9449,7 +9551,16 @@
       "Nessla is given to the player as a part of the main story quest Shipwrecked in Tucma!"
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 123,
+          "name": "Nessla",
+          "stage": 1
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/81/Nessla.png/250px-Nessla.png?version=f3f2884421cc242fa075c15059360426",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/85/LumaNessla.png/250px-LumaNessla.png?version=9c4cb36bcf4fc2ee3c0d9b0e876f5bb6",
@@ -9915,7 +10026,16 @@
       "Adoroboros was first nicknamed Adoroboros by Temtem Discord community member Husky. The nickname was later put into an official poll for naming the Temtem by the Discord member TMTrainer. It won the poll with 157 votes, becoming the official name of #129."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 129,
+          "name": "Adoroboros",
+          "stage": 1
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/26/Adoroboros.png/250px-Adoroboros.png?version=b88b44f15eb65ebe8a64356b6ebabfca",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/52/LumaAdoroboros.png/250px-LumaAdoroboros.png?version=77746487fb46518bbfdbb1e147d6a704",
@@ -10254,7 +10374,16 @@
       "Kinu's name comes from the word Kinushi (Forest spirits in Japanese culture)"
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 137,
+          "name": "Kinu",
+          "stage": 1
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/47/Kinu.png/250px-Kinu.png?version=c95a1071861eff359212a23f041a96ac",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f2/LumaKinu.png/250px-LumaKinu.png?version=496b6594c60d9b51d1fa244a34bdebd4",
@@ -10801,7 +10930,16 @@
       "The Temtem Discord community created “cults” worshipping Saku and Pigepic. The official Twitter account for Temtem later created a tweet pitting the “Sakult” and “Team Porket” against each other. The Sakult is currently the winner."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 141,
+          "name": "Pigepic",
+          "stage": 1
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/20/Pigepic.png/250px-Pigepic.png?version=d8e3923974707a3ff5f64a5c62441ba2",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4a/LumaPigepic.png/250px-LumaPigepic.png?version=03c27d2dbfcf37305cb28db64275311b",
@@ -10915,7 +11053,16 @@
       "The Crystal Temtem that was subjected to intense heat to create Anahir was likely a Sherald. Their body shapes and design are very similar, much more so than any other currently known crystal type."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 161,
+          "name": "Anahir",
+          "stage": 1
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/ea/Anahir.png/250px-Anahir.png?version=b68cc0007bc9309aadfddf4789691427",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/94/LumaAnahir.png/250px-LumaAnahir.png?version=ab3c8a4b7b9d47544bc704ea10fa2dc5",
