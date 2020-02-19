@@ -6,6 +6,7 @@ const cosmetics = require("../../../data/cosmetics.json");
 const dyes = require("../../../data/dyes.json");
 const gear = require("../../../data/gear.json");
 const patches = require("../../../data/patches.json");
+const quests = require("../../../data/quests.json");
 const saipark = require("../../../data/saipark.json");
 const techniques = require("../../../data/techniques.json");
 const traits = require("../../../data/traits.json");
@@ -134,12 +135,38 @@ const schema = buildSchema(`
     mostRecent: String!
     dataStats: [DataStat!]!
   }
+  type MainQuest {
+    name: String!
+    wikiUrl: String!
+    steps: [String!]!
+    rewards: [String!]!
+    startingLocation: String!
+    startingNPC: String!
+    requirements: String!
+  }
+  type SideQuest {
+    name: String!
+    wikiUrl: String!
+    island: String!
+    location: String!
+    requirements: String!
+    reward: String!
+    steps: [String!]!
+    rewards: [String!]!
+    startingLocation: String!
+    startingNPC: String!
+  }
+  type Quest {
+    main: [MainQuest!]!
+    side: [SideQuest!]!
+  }
   type Query {
     conditions: [Condition!]!
     cosmetics: [Cosmetic!]!
     dyes: [Dye!]!
     gear: [Gear!]!
     patches: [Patch!]!
+    quests: Quest!
     saipark: [Saipark!]!
     summary: Summary!
     techniques: [Technique!]!
@@ -154,6 +181,10 @@ const root = {
   dyes: () => dyes,
   gear: () => gear,
   patches: () => patches,
+  quests: () => ({
+    main: quests.filter(({ type }) => type === "main"),
+    side: quests.filter(({ type }) => type === "side")
+  }),
   saipark: () => saipark,
   summary: () => summary,
   techniques: () => techniques,
