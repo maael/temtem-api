@@ -10,6 +10,7 @@ const saipark = require("../../../data/saipark.json");
 const techniques = require("../../../data/techniques.json");
 const traits = require("../../../data/traits.json");
 const types = require("../../../data/types.json");
+const summary = require("../../../data/summary.json");
 
 const schema = buildSchema(`
   type Condition {
@@ -125,6 +126,14 @@ const schema = buildSchema(`
     name: String!
     icon: String!
   }
+  type DataStat {
+    mtime: String!
+    name: String!
+  }
+  type Summary {
+    mostRecent: String!
+    dataStats: [DataStat!]!
+  }
   type Query {
     conditions: [Condition!]!
     cosmetics: [Cosmetic!]!
@@ -132,6 +141,7 @@ const schema = buildSchema(`
     gear: [Gear!]!
     patches: [Patch!]!
     saipark: [Saipark!]!
+    summary: Summary!
     techniques: [Technique!]!
     traits: [Trait!]!
     types: [Type!]!
@@ -145,6 +155,7 @@ const root = {
   gear: () => gear,
   patches: () => patches,
   saipark: () => saipark,
+  summary: () => summary,
   techniques: () => techniques,
   traits: () => traits,
   types: () => types
