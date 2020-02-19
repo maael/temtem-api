@@ -1,13 +1,5 @@
 import * as t from "io-ts";
 
-export const Codec = t.type({
-  wikiImageUrl: t.string,
-  color: t.string,
-  name: t.string,
-  description: t.string,
-  bundles: t.array(t.string)
-});
-
 const MainQuestCodec = t.type({
   name: t.string,
   wikiUrl: t.string,
