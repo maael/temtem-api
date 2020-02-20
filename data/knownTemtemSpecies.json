@@ -3848,17 +3848,14 @@
         {
           "number": 40,
           "name": "Azuroc",
-          "stage": 2
-        },
-        {
-          "number": -1,
-          "name": "Trading / 25",
-          "stage": 3
+          "stage": 2,
+          "levels": 25,
+          "trading": false
         },
         {
           "number": 41,
           "name": "Zenoreth",
-          "stage": 4
+          "stage": 3
         }
       ],
       "evolves": true,
@@ -3980,17 +3977,14 @@
         {
           "number": 40,
           "name": "Azuroc",
-          "stage": 2
-        },
-        {
-          "number": -1,
-          "name": "Trading / 25",
-          "stage": 3
+          "stage": 2,
+          "levels": 25,
+          "trading": false
         },
         {
           "number": 41,
           "name": "Zenoreth",
-          "stage": 4
+          "stage": 3
         }
       ],
       "evolves": true,
@@ -4102,7 +4096,7 @@
       "Zenoreth's design was revealed during the naming contest for #039."
     ],
     "evolution": {
-      "stage": 4,
+      "stage": 3,
       "evolutionTree": [
         {
           "number": 39,
@@ -4114,17 +4108,14 @@
         {
           "number": 40,
           "name": "Azuroc",
-          "stage": 2
-        },
-        {
-          "number": -1,
-          "name": "Trading / 25",
-          "stage": 3
+          "stage": 2,
+          "levels": 25,
+          "trading": false
         },
         {
           "number": 41,
           "name": "Zenoreth",
-          "stage": 4
+          "stage": 3
         }
       ],
       "evolves": true,
