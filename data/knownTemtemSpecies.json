@@ -293,19 +293,31 @@
       {
         "location": "Corrupted Badlands",
         "island": "Tucma",
-        "frequency": "Rare (30%)",
+        "frequency": "30%",
         "level": "24-28"
       },
       {
-        "location": "Xolot Reservoir",
+        "location": "Xolot ReservoirInner large body of Acid",
         "island": "Tucma",
-        "frequency": "Uncommon (50%-70%)",
+        "frequency": "50%",
         "level": "28-32"
+      },
+      {
+        "location": "Xolot ReservoirOuter large body of Acid",
+        "island": "Tucma",
+        "frequency": "50%",
+        "level": "29-32"
+      },
+      {
+        "location": "Xolot ReservoirRing of Acid",
+        "island": "Tucma",
+        "frequency": "70%",
+        "level": "29-31"
       },
       {
         "location": "Mines of Mictlan",
         "island": "Tucma",
-        "frequency": "Common",
+        "frequency": "85%",
         "level": "31-35"
       }
     ],
@@ -474,7 +486,20 @@
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7b/Platox.png/250px-Platox.png?version=1a591b367bd135a041bff34d1b90c89c",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fb/LumaPlatox.png/250px-LumaPlatox.png?version=162ae50f4ac355558a6c88bc86941085",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Saipark",
+        "island": "Deniz",
+        "frequency": "35%",
+        "level": "37-40"
+      },
+      {
+        "location": "Saipark Caves",
+        "island": "Deniz",
+        "frequency": "35%",
+        "level": "37-40"
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Platox.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Platox.png"
   },
@@ -772,16 +797,28 @@
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/bc/LumaSwali.png/250px-LumaSwali.png?version=4dbea4c8f4123d85f453d596bfc39580",
     "locations": [
       {
-        "location": "Prasine Coast",
+        "location": "Prasine CoastSecond large patch of Grass",
         "island": "Deniz",
-        "frequency": "Uncommon (40%)",
-        "level": "2-5"
+        "frequency": "40%",
+        "level": "2-4"
       },
       {
-        "location": "Thalassian Cliffs",
+        "location": "Prasine CoastThird large patch of Grass",
         "island": "Deniz",
-        "frequency": "Rare (20%)",
-        "level": "5-8"
+        "frequency": "40%",
+        "level": "3-5"
+      },
+      {
+        "location": "Thalassian CliffsGrass patch east before underpass",
+        "island": "Deniz",
+        "frequency": "30%",
+        "level": "5-7"
+      },
+      {
+        "location": "Thalassian CliffsGrass patch immediately east of the ramp valley",
+        "island": "Deniz",
+        "frequency": "30%",
+        "level": "5-7"
       }
     ],
     "icon": "/images/portraits/temtem/large/Swali.png",
@@ -930,7 +967,7 @@
       {
         "location": "The Flywalk",
         "island": "Omninesia",
-        "frequency": "Uncommon (50%)",
+        "frequency": "Uncommon (30%-50%)",
         "level": "19-20"
       },
       {
@@ -7862,7 +7899,7 @@
         "location": "The Canopath",
         "island": "Omninesia",
         "frequency": "40%",
-        "level": "15-18"
+        "level": "14-18"
       },
       {
         "location": "The Hangroad",
