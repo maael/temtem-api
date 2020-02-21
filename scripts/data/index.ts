@@ -1,3 +1,4 @@
+import getLocations from "./getLocations";
 import getDyes from "./getDyes";
 import getCosmetics from "./getCosmetics";
 import getQuests from "./getQuests";
@@ -20,6 +21,8 @@ import * as log from "../util/log";
 import checkAndWrite from "../util/checkAndWrite";
 
 (async () => {
+  await checkAndWrite("locations", "locations", getLocations);
+  process.exit(0);
   await checkAndWrite("dyes", "dyes", getDyes);
   await checkAndWrite("cosmetics", "cosmetics", getCosmetics);
   await checkAndWrite("weaknesses", "weaknesses", getWeaknessTable);

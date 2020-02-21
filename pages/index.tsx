@@ -34,6 +34,7 @@ export default () => (
     <GearBlock />
     <QuestsBlock />
     <SaiparkBlock />
+    <LocationsBlock />
     <CosmeticsBlock />
     <DyesBlock />
     <PatchesBlock />
@@ -255,6 +256,18 @@ function GearBlock() {
         <p>Currently has information for {num} pieces of gear.</p>
         <IconFieldNote />
         <TypeNote type="TemTemApiGear[]" />
+      </>
+    </ApiBlock>
+  );
+}
+
+function LocationsBlock() {
+  const num = useNum("/api/locations");
+  return (
+    <ApiBlock example={examples.locationExample}>
+      <>
+        <ApiHeader path="/api/locations" style={{ marginBottom: 10 }} />
+        <p>Currently has information for {num} islands.</p>
       </>
     </ApiBlock>
   );

@@ -160,6 +160,29 @@ const schema = buildSchema(`
     main: [MainQuest!]!
     side: [SideQuest!]!
   }
+  enum LocationTypes {
+    island,
+    route,
+    townorvillage,
+    landmark
+  }
+  type LocationOfType {
+    name: String!
+    wikiUrl: String!
+    type: LocationTypes
+  }
+  type Location {
+    name: String!
+    wikiUrl: String!
+    description: String!
+    temtemTypes: [String!]!
+    type: LocationTypes,
+    routes: [LocationOfType!]!
+    townsAndVillages: [LocationOfType!]!
+    landmarks: [LocationOfType!]!
+    temtem: [String!]!
+    trivia: [String!]!
+  }
   type Query {
     conditions: [Condition!]!
     cosmetics: [Cosmetic!]!
@@ -168,6 +191,7 @@ const schema = buildSchema(`
     patches: [Patch!]!
     quests: Quest!
     saipark: [Saipark!]!
+    locations: [Location!]!
     summary: Summary!
     techniques: [Technique!]!
     traits: [Trait!]!

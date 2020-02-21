@@ -14,6 +14,120 @@ export const conditionExample = [
   }
 ];
 
+export const locationExample = [
+  {
+    name: "Deniz",
+    wikiUrl: "https://temtem.gamepedia.com/Deniz",
+    description:
+      "Deniz is a Mediterranean paradise of glittering seas where Water and Wind Temtem abound. Walk the streets of Turquesa, explore the ruins of an ancient fort or just chill on the shores of Indigo Lake.",
+    temtemTypes: ["Water", "Wind"],
+    type: "island",
+    routes: [
+      {
+        name: "Prasine Coast",
+        wikiUrl: "https://temtem.gamepedia.com/Prasine_Coast",
+        type: "route"
+      },
+      {
+        name: "Thalassian Cliffs",
+        wikiUrl: "https://temtem.gamepedia.com/Thalassian_Cliffs",
+        type: "route"
+      },
+      {
+        name: "The Gifted Bridges",
+        wikiUrl: "https://temtem.gamepedia.com/The_Gifted_Bridges",
+        type: "route"
+      },
+      {
+        name: "Sillaro River",
+        wikiUrl: "https://temtem.gamepedia.com/Sillaro_River",
+        type: "route"
+      }
+    ],
+    townsAndVillages: [
+      {
+        name: "Zadar",
+        wikiUrl: "https://temtem.gamepedia.com/Zadar",
+        type: "townorvillage"
+      },
+      {
+        name: "Briçal de Mar",
+        wikiUrl: "https://temtem.gamepedia.com/Bri%C3%A7al_de_Mar",
+        type: "townorvillage"
+      },
+      {
+        name: "Arissola",
+        wikiUrl: "https://temtem.gamepedia.com/Arissola",
+        type: "townorvillage"
+      },
+      {
+        name: "Turquesa",
+        wikiUrl: "https://temtem.gamepedia.com/Turquesa",
+        type: "townorvillage"
+      }
+    ],
+    landmarks: [
+      {
+        name: "Sillaro",
+        wikiUrl: "https://temtem.gamepedia.com/Sillaro",
+        type: "landmark"
+      },
+      {
+        name: "Windward Fort",
+        wikiUrl: "https://temtem.gamepedia.com/Windward_Fort",
+        type: "landmark"
+      },
+      {
+        name: "Aguamarina Caves",
+        wikiUrl: "https://temtem.gamepedia.com/Aguamarina_Caves",
+        type: "landmark"
+      },
+      {
+        name: "Indigo Lake",
+        wikiUrl: "https://temtem.gamepedia.com/Indigo_Lake",
+        type: "landmark"
+      },
+      {
+        name: "Arissola Dojo",
+        wikiUrl: "https://temtem.gamepedia.com/Arissola_Dojo",
+        type: "landmark"
+      },
+      {
+        name: "Saipark",
+        wikiUrl: "https://temtem.gamepedia.com/Saipark",
+        type: "landmark"
+      }
+    ],
+    temtem: [
+      "Swali",
+      "Tateru",
+      "Paharo",
+      "Paharac",
+      "Fomu",
+      "Wiplump",
+      "Skail",
+      "Skunch",
+      "Kaku",
+      "Saku",
+      "Ganki",
+      "Saipat",
+      "Umishi",
+      "Kalazu",
+      "Kalabyss",
+      "Pewki",
+      "Piraniant",
+      "Barnshe",
+      "Nessla",
+      "Oceara",
+      "Pigepic"
+    ],
+    trivia: [
+      'The inspiration of Deniz is a melting pot relating to the Mediterranean Sea, the most predominant cultures being Spain, Italy, and Turkey. The island\'s name itself means "sea" in Turkish. Several placenames are Spanish, and the fact that its the starting region might allude to Crema being based of Madrid.',
+      "Deniz was the first playable island to be featured in the game. During Alpha 1.0, it was the only explorable island."
+    ]
+  }
+];
+
 export const techniqueExample = [
   {
     name: "Crystal Dust",
