@@ -1,3 +1,4 @@
+import url from "url";
 import got from "got";
 import cheerio from "cheerio";
 import { typedToArray } from "../util/cheerioHelpers";
@@ -55,6 +56,7 @@ async function embellishIsland(island: RawIsland) {
   const $ = cheerio.load(html);
   return {
     ...island,
+    ...getImage($),
     routes: attachType(getSectionList($, "Routes"), LocationType.ROUTE),
     townsAndVillages: attachType(
       getSectionList($, "Towns_and_Villages"),
@@ -71,6 +73,19 @@ async function embellishIsland(island: RawIsland) {
 
 function attachType(ar: any[], type: LocationType) {
   return ar.map(a => ({ ...a, type }));
+}
+
+function getImage($: CheerioStatic) {
+  const thumb = $(".thumbinner").first();
+  const fileLink = thumb.find("a").attr("href");
+  const thumbnail = thumb.find("img").attr("src");
+  const parsedThumbnail = url.parse(thumbnail || "");
+  return {
+    imageWikiThumbnail: thumbnail
+      ? `${parsedThumbnail.protocol}//${parsedThumbnail.host}${parsedThumbnail.pathname}`
+      : "",
+    imageWikiFile: `https://temtem.gamepedia.com${fileLink}`
+  };
 }
 
 function getSectionList(
