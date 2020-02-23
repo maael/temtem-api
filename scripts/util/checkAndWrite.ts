@@ -11,31 +11,35 @@ export default async function checkAndWrite(
   file: string,
   data: any
 ) {
-  const awaitedData = await (typeof data === "function" ? data() : data);
-  const itemCount = Array.isArray(awaitedData) ? awaitedData.length : 1;
-  log.info(
-    `Checking ${itemCount} ${codecKey} item${itemCount === 1 ? "" : "s"}`
-  );
-  const codec = codecMap[codecKey];
-  if (codec && codecKey !== "missing") {
-    const result = codec.decode(awaitedData);
-    const report = PathReporter.report(result);
-    if (report.length !== 1 && report[0] !== "No errors!") {
-      log.error(
-        `Codec errors, writing error log, skipping write for "${codecKey}"`
-      );
-      await writeErrorLog(codecKey, file, awaitedData, report);
-      return;
-    } else {
-      log.info(`Passed codec: ${codecKey}`);
-    }
-  } else {
-    log.warn(`No codec found to enforce for: "${codecKey}"`);
-  }
   try {
-    await write(file, awaitedData);
+    const awaitedData = await (typeof data === "function" ? data() : data);
+    const itemCount = Array.isArray(awaitedData) ? awaitedData.length : 1;
+    log.info(
+      `Checking ${itemCount} ${codecKey} item${itemCount === 1 ? "" : "s"}`
+    );
+    const codec = codecMap[codecKey];
+    if (codec && codecKey !== "missing") {
+      const result = codec.decode(awaitedData);
+      const report = PathReporter.report(result);
+      if (report.length !== 1 && report[0] !== "No errors!") {
+        log.error(
+          `Codec errors, writing error log, skipping write for "${codecKey}"`
+        );
+        await writeErrorLog(codecKey, file, awaitedData, report);
+        return;
+      } else {
+        log.info(`Passed codec: ${codecKey}`);
+      }
+    } else {
+      log.warn(`No codec found to enforce for: "${codecKey}"`);
+    }
+    try {
+      await write(file, awaitedData);
+    } catch (e) {
+      log.error(`Problem writing data: "${e.message}"`);
+    }
   } catch (e) {
-    log.error(`Problem writing data: "${e.message}"`);
+    log.error(`Problem processing ${file}: ${e.message}`);
   }
 }
 

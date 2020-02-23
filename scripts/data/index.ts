@@ -22,7 +22,6 @@ import checkAndWrite from "../util/checkAndWrite";
 
 (async () => {
   await checkAndWrite("locations", "locations", getLocations);
-  process.exit(0);
   await checkAndWrite("dyes", "dyes", getDyes);
   await checkAndWrite("cosmetics", "cosmetics", getCosmetics);
   await checkAndWrite("weaknesses", "weaknesses", getWeaknessTable);

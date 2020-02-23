@@ -1,5 +1,41 @@
 [
   {
+    "name": "Temtem 0.5.13",
+    "version": "0.5.13",
+    "url": "https://crema.gg/temtem/temtem-0-5-13/",
+    "date": "2020-2-21",
+    "patchInfo": {
+      "fixes": [
+        "Fixed several problems regarding the synchronization of the ready button during trades.",
+        "Improved and secured some cinematic initialization cases to prevent further bugs.",
+        "Fixed some cases where gears could get lost when trying to release a Temtem that had one equipped.",
+        "Fixed getting stuck when talking with the stowaway in Tucma.",
+        "Fixed co-op party breaking during Dr. Hamijo’s conversation in the Anak Volcano.",
+        "Fixed Temtem losing their shadow after inspecting them in the Tempedia.",
+        "Fixed not being able to use your partner’s recently captured Temtem in battles.",
+        "Fixed a soft lock when picking an object that your co-op partner already has.",
+        "Fixed a game crash when pressing TAB/Control in the Vault.",
+        "Fixed being stuck in battles when losing connectivity after capturing an untamed Temtem while on a co-op party.",
+        "Fixed traded eggs with 0 minutes to hatch not hatching after the trade.",
+        "Fixed items not being taken away during the crash cinematic after doing a co-op party.",
+        "Fixed being stuck in limbo after reaching the Jail in a co-op party.",
+        "Fixed frozen evolving Temtem not appearing as frozen after the evolution sequence.",
+        "Fixed Omninesia Dojos having their description swapped with each other.",
+        "Fixed not being able to stand up after sitting down in jaguar lounge’s benches."
+      ],
+      "improvements": [
+        "Added a countdown to the trade screen. After both players hit ready, there will be a 5-second countdown where players can review everything and cancel the trade if they’re not sure about something.",
+        "Exiting the trade screen will now instantly cancel the ready button before confirming the exit with the player.",
+        "Increased server room sizes to hold more players at the same time.",
+        "Improved Barnshe textures."
+      ],
+      "features": [
+        "Added a new music track during the competitive pick&ban phase."
+      ],
+      "balance": []
+    }
+  },
+  {
     "name": "Temtem 0.5.12",
     "version": "0.5.12",
     "url": "https://crema.gg/temtem/temtem-0-5-12/",
@@ -223,9 +259,7 @@
       ],
       "improvements": [],
       "features": [],
-      "balance": [
-        "Increased the price for all breeding gears."
-      ]
+      "balance": ["Increased the price for all breeding gears."]
     }
   },
   {

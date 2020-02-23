@@ -76,7 +76,7 @@ function getItems($, selector, type) {
         return {
           type,
           wikiImageUrl: items[0].wikiImageUrl
-            ? `${imageParts.protocol}://${imageParts.host}${imageParts.pathname}`
+            ? `${imageParts.protocol}//${imageParts.host}${imageParts.pathname}`
             : "",
           wikiUrl: `https://temtem.gamepedia.com${items[1].wikiUrl}`,
           name: items[1].text,
