@@ -2,6 +2,11 @@ import got from "got";
 import cheerio from "cheerio";
 import { typedToArray } from "../util/cheerioHelpers";
 
+let existing = [];
+try {
+  existing = require("../../data/saipark.json");
+} catch {}
+
 export default async function getSaipark() {
   const result = await got("https://temtem.gamepedia.com/Saipark");
   const $ = cheerio.load(result.body);
@@ -22,7 +27,11 @@ export default async function getSaipark() {
       land: [landInfo],
       water: [waterInfo]
     }
-  ];
+  ].concat(
+    existing.filter(
+      ({ dateRange: existingDateRange }) => existingDateRange !== dateRange
+    )
+  );
 }
 
 function formatDate({
