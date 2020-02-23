@@ -569,7 +569,7 @@ export const cosmeticsExample = [
   {
     type: "bottom",
     wikiImageUrl:
-      "https:://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/dc/TieDownPants.png/100px-TieDownPants.png",
+      "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/dc/TieDownPants.png/100px-TieDownPants.png",
     wikiUrl: "https://temtem.gamepedia.com/Tie_Down_Pants",
     name: "Tie Down Pants",
     location: "Mokupuni",
