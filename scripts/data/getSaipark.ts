@@ -6,7 +6,7 @@ export default async function getSaipark() {
   const result = await got("https://temtem.gamepedia.com/Saipark");
   const $ = cheerio.load(result.body);
   const page = $("#mw-content-text");
-  const header = page.find("#Avaliable_Temtem");
+  const header = page.find("#Available_Temtem");
   const $dateRange = header.parent().next();
   const $land = $dateRange.next();
   const landInfo = getInfo($, $land);
