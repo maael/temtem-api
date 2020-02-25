@@ -698,6 +698,20 @@
     "description": "Invoke the ancient spirit of the Omninesian jungle to recover 100% STA."
   },
   {
+    "name": "Gamma Burst",
+    "wikiUrl": "https://temtem.gamepedia.com/Gamma_Burst",
+    "type": "Mental",
+    "class": "Special",
+    "damage": 150,
+    "staminaCost": 51,
+    "hold": 0,
+    "priority": "normal",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "TechniquesDesc/Tech_99"
+  },
+  {
     "name": "Glass Blade",
     "wikiUrl": "https://temtem.gamepedia.com/Glass_Blade",
     "type": "Crystal",
@@ -1251,7 +1265,7 @@
     "type": "Melee",
     "class": "Physical",
     "damage": 135,
-    "staminaCost": 26,
+    "staminaCost": 29,
     "hold": 1,
     "priority": "high",
     "synergy": "None",

@@ -2649,38 +2649,38 @@
       {
         "location": "Prasine Coast",
         "island": "Deniz",
-        "frequency": "Common",
+        "frequency": "5%",
         "level": "4-6"
       },
       {
         "location": "Thalassian Cliffs",
         "island": "Deniz",
-        "frequency": "Common",
-        "level": "7-9"
-      },
-      {
-        "location": "The Gifted Bridges",
-        "island": "Deniz",
-        "frequency": "Common",
-        "level": ""
+        "frequency": "30%-80%",
+        "level": "4-9"
       },
       {
         "location": "Windward Fort",
         "island": "Deniz",
-        "frequency": "Common",
-        "level": "12-14"
+        "frequency": "70%-100%",
+        "level": "9-14"
       },
       {
         "location": "Aguamarina Caves",
         "island": "Deniz",
-        "frequency": "Common",
+        "frequency": "30%-65%",
         "level": "14-18"
       },
       {
-        "location": "Waterfall floor of Aguamarina Caves",
+        "location": "Aguamarina Caves",
         "island": "Deniz",
-        "frequency": "Uncommon",
-        "level": "18-20"
+        "frequency": "30%-65%",
+        "level": "14-18"
+      },
+      {
+        "location": "Saipark Caves",
+        "island": "Deniz",
+        "frequency": "50%",
+        "level": "38-41"
       }
     ],
     "icon": "/images/portraits/temtem/large/Skail.png",
@@ -2814,19 +2814,19 @@
       {
         "location": "Aguamarina Caves",
         "island": "Deniz",
-        "frequency": "Very Rare (5%)",
+        "frequency": "5%",
         "level": "14-20"
       },
       {
         "location": "Corrupted Badlands",
         "island": "Tucma",
-        "frequency": "Rare (20%)",
+        "frequency": "20%",
         "level": "25-29"
       },
       {
         "location": "Xolot Reservoir",
         "island": "Tucma",
-        "frequency": "Uncommon",
+        "frequency": "50%",
         "level": "26-29"
       }
     ],
@@ -4784,9 +4784,9 @@
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e3/LumaBarnshe.png/250px-LumaBarnshe.png?version=106874d697508646094376f6c7b8b1a3",
     "locations": [
       {
-        "location": "Windward Fort (Top floor)",
+        "location": "Windward FortTop Floor",
         "island": "Deniz",
-        "frequency": "Very Rare (5%)",
+        "frequency": "5%",
         "level": "12-14"
       }
     ],
@@ -6175,7 +6175,7 @@
       "spdef": 34,
       "total": 353
     },
-    "traits": ["Mirroring"],
+    "traits": ["Soft Touch", "Mirroring"],
     "details": {
       "height": {
         "cm": 115,
@@ -6201,6 +6201,11 @@
         "name": "Telekinetic Shrapnel",
         "source": "Levelling",
         "levels": 0
+      },
+      {
+        "name": "Gamma Burst",
+        "source": "Levelling",
+        "levels": 0
       }
     ],
     "trivia": [
@@ -6214,7 +6219,7 @@
           "number": 79,
           "name": "Hocus",
           "stage": 1,
-          "levels": 17,
+          "levels": 21,
           "trading": false
         },
         {
@@ -6277,7 +6282,7 @@
           "number": 79,
           "name": "Hocus",
           "stage": 1,
-          "levels": 17,
+          "levels": 21,
           "trading": false
         },
         {
@@ -8848,16 +8853,16 @@
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/ea/LumaOceara.png/250px-LumaOceara.png?version=cebd9922a9f9b3bb346c30aaf2fe80ec",
     "locations": [
       {
-        "location": "Aguamarina Caves (Waterfall floor)",
+        "location": "Aguamarina CavesBottom Floor (one waterfall)",
         "island": "Deniz",
-        "frequency": "Very Rare (5%)",
-        "level": ""
+        "frequency": "5%",
+        "level": "15-17"
       },
       {
-        "location": "Saipark (First Area Pools)",
+        "location": "Aguamarina CavesTop Floor (two waterfalls)",
         "island": "Deniz",
-        "frequency": "Common (30%)",
-        "level": ""
+        "frequency": "5%",
+        "level": "21-22"
       }
     ],
     "icon": "/images/portraits/temtem/large/Oceara.png",
