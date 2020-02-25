@@ -5,7 +5,9 @@ import { typedToArray } from "../util/cheerioHelpers";
 let existing = [];
 try {
   existing = require("../../data/saipark.json");
-} catch {}
+} catch {
+  // Do nothing
+}
 
 export default async function getSaipark() {
   const result = await got("https://temtem.gamepedia.com/Saipark");
