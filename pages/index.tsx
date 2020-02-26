@@ -308,7 +308,7 @@ function QuestsBlock() {
 function CharactersBlock() {
   const num = useNum("/api/characters");
   return (
-    <ApiBlock example={[]}>
+    <ApiBlock example={examples.characterExample}>
       <>
         <ApiHeader path="/api/characters" style={{ marginBottom: 10 }} />
         <p>Currently has information for {num} characters.</p>

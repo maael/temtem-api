@@ -636,3 +636,10 @@ export const freetemExample = {
   catchRate: 120,
   reward: 95
 };
+
+export const characterExample = [
+  {
+    name: "Lady Lottie",
+    wikiUrl: "https://temtem.gamepedia.com/Lady_Lottie"
+  }
+];
