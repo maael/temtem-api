@@ -16,6 +16,7 @@ import getTraits from "./getTraits";
 import embellishTraits from "./embellishTraits";
 import getKnownTemtemSpecies from "./getKnownTemtemSpecies";
 import embellishKnownTemtemSpecies from "./embellishKnownTemtemSpecies";
+import embellishTemtemEvolutionTraits from "./embellishTemtemEvolutionTraits";
 import getSaipark from "./getSaipark";
 import getCharacters from "./getCharacters";
 import * as log from "../util/log";
@@ -51,7 +52,10 @@ import checkAndWrite from "../util/checkAndWrite";
   });
   await checkAndWrite("temtem", "knownTemtemSpecies", async () => {
     const knownTemtem = await getKnownTemtemSpecies();
-    return embellishKnownTemtemSpecies(knownTemtem || []);
+    const embellishedTemtem = await embellishKnownTemtemSpecies(
+      knownTemtem || []
+    );
+    return embellishTemtemEvolutionTraits(embellishedTemtem || []);
   });
   await checkAndWrite("saipark", "saipark", getSaipark);
 })().catch(e => {

@@ -326,12 +326,20 @@ export const knownTemtemExample = [
           name: "Ganki",
           stage: 1,
           levels: 27,
-          trading: false
+          trading: false,
+          traitMapping: {
+            Botanophobia: "Receptive",
+            "Cold-Natured": "Fast Charge"
+          }
         },
         {
           number: 114,
           name: "Gazuma",
-          stage: 2
+          stage: 2,
+          traitMapping: {
+            Receptive: "Receptive",
+            "Fast Charge": "Fast Charge"
+          }
         }
       ],
       evolves: true,
