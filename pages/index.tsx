@@ -33,6 +33,7 @@ export default () => (
     <TraitsBlock />
     <GearBlock />
     <QuestsBlock />
+    <CharactersBlock />
     <SaiparkBlock />
     <LocationsBlock />
     <CosmeticsBlock />
@@ -280,6 +281,18 @@ function QuestsBlock() {
       <>
         <ApiHeader path="/api/quests" style={{ marginBottom: 10 }} />
         <p>Currently has information for {num} quests.</p>
+      </>
+    </ApiBlock>
+  );
+}
+
+function CharactersBlock() {
+  const num = useNum("/api/characters");
+  return (
+    <ApiBlock example={[]}>
+      <>
+        <ApiHeader path="/api/characters" style={{ marginBottom: 10 }} />
+        <p>Currently has information for {num} characters.</p>
       </>
     </ApiBlock>
   );
