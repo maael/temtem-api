@@ -66,6 +66,9 @@ export interface Temtem extends MinimalTemtem {
   locations: TemtemLocation[];
   icon: string;
   lumaIcon: string;
+  genderMaleRatio: number;
+  catchRate: number;
+  tvYields: Record<keyof MinimalTemtem["stats"], number>;
 }
 
 export default async function embellishKnownTemtemSpecies(
@@ -87,7 +90,19 @@ export default async function embellishKnownTemtemSpecies(
           lumaWikiPortraitUrlLarge: getWikiLumaPortraitUrl(html),
           locations: getLocations(html),
           icon: `/images/portraits/temtem/large/${item.name}.png`,
-          lumaIcon: `/images/portraits/temtem/luma/large/${item.name}.png`
+          lumaIcon: `/images/portraits/temtem/luma/large/${item.name}.png`,
+          genderMaleRatio: 50,
+          catchRate: 200,
+          tvYields: {
+            hp: 0,
+            sta: 0,
+            spd: 0,
+            atk: 0,
+            def: 0,
+            spatk: 0,
+            spdef: 0,
+            total: 0
+          }
         };
       })
       .sort((a, b) => a.number - b.number);

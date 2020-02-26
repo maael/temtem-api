@@ -614,3 +614,10 @@ export const saipark = [
     ]
   }
 ];
+
+export const freetemExample = {
+  temtem: "Ganki",
+  level: 30,
+  catchRate: 120,
+  reward: 95
+};

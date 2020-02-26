@@ -42,25 +42,26 @@ I used `node@10.17.0` to develop it.
 
 ## Endpoints
 
-| URL                       | Docs                                                  |
-| ------------------------- | ----------------------------------------------------- |
-| `/api/temtems`            | https://temtem-api.mael.tech/#/api/temtems            |
-| `/api/temtems/[number]`   | https://temtem-api.mael.tech/#/api/temtems/number     |
-| `/api/types`              | https://temtem-api.mael.tech/#/api/types              |
-| `/api/conditions`         | https://temtem-api.mael.tech/#/api/conditions         |
-| `/api/techniques`         | https://temtem-api.mael.tech/#/api/techniques         |
-| `/api/traits`             | https://temtem-api.mael.tech/#/api/traits             |
-| `/api/gear`               | https://temtem-api.mael.tech/#/api/gear               |
-| `/api/quests`             | https://temtem-api.mael.tech/#/api/quests             |
-| `/api/characters`         | https://temtem-api.mael.tech/#/api/characters         |
-| `/api/saipark`            | https://temtem-api.mael.tech/#/api/saipark            |
-| `/api/locations`          | https://temtem-api.mael.tech/#/api/locations          |
-| `/api/cosmetics`          | https://temtem-api.mael.tech/#/api/cosmetics          |
-| `/api/dyes`               | https://temtem-api.mael.tech/#/api/dyes               |
-| `/api/patches`            | https://temtem-api.mael.tech/#/api/patches            |
-| `/api/weaknesses`         | https://temtem-api.mael.tech/#/api/weaknesses         |
-| `/api/weakness/calculate` | https://temtem-api.mael.tech/#/api/weakness/calculate |
-| `/api/breeding`           | https://temtem-api.mael.tech/#/api/breeding           |
+| URL                             | Docs                                                    |
+| ------------------------------- | ------------------------------------------------------- |
+| `/api/temtems`                  | https://temtem-api.mael.tech/#/api/temtems              |
+| `/api/temtems/[number]`         | https://temtem-api.mael.tech/#/api/temtems/number       |
+| `/api/types`                    | https://temtem-api.mael.tech/#/api/types                |
+| `/api/conditions`               | https://temtem-api.mael.tech/#/api/conditions           |
+| `/api/techniques`               | https://temtem-api.mael.tech/#/api/techniques           |
+| `/api/traits`                   | https://temtem-api.mael.tech/#/api/traits               |
+| `/api/gear`                     | https://temtem-api.mael.tech/#/api/gear                 |
+| `/api/quests`                   | https://temtem-api.mael.tech/#/api/quests               |
+| `/api/characters`               | https://temtem-api.mael.tech/#/api/characters           |
+| `/api/saipark`                  | https://temtem-api.mael.tech/#/api/saipark              |
+| `/api/locations`                | https://temtem-api.mael.tech/#/api/locations            |
+| `/api/cosmetics`                | https://temtem-api.mael.tech/#/api/cosmetics            |
+| `/api/dyes`                     | https://temtem-api.mael.tech/#/api/dyes                 |
+| `/api/patches`                  | https://temtem-api.mael.tech/#/api/patches              |
+| `/api/weaknesses`               | https://temtem-api.mael.tech/#/api/weaknesses           |
+| `/api/weakness/calculate`       | https://temtem-api.mael.tech/#/api/weakness/calculate   |
+| `/api/breeding`                 | https://temtem-api.mael.tech/#/api/breeding             |
+| `/api/freetem/[temtem]/[level]` | https://temtem-api.mael.tech/#/api/freetem/temtem/level |
 
 ## Data / Asset Fetching
 

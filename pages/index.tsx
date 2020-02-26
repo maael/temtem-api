@@ -27,6 +27,7 @@ export default () => (
     <Header />
     <TemtemsBlock />
     <TemtemBlock />
+    <FreetemBlock />
     <TypesBlock />
     <ConditionsBlock />
     <TechniquesBlock />
@@ -157,6 +158,24 @@ function TemtemBlock() {
         </p>
         <IconFieldNote />
         <TypeNote type="TemTemApiTem" />
+      </>
+    </ApiBlock>
+  );
+}
+
+function FreetemBlock() {
+  return (
+    <ApiBlock example={examples.freetemExample}>
+      <>
+        <ApiHeader
+          path="/api/freetem/[temtem]/[level]"
+          style={{ marginBottom: 10 }}
+        />
+        <p>
+          Calculates the <a href="">Freetem!</a> reward for catching a specific
+          Temtem at a certain level. The Temtem parameter is the name of the
+          temtem, it is case insensitive.
+        </p>
       </>
     </ApiBlock>
   );
