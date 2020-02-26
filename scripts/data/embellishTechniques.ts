@@ -36,15 +36,16 @@ export interface Technique extends MinimalTechnique {
 }
 
 function getInfoBox($: any, str: string): string {
-  return $(".infobox-row")
+  return $(".infobox-row-name")
     .filter((_i, el) => {
-      return !!$(el)
-        .text()
-        .includes(str);
+      return (
+        $(el)
+          .text()
+          .trim()
+          .toLowerCase() === str.toLowerCase()
+      );
     })
-    .first()
-    .find(".infobox-row-value")
-    .last()
+    .next(".infobox-row-value")
     .text()
     .trim();
 }
