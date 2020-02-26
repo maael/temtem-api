@@ -92,7 +92,7 @@ export default async function embellishKnownTemtemSpecies(
           icon: `/images/portraits/temtem/large/${item.name}.png`,
           lumaIcon: `/images/portraits/temtem/luma/large/${item.name}.png`,
           genderMaleRatio: 50,
-          catchRate: 200,
+          catchRate: getCatchRate(html),
           tvYields: {
             hp: 0,
             sta: 0,
@@ -164,6 +164,25 @@ function getWikiLumaPortraitUrl(html: string) {
       .first()
       .attr("src") || ""
   );
+}
+
+function getCatchRate(html: string) {
+  const $ = cheerio.load(html);
+  const catchRate = $(".infobox-row-name")
+    .filter((_i, el) => {
+      return (
+        $(el)
+          .text()
+          .trim()
+          .toLowerCase() === "catch rate"
+      );
+    })
+    .parent()
+    .find(".infobox-row-value")
+    .last()
+    .text()
+    .trim();
+  return isNaN(parseInt(catchRate, 10)) ? 200 : parseInt(catchRate, 10);
 }
 
 function getTraits(html: string) {
