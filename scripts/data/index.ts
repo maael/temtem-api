@@ -49,7 +49,7 @@ import checkAndWrite from "../util/checkAndWrite";
     const traits = await getTraits();
     return embellishTraits(traits || []);
   });
-  await checkAndWrite("missing", "knownTemtemSpecies", async () => {
+  await checkAndWrite("temtem", "knownTemtemSpecies", async () => {
     const knownTemtem = await getKnownTemtemSpecies();
     return embellishKnownTemtemSpecies(knownTemtem || []);
   });
