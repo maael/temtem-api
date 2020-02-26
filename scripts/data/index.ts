@@ -17,16 +17,18 @@ import embellishTraits from "./embellishTraits";
 import getKnownTemtemSpecies from "./getKnownTemtemSpecies";
 import embellishKnownTemtemSpecies from "./embellishKnownTemtemSpecies";
 import getSaipark from "./getSaipark";
+import getCharacters from "./getCharacters";
 import * as log from "../util/log";
 import checkAndWrite from "../util/checkAndWrite";
 
 (async () => {
+  await checkAndWrite("types", "types", getTypes);
   await checkAndWrite("locations", "locations", getLocations);
   await checkAndWrite("dyes", "dyes", getDyes);
   await checkAndWrite("cosmetics", "cosmetics", getCosmetics);
   await checkAndWrite("weaknesses", "weaknesses", getWeaknessTable);
-  await checkAndWrite("types", "types", getTypes);
   await checkAndWrite("conditions", "conditions", getConditions);
+  await checkAndWrite("missing", "characters", getCharacters);
   await checkAndWrite("quests", "quests", async () => {
     const quests = await getQuests();
     return embellishQuests(quests || []);
