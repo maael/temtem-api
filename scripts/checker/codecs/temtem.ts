@@ -42,7 +42,7 @@ export const Codec = t.type({
   evolution: t.union([
     t.type({
       stage: t.number,
-      evolutionTree: t.array(t.any),
+      evolutionTree: t.array(t.unknown),
       evolves: t.literal(true),
       type: t.literal("level")
     }),
