@@ -66,9 +66,12 @@ export interface Temtem extends MinimalTemtem {
   locations: TemtemLocation[];
   icon: string;
   lumaIcon: string;
-  genderMaleRatio: number;
+  genderRatio: {
+    male: number;
+    female: number;
+  };
   catchRate: number;
-  tvYields: Record<keyof MinimalTemtem["stats"], number>;
+  tvYields: Record<keyof Omit<MinimalTemtem["stats"], "total">, number>;
 }
 
 export default async function embellishKnownTemtemSpecies(
@@ -91,18 +94,9 @@ export default async function embellishKnownTemtemSpecies(
           locations: getLocations(html),
           icon: `/images/portraits/temtem/large/${item.name}.png`,
           lumaIcon: `/images/portraits/temtem/luma/large/${item.name}.png`,
-          genderMaleRatio: 50,
+          genderRatio: getGenderRatio(html),
           catchRate: getCatchRate(html),
-          tvYields: {
-            hp: 0,
-            sta: 0,
-            spd: 0,
-            atk: 0,
-            def: 0,
-            spatk: 0,
-            spdef: 0,
-            total: 0
-          }
+          tvYields: getTvYield(html)
         };
       })
       .sort((a, b) => a.number - b.number);
@@ -183,6 +177,64 @@ function getCatchRate(html: string) {
     .text()
     .trim();
   return isNaN(parseInt(catchRate, 10)) ? 200 : parseInt(catchRate, 10);
+}
+
+function getTvYield(html: string) {
+  const $ = cheerio.load(html);
+  const yields = ($(".tv-table tr")
+    .last()
+    .find("td")
+    .map(
+      (_, el) =>
+        parseInt(
+          $(el)
+            .text()
+            .trim(),
+          10
+        ) || 0
+    )
+    .toArray() as unknown) as number[];
+  return {
+    hp: yields[0],
+    sta: yields[1],
+    spd: yields[2],
+    atk: yields[3],
+    def: yields[4],
+    spatk: yields[5],
+    spdef: yields[6]
+  };
+}
+
+function getGenderRatio(html: string) {
+  const $ = cheerio.load(html);
+  const catchRate = $(".infobox-row-name")
+    .filter((_i, el) => {
+      return (
+        $(el)
+          .text()
+          .trim()
+          .toLowerCase() === "gender ratio"
+      );
+    })
+    .parent()
+    .find(".infobox-row-value")
+    .last()
+    .text()
+    .trim();
+  const maleRatio = catchRate.match(/(\d+)% male/);
+  const femaleRatio = catchRate.match(/(\d+)% female/);
+  return {
+    male:
+      maleRatio && maleRatio.length === 2 && !isNaN(parseInt(maleRatio[1], 10))
+        ? parseInt(maleRatio[1], 10)
+        : 50,
+    female:
+      femaleRatio &&
+      femaleRatio.length === 2 &&
+      !isNaN(parseInt(femaleRatio[1], 10))
+        ? parseInt(femaleRatio[1], 10)
+        : 50
+  };
 }
 
 function getTraits(html: string) {

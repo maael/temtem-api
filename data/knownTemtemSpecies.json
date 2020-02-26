@@ -92,17 +92,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Oree.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Oree.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 25,
+      "female": 75
+    },
     "catchRate": 145,
     "tvYields": {
       "hp": 0,
-      "sta": 0,
+      "sta": 1,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -166,17 +168,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Zaobian.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Zaobian.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 25,
+      "female": 75
+    },
     "catchRate": 0,
     "tvYields": {
       "hp": 0,
-      "sta": 0,
+      "sta": 2,
       "spd": 0,
-      "atk": 0,
+      "atk": 1,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -335,7 +339,10 @@
     ],
     "icon": "/images/portraits/temtem/large/Platypet.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Platypet.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 125,
     "tvYields": {
       "hp": 0,
@@ -343,9 +350,8 @@
       "spd": 0,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spatk": 1,
+      "spdef": 0
     }
   },
   {
@@ -520,17 +526,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Platox.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Platox.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 105,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 1,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spatk": 1,
+      "spdef": 0
     }
   },
   {
@@ -697,17 +705,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Platimous.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Platimous.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 85,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 2,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spatk": 2,
+      "spdef": 0
     }
   },
   {
@@ -854,17 +864,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Swali.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Swali.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 200,
     "tvYields": {
       "hp": 0,
-      "sta": 0,
+      "sta": 1,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -1022,17 +1034,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Loali.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Loali.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 140,
     "tvYields": {
       "hp": 0,
-      "sta": 0,
-      "spd": 0,
+      "sta": 1,
+      "spd": 1,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -1201,17 +1215,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Tateru.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Tateru.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 60,
+      "female": 40
+    },
     "catchRate": 165,
     "tvYields": {
       "hp": 0,
-      "sta": 0,
+      "sta": 2,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -1399,17 +1415,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Paharo.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Paharo.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 190,
     "tvYields": {
-      "hp": 0,
+      "hp": 1,
       "sta": 0,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -1569,17 +1587,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Paharac.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Paharac.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 125,
     "tvYields": {
-      "hp": 0,
+      "hp": 1,
       "sta": 0,
-      "spd": 0,
+      "spd": 1,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -1717,7 +1737,10 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Granpah.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Granpah.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 0,
     "tvYields": {
       "hp": 0,
@@ -1726,8 +1749,7 @@
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -1786,7 +1808,10 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Ampling.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Ampling.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 200,
     "tvYields": {
       "hp": 0,
@@ -1795,8 +1820,7 @@
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -1854,7 +1878,10 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Amphatyr.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Amphatyr.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 200,
     "tvYields": {
       "hp": 0,
@@ -1863,8 +1890,7 @@
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -1985,17 +2011,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Bunbun.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Bunbun.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 125,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 2,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -2127,17 +2155,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Mudrid.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Mudrid.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 90,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 3,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -2292,17 +2322,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Hidody.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Hidody.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 180,
     "tvYields": {
       "hp": 0,
-      "sta": 0,
+      "sta": 2,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -2459,17 +2491,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Taifu.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Taifu.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 125,
     "tvYields": {
       "hp": 0,
-      "sta": 0,
+      "sta": 2,
       "spd": 0,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spatk": 1,
+      "spdef": 0
     }
   },
   {
@@ -2604,7 +2638,10 @@
     ],
     "icon": "/images/portraits/temtem/large/Fomu.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Fomu.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 150,
     "tvYields": {
       "hp": 0,
@@ -2613,8 +2650,7 @@
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 2
     }
   },
   {
@@ -2755,7 +2791,10 @@
     ],
     "icon": "/images/portraits/temtem/large/Wiplump.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Wiplump.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 90,
     "tvYields": {
       "hp": 0,
@@ -2763,9 +2802,8 @@
       "spd": 0,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spatk": 2,
+      "spdef": 0
     }
   },
   {
@@ -2913,17 +2951,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Skail.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Skail.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 120,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 1,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -3072,17 +3112,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Skunch.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Skunch.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 90,
     "tvYields": {
-      "hp": 0,
+      "hp": 1,
       "sta": 0,
-      "spd": 0,
+      "spd": 1,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -3200,7 +3242,10 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Houchic.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Houchic.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 80,
     "tvYields": {
       "hp": 0,
@@ -3208,9 +3253,8 @@
       "spd": 0,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spatk": 1,
+      "spdef": 0
     }
   },
   {
@@ -3349,7 +3393,10 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Tental.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Tental.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 70,
     "tvYields": {
       "hp": 0,
@@ -3357,9 +3404,8 @@
       "spd": 0,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spatk": 2,
+      "spdef": 0
     }
   },
   {
@@ -3503,17 +3549,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Orphyll.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Orphyll.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 120,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 2,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -3648,17 +3696,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Nidrasil.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Nidrasil.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 100,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 3,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -3795,17 +3845,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Banapi.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Banapi.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 60,
+      "female": 40
+    },
     "catchRate": 150,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 2,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -3928,17 +3980,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Capyre.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Capyre.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 60,
+      "female": 40
+    },
     "catchRate": 100,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
-      "atk": 0,
+      "spd": 2,
+      "atk": 1,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -4052,17 +4106,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Lapinite.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Lapinite.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 150,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
+      "def": 2,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -4186,17 +4242,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Azuroc.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Azuroc.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 110,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
+      "def": 3,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -4324,17 +4382,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Zenoreth.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Zenoreth.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 0,
     "tvYields": {
-      "hp": 0,
+      "hp": 2,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
+      "def": 2,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -4441,17 +4501,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Bigu.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Bigu.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 180,
     "tvYields": {
       "hp": 0,
-      "sta": 0,
+      "sta": 2,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -4595,17 +4657,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Babawa.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Babawa.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 90,
     "tvYields": {
       "hp": 0,
-      "sta": 0,
+      "sta": 4,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -4759,17 +4823,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Kaku.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Kaku.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 190,
     "tvYields": {
-      "hp": 0,
+      "hp": 1,
       "sta": 0,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -4931,17 +4997,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Saku.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Saku.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 140,
     "tvYields": {
-      "hp": 0,
+      "hp": 2,
       "sta": 0,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -5071,17 +5139,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Valash.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Valash.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 95,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 2,
       "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spatk": 2,
+      "spdef": 0
     }
   },
   {
@@ -5212,7 +5282,10 @@
     ],
     "icon": "/images/portraits/temtem/large/Barnshe.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Barnshe.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 0,
+      "female": 100
+    },
     "catchRate": 95,
     "tvYields": {
       "hp": 0,
@@ -5220,9 +5293,8 @@
       "spd": 0,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spatk": 1,
+      "spdef": 0
     }
   },
   {
@@ -5358,17 +5430,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Gyalis.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Gyalis.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 20,
+      "female": 80
+    },
     "catchRate": 80,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 4,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -5478,17 +5552,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Occlura.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Occlura.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 60,
+      "female": 40
+    },
     "catchRate": 120,
     "tvYields": {
-      "hp": 0,
+      "hp": 1,
       "sta": 0,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 1
     }
   },
   {
@@ -5612,7 +5688,10 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Myx.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Myx.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 60,
+      "female": 40
+    },
     "catchRate": 81,
     "tvYields": {
       "hp": 0,
@@ -5620,9 +5699,8 @@
       "spd": 0,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spatk": 3,
+      "spdef": 0
     }
   },
   {
@@ -5742,17 +5820,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Raiber.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Raiber.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 85,
+      "female": 15
+    },
     "catchRate": 150,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
+      "def": 1,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -5865,17 +5945,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Raize.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Raize.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 85,
+      "female": 15
+    },
     "catchRate": 120,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
+      "def": 2,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -5997,17 +6079,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Raican.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Raican.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 85,
+      "female": 15
+    },
     "catchRate": 90,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "def": 2,
+      "spatk": 2,
+      "spdef": 0
     }
   },
   {
@@ -6150,17 +6234,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Pewki.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Pewki.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 150,
     "tvYields": {
-      "hp": 0,
+      "hp": 1,
       "sta": 0,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -6283,17 +6369,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Piraniant.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Piraniant.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 130,
     "tvYields": {
-      "hp": 0,
+      "hp": 2,
       "sta": 0,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -6453,17 +6541,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Saipat.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Saipat.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 140,
     "tvYields": {
-      "hp": 0,
+      "hp": 3,
       "sta": 0,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -6583,17 +6673,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Crystle.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Crystle.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 35,
+      "female": 65
+    },
     "catchRate": 160,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
+      "def": 2,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -6709,17 +6801,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Sherald.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Sherald.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 35,
+      "female": 65
+    },
     "catchRate": 120,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
+      "def": 3,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -6800,17 +6894,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Hocus.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Hocus.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 20,
+      "female": 80
+    },
     "catchRate": 90,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 1,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -6875,17 +6971,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Pocus.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Pocus.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 20,
+      "female": 80
+    },
     "catchRate": 0,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 2,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spatk": 1,
+      "spdef": 0
     }
   },
   {
@@ -6987,17 +7085,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Sparzy.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Sparzy.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 100,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 2,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -7113,17 +7213,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Mushi.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Mushi.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 125,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 2,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -7251,17 +7353,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Mushook.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Mushook.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 78,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
-      "atk": 0,
+      "spd": 2,
+      "atk": 2,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -7353,17 +7457,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Magmis.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Magmis.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 200,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 2,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -7492,17 +7598,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Mastione.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Mastione.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 100,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 3,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -7636,17 +7744,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Umishi.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Umishi.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 90,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 1,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -7774,17 +7884,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Ukama.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Ukama.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 70,
     "tvYields": {
       "hp": 0,
-      "sta": 0,
-      "spd": 0,
+      "sta": 1,
+      "spd": 2,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -7843,7 +7955,10 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Raignet.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Raignet.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 200,
     "tvYields": {
       "hp": 0,
@@ -7852,8 +7967,7 @@
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -7973,17 +8087,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Smazee.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Smazee.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 65,
+      "female": 35
+    },
     "catchRate": 60,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 2,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -8113,17 +8229,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Baboong.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Baboong.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 65,
+      "female": 35
+    },
     "catchRate": 50,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 3,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -8167,7 +8285,10 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Zizare.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Zizare.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 200,
     "tvYields": {
       "hp": 0,
@@ -8176,8 +8297,7 @@
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -8310,17 +8430,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Spriole.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Spriole.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 180,
     "tvYields": {
-      "hp": 0,
+      "hp": 1,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
+      "def": 1,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -8454,17 +8576,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Deendre.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Deendre.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 125,
     "tvYields": {
-      "hp": 0,
+      "hp": 2,
       "sta": 0,
-      "spd": 0,
+      "spd": 1,
       "atk": 0,
-      "def": 0,
+      "def": 1,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -8585,17 +8709,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Cerneaf.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Cerneaf.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 90,
     "tvYields": {
-      "hp": 0,
+      "hp": 2,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
+      "def": 2,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -8713,7 +8839,10 @@
     ],
     "icon": "/images/portraits/temtem/large/Toxolotl.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Toxolotl.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 120,
     "tvYields": {
       "hp": 0,
@@ -8721,9 +8850,8 @@
       "spd": 0,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spatk": 2,
+      "spdef": 0
     }
   },
   {
@@ -8839,7 +8967,10 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Noxolotl.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Noxolotl.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 75,
     "tvYields": {
       "hp": 0,
@@ -8847,9 +8978,8 @@
       "spd": 0,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spatk": 2,
+      "spdef": 2
     }
   },
   {
@@ -8954,17 +9084,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Blooze.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Blooze.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 65,
+      "female": 35
+    },
     "catchRate": 100,
     "tvYields": {
-      "hp": 0,
+      "hp": 2,
       "sta": 0,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -9083,17 +9215,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Goolder.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Goolder.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 65,
+      "female": 35
+    },
     "catchRate": 100,
     "tvYields": {
-      "hp": 0,
+      "hp": 4,
       "sta": 0,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -9213,17 +9347,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Zephyruff.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Zephyruff.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 165,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 1,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -9345,7 +9481,10 @@
     ],
     "icon": "/images/portraits/temtem/large/Volarend.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Volarend.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 98,
     "tvYields": {
       "hp": 0,
@@ -9354,8 +9493,7 @@
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 3
     }
   },
   {
@@ -9483,17 +9621,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Ganki.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Ganki.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 120,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 1,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -9614,17 +9754,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Gazuma.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Gazuma.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 100,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 2,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -9719,17 +9861,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Oceara.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Oceara.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 10,
+      "female": 90
+    },
     "catchRate": 35,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 1,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spatk": 2,
+      "spdef": 0
     }
   },
   {
@@ -9833,17 +9977,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Shuine.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Shuine.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 40,
     "tvYields": {
       "hp": 0,
-      "sta": 0,
+      "sta": 3,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -9956,7 +10102,10 @@
     ],
     "icon": "/images/portraits/temtem/large/Nessla.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Nessla.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 70,
+      "female": 30
+    },
     "catchRate": 65,
     "tvYields": {
       "hp": 0,
@@ -9965,8 +10114,7 @@
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 2
     }
   },
   {
@@ -10012,7 +10160,10 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Valiar.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Valiar.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 200,
     "tvYields": {
       "hp": 0,
@@ -10021,8 +10172,7 @@
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -10158,17 +10308,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Kalazu.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Kalazu.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 140,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
+      "def": 1,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -10306,17 +10458,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Kalabyss.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Kalabyss.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 125,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
+      "def": 2,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -10445,7 +10599,10 @@
     ],
     "icon": "/images/portraits/temtem/large/Adoroboros.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Adoroboros.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 130,
     "tvYields": {
       "hp": 0,
@@ -10454,8 +10611,7 @@
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 4
     }
   },
   {
@@ -10569,17 +10725,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Tuwai.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Tuwai.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 100,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 1,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -10698,17 +10856,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Tuvine.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Tuvine.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 0,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
+      "def": 4,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -10826,17 +10986,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Kinu.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Kinu.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 20,
+      "female": 80
+    },
     "catchRate": 40,
     "tvYields": {
       "hp": 0,
-      "sta": 0,
+      "sta": 4,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -10962,17 +11124,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Vulvir.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Vulvir.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 60,
+      "female": 40
+    },
     "catchRate": 125,
     "tvYields": {
-      "hp": 0,
+      "hp": 1,
       "sta": 0,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -11112,17 +11276,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Vulor.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Vulor.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 60,
+      "female": 40
+    },
     "catchRate": 100,
     "tvYields": {
-      "hp": 0,
+      "hp": 1,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
+      "def": 1,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -11259,17 +11425,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Vulcrane.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Vulcrane.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 60,
+      "female": 40
+    },
     "catchRate": 70,
     "tvYields": {
-      "hp": 0,
+      "hp": 1,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
+      "def": 2,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 0
     }
   },
   {
@@ -11416,17 +11584,19 @@
     ],
     "icon": "/images/portraits/temtem/large/Pigepic.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Pigepic.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 135,
     "tvYields": {
       "hp": 0,
-      "sta": 0,
+      "sta": 1,
       "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 1
     }
   },
   {
@@ -11517,17 +11687,19 @@
     "locations": [],
     "icon": "/images/portraits/temtem/large/Anahir.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Anahir.png",
-    "genderMaleRatio": 50,
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
     "catchRate": 0,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
+      "def": 2,
       "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "spdef": 2
     }
   }
 ]

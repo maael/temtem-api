@@ -359,7 +359,22 @@ export const knownTemtemExample = [
         level: "12-14"
       }
     ],
-    icon: "/images/portraits/temtem/large/Ganki.png"
+    icon: "/images/portraits/temtem/large/Ganki.png",
+    lumaIcon: "/images/portraits/temtem/luma/large/Ganki.png",
+    genderRatio: {
+      male: 50,
+      female: 50
+    },
+    catchRate: 120,
+    tvYields: {
+      hp: 0,
+      sta: 0,
+      spd: 0,
+      atk: 1,
+      def: 0,
+      spatk: 0,
+      spdef: 0
+    }
   }
 ];
 
