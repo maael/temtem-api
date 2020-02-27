@@ -7,7 +7,7 @@ import { Temtem as MinimalTemtem } from "./getKnownTemtemSpecies";
 
 export enum TechniqueSource {
   LEVELLING = "Levelling",
-  TECHNIQUE_COURSES = "TechniqueCourses",
+  TRAINING_COURSE = "TechniqueCourses",
   BREEDING = "Breeding"
 }
 
@@ -323,7 +323,7 @@ function getTechniqueTableType(caption: string) {
   if (caption.includes("Leveling")) {
     return TechniqueSource.LEVELLING;
   } else if (caption.includes("Courses")) {
-    return TechniqueSource.TECHNIQUE_COURSES;
+    return TechniqueSource.TRAINING_COURSE;
   } else if (caption.includes("Breeding")) {
     return TechniqueSource.BREEDING;
   } else {

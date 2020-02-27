@@ -45,14 +45,6 @@ module.exports = {
      */
     "no-unnecessary-type-assertion": true,
     /**
-     * Disallows traditional (non-arrow) function expressions.
-     */
-    "only-arrow-functions": [
-      true,
-      "allow-declarations",
-      "allow-named-functions"
-    ],
-    /**
      * Recommends a ‘for-of’ loop over a standard ‘for’ loop
      * if the index is only used to access the array being
      * iterated.

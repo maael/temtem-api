@@ -2,11 +2,13 @@ import cors from "../../../util/cors";
 import pruneData from "../../../util/pruneData";
 import expandFields from "../../../util/expandFields";
 import { sendPageView } from "../../../util/gaMeasurementProtocol";
+import { TechniqueSource } from "../../../scripts/data/embellishKnownTemtemSpecies";
 
 const knownTemtems = require("../../../data/knownTemtemSpecies.json");
 const traits = require("../../../data/traits.json");
 const techniques = require("../../../data/techniques.json");
 const types = require("../../../data/types.json");
+const trainingCourses = require("../../../data/trainingCourses.json");
 
 const identity = (a: any) => a;
 
@@ -29,6 +31,11 @@ export default cors(async (req, res) => {
           : identity
       )
       .map(
+        expand.includes("techniques")
+          ? customExpandTechniqueSource(trainingCourses)
+          : identity
+      )
+      .map(
         expand.includes("types")
           ? expandFields(types, "types", "name")
           : identity
@@ -36,3 +43,15 @@ export default cors(async (req, res) => {
     res.json(result);
   }
 });
+
+function customExpandTechniqueSource(trainingCoursesList: any[]) {
+  return function(input) {
+    input.techniques = input.techniques.map(tech => {
+      if (tech.source !== TechniqueSource.TRAINING_COURSE) return tech;
+      return Object.assign(tech, {
+        trainingCourse: trainingCoursesList.find(({ name }) => tech.name)
+      });
+    });
+    return input;
+  };
+}

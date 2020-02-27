@@ -10,6 +10,8 @@ import { TechniqueList } from "./techniques";
 import { Codec as WeaknessTable } from "./weaknesses";
 import { SaiparkList } from "./saipark";
 import { LocationList } from "./locations";
+import { TrainingCourseList } from "./trainingCourses";
+import { CharacterList } from "./characters";
 import { TemtemList } from "./temtem";
 
 const codecMap = {
@@ -25,7 +27,9 @@ const codecMap = {
   weaknesses: WeaknessTable,
   saipark: SaiparkList,
   locations: LocationList,
-  temtem: TemtemList
+  temtem: TemtemList,
+  characters: CharacterList,
+  trainingCourses: TrainingCourseList
 };
 
 export type Codec = keyof typeof codecMap;

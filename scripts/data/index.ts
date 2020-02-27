@@ -24,14 +24,14 @@ import * as log from "../util/log";
 import checkAndWrite from "../util/checkAndWrite";
 
 (async () => {
-  await checkAndWrite("missing", "trainingCourses", getTrainingCourses);
+  await checkAndWrite("trainingCourses", "trainingCourses", getTrainingCourses);
   await checkAndWrite("types", "types", getTypes);
   await checkAndWrite("locations", "locations", getLocations);
   await checkAndWrite("dyes", "dyes", getDyes);
   await checkAndWrite("cosmetics", "cosmetics", getCosmetics);
   await checkAndWrite("weaknesses", "weaknesses", getWeaknessTable);
   await checkAndWrite("conditions", "conditions", getConditions);
-  await checkAndWrite("missing", "characters", getCharacters);
+  await checkAndWrite("characters", "characters", getCharacters);
   await checkAndWrite("quests", "quests", async () => {
     const quests = await getQuests();
     return embellishQuests(quests || []);
