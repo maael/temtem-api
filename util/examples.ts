@@ -651,3 +651,21 @@ export const characterExample = [
     wikiUrl: "https://temtem.gamepedia.com/Lady_Lottie"
   }
 ];
+
+export const trainingCourseExample = [
+  {
+    number: "TC001",
+    technique: "Tsunami",
+    type: "Water",
+    location: "Complete Gone with the Sillaro. Requires the Surfboard.",
+    locationType: "quest"
+  },
+  {
+    number: "TC002",
+    technique: "Stone Wall",
+    type: "Earth",
+    location:
+      "Windward Fort prison floor, cell in the water. Requires the Surfboard.",
+    locationType: "found"
+  }
+];

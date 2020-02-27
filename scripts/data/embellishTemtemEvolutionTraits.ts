@@ -12,9 +12,9 @@ export default function embellishTemtemEvolutionTraits(temtem: Temtem[]) {
         return {
           ...e,
           traitMapping: first.traits.reduce(
-            (acc, trait, i) =>
+            (acc, trait, j) =>
               Object.assign(acc, {
-                [trait]: (second && second.traits[i]) || "Unknown"
+                [trait]: (second && second.traits[j]) || "Unknown"
               }),
             {}
           )

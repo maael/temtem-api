@@ -49,6 +49,7 @@ I used `node@10.17.0` to develop it.
 | `/api/types`                    | https://temtem-api.mael.tech/#/api/types                |
 | `/api/conditions`               | https://temtem-api.mael.tech/#/api/conditions           |
 | `/api/techniques`               | https://temtem-api.mael.tech/#/api/techniques           |
+| `/api/training-courses`         | https://temtem-api.mael.tech/#/api/training-courses     |
 | `/api/traits`                   | https://temtem-api.mael.tech/#/api/traits               |
 | `/api/gear`                     | https://temtem-api.mael.tech/#/api/gear                 |
 | `/api/quests`                   | https://temtem-api.mael.tech/#/api/quests               |

@@ -19,10 +19,12 @@ import embellishKnownTemtemSpecies from "./embellishKnownTemtemSpecies";
 import embellishTemtemEvolutionTraits from "./embellishTemtemEvolutionTraits";
 import getSaipark from "./getSaipark";
 import getCharacters from "./getCharacters";
+import getTrainingCourses from "./getTrainingCourses";
 import * as log from "../util/log";
 import checkAndWrite from "../util/checkAndWrite";
 
 (async () => {
+  await checkAndWrite("missing", "trainingCourses", getTrainingCourses);
   await checkAndWrite("types", "types", getTypes);
   await checkAndWrite("locations", "locations", getLocations);
   await checkAndWrite("dyes", "dyes", getDyes);

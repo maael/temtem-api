@@ -31,6 +31,7 @@ export default () => (
     <TypesBlock />
     <ConditionsBlock />
     <TechniquesBlock />
+    <TrainingCoursesBlock />
     <TraitsBlock />
     <GearBlock />
     <QuestsBlock />
@@ -233,6 +234,18 @@ function TechniquesBlock() {
         />
         <p>Currently has information for {num} techniques.</p>
         <TypeNote type="TemTemApiTechnique[]" />
+      </>
+    </ApiBlock>
+  );
+}
+
+function TrainingCoursesBlock() {
+  const num = useNum("/api/training-courses");
+  return (
+    <ApiBlock example={examples.trainingCourseExample}>
+      <>
+        <ApiHeader path="/api/training-courses" style={{ marginBottom: 10 }} />
+        <p>Currently has information for {num} training courses.</p>
       </>
     </ApiBlock>
   );
