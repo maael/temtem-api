@@ -26,7 +26,6 @@ export default async function checkAndWrite(
           `Codec errors, writing error log, skipping write for "${codecKey}"`
         );
         await writeErrorLog(codecKey, file, awaitedData, report);
-        return;
       } else {
         log.info(`Passed codec: ${codecKey}`);
       }
@@ -38,9 +37,11 @@ export default async function checkAndWrite(
       return awaitedData;
     } catch (e) {
       log.error(`Problem writing data: "${e.message}"`);
+      return undefined;
     }
   } catch (e) {
     log.error(`Problem processing ${file}: ${e.message}`);
+    return undefined;
   }
 }
 
