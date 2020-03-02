@@ -8,6 +8,7 @@ export default function embellishLocations(locations, temtem) {
               temtem.filter(t => t.locations.some(tl => tl.island === l.name))
             )
             .map(t => t.name)
+            .filter(Boolean)
         )
       ];
     }
