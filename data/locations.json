@@ -3,10 +3,7 @@
     "name": "Deniz",
     "wikiUrl": "https://temtem.gamepedia.com/Deniz",
     "description": "Deniz is a Mediterranean paradise of glittering seas where Water and Wind Temtem abound. Walk the streets of Turquesa, explore the ruins of an ancient fort or just chill on the shores of Indigo Lake.",
-    "temtemTypes": [
-      "Water",
-      "Wind"
-    ],
+    "temtemTypes": ["Water", "Wind"],
     "type": "island",
     "imageWikiThumbnail": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b3/MapDeniz.png/300px-MapDeniz.png",
     "imageWikiFile": "https://temtem.gamepedia.com/File:MapDeniz.png",
@@ -87,6 +84,8 @@
       }
     ],
     "temtem": [
+      null,
+      "Platox",
       "Swali",
       "Tateru",
       "Paharo",
@@ -97,17 +96,15 @@
       "Skunch",
       "Kaku",
       "Saku",
-      "Ganki",
+      "Barnshe",
+      "Pewki",
       "Saipat",
       "Umishi",
-      "Kalazu",
-      "Kalabyss",
-      "Pewki",
-      "Piraniant",
-      "Nessla",
+      "Ganki",
       "Oceara",
-      "Pigepic",
-      "Barnshe"
+      "Nessla",
+      "Kalazu",
+      "Pigepic"
     ],
     "trivia": [
       "The inspiration of Deniz is a melting pot relating to the Mediterranean Sea, the most predominant cultures being Spain, Italy, and Turkey. The island's name itself means \"sea\" in Turkish. Several placenames are Spanish, and the fact that its the starting region might allude to Crema being based of Madrid.",
@@ -118,10 +115,7 @@
     "name": "Omninesia",
     "wikiUrl": "https://temtem.gamepedia.com/Omninesia",
     "description": "Omninesia (”the Myrisles”), is a cluster of tropical islets connected by rope bridges, home of Nature and Fire Temtem. Enjoy the luxury of Atoll Row and investigate the lava caves of the Anak volcano.",
-    "temtemTypes": [
-      "Fire",
-      "Nature"
-    ],
+    "temtemTypes": ["Fire", "Nature"],
     "type": "island",
     "imageWikiThumbnail": "",
     "imageWikiFile": "https://temtem.gamepedia.comundefined",
@@ -176,7 +170,21 @@
         "type": "landmark"
       }
     ],
-    "temtem": [],
+    "temtem": [
+      "Loali",
+      "Paharac",
+      "Hidody",
+      "Taifu",
+      "Banapi",
+      "Babawa",
+      "Kaku",
+      "Raiber",
+      "Pewki",
+      "Spriole",
+      "Kinu",
+      "Vulvir",
+      "Vulor"
+    ],
     "trivia": [
       "The inspiration of Omninesia are Oceanian island cultures. In particular, their central deity is based on the Hawaiian goddess Pele. Placenames and character names are derived from many Austronesian languages, including Tagalog, Hawaiian, Maori and Malagasy.",
       "Omninesia is the second playable island to be featured in the game, being one of two islands to explore in Alpha 2."
@@ -186,10 +194,7 @@
     "name": "Arbury",
     "wikiUrl": "https://temtem.gamepedia.com/Arbury",
     "description": "Arbury’s pride is its University. The fierce dons of Lochburg swear by their Melee Temtem, against the sophisticated Properton academics, who favour Mental Temtem.",
-    "temtemTypes": [
-      "Mental",
-      "Melee"
-    ],
+    "temtemTypes": ["Mental", "Melee"],
     "type": "island",
     "imageWikiThumbnail": "",
     "imageWikiFile": "https://temtem.gamepedia.comundefined",
@@ -253,10 +258,7 @@
     "name": "Cipanku",
     "wikiUrl": "https://temtem.gamepedia.com/Cipanku",
     "description": "Cipanku dabbles in mysticism and technology. The labs of Nanto produce Digital Temtem, while the monks revere the Electric Temtem in remote hills among rice paddies.",
-    "temtemTypes": [
-      "Electric",
-      "Digital"
-    ],
+    "temtemTypes": ["Electric", "Digital"],
     "type": "island",
     "imageWikiThumbnail": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/1/1c/Cipanku.png/160px-Cipanku.png",
     "imageWikiFile": "https://temtem.gamepedia.com/File:Cipanku.png",
@@ -298,10 +300,7 @@
     "name": "Tucma",
     "wikiUrl": "https://temtem.gamepedia.com/Tucma",
     "description": "Tucma, “The End of All Things” – a vast desolation of ashes, noxious lakes and Toxic Temtem. Under the surface, the mining city of Quetzal is home to artisans, rock-hoppers and Crystal Temtem.",
-    "temtemTypes": [
-      "Crystal",
-      "Toxic"
-    ],
+    "temtemTypes": ["Crystal", "Toxic"],
     "type": "island",
     "imageWikiThumbnail": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/88/Tucma.png/160px-Tucma.png",
     "imageWikiFile": "https://temtem.gamepedia.com/File:Tucma.png",
@@ -361,17 +360,42 @@
         "type": "landmark"
       }
     ],
-    "temtem": [],
+    "temtem": [
+      "Platypet",
+      "Bunbun",
+      "Mudrid",
+      "Wiplump",
+      "Skunch",
+      "Orphyll",
+      "Lapinite",
+      "Azuroc",
+      "Zenoreth",
+      "Babawa",
+      "Saku",
+      "Valash",
+      "Gyalis",
+      "Occlura",
+      "Saipat",
+      "Crystle",
+      "Mushi",
+      "Ukama",
+      "Toxolotl",
+      "Blooze",
+      "Zephyruff",
+      "Volarend",
+      "Shuine",
+      "Kalabyss",
+      "Adoroboros",
+      "Tuwai",
+      "Vulor"
+    ],
     "trivia": []
   },
   {
     "name": "Kisiwa",
     "wikiUrl": "https://temtem.gamepedia.com/Kisiwa",
     "description": "Kisiwa is a sun-drenched savanna. Eastern Kisiwa boasts an unrivalled variety of Neutral Temtem, while the western deserts are home to the best Earth Temtem.",
-    "temtemTypes": [
-      "Neutral",
-      "Earth"
-    ],
+    "temtemTypes": ["Neutral", "Earth"],
     "type": "island",
     "imageWikiThumbnail": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/93/Kisiwa.png/160px-Kisiwa.png",
     "imageWikiFile": "https://temtem.gamepedia.com/File:Kisiwa.png",

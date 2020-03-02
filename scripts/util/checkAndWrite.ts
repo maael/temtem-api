@@ -35,6 +35,7 @@ export default async function checkAndWrite(
     }
     try {
       await write(file, awaitedData);
+      return awaitedData;
     } catch (e) {
       log.error(`Problem writing data: "${e.message}"`);
     }

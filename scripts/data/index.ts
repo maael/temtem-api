@@ -17,6 +17,7 @@ import embellishTraits from "./embellishTraits";
 import getKnownTemtemSpecies from "./getKnownTemtemSpecies";
 import embellishKnownTemtemSpecies from "./embellishKnownTemtemSpecies";
 import embellishTemtemEvolutionTraits from "./embellishTemtemEvolutionTraits";
+import embellishLocations from "./embellishLocations";
 import getSaipark from "./getSaipark";
 import getCharacters from "./getCharacters";
 import getTrainingCourses from "./getTrainingCourses";
@@ -26,7 +27,6 @@ import checkAndWrite from "../util/checkAndWrite";
 (async () => {
   await checkAndWrite("trainingCourses", "trainingCourses", getTrainingCourses);
   await checkAndWrite("types", "types", getTypes);
-  await checkAndWrite("locations", "locations", getLocations);
   await checkAndWrite("dyes", "dyes", getDyes);
   await checkAndWrite("cosmetics", "cosmetics", getCosmetics);
   await checkAndWrite("weaknesses", "weaknesses", getWeaknessTable);
@@ -52,12 +52,21 @@ import checkAndWrite from "../util/checkAndWrite";
     const traits = await getTraits();
     return embellishTraits(traits || []);
   });
-  await checkAndWrite("temtem", "knownTemtemSpecies", async () => {
-    const knownTemtem = await getKnownTemtemSpecies();
-    const embellishedTemtem = await embellishKnownTemtemSpecies(
-      knownTemtem || []
-    );
-    return embellishTemtemEvolutionTraits(embellishedTemtem || []);
+  const temtem = await checkAndWrite(
+    "temtem",
+    "knownTemtemSpecies",
+    async () => {
+      const knownTemtem = await getKnownTemtemSpecies();
+      const embellishedTemtem = await embellishKnownTemtemSpecies(
+        knownTemtem || []
+      );
+      return embellishTemtemEvolutionTraits(embellishedTemtem || []);
+    }
+  );
+  await checkAndWrite("locations", "locations", async () => {
+    const locations = await getLocations();
+    const embellishedLocations = embellishLocations(locations, temtem);
+    return embellishedLocations;
   });
   await checkAndWrite("saipark", "saipark", getSaipark);
 })().catch(e => {
