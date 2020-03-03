@@ -56,7 +56,7 @@ export default async function getDyes() {
                   .toArray();
                 return {
                   color,
-                  image: `${imageParts.protocol}://${imageParts.host}${imageParts.pathname}`,
+                  image: `${imageParts.protocol}//${imageParts.host}${imageParts.pathname}`,
                   text,
                   items
                 };
