@@ -104,13 +104,14 @@ function getInfo($: CheerioStatic, $el: Cheerio) {
         .trim()
         .split("")
         .map(i => i.trim())
-        .filter(i => i && !isNaN(Number(i)))
+        .filter(i => i && (!isNaN(Number(i)) || i === "."))
+        .join("")
     )
-  );
+  ).filter(i => i !== ".");
   return {
     temtem,
-    lumaRate: parseInt(info[0], 10) || 0,
-    minSvs: parseInt(info[1], 10) || 0,
-    eggMoves: parseInt(info[2], 10) || 0
+    lumaRate: parseFloat(info[0]) || 0,
+    minSvs: parseFloat(info[1]) || 0,
+    eggMoves: parseFloat(info[2]) || 0
   };
 }
