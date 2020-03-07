@@ -67,21 +67,19 @@ const monthAbbrevs = [
 
 function processDate(text: string) {
   const year = text.match(/(\d{4})/);
-  const firstMonth = monthAbbrevs.findIndex(a => text.includes(a)) + 1;
-  const secondMonth =
-    monthAbbrevs.findIndex(a =>
-      text.slice(text.indexOf(monthAbbrevs[firstMonth - 1])).includes(a)
-    ) + 1;
-  const days = text.match(/(\d{2})/g);
+  const matchedMonths = monthAbbrevs
+    .map((a, i) => (text.includes(a) ? i + 1 : 0))
+    .filter(Boolean);
+  const days = text.match(/(\d{1,2})/g);
   return {
     start: {
       day: days ? Number(days[0]) : 0,
-      month: firstMonth,
+      month: matchedMonths[0],
       year: year ? Number(year[0]) : 0
     },
     end: {
       day: days ? Number(days[1]) : 0,
-      month: secondMonth,
+      month: matchedMonths[1] || matchedMonths[0],
       year: year ? Number(year[0]) : 0
     }
   };
