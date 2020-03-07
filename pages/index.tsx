@@ -360,6 +360,11 @@ function WeaknessesBlock() {
       <>
         <ApiHeader path="/api/weaknesses" style={{ marginBottom: 10 }} />
         <TypeNote type="TemTemApiWeaknesses" />
+        <p>
+          The top level key of this object is the type used to attack, and then
+          the fields under it are the defending types, with the values being the
+          resulting multiplier.
+        </p>
       </>
     </ApiBlock>
   );
