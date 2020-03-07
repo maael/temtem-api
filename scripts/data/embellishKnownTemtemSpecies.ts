@@ -72,6 +72,7 @@ export interface Temtem extends MinimalTemtem {
   };
   catchRate: number;
   tvYields: Record<keyof Omit<MinimalTemtem["stats"], "total">, number>;
+  gameDescription: string;
 }
 
 export default async function embellishKnownTemtemSpecies(
@@ -96,7 +97,8 @@ export default async function embellishKnownTemtemSpecies(
           lumaIcon: `/images/portraits/temtem/luma/large/${item.name}.png`,
           genderRatio: getGenderRatio(html),
           catchRate: getCatchRate(html),
-          tvYields: getTvYield(html)
+          tvYields: getTvYield(html),
+          gameDescription: getGameDescription(html)
         };
       })
       .sort((a, b) => a.number - b.number);
@@ -329,6 +331,21 @@ function getTechniqueTableType(caption: string) {
   } else {
     return undefined;
   }
+}
+
+function getGameDescription(html: string) {
+  const $ = cheerio.load(html);
+  const text = $("[id^=Appearance_]")
+    .parent()
+    .nextUntil("h2")
+    .filter(
+      (_i, el) =>
+        $(el).children().length > 0 && $(el).children()[0].name === "i"
+    )
+    .last()
+    .text()
+    .trim();
+  return text || "";
 }
 
 function getTechniquesFromTable(

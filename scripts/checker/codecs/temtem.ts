@@ -72,7 +72,8 @@ export const Codec = t.type({
     def: t.number,
     spatk: t.number,
     spdef: t.number
-  })
+  }),
+  gameDescription: t.string
 });
 
 export const TemtemList = t.array(Codec);
