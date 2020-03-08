@@ -7,7 +7,7 @@ export default function logHit(
 ) {
   return async function(req: NextApiRequest, res: NextApiResponse) {
     if (
-      !["localhost", "temtem-api.mael.tech"].some(i =>
+      !["localhost", "temtem-api.mael.tech", "https://temtem-api-"].some(i =>
         (req.headers.referer || "").includes(i)
       ) ||
       page === "info"
