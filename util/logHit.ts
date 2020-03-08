@@ -2,7 +2,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 import log from "./logger";
 
 export default function logHit(
-  next: (req: NextApiRequest, res: NextApiResponse) => void,
+  next: (req: NextApiRequest, res: NextApiResponse) => Promise<void>,
   page: string
 ) {
   return async function(req: NextApiRequest, res: NextApiResponse) {

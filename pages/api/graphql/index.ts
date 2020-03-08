@@ -222,6 +222,6 @@ export default cors(
     const query = req.body.query;
     const response = await graphql(schema, query, root);
 
-    return res.end(JSON.stringify(response));
+    res.end(JSON.stringify(response));
   }, "graphql")
 );
