@@ -1,9 +1,8 @@
 import got from "got";
-import { sendPageView } from "../../util/gaMeasurementProtocol";
+import logHit from "../../util/logHit";
 const summary = require("../../data/summary.json");
 
-export default async (req, res) => {
-  await sendPageView(req, "info");
+export default logHit(async (_req, res) => {
   const [lastChecked, lastBuildStatus] = await Promise.all([
     getCiInfo(),
     getCiMostRecentStatus()
@@ -13,7 +12,7 @@ export default async (req, res) => {
     lastUpdated: summary.mostRecent,
     lastBuildStatus
   });
-};
+}, "info");
 
 async function getCiInfo() {
   try {

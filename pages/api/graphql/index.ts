@@ -1,5 +1,6 @@
 import { graphql, buildSchema } from "graphql";
 import cors from "../../../util/cors";
+import logHit from "../../../util/logHit";
 
 const conditions = require("../../../data/conditions.json");
 const cosmetics = require("../../../data/cosmetics.json");
@@ -216,9 +217,11 @@ const root = {
   types: () => types
 };
 
-export default cors(async (req, res) => {
-  const query = req.body.query;
-  const response = await graphql(schema, query, root);
+export default cors(
+  logHit(async (req, res) => {
+    const query = req.body.query;
+    const response = await graphql(schema, query, root);
 
-  return res.end(JSON.stringify(response));
-});
+    return res.end(JSON.stringify(response));
+  }, "graphql")
+);

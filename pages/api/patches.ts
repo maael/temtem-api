@@ -1,9 +1,10 @@
 import cors from "../../util/cors";
-import { sendPageView } from "../../util/gaMeasurementProtocol";
+import logHit from "../../util/logHit";
 
 const patches = require("../../data/patches.json");
 
-export default cors(async (req, res) => {
-  await sendPageView(req, "patches");
-  res.json(patches);
-});
+export default cors(
+  logHit(async (_req, res) => {
+    res.json(patches);
+  }, "patches")
+);

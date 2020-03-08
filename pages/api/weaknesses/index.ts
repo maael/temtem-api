@@ -1,9 +1,10 @@
 import cors from "../../../util/cors";
-import { sendPageView } from "../../../util/gaMeasurementProtocol";
+import logHit from "../../../util/logHit";
 
 const weaknesses = require("../../../data/weaknesses.json");
 
-export default cors(async (req, res) => {
-  await sendPageView(req, "weakness");
-  res.json(weaknesses);
-});
+export default cors(
+  logHit(async (_req, res) => {
+    res.json(weaknesses);
+  }, "weaknesses")
+);

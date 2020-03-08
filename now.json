@@ -4,7 +4,7 @@
   "build": {
     "env": {
       "CIRCLECI_TOKEN": "@temtem-api-circleci-token",
-      "GA_TOKEN": "@temtem-api-ga"
+      "OAK_SECRET_TOKEN": "@oak-secret-token"
     }
   }
 }

@@ -1,9 +1,10 @@
 import cors from "../../util/cors";
-import { sendPageView } from "../../util/gaMeasurementProtocol";
+import logHit from "../../util/logHit";
 
 const types = require("../../data/types.json");
 
-export default cors(async (req, res) => {
-  await sendPageView(req, "types");
-  res.json(types);
-});
+export default cors(
+  logHit(async (_req, res) => {
+    res.json(types);
+  }, "types")
+);

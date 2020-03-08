@@ -1,10 +1,12 @@
 import cors from "../../util/cors";
 import pruneData from "../../util/pruneData";
-import { sendPageView } from "../../util/gaMeasurementProtocol";
+import logHit from "../../util/logHit";
 
 const traits = require("../../data/traits.json");
 
-export default cors(async (req, res) => {
-  await sendPageView(req, "traits");
-  res.json(pruneData(traits, req.query.names, req.query.fields));
-});
+export default cors(
+  logHit(async (req, res) => {
+    const query = req.query as Record<string, string>;
+    res.json(pruneData(traits, query.names, query.fields));
+  }, "traits")
+);
