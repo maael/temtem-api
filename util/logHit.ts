@@ -12,7 +12,11 @@ export default function logHit(
       ) ||
       page === "info"
     ) {
-      await log({ page, eventType: "hit" });
+      await log({
+        page,
+        eventType: "hit",
+        referer: req.headers.referer || "unknown"
+      });
     }
     await next(req, res);
   };
