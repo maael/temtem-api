@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Jumbrotron from "@maael/jumbotron-component";
+import { FaReddit, FaDiscord, FaGithub } from "react-icons/fa";
 
 function useInfo() {
   const [info, setInfo] = useState({
@@ -79,7 +80,60 @@ export default function Header() {
           style={{ fontSize: 12, color: "#B28CD9", textDecoration: "none" }}
           href="https://github.com/maael/temtem-api"
         >
+          <FaGithub
+            size={14}
+            style={{ position: "relative", top: 3, left: -3 }}
+          />
           Feature request or issue? Open a ticket here.
+        </a>
+      </div>
+      <div
+        style={{
+          fontFamily: "Arial, sans-serif",
+          fontSize: 12,
+          textAlign: "center",
+          backgroundColor: "rebeccapurple",
+          color: "#FFFFFF",
+          paddingTop: 5
+        }}
+      >
+        <p
+          style={{
+            display: "inline",
+            color: "#B28CD9",
+            textDecoration: "none",
+            margin: "0px 10px"
+          }}
+        >
+          Made by:
+        </p>
+        <a
+          style={{
+            color: "#B28CD9",
+            textDecoration: "none",
+            margin: "0px 10px"
+          }}
+          href="https://www.reddit.com/user/Maael/"
+        >
+          <FaReddit
+            size={14}
+            style={{ position: "relative", top: 3, left: -3 }}
+          />
+          u/Maael
+        </a>
+        <a
+          style={{
+            color: "#B28CD9",
+            textDecoration: "none",
+            margin: "0px 10px"
+          }}
+          href="https://discordapp.com"
+        >
+          <FaDiscord
+            size={14}
+            style={{ position: "relative", top: 3, left: -3 }}
+          />
+          maael#2482
         </a>
       </div>
       <div
