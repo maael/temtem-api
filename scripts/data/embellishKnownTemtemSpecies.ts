@@ -23,6 +23,8 @@ export interface TemtemTechnique {
 
 export interface TemtemLocation {
   location: string;
+  place: string;
+  note: string;
   island: string;
   frequency: string;
   level: string;
@@ -127,8 +129,14 @@ function getLocations(html: string) {
         // tslint:disable-next-line:strict-type-predicates
         if (item[0] === undefined || item.every(i => i === "?"))
           return undefined;
+        const tidiedLocation = (item[0] || "").replace(
+          /([a-z])([A-Z])/g,
+          "$1, $2"
+        );
         return {
-          location: item[0],
+          location: tidiedLocation,
+          place: "",
+          note: "",
           island: item[1],
           frequency: (item[2] || "")
             .replace(/\[\d+\]/, "")

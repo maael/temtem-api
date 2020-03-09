@@ -350,18 +350,16 @@ export const knownTemtemExample = [
     locations: [
       {
         location: "Thalassian Cliffs",
+        place: "Thalassian Cliffs",
+        note: "",
         island: "Deniz",
         frequency: "Common",
         level: "5-8"
       },
       {
-        location: "The Gifted Bridges",
-        island: "Deniz",
-        frequency: "Common",
-        level: ""
-      },
-      {
         location: "Windward Fort",
+        place: "Windward Fort",
+        note: "",
         island: "Deniz",
         frequency: "Common",
         level: "12-14"

@@ -52,6 +52,8 @@ export const Codec = t.type({
   locations: t.array(
     t.type({
       location: t.string,
+      place: t.string,
+      note: t.string,
       island: t.string,
       frequency: t.string,
       level: t.string
