@@ -22,6 +22,7 @@ import embellishLocations from "./embellishLocations";
 import getSaipark from "./getSaipark";
 import getCharacters from "./getCharacters";
 import getTrainingCourses from "./getTrainingCourses";
+import getFreeTemRewards from "./getFreeTemRewards";
 import * as log from "../util/log";
 import checkAndWrite from "../util/checkAndWrite";
 
@@ -73,6 +74,7 @@ import checkAndWrite from "../util/checkAndWrite";
     return embellishTemtemLocationPlacesAndNotes(temtem || [], locations || []);
   });
   await checkAndWrite("saipark", "saipark", getSaipark);
+  await checkAndWrite("freetemRewards", "freetemRewards", getFreeTemRewards);
 })().catch(e => {
   log.error(e);
   throw e;

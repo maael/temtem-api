@@ -669,3 +669,20 @@ export const trainingCourseExample = [
     locationType: "found"
   }
 ];
+
+export const freetemRewardExample = [
+  {
+    name: "Telomere Hack - SPD",
+    quantity: 2,
+    wikiUrl: "https://temtem.gamepedia.com/Telomere_Hack_-_SPD",
+    wikiImageUrl:
+      "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a3/TelomereHackSPD.png/75px-TelomereHackSPD.png",
+    effectDescription:
+      "This experimental genefix alters chromosomes in Temtem DNA, adding 1 SV to SPD.",
+    requirement: "Free 200 Temtem.",
+    freedTemtem: 200,
+    duration: "March 9 - March 15",
+    startDate: "2020-03-09T00:00:00.000Z",
+    endDate: "2020-03-15T00:00:00.000Z"
+  }
+];

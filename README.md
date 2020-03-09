@@ -63,6 +63,7 @@ I used `node@10.17.0` to develop it.
 | `/api/weakness/calculate`       | https://temtem-api.mael.tech/#/api/weakness/calculate   |
 | `/api/breeding`                 | https://temtem-api.mael.tech/#/api/breeding             |
 | `/api/freetem/[temtem]/[level]` | https://temtem-api.mael.tech/#/api/freetem/temtem/level |
+| `/api/freetem/rewards`          | https://temtem-api.mael.tech/#/api/freetem/rewards      |
 
 ## Data / Asset Fetching
 

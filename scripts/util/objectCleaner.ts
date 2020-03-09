@@ -48,3 +48,8 @@ export function capitalizeType(s: any, k: string) {
   if (k !== "type" || typeof s !== "string") return s;
   return TYPES[s] || s;
 }
+
+export function removeWikiReferences(s: any) {
+  if (typeof s !== "string") return s;
+  return s.replace(/\[\d+\]/g, "").trim();
+}

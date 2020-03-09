@@ -13,6 +13,7 @@ import { LocationList } from "./locations";
 import { TrainingCourseList } from "./trainingCourses";
 import { CharacterList } from "./characters";
 import { TemtemList } from "./temtem";
+import { FreetemRewardList } from "./freetemRewards";
 
 const codecMap = {
   gear: GearList,
@@ -29,7 +30,8 @@ const codecMap = {
   locations: LocationList,
   temtem: TemtemList,
   characters: CharacterList,
-  trainingCourses: TrainingCourseList
+  trainingCourses: TrainingCourseList,
+  freetemRewards: FreetemRewardList
 };
 
 export type Codec = keyof typeof codecMap;

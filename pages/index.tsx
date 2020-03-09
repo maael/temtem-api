@@ -28,6 +28,7 @@ export default () => (
     <TemtemsBlock />
     <TemtemBlock />
     <FreetemBlock />
+    <FreetemRewardsBlock />
     <TypesBlock />
     <ConditionsBlock />
     <TechniquesBlock />
@@ -177,6 +178,16 @@ function FreetemBlock() {
           Temtem at a certain level. The Temtem parameter is the name of the
           temtem, it is case insensitive.
         </p>
+      </>
+    </ApiBlock>
+  );
+}
+
+function FreetemRewardsBlock() {
+  return (
+    <ApiBlock example={examples.freetemRewardExample}>
+      <>
+        <ApiHeader path="/api/freetem/rewards" style={{ marginBottom: 10 }} />
       </>
     </ApiBlock>
   );
