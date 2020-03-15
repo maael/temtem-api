@@ -354,7 +354,13 @@ export const knownTemtemExample = [
         note: "",
         island: "Deniz",
         frequency: "Common",
-        level: "5-8"
+        level: "5-8",
+        freetem: {
+          minLevel: 5,
+          maxLevel: 8,
+          minPansuns: 33,
+          maxPansuns: 40
+        }
       },
       {
         location: "Windward Fort",
@@ -362,7 +368,13 @@ export const knownTemtemExample = [
         note: "",
         island: "Deniz",
         frequency: "Common",
-        level: "12-14"
+        level: "12-14",
+        freetem: {
+          minLevel: 12,
+          maxLevel: 14,
+          minPansuns: 50,
+          maxPansuns: 55
+        }
       }
     ],
     icon: "/images/portraits/temtem/large/Ganki.png",

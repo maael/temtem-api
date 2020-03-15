@@ -56,7 +56,13 @@ export const Codec = t.type({
       note: t.string,
       island: t.string,
       frequency: t.string,
-      level: t.string
+      level: t.string,
+      freetem: t.type({
+        minLevel: t.number,
+        maxLevel: t.number,
+        minPansuns: t.number,
+        maxPansuns: t.number
+      })
     })
   ),
   icon: t.string,

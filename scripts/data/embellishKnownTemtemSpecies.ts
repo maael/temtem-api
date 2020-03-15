@@ -28,6 +28,14 @@ export interface TemtemLocation {
   island: string;
   frequency: string;
   level: string;
+  freetem: TemtemLocationFreetem;
+}
+
+export interface TemtemLocationFreetem {
+  minLevel: number;
+  maxLevel: number;
+  minPansuns: number;
+  maxPansuns: number;
 }
 
 export interface TemtemEvolutionTree {
@@ -145,7 +153,13 @@ function getLocations(html: string) {
           level: (item[3] || "")
             .replace(/\[\d+\]/, "")
             .replace("?", "")
-            .trim()
+            .trim(),
+          freetem: {
+            minLevel: 0,
+            maxLevel: 0,
+            minPansuns: 0,
+            maxPansuns: 0
+          }
         };
       })
   );

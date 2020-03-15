@@ -2,9 +2,7 @@
   {
     "number": 2,
     "name": "Oree",
-    "types": [
-      "Digital"
-    ],
+    "types": ["Digital"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/99/Oree.png/50px-Oree.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Oree",
@@ -18,9 +16,7 @@
       "spdef": 31,
       "total": 342
     },
-    "traits": [
-      "Attack T"
-    ],
+    "traits": ["Attack T"],
     "details": {
       "height": {
         "cm": 128,
@@ -121,9 +117,7 @@
   {
     "number": 3,
     "name": "Zaobian",
-    "types": [
-      "Digital"
-    ],
+    "types": ["Digital"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/54/Zaobian.png/50px-Zaobian.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Zaobian",
@@ -137,9 +131,7 @@
       "spdef": 44,
       "total": 436
     },
-    "traits": [
-      "Attack T"
-    ],
+    "traits": ["Attack T"],
     "details": {
       "height": {
         "cm": 213,
@@ -208,10 +200,7 @@
   {
     "number": 7,
     "name": "Platypet",
-    "types": [
-      "Water",
-      "Toxic"
-    ],
+    "types": ["Water", "Toxic"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/03/Platypet.png/50px-Platypet.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Platypet",
@@ -225,10 +214,7 @@
       "spdef": 56,
       "total": 358
     },
-    "traits": [
-      "Toxic Affinity",
-      "Amphibian"
-    ],
+    "traits": ["Toxic Affinity", "Amphibian"],
     "details": {
       "height": {
         "cm": 85,
@@ -352,7 +338,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "30%",
-        "level": "24-28"
+        "level": "24-28",
+        "freetem": {
+          "minLevel": 24,
+          "maxLevel": 28,
+          "minPansuns": 78,
+          "maxPansuns": 88
+        }
       },
       {
         "location": "Xolot Reservoir, Inner large body of Acid",
@@ -360,7 +352,13 @@
         "note": "Inner large body of Acid",
         "island": "Tucma",
         "frequency": "50%",
-        "level": "28-32"
+        "level": "28-32",
+        "freetem": {
+          "minLevel": 28,
+          "maxLevel": 32,
+          "minPansuns": 88,
+          "maxPansuns": 97
+        }
       },
       {
         "location": "Xolot Reservoir, Outer large body of Acid",
@@ -368,7 +366,13 @@
         "note": "Outer large body of Acid",
         "island": "Tucma",
         "frequency": "50%",
-        "level": "29-32"
+        "level": "29-32",
+        "freetem": {
+          "minLevel": 29,
+          "maxLevel": 32,
+          "minPansuns": 90,
+          "maxPansuns": 97
+        }
       },
       {
         "location": "Xolot Reservoir, Ring of Acid",
@@ -376,7 +380,13 @@
         "note": "Ring of Acid",
         "island": "Tucma",
         "frequency": "70%",
-        "level": "29-31"
+        "level": "29-31",
+        "freetem": {
+          "minLevel": 29,
+          "maxLevel": 31,
+          "minPansuns": 90,
+          "maxPansuns": 95
+        }
       },
       {
         "location": "Mines of Mictlan",
@@ -384,7 +394,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "85%",
-        "level": "31-35"
+        "level": "31-35",
+        "freetem": {
+          "minLevel": 31,
+          "maxLevel": 35,
+          "minPansuns": 95,
+          "maxPansuns": 105
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Platypet.png",
@@ -408,10 +424,7 @@
   {
     "number": 8,
     "name": "Platox",
-    "types": [
-      "Water",
-      "Toxic"
-    ],
+    "types": ["Water", "Toxic"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7b/Platox.png/50px-Platox.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Platox",
@@ -425,10 +438,7 @@
       "spdef": 63,
       "total": 404
     },
-    "traits": [
-      "Resistant",
-      "Resilient"
-    ],
+    "traits": ["Resistant", "Resilient"],
     "details": {
       "height": {
         "cm": 140,
@@ -586,7 +596,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "35%",
-        "level": "37-40"
+        "level": "37-40",
+        "freetem": {
+          "minLevel": 37,
+          "maxLevel": 40,
+          "minPansuns": 126,
+          "maxPansuns": 135
+        }
       },
       {
         "location": "Saipark Caves",
@@ -594,7 +610,13 @@
         "note": "Caves",
         "island": "Deniz",
         "frequency": "35%",
-        "level": "37-40"
+        "level": "37-40",
+        "freetem": {
+          "minLevel": 37,
+          "maxLevel": 40,
+          "minPansuns": 126,
+          "maxPansuns": 135
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Platox.png",
@@ -618,10 +640,7 @@
   {
     "number": 9,
     "name": "Platimous",
-    "types": [
-      "Water",
-      "Toxic"
-    ],
+    "types": ["Water", "Toxic"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7f/Platimous.png/50px-Platimous.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Platimous",
@@ -635,10 +654,7 @@
       "spdef": 70,
       "total": 457
     },
-    "traits": [
-      "Zen",
-      "Determined"
-    ],
+    "traits": ["Zen", "Determined"],
     "details": {
       "height": {
         "cm": 190,
@@ -816,9 +832,7 @@
   {
     "number": 10,
     "name": "Swali",
-    "types": [
-      "Nature"
-    ],
+    "types": ["Nature"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/8a/Swali.png/50px-Swali.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Swali",
@@ -832,10 +846,7 @@
       "spdef": 60,
       "total": 349
     },
-    "traits": [
-      "Shared Pain",
-      "Mithridatism"
-    ],
+    "traits": ["Shared Pain", "Mithridatism"],
     "details": {
       "height": {
         "cm": 82,
@@ -949,7 +960,13 @@
         "note": "Second large patch of Grass",
         "island": "Deniz",
         "frequency": "40%",
-        "level": "2-4"
+        "level": "2-4",
+        "freetem": {
+          "minLevel": 2,
+          "maxLevel": 4,
+          "minPansuns": 23,
+          "maxPansuns": 26
+        }
       },
       {
         "location": "Prasine Coast, Third large patch of Grass",
@@ -957,7 +974,13 @@
         "note": "Third large patch of Grass",
         "island": "Deniz",
         "frequency": "40%",
-        "level": "3-5"
+        "level": "3-5",
+        "freetem": {
+          "minLevel": 3,
+          "maxLevel": 5,
+          "minPansuns": 25,
+          "maxPansuns": 28
+        }
       },
       {
         "location": "Thalassian Cliffs, Grass patch east before underpass",
@@ -965,7 +988,13 @@
         "note": "Grass patch east before underpass",
         "island": "Deniz",
         "frequency": "30%",
-        "level": "5-7"
+        "level": "5-7",
+        "freetem": {
+          "minLevel": 5,
+          "maxLevel": 7,
+          "minPansuns": 28,
+          "maxPansuns": 31
+        }
       },
       {
         "location": "Thalassian Cliffs, Grass patch immediately east of the ramp valley",
@@ -973,7 +1002,13 @@
         "note": "Grass patch immediately east of the ramp valley",
         "island": "Deniz",
         "frequency": "30%",
-        "level": "5-7"
+        "level": "5-7",
+        "freetem": {
+          "minLevel": 5,
+          "maxLevel": 7,
+          "minPansuns": 28,
+          "maxPansuns": 31
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Swali.png",
@@ -997,10 +1032,7 @@
   {
     "number": 11,
     "name": "Loali",
-    "types": [
-      "Nature",
-      "Wind"
-    ],
+    "types": ["Nature", "Wind"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/0c/Loali.png/50px-Loali.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Loali",
@@ -1014,10 +1046,7 @@
       "spdef": 90,
       "total": 485
     },
-    "traits": [
-      "Botanist",
-      "Toxic Farewell"
-    ],
+    "traits": ["Botanist", "Toxic Farewell"],
     "details": {
       "height": {
         "cm": 60,
@@ -1142,7 +1171,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Rare (20%)",
-        "level": "16-19"
+        "level": "16-19",
+        "freetem": {
+          "minLevel": 16,
+          "maxLevel": 19,
+          "minPansuns": 55,
+          "maxPansuns": 61
+        }
       },
       {
         "location": "The Flywalk",
@@ -1150,7 +1185,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Uncommon (30%-50%)",
-        "level": "19-20"
+        "level": "19-20",
+        "freetem": {
+          "minLevel": 19,
+          "maxLevel": 20,
+          "minPansuns": 61,
+          "maxPansuns": 63
+        }
       },
       {
         "location": "The Hangroad",
@@ -1158,7 +1199,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Rare (20%)",
-        "level": "15-20"
+        "level": "15-20",
+        "freetem": {
+          "minLevel": 15,
+          "maxLevel": 20,
+          "minPansuns": 53,
+          "maxPansuns": 63
+        }
       },
       {
         "location": "The Glassyway",
@@ -1166,7 +1213,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Common (80%)",
-        "level": "19-22"
+        "level": "19-22",
+        "freetem": {
+          "minLevel": 19,
+          "maxLevel": 22,
+          "minPansuns": 61,
+          "maxPansuns": 68
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Loali.png",
@@ -1190,9 +1243,7 @@
   {
     "number": 12,
     "name": "Tateru",
-    "types": [
-      "Neutral"
-    ],
+    "types": ["Neutral"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/55/Tateru.png/50px-Tateru.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Tateru",
@@ -1206,10 +1257,7 @@
       "spdef": 66,
       "total": 474
     },
-    "traits": [
-      "Soft Touch",
-      "Resilient"
-    ],
+    "traits": ["Soft Touch", "Resilient"],
     "details": {
       "height": {
         "cm": 145,
@@ -1325,7 +1373,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "Common",
-        "level": "3-6"
+        "level": "3-6",
+        "freetem": {
+          "minLevel": 3,
+          "maxLevel": 6,
+          "minPansuns": 26,
+          "maxPansuns": 31
+        }
       },
       {
         "location": "Thalassian Cliffs",
@@ -1333,7 +1387,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "Common",
-        "level": "4-6"
+        "level": "4-6",
+        "freetem": {
+          "minLevel": 4,
+          "maxLevel": 6,
+          "minPansuns": 28,
+          "maxPansuns": 31
+        }
       },
       {
         "location": "Windward Fort",
@@ -1341,7 +1401,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "Rare",
-        "level": "12-13"
+        "level": "12-13",
+        "freetem": {
+          "minLevel": 12,
+          "maxLevel": 13,
+          "minPansuns": 42,
+          "maxPansuns": 44
+        }
       },
       {
         "location": "The Gifted Bridges",
@@ -1349,7 +1415,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "Uncommon",
-        "level": "8-10"
+        "level": "8-10",
+        "freetem": {
+          "minLevel": 8,
+          "maxLevel": 10,
+          "minPansuns": 35,
+          "maxPansuns": 39
+        }
       },
       {
         "location": "Aguamarina Caves",
@@ -1357,7 +1429,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "Rare",
-        "level": "15-18"
+        "level": "15-18",
+        "freetem": {
+          "minLevel": 15,
+          "maxLevel": 18,
+          "minPansuns": 48,
+          "maxPansuns": 53
+        }
       },
       {
         "location": "Aguamarina Caves",
@@ -1365,7 +1443,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "Rare",
-        "level": "18-20"
+        "level": "18-20",
+        "freetem": {
+          "minLevel": 18,
+          "maxLevel": 20,
+          "minPansuns": 53,
+          "maxPansuns": 57
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Tateru.png",
@@ -1389,9 +1473,7 @@
   {
     "number": 16,
     "name": "Paharo",
-    "types": [
-      "Wind"
-    ],
+    "types": ["Wind"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/1/1c/Paharo.png/50px-Paharo.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Paharo",
@@ -1405,10 +1487,7 @@
       "spdef": 50,
       "total": 306
     },
-    "traits": [
-      "Hover",
-      "Friendship"
-    ],
+    "traits": ["Hover", "Friendship"],
     "details": {
       "height": {
         "cm": 75,
@@ -1537,7 +1616,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "70%",
-        "level": "2"
+        "level": "2",
+        "freetem": {
+          "minLevel": 2,
+          "maxLevel": 2,
+          "minPansuns": 24,
+          "maxPansuns": 24
+        }
       },
       {
         "location": "Prasine Coast",
@@ -1545,7 +1630,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "20%",
-        "level": "3-4"
+        "level": "3-4",
+        "freetem": {
+          "minLevel": 3,
+          "maxLevel": 4,
+          "minPansuns": 25,
+          "maxPansuns": 27
+        }
       },
       {
         "location": "Prasine Coast",
@@ -1553,7 +1644,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "90%",
-        "level": "4-7"
+        "level": "4-7",
+        "freetem": {
+          "minLevel": 4,
+          "maxLevel": 7,
+          "minPansuns": 27,
+          "maxPansuns": 32
+        }
       },
       {
         "location": "Prasine Coast",
@@ -1561,7 +1658,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "20%",
-        "level": "3-5"
+        "level": "3-5",
+        "freetem": {
+          "minLevel": 3,
+          "maxLevel": 5,
+          "minPansuns": 25,
+          "maxPansuns": 28
+        }
       },
       {
         "location": "Prasine Coast",
@@ -1569,7 +1672,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "50%",
-        "level": "4-6"
+        "level": "4-6",
+        "freetem": {
+          "minLevel": 4,
+          "maxLevel": 6,
+          "minPansuns": 27,
+          "maxPansuns": 30
+        }
       },
       {
         "location": "Prasine Coast",
@@ -1577,7 +1686,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "70%",
-        "level": "2-3"
+        "level": "2-3",
+        "freetem": {
+          "minLevel": 2,
+          "maxLevel": 3,
+          "minPansuns": 24,
+          "maxPansuns": 25
+        }
       },
       {
         "location": "Thalassian Cliffs",
@@ -1585,7 +1700,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "90%",
-        "level": "4-6"
+        "level": "4-6",
+        "freetem": {
+          "minLevel": 4,
+          "maxLevel": 6,
+          "minPansuns": 27,
+          "maxPansuns": 30
+        }
       },
       {
         "location": "The Gifted Bridges",
@@ -1593,7 +1714,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "95%",
-        "level": "7-8"
+        "level": "7-8",
+        "freetem": {
+          "minLevel": 7,
+          "maxLevel": 8,
+          "minPansuns": 32,
+          "maxPansuns": 33
+        }
       },
       {
         "location": "The Gifted Bridges",
@@ -1601,7 +1728,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "60%",
-        "level": "7-10"
+        "level": "7-10",
+        "freetem": {
+          "minLevel": 7,
+          "maxLevel": 10,
+          "minPansuns": 32,
+          "maxPansuns": 36
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Paharo.png",
@@ -1625,9 +1758,7 @@
   {
     "number": 17,
     "name": "Paharac",
-    "types": [
-      "Wind"
-    ],
+    "types": ["Wind"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/2c/Paharac.png/50px-Paharac.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Paharac",
@@ -1641,10 +1772,7 @@
       "spdef": 60,
       "total": 385
     },
-    "traits": [
-      "Caffeinated",
-      "Camaraderie"
-    ],
+    "traits": ["Caffeinated", "Camaraderie"],
     "details": {
       "height": {
         "cm": 125,
@@ -1775,7 +1903,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "Very Rare (5%)",
-        "level": "8-10"
+        "level": "8-10",
+        "freetem": {
+          "minLevel": 8,
+          "maxLevel": 10,
+          "minPansuns": 40,
+          "maxPansuns": 44
+        }
       },
       {
         "location": "The Canopath",
@@ -1783,7 +1917,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Rare (20%)",
-        "level": "16-18"
+        "level": "16-18",
+        "freetem": {
+          "minLevel": 16,
+          "maxLevel": 18,
+          "minPansuns": 59,
+          "maxPansuns": 64
+        }
       },
       {
         "location": "The Flywalk",
@@ -1791,7 +1931,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Rare (20%)",
-        "level": "18-21"
+        "level": "18-21",
+        "freetem": {
+          "minLevel": 18,
+          "maxLevel": 21,
+          "minPansuns": 64,
+          "maxPansuns": 71
+        }
       },
       {
         "location": "The Glassyway",
@@ -1799,7 +1945,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Rare (20%)",
-        "level": "20-22"
+        "level": "20-22",
+        "freetem": {
+          "minLevel": 20,
+          "maxLevel": 22,
+          "minPansuns": 68,
+          "maxPansuns": 73
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Paharac.png",
@@ -1823,9 +1975,7 @@
   {
     "number": 18,
     "name": "Granpah",
-    "types": [
-      "Wind"
-    ],
+    "types": ["Wind"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d5/Granpah.png/50px-Granpah.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Granpah",
@@ -1839,10 +1989,7 @@
       "spdef": 66,
       "total": 437
     },
-    "traits": [
-      "Last Rush",
-      "Bully"
-    ],
+    "traits": ["Last Rush", "Bully"],
     "details": {
       "height": {
         "cm": 186,
@@ -1991,9 +2138,7 @@
   {
     "number": 19,
     "name": "Ampling",
-    "types": [
-      "Electric"
-    ],
+    "types": ["Electric"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/93/Ampling.png/50px-Ampling.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Ampling",
@@ -2067,10 +2212,7 @@
   {
     "number": 20,
     "name": "Amphatyr",
-    "types": [
-      "Electric",
-      "Nature"
-    ],
+    "types": ["Electric", "Nature"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a8/Amphatyr.png/41px-Amphatyr.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Amphatyr",
@@ -2143,10 +2285,7 @@
   {
     "number": 21,
     "name": "Bunbun",
-    "types": [
-      "Earth",
-      "Crystal"
-    ],
+    "types": ["Earth", "Crystal"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/38/Bunbun.png/50px-Bunbun.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Bunbun",
@@ -2160,10 +2299,7 @@
       "spdef": 43,
       "total": 374
     },
-    "traits": [
-      "Caffeinated",
-      "Resilient"
-    ],
+    "traits": ["Caffeinated", "Resilient"],
     "details": {
       "height": {
         "cm": 55,
@@ -2263,7 +2399,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "Uncommon (70%)",
-        "level": "31-34"
+        "level": "31-34",
+        "freetem": {
+          "minLevel": 31,
+          "maxLevel": 34,
+          "minPansuns": 95,
+          "maxPansuns": 102
+        }
       },
       {
         "location": "Kakama Cenote",
@@ -2271,7 +2413,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "Uncommon (75%)",
-        "level": "35-39"
+        "level": "35-39",
+        "freetem": {
+          "minLevel": 35,
+          "maxLevel": 39,
+          "minPansuns": 105,
+          "maxPansuns": 114
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Bunbun.png",
@@ -2295,10 +2443,7 @@
   {
     "number": 22,
     "name": "Mudrid",
-    "types": [
-      "Earth",
-      "Crystal"
-    ],
+    "types": ["Earth", "Crystal"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f5/Mudrid.png/50px-Mudrid.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Mudrid",
@@ -2312,10 +2457,7 @@
       "spdef": 50,
       "total": 451
     },
-    "traits": [
-      "Receptive",
-      "Resistant"
-    ],
+    "traits": ["Receptive", "Resistant"],
     "details": {
       "height": {
         "cm": 150,
@@ -2432,7 +2574,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "Very Rare (5%)",
-        "level": "32-36"
+        "level": "32-36",
+        "freetem": {
+          "minLevel": 32,
+          "maxLevel": 36,
+          "minPansuns": 127,
+          "maxPansuns": 140
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Mudrid.png",
@@ -2456,9 +2604,7 @@
   {
     "number": 23,
     "name": "Hidody",
-    "types": [
-      "Nature"
-    ],
+    "types": ["Nature"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/1/1a/Hidody.png/50px-Hidody.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Hidody",
@@ -2472,10 +2618,7 @@
       "spdef": 55,
       "total": 356
     },
-    "traits": [
-      "Electric Synthesize",
-      "Botanist"
-    ],
+    "traits": ["Electric Synthesize", "Botanist"],
     "details": {
       "height": {
         "cm": 100,
@@ -2603,7 +2746,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Uncommon (40%)",
-        "level": "14-17"
+        "level": "14-17",
+        "freetem": {
+          "minLevel": 14,
+          "maxLevel": 17,
+          "minPansuns": 44,
+          "maxPansuns": 49
+        }
       },
       {
         "location": "The Glassyway",
@@ -2611,7 +2760,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Uncommon (50%)",
-        "level": "19-22"
+        "level": "19-22",
+        "freetem": {
+          "minLevel": 19,
+          "maxLevel": 22,
+          "minPansuns": 52,
+          "maxPansuns": 57
+        }
       },
       {
         "location": "Giant Banyan",
@@ -2619,7 +2774,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Uncommon (40%)",
-        "level": "23-26"
+        "level": "23-26",
+        "freetem": {
+          "minLevel": 23,
+          "maxLevel": 26,
+          "minPansuns": 59,
+          "maxPansuns": 64
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Hidody.png",
@@ -2643,9 +2804,7 @@
   {
     "number": 24,
     "name": "Taifu",
-    "types": [
-      "Nature"
-    ],
+    "types": ["Nature"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/36/Taifu.png/50px-Taifu.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Taifu",
@@ -2659,10 +2818,7 @@
       "spdef": 78,
       "total": 443
     },
-    "traits": [
-      "Toxic Farewell",
-      "Resilient"
-    ],
+    "traits": ["Toxic Farewell", "Resilient"],
     "details": {
       "height": {
         "cm": 180,
@@ -2804,7 +2960,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Rare (25%)",
-        "level": "19-22"
+        "level": "19-22",
+        "freetem": {
+          "minLevel": 19,
+          "maxLevel": 22,
+          "minPansuns": 66,
+          "maxPansuns": 73
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Taifu.png",
@@ -2828,9 +2990,7 @@
   {
     "number": 25,
     "name": "Fomu",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/76/Fomu.png/50px-Fomu.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Fomu",
@@ -2844,10 +3004,7 @@
       "spdef": 70,
       "total": 340
     },
-    "traits": [
-      "Amphibian",
-      "Hydrologist"
-    ],
+    "traits": ["Amphibian", "Hydrologist"],
     "details": {
       "height": {
         "cm": 58,
@@ -2949,7 +3106,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "80%",
-        "level": "12-15"
+        "level": "12-15",
+        "freetem": {
+          "minLevel": 12,
+          "maxLevel": 15,
+          "minPansuns": 44,
+          "maxPansuns": 50
+        }
       },
       {
         "location": "Sillaro River",
@@ -2957,7 +3120,13 @@
         "note": "River",
         "island": "Deniz",
         "frequency": "50%-100%",
-        "level": "13-15"
+        "level": "13-15",
+        "freetem": {
+          "minLevel": 13,
+          "maxLevel": 15,
+          "minPansuns": 46,
+          "maxPansuns": 50
+        }
       },
       {
         "location": "Windward Fort",
@@ -2965,7 +3134,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "10%-50%",
-        "level": "9-12"
+        "level": "9-12",
+        "freetem": {
+          "minLevel": 9,
+          "maxLevel": 12,
+          "minPansuns": 38,
+          "maxPansuns": 44
+        }
       },
       {
         "location": "Windward Fort, Surfing in Basement level",
@@ -2973,7 +3148,13 @@
         "note": "Surfing in Basement level",
         "island": "Deniz",
         "frequency": "100%",
-        "level": "11-14"
+        "level": "11-14",
+        "freetem": {
+          "minLevel": 11,
+          "maxLevel": 14,
+          "minPansuns": 42,
+          "maxPansuns": 48
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Fomu.png",
@@ -2997,10 +3178,7 @@
   {
     "number": 26,
     "name": "Wiplump",
-    "types": [
-      "Water",
-      "Wind"
-    ],
+    "types": ["Water", "Wind"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f7/Wiplump.png/50px-Wiplump.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Wiplump",
@@ -3014,10 +3192,7 @@
       "spdef": 80,
       "total": 481
     },
-    "traits": [
-      "Plethoric",
-      "Patient"
-    ],
+    "traits": ["Plethoric", "Patient"],
     "details": {
       "height": {
         "cm": 125,
@@ -3094,9 +3269,7 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Wiplump's name is derived from wing and plump."
-    ],
+    "trivia": ["Wiplump's name is derived from wing and plump."],
     "evolution": {
       "stage": 2,
       "evolutionTree": [
@@ -3133,7 +3306,13 @@
         "note": "River",
         "island": "Deniz",
         "frequency": "Very Rare (15%)",
-        "level": "14-15"
+        "level": "14-15",
+        "freetem": {
+          "minLevel": 14,
+          "maxLevel": 15,
+          "minPansuns": 67,
+          "maxPansuns": 70
+        }
       },
       {
         "location": "Mines of Mictlan, Water areas in route",
@@ -3141,7 +3320,13 @@
         "note": "Water areas in route",
         "island": "Tucma",
         "frequency": "Very Rare (15%)",
-        "level": "32-38"
+        "level": "32-38",
+        "freetem": {
+          "minLevel": 32,
+          "maxLevel": 38,
+          "minPansuns": 127,
+          "maxPansuns": 147
+        }
       },
       {
         "location": "Kakama Cenote",
@@ -3149,7 +3334,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "Uncommon (40%)",
-        "level": "37-40"
+        "level": "37-40",
+        "freetem": {
+          "minLevel": 37,
+          "maxLevel": 40,
+          "minPansuns": 144,
+          "maxPansuns": 154
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Wiplump.png",
@@ -3173,9 +3364,7 @@
   {
     "number": 27,
     "name": "Skail",
-    "types": [
-      "Neutral"
-    ],
+    "types": ["Neutral"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/77/Skail.png/50px-Skail.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Skail",
@@ -3189,10 +3378,7 @@
       "spdef": 41,
       "total": 328
     },
-    "traits": [
-      "Furor",
-      "Scavenger"
-    ],
+    "traits": ["Furor", "Scavenger"],
     "details": {
       "height": {
         "cm": 80,
@@ -3295,7 +3481,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "5%",
-        "level": "4-6"
+        "level": "4-6",
+        "freetem": {
+          "minLevel": 4,
+          "maxLevel": 6,
+          "minPansuns": 30,
+          "maxPansuns": 35
+        }
       },
       {
         "location": "Thalassian Cliffs",
@@ -3303,7 +3495,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "30%-80%",
-        "level": "4-9"
+        "level": "4-9",
+        "freetem": {
+          "minLevel": 4,
+          "maxLevel": 9,
+          "minPansuns": 30,
+          "maxPansuns": 43
+        }
       },
       {
         "location": "Windward Fort",
@@ -3311,7 +3509,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "70%-100%",
-        "level": "9-14"
+        "level": "9-14",
+        "freetem": {
+          "minLevel": 9,
+          "maxLevel": 14,
+          "minPansuns": 43,
+          "maxPansuns": 55
+        }
       },
       {
         "location": "Aguamarina Caves",
@@ -3319,7 +3523,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "30%-65%",
-        "level": "14-18"
+        "level": "14-18",
+        "freetem": {
+          "minLevel": 14,
+          "maxLevel": 18,
+          "minPansuns": 55,
+          "maxPansuns": 65
+        }
       },
       {
         "location": "Aguamarina Caves",
@@ -3327,7 +3537,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "30%-65%",
-        "level": "14-18"
+        "level": "14-18",
+        "freetem": {
+          "minLevel": 14,
+          "maxLevel": 18,
+          "minPansuns": 55,
+          "maxPansuns": 65
+        }
       },
       {
         "location": "Saipark Caves",
@@ -3335,7 +3551,13 @@
         "note": "Caves",
         "island": "Deniz",
         "frequency": "50%",
-        "level": "38-41"
+        "level": "38-41",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 41,
+          "minPansuns": 115,
+          "maxPansuns": 123
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Skail.png",
@@ -3359,10 +3581,7 @@
   {
     "number": 28,
     "name": "Skunch",
-    "types": [
-      "Neutral",
-      "Melee"
-    ],
+    "types": ["Neutral", "Melee"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4b/Skunch.png/50px-Skunch.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Skunch",
@@ -3376,10 +3595,7 @@
       "spdef": 60,
       "total": 454
     },
-    "traits": [
-      "Brawny",
-      "Bully"
-    ],
+    "traits": ["Brawny", "Bully"],
     "details": {
       "height": {
         "cm": 150,
@@ -3501,7 +3717,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "5%",
-        "level": "14-20"
+        "level": "14-20",
+        "freetem": {
+          "minLevel": 14,
+          "maxLevel": 20,
+          "minPansuns": 67,
+          "maxPansuns": 87
+        }
       },
       {
         "location": "Corrupted Badlands",
@@ -3509,7 +3731,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "20%",
-        "level": "25-29"
+        "level": "25-29",
+        "freetem": {
+          "minLevel": 25,
+          "maxLevel": 29,
+          "minPansuns": 104,
+          "maxPansuns": 117
+        }
       },
       {
         "location": "Xolot Reservoir",
@@ -3517,7 +3745,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "50%",
-        "level": "26-29"
+        "level": "26-29",
+        "freetem": {
+          "minLevel": 26,
+          "maxLevel": 29,
+          "minPansuns": 107,
+          "maxPansuns": 117
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Skunch.png",
@@ -3541,9 +3775,7 @@
   {
     "number": 32,
     "name": "Houchic",
-    "types": [
-      "Mental"
-    ],
+    "types": ["Mental"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/af/Houchic.png/50px-Houchic.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Houchic",
@@ -3557,10 +3789,7 @@
       "spdef": 52,
       "total": 353
     },
-    "traits": [
-      "Mental Alliance",
-      "Soft Touch"
-    ],
+    "traits": ["Mental Alliance", "Soft Touch"],
     "details": {
       "height": {
         "cm": 110,
@@ -3685,9 +3914,7 @@
   {
     "number": 33,
     "name": "Tental",
-    "types": [
-      "Mental"
-    ],
+    "types": ["Mental"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/37/Tental.png/50px-Tental.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Tental",
@@ -3701,10 +3928,7 @@
       "spdef": 62,
       "total": 403
     },
-    "traits": [
-      "Water Affinity",
-      "Avenger"
-    ],
+    "traits": ["Water Affinity", "Avenger"],
     "details": {
       "height": {
         "cm": 160,
@@ -3793,9 +4017,7 @@
         "source": "TechniqueCourses"
       }
     ],
-    "trivia": [
-      "Tental's name is derived from tentacle and mental."
-    ],
+    "trivia": ["Tental's name is derived from tentacle and mental."],
     "evolution": {
       "stage": 2,
       "evolutionTree": [
@@ -3852,10 +4074,7 @@
   {
     "number": 35,
     "name": "Orphyll",
-    "types": [
-      "Nature",
-      "Toxic"
-    ],
+    "types": ["Nature", "Toxic"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b3/Orphyll.png/50px-Orphyll.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Orphyll",
@@ -3869,10 +4088,7 @@
       "spdef": 40,
       "total": 364
     },
-    "traits": [
-      "Toxic Affinity",
-      "Apothecary"
-    ],
+    "traits": ["Toxic Affinity", "Apothecary"],
     "details": {
       "height": {
         "cm": 117,
@@ -3995,7 +4211,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "Uncommon",
-        "level": "24-27"
+        "level": "24-27",
+        "freetem": {
+          "minLevel": 24,
+          "maxLevel": 27,
+          "minPansuns": 80,
+          "maxPansuns": 88
+        }
       },
       {
         "location": "Xolot Reservoir",
@@ -4003,7 +4225,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "Uncommon",
-        "level": "24-29"
+        "level": "24-29",
+        "freetem": {
+          "minLevel": 24,
+          "maxLevel": 29,
+          "minPansuns": 80,
+          "maxPansuns": 93
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Orphyll.png",
@@ -4027,10 +4255,7 @@
   {
     "number": 36,
     "name": "Nidrasil",
-    "types": [
-      "Nature",
-      "Toxic"
-    ],
+    "types": ["Nature", "Toxic"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5b/Nidrasil.png/50px-Nidrasil.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Nidrasil",
@@ -4044,10 +4269,7 @@
       "spdef": 51,
       "total": 445
     },
-    "traits": [
-      "Toxic Farewell",
-      "Tri-Apothecary"
-    ],
+    "traits": ["Toxic Farewell", "Tri-Apothecary"],
     "details": {
       "height": {
         "cm": 178,
@@ -4189,9 +4411,7 @@
   {
     "number": 37,
     "name": "Banapi",
-    "types": [
-      "Fire"
-    ],
+    "types": ["Fire"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/27/Banapi.png/50px-Banapi.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Banapi",
@@ -4205,10 +4425,7 @@
       "spdef": 41,
       "total": 333
     },
-    "traits": [
-      "Pyromaniac",
-      "Settling"
-    ],
+    "traits": ["Pyromaniac", "Settling"],
     "details": {
       "height": {
         "cm": 90,
@@ -4318,7 +4535,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Common",
-        "level": "14-19"
+        "level": "14-19",
+        "freetem": {
+          "minLevel": 14,
+          "maxLevel": 19,
+          "minPansuns": 48,
+          "maxPansuns": 58
+        }
       },
       {
         "location": "The Glassyway",
@@ -4326,7 +4549,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Rare",
-        "level": "20-22"
+        "level": "20-22",
+        "freetem": {
+          "minLevel": 20,
+          "maxLevel": 22,
+          "minPansuns": 60,
+          "maxPansuns": 64
+        }
       },
       {
         "location": "Anak Volcano",
@@ -4334,7 +4563,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Uncommon",
-        "level": "20-24"
+        "level": "20-24",
+        "freetem": {
+          "minLevel": 20,
+          "maxLevel": 24,
+          "minPansuns": 60,
+          "maxPansuns": 68
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Banapi.png",
@@ -4358,9 +4593,7 @@
   {
     "number": 38,
     "name": "Capyre",
-    "types": [
-      "Fire"
-    ],
+    "types": ["Fire"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/cf/Capyre.png/50px-Capyre.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Capyre",
@@ -4374,10 +4607,7 @@
       "spdef": 47,
       "total": 429
     },
-    "traits": [
-      "Last Rush",
-      "Resilient"
-    ],
+    "traits": ["Last Rush", "Resilient"],
     "details": {
       "height": {
         "cm": 150,
@@ -4507,9 +4737,7 @@
   {
     "number": 39,
     "name": "Lapinite",
-    "types": [
-      "Crystal"
-    ],
+    "types": ["Crystal"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/69/Lapinite.png/50px-Lapinite.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Lapinite",
@@ -4523,10 +4751,7 @@
       "spdef": 56,
       "total": 353
     },
-    "traits": [
-      "Scavenger",
-      "Electric Synthesize"
-    ],
+    "traits": ["Scavenger", "Electric Synthesize"],
     "details": {
       "height": {
         "cm": 90,
@@ -4629,7 +4854,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "85%",
-        "level": "29-34"
+        "level": "29-34",
+        "freetem": {
+          "minLevel": 29,
+          "maxLevel": 34,
+          "minPansuns": 78,
+          "maxPansuns": 88
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Lapinite.png",
@@ -4653,9 +4884,7 @@
   {
     "number": 40,
     "name": "Azuroc",
-    "types": [
-      "Crystal"
-    ],
+    "types": ["Crystal"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/9a/Azuroc.png/50px-Azuroc.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Azuroc",
@@ -4669,10 +4898,7 @@
       "spdef": 62,
       "total": 397
     },
-    "traits": [
-      "Mirroring",
-      "Fainted Curse"
-    ],
+    "traits": ["Mirroring", "Fainted Curse"],
     "details": {
       "height": {
         "cm": 203,
@@ -4737,9 +4963,7 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Azuroc's name is derived from azure and rock."
-    ],
+    "trivia": ["Azuroc's name is derived from azure and rock."],
     "evolution": {
       "stage": 2,
       "evolutionTree": [
@@ -4787,7 +5011,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "5%",
-        "level": "31-37"
+        "level": "31-37",
+        "freetem": {
+          "minLevel": 31,
+          "maxLevel": 37,
+          "minPansuns": 105,
+          "maxPansuns": 121
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Azuroc.png",
@@ -4811,9 +5041,7 @@
   {
     "number": 41,
     "name": "Zenoreth",
-    "types": [
-      "Crystal"
-    ],
+    "types": ["Crystal"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/22/Zenoreth.png/50px-Zenoreth.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Zenoreth",
@@ -4827,10 +5055,7 @@
       "spdef": 69,
       "total": 450
     },
-    "traits": [
-      "Channeler",
-      "Wrecked Farewell"
-    ],
+    "traits": ["Channeler", "Wrecked Farewell"],
     "details": {
       "height": {
         "cm": 310,
@@ -4947,7 +5172,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "95%",
-        "level": "50-55"
+        "level": "50-55",
+        "freetem": {
+          "minLevel": 50,
+          "maxLevel": 55,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Zenoreth.png",
@@ -4971,9 +5202,7 @@
   {
     "number": 44,
     "name": "Bigu",
-    "types": [
-      "Nature"
-    ],
+    "types": ["Nature"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/09/Bigu.png/50px-Bigu.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Bigu",
@@ -4987,10 +5216,7 @@
       "spdef": 42,
       "total": 329
     },
-    "traits": [
-      "Warm-Blooded",
-      "Amphibian"
-    ],
+    "traits": ["Warm-Blooded", "Amphibian"],
     "details": {
       "height": {
         "cm": 113,
@@ -5052,9 +5278,7 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Bigu's name is derived from Bígaro (winkle in Spanish)."
-    ],
+    "trivia": ["Bigu's name is derived from Bígaro (winkle in Spanish)."],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
@@ -5106,10 +5330,7 @@
   {
     "number": 45,
     "name": "Babawa",
-    "types": [
-      "Nature",
-      "Water"
-    ],
+    "types": ["Nature", "Water"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b9/Babawa.png/50px-Babawa.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Babawa",
@@ -5123,10 +5344,7 @@
       "spdef": 44,
       "total": 448
     },
-    "traits": [
-      "Mucous",
-      "Withdrawal"
-    ],
+    "traits": ["Mucous", "Withdrawal"],
     "details": {
       "height": {
         "cm": 226,
@@ -5243,7 +5461,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Rare (30%-35%)",
-        "level": "18-21"
+        "level": "18-21",
+        "freetem": {
+          "minLevel": 18,
+          "maxLevel": 21,
+          "minPansuns": 80,
+          "maxPansuns": 90
+        }
       },
       {
         "location": "The Hangroad",
@@ -5251,7 +5475,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Rare (35%)",
-        "level": "18-21"
+        "level": "18-21",
+        "freetem": {
+          "minLevel": 18,
+          "maxLevel": 21,
+          "minPansuns": 80,
+          "maxPansuns": 90
+        }
       },
       {
         "location": "Kakama Cenote",
@@ -5259,7 +5489,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "Rare (20%)",
-        "level": "35-39"
+        "level": "35-39",
+        "freetem": {
+          "minLevel": 35,
+          "maxLevel": 39,
+          "minPansuns": 137,
+          "maxPansuns": 150
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Babawa.png",
@@ -5283,9 +5519,7 @@
   {
     "number": 48,
     "name": "Kaku",
-    "types": [
-      "Nature"
-    ],
+    "types": ["Nature"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4e/Kaku.png/50px-Kaku.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Kaku",
@@ -5299,10 +5533,7 @@
       "spdef": 50,
       "total": 357
     },
-    "traits": [
-      "Caffeinated",
-      "Mithridatism"
-    ],
+    "traits": ["Caffeinated", "Mithridatism"],
     "details": {
       "height": {
         "cm": 54,
@@ -5417,7 +5648,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "40%-50%",
-        "level": "2-5"
+        "level": "2-5",
+        "freetem": {
+          "minLevel": 2,
+          "maxLevel": 5,
+          "minPansuns": 24,
+          "maxPansuns": 28
+        }
       },
       {
         "location": "Thalassian Cliffs",
@@ -5425,7 +5662,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "95%",
-        "level": "6-9"
+        "level": "6-9",
+        "freetem": {
+          "minLevel": 6,
+          "maxLevel": 9,
+          "minPansuns": 30,
+          "maxPansuns": 35
+        }
       },
       {
         "location": "The Gifted Bridges",
@@ -5433,7 +5676,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "95%-100%",
-        "level": "7-11"
+        "level": "7-11",
+        "freetem": {
+          "minLevel": 7,
+          "maxLevel": 11,
+          "minPansuns": 32,
+          "maxPansuns": 38
+        }
       },
       {
         "location": "The Canopath",
@@ -5441,7 +5690,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "75%",
-        "level": "16-18"
+        "level": "16-18",
+        "freetem": {
+          "minLevel": 16,
+          "maxLevel": 18,
+          "minPansuns": 46,
+          "maxPansuns": 49
+        }
       },
       {
         "location": "The Flywalk",
@@ -5449,7 +5704,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "50%",
-        "level": "18-20"
+        "level": "18-20",
+        "freetem": {
+          "minLevel": 18,
+          "maxLevel": 20,
+          "minPansuns": 49,
+          "maxPansuns": 52
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Kaku.png",
@@ -5473,10 +5734,7 @@
   {
     "number": 49,
     "name": "Saku",
-    "types": [
-      "Nature",
-      "Wind"
-    ],
+    "types": ["Nature", "Wind"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/2a/Saku.png/50px-Saku.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Saku",
@@ -5490,10 +5748,7 @@
       "spdef": 70,
       "total": 420
     },
-    "traits": [
-      "Air Specialist",
-      "Botanist"
-    ],
+    "traits": ["Air Specialist", "Botanist"],
     "details": {
       "height": {
         "cm": 92,
@@ -5622,7 +5877,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "5%",
-        "level": "9-11"
+        "level": "9-11",
+        "freetem": {
+          "minLevel": 9,
+          "maxLevel": 11,
+          "minPansuns": 40,
+          "maxPansuns": 44
+        }
       },
       {
         "location": "The Canopath",
@@ -5630,7 +5891,13 @@
         "note": "",
         "island": "Superior Omninesia",
         "frequency": "5%",
-        "level": "16-18"
+        "level": "16-18",
+        "freetem": {
+          "minLevel": 16,
+          "maxLevel": 18,
+          "minPansuns": 55,
+          "maxPansuns": 59
+        }
       },
       {
         "location": "The Glassyway",
@@ -5638,7 +5905,13 @@
         "note": "",
         "island": "Ulterior Omninesia",
         "frequency": "25%",
-        "level": "19-22"
+        "level": "19-22",
+        "freetem": {
+          "minLevel": 19,
+          "maxLevel": 22,
+          "minPansuns": 61,
+          "maxPansuns": 68
+        }
       },
       {
         "location": "Kupeleleza",
@@ -5646,7 +5919,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "40%",
-        "level": "34-37"
+        "level": "34-37",
+        "freetem": {
+          "minLevel": 34,
+          "maxLevel": 37,
+          "minPansuns": 93,
+          "maxPansuns": 100
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Saku.png",
@@ -5670,10 +5949,7 @@
   {
     "number": 50,
     "name": "Valash",
-    "types": [
-      "Neutral",
-      "Crystal"
-    ],
+    "types": ["Neutral", "Crystal"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/80/Valash.png/50px-Valash.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Valash",
@@ -5687,10 +5963,7 @@
       "spdef": 56,
       "total": 465
     },
-    "traits": [
-      "Scavenger",
-      "Determined"
-    ],
+    "traits": ["Scavenger", "Determined"],
     "details": {
       "height": {
         "cm": 185,
@@ -5791,7 +6064,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "One-Time Gift",
-        "level": "35"
+        "level": "35",
+        "freetem": {
+          "minLevel": 35,
+          "maxLevel": 35,
+          "minPansuns": 131,
+          "maxPansuns": 131
+        }
       },
       {
         "location": "Mines of Mictlan",
@@ -5799,7 +6078,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "Very Rare",
-        "level": "35-39"
+        "level": "35-39",
+        "freetem": {
+          "minLevel": 35,
+          "maxLevel": 39,
+          "minPansuns": 131,
+          "maxPansuns": 144
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Valash.png",
@@ -5823,10 +6108,7 @@
   {
     "number": 53,
     "name": "Barnshe",
-    "types": [
-      "Mental",
-      "Wind"
-    ],
+    "types": ["Mental", "Wind"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/6c/Barnshe.png/50px-Barnshe.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Barnshe",
@@ -5840,10 +6122,7 @@
       "spdef": 79,
       "total": 420
     },
-    "traits": [
-      "Neutrality",
-      "Air Specialist"
-    ],
+    "traits": ["Neutrality", "Air Specialist"],
     "details": {
       "height": {
         "cm": 171,
@@ -5951,7 +6230,13 @@
         "note": "Top Floor",
         "island": "Deniz",
         "frequency": "5%",
-        "level": "12-14"
+        "level": "12-14",
+        "freetem": {
+          "minLevel": 12,
+          "maxLevel": 14,
+          "minPansuns": 58,
+          "maxPansuns": 65
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Barnshe.png",
@@ -5975,10 +6260,7 @@
   {
     "number": 54,
     "name": "Gyalis",
-    "types": [
-      "Crystal",
-      "Melee"
-    ],
+    "types": ["Crystal", "Melee"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d6/Gyalis.png/50px-Gyalis.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Gyalis",
@@ -5992,10 +6274,7 @@
       "spdef": 61,
       "total": 460
     },
-    "traits": [
-      "Mirroring",
-      "Resistant"
-    ],
+    "traits": ["Mirroring", "Resistant"],
     "details": {
       "height": {
         "cm": 204,
@@ -6108,7 +6387,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "5%",
-        "level": "34-35"
+        "level": "34-35",
+        "freetem": {
+          "minLevel": 34,
+          "maxLevel": 35,
+          "minPansuns": 148,
+          "maxPansuns": 152
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Gyalis.png",
@@ -6132,9 +6417,7 @@
   {
     "number": 55,
     "name": "Occlura",
-    "types": [
-      "Crystal"
-    ],
+    "types": ["Crystal"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/38/Occlura.png/50px-Occlura.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Occlura",
@@ -6148,10 +6431,7 @@
       "spdef": 65,
       "total": 330
     },
-    "traits": [
-      "Warm-Blooded",
-      "Scavenger"
-    ],
+    "traits": ["Warm-Blooded", "Scavenger"],
     "details": {
       "height": {
         "cm": 137,
@@ -6246,7 +6526,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "60%",
-        "level": "31-36"
+        "level": "31-36",
+        "freetem": {
+          "minLevel": 31,
+          "maxLevel": 36,
+          "minPansuns": 98,
+          "maxPansuns": 110
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Occlura.png",
@@ -6270,10 +6556,7 @@
   {
     "number": 56,
     "name": "Myx",
-    "types": [
-      "Crystal",
-      "Mental"
-    ],
+    "types": ["Crystal", "Mental"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/07/Myx.png/50px-Myx.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Myx",
@@ -6287,10 +6570,7 @@
       "spdef": 80,
       "total": 443
     },
-    "traits": [
-      "Puppet Master",
-      "Rejuvenate"
-    ],
+    "traits": ["Puppet Master", "Rejuvenate"],
     "details": {
       "height": {
         "cm": 243,
@@ -6421,9 +6701,7 @@
   {
     "number": 57,
     "name": "Raiber",
-    "types": [
-      "Fire"
-    ],
+    "types": ["Fire"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/c8/Raiber.png/50px-Raiber.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Raiber",
@@ -6437,10 +6715,7 @@
       "spdef": 38,
       "total": 332
     },
-    "traits": [
-      "Camaraderie",
-      "Rested"
-    ],
+    "traits": ["Camaraderie", "Rested"],
     "details": {
       "height": {
         "cm": 95,
@@ -6543,7 +6818,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Rare (30%)",
-        "level": "20-22"
+        "level": "20-22",
+        "freetem": {
+          "minLevel": 20,
+          "maxLevel": 22,
+          "minPansuns": 60,
+          "maxPansuns": 64
+        }
       },
       {
         "location": "Anak Volcano",
@@ -6551,7 +6832,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "10%-50%",
-        "level": "17-24"
+        "level": "17-24",
+        "freetem": {
+          "minLevel": 17,
+          "maxLevel": 24,
+          "minPansuns": 54,
+          "maxPansuns": 68
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Raiber.png",
@@ -6575,9 +6862,7 @@
   {
     "number": 58,
     "name": "Raize",
-    "types": [
-      "Fire"
-    ],
+    "types": ["Fire"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f4/Raize.png/50px-Raize.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Raize",
@@ -6591,10 +6876,7 @@
       "spdef": 43,
       "total": 384
     },
-    "traits": [
-      "Furor",
-      "Demoralize"
-    ],
+    "traits": ["Furor", "Demoralize"],
     "details": {
       "height": {
         "cm": 160,
@@ -6718,9 +7000,7 @@
   {
     "number": 59,
     "name": "Raican",
-    "types": [
-      "Fire"
-    ],
+    "types": ["Fire"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/90/Raican.png/50px-Raican.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Raican",
@@ -6734,10 +7014,7 @@
       "spdef": 50,
       "total": 441
     },
-    "traits": [
-      "Prideful",
-      "Motivator"
-    ],
+    "traits": ["Prideful", "Motivator"],
     "details": {
       "height": {
         "cm": 195,
@@ -6870,9 +7147,7 @@
   {
     "number": 60,
     "name": "Pewki",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/86/Pewki.png/50px-Pewki.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Pewki",
@@ -6886,10 +7161,7 @@
       "spdef": 10,
       "total": 263
     },
-    "traits": [
-      "Hydrologist",
-      "Rested"
-    ],
+    "traits": ["Hydrologist", "Rested"],
     "details": {
       "height": {
         "cm": 60,
@@ -6999,7 +7271,13 @@
         "note": "River",
         "island": "Deniz",
         "frequency": "Rare (30%)",
-        "level": "13-14"
+        "level": "13-14",
+        "freetem": {
+          "minLevel": 13,
+          "maxLevel": 14,
+          "minPansuns": 46,
+          "maxPansuns": 48
+        }
       },
       {
         "location": "Windward Fort",
@@ -7007,7 +7285,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "",
-        "level": ""
+        "level": "",
+        "freetem": {
+          "minLevel": null,
+          "maxLevel": null,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
       },
       {
         "location": "The Flywalk",
@@ -7015,7 +7299,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Common (65%)",
-        "level": "18-20"
+        "level": "18-20",
+        "freetem": {
+          "minLevel": 18,
+          "maxLevel": 20,
+          "minPansuns": 56,
+          "maxPansuns": 60
+        }
       },
       {
         "location": "The Hangroad",
@@ -7023,7 +7313,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Common (65%)",
-        "level": "14-18"
+        "level": "14-18",
+        "freetem": {
+          "minLevel": 14,
+          "maxLevel": 18,
+          "minPansuns": 48,
+          "maxPansuns": 56
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Pewki.png",
@@ -7047,9 +7343,7 @@
   {
     "number": 61,
     "name": "Piraniant",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/01/Piraniant.png/50px-Piraniant.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Piraniant",
@@ -7063,10 +7357,7 @@
       "spdef": 37,
       "total": 449
     },
-    "traits": [
-      "Patient",
-      "Energy Reserves"
-    ],
+    "traits": ["Patient", "Energy Reserves"],
     "details": {
       "height": {
         "cm": 200,
@@ -7196,10 +7487,7 @@
   {
     "number": 69,
     "name": "Saipat",
-    "types": [
-      "Water",
-      "Melee"
-    ],
+    "types": ["Water", "Melee"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e3/Saipat.png/50px-Saipat.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Saipat",
@@ -7213,10 +7501,7 @@
       "spdef": 40,
       "total": 444
     },
-    "traits": [
-      "Amphibian",
-      "Toxic Affinity"
-    ],
+    "traits": ["Amphibian", "Toxic Affinity"],
     "details": {
       "height": {
         "cm": 100,
@@ -7311,7 +7596,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "5%",
-        "level": "23-25"
+        "level": "23-25",
+        "freetem": {
+          "minLevel": 23,
+          "maxLevel": 25,
+          "minPansuns": 70,
+          "maxPansuns": 74
+        }
       },
       {
         "location": "The Gifted Bridges",
@@ -7319,7 +7610,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "15%-20%",
-        "level": "8-14"
+        "level": "8-14",
+        "freetem": {
+          "minLevel": 8,
+          "maxLevel": 14,
+          "minPansuns": 38,
+          "maxPansuns": 50
+        }
       },
       {
         "location": "The Gifted Bridges, Small land area left-most of the route",
@@ -7327,7 +7624,13 @@
         "note": "Small land area left-most of the route",
         "island": "Deniz",
         "frequency": "100%",
-        "level": "11-13"
+        "level": "11-13",
+        "freetem": {
+          "minLevel": 11,
+          "maxLevel": 13,
+          "minPansuns": 44,
+          "maxPansuns": 48
+        }
       },
       {
         "location": "Sillaro River",
@@ -7335,7 +7638,13 @@
         "note": "River",
         "island": "Deniz",
         "frequency": "45%",
-        "level": "13-16"
+        "level": "13-16",
+        "freetem": {
+          "minLevel": 13,
+          "maxLevel": 16,
+          "minPansuns": 48,
+          "maxPansuns": 55
+        }
       },
       {
         "location": "Windward Fort",
@@ -7343,7 +7652,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "20%",
-        "level": "9-12"
+        "level": "9-12",
+        "freetem": {
+          "minLevel": 9,
+          "maxLevel": 12,
+          "minPansuns": 40,
+          "maxPansuns": 46
+        }
       },
       {
         "location": "Windward Fort, Bottom-most floor",
@@ -7351,7 +7666,13 @@
         "note": "Bottom-most floor",
         "island": "Deniz",
         "frequency": "50%",
-        "level": "11-15"
+        "level": "11-15",
+        "freetem": {
+          "minLevel": 11,
+          "maxLevel": 15,
+          "minPansuns": 44,
+          "maxPansuns": 53
+        }
       },
       {
         "location": "Aguamarina Caves",
@@ -7359,7 +7680,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "20%-40%",
-        "level": "15-20"
+        "level": "15-20",
+        "freetem": {
+          "minLevel": 15,
+          "maxLevel": 20,
+          "minPansuns": 53,
+          "maxPansuns": 63
+        }
       },
       {
         "location": "Xolot Reservoir",
@@ -7367,7 +7694,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "30%-40%",
-        "level": "29-32"
+        "level": "29-32",
+        "freetem": {
+          "minLevel": 29,
+          "maxLevel": 32,
+          "minPansuns": 83,
+          "maxPansuns": 89
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Saipat.png",
@@ -7391,9 +7724,7 @@
   {
     "number": 72,
     "name": "Crystle",
-    "types": [
-      "Crystal"
-    ],
+    "types": ["Crystal"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/ac/Crystle.png/50px-Crystle.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Crystle",
@@ -7407,10 +7738,7 @@
       "spdef": 42,
       "total": 352
     },
-    "traits": [
-      "Amphibian",
-      "Rested"
-    ],
+    "traits": ["Amphibian", "Rested"],
     "details": {
       "height": {
         "cm": 60,
@@ -7467,9 +7795,7 @@
         "source": "TechniqueCourses"
       }
     ],
-    "trivia": [
-      "Crystle's name is derived from crystal and turtle."
-    ],
+    "trivia": ["Crystle's name is derived from crystal and turtle."],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
@@ -7511,7 +7837,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "5%",
-        "level": "28-30"
+        "level": "28-30",
+        "freetem": {
+          "minLevel": 28,
+          "maxLevel": 30,
+          "minPansuns": 73,
+          "maxPansuns": 77
+        }
       },
       {
         "location": "Kupeleleza, Furthest east island which is covered with grass",
@@ -7519,7 +7851,13 @@
         "note": "Furthest east island which is covered with grass",
         "island": "Tucma",
         "frequency": "5%",
-        "level": "24-28"
+        "level": "24-28",
+        "freetem": {
+          "minLevel": 24,
+          "maxLevel": 28,
+          "minPansuns": 65,
+          "maxPansuns": 73
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Crystle.png",
@@ -7543,9 +7881,7 @@
   {
     "number": 73,
     "name": "Sherald",
-    "types": [
-      "Crystal"
-    ],
+    "types": ["Crystal"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/ff/Sherald.png/50px-Sherald.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Sherald",
@@ -7559,10 +7895,7 @@
       "spdef": 48,
       "total": 402
     },
-    "traits": [
-      "Mirroring",
-      "Provident"
-    ],
+    "traits": ["Mirroring", "Provident"],
     "details": {
       "height": {
         "cm": 120,
@@ -7628,9 +7961,7 @@
         "source": "TechniqueCourses"
       }
     ],
-    "trivia": [
-      "Sherald's name is derived from shell and emerald."
-    ],
+    "trivia": ["Sherald's name is derived from shell and emerald."],
     "evolution": {
       "stage": 2,
       "evolutionTree": [
@@ -7687,9 +8018,7 @@
   {
     "number": 79,
     "name": "Hocus",
-    "types": [
-      "Mental"
-    ],
+    "types": ["Mental"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d7/Hocus.png/50px-Hocus.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Hocus",
@@ -7703,10 +8032,7 @@
       "spdef": 34,
       "total": 353
     },
-    "traits": [
-      "Soft Touch",
-      "Mirroring"
-    ],
+    "traits": ["Soft Touch", "Mirroring"],
     "details": {
       "height": {
         "cm": 115,
@@ -7794,9 +8120,7 @@
   {
     "number": 80,
     "name": "Pocus",
-    "types": [
-      "Mental"
-    ],
+    "types": ["Mental"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fb/Pocus.png/50px-Pocus.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Pocus",
@@ -7810,10 +8134,7 @@
       "spdef": 38,
       "total": 431
     },
-    "traits": [
-      "Dreaded Alarm",
-      "Rejuvenate"
-    ],
+    "traits": ["Dreaded Alarm", "Rejuvenate"],
     "details": {
       "height": {
         "cm": 190,
@@ -7885,9 +8206,7 @@
   {
     "number": 82,
     "name": "Sparzy",
-    "types": [
-      "Electric"
-    ],
+    "types": ["Electric"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/80/Sparzy.png/50px-Sparzy.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Sparzy",
@@ -7901,9 +8220,7 @@
       "spdef": 46,
       "total": 454
     },
-    "traits": [
-      "Last Rush"
-    ],
+    "traits": ["Last Rush"],
     "details": {
       "height": {
         "cm": 160,
@@ -8007,9 +8324,7 @@
   {
     "number": 84,
     "name": "Mushi",
-    "types": [
-      "Toxic"
-    ],
+    "types": ["Toxic"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/78/Mushi.png/50px-Mushi.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Mushi",
@@ -8023,10 +8338,7 @@
       "spdef": 29,
       "total": 310
     },
-    "traits": [
-      "Resistant",
-      "Resilient"
-    ],
+    "traits": ["Resistant", "Resilient"],
     "details": {
       "height": {
         "cm": 100,
@@ -8078,9 +8390,7 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Mushi's name is derived from mushroom diminutive."
-    ],
+    "trivia": ["Mushi's name is derived from mushroom diminutive."],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
@@ -8117,7 +8427,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "Uncommon (45%-50%)",
-        "level": "23-27"
+        "level": "23-27",
+        "freetem": {
+          "minLevel": 23,
+          "maxLevel": 27,
+          "minPansuns": 76,
+          "maxPansuns": 85
+        }
       },
       {
         "location": "Xolot Reservoir",
@@ -8125,7 +8441,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "Uncommon (65%)",
-        "level": "28-31"
+        "level": "28-31",
+        "freetem": {
+          "minLevel": 28,
+          "maxLevel": 31,
+          "minPansuns": 88,
+          "maxPansuns": 95
+        }
       },
       {
         "location": "Kupeleleza",
@@ -8133,7 +8455,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "Uncommon (60%)",
-        "level": "30-36"
+        "level": "30-36",
+        "freetem": {
+          "minLevel": 30,
+          "maxLevel": 36,
+          "minPansuns": 92,
+          "maxPansuns": 107
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Mushi.png",
@@ -8157,10 +8485,7 @@
   {
     "number": 85,
     "name": "Mushook",
-    "types": [
-      "Toxic",
-      "Melee"
-    ],
+    "types": ["Toxic", "Melee"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/90/Mushook.png/50px-Mushook.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Mushook",
@@ -8174,10 +8499,7 @@
       "spdef": 41,
       "total": 444
     },
-    "traits": [
-      "Parrier",
-      "Tireless"
-    ],
+    "traits": ["Parrier", "Tireless"],
     "details": {
       "height": {
         "cm": 210,
@@ -8260,9 +8582,7 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Mushook's name is derived from mushroom and hook."
-    ],
+    "trivia": ["Mushook's name is derived from mushroom and hook."],
     "evolution": {
       "stage": 2,
       "evolutionTree": [
@@ -8314,9 +8634,7 @@
   {
     "number": 86,
     "name": "Magmis",
-    "types": [
-      "Fire"
-    ],
+    "types": ["Fire"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5d/Magmis.png/50px-Magmis.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Magmis",
@@ -8330,10 +8648,7 @@
       "spdef": 35,
       "total": 317
     },
-    "traits": [
-      "Caffeinated",
-      "Thick Skin"
-    ],
+    "traits": ["Caffeinated", "Thick Skin"],
     "details": {
       "height": {
         "cm": 115,
@@ -8432,9 +8747,7 @@
   {
     "number": 87,
     "name": "Mastione",
-    "types": [
-      "Fire"
-    ],
+    "types": ["Fire"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/32/Mastione.png/50px-Mastione.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Mastione",
@@ -8448,10 +8761,7 @@
       "spdef": 37,
       "total": 438
     },
-    "traits": [
-      "Bully",
-      "Pyromaniac"
-    ],
+    "traits": ["Bully", "Pyromaniac"],
     "details": {
       "height": {
         "cm": 240,
@@ -8565,7 +8875,13 @@
         "note": "",
         "island": "Ulterior Omninesia",
         "frequency": "20%",
-        "level": "33-38"
+        "level": "33-38",
+        "freetem": {
+          "minLevel": 33,
+          "maxLevel": 38,
+          "minPansuns": 119,
+          "maxPansuns": 134
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Mastione.png",
@@ -8589,9 +8905,7 @@
   {
     "number": 88,
     "name": "Umishi",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4f/Umishi.png/50px-Umishi.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Umishi",
@@ -8605,10 +8919,7 @@
       "spdef": 45,
       "total": 370
     },
-    "traits": [
-      "Shared Pain",
-      "Caffeinated"
-    ],
+    "traits": ["Shared Pain", "Caffeinated"],
     "details": {
       "height": {
         "cm": 95,
@@ -8715,7 +9026,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "Common (50%-90%)",
-        "level": "17-18"
+        "level": "17-18",
+        "freetem": {
+          "minLevel": 17,
+          "maxLevel": 18,
+          "minPansuns": 77,
+          "maxPansuns": 80
+        }
       },
       {
         "location": "Sillaro River",
@@ -8723,7 +9040,13 @@
         "note": "River",
         "island": "Deniz",
         "frequency": "Rare (30%)",
-        "level": "13-15"
+        "level": "13-15",
+        "freetem": {
+          "minLevel": 13,
+          "maxLevel": 15,
+          "minPansuns": 64,
+          "maxPansuns": 70
+        }
       },
       {
         "location": "Aguamarina Caves[citation needed]",
@@ -8731,7 +9054,13 @@
         "note": "[citation needed]",
         "island": "Deniz",
         "frequency": "Common (%)",
-        "level": "18-20"
+        "level": "18-20",
+        "freetem": {
+          "minLevel": 18,
+          "maxLevel": 20,
+          "minPansuns": 80,
+          "maxPansuns": 87
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Umishi.png",
@@ -8755,9 +9084,7 @@
   {
     "number": 89,
     "name": "Ukama",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/75/Ukama.png/50px-Ukama.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Ukama",
@@ -8771,10 +9098,7 @@
       "spdef": 54,
       "total": 473
     },
-    "traits": [
-      "Hydrologist",
-      "Plethoric"
-    ],
+    "traits": ["Hydrologist", "Plethoric"],
     "details": {
       "height": {
         "cm": 140,
@@ -8887,7 +9211,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "55%",
-        "level": "37-39"
+        "level": "37-39",
+        "freetem": {
+          "minLevel": 37,
+          "maxLevel": 39,
+          "minPansuns": 179,
+          "maxPansuns": 188
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Ukama.png",
@@ -8911,9 +9241,7 @@
   {
     "number": 91,
     "name": "Raignet",
-    "types": [
-      "Unknown"
-    ],
+    "types": ["Unknown"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/50/Raignet.png/50px-Raignet.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Raignet",
@@ -8986,9 +9314,7 @@
   {
     "number": 92,
     "name": "Smazee",
-    "types": [
-      "Melee"
-    ],
+    "types": ["Melee"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f7/Smazee.png/50px-Smazee.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Smazee",
@@ -9002,10 +9328,7 @@
       "spdef": 37,
       "total": 357
     },
-    "traits": [
-      "Fever Rush",
-      "Friendship"
-    ],
+    "traits": ["Fever Rush", "Friendship"],
     "details": {
       "height": {
         "cm": 96,
@@ -9075,9 +9398,7 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Smazee's name is derived from smack and chimpanzee."
-    ],
+    "trivia": ["Smazee's name is derived from smack and chimpanzee."],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
@@ -9134,9 +9455,7 @@
   {
     "number": 93,
     "name": "Baboong",
-    "types": [
-      "Melee"
-    ],
+    "types": ["Melee"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/28/Baboong.png/50px-Baboong.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Baboong",
@@ -9150,10 +9469,7 @@
       "spdef": 41,
       "total": 402
     },
-    "traits": [
-      "Brawny",
-      "Warm-Blooded"
-    ],
+    "traits": ["Brawny", "Warm-Blooded"],
     "details": {
       "height": {
         "cm": 160,
@@ -9233,9 +9549,7 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Baboong's name is derived from baboon and young."
-    ],
+    "trivia": ["Baboong's name is derived from baboon and young."],
     "evolution": {
       "stage": 2,
       "evolutionTree": [
@@ -9292,9 +9606,7 @@
   {
     "number": 95,
     "name": "Zizare",
-    "types": [
-      "Earth"
-    ],
+    "types": ["Earth"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fe/Zizare.png/50px-Zizare.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Zizare",
@@ -9351,9 +9663,7 @@
   {
     "number": 102,
     "name": "Spriole",
-    "types": [
-      "Nature"
-    ],
+    "types": ["Nature"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/80/Spriole.png/50px-Spriole.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Spriole",
@@ -9367,10 +9677,7 @@
       "spdef": 31,
       "total": 355
     },
-    "traits": [
-      "Camaraderie",
-      "Botanist"
-    ],
+    "traits": ["Camaraderie", "Botanist"],
     "details": {
       "height": {
         "cm": 74,
@@ -9426,9 +9733,7 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Spriole's name is derived from sprout and petiole."
-    ],
+    "trivia": ["Spriole's name is derived from sprout and petiole."],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
@@ -9476,7 +9781,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "40%",
-        "level": "14-18"
+        "level": "14-18",
+        "freetem": {
+          "minLevel": 14,
+          "maxLevel": 18,
+          "minPansuns": 44,
+          "maxPansuns": 50
+        }
       },
       {
         "location": "The Hangroad",
@@ -9484,7 +9795,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Common",
-        "level": "14-18"
+        "level": "14-18",
+        "freetem": {
+          "minLevel": 14,
+          "maxLevel": 18,
+          "minPansuns": 44,
+          "maxPansuns": 50
+        }
       },
       {
         "location": "The Glassyway",
@@ -9492,7 +9809,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Common",
-        "level": "19-22"
+        "level": "19-22",
+        "freetem": {
+          "minLevel": 19,
+          "maxLevel": 22,
+          "minPansuns": 52,
+          "maxPansuns": 57
+        }
       },
       {
         "location": "Giant Banyan",
@@ -9500,7 +9823,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Common",
-        "level": "23-25"
+        "level": "23-25",
+        "freetem": {
+          "minLevel": 23,
+          "maxLevel": 25,
+          "minPansuns": 59,
+          "maxPansuns": 62
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Spriole.png",
@@ -9524,9 +9853,7 @@
   {
     "number": 103,
     "name": "Deendre",
-    "types": [
-      "Nature"
-    ],
+    "types": ["Nature"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/42/Deendre.png/50px-Deendre.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Deendre",
@@ -9540,10 +9867,7 @@
       "spdef": 35,
       "total": 391
     },
-    "traits": [
-      "Mithridatism",
-      "Settling"
-    ],
+    "traits": ["Mithridatism", "Settling"],
     "details": {
       "height": {
         "cm": 120,
@@ -9654,7 +9978,13 @@
         "note": "",
         "island": "Superior Omninesia",
         "frequency": "5%",
-        "level": "17-20"
+        "level": "17-20",
+        "freetem": {
+          "minLevel": 17,
+          "maxLevel": 20,
+          "minPansuns": 61,
+          "maxPansuns": 68
+        }
       },
       {
         "location": "The Flywalk",
@@ -9662,7 +9992,13 @@
         "note": "",
         "island": "Citerior Omninesia",
         "frequency": "5%",
-        "level": "19-20"
+        "level": "19-20",
+        "freetem": {
+          "minLevel": 19,
+          "maxLevel": 20,
+          "minPansuns": 66,
+          "maxPansuns": 68
+        }
       },
       {
         "location": "The Hangroad",
@@ -9670,7 +10006,13 @@
         "note": "",
         "island": "Ulterior Omninesia",
         "frequency": "5%",
-        "level": "16-22"
+        "level": "16-22",
+        "freetem": {
+          "minLevel": 16,
+          "maxLevel": 22,
+          "minPansuns": 59,
+          "maxPansuns": 73
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Deendre.png",
@@ -9694,9 +10036,7 @@
   {
     "number": 104,
     "name": "Cerneaf",
-    "types": [
-      "Nature"
-    ],
+    "types": ["Nature"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fa/Cerneaf.png/50px-Cerneaf.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Cerneaf",
@@ -9710,10 +10050,7 @@
       "spdef": 46,
       "total": 451
     },
-    "traits": [
-      "Callosity",
-      "Settling"
-    ],
+    "traits": ["Callosity", "Settling"],
     "details": {
       "height": {
         "cm": 210,
@@ -9845,9 +10182,7 @@
   {
     "number": 105,
     "name": "Toxolotl",
-    "types": [
-      "Toxic"
-    ],
+    "types": ["Toxic"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4e/Toxolotl.png/50px-Toxolotl.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Toxolotl",
@@ -9861,10 +10196,7 @@
       "spdef": 37,
       "total": 362
     },
-    "traits": [
-      "Power Nap",
-      "Toxic Farewell"
-    ],
+    "traits": ["Power Nap", "Toxic Farewell"],
     "details": {
       "height": {
         "cm": 106,
@@ -9967,7 +10299,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "",
-        "level": "27"
+        "level": "27",
+        "freetem": {
+          "minLevel": 27,
+          "maxLevel": 27,
+          "minPansuns": 88,
+          "maxPansuns": 88
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Toxolotl.png",
@@ -9991,9 +10329,7 @@
   {
     "number": 106,
     "name": "Noxolotl",
-    "types": [
-      "Toxic"
-    ],
+    "types": ["Toxic"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/55/Noxolotl.png/50px-Noxolotl.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Noxolotl",
@@ -10007,10 +10343,7 @@
       "spdef": 45,
       "total": 441
     },
-    "traits": [
-      "Trance",
-      "Toxic Skin"
-    ],
+    "traits": ["Trance", "Toxic Skin"],
     "details": {
       "height": {
         "cm": 177,
@@ -10133,9 +10466,7 @@
   {
     "number": 107,
     "name": "Blooze",
-    "types": [
-      "Toxic"
-    ],
+    "types": ["Toxic"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/ff/Blooze.png/50px-Blooze.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Blooze",
@@ -10149,10 +10480,7 @@
       "spdef": 54,
       "total": 346
     },
-    "traits": [
-      "Toxic Skin",
-      "Bully"
-    ],
+    "traits": ["Toxic Skin", "Bully"],
     "details": {
       "height": {
         "cm": 178,
@@ -10242,7 +10570,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "10%-50%",
-        "level": "23-29"
+        "level": "23-29",
+        "freetem": {
+          "minLevel": 23,
+          "maxLevel": 29,
+          "minPansuns": 89,
+          "maxPansuns": 107
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Blooze.png",
@@ -10266,9 +10600,7 @@
   {
     "number": 108,
     "name": "Goolder",
-    "types": [
-      "Toxic"
-    ],
+    "types": ["Toxic"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/26/Goolder.png/50px-Goolder.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Goolder",
@@ -10282,10 +10614,7 @@
       "spdef": 56,
       "total": 444
     },
-    "traits": [
-      "Strong Liver",
-      "Punching Bag"
-    ],
+    "traits": ["Strong Liver", "Punching Bag"],
     "details": {
       "height": {
         "cm": 222,
@@ -10411,10 +10740,7 @@
   {
     "number": 109,
     "name": "Zephyruff",
-    "types": [
-      "Toxic",
-      "Wind"
-    ],
+    "types": ["Toxic", "Wind"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f7/Zephyruff.png/50px-Zephyruff.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Zephyruff",
@@ -10428,10 +10754,7 @@
       "spdef": 51,
       "total": 351
     },
-    "traits": [
-      "Toxic Affinity",
-      "Air Specialist"
-    ],
+    "traits": ["Toxic Affinity", "Air Specialist"],
     "details": {
       "height": {
         "cm": 92,
@@ -10524,7 +10847,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "Uncommon (60%)",
-        "level": "24-28"
+        "level": "24-28",
+        "freetem": {
+          "minLevel": 24,
+          "maxLevel": 28,
+          "minPansuns": 64,
+          "maxPansuns": 71
+        }
       },
       {
         "location": "Kupeleleza",
@@ -10532,7 +10861,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "Uncommon (35%-60%)",
-        "level": "30-37"
+        "level": "30-37",
+        "freetem": {
+          "minLevel": 30,
+          "maxLevel": 37,
+          "minPansuns": 75,
+          "maxPansuns": 88
+        }
       },
       {
         "location": "Small island left of Kupeleleza",
@@ -10540,7 +10875,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "Common (95%)",
-        "level": "35-37"
+        "level": "35-37",
+        "freetem": {
+          "minLevel": 35,
+          "maxLevel": 37,
+          "minPansuns": 84,
+          "maxPansuns": 88
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Zephyruff.png",
@@ -10564,10 +10905,7 @@
   {
     "number": 110,
     "name": "Volarend",
-    "types": [
-      "Toxic",
-      "Wind"
-    ],
+    "types": ["Toxic", "Wind"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/87/Volarend.png/50px-Volarend.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Volarend",
@@ -10581,10 +10919,7 @@
       "spdef": 96,
       "total": 457
     },
-    "traits": [
-      "Aerobic",
-      "Anaerobic"
-    ],
+    "traits": ["Aerobic", "Anaerobic"],
     "details": {
       "height": {
         "cm": 205,
@@ -10691,7 +11026,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "Very Rare (5%)",
-        "level": "37-39"
+        "level": "37-39",
+        "freetem": {
+          "minLevel": 37,
+          "maxLevel": 39,
+          "minPansuns": 134,
+          "maxPansuns": 140
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Volarend.png",
@@ -10715,10 +11056,7 @@
   {
     "number": 113,
     "name": "Ganki",
-    "types": [
-      "Electric",
-      "Wind"
-    ],
+    "types": ["Electric", "Wind"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/bc/Ganki.png/50px-Ganki.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Ganki",
@@ -10732,10 +11070,7 @@
       "spdef": 73,
       "total": 375
     },
-    "traits": [
-      "Botanophobia",
-      "Cold-Natured"
-    ],
+    "traits": ["Botanophobia", "Cold-Natured"],
     "details": {
       "height": {
         "cm": 105,
@@ -10842,7 +11177,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "Common",
-        "level": "5-8"
+        "level": "5-8",
+        "freetem": {
+          "minLevel": 5,
+          "maxLevel": 8,
+          "minPansuns": 33,
+          "maxPansuns": 40
+        }
       },
       {
         "location": "Windward Fort",
@@ -10850,7 +11191,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "Common",
-        "level": "12-14"
+        "level": "12-14",
+        "freetem": {
+          "minLevel": 12,
+          "maxLevel": 14,
+          "minPansuns": 50,
+          "maxPansuns": 55
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Ganki.png",
@@ -10874,10 +11221,7 @@
   {
     "number": 114,
     "name": "Gazuma",
-    "types": [
-      "Electric",
-      "Wind"
-    ],
+    "types": ["Electric", "Wind"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5c/Gazuma.png/50px-Gazuma.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Gazuma",
@@ -10891,10 +11235,7 @@
       "spdef": 91,
       "total": 449
     },
-    "traits": [
-      "Receptive",
-      "Fast Charge"
-    ],
+    "traits": ["Receptive", "Fast Charge"],
     "details": {
       "height": {
         "cm": 145,
@@ -11022,9 +11363,7 @@
   {
     "number": 115,
     "name": "Oceara",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/26/Oceara.png/50px-Oceara.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Oceara",
@@ -11038,10 +11377,7 @@
       "spdef": 65,
       "total": 486
     },
-    "traits": [
-      "Hydrologist",
-      "Mithridatism"
-    ],
+    "traits": ["Hydrologist", "Mithridatism"],
     "details": {
       "height": {
         "cm": 222,
@@ -11107,7 +11443,13 @@
         "note": "Bottom Floor (one waterfall)",
         "island": "Deniz",
         "frequency": "5%",
-        "level": "15-17"
+        "level": "15-17",
+        "freetem": {
+          "minLevel": 15,
+          "maxLevel": 17,
+          "minPansuns": 149,
+          "maxPansuns": 166
+        }
       },
       {
         "location": "Aguamarina Caves, Top Floor (two waterfalls)",
@@ -11115,7 +11457,13 @@
         "note": "Top Floor (two waterfalls)",
         "island": "Deniz",
         "frequency": "5%",
-        "level": "21-22"
+        "level": "21-22",
+        "freetem": {
+          "minLevel": 21,
+          "maxLevel": 22,
+          "minPansuns": 200,
+          "maxPansuns": 209
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Oceara.png",
@@ -11139,10 +11487,7 @@
   {
     "number": 122,
     "name": "Shuine",
-    "types": [
-      "Crystal",
-      "Water"
-    ],
+    "types": ["Crystal", "Water"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d9/Shuine.png/50px-Shuine.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Shuine",
@@ -11156,10 +11501,7 @@
       "spdef": 60,
       "total": 462
     },
-    "traits": [
-      "Immunity",
-      "Guardian"
-    ],
+    "traits": ["Immunity", "Guardian"],
     "details": {
       "height": {
         "cm": 250,
@@ -11240,7 +11582,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "5%",
-        "level": "37-41"
+        "level": "37-41",
+        "freetem": {
+          "minLevel": 37,
+          "maxLevel": 41,
+          "minPansuns": 298,
+          "maxPansuns": 328
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Shuine.png",
@@ -11264,10 +11612,7 @@
   {
     "number": 123,
     "name": "Nessla",
-    "types": [
-      "Water",
-      "Electric"
-    ],
+    "types": ["Water", "Electric"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/81/Nessla.png/50px-Nessla.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Nessla",
@@ -11281,10 +11626,7 @@
       "spdef": 72,
       "total": 437
     },
-    "traits": [
-      "Electric Synthesize",
-      "Hydrologist"
-    ],
+    "traits": ["Electric Synthesize", "Hydrologist"],
     "details": {
       "height": {
         "cm": 190,
@@ -11368,7 +11710,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "Very Rare",
-        "level": "17-18"
+        "level": "17-18",
+        "freetem": {
+          "minLevel": 17,
+          "maxLevel": 18,
+          "minPansuns": 99,
+          "maxPansuns": 104
+        }
       },
       {
         "location": "Sillaro River (southeastern pool bordering Turquesa)",
@@ -11376,7 +11724,13 @@
         "note": "River (southeastern pool bordering Turquesa)",
         "island": "Deniz",
         "frequency": "Very Rare",
-        "level": "14-16"
+        "level": "14-16",
+        "freetem": {
+          "minLevel": 14,
+          "maxLevel": 16,
+          "minPansuns": 85,
+          "maxPansuns": 94
+        }
       },
       {
         "location": "Sillaro River (tiny pool south of the mini-temporium near Zadar)",
@@ -11384,7 +11738,13 @@
         "note": "River (tiny pool south of the mini-temporium near Zadar)",
         "island": "Deniz",
         "frequency": "Very Rare",
-        "level": ""
+        "level": "",
+        "freetem": {
+          "minLevel": null,
+          "maxLevel": null,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Nessla.png",
@@ -11408,9 +11768,7 @@
   {
     "number": 124,
     "name": "Valiar",
-    "types": [
-      "Unknown"
-    ],
+    "types": ["Unknown"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7b/Valiar.png/50px-Valiar.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Valiar",
@@ -11469,9 +11827,7 @@
   {
     "number": 127,
     "name": "Kalazu",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fc/Kalazu.png/50px-Kalazu.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Kalazu",
@@ -11485,10 +11841,7 @@
       "spdef": 44,
       "total": 321
     },
-    "traits": [
-      "Mithridatism",
-      "Hydrologist"
-    ],
+    "traits": ["Mithridatism", "Hydrologist"],
     "details": {
       "height": {
         "cm": 114,
@@ -11597,7 +11950,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "Common",
-        "level": ""
+        "level": "",
+        "freetem": {
+          "minLevel": null,
+          "maxLevel": null,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
       },
       {
         "location": "Sillaro River",
@@ -11605,7 +11964,13 @@
         "note": "River",
         "island": "Deniz",
         "frequency": "Common",
-        "level": ""
+        "level": "",
+        "freetem": {
+          "minLevel": null,
+          "maxLevel": null,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
       },
       {
         "location": "Aguamarina Caves",
@@ -11613,7 +11978,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "Common",
-        "level": ""
+        "level": "",
+        "freetem": {
+          "minLevel": null,
+          "maxLevel": null,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Kalazu.png",
@@ -11637,10 +12008,7 @@
   {
     "number": 128,
     "name": "Kalabyss",
-    "types": [
-      "Water",
-      "Toxic"
-    ],
+    "types": ["Water", "Toxic"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/90/Kalabyss.png/50px-Kalabyss.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Kalabyss",
@@ -11654,10 +12022,7 @@
       "spdef": 55,
       "total": 451
     },
-    "traits": [
-      "Botanophobia",
-      "Loneliness"
-    ],
+    "traits": ["Botanophobia", "Loneliness"],
     "details": {
       "height": {
         "cm": 170,
@@ -11780,7 +12145,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "Rare (10%)",
-        "level": "29-33"
+        "level": "29-33",
+        "freetem": {
+          "minLevel": 29,
+          "maxLevel": 33,
+          "minPansuns": 90,
+          "maxPansuns": 100
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Kalabyss.png",
@@ -11804,10 +12175,7 @@
   {
     "number": 129,
     "name": "Adoroboros",
-    "types": [
-      "Toxic",
-      "Mental"
-    ],
+    "types": ["Toxic", "Mental"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/26/Adoroboros.png/50px-Adoroboros.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Adoroboros",
@@ -11821,10 +12189,7 @@
       "spdef": 110,
       "total": 443
     },
-    "traits": [
-      "Synergy Master",
-      "Toxic Skin"
-    ],
+    "traits": ["Synergy Master", "Toxic Skin"],
     "details": {
       "height": {
         "cm": 88,
@@ -11930,14 +12295,20 @@
         "note": "",
         "island": "Tucma",
         "frequency": "35%",
-        "level": "28-31"
+        "level": "28-31",
+        "freetem": {
+          "minLevel": 28,
+          "maxLevel": 31,
+          "minPansuns": 85,
+          "maxPansuns": 92
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Adoroboros.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Adoroboros.png",
     "genderRatio": {
-      "male": 20,
-      "female": 80
+      "male": 50,
+      "female": 50
     },
     "catchRate": 130,
     "tvYields": {
@@ -11954,9 +12325,7 @@
   {
     "number": 130,
     "name": "Tuwai",
-    "types": [
-      "Wind"
-    ],
+    "types": ["Wind"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/db/Tuwai.png/50px-Tuwai.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Tuwai",
@@ -11970,10 +12339,7 @@
       "spdef": 47,
       "total": 373
     },
-    "traits": [
-      "Spoilsport",
-      "Resilient"
-    ],
+    "traits": ["Spoilsport", "Resilient"],
     "details": {
       "height": {
         "cm": 106,
@@ -12072,7 +12438,13 @@
         "note": "Crystal Shrine",
         "island": "Tucma",
         "frequency": "5%",
-        "level": "5-10"
+        "level": "5-10",
+        "freetem": {
+          "minLevel": 5,
+          "maxLevel": 10,
+          "minPansuns": 35,
+          "maxPansuns": 50
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Tuwai.png",
@@ -12096,10 +12468,7 @@
   {
     "number": 133,
     "name": "Tuvine",
-    "types": [
-      "Wind",
-      "Crystal"
-    ],
+    "types": ["Wind", "Crystal"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7e/Tuvine.png/50px-Tuvine.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Tuvine",
@@ -12113,10 +12482,7 @@
       "spdef": 47,
       "total": 457
     },
-    "traits": [
-      "Receptive",
-      "Determined"
-    ],
+    "traits": ["Receptive", "Determined"],
     "details": {
       "height": {
         "cm": 172,
@@ -12242,10 +12608,7 @@
   {
     "number": 137,
     "name": "Kinu",
-    "types": [
-      "Nature",
-      "Mental"
-    ],
+    "types": ["Nature", "Mental"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/47/Kinu.png/50px-Kinu.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Kinu",
@@ -12259,10 +12622,7 @@
       "spdef": 96,
       "total": 454
     },
-    "traits": [
-      "Protector",
-      "Benefactor"
-    ],
+    "traits": ["Protector", "Benefactor"],
     "details": {
       "height": {
         "cm": 93,
@@ -12357,7 +12717,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "5%",
-        "level": "24-28"
+        "level": "24-28",
+        "freetem": {
+          "minLevel": 24,
+          "maxLevel": 28,
+          "minPansuns": 200,
+          "maxPansuns": 230
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Kinu.png",
@@ -12381,10 +12747,7 @@
   {
     "number": 138,
     "name": "Vulvir",
-    "types": [
-      "Fire",
-      "Earth"
-    ],
+    "types": ["Fire", "Earth"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/40/Vulvir.png/50px-Vulvir.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Vulvir",
@@ -12398,10 +12761,7 @@
       "spdef": 31,
       "total": 359
     },
-    "traits": [
-      "Camaraderie",
-      "Caffeinated"
-    ],
+    "traits": ["Camaraderie", "Caffeinated"],
     "details": {
       "height": {
         "cm": 76,
@@ -12510,7 +12870,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "Common",
-        "level": "23-25"
+        "level": "23-25",
+        "freetem": {
+          "minLevel": 23,
+          "maxLevel": 25,
+          "minPansuns": 76,
+          "maxPansuns": 80
+        }
       },
       {
         "location": "Anak Volcano, Rock-hopping island",
@@ -12518,7 +12884,13 @@
         "note": "Rock-hopping island",
         "island": "Omninesia",
         "frequency": "Common",
-        "level": "30-35"
+        "level": "30-35",
+        "freetem": {
+          "minLevel": 30,
+          "maxLevel": 35,
+          "minPansuns": 92,
+          "maxPansuns": 105
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Vulvir.png",
@@ -12542,10 +12914,7 @@
   {
     "number": 139,
     "name": "Vulor",
-    "types": [
-      "Fire",
-      "Earth"
-    ],
+    "types": ["Fire", "Earth"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/61/Vulor.png/50px-Vulor.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Vulor",
@@ -12559,10 +12928,7 @@
       "spdef": 32,
       "total": 388
     },
-    "traits": [
-      "Pyromaniac",
-      "Individualist"
-    ],
+    "traits": ["Pyromaniac", "Individualist"],
     "details": {
       "height": {
         "cm": 163,
@@ -12685,7 +13051,13 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "20%",
-        "level": "30-35"
+        "level": "30-35",
+        "freetem": {
+          "minLevel": 30,
+          "maxLevel": 35,
+          "minPansuns": 110,
+          "maxPansuns": 125
+        }
       },
       {
         "location": "Mines of Mictlan",
@@ -12693,7 +13065,13 @@
         "note": "",
         "island": "Tucma",
         "frequency": "25%",
-        "level": "32-34"
+        "level": "32-34",
+        "freetem": {
+          "minLevel": 32,
+          "maxLevel": 34,
+          "minPansuns": 116,
+          "maxPansuns": 123
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Vulor.png",
@@ -12717,10 +13095,7 @@
   {
     "number": 140,
     "name": "Vulcrane",
-    "types": [
-      "Fire",
-      "Earth"
-    ],
+    "types": ["Fire", "Earth"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b3/Vulcrane.png/50px-Vulcrane.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Vulcrane",
@@ -12734,10 +13109,7 @@
       "spdef": 35,
       "total": 473
     },
-    "traits": [
-      "Receptive",
-      "Vigorous"
-    ],
+    "traits": ["Receptive", "Vigorous"],
     "details": {
       "height": {
         "cm": 233,
@@ -12885,9 +13257,7 @@
   {
     "number": 141,
     "name": "Pigepic",
-    "types": [
-      "Wind"
-    ],
+    "types": ["Wind"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/20/Pigepic.png/50px-Pigepic.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Pigepic",
@@ -12901,10 +13271,7 @@
       "spdef": 72,
       "total": 433
     },
-    "traits": [
-      "Friendship",
-      "Fainted Curse"
-    ],
+    "traits": ["Friendship", "Fainted Curse"],
     "details": {
       "height": {
         "cm": 69,
@@ -13016,7 +13383,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "5%",
-        "level": "4-6"
+        "level": "4-6",
+        "freetem": {
+          "minLevel": 4,
+          "maxLevel": 6,
+          "minPansuns": 29,
+          "maxPansuns": 34
+        }
       },
       {
         "location": "Thalassian Cliffs",
@@ -13024,7 +13397,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "50%-100%",
-        "level": "5-11"
+        "level": "5-11",
+        "freetem": {
+          "minLevel": 5,
+          "maxLevel": 11,
+          "minPansuns": 32,
+          "maxPansuns": 45
+        }
       },
       {
         "location": "The Gifted Bridges",
@@ -13032,7 +13411,13 @@
         "note": "",
         "island": "Deniz",
         "frequency": "85%",
-        "level": "8-10"
+        "level": "8-10",
+        "freetem": {
+          "minLevel": 8,
+          "maxLevel": 10,
+          "minPansuns": 38,
+          "maxPansuns": 43
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Pigepic.png",
@@ -13056,10 +13441,7 @@
   {
     "number": 161,
     "name": "Anahir",
-    "types": [
-      "Crystal",
-      "Fire"
-    ],
+    "types": ["Crystal", "Fire"],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/ea/Anahir.png/50px-Anahir.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Anahir",
@@ -13073,10 +13455,7 @@
       "spdef": 101,
       "total": 423
     },
-    "traits": [
-      "Trauma",
-      "Flawed Crystal"
-    ],
+    "traits": ["Trauma", "Flawed Crystal"],
     "details": {
       "height": {
         "cm": 152,

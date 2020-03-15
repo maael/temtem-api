@@ -1,5 +1,6 @@
 import { Location } from "../checker/codecs/locations";
 import { Temtem } from "../checker/codecs/temtem";
+import calculateFreetemReward from "../../util/calculateFreetemReward";
 
 function getName({ name }) {
   return name;
@@ -25,7 +26,9 @@ export default function embellishTemtemLocationPlacesAndNotes(
   ];
   return temtem.map(t => ({
     ...t,
-    locations: t.locations.map(extractPlace(possiblePlaceNames))
+    locations: t.locations
+      .map(extractPlace(possiblePlaceNames))
+      .map(getFreetemInfo(t))
   }));
 }
 
@@ -41,6 +44,21 @@ function extractPlace(possiblePlaceNames: string[]) {
         .replace(", ", "")
         .trim();
     }
+    return l;
+  };
+}
+
+function getFreetemInfo(t: Temtem) {
+  return function(l: Temtem["locations"][0]) {
+    const levelParts = l.level.split("-");
+    const minLevel = parseInt(levelParts.slice(0, 1)[0], 10) || 0;
+    const maxLevel = parseInt(levelParts.slice(-1)[0], 10) || 0;
+    l.freetem = {
+      minLevel,
+      maxLevel,
+      minPansuns: calculateFreetemReward(t.catchRate, minLevel) || 0,
+      maxPansuns: calculateFreetemReward(t.catchRate, maxLevel) || 0
+    };
     return l;
   };
 }
