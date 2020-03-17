@@ -15,7 +15,23 @@ export default () => (
       <link rel="shortcut icon" type="image/png" href="/favicon.png" />
       <meta name="theme-color" content="#663399" />
       <meta name="author" content="Matthew Elphick" />
-      <meta name="description" content="Temtem API" />
+      <meta
+        name="description"
+        content="An API for Temtem data from the official wiki, refreshed every 4 hours."
+      />
+      <meta property="og:site_name" content="Temtem API" />
+      <meta property="og:title" content="Temtem API" />
+      <meta
+        property="og:description"
+        content="An API for Temtem data from the official wiki, refreshed every 4 hours."
+      />
+      <meta
+        property="og:image"
+        content="https://temtem-api.mael.tech/social-preview.png"
+      />
+      <meta property="og:url" content="https://temtem-api.mael.tech/" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image:alt" content="Temtem API" />
     </Head>
     <style jsx global>{`
       html,
