@@ -29,6 +29,7 @@ export default () => (
         property="og:image"
         content="https://temtem-api.mael.tech/social-preview.png"
       />
+      <meta property="og:type" content="website" />
       <meta property="og:url" content="https://temtem-api.mael.tech/" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image:alt" content="Temtem API" />
