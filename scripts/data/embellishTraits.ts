@@ -5,6 +5,7 @@ import { Trait as MinimalTrait } from "./getTraits";
 
 export interface Trait extends MinimalTrait {
   description: string;
+  effect: string;
 }
 
 export default async function getTraits(
@@ -19,12 +20,8 @@ export default async function getTraits(
         const $ = cheerio.load(html);
         return {
           ...item,
-          description: $("#In-Game_Description")
-            .parent()
-            .next()
-            .text()
-            .trim()
-            .replace(/\\n/g, "")
+          description: getDescription($),
+          effect: getEffect($)
         };
       })
       .sort((a, b) => a.name.localeCompare(b.name));
@@ -32,4 +29,31 @@ export default async function getTraits(
   } catch (e) {
     log.error(e.message);
   }
+}
+
+function getDescription($: CheerioStatic) {
+  return getText($, "#In-Game_Description", "#Description");
+}
+
+function getEffect($: CheerioStatic) {
+  return getText($, "#Effect_Description", "#Effect").replace(
+    "In-depth analysis here.",
+    ""
+  );
+}
+
+function getText(
+  $: CheerioStatic,
+  primarySelector: string,
+  secondarySelector: string
+) {
+  const element = $(primarySelector).length
+    ? $(primarySelector)
+    : $(secondarySelector);
+  return element
+    .parent()
+    .next()
+    .text()
+    .trim()
+    .replace(/\\n/g, "");
 }

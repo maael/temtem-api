@@ -2,391 +2,469 @@
   {
     "name": "Aerobic",
     "wikiUrl": "https://temtem.gamepedia.com/Aerobic",
-    "description": "When attacking with Wind techniques, gets SPDEF- and SPD +."
+    "description": "When attacking with Wind techniques, gets SPDEF- and SPD +.",
+    "effect": ""
   },
   {
     "name": "Air Specialist",
     "wikiUrl": "https://temtem.gamepedia.com/Air_Specialist",
-    "description": "+15% damage with Wind techniques."
+    "description": "+15% damage with Wind techniques.",
+    "effect": ""
   },
   {
     "name": "Amphibian",
     "wikiUrl": "https://temtem.gamepedia.com/Amphibian",
-    "description": "When attacked with a Water technique, increases SPD by 1 stage."
+    "description": "When attacked with a Water technique, increases SPD by 1 stage.",
+    "effect": ""
   },
   {
     "name": "Anaerobic",
     "wikiUrl": "https://temtem.gamepedia.com/Anaerobic",
-    "description": "When attacking with Toxic techniques, gets SPDEF+ and SPATK-."
+    "description": "When attacking with Toxic techniques, gets SPDEF+ and SPATK-.",
+    "effect": ""
   },
   {
     "name": "Apothecary",
     "wikiUrl": "https://temtem.gamepedia.com/Apothecary",
-    "description": "When attacking with a special technique, the target gets poisoned for 1 turn if it's a rival or regenerating for 1 turn if it's an ally."
+    "description": "When attacking with a special technique, the target gets poisoned for 1 turn if it's a rival or regenerating for 1 turn if it's an ally.",
+    "effect": ""
   },
   {
     "name": "Attack T",
     "wikiUrl": "https://temtem.gamepedia.com/Attack_T",
-    "description": ""
+    "description": "Currently unavailable.",
+    "effect": "Attack T changes the Temtems second type to the type of the technique it’s about to use."
   },
   {
     "name": "Avenger",
     "wikiUrl": "https://temtem.gamepedia.com/Avenger",
-    "description": "When an ally is knocked-out, increases SPATK and SPD by 1 stage."
+    "description": "When an ally is knocked-out, increases SPATK and SPD by 1 stage.",
+    "effect": "Increase SPATK and SPD by one stage whenever an ally temtem is knocked out."
   },
   {
     "name": "Benefactor",
     "wikiUrl": "https://temtem.gamepedia.com/Benefactor",
-    "description": "When an ally is damaged, restores 10% of max HP."
+    "description": "When an ally is damaged, restores 10% of max HP.",
+    "effect": "Whenever the ally of the Temtem with this trait takes damage, they are healed by 10% of their max HP. This effect has no minimum value, meaning it can heal the ally for more HP than they lost due to getting attacked."
   },
   {
     "name": "Botanist",
     "wikiUrl": "https://temtem.gamepedia.com/Botanist",
-    "description": "+15% damage with Nature techniques."
+    "description": "+15% damage with Nature techniques.",
+    "effect": ""
   },
   {
     "name": "Botanophobia",
     "wikiUrl": "https://temtem.gamepedia.com/Botanophobia",
-    "description": "When attacked with a Nature technique, it is increased in damage by 50%."
+    "description": "When attacked with a Nature technique, it is increased in damage by 50%.",
+    "effect": ""
   },
   {
     "name": "Brawny",
     "wikiUrl": "https://temtem.gamepedia.com/Brawny",
-    "description": "Physical techniques do 20% more damage."
+    "description": "Physical techniques do 20% more damage.",
+    "effect": ""
   },
   {
     "name": "Bully",
     "wikiUrl": "https://temtem.gamepedia.com/Bully",
-    "description": "While allies outnumber rivals, techniques inflict +30% damage."
+    "description": "While allies outnumber rivals, techniques inflict +30% damage.",
+    "effect": "Allies are your total temtem remaining, even the ones that are not fighting."
   },
   {
     "name": "Caffeinated",
     "wikiUrl": "https://temtem.gamepedia.com/Caffeinated",
-    "description": "Prevents the Asleep Status condition."
+    "description": "Prevents the Asleep Status condition.",
+    "effect": ""
   },
   {
     "name": "Callosity",
     "wikiUrl": "https://temtem.gamepedia.com/Callosity",
-    "description": "When attacked with a physical technique, increases DEF by 1 stage."
+    "description": "When attacked with a physical technique, increases DEF by 1 stage.",
+    "effect": ""
   },
   {
     "name": "Camaraderie",
     "wikiUrl": "https://temtem.gamepedia.com/Camaraderie",
-    "description": "When attacked, reduces 50% damage if both allies are part of the same evolutionary line."
+    "description": "When attacked, reduces 50% damage if both allies are part of the same evolutionary line.",
+    "effect": ""
   },
   {
     "name": "Channeler",
     "wikiUrl": "https://temtem.gamepedia.com/Channeler",
-    "description": "Damage done with Special techniques is increased by 25%."
+    "description": "Damage done with Special techniques is increased by 25%.",
+    "effect": ""
   },
   {
     "name": "Cold-Natured",
     "wikiUrl": "https://temtem.gamepedia.com/Cold-Natured",
-    "description": "Instead of getting Cold, the Temtem gets Frozen."
+    "description": "Instead of getting Cold, the Temtem gets Frozen.",
+    "effect": ""
   },
   {
     "name": "Demoralize",
     "wikiUrl": "https://temtem.gamepedia.com/Demoralize",
-    "description": "When entering the battlefield, decreases enemy team SPD by 1 stage."
+    "description": "When entering the battlefield, decreases enemy team SPD by 1 stage.",
+    "effect": "Lowers the SPD of whatever Temtem the user switches into (even if one or both of them end up switching out). This also does ‘’’not’’’ change the order of the turn, as the turn order is locked in at the beginning of a round after Techniques have been chosen."
   },
   {
     "name": "Determined",
     "wikiUrl": "https://temtem.gamepedia.com/Determined",
-    "description": "Prevents negative stat stage changes."
+    "description": "Prevents negative stat stage changes.",
+    "effect": ""
   },
   {
     "name": "Dreaded Alarm",
     "wikiUrl": "https://temtem.gamepedia.com/Dreaded_Alarm",
-    "description": "When a rival rests, they lose 20% of max HP."
+    "description": "When a rival rests, they lose 20% of max HP.",
+    "effect": "Enemy Temtem lose 20% of their max HP when resting during battle."
   },
   {
     "name": "Electric Synthesize",
     "wikiUrl": "https://temtem.gamepedia.com/Electric_Synthesize",
-    "description": "When attacked with an Electric technique, restores HP instead of receiving damage."
+    "description": "When attacked with an Electric technique, restores HP instead of receiving damage.",
+    "effect": ""
   },
   {
     "name": "Energy Reserves",
     "wikiUrl": "https://temtem.gamepedia.com/Energy_Reserves",
-    "description": "Tempedia description"
+    "description": "Tempedia description",
+    "effect": "If HP is below 25% by the end of the turn, gets Vigorized for 2 turns."
   },
   {
     "name": "Fainted Curse",
     "wikiUrl": "https://temtem.gamepedia.com/Fainted_Curse",
-    "description": "When knocked-out, the attacker loses 40% of max HP."
+    "description": "When knocked-out, the attacker loses 40% of max HP.",
+    "effect": ""
   },
   {
     "name": "Fast Charge",
     "wikiUrl": "https://temtem.gamepedia.com/Fast_Charge",
-    "description": "When a Digital ally enters the battlefield, gets SPD +2."
+    "description": "When a Digital ally enters the battlefield, gets SPD +2.",
+    "effect": ""
   },
   {
     "name": "Fever Rush",
     "wikiUrl": "https://temtem.gamepedia.com/Fever_Rush",
-    "description": "When getting a Status condition, increases ATK by 1 stage."
+    "description": "When getting a Status condition, increases ATK by 1 stage.",
+    "effect": ""
   },
   {
     "name": "Flawed Crystal",
     "wikiUrl": "https://temtem.gamepedia.com/Flawed_Crystal",
-    "description": "When attacked by a Mental, Toxic, or Electric Technique, increases damage by 50%."
+    "description": "When attacked by a Mental, Toxic, or Electric Technique, increases damage by 50%.",
+    "effect": "Damage taken from Mental, Toxic, and Electric Techniques is increased by 50%."
   },
   {
     "name": "Friendship",
     "wikiUrl": "https://temtem.gamepedia.com/Friendship",
-    "description": "Immune to ally's offensive techniques."
+    "description": "Immune to ally's offensive techniques.",
+    "effect": ""
   },
   {
     "name": "Furor",
     "wikiUrl": "https://temtem.gamepedia.com/Furor",
-    "description": "When HP is below 33%, techniques do 33% more damage."
+    "description": "When HP is below 33%, techniques do 33% more damage.",
+    "effect": ""
   },
   {
     "name": "Guardian",
     "wikiUrl": "https://temtem.gamepedia.com/Guardian",
-    "description": "Prevents the cold, burned, poisoned and doomed condition on the ally."
+    "description": "Prevents the cold, burned, poisoned and doomed condition on the ally.",
+    "effect": ""
   },
   {
     "name": "Hover",
     "wikiUrl": "https://temtem.gamepedia.com/Hover",
-    "description": "When attacked with an Earth technique, reduces damage by 50%."
+    "description": "When attacked with an Earth technique, reduces damage by 50%.",
+    "effect": ""
   },
   {
     "name": "Hydrologist",
     "wikiUrl": "https://temtem.gamepedia.com/Hydrologist",
-    "description": "+15% damage with Water techniques."
+    "description": "+15% damage with Water techniques.",
+    "effect": "This article is a stub. You can help Temtem Wiki by expanding it."
   },
   {
     "name": "Immunity",
     "wikiUrl": "https://temtem.gamepedia.com/Immunity",
-    "description": "Resists damage from Toxic techniques."
+    "description": "Resists damage from Toxic techniques.",
+    "effect": ""
   },
   {
     "name": "Individualist",
     "wikiUrl": "https://temtem.gamepedia.com/Individualist",
-    "description": "Techniques targeting the ally will fail."
+    "description": "Techniques targeting the ally will fail.",
+    "effect": "The Temtem with this ability cannot use any moves on its ally."
   },
   {
     "name": "Last Rush",
     "wikiUrl": "https://temtem.gamepedia.com/Last_Rush",
-    "description": "Increases ATK,SPATK and SPD by 50% while the Temtem is the last ally standing."
+    "description": "Increases ATK,SPATK and SPD by 50% while the Temtem is the last ally standing.",
+    "effect": ""
   },
   {
     "name": "Loneliness",
     "wikiUrl": "https://temtem.gamepedia.com/Loneliness",
-    "description": "Synergies won't work on both allies."
+    "description": "Synergies won't work on both allies.",
+    "effect": ""
   },
   {
     "name": "Mental Alliance",
     "wikiUrl": "https://temtem.gamepedia.com/Mental_Alliance",
-    "description": "Increases SPATK by 15% if an ally is Mental."
+    "description": "Increases SPATK by 15% if an ally is Mental.",
+    "effect": ""
   },
   {
     "name": "Mirroring",
     "wikiUrl": "https://temtem.gamepedia.com/Mirroring",
-    "description": "When attacked with a Special technique, the attacker gets 25% knockback damage."
+    "description": "When attacked with a Special technique, the attacker gets 25% knockback damage.",
+    "effect": ""
   },
   {
     "name": "Mithridatism",
     "wikiUrl": "https://temtem.gamepedia.com/Mithridatism",
-    "description": "Prevents the poisoned Status condition."
+    "description": "Prevents the poisoned Status condition.",
+    "effect": ""
   },
   {
     "name": "Motivator",
     "wikiUrl": "https://temtem.gamepedia.com/Motivator",
-    "description": "At the start of the turn, allies restore 10% of STA."
+    "description": "At the start of the turn, allies restore 10% of STA.",
+    "effect": ""
   },
   {
     "name": "Mucous",
     "wikiUrl": "https://temtem.gamepedia.com/Mucous",
-    "description": "Resists damage from Electric techniques and prevents the cold and burned status condition."
+    "description": "Resists damage from Electric techniques and prevents the cold and burned status condition.",
+    "effect": ""
   },
   {
     "name": "Neutrality",
     "wikiUrl": "https://temtem.gamepedia.com/Neutrality",
-    "description": "Prevent all Status Conditions."
+    "description": "Prevent all Status Conditions.",
+    "effect": ""
   },
   {
     "name": "Parrier",
     "wikiUrl": "https://temtem.gamepedia.com/Parrier",
-    "description": "Damage taken from physical techniques is reduced by 30%."
+    "description": "Damage taken from physical techniques is reduced by 30%.",
+    "effect": ""
   },
   {
     "name": "Patient",
     "wikiUrl": "https://temtem.gamepedia.com/Patient",
-    "description": "Restores 10% of max STA when using a Hold technique."
+    "description": "Restores 10% of max STA when using a Hold technique.",
+    "effect": ""
   },
   {
     "name": "Plethoric",
     "wikiUrl": "https://temtem.gamepedia.com/Plethoric",
-    "description": "Increases SPD by 30% if HP is full."
+    "description": "Increases SPD by 30% if HP is full.",
+    "effect": ""
   },
   {
     "name": "Power Nap",
     "wikiUrl": "https://temtem.gamepedia.com/Power_Nap",
-    "description": "At the start of the turn, restores 15% of max HP of an Asleep Temtem."
+    "description": "At the start of the turn, restores 15% of max HP of an Asleep Temtem.",
+    "effect": "At the start of the turn, restores 15% of max HP of an Asleep Temtem."
   },
   {
     "name": "Prideful",
     "wikiUrl": "https://temtem.gamepedia.com/Prideful",
-    "description": "When attacking, gets ATK+, SPATK+ and SPD+ if the target gets knocked-out."
+    "description": "When attacking, gets ATK+, SPATK+ and SPD+ if the target gets knocked-out.",
+    "effect": ""
   },
   {
     "name": "Protector",
     "wikiUrl": "https://temtem.gamepedia.com/Protector",
-    "description": "\"When entering the battlefield, the ally gets DEF+ and SPDEF+.\""
+    "description": "\"When entering the battlefield, the ally gets DEF+ and SPDEF+.\"",
+    "effect": "describe battling effects here"
   },
   {
     "name": "Provident",
     "wikiUrl": "https://temtem.gamepedia.com/Provident",
-    "description": "When attacked by a Fire, Earth, or Melee technique, increases SPDEF by 1 Stage."
+    "description": "When attacked by a Fire, Earth, or Melee technique, increases SPDEF by 1 Stage.",
+    "effect": ""
   },
   {
     "name": "Punching Bag",
     "wikiUrl": "https://temtem.gamepedia.com/Punching_Bag",
-    "description": "Damage taken fromMelee techniques is reduced by 30%"
+    "description": "Damage taken fromMelee techniques is reduced by 30%",
+    "effect": ""
   },
   {
     "name": "Puppet Master",
     "wikiUrl": "https://temtem.gamepedia.com/Puppet_Master",
-    "description": "While HP is below 40%, received rival techniques get redirected to the ally."
+    "description": "While HP is below 40%, received rival techniques get redirected to the ally.",
+    "effect": ""
   },
   {
     "name": "Pyromaniac",
     "wikiUrl": "https://temtem.gamepedia.com/Pyromaniac",
-    "description": "+15% damage with Fire techniques."
+    "description": "+15% damage with Fire techniques.",
+    "effect": "A Temtem with this trait deals an additional 15% damage on all fire-type techniques used."
   },
   {
     "name": "Receptive",
     "wikiUrl": "https://temtem.gamepedia.com/Receptive",
-    "description": "When getting a favorable status condition, increases its turns by 1."
+    "description": "When getting a favorable status condition, increases its turns by 1.",
+    "effect": "This effect will increase the duration of positive conditions applied to the Temtem, such as Regenerate and Vigorized."
   },
   {
     "name": "Rejuvenate",
     "wikiUrl": "https://temtem.gamepedia.com/Rejuvenate",
-    "description": "When attacking with a physcal technique, restore 15% of max HP."
+    "description": "When attacking with a physcal technique, restore 15% of max HP.",
+    "effect": ""
   },
   {
     "name": "Resilient",
     "wikiUrl": "https://temtem.gamepedia.com/Resilient",
-    "description": ""
+    "description": "Cannot be knocked-out due to overexertion.",
+    "effect": "If a Temtem with this trait is to knock itself out due to overexertion, it will survive with 1 HP."
   },
   {
     "name": "Resistant",
     "wikiUrl": "https://temtem.gamepedia.com/Resistant",
-    "description": "When getting a negative status condition, decreases its turns by 1."
+    "description": "When getting a negative status condition, decreases its turns by 1.",
+    "effect": "This Trait affected against, Cold, Frozen, Asleep, Trapped, Poisoned, Burnt, Exhausted,"
   },
   {
     "name": "Rested",
     "wikiUrl": "https://temtem.gamepedia.com/Rested",
-    "description": "Increases ATK and SPATK by 30% during the first 2 turns the Temtem is on the battlefield."
+    "description": "Increases ATK and SPATK by 30% during the first 2 turns the Temtem is on the battlefield.",
+    "effect": ""
   },
   {
     "name": "Scavenger",
     "wikiUrl": "https://temtem.gamepedia.com/Scavenger",
-    "description": "Restores 20% of max HP if another Temtem is knocked-out."
+    "description": "Restores 20% of max HP if another Temtem is knocked-out.",
+    "effect": ""
   },
   {
     "name": "Settling",
     "wikiUrl": "https://temtem.gamepedia.com/Settling",
-    "description": "Increases ATK by 8% for each turn the Temtem stays in the battlefield."
+    "description": "Increases ATK by 8% for each turn the Temtem stays in the battlefield.",
+    "effect": ""
   },
   {
     "name": "Shared Pain",
     "wikiUrl": "https://temtem.gamepedia.com/Shared_Pain",
-    "description": "When receiving a consecutive attack in the same turn, the technique gets redirected to the ally."
+    "description": "When receiving a consecutive attack in the same turn, the technique gets redirected to the ally.",
+    "effect": "In-depth description here."
   },
   {
     "name": "Soft Touch",
     "wikiUrl": "https://temtem.gamepedia.com/Soft_Touch",
-    "description": ""
+    "description": "When attacking an asleep target, it won't wake up.",
+    "effect": "When a Temtem with this trait attacks a target afflicted with the asleep status condition with a damage dealing technique, the condition will not be removed."
   },
   {
     "name": "Spoilsport",
     "wikiUrl": "https://temtem.gamepedia.com/Spoilsport",
-    "description": "+25% damage with multi-target techniques."
+    "description": "+25% damage with multi-target techniques.",
+    "effect": ""
   },
   {
     "name": "Strong Liver",
     "wikiUrl": "https://temtem.gamepedia.com/Strong_Liver",
-    "description": "When attacked with a Toxic technique, restores HP instead of receiving damage."
+    "description": "When attacked with a Toxic technique, restores HP instead of receiving damage.",
+    "effect": ""
   },
   {
     "name": "Synergy Master",
     "wikiUrl": "https://temtem.gamepedia.com/Synergy_Master",
-    "description": "Damage done with synergy techniques is increased by 25% while the Temtem participate in the synergy."
+    "description": "Damage done with synergy techniques is increased by 25% while the Temtem participate in the synergy.",
+    "effect": "Increases the damage of synergy techniques for the ally team if the Temtem can activate it."
   },
   {
     "name": "Thick Skin",
     "wikiUrl": "https://temtem.gamepedia.com/Thick_Skin",
-    "description": "When attacked by a Fire technique, reduces damage by 50%."
+    "description": "When attacked by a Fire technique, reduces damage by 50%.",
+    "effect": ""
   },
   {
     "name": "Tireless",
     "wikiUrl": "https://temtem.gamepedia.com/Tireless",
-    "description": "Prevents the overexertion turn penalization."
+    "description": "Prevents the overexertion turn penalization.",
+    "effect": ""
   },
   {
     "name": "Toxic Affinity",
     "wikiUrl": "https://temtem.gamepedia.com/Toxic_Affinity",
-    "description": ""
+    "description": "Toxic Type techniques get type damage boost.",
+    "effect": "Toxic Affinity increases the base damage of the user's toxic type techniques by 50%, as if the user had STAB (Same-Type Attack Bonus). This stacks with actual STAB if the user is also a toxic type, for a total of a 100% base damage boost."
   },
   {
     "name": "Toxic Farewell",
     "wikiUrl": "https://temtem.gamepedia.com/Toxic_Farewell",
-    "description": "When knocked-out, the attacker gets Poisoned for 3 turns."
+    "description": "When knocked-out, the attacker gets Poisoned for 3 turns.",
+    "effect": ""
   },
   {
     "name": "Toxic Skin",
     "wikiUrl": "https://temtem.gamepedia.com/Toxic_Skin",
-    "description": "When attacked with a physical technique, the attacker gets poisoned for 2 turns."
+    "description": "When attacked with a physical technique, the attacker gets poisoned for 2 turns.",
+    "effect": ""
   },
   {
     "name": "Traits",
     "wikiUrl": "https://temtem.gamepedia.com/Traits",
-    "description": ""
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Trance",
     "wikiUrl": "https://temtem.gamepedia.com/Trance",
-    "description": "When attacked, gets Asleep for 2 turns, SPATK +2 and SPDEF +2 if HP is below 30%."
+    "description": "When attacked, gets Asleep for 2 turns, SPATK +2 and SPDEF +2 if HP is below 30%.",
+    "effect": ""
   },
   {
     "name": "Trauma",
     "wikiUrl": "https://temtem.gamepedia.com/Trauma",
-    "description": "When attacked by a physical technique, decreases DEF by 1 stage; when attacked by a special technique, decreases SPDEF by 1 stage"
+    "description": "When attacked by a physical technique, decreases DEF by 1 stage; when attacked by a special technique, decreases SPDEF by 1 stage",
+    "effect": ""
   },
   {
     "name": "Tri-Apothecary",
     "wikiUrl": "https://temtem.gamepedia.com/Tri-Apothecary",
-    "description": "When attacking with a special technique, the target gets poisoned for 3 turns if it's a rival or regenerating for 3 turns if it's an ally."
+    "description": "When attacking with a special technique, the target gets poisoned for 3 turns if it's a rival or regenerating for 3 turns if it's an ally.",
+    "effect": "This effect is often used for Pansun farming, allowing your team to stay on the field longer than would normal."
   },
   {
     "name": "Vigorous",
     "wikiUrl": "https://temtem.gamepedia.com/Vigorous",
-    "description": "Damage done when overexerting is increased by 50%."
+    "description": "Damage done when overexerting is increased by 50%.",
+    "effect": ""
   },
   {
     "name": "Warm-Blooded",
     "wikiUrl": "https://temtem.gamepedia.com/Warm-Blooded",
-    "description": "Prevents the Cold Status condition."
+    "description": "Prevents the Cold Status condition.",
+    "effect": ""
   },
   {
     "name": "Water Affinity",
     "wikiUrl": "https://temtem.gamepedia.com/Water_Affinity",
-    "description": "Water techniques get a boost of the same type."
+    "description": "Water techniques get a boost of the same type.",
+    "effect": "This trait grants the user STAB (Same-Type Attack Bonus) to all water type attacks even if it is not water type, increasing the base damage of water type techniques by 50%."
   },
   {
     "name": "Withdrawal",
     "wikiUrl": "https://temtem.gamepedia.com/Withdrawal",
-    "description": "When resting, restores 15% of max HP and removes the asleep status condition."
+    "description": "When resting, restores 15% of max HP and removes the asleep status condition.",
+    "effect": ""
   },
   {
     "name": "Wrecked Farewell",
     "wikiUrl": "https://temtem.gamepedia.com/Wrecked_Farewell",
-    "description": "When knocked-out by overexertion damage, every Temtem loses 25% of max HP."
+    "description": "When knocked-out by overexertion damage, every Temtem loses 25% of max HP.",
+    "effect": "When knocked-out by overexertion damage, self inflicted damage or damage infliced by allies, every Temtem loses 25% of max HP."
   },
   {
     "name": "Zen",
     "wikiUrl": "https://temtem.gamepedia.com/Zen",
-    "description": "When getting the Asleep status condition, gets DEF +1 and SPDEF +1."
+    "description": "When getting the Asleep status condition, gets DEF +1 and SPDEF +1.",
+    "effect": "When a Temtem is put to sleep with the Asleep status effect, it will immediately gain DEF+1 and SPDEF+1. This bonus will be kept when the Temtem wakes up."
   }
 ]

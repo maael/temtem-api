@@ -159,9 +159,12 @@ export const techniqueExample = [
 
 export const traitExample = [
   {
-    name: "Aerobic",
-    wikiUrl: "https://temtem.gamepedia.com/Aerobic",
-    description: "When attacking with Wind techniques, gets SPDEF- and SPD +."
+    name: "Avenger",
+    wikiUrl: "https://temtem.gamepedia.com/Avenger",
+    description:
+      "When an ally is knocked-out, increases SPATK and SPD by 1 stage.",
+    effect:
+      "Increase SPATK and SPD by one stage whenever an ally temtem is knocked out."
   }
 ];
 
