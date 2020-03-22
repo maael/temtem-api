@@ -51,6 +51,7 @@ I used `node@10.17.0` to develop it.
 | `/api/techniques`               | https://temtem-api.mael.tech/#/api/techniques           |
 | `/api/training-courses`         | https://temtem-api.mael.tech/#/api/training-courses     |
 | `/api/traits`                   | https://temtem-api.mael.tech/#/api/traits               |
+| `/api/items`                    | https://temtem-api.mael.tech/#/api/items                |
 | `/api/gear`                     | https://temtem-api.mael.tech/#/api/gear                 |
 | `/api/quests`                   | https://temtem-api.mael.tech/#/api/quests               |
 | `/api/characters`               | https://temtem-api.mael.tech/#/api/characters           |

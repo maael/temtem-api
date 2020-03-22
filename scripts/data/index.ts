@@ -8,6 +8,7 @@ import embellishPatches from "./embellishPatches";
 import getTypes from "./getTypes";
 import getWeaknessTable from "./getWeaknessTable";
 import getGear from "./getGear";
+import getItems from "./getItems";
 import embellishGear from "./embellishGear";
 import getConditions from "./getConditions";
 import getTechniques from "./getTechniques";
@@ -27,6 +28,7 @@ import * as log from "../util/log";
 import checkAndWrite from "../util/checkAndWrite";
 
 (async () => {
+  await checkAndWrite("items", "items", getItems);
   await checkAndWrite("trainingCourses", "trainingCourses", getTrainingCourses);
   await checkAndWrite("types", "types", getTypes);
   await checkAndWrite("dyes", "dyes", getDyes);

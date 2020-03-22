@@ -701,3 +701,100 @@ export const freetemRewardExample = [
     endDate: "2020-03-15T00:00:00.000Z"
   }
 ];
+
+export const itemExample = [
+  {
+    wikiImageUrl:
+      "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a2/SmokeBomb.png/65px-SmokeBomb.png",
+    name: "Smoke Bomb",
+    wikiUrl: "https://temtem.gamepedia.com//Smoke_Bomb",
+    description: "Teleports the Player to the last visited Temporium.",
+    effect: null,
+    location: null,
+    buyPrice: 120,
+    sellPrice: 83,
+    quest: null,
+    category: "general"
+  },
+  {
+    wikiImageUrl:
+      "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b1/TemCardPlus.png/75px-TemCardPlus.png",
+    name: "TemCard+",
+    wikiUrl: "https://temtem.gamepedia.com//TemCard%2B",
+    description:
+      "Allows to capture and Tame Temtem with an increased catch rate.",
+    effect: null,
+    location: null,
+    buyPrice: 80,
+    sellPrice: 55,
+    quest: null,
+    category: "capture"
+  },
+  {
+    wikiImageUrl:
+      "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4d/TelomereHackSPDEF.png/75px-TelomereHackSPDEF.png",
+    name: "Telomere Hack - SPDEF",
+    wikiUrl: "https://temtem.gamepedia.com//Telomere_Hack_-_SPDEF",
+    description:
+      "This experimental genefix alters chromosomes in Temtem DNA, adding 1 SV to SPDEF",
+    effect: null,
+    location: null,
+    buyPrice: null,
+    sellPrice: 4900,
+    quest: null,
+    category: "medicine"
+  },
+  {
+    wikiImageUrl:
+      "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/91/Engineered_DNA_Strand.png/75px-Engineered_DNA_Strand.png",
+    name: "Engineered DNA Strand",
+    wikiUrl: "https://temtem.gamepedia.com//Engineered_DNA_Strand",
+    description: null,
+    effect:
+      "This single-use DNA strand ensures the egg inherits the parent´s trait slot.",
+    location: "Breeding Center shopkeeper.",
+    buyPrice: null,
+    sellPrice: null,
+    quest: null,
+    category: "gear"
+  },
+  {
+    wikiImageUrl:
+      "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a9/TechniqueCourse.png/75px-TechniqueCourse.png",
+    name: "TC018: Major Slash",
+    wikiUrl: "https://temtem.gamepedia.com//TC018:_Major_Slash",
+    description: null,
+    effect: "Allows Major Slash to be learned by a Temtem.",
+    location: null,
+    buyPrice: null,
+    sellPrice: null,
+    quest: null,
+    category: "course"
+  },
+  {
+    wikiImageUrl:
+      "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/27/EggTimer.png/75px-EggTimer.png",
+    name: "Egg Timer",
+    wikiUrl: "https://temtem.gamepedia.com//Egg_Timer",
+    description: null,
+    effect: "Used to tell when your eggs hatch",
+    location: null,
+    buyPrice: null,
+    sellPrice: null,
+    quest: null,
+    category: "key"
+  },
+  {
+    wikiImageUrl:
+      "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/dd/Unknown.png/75px-Unknown.png",
+    name: "Ancient Idol",
+    wikiUrl: "https://temtem.gamepedia.com//Ancient_Idol",
+    description: null,
+    effect: null,
+    location: null,
+    buyPrice: null,
+    sellPrice: null,
+    quest: "Liberate Matthew",
+    category: "quest"
+  }
+];
