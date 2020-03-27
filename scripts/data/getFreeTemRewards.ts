@@ -74,7 +74,7 @@ export default async function getFreetemRewards() {
         };
         return reward;
       })
-    );
+    ).reverse();
   } catch (e) {
     log.error(e.message);
   }
