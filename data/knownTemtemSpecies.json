@@ -1419,12 +1419,12 @@
         "place": "Prasine Coast",
         "note": "",
         "island": "Deniz",
-        "frequency": "Common",
-        "level": "3-6",
+        "frequency": "Various (30-100%)",
+        "level": "2-6",
         "freetem": {
-          "minLevel": 3,
+          "minLevel": 2,
           "maxLevel": 6,
-          "minPansuns": 26,
+          "minPansuns": 24,
           "maxPansuns": 31
         }
       },
@@ -1433,7 +1433,7 @@
         "place": "Thalassian Cliffs",
         "note": "",
         "island": "Deniz",
-        "frequency": "Common",
+        "frequency": "70%",
         "level": "4-6",
         "freetem": {
           "minLevel": 4,
@@ -1447,7 +1447,7 @@
         "place": "Windward Fort",
         "note": "",
         "island": "Deniz",
-        "frequency": "Rare",
+        "frequency": "20%",
         "level": "12-13",
         "freetem": {
           "minLevel": 12,
@@ -1457,30 +1457,16 @@
         }
       },
       {
-        "location": "The Gifted Bridges",
-        "place": "The Gifted Bridges",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "Uncommon",
-        "level": "8-10",
-        "freetem": {
-          "minLevel": 8,
-          "maxLevel": 10,
-          "minPansuns": 35,
-          "maxPansuns": 39
-        }
-      },
-      {
         "location": "Aguamarina Caves",
         "place": "Aguamarina Caves",
         "note": "",
         "island": "Deniz",
-        "frequency": "Rare",
-        "level": "15-18",
+        "frequency": "20-30%",
+        "level": "12-18",
         "freetem": {
-          "minLevel": 15,
+          "minLevel": 12,
           "maxLevel": 18,
-          "minPansuns": 48,
+          "minPansuns": 42,
           "maxPansuns": 53
         }
       },
@@ -1489,12 +1475,12 @@
         "place": "Aguamarina Caves",
         "note": "",
         "island": "Deniz",
-        "frequency": "Rare",
-        "level": "18-20",
+        "frequency": "30%",
+        "level": "19-20",
         "freetem": {
-          "minLevel": 18,
+          "minLevel": 19,
           "maxLevel": 20,
-          "minPansuns": 53,
+          "minPansuns": 55,
           "maxPansuns": 57
         }
       }
@@ -4960,7 +4946,42 @@
       "Lapinite's design was revealed during the naming contest for #039."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 39,
+          "name": "Lapinite",
+          "stage": 1,
+          "levels": 25,
+          "trading": false,
+          "traitMapping": {
+            "Scavenger": "Mirroring",
+            "Electric Synthesize": "Fainted Curse"
+          }
+        },
+        {
+          "number": 40,
+          "name": "Azuroc",
+          "stage": 2,
+          "levels": 25,
+          "trading": false,
+          "traitMapping": {
+            "Mirroring": "Channeler",
+            "Fainted Curse": "Wrecked Farewell"
+          }
+        },
+        {
+          "number": 41,
+          "name": "Zenoreth",
+          "stage": 3,
+          "traitMapping": {
+            "Channeler": "Channeler",
+            "Wrecked Farewell": "Wrecked Farewell"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/69/Lapinite.png/250px-Lapinite.png?version=a4c5c27584e856fbc34dd0d34829ce06",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4d/LumaLapinite.png/250px-LumaLapinite.png?version=e1735e48f231288966997697ad04bb05",
@@ -7004,7 +7025,7 @@
         "place": "The Glassyway",
         "note": "",
         "island": "Omninesia",
-        "frequency": "Rare (30%)",
+        "frequency": "30%",
         "level": "20-22",
         "freetem": {
           "minLevel": 20,
@@ -7014,11 +7035,25 @@
         }
       },
       {
+        "location": "The Glassyway, Rock-hopping Island",
+        "place": "The Glassyway",
+        "note": "Rock-hopping Island",
+        "island": "Omninesia",
+        "frequency": "50%",
+        "level": "30-35",
+        "freetem": {
+          "minLevel": 30,
+          "maxLevel": 35,
+          "minPansuns": 80,
+          "maxPansuns": 90
+        }
+      },
+      {
         "location": "Anak Volcano",
         "place": "Anak Volcano",
         "note": "",
         "island": "Omninesia",
-        "frequency": "10%-50%",
+        "frequency": "10-50%",
         "level": "17-24",
         "freetem": {
           "minLevel": 17,
@@ -8674,7 +8709,7 @@
         "place": "Corrupted Badlands",
         "note": "",
         "island": "Tucma",
-        "frequency": "Uncommon (45%-50%)",
+        "frequency": "40-50%",
         "level": "23-27",
         "freetem": {
           "minLevel": 23,
@@ -8688,7 +8723,7 @@
         "place": "Xolot Reservoir",
         "note": "",
         "island": "Tucma",
-        "frequency": "Uncommon (65%)",
+        "frequency": "65%",
         "level": "28-31",
         "freetem": {
           "minLevel": 28,
@@ -8702,7 +8737,7 @@
         "place": "Kupeleleza",
         "note": "",
         "island": "Tucma",
-        "frequency": "Uncommon (60%)",
+        "frequency": "60%",
         "level": "30-36",
         "freetem": {
           "minLevel": 30,
