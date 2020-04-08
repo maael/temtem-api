@@ -11,7 +11,7 @@
   },
   {
     "name": "Asleep",
-    "description": "Asleep Temtem cannot attack, but if they are damaged, they wake up (the condition is removed). Any damage that is done to the Temtem will remove the Asleep Condition. Mental type Temtem are immune against this condition.",
+    "description": "Asleep Temtem cannot attack, but if they are damaged, they wake up (the condition is removed). Any damage that is done to the Temtem will remove the Asleep Condition. Upon waking, the Temtem will gain Alerted for 1 turn.Mental type Temtem are immune against this condition.",
     "icon": "/images/icons/conditions/Asleep.png"
   },
   {
@@ -60,9 +60,19 @@
     "icon": "/images/icons/conditions/Regenerated.png"
   },
   {
-    "name": "Neutralized",
-    "description": "Neutralized (to be renamed Nullified in an upcoming patch) Temtem have their resistances and weaknesses omitted.",
-    "icon": "/images/icons/conditions/Neutralized.png"
+    "name": "Nullified",
+    "description": "Nullified Temtem have their resistances and weaknesses omitted.",
+    "icon": "/images/icons/conditions/Nullified.png"
+  },
+  {
+    "name": "Evading",
+    "description": "An Evading Temtem will not be affected by the next offensive technique used on it.",
+    "icon": "/images/icons/conditions/Evading.png"
+  },
+  {
+    "name": "Alerted",
+    "description": "An Alert Temtem cannot fall asleep. After a Temtem wakes up from having the Sleep Condition, it will gain Alerted for 1 turn.",
+    "icon": "/images/icons/conditions/Alerted.png"
   },
   {
     "name": "Exiled",
