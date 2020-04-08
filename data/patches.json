@@ -1,5 +1,67 @@
 [
   {
+    "name": "Temtem 0.5.16 – Ranked Update",
+    "version": "0.5.16",
+    "url": "https://crema.gg/temtem/temtem-0-5-16/",
+    "date": "2020-4-8",
+    "patchInfo": {
+      "fixes": [
+        "👥 Fixed Synergized Revitalize not displaying the correct amount of health restored.",
+        "👥 Fixed Benefactor trait not properly displaying when triggered.",
+        "👥 Fixed Withdrawal trait only working when the Temtem was asleep.",
+        "👥 Fixed draw rules not working properly when both last Temtem were knocked out by a Status condition tick.",
+        "Fixed Temtem assigned to a battle box, and evolved after they were assigned, devolving while entering a competitive battle.",
+        "Fixed learned techniques not being properly recorded for Temtem that were assigned to a Battle Box.",
+        "Fixed a visual bug on the Trade UI that allowed to modify the Pansun quantity or traded Items while the countdown was still active.",
+        "Fixed being able to open the Notification Center when a blocking NPC is approaching which could lead to some other issues.",
+        "Fixed traded items submenu being kept open after a trade being canceled while it was opened.",
+        "Fixed being able to invite another user to a co-op party while you were in one already, leading to multiple issues.",
+        "Fixed users with the surfboard being able to create a co-op party with users without the surfboard (and keeping the surfboard in the process) if the party was created near enough to the shore.",
+        "Fixed depth of field visual effect disappearing after opening certain UIs.",
+        "👥 Fixed not being able to choose a Temtem when using a TemCard while using a controller after a multi-target technique has been used.",
+        "👥 Fixed being able to force the release Temtem popup to appear outside of battles.",
+        "👥 Fixed a bug that allowed to introduce Pansuns in the quantity picker screen while tabbed out of the game.",
+        "Fixed blocking NPCs not working properly when an egg hatched while the blocking NPC was moving to you to block you.",
+        "Fixed some weird behavior on the full map when zooming in and out on Zadar.",
+        "Fixed Tamers disappearing when using Chains Hit after a Stat Stage change.",
+        "Fixed Temterms link being clicked after the welcome screen disappeared.",
+        "Fixed a stuck situation on PvP battles while playing co-op."
+      ],
+      "improvements": [
+        "👥 The FreeTem foundation now has four different rewards associated with different releases tiers.Please note that this week remains intact so the new configuration will start applying on the next weekly reset.",
+        "Please note that this week remains intact so the new configuration will start applying on the next weekly reset.",
+        "👥 The Map now features names for the areas. The names are hidden while zoomed in but they will display on zoomed out configurations.",
+        "👥 The SPATK icon has been replaced with a different one in order to differentiate it better from the ATK icon.",
+        "👥 On PC, right-clicking on an empty space will now act as a cancel/escape action.",
+        "Interiors now match the environment sound of their exterior zones when they don’t have a custom environment sound defined.",
+        "Revisited some interior environment sounds (Konstantino’s Lab, Boutiques, Luisouvenirs, Player’s Home, Accademia, Saipark Caves, and the Commune).",
+        "The Temdeck now features 23 different marks (up from 11). Current marks are still the same and they are maintained in your Temdecks."
+      ],
+      "features": [
+        "Added Ranked matchmaking. Players will be matched together via their TMR (Tamer Matchmaking Rating) into competitive battles.This is the first iteration of the Ranked battles so it only has the core features for now.Every Temtem is auto-scaled on ranked battles. This means that their level is upped to the current level cap (48) and all their SVs are maxed (50). TVs remain intact.While ranked battles will give pansun rewards, they are currently disabled until the system is fully tested.",
+        "This is the first iteration of the Ranked battles so it only has the core features for now.",
+        "Every Temtem is auto-scaled on ranked battles. This means that their level is upped to the current level cap (48) and all their SVs are maxed (50). TVs remain intact.",
+        "While ranked battles will give pansun rewards, they are currently disabled until the system is fully tested.",
+        "Added the Spectator mode. Players can now spectate others from the Interact menu as long as they’re playing a competitive battle.As with the Ranked matchmaking, this is the first iteration of this feature so it will be improved and worked on in the future.",
+        "As with the Ranked matchmaking, this is the first iteration of this feature so it will be improved and worked on in the future.",
+        "👥 Added a new Status condition: Evading. While evading, the Temtem will avoid the next offensive technique directed at it.",
+        "👥 Added a new Status condition: Alerted. While alerted, the Temtem can’t be asleep and after waking up from being asleep, they will automatically be Alerted for one turn.",
+        "👥 Added the Battle Log screen. The Battle Log will summarize every known Temtem in the battle with all the data needed for battles: health, stamina, status conditions and… yeah, stat stages.Please note that by default, the Battle Log is only accessible in competitive battles, but it can be enabled in every battle type from the Settings menu.",
+        "Please note that by default, the Battle Log is only accessible in competitive battles, but it can be enabled in every battle type from the Settings menu.",
+        "Added player intros and outros on PvP matches.The player intro will display both players and their lead Tems. In the future, this intro will also showcase PVP stats for each player.The outro will only display the winner player and their squad.",
+        "The player intro will display both players and their lead Tems. In the future, this intro will also showcase PVP stats for each player.",
+        "The outro will only display the winner player and their squad.",
+        "Added 22 new Technique animations (Bamboozle, Chain Lighting, Head Charge, Gamma Burst, Feather Gatling, Urushiol, Narcoleptic Hit, Nicho Sai, Oshi-Dashi, Dust Vortex, Toxic Slime, Awful Song, Crystal Plume Gatling, Crystal Bite, Harmful Lick, Extinction, Rend, Frond Whip, Major Slash, Toxic Plume, Slime and Hyperkinetic Strike)."
+      ],
+      "balance": [
+        "Players now need to be near each other in order to do a trade.We’ve seen multiple cases of abuse with the previous system so we’ve decided to keep long-distance trades reserved for the future Trading House.",
+        "We’ve seen multiple cases of abuse with the previous system so we’ve decided to keep long-distance trades reserved for the future Trading House.",
+        "Telomere Hacks now only work on Temtem where the Original Tamer is the Player using the Hack.We like Telomere Hacks as a way to perfect your almost perfect Temtem, but they’ve been the subject for several cases of abuse and scams between players offering them (even though they are non-tradeable). This change will help us to keep the intended feature for legit players without needing to remove the items altogether.",
+        "We like Telomere Hacks as a way to perfect your almost perfect Temtem, but they’ve been the subject for several cases of abuse and scams between players offering them (even though they are non-tradeable). This change will help us to keep the intended feature for legit players without needing to remove the items altogether."
+      ]
+    }
+  },
+  {
     "name": "Temtem 0.5.15",
     "version": "0.5.15",
     "url": "https://crema.gg/temtem/temtem-0-5-15/",
