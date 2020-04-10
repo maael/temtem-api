@@ -6,18 +6,22 @@ export default function logHit(
   page: string
 ) {
   return async function(req: NextApiRequest, res: NextApiResponse) {
-    if (
-      !["localhost", "temtem-api.mael.tech", "https://temtem-api-"].some(i =>
-        (req.headers.referer || "").includes(i)
-      ) ||
-      page === "info"
-    ) {
-      await log({
-        page,
-        eventType: "hit",
-        referer: req.headers.referer || "unknown"
-      });
-    }
+    await attemptLog(req, page);
     await next(req, res);
   };
+}
+
+export async function attemptLog(req: NextApiRequest, page: string) {
+  if (
+    !["localhost", "temtem-api.mael.tech", "https://temtem-api-"].some(i =>
+      (req.headers.referer || "").includes(i)
+    ) ||
+    page === "info"
+  ) {
+    await log({
+      page,
+      eventType: "hit",
+      referer: req.headers.referer || "unknown"
+    });
+  }
 }

@@ -29,7 +29,7 @@ async function getCiInfo() {
       return undefined;
     }
   } catch (e) {
-    console.error(e);
+    console.error("[ci info error]", e);
     return undefined;
   }
 }
@@ -46,7 +46,7 @@ async function getCiMostRecentStatus() {
       return undefined;
     }
   } catch (e) {
-    console.error(e);
+    console.error("[ci recent error]", e);
     return undefined;
   }
 }
