@@ -26,7 +26,7 @@
   {
     "name": "Apothecary",
     "wikiUrl": "https://temtem.gamepedia.com/Apothecary",
-    "description": "When attacking with a special technique, the target gets poisoned for 1 turn if it's a rival or regenerating for 1 turn if it's an ally.",
+    "description": "When attacking with a special technique, the target gets poisoned for 1 turn if it's a rival or regenerating for 1 turn if it's an ally or itself.",
     "effect": ""
   },
   {
@@ -416,7 +416,7 @@
   {
     "name": "Trance",
     "wikiUrl": "https://temtem.gamepedia.com/Trance",
-    "description": "When attacked, gets Asleep for 2 turns, SPATK +2 and SPDEF +2 if HP is below 30%.",
+    "description": "When attacked, gets Asleep and Regenerating for 2 turns, SPATK +2 and SPDEF +2 if HP is below 30%.",
     "effect": ""
   },
   {
@@ -428,7 +428,7 @@
   {
     "name": "Tri-Apothecary",
     "wikiUrl": "https://temtem.gamepedia.com/Tri-Apothecary",
-    "description": "When attacking with a special technique, the target gets poisoned for 3 turns if it's a rival or regenerating for 3 turns if it's an ally.",
+    "description": "When attacking with a special technique, the target gets poisoned for 3 turns if it's a rival or regenerating for 3 turns if it's an ally or itself.",
     "effect": "This effect is often used for Pansun farming, allowing your team to stay on the field longer than would normal."
   },
   {

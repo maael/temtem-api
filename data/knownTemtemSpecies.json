@@ -1287,14 +1287,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Tateru",
     "stats": {
-      "hp": 70,
-      "sta": 90,
+      "hp": 79,
+      "sta": 85,
       "spd": 60,
-      "atk": 68,
+      "atk": 78,
       "def": 66,
       "spatk": 54,
       "spdef": 66,
-      "total": 474
+      "total": 488
     },
     "traits": [
       "Soft Touch",
@@ -1405,7 +1405,8 @@
       "Tateru's name comes from tateru (Japanese word for stand/erect: 立てる).",
       "Tateru was first revealed through its color test concept art.",
       "Tateru was recolored many times before the final look was chosen, as depicted in its concept art.",
-      "Tateru has an emote on the official Temtem Discord. It portrays a police officer."
+      "Tateru has an emote on the official Temtem Discord. It portrays a police officer.",
+      "Tateru took over Temtem and became the CEO for one day on April 1st, 2020. It made several comical tweets and several other Tateru invaded the Discord chats before retiring at the end of the day due to being tired."
     ],
     "evolution": {
       "evolves": false
@@ -1418,12 +1419,12 @@
         "place": "Prasine Coast",
         "note": "",
         "island": "Deniz",
-        "frequency": "Common",
-        "level": "3-6",
+        "frequency": "Various (30-100%)",
+        "level": "2-6",
         "freetem": {
-          "minLevel": 3,
+          "minLevel": 2,
           "maxLevel": 6,
-          "minPansuns": 26,
+          "minPansuns": 24,
           "maxPansuns": 31
         }
       },
@@ -1432,7 +1433,7 @@
         "place": "Thalassian Cliffs",
         "note": "",
         "island": "Deniz",
-        "frequency": "Common",
+        "frequency": "70%",
         "level": "4-6",
         "freetem": {
           "minLevel": 4,
@@ -1446,7 +1447,7 @@
         "place": "Windward Fort",
         "note": "",
         "island": "Deniz",
-        "frequency": "Rare",
+        "frequency": "20%",
         "level": "12-13",
         "freetem": {
           "minLevel": 12,
@@ -1456,30 +1457,16 @@
         }
       },
       {
-        "location": "The Gifted Bridges",
-        "place": "The Gifted Bridges",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "Uncommon",
-        "level": "8-10",
-        "freetem": {
-          "minLevel": 8,
-          "maxLevel": 10,
-          "minPansuns": 35,
-          "maxPansuns": 39
-        }
-      },
-      {
         "location": "Aguamarina Caves",
         "place": "Aguamarina Caves",
         "note": "",
         "island": "Deniz",
-        "frequency": "Rare",
-        "level": "15-18",
+        "frequency": "20-30%",
+        "level": "12-18",
         "freetem": {
-          "minLevel": 15,
+          "minLevel": 12,
           "maxLevel": 18,
-          "minPansuns": 48,
+          "minPansuns": 42,
           "maxPansuns": 53
         }
       },
@@ -1488,12 +1475,12 @@
         "place": "Aguamarina Caves",
         "note": "",
         "island": "Deniz",
-        "frequency": "Rare",
-        "level": "18-20",
+        "frequency": "30%",
+        "level": "19-20",
         "freetem": {
-          "minLevel": 18,
+          "minLevel": 19,
           "maxLevel": 20,
-          "minPansuns": 53,
+          "minPansuns": 55,
           "maxPansuns": 57
         }
       }
@@ -2528,9 +2515,9 @@
       "spd": 95,
       "atk": 60,
       "def": 42,
-      "spatk": 75,
+      "spatk": 80,
       "spdef": 50,
-      "total": 451
+      "total": 456
     },
     "traits": [
       "Receptive",
@@ -2899,9 +2886,9 @@
       "spd": 45,
       "atk": 50,
       "def": 45,
-      "spatk": 78,
-      "spdef": 78,
-      "total": 443
+      "spatk": 85,
+      "spdef": 89,
+      "total": 461
     },
     "traits": [
       "Toxic Farewell",
@@ -4959,7 +4946,42 @@
       "Lapinite's design was revealed during the naming contest for #039."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 39,
+          "name": "Lapinite",
+          "stage": 1,
+          "levels": 25,
+          "trading": false,
+          "traitMapping": {
+            "Scavenger": "Mirroring",
+            "Electric Synthesize": "Fainted Curse"
+          }
+        },
+        {
+          "number": 40,
+          "name": "Azuroc",
+          "stage": 2,
+          "levels": 25,
+          "trading": false,
+          "traitMapping": {
+            "Mirroring": "Channeler",
+            "Fainted Curse": "Wrecked Farewell"
+          }
+        },
+        {
+          "number": 41,
+          "name": "Zenoreth",
+          "stage": 3,
+          "traitMapping": {
+            "Channeler": "Channeler",
+            "Wrecked Farewell": "Wrecked Farewell"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/69/Lapinite.png/250px-Lapinite.png?version=a4c5c27584e856fbc34dd0d34829ce06",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4d/LumaLapinite.png/250px-LumaLapinite.png?version=e1735e48f231288966997697ad04bb05",
@@ -7003,7 +7025,7 @@
         "place": "The Glassyway",
         "note": "",
         "island": "Omninesia",
-        "frequency": "Rare (30%)",
+        "frequency": "30%",
         "level": "20-22",
         "freetem": {
           "minLevel": 20,
@@ -7013,11 +7035,25 @@
         }
       },
       {
+        "location": "The Glassyway, Rock-hopping Island",
+        "place": "The Glassyway",
+        "note": "Rock-hopping Island",
+        "island": "Omninesia",
+        "frequency": "50%",
+        "level": "30-35",
+        "freetem": {
+          "minLevel": 30,
+          "maxLevel": 35,
+          "minPansuns": 80,
+          "maxPansuns": 90
+        }
+      },
+      {
         "location": "Anak Volcano",
         "place": "Anak Volcano",
         "note": "",
         "island": "Omninesia",
-        "frequency": "10%-50%",
+        "frequency": "10-50%",
         "level": "17-24",
         "freetem": {
           "minLevel": 17,
@@ -7794,7 +7830,8 @@
     ],
     "trivia": [
       "Saipat's name comes from the combination of the words sai (a prong shaped melee weapon) and pato (duck in Spanish), or platypus (billed mammal).",
-      "Saipat first appeared as small pieces of an image that were slowly revealed in the official Discord, until fans guessed its design while creating fan art."
+      "Saipat first appeared as small pieces of an image that were slowly revealed in the official Discord, until fans guessed its design while creating fan art.",
+      "Purple paint is traditionally made from the discarded shells of growing Saipat. They are carefully collected from where the young adult Saipat discard them, then crushed into a fine powder."
     ],
     "evolution": {
       "evolves": false
@@ -8633,6 +8670,10 @@
       {
         "name": "Inner Spirit",
         "source": "Breeding"
+      },
+      {
+        "name": "Intimidation",
+        "source": "Breeding"
       }
     ],
     "trivia": [
@@ -8673,7 +8714,7 @@
         "place": "Corrupted Badlands",
         "note": "",
         "island": "Tucma",
-        "frequency": "Uncommon (45%-50%)",
+        "frequency": "40-50%",
         "level": "23-27",
         "freetem": {
           "minLevel": 23,
@@ -8687,7 +8728,7 @@
         "place": "Xolot Reservoir",
         "note": "",
         "island": "Tucma",
-        "frequency": "Uncommon (65%)",
+        "frequency": "65%",
         "level": "28-31",
         "freetem": {
           "minLevel": 28,
@@ -8701,7 +8742,7 @@
         "place": "Kupeleleza",
         "note": "",
         "island": "Tucma",
-        "frequency": "Uncommon (60%)",
+        "frequency": "60%",
         "level": "30-36",
         "freetem": {
           "minLevel": 30,
@@ -8832,6 +8873,10 @@
       },
       {
         "name": "Inner Spirit",
+        "source": "Breeding"
+      },
+      {
+        "name": "Intimidation",
         "source": "Breeding"
       }
     ],
@@ -10032,7 +10077,8 @@
       }
     ],
     "trivia": [
-      "Spriole's name is derived from sprout and petiole."
+      "Spriole's name is derived from sprout and petiole.",
+      "Spriole grow on trees."
     ],
     "evolution": {
       "stage": 1,
@@ -10653,12 +10699,12 @@
     "stats": {
       "hp": 72,
       "sta": 49,
-      "spd": 57,
+      "spd": 61,
       "atk": 61,
       "def": 78,
-      "spatk": 79,
+      "spatk": 85,
       "spdef": 45,
-      "total": 441
+      "total": 451
     },
     "traits": [
       "Trance",
@@ -11241,14 +11287,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Volarend",
     "stats": {
-      "hp": 69,
+      "hp": 64,
       "sta": 38,
       "spd": 74,
       "atk": 51,
       "def": 61,
       "spatk": 68,
       "spdef": 96,
-      "total": 457
+      "total": 452
     },
     "traits": [
       "Aerobic",
@@ -12661,6 +12707,7 @@
       }
     ],
     "trivia": [
+      "Adoroboros has the highest base Special Defense of any temtem.",
       "Adoroboros' name is a combination of adorable and ouroboros (a famous Egyptian symbol depicting a serpent or dragon eating its tail and is notable in its use in alchemy.) The term itself derives from Ancient Greek \"οὐροβόρος\" which is split between οὐρά (tail), βορά (food), and βιβρώσκω (I eat).",
       "Adoroboros was originally shown on the Choose-a-Temtem V3 poll, currently unnamed. It got second place with 554 votes, just 25 votes behind the winner.\nAdoroboros was first nicknamed Adoroboros by Temtem Discord community member Husky. The nickname was later put into an official poll for naming the Temtem by the Discord member TMTrainer. It won the poll with 157 votes, becoming the official name of #129.",
       "Adoroboros was first nicknamed Adoroboros by Temtem Discord community member Husky. The nickname was later put into an official poll for naming the Temtem by the Discord member TMTrainer. It won the poll with 157 votes, becoming the official name of #129."
@@ -12866,11 +12913,11 @@
       "hp": 57,
       "sta": 47,
       "spd": 65,
-      "atk": 70,
+      "atk": 65,
       "def": 111,
-      "spatk": 60,
+      "spatk": 56,
       "spdef": 47,
-      "total": 457
+      "total": 448
     },
     "traits": [
       "Receptive",
@@ -13049,7 +13096,7 @@
         "levels": 8
       },
       {
-        "name": "Intimidation",
+        "name": "Psy Wave",
         "source": "Levelling",
         "levels": 12
       },
@@ -13941,10 +13988,11 @@
       }
     ],
     "trivia": [
-      "Anahir is the only Crystal/Fire Temtem as of alpha v0.5.13.",
       "The Anahir you obtain during the quest Adventure in the Myrisles will always have 50 SVs in both DEF and SPDEF stats.",
       "Players can decide to not obtain Anahir to save storage, useful for those who value storage for FreeTem. Similarly players can decide to obtain Anahir at a later date.",
-      "The Crystal Temtem that was subjected to intense heat to create Anahir was likely a Sherald. Their body shapes and design are very similar, much more so than any other currently known Crystal type."
+      "The Crystal Temtem that was subjected to intense heat to create Anahir was likely a Sherald. Their body shapes and design are very similar, much more so than any other currently known Crystal type.",
+      "Anahir's name comes from Anak and Terlahir (born in Indonesian), so its name means \"Born from Anak\".\nIts name was for a while rumored to be Rihanna backwards, which was \"confirmed\" on Twitter while CEO Tateru was in control on April 1st, 2020.",
+      "Its name was for a while rumored to be Rihanna backwards, which was \"confirmed\" on Twitter while CEO Tateru was in control on April 1st, 2020."
     ],
     "evolution": {
       "evolves": false
