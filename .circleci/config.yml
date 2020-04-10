@@ -1,18 +1,10 @@
 version: 2.1
 
-orbs:
-  doctl: digitalocean/cli@0.1.1
-
 commands:
   setup:
     description: Basic steps to install packages, lint, prettier, and build
     steps:
       - checkout
-      - run:
-          name: Get App Name
-          command: |
-            echo 'export APP_NAME="$(partial=${CIRCLE_PROJECT_REPONAME/.$DOKKU_BASE_DOMAIN/''} && echo ${partial/$DOKKU_BASE_DOMAIN/'main'})"' >> $BASH_ENV
-            echo "Found app name: $(partial=${CIRCLE_PROJECT_REPONAME/.$DOKKU_BASE_DOMAIN/''} && echo ${partial/$DOKKU_BASE_DOMAIN/'main'})"
       - run:
           name: Versions
           command: |
