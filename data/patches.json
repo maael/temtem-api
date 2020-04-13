@@ -1,5 +1,29 @@
 [
   {
+    "name": "Temtem 0.5.17",
+    "version": "0.5.17",
+    "url": "https://crema.gg/temtem/temtem-0-5-17/",
+    "date": "2020-4-13",
+    "patchInfo": {
+      "fixes": [
+        "👥 Fixed the infinite loading on some computers with old specs.",
+        "👥 Fixed pick&ban timer not being displayed in competitive matches.",
+        "👥 Fixed a visual bug displaying wins in placement after spectating a ranked match.",
+        "👥 Fixed a stuck situation in battles after using a multitarget technique when having only one Temtem left in the squad.",
+        "👥 Fixed getting stuck while sitting after interacting with your Temtem.",
+        "👥 Fixed the evolution prompt in the Temtem details not being clickable while using a mouse.",
+        "Fixed Tutorial prompts not being clickable while using a mouse"
+      ],
+      "improvements": [
+        "👥 Previous unfinished secondary quests will now show up in the quest log after completing a main quest."
+      ],
+      "features": [],
+      "balance": [
+        "👥 Winning a ranked match against another player in placements will now grant a partial TMR gain."
+      ]
+    }
+  },
+  {
     "name": "Temtem 0.5.16 – Ranked Update",
     "version": "0.5.16",
     "url": "https://crema.gg/temtem/temtem-0-5-16/",
