@@ -1,5 +1,47 @@
 [
   {
+    "name": "Temtem 0.5.18",
+    "version": "0.5.18",
+    "url": "https://crema.gg/temtem/temtem-0-5-18/",
+    "date": "2020-4-16",
+    "patchInfo": {
+      "fixes": [
+        "👥 Fixed a desynchronization between the server and the client when a Temtem got knocked-out by the effect of a Status condition. This caused multiple problems since the Temtem was in a Schrödinger situation being both healthy and knocked-out.",
+        "👥 Fixed Guardian trait not being triggered when the partner got Cold.",
+        "👥 Fixed Battle Log only displaying stages up to +4 / -4.",
+        "👥 Fixed Receptive not being triggered when receiving the Alerted status condition.",
+        "👥 Fixed egg timers stopping when playing a ranked battle.",
+        "👥 Fixed Temtem entering into battle not being displayed on their correct Temcard where they were captured.",
+        "👥 Fixed FreeTem not updating the inventory when getting Smoke bombs as a reward.",
+        "👥 Fixed Barnshe’s AI trying to use Bamboozle on themselves even when having the Neutrality trait and being immune to it.",
+        "👥 Fixed following Temtem appearing during the prison quest.",
+        "👥 Fixed Battle Log being triggered while trying to perform a hotkey while using a gamepad.",
+        "👥 Fixed a visual bug displaying an incorrect STA value after attacking with both Tems.",
+        "👥 Fixed Toxic Farewell description displaying an incorrect amount of Poison turns.",
+        "👥 Fixed ranked victories not being displayed when inspecting a player (or yourself).",
+        "👥 Fixed Battle Log not displaying the proper Tamer name when a player was spectating.",
+        "👥 Fixed following Temtem not appearing after using a Smoke Bomb when surfing/skating.",
+        "👥 Fixed a soft lock when using the miniTemporium in the Tucma mines.",
+        "👥 Fixed being able to sit in a specific chair with boxes on Zadar.",
+        "👥 Fixed certain traits or gears (like Plethoric) blocking the runaway action until their triggers were fully displayed.",
+        "👥 Fixed players getting stuck between two NPC’s in the Xolot Reservoir.",
+        "Fixed Friends UI being empty after a friend disconnected from the game.",
+        "Fixed a visual bug causing doors not opening for other players when having network lag.",
+        "Fixed a visual bug causing seeing other players walking during a hook trajectory when having network lag.",
+        "Fixed remote players being incorrectly placed on crystal areas when entering or exiting an area.",
+        "Fixed map areas incorrectly being loading after exiting a battle near the first Narwhal dock."
+      ],
+      "improvements": [
+        "Trait and Gear signs will now only appear once when using a multi-target technique.",
+        "The taskbar icon for Temtem will now flash when a ranked match is found."
+      ],
+      "features": [
+        "Enabled pansun rewards on ranked matchmaking battles."
+      ],
+      "balance": []
+    }
+  },
+  {
     "name": "Temtem 0.5.17",
     "version": "0.5.17",
     "url": "https://crema.gg/temtem/temtem-0-5-17/",
