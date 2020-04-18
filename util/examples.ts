@@ -134,6 +134,7 @@ export const techniqueExample = [
     wikiUrl: "https://temtem.gamepedia.com/Crystal_Dust",
     type: "Crystal",
     class: "Special",
+    classIcon: "/images/icons/technique/Special.png",
     damage: 60,
     staminaCost: 11,
     hold: 0,
