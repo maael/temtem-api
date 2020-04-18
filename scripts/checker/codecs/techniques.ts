@@ -24,6 +24,7 @@ export const Codec = t.type({
   wikiUrl: t.string,
   type: t.string,
   class: t.string,
+  classIcon: t.string,
   damage: t.number,
   staminaCost: t.number,
   hold: t.number,

@@ -95,10 +95,12 @@ export default async function embellishTechniques(
       .map(({ item, html }) => {
         const $ = cheerio.load(html);
         const hold = getInfoBoxNumeric($, "Hold");
+        const classField = getInfoBox($, "Class");
         return {
           ...item,
           type: getInfoBox($, "Type"),
-          class: getInfoBox($, "Class"),
+          class: classField,
+          classIcon: `/images/icons/technique/${classField}.png`,
           damage: cleanToNumber(getInfoBoxNumeric($, "Damage")),
           staminaCost: cleanToNumber(getInfoBoxNumeric($, "Stamina Cost")),
           hold: cleanToNumber(hold),
