@@ -29,6 +29,7 @@ export const Codec = t.type({
   staminaCost: t.number,
   hold: t.number,
   priority: Priority,
+  priorityIcon: t.string,
   synergy: t.string,
   synergyEffects: t.array(
     t.type({ effect: t.string, damage: t.number, type: SynergyType })

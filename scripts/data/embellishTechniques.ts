@@ -96,6 +96,7 @@ export default async function embellishTechniques(
         const $ = cheerio.load(html);
         const hold = getInfoBoxNumeric($, "Hold");
         const classField = getInfoBox($, "Class");
+        const priority = getPriority($);
         return {
           ...item,
           type: getInfoBox($, "Type"),
@@ -104,7 +105,8 @@ export default async function embellishTechniques(
           damage: cleanToNumber(getInfoBoxNumeric($, "Damage")),
           staminaCost: cleanToNumber(getInfoBoxNumeric($, "Stamina Cost")),
           hold: cleanToNumber(hold),
-          priority: getPriority($),
+          priority,
+          priorityIcon: `/images/icons/priority/${priority}.png`,
           ...getSynergyData($),
           targets: getInfoBox($, "Targets"),
           description: getDescription($)

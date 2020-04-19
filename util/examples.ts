@@ -139,6 +139,7 @@ export const techniqueExample = [
     staminaCost: 11,
     hold: 0,
     priority: "high",
+    priorityIcon: "/images/icons/priority/high.png",
     synergy: "Wind",
     synergyEffects: [
       {
