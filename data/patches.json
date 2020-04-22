@@ -1,5 +1,36 @@
 [
   {
+    "name": "Temtem 0.5.19",
+    "version": "0.5.19",
+    "url": "https://crema.gg/temtem/temtem-0-5-19/",
+    "date": "2020-4-22",
+    "patchInfo": {
+      "fixes": [
+        "👥 Fixed changing techniques not correctly working after/before also changing an equipped gear.",
+        "👥 Fixed hold techniques not properly working sometimes on competitive battles.",
+        "👥 Fixed Nidrasil being able to attack while sleeping after using Narcoleptic Hit.",
+        "👥 Fixed Fever Rush trait being applied before getting the Status condition instead of after.",
+        "👥 Fixed Scavenger healing the Temtem when another Temtem gets knocked out outside of the battle.",
+        "👥 Fixed pickable items reappearing after an egg hatches while inside a building.",
+        "👥 Fixed Temtem not having full health when inspecting them while being assigned to a competitive squad.",
+        "👥 Fixed cosmetics from FreeTem not being equipable if the player has already bought them on a Boutique.",
+        "👥 Fixed a soft lock in the pick&ban phase after opening the exit menu during the team selection phase.",
+        "👥 Fixed being able to accept trades while on the prison quest.",
+        "👥 Fixed players getting stuck while seated after their co-op partner leaves the room they’re in.",
+        "👥 Fixed Belsotos blocking the player’s path in the Windward Fort.",
+        "👥 Fixed trainer blocking the player’s path in the Prasine Coast.",
+        "👥 Fixed players being able to remove their cloak in Tucma’s Dojo.",
+        "Fixed a visual bug causing incorrect trait details appearing when inspecting an egg.",
+        "Fixed a desynchronization causing a Temtem appearing healthy after being knocked-out by Sacrifice.",
+        "Fixed FreeTem cosmetics not being sorted correctly when sorting by new.",
+        "Fixed a player desync issue while seated."
+      ],
+      "improvements": [],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
     "name": "Temtem 0.5.18",
     "version": "0.5.18",
     "url": "https://crema.gg/temtem/temtem-0-5-18/",
