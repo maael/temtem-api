@@ -326,8 +326,8 @@
           "levels": 20,
           "trading": false,
           "traitMapping": {
-            "Resistant": "Zen",
-            "Resilient": "Determined"
+            "Resistant": "no",
+            "Resilient": "no"
           }
         },
         {
@@ -335,8 +335,7 @@
           "name": "Platimous",
           "stage": 3,
           "traitMapping": {
-            "Zen": "Zen",
-            "Determined": "Determined"
+            "no": "no"
           }
         }
       ],
@@ -590,8 +589,8 @@
           "levels": 20,
           "trading": false,
           "traitMapping": {
-            "Resistant": "Zen",
-            "Resilient": "Determined"
+            "Resistant": "no",
+            "Resilient": "no"
           }
         },
         {
@@ -599,8 +598,7 @@
           "name": "Platimous",
           "stage": 3,
           "traitMapping": {
-            "Zen": "Zen",
-            "Determined": "Determined"
+            "no": "no"
           }
         }
       ],
@@ -678,17 +676,17 @@
       "total": 457
     },
     "traits": [
-      "Zen",
-      "Determined"
+      "no",
+      "no"
     ],
     "details": {
       "height": {
-        "cm": 190,
-        "inches": 74
+        "cm": 190000,
+        "inches": 74803
       },
       "weight": {
-        "kg": 107,
-        "lbs": 235
+        "kg": 107000,
+        "lbs": 235935
       }
     },
     "techniques": [
@@ -806,28 +804,23 @@
           "levels": 20,
           "trading": false,
           "traitMapping": {
-            "Toxic Affinity": "Resistant",
-            "Amphibian": "Resilient"
+            "Toxic Affinity": "Toxic Affinity",
+            "Amphibian": "Amphibian"
           }
         },
         {
-          "number": 8,
-          "name": "Platox",
+          "number": -1,
+          "name": "Pikachu",
           "stage": 2,
           "levels": 20,
-          "trading": false,
-          "traitMapping": {
-            "Resistant": "Zen",
-            "Resilient": "Determined"
-          }
+          "trading": false
         },
         {
           "number": 9,
           "name": "Platimous",
           "stage": 3,
           "traitMapping": {
-            "Zen": "Zen",
-            "Determined": "Determined"
+            "no": "no"
           }
         }
       ],
@@ -840,17 +833,17 @@
     "icon": "/images/portraits/temtem/large/Platimous.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Platimous.png",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 0,
+      "female": 100
     },
-    "catchRate": 85,
+    "catchRate": 8555555,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 2,
+      "spd": 7,
       "atk": 0,
       "def": 0,
-      "spatk": 2,
+      "spatk": 6,
       "spdef": 0
     },
     "gameDescription": "Charles Temwin described them as \"Platox, but more so\". This is usually taken as classic Arburian understatement - Platimous were amongst the most successful apex predators before large scale taming, and remain very effective fighters."
