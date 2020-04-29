@@ -326,14 +326,18 @@
           "levels": 20,
           "trading": false,
           "traitMapping": {
-            "Resistant": "Resistant",
-            "Resilient": "Resilient"
+            "Resistant": "Zen",
+            "Resilient": "Determined"
           }
         },
         {
-          "number": -1,
+          "number": 9,
           "name": "Platimous",
-          "stage": 3
+          "stage": 3,
+          "traitMapping": {
+            "Zen": "Zen",
+            "Determined": "Determined"
+          }
         }
       ],
       "evolves": true,
@@ -586,14 +590,18 @@
           "levels": 20,
           "trading": false,
           "traitMapping": {
-            "Resistant": "Resistant",
-            "Resilient": "Resilient"
+            "Resistant": "Zen",
+            "Resilient": "Determined"
           }
         },
         {
-          "number": -1,
+          "number": 9,
           "name": "Platimous",
-          "stage": 3
+          "stage": 3,
+          "traitMapping": {
+            "Zen": "Zen",
+            "Determined": "Determined"
+          }
         }
       ],
       "evolves": true,
@@ -648,6 +656,204 @@
       "spdef": 0
     },
     "gameDescription": "Platox share common ancestors with Saipat, but the species diverged centuries ago - while Saipat developed opposable thumbs, Platox specialized in surviving polluted environments. Today they are the most successful feathered Temtem of Tucma."
+  },
+  {
+    "number": 9,
+    "name": "Platimous",
+    "types": [
+      "Water",
+      "Toxic"
+    ],
+    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7f/Platimous.png/50px-Platimous.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Platimous",
+    "stats": {
+      "hp": 71,
+      "sta": 49,
+      "spd": 82,
+      "atk": 56,
+      "def": 39,
+      "spatk": 90,
+      "spdef": 70,
+      "total": 457
+    },
+    "traits": [
+      "Zen",
+      "Determined"
+    ],
+    "details": {
+      "height": {
+        "cm": 190,
+        "inches": 74
+      },
+      "weight": {
+        "kg": 107,
+        "lbs": 235
+      }
+    },
+    "techniques": [
+      {
+        "name": "Finbeat",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Water Blade",
+        "source": "Levelling",
+        "levels": 3
+      },
+      {
+        "name": "Venomous Claws",
+        "source": "Levelling",
+        "levels": 4
+      },
+      {
+        "name": "Sand Splatter",
+        "source": "Levelling",
+        "levels": 7
+      },
+      {
+        "name": "Cheer Up",
+        "source": "Levelling",
+        "levels": 9
+      },
+      {
+        "name": "Aqua Bullet Hell",
+        "source": "Levelling",
+        "levels": 14
+      },
+      {
+        "name": "Tsunami",
+        "source": "Levelling",
+        "levels": 18
+      },
+      {
+        "name": "Toxic Fang",
+        "source": "Levelling",
+        "levels": 24
+      },
+      {
+        "name": "Paralysing Poison",
+        "source": "Levelling",
+        "levels": 36
+      },
+      {
+        "name": "Aquatic Whirlwind",
+        "source": "Levelling",
+        "levels": 48
+      },
+      {
+        "name": "Misogi",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Noxious Bomb",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Rend",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Footwork",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Held Anger",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Major Slash",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Urushiol",
+        "source": "Breeding"
+      },
+      {
+        "name": "Antitoxins",
+        "source": "Breeding"
+      },
+      {
+        "name": "Sharp Rain",
+        "source": "Breeding"
+      },
+      {
+        "name": "Flood",
+        "source": "Breeding"
+      },
+      {
+        "name": "Intimidation",
+        "source": "Breeding"
+      },
+      {
+        "name": "Shrill Voice",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [
+      "Platimous' name is derived from platypus and venomous.",
+      "Platimous was drawn by 50 Shades of Heliolisk, Crema bought the rights to the art.",
+      "The artist of Platimous tweeting about his design being bought for use."
+    ],
+    "evolution": {
+      "stage": 3,
+      "evolutionTree": [
+        {
+          "number": 7,
+          "name": "Platypet",
+          "stage": 1,
+          "levels": 20,
+          "trading": false,
+          "traitMapping": {
+            "Toxic Affinity": "Resistant",
+            "Amphibian": "Resilient"
+          }
+        },
+        {
+          "number": 8,
+          "name": "Platox",
+          "stage": 2,
+          "levels": 20,
+          "trading": false,
+          "traitMapping": {
+            "Resistant": "Zen",
+            "Resilient": "Determined"
+          }
+        },
+        {
+          "number": 9,
+          "name": "Platimous",
+          "stage": 3,
+          "traitMapping": {
+            "Zen": "Zen",
+            "Determined": "Determined"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
+    },
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7f/Platimous.png/250px-Platimous.png?version=4d26af36afe7f53a1ac87c7bae37c16c",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e4/LumaPlatimous.png/250px-LumaPlatimous.png?version=7d651460a312bc00f6ce80231080d4b1",
+    "locations": [],
+    "icon": "/images/portraits/temtem/large/Platimous.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Platimous.png",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 85,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 2,
+      "atk": 0,
+      "def": 0,
+      "spatk": 2,
+      "spdef": 0
+    },
+    "gameDescription": "Charles Temwin described them as \"Platox, but more so\". This is usually taken as classic Arburian understatement - Platimous were amongst the most successful apex predators before large scale taming, and remain very effective fighters."
   },
   {
     "number": 10,
