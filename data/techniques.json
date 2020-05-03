@@ -12,7 +12,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Team",
+    "targets": "Other Team or Ally",
     "description": "A burst of allergen spores that inflicts damage to the whole team."
   },
   {
@@ -200,7 +200,7 @@
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "\"Originated as an Omninesian technique to reach hanging fruit in the jungle canopy.\""
   },
   {
@@ -545,9 +545,9 @@
     "hold": 2,
     "priority": "low",
     "priorityIcon": "/images/icons/priority/low.png",
-    "synergy": "None",
+    "synergy": "",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Other Team or Ally",
     "description": "Feel the Earth shake under your feet, rising with Anak-like force - slow, but devastating for the whole team."
   },
   {
@@ -563,7 +563,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Team",
+    "targets": "Other Team or Ally",
     "description": "True Electric storm like the monsoon over Cipanku. Damages whole team."
   },
   {
@@ -740,7 +740,7 @@
         "damage": 0
       }
     ],
-    "targets": "Single Team",
+    "targets": "Other Team or Ally",
     "description": "Watch the opponent get all bogged down. The whole team gets SPD -1."
   },
   {
@@ -1056,7 +1056,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Target",
     "description": "Watch your enemies choke as you turn around and... take their breath away."
   },
   {
@@ -1078,7 +1078,7 @@
         "damage": 0
       }
     ],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "An extreme version of the ice water bucket challenge that does real damage."
   },
   {
@@ -1092,9 +1092,9 @@
     "hold": 0,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "Unknown",
+    "synergy": "",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "An obscure technique created by the secretive Iwaba clan, deep in the Cipanki hills, Cold for 2 turns."
   },
   {
@@ -1142,7 +1142,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Self",
+    "targets": "Other Team or Ally",
     "description": "That \"don't mess with me\" look makes the target team exhausted for 1 turn."
   },
   {
@@ -1190,7 +1190,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Team",
+    "targets": "Other Team or Ally",
     "description": "When the king roars, the rest run away. Decreases SPD and ATK of the other team."
   },
   {
@@ -1222,7 +1222,7 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Team",
+    "targets": "Other Team or Ally",
     "description": "Twinkle twinkle little Tem... The whole opponent team falls Asleep for 2 turns."
   },
   {
@@ -1340,7 +1340,7 @@
         "damage": 0
       }
     ],
-    "targets": "Single Team",
+    "targets": "Other Team or Ally",
     "description": "Death from above... A barrage of flaming meteorites that inflicts Fire damage on the whole team."
   },
   {
@@ -1426,7 +1426,7 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "A potent attack that exhausts the attacker's psyche, making it Asleep for 2 turns."
   },
   {
@@ -1612,9 +1612,9 @@
     "hold": 0,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "Unknown",
+    "synergy": "",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Target",
     "description": "Strike smarter, not harder. Weak, but decreases the enemy DEF by 1 stage"
   },
   {
@@ -1646,7 +1646,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Team",
+    "targets": "Other Team or Ally",
     "description": "Noxious fumes, almost unheard-of in the unspoilt Archipelago. They Poison the whole team for 2 turns."
   },
   {
@@ -1662,7 +1662,7 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "An enhanced version of Psy that inflicts so much psychological damage that it bleeds into the somatic."
   },
   {
@@ -1678,7 +1678,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "\"Mens sana in corpore sano\"... but the other way around."
   },
   {
@@ -1840,7 +1840,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Team",
+    "targets": "Other Team or Ally",
     "description": "A mighty roar at a crucial moment, to intimidate rivals for ATK-1."
   },
   {
@@ -1990,7 +1990,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Team",
+    "targets": "Other Team or Ally",
     "description": "Widely used by Accademia teachers, this Neutral attack deafens the whole class... eh, team."
   },
   {
@@ -2022,7 +2022,7 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "Nothing slows you down like being swamped in sticky goo... Traps for 2 turns and gives SPD[-].."
   },
   {
@@ -2114,7 +2114,7 @@
         "damage": 0
       }
     ],
-    "targets": "?",
+    "targets": "Single Target",
     "description": "The bane of exploring archaeologists, this is a mighty Earth technique."
   },
   {
@@ -2162,7 +2162,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "Sweep the board at one fell swoop."
   },
   {
@@ -2178,7 +2178,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "Reportedly feels \"like combing your brain with concertina wire.\""
   },
   {
@@ -2210,7 +2210,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "Tentacles. Why did it have to be tentacles?"
   },
   {
@@ -2333,7 +2333,7 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "Toxin-carrying spores that inoculate with Poisoned Condition for 3 turns."
   },
   {
@@ -2360,7 +2360,7 @@
         "damage": 0
       }
     ],
-    "targets": "Single Team",
+    "targets": "Other Team or Ally",
     "description": "\"Summon a rarely seen tidal wave that damages a whole team.\""
   },
   {
@@ -2430,7 +2430,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "Melee Temtem are all about raw strength. This technique is its sincerest expression."
   },
   {
@@ -2452,7 +2452,7 @@
         "damage": 0
       }
     ],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "The substance known as Urushiol is a virulent toxic agent."
   },
   {
@@ -2560,7 +2560,7 @@
         "damage": 24
       }
     ],
-    "targets": "?",
+    "targets": "Single Target",
     "description": "As pretty (but much deadlier) than Denizan Water lillies"
   },
   {
