@@ -28,10 +28,7 @@ I used `node@10.17.0` to develop it.
 | `data`           | Runs data fetching scripts.                                                                                        |
 | `assets`         | Runs asset fetching scripts.                                                                                       |
 | `summary`        | Generates summary of fetched data.                                                                                 |
-| `checker`        | Checks generated data against codecs in `./scripts/checker/codecs` using [io-ts](https://github.com/gcanti/io-ts). |
-| `sync`           | Sequentially runs `yarn data`, `yarn assets`, and `yarn summary`.                                                  |
-| `push`           | Pushes `./data` and `./public` changes to GitHub.                                                                  |
-| `sync:push`      | Sequentially runs `yarn sync` followed by `yarn push`.                                                             |
+
 
 ## Config
 
