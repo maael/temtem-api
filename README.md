@@ -7,9 +7,7 @@ A JSON API to return data about the game [Temtem](https://crema.gg/games/temtem/
 ## Install
 
 ```sh
-git clone git@github.com:maael/temtem-api.git
-cd temtem-api
-yarn
+echo "Test"
 ```
 
 I used `node@10.17.0` to develop it.
