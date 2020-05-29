@@ -1,8 +1,7 @@
 import got from "got";
-import logHit from "../../util/logHit";
 const summary = require("../../data/summary.json");
 
-export default logHit(async (_req, res) => {
+export default async (_req, res) => {
   const [lastChecked, lastBuildStatus] = await Promise.all([
     getCiInfo(),
     getCiMostRecentStatus()
@@ -12,7 +11,7 @@ export default logHit(async (_req, res) => {
     lastUpdated: summary.mostRecent,
     lastBuildStatus
   });
-}, "info");
+};
 
 async function getCiInfo() {
   try {

@@ -3,8 +3,7 @@
   "version": 2,
   "build": {
     "env": {
-      "CIRCLECI_TOKEN": "@temtem-api-circleci-token",
-      "OAK_SECRET_TOKEN": "@oak-secret-token"
+      "CIRCLECI_TOKEN": "@temtem-api-circleci-token"
     }
   }
 }

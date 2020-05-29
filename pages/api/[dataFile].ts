@@ -1,5 +1,4 @@
 import cors from "../../util/cors";
-import { attemptLog } from "../../util/logHit";
 
 const dataMap = {
   breeding: [],
@@ -21,7 +20,6 @@ export default cors(async (req, res) => {
   const { dataFile } = req.query;
   const dataFileStr = dataFile.toString();
   if (Object.keys(dataMap).includes(dataFileStr)) {
-    await attemptLog(req, dataFileStr);
     res.json(dataMap[dataFileStr]);
   } else {
     res.status(404).send("Not found");
