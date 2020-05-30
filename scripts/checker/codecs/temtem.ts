@@ -72,6 +72,7 @@ export const Codec = t.type({
     female: t.number
   }),
   catchRate: t.number,
+  hatchMins: t.number,
   tvYields: t.type({
     hp: t.number,
     sta: t.number,

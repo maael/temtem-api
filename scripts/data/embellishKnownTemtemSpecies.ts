@@ -81,6 +81,7 @@ export interface Temtem extends MinimalTemtem {
     female: number;
   };
   catchRate: number;
+  hatchMins: number;
   tvYields: Record<keyof Omit<MinimalTemtem["stats"], "total">, number>;
   gameDescription: string;
 }
@@ -93,6 +94,7 @@ export default async function embellishKnownTemtemSpecies(
     const webpages = await fetchHTML("temtem", ar, "name", true);
     const result = webpages
       .map(({ item, html }) => {
+        const catchRate = getCatchRate(html);
         return {
           ...item,
           traits: getTraits(html),
@@ -106,7 +108,8 @@ export default async function embellishKnownTemtemSpecies(
           icon: `/images/portraits/temtem/large/${item.name}.png`,
           lumaIcon: `/images/portraits/temtem/luma/large/${item.name}.png`,
           genderRatio: getGenderRatio(html),
-          catchRate: getCatchRate(html),
+          catchRate,
+          hatchMins: calculateHatchMins(catchRate),
           tvYields: getTvYield(html),
           gameDescription: getGameDescription(html)
         };
@@ -116,6 +119,10 @@ export default async function embellishKnownTemtemSpecies(
   } catch (e) {
     log.error(e);
   }
+}
+
+function calculateHatchMins(catchRate: number) {
+  return 45 - catchRate / 5;
 }
 
 function getLocations(html: string) {
