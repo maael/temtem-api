@@ -92,6 +92,10 @@ Some extremely fuzzy and out of date types are available from [@maael/temtem-typ
 
 Also fair warning, I made this quick, so while it is Typescript, it's super loose with `any`s all over the place.
 
+## Sources
+
+- [Hatch Time Formula](https://www.reddit.com/r/PlayTemtem/comments/gteu4c/formula_for_egg_timer/)
+
 ## Todo
 
 - [ ] Breeding API endpoint
