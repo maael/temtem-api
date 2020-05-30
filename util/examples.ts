@@ -389,6 +389,7 @@ export const knownTemtemExample = [
       female: 50
     },
     catchRate: 120,
+    hatchMins: 21,
     tvYields: {
       hp: 0,
       sta: 0,
