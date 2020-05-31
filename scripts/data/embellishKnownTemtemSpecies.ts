@@ -122,7 +122,7 @@ export default async function embellishKnownTemtemSpecies(
 }
 
 function calculateHatchMins(catchRate: number) {
-  return 45 - catchRate / 5;
+  return 40 - catchRate / 5 + 5;
 }
 
 function getLocations(html: string) {
