@@ -10132,7 +10132,25 @@
       "Kuri comes from \"Kura\", hyena in Hausa language."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 100,
+          "name": "Kuri",
+          "stage": 1,
+          "levels": 0,
+          "trading": false,
+          "traitMapping": {}
+        },
+        {
+          "number": 101,
+          "name": "Kauren",
+          "stage": 2,
+          "traitMapping": {}
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/5/52/Kuri.png?version=390953983911117ef4c884d3c715f45f",
     "lumaWikiPortraitUrlLarge": "",
