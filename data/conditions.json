@@ -1,17 +1,17 @@
 [
   {
     "name": "Cold",
-    "description": "If Cold is afflicted twice, the Temtem becomes Frozen. Frozen Temtem cannot attack, but they can rest normally. Cold and Frozen also serve to erase the Burnt Condition from a Temtem, while Burnt erases both Cold and Frozen.",
+    "description": "If Cold is afflicted twice, the Temtem becomes Frozen. Frozen Temtem cannot attack, but they can rest normally. Cold and Frozen also serve to erase the Burned Condition from a Temtem, while Burned erases both Cold and Frozen.",
     "icon": "/images/icons/conditions/Cold.png"
   },
   {
     "name": "Frozen",
-    "description": "If Cold is afflicted twice, the Temtem becomes Frozen. Frozen Temtem cannot attack, but they can rest normally. Cold and Frozen also serve to erase the Burnt Condition from a Temtem, while Burnt erases both Cold and Frozen.",
+    "description": "If Cold is afflicted twice, the Temtem becomes Frozen. Frozen Temtem cannot attack, but they can rest normally. Cold and Frozen also serve to erase the Burned Condition from a Temtem, while Burned erases both Cold and Frozen.",
     "icon": "/images/icons/conditions/Frozen.png"
   },
   {
     "name": "Asleep",
-    "description": "Asleep Temtem cannot attack, but if they are damaged, they wake up (the condition is removed). Any damage that is done to the Temtem will remove the Asleep Condition, including damage from other conditions like Burnt or Poison. Upon waking, the Temtem will gain the Alerted Condition until the end of the next turn.Mental type Temtem are immune against this condition.",
+    "description": "Asleep Temtem cannot attack, but if they are damaged, they wake up (the condition is removed). Any damage that is done to the Temtem will remove the Asleep Condition, including damage from other conditions like Burned or Poison. Upon waking, the Temtem will gain the Alerted Condition until the end of the next turn.Mental type Temtem are immune against this condition.",
     "icon": "/images/icons/conditions/Asleep.png"
   },
   {
@@ -35,9 +35,9 @@
     "icon": "/images/icons/conditions/Poisoned.png"
   },
   {
-    "name": "Burnt",
-    "description": "Burnt Temtem lose 1/16 of health every turn and it reduces both attack and special attack by 30%. Temtem of the Fire Type are immune against this condition. The Burnt condition erases Cold and Frozen when applied to a Temtem, while both can similarly erase the Burnt from a Temtem.",
-    "icon": "/images/icons/conditions/Burnt.png"
+    "name": "Burned",
+    "description": "Burned Temtem lose 1/16 of health every turn and it reduces both attack and special attack by 30%. Temtem of the Fire Type are immune against this condition. The Burned condition erases Cold and Frozen when applied to a Temtem, while both can similarly erase the Burned from a Temtem.",
+    "icon": "/images/icons/conditions/Burned.png"
   },
   {
     "name": "Exhausted",
