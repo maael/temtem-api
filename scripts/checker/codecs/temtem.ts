@@ -82,7 +82,15 @@ export const Codec = t.type({
     spatk: t.number,
     spdef: t.number
   }),
-  gameDescription: t.string
+  gameDescription: t.string,
+  wikiRenderStaticUrl: t.string,
+  wikiRenderAnimatedUrl: t.string,
+  wikiRenderStaticLumaUrl: t.string,
+  wikiRenderAnimatedLumaUrl: t.string,
+  renderStaticImage: t.string,
+  renderStaticLumaImage: t.string,
+  renderAnimatedImage: t.string,
+  renderAnimatedLumaImage: t.string
 });
 
 export const TemtemList = t.array(Codec);

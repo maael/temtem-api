@@ -400,7 +400,15 @@ export const knownTemtemExample = [
       spdef: 0
     },
     gameDescription:
-      "Many Cipanki legends mention the kind but powerful Ganki as mountain spirits, mythologically related to lightning and whirlwinds. Although they are no longer revered as kami, the Cipanki still appreciate and breed them."
+      "Many Cipanki legends mention the kind but powerful Ganki as mountain spirits, mythologically related to lightning and whirlwinds. Although they are no longer revered as kami, the Cipanki still appreciate and breed them.",
+    wikiRenderStaticUrl: "",
+    wikiRenderAnimatedUrl: "",
+    wikiRenderStaticLumaUrl: "",
+    wikiRenderAnimatedLumaUrl: "",
+    renderStaticImage: "",
+    renderStaticLumaImage: "",
+    renderAnimatedImage: "",
+    renderAnimatedLumaImage: ""
   }
 ];
 

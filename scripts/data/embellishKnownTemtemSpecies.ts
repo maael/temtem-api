@@ -1,3 +1,4 @@
+import path from "path";
 import cheerio from "cheerio";
 import * as log from "../util/log";
 import fetchHTML from "../util/fetchHTML";
@@ -84,6 +85,14 @@ export interface Temtem extends MinimalTemtem {
   hatchMins: number;
   tvYields: Record<keyof Omit<MinimalTemtem["stats"], "total">, number>;
   gameDescription: string;
+  wikiRenderStaticUrl: string;
+  wikiRenderAnimatedUrl: string;
+  wikiRenderStaticLumaUrl: string;
+  wikiRenderAnimatedLumaUrl: string;
+  renderStaticImage: string;
+  renderStaticLumaImage: string;
+  renderAnimatedImage: string;
+  renderAnimatedLumaImage: string;
 }
 
 export default async function embellishKnownTemtemSpecies(
@@ -95,6 +104,7 @@ export default async function embellishKnownTemtemSpecies(
     const result = webpages
       .map(({ item, html }) => {
         const catchRate = getCatchRate(html);
+        const renderedImages = getRenderImages(html);
         return {
           ...item,
           traits: getTraits(html),
@@ -111,7 +121,23 @@ export default async function embellishKnownTemtemSpecies(
           catchRate,
           hatchMins: calculateHatchMins(catchRate),
           tvYields: getTvYield(html),
-          gameDescription: getGameDescription(html)
+          gameDescription: getGameDescription(html),
+          wikiRenderStaticUrl: renderedImages.static.normal,
+          wikiRenderAnimatedUrl: renderedImages.animated.normal,
+          wikiRenderStaticLumaUrl: renderedImages.static.luma,
+          wikiRenderAnimatedLumaUrl: renderedImages.animated.luma,
+          renderStaticImage: renderedImages.static.normal
+            ? `/images/renders/temtem/static/${item.name}.png`
+            : "",
+          renderStaticLumaImage: renderedImages.static.luma
+            ? `/images/renders/temtem/static/${item.name}.png`
+            : "",
+          renderAnimatedImage: renderedImages.animated.normal
+            ? `/images/renders/temtem/luma/animated/${item.name}.gif`
+            : "",
+          renderAnimatedLumaImage: renderedImages.animated.luma
+            ? `/images/renders/temtem/luma/animated/${item.name}.gif`
+            : ""
         };
       })
       .sort((a, b) => a.number - b.number);
@@ -119,6 +145,64 @@ export default async function embellishKnownTemtemSpecies(
   } catch (e) {
     log.error(e);
   }
+}
+
+function getRenderImages(html: string, debug: boolean = false) {
+  const $ = cheerio.load(html);
+  const staticImages = typedToArray<{ luma: boolean; url: string }>(
+    $("a[href*=full_render]").map((_i, el) => {
+      const originalUrl = (
+        $(el)
+          .find("img")
+          .attr("src") || ""
+      ).replace("/thumb/", "/");
+      return {
+        luma: ($(el).attr("href") || "").includes("/File:Luma"),
+        url: originalUrl
+          .replace(`/${path.parse(originalUrl).name}`, "")
+          .replace(".png.png", ".png")
+          .replace(".gif.gif", ".gif")
+      };
+    })
+  ).reduce(
+    (acc, { luma, url }) => ({ ...acc, [luma ? "luma" : "normal"]: url }),
+    { normal: "", luma: "" }
+  );
+  if (debug) {
+    console.info("static", staticImages);
+  }
+  const animatedImages = typedToArray<{ luma: boolean; url: string }>(
+    $("a[href*=idle_animation]").map((_i, el) => {
+      const originalUrl = (
+        $(el)
+          .find("img")
+          .attr("src") || ""
+      ).replace("/thumb/", "/");
+      return {
+        luma: ($(el).attr("href") || "").includes("/File:Luma"),
+        url: originalUrl
+          .replace(`/${path.parse(originalUrl).name}`, "")
+          .replace(".png.png", ".png")
+          .replace(".gif.gif", ".gif")
+      };
+    })
+  ).reduce(
+    (acc, { luma, url }) => ({ ...acc, [luma ? "luma" : "normal"]: url }),
+    { normal: "", luma: "" }
+  );
+  if (debug) {
+    console.info("animated", animatedImages);
+  }
+  return {
+    static: {
+      normal: staticImages.normal || staticImages.luma,
+      luma: staticImages.luma || staticImages.normal
+    },
+    animated: {
+      normal: animatedImages.normal || animatedImages.luma,
+      luma: animatedImages.luma || animatedImages.normal
+    }
+  };
 }
 
 function calculateHatchMins(catchRate: number) {
