@@ -130,10 +130,10 @@ export default async function embellishKnownTemtemSpecies(
             ? `/images/renders/temtem/static/${item.name}.png`
             : "",
           renderStaticLumaImage: renderedImages.static.luma
-            ? `/images/renders/temtem/static/${item.name}.png`
+            ? `/images/renders/temtem/luma/static/${item.name}.png`
             : "",
           renderAnimatedImage: renderedImages.animated.normal
-            ? `/images/renders/temtem/luma/animated/${item.name}.gif`
+            ? `/images/renders/temtem/animated/${item.name}.gif`
             : "",
           renderAnimatedLumaImage: renderedImages.animated.luma
             ? `/images/renders/temtem/luma/animated/${item.name}.gif`
