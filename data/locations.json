@@ -420,7 +420,18 @@
     "type": "island",
     "imageWikiThumbnail": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/93/Kisiwa.png/160px-Kisiwa.png",
     "imageWikiFile": "https://temtem.gamepedia.com/File:Kisiwa.png",
-    "routes": [],
+    "routes": [
+      {
+        "name": "edit",
+        "wikiUrl": "https://temtem.gamepedia.com/index.php?title=Kisiwa&veaction=edit&section=2",
+        "type": "route"
+      },
+      {
+        "name": "edit source",
+        "wikiUrl": "https://temtem.gamepedia.com/index.php?title=Kisiwa&action=edit&section=2",
+        "type": "route"
+      }
+    ],
     "townsAndVillages": [
       {
         "name": "Vumbi",
