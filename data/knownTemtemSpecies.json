@@ -688,7 +688,7 @@
         }
       },
       {
-        "location": "Saipark, Caves",
+        "location": "Saipark Caves",
         "place": "Saipark",
         "note": "Caves",
         "island": "Deniz",
@@ -2064,7 +2064,7 @@
         "place": "The Gifted Bridges",
         "note": "",
         "island": "Deniz",
-        "frequency": "Very Rare (5%)",
+        "frequency": "5%",
         "level": "8-10",
         "freetem": {
           "minLevel": 8,
@@ -2078,7 +2078,7 @@
         "place": "The Canopath",
         "note": "",
         "island": "Omninesia",
-        "frequency": "Rare (20%)",
+        "frequency": "20%",
         "level": "16-18",
         "freetem": {
           "minLevel": 16,
@@ -2092,7 +2092,7 @@
         "place": "The Flywalk",
         "note": "",
         "island": "Omninesia",
-        "frequency": "Rare (20%)",
+        "frequency": "20%",
         "level": "18-21",
         "freetem": {
           "minLevel": 18,
@@ -2106,7 +2106,7 @@
         "place": "The Glassyway",
         "note": "",
         "island": "Omninesia",
-        "frequency": "Rare (20%)",
+        "frequency": "20%",
         "level": "20-22",
         "freetem": {
           "minLevel": 20,
@@ -2612,7 +2612,7 @@
         "place": "Mines of Mictlan",
         "note": "",
         "island": "Tucma",
-        "frequency": "Uncommon (70%)",
+        "frequency": "70%",
         "level": "31-34",
         "freetem": {
           "minLevel": 31,
@@ -2626,7 +2626,7 @@
         "place": "Kakama Cenote",
         "note": "",
         "island": "Tucma",
-        "frequency": "Uncommon (75%)",
+        "frequency": "75%",
         "level": "35-39",
         "freetem": {
           "minLevel": 35,
@@ -2802,7 +2802,7 @@
         "place": "Mines of Mictlan",
         "note": "",
         "island": "Tucma",
-        "frequency": "Very Rare (5%)",
+        "frequency": "5%",
         "level": "32-36",
         "freetem": {
           "minLevel": 32,
@@ -2988,7 +2988,7 @@
         "place": "The Canopath",
         "note": "",
         "island": "Omninesia",
-        "frequency": "Uncommon (40%)",
+        "frequency": "40%",
         "level": "14-17",
         "freetem": {
           "minLevel": 14,
@@ -3002,7 +3002,7 @@
         "place": "The Glassyway",
         "note": "",
         "island": "Omninesia",
-        "frequency": "Uncommon (50%)",
+        "frequency": "50%",
         "level": "19-22",
         "freetem": {
           "minLevel": 19,
@@ -3016,7 +3016,7 @@
         "place": "Giant Banyan",
         "note": "",
         "island": "Omninesia",
-        "frequency": "Uncommon (40%)",
+        "frequency": "40%",
         "level": "23-26",
         "freetem": {
           "minLevel": 23,
@@ -3216,7 +3216,7 @@
         "place": "The Glassyway",
         "note": "",
         "island": "Omninesia",
-        "frequency": "Rare (25%)",
+        "frequency": "25%",
         "level": "19-22",
         "freetem": {
           "minLevel": 19,
@@ -3593,7 +3593,7 @@
         "place": "Sillaro",
         "note": "River",
         "island": "Deniz",
-        "frequency": "Very Rare (15%)",
+        "frequency": "15%",
         "level": "14-15",
         "freetem": {
           "minLevel": 14,
@@ -3607,7 +3607,7 @@
         "place": "Mines of Mictlan",
         "note": "Water areas in route",
         "island": "Tucma",
-        "frequency": "Very Rare (15%)",
+        "frequency": "15%",
         "level": "32-38",
         "freetem": {
           "minLevel": 32,
@@ -3621,7 +3621,7 @@
         "place": "Kakama Cenote",
         "note": "",
         "island": "Tucma",
-        "frequency": "Uncommon (40%)",
+        "frequency": "40%",
         "level": "37-40",
         "freetem": {
           "minLevel": 37,
@@ -4187,7 +4187,7 @@
       "Houchic's name is derived from Houdini and psychic.",
       "The player remarks that Houchic \"looks like their old art teacher\".",
       "Houchic's appearance strongly resembles that of salamander larvae, making it one of the several known Temtem with this basis.",
-      "Along with Ganki, Houchic has the lowest base HP stat (38) of all Temtem."
+      "It and Ganki are tied for the lowest base HP of all Temtem at 38."
     ],
     "evolution": {
       "stage": 1,
@@ -4925,7 +4925,7 @@
         "place": "The Hangroad",
         "note": "",
         "island": "Omninesia",
-        "frequency": "Common",
+        "frequency": "Common (65%)",
         "level": "14-19",
         "freetem": {
           "minLevel": 14,
@@ -4935,11 +4935,11 @@
         }
       },
       {
-        "location": "The Glassyway",
+        "location": "The Glassyway, Above Crystal Path",
         "place": "The Glassyway",
-        "note": "",
+        "note": "Above Crystal Path",
         "island": "Omninesia",
-        "frequency": "Rare",
+        "frequency": "Rare (30%)",
         "level": "20-22",
         "freetem": {
           "minLevel": 20,
@@ -4949,16 +4949,44 @@
         }
       },
       {
-        "location": "Anak Volcano",
-        "place": "Anak Volcano",
-        "note": "",
+        "location": "The Glassyway, Rock-hopping Hook Island",
+        "place": "The Glassyway",
+        "note": "Rock-hopping Hook Island",
         "island": "Omninesia",
-        "frequency": "Uncommon",
-        "level": "20-24",
+        "frequency": "Common (50%)",
+        "level": "30-35",
         "freetem": {
-          "minLevel": 20,
+          "minLevel": 30,
+          "maxLevel": 35,
+          "minPansuns": 80,
+          "maxPansuns": 90
+        }
+      },
+      {
+        "location": "Anak Volcano, Entrance and Lab Area",
+        "place": "Anak Volcano",
+        "note": "Entrance and Lab Area",
+        "island": "Omninesia",
+        "frequency": "Common (50%)",
+        "level": "22-24",
+        "freetem": {
+          "minLevel": 22,
           "maxLevel": 24,
-          "minPansuns": 60,
+          "minPansuns": 64,
+          "maxPansuns": 68
+        }
+      },
+      {
+        "location": "Anak Volcano, Inner Paths",
+        "place": "Anak Volcano",
+        "note": "Inner Paths",
+        "island": "Omninesia",
+        "frequency": "Rare (10%)",
+        "level": "22-24",
+        "freetem": {
+          "minLevel": 22,
+          "maxLevel": 24,
+          "minPansuns": 64,
           "maxPansuns": 68
         }
       }
