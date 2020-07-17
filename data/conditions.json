@@ -41,12 +41,12 @@
   },
   {
     "name": "Exhausted",
-    "description": "The Stamina costs of an Exhausted Temtem increase by 50%.",
+    "description": "The Stamina costs of an Exhausted Temtem increase by 50%. The Vigorized condition and Exhausted condition remove each other; an Exhausted Temtem that becomes Vigorized will result in not having either condition.",
     "icon": "/images/icons/conditions/Exhausted.png"
   },
   {
     "name": "Vigorized",
-    "description": "The Stamina costs of a Vigorized Temtem decrease by 50%.",
+    "description": "The Stamina costs of a Vigorized Temtem decrease by 50%. The Vigorized condition and Exhausted condition remove each other; a Vigorized Temtem that becomes Exhausted will result in not having either condition.",
     "icon": "/images/icons/conditions/Vigorized.png"
   },
   {
