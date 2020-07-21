@@ -596,7 +596,7 @@
     "synergy": "Nature",
     "synergyEffects": [
       {
-        "effect": "+15 Base Power",
+        "effect": "+15 Base Damage",
         "type": "damage",
         "damage": 15
       },
@@ -1921,7 +1921,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "“ Evolution has armed Nature Temtem with advanced defenses against herbivores."
+    "description": "Evolution has armed Nature Temtem with advanced defenses against herbivores."
   },
   {
     "name": "Sharp Rain",
@@ -1952,7 +1952,7 @@
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Target",
+    "targets": "Single Other Target",
     "description": "Like winter in the Kilima peaks, this blizzard of sharp shards is as fast as piercing."
   },
   {
@@ -1969,7 +1969,7 @@
     "synergy": "Melee",
     "synergyEffects": [
       {
-        "effect": "+3 turn",
+        "effect": "+3 Turn  Vigor",
         "type": "condition",
         "damage": 0
       }
@@ -2023,7 +2023,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Nothing slows you down like being swamped in sticky goo... Traps for 2 turns and gives SPD[-].."
+    "description": "Nothing slows you down like being swamped in sticky goo... Traps for 2 turns and gives SPD -1."
   },
   {
     "name": "Slow Down",
@@ -2045,7 +2045,7 @@
       }
     ],
     "targets": "?",
-    "description": "To be Announced"
+    "description": "Currently, Slow Down is unavailable, so its unknown what it's description is."
   },
   {
     "name": "Sparks",
@@ -2109,12 +2109,12 @@
     "synergy": "Fire",
     "synergyEffects": [
       {
-        "effect": "Apply Burn for 2 turns",
+        "effect": "+2 Turns Burn",
         "type": "condition",
         "damage": 0
       }
     ],
-    "targets": "Single Target",
+    "targets": "Single Other Target",
     "description": "The bane of exploring archaeologists, this is a mighty Earth technique."
   },
   {
@@ -2227,7 +2227,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "“ An electromagnetic trap that does light damage and slows down the target (SPD -1)."
+    "description": "An electromagnetic trap that does light damage and slows down the target (SPD -1)."
   },
   {
     "name": "Tornado",
@@ -2317,7 +2317,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Target",
+    "targets": "Single Other Target",
     "description": "This takes the form of a repulsive wave of slime that hurts the body... and your self-esteem."
   },
   {
@@ -2350,7 +2350,7 @@
     "synergy": "Wind",
     "synergyEffects": [
       {
-        "effect": "+10 DMG",
+        "effect": "+10 Base Damage",
         "type": "damage",
         "damage": 10
       },
@@ -2377,7 +2377,7 @@
     "synergy": "Fire",
     "synergyEffects": [],
     "targets": "?",
-    "description": "To be Announced"
+    "description": "Currently, Turbo Attack is unavailable, so its unknown what it's description is."
   },
   {
     "name": "Turbo Charge",
@@ -2409,7 +2409,7 @@
     "synergy": "Wind",
     "synergyEffects": [
       {
-        "effect": "+2 SPD for entire team",
+        "effect": "+2 SPD",
         "type": "buff",
         "damage": 0
       }
@@ -2447,7 +2447,7 @@
     "synergy": "Toxic",
     "synergyEffects": [
       {
-        "effect": "+4 turn Poison",
+        "effect": "+4 Turns  Poison",
         "type": "condition",
         "damage": 0
       }
@@ -2469,7 +2469,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "“ When the look of your claws doesn't prevent the fight, the poison finishes it."
+    "description": "When the look of your claws doesn't prevent the fight, the poison finishes it."
   },
   {
     "name": "Wake Up",
@@ -2484,7 +2484,7 @@
     "priorityIcon": "/images/icons/priority/veryhigh.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Target",
+    "targets": "Single Other Target",
     "description": "\"Wake up and smell the coffee! Inflicts minimal damage but wakes up the target instantly.\""
   },
   {
@@ -2501,7 +2501,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Some Temtem are so warm and cuddly that they can weaponise that love into a Fire technique."
+    "description": "Some Temtem are so warm and cuddly that they can weaponize that love into a Fire technique."
   },
   {
     "name": "Water Blade",
@@ -2533,7 +2533,7 @@
     "synergy": "Toxic",
     "synergyEffects": [
       {
-        "effect": "+2 turn Poison",
+        "effect": "+2 Turns Poison",
         "type": "condition",
         "damage": 0
       }
@@ -2555,12 +2555,12 @@
     "synergy": "Water",
     "synergyEffects": [
       {
-        "effect": "+24 Damage",
+        "effect": "+24 Base Damage",
         "type": "damage",
         "damage": 24
       }
     ],
-    "targets": "Single Target",
+    "targets": "Single Other Target",
     "description": "As pretty (but much deadlier) than Denizan Water lillies"
   },
   {
