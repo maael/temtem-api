@@ -61,7 +61,7 @@
     "synergy": "Earth",
     "synergyEffects": [
       {
-        "effect": "+24 Base Power",
+        "effect": "+24 Base Damage",
         "type": "damage",
         "damage": 24
       }
@@ -452,7 +452,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Currently, Data Burst is unavailable, so it is unknown what it's description is."
+    "description": "Currently, Data Burst is unavailable, so its unknown what it's description is."
   },
   {
     "name": "DC Beam",
@@ -719,7 +719,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "?",
-    "description": "To be Announced."
+    "description": "Currently, Firewall is unavailable, so it is unknown what it's description is."
   },
   {
     "name": "Flood",
@@ -805,7 +805,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "TechniquesDesc/Tech_99"
+    "description": "Currently, Gamma Burst is unavailable, so it is unknown what it's description is."
   },
   {
     "name": "Glass Blade",
@@ -820,7 +820,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Target",
+    "targets": "Single Other Target",
     "description": "Like death by a thousand cuts... but this is just one of them."
   },
   {
@@ -869,13 +869,13 @@
     "synergy": "Mental",
     "synergyEffects": [
       {
-        "effect": "+50 Special Damage",
+        "effect": "+50 Base Damage",
         "type": "damage",
         "damage": 50
       }
     ],
     "targets": "Single Other Target",
-    "description": "Suggestive and Toxic visions that exhaust the mind and tire the target for 2 turns."
+    "description": "Suggestive and Toxic visions that exhaust the mind and {condition|Exhausted|20|n}} tire the target for 2 turns."
   },
   {
     "name": "Harmful Lick",
@@ -906,7 +906,7 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Target",
+    "targets": "Single Other Target",
     "description": "There are many clever uses for a large skull. This is not one of them, but it's effective."
   },
   {
@@ -1056,7 +1056,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Target",
+    "targets": "Single Other Target",
     "description": "Watch your enemies choke as you turn around and... take their breath away."
   },
   {
@@ -1207,7 +1207,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Self",
-    "description": "“ The sap of life, from the living heart of the Giant Banyan. Heals 10% HP for 7 turns."
+    "description": "The sap of life, from the living heart of the Giant Banyan. Heals 10% HP for 7 turns."
   },
   {
     "name": "Lullaby",
@@ -1303,7 +1303,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "To be Announced."
+    "description": "Currently, Mechanical Heat is unavailable, so its unknowns what it's description is."
   },
   {
     "name": "Meditation",
@@ -1316,10 +1316,10 @@
     "hold": 0,
     "priority": "unknown",
     "priorityIcon": "/images/icons/priority/unknown.png",
-    "synergy": "Unknown",
+    "synergy": "?",
     "synergyEffects": [],
     "targets": "?",
-    "description": "To be Announced."
+    "description": "Currently, Meditation is unavailable, so its unknown what it's description is."
   },
   {
     "name": "Meteor Swarm",
@@ -1335,7 +1335,7 @@
     "synergy": "Fire",
     "synergyEffects": [
       {
-        "effect": "+1 turn Burn",
+        "effect": "+1 turn  Burn",
         "type": "condition",
         "damage": 0
       }
@@ -1373,7 +1373,7 @@
     "synergy": "Water",
     "synergyEffects": [
       {
-        "effect": "3 turn",
+        "effect": "+3 turn  Immune",
         "type": "condition",
         "damage": 0
       }
@@ -1507,12 +1507,12 @@
     "synergy": "Melee",
     "synergyEffects": [
       {
-        "effect": "+21 Damage",
+        "effect": "+21 Base Damage",
         "type": "damage",
         "damage": 21
       }
     ],
-    "targets": "Single Target",
+    "targets": "Single Other Target",
     "description": "Just one step above a slap, but everybody's got to start somewhere."
   },
   {
@@ -1529,7 +1529,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "“ This nasty stinker Inflicts Toxic damage... Just don't use it in an elevator..."
+    "description": "This nasty stinker Inflicts Toxic damage... Just don't use it in an elevator..."
   },
   {
     "name": "Oshi-Dashi",
@@ -1554,14 +1554,14 @@
     "class": "Status",
     "classIcon": "/images/icons/technique/Status.png",
     "damage": 0,
-    "staminaCost": 10,
+    "staminaCost": 0,
     "hold": 0,
-    "priority": "normal",
-    "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "None",
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "?",
     "synergyEffects": [],
     "targets": "?",
-    "description": "To be Announced"
+    "description": "Currently, Overclock is unavailable, so its unknown what it's description is."
   },
   {
     "name": "Paralysing Poison",
@@ -1577,7 +1577,7 @@
     "synergy": "Toxic",
     "synergyEffects": [
       {
-        "effect": "+2 turn  Poison",
+        "effect": "+2 turns  Poison",
         "type": "condition",
         "damage": 0
       }
@@ -1612,9 +1612,9 @@
     "hold": 0,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "",
+    "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Target",
+    "targets": "Single Other Target",
     "description": "Strike smarter, not harder. Weak, but decreases the enemy DEF by 1 stage"
   },
   {
@@ -1695,13 +1695,13 @@
     "synergy": "Mental",
     "synergyEffects": [
       {
-        "effect": "+169 DMG",
+        "effect": "+169 Base Damage",
         "type": "damage",
         "damage": 169
       }
     ],
     "targets": "Single Other Target",
-    "description": "This Mental technique does a meagre 1 damage... It's all in your mind, after all."
+    "description": "This Mental technique does a meager 1 damage... It's all in your mind, after all."
   },
   {
     "name": "Psychosis",
@@ -1711,13 +1711,13 @@
     "classIcon": "/images/icons/technique/Status.png",
     "damage": 0,
     "staminaCost": 0,
-    "hold": 3,
+    "hold": 0,
     "priority": "unknown",
     "priorityIcon": "/images/icons/priority/unknown.png",
     "synergy": "None",
     "synergyEffects": [],
     "targets": "?",
-    "description": "Apply a 4 Turn Doom Counter on the Target."
+    "description": "Currently, Psychosis is unavailable, so its unknown what it's description is."
   },
   {
     "name": "Rage",
@@ -1749,7 +1749,7 @@
     "synergy": "Melee",
     "synergyEffects": [
       {
-        "effect": "+20 (Base 85) DMG",
+        "effect": "+20 Base Damage",
         "type": "damage",
         "damage": 20
       }
@@ -1768,10 +1768,10 @@
     "hold": 0,
     "priority": "unknown",
     "priorityIcon": "/images/icons/priority/unknown.png",
-    "synergy": "Unknown",
+    "synergy": "?",
     "synergyEffects": [],
     "targets": "?",
-    "description": "To be Announced"
+    "description": "Currently, Regenerate is unavailable, so its unknown what it's description is."
   },
   {
     "name": "Relax",
@@ -1819,12 +1819,12 @@
     "synergy": "Nature",
     "synergyEffects": [
       {
-        "effect": "STA -4 Recovers 10% of user's HP",
+        "effect": "-4 STA Recovers 10% of user's HP",
         "type": "buff",
         "damage": 0
       }
     ],
-    "targets": "Single Team",
+    "targets": "Single Other Target",
     "description": "Antiseptic and a couple of bandages. Target recovers 25% HP."
   },
   {
@@ -1841,7 +1841,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Other Team or Ally",
-    "description": "A mighty roar at a crucial moment, to intimidate rivals for ATK-1."
+    "description": "A mighty roar at a crucial moment, to intimidate rivals for ATK -1."
   },
   {
     "name": "Roots",
