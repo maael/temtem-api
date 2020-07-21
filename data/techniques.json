@@ -220,6 +220,22 @@
     "description": "Bubbles! <3 This weakens the target by means of extreme cuteness."
   },
   {
+    "name": "Burrow",
+    "wikiUrl": "https://temtem.gamepedia.com/Burrow",
+    "type": "Earth",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 12,
+    "hold": 1,
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "\"In a hole in the ground there lived a Temtem...\" which allowed it to evade for 4 turns."
+  },
+  {
     "name": "Cage",
     "wikiUrl": "https://temtem.gamepedia.com/Cage",
     "type": "Neutral",
@@ -234,6 +250,22 @@
     "synergyEffects": [],
     "targets": "All",
     "description": "In you go, Nick! Everyone on the battlefield gets Trapped for 2 turns."
+  },
+  {
+    "name": "Chain Heal",
+    "wikiUrl": "https://temtem.gamepedia.com/Chain_Heal",
+    "type": "Neutral",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 20,
+    "hold": 2,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Healing is a collective process - in clockwise order, 3 Temtem recover 20% health."
   },
   {
     "name": "Chain Lightning",
@@ -412,8 +444,8 @@
     "type": "Crystal",
     "class": "Special",
     "classIcon": "/images/icons/technique/Special.png",
-    "damage": 120,
-    "staminaCost": 27,
+    "damage": 110,
+    "staminaCost": 29,
     "hold": 0,
     "priority": "high",
     "priorityIcon": "/images/icons/priority/high.png",
@@ -485,6 +517,22 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Harder than the hardest Crystal Temtem. Increases your own DEF and SPDEF by 2 stages each"
+  },
+  {
+    "name": "Double Gash",
+    "wikiUrl": "https://temtem.gamepedia.com/Double_Gash",
+    "type": "Melee",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 49,
+    "staminaCost": 7,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "None",
+    "description": "\"Tis but a scratch! Or two!\". This Melee Technique is nothing to write home about."
   },
   {
     "name": "Double Kick",
@@ -720,6 +768,22 @@
     "synergyEffects": [],
     "targets": "?",
     "description": "Currently, Firewall is unavailable, so it is unknown what it's description is."
+  },
+  {
+    "name": "Flaming Meteorite",
+    "wikiUrl": "https://temtem.gamepedia.com/Flaming_Meteorite",
+    "type": "Fire",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 145,
+    "staminaCost": 25,
+    "hold": 2,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Some Temtem can call on Highabove forces to bring down a fiery fire inferno on one enemy."
   },
   {
     "name": "Flood",
@@ -996,6 +1060,22 @@
     "description": "An industrial-grade water jet that packs real punch."
   },
   {
+    "name": "Hook Kick",
+    "wikiUrl": "https://temtem.gamepedia.com/Hook_Kick",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "",
+    "synergyEffects": [],
+    "targets": "None",
+    "description": "Temtem[edit | edit source]"
+  },
+  {
     "name": "Humiliating Slap",
     "wikiUrl": "https://temtem.gamepedia.com/Humiliating_Slap",
     "type": "Neutral",
@@ -1034,7 +1114,7 @@
     "class": "Status",
     "classIcon": "/images/icons/technique/Status.png",
     "damage": 0,
-    "staminaCost": 14,
+    "staminaCost": 17,
     "hold": 1,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
@@ -1232,14 +1312,14 @@
     "class": "Status",
     "classIcon": "/images/icons/technique/Status.png",
     "damage": 0,
-    "staminaCost": 15,
+    "staminaCost": 19,
     "hold": 0,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Self",
-    "description": "There is an edge to this madness - those willing to take 25% Damage will get SPDEF +2 and SPATK +2."
+    "description": "There is an edge to this madness - those willing to take 30% Damage will get SPDEF +2 and SPATK +2."
   },
   {
     "name": "Magma Cannon",
@@ -1634,6 +1714,22 @@
     "description": "Nature Temtem are unique in their use of Pan-sunlight to nourish themselves and recover 50% STA."
   },
   {
+    "name": "Pickpocket",
+    "wikiUrl": "https://temtem.gamepedia.com/Pickpocket",
+    "type": "Neutral",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 35,
+    "staminaCost": 17,
+    "hold": 1,
+    "priority": "veryhigh",
+    "priorityIcon": "/images/icons/priority/veryhigh.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "A dirty trick from the seedier alleys of Lochburg, uses nimble fingers (or claws) to Seize the target for 2 turns."
+  },
+  {
     "name": "Pollution",
     "wikiUrl": "https://temtem.gamepedia.com/Pollution",
     "type": "Toxic",
@@ -1890,6 +1986,22 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A fistful of humble sand becomes a faceful of dirty fighting."
+  },
+  {
+    "name": "Sand Storm",
+    "wikiUrl": "https://temtem.gamepedia.com/Sand_Storm",
+    "type": "Earth",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 69,
+    "staminaCost": 23,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "None",
+    "description": "Developed by the legendary tamer Da-Rud in ancient times, this Earth technique inflicts decent damage on the whole team."
   },
   {
     "name": "Scratch",
@@ -2416,6 +2528,22 @@
     ],
     "targets": "Single Team",
     "description": "\"The ancestral dance of Deniz is a powerful ritual that bestows protection, SPD +1 to the whole team.\""
+  },
+  {
+    "name": "Untangle",
+    "wikiUrl": "https://temtem.gamepedia.com/Untangle",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "?",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Technique Course[edit | edit source]"
   },
   {
     "name": "Uppercut",

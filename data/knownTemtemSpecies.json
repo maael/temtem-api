@@ -343,14 +343,6 @@
       {
         "name": "Flood",
         "source": "Breeding"
-      },
-      {
-        "name": "Intimidation",
-        "source": "Breeding"
-      },
-      {
-        "name": "Shrill Voice",
-        "source": "Breeding"
       }
     ],
     "trivia": [
@@ -617,14 +609,6 @@
       {
         "name": "Flood",
         "source": "Breeding"
-      },
-      {
-        "name": "Intimidation",
-        "source": "Breeding"
-      },
-      {
-        "name": "Shrill Voice",
-        "source": "Breeding"
       }
     ],
     "trivia": [
@@ -740,14 +724,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Platimous",
     "stats": {
-      "hp": 71,
+      "hp": 73,
       "sta": 49,
       "spd": 82,
       "atk": 56,
       "def": 39,
-      "spatk": 90,
+      "spatk": 93,
       "spdef": 70,
-      "total": 457
+      "total": 462
     },
     "traits": [
       "Zen",
@@ -852,14 +836,6 @@
       },
       {
         "name": "Flood",
-        "source": "Breeding"
-      },
-      {
-        "name": "Intimidation",
-        "source": "Breeding"
-      },
-      {
-        "name": "Shrill Voice",
         "source": "Breeding"
       }
     ],
@@ -2937,10 +2913,6 @@
         "source": "Breeding"
       },
       {
-        "name": "Water Cutting Lily",
-        "source": "Breeding"
-      },
-      {
         "name": "Sacrifice",
         "source": "Breeding"
       },
@@ -3133,6 +3105,11 @@
         "levels": 48
       },
       {
+        "name": "Chain Heal",
+        "source": "Levelling",
+        "levels": 58
+      },
+      {
         "name": "Wake Up",
         "source": "TechniqueCourses"
       },
@@ -3162,10 +3139,6 @@
       },
       {
         "name": "Lullaby",
-        "source": "Breeding"
-      },
-      {
-        "name": "Water Cutting Lily",
         "source": "Breeding"
       },
       {
@@ -6877,11 +6850,6 @@
         "levels": 4
       },
       {
-        "name": "Show Off",
-        "source": "Levelling",
-        "levels": 7
-      },
-      {
         "name": "Sharp Stabs",
         "source": "Levelling",
         "levels": 12
@@ -6936,15 +6904,7 @@
         "source": "Breeding"
       },
       {
-        "name": "Heat Up",
-        "source": "Breeding"
-      },
-      {
         "name": "Earth Wave",
-        "source": "Breeding"
-      },
-      {
-        "name": "Haito Uchi",
         "source": "Breeding"
       }
     ],
@@ -8290,6 +8250,10 @@
         "source": "Breeding"
       },
       {
+        "name": "Ice Cubes",
+        "source": "Breeding"
+      },
+      {
         "name": "Ice Shuriken",
         "source": "Breeding"
       }
@@ -8523,6 +8487,10 @@
       {
         "name": "Stone Wall",
         "source": "TechniqueCourses"
+      },
+      {
+        "name": "Antitoxins",
+        "source": "Breeding"
       }
     ],
     "trivia": [
@@ -8705,6 +8673,10 @@
       {
         "name": "Cage",
         "source": "TechniqueCourses"
+      },
+      {
+        "name": "Antitoxins",
+        "source": "Breeding"
       }
     ],
     "trivia": [
@@ -10628,15 +10600,18 @@
       "spdef": 0,
       "total": 0
     },
-    "traits": [],
+    "traits": [
+      "Camaraderie",
+      "Callosity"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 100,
+        "inches": 39
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 65,
+        "lbs": 143
       }
     },
     "techniques": [],
@@ -10650,7 +10625,10 @@
           "number": 100,
           "name": "Kuri",
           "stage": 1,
-          "traitMapping": {}
+          "traitMapping": {
+            "Camaraderie": "Unknown",
+            "Callosity": "Unknown"
+          }
         },
         {
           "number": 101,
@@ -10675,7 +10653,7 @@
     "hatchMins": 5,
     "tvYields": {
       "hp": 0,
-      "sta": 0,
+      "sta": 1,
       "spd": 0,
       "atk": 0,
       "def": 0,
@@ -10733,7 +10711,10 @@
           "number": 100,
           "name": "Kuri",
           "stage": 1,
-          "traitMapping": {}
+          "traitMapping": {
+            "Camaraderie": "Unknown",
+            "Callosity": "Unknown"
+          }
         },
         {
           "number": 101,
@@ -12139,14 +12120,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Volarend",
     "stats": {
-      "hp": 64,
+      "hp": 60,
       "sta": 38,
       "spd": 74,
       "atk": 51,
-      "def": 61,
+      "def": 55,
       "spatk": 68,
       "spdef": 96,
-      "total": 452
+      "total": 442
     },
     "traits": [
       "Aerobic",
@@ -14016,14 +13997,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Kinu",
     "stats": {
-      "hp": 47,
-      "sta": 74,
+      "hp": 43,
+      "sta": 64,
       "spd": 74,
       "atk": 53,
       "def": 41,
       "spatk": 69,
-      "spdef": 96,
-      "total": 454
+      "spdef": 89,
+      "total": 433
     },
     "traits": [
       "Protector",
@@ -14618,6 +14599,11 @@
         "levels": 48
       },
       {
+        "name": "Flaming Meteorite",
+        "source": "Levelling",
+        "levels": 49
+      },
+      {
         "name": "Wake Up",
         "source": "TechniqueCourses"
       },
@@ -14815,10 +14801,6 @@
       {
         "name": "Major Slash",
         "source": "TechniqueCourses"
-      },
-      {
-        "name": "Hypnosis",
-        "source": "Breeding"
       },
       {
         "name": "Head Charge",
