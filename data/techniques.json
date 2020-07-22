@@ -408,6 +408,22 @@
     "description": "Lifts the spirits of the target and gives -1 Hold."
   },
   {
+    "name": "Clay Ball",
+    "wikiUrl": "https://temtem.gamepedia.com/Clay_Ball",
+    "type": "Earth",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 60,
+    "staminaCost": 5,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Mudslinging to see what sticks? Just a little Earth damage, probably..."
+  },
+  {
     "name": "Clinch",
     "wikiUrl": "https://temtem.gamepedia.com/Clinch",
     "type": "Neutral",
@@ -1170,18 +1186,18 @@
   {
     "name": "Hook Kick",
     "wikiUrl": "https://temtem.gamepedia.com/Hook_Kick",
-    "type": "?",
-    "class": "?",
-    "classIcon": "/images/icons/technique/?.png",
-    "damage": 0,
-    "staminaCost": 0,
-    "hold": 0,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
-    "synergy": "",
+    "type": "Melee",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 110,
+    "staminaCost": 20,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
     "synergyEffects": [],
-    "targets": "None",
-    "description": "Temtem[edit | edit source]"
+    "targets": "Single Other Target",
+    "description": "Very few Temtem are still kicking after receiving this kick!"
   },
   {
     "name": "Humiliating Slap",
@@ -1632,6 +1648,28 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A rapid-fire flurry of furious beaks."
+  },
+  {
+    "name": "Nagaise's Fury",
+    "wikiUrl": "https://temtem.gamepedia.com/Nagaise%27s_Fury",
+    "type": "Water",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 105,
+    "staminaCost": 28,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "Mental",
+    "synergyEffects": [
+      {
+        "effect": "+30 damage",
+        "type": "damage",
+        "damage": 30
+      }
+    ],
+    "targets": "None",
+    "description": "lä, lä! Nagaise is calling some Water friends from the deeps... The whole enemy team will regret this."
   },
   {
     "name": "Narcoleptic Hit",
@@ -2228,6 +2266,28 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Almost any claw or nail can scratch the surface. Sometimes that's enough."
+  },
+  {
+    "name": "Seismunch's Wreck",
+    "wikiUrl": "https://temtem.gamepedia.com/Seismunch%27s_Wreck",
+    "type": "Earth",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 115,
+    "staminaCost": 33,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "Melee",
+    "synergyEffects": [
+      {
+        "effect": "+1 priority and +15 damage",
+        "type": "damage",
+        "damage": 1
+      }
+    ],
+    "targets": "None",
+    "description": "Seismunch has exactly the balls to deal with the whole enemy team... Earth balls, that is."
   },
   {
     "name": "Sharp Leaf",
