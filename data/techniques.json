@@ -1269,6 +1269,33 @@
     "description": "All that suppressed rage keeps building up... until it bursts in a nova of wrath."
   },
   {
+    "name": "Hellfire",
+    "wikiUrl": "https://temtem.gamepedia.com/Hellfire",
+    "type": "Fire",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 84,
+    "staminaCost": 28,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "Fire",
+    "synergyEffects": [
+      {
+        "effect": "+16 Base Damage",
+        "type": "damage",
+        "damage": 16
+      },
+      {
+        "effect": "+2 Turns  [[Status Conditions",
+        "type": "condition",
+        "damage": 0
+      }
+    ],
+    "targets": "None",
+    "description": "Hell hath no fury like a tamer scorned - and this one does serious Fire damage to a whole team."
+  },
+  {
     "name": "Hibernate",
     "wikiUrl": "https://temtem.gamepedia.com/Hibernate",
     "type": "Water",
@@ -1808,12 +1835,12 @@
     "synergy": "Mental",
     "synergyEffects": [
       {
-        "effect": "+30 damage",
+        "effect": "+30 Base Damage",
         "type": "damage",
         "damage": 30
       }
     ],
-    "targets": "None",
+    "targets": "Single Team",
     "description": "lä, lä! Nagaise is calling some Water friends from the deeps... The whole enemy team will regret this."
   },
   {
@@ -1895,6 +1922,22 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "The secret arts of the Cipanku shinobi! This technique lets you backstab enemies in the blink of an eye."
+  },
+  {
+    "name": "Nito Seiho",
+    "wikiUrl": "https://temtem.gamepedia.com/Nito_Seiho",
+    "type": "Melee",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 105,
+    "staminaCost": 19,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Derived from Cipanki martial traditions, this technique deals a powerful Melee strike."
   },
   {
     "name": "Novice Punch",
@@ -2169,6 +2212,22 @@
     "synergyEffects": [],
     "targets": "None",
     "description": "Currently, Psychosis is unavailable, so its unknown what it's description is."
+  },
+  {
+    "name": "Quartz Shield",
+    "wikiUrl": "https://temtem.gamepedia.com/Quartz_Shield",
+    "type": "Crystal",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 9,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Temtem found defensive uses for rock crystal centuries before humans did: +1DEF and +1SPDEF."
   },
   {
     "name": "Quicksand",
@@ -2968,7 +3027,7 @@
         "damage": 0
       }
     ],
-    "targets": "None",
+    "targets": "Single Team",
     "description": "Lil' Tort just wanted to play in its garden... but it won't suffer intruders! You heal 8% while the target is Doomed for 4 turns."
   },
   {
@@ -3246,6 +3305,22 @@
     "description": "The substance known as Urushiol is a virulent toxic agent."
   },
   {
+    "name": "Venom Spread",
+    "wikiUrl": "https://temtem.gamepedia.com/Venom_Spread",
+    "type": "Toxic",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 150,
+    "staminaCost": 20,
+    "hold": 0,
+    "priority": "high",
+    "priorityIcon": "/images/icons/priority/high.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "This technique only works on already poisoned enemies - but in that case, the toxin rush inflicts 150 damage."
+  },
+  {
     "name": "Venomous Claws",
     "wikiUrl": "https://temtem.gamepedia.com/Venomous_Claws",
     "type": "Toxic",
@@ -3352,69 +3427,5 @@
     ],
     "targets": "Single Other Target",
     "description": "As pretty (but much deadlier) than Denizan Water lillies"
-  },
-  {
-    "name": "Waterjet",
-    "wikiUrl": "https://temtem.gamepedia.com/Waterjet",
-    "type": "Water",
-    "class": "Physical",
-    "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 110,
-    "staminaCost": 16,
-    "hold": 2,
-    "priority": "normal",
-    "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "None",
-    "synergyEffects": [],
-    "targets": "Single Other Target",
-    "description": "About time your enemies took a shower! This pressurized jet inflicts considerable damage and leaves the target Cold for 2 turns."
-  },
-  {
-    "name": "Willpower Drain",
-    "wikiUrl": "https://temtem.gamepedia.com/Willpower_Drain",
-    "type": "Neutral",
-    "class": "Status",
-    "classIcon": "/images/icons/technique/Status.png",
-    "damage": 0,
-    "staminaCost": 15,
-    "hold": 1,
-    "priority": "high",
-    "priorityIcon": "/images/icons/priority/high.png",
-    "synergy": "None",
-    "synergyEffects": [],
-    "targets": "Single Other Target",
-    "description": "Sapping the very will to fight from an enemy's mind, this quick Neutral technique steals 23 Stamina points."
-  },
-  {
-    "name": "Wind Blade",
-    "wikiUrl": "https://temtem.gamepedia.com/Wind_Blade",
-    "type": "Wind",
-    "class": "Special",
-    "classIcon": "/images/icons/technique/Special.png",
-    "damage": 40,
-    "staminaCost": 9,
-    "hold": 0,
-    "priority": "normal",
-    "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "None",
-    "synergyEffects": [],
-    "targets": "Single Other Target",
-    "description": "Lashing gales, like the frozen tramontane howling over Loch."
-  },
-  {
-    "name": "Wind Burst",
-    "wikiUrl": "https://temtem.gamepedia.com/Wind_Burst",
-    "type": "Wind",
-    "class": "Special",
-    "classIcon": "/images/icons/technique/Special.png",
-    "damage": 90,
-    "staminaCost": 12,
-    "hold": 0,
-    "priority": "normal",
-    "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "None",
-    "synergyEffects": [],
-    "targets": "Single Other Target",
-    "description": "A terrifying gust of wind, capable of throwing a small airship off-course."
   }
 ]

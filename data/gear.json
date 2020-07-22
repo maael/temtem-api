@@ -312,6 +312,19 @@
     "gameDescription": "x2 TV bonus from defeated Temtem."
   },
   {
+    "name": "Resistance Badge",
+    "wikiUrl": "https://temtem.gamepedia.com/Resistance_Badge",
+    "wikiIconUrl": "",
+    "icon": "/images/icons/gear/",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "Resistance Badge grants +15% damage when attacking with Neutral Techniques.",
+    "gameDescription": "\"You have vowed to defend freedom in Kisiwa. Damage done with Neutral techniques is increased by 15%.\""
+  },
+  {
     "name": "Rock Shield",
     "wikiUrl": "https://temtem.gamepedia.com/Rock_Shield",
     "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/be/Rock_Shield.png/250px-Rock_Shield.png",
@@ -440,5 +453,18 @@
     "buyPrice": 1000,
     "description": "Vitality DNA Strand is a single-use held item used in Breeding. When held, it ensures the holder's HP is inherited by the egg. It is only sold in the Breeding Center in Omninesia.",
     "gameDescription": "Vitality DNA Strand This single-use DNA strand ensures the egg inherits the parent's HP."
+  },
+  {
+    "name": "War Drum",
+    "wikiUrl": "https://temtem.gamepedia.com/War_Drum",
+    "wikiIconUrl": "",
+    "icon": "/images/icons/gear/",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "War Drum grants the techniques used by allies an 8% damage boost if they are Physical.",
+    "gameDescription": "\"The Kisiwan call to arms. Allies' damage done with Physical techniques is increased by 8%.\""
   }
 ]

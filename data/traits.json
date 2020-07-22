@@ -54,6 +54,12 @@
     "effect": "Whenever the ally of the Temtem with this trait takes damage, they are healed by 10% of their max HP. This effect has no minimum value, meaning it can heal the ally for more HP than they lost due to getting attacked."
   },
   {
+    "name": "Body Stretch",
+    "wikiUrl": "https://temtem.gamepedia.com/Body_Stretch",
+    "description": "When resting, gets regenerating for 2 turns.",
+    "effect": "Whenever a Temtem with Body Stretch rests, it gains the Regenerated Condition for 2 turns."
+  },
+  {
     "name": "Book Lungs",
     "wikiUrl": "https://temtem.gamepedia.com/Book_Lungs",
     "description": "Damage taken from Water techniques is reduced by 30%.",
@@ -112,6 +118,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/Channeler",
     "description": "Damage done with Special techniques is increased by 25%.",
     "effect": ""
+  },
+  {
+    "name": "Cobweb",
+    "wikiUrl": "https://temtem.gamepedia.com/Cobweb",
+    "description": "When applying a poison status condition, the target gets trapped for 2 turns too.",
+    "effect": "Whenever a Temtem with Cobweb causes another Temtem to get the Poisoned Condition, it also causes it to get the Trapped Condition for 2 turns."
   },
   {
     "name": "Cold-Natured",
@@ -327,7 +339,7 @@
     "name": "Parrier",
     "wikiUrl": "https://temtem.gamepedia.com/Parrier",
     "description": "Damage taken from physical techniques is reduced by 30%.",
-    "effect": ""
+    "effect": "Whenever a Temtem with Parrier is attacked by a physical technique, it takes 30% less damage."
   },
   {
     "name": "Patient",
