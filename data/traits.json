@@ -78,6 +78,12 @@
     "effect": "Allies are your total temtem remaining, even the ones that are not fighting."
   },
   {
+    "name": "Burglar",
+    "wikiUrl": "https://temtem.gamepedia.com/Burglar",
+    "description": "When attacking an asleep or exhausted Temtem, disables its gear.",
+    "effect": "When a Temtem with Burglar attacks another Temtem that has the Asleep Condition or the Exhausted Condition, the defender's gear will be disabled for the remainder of the combat."
+  },
+  {
     "name": "Caffeinated",
     "wikiUrl": "https://temtem.gamepedia.com/Caffeinated",
     "description": "Prevents the Asleep Status condition.",
@@ -106,6 +112,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/Cold-Natured",
     "description": "Instead of getting Cold, the Temtem gets Frozen.",
     "effect": ""
+  },
+  {
+    "name": "Coward's Rest",
+    "wikiUrl": "https://temtem.gamepedia.com/Coward%27s_Rest",
+    "description": "When resting, gets for 2 turns.",
+    "effect": "Whenever a Temtem with Coward's Rest rests, it gains the Evading Condition for 2 turns."
   },
   {
     "name": "Demoralize",
@@ -192,10 +204,22 @@
     "effect": ""
   },
   {
+    "name": "Heat Discharge",
+    "wikiUrl": "https://temtem.gamepedia.com/Heat_Discharge",
+    "description": "When knocked-out, the attacker gets burned for 3 turns.",
+    "effect": "When a Temtem knocks out another Temtem with Heat Discharge, it gets the Burned Condition for 3 turns."
+  },
+  {
     "name": "Hover",
     "wikiUrl": "https://temtem.gamepedia.com/Hover",
     "description": "When attacked with an Earth technique, reduces damage by 50%.",
     "effect": ""
+  },
+  {
+    "name": "Hurry-wart",
+    "wikiUrl": "https://temtem.gamepedia.com/Hurry-wart",
+    "description": "When entering the battlefield, the Temtem gets -1 Hold.",
+    "effect": "When a Temtem with Hurry-wart enters the battlefield, all its techniques with a Hold lose 1."
   },
   {
     "name": "Hydrologist",
@@ -214,6 +238,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/Individualist",
     "description": "Techniques targeting the ally will fail.",
     "effect": "The Temtem with this ability cannot use any moves on its ally."
+  },
+  {
+    "name": "Inductor",
+    "wikiUrl": "https://temtem.gamepedia.com/Inductor",
+    "description": "When a Electric technique is cast, restores 8% of max HP.",
+    "effect": "Each time a Temtem with Inductor uses an Electric Type technique, 8% of its maximum life is restored."
   },
   {
     "name": "Last Rush",
@@ -375,7 +405,7 @@
     "name": "Sentinel",
     "wikiUrl": "https://temtem.gamepedia.com/Sentinel",
     "description": "When entering the battlefield, removes the asleep status condition on the ally and prevents the asleep status condition on the ally and itself.",
-    "effect": "While a Temtem with Sentinel is on the battlefield, neither it nor the ally can get the Asleep Condition. Also, when it enters the battlefield, if the ally has the Asleep Condition, it looses it."
+    "effect": "While a Temtem with Sentinel is on the battlefield, neither it nor the ally can get the Asleep Condition. Also, when it enters the battlefield, if the ally has the Asleep Condition, it loses it."
   },
   {
     "name": "Settling",
@@ -388,6 +418,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/Shared_Pain",
     "description": "When receiving a consecutive attack in the same turn, the technique gets redirected to the ally.",
     "effect": "In-depth description here."
+  },
+  {
+    "name": "Skull Helmet",
+    "wikiUrl": "https://temtem.gamepedia.com/Skull_Helmet",
+    "description": "Damage taken from Mental or Melee techniques is reduced by 25%.",
+    "effect": "Temtem with Skull Helmet take 25% less damage from techniques that are either Mental Type or Melee Type."
   },
   {
     "name": "Soft Touch",
@@ -484,6 +520,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/Tri-Apothecary",
     "description": "When attacking with a special technique, the target gets poisoned for 3 turns if it's a rival or regenerating for 3 turns if it's an ally or itself.",
     "effect": "This effect is often used for Pansun farming, allowing your team to stay on the field longer than would normal."
+  },
+  {
+    "name": "Unnoticed",
+    "wikiUrl": "https://temtem.gamepedia.com/Unnoticed",
+    "description": "Gets +1SPD after not receiving any rival attacks during the turn.",
+    "effect": "When a Temtem with Unnoticed lasts a whole turn without being targeted by any rival attacks, it gets +1SPD."
   },
   {
     "name": "Vigorous",
