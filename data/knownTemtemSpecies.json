@@ -4322,11 +4322,17 @@
         "levels": 36
       },
       {
-        "name": "Cage",
-        "source": "TechniqueCourses"
+        "name": "Goring",
+        "source": "Levelling",
+        "levels": 48
       },
       {
-        "name": "Footwork",
+        "name": "Execution",
+        "source": "Levelling",
+        "levels": 57
+      },
+      {
+        "name": "Cage",
         "source": "TechniqueCourses"
       },
       {
@@ -4351,10 +4357,6 @@
       },
       {
         "name": "Burrow",
-        "source": "Breeding"
-      },
-      {
-        "name": "Bestial Charge",
         "source": "Breeding"
       }
     ],
@@ -4659,6 +4661,10 @@
         "name": "Nagaise's Fury",
         "source": "Levelling",
         "levels": 58
+      },
+      {
+        "name": "Strangle",
+        "source": "Breeding"
       }
     ],
     "trivia": [
@@ -4849,6 +4855,10 @@
       {
         "name": "Madness Buff",
         "source": "TechniqueCourses"
+      },
+      {
+        "name": "Strangle",
+        "source": "Breeding"
       }
     ],
     "trivia": [
@@ -5037,6 +5047,10 @@
       {
         "name": "Madness Buff",
         "source": "TechniqueCourses"
+      },
+      {
+        "name": "Strangle",
+        "source": "Breeding"
       }
     ],
     "trivia": [],
@@ -8967,6 +8981,10 @@
         "levels": 14
       },
       {
+        "name": "Quicksand",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Footwork",
         "source": "Breeding"
       },
@@ -9112,6 +9130,10 @@
         "name": "Uppercut",
         "source": "Levelling",
         "levels": 31
+      },
+      {
+        "name": "Quicksand",
+        "source": "TechniqueCourses"
       },
       {
         "name": "Footwork",
@@ -9274,6 +9296,10 @@
         "name": "Dim Mak",
         "source": "Levelling",
         "levels": 58
+      },
+      {
+        "name": "Quicksand",
+        "source": "TechniqueCourses"
       },
       {
         "name": "Footwork",
@@ -10309,12 +10335,12 @@
     ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 190,
+        "inches": 74
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 500,
+        "lbs": 1102
       }
     },
     "techniques": [
@@ -10440,7 +10466,7 @@
       "spatk": 2,
       "spdef": 0
     },
-    "gameDescription": "",
+    "gameDescription": "Tortenite rae lumbering creatures, often employed by Tucmani miners as work companions. In the wild, they are often spotted herding Sherald as pack leaders.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -10485,24 +10511,34 @@
     },
     "techniques": [
       {
-        "name": "Psychosis",
+        "name": "Hypnosis",
         "source": "Levelling",
-        "levels": 0
+        "levels": 1
+      },
+      {
+        "name": "Stare",
+        "source": "Levelling",
+        "levels": 4
       },
       {
         "name": "Beta Burst",
         "source": "Levelling",
-        "levels": 0
+        "levels": 8
+      },
+      {
+        "name": "Psychosis",
+        "source": "Levelling",
+        "levels": 12
       },
       {
         "name": "Telekinetic Shrapnel",
         "source": "Levelling",
-        "levels": 0
+        "levels": 16
       },
       {
         "name": "Gamma Burst",
         "source": "Levelling",
-        "levels": 0
+        "levels": 27
       }
     ],
     "trivia": [
@@ -10601,9 +10637,44 @@
     },
     "techniques": [
       {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Stare",
+        "source": "Levelling",
+        "levels": 4
+      },
+      {
+        "name": "Beta Burst",
+        "source": "Levelling",
+        "levels": 8
+      },
+      {
+        "name": "Psychosis",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Telekinetic Shrapnel",
+        "source": "Levelling",
+        "levels": 16
+      },
+      {
+        "name": "Gamma Burst",
+        "source": "Levelling",
+        "levels": 27
+      },
+      {
         "name": "Ninja Jutsu",
         "source": "Levelling",
         "levels": 48
+      },
+      {
+        "name": "Time Split",
+        "source": "Levelling",
+        "levels": 58
       }
     ],
     "trivia": [
@@ -10645,8 +10716,8 @@
       "male": 20,
       "female": 80
     },
-    "catchRate": 0,
-    "hatchMins": 45,
+    "catchRate": 40,
+    "hatchMins": 37,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -12496,7 +12567,7 @@
         "levels": 12
       },
       {
-        "name": "Bone Cracker",
+        "name": "Clinch",
         "source": "Levelling",
         "levels": 22
       },
@@ -13812,6 +13883,10 @@
         "name": "Toxic Ink",
         "source": "Levelling",
         "levels": 20
+      },
+      {
+        "name": "Metabolize",
+        "source": "Breeding"
       }
     ],
     "trivia": [
@@ -13984,6 +14059,10 @@
       {
         "name": "Madness Buff",
         "source": "TechniqueCourses"
+      },
+      {
+        "name": "Metabolize",
+        "source": "Breeding"
       }
     ],
     "trivia": [
@@ -14603,10 +14682,6 @@
       {
         "name": "Drought",
         "source": "TechniqueCourses"
-      },
-      {
-        "name": "Goring",
-        "source": "Breeding"
       }
     ],
     "trivia": [],
@@ -15079,7 +15154,7 @@
         "levels": 59
       },
       {
-        "name": "Look Out",
+        "name": "Look out",
         "source": "TechniqueCourses"
       },
       {
@@ -15244,6 +15319,10 @@
       },
       {
         "name": "Confiscate",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Block",
         "source": "TechniqueCourses"
       },
       {
@@ -18077,7 +18156,7 @@
         "levels": 27
       },
       {
-        "name": "Toxins Shower",
+        "name": "Toxin Shower",
         "source": "Levelling",
         "levels": 33
       },

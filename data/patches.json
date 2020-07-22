@@ -1,5 +1,35 @@
 [
   {
+    "name": "Temtem 0.6.1",
+    "version": "0.6.1",
+    "url": "https://crema.gg/temtem/temtem-0-6-1/",
+    "date": "2020-7-22",
+    "patchInfo": {
+      "fixes": [
+        "Fixed Chain Lightning animation not working.",
+        "👥 Fixed a couple of cases where players could see a repeated cinematic after opening Uhuru’s gates.",
+        "Fixed post-General X fight cinematic re-happening every time the user enters the hotel room.",
+        "Fixed a non-working spawn zone in the Jino Gap.",
+        "Fixed regional Global chat getting deleted after opening the Settings menu.",
+        "Fixed some visual errors on objects popping in Quetzal’s background when players were near the Narwhal.",
+        "Fixed some new medicine items not having the correct selling price set (Ether++, Tonic++, Blam++, Full Revive).",
+        "Fixed some incorrect collisions on climbing spots in Kisiwa.",
+        "👥 Fixed Gamma Burst and Psychosis not having a description.",
+        "Fixed Uhuru’s invasion music not playing after defeating a Belsoto.",
+        "Fixed Uhuru’s invasion music not playing after reconnecting before the General X battle.",
+        "👥 Fixed a couple of spots where players could get stuck in a Belsoto battle after defeating them.",
+        "Fixed Map labels not appearing on new areas (Kisiwa, Bandit Camp, Coral Plaza…).",
+        "👥 Fixed a rare case where players could get stuck in Vumbi’s after tunnel cinematic.",
+        "Fixed breeding gears visually disappearing after equipping one.",
+        "👥 Fixed a couple of Dojo NPC tamers that could get interacted behind a wall.",
+        "👥 Fixed players stuck while being on coop, climbing and the partner entering an untamed Temtem battle."
+      ],
+      "improvements": [],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
     "name": "Temtem 0.6 – Kisiwa Update",
     "version": "0.6",
     "url": "https://crema.gg/temtem/temtem-0-6-kisiwa-update/",

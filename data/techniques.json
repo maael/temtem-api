@@ -156,6 +156,22 @@
     "description": "Omninenesian Temtem use pieces of Banyan bark as shields, giving the whole team DEF +2."
   },
   {
+    "name": "Base Jump",
+    "wikiUrl": "https://temtem.gamepedia.com/Base_Jump",
+    "type": "Neutral",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 115,
+    "staminaCost": 16,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Self",
+    "description": "IT's not the jump that hurts, it's the landing - and it hurts the target A LOT."
+  },
+  {
     "name": "Bestial Charge",
     "wikiUrl": "https://temtem.gamepedia.com/Bestial_Charge",
     "type": "Neutral",
@@ -579,6 +595,22 @@
     "description": "Inspired by the ruins of the Amethyst Barrens, this crystal crust provides protection at the expense of speed: DEF +2 but SPD -1."
   },
   {
+    "name": "Darkness",
+    "wikiUrl": "https://temtem.gamepedia.com/Darkness",
+    "type": "Neutral",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 18,
+    "hold": 2,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Self",
+    "description": "Where is everybody? All Temtem in the battlefield are Isolated for 2 turns, negating any synergies."
+  },
+  {
     "name": "Data Burst",
     "wikiUrl": "https://temtem.gamepedia.com/Data_Burst",
     "type": "Digital",
@@ -625,6 +657,22 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Harder than the hardest Crystal Temtem. Increases your own DEF and SPDEF by 2 stages each"
+  },
+  {
+    "name": "Dim Mak",
+    "wikiUrl": "https://temtem.gamepedia.com/Dim_Mak",
+    "type": "Melee",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 0,
+    "staminaCost": 20,
+    "hold": 2,
+    "priority": "high",
+    "priorityIcon": "/images/icons/priority/high.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "An accurate strike at the target's main pressure point, ignoring its defenses to deal exactly 80 damage."
   },
   {
     "name": "Double Gash",
@@ -723,6 +771,33 @@
     "description": "Feel the Earth shake under your feet, rising with Anak-like force - slow, but devastating for the whole team."
   },
   {
+    "name": "Earthbreaker",
+    "wikiUrl": "https://temtem.gamepedia.com/Earthbreaker",
+    "type": "Earth",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 120,
+    "staminaCost": 28,
+    "hold": 2,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "Electric",
+    "synergyEffects": [
+      {
+        "effect": "+30 Base Damage",
+        "type": "damage",
+        "damage": 30
+      },
+      {
+        "effect": "Gives 2 turn Seized",
+        "type": "condition",
+        "damage": 0
+      }
+    ],
+    "targets": "None",
+    "description": "Myrisles engineers hate this odd trick! Make the Earth shake and deal massive damage to the whole enemy team."
+  },
+  {
     "name": "Electric Storm",
     "wikiUrl": "https://temtem.gamepedia.com/Electric_Storm",
     "type": "Electric",
@@ -780,6 +855,22 @@
     ],
     "targets": "Single Other Target",
     "description": "A simple yet quick Mental attack that exhausts the target for 1 turn."
+  },
+  {
+    "name": "Execution",
+    "wikiUrl": "https://temtem.gamepedia.com/Execution",
+    "type": "Neutral",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 50,
+    "staminaCost": 20,
+    "hold": 3,
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "\"Omnes vulnerant, postuma necat\". Slowly the hour creeps onwards... it does only slight damage, but if that leaves the Temtem under 40% of their total HP... it's over for them."
   },
   {
     "name": "Extinction",
@@ -1028,6 +1119,22 @@
     "description": ""
   },
   {
+    "name": "Goring",
+    "wikiUrl": "https://temtem.gamepedia.com/Goring",
+    "type": "Neutral",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 120,
+    "staminaCost": 16,
+    "hold": 1,
+    "priority": "high",
+    "priorityIcon": "/images/icons/priority/high.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "You mess with the horns, you get the... No, wait! This fast, Neutral technique does serious damage."
+  },
+  {
     "name": "Haito Uchi",
     "wikiUrl": "https://temtem.gamepedia.com/Haito_Uchi",
     "type": "Melee",
@@ -1160,6 +1267,22 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "All that suppressed rage keeps building up... until it bursts in a nova of wrath."
+  },
+  {
+    "name": "Hibernate",
+    "wikiUrl": "https://temtem.gamepedia.com/Hibernate",
+    "type": "Water",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 25,
+    "hold": 2,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Just a little nap while it's cold outside... The target is for 3 turns but recovers 50% of health and stamina."
   },
   {
     "name": "High-pressure Water",
@@ -1540,6 +1663,28 @@
     "synergyEffects": [],
     "targets": "?",
     "description": "Currently, Meditation is unavailable, so its unknown what it's description is."
+  },
+  {
+    "name": "Metabolize",
+    "wikiUrl": "https://temtem.gamepedia.com/Metabolize",
+    "type": "Toxic",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 21,
+    "hold": 2,
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
+    "synergy": "Nature",
+    "synergyEffects": [
+      {
+        "effect": "2 regeneration",
+        "type": "unknown",
+        "damage": 0
+      }
+    ],
+    "targets": "Single Other Target",
+    "description": "This metabolic enhancement reacts to poison in the target's body by purging it and recovering 15% of health."
   },
   {
     "name": "Meteor Swarm",
@@ -2016,13 +2161,13 @@
     "class": "Status",
     "classIcon": "/images/icons/technique/Status.png",
     "damage": 0,
-    "staminaCost": 0,
-    "hold": 0,
+    "staminaCost": 16,
+    "hold": 2,
     "priority": "unknown",
     "priorityIcon": "/images/icons/priority/unknown.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "None",
     "description": "Currently, Psychosis is unavailable, so its unknown what it's description is."
   },
   {
@@ -2134,6 +2279,22 @@
     "description": "While this technique does only moderate damage, it Nullifies the target for 4 turns, buying you some precious time..."
   },
   {
+    "name": "Resin Trap",
+    "wikiUrl": "https://temtem.gamepedia.com/Resin_Trap",
+    "type": "Nature",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 110,
+    "staminaCost": 24,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Like a mosquito in amber, this technique damages an enemy and leaves it trapped for 2 turns."
+  },
+  {
     "name": "Revitalize",
     "wikiUrl": "https://temtem.gamepedia.com/Revitalize",
     "type": "Nature",
@@ -2170,6 +2331,28 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "A mighty roar at a crucial moment, to intimidate rivals for ATK -1."
+  },
+  {
+    "name": "Rockfall",
+    "wikiUrl": "https://temtem.gamepedia.com/Rockfall",
+    "type": "Earth",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 75,
+    "staminaCost": 24,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "Fire",
+    "synergyEffects": [
+      {
+        "effect": "Applies 2 Burned Condition",
+        "type": "unknown",
+        "damage": 0
+      }
+    ],
+    "targets": "None",
+    "description": "Avalanche! The whole enemy team is bombarded with rocky debris for massive damage."
   },
   {
     "name": "Roots",
@@ -2290,6 +2473,22 @@
     "description": "Seismunch has exactly the balls to deal with the whole enemy team... Earth balls, that is."
   },
   {
+    "name": "Serbatiyo's Wrath",
+    "wikiUrl": "https://temtem.gamepedia.com/Serbatiyo%27s_Wrath",
+    "type": "Water",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 108,
+    "staminaCost": 35,
+    "hold": 3,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Self",
+    "description": "Only Oceara can tap into the immense power of the mythical serbatiyo to unleash a devastating Water attack on the whole enemy team."
+  },
+  {
     "name": "Sharp Leaf",
     "wikiUrl": "https://temtem.gamepedia.com/Sharp_Leaf",
     "type": "Nature",
@@ -2336,6 +2535,22 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Like winter in the Kilima peaks, this blizzard of sharp shards is as fast as piercing."
+  },
+  {
+    "name": "Shelter",
+    "wikiUrl": "https://temtem.gamepedia.com/Shelter",
+    "type": "Neutral",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 12,
+    "hold": 2,
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Take cover! This slow technique gives +2DEF and +2SPDEF at the expense of leaving you Overexerted on the next turn."
   },
   {
     "name": "Show Off",
@@ -2494,6 +2709,28 @@
     "description": "One of the most basic Nature attacks, based on allergenic spores."
   },
   {
+    "name": "Stampede",
+    "wikiUrl": "https://temtem.gamepedia.com/Stampede",
+    "type": "Neutral",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 100,
+    "staminaCost": 28,
+    "hold": 2,
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
+    "synergy": "Earth",
+    "synergyEffects": [
+      {
+        "effect": "+25 Base Damage",
+        "type": "damage",
+        "damage": 25
+      }
+    ],
+    "targets": "None",
+    "description": "A stampede worth of the Kisiwan savanna. Damages the whole team."
+  },
+  {
     "name": "Stare",
     "wikiUrl": "https://temtem.gamepedia.com/Stare",
     "type": "Mental",
@@ -2508,6 +2745,22 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "This Temtem's intimidating stare gives the Temtem Alert for 2 turns, and makes rivals feel more vulnerable: DEF -1."
+  },
+  {
+    "name": "Sting",
+    "wikiUrl": "https://temtem.gamepedia.com/Sting",
+    "type": "Toxic",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 48,
+    "staminaCost": 20,
+    "hold": 0,
+    "priority": "high",
+    "priorityIcon": "/images/icons/priority/high.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "A tiny prick only hurts a little... until they notice they're for 2 turns."
   },
   {
     "name": "Stone Ball",
@@ -2690,6 +2943,33 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A powerful wind technique, illegal to use near all airship terminals of the Archipelago."
+  },
+  {
+    "name": "Tortenite's Garden",
+    "wikiUrl": "https://temtem.gamepedia.com/Tortenite%27s_Garden",
+    "type": "Toxic",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 24,
+    "hold": 2,
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
+    "synergy": "Crystal",
+    "synergyEffects": [
+      {
+        "effect": "Healing x2",
+        "type": "unknown",
+        "damage": 0
+      },
+      {
+        "effect": "doomed -1",
+        "type": "unknown",
+        "damage": 0
+      }
+    ],
+    "targets": "None",
+    "description": "Lil' Tort just wanted to play in its garden... but it won't suffer intruders! You heal 8% while the target is Doomed for 4 turns."
   },
   {
     "name": "Toughen",
@@ -2925,7 +3205,7 @@
     "synergy": "?",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Technique Course[edit | edit source]"
+    "description": "With a few swift movement, this technique Untraps the target from any tangle."
   },
   {
     "name": "Uppercut",

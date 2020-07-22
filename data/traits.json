@@ -54,6 +54,12 @@
     "effect": "Whenever the ally of the Temtem with this trait takes damage, they are healed by 10% of their max HP. This effect has no minimum value, meaning it can heal the ally for more HP than they lost due to getting attacked."
   },
   {
+    "name": "Book Lungs",
+    "wikiUrl": "https://temtem.gamepedia.com/Book_Lungs",
+    "description": "Damage taken from Water techniques is reduced by 30%.",
+    "effect": "Whenever a Temtem with Book Lungs takes damage from a technique, the damage is reduced by 30%."
+  },
+  {
     "name": "Botanist",
     "wikiUrl": "https://temtem.gamepedia.com/Botanist",
     "description": "+15% damage with Nature techniques.",
@@ -114,10 +120,22 @@
     "effect": ""
   },
   {
+    "name": "Confined",
+    "wikiUrl": "https://temtem.gamepedia.com/Confined",
+    "description": "When getting an trapped status condition, gets +1DEF and +1SPDEF if the attacker is itself.",
+    "effect": "When a Temtem with Confined uses a technique that causes it to give itself the , it also gets +1DEF and +1SDEF."
+  },
+  {
     "name": "Coward's Rest",
     "wikiUrl": "https://temtem.gamepedia.com/Coward%27s_Rest",
     "description": "When resting, gets for 2 turns.",
     "effect": "Whenever a Temtem with Coward's Rest rests, it gains the Evading Condition for 2 turns."
+  },
+  {
+    "name": "Deceit Aura",
+    "wikiUrl": "https://temtem.gamepedia.com/Deceit_Aura",
+    "description": "Techniques priority over is inverted during each turn the Temtem is present on the battlefield.",
+    "effect": "Any turn in which a Temtem with Deceit Aura is present, the individual Temtem turn order is reversed."
   },
   {
     "name": "Demoralize",
@@ -142,6 +160,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/Earthbound",
     "description": "When attacking with a Earth technique, gets +1DEF.",
     "effect": "Earthbound gives the user +1DEF whenever they use an Earth Type technique."
+  },
+  {
+    "name": "Efficient",
+    "wikiUrl": "https://temtem.gamepedia.com/Efficient",
+    "description": "When attacking, STA cost is reduced by 30%",
+    "effect": "When a Temtem with Efficient uses an offensive technique, the technique costs 30% less stamina."
   },
   {
     "name": "Electric Synthesize",
@@ -396,6 +420,12 @@
     "effect": ""
   },
   {
+    "name": "Self-Esteem",
+    "wikiUrl": "https://temtem.gamepedia.com/Self-Esteem",
+    "description": "When attacking, removes all negative status conditions if the target gets knocked-out.",
+    "effect": "When a Temtem with Self-Esteem attacks and knocks out a Temtem, all of its negative Status Conditions are removed."
+  },
+  {
     "name": "Sensei",
     "wikiUrl": "https://temtem.gamepedia.com/Sensei",
     "description": "When attacking with a Physical technique, uses SPATK, and when attacking with a special technique, uses the ATK.",
@@ -460,6 +490,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/Tactical_Strike",
     "description": "Damage done with Hold techniques is increased by 15%.",
     "effect": "Whenever a Temtem with Tactical Strike attacks with a technique with a hold of 1 or more, the damage is increased by 15%."
+  },
+  {
+    "name": "Tardy Rush",
+    "wikiUrl": "https://temtem.gamepedia.com/Tardy_Rush",
+    "description": "Speed increases by 100% and ATK by 10% after 3 successive turns on the battlefield.",
+    "effect": "When a Temtem with Tardy Rush is on the bagtlefield for 3 turns in a row, its Speed increases by 100% and its Attack by 10%. It is unknown if they continually increase, such as after 6 total turns, 9, etc."
   },
   {
     "name": "Team Elusive",
@@ -544,6 +580,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/Water_Affinity",
     "description": "Water techniques get a boost of the same type.",
     "effect": "This trait grants the user STAB (Same-Type Attack Bonus) to all water type attacks even if it is not water type, increasing the base damage of water type techniques by 50%."
+  },
+  {
+    "name": "Water Custodian",
+    "wikiUrl": "https://temtem.gamepedia.com/Water_Custodian",
+    "description": "Water techniques targeting the ally will target the Temtem instead.",
+    "effect": "While a Temtem with Water Custodian is on the battlefield, any Water Type techniques that target the ally will target this Temtem instead."
   },
   {
     "name": "Withdrawal",
