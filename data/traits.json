@@ -36,6 +36,12 @@
     "effect": "Attack T changes the Temtems second type to the type of the technique it’s about to use."
   },
   {
+    "name": "Autotomy",
+    "wikiUrl": "https://temtem.gamepedia.com/Autotomy",
+    "description": "When entering the battlefield for the first time, gets evading for 2 turns.",
+    "effect": "Autotomy causes the user to get the Evading Condition for 2 turns upon its first entry onto the battlefield."
+  },
+  {
     "name": "Avenger",
     "wikiUrl": "https://temtem.gamepedia.com/Avenger",
     "description": "When an ally is knocked-out, increases SPATK and SPD by 1 stage.",
@@ -120,6 +126,12 @@
     "effect": "Enemy Temtem lose 20% of their max HP when resting during battle."
   },
   {
+    "name": "Earthbound",
+    "wikiUrl": "https://temtem.gamepedia.com/Earthbound",
+    "description": "When attacking with a Earth technique, gets +1DEF.",
+    "effect": "Earthbound gives the user +1DEF whenever they use an Earth Type technique."
+  },
+  {
     "name": "Electric Synthesize",
     "wikiUrl": "https://temtem.gamepedia.com/Electric_Synthesize",
     "description": "When attacked with an Electric technique, restores HP instead of receiving damage.",
@@ -130,6 +142,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/Energy_Reserves",
     "description": "Tempedia description",
     "effect": "If HP is below 25% by the end of the turn, gets Vigorized for 2 turns."
+  },
+  {
+    "name": "Escapist",
+    "wikiUrl": "https://temtem.gamepedia.com/Escapist",
+    "description": "When entering the battlefield, removes the trapped status condition on the ally and prevents the trapped status condition on the ally and itself.",
+    "effect": "While a Temtem with Escapist is on the battlefield, neither it nor its ally can get the Trapped Condition. Also, when it enters the battlefield, its ally loses the Trapped Condition if it has it."
   },
   {
     "name": "Fainted Curse",
@@ -208,6 +226,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/Loneliness",
     "description": "Synergies won't work on both allies.",
     "effect": ""
+  },
+  {
+    "name": "Marathonist",
+    "wikiUrl": "https://temtem.gamepedia.com/Marathonist",
+    "description": "When attacking, gets -1SPD, and STA cost reduced is 50%.",
+    "effect": "Marathonist causes the user to lose -1 SPD when attacking, but the stamina cost of the attack is halved."
   },
   {
     "name": "Mental Alliance",
@@ -342,6 +366,18 @@
     "effect": ""
   },
   {
+    "name": "Sensei",
+    "wikiUrl": "https://temtem.gamepedia.com/Sensei",
+    "description": "When attacking with a Physical technique, uses SPATK, and when attacking with a special technique, uses the ATK.",
+    "effect": "Whenever Sensei attacks with a Physical attack, the SPATK is used instead of the ATK. Similarly, if it is a Special attack, it uses the ATK instead of SPATK."
+  },
+  {
+    "name": "Sentinel",
+    "wikiUrl": "https://temtem.gamepedia.com/Sentinel",
+    "description": "When entering the battlefield, removes the asleep status condition on the ally and prevents the asleep status condition on the ally and itself.",
+    "effect": "While a Temtem with Sentinel is on the battlefield, neither it nor the ally can get the Asleep Condition. Also, when it enters the battlefield, if the ally has the Asleep Condition, it looses it."
+  },
+  {
     "name": "Settling",
     "wikiUrl": "https://temtem.gamepedia.com/Settling",
     "description": "Increases ATK by 8% for each turn the Temtem stays in the battlefield.",
@@ -366,6 +402,12 @@
     "effect": ""
   },
   {
+    "name": "Spreader",
+    "wikiUrl": "https://temtem.gamepedia.com/Spreader",
+    "description": "Single-target special techniques become multi-target, and damage done with them is reduced by 50%.",
+    "effect": "Whenever a Temtem with Spreader attacks with a Special Technique, the attack affects the entire target team instead. However, it does half the damage."
+  },
+  {
     "name": "Strong Liver",
     "wikiUrl": "https://temtem.gamepedia.com/Strong_Liver",
     "description": "When attacked with a Toxic technique, restores HP instead of receiving damage.",
@@ -376,6 +418,18 @@
     "wikiUrl": "https://temtem.gamepedia.com/Synergy_Master",
     "description": "Damage done with synergy techniques is increased by 25% while the Temtem participate in the synergy.",
     "effect": "Increases the damage of synergy techniques for the ally Temtem when this Temtem can activate it, or when this Temtem uses a synergy technique that the ally activates."
+  },
+  {
+    "name": "Tactical Strike",
+    "wikiUrl": "https://temtem.gamepedia.com/Tactical_Strike",
+    "description": "Damage done with Hold techniques is increased by 15%.",
+    "effect": "Whenever a Temtem with Tactical Strike attacks with a technique with a hold of 1 or more, the damage is increased by 15%."
+  },
+  {
+    "name": "Team Elusive",
+    "wikiUrl": "https://temtem.gamepedia.com/Team_Elusive",
+    "description": "Prevents multi-target techniques.",
+    "effect": "When an enemy uses a multi-target technique that would hit a Temtem with Team Elusive, instead, it isn't affected. If Puppet Master would cause a Temtem with Team Elusive to be the target of an attack, it is not. The Temtem with Puppet Master remains the target."
   },
   {
     "name": "Thick Skin",

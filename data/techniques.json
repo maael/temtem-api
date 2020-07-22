@@ -1,5 +1,21 @@
 [
   {
+    "name": "Acid Reflux",
+    "wikiUrl": "https://temtem.gamepedia.com/Acid_Reflux",
+    "type": "Toxic",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 80,
+    "staminaCost": 20,
+    "hold": 2,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Toxolotl draws from the Toxic Type Toxic essence of Xolot, moderately damaging and Poisoning the whole team for 2 turns."
+  },
+  {
     "name": "Allergic Spread",
     "wikiUrl": "https://temtem.gamepedia.com/Allergic_Spread",
     "type": "Nature",
@@ -140,6 +156,28 @@
     "description": "Omninenesian Temtem use pieces of Banyan bark as shields, giving the whole team DEF +2."
   },
   {
+    "name": "Bestial Charge",
+    "wikiUrl": "https://temtem.gamepedia.com/Bestial_Charge",
+    "type": "Neutral",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 55,
+    "staminaCost": 20,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "Melee",
+    "synergyEffects": [
+      {
+        "effect": "+30 Base Damage",
+        "type": "damage",
+        "damage": 30
+      }
+    ],
+    "targets": "None",
+    "description": "A primal charge, like the stampede on the Kisiwa plains! It inflicts damage on the whole team."
+  },
+  {
     "name": "Beta Burst",
     "wikiUrl": "https://temtem.gamepedia.com/Beta_Burst",
     "type": "Mental",
@@ -236,6 +274,28 @@
     "description": "\"In a hole in the ground there lived a Temtem...\" which allowed it to evade for 4 turns."
   },
   {
+    "name": "Bush",
+    "wikiUrl": "https://temtem.gamepedia.com/Bush",
+    "type": "Nature",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 21,
+    "hold": 2,
+    "priority": "high",
+    "priorityIcon": "/images/icons/priority/high.png",
+    "synergy": "Earth",
+    "synergyEffects": [
+      {
+        "effect": "+2SPDEF",
+        "type": "buff",
+        "damage": 0
+      }
+    ],
+    "targets": "Single Other Target",
+    "description": "When in doubt, run and shout! This fast Nature technique helps your Temtem regenerate for 2 turns and evade for 1 turn."
+  },
+  {
     "name": "Cage",
     "wikiUrl": "https://temtem.gamepedia.com/Cage",
     "type": "Neutral",
@@ -298,6 +358,22 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "A Neutral technique that whips the opponent with heavy chains."
+  },
+  {
+    "name": "Charge",
+    "wikiUrl": "https://temtem.gamepedia.com/Charge",
+    "type": "Neutral",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 50,
+    "staminaCost": 4,
+    "hold": 0,
+    "priority": "high",
+    "priorityIcon": "/images/icons/priority/high.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "There's a time for cunning strategy, and there's a time for charging head-on. This is for the latter case."
   },
   {
     "name": "Cheer Up",
@@ -1714,6 +1790,22 @@
     "description": "Strike smarter, not harder. Weak, but decreases the enemy DEF by 1 stage"
   },
   {
+    "name": "Petrify",
+    "wikiUrl": "https://temtem.gamepedia.com/Petrify",
+    "type": "Earth",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 50,
+    "staminaCost": 15,
+    "hold": 2,
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Have a heart... of stone. It doesn't hurt much, but it leaves enemies for 5 turns."
+  },
+  {
     "name": "Photosynthesis",
     "wikiUrl": "https://temtem.gamepedia.com/Photosynthesis",
     "type": "Nature",
@@ -1744,6 +1836,22 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A dirty trick from the seedier alleys of Lochburg, uses nimble fingers (or claws) to Seize the target for 2 turns."
+  },
+  {
+    "name": "Plague",
+    "wikiUrl": "https://temtem.gamepedia.com/Plague",
+    "type": "Nature",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 100,
+    "staminaCost": 23,
+    "hold": 0,
+    "priority": "high",
+    "priorityIcon": "/images/icons/priority/high.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "A nasty lurgy that damages the target and leaves it Exhausted for 1 turn."
   },
   {
     "name": "Pollution",
@@ -2020,6 +2128,22 @@
     "description": "Developed by the legendary tamer Da-Rud in ancient times, this Earth technique inflicts decent damage on the whole team."
   },
   {
+    "name": "Savage Surplex",
+    "wikiUrl": "https://temtem.gamepedia.com/Savage_Surplex",
+    "type": "Neutral",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 150,
+    "staminaCost": 24,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "In classic Temtem wresting showbiz style, this Neutral technique damages and the target for 2 turns."
+  },
+  {
     "name": "Scratch",
     "wikiUrl": "https://temtem.gamepedia.com/Scratch",
     "type": "Neutral",
@@ -2174,6 +2298,22 @@
     ],
     "targets": "?",
     "description": "Currently, Slow Down is unavailable, so its unknown what it's description is."
+  },
+  {
+    "name": "Sludge Gift",
+    "wikiUrl": "https://temtem.gamepedia.com/Sludge_Gift",
+    "type": "Earth",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 40,
+    "staminaCost": 4,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "An extremely weak Earth technique... but you don't look a sludge gift in the rock, right?"
   },
   {
     "name": "Sparks",
@@ -2358,6 +2498,22 @@
     "description": "An electromagnetic trap that does light damage and slows down the target (SPD -1)."
   },
   {
+    "name": "Time Split",
+    "wikiUrl": "https://temtem.gamepedia.com/Time_Split",
+    "type": "Mental",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 30,
+    "staminaCost": 20,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Twist the fabric of time-space to your advantage, gaining +1SPD and giving the enemy -1SPD."
+  },
+  {
     "name": "Tornado",
     "wikiUrl": "https://temtem.gamepedia.com/Tornado",
     "type": "Wind",
@@ -2479,6 +2635,22 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Toxin-carrying spores that inoculate with Poisoned Condition for 3 turns."
+  },
+  {
+    "name": "Toxin Shower",
+    "wikiUrl": "https://temtem.gamepedia.com/Toxin_Shower",
+    "type": "Toxic",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 40,
+    "staminaCost": 10,
+    "hold": 2,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "None",
+    "description": "\"Toxinestorm\" isn't as colorful as the alternative, but you get the idea... Slightly damages all Temtem in the battlefield."
   },
   {
     "name": "Tsunami",
@@ -2722,6 +2894,38 @@
     ],
     "targets": "Single Other Target",
     "description": "As pretty (but much deadlier) than Denizan Water lillies"
+  },
+  {
+    "name": "Waterjet",
+    "wikiUrl": "https://temtem.gamepedia.com/Waterjet",
+    "type": "Water",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 110,
+    "staminaCost": 16,
+    "hold": 2,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "About time your enemies took a shower! This pressurized jet inflicts considerable damage and leaves the target Cold for 2 turns."
+  },
+  {
+    "name": "Willpower Drain",
+    "wikiUrl": "https://temtem.gamepedia.com/Willpower_Drain",
+    "type": "Neutral",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 15,
+    "hold": 1,
+    "priority": "high",
+    "priorityIcon": "/images/icons/priority/high.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Sapping the very will to fight from an enemy's mind, this quick Neutral technique steals 23 Stamina points."
   },
   {
     "name": "Wind Blade",
