@@ -4072,6 +4072,306 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Skunch.gif"
   },
   {
+    "number": 29,
+    "name": "Goty",
+    "types": [
+      "Neutral"
+    ],
+    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/1/19/Goty.png/50px-Goty.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Goty",
+    "stats": {
+      "hp": 51,
+      "sta": 48,
+      "spd": 31,
+      "atk": 55,
+      "def": 48,
+      "spatk": 58,
+      "spdef": 37,
+      "total": 328
+    },
+    "traits": [
+      "Rested",
+      "Plethoric"
+    ],
+    "details": {
+      "height": {
+        "cm": 80,
+        "inches": 31
+      },
+      "weight": {
+        "kg": 35,
+        "lbs": 77
+      }
+    },
+    "techniques": [
+      {
+        "name": "Nibble",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Kick",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Tenderness",
+        "source": "Levelling",
+        "levels": 7
+      },
+      {
+        "name": "Nimble",
+        "source": "Levelling",
+        "levels": 9
+      },
+      {
+        "name": "Double Kick",
+        "source": "Levelling",
+        "levels": 16
+      },
+      {
+        "name": "Rampage",
+        "source": "Levelling",
+        "levels": 28
+      },
+      {
+        "name": "Pickpocket",
+        "source": "Levelling",
+        "levels": 36
+      },
+      {
+        "name": "Head Charge",
+        "source": "Breeding"
+      },
+      {
+        "name": "Burrow",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [],
+    "evolution": {
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 29,
+          "name": "Goty",
+          "stage": 1,
+          "levels": 13,
+          "trading": false,
+          "traitMapping": {
+            "Rested": "Hurry Wart",
+            "Plethoric": "Unnoticed"
+          }
+        },
+        {
+          "number": 30,
+          "name": "Mouflank",
+          "stage": 2,
+          "traitMapping": {
+            "Hurry Wart": "Hurry Wart",
+            "Unnoticed": "Unnoticed"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
+    },
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/1/19/Goty.png/250px-Goty.png?version=653155f82e9ee53fa58c8cd65c9ac032",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/25/LumaGoty.png/250px-LumaGoty.png?version=5d12ebd6fb5830732deef675de64fed0",
+    "locations": [],
+    "icon": "/images/portraits/temtem/large/Goty.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Goty.png",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 140,
+    "hatchMins": 17,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 1,
+      "spdef": 0
+    },
+    "gameDescription": "Voted Best Temtem every year by Neutral enthusiasts, Goty is as effective as it is cute. This little crowd-pleaser is particularly popular among casual Kisiwan tamers.",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 30,
+    "name": "Mouflank",
+    "types": [
+      "Neutral"
+    ],
+    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/75/Mouflank.png/50px-Mouflank.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Mouflank",
+    "stats": {
+      "hp": 79,
+      "sta": 75,
+      "spd": 72,
+      "atk": 65,
+      "def": 79,
+      "spatk": 72,
+      "spdef": 41,
+      "total": 483
+    },
+    "traits": [
+      "Hurry Wart",
+      "Unnoticed"
+    ],
+    "details": {
+      "height": {
+        "cm": 170,
+        "inches": 66
+      },
+      "weight": {
+        "kg": 115,
+        "lbs": 253
+      }
+    },
+    "techniques": [
+      {
+        "name": "Nibble",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Kick",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Tenderness",
+        "source": "Levelling",
+        "levels": 7
+      },
+      {
+        "name": "Nimble",
+        "source": "Levelling",
+        "levels": 9
+      },
+      {
+        "name": "Double Kick",
+        "source": "Levelling",
+        "levels": 16
+      },
+      {
+        "name": "Rampage",
+        "source": "Levelling",
+        "levels": 28
+      },
+      {
+        "name": "Pickpocket",
+        "source": "Levelling",
+        "levels": 36
+      },
+      {
+        "name": "Cage",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Footwork",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Footwork",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Held Anger",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Base Jump",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Double Edge",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Head Charge",
+        "source": "Breeding"
+      },
+      {
+        "name": "Burrow",
+        "source": "Breeding"
+      },
+      {
+        "name": "Bestial Charge",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [],
+    "evolution": {
+      "stage": 2,
+      "evolutionTree": [
+        {
+          "number": 29,
+          "name": "Goty",
+          "stage": 1,
+          "levels": 13,
+          "trading": false,
+          "traitMapping": {
+            "Rested": "Hurry Wart",
+            "Plethoric": "Unnoticed"
+          }
+        },
+        {
+          "number": 30,
+          "name": "Mouflank",
+          "stage": 2,
+          "traitMapping": {
+            "Hurry Wart": "Hurry Wart",
+            "Unnoticed": "Unnoticed"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
+    },
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/75/Mouflank.png/250px-Mouflank.png?version=66fbf1909b50aba39379d1129dd25095",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/8d/LumaMouflank.png/250px-LumaMouflank.png?version=feed0a8603e43e16130df46ddca43efd",
+    "locations": [],
+    "icon": "/images/portraits/temtem/large/Mouflank.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Mouflank.png",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 90,
+    "hatchMins": 27,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
     "number": 32,
     "name": "Houchic",
     "types": [
@@ -4154,6 +4454,16 @@
         "name": "Lullaby",
         "source": "Levelling",
         "levels": 42
+      },
+      {
+        "name": "Ninja Jutsu",
+        "source": "Levelling",
+        "levels": 46
+      },
+      {
+        "name": "Nagaise's Fury",
+        "source": "Levelling",
+        "levels": 58
       }
     ],
     "trivia": [
@@ -4180,6 +4490,8 @@
           "number": 33,
           "name": "Tental",
           "stage": 2,
+          "levels": 24,
+          "trading": false,
           "traitMapping": {
             "Water Affinity": "Water Affinity",
             "Avenger": "Avenger"
@@ -4187,7 +4499,7 @@
         },
         {
           "number": -1,
-          "name": "Unknown",
+          "name": "Nagaise",
           "stage": 3
         }
       ],
@@ -4319,6 +4631,11 @@
         "levels": 46
       },
       {
+        "name": "Nagaise's Fury",
+        "source": "Levelling",
+        "levels": 58
+      },
+      {
         "name": "Awful Song",
         "source": "TechniqueCourses"
       },
@@ -4356,6 +4673,8 @@
           "number": 33,
           "name": "Tental",
           "stage": 2,
+          "levels": 24,
+          "trading": false,
           "traitMapping": {
             "Water Affinity": "Water Affinity",
             "Avenger": "Avenger"
@@ -4363,7 +4682,7 @@
         },
         {
           "number": -1,
-          "name": "Unknown",
+          "name": "Nagaise",
           "stage": 3
         }
       ],
@@ -8153,6 +8472,455 @@
     "renderAnimatedLumaImage": ""
   },
   {
+    "number": 66,
+    "name": "Osuchi",
+    "types": [
+      "Earth"
+    ],
+    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/81/Osuchi.png/50px-Osuchi.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Osuchi",
+    "stats": {
+      "hp": 52,
+      "sta": 37,
+      "spd": 38,
+      "atk": 65,
+      "def": 51,
+      "spatk": 24,
+      "spdef": 25,
+      "total": 292
+    },
+    "traits": [
+      "Caffeinated",
+      "Brawny"
+    ],
+    "details": {
+      "height": {
+        "cm": 125,
+        "inches": 49
+      },
+      "weight": {
+        "kg": 45,
+        "lbs": 99
+      }
+    },
+    "techniques": [
+      {
+        "name": "Novice Punch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Meditation",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Clay Ball",
+        "source": "Levelling",
+        "levels": 9
+      },
+      {
+        "name": "Toughen",
+        "source": "Levelling",
+        "levels": 14
+      },
+      {
+        "name": "Footwork",
+        "source": "Breeding"
+      },
+      {
+        "name": "Dust Vortex",
+        "source": "Breeding"
+      },
+      {
+        "name": "Martial Strike",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [],
+    "evolution": {
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 66,
+          "name": "Osuchi",
+          "stage": 1,
+          "levels": 12,
+          "trading": false,
+          "traitMapping": {
+            "Caffeinated": "Furor",
+            "Brawny": "Parrier"
+          }
+        },
+        {
+          "number": 67,
+          "name": "Osukan",
+          "stage": 2,
+          "levels": 14,
+          "trading": false,
+          "traitMapping": {
+            "Furor": "Sensei",
+            "Parrier": "Body Stretch"
+          }
+        },
+        {
+          "number": 68,
+          "name": "Osukai",
+          "stage": 3,
+          "traitMapping": {
+            "Sensei": "Sensei",
+            "Body Stretch": "Body Stretch"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
+    },
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/81/Osuchi.png/250px-Osuchi.png?version=9a1e165fb952a552ea59b7d5f6409ee5",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/78/LumaOsuchi.png/250px-LumaOsuchi.png?version=f03c460b6ca149cb89e873dfcf441b90",
+    "locations": [],
+    "icon": "/images/portraits/temtem/large/Osuchi.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Osuchi.png",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 140,
+    "hatchMins": 17,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 1,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "Shy and unassuming, Osuchi are generally considered benevolent, steadfast friends. Often confused with rock outcroppings by the untrained eye, they are at home in the Jino Gap.",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 67,
+    "name": "Osukan",
+    "types": [
+      "Earth",
+      "Melee"
+    ],
+    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5e/Osukan.png/50px-Osukan.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Osukan",
+    "stats": {
+      "hp": 60,
+      "sta": 41,
+      "spd": 41,
+      "atk": 78,
+      "def": 69,
+      "spatk": 26,
+      "spdef": 27,
+      "total": 342
+    },
+    "traits": [
+      "Furor",
+      "Parrier"
+    ],
+    "details": {
+      "height": {
+        "cm": 171,
+        "inches": 67
+      },
+      "weight": {
+        "kg": 90,
+        "lbs": 198
+      }
+    },
+    "techniques": [
+      {
+        "name": "Novice Punch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Meditation",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Clay Ball",
+        "source": "Levelling",
+        "levels": 9
+      },
+      {
+        "name": "Toughen",
+        "source": "Levelling",
+        "levels": 14
+      },
+      {
+        "name": "Nito Seiho",
+        "source": "Levelling",
+        "levels": 23
+      },
+      {
+        "name": "Uppercut",
+        "source": "Levelling",
+        "levels": 31
+      },
+      {
+        "name": "Footwork",
+        "source": "Breeding"
+      },
+      {
+        "name": "Dust Vortex",
+        "source": "Breeding"
+      },
+      {
+        "name": "Martial Strike",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [],
+    "evolution": {
+      "stage": 2,
+      "evolutionTree": [
+        {
+          "number": 68,
+          "name": "Osukai",
+          "stage": 1,
+          "levels": 12,
+          "trading": false,
+          "traitMapping": {
+            "Sensei": "Furor",
+            "Body Stretch": "Parrier"
+          }
+        },
+        {
+          "number": 67,
+          "name": "Osukan",
+          "stage": 2,
+          "levels": 14,
+          "trading": false,
+          "traitMapping": {
+            "Furor": "Sensei",
+            "Parrier": "Body Stretch"
+          }
+        },
+        {
+          "number": 68,
+          "name": "Osukai",
+          "stage": 3,
+          "traitMapping": {
+            "Sensei": "Sensei",
+            "Body Stretch": "Body Stretch"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
+    },
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5e/Osukan.png/250px-Osukan.png?version=ee5bfae31e88fcd893323bd93f1438eb",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5d/LumaOsukan.png/250px-LumaOsukan.png?version=7de4cd9b9b384f1631ccf3344030b81c",
+    "locations": [],
+    "icon": "/images/portraits/temtem/large/Osukan.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Osukan.png",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 110,
+    "hatchMins": 23,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 3,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "Osukan are the perfect embodiment of the endurance and grit of the best Temtem fighters. They are sturdy, obstinate creatures that love nothing better than to show their prowess in a hard, honest battle against a worthy rival.",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 68,
+    "name": "Osukai",
+    "types": [
+      "Earth",
+      "Melee"
+    ],
+    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/25/Osukai.png/50px-Osukai.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Osukai",
+    "stats": {
+      "hp": 71,
+      "sta": 48,
+      "spd": 58,
+      "atk": 93,
+      "def": 85,
+      "spatk": 31,
+      "spdef": 33,
+      "total": 419
+    },
+    "traits": [
+      "Sensei",
+      "Body Stretch"
+    ],
+    "details": {
+      "height": {
+        "cm": 235,
+        "inches": 92
+      },
+      "weight": {
+        "kg": 195,
+        "lbs": 429
+      }
+    },
+    "techniques": [
+      {
+        "name": "Novice Punch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Meditation",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Clay Ball",
+        "source": "Levelling",
+        "levels": 9
+      },
+      {
+        "name": "Toughen",
+        "source": "Levelling",
+        "levels": 14
+      },
+      {
+        "name": "Nito Seiho",
+        "source": "Levelling",
+        "levels": 23
+      },
+      {
+        "name": "Uppercut",
+        "source": "Levelling",
+        "levels": 31
+      },
+      {
+        "name": "Petrify",
+        "source": "Levelling",
+        "levels": 40
+      },
+      {
+        "name": "Rockfall",
+        "source": "Levelling",
+        "levels": 51
+      },
+      {
+        "name": "Dim Mak",
+        "source": "Levelling",
+        "levels": 58
+      },
+      {
+        "name": "Footwork",
+        "source": "Breeding"
+      },
+      {
+        "name": "Dust Vortex",
+        "source": "Breeding"
+      },
+      {
+        "name": "Martial Strike",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [
+      "Osukai comes from \"Osu\", a Japanese expression for martial arts, and \"Tatakai\", battle in Japanese.",
+      "The name Osukai was revealed in the official Discord on the 13th of July 2020.",
+      "Osukai was first shown on the printed sticker pack in the Kickstarter physical rewards status and progress update."
+    ],
+    "evolution": {
+      "stage": 2,
+      "evolutionTree": [
+        {
+          "number": 66,
+          "name": "Osuchi",
+          "stage": 1,
+          "levels": 12,
+          "trading": false,
+          "traitMapping": {
+            "Caffeinated": "Sensei",
+            "Brawny": "Body Stretch"
+          }
+        },
+        {
+          "number": 68,
+          "name": "Osukai",
+          "stage": 2,
+          "levels": 214,
+          "trading": false,
+          "traitMapping": {
+            "Sensei": "Sensei",
+            "Body Stretch": "Body Stretch"
+          }
+        },
+        {
+          "number": 68,
+          "name": "Osukai",
+          "stage": 3,
+          "traitMapping": {
+            "Sensei": "Sensei",
+            "Body Stretch": "Body Stretch"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
+    },
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/25/Osukai.png/250px-Osukai.png?version=2c81703a006f3ad2986f8e994a729386",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a8/LumaOsukai.png/250px-LumaOsukai.png?version=9518018777669fdc4531696a49512788",
+    "locations": [],
+    "icon": "/images/portraits/temtem/large/Osukai.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Osukai.png",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 4,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "Massive, four-armed Osukai are as hard as granite. They are credited with much of the boring heavy-lifting during the construction of the tunnels under the Kilima Range.",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
     "number": 69,
     "name": "Saipat",
     "types": [
@@ -8401,6 +9169,174 @@
       "spdef": 0
     },
     "gameDescription": "Nothing says 'amateur' like making fun of Saipat. Sure, they might look comical at first sight, but nobody who has faced a totally focused Saipat, sturdy coral sai in hand, takes them anything but seriously.",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 70,
+    "name": "Pycko",
+    "types": [
+      "Earth",
+      "Fire"
+    ],
+    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/3b/Pycko.png/50px-Pycko.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Pycko",
+    "stats": {
+      "hp": 49,
+      "sta": 52,
+      "spd": 39,
+      "atk": 55,
+      "def": 40,
+      "spatk": 44,
+      "spdef": 41,
+      "total": 320
+    },
+    "traits": [],
+    "details": {
+      "height": {
+        "cm": 0,
+        "inches": 0
+      },
+      "weight": {
+        "kg": 0,
+        "lbs": 0
+      }
+    },
+    "techniques": [],
+    "trivia": [],
+    "evolution": {
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 70,
+          "name": "Pycko",
+          "stage": 1,
+          "levels": 0,
+          "trading": false,
+          "traitMapping": {}
+        },
+        {
+          "number": 71,
+          "name": "Drakash",
+          "stage": 2,
+          "traitMapping": {}
+        }
+      ],
+      "evolves": true,
+      "type": "level"
+    },
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/3b/Pycko.png/250px-Pycko.png?version=b5ae9ae57189272bda1152182b383e16",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b3/LumaPycko.png/250px-LumaPycko.png?version=98f2bc0ea253dbaf74f07e935dc42235",
+    "locations": [],
+    "icon": "/images/portraits/temtem/large/Pycko.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Pycko.png",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 71,
+    "name": "Drakash",
+    "types": [
+      "Earth",
+      "Fire"
+    ],
+    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/40/Drakash.png/50px-Drakash.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Drakash",
+    "stats": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "total": 0
+    },
+    "traits": [],
+    "details": {
+      "height": {
+        "cm": 0,
+        "inches": 0
+      },
+      "weight": {
+        "kg": 0,
+        "lbs": 0
+      }
+    },
+    "techniques": [],
+    "trivia": [],
+    "evolution": {
+      "stage": 2,
+      "evolutionTree": [
+        {
+          "number": 70,
+          "name": "Pycko",
+          "stage": 1,
+          "levels": 0,
+          "trading": false,
+          "traitMapping": {}
+        },
+        {
+          "number": 71,
+          "name": "Drakash",
+          "stage": 2,
+          "traitMapping": {}
+        }
+      ],
+      "evolves": true,
+      "type": "level"
+    },
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/40/Drakash.png/250px-Drakash.png?version=6a1e583db8ed6051904df4f9ea6aa887",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b3/LumaDrakash.png/250px-LumaDrakash.png?version=4c31a2286f41001f4246d2f0b1d9e51d",
+    "locations": [],
+    "icon": "/images/portraits/temtem/large/Drakash.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Drakash.png",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -10159,8 +11095,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/50/Raignet.png/250px-Raignet.png?version=837b1000e7196d236cec536883478778",
-    "lumaWikiPortraitUrlLarge": "",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/50/Raignet.png/250px-Raignet.png?version=c8fab9c68d710ef642ddc2572c14e780",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/54/LumaRaignet.png/250px-LumaRaignet.png?version=be244af69e894b9d166037c79bb98238",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Raignet.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Raignet.png",
@@ -10523,27 +11459,86 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Zizare",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 60,
+      "sta": 75,
+      "spd": 30,
+      "atk": 70,
+      "def": 90,
+      "spatk": 40,
+      "spdef": 45,
+      "total": 410
     },
-    "traits": [],
+    "traits": [
+      "Rested",
+      "Electric Synthesize"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 180,
+        "inches": 70
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 205,
+        "lbs": 452
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Sludge Gift",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Sand Splatter",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Charge",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Bone Cracker",
+        "source": "Levelling",
+        "levels": 22
+      },
+      {
+        "name": "Petrify",
+        "source": "Levelling",
+        "levels": 31
+      },
+      {
+        "name": "Rockfall",
+        "source": "Levelling",
+        "levels": 42
+      },
+      {
+        "name": "Piercing Wheel",
+        "source": "Levelling",
+        "levels": 55
+      },
+      {
+        "name": "Darkness",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Double Edge",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Quicksand",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Untangle",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Burrow",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [
       "Zizare is the Basque word for \"earthworm\". Coincidentally, the name could also be a combination of the words \"zig-zag\" and \"bizarre\".",
       "Zizare was first seen through the Kickstarter Video then fully revealed on Twitter."
@@ -10551,8 +11546,8 @@
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fe/Zizare.png/250px-Zizare.png?version=9ac8f17d68eec44bf2c6dd677be0cfc8",
-    "lumaWikiPortraitUrlLarge": "",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fe/Zizare.png/250px-Zizare.png?version=22147fe7b19915d3cf9dfccdef62835f",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/77/LumaZizare.png/250px-LumaZizare.png?version=fb58292cebe44768a41960fd27bdc2af",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Zizare.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Zizare.png",
@@ -10560,12 +11555,12 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 75,
+    "hatchMins": 30,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 1,
       "atk": 0,
       "def": 0,
       "spatk": 0,
@@ -10585,20 +11580,20 @@
     "number": 100,
     "name": "Kuri",
     "types": [
-      "Unknown"
+      "Earth"
     ],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/52/Kuri.png/50px-Kuri.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Kuri",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 52,
+      "sta": 30,
+      "spd": 52,
+      "atk": 60,
+      "def": 58,
+      "spatk": 35,
+      "spdef": 31,
+      "total": 318
     },
     "traits": [
       "Camaraderie",
@@ -10614,7 +11609,32 @@
         "lbs": 143
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Nibble",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Stare",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Burrow",
+        "source": "Levelling",
+        "levels": 13
+      },
+      {
+        "name": "Sand Storm",
+        "source": "Levelling",
+        "levels": 20
+      },
+      {
+        "name": "Block",
+        "source": "TechniqueCourses"
+      }
+    ],
     "trivia": [
       "Kuri comes from \"Kura\", hyena in Hausa language."
     ],
@@ -10625,23 +11645,28 @@
           "number": 100,
           "name": "Kuri",
           "stage": 1,
+          "levels": 16,
+          "trading": false,
           "traitMapping": {
-            "Camaraderie": "Unknown",
-            "Callosity": "Unknown"
+            "Camaraderie": "Scavenger",
+            "Callosity": "Skull Helmet"
           }
         },
         {
           "number": 101,
           "name": "Kauren",
           "stage": 2,
-          "traitMapping": {}
+          "traitMapping": {
+            "Scavenger": "Scavenger",
+            "Skull Helmet": "Skull Helmet"
+          }
         }
       ],
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/5/52/Kuri.png?version=cc27c43d380372ce6a7dda78979de8e1",
-    "lumaWikiPortraitUrlLarge": "",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/52/Kuri.png/250px-Kuri.png?version=dc11ec65d5f41752b9f26b8e952b7238",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/1/19/LumaKuri.png/250px-LumaKuri.png?version=b203f7a63567a950aca1f1fb42ff5d9d",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Kuri.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Kuri.png",
@@ -10649,8 +11674,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 130,
+    "hatchMins": 19,
     "tvYields": {
       "hp": 0,
       "sta": 1,
@@ -10689,18 +11714,74 @@
       "spdef": 0,
       "total": 0
     },
-    "traits": [],
+    "traits": [
+      "Scavenger",
+      "Skull Helmet"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 170,
+        "inches": 66
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 105,
+        "lbs": 231
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Nibble",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Stare",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Burrow",
+        "source": "Levelling",
+        "levels": 13
+      },
+      {
+        "name": "Sand Storm",
+        "source": "Levelling",
+        "levels": 20
+      },
+      {
+        "name": "Stone Ball",
+        "source": "Levelling",
+        "levels": 30
+      },
+      {
+        "name": "Stampede",
+        "source": "Levelling",
+        "levels": 39
+      },
+      {
+        "name": "Earth Wave",
+        "source": "Levelling",
+        "levels": 49
+      },
+      {
+        "name": "Willpower Drawin",
+        "source": "Levelling",
+        "levels": 58
+      },
+      {
+        "name": "Block",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Footwork",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Base Jump",
+        "source": "TechniqueCourses"
+      }
+    ],
     "trivia": [
       "Kauren comes from \"Kura\", hyena in Hausa language, and \"Hauren giwa\", ivory in Hausa language."
     ],
@@ -10711,23 +11792,28 @@
           "number": 100,
           "name": "Kuri",
           "stage": 1,
+          "levels": 16,
+          "trading": false,
           "traitMapping": {
-            "Camaraderie": "Unknown",
-            "Callosity": "Unknown"
+            "Camaraderie": "Scavenger",
+            "Callosity": "Skull Helmet"
           }
         },
         {
           "number": 101,
           "name": "Kauren",
           "stage": 2,
-          "traitMapping": {}
+          "traitMapping": {
+            "Scavenger": "Scavenger",
+            "Skull Helmet": "Skull Helmet"
+          }
         }
       ],
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/09/Kauren.png/250px-Kauren.png?version=d65740645891255ebd2108079073a411",
-    "lumaWikiPortraitUrlLarge": "",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/09/Kauren.png/250px-Kauren.png?version=7e4b1e725048a8288b18c972072a068a",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/2b/LumaKauren.png/250px-LumaKauren.png?version=2e2c43f4f032a53eb289c9468fbe3219",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Kauren.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Kauren.png",
@@ -10735,8 +11821,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 100,
+    "hatchMins": 25,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -11940,14 +13026,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Zephyruff",
     "stats": {
-      "hp": 58,
+      "hp": 55,
       "sta": 34,
       "spd": 68,
       "atk": 43,
       "def": 47,
       "spatk": 50,
       "spdef": 51,
-      "total": 351
+      "total": 348
     },
     "traits": [
       "Toxic Affinity",
@@ -12266,6 +13352,179 @@
       "spdef": 3
     },
     "gameDescription": "Volarend are impressive avians of great wingspan, strong enough to carry humans in flight. However, they are temperamental and picky mounts, and tamers are well-advised to treat them kindly, lest they are given a one-way ticket to the Downbelow...",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 111,
+    "name": "Grumvel",
+    "types": [
+      "Earth"
+    ],
+    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7a/Grumvel.png/50px-Grumvel.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Grumvel",
+    "stats": {
+      "hp": 70,
+      "sta": 36,
+      "spd": 55,
+      "atk": 50,
+      "def": 65,
+      "spatk": 48,
+      "spdef": 60,
+      "total": 384
+    },
+    "traits": [
+      "Energy Reserves",
+      "Settling"
+    ],
+    "details": {
+      "height": {
+        "cm": 120,
+        "inches": 47
+      },
+      "weight": {
+        "kg": 90,
+        "lbs": 198
+      }
+    },
+    "techniques": [],
+    "trivia": [],
+    "evolution": {
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 111,
+          "name": "Grumvel",
+          "stage": 1,
+          "traitMapping": {
+            "Energy Reserves": "Unknown",
+            "Settling": "Unknown"
+          }
+        },
+        {
+          "number": 112,
+          "name": "Grumper",
+          "stage": 2,
+          "traitMapping": {}
+        }
+      ],
+      "evolves": true,
+      "type": "level"
+    },
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7a/Grumvel.png/250px-Grumvel.png?version=410c03b251a45fdbc32553b97bfcad9a",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/49/LumaGrumvel.png/250px-LumaGrumvel.png?version=f637d18cacb3ae0e376fc0f68804ed2b",
+    "locations": [],
+    "icon": "/images/portraits/temtem/large/Grumvel.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Grumvel.png",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 1,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "\"Sulky as a Grumvel\" is a common Uhurian idiom, usually addressed at comically malcontent little kids.",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 112,
+    "name": "Grumper",
+    "types": [
+      "Unknown"
+    ],
+    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b0/Grumper.png/50px-Grumper.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Grumper",
+    "stats": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "total": 0
+    },
+    "traits": [],
+    "details": {
+      "height": {
+        "cm": 0,
+        "inches": 0
+      },
+      "weight": {
+        "kg": 0,
+        "lbs": 0
+      }
+    },
+    "techniques": [],
+    "trivia": [],
+    "evolution": {
+      "stage": 2,
+      "evolutionTree": [
+        {
+          "number": 111,
+          "name": "Grumvel",
+          "stage": 1,
+          "levels": 0,
+          "trading": false,
+          "traitMapping": {
+            "Energy Reserves": "Unknown",
+            "Settling": "Unknown"
+          }
+        },
+        {
+          "number": 112,
+          "name": "Grumper",
+          "stage": 2,
+          "traitMapping": {}
+        }
+      ],
+      "evolves": true,
+      "type": "level"
+    },
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b0/Grumper.png/250px-Grumper.png?version=5063e20d22fef0902c59ecf738246d76",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/9c/LumaGrumper.png/250px-LumaGrumper.png?version=62126260705c33f028d7629fdb776602",
+    "locations": [],
+    "icon": "/images/portraits/temtem/large/Grumper.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Grumper.png",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -13101,8 +14360,8 @@
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7b/Valiar.png/250px-Valiar.png?version=9e7a48bdc2aa27a198957eefd0b5c3f4",
-    "lumaWikiPortraitUrlLarge": "",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7b/Valiar.png/250px-Valiar.png?version=fa875bee7179525cf66648ecfb0452fa",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d9/LumaValiar.png/250px-LumaValiar.png?version=dfe2c5017d373f7a38c01dcdcc844c75",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Valiar.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Valiar.png",
@@ -14895,6 +16154,141 @@
     "renderAnimatedLumaImage": ""
   },
   {
+    "number": 142,
+    "name": "Akranox",
+    "types": [
+      "Earth",
+      "Toxic"
+    ],
+    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d2/Akranox.png/50px-Akranox.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Akranox",
+    "stats": {
+      "hp": 61,
+      "sta": 52,
+      "spd": 71,
+      "atk": 71,
+      "def": 64,
+      "spatk": 71,
+      "spdef": 64,
+      "total": 454
+    },
+    "traits": [],
+    "details": {
+      "height": {
+        "cm": 160,
+        "inches": 62
+      },
+      "weight": {
+        "kg": 128,
+        "lbs": 282
+      }
+    },
+    "techniques": [],
+    "trivia": [],
+    "evolution": {
+      "evolves": false
+    },
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d2/Akranox.png/250px-Akranox.png?version=e26025209de41b9d252ae576716d9ef7",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/23/LumaAkranox.png/250px-LumaAkranox.png?version=ea1d49f54baf0983035c7feb640de3bb",
+    "locations": [],
+    "icon": "/images/portraits/temtem/large/Akranox.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Akranox.png",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 1,
+      "atk": 0,
+      "def": 0,
+      "spatk": 1,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 144,
+    "name": "Vulffy",
+    "types": [
+      "Earth",
+      "Nature"
+    ],
+    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/46/Vulffy.png/50px-Vulffy.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Vulffy",
+    "stats": {
+      "hp": 54,
+      "sta": 70,
+      "spd": 60,
+      "atk": 39,
+      "def": 55,
+      "spatk": 76,
+      "spdef": 85,
+      "total": 439
+    },
+    "traits": [
+      "Burglar",
+      "Team Elusive"
+    ],
+    "details": {
+      "height": {
+        "cm": 84,
+        "inches": 33
+      },
+      "weight": {
+        "kg": 73,
+        "lbs": 160
+      }
+    },
+    "techniques": [],
+    "trivia": [],
+    "evolution": {
+      "evolves": false
+    },
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/46/Vulffy.png/250px-Vulffy.png?version=9a9a005c40608a684393163fb0c46b8b",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/89/LumaVulffy.png/250px-LumaVulffy.png?version=5ac90fd4acbb8af364a124d700525018",
+    "locations": [],
+    "icon": "/images/portraits/temtem/large/Vulffy.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Vulffy.png",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
     "number": 161,
     "name": "Anahir",
     "types": [
@@ -14968,6 +16362,11 @@
         "name": "Crystal Bite",
         "source": "Levelling",
         "levels": 47
+      },
+      {
+        "name": "Mineral Hail",
+        "source": "Levelling",
+        "levels": 58
       },
       {
         "name": "Magma Cannon",

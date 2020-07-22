@@ -1424,6 +1424,22 @@
     "description": "Death from above... A barrage of flaming meteorites that inflicts Fire damage on the whole team."
   },
   {
+    "name": "Mineral Hail",
+    "wikiUrl": "https://temtem.gamepedia.com/Mineral_Hail",
+    "type": "Crystal",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 100,
+    "staminaCost": 30,
+    "hold": 3,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Imagine a Crystal storm in the darkest depths of Mictlan... Now just watch the enemy team."
+  },
+  {
     "name": "Mirror Shell",
     "wikiUrl": "https://temtem.gamepedia.com/Mirror_Shell",
     "type": "Crystal",
@@ -2356,6 +2372,22 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A powerful wind technique, illegal to use near all airship terminals of the Archipelago."
+  },
+  {
+    "name": "Toughen",
+    "wikiUrl": "https://temtem.gamepedia.com/Toughen",
+    "type": "Earth",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 15,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "When the going gets tough, the tough get going - and +2 DEF!"
   },
   {
     "name": "Toxic Fang",
