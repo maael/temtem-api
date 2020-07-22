@@ -1217,6 +1217,11 @@
         "levels": 44
       },
       {
+        "name": "Resin Trap",
+        "source": "Levelling",
+        "levels": 55
+      },
+      {
         "name": "Turbo Choreography",
         "source": "TechniqueCourses"
       },
@@ -1435,6 +1440,11 @@
         "name": "Stone Ball",
         "source": "Levelling",
         "levels": 44
+      },
+      {
+        "name": "Bestial Charge",
+        "source": "Levelling",
+        "levels": 58
       },
       {
         "name": "Turbo Choreography",
@@ -3514,6 +3524,11 @@
         "levels": 42
       },
       {
+        "name": "Hibernate",
+        "source": "Levelling",
+        "levels": 57
+      },
+      {
         "name": "Tsunami",
         "source": "TechniqueCourses"
       },
@@ -4175,7 +4190,7 @@
           "levels": 13,
           "trading": false,
           "traitMapping": {
-            "Rested": "Hurry Wart",
+            "Rested": "Hurry-wart",
             "Plethoric": "Unnoticed"
           }
         },
@@ -4184,7 +4199,7 @@
           "name": "Mouflank",
           "stage": 2,
           "traitMapping": {
-            "Hurry Wart": "Hurry Wart",
+            "Hurry-wart": "Hurry-wart",
             "Unnoticed": "Unnoticed"
           }
         }
@@ -4257,7 +4272,7 @@
       "total": 483
     },
     "traits": [
-      "Hurry Wart",
+      "Hurry-wart",
       "Unnoticed"
     ],
     "details": {
@@ -4354,7 +4369,7 @@
           "levels": 13,
           "trading": false,
           "traitMapping": {
-            "Rested": "Hurry Wart",
+            "Rested": "Hurry-wart",
             "Plethoric": "Unnoticed"
           }
         },
@@ -4363,7 +4378,7 @@
           "name": "Mouflank",
           "stage": 2,
           "traitMapping": {
-            "Hurry Wart": "Hurry Wart",
+            "Hurry-wart": "Hurry-wart",
             "Unnoticed": "Unnoticed"
           }
         }
@@ -4383,15 +4398,15 @@
     "catchRate": 90,
     "hatchMins": 27,
     "tvYields": {
-      "hp": 0,
+      "hp": 1,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
+      "def": 1,
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "",
+    "gameDescription": "With their imposing horns, grazing Mouflank herds used to be serious natural hazards of the Kisiwan plains. The tribes soon learned how to tame them to avoid dangerous stampedes.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -5430,8 +5445,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5b/Nidrasil.png/250px-Nidrasil.png?version=c5fb32d9632c9c202f77d3582f0a18d6",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a5/LumaNidrasil.png/250px-LumaNidrasil.png?version=1b005d101527baf1f4ef196ab4c2acce",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5b/Nidrasil.png/250px-Nidrasil.png?version=91aad48735387bed8ab419a67d9713a6",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a5/LumaNidrasil.png/250px-LumaNidrasil.png?version=972a16a24fdb748ee25b53f8574d2994",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Nidrasil.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Nidrasil.png",
@@ -5583,8 +5598,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/27/Banapi.png/250px-Banapi.png?version=185bd91e665278ad4b70a6a4dc4ca42f",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e5/LumaBanapi.png/250px-LumaBanapi.png?version=ceeb9f05ca06cf035c73cb4d37c4dfd6",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/27/Banapi.png/250px-Banapi.png?version=54f7066ceee0a29cded002057bd1c8d0",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e5/LumaBanapi.png/250px-LumaBanapi.png?version=74972512d027320efb89ad649b92d472",
     "locations": [
       {
         "location": "The Hangroad",
@@ -5769,6 +5784,11 @@
         "levels": 45
       },
       {
+        "name": "Flaming Meteorite",
+        "source": "Levelling",
+        "levels": 58
+      },
+      {
         "name": "Magma Cannon",
         "source": "TechniqueCourses"
       },
@@ -5812,8 +5832,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/cf/Capyre.png/250px-Capyre.png?version=d3c0bc298fa2142b5abf324b167193e4",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e2/LumaCapyre.png/250px-LumaCapyre.png?version=a1f446418bee20d02ccfd19139604211",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/cf/Capyre.png/250px-Capyre.png?version=abb5eab7f34ae09b82afbe83f8c3fb83",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e2/LumaCapyre.png/250px-LumaCapyre.png?version=880f1ff35d05878810124aedc47d5d2f",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Capyre.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Capyre.png",
@@ -5958,8 +5978,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/69/Lapinite.png/250px-Lapinite.png?version=a4c5c27584e856fbc34dd0d34829ce06",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4d/LumaLapinite.png/250px-LumaLapinite.png?version=e1735e48f231288966997697ad04bb05",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/69/Lapinite.png/250px-Lapinite.png?version=cf7d3aa786c6555719e8f9c0c77b214a",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4d/LumaLapinite.png/250px-LumaLapinite.png?version=5cc51a9e3c99b0ca5c47b4f6346f7226",
     "locations": [
       {
         "location": "Mines of Mictlan",
@@ -6131,8 +6151,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/9a/Azuroc.png/250px-Azuroc.png?version=17c1e097ac20a6cffc6789cedf8f8868",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/bb/LumaAzuroc.png/250px-LumaAzuroc.png?version=52e6999c9a305017c9bce9bf822e092a",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/9a/Azuroc.png/250px-Azuroc.png?version=34feeaddb8b4e3872009d1cadd8217b0",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/bb/LumaAzuroc.png/250px-LumaAzuroc.png?version=7d8a4ef735345323a0f3cda21f7652be",
     "locations": [
       {
         "location": "Mines of Mictlan",
@@ -6251,11 +6271,20 @@
         "levels": 37
       },
       {
+        "name": "Quartz Shield",
+        "source": "Levelling",
+        "levels": 54
+      },
+      {
         "name": "Rend",
         "source": "TechniqueCourses"
       },
       {
         "name": "Footwork",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Major Slash",
         "source": "TechniqueCourses"
       },
       {
@@ -6308,8 +6337,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/22/Zenoreth.png/250px-Zenoreth.png?version=157e33919d2150667fe8eb471d1b5fee",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/c7/LumaZenoreth.png/250px-LumaZenoreth.png?version=e5d68cc13258c3180b3cd10911440e8a",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/22/Zenoreth.png/250px-Zenoreth.png?version=3541a194981d86f11b2ac9f665188024",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/c7/LumaZenoreth.png/250px-LumaZenoreth.png?version=94199fd86daac552cca72da263f0e8ad",
     "locations": [
       {
         "location": "Corrupted Badlands",
@@ -6468,8 +6497,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/09/Bigu.png/250px-Bigu.png?version=24e2192d9bb46fc3986c8e7f2134b309",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/27/LumaBigu.png/250px-LumaBigu.png?version=e2d6a1b318bfd242883340871e0a2067",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/09/Bigu.png/250px-Bigu.png?version=6756cb5922185a8466ed15387631aee3",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/27/LumaBigu.png/250px-LumaBigu.png?version=1bf43c395b082c35f7ad71843323880c",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Bigu.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Bigu.png",
@@ -6574,6 +6603,11 @@
         "levels": 48
       },
       {
+        "name": "Chain Heal",
+        "source": "Levelling",
+        "levels": 58
+      },
+      {
         "name": "Wake Up",
         "source": "TechniqueCourses"
       },
@@ -6583,6 +6617,10 @@
       },
       {
         "name": "Antitoxins",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Brace",
         "source": "TechniqueCourses"
       },
       {
@@ -6629,8 +6667,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b9/Babawa.png/250px-Babawa.png?version=cfb16bf66dc7a09067f9ddb088855c11",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/9d/LumaBabawa.png/250px-LumaBabawa.png?version=e774fcdff5e177b3d6799b0fcec1b086",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b9/Babawa.png/250px-Babawa.png?version=ec302167b4a9ab77b680c50a20f11f54",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/9d/LumaBabawa.png/250px-LumaBabawa.png?version=e1232897313b993b7bb84a68d37c00e5",
     "locations": [
       {
         "location": "The Flywalk",
@@ -6830,8 +6868,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4e/Kaku.png/250px-Kaku.png?version=621735cf3f014afa71890bbde56ec202",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/cf/LumaKaku.png/250px-LumaKaku.png?version=6002355efb21fa7b2e3ae8cfcf9fa6c0",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4e/Kaku.png/250px-Kaku.png?version=16e9074ce41c9552baa96c8e6ce7b617",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/cf/LumaKaku.png/250px-LumaKaku.png?version=3974ec0fba74adce26a514e7f9e12542",
     "locations": [
       {
         "location": "Prasine Coast",
@@ -7074,8 +7112,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/2a/Saku.png/250px-Saku.png?version=df60d201b6ae8340edea0f7b993e3f1e",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b7/LumaSaku.png/250px-LumaSaku.png?version=725c7e4928797761f9e2f026ca435799",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/2a/Saku.png/250px-Saku.png?version=ae93d111e648032a3211d9155d16f1d8",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b7/LumaSaku.png/250px-LumaSaku.png?version=8a324830e24633fb47fc75f56b2adf3b",
     "locations": [
       {
         "location": "The Gifted Bridges",
@@ -7272,8 +7310,8 @@
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/80/Valash.png/250px-Valash.png?version=550813faa5fe91e8e5b84ff03a525083",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/42/LumaValash.png/250px-LumaValash.png?version=69a1af862f42f700e0716b3d3b88c324",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/80/Valash.png/250px-Valash.png?version=ffdb8a9175e72de07f89a07597810aa7",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/42/LumaValash.png/250px-LumaValash.png?version=a0d8d9e5cc89cb92e0f76f0ecd0befc6",
     "locations": [
       {
         "location": "Shipwrecked in Tucma! Quest",
@@ -7437,6 +7475,10 @@
         "source": "TechniqueCourses"
       },
       {
+        "name": "Darkness",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Beta Burst",
         "source": "Breeding"
       },
@@ -7457,8 +7499,8 @@
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/6c/Barnshe.png/250px-Barnshe.png?version=50a894010b67adaf7af592db1a31802a",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e3/LumaBarnshe.png/250px-LumaBarnshe.png?version=106874d697508646094376f6c7b8b1a3",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/6c/Barnshe.png/250px-Barnshe.png?version=54595585e0555104ac0cb58c72861f42",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e3/LumaBarnshe.png/250px-LumaBarnshe.png?version=73d6904d6358b3eab1eed95a5592138a",
     "locations": [
       {
         "location": "Windward Fort, Top Floor",
@@ -7622,8 +7664,8 @@
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d6/Gyalis.png/250px-Gyalis.png?version=77871f88bf39ad1ecbcc3758613262f6",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f1/LumaGyalis.png/250px-LumaGyalis.png?version=cb8a9ef29b0c50ea4bfe625d45c7c649",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d6/Gyalis.png/250px-Gyalis.png?version=5d036a862a06d3d20b6776aff15c1d41",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f1/LumaGyalis.png/250px-LumaGyalis.png?version=4e094762fb24db103acef06b610ec4b8",
     "locations": [
       {
         "location": "Mines of Mictlan",
@@ -7775,8 +7817,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/38/Occlura.png/250px-Occlura.png?version=5569e7e9cad8354696651f36c589d165",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/6c/LumaOcclura.png/250px-LumaOcclura.png?version=a1c292d12c21db079bd51f4eef6d390b",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/38/Occlura.png/250px-Occlura.png?version=c547c0f1d017331b8519888fb8fcf118",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/6c/LumaOcclura.png/250px-LumaOcclura.png?version=3a412647221b21dae7f52aea917af7dc",
     "locations": [
       {
         "location": "Kupeleleza",
@@ -7952,8 +7994,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/07/Myx.png/250px-Myx.png?version=9adf2b9fbee40af02a3cb5af3d158878",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/6b/LumaMyx.png/250px-LumaMyx.png?version=4c8e604b2a13d44c3f463317f75d702e",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/07/Myx.png/250px-Myx.png?version=a75b9b31af89a75f4cb1a623c31bf467",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/6b/LumaMyx.png/250px-LumaMyx.png?version=3063878f4ed17ad1e76580df7a11a180",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Myx.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Myx.png",
@@ -8098,8 +8140,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/c8/Raiber.png/250px-Raiber.png?version=bed732746b7818bc495ed76f1ceac907",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b6/LumaRaiber.png/250px-LumaRaiber.png?version=a53792aa46d1c8b34c73aaaebd89c081",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/c8/Raiber.png/250px-Raiber.png?version=5fa382269699497a16039d4f04efd012",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b6/LumaRaiber.png/250px-LumaRaiber.png?version=f1c8dcecac45297f7da02a998d3762ed",
     "locations": [
       {
         "location": "The Glassyway",
@@ -8293,8 +8335,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f4/Raize.png/250px-Raize.png?version=33bf489d7d50a5f631b6e1141989a978",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/07/LumaRaize.png/250px-LumaRaize.png?version=a599943f28aa43edd347f969b08792b0",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f4/Raize.png/250px-Raize.png?version=9589c8c984fecd07d2c81b3b5cb7dc78",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/07/LumaRaize.png/250px-LumaRaize.png?version=2ef8a90687858bb0e4b38e630da8289f",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Raize.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Raize.png",
@@ -8403,6 +8445,11 @@
         "levels": 48
       },
       {
+        "name": "Stampede",
+        "source": "Levelling",
+        "levels": 58
+      },
+      {
         "name": "Held Anger",
         "source": "TechniqueCourses"
       },
@@ -8454,8 +8501,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/90/Raican.png/250px-Raican.png?version=c7889fd0d01ba97db473efae862698ad",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/8d/LumaRaican.png/250px-LumaRaican.png?version=41f8607b307e775bb1e25070582f1ca8",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/90/Raican.png/250px-Raican.png?version=dc6d26b1697ffd7c12571b0331f1c495",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/8d/LumaRaican.png/250px-LumaRaican.png?version=95820ff275142934245c10780b254827",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Raican.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Raican.png",
@@ -8611,8 +8658,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/86/Pewki.png/250px-Pewki.png?version=463f88a7398f1ec5c08aefdfb9473ba9",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/61/LumaPewki.png/250px-LumaPewki.png?version=ea305b574fc7ed7f57c487502a16cefa",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/86/Pewki.png/250px-Pewki.png?version=c865aa16fbd50eba99799605b3417be9",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/61/LumaPewki.png/250px-LumaPewki.png?version=fad7946009f0e0bafaab16110b8a88c4",
     "locations": [
       {
         "location": "Sillaro River",
@@ -8778,6 +8825,11 @@
         "levels": 46
       },
       {
+        "name": "Waterjet",
+        "source": "Levelling",
+        "levels": 58
+      },
+      {
         "name": "Tsunami",
         "source": "TechniqueCourses"
       },
@@ -8830,8 +8882,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/01/Piraniant.png/250px-Piraniant.png?version=61c78067f3e253e320de3f185d3d5007",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/2a/LumaPiraniant.png/250px-LumaPiraniant.png?version=9b05c6c2be1843bf5c04d912f92ce325",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/01/Piraniant.png/250px-Piraniant.png?version=d7784dcc2454b37ea09c10f28dd65038",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/2a/LumaPiraniant.png/250px-LumaPiraniant.png?version=f75a4317067a89d294d9e8c758acb9b0",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Piraniant.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Piraniant.png",
@@ -8966,8 +9018,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/81/Osuchi.png/250px-Osuchi.png?version=9a1e165fb952a552ea59b7d5f6409ee5",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/78/LumaOsuchi.png/250px-LumaOsuchi.png?version=f03c460b6ca149cb89e873dfcf441b90",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/81/Osuchi.png/250px-Osuchi.png?version=ea1691c1eb859b3882e5dd0ec9f6b9ff",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/78/LumaOsuchi.png/250px-LumaOsuchi.png?version=61682177621a5f8b49c5e5126c5daeb3",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Osuchi.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Osuchi.png",
@@ -9113,8 +9165,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5e/Osukan.png/250px-Osukan.png?version=ee5bfae31e88fcd893323bd93f1438eb",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5d/LumaOsukan.png/250px-LumaOsukan.png?version=7de4cd9b9b384f1631ccf3344030b81c",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5e/Osukan.png/250px-Osukan.png?version=1c4b7b2b07386ff96a816b177fbdb2bc",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5d/LumaOsukan.png/250px-LumaOsukan.png?version=c83a81e912f86072611d1cc0e4038517",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Osukan.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Osukan.png",
@@ -9279,8 +9331,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/25/Osukai.png/250px-Osukai.png?version=2c81703a006f3ad2986f8e994a729386",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a8/LumaOsukai.png/250px-LumaOsukai.png?version=9518018777669fdc4531696a49512788",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/25/Osukai.png/250px-Osukai.png?version=cf07d469964bc4d11487054cc5603191",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a8/LumaOsukai.png/250px-LumaOsukai.png?version=1c6b412adc842c706fdb8aa22be91892",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Osukai.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Osukai.png",
@@ -9395,6 +9447,11 @@
         "levels": 47
       },
       {
+        "name": "Waterjet",
+        "source": "Levelling",
+        "levels": 58
+      },
+      {
         "name": "Tsunami",
         "source": "TechniqueCourses"
       },
@@ -9424,8 +9481,8 @@
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e3/Saipat.png/250px-Saipat.png?version=228eb2f6dc2edc1f2a8b31f3f301346e",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/29/LumaSaipat.png/250px-LumaSaipat.png?version=ea876a7f7c76bc41321961d354aa0bbe",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e3/Saipat.png/250px-Saipat.png?version=1822483b580ca163f18e16014bc64122",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/29/LumaSaipat.png/250px-LumaSaipat.png?version=ce17a9815d79b9f3b8cc3b3790fba7f4",
     "locations": [
       {
         "location": "Thalassian Cliffs",
@@ -9632,15 +9689,15 @@
         "source": "TechniqueCourses"
       },
       {
+        "name": "Brace",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Drought",
         "source": "TechniqueCourses"
       },
       {
         "name": "Untangle",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Brace",
         "source": "TechniqueCourses"
       },
       {
@@ -9677,7 +9734,7 @@
       "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/3b/Pycko.png/250px-Pycko.png?version=760bda13a5100a2db03f946fb983b7c3",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b3/LumaPycko.png/250px-LumaPycko.png?version=98f2bc0ea253dbaf74f07e935dc42235",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b3/LumaPycko.png/250px-LumaPycko.png?version=3a5c9dea5c6416fa8d62711ec768efdb",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Pycko.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Pycko.png",
@@ -9791,15 +9848,15 @@
         "source": "TechniqueCourses"
       },
       {
+        "name": "Brace",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Drought",
         "source": "TechniqueCourses"
       },
       {
         "name": "Untangle",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Brace",
         "source": "TechniqueCourses"
       },
       {
@@ -9836,7 +9893,7 @@
       "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/40/Drakash.png/250px-Drakash.png?version=259d9a0ab83e4bc76a40269c44a2bc58",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b3/LumaDrakash.png/250px-LumaDrakash.png?version=4c31a2286f41001f4246d2f0b1d9e51d",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b3/LumaDrakash.png/250px-LumaDrakash.png?version=957266ef7dfb7c2f6dcb6ae004404658",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Drakash.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Drakash.png",
@@ -9852,10 +9909,10 @@
       "spd": 0,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 3,
       "spdef": 0
     },
-    "gameDescription": "",
+    "gameDescription": "Selective breeding for bipedalism meant this variety of Temtem is faster and more suited for human tasks than its predecessors. Often given as a New Year's gift between Kisiwans and Tucmani.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -9999,8 +10056,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/ac/Crystle.png/250px-Crystle.png?version=7b700e68a21790e67fe5fb6edb5e7019",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/c6/LumaCrystle.png/250px-LumaCrystle.png?version=0af0c2ec2528774abfab968646a2ef9a",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/ac/Crystle.png/250px-Crystle.png?version=ef658fd032bf4485bc2a817a48a25c7b",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/c6/LumaCrystle.png/250px-LumaCrystle.png?version=b5a72fcd18212d8b999887ba7fa02563",
     "locations": [
       {
         "location": "Mines of Mictlan",
@@ -10196,8 +10253,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/ff/Sherald.png/250px-Sherald.png?version=7c0a388c556a40439425aa43f566358c",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/33/LumaSherald.png/250px-LumaSherald.png?version=e82d2f4037e4cc2c02cdf68226c9fe51",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/ff/Sherald.png/250px-Sherald.png?version=b1c4c24bfe579b1b4be7f70555d2c253",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/33/LumaSherald.png/250px-LumaSherald.png?version=4020ed393babe1cffa44a8e5e98f909c",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Sherald.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Sherald.png",
@@ -10364,7 +10421,7 @@
       "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/31/Tortenite.png/250px-Tortenite.png?version=5f238da1997aad598bf9123b01d9a276",
-    "lumaWikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/30/LumaTortenite.png/250px-LumaTortenite.png?version=072c2427df28377422e287a8a7c31024",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Tortenite.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Tortenite.png",
@@ -10479,8 +10536,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d7/Hocus.png/250px-Hocus.png?version=fef98f08c5fea97385ed36931d5b5635",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/1/18/LumaHocus.png/250px-LumaHocus.png?version=b416a73449cab2b8c1a7518005219ef6",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d7/Hocus.png/250px-Hocus.png?version=428a8516660de2fc880bb488657564a9",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/1/18/LumaHocus.png/250px-LumaHocus.png?version=1c0328075556acc50d5186721da95526",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Hocus.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Hocus.png",
@@ -10579,8 +10636,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fb/Pocus.png/250px-Pocus.png?version=7c2ab438239957313985627902ca26ce",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e5/LumaPocus.png/250px-LumaPocus.png?version=9ace96edfac33239697ae182e59f33ff",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fb/Pocus.png/250px-Pocus.png?version=8cacff7532a8f7d93a86a85bac3b7fd4",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e5/LumaPocus.png/250px-LumaPocus.png?version=aac0ebf9583c04f4afaf4acffa4868e3",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Pocus.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Pocus.png",
@@ -10710,7 +10767,7 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/80/Sparzy.png/250px-Sparzy.png?version=2e48ac98b1c077a9ab73f01b07365152",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/80/Sparzy.png/250px-Sparzy.png?version=3a6c0236560d991a0efd3eec53134993",
     "lumaWikiPortraitUrlLarge": "",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Sparzy.png",
@@ -10848,8 +10905,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/78/Mushi.png/250px-Mushi.png?version=b14f77181db5677a6e9510bf09f22742",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/cb/LumaMushi.png/250px-LumaMushi.png?version=55ac6e9cb65490f9b2821df448982704",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/78/Mushi.png/250px-Mushi.png?version=a11bd4b71b6943f0f0b7c7bf6fe22304",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/cb/LumaMushi.png/250px-LumaMushi.png?version=a5a071e3ab92543f02b2620363a321bd",
     "locations": [
       {
         "location": "Corrupted Badlands",
@@ -11061,8 +11118,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/90/Mushook.png/250px-Mushook.png?version=ad509c17396ecc5e692f43b3c4ad18aa",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b8/LumaMushook.png/250px-LumaMushook.png?version=1da06ebb9421f82eba93d85ae58cb9b2",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/90/Mushook.png/250px-Mushook.png?version=02da85411a3e89c7f4ee8c82bea8ac16",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b8/LumaMushook.png/250px-LumaMushook.png?version=9ab81a02ed5e391ee0c21cb096969cf1",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Mushook.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Mushook.png",
@@ -11188,8 +11245,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5d/Magmis.png/250px-Magmis.png?version=87725b0c4699375b069ad5b21af167ad",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/0a/LumaMagmis.png/250px-LumaMagmis.png?version=2a4c461df10d9c6e8c60d78351834df6",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5d/Magmis.png/250px-Magmis.png?version=6d13a88f5b3d927774d4459431eed2e4",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/0a/LumaMagmis.png/250px-LumaMagmis.png?version=61255a9a3da2ed1d9b144629f5b27c7c",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Magmis.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Magmis.png",
@@ -11288,6 +11345,11 @@
         "levels": 37
       },
       {
+        "name": "Flaming Meteorite",
+        "source": "Levelling",
+        "levels": 52
+      },
+      {
         "name": "Magma Cannon",
         "source": "TechniqueCourses"
       },
@@ -11345,8 +11407,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/32/Mastione.png/250px-Mastione.png?version=cc14b00d2d3f6ea31961232acc1af16c",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/bf/LumaMastione.png/250px-LumaMastione.png?version=6fcfbbbf9a4927d86900d978969661a1",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/32/Mastione.png/250px-Mastione.png?version=0324bf4364bf606003e67c48c81a65e4",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/bf/LumaMastione.png/250px-LumaMastione.png?version=b154a1950821f36e754f4f2021499023",
     "locations": [
       {
         "location": "The Glassyway",
@@ -11510,8 +11572,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4f/Umishi.png/250px-Umishi.png?version=e09799f74fb9f824ad5a7c81bd9fc11b",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/72/LumaUmishi.png/250px-LumaUmishi.png?version=36ce301b047d1f87fb7d5ec4131ff52b",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4f/Umishi.png/250px-Umishi.png?version=dd3b19637b020cf7b1bf2102f69abd40",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/72/LumaUmishi.png/250px-LumaUmishi.png?version=8556b7eb30246fc6a9f7abb252af0356",
     "locations": [
       {
         "location": "Thalassian Cliffs",
@@ -11709,8 +11771,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/75/Ukama.png/250px-Ukama.png?version=cd0a61eb461f881292c89a0255e1bdbc",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f6/LumaUkama.png/250px-LumaUkama.png?version=80ba10fd7586dcbd7e15fa43dcff3fee",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/75/Ukama.png/250px-Ukama.png?version=94bfaae295ba958f2fa0af17eaf8eaa8",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f6/LumaUkama.png/250px-LumaUkama.png?version=49104bf3d75a31810ffc01007a801f7e",
     "locations": [
       {
         "location": "Kakama Cenote",
@@ -11758,7 +11820,8 @@
     "number": 91,
     "name": "Raignet",
     "types": [
-      "Unknown"
+      "Electric",
+      "Melee"
     ],
     "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/50/Raignet.png/50px-Raignet.png",
     "lumaPortraitWikiUrl": "",
@@ -11808,8 +11871,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/50/Raignet.png/250px-Raignet.png?version=c8fab9c68d710ef642ddc2572c14e780",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/54/LumaRaignet.png/250px-LumaRaignet.png?version=be244af69e894b9d166037c79bb98238",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/50/Raignet.png/250px-Raignet.png?version=49233b686887a7d1f542b753ffabf1c1",
+    "lumaWikiPortraitUrlLarge": "",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Raignet.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Raignet.png",
@@ -11990,8 +12053,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f7/Smazee.png/250px-Smazee.png?version=7935f03519b742cab5db6f412b746f07",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/c4/LumaSmazee.png/250px-LumaSmazee.png?version=73b05e7185c9b003db097a8b060a5f20",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f7/Smazee.png/250px-Smazee.png?version=7c2dd27fe701d7fb2d37315ef10e3e01",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/c4/LumaSmazee.png/250px-LumaSmazee.png?version=6d47cc5f3a3104c2340017d7b0ef164a",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Smazee.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Smazee.png",
@@ -12172,8 +12235,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/28/Baboong.png/250px-Baboong.png?version=3089a006c1697f592a47467468b3a209",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b0/LumaBaboong.png/250px-LumaBaboong.png?version=d067d7b5ce477ffbabe3812983467a48",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/28/Baboong.png/250px-Baboong.png?version=c630f4637f9ee80dae8ddce1a4de7e01",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b0/LumaBaboong.png/250px-LumaBaboong.png?version=cc6bbbaed7445981e6c4319018107415",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Baboong.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Baboong.png",
@@ -12354,7 +12417,7 @@
       "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/87/Seismunch.png/250px-Seismunch.png?version=99b9f6612783887987fecbc59a6b1467",
-    "lumaWikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/c0/LumaSeismunch.png/250px-LumaSeismunch.png?version=849a0519efd7b96adbecfc34d66f1fdc",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Seismunch.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Seismunch.png",
@@ -12480,8 +12543,8 @@
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fe/Zizare.png/250px-Zizare.png?version=22147fe7b19915d3cf9dfccdef62835f",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/77/LumaZizare.png/250px-LumaZizare.png?version=fb58292cebe44768a41960fd27bdc2af",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fe/Zizare.png/250px-Zizare.png?version=637b82747cc402a4462120fbf0d9b35a",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/77/LumaZizare.png/250px-LumaZizare.png?version=1ee0d0c53254d75a896d4929bb6fe203",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Zizare.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Zizare.png",
@@ -12599,8 +12662,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/52/Kuri.png/250px-Kuri.png?version=dc11ec65d5f41752b9f26b8e952b7238",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/1/19/LumaKuri.png/250px-LumaKuri.png?version=b203f7a63567a950aca1f1fb42ff5d9d",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/52/Kuri.png/250px-Kuri.png?version=0524c938eeba4a62764178190a9ecf4e",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/1/19/LumaKuri.png/250px-LumaKuri.png?version=f3ae2dab839c961f10ccd95eda2766b6",
     "locations": [
       {
         "location": "Mawingu Islets",
@@ -12714,7 +12777,7 @@
         "levels": 49
       },
       {
-        "name": "Willpower Drawin",
+        "name": "Willpower Drain",
         "source": "Levelling",
         "levels": 58
       },
@@ -12761,8 +12824,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/09/Kauren.png/250px-Kauren.png?version=7e4b1e725048a8288b18c972072a068a",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/2b/LumaKauren.png/250px-LumaKauren.png?version=2e2c43f4f032a53eb289c9468fbe3219",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/09/Kauren.png/250px-Kauren.png?version=04b48981900c4d700fe842bff0ca3347",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/2b/LumaKauren.png/250px-LumaKauren.png?version=12914988a30fb2eafba4fb6cd1ff76dd",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Kauren.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Kauren.png",
@@ -12773,10 +12836,10 @@
     "catchRate": 100,
     "hatchMins": 25,
     "tvYields": {
-      "hp": 0,
+      "hp": 2,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 2,
       "def": 0,
       "spatk": 0,
       "spdef": 0
@@ -12911,8 +12974,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/80/Spriole.png/250px-Spriole.png?version=72b01ba26964c374ecc9b6c9d8274beb",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/2e/LumaSpriole.png/250px-LumaSpriole.png?version=61deecd440c133c862ab6326a8733733",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/80/Spriole.png/250px-Spriole.png?version=d9dd0d98c04aa14e483509faf46e2f4f",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/2e/LumaSpriole.png/250px-LumaSpriole.png?version=5113bd39c13b08a2cf48677a2894cc17",
     "locations": [
       {
         "location": "The Canopath",
@@ -13122,8 +13185,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/42/Deendre.png/250px-Deendre.png?version=d4eb283c5362a2699dae876d76d2394e",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/22/LumaDeendre.png/250px-LumaDeendre.png?version=b64e60dd5f1a08306895a6aaf7447cb6",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/42/Deendre.png/250px-Deendre.png?version=0e6a22eeef27d0ca8db7534d13e6823e",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/22/LumaDeendre.png/250px-LumaDeendre.png?version=5a92ddbf83b8fc63b4aa192dce9b5f62",
     "locations": [
       {
         "location": "The Canopath",
@@ -13338,8 +13401,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fa/Cerneaf.png/250px-Cerneaf.png?version=0eb9476fcb6fe44b4a0d708700dc74ba",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/62/LumaCerneaf.png/250px-LumaCerneaf.png?version=9925351f498659cf551e81ec4ba37d84",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fa/Cerneaf.png/250px-Cerneaf.png?version=299cc519988eb2d7075903ff0eb21cea",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/62/LumaCerneaf.png/250px-LumaCerneaf.png?version=1078d27185189c9a1f8d5c6a437f9379",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Cerneaf.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Cerneaf.png",
@@ -13484,8 +13547,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4e/Toxolotl.png/250px-Toxolotl.png?version=efcfdaf33849137624965651a3ef900d",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/59/LumaToxolotl.png/250px-LumaToxolotl.png?version=276d1f3ecc8efb079919bb1eb4b94b91",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4e/Toxolotl.png/250px-Toxolotl.png?version=bae6f15a7aaf555bac13d6bef8638162",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/59/LumaToxolotl.png/250px-LumaToxolotl.png?version=2d597a07fa24e691dca71a81e4e11ff7",
     "locations": [
       {
         "location": "Xolot Reservoir",
@@ -13606,7 +13669,7 @@
       {
         "name": "Acid Reflux",
         "source": "Levelling",
-        "levels": 48
+        "levels": 58
       },
       {
         "name": "Turbo Choreography",
@@ -13627,7 +13690,7 @@
     ],
     "trivia": [
       "Noxolotl's name comes from the combination of the words noxious and axolotl.",
-      "Despite it’s highest stat being special attack, it learns no special attacking techniques."
+      "Despite it’s highest stat being special attack, it was unable to learn any special attacks untill the update following it's release."
     ],
     "evolution": {
       "stage": 2,
@@ -13656,8 +13719,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/55/Noxolotl.png/250px-Noxolotl.png?version=8e3345c350c224df38b1aa079719fa81",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/87/LumaNoxolotl.png/250px-LumaNoxolotl.png?version=1bca595f83f6e321cde9097a57615408",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/55/Noxolotl.png/250px-Noxolotl.png?version=d7d0e1c960d5cd4c0012a5d45ceb0bdc",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/87/LumaNoxolotl.png/250px-LumaNoxolotl.png?version=787bd8d5d9f4aa95c19544832aa53927",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Noxolotl.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Noxolotl.png",
@@ -13781,8 +13844,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/ff/Blooze.png/250px-Blooze.png?version=800b800a0899827cd8f5ef022376290e",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d8/LumaBlooze.png/250px-LumaBlooze.png?version=1b0251ab5a94defa06e036999541f956",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/ff/Blooze.png/250px-Blooze.png?version=31aa7a7c6513a72641cda53650c786fc",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d8/LumaBlooze.png/250px-LumaBlooze.png?version=d349dd40451e22c0d7977c44310da28e",
     "locations": [
       {
         "location": "Corrupted Badlands",
@@ -13957,8 +14020,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/26/Goolder.png/250px-Goolder.png?version=f21bc7b49920b4f0743b39e465a6843b",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/91/LumaGoolder.png/250px-LumaGoolder.png?version=5b1a36fc4452db066b4a64431647001f",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/26/Goolder.png/250px-Goolder.png?version=0d6fa83c7676ecea278e103392b01bbd",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/91/LumaGoolder.png/250px-LumaGoolder.png?version=61034985e73bcf1d7c52d7e4c3346c53",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Goolder.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Goolder.png",
@@ -14094,8 +14157,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f7/Zephyruff.png/250px-Zephyruff.png?version=420e27d345e6f1e1834c3391443a19b1",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/74/LumaZephyruff.png/250px-LumaZephyruff.png?version=6b0dbeee0d7086565b10ee5d7ec7554b",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f7/Zephyruff.png/250px-Zephyruff.png?version=227c51a3aa0ba2e7e9ac10ee59d4f9fa",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/74/LumaZephyruff.png/250px-LumaZephyruff.png?version=e900d979aaf7514fa66928cba79106a8",
     "locations": [
       {
         "location": "Corrupted Badlands",
@@ -14288,8 +14351,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/87/Volarend.png/250px-Volarend.png?version=c897ec310683c1e52035cbb7fdfbba54",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/bc/LumaVolarend.png/250px-LumaVolarend.png?version=97c25e6f8b50232d6ba3a810407bd9e2",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/87/Volarend.png/250px-Volarend.png?version=18165ab54f0098d2fb0b47ed2bd8f110",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/bc/LumaVolarend.png/250px-LumaVolarend.png?version=9da46e3f288464bc441ee52f02cd8a92",
     "locations": [
       {
         "location": "Small island left of Kupeleleza main route",
@@ -14404,7 +14467,7 @@
           "trading": false,
           "traitMapping": {
             "Energy Reserves": "Inductor",
-            "Settling": "Cowards Rest"
+            "Settling": "Coward's Rest"
           }
         },
         {
@@ -14413,15 +14476,15 @@
           "stage": 2,
           "traitMapping": {
             "Inductor": "Inductor",
-            "Cowards Rest": "Cowards Rest"
+            "Coward's Rest": "Coward's Rest"
           }
         }
       ],
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7a/Grumvel.png/250px-Grumvel.png?version=410c03b251a45fdbc32553b97bfcad9a",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/49/LumaGrumvel.png/250px-LumaGrumvel.png?version=f637d18cacb3ae0e376fc0f68804ed2b",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7a/Grumvel.png/250px-Grumvel.png?version=8d26c302e866c0e9c209715fedab2a18",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/49/LumaGrumvel.png/250px-LumaGrumvel.png?version=d6cf2169eb37beab3b44053e5e1e68fa",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Grumvel.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Grumvel.png",
@@ -14472,7 +14535,7 @@
     },
     "traits": [
       "Inductor",
-      "Cowards Rest"
+      "Coward's Rest"
     ],
     "details": {
       "height": {
@@ -14558,7 +14621,7 @@
           "trading": false,
           "traitMapping": {
             "Energy Reserves": "Inductor",
-            "Settling": "Cowards Rest"
+            "Settling": "Coward's Rest"
           }
         },
         {
@@ -14567,15 +14630,15 @@
           "stage": 2,
           "traitMapping": {
             "Inductor": "Inductor",
-            "Cowards Rest": "Cowards Rest"
+            "Coward's Rest": "Coward's Rest"
           }
         }
       ],
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b0/Grumper.png/250px-Grumper.png?version=5063e20d22fef0902c59ecf738246d76",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/9c/LumaGrumper.png/250px-LumaGrumper.png?version=62126260705c33f028d7629fdb776602",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b0/Grumper.png/250px-Grumper.png?version=5fff5e4d286c449f59c1cf410bb2f222",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/9c/LumaGrumper.png/250px-LumaGrumper.png?version=750beea9273f6de235a78cb9a54d6b52",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Grumper.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Grumper.png",
@@ -14586,15 +14649,15 @@
     "catchRate": 95,
     "hatchMins": 26,
     "tvYields": {
-      "hp": 0,
+      "hp": 1,
       "sta": 0,
       "spd": 0,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 2,
       "spdef": 0
     },
-    "gameDescription": "",
+    "gameDescription": "Often the butt of Dojo jokes, Grumper are an evolutive mystery. While some Temtemologists claim they are just Grumvel with overdeveloped horns, some others claim it's a completely different genus.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -14725,8 +14788,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/bc/Ganki.png/250px-Ganki.png?version=d18706728e9cc3706caea19e24063ac4",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/c5/LumaGanki.png/250px-LumaGanki.png?version=fced889dcff1fd8f76af358f5251e89a",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/bc/Ganki.png/250px-Ganki.png?version=3ac11551301b4b8a6bde42085f00e252",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/c5/LumaGanki.png/250px-LumaGanki.png?version=fcba0d02f6b7f6928cb414ec081e2f2e",
     "locations": [
       {
         "location": "Thalassian Cliffs",
@@ -14911,8 +14974,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5c/Gazuma.png/250px-Gazuma.png?version=358b25834f69fa0d65e3fa4fbc276f96",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/3d/LumaGazuma.png/250px-LumaGazuma.png?version=e0e413648add185e919528c04d47ec28",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5c/Gazuma.png/250px-Gazuma.png?version=223774b78b0fa453d023270a0054cf3f",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/3d/LumaGazuma.png/250px-LumaGazuma.png?version=2be4b61c633afa2c968c3dcce8a4f9b7",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Gazuma.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Gazuma.png",
@@ -15037,8 +15100,8 @@
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/26/Oceara.png/250px-Oceara.png?version=2d39fe51d12d259fe1223416010943db",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/ea/LumaOceara.png/250px-LumaOceara.png?version=cebd9922a9f9b3bb346c30aaf2fe80ec",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/26/Oceara.png/250px-Oceara.png?version=da11e66735dc2587fb72ff04569c4a1e",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/ea/LumaOceara.png/250px-LumaOceara.png?version=33f248071a0c85b697f9a5195279a13b",
     "locations": [
       {
         "location": "Aguamarina Caves, Bottom Floor (one waterfall)",
@@ -15156,12 +15219,12 @@
         "levels": 23
       },
       {
-        "name": "Savage Suplex",
+        "name": "Savage Surplex",
         "source": "Levelling",
         "levels": 30
       },
       {
-        "name": "Oshi Dashi",
+        "name": "Oshi-Dashi",
         "source": "Levelling",
         "levels": 42
       },
@@ -15307,7 +15370,7 @@
       "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d7/Droply.png/250px-Droply.png?version=3c80e842123164ab455e7486a341d324",
-    "lumaWikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/8a/LumaDroply.png/250px-LumaDroply.png?version=925866dedd54c87e6c731056b4c88fde",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Droply.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Droply.png",
@@ -15452,7 +15515,7 @@
       "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a4/Garyo.png/250px-Garyo.png?version=86bc24517902a1a9d796b0ccea49f430",
-    "lumaWikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/9f/LumaGaryo.png/250px-LumaGaryo.png?version=1426c0bc3983268656a06b77c4ecfb44",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Garyo.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Garyo.png",
@@ -15576,8 +15639,8 @@
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d9/Shuine.png/250px-Shuine.png?version=eaf40b01f6d3abacab71b426f04889ca",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a4/LumaShuine.png/250px-LumaShuine.png?version=3af1a80a9099425b0b1e82b72bd3e3e5",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d9/Shuine.png/250px-Shuine.png?version=96825b440d534d9e525aba5d4cc20f5c",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a4/LumaShuine.png/250px-LumaShuine.png?version=711d73297ff05d58ea311e32ee49efda",
     "locations": [
       {
         "location": "Kakama Cenote",
@@ -15719,8 +15782,8 @@
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/81/Nessla.png/250px-Nessla.png?version=f3f2884421cc242fa075c15059360426",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/85/LumaNessla.png/250px-LumaNessla.png?version=9c4cb36bcf4fc2ee3c0d9b0e876f5bb6",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/81/Nessla.png/250px-Nessla.png?version=4f6df239b7e4584dfde64c05a27ad6d1",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/85/LumaNessla.png/250px-LumaNessla.png?version=654a67e15fd4061b8916e5a060211852",
     "locations": [
       {
         "location": "Thalassian Cliffs",
@@ -15832,7 +15895,7 @@
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7b/Valiar.png/250px-Valiar.png?version=fa875bee7179525cf66648ecfb0452fa",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7b/Valiar.png/250px-Valiar.png?version=69f54b2d71f366d69fce2eaf0c40eeca",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d9/LumaValiar.png/250px-LumaValiar.png?version=dfe2c5017d373f7a38c01dcdcc844c75",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Valiar.png",
@@ -15984,8 +16047,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fc/Kalazu.png/250px-Kalazu.png?version=cf1db3bce51a47d2974bb53de228edcb",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/75/LumaKalazu.png/250px-LumaKalazu.png?version=934b8a5512005eba0acc8984c6ccdfc7",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/fc/Kalazu.png/250px-Kalazu.png?version=e1f9aa5cbcdbb2e8023bf2f236572848",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/75/LumaKalazu.png/250px-LumaKalazu.png?version=83304a470b3655364babb1be82e535f5",
     "locations": [
       {
         "location": "Thalassian Cliffs",
@@ -16138,6 +16201,11 @@
         "levels": 43
       },
       {
+        "name": "Waterjet",
+        "source": "Levelling",
+        "levels": 58
+      },
+      {
         "name": "Tsunami",
         "source": "TechniqueCourses"
       },
@@ -16194,8 +16262,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/90/Kalabyss.png/250px-Kalabyss.png?version=f0f8a29fec8bbdfd9401e190524b0719",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/0a/LumaKalabyss.png/250px-LumaKalabyss.png?version=eb03f36c61f46a796a0e5975fafbeeaa",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/90/Kalabyss.png/250px-Kalabyss.png?version=f599fe0ba6715c4cf316a299ba91b629",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/0a/LumaKalabyss.png/250px-LumaKalabyss.png?version=902883f70eb8fb121a65dbbcc78e854f",
     "locations": [
       {
         "location": "Xolot Reservoir",
@@ -16315,6 +16383,11 @@
         "levels": 48
       },
       {
+        "name": "Toxic Gas",
+        "source": "Levelling",
+        "levels": 58
+      },
+      {
         "name": "Wake Up",
         "source": "TechniqueCourses"
       },
@@ -16360,8 +16433,8 @@
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/26/Adoroboros.png/250px-Adoroboros.png?version=b88b44f15eb65ebe8a64356b6ebabfca",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/52/LumaAdoroboros.png/250px-LumaAdoroboros.png?version=77746487fb46518bbfdbb1e147d6a704",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/26/Adoroboros.png/250px-Adoroboros.png?version=9d8cf642cb57d1a295baba8591ecd788",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/52/LumaAdoroboros.png/250px-LumaAdoroboros.png?version=9d703834aace6ea9017a2eb5d6feb775",
     "locations": [
       {
         "location": "Xolot Reservoir",
@@ -16517,8 +16590,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/db/Tuwai.png/250px-Tuwai.png?version=805a9cfdfcc1eda50fcb2c28b12544bc",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e9/LumaTuwai.png/250px-LumaTuwai.png?version=bb2b3fa99abf5ca2c778bc5366128f14",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/db/Tuwai.png/250px-Tuwai.png?version=73650c40b59d34b4488be77988681e87",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e9/LumaTuwai.png/250px-LumaTuwai.png?version=e6012e35d905a8161126dcd602ab95c8",
     "locations": [
       {
         "location": "Corrupted Badlands, Crystal Shrine",
@@ -16700,7 +16773,7 @@
       "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/89/Tukai.png/250px-Tukai.png?version=9d93ee3070faa7c28c14899324020c2e",
-    "lumaWikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/99/LumaTukai.png/250px-LumaTukai.png?version=65568c91be9b2b4ca35775338239bf33",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Tukai.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Tukai.png",
@@ -16854,8 +16927,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7e/Tuvine.png/250px-Tuvine.png?version=2f3b9f3ddfd21caf0e4e7611a5e41407",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/86/LumaTuvine.png/250px-LumaTuvine.png?version=29735e1e9d09a007327ca69b44b424d5",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7e/Tuvine.png/250px-Tuvine.png?version=eb5de037e3826aa0e90f007a33339b75",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/86/LumaTuvine.png/250px-LumaTuvine.png?version=b8b7db772e9810cee61784652d3827d4",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Tuvine.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Tuvine.png",
@@ -17006,7 +17079,7 @@
       "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/6a/Turoc.png/250px-Turoc.png?version=33fa24aea1f708609d634cf06d6a7834",
-    "lumaWikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/8f/LumaTuroc.png/250px-LumaTuroc.png?version=2369ff56881b2f8a7c84c9db137848a7",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Turoc.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Turoc.png",
@@ -17144,8 +17217,8 @@
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/47/Kinu.png/250px-Kinu.png?version=c95a1071861eff359212a23f041a96ac",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f2/LumaKinu.png/250px-LumaKinu.png?version=496b6594c60d9b51d1fa244a34bdebd4",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/47/Kinu.png/250px-Kinu.png?version=fd3927d879314a0558e949247701f654",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/f/f2/LumaKinu.png/250px-LumaKinu.png?version=b1dd0f50d5ee0b77a64b36e7aea0100d",
     "locations": [
       {
         "location": "Giant Banyan",
@@ -17312,8 +17385,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/40/Vulvir.png/250px-Vulvir.png?version=f5f2e45a794db7f97995c215897efcc4",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a2/LumaVulvir.png/250px-LumaVulvir.png?version=41ed32fc59bfc676794c64f9169e7b3a",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/40/Vulvir.png/250px-Vulvir.png?version=e7f51df354395b4b9149db8e16f29ef1",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a2/LumaVulvir.png/250px-LumaVulvir.png?version=d8bbbaedb1d106557ea6b67af1d1e020",
     "locations": [
       {
         "location": "Anak Volcano",
@@ -17508,8 +17581,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/61/Vulor.png/250px-Vulor.png?version=90c3f46db61376a05daf98b50056546a",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/77/LumaVulor.png/250px-LumaVulor.png?version=dd00d360962c0cd2dce84a1f6636eba6",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/61/Vulor.png/250px-Vulor.png?version=1a598c4bfe51e08b544a190dbcba1a64",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/77/LumaVulor.png/250px-LumaVulor.png?version=2f3a61ab7f65601738f29b600649a358",
     "locations": [
       {
         "location": "Anak Volcano",
@@ -17719,8 +17792,8 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b3/Vulcrane.png/250px-Vulcrane.png?version=8f0e791f8cda4fa1c5fb998a830385b4",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/af/LumaVulcrane.png/250px-LumaVulcrane.png?version=abcc75126575a583eb00519408f4d9d9",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b3/Vulcrane.png/250px-Vulcrane.png?version=cb57ce8a7789c17cb622d010b5e6d4e3",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/af/LumaVulcrane.png/250px-LumaVulcrane.png?version=ba459bca9588f822b38f187638df4e74",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Vulcrane.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Vulcrane.png",
@@ -17870,8 +17943,8 @@
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/20/Pigepic.png/250px-Pigepic.png?version=d8e3923974707a3ff5f64a5c62441ba2",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4a/LumaPigepic.png/250px-LumaPigepic.png?version=03c27d2dbfcf37305cb28db64275311b",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/20/Pigepic.png/250px-Pigepic.png?version=c18888e992e6f6d6b573b4756b5b2c08",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4a/LumaPigepic.png/250px-LumaPigepic.png?version=63ebd726cb080f40ba2c58cbf02ee9a6",
     "locations": [
       {
         "location": "Prasine Coast",
@@ -18034,14 +18107,22 @@
       {
         "name": "Untangle",
         "source": "TechniqueCourses"
+      },
+      {
+        "name": "Earth Wave",
+        "source": "Breeding"
+      },
+      {
+        "name": "Toughen",
+        "source": "Breeding"
       }
     ],
     "trivia": [],
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d2/Akranox.png/250px-Akranox.png?version=e26025209de41b9d252ae576716d9ef7",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/23/LumaAkranox.png/250px-LumaAkranox.png?version=ea1d49f54baf0983035c7feb640de3bb",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d2/Akranox.png/250px-Akranox.png?version=2fdc6a153b8f70a629ce6daa4c05e20f",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/23/LumaAkranox.png/250px-LumaAkranox.png?version=74b4d75715569142cad05d36d74836af",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Akranox.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Akranox.png",
@@ -18151,6 +18232,10 @@
         "levels": 58
       },
       {
+        "name": "Brace",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Look Out",
         "source": "TechniqueCourses"
       },
@@ -18161,18 +18246,14 @@
       {
         "name": "Drought",
         "source": "TechniqueCourses"
-      },
-      {
-        "name": "Brace",
-        "source": "TechniqueCourses"
       }
     ],
     "trivia": [],
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/46/Vulffy.png/250px-Vulffy.png?version=9a9a005c40608a684393163fb0c46b8b",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/89/LumaVulffy.png/250px-LumaVulffy.png?version=5ac90fd4acbb8af364a124d700525018",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/46/Vulffy.png/250px-Vulffy.png?version=846f0be9b255b3efb3ab4db2129430bd",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/89/LumaVulffy.png/250px-LumaVulffy.png?version=d1d41bb64d71ef92fa46497242cb304e",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Vulffy.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Vulffy.png",
@@ -18296,8 +18377,8 @@
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/ea/Anahir.png/250px-Anahir.png?version=b68cc0007bc9309aadfddf4789691427",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/94/LumaAnahir.png/250px-LumaAnahir.png?version=ab3c8a4b7b9d47544bc704ea10fa2dc5",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/ea/Anahir.png/250px-Anahir.png?version=3a5a8f056f00d1c8f63b72014cab351f",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/94/LumaAnahir.png/250px-LumaAnahir.png?version=c7ffb6945b143e194ed30fcaf0dc76a8",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Anahir.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Anahir.png",

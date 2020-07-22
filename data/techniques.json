@@ -242,6 +242,22 @@
     "description": "\"Originated as an Omninesian technique to reach hanging fruit in the jungle canopy.\""
   },
   {
+    "name": "Brace",
+    "wikiUrl": "https://temtem.gamepedia.com/Brace",
+    "type": "Neutral",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 5,
+    "hold": 1,
+    "priority": "high",
+    "priorityIcon": "/images/icons/priority/high.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Survival is often the greatest of victories. Only effective if the Temtem is already alerted, and gives for 2 turns."
+  },
+  {
     "name": "Bubbles",
     "wikiUrl": "https://temtem.gamepedia.com/Bubbles",
     "type": "Water",
@@ -641,6 +657,22 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Nothing does armor piercing damage like a drill to the head."
+  },
+  {
+    "name": "Drought",
+    "wikiUrl": "https://temtem.gamepedia.com/Drought",
+    "type": "Earth",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 14,
+    "hold": 1,
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "A bone-dry technique that leaves every Temtem on the battlefield for 2 turns, and the attacker overextended next turn."
   },
   {
     "name": "Dust Vortex",
@@ -1366,6 +1398,22 @@
     "description": "The sap of life, from the living heart of the Giant Banyan. Heals 10% HP for 7 turns."
   },
   {
+    "name": "Look out",
+    "wikiUrl": "https://temtem.gamepedia.com/Look_out",
+    "type": "Neutral",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 12,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "This Temtem has (metaphorical) eyes on the back of its head. This hyperalert state makes it alerted for 5 turns."
+  },
+  {
     "name": "Lullaby",
     "wikiUrl": "https://temtem.gamepedia.com/Lullaby",
     "type": "Mental",
@@ -1940,6 +1988,28 @@
     "description": "Currently, Psychosis is unavailable, so its unknown what it's description is."
   },
   {
+    "name": "Quicksand",
+    "wikiUrl": "https://temtem.gamepedia.com/Quicksand",
+    "type": "Earth",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 14,
+    "hold": 1,
+    "priority": "high",
+    "priorityIcon": "/images/icons/priority/high.png",
+    "synergy": "Wind",
+    "synergyEffects": [
+      {
+        "effect": "Only affects enemy team",
+        "type": "unknown",
+        "damage": 0
+      }
+    ],
+    "targets": "Single Other Target",
+    "description": "Can we all sink any lower? Every Temtem on the battlefield gets -1SPD."
+  },
+  {
     "name": "Rage",
     "wikiUrl": "https://temtem.gamepedia.com/Rage",
     "type": "Melee",
@@ -2316,6 +2386,22 @@
     "description": "An extremely weak Earth technique... but you don't look a sludge gift in the rock, right?"
   },
   {
+    "name": "Smoldering Kiss",
+    "wikiUrl": "https://temtem.gamepedia.com/Smoldering_Kiss",
+    "type": "Fire",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 40,
+    "staminaCost": 5,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Ah, the crazy Fire of passion! The target gets just a little scorched, but the kisser is invigorated for 2 turns."
+  },
+  {
     "name": "Sparks",
     "wikiUrl": "https://temtem.gamepedia.com/Sparks",
     "type": "Electric",
@@ -2498,6 +2584,22 @@
     "description": "An electromagnetic trap that does light damage and slows down the target (SPD -1)."
   },
   {
+    "name": "Thunder Strike",
+    "wikiUrl": "https://temtem.gamepedia.com/Thunder_Strike",
+    "type": "Electric",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 120,
+    "staminaCost": 22,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Hear it roar! The sound and fury of this technique inflict heavy damage but Exhaust the attacker for 2 turns."
+  },
+  {
     "name": "Time Split",
     "wikiUrl": "https://temtem.gamepedia.com/Time_Split",
     "type": "Mental",
@@ -2560,6 +2662,22 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A quick nibble that doesn't look like much... until you notice the Poison for 1 turn."
+  },
+  {
+    "name": "Toxic Gas",
+    "wikiUrl": "https://temtem.gamepedia.com/Toxic_Gas",
+    "type": "Toxic",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 65,
+    "staminaCost": 25,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Hold your nose when you unleash this Toxic attack on the whole team."
   },
   {
     "name": "Toxic Ink",
