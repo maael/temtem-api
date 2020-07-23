@@ -1,5 +1,24 @@
 [
   {
+    "name": "Temtem 0.6.2",
+    "version": "0.6.2",
+    "url": "https://crema.gg/temtem/temtem-0-6-2/",
+    "date": "2020-7-23",
+    "patchInfo": {
+      "fixes": [
+        "Fixed the optimization problems when using the Global chat.",
+        "Fixed game’s window being reset at the center of the screen when opening the settings menu if the game was set to windowed mode.",
+        "Fixed chat’s profanity filter not working properly with capital letters.",
+        "Fixed not being able to close a chat tab using only the keyboard.",
+        "Fixed the Commune’s exterior minimap which was displaying an incorrect door position.",
+        "Fixed chat’s focus not working properly while using a mouse and trying to select an action for a message."
+      ],
+      "improvements": [],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
     "name": "Temtem 0.6.1",
     "version": "0.6.1",
     "url": "https://crema.gg/temtem/temtem-0-6-1/",
