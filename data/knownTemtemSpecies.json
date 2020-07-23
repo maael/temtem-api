@@ -70,7 +70,7 @@
     ],
     "trivia": [
       "Oree’s name is derived from orejas (ear in Spanish) and electronic.",
-      "Oree and its evolution, Zaobian, are the only Digital Temtem as of Alpha 0.5.13.",
+      "Oree and its evolution are the only known Digital Temtem as of Alpha 0.6.1.",
       "Oree is the starter Temtem for the player’s rival, Max.",
       "Oree is the first Digital Temtem to appear in the game."
     ],
@@ -1440,6 +1440,11 @@
         "name": "Stone Ball",
         "source": "Levelling",
         "levels": 44
+      },
+      {
+        "name": "Sacrifice",
+        "source": "Levelling",
+        "levels": 50
       },
       {
         "name": "Bestial Charge",
@@ -4448,12 +4453,12 @@
     ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 180,
+        "inches": 70
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 380,
+        "lbs": 837
       }
     },
     "techniques": [
@@ -4564,7 +4569,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "",
+    "gameDescription": "Once king of the Kisiwan savannah, this species boasts incredibly hard lamellar plates. Before the time of Chacha Turay, they were used in tribal warfare as armored cavalry.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -15558,10 +15563,6 @@
       {
         "name": "Double Edge",
         "source": "TechniqueCourses"
-      },
-      {
-        "name": "Water Jet",
-        "source": "Breeding"
       }
     ],
     "trivia": [
