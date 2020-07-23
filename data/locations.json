@@ -423,13 +423,23 @@
     "imageWikiFile": "https://temtem.gamepedia.com/File:Kisiwa.png",
     "routes": [
       {
-        "name": "edit",
-        "wikiUrl": "https://temtem.gamepedia.com/index.php?title=Kisiwa&veaction=edit&section=2",
+        "name": "Mawingu Islets",
+        "wikiUrl": "https://temtem.gamepedia.com/Mawingu_Islets",
         "type": "route"
       },
       {
-        "name": "edit source",
-        "wikiUrl": "https://temtem.gamepedia.com/index.php?title=Kisiwa&action=edit&section=2",
+        "name": "Jino Gap",
+        "wikiUrl": "https://temtem.gamepedia.com/Jino_Gap",
+        "type": "route"
+      },
+      {
+        "name": "Kwea Uplands",
+        "wikiUrl": "https://temtem.gamepedia.com/index.php?title=Kwea_Uplands&action=edit&redlink=1",
+        "type": "route"
+      },
+      {
+        "name": "Tasa Desert",
+        "wikiUrl": "https://temtem.gamepedia.com/index.php?title=Tasa_Desert&action=edit&redlink=1",
         "type": "route"
       }
     ],
@@ -445,6 +455,11 @@
         "type": "townorvillage"
       },
       {
+        "name": "Upinzani",
+        "wikiUrl": "https://temtem.gamepedia.com/index.php?title=Upinzani&action=edit&redlink=1",
+        "type": "townorvillage"
+      },
+      {
         "name": "Uhuru",
         "wikiUrl": "https://temtem.gamepedia.com/Uhuru",
         "type": "townorvillage"
@@ -452,23 +467,8 @@
     ],
     "landmarks": [
       {
-        "name": "Kilima Range",
-        "wikiUrl": "https://temtem.gamepedia.com/Kilima_Range",
-        "type": "landmark"
-      },
-      {
-        "name": "Kusini Highlands",
-        "wikiUrl": "https://temtem.gamepedia.com/Kusini_Highlands",
-        "type": "landmark"
-      },
-      {
-        "name": "Jino Gap",
-        "wikiUrl": "https://temtem.gamepedia.com/Jino_Gap",
-        "type": "landmark"
-      },
-      {
-        "name": "Chini Tunnel",
-        "wikiUrl": "https://temtem.gamepedia.com/Chini_Tunnel",
+        "name": "Chini Grotto",
+        "wikiUrl": "https://temtem.gamepedia.com/index.php?title=Chini_Grotto&action=edit&redlink=1",
         "type": "landmark"
       },
       {
@@ -480,6 +480,11 @@
         "name": "Lake Moyo",
         "wikiUrl": "https://temtem.gamepedia.com/Lake_Moyo",
         "type": "landmark"
+      },
+      {
+        "name": "Nuru Lodge",
+        "wikiUrl": "https://temtem.gamepedia.com/index.php?title=Nuru_Lodge&action=edit&redlink=1",
+        "type": "landmark"
       }
     ],
     "temtem": [
@@ -487,7 +492,7 @@
       "Kuri"
     ],
     "trivia": [
-      "The region is mostly based on East African cultures. Most placenames are Swahili.",
+      "The region is mostly based on East African cultures. Most place names are Swahili.",
       "The ancient people of Kisiwa developed the art of rock-hopping to get around islands."
     ]
   }

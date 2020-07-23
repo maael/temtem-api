@@ -13,6 +13,19 @@
     "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's ATK."
   },
   {
+    "name": "Baton Pass",
+    "wikiUrl": "https://temtem.gamepedia.com/Baton_Pass",
+    "wikiIconUrl": "",
+    "icon": "/images/icons/gear/",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "Whenever a Temtem with Baton Pass enters the battlefield, it regains 8% of its maximum HP.",
+    "gameDescription": "When entering the battlefield, restores 8% of max HP."
+  },
+  {
     "name": "Calm Patch",
     "wikiUrl": "https://temtem.gamepedia.com/Calm_Patch",
     "wikiIconUrl": "",
@@ -156,6 +169,19 @@
     "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's trait slot."
   },
   {
+    "name": "Eraser",
+    "wikiUrl": "https://temtem.gamepedia.com/Eraser",
+    "wikiIconUrl": "",
+    "icon": "/images/icons/gear/",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "When a Temtem with Eraser would gain TVs, instead, it loses half the amount it would have gained..",
+    "gameDescription": "Instead of earning TVs from defeated Temtem, the Temtem loses half those TVs."
+  },
+  {
     "name": "Fatigue Patch",
     "wikiUrl": "https://temtem.gamepedia.com/Fatigue_Patch",
     "wikiIconUrl": "",
@@ -258,6 +284,19 @@
     "buyPrice": 1000,
     "description": "Hardening DNA Strand is a single-use held item used in Breeding. When held, it ensures the holder's DEF is inherited by the egg. It is only sold in the Breeding Center in Omninesia.",
     "gameDescription": "Hardening DNA Strand This single-use DNA strand ensures the egg inherits the parent's DEF."
+  },
+  {
+    "name": "Hopeless Tonic",
+    "wikiUrl": "https://temtem.gamepedia.com/Hopeless_Tonic",
+    "wikiIconUrl": "",
+    "icon": "/images/icons/gear/",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "When the last Temtem alive has the Hopeless Tonic, once, it regains full HP, Stamina, loses all previous conditions, and then gains the Doomed Condition for 3 turns.",
+    "gameDescription": "When there's nothing else to drink... Once per battle, if the Temtem is the last ally standing, restores full HP, STA, heals all previous Status Conditions, and gets Doomed for 3 turns."
   },
   {
     "name": "Humble Patch",
@@ -399,7 +438,7 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Proteins Doubles the TV gain from defeating untamed Temtem.",
+    "description": "Proteins doubles the TV gain from defeating Temtem or capturing a wild one.",
     "gameDescription": "x2 TV bonus from defeated Temtem."
   },
   {

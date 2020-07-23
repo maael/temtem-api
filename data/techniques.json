@@ -675,6 +675,28 @@
     "description": "An accurate strike at the target's main pressure point, ignoring its defenses to deal exactly 80 damage."
   },
   {
+    "name": "Double Edge",
+    "wikiUrl": "https://temtem.gamepedia.com/Double_Edge",
+    "type": "Neutral",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 84,
+    "staminaCost": 12,
+    "hold": 0,
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
+    "synergy": "Neutral",
+    "synergyEffects": [
+      {
+        "effect": "-83 Base Damage",
+        "type": "damage",
+        "damage": -83
+      }
+    ],
+    "targets": "None",
+    "description": "Cuts both ways, in true Neutral fashion - inflicts moderate damage to the target, but also gives it +1DEF and +1SPDEF."
+  },
+  {
     "name": "Double Gash",
     "wikiUrl": "https://temtem.gamepedia.com/Double_Gash",
     "type": "Melee",
@@ -2010,8 +2032,8 @@
     "description": "Currently, Overclock is unavailable, so its unknown what it's description is."
   },
   {
-    "name": "Paralysing Poison",
-    "wikiUrl": "https://temtem.gamepedia.com/Paralysing_Poison",
+    "name": "Paralyzing Poison",
+    "wikiUrl": "https://temtem.gamepedia.com/Paralyzing_Poison",
     "type": "Toxic",
     "class": "Status",
     "classIcon": "/images/icons/technique/Status.png",
@@ -2110,6 +2132,22 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A dirty trick from the seedier alleys of Lochburg, uses nimble fingers (or claws) to Seize the target for 2 turns."
+  },
+  {
+    "name": "Piercing Wheel",
+    "wikiUrl": "https://temtem.gamepedia.com/Piercing_Wheel",
+    "type": "Earth",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 100,
+    "staminaCost": 28,
+    "hold": 1,
+    "priority": "high",
+    "priorityIcon": "/images/icons/priority/high.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Zizare's signature technique - a fast attack that terrifies enemies -1DEF and lifts your spirits, giving you Vigor for 2 turns."
   },
   {
     "name": "Plague",
@@ -3253,15 +3291,15 @@
   {
     "name": "Untangle",
     "wikiUrl": "https://temtem.gamepedia.com/Untangle",
-    "type": "?",
-    "class": "?",
-    "classIcon": "/images/icons/technique/?.png",
+    "type": "Neutral",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
     "damage": 0,
-    "staminaCost": 0,
-    "hold": 0,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
-    "synergy": "?",
+    "staminaCost": 13,
+    "hold": 1,
+    "priority": "veryhigh",
+    "priorityIcon": "/images/icons/priority/veryhigh.png",
+    "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "With a few swift movement, this technique Untraps the target from any tangle."
@@ -3383,49 +3421,5 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Whipping seawater, like the stormy Sillaro lashing at the cliffs."
-  },
-  {
-    "name": "Water Cannon",
-    "wikiUrl": "https://temtem.gamepedia.com/Water_Cannon",
-    "type": "Water",
-    "class": "Special",
-    "classIcon": "/images/icons/technique/Special.png",
-    "damage": 100,
-    "staminaCost": 21,
-    "hold": 0,
-    "priority": "normal",
-    "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "Toxic",
-    "synergyEffects": [
-      {
-        "effect": "+2 Turns Poison",
-        "type": "condition",
-        "damage": 0
-      }
-    ],
-    "targets": "Single Other Target",
-    "description": "The strongest Sillaro current has nothing on this unstoppable jet."
-  },
-  {
-    "name": "Water Cutting Lily",
-    "wikiUrl": "https://temtem.gamepedia.com/Water_Cutting_Lily",
-    "type": "Nature",
-    "class": "Physical",
-    "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 120,
-    "staminaCost": 31,
-    "hold": 0,
-    "priority": "high",
-    "priorityIcon": "/images/icons/priority/high.png",
-    "synergy": "Water",
-    "synergyEffects": [
-      {
-        "effect": "+24 Base Damage",
-        "type": "damage",
-        "damage": 24
-      }
-    ],
-    "targets": "Single Other Target",
-    "description": "As pretty (but much deadlier) than Denizan Water lillies"
   }
 ]
