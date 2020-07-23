@@ -203,7 +203,7 @@
     ],
     "trivia": [
       "Zaobian's name is derived from zhào (megabyte in Chinese) and túbiàn (mutation in Chinese).",
-      "Zaobian and its pre-evolution, Oree, are the only Digital Temtem as of Alpha 0.5.13."
+      "Zaobian and its pre-evolution are the only Digital Temtem as of Alpha 0.6.1."
     ],
     "evolution": {
       "stage": 2,
@@ -11945,7 +11945,7 @@
       "type": "level"
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/50/Raignet.png/250px-Raignet.png?version=49233b686887a7d1f542b753ffabf1c1",
-    "lumaWikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/63/LumaRaignat.png/250px-LumaRaignat.png?version=111aa9d73faee893f28b43e1b8f04219",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Raignet.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Raignet.png",
@@ -12621,9 +12621,9 @@
     "catchRate": 75,
     "hatchMins": 30,
     "tvYields": {
-      "hp": 0,
+      "hp": 2,
       "sta": 0,
-      "spd": 1,
+      "spd": 0,
       "atk": 0,
       "def": 0,
       "spatk": 0,
@@ -15050,7 +15050,22 @@
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/5c/Gazuma.png/250px-Gazuma.png?version=223774b78b0fa453d023270a0054cf3f",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/3d/LumaGazuma.png/250px-LumaGazuma.png?version=2be4b61c633afa2c968c3dcce8a4f9b7",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Maltope Road",
+        "place": "",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "20%",
+        "level": "40-45",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 45,
+          "minPansuns": 140,
+          "maxPansuns": 155
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Gazuma.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Gazuma.png",
     "genderRatio": {
@@ -16870,7 +16885,7 @@
       "spatk": 0,
       "spdef": 3
     },
-    "gameDescription": "It is unclear whether Professor Konstantinos ever discovered this evolution, with it's flaming aquamarine wings - a true feat of meta-mimetic evolution, unseen elsewhere in the whole Archipelago.",
+    "gameDescription": "It is unclear whether Professor Konstantinos ever discovered this evolution, with its flaming aquamarine wings - a true feat of meta-mimetic evolution, unseen elsewhere in the whole Archipelago.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",

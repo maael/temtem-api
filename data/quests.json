@@ -287,7 +287,9 @@
     "reward": "???",
     "type": "side",
     "steps": [],
-    "rewards": [],
+    "rewards": [
+      "Iron Coating"
+    ],
     "startingLocation": "Sillaro River",
     "startingNPC": "Phaedra"
   },
@@ -371,9 +373,15 @@
     "reward": "???",
     "type": "side",
     "steps": [
-      "Locate Zamzaditta, somewhere in Kisiwa."
+      "Locate Zamzaditta, somewhere in Kisiwa.",
+      "Bring Zamzaditta a Gyalis egg.",
+      "Bring Zamzaditta a Hidody egg.",
+      "Deliver the incubator prototype to Akihiro"
     ],
-    "rewards": [],
+    "rewards": [
+      "Drill",
+      "Incubator device"
+    ],
     "startingLocation": "Tucmani Customs Office",
     "startingNPC": "Akihiro"
   },
