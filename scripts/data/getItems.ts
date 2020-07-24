@@ -63,7 +63,7 @@ function getItemTableWithDetails(
         largeWikiImageUrl: (cells[0].src || "")
           .replace("/thumb/", "/")
           .replace(/.png.+/, ".png"),
-        icon: `/images/icons/gear/${path
+        icon: `/images/icons/items/${path
           .parse(cells[0].src || "")
           .base.split("-")
           .pop()}`,
@@ -115,7 +115,7 @@ function getSimpleItemTable(
         largeWikiImageUrl: (cells[0].src || "")
           .replace("/thumb/", "/")
           .replace(/.png.+/, ".png"),
-        icon: `/images/icons/gear/${path
+        icon: `/images/icons/items/${path
           .parse(cells[0].src || "")
           .base.split("-")
           .pop()}`,
