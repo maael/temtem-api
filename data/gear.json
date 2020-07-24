@@ -117,6 +117,32 @@
     "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's SPDEF."
   },
   {
+    "name": "Doppelganger Brooch",
+    "wikiUrl": "https://temtem.gamepedia.com/Doppelganger_Brooch",
+    "wikiIconUrl": "",
+    "icon": "/images/icons/gear/",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "When the Temtem holding Doppelganger Brooch deals damage to another Temtem of its evolutionary line, it is increased by 50%.",
+    "gameDescription": "Damage done to Temtem in the same evolutionary line is increased by 50%."
+  },
+  {
+    "name": "DoubleScreen",
+    "wikiUrl": "https://temtem.gamepedia.com/DoubleScreen",
+    "wikiIconUrl": "",
+    "icon": "/images/icons/gear/",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "Whenever the Temtem holding DoubleScreen takes damage from a Temtem with multiple types, it takes 10% less damage.",
+    "gameDescription": "Damage taken from dual type Temtem is reduced by 10%."
+  },
+  {
     "name": "Drill",
     "wikiUrl": "https://temtem.gamepedia.com/Drill",
     "wikiIconUrl": "",
@@ -338,6 +364,19 @@
     "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's DEF and SPDEF."
   },
   {
+    "name": "Iron Coating",
+    "wikiUrl": "https://temtem.gamepedia.com/Iron_Coating",
+    "wikiIconUrl": "",
+    "icon": "/images/icons/gear/",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "Iron Coating increases the damage done by Earth Type techniques of its holder by 10%.",
+    "gameDescription": "Damage done with Earth techniques is increased by 10%."
+  },
+  {
     "name": "Lightning Rod",
     "wikiUrl": "https://temtem.gamepedia.com/Lightning_Rod",
     "wikiIconUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/6/62/Lightning_Rod.png",
@@ -479,6 +518,19 @@
     "buyPrice": 0,
     "description": "Shuine's Horn is a piece of gear.",
     "gameDescription": "Changes the Temtem's Toxic Type Techniques toWater Type."
+  },
+  {
+    "name": "Slingshot",
+    "wikiUrl": "https://temtem.gamepedia.com/Slingshot",
+    "wikiIconUrl": "",
+    "icon": "/images/icons/gear/",
+    "category": "Gear",
+    "consumable": false,
+    "limitedQuantity": true,
+    "purchasable": false,
+    "buyPrice": 0,
+    "description": "Whenever the holder of Slingshot attacks an enemy target which results in x1/4 damage from type resistances, it gains +1DEF, +1SPDEF, and +1SPD.",
+    "gameDescription": "When attacking with a super ineffective technique, gets +1DEF, +1SPDEF, and +1SPD."
   },
   {
     "name": "Snare",

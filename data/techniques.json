@@ -1100,7 +1100,7 @@
     "classIcon": "/images/icons/technique/Special.png",
     "damage": 150,
     "staminaCost": 51,
-    "hold": 0,
+    "hold": 1,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
@@ -1330,7 +1330,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Self",
     "description": "Just a little nap while it's cold outside... The target is for 3 turns but recovers 50% of health and stamina."
   },
   {

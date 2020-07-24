@@ -2327,7 +2327,7 @@
     "types": [
       "Electric"
     ],
-    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/93/Ampling.png/50px-Ampling.png",
+    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/ec/AmplingTransparent.png/50px-AmplingTransparent.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Ampling",
     "stats": {
@@ -2413,7 +2413,7 @@
       "Electric",
       "Nature"
     ],
-    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a8/Amphatyr.png/41px-Amphatyr.png",
+    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/ad/AmphatyrTransparent.png/41px-AmphatyrTransparent.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Amphatyr",
     "stats": {
@@ -2461,7 +2461,7 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/ad/AmphatyrTransparent.png/205px-AmphatyrTransparent.png?version=a49fe0869c204d1cf4c1706e4acb256f",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/ad/AmphatyrTransparent.png/205px-AmphatyrTransparent.png?version=19b3e4ca524368f4e4f655c284723450",
     "lumaWikiPortraitUrlLarge": "",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Amphatyr.png",
@@ -12615,8 +12615,8 @@
     "icon": "/images/portraits/temtem/large/Zizare.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Zizare.png",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 80,
+      "female": 20
     },
     "catchRate": 75,
     "hatchMins": 30,
@@ -14561,7 +14561,36 @@
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7a/Grumvel.png/250px-Grumvel.png?version=8d26c302e866c0e9c209715fedab2a18",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/49/LumaGrumvel.png/250px-LumaGrumvel.png?version=d6cf2169eb37beab3b44053e5e1e68fa",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Juu Tunnel",
+        "place": "Juu Tunnel",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "?%",
+        "level": "32-35",
+        "freetem": {
+          "minLevel": 32,
+          "maxLevel": 35,
+          "minPansuns": 104,
+          "maxPansuns": 112
+        }
+      },
+      {
+        "location": "Chini Grotto",
+        "place": "Chini Grotto",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "?%",
+        "level": "39-42",
+        "freetem": {
+          "minLevel": 39,
+          "maxLevel": 42,
+          "minPansuns": 122,
+          "maxPansuns": 130
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Grumvel.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Grumvel.png",
     "genderRatio": {
