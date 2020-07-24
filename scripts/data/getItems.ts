@@ -1,3 +1,4 @@
+import path from "path";
 import got from "got";
 import cheerio from "cheerio";
 import * as log from "../util/log";
@@ -58,9 +59,16 @@ function getItemTableWithDetails(
       );
       if (cells.length === 0) return undefined;
       return {
-        wikiImageUrl: cells[0].src,
+        wikiImageUrl: cells[0].src || "",
+        largeWikiImageUrl: (cells[0].src || "")
+          .replace("/thumb/", "/")
+          .replace(/.png.+/, ".png"),
+        icon: `/images/icons/gear/${path
+          .parse(cells[0].src || "")
+          .base.split("-")
+          .pop()}`,
         name: cells[1].text,
-        wikiUrl: `https://temtem.gamepedia.com/${cells[1].href}`,
+        wikiUrl: `https://temtem.gamepedia.com${cells[1].href}`,
         description: cells[2].text,
         effect: null,
         location: null,
@@ -103,7 +111,14 @@ function getSimpleItemTable(
       );
       if (cells.length === 0) return undefined;
       return {
-        wikiImageUrl: cells[0].src,
+        wikiImageUrl: cells[0].src || "",
+        largeWikiImageUrl: (cells[0].src || "")
+          .replace("/thumb/", "/")
+          .replace(/.png.+/, ".png"),
+        icon: `/images/icons/gear/${path
+          .parse(cells[0].src || "")
+          .base.split("-")
+          .pop()}`,
         name: cells[1].text,
         wikiUrl: `https://temtem.gamepedia.com/${cells[1].href}`,
         description: null,

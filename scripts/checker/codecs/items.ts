@@ -2,6 +2,8 @@ import * as t from "io-ts";
 
 export const Codec = t.type({
   wikiImageUrl: t.string,
+  largeWikiImageUrl: t.string,
+  icon: t.string,
   name: t.string,
   wikiUrl: t.string,
   description: t.union([t.string, t.null]),
