@@ -70,7 +70,7 @@
     ],
     "trivia": [
       "Oree’s name is derived from orejas (ear in Spanish) and electronic.",
-      "Oree and its evolution are the only known Digital Temtem as of Alpha 0.6.1.",
+      "Oree and its evolution are the only known Digital Temtem as of Alpha 0.6.2.",
       "Oree is the starter Temtem for the player’s rival, Max.",
       "Oree is the first Digital Temtem to appear in the game."
     ],
@@ -203,7 +203,7 @@
     ],
     "trivia": [
       "Zaobian's name is derived from zhào (megabyte in Chinese) and túbiàn (mutation in Chinese).",
-      "Zaobian and its pre-evolution are the only Digital Temtem as of Alpha 0.6.1."
+      "Zaobian and its pre-evolution are the only Digital Temtem as of Alpha 0.6.2."
     ],
     "evolution": {
       "stage": 2,
@@ -348,8 +348,7 @@
     "trivia": [
       "Platypet’s name is derived from platypus and pet.",
       "Platypet was known as Pettans in early development.",
-      "Platypet was drawn by 50 Shades of Heliolisk, PokéNinja bought the rights to the art. He would later pledge $6,000 USD to the Breeder Tier for the Temtem Kickstarter, adding Platypet, Platox and Platimous to the game.",
-      "The artist of Platypet 50 Shades of Heliolisk, tweeting about his design being bought for use."
+      "Platypet was drawn by 50 Shades of Heliolisk, PokéNinja bought the rights to the art. He would later pledge $6,000 USD to the Breeder Tier for the Temtem Kickstarter, adding Platypet, Platox and Platimous to the game."
     ],
     "evolution": {
       "stage": 1,
@@ -398,7 +397,7 @@
         "note": "",
         "island": "Tucma",
         "frequency": "30%",
-        "level": "24-28",
+        "level": "24 - 28",
         "freetem": {
           "minLevel": 24,
           "maxLevel": 28,
@@ -407,12 +406,12 @@
         }
       },
       {
-        "location": "Xolot Reservoir, Inner large body of Acid",
+        "location": "Xolot Reservoir",
         "place": "Xolot Reservoir",
-        "note": "Inner large body of Acid",
+        "note": "",
         "island": "Tucma",
-        "frequency": "50%",
-        "level": "28-32",
+        "frequency": "50% - 70%",
+        "level": "28 - 32",
         "freetem": {
           "minLevel": 28,
           "maxLevel": 32,
@@ -421,40 +420,12 @@
         }
       },
       {
-        "location": "Xolot Reservoir, Outer large body of Acid",
-        "place": "Xolot Reservoir",
-        "note": "Outer large body of Acid",
-        "island": "Tucma",
-        "frequency": "50%",
-        "level": "29-32",
-        "freetem": {
-          "minLevel": 29,
-          "maxLevel": 32,
-          "minPansuns": 90,
-          "maxPansuns": 97
-        }
-      },
-      {
-        "location": "Xolot Reservoir, Ring of Acid",
-        "place": "Xolot Reservoir",
-        "note": "Ring of Acid",
-        "island": "Tucma",
-        "frequency": "70%",
-        "level": "29-31",
-        "freetem": {
-          "minLevel": 29,
-          "maxLevel": 31,
-          "minPansuns": 90,
-          "maxPansuns": 95
-        }
-      },
-      {
         "location": "Mines of Mictlan",
         "place": "Mines of Mictlan",
         "note": "",
         "island": "Tucma",
         "frequency": "85%",
-        "level": "31-35",
+        "level": "31 - 35",
         "freetem": {
           "minLevel": 31,
           "maxLevel": 35,
@@ -613,8 +584,7 @@
     ],
     "trivia": [
       "Platox' name is derived from platypus and toxic.",
-      "Platox was drawn by 50 Shades of Heliolisk, PokéNinja bought the rights to the art. He would later pledge $6,000 USD to the Breeder Tier for the Temtem Kickstarter, adding Platypet, Platox and Platimous to the game.",
-      "The artist of Platox 50 Shades of Heliolisk, tweeting about his design being bought for use."
+      "Platox was drawn by 50 Shades of Heliolisk, PokéNinja bought the rights to the art. He would later pledge $6,000 USD to the Breeder Tier for the Temtem Kickstarter, adding Platypet, Platox and Platimous to the game."
     ],
     "evolution": {
       "stage": 2,
@@ -661,20 +631,6 @@
         "location": "Saipark",
         "place": "Saipark",
         "note": "",
-        "island": "Deniz",
-        "frequency": "35%",
-        "level": "37-40",
-        "freetem": {
-          "minLevel": 37,
-          "maxLevel": 40,
-          "minPansuns": 126,
-          "maxPansuns": 135
-        }
-      },
-      {
-        "location": "Saipark Caves",
-        "place": "Saipark",
-        "note": "Caves",
         "island": "Deniz",
         "frequency": "35%",
         "level": "37-40",
@@ -846,8 +802,7 @@
     ],
     "trivia": [
       "Platimous' name is derived from platypus and venomous.",
-      "Platimous was drawn by 50 Shades of Heliolisk, PokéNinja bought the rights to the art. He would later pledge $6,000 USD to the Breeder Tier for the Temtem Kickstarter, adding Platypet, Platox and Platimous to the game.",
-      "The artist of Platimous 50 Shades of Heliolisk, tweeting about his design being bought for use."
+      "Platimous was drawn by 50 Shades of Heliolisk, PokéNinja bought the rights to the art. He would later pledge $6,000 USD to the Breeder Tier for the Temtem Kickstarter, adding Platypet, Platox and Platimous to the game."
     ],
     "evolution": {
       "stage": 3,
@@ -1048,54 +1003,26 @@
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/bc/LumaSwali.png/250px-LumaSwali.png?version=bfb17ea4625a4245a8c9071f00782199",
     "locations": [
       {
-        "location": "Prasine Coast, Second large patch of Grass",
+        "location": "Prasine Coast",
         "place": "Prasine Coast",
-        "note": "Second large patch of Grass",
+        "note": "",
         "island": "Deniz",
         "frequency": "40%",
-        "level": "2-4",
+        "level": "2 - 5",
         "freetem": {
           "minLevel": 2,
-          "maxLevel": 4,
-          "minPansuns": 23,
-          "maxPansuns": 26
-        }
-      },
-      {
-        "location": "Prasine Coast, Third large patch of Grass",
-        "place": "Prasine Coast",
-        "note": "Third large patch of Grass",
-        "island": "Deniz",
-        "frequency": "40%",
-        "level": "3-5",
-        "freetem": {
-          "minLevel": 3,
           "maxLevel": 5,
-          "minPansuns": 25,
+          "minPansuns": 23,
           "maxPansuns": 28
         }
       },
       {
-        "location": "Thalassian Cliffs, Grass patch east before underpass",
+        "location": "Thalassian Cliffs",
         "place": "Thalassian Cliffs",
-        "note": "Grass patch east before underpass",
+        "note": "",
         "island": "Deniz",
         "frequency": "30%",
-        "level": "5-7",
-        "freetem": {
-          "minLevel": 5,
-          "maxLevel": 7,
-          "minPansuns": 28,
-          "maxPansuns": 31
-        }
-      },
-      {
-        "location": "Thalassian Cliffs, Grass patch immediately east of the ramp valley",
-        "place": "Thalassian Cliffs",
-        "note": "Grass patch immediately east of the ramp valley",
-        "island": "Deniz",
-        "frequency": "30%",
-        "level": "5-7",
+        "level": "5 - 7",
         "freetem": {
           "minLevel": 5,
           "maxLevel": 7,
@@ -16153,9 +16080,9 @@
     "hatchMins": 28,
     "tvYields": {
       "hp": 0,
-      "sta": 0,
+      "sta": 2,
       "spd": 0,
-      "atk": 0,
+      "atk": 2,
       "def": 0,
       "spatk": 0,
       "spdef": 0

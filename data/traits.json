@@ -51,7 +51,7 @@
     "name": "Benefactor",
     "wikiUrl": "https://temtem.gamepedia.com/Benefactor",
     "description": "When an ally is damaged, restores 10% of max HP.",
-    "effect": "Whenever the ally of the Temtem with this trait takes damage, they are healed by 10% of their max HP. This effect has no minimum value, meaning it can heal the ally for more HP than they lost due to getting attacked."
+    "effect": "Whenever the ally of the Temtem with Benefactor takes damage from a technique (no matter the target), they are healed by 10% of their max HP. This effect has no minimum value, meaning it can heal the ally for more HP than they lost due to getting attacked. It will only trigger if they take damage from the attack."
   },
   {
     "name": "Body Stretch",
@@ -69,25 +69,25 @@
     "name": "Botanist",
     "wikiUrl": "https://temtem.gamepedia.com/Botanist",
     "description": "+15% damage with Nature techniques.",
-    "effect": ""
+    "effect": "Whenever a Temtem with Botanist attacks using a Nature Type technique, the damage is increased by 15%."
   },
   {
     "name": "Botanophobia",
     "wikiUrl": "https://temtem.gamepedia.com/Botanophobia",
     "description": "When attacked with a Nature technique, it is increased in damage by 50%.",
-    "effect": ""
+    "effect": "Whenever a Temtem with Botanophobia is attacked by a Nature Type technique, the damage is increased by 50%."
   },
   {
     "name": "Brawny",
     "wikiUrl": "https://temtem.gamepedia.com/Brawny",
-    "description": "Physical techniques do 20% more damage.",
-    "effect": ""
+    "description": "Damage done with physical techniques is increased by 20%.",
+    "effect": "A Temtem with Brawny has all damage done by physical techniques boosted by an additional 20%."
   },
   {
     "name": "Bully",
     "wikiUrl": "https://temtem.gamepedia.com/Bully",
-    "description": "While allies outnumber rivals, techniques inflict +30% damage.",
-    "effect": "Allies are your total temtem remaining, even the ones that are not fighting."
+    "description": "While allies outnumber rivals, techniques inflict +30% Damage.",
+    "effect": "If the number of allies conscious is greater than the number of enemies conscious, including Temtem not on the battlefield for both totals, then Temtem with Bully deal 30% more damage."
   },
   {
     "name": "Burglar",
@@ -98,26 +98,26 @@
   {
     "name": "Caffeinated",
     "wikiUrl": "https://temtem.gamepedia.com/Caffeinated",
-    "description": "Prevents the Asleep Status condition.",
-    "effect": ""
+    "description": "Prevents the asleep status condition.",
+    "effect": "Temtem with Caffeinated will never receive the Asleep Condition."
   },
   {
     "name": "Callosity",
     "wikiUrl": "https://temtem.gamepedia.com/Callosity",
-    "description": "When attacked with a physical technique, increases DEF by 1 stage.",
-    "effect": ""
+    "description": "When attacked with a physical technique, gets DEF.",
+    "effect": "Whenever a Temtem with Callosity gets attacked by a physical technique, it then gets DEF."
   },
   {
     "name": "Camaraderie",
     "wikiUrl": "https://temtem.gamepedia.com/Camaraderie",
     "description": "When attacked, reduces 50% damage if both allies are part of the same evolutionary line.",
-    "effect": ""
+    "effect": "When a Temtem with Camaraderie is attacked, if its ally is part of its evolutionary line, then it takes 50% less damage."
   },
   {
     "name": "Channeler",
     "wikiUrl": "https://temtem.gamepedia.com/Channeler",
-    "description": "Damage done with Special techniques is increased by 25%.",
-    "effect": ""
+    "description": "Damage done with special techniques is increased by 25%.",
+    "effect": "Special techniques used by a Temtem with Channeler do 25% more damage."
   },
   {
     "name": "Cobweb",
@@ -129,13 +129,13 @@
     "name": "Cold-Natured",
     "wikiUrl": "https://temtem.gamepedia.com/Cold-Natured",
     "description": "Instead of getting Cold, the Temtem gets Frozen.",
-    "effect": ""
+    "effect": "Whenever a Temtem with Cold-Natured would get the Cold Condition, they instead get the Frozen Condition for the same amount of turns."
   },
   {
     "name": "Confined",
     "wikiUrl": "https://temtem.gamepedia.com/Confined",
-    "description": "When getting an trapped status condition, gets +1DEF and +1SPDEF if the attacker is itself.",
-    "effect": "When a Temtem with Confined uses a technique that causes it to give itself the , it also gets +1DEF and +1SDEF."
+    "description": "When getting an trapped status condition, gets DEF and SPDEF if the attacker is itself.",
+    "effect": "When a Temtem with Confined uses a technique that causes it to give itself the , it also gets DEF and SPDEF."
   },
   {
     "name": "Coward's Rest",
@@ -152,26 +152,26 @@
   {
     "name": "Demoralize",
     "wikiUrl": "https://temtem.gamepedia.com/Demoralize",
-    "description": "When entering the battlefield, decreases enemy team SPD by 1 stage.",
-    "effect": "Lowers the SPD of whatever Temtem the user switches into (even if one or both of them end up switching out). This also does ‘’’not’’’ change the order of the turn, as the turn order is locked in at the beginning of a round after Techniques have been chosen."
+    "description": "When entering the battlefield, rivals get SPD.",
+    "effect": "When a Temtem with Demoralize enters the battlefield, both enemies immediately get SPD, even if they are then immediately after swapped out."
   },
   {
     "name": "Determined",
     "wikiUrl": "https://temtem.gamepedia.com/Determined",
     "description": "Prevents negative stat stage changes.",
-    "effect": ""
+    "effect": "Temtem with Determined can never have its stats decreased by any amount of stages."
   },
   {
     "name": "Dreaded Alarm",
     "wikiUrl": "https://temtem.gamepedia.com/Dreaded_Alarm",
     "description": "When a rival rests, they lose 20% of max HP.",
-    "effect": "Enemy Temtem lose 20% of their max HP when resting during battle."
+    "effect": "Whenever the enemy of a Temtem with Dreaded Alarm rests, they lose 20% of their maximum HP."
   },
   {
     "name": "Earthbound",
     "wikiUrl": "https://temtem.gamepedia.com/Earthbound",
-    "description": "When attacking with a Earth technique, gets +1DEF.",
-    "effect": "Earthbound gives the user +1DEF whenever they use an Earth Type technique."
+    "description": "When attacking with a Earth technique, gets DEF.",
+    "effect": "Earthbound gives the user DEF whenever they use an Earth Type technique."
   },
   {
     "name": "Efficient",
@@ -183,13 +183,13 @@
     "name": "Electric Synthesize",
     "wikiUrl": "https://temtem.gamepedia.com/Electric_Synthesize",
     "description": "When attacked with an Electric technique, restores HP instead of receiving damage.",
-    "effect": ""
+    "effect": "techniques restore their target's HP an amount equal to the damage if the target has Electric Synthesize."
   },
   {
     "name": "Energy Reserves",
     "wikiUrl": "https://temtem.gamepedia.com/Energy_Reserves",
-    "description": "Tempedia description",
-    "effect": "If HP is below 25% by the end of the turn, gets Vigorized for 2 turns."
+    "description": "If HP is below 25% by the end of the turn, gets invigorated for 2 turns.",
+    "effect": "If, at the end of the turn, the HP of a Temtem with Energy Reserves is below 25% of its maximum, the Temtem gets the Vigorized Condition for 2 turns."
   },
   {
     "name": "Escapist",
