@@ -11917,15 +11917,51 @@
     "traits": [],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 170,
+        "inches": 66
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 110,
+        "lbs": 242
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Sparks",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "DC Beam",
+        "source": "Levelling",
+        "levels": 3
+      },
+      {
+        "name": "Sparkling Bullet",
+        "source": "Levelling",
+        "levels": 9
+      },
+      {
+        "name": "Tesla Prison",
+        "source": "Levelling",
+        "levels": 15
+      },
+      {
+        "name": "Thunder Strike",
+        "source": "Levelling",
+        "levels": 20
+      },
+      {
+        "name": "Electropunch",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Electromagnitism",
+        "source": "Levelling",
+        "levels": 40
+      }
+    ],
     "trivia": [
       "Raignet's name comes from Ray + Magnet.",
       "Raignet was first revealed via Twitter.",
@@ -11958,13 +11994,13 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 90,
+    "hatchMins": 27,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 2,
       "def": 0,
       "spatk": 0,
       "spdef": 0
@@ -16004,18 +16040,70 @@
       "spdef": 0,
       "total": 0
     },
-    "traits": [],
+    "traits": [
+      "Effective Denial",
+      "?"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 205,
+        "inches": 80
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 148,
+        "lbs": 326
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Kick",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Bamboozle",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 8
+      },
+      {
+        "name": "Head Ram",
+        "source": "Levelling",
+        "levels": 16
+      },
+      {
+        "name": "Intimidation",
+        "source": "Levelling",
+        "levels": 24
+      },
+      {
+        "name": "Psy Surge",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Extra Energy Slam",
+        "source": "Levelling",
+        "levels": 40
+      },
+      {
+        "name": "Telekinetic Shrapnel",
+        "source": "Levelling",
+        "levels": 50
+      },
+      {
+        "name": "Darkness",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Untangle",
+        "source": "TechniqueCourses"
+      }
+    ],
     "trivia": [
       "Valiar's name comes from Vacio (empty in Spanish) + Ampliar (extend in Spanish because they use the ear holes to amplify their mental powers)",
       "Valiar was first revealed through its early concept art via Twitter.",
@@ -16034,8 +16122,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 85,
+    "hatchMins": 28,
     "tvYields": {
       "hp": 0,
       "sta": 0,
