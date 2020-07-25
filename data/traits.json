@@ -2,8 +2,8 @@
   {
     "name": "Aerobic",
     "wikiUrl": "https://temtem.gamepedia.com/Aerobic",
-    "description": "When attacking with Wind techniques, gets SPDEF- and SPD +.",
-    "effect": "When a Temtem with this trait uses a Wind Type Technique, their Special Defense lowers by 1 stage and Speed raises by 1 stage."
+    "description": "When attacking with Wind techniques, gets SPDEF and SPD.",
+    "effect": "When a Temtem with this trait uses a Wind Type Technique, they get SPDEF and SPD."
   },
   {
     "name": "Air Specialist",
@@ -14,20 +14,20 @@
   {
     "name": "Amphibian",
     "wikiUrl": "https://temtem.gamepedia.com/Amphibian",
-    "description": "When attacked with a Water technique, increases SPD by 1 stage.",
-    "effect": ""
+    "description": "When attacked with a Water technique, gets SPD.",
+    "effect": "Whenever a Temtem with Amphibian is attacked by a Water Type technique, it gets SPD."
   },
   {
     "name": "Anaerobic",
     "wikiUrl": "https://temtem.gamepedia.com/Anaerobic",
-    "description": "When attacking with Toxic techniques, gets SPDEF+ and SPATK-.",
-    "effect": ""
+    "description": "When attacking with a Toxic technique, gets SPDEF and SPATK.",
+    "effect": "Whenever a Temtem with Anaerobic uses a Toxic Type technique, it gets SPDEF and SPATK."
   },
   {
     "name": "Apothecary",
     "wikiUrl": "https://temtem.gamepedia.com/Apothecary",
     "description": "When attacking with a special technique, the target gets poisoned for 1 turn if it's a rival or regenerating for 1 turn if it's an ally or itself.",
-    "effect": ""
+    "effect": "Whenever a Temtem with Apothecary attacks with a special technique, if the target is an enemy, it gets the Poisoned Condition for 1 turn, or if the target is an ally or itself, it gets the Regenerated Condition for 1 turn."
   },
   {
     "name": "Attack T",
@@ -44,8 +44,8 @@
   {
     "name": "Avenger",
     "wikiUrl": "https://temtem.gamepedia.com/Avenger",
-    "description": "When an ally is knocked-out, increases SPATK and SPD by 1 stage.",
-    "effect": "Increase SPATK and SPD by one stage whenever an ally temtem is knocked out."
+    "description": "When an ally is knocked-out, gets SPATK and SPD.",
+    "effect": "A temtem with Avenger gets SPATK and SPD whenever its ally is knocked out."
   },
   {
     "name": "Benefactor",

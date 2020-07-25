@@ -4174,14 +4174,6 @@
         "name": "Pickpocket",
         "source": "Levelling",
         "levels": 36
-      },
-      {
-        "name": "Head Charge",
-        "source": "Breeding"
-      },
-      {
-        "name": "Burrow",
-        "source": "Breeding"
       }
     ],
     "trivia": [
@@ -4361,14 +4353,6 @@
       {
         "name": "Double Edge",
         "source": "TechniqueCourses"
-      },
-      {
-        "name": "Head Charge",
-        "source": "Breeding"
-      },
-      {
-        "name": "Burrow",
-        "source": "Breeding"
       }
     ],
     "trivia": [
@@ -9378,8 +9362,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 0,
+    "hatchMins": 45,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -15539,7 +15523,50 @@
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d7/Droply.png/250px-Droply.png?version=3c80e842123164ab455e7486a341d324",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/8/8a/LumaDroply.png/250px-LumaDroply.png?version=925866dedd54c87e6c731056b4c88fde",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Mawingu Islets",
+        "place": "Mawingu Islets",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "55%",
+        "level": "30-33",
+        "freetem": {
+          "minLevel": 30,
+          "maxLevel": 33,
+          "minPansuns": 85,
+          "maxPansuns": 91
+        }
+      },
+      {
+        "location": "Juu Tunnel, Grotto area, where is a small Pound",
+        "place": "Juu Tunnel",
+        "note": "Grotto area, where is a small Pound",
+        "island": "Kisiwa",
+        "frequency": "99%*",
+        "level": "37-41",
+        "freetem": {
+          "minLevel": 37,
+          "maxLevel": 41,
+          "minPansuns": 100,
+          "maxPansuns": 108
+        }
+      },
+      {
+        "location": "Moyo Lake, In the lake",
+        "place": "Moyo Lake",
+        "note": "In the lake",
+        "island": "Kisiwa",
+        "frequency": "90%",
+        "level": "40-43",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 43,
+          "minPansuns": 106,
+          "maxPansuns": 113
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Droply.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Droply.png",
     "genderRatio": {
