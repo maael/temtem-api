@@ -12,7 +12,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Other Team or Ally",
     "description": "Toxolotl draws from the Toxic Type Toxic essence of Xolot, moderately damaging and Poisoning the whole team for 2 turns."
   },
   {
@@ -153,7 +153,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Team",
-    "description": "Omninenesian Temtem use pieces of Banyan bark as shields, giving the whole team DEF +2."
+    "description": "Omninenesian Temtem use pieces of Banyan bark as shields, giving the whole team DEF ."
   },
   {
     "name": "Base Jump",
@@ -607,7 +607,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Self",
+    "targets": "All",
     "description": "Where is everybody? All Temtem in the battlefield are Isolated for 2 turns, negating any synergies."
   },
   {
@@ -1042,7 +1042,7 @@
       }
     ],
     "targets": "Other Team or Ally",
-    "description": "Watch the opponent get all bogged down. The whole team gets SPD -1."
+    "description": "Watch the opponent get all bogged down. The whole team gets SPD ."
   },
   {
     "name": "Footwork",
@@ -1192,7 +1192,7 @@
       }
     ],
     "targets": "Single Other Target",
-    "description": "Suggestive and Toxic visions that exhaust the mind and {condition|Exhausted|20|n}} tire the target for 2 turns."
+    "description": "Suggestive and Toxic visions that exhaust the mind and tire and trap the target for 2 turns."
   },
   {
     "name": "Harmful Lick",
@@ -1385,7 +1385,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "A bruised ego hurts more than a wounded body. This is just the thing! DEF -1."
+    "description": "A bruised ego hurts more than a wounded body. This is just the thing! DEF ."
   },
   {
     "name": "Hyperkinetic Strike",
@@ -1927,7 +1927,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Through rigorous training, Temtem can become extra fast and gain SPD +1."
+    "description": "Through rigorous training, Temtem can become extra fast and gain SPD ."
   },
   {
     "name": "Ninja Jutsu",
@@ -1997,7 +1997,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "This nasty stinker Inflicts Toxic damage... Just don't use it in an elevator..."
+    "description": "This nasty stinker inflicts Toxic damage... Just don't use it in an elevator..."
   },
   {
     "name": "Oshi-Dashi",
@@ -2357,7 +2357,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "All",
-    "description": "\"Time for a little siesta! Everyone on the battlefield gets Asleep for 2 turns.\""
+    "description": "Time for a little siesta! Everyone on the battlefield gets Asleep for 2 turns."
   },
   {
     "name": "Rend",
@@ -2427,7 +2427,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Other Team or Ally",
-    "description": "A mighty roar at a crucial moment, to intimidate rivals for ATK -1."
+    "description": "A mighty roar at a crucial moment, to intimidate rivals for ATK ."
   },
   {
     "name": "Rockfall",
@@ -2465,7 +2465,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Legends tell of the Omninesian tamers who would root rivals in place (for SPD -1)."
+    "description": "Legends tell of the Omninesian tamers who would root rivals in place, inflicting SPD ."
   },
   {
     "name": "Sacrifice",
@@ -2481,7 +2481,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Temtem may pay the ultimate price to heal the target of all Status conditions and give them DEF++ and SPDEF++."
+    "description": "Temtem may pay the ultimate price to heal the target of all Status conditions and give them DEF and SPDEF ."
   },
   {
     "name": "Sand Splatter",
@@ -2582,7 +2582,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Self",
+    "targets": "Other Team or Ally",
     "description": "Only Oceara can tap into the immense power of the mythical serbatiyo to unleash a devastating Water attack on the whole enemy team."
   },
   {
@@ -2647,7 +2647,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Take cover! This slow technique gives +2DEF and +2SPDEF at the expense of leaving you Overexerted on the next turn."
+    "description": "Take cover! This slow technique gives DEF and SPDEF at the expense of leaving you Overexerted on the next turn."
   },
   {
     "name": "Show Off",
@@ -2701,7 +2701,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Self",
-    "description": "Some Temtem are naturally introverted and keep to themselves. DEF +1."
+    "description": "Some Temtem are naturally introverted and keep to themselves, obtaining DEF ."
   },
   {
     "name": "Slime",
@@ -2717,7 +2717,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Nothing slows you down like being swamped in sticky goo... Traps for 2 turns and gives SPD -1."
+    "description": "Nothing slows you down like being swamped in sticky goo... Traps for 2 turns and gives SPD"
   },
   {
     "name": "Slow Down",
@@ -2959,7 +2959,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Really? Are you going to attack something *this* cute? Inflicts ATK -1."
+    "description": "Really? Are you going to attack something *this* cute? Inflicts ATK ."
   },
   {
     "name": "Tentacle Whip",
@@ -3113,7 +3113,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Other Team or Ally",
     "description": "Hold your nose when you unleash this Toxic attack on the whole team."
   },
   {
@@ -3130,7 +3130,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "The victim will have 2 poisoned turns to regret getting this tattoo..."
+    "description": "The victim will have time to regret getting this tattoo... While it's Poisoned for 2 turns."
   },
   {
     "name": "Toxic Plume",
@@ -3204,7 +3204,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "None",
+    "targets": "All",
     "description": "\"Toxinestorm\" isn't as colorful as the alternative, but you get the idea... Slightly damages all Temtem in the battlefield."
   },
   {
@@ -3286,7 +3286,7 @@
       }
     ],
     "targets": "Single Team",
-    "description": "\"The ancestral dance of Deniz is a powerful ritual that bestows protection, SPD +1 to the whole team.\""
+    "description": "The ancestral dance of Deniz is a powerful ritual that bestows protection, SPD to the whole team."
   },
   {
     "name": "Untangle",
