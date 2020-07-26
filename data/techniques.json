@@ -239,7 +239,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Self",
-    "description": "Thou shall not pass! A Melee technique that confers DEF +2."
+    "description": "Thou shall not pass! A Melee technique that confers DEF ."
   },
   {
     "name": "Boomerang",
@@ -709,7 +709,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "None",
+    "targets": "Single Other Target",
     "description": "\"Tis but a scratch! Or two!\". This Melee Technique is nothing to write home about."
   },
   {
@@ -1058,7 +1058,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Self",
-    "description": "Advanced balance training developed by Tucmani rockhoppers: it confers SPD +2."
+    "description": "Advanced balance training developed by Tucmani rockhoppers: it confers SPD ."
   },
   {
     "name": "Frond Whip",
@@ -1106,7 +1106,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Currently, Gamma Burst is unavailable, so it is unknown what it's description is."
+    "description": "Exhausts the target for 2 turns."
   },
   {
     "name": "Glass Blade",
@@ -1615,7 +1615,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Other Team or Ally",
-    "description": "Twinkle twinkle little Tem... The whole opponent team falls Asleep for 2 turns."
+    "description": "Twinkle twinkle little Tem /Whole opponent team falls Asleep for 2 turns."
   },
   {
     "name": "Madness Buff",
@@ -1704,14 +1704,14 @@
     "class": "Status",
     "classIcon": "/images/icons/technique/Status.png",
     "damage": 0,
-    "staminaCost": 0,
+    "staminaCost": 6,
     "hold": 0,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
-    "synergy": "?",
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
-    "description": "Currently, Meditation is unavailable, so its unknown what it's description is."
+    "targets": "Self",
+    "description": "Sync your breathing, become more aware of the space around you, feel your body and mind get Vigorized for 3 turns..."
   },
   {
     "name": "Metabolize",
@@ -1911,7 +1911,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "This basic strike for sai delivers a powerful Melee attack."
+    "description": "This basic strike for sai delivers a powerful Melee technique."
   },
   {
     "name": "Nimble",
@@ -2083,7 +2083,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Strike smarter, not harder. Weak, but decreases the enemy DEF by 1 stage"
+    "description": "Strike smarter, not harder. Weak, but enemy get DEF ."
   },
   {
     "name": "Petrify",
@@ -2244,12 +2244,12 @@
     "damage": 0,
     "staminaCost": 16,
     "hold": 2,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "None",
-    "description": "Currently, Psychosis is unavailable, so its unknown what it's description is."
+    "targets": "Single Other Target",
+    "description": "Inflicts Doom for 4 turns."
   },
   {
     "name": "Quartz Shield",
@@ -2303,7 +2303,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Self",
-    "description": "The red mist makes a Temtem brutal but also careless, getting ATK +2 and DEF -2."
+    "description": "The red mist makes a Temtem brutal but also careless, getting ATK and DEF ."
   },
   {
     "name": "Rampage",
@@ -2669,7 +2669,7 @@
       }
     ],
     "targets": "Self",
-    "description": "A good Melee fighter is a good showman. Show off and increase ATK +1"
+    "description": "A good Melee fighter is a always a good showman: ATK ."
   },
   {
     "name": "Shrill Voice",
@@ -2841,7 +2841,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "This Temtem's intimidating stare gives the Temtem Alert for 2 turns, and makes rivals feel more vulnerable: DEF -1."
+    "description": "This Temtem's intimidating stare gives the Temtem Alert for 2 turns, and makes rivals feel more vulnerable: DEF ."
   },
   {
     "name": "Sting",
@@ -3023,7 +3023,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Twist the fabric of time-space to your advantage, gaining +1SPD and giving the enemy -1SPD."
+    "description": "Twist the fabric of time-space to your advantage, gaining SPD and giving the enemy SPD ."
   },
   {
     "name": "Tornado",
