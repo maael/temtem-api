@@ -543,7 +543,7 @@
     "name": "Toxic Skin",
     "wikiUrl": "https://temtem.gamepedia.com/Toxic_Skin",
     "description": "When attacked with a physical technique, the attacker gets poisoned for 2 turns.",
-    "effect": ""
+    "effect": "When a Temtem uses a physical technique on a target with Toxic Skin, the attacker gets the Poisoned Condition for 2 turns."
   },
   {
     "name": "Traits",
@@ -554,44 +554,44 @@
   {
     "name": "Trance",
     "wikiUrl": "https://temtem.gamepedia.com/Trance",
-    "description": "When attacked, gets Asleep and Regenerating for 2 turns, SPATK +2 and SPDEF +2 if HP is below 30%.",
-    "effect": ""
+    "description": "When attacked, gets asleep and regenerating for 2 turns, SPATK and SPDEF if HP is below 30%.",
+    "effect": "If a Temtem with Trance is the target of a technique, and afterwards its HP is 30% or less of its maximum, it gets the Asleep Condition and the Regenerated Condition for 2 turns, and also gets SPATK and SPDEF. This is regardless of if the technique did damage."
   },
   {
     "name": "Trauma",
     "wikiUrl": "https://temtem.gamepedia.com/Trauma",
-    "description": "When attacked by a physical technique, decreases DEF by 1 stage; when attacked by a special technique, decreases SPDEF by 1 stage",
-    "effect": ""
+    "description": "If hit by a Physical technique gets DEF; if hit by a Special technique, SPDEF.",
+    "effect": "When a Temtem with Trauma takes damage from a physical technique, it gets DEF. When it is takes damage from a special technique, it gets SPDEF."
   },
   {
     "name": "Tri-Apothecary",
     "wikiUrl": "https://temtem.gamepedia.com/Tri-Apothecary",
     "description": "When attacking with a special technique, the target gets poisoned for 3 turns if it's a rival or regenerating for 3 turns if it's an ally or itself.",
-    "effect": "This effect is often used for Pansun farming, allowing your team to stay on the field longer than would normal."
+    "effect": "Whenever a Temtem with Tri-Apothecary attacks using a special technique, the target gets a status condition for 2 turns. If it is an enemy target, it is the Poisoned Condition, and if it is an ally or itself it is the Regenerated Condition."
   },
   {
     "name": "Unnoticed",
     "wikiUrl": "https://temtem.gamepedia.com/Unnoticed",
-    "description": "Gets +1SPD after not receiving any rival attacks during the turn.",
-    "effect": "When a Temtem with Unnoticed lasts a whole turn without being targeted by any rival attacks, it gets +1SPD."
+    "description": "Gets SPD after not receiving any rival attacks during the turn.",
+    "effect": "When a Temtem with Unnoticed lasts a whole turn without being targeted by any rival attacks, it gets SPD."
   },
   {
     "name": "Vigorous",
     "wikiUrl": "https://temtem.gamepedia.com/Vigorous",
     "description": "Damage done when overexerting is increased by 50%.",
-    "effect": ""
+    "effect": "When Temtem with Vigorous use a technique that causes it to overexert, the damage is increased 50%."
   },
   {
     "name": "Warm-Blooded",
     "wikiUrl": "https://temtem.gamepedia.com/Warm-Blooded",
-    "description": "Prevents the Cold Status condition.",
-    "effect": ""
+    "description": "Prevents the Cold status condition.",
+    "effect": "Temtem with Warm-Blooded never receive the Cold Condition."
   },
   {
     "name": "Water Affinity",
     "wikiUrl": "https://temtem.gamepedia.com/Water_Affinity",
-    "description": "Water techniques get a boost of the same type.",
-    "effect": "This trait grants the user STAB (Same-Type Attack Bonus) to all water type attacks even if it is not water type, increasing the base damage of water type techniques by 50%."
+    "description": "Water techniques get type damage boost.",
+    "effect": "Water Affinity multiplies the base damage of the user's Water Type techniques by x1.5, as if the user had STAB (Same-Type Attack Bonus). This stacks with actual STAB if the user is also a Water Type, resulting in a total multiple of x2.25 (1.5 x 1.5)."
   },
   {
     "name": "Water Custodian",
@@ -603,18 +603,18 @@
     "name": "Withdrawal",
     "wikiUrl": "https://temtem.gamepedia.com/Withdrawal",
     "description": "When resting, restores 15% of max HP and removes the asleep status condition.",
-    "effect": ""
+    "effect": "Whenever a Temtem with Withdrawal rests for their turn, they recover 15% of their maximum HP and if they had the Asleep Condition, they lose it."
   },
   {
     "name": "Wrecked Farewell",
     "wikiUrl": "https://temtem.gamepedia.com/Wrecked_Farewell",
-    "description": "When knocked-out by overexertion damage, every Temtem loses 25% of max HP.",
-    "effect": "When knocked-out by overexertion damage, self inflicted damage or damage infliced by allies, every Temtem loses 25% of max HP."
+    "description": "When self knock-out, every Temtem loses 25% of max HP.",
+    "effect": "Whenever a Temtem with Wrecked Farewell is knocked out by itself, such as by self-damaging techniques or by overexerting, all other Temtem, including allies, lose 25% of their maximum HP."
   },
   {
     "name": "Zen",
     "wikiUrl": "https://temtem.gamepedia.com/Zen",
-    "description": "When getting the Asleep status condition, gets DEF +1 and SPDEF +1.",
-    "effect": "When a Temtem is put to sleep with the Asleep status effect, it will immediately gain DEF+1 and SPDEF+1. This bonus will be kept when the Temtem wakes up."
+    "description": "When getting an asleep status condition, gets DEF and SPDEF .",
+    "effect": ""
   }
 ]
