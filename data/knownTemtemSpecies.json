@@ -1211,7 +1211,7 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "20%",
-        "level": "16-19",
+        "level": "16 - 19",
         "freetem": {
           "minLevel": 16,
           "maxLevel": 19,
@@ -1224,8 +1224,8 @@
         "place": "The Flywalk",
         "note": "",
         "island": "Omninesia",
-        "frequency": "30%-50%",
-        "level": "19-20",
+        "frequency": "30% - 50%",
+        "level": "19 - 20",
         "freetem": {
           "minLevel": 19,
           "maxLevel": 20,
@@ -1239,7 +1239,7 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "20%",
-        "level": "15-20",
+        "level": "15 - 20",
         "freetem": {
           "minLevel": 15,
           "maxLevel": 20,
@@ -1253,7 +1253,7 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "80%",
-        "level": "19-22",
+        "level": "19 - 22",
         "freetem": {
           "minLevel": 19,
           "maxLevel": 22,
@@ -2224,7 +2224,7 @@
     },
     "techniques": [],
     "trivia": [
-      "Amphatyr is derived from Ampere and satyr.",
+      "Amphatyr is derived from Ampere and satyr (a woodland deity from Greek mythology).",
       "The name of Amphatyr was proposed by a community member ( ItsTomas ) of the official Discord, and later chosen as the winner during the Choose a Temtem names poll in the 6th update of Temtem's Kickstarter."
     ],
     "evolution": {
@@ -2961,7 +2961,7 @@
       }
     ],
     "trivia": [
-      "Taifu's name is derived from tofu, a soft Asian food.",
+      "Taifu's name is derived from tofu(a soft Asian food).",
       "Taifu was first revealed via Twitter."
     ],
     "evolution": {
@@ -2995,12 +2995,26 @@
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/45/LumaTaifu.png/250px-LumaTaifu.png?version=efcaada84a7d49d92784c4a3e28faaf4",
     "locations": [
       {
+        "location": "Prasine Coast",
+        "place": "Prasine Coast",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "85%",
+        "level": "40 - 45",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 45,
+          "minPansuns": 116,
+          "maxPansuns": 128
+        }
+      },
+      {
         "location": "The Glassyway",
         "place": "The Glassyway",
         "note": "",
         "island": "Omninesia",
         "frequency": "25%",
-        "level": "19-22",
+        "level": "19 - 22",
         "freetem": {
           "minLevel": 19,
           "maxLevel": 22,
@@ -5750,17 +5764,20 @@
           "number": 40,
           "name": "Azuroc",
           "stage": 2,
-          "levels": 25,
-          "trading": false,
           "traitMapping": {
-            "Mirroring": "Channeler",
-            "Fainted Curse": "Wrecked Farewell"
+            "Mirroring": "Mirroring",
+            "Fainted Curse": "Fainted Curse"
           }
+        },
+        {
+          "number": -1,
+          "name": "Trade",
+          "stage": 3
         },
         {
           "number": 41,
           "name": "Zenoreth",
-          "stage": 3,
+          "stage": 4,
           "traitMapping": {
             "Channeler": "Channeler",
             "Wrecked Farewell": "Wrecked Farewell"
@@ -5923,17 +5940,20 @@
           "number": 40,
           "name": "Azuroc",
           "stage": 2,
-          "levels": 25,
-          "trading": false,
           "traitMapping": {
-            "Mirroring": "Channeler",
-            "Fainted Curse": "Wrecked Farewell"
+            "Mirroring": "Mirroring",
+            "Fainted Curse": "Fainted Curse"
           }
+        },
+        {
+          "number": -1,
+          "name": "Trade",
+          "stage": 3
         },
         {
           "number": 41,
           "name": "Zenoreth",
-          "stage": 3,
+          "stage": 4,
           "traitMapping": {
             "Channeler": "Channeler",
             "Wrecked Farewell": "Wrecked Farewell"
@@ -6092,7 +6112,7 @@
       "However, their XP yield, TV yield, spawn rate, and ease of defeat make them ideal for grinding. Each Zenoreth defeated offers roughly between 4300 (lvl 50) and 4700 (lvl 55) XP."
     ],
     "evolution": {
-      "stage": 3,
+      "stage": 4,
       "evolutionTree": [
         {
           "number": 39,
@@ -6109,17 +6129,20 @@
           "number": 40,
           "name": "Azuroc",
           "stage": 2,
-          "levels": 25,
-          "trading": false,
           "traitMapping": {
-            "Mirroring": "Channeler",
-            "Fainted Curse": "Wrecked Farewell"
+            "Mirroring": "Mirroring",
+            "Fainted Curse": "Fainted Curse"
           }
+        },
+        {
+          "number": -1,
+          "name": "Trade",
+          "stage": 3
         },
         {
           "number": 41,
           "name": "Zenoreth",
-          "stage": 3,
+          "stage": 4,
           "traitMapping": {
             "Channeler": "Channeler",
             "Wrecked Farewell": "Wrecked Farewell"
