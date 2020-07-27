@@ -22,7 +22,7 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Whenever a Temtem with Baton Pass enters the battlefield, it regains 8% of its maximum HP.",
+    "description": "Baton Pass is a gear.",
     "gameDescription": "When entering the battlefield, restores 8% of max HP."
   },
   {
@@ -48,7 +48,7 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Chamomile NEEDS DESC",
+    "description": "Chamomile is a gear.",
     "gameDescription": "When entering the battlefield, removes stage changes."
   },
   {
@@ -74,7 +74,7 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Coat grants -20% damage when hit by Wind Techniques.",
+    "description": "Coat is a gear.",
     "gameDescription": "Damage taken from Wind techniques is reduced by 20%."
   },
   {
@@ -87,8 +87,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Coward's Cloak Allows the holding Temtem to gain experience and TV from Combat without taking part.",
-    "gameDescription": "\"Revolutionary cogno-cloak that allows the Temtem holding it to gain experience from battle without even taking part in it.\""
+    "description": "Coward's Cloak is a gear.",
+    "gameDescription": "Revolutionary cogno-cloak that allows the Temtem holding it to gain experience from battle without even taking part in it."
   },
   {
     "name": "Decoy",
@@ -100,8 +100,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Decoy Increases the chance of running away from untamed Temtem.",
-    "gameDescription": "\"Useful distraction if you want to run away.\""
+    "description": "Decoy is a gear.",
+    "gameDescription": "Useful distraction if you want to run away."
   },
   {
     "name": "Dominant DNA Strand",
@@ -126,7 +126,7 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "When the Temtem holding Doppelganger Brooch deals damage to another Temtem of its evolutionary line, it is increased by 50%.",
+    "description": "Doppelganger Brooch is a gear.",
     "gameDescription": "Damage done to Temtem in the same evolutionary line is increased by 50%."
   },
   {
@@ -139,7 +139,7 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Whenever the Temtem holding DoubleScreen takes damage from a Temtem with multiple types, it takes 10% less damage.",
+    "description": "DoubleScreen is a gear.",
     "gameDescription": "Damage taken from dual type Temtem is reduced by 10%."
   },
   {
@@ -152,7 +152,7 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "When the user of Drill attacks a Temtem with the Evading Condition, it loses the condition before the attack. The technique does not fail.",
+    "description": "Drill is a gear.",
     "gameDescription": "Another dubious invention from Akihiro Labs. When attacking an evading target, removes the evading status condition and the technique will not fail."
   },
   {
@@ -178,8 +178,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Energy Drink Prevents the Asleep Status condition.",
-    "gameDescription": "Prevents the Asleep Condition."
+    "description": "Energy Drink is a gear.",
+    "gameDescription": "Prevents the asleep Status condition."
   },
   {
     "name": "Engineered DNA Strand",
@@ -204,7 +204,7 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "When a Temtem with Eraser would gain TVs, instead, it loses half the amount it would have gained, rounded up.",
+    "description": "Eraser is a gear.",
     "gameDescription": "Instead of earning TVs from defeated Temtem, the Temtem loses half those TVs."
   },
   {
@@ -230,8 +230,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Fire Chip grants +10% damage when using Fire Techniques.",
-    "gameDescription": "Damage done by Fire Techniques is increased by 10%."
+    "description": "Fire Chip is a gear.",
+    "gameDescription": "Damage done with Fire techniques is increased by 10%."
   },
   {
     "name": "Four-Leaf Clover",
@@ -243,7 +243,7 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Four-Leaf Clover is gear to be held by a Temtem. When held by an active member of your team in battle, it increases the catch-rate when capturing untamed Temtem.",
+    "description": "Four-Leaf Clover is a gear.",
     "gameDescription": "Increases the catch percentage when facing wild Temtem."
   },
   {
@@ -269,8 +269,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "",
-    "gameDescription": "Prevents the Trapped Condition."
+    "description": "Grease is a gear.",
+    "gameDescription": "Prevents the trapped Status condition."
   },
   {
     "name": "Hand Fan",
@@ -282,8 +282,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Hand Fan +10% damage when using Wind Techniques.",
-    "gameDescription": "Damage done by Wind Techniques is increased by 10%."
+    "description": "Hand Fan is a gear.",
+    "gameDescription": "Damage done by Wind techniques is increased by 10%."
   },
   {
     "name": "Handcuffs",
@@ -295,7 +295,7 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "When the user of Handcuffs gives a Temtem the Exhausted Condition, the target also gets the Trapped Condition for 3 turns.",
+    "description": "Handcuffs is a gear.",
     "gameDescription": "A souvenir from Visesia... When exhausting a Temtem, the target gets trapped for 3 turns."
   },
   {
@@ -321,7 +321,7 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "When the last Temtem alive has the Hopeless Tonic, once, it regains full HP, Stamina, loses all previous conditions, and then gains the Doomed Condition for 3 turns.",
+    "description": "Hopeless Tonic is a gear.",
     "gameDescription": "When there's nothing else to drink... Once per battle, if the Temtem is the last ally standing, restores full HP, STA, heals all previous Status Conditions, and gets Doomed for 3 turns."
   },
   {
@@ -347,8 +347,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Ice Cube grants -20% damage when hit by Fire Techniques.",
-    "gameDescription": "Damage taken from Fire Techniques is reduced by 20%."
+    "description": "Ice Cube is a gear.",
+    "gameDescription": "Damage taken from Fire techniques is reduced by 20%."
   },
   {
     "name": "Immunity DNA Strand",
@@ -373,7 +373,7 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Iron Coating increases the damage done by Earth Type techniques of its holder by 10%.",
+    "description": "Iron Coating is a gear.",
     "gameDescription": "Damage done with Earth techniques is increased by 10%."
   },
   {
@@ -399,8 +399,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Lightning Rod grants -20% damage when hit by Electric Techniques.",
-    "gameDescription": "Damage taken from Electric Techniques is reduced by 20%."
+    "description": "Lightning Rod is a gear.",
+    "gameDescription": "Damage taken from Electric techniques is reduced by 20%."
   },
   {
     "name": "Lithe DNA Strand",
@@ -425,8 +425,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Lure Untamed Temtem are forced to target the bearer.",
-    "gameDescription": "Untamed Temtem can't ignore this delicious Lure and are forced to target the bearer. (Equipped Temtem will be the focus of all attacks in wild encounters)"
+    "description": "Lure is a gear.",
+    "gameDescription": "Untamed Temtem can't ignore this delicious Lure and are forced to target the bearer."
   },
   {
     "name": "Mighty DNA Strand",
@@ -464,8 +464,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Pansunscreen Prevents the Burned Status condition.",
-    "gameDescription": "Prevents the Burned Status condition."
+    "description": "Pansunscreen is a gear.",
+    "gameDescription": "Prevents the burned Status condition."
   },
   {
     "name": "Pillow",
@@ -477,8 +477,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Pillow Restores 10% max HP of an Asleep Temtem at turn start.",
-    "gameDescription": "At the start of the turn, restores 10% of max hp of an Asleep Temtem."
+    "description": "Pillow is a gear.",
+    "gameDescription": "At the start of the turn, restores 10% of max HP of an Asleep Temtem."
   },
   {
     "name": "Proteins",
@@ -490,7 +490,7 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Proteins doubles the TV gain from defeating Temtem or capturing a wild one.",
+    "description": "Proteins is a gear.",
     "gameDescription": "x2 TV bonus from defeated Temtem."
   },
   {
@@ -503,8 +503,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Resistance Badge grants +15% damage when attacking with Neutral Techniques.",
-    "gameDescription": "\"You have vowed to defend freedom in Kisiwa. Damage done with Neutral techniques is increased by 15%.\""
+    "description": "Resistance Badge is a gear.",
+    "gameDescription": "You have vowed to defend freedom in Kisiwa. Damage done with Neutral techniques is increased by 15%."
   },
   {
     "name": "Rock Shield",
@@ -516,8 +516,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Damage taken from Crystal Techniques is reduced by 20%",
-    "gameDescription": "Damage taken from Crystal Techniques is reduced by 20%"
+    "description": "Rock Shield is a gear.",
+    "gameDescription": "Damage taken from Crystal techniques is reduced by 20%"
   },
   {
     "name": "Shuine's Horn",
@@ -529,8 +529,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Shuine's Horn is a piece of gear.",
-    "gameDescription": "Changes the Temtem's Toxic Type Techniques toWater Type."
+    "description": "Shuine's Horn is a gear.",
+    "gameDescription": "Changes the Temtem's Toxic Type Toxic-type techniques to Water."
   },
   {
     "name": "Slingshot",
@@ -542,8 +542,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Whenever the holder of Slingshot attacks an enemy target which results in x1/4 damage from type resistances, it gains +1DEF, +1SPDEF, and +1SPD.",
-    "gameDescription": "When attacking with a super ineffective technique, gets +1DEF, +1SPDEF, and +1SPD."
+    "description": "Slingshot is a gear.",
+    "gameDescription": "When attacking with a super ineffective technique, gets DEF , SPDEF , and SPD ."
   },
   {
     "name": "Snare",
@@ -555,7 +555,7 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "",
+    "description": "Snare is a gear.",
     "gameDescription": "When attacked, disables the attacker's gear."
   },
   {
@@ -581,8 +581,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "",
-    "gameDescription": "Healing medicine items used in battle restore an additional 70% HP"
+    "description": "Squeezer is a gear.",
+    "gameDescription": "Healing medicine items used in battle restore an additional 70% HP."
   },
   {
     "name": "Stiff Patch",
@@ -607,7 +607,7 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "When the user of Strange Vest is attacked, if it is a Physical attack, the user will apply their SPDEF instead of DEF. Similarly, if it is a Special attack, the user will apply their DEF instead of SPDEF.",
+    "description": "Strange Vest is a gear.",
     "gameDescription": "When attacked with a Physical technique, uses the SPDEF, and when attacked with a Special technique, uses the DEF."
   },
   {
@@ -620,8 +620,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "",
-    "gameDescription": "At the start of the turn restores 15% of max STA"
+    "description": "Sweatband is a gear.",
+    "gameDescription": "At the start of the turn, restores 15% of max STA."
   },
   {
     "name": "Talisman",
@@ -633,8 +633,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Talisman Prevents the Doomed Status condition.",
-    "gameDescription": "\"Prevents the Doomed Status condition.\""
+    "description": "Talisman is a gear.",
+    "gameDescription": "Prevents the doomed Status condition."
   },
   {
     "name": "Tucma Mask",
@@ -646,8 +646,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "",
-    "gameDescription": "Damage taken from Toxic Techniques is reduced by 20%"
+    "description": "Tucma Mask is a gear.",
+    "gameDescription": "Damage taken from Toxic techniques is reduced by 20%."
   },
   {
     "name": "Turban",
@@ -659,7 +659,7 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Turban reduces damage from Earth Techniques by 20% when user is attacked.",
+    "description": "Turban is a gear.",
     "gameDescription": "A memento from your acting days... Damage taken from Earth techniques is reduced by 20%."
   },
   {
@@ -672,8 +672,8 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "Umbrella grants -20% damage when hit by Water Techniques.",
-    "gameDescription": "\"Damage taken from Water Techniques is reduced by 20%\""
+    "description": "Umbrella is a trait.",
+    "gameDescription": "Damage taken from Water techniques is reduced by 20%"
   },
   {
     "name": "Vigor DNA Strand",
@@ -711,7 +711,7 @@
     "limitedQuantity": true,
     "purchasable": false,
     "buyPrice": 0,
-    "description": "When the user of War Drum or its ally uses a Physical attack, its damage is increased by 8%.",
+    "description": "War Drum is a gear.",
     "gameDescription": "\"The Kisiwan call to arms. Allies' damage done with Physical techniques is increased by 8%.\""
   }
 ]

@@ -694,7 +694,7 @@
       }
     ],
     "targets": "None",
-    "description": "Cuts both ways, in true Neutral fashion - inflicts moderate damage to the target, but also gives it +1DEF and +1SPDEF."
+    "description": "Cuts both ways, in true Neutral fashion - inflicts moderate damage to the target, but also gives it DEF and SPDEF ."
   },
   {
     "name": "Double Gash",
@@ -2324,7 +2324,7 @@
         "damage": 20
       }
     ],
-    "targets": "Single Team",
+    "targets": "Other Team or Ally",
     "description": "Temtem might be cute... but when they go on a Rampage, they inflict damage on the whole team."
   },
   {
@@ -2824,7 +2824,7 @@
         "damage": 25
       }
     ],
-    "targets": "None",
+    "targets": "Single Team",
     "description": "A stampede worth of the Kisiwan savanna. Damages the whole team."
   },
   {
