@@ -1,5 +1,52 @@
 [
   {
+    "name": "Temtem 0.6.3",
+    "version": "0.6.3",
+    "url": "https://crema.gg/temtem/temtem-0-6-3/",
+    "date": "2020-7-27",
+    "patchInfo": {
+      "fixes": [
+        "👥 Fixed some cases where users got a black screen after opening the game (especially after closing it in the Breeding center).",
+        "👥 Fixed several cases where players got a black screen after finishing a co-op battle.",
+        "👥 Fixed a soft lock when using Willpower Drain on PVP.Due to this bug, pansun rewards on Ranked PVP were removed for the weekend. The rewards have been enabled again, we’ve also seized the moment and upped the rewards a bit and we will do a bonus pansun reward during this next weekend.",
+        "Due to this bug, pansun rewards on Ranked PVP were removed for the weekend. The rewards have been enabled again, we’ve also seized the moment and upped the rewards a bit and we will do a bonus pansun reward during this next weekend.",
+        "👥 Fixed Team Elusive not being triggered correctly by a Temtem with Evasion.",
+        "Fixed a soft-lock while on co-op after the party leader reconnected while in a battle.",
+        "👥 Fixed Water Custodian not recalculating the effectiveness after a technique was redirected.",
+        "👥 Fixed a non-interactable NPC in the Tasa desert.",
+        "👥 Fixed a position where players could get stuck on the beach on Uhuru.",
+        "👥 Fixed incorrect scenery popping in one of the Tuwai’s shrines.",
+        "👥 Fixed players getting their avatar duplicated after reconnecting in a co-op battle.",
+        "👥 Fixed #142 Akranox, #018 Granpah, #031 Rhoulder, and #103 Deendre TV bonus values.",
+        "👥 Fixed Kisiwa’s Narwhal station not working as a reviving/smoke bomb spot.",
+        "👥 Fixed incorrect item name displayed on the FreeTem rewards under certain languages.",
+        "👥 Fixed Incubator’s bag description to properly reflect the time reduced (100% instead of 50%).",
+        "Fixed incorrect messages on the chat loading on the first connection.",
+        "Fixed chat’s scroll being a bit wonky and not displaying the latest messages sent.",
+        "Re-entering a club after it has changed its short name will now display the new short name under the chat tab.",
+        "Fixed the back button on character creation which wasn’t working when clicked.",
+        "Fixed some cases where an incorrect key was shown on UI when changing between gamepad and mouse.",
+        "Fixed some overflowing texts on different screens.",
+        "Fixed scenery popping in Arissola’s Narwhal station.",
+        "Fixed a visual bug in Kisiwa’s intro cinematic.",
+        "Fixed long Temtem names being cut in the breeding preview screen.",
+        "Fixed being stuck after trying to send a whisper to someone with the chat disabled on the settings.",
+        "Fixed lost focus on a Temtem from the squad after reconnecting when inspecting them.",
+        "Fixed losing focus on certain system messages when pressing escape.",
+        "Fixed incorrect button hitbox on the “whisper” button on the player interact screen.",
+        "Fixed the main menu opening after closing a tutorial with escape.",
+        "Fixed eggs from incubator bags not appearing with the same fade the players appear with when exiting a building.",
+        "Fixed eggs from incubator bags not appearing inside battles.",
+        "Fixed some regional keys (like ñ) not appearing correctly in the button remapping setting."
+      ],
+      "improvements": [
+        "Improved the rendering on dark-skinned player UI avatars to reduce the extra amount of blue light."
+      ],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
     "name": "Temtem 0.6.2",
     "version": "0.6.2",
     "url": "https://crema.gg/temtem/temtem-0-6-2/",
