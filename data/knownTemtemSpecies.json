@@ -2088,12 +2088,12 @@
     "catchRate": 0,
     "hatchMins": 45,
     "tvYields": {
-      "hp": 2,
+      "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 2,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 2,
       "spdef": 0
     },
     "gameDescription": "The authoritative stare of a Granpah portrays the long time and many battles that it takes to achieve this evolutionary stage. They have earned their respect among younger Wind Temtem.",
@@ -3976,7 +3976,7 @@
       }
     ],
     "trivia": [
-      "Goty's name comes from Goat diminutive.\nIt may also be a pun on the abbreviation for Game of the Year. This is alluded to in its Tempedia entry, which states it's \"Voted Best Temtem every year\".",
+      "Goty's name is derived from a Goat diminutive.\nIt may also be a pun on the abbreviation for Game of the Year. This is alluded to in its Tempedia entry, which states it's \"Voted Best Temtem every year\".",
       "It may also be a pun on the abbreviation for Game of the Year. This is alluded to in its Tempedia entry, which states it's \"Voted Best Temtem every year\"."
     ],
     "evolution": {
@@ -4014,13 +4014,55 @@
         "place": "Mawingu Islets",
         "note": "",
         "island": "Kisiwa",
-        "frequency": "Common",
-        "level": "36",
+        "frequency": "50%",
+        "level": "31 - 37",
         "freetem": {
-          "minLevel": 36,
-          "maxLevel": 36,
-          "minPansuns": 98,
-          "maxPansuns": 98
+          "minLevel": 31,
+          "maxLevel": 37,
+          "minPansuns": 87,
+          "maxPansuns": 100
+        }
+      },
+      {
+        "location": "Jino Gap",
+        "place": "Jino Gap",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "40%",
+        "level": "33 - 37",
+        "freetem": {
+          "minLevel": 33,
+          "maxLevel": 37,
+          "minPansuns": 91,
+          "maxPansuns": 100
+        }
+      },
+      {
+        "location": "Kwea Uplands",
+        "place": "Kwea Uplands",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "20% - 80%",
+        "level": "38 - 42",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 42,
+          "minPansuns": 102,
+          "maxPansuns": 110
+        }
+      },
+      {
+        "location": "Matope Road",
+        "place": "Matope Road",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "25%",
+        "level": "42 - 45",
+        "freetem": {
+          "minLevel": 42,
+          "maxLevel": 45,
+          "minPansuns": 110,
+          "maxPansuns": 117
         }
       }
     ],
@@ -4156,7 +4198,7 @@
       }
     ],
     "trivia": [
-      "Mouflank's name comes from Mouflon + Ankole-Watusi (cattle breed)."
+      "Mouflank's name is derived from Mouflon and Ankole-Watusi (cattle breed)."
     ],
     "evolution": {
       "stage": 2,
@@ -4317,7 +4359,7 @@
       }
     ],
     "trivia": [
-      "Rhoulder's name comes from Rhino + Boulder.",
+      "Rhoulder's name is derived from Rhino and Boulder.",
       "Though it lives in an Africa-inspired region, it more closely resembles the Indian Rhinoceros due to the leathery armor it has."
     ],
     "evolution": {
@@ -4327,17 +4369,17 @@
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/eb/LumaRhoulder.png/250px-LumaRhoulder.png?version=89e5da96543b63111619cca3ebeb2405",
     "locations": [
       {
-        "location": "Tasa Desert\nGrassy cave in the middle",
+        "location": "Tasa Desert, Grassy Cave",
         "place": "Tasa Desert",
-        "note": "Grassy cave in the middle",
+        "note": "Grassy Cave",
         "island": "Kisiwa",
-        "frequency": "?%",
-        "level": "?-??",
+        "frequency": "5%",
+        "level": "43 - 48",
         "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
+          "minLevel": 43,
+          "maxLevel": 48,
+          "minPansuns": 182,
+          "maxPansuns": 200
         }
       }
     ],
@@ -4466,7 +4508,7 @@
       "Houchic's name is derived from Houdini and psychic.",
       "The player remarks that Houchic \"looks like their old art teacher\".",
       "Houchic's appearance strongly resembles that of salamander larvae, making it one of the several known Temtem with this basis.",
-      "It and Ganki are tied for the lowest base HP of all Temtem at 38."
+      "Houchic and Ganki are tied for the lowest base HP of all Temtem at 38."
     ],
     "evolution": {
       "stage": 1,
@@ -4844,7 +4886,7 @@
       }
     ],
     "trivia": [
-      "Nagaise's name comes from Naga + Wise."
+      "Nagaise's name is derived from Naga and Wise."
     ],
     "evolution": {
       "stage": 3,
@@ -12454,11 +12496,11 @@
     "catchRate": 75,
     "hatchMins": 30,
     "tvYields": {
-      "hp": 2,
+      "hp": 0,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 0,
+      "def": 3,
       "spatk": 0,
       "spdef": 0
     },
@@ -18191,7 +18233,7 @@
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 1,
+      "spd": 0,
       "atk": 1,
       "def": 0,
       "spatk": 1,
