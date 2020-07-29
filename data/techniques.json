@@ -806,14 +806,9 @@
     "synergy": "Electric",
     "synergyEffects": [
       {
-        "effect": "+30 Base Damage",
+        "effect": "+30 Base Damage Becomes  Electric   Gives 2 turn Seized",
         "type": "damage",
         "damage": 30
-      },
-      {
-        "effect": "Gives 2 turn Seized",
-        "type": "condition",
-        "damage": 0
       }
     ],
     "targets": "Other Team or Ally",
