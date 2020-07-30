@@ -12597,13 +12597,27 @@
         "place": "Mawingu Islets",
         "note": "",
         "island": "Kisiwa",
-        "frequency": "Common",
-        "level": "36",
+        "frequency": "50%",
+        "level": "31 - 37",
         "freetem": {
-          "minLevel": 36,
-          "maxLevel": 36,
-          "minPansuns": 104,
-          "maxPansuns": 104
+          "minLevel": 31,
+          "maxLevel": 37,
+          "minPansuns": 92,
+          "maxPansuns": 106
+        }
+      },
+      {
+        "location": "Jino Gap",
+        "place": "Jino Gap",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "40%",
+        "level": "33 - 37",
+        "freetem": {
+          "minLevel": 33,
+          "maxLevel": 37,
+          "minPansuns": 97,
+          "maxPansuns": 106
         }
       }
     ],
