@@ -844,7 +844,22 @@
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7f/Platimous.png/250px-Platimous.png?version=32b7f3eef02f3b0523ca65b49310b565",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e4/LumaPlatimous.png/250px-LumaPlatimous.png?version=98bdf9f02e1e220f3dedb5bcc6b820cd",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Dabmis' Rest",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "95%",
+        "level": "70",
+        "freetem": {
+          "minLevel": 70,
+          "maxLevel": 70,
+          "minPansuns": 268,
+          "maxPansuns": 268
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Platimous.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Platimous.png",
     "genderRatio": {
