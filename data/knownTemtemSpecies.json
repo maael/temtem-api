@@ -17456,7 +17456,7 @@
       }
     ],
     "trivia": [
-      "Vulvir's name derives from the words Vulcan (Roman God of fire) and hervir (Boil in Spanish)."
+      "Vulvir's name is derived from Vulcan (Roman God of fire) and hervir (Boil in Spanish)."
     ],
     "evolution": {
       "stage": 1,
@@ -17504,22 +17504,22 @@
         "place": "Anak Volcano",
         "note": "",
         "island": "Omninesia",
-        "frequency": "Common",
-        "level": "23-25",
+        "frequency": "80%",
+        "level": "22 - 25",
         "freetem": {
-          "minLevel": 23,
+          "minLevel": 22,
           "maxLevel": 25,
-          "minPansuns": 76,
+          "minPansuns": 73,
           "maxPansuns": 80
         }
       },
       {
-        "location": "Anak Volcano, Rock-hopping island",
-        "place": "Anak Volcano",
-        "note": "Rock-hopping island",
+        "location": "Anak Caldera",
+        "place": "",
+        "note": "",
         "island": "Omninesia",
-        "frequency": "Common",
-        "level": "30-35",
+        "frequency": "80%",
+        "level": "30 - 35",
         "freetem": {
           "minLevel": 30,
           "maxLevel": 35,
@@ -17652,7 +17652,7 @@
       }
     ],
     "trivia": [
-      "Vulor's name derives from the words Vulcano (Roman God of fire) and calor (Heat in Spanish)."
+      "Vulor's name is derived from Vulcano (Roman God of fire) and calor (Heat in Spanish)."
     ],
     "evolution": {
       "stage": 2,
@@ -17696,31 +17696,31 @@
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/77/LumaVulor.png/250px-LumaVulor.png?version=2f3a61ab7f65601738f29b600649a358",
     "locations": [
       {
-        "location": "Anak Volcano",
-        "place": "Anak Volcano",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "20%",
-        "level": "30-35",
-        "freetem": {
-          "minLevel": 30,
-          "maxLevel": 35,
-          "minPansuns": 110,
-          "maxPansuns": 125
-        }
-      },
-      {
         "location": "Mines of Mictlan",
         "place": "Mines of Mictlan",
         "note": "",
         "island": "Tucma",
         "frequency": "25%",
-        "level": "32-34",
+        "level": "32 - 34",
         "freetem": {
           "minLevel": 32,
           "maxLevel": 34,
           "minPansuns": 116,
           "maxPansuns": 123
+        }
+      },
+      {
+        "location": "Anak Caldera",
+        "place": "",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "20%",
+        "level": "30 - 35",
+        "freetem": {
+          "minLevel": 30,
+          "maxLevel": 35,
+          "minPansuns": 110,
+          "maxPansuns": 125
         }
       }
     ],
