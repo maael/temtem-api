@@ -81,7 +81,7 @@
     "name": "Brawny",
     "wikiUrl": "https://temtem.gamepedia.com/Brawny",
     "description": "Damage done with physical techniques is increased by 20%.",
-    "effect": "A Temtem with Brawny has all damage done by physical techniques boosted by an additional 20%."
+    "effect": "A Temtem with Brawny has all damage done by Physical Techniques boosted by an additional 20%."
   },
   {
     "name": "Bully",
@@ -117,7 +117,7 @@
     "name": "Channeler",
     "wikiUrl": "https://temtem.gamepedia.com/Channeler",
     "description": "Damage done with special techniques is increased by 25%.",
-    "effect": "Special techniques used by a Temtem with Channeler do 25% more damage."
+    "effect": "Special Techniques used by a Temtem with Channeler do 25% more damage."
   },
   {
     "name": "Cobweb",
@@ -183,7 +183,7 @@
     "name": "Electric Synthesize",
     "wikiUrl": "https://temtem.gamepedia.com/Electric_Synthesize",
     "description": "When attacked with an Electric technique, restores HP instead of receiving damage.",
-    "effect": "Electric Type techniques restore their target's HP an amount equal to the damage if the target has Electric Synthesize."
+    "effect": "When a Temtem with Electric Synthesize is attacked with a damaging Electric Type Technique, it restores their HP equal to the amount of damage they would have received."
   },
   {
     "name": "Energy Reserves",
@@ -201,7 +201,7 @@
     "name": "Fainted Curse",
     "wikiUrl": "https://temtem.gamepedia.com/Fainted_Curse",
     "description": "When knocked-out, the attacker loses 30% of max HP.",
-    "effect": ""
+    "effect": "When a Temtem with Fainted Curse is knocked-out by a damage dealing Technique, the attacker loses 30% of their max HP."
   },
   {
     "name": "Fast Charge",
@@ -249,7 +249,7 @@
     "name": "Hover",
     "wikiUrl": "https://temtem.gamepedia.com/Hover",
     "description": "Damage taken from Earth techniques is reduced by 50%.",
-    "effect": "Temtem with Hover take 50% reduced damage from Earth Type techniques."
+    "effect": "Temtem with Hover take 50% damage from Earth Type techniques."
   },
   {
     "name": "Hurry-wart",
@@ -261,13 +261,13 @@
     "name": "Hydrologist",
     "wikiUrl": "https://temtem.gamepedia.com/Hydrologist",
     "description": "Damage done with Water techniques is increased by 15%.",
-    "effect": "Whenever a Temtem with Hydrologist uses a Water Type technique, it does 15% more damage."
+    "effect": "Whenever a Temtem with Hydrologist uses a Water Type Technique, it does 15% more damage."
   },
   {
     "name": "Immunity",
     "wikiUrl": "https://temtem.gamepedia.com/Immunity",
     "description": "Resists damage from Toxic techniques.",
-    "effect": "Toxic Type techniques deal no damage to a Temtem with Immunity. However, this Temtem can still receive the Poisoned Condition."
+    "effect": "Toxic Type Techniques deal no damage to a Temtem with Immunity. However, the Temtem can still receive the Poisoned Condition."
   },
   {
     "name": "Individualist",
@@ -291,7 +291,7 @@
     "name": "Loneliness",
     "wikiUrl": "https://temtem.gamepedia.com/Loneliness",
     "description": "Synergies won't work on both allies.",
-    "effect": "Synergies do not work for either ally if one is a Temtem with Loneliness."
+    "effect": "Temtem with Loneliness can't use Synergies with its ally and the ally can't use synergies with it."
   },
   {
     "name": "Marathonist",
@@ -327,7 +327,7 @@
     "name": "Mucous",
     "wikiUrl": "https://temtem.gamepedia.com/Mucous",
     "description": "Damage taken from Electric techniques is reduced by 30% and prevents the cold and burned status condition.",
-    "effect": "Temtem with Mucous never receive the Cold Condition nor the Burned Condition. Additionally, they take 30% less damage from Electric Type techniques."
+    "effect": "Temtem with Mucous never receive the Cold Condition nor the Burned Condition. Additionally, they take 30% less damage from Electric Type Techniques."
   },
   {
     "name": "Neutrality",
@@ -339,7 +339,7 @@
     "name": "Parrier",
     "wikiUrl": "https://temtem.gamepedia.com/Parrier",
     "description": "Damage taken from physical techniques is reduced by 30%.",
-    "effect": "Whenever a Temtem with Parrier is attacked by a physical technique, it takes 30% less damage."
+    "effect": "Whenever a Temtem with Parrier is attacked by a Physical Technique, it takes 30% less damage."
   },
   {
     "name": "Patient",
@@ -368,7 +368,7 @@
   {
     "name": "Protector",
     "wikiUrl": "https://temtem.gamepedia.com/Protector",
-    "description": "\"When entering the battlefield, the ally gets DEF and SPDEF.\"",
+    "description": "When entering the battlefield, the ally gets DEF and SPDEF.",
     "effect": "When a Temtem with Protector enters the battlefield, its ally gets DEF and SPDEF, even if the ally is immediately then swapped out."
   },
   {
@@ -381,7 +381,7 @@
     "name": "Punching Bag",
     "wikiUrl": "https://temtem.gamepedia.com/Punching_Bag",
     "description": "Damage taken from Melee techniques is reduced by 30%.",
-    "effect": "If a Temtem with Punching Bag is attacked by a Melee Type technique, it takes 30% less damage."
+    "effect": "If a Temtem with Punching Bag is attacked by a Melee Type Technique, it takes 30% less damage."
   },
   {
     "name": "Puppet Master",
