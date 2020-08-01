@@ -16684,16 +16684,16 @@
         },
         {
           "number": -1,
-          "name": "Brought to theSons of Crystal",
+          "name": "Brought toDabmis' Rest",
           "stage": 2
         },
         {
-          "number": 133,
-          "name": "Tuvine",
+          "number": 131,
+          "name": "Tukai",
           "stage": 3,
           "traitMapping": {
-            "Receptive": "Receptive",
-            "Determined": "Determined"
+            "Spreader": "Spreader",
+            "Hydrologist": "Hydrologist"
           }
         }
       ],
@@ -16704,12 +16704,40 @@
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e9/LumaTuwai.png/250px-LumaTuwai.png?version=e6012e35d905a8161126dcd602ab95c8",
     "locations": [
       {
-        "location": "Corrupted Badlands, Crystal Shrine",
-        "place": "Corrupted Badlands",
-        "note": "Crystal Shrine",
+        "location": "Sons of Crystal",
+        "place": "",
+        "note": "",
         "island": "Tucma",
         "frequency": "5%",
-        "level": "5-10",
+        "level": "5 - 10",
+        "freetem": {
+          "minLevel": 5,
+          "maxLevel": 10,
+          "minPansuns": 35,
+          "maxPansuns": 50
+        }
+      },
+      {
+        "location": "Aisha's Hearth",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "5%",
+        "level": "5 - 10",
+        "freetem": {
+          "minLevel": 5,
+          "maxLevel": 10,
+          "minPansuns": 35,
+          "maxPansuns": 50
+        }
+      },
+      {
+        "location": "Dabmis' Rest",
+        "place": "",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "5%",
+        "level": "5 - 10",
         "freetem": {
           "minLevel": 5,
           "maxLevel": 10,
@@ -17156,7 +17184,7 @@
       }
     ],
     "trivia": [
-      "Turoc's name comes from Tukana (Tucan in Hawaiian) + Rock.",
+      "Turoc's name is derived from Tukana (Tucan in Hawaiian) and Rock.",
       "It might also be a pun on the Turok video game series."
     ],
     "evolution": {
@@ -17173,7 +17201,7 @@
         },
         {
           "number": -1,
-          "name": "Brought to theEarth Shrine",
+          "name": "Brought toAisha's Hearth",
           "stage": 2
         },
         {
