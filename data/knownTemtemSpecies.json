@@ -6150,9 +6150,7 @@
     "trivia": [
       "Zenoreth's name is derived from zenith and ore.\nZenoreth's name was submitted by Eskwyre#9808 during the #39 naming contest, and won with 198 votes.",
       "Zenoreth's name was submitted by Eskwyre#9808 during the #39 naming contest, and won with 198 votes.",
-      "Zenoreth's design was revealed during the naming contest for #039.",
-      "Untamed Zenoreth can be found by the Crystal Shrine on Tucma. As of Early Access (0.5.8), these Zenoreth cannot be caught, as the level cap is 48.\nHowever, their XP yield, TV yield, spawn rate, and ease of defeat make them ideal for grinding. Each Zenoreth defeated offers roughly between 4300 (lvl 50) and 4700 (lvl 55) XP.",
-      "However, their XP yield, TV yield, spawn rate, and ease of defeat make them ideal for grinding. Each Zenoreth defeated offers roughly between 4300 (lvl 50) and 4700 (lvl 55) XP."
+      "Zenoreth's design was revealed during the naming contest for #039."
     ],
     "evolution": {
       "stage": 4,
@@ -6734,8 +6732,8 @@
         "place": "Prasine Coast",
         "note": "",
         "island": "Deniz",
-        "frequency": "40%-50%",
-        "level": "2-5",
+        "frequency": "40% - 50%",
+        "level": "2 - 5",
         "freetem": {
           "minLevel": 2,
           "maxLevel": 5,
@@ -6749,7 +6747,7 @@
         "note": "",
         "island": "Deniz",
         "frequency": "95%",
-        "level": "6-9",
+        "level": "6 - 9",
         "freetem": {
           "minLevel": 6,
           "maxLevel": 9,
@@ -6762,8 +6760,8 @@
         "place": "The Gifted Bridges",
         "note": "",
         "island": "Deniz",
-        "frequency": "95%-100%",
-        "level": "7-11",
+        "frequency": "95% - 100%",
+        "level": "7 - 11",
         "freetem": {
           "minLevel": 7,
           "maxLevel": 11,
@@ -6777,7 +6775,7 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "75%",
-        "level": "16-18",
+        "level": "16 - 18",
         "freetem": {
           "minLevel": 16,
           "maxLevel": 18,
@@ -6791,7 +6789,7 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "50%",
-        "level": "18-20",
+        "level": "18 - 20",
         "freetem": {
           "minLevel": 18,
           "maxLevel": 20,
@@ -14737,9 +14735,23 @@
       {
         "name": "Misogi",
         "source": "TechniqueCourses"
+      },
+      {
+        "name": "Noxious Bomb",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Tesla Prison",
+        "source": "Breeding"
       }
     ],
-    "trivia": [],
+    "trivia": [
+      "Ganki's name is a combination of ga (Japanese for moth) and denki (Japanese for electric current).",
+      "Ganki was first revealed via Twitter.",
+      "Ganki has an emote on the official Temtem discord.",
+      "Prior to alpha 0.2.5 Ganki learned hypnosis.",
+      "Ganki is tied with Houchic for the lowest base HP of all Temtem at 38."
+    ],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
@@ -14769,7 +14781,36 @@
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/bc/Ganki.png/250px-Ganki.png?version=3ac11551301b4b8a6bde42085f00e252",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/c/c5/LumaGanki.png/250px-LumaGanki.png?version=fcba0d02f6b7f6928cb414ec081e2f2e",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Thalassian Cliffs",
+        "place": "Thalassian Cliffs",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "Common",
+        "level": "5-8",
+        "freetem": {
+          "minLevel": 5,
+          "maxLevel": 8,
+          "minPansuns": 33,
+          "maxPansuns": 40
+        }
+      },
+      {
+        "location": "Windward Fort",
+        "place": "Windward Fort",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "Common",
+        "level": "12-14",
+        "freetem": {
+          "minLevel": 12,
+          "maxLevel": 14,
+          "minPansuns": 50,
+          "maxPansuns": 55
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Ganki.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Ganki.png",
     "genderRatio": {
