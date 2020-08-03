@@ -4535,8 +4535,8 @@
           "levels": 29,
           "trading": false,
           "traitMapping": {
-            "Mental Alliance": "Water Affinity",
-            "Soft Touch": "Avenger"
+            "Mental Alliance": "Avenger",
+            "Soft Touch": "Water Affinity"
           }
         },
         {
@@ -4546,8 +4546,8 @@
           "levels": 24,
           "trading": false,
           "traitMapping": {
-            "Water Affinity": "Water Custodian",
-            "Avenger": "Deceit Aura"
+            "Avenger": "Deceit Aura",
+            "Water Affinity": "Water Custodian"
           }
         },
         {
@@ -4555,8 +4555,8 @@
           "name": "Nagaise",
           "stage": 3,
           "traitMapping": {
-            "Water Custodian": "Water Custodian",
-            "Deceit Aura": "Deceit Aura"
+            "Deceit Aura": "Deceit Aura",
+            "Water Custodian": "Water Custodian"
           }
         }
       ],
@@ -4613,8 +4613,8 @@
       "total": 403
     },
     "traits": [
-      "Water Affinity",
-      "Avenger"
+      "Avenger",
+      "Water Affinity"
     ],
     "details": {
       "height": {
@@ -4721,8 +4721,8 @@
           "levels": 29,
           "trading": false,
           "traitMapping": {
-            "Mental Alliance": "Water Affinity",
-            "Soft Touch": "Avenger"
+            "Mental Alliance": "Avenger",
+            "Soft Touch": "Water Affinity"
           }
         },
         {
@@ -4732,8 +4732,8 @@
           "levels": 24,
           "trading": false,
           "traitMapping": {
-            "Water Affinity": "Water Custodian",
-            "Avenger": "Deceit Aura"
+            "Avenger": "Deceit Aura",
+            "Water Affinity": "Water Custodian"
           }
         },
         {
@@ -4741,8 +4741,8 @@
           "name": "Nagaise",
           "stage": 3,
           "traitMapping": {
-            "Water Custodian": "Water Custodian",
-            "Deceit Aura": "Deceit Aura"
+            "Deceit Aura": "Deceit Aura",
+            "Water Custodian": "Water Custodian"
           }
         }
       ],
@@ -4800,8 +4800,8 @@
       "total": 452
     },
     "traits": [
-      "Water Custodian",
-      "Deceit Aura"
+      "Deceit Aura",
+      "Water Custodian"
     ],
     "details": {
       "height": {
@@ -4913,8 +4913,8 @@
           "levels": 29,
           "trading": false,
           "traitMapping": {
-            "Mental Alliance": "Water Affinity",
-            "Soft Touch": "Avenger"
+            "Mental Alliance": "Avenger",
+            "Soft Touch": "Water Affinity"
           }
         },
         {
@@ -4924,8 +4924,8 @@
           "levels": 24,
           "trading": false,
           "traitMapping": {
-            "Water Affinity": "Water Custodian",
-            "Avenger": "Deceit Aura"
+            "Avenger": "Deceit Aura",
+            "Water Affinity": "Water Custodian"
           }
         },
         {
@@ -4933,8 +4933,8 @@
           "name": "Nagaise",
           "stage": 3,
           "traitMapping": {
-            "Water Custodian": "Water Custodian",
-            "Deceit Aura": "Deceit Aura"
+            "Deceit Aura": "Deceit Aura",
+            "Water Custodian": "Water Custodian"
           }
         }
       ],
@@ -8149,7 +8149,7 @@
       }
     ],
     "trivia": [
-      "Raize's name comes from the combination of the words raion (Lion in Japanese) + blaze.",
+      "Raize's name is derived from raion (Lion in Japanese) and blaze.",
       "Raize was first revealed through concept art via Twitter.",
       "Animations for idle, physical attack, special attack, and one other were shown off on Twitter."
     ],
@@ -8315,7 +8315,7 @@
       }
     ],
     "trivia": [
-      "Raican's name comes from the combination of the words raion (Lion in Japanese) + volcan.",
+      "Raican's name is derived from raion (Lion in Japanese) and volcan.",
       "Raican was first revealed via Twitter.",
       "Raican was the first Temtem to be revealed on social media that was directly stated to be a third stage evolution."
     ],
@@ -8483,8 +8483,7 @@
       }
     ],
     "trivia": [
-      "Pewki's name comes from the combination of the words pewa (dorsal fin in Hawaiian) and iki (small in Hawaiian)",
-      "Pewki has two emotes on the official Temtem discord, the only other being Pigepic.",
+      "Pewki's name is derived from pewa (dorsal fin in Hawaiian) and iki (small in Hawaiian)",
       "Pewki has the lowest base stat total of all Temtem at 263 and the lowest base Special Defense at 10."
     ],
     "evolution": {
@@ -8522,8 +8521,8 @@
         "place": "Sillaro",
         "note": "River",
         "island": "Deniz",
-        "frequency": "Rare (30%)",
-        "level": "13-14",
+        "frequency": "30%",
+        "level": "13 - 14",
         "freetem": {
           "minLevel": 13,
           "maxLevel": 14,
@@ -8532,26 +8531,12 @@
         }
       },
       {
-        "location": "Windward Fort",
-        "place": "Windward Fort",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "",
-        "level": "",
-        "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
-        }
-      },
-      {
         "location": "The Flywalk",
         "place": "The Flywalk",
         "note": "",
         "island": "Omninesia",
-        "frequency": "Common (65%)",
-        "level": "18-20",
+        "frequency": "65%",
+        "level": "18 - 20",
         "freetem": {
           "minLevel": 18,
           "maxLevel": 20,
@@ -8564,8 +8549,8 @@
         "place": "The Hangroad",
         "note": "",
         "island": "Omninesia",
-        "frequency": "Common (65%)",
-        "level": "14-18",
+        "frequency": "65%",
+        "level": "14 - 18",
         "freetem": {
           "minLevel": 14,
           "maxLevel": 18,
@@ -15127,9 +15112,9 @@
       }
     ],
     "trivia": [
-      "Oceara's name is derived from ocean and Mearas (breed of wild horses from The Lord of the Rings).",
+      "Oceara's name is derived from ocean and Mearas Mearas (breed of wild horses from The Lord of the Rings).",
+      "Oceara has the highest base stat total of all Water type Temtem at 486.",
       "Oceara appeared for the first time in the Mounts Kickstarter update, though little was known about it. Its official name and description were revealed on the official Temtem Twitter on 19/11/2018.",
-      "As of v0.5.16, Oceara has the highest Special Attack stat of all Temtem (110) and is tied for the highest Speed stat (100) with Ukama and Gyalis.",
       "Oceara seems to be based off the Qilin/Kirin, antelopine divine creatures in Chinese and Japanese mythology respectively.",
       "Serbatiyo's Wrath, derives from \"cervatillo\", which means \"fawn\" in spanish."
     ],
@@ -15140,30 +15125,16 @@
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/ea/LumaOceara.png/250px-LumaOceara.png?version=33f248071a0c85b697f9a5195279a13b",
     "locations": [
       {
-        "location": "Aguamarina Caves, Bottom Floor (one waterfall)",
+        "location": "Aguamarina Caves",
         "place": "Aguamarina Caves",
-        "note": "Bottom Floor (one waterfall)",
+        "note": "",
         "island": "Deniz",
         "frequency": "5%",
-        "level": "15-17",
+        "level": "15 - 22",
         "freetem": {
           "minLevel": 15,
-          "maxLevel": 17,
-          "minPansuns": 149,
-          "maxPansuns": 166
-        }
-      },
-      {
-        "location": "Aguamarina Caves, Top Floor (two waterfalls)",
-        "place": "Aguamarina Caves",
-        "note": "Top Floor (two waterfalls)",
-        "island": "Deniz",
-        "frequency": "5%",
-        "level": "21-22",
-        "freetem": {
-          "minLevel": 21,
           "maxLevel": 22,
-          "minPansuns": 200,
+          "minPansuns": 149,
           "maxPansuns": 209
         }
       }
@@ -15289,10 +15260,19 @@
       {
         "name": "Darkness",
         "source": "TechniqueCourses"
+      },
+      {
+        "name": "Toughen",
+        "source": "Breeding"
+      },
+      {
+        "name": "Ice Cubes",
+        "source": "Breeding"
       }
     ],
     "trivia": [
-      "Yowlar's name comes from Yowie (Australian folklore creature similar to the Yeti) + Polar"
+      "Yowlar's name is derived from Yowie (Australian folklore creature similar to the Yeti) and Polar.",
+      "Yowlar has the highest base stat total of all Temtem and, by extension, all Neutral type Temtem at 497."
     ],
     "evolution": {
       "evolves": false
