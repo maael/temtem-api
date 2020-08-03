@@ -7682,7 +7682,7 @@
         "note": "",
         "island": "Tucma",
         "frequency": "60%",
-        "level": "31-36",
+        "level": "31 - 36",
         "freetem": {
           "minLevel": 31,
           "maxLevel": 36,
@@ -7821,7 +7821,7 @@
       }
     ],
     "trivia": [
-      "Myx's name comes from Mystic + Nyx (the female personification of the night, daughter of Chaos)."
+      "Myx's name is derived from Mystic and Nyx (the female personification of the night, daughter of Chaos)."
     ],
     "evolution": {
       "stage": 2,
@@ -7955,7 +7955,7 @@
       }
     ],
     "trivia": [
-      "Raiber's name comes from the combination of the words raion (Lion in Japanese) and ember.",
+      "Raiber's name is derived from raion (Lion in Japanese) and ember.",
       "Raiber was first revealed as a mention on a Twitter post about Raican."
     ],
     "evolution": {
@@ -8004,26 +8004,12 @@
         "place": "The Glassyway",
         "note": "",
         "island": "Omninesia",
-        "frequency": "30%",
-        "level": "20-22",
+        "frequency": "30% - 50%",
+        "level": "20 - 35",
         "freetem": {
           "minLevel": 20,
-          "maxLevel": 22,
-          "minPansuns": 60,
-          "maxPansuns": 64
-        }
-      },
-      {
-        "location": "The Glassyway, Rock-hopping Island",
-        "place": "The Glassyway",
-        "note": "Rock-hopping Island",
-        "island": "Omninesia",
-        "frequency": "50%",
-        "level": "30-35",
-        "freetem": {
-          "minLevel": 30,
           "maxLevel": 35,
-          "minPansuns": 80,
+          "minPansuns": 60,
           "maxPansuns": 90
         }
       },
@@ -8032,13 +8018,27 @@
         "place": "Anak Volcano",
         "note": "",
         "island": "Omninesia",
-        "frequency": "10-50%",
-        "level": "17-24",
+        "frequency": "10 - 50%",
+        "level": "17 - 24",
         "freetem": {
           "minLevel": 17,
           "maxLevel": 24,
           "minPansuns": 54,
           "maxPansuns": 68
+        }
+      },
+      {
+        "location": "Anak Caldera",
+        "place": "",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "50%",
+        "level": "30 - 35",
+        "freetem": {
+          "minLevel": 30,
+          "maxLevel": 35,
+          "minPansuns": 80,
+          "maxPansuns": 90
         }
       }
     ],
@@ -9578,7 +9578,7 @@
       }
     ],
     "trivia": [
-      "Pycko's name comes from Pyre + Gecko."
+      "Pycko's name is derived from Pyre and Gecko."
     ],
     "evolution": {
       "stage": 1,
@@ -9609,7 +9609,36 @@
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/3b/Pycko.png/250px-Pycko.png?version=760bda13a5100a2db03f946fb983b7c3",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b3/LumaPycko.png/250px-LumaPycko.png?version=3a5c9dea5c6416fa8d62711ec768efdb",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Chini Grotto",
+        "place": "Chini Grotto",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "5%",
+        "level": "38 - 42",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 42,
+          "minPansuns": 96,
+          "maxPansuns": 105
+        }
+      },
+      {
+        "location": "Tasa Desert",
+        "place": "Tasa Desert",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "15% - 40%",
+        "level": "35 - 42",
+        "freetem": {
+          "minLevel": 35,
+          "maxLevel": 42,
+          "minPansuns": 90,
+          "maxPansuns": 105
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Pycko.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Pycko.png",
     "genderRatio": {
