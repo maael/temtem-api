@@ -297,7 +297,7 @@
     "name": "Inductor",
     "wikiUrl": "https://temtem.gamepedia.com/Inductor",
     "description": "When a Electric technique is cast, restores 8% of max HP.",
-    "effect": "Each time a Temtem with Inductor uses an Electric type Technique, 8% of its maximum HP is restored if the technique does damage."
+    "effect": "Any time an Electric type Technique is used, all Temtem with Inductor on the field will restore 8% of their maximum HP."
   },
   {
     "name": "Last Rush",
@@ -531,7 +531,7 @@
     "name": "Team Elusive",
     "wikiUrl": "https://temtem.gamepedia.com/Team_Elusive",
     "description": "Prevents multi-target techniques.",
-    "effect": "When an enemy uses a multi-target technique that would hit a Temtem with Team Elusive, instead, it isn't affected. If Puppet Master would cause a Temtem with Team Elusive to be the target of an attack, it is not. The Temtem with Puppet Master remains the target."
+    "effect": "When an enemy uses a multi-target technique that would hit a Temtem with Team Elusive, instead, it isn't affected. If Puppet Master would cause a Temtem with Team Elusive to be the target of an attack, it will. Puppet Master does not trigger Team Elusive."
   },
   {
     "name": "Thick Skin",

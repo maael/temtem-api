@@ -2176,7 +2176,7 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/e/ec/AmplingTransparent.png?version=34d985a323a53aef169644e61fb51607",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/9/93/Ampling.png?version=81ae0633cb578477137803f792cd34e2",
     "lumaWikiPortraitUrlLarge": "",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Ampling.png",
@@ -2261,7 +2261,7 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/ad/AmphatyrTransparent.png/205px-AmphatyrTransparent.png?version=19b3e4ca524368f4e4f655c284723450",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a8/Amphatyr.png/205px-Amphatyr.png?version=ed5aa26d767e5106466c6b2f30cccd72",
     "lumaWikiPortraitUrlLarge": "",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Amphatyr.png",
@@ -6693,7 +6693,7 @@
       }
     ],
     "trivia": [
-      "Kaku's name comes from the word kakusareta (protected in Japanese).",
+      "Kaku's name is derived from kakusareta (protected in Japanese).",
       "Kaku was first revealed to the public on Kickstarter update #13.",
       "Kaku has an emote on the official Temtem Discord."
     ],
@@ -6936,7 +6936,7 @@
       }
     ],
     "trivia": [
-      "Saku's name derives from the Japanese 咲く [saku], which means to bloom.",
+      "Saku's name is derived from [saku] (Japanese for to bloom, 咲く.)",
       "Saku was first revealed via Twitter.",
       "Saku has an emote on the official Temtem Discord.",
       "The Temtem Discord community created \"cults\" worshipping Saku and Pigepic. The official Twitter account for Temtem later created a tweet pitting the “Sakult” and “Team Porket” against each other. The Sakult is currently the winner."
@@ -6977,7 +6977,7 @@
         "note": "",
         "island": "Deniz",
         "frequency": "5%",
-        "level": "9-11",
+        "level": "9 - 11",
         "freetem": {
           "minLevel": 9,
           "maxLevel": 11,
@@ -6989,9 +6989,9 @@
         "location": "The Canopath",
         "place": "The Canopath",
         "note": "",
-        "island": "Superior Omninesia",
+        "island": "Omninesia",
         "frequency": "5%",
-        "level": "16-18",
+        "level": "16 - 18",
         "freetem": {
           "minLevel": 16,
           "maxLevel": 18,
@@ -7003,9 +7003,9 @@
         "location": "The Glassyway",
         "place": "The Glassyway",
         "note": "",
-        "island": "Ulterior Omninesia",
+        "island": "Omninesia",
         "frequency": "25%",
-        "level": "19-22",
+        "level": "19 - 22",
         "freetem": {
           "minLevel": 19,
           "maxLevel": 22,
@@ -7019,7 +7019,7 @@
         "note": "",
         "island": "Tucma",
         "frequency": "40%",
-        "level": "34-37",
+        "level": "34 - 37",
         "freetem": {
           "minLevel": 34,
           "maxLevel": 37,
@@ -7170,31 +7170,31 @@
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/42/LumaValash.png/250px-LumaValash.png?version=a0d8d9e5cc89cb92e0f76f0ecd0befc6",
     "locations": [
       {
-        "location": "Shipwrecked in Tucma! Quest",
-        "place": "",
+        "location": "Mines of Mictlan",
+        "place": "Mines of Mictlan",
         "note": "",
         "island": "Tucma",
-        "frequency": "One-Time Gift",
+        "frequency": "10%",
+        "level": "35 - 39",
+        "freetem": {
+          "minLevel": 35,
+          "maxLevel": 39,
+          "minPansuns": 131,
+          "maxPansuns": 144
+        }
+      },
+      {
+        "location": "Mines of Mictlan, From Ocelotl",
+        "place": "Mines of Mictlan",
+        "note": "From Ocelotl",
+        "island": "Tucma",
+        "frequency": "Gift (Once)",
         "level": "35",
         "freetem": {
           "minLevel": 35,
           "maxLevel": 35,
           "minPansuns": 131,
           "maxPansuns": 131
-        }
-      },
-      {
-        "location": "Mines of Mictlan",
-        "place": "Mines of Mictlan",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "Very Rare",
-        "level": "35-39",
-        "freetem": {
-          "minLevel": 35,
-          "maxLevel": 39,
-          "minPansuns": 131,
-          "maxPansuns": 144
         }
       }
     ],
