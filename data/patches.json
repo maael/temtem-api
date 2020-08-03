@@ -1,5 +1,66 @@
 [
   {
+    "name": "Temtem 0.6.4",
+    "version": "0.6.4",
+    "url": "https://crema.gg/temtem/temtem-0-6-4/",
+    "date": "2020-8-3",
+    "patchInfo": {
+      "fixes": [
+        "👥 Fixed a memory leak which caused users ending up with a high memory usage after playing for several hours.",
+        "👥 Fixed Rock/Paper/Scissors emote not properly synchronizing between players.",
+        "👥 Fixed players getting stuck on the quest A rock too far after disconnecting in a certain moment of the dialogue.",
+        "👥 Fixed some problems when blocking a user that caused blocking an incorrect user (or even the same player!).",
+        "👥 Fixed key prompts not appearing if the player didn’t have an English keyboard installed in Windows.",
+        "👥 Fixed chat changing tabs after writing a Q or E while using the gamepad.",
+        "👥 Fixed characters not appearing in the Tamer info screen when the player was in the Chini Tunnel.",
+        "👥 Fixed Bestial Charge incorrectly displaying as having a synergy.",
+        "👥 Fixed several problems with the first defeated Belsoto in the Uhuru invasion.",
+        "👥 Fixed incubator’s eggs appearing on some other scenes (signature moves, evolutions…).",
+        "👥 Fixed Earthbreaker’s description to properly depict that it is a single target technique.",
+        "👥 Fixed Handcuffs’ description to include that the effect is also triggered if the Temtem is already Exhausted.",
+        "👥 Fixed Madness Buff’s description to depict the latest balance change on the technique.",
+        "👥 Fixed some textures cut in Windward Kisiwa.",
+        "👥 Fixed chat getting the input from WASD after closing the chat panel while hovering a message.",
+        "👥 Fixed getting soft locked after inspecting a tint in the Vault screen.",
+        "👥 Fixed getting soft locked in Vumbi’s dojo after having a scent ending its effect and the player traveling through a sandpit.",
+        "👥 Fixed Grumvel’s keeping an incorrect animation and VFX when having multiple status conditions and being affected by its trait.",
+        "👥 Fixed incorrect untamed Temtem appearing in Dabmis’ Rest when the players were in a co-op party.",
+        "👥 Fixed getting soft locked in Nanga’s moving platforms after disconnecting while the player was on a co-op party.",
+        "👥 Fixed Umishi and Ukama’s fins not being animated in the Tempedia.",
+        "👥 Fixed incorrect technique order after using a technique that changes its priority through synergy with a recently swapped in ally.",
+        "👥 Fixed chat being incorrectly displayed as focused after entering a battle with a hovered chat tab.",
+        "👥 Fixed Tassa Desert Temporium’s NPC being interactable from behind the counter.",
+        "👥 Fixed getting soft locked in Vumbi’s dojo after falling on top a previously defeated NPC.",
+        "👥 Fixed getting stuck behind Badru in Jino Gap.",
+        "👥 Fixed infinite dialogue with the Newspaper Vendor.",
+        "👥 Fixed Unnoticed trait incorrectly triggering when the Temtem enters the battlefield automatically without the player choosing them.",
+        "Fixed chat notifications not being properly counted when the player was in battle or inspecting certain screens.",
+        "Changing between body types in the character creation wasn’t updating correctly the top default cosmetic piece.",
+        "Fixed incorrect cursor behavior while spectating a pick/ban phase.",
+        "Fixed Quetzal Temporium not properly configured for co-op interactions.",
+        "Added missing quest markers for Better Future: Ariadne when Ara is on Kisiwa.",
+        "Fixed a visual bug when moving quickly after using an emote.",
+        "Fixed the overworld menu getting the input from WASD after closing it while hovering an option.",
+        "Fixed emote wheel key bindings not working if the wheel was opened with the mouse instead of the keys.",
+        "Fixed incorrect player names in the interact screen after a user disconnects and a new user connects.",
+        "Fixed Nuru Lodge music not reproducing after reconnecting inside the resort."
+      ],
+      "improvements": [
+        "Breaking a co-op party will no longer automatically close the whisper opened with the co-op partner.",
+        "Kauren and Mouflank’s 3D models have been retweaked and improved."
+      ],
+      "features": [],
+      "balance": [
+        "Tental’s traits have been swapped in order. Their first trait is now Avenger and Water Affinity is the second one.",
+        "Nagaise’s traits have been swapped in order. Their first trait is now Deceit Aura and Water Custodian is the second one.Deceit Aura was the default trait that Houchic starters ended up getting and lots of players rightfully complained about it since it’s a very PvP-oriented trait and could mess up your whole team composition for PvE. So we’ve decided to swap the trait order so Houchic starters now end up with Water Custodian instead.While this effectively means that all current Tental and Nagaise will have their traits swapped, we’ve made a change to maintain their current traits for all Houchic, Tental, and Nagaise that weren’t starters (aka bred ones).So, with this change, every starter Houchic, Tental, or Nagaise will now have Soft Touch -> Water Affinity -> Water Custodian.Non-starters (bred) Tental and Nagaises will keep their previous Trait, and non-starter (bred) Houchic will have their trait swapped in order to keep the desired final trait from its evo line (if they had Soft Touch, they will now have Mental Alliance to end up with Deceit Aura and vice-versa).",
+        "Deceit Aura was the default trait that Houchic starters ended up getting and lots of players rightfully complained about it since it’s a very PvP-oriented trait and could mess up your whole team composition for PvE. So we’ve decided to swap the trait order so Houchic starters now end up with Water Custodian instead.",
+        "While this effectively means that all current Tental and Nagaise will have their traits swapped, we’ve made a change to maintain their current traits for all Houchic, Tental, and Nagaise that weren’t starters (aka bred ones).",
+        "So, with this change, every starter Houchic, Tental, or Nagaise will now have Soft Touch -> Water Affinity -> Water Custodian.",
+        "Non-starters (bred) Tental and Nagaises will keep their previous Trait, and non-starter (bred) Houchic will have their trait swapped in order to keep the desired final trait from its evo line (if they had Soft Touch, they will now have Mental Alliance to end up with Deceit Aura and vice-versa)."
+      ]
+    }
+  },
+  {
     "name": "Temtem 0.6.3",
     "version": "0.6.3",
     "url": "https://crema.gg/temtem/temtem-0-6-3/",
