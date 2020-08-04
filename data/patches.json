@@ -1,5 +1,28 @@
 [
   {
+    "name": "Temtem 0.6.5",
+    "version": "0.6.5",
+    "url": "https://crema.gg/temtem/temtem-0-6-5/",
+    "date": "2020-8-4",
+    "patchInfo": {
+      "fixes": [
+        "Fixed a black screen issue when trying to reconnect during server maintenance.",
+        "Fixed characters having their hair stretched in the overworld and in combat.",
+        "👥 Fixed Willpower Drain does not visually reflect stamina changes for the receiving player.",
+        "👥 Fixed a soft lock when Wilpump dies due to Mirroring trait when using Tsunami.",
+        "Fixed an SFX bug caused by holding right-click over some UI buttons.",
+        "Fixed near player’s portraits not being rendered in the interact screen.",
+        "Fixed a bench in Turquesa where if you sit down you won’t be able to get up again.",
+        "👥 Fixed the character reset button being active while you are a club leader.",
+        "Fixed Temtem evolving in the same battlezone where the battle took place if a technique animation that has its own battlezone was used during the combat.",
+        "Fixed appearing in mid-air or “buried” in the ground when crossing a gate at Windward Fort in coop."
+      ],
+      "improvements": [],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
     "name": "Temtem 0.6.4",
     "version": "0.6.4",
     "url": "https://crema.gg/temtem/temtem-0-6-4/",
