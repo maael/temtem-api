@@ -8692,7 +8692,7 @@
       }
     ],
     "trivia": [
-      "Piraniant is a combination of piranha, a carnivorous fish, and giant, meaning large in size.",
+      "Piraniant's name is derived from piranha and giant.",
       "Piraniant was first revealed via Twitter.",
       "Piraniant has an emote on the official Temtem discord."
     ],
@@ -8725,7 +8725,22 @@
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/0/01/Piraniant.png/250px-Piraniant.png?version=d7784dcc2454b37ea09c10f28dd65038",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/2a/LumaPiraniant.png/250px-LumaPiraniant.png?version=f75a4317067a89d294d9e8c758acb9b0",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Moyo Lake",
+        "place": "Moyo Lake",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "20%",
+        "level": "41 - 46",
+        "freetem": {
+          "minLevel": 41,
+          "maxLevel": 46,
+          "minPansuns": 115,
+          "maxPansuns": 127
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Piraniant.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Piraniant.png",
     "genderRatio": {
