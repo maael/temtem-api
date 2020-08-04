@@ -242,6 +242,22 @@
     "description": "Thou shall not pass! A Melee technique that confers DEF ."
   },
   {
+    "name": "Bonecracker",
+    "wikiUrl": "https://temtem.gamepedia.com/Bonecracker",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "?",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "Currently, Bonecracker is unavailable, so it's unknown what its description is."
+  },
+  {
     "name": "Boomerang",
     "wikiUrl": "https://temtem.gamepedia.com/Boomerang",
     "type": "Wind",
@@ -270,7 +286,7 @@
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Self",
     "description": "Survival is often the greatest of victories. Only effective if the Temtem is already alerted, and gives for 2 turns."
   },
   {
@@ -1563,6 +1579,22 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "When the king roars, the rest run away. Decreases SPD and ATK of the other team."
+  },
+  {
+    "name": "Late Torment",
+    "wikiUrl": "https://temtem.gamepedia.com/Late_Torment",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "?",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "Currently, Late Torment is unavailable, so it's unknown what its description is."
   },
   {
     "name": "Lifeful Sap",
@@ -3384,37 +3416,5 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "\"Wake up and smell the coffee! Inflicts minimal damage but wakes up the target instantly.\""
-  },
-  {
-    "name": "Warm Cuddle",
-    "wikiUrl": "https://temtem.gamepedia.com/Warm_Cuddle",
-    "type": "Fire",
-    "class": "Physical",
-    "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 53,
-    "staminaCost": 12,
-    "hold": 0,
-    "priority": "normal",
-    "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "None",
-    "synergyEffects": [],
-    "targets": "Single Other Target",
-    "description": "Some Temtem are so warm and cuddly that they can weaponize that love into a Fire technique."
-  },
-  {
-    "name": "Water Blade",
-    "wikiUrl": "https://temtem.gamepedia.com/Water_Blade",
-    "type": "Water",
-    "class": "Special",
-    "classIcon": "/images/icons/technique/Special.png",
-    "damage": 52,
-    "staminaCost": 10,
-    "hold": 0,
-    "priority": "low",
-    "priorityIcon": "/images/icons/priority/low.png",
-    "synergy": "None",
-    "synergyEffects": [],
-    "targets": "Single Other Target",
-    "description": "Whipping seawater, like the stormy Sillaro lashing at the cliffs."
   }
 ]
