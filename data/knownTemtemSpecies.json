@@ -2262,7 +2262,7 @@
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a8/Amphatyr.png/205px-Amphatyr.png?version=ed5aa26d767e5106466c6b2f30cccd72",
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a8/Amphatyr.png/250px-Amphatyr.png?version=3e29006a08a8e9e590075b6e589e7bd7",
     "lumaWikiPortraitUrlLarge": "",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Amphatyr.png",
@@ -7501,7 +7501,8 @@
       }
     ],
     "trivia": [
-      "Gyalis's name is derived from gyalisméno (polished in Greek) and mantis."
+      "Gyalis's name is derived from gyalisméno (polished in Greek) and mantis.",
+      "Gyalis is tied with Ukama and Oceara for the highest base Speed of all Temtem at 100."
     ],
     "evolution": {
       "evolves": false
@@ -11538,13 +11539,13 @@
         "place": "Thalassian Cliffs",
         "note": "",
         "island": "Deniz",
-        "frequency": "Common (50%-90%)",
-        "level": "17-18",
+        "frequency": "50% - 90%",
+        "level": "17 - 20",
         "freetem": {
           "minLevel": 17,
-          "maxLevel": 18,
+          "maxLevel": 20,
           "minPansuns": 77,
-          "maxPansuns": 80
+          "maxPansuns": 87
         }
       },
       {
@@ -11552,27 +11553,13 @@
         "place": "Sillaro",
         "note": "River",
         "island": "Deniz",
-        "frequency": "Rare (30%)",
-        "level": "13-15",
+        "frequency": "30%",
+        "level": "13 - 15",
         "freetem": {
           "minLevel": 13,
           "maxLevel": 15,
           "minPansuns": 64,
           "maxPansuns": 70
-        }
-      },
-      {
-        "location": "Aguamarina Caves[citation needed]",
-        "place": "Aguamarina Caves",
-        "note": "[citation needed]",
-        "island": "Deniz",
-        "frequency": "Common (%)",
-        "level": "18-20",
-        "freetem": {
-          "minLevel": 18,
-          "maxLevel": 20,
-          "minPansuns": 80,
-          "maxPansuns": 87
         }
       }
     ],
@@ -11700,7 +11687,10 @@
       }
     ],
     "trivia": [
-      "Ukama's name is derived from umi (sea in Japanese) and kama (sickle in Japanese)."
+      "Ukama's name is derived from umi (sea in Japanese) and kama (sickle in Japanese).\nThe name Ukama was suggested by YamaXenuz#8049 of the Temtem Discord in the Temtem naming suggestion poll from September 24 2018",
+      "The name Ukama was suggested by YamaXenuz#8049 of the Temtem Discord in the Temtem naming suggestion poll from September 24 2018",
+      "Ukama is tied with Oceara and Gyalis for the highest base Speed stat of all Temtem at 100.",
+      "During alpha testing, Ukama was known for a bug in the first phase that hard-locked tamers in battle sequences with it. This bug was fixed after a bit of difficulty."
     ],
     "evolution": {
       "stage": 2,
@@ -11738,7 +11728,7 @@
         "note": "",
         "island": "Tucma",
         "frequency": "55%",
-        "level": "37-39",
+        "level": "37 - 39",
         "freetem": {
           "minLevel": 37,
           "maxLevel": 39,
@@ -15143,8 +15133,9 @@
       }
     ],
     "trivia": [
-      "Oceara's name is derived from ocean and Mearas Mearas (breed of wild horses from The Lord of the Rings).",
+      "Oceara's name is derived from ocean and Mearas Mearas (a breed of wild horses from The Lord of the Rings).",
       "Oceara has the highest base stat total of all Water type Temtem at 486.",
+      "Oceara is tied with Gyalis and Ukama for the highest base Speed of all Temtem at 100.",
       "Oceara appeared for the first time in the Mounts Kickstarter update, though little was known about it. Its official name and description were revealed on the official Temtem Twitter on 19/11/2018.",
       "Oceara seems to be based off the Qilin/Kirin, antelopine divine creatures in Chinese and Japanese mythology respectively.",
       "Serbatiyo's Wrath, derives from \"cervatillo\", which means \"fawn\" in spanish."
