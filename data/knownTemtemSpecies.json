@@ -2214,7 +2214,7 @@
       "Electric",
       "Nature"
     ],
-    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a8/Amphatyr.png/41px-Amphatyr.png",
+    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a8/Amphatyr.png/50px-Amphatyr.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Amphatyr",
     "stats": {
@@ -3200,8 +3200,8 @@
       },
       {
         "location": "Sillaro River",
-        "place": "Sillaro",
-        "note": "River",
+        "place": "Sillaro River",
+        "note": "",
         "island": "Deniz",
         "frequency": "50% - 100%",
         "level": "13 - 15",
@@ -3394,8 +3394,8 @@
     "locations": [
       {
         "location": "Sillaro River",
-        "place": "Sillaro",
-        "note": "River",
+        "place": "Sillaro River",
+        "note": "",
         "island": "Deniz",
         "frequency": "15%",
         "level": "14 - 15",
@@ -8491,8 +8491,8 @@
     "locations": [
       {
         "location": "Sillaro River",
-        "place": "Sillaro",
-        "note": "River",
+        "place": "Sillaro River",
+        "note": "",
         "island": "Deniz",
         "frequency": "30%",
         "level": "13 - 14",
@@ -9402,8 +9402,8 @@
       },
       {
         "location": "Sillaro River",
-        "place": "Sillaro",
-        "note": "River",
+        "place": "Sillaro River",
+        "note": "",
         "island": "Deniz",
         "frequency": "45%",
         "level": "13 - 16",
@@ -11535,8 +11535,8 @@
       },
       {
         "location": "Sillaro River",
-        "place": "Sillaro",
-        "note": "River",
+        "place": "Sillaro River",
+        "note": "",
         "island": "Deniz",
         "frequency": "30%",
         "level": "13 - 15",
@@ -11740,125 +11740,6 @@
       "spdef": 0
     },
     "gameDescription": "Ukama, also known in Turquesa as \"sea-sickles\", are one of the fastest waterborne Temtem. They can easily outrun the sleekest sailboat, even swimming against the Sillaro current, so tamers have to use charm and guile to approach them.",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
-  },
-  {
-    "number": 91,
-    "name": "Raignet",
-    "types": [
-      "Electric"
-    ],
-    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/50/Raignet.png/50px-Raignet.png",
-    "lumaPortraitWikiUrl": "",
-    "wikiUrl": "https://temtem.gamepedia.com/Raignet",
-    "stats": {
-      "hp": 68,
-      "sta": 57,
-      "spd": 54,
-      "atk": 81,
-      "def": 69,
-      "spatk": 58,
-      "spdef": 50,
-      "total": 437
-    },
-    "traits": [],
-    "details": {
-      "height": {
-        "cm": 170,
-        "inches": 66
-      },
-      "weight": {
-        "kg": 110,
-        "lbs": 242
-      }
-    },
-    "techniques": [
-      {
-        "name": "Sparks",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "DC Beam",
-        "source": "Levelling",
-        "levels": 3
-      },
-      {
-        "name": "Sparkling Bullet",
-        "source": "Levelling",
-        "levels": 9
-      },
-      {
-        "name": "Tesla Prison",
-        "source": "Levelling",
-        "levels": 15
-      },
-      {
-        "name": "Thunder Strike",
-        "source": "Levelling",
-        "levels": 20
-      },
-      {
-        "name": "Electropunch",
-        "source": "Levelling",
-        "levels": 32
-      },
-      {
-        "name": "Electromagnitism",
-        "source": "Levelling",
-        "levels": 40
-      }
-    ],
-    "trivia": [
-      "Raignet's name is derived from Ray + Magnet.",
-      "Raignet was first revealed via Twitter."
-    ],
-    "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": -1,
-          "name": "Unknown",
-          "stage": 1
-        },
-        {
-          "number": 91,
-          "name": "Raignet",
-          "stage": 2,
-          "traitMapping": {}
-        }
-      ],
-      "evolves": true,
-      "type": "level"
-    },
-    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/50/Raignet.png/250px-Raignet.png?version=49233b686887a7d1f542b753ffabf1c1",
-    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/54/LumaRaignet.png/250px-LumaRaignet.png?version=be244af69e894b9d166037c79bb98238",
-    "locations": [],
-    "icon": "/images/portraits/temtem/large/Raignet.png",
-    "lumaIcon": "/images/portraits/temtem/luma/large/Raignet.png",
-    "genderRatio": {
-      "male": 50,
-      "female": 50
-    },
-    "catchRate": 90,
-    "hatchMins": 27,
-    "tvYields": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 2,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0
-    },
-    "gameDescription": "When suddenly all the cutlery in your kitchen flies out of the window, you know this Temtem is nearby. In fact, it uses its magnetic power to move its own heavy, metallic body. The Cipanki always keep them away from their fridges.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -12650,7 +12531,7 @@
       }
     ],
     "trivia": [
-      "Kuri comes from \"Kura\" diminutive (hyena in Hausa)"
+      "Kuri's name is derived from a Kura diminutive (hyena in Hausa)."
     ],
     "evolution": {
       "stage": 1,
@@ -12708,6 +12589,34 @@
           "maxLevel": 37,
           "minPansuns": 97,
           "maxPansuns": 106
+        }
+      },
+      {
+        "location": "Kwea Uplands",
+        "place": "Kwea Uplands",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "20% - 80%",
+        "level": "38 - 42",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 42,
+          "minPansuns": 108,
+          "maxPansuns": 117
+        }
+      },
+      {
+        "location": "Matope Road",
+        "place": "Matope Road",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "24% - 30%",
+        "level": "40 - 45",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 45,
+          "minPansuns": 113,
+          "maxPansuns": 124
         }
       }
     ],
@@ -12826,7 +12735,7 @@
       }
     ],
     "trivia": [
-      "Kauren comes from Kura (hyena in Hausa) + Hauren giwa (ivory in Hausa)"
+      "Kauren's name is derived from Kura (hyena in Hausa) and Hauren giwa (ivory in Hausa)."
     ],
     "evolution": {
       "stage": 2,
@@ -12964,8 +12873,7 @@
       }
     ],
     "trivia": [
-      "Spriole's name is derived from sprout and petiole.",
-      "Spriole grow on trees."
+      "Spriole's name is derived from sprout and petiole."
     ],
     "evolution": {
       "stage": 1,
@@ -13013,13 +12921,27 @@
         "place": "The Canopath",
         "note": "",
         "island": "Omninesia",
-        "frequency": "40%",
-        "level": "14-18",
+        "frequency": "40% - 95%",
+        "level": "14 - 18",
         "freetem": {
           "minLevel": 14,
           "maxLevel": 18,
           "minPansuns": 44,
           "maxPansuns": 50
+        }
+      },
+      {
+        "location": "The Flywalk",
+        "place": "The Flywalk",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "70% - 95%",
+        "level": "16 - 19",
+        "freetem": {
+          "minLevel": 16,
+          "maxLevel": 19,
+          "minPansuns": 47,
+          "maxPansuns": 52
         }
       },
       {
@@ -13027,13 +12949,13 @@
         "place": "The Hangroad",
         "note": "",
         "island": "Omninesia",
-        "frequency": "Common",
-        "level": "14-18",
+        "frequency": "30% - 80%",
+        "level": "14 - 22",
         "freetem": {
           "minLevel": 14,
-          "maxLevel": 18,
+          "maxLevel": 22,
           "minPansuns": 44,
-          "maxPansuns": 50
+          "maxPansuns": 57
         }
       },
       {
@@ -13041,13 +12963,13 @@
         "place": "The Glassyway",
         "note": "",
         "island": "Omninesia",
-        "frequency": "Common",
-        "level": "19-22",
+        "frequency": "40%",
+        "level": "20 - 23",
         "freetem": {
-          "minLevel": 19,
-          "maxLevel": 22,
-          "minPansuns": 52,
-          "maxPansuns": 57
+          "minLevel": 20,
+          "maxLevel": 23,
+          "minPansuns": 54,
+          "maxPansuns": 59
         }
       },
       {
@@ -13055,13 +12977,13 @@
         "place": "Giant Banyan",
         "note": "",
         "island": "Omninesia",
-        "frequency": "Common",
-        "level": "23-25",
+        "frequency": "55%",
+        "level": "23 - 36",
         "freetem": {
           "minLevel": 23,
-          "maxLevel": 25,
+          "maxLevel": 36,
           "minPansuns": 59,
-          "maxPansuns": 62
+          "maxPansuns": 80
         }
       }
     ],
@@ -13176,7 +13098,7 @@
       }
     ],
     "trivia": [
-      "Deendre's name is derived from deer and cendre (Ash Tree in French)."
+      "Deendre's name is derived from deer and cendre (ash tree in French)."
     ],
     "evolution": {
       "stage": 2,
@@ -13223,9 +13145,9 @@
         "location": "The Canopath",
         "place": "The Canopath",
         "note": "",
-        "island": "Superior Omninesia",
+        "island": "Omninesia",
         "frequency": "5%",
-        "level": "17-20",
+        "level": "17 - 20",
         "freetem": {
           "minLevel": 17,
           "maxLevel": 20,
@@ -13237,23 +13159,23 @@
         "location": "The Flywalk",
         "place": "The Flywalk",
         "note": "",
-        "island": "Citerior Omninesia",
-        "frequency": "5%",
-        "level": "19-20",
+        "island": "Omninesia",
+        "frequency": "5% - 50%",
+        "level": "19 - 24",
         "freetem": {
           "minLevel": 19,
-          "maxLevel": 20,
+          "maxLevel": 24,
           "minPansuns": 66,
-          "maxPansuns": 68
+          "maxPansuns": 78
         }
       },
       {
         "location": "The Hangroad",
         "place": "The Hangroad",
         "note": "",
-        "island": "Ulterior Omninesia",
+        "island": "Omninesia",
         "frequency": "5%",
-        "level": "16-22",
+        "level": "16 - 22",
         "freetem": {
           "minLevel": 16,
           "maxLevel": 22,
@@ -13391,7 +13313,7 @@
       }
     ],
     "trivia": [
-      "Cerneaf's name comes from the combination of the words Cernunnos (Celtic deer God) and leaf.",
+      "Cerneaf's name is derived from Cernunnos (Celtic deer God) and leaf.",
       "Cerneaf was first revealed via Twitter."
     ],
     "evolution": {
@@ -13549,7 +13471,7 @@
       }
     ],
     "trivia": [
-      "Toxolotl's name comes from the combination of the words toxic and axolotl."
+      "Toxolotl's name is derived from toxic and axolotl."
     ],
     "evolution": {
       "stage": 1,
@@ -13582,17 +13504,17 @@
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/59/LumaToxolotl.png/250px-LumaToxolotl.png?version=2d597a07fa24e691dca71a81e4e11ff7",
     "locations": [
       {
-        "location": "Xolot Reservoir",
-        "place": "Xolot Reservoir",
+        "location": "Xolot Reservior",
+        "place": "",
         "note": "",
         "island": "Tucma",
-        "frequency": "",
-        "level": "26-29",
+        "frequency": "50% - 100%",
+        "level": "26 - 30",
         "freetem": {
           "minLevel": 26,
-          "maxLevel": 29,
+          "maxLevel": 30,
           "minPansuns": 85,
-          "maxPansuns": 93
+          "maxPansuns": 95
         }
       }
     ],
@@ -13721,7 +13643,7 @@
     ],
     "trivia": [
       "Noxolotl's name comes from the combination of the words noxious and axolotl.",
-      "Despite it’s highest stat being special attack, it was unable to learn any special attacks untill the update following it's release."
+      "Despite it’s highest stat being special attack, it was unable to learn any special attacks until the update following it's release."
     ],
     "evolution": {
       "stage": 2,
@@ -13850,7 +13772,7 @@
       }
     ],
     "trivia": [
-      "Blooze's name comes from the combination of the words blob and ooze."
+      "Blooze's name is derived fromblob and ooze."
     ],
     "evolution": {
       "stage": 1,
@@ -13887,8 +13809,8 @@
         "place": "Corrupted Badlands",
         "note": "",
         "island": "Tucma",
-        "frequency": "10%-50%",
-        "level": "23-29",
+        "frequency": "10% - 50%",
+        "level": "23 - 29",
         "freetem": {
           "minLevel": 23,
           "maxLevel": 29,
@@ -14026,11 +13948,11 @@
       }
     ],
     "trivia": [
-      "Goolder's name comes from the combination of the words goo and elder.",
-      "As of Alpha 0.5.19, Goolder has the highest HP stat of any available Temtem (120).\nFurthermore, at 120 Goolder has the highest single stat of any Temtem",
-      "Furthermore, at 120 Goolder has the highest single stat of any Temtem",
-      "As of Alpha 0.5.19, Goolder has the lowest Speed stat of any available Temtem (10).\nIt is tied with Pewki for having the lowest single stat of any Temtem.",
-      "It is tied with Pewki for having the lowest single stat of any Temtem."
+      "Goolder's name is derived from goo and elder.",
+      "Goolder has the highest HP stat of all Temtem at 120.\nDue to this, Goolder has the highest single base stat of any Temtem",
+      "Due to this, Goolder has the highest single base stat of any Temtem",
+      "Goolder has the lowest Speed stat of all Temtem at 10.\nIts tied with Pewki for having the lowest single base stat of any Temtem.",
+      "Its tied with Pewki for having the lowest single base stat of any Temtem."
     ],
     "evolution": {
       "stage": 2,
@@ -14165,9 +14087,10 @@
       }
     ],
     "trivia": [
-      "Zephyruff's name is a combination of Zephyr (a gentle breeze or wind along with deriving from Zephyros, the Greek God of the West Wind) and Ruff (a piece of clothing that was popular during the sixteenth and seventeenth century with more modern uses being by Bishops).",
+      "Zephyruff's name is derived from Zephyr (a gentle breeze or wind along with deriving from Zephyros, the Greek God of the West Wind) and Ruff (a piece of clothing that was popular during the sixteenth and seventeenth century with more modern uses being by Bishops).",
       "Zephyruff was originally shown on the \"Presenting our first Breeder Temtem\" Kickstarter update.",
-      "Zephyruff is the first of the five lines of Breeder Temtem. Breeder Temtem are special fan-created ones that were available as a Kickstarter Tier for $6,000 USD. This specific line was made by Soma Ghost."
+      "Zephyruff is the first of the five lines of Breeder Temtem. Breeder Temtem are special fan-created ones that were available as a Kickstarter Tier for $6,000 USD. This specific line was made by Soma Ghost.",
+      "Zephyruff was nicknamed by Manly Fairy. While there was going to be a poll for the name, Soma Ghost decided to pick this name along with Volarend before the polling finished. The name leading the poll at that moment was Entu. The leading name for Volarend was Siotu"
     ],
     "evolution": {
       "stage": 1,
@@ -14204,8 +14127,8 @@
         "place": "Corrupted Badlands",
         "note": "",
         "island": "Tucma",
-        "frequency": "Uncommon (60%)",
-        "level": "24-28",
+        "frequency": "60%",
+        "level": "24 - 28",
         "freetem": {
           "minLevel": 24,
           "maxLevel": 28,
@@ -14218,8 +14141,8 @@
         "place": "Kupeleleza",
         "note": "",
         "island": "Tucma",
-        "frequency": "Uncommon (35%-60%)",
-        "level": "30-37",
+        "frequency": "35% - 95%",
+        "level": "30 - 37",
         "freetem": {
           "minLevel": 30,
           "maxLevel": 37,
@@ -14228,16 +14151,30 @@
         }
       },
       {
-        "location": "Small island left of Kupeleleza",
-        "place": "",
+        "location": "Mawingu Islets",
+        "place": "Mawingu Islets",
         "note": "",
-        "island": "Tucma",
-        "frequency": "Common (95%)",
-        "level": "35-37",
+        "island": "Kisiwa",
+        "frequency": "50%",
+        "level": "31 - 38",
         "freetem": {
-          "minLevel": 35,
+          "minLevel": 31,
+          "maxLevel": 38,
+          "minPansuns": 77,
+          "maxPansuns": 90
+        }
+      },
+      {
+        "location": "Jino Gap",
+        "place": "Jino Gap",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "20%",
+        "level": "32 - 37",
+        "freetem": {
+          "minLevel": 32,
           "maxLevel": 37,
-          "minPansuns": 84,
+          "minPansuns": 79,
           "maxPansuns": 88
         }
       }
@@ -14358,10 +14295,10 @@
       }
     ],
     "trivia": [
-      "Volarend's name is a combination of Volare (a Latin and Italian word, meaning fly or to fly) and Rend (to tear).",
+      "Volarend's name is derived from Volare (fly or to fly in Latin and Italian) and Rend.",
       "Volarend was originally shown on the \"Presenting our first Breeder Temtem\" Kickstarter update.",
       "Volarend is the first of the five lines of Breeder Temtem. Breeder Temtem are special fan-created ones that were available as a Kickstarter Tier for $6,000 USD. This specific line was made by Soma Ghost.",
-      "Volarend was nicknamed by Manly Fairy. While there was going to be a poll for the name, Soma Ghost decided to pick this name along with Zephyruff before the polling finished. The name leading the poll at that moment was Siotu. The leading name for Zephyruff was Entu"
+      "Volarend was nicknamed by Manly Fairy. While there was going to be a poll for the name, Soma Ghost decided to pick this name along with Zephyruff before the polling finished. The name leading the poll at that moment was Siotu. The leading name for Zephyruff was Entu."
     ],
     "evolution": {
       "stage": 2,
@@ -14394,17 +14331,31 @@
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/bc/LumaVolarend.png/250px-LumaVolarend.png?version=9da46e3f288464bc441ee52f02cd8a92",
     "locations": [
       {
-        "location": "Small island left of Kupeleleza main route",
-        "place": "",
+        "location": "Kupeleleza",
+        "place": "Kupeleleza",
         "note": "",
         "island": "Tucma",
-        "frequency": "Very Rare (5%)",
-        "level": "37-39",
+        "frequency": "5%",
+        "level": "37 - 39",
         "freetem": {
           "minLevel": 37,
           "maxLevel": 39,
           "minPansuns": 134,
           "maxPansuns": 140
+        }
+      },
+      {
+        "location": "Mawingu Islets",
+        "place": "Mawingu Islets",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "25%",
+        "level": "36 - 41",
+        "freetem": {
+          "minLevel": 36,
+          "maxLevel": 41,
+          "minPansuns": 131,
+          "maxPansuns": 146
         }
       }
     ],
@@ -14495,7 +14446,7 @@
       }
     ],
     "trivia": [
-      "Grumvel's name comes from Grumpy + Gravel."
+      "Grumvel's name is derived from Grumpy and Gravel."
     ],
     "evolution": {
       "stage": 1,
@@ -14532,13 +14483,13 @@
         "place": "Juu Tunnel",
         "note": "",
         "island": "Kisiwa",
-        "frequency": "?%",
-        "level": "32-35",
+        "frequency": "80%",
+        "level": "32 - 42",
         "freetem": {
           "minLevel": 32,
-          "maxLevel": 35,
+          "maxLevel": 42,
           "minPansuns": 104,
-          "maxPansuns": 112
+          "maxPansuns": 130
         }
       },
       {
@@ -14546,13 +14497,13 @@
         "place": "Chini Grotto",
         "note": "",
         "island": "Kisiwa",
-        "frequency": "?%",
-        "level": "39-42",
+        "frequency": "60% - 90%",
+        "level": "38 - 43",
         "freetem": {
-          "minLevel": 39,
-          "maxLevel": 42,
-          "minPansuns": 122,
-          "maxPansuns": 130
+          "minLevel": 38,
+          "maxLevel": 43,
+          "minPansuns": 120,
+          "maxPansuns": 133
         }
       }
     ],
@@ -14676,7 +14627,7 @@
       }
     ],
     "trivia": [
-      "Grumper's name comes from Grumpy + Thunder."
+      "Grumper's name is derived from Grumpy and Thunder."
     ],
     "evolution": {
       "stage": 2,
@@ -14823,10 +14774,9 @@
       }
     ],
     "trivia": [
-      "Ganki's name is a combination of ga (Japanese for moth) and denki (Japanese for electric current).",
+      "Ganki's name is derived from ga (moth in Japanese) and denki (electric current in Japanese).",
       "Ganki was first revealed via Twitter.",
       "Ganki has an emote on the official Temtem discord.",
-      "Prior to alpha 0.2.5 Ganki learned hypnosis.",
       "Ganki is tied with Houchic for the lowest base HP of all Temtem at 38."
     ],
     "evolution": {
@@ -14864,8 +14814,8 @@
         "place": "Thalassian Cliffs",
         "note": "",
         "island": "Deniz",
-        "frequency": "Common",
-        "level": "5-8",
+        "frequency": "100%",
+        "level": "5 - 8",
         "freetem": {
           "minLevel": 5,
           "maxLevel": 8,
@@ -14878,12 +14828,12 @@
         "place": "Windward Fort",
         "note": "",
         "island": "Deniz",
-        "frequency": "Common",
-        "level": "12-14",
+        "frequency": "20% - 95%",
+        "level": "10 - 14",
         "freetem": {
-          "minLevel": 12,
+          "minLevel": 10,
           "maxLevel": 14,
-          "minPansuns": 50,
+          "minPansuns": 45,
           "maxPansuns": 55
         }
       }
@@ -15012,8 +14962,7 @@
       }
     ],
     "trivia": [
-      "Gazuma's name comes from the combination of the words Ga (moth in Japanese) and Inazuma (lightning strike in Japanese).",
-      "Prior to alpha 0.2.5 Gazuma was able to learn hypnosis."
+      "Gazuma's name is derived from Ga (moth in Japanese) and Inazuma (lightning strike in Japanese)."
     ],
     "evolution": {
       "stage": 2,
@@ -15046,12 +14995,12 @@
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/3/3d/LumaGazuma.png/250px-LumaGazuma.png?version=2be4b61c633afa2c968c3dcce8a4f9b7",
     "locations": [
       {
-        "location": "Maltope Road",
-        "place": "",
+        "location": "Matope Road",
+        "place": "Matope Road",
         "note": "",
         "island": "Kisiwa",
         "frequency": "20%",
-        "level": "40-45",
+        "level": "40 - 45",
         "freetem": {
           "minLevel": 40,
           "maxLevel": 45,
@@ -15179,8 +15128,7 @@
       "Oceara has the highest base stat total of all Water type Temtem at 486.",
       "Oceara is tied with Gyalis and Ukama for the highest base Speed of all Temtem at 100.",
       "Oceara appeared for the first time in the Mounts Kickstarter update, though little was known about it. Its official name and description were revealed on the official Temtem Twitter on 19/11/2018.",
-      "Oceara seems to be based off the Qilin/Kirin, antelopine divine creatures in Chinese and Japanese mythology respectively.",
-      "Serbatiyo's Wrath, derives from \"cervatillo\", which means \"fawn\" in spanish."
+      "Oceara seems to be based off the Qilin/Kirin, antelopine divine creatures in Chinese and Japanese mythology respectively."
     ],
     "evolution": {
       "evolves": false
@@ -15428,7 +15376,7 @@
       }
     ],
     "trivia": [
-      "Droply's name comes from Droplet + Baby."
+      "Droply's name is derived from Droplet and Baby."
     ],
     "evolution": {
       "stage": 1,
@@ -15614,7 +15562,7 @@
       }
     ],
     "trivia": [
-      "Garyo's name comes from Gregarious + Lake Moyo."
+      "Garyo's name is derived from Gregarious and Lake Moyo."
     ],
     "evolution": {
       "stage": 2,
@@ -15762,7 +15710,7 @@
       }
     ],
     "trivia": [
-      "Shuine's name derives from the words shui (Water in Chinese) and pristine.",
+      "Shuine's name is derived from shui (water in Chinese) and pristine.",
       "Shuine is based on the feathered deities of Mesoamerican religions, with western dragon ears."
     ],
     "evolution": {
@@ -15777,7 +15725,7 @@
         "note": "",
         "island": "Tucma",
         "frequency": "5%",
-        "level": "37-41",
+        "level": "37 - 41",
         "freetem": {
           "minLevel": 37,
           "maxLevel": 41,
@@ -15903,7 +15851,7 @@
       }
     ],
     "trivia": [
-      "\"Nessla\" is a combination of Nessy (likely a reference to the Loch Ness Monster whom is affectionately known as \"Nessie\") and Tesla (Nikola Tesla was a famous scientist who developed the alternating current (AC) electricity supply system).",
+      "Nessla's name is derived from Nessy (likely a reference to the Loch Ness Monster whom is affectionately known as \"Nessie\") and Tesla (Nikola Tesla was a famous scientist who developed the alternating current (AC) electricity supply system).",
       "Nessla was originally unnamed #33 on a list of scrapped Temtem that was to be voted to bring back on Kickstarter Update #2.",
       "Nessla was one of the two winners of the Choose a Temtem backer mini-game during the Kickstarter. Its name was proposed by a community member (JMick) in Official Discord, and later chosen as the winner during the Choose a Temtem names poll in the 6th update of Temtem's Kickstarter.",
       "A Nessla is given to the player as a part of the main story quest Shipwrecked in Tucma!"
@@ -15919,8 +15867,8 @@
         "place": "Thalassian Cliffs",
         "note": "",
         "island": "Deniz",
-        "frequency": "Very Rare",
-        "level": "17-18",
+        "frequency": "10%",
+        "level": "17 - 18",
         "freetem": {
           "minLevel": 17,
           "maxLevel": 18,
@@ -15929,12 +15877,12 @@
         }
       },
       {
-        "location": "Sillaro River (southeastern pool bordering Turquesa)",
-        "place": "Sillaro",
-        "note": "River (southeastern pool bordering Turquesa)",
+        "location": "Sillaro River",
+        "place": "Sillaro River",
+        "note": "",
         "island": "Deniz",
-        "frequency": "Very Rare",
-        "level": "14-16",
+        "frequency": "10%",
+        "level": "14 - 16",
         "freetem": {
           "minLevel": 14,
           "maxLevel": 16,
@@ -15943,17 +15891,17 @@
         }
       },
       {
-        "location": "Sillaro River (tiny pool south of the mini-temporium near Zadar)",
-        "place": "Sillaro",
-        "note": "River (tiny pool south of the mini-temporium near Zadar)",
-        "island": "Deniz",
-        "frequency": "Very Rare",
-        "level": "",
+        "location": "Mines of Mictlan",
+        "place": "Mines of Mictlan",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "Gift",
+        "level": "39",
         "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
+          "minLevel": 39,
+          "maxLevel": 39,
+          "minPansuns": 200,
+          "maxPansuns": 200
         }
       }
     ],
@@ -16067,7 +16015,7 @@
       }
     ],
     "trivia": [
-      "Valiar's name comes from Vacio (empty in Spanish) + Ampliar (extend in Spanish because they use the ear holes to amplify their mental powers)",
+      "Valiar's name is derived from Vacio (empty in Spanish) and Ampliar (extend in Spanish referencing them using their ear holes to amplify their mental powers).",
       "Valiar was first revealed through its early concept art via Twitter.",
       "Valiar looks very different in its concept art compared to its final design. The main colouration is a dark and light purple, and Valiar is generally depicted with a stripe pattern instead of a spot pattern. In addition, some key details like the thick neck tuft are not present. The eyes have a completely different shape and color compared to the final version.",
       "Judging by its description and appearance, Valiar will likely be a Mental-type Temtem."
@@ -16196,7 +16144,7 @@
       }
     ],
     "trivia": [
-      "Kalazu's name is a combination of the words Calamari and Azure.",
+      "Kalazu's name is derived from Calamari and Azure.",
       "Kalazu was revealed to the public on Kickstarter update #13.",
       "Kalazu's name was suggested by the discord user Yobri#7969 in the naming suggestion poll from August 14."
     ],
@@ -16235,27 +16183,27 @@
         "place": "Thalassian Cliffs",
         "note": "",
         "island": "Deniz",
-        "frequency": "Common",
-        "level": "",
+        "frequency": "50%",
+        "level": "18 - 20",
         "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
+          "minLevel": 18,
+          "maxLevel": 20,
+          "minPansuns": 59,
+          "maxPansuns": 63
         }
       },
       {
         "location": "Sillaro River",
-        "place": "Sillaro",
-        "note": "River",
+        "place": "Sillaro River",
+        "note": "",
         "island": "Deniz",
-        "frequency": "Common",
-        "level": "",
+        "frequency": "40%",
+        "level": "13 - 15",
         "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
+          "minLevel": 13,
+          "maxLevel": 15,
+          "minPansuns": 48,
+          "maxPansuns": 53
         }
       },
       {
@@ -16263,13 +16211,41 @@
         "place": "Aguamarina Caves",
         "note": "",
         "island": "Deniz",
-        "frequency": "Common",
-        "level": "",
+        "frequency": "65% - 100%",
+        "level": "15 - 22",
         "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
+          "minLevel": 15,
+          "maxLevel": 22,
+          "minPansuns": 53,
+          "maxPansuns": 68
+        }
+      },
+      {
+        "location": "Corrupted Badlands",
+        "place": "Corrupted Badlands",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "70%",
+        "level": "27 - 29",
+        "freetem": {
+          "minLevel": 27,
+          "maxLevel": 29,
+          "minPansuns": 78,
+          "maxPansuns": 83
+        }
+      },
+      {
+        "location": "Xolot Reservoir",
+        "place": "Xolot Reservoir",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "40%",
+        "level": "28 - 32",
+        "freetem": {
+          "minLevel": 28,
+          "maxLevel": 32,
+          "minPansuns": 80,
+          "maxPansuns": 89
         }
       }
     ],
@@ -16411,7 +16387,7 @@
       }
     ],
     "trivia": [
-      "Kalabyss' name comes from the combination of Calamari and Abyss.",
+      "Kalabyss' name is derived from Calamari and Abyss.",
       "Kalabyss was revealed to the public on the official discord and the Kickstarter update #30.",
       "Kalabyss' name (originally Calabyss) was suggested by the discord user lepastro#3547 in the naming suggestion poll from August 14 and was later modified to Kalabyss to better match its pre-evolutions name."
     ],
@@ -16450,8 +16426,8 @@
         "place": "Xolot Reservoir",
         "note": "",
         "island": "Tucma",
-        "frequency": "Rare (10%)",
-        "level": "29-33",
+        "frequency": "10%",
+        "level": "29 - 33",
         "freetem": {
           "minLevel": 29,
           "maxLevel": 33,
