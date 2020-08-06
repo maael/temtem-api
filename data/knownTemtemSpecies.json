@@ -845,22 +845,7 @@
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/7/7f/Platimous.png/250px-Platimous.png?version=32b7f3eef02f3b0523ca65b49310b565",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/e/e4/LumaPlatimous.png/250px-LumaPlatimous.png?version=98bdf9f02e1e220f3dedb5bcc6b820cd",
-    "locations": [
-      {
-        "location": "Dabmis' Rest",
-        "place": "",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "95%",
-        "level": "70",
-        "freetem": {
-          "minLevel": 70,
-          "maxLevel": 70,
-          "minPansuns": null,
-          "maxPansuns": null
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Platimous.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Platimous.png",
     "genderRatio": {
@@ -2093,22 +2078,7 @@
     },
     "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/d5/Granpah.png/250px-Granpah.png?version=552ff1edc8a64227067b0f808b216051",
     "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/6/65/LumaGranpah.png/250px-LumaGranpah.png?version=e4542c1da85592ecac51a891d91ce14f",
-    "locations": [
-      {
-        "location": "Prasine Coast",
-        "place": "Prasine Coast",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "15%",
-        "level": "40 - 45",
-        "freetem": {
-          "minLevel": 40,
-          "maxLevel": 45,
-          "minPansuns": null,
-          "maxPansuns": null
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Granpah.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Granpah.png",
     "genderRatio": {
@@ -10474,11 +10444,11 @@
       "hp": 60,
       "sta": 73,
       "spd": 78,
-      "atk": 69,
+      "atk": 61,
       "def": 36,
       "spatk": 77,
       "spdef": 38,
-      "total": 431
+      "total": 423
     },
     "traits": [
       "Dreaded Alarm",
@@ -11754,6 +11724,125 @@
       "spdef": 0
     },
     "gameDescription": "Ukama, also known in Turquesa as \"sea-sickles\", are one of the fastest waterborne Temtem. They can easily outrun the sleekest sailboat, even swimming against the Sillaro current, so tamers have to use charm and guile to approach them.",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 91,
+    "name": "Raignet",
+    "types": [
+      "Electric"
+    ],
+    "portraitWikiUrl": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/50/Raignet.png/50px-Raignet.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Raignet",
+    "stats": {
+      "hp": 68,
+      "sta": 57,
+      "spd": 54,
+      "atk": 81,
+      "def": 69,
+      "spatk": 58,
+      "spdef": 50,
+      "total": 437
+    },
+    "traits": [],
+    "details": {
+      "height": {
+        "cm": 170,
+        "inches": 66
+      },
+      "weight": {
+        "kg": 110,
+        "lbs": 242
+      }
+    },
+    "techniques": [
+      {
+        "name": "Sparks",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "DC Beam",
+        "source": "Levelling",
+        "levels": 3
+      },
+      {
+        "name": "Sparkling Bullet",
+        "source": "Levelling",
+        "levels": 9
+      },
+      {
+        "name": "Tesla Prison",
+        "source": "Levelling",
+        "levels": 15
+      },
+      {
+        "name": "Thunder Strike",
+        "source": "Levelling",
+        "levels": 20
+      },
+      {
+        "name": "Electropunch",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Electromagnitism",
+        "source": "Levelling",
+        "levels": 40
+      }
+    ],
+    "trivia": [
+      "Raignet's name is derived from Ray and Magnet.",
+      "Raignet was first revealed via Twitter."
+    ],
+    "evolution": {
+      "stage": 2,
+      "evolutionTree": [
+        {
+          "number": -1,
+          "name": "Unknown",
+          "stage": 1
+        },
+        {
+          "number": 91,
+          "name": "Raignet",
+          "stage": 2,
+          "traitMapping": {}
+        }
+      ],
+      "evolves": true,
+      "type": "level"
+    },
+    "wikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/50/Raignet.png/250px-Raignet.png?version=49233b686887a7d1f542b753ffabf1c1",
+    "lumaWikiPortraitUrlLarge": "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/5/54/LumaRaignet.png/250px-LumaRaignet.png?version=be244af69e894b9d166037c79bb98238",
+    "locations": [],
+    "icon": "/images/portraits/temtem/large/Raignet.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Raignet.png",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 90,
+    "hatchMins": 27,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "When suddenly all the cutlery in your kitchen flies out of the window, you know this Temtem is nearby. In fact, it uses its magnetic power to move its own heavy, metallic body. The Cipanki always keep them away from their fridges.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
