@@ -190,7 +190,7 @@
         "damage": 30
       }
     ],
-    "targets": "None",
+    "targets": "Other Team or Ally",
     "description": "A primal charge, like the stampede on the Kisiwa plains! It inflicts damage on the whole team."
   },
   {
@@ -549,14 +549,9 @@
     "synergy": "Wind",
     "synergyEffects": [
       {
-        "effect": "+20 Base Power",
+        "effect": "+20 Base Power+1 Priority",
         "type": "damage",
         "damage": 20
-      },
-      {
-        "effect": "+1 Priority",
-        "type": "priority",
-        "damage": 0
       }
     ],
     "targets": "Single Other Target",
@@ -822,7 +817,7 @@
     "synergy": "Electric",
     "synergyEffects": [
       {
-        "effect": "+30 Base Damage Becomes  Electric   Gives 2 turn Seized",
+        "effect": "+30 Base Damage Becomes Electric+ 2 turns Seized",
         "type": "damage",
         "damage": 30
       }
@@ -1197,9 +1192,9 @@
     "synergy": "Mental",
     "synergyEffects": [
       {
-        "effect": "+50 Base Damage",
+        "effect": "Becomes Special+50 Base Damage",
         "type": "damage",
-        "damage": 50
+        "damage": 0
       }
     ],
     "targets": "Single Other Target",
