@@ -3,7 +3,22 @@
     "name": "First Steps",
     "wikiUrl": "https://temtem.gamepedia.com/First_Steps",
     "type": "main",
-    "steps": [],
+    "steps": [
+      "The day has come! Start your journey!",
+      "Join Professor Konstantinos at his lab.",
+      "Choose your first Temtem!",
+      "Meet the Professor outside...",
+      "Catch up with Max and the Professor in Briçal de Mar.",
+      "Aquire a Temessence phial from Luisouvenirs to explore further.",
+      "Further your training at Sophia's Dojo in Arissola.",
+      "Look for Sophia beyond the Gifted Bridges.",
+      "Find the key and free Sophia from Windward Fort.",
+      "Release Sophia!",
+      "Get back to the Arissola Dojo and challenge Sophia!",
+      "Talk to Adia Turay in the airship terminal.",
+      "Find Tihani in Turquesa",
+      "All aboard! Sail in the Narwhal!"
+    ],
     "rewards": [
       "Tempedia",
       "Tuwai",
@@ -19,7 +34,14 @@
     "name": "Flight of the Narwhal",
     "wikiUrl": "https://temtem.gamepedia.com/Flight_of_the_Narwhal",
     "type": "main",
-    "steps": [],
+    "steps": [
+      "Talk to captain Adia Turay.",
+      "Ask navigator Kemal for those charts.",
+      "Get Kemal a cup of coffee.",
+      "Bring that hot caffeine to Kemal.",
+      "Make sure the captain gets the charts.",
+      "Let Adia Turay know when you're ready to land."
+    ],
     "rewards": [],
     "startingLocation": "Narwhal",
     "startingNPC": "",
@@ -29,7 +51,19 @@
     "name": "Adventure in the Myrisles",
     "wikiUrl": "https://temtem.gamepedia.com/Adventure_in_the_Myrisles",
     "type": "main",
-    "steps": [],
+    "steps": [
+      "Find Rawiri at his Dojo in Mokupuni",
+      "Go to Mokupuni and beat Dojo Master Rawiri",
+      "Investigate what is going on at the Giant Banyan",
+      "Ambush the off-duty Belsotos at the pond",
+      "Meet Carlos outside the Giant Banyan",
+      "Infiltrate the Giant Banyan",
+      "Reach the Anak Volcano and stop the eruption",
+      "Put an end to Dr. Hamijo's dastardly plan!",
+      "Time to return to Nanga and Check on Tihani...",
+      "Beat Tihani to prove your mettle",
+      "Fly to Kisiwa on the Narwhal"
+    ],
     "rewards": [
       "Elevator Key",
       "Signed Authorization",
@@ -47,7 +81,10 @@
     "name": "A trip to Kisiwa...",
     "wikiUrl": "https://temtem.gamepedia.com/A_trip_to_Kisiwa...",
     "type": "main",
-    "steps": [],
+    "steps": [
+      "Go to the main deck and see what's going on...",
+      "Shiver me Timbers! Defeat the Belsoto pirates!"
+    ],
     "rewards": [],
     "startingLocation": "Narwhal",
     "startingNPC": "",
@@ -57,7 +94,18 @@
     "name": "Shipwrecked in Tucma!",
     "wikiUrl": "https://temtem.gamepedia.com/Shipwrecked_in_Tucma!",
     "type": "main",
-    "steps": [],
+    "steps": [
+      "Help Matthew find the survivors.",
+      "Talk to Octlana.",
+      "Find the hermit Naolin",
+      "Cross the Xolot Reservoir and reach Quetzal",
+      "Escape from the Mines of Mictlan",
+      "Ask for help at the local Dojo.",
+      "Complete the other quests",
+      "Find an airship to Kisiwa",
+      "Meet Manki in Kupleleza",
+      "Rockhop all the way to Kisiwa!"
+    ],
     "rewards": [
       "Tucma Mask",
       "Incognito Hood",
@@ -72,10 +120,11 @@
     "name": "First Aid",
     "wikiUrl": "https://temtem.gamepedia.com/First_Aid",
     "type": "main",
-    "steps": [],
-    "rewards": [
-      "TC016: Held Anger"
+    "steps": [
+      "Buy some medicines from the Temporium",
+      "Bring the medicines to Octlana"
     ],
+    "rewards": ["TC016: Held Anger"],
     "startingLocation": "Quetzal",
     "startingNPC": "",
     "requirements": ""
@@ -84,7 +133,13 @@
     "name": "Free Matthew",
     "wikiUrl": "https://temtem.gamepedia.com/Free_Matthew",
     "type": "main",
-    "steps": [],
+    "steps": [
+      "Talk to Matthew in the prison",
+      "Convince the Captain to liberate Matthew",
+      "Scout the isle in the northern Xolot Reservoir",
+      "Find the renegade guards in an island in Xolot",
+      "Bring the idol back to the Captain of Quetzal"
+    ],
     "rewards": [],
     "startingLocation": "Quetzal",
     "startingNPC": "",
@@ -94,11 +149,18 @@
     "name": "Beached Narwhal",
     "wikiUrl": "https://temtem.gamepedia.com/Beached_Narwhal",
     "type": "main",
-    "steps": [],
-    "rewards": [
-      "Acid-Proof Surfboard",
-      "Shuine's Horn"
+    "steps": [
+      "Ask the Guildmaster to repair the Narwhal.",
+      "Buy some means of transportation from Akatzin",
+      "Bring a Toxolotl to Akatzin",
+      "Ask Sugey to acid-proof your surfboard",
+      "Find the entrance to the cenote",
+      "Explore the Kakama Cenote",
+      "Take the idol",
+      "Reopen the gate to the Mines",
+      "Tell the Guildmaster you've reopened the Mines"
     ],
+    "rewards": ["Acid-Proof Surfboard", "Shuine's Horn"],
     "startingLocation": "Quetzal",
     "startingNPC": "",
     "requirements": ""
@@ -107,10 +169,12 @@
     "name": "Water Supply",
     "wikiUrl": "https://temtem.gamepedia.com/Water_Supply",
     "type": "main",
-    "steps": [],
-    "rewards": [
-      "TC009: Antitoxins"
+    "steps": [
+      "Go underground and get water samples",
+      "Get the second water sample",
+      "Bring the water samples to Sugey"
     ],
+    "rewards": ["TC009: Antitoxins"],
     "startingLocation": "Xolot Reservoir",
     "startingNPC": "",
     "requirements": ""
@@ -119,13 +183,17 @@
     "name": "Find Kemal",
     "wikiUrl": "https://temtem.gamepedia.com/Find_Kemal",
     "type": "main",
-    "steps": [],
-    "rewards": [
-      "Squeezer",
-      "Energy Drink",
-      "TC008: Awful Song",
-      "Rock Shield"
+    "steps": [
+      "Tell Izel that Octlana is fine",
+      "Ask the owner of the Jaguar Lounge about Kemal.",
+      "See if Jimena at the Lounge has heard of Kemal...",
+      "Ask a patron of the Jaguar Lounge (Yela) about Kemal...",
+      "Ask the drunk about Kemal...",
+      "Dead end! Leave the Jaguar Lounge...",
+      "Visit Manki at his house",
+      "Manki knows another way to Kisiwa, via rock-hopping"
     ],
+    "rewards": ["Squeezer", "Energy Drink", "TC008: Awful Song", "Rock Shield"],
     "startingLocation": "Quetzal",
     "startingNPC": "",
     "requirements": ""
@@ -148,9 +216,7 @@
     "requirements": "See sub-quests",
     "reward": "???",
     "type": "side",
-    "steps": [
-      "Ask Pasiphaë at her Turquesa townhouse."
-    ],
+    "steps": ["Ask Pasiphaë at her Turquesa townhouse."],
     "rewards": [],
     "startingLocation": "Sillaro River",
     "startingNPC": "Minos or Pasiphaë."
@@ -172,9 +238,7 @@
       "Find Yaba at the eastern tip of Kupeleleza being held captured by a pair of bandits.",
       "Get back to Zulia for your reward"
     ],
-    "rewards": [
-      "TC015: Footwork"
-    ],
+    "rewards": ["TC015: Footwork"],
     "startingLocation": "Tucma",
     "startingNPC": "Zulia"
   },
@@ -232,9 +296,7 @@
       "Return to Pasiphae's and tell Asterion the good news.",
       "Check on Asterion aboard the Narwhal."
     ],
-    "rewards": [
-      "Pewki"
-    ],
+    "rewards": ["Pewki"],
     "startingLocation": "Sillaro River",
     "startingNPC": "Asterion"
   },
@@ -246,10 +308,8 @@
     "requirements": "Access to Kisiwa",
     "reward": "Iron Coating",
     "type": "side",
-    "steps": [],
-    "rewards": [
-      "Iron Coating"
-    ],
+    "steps": ["Get Phaedra a place in Arbury University."],
+    "rewards": ["Iron Coating"],
     "startingLocation": "Sillaro River",
     "startingNPC": "Phaedra"
   },
@@ -265,10 +325,7 @@
       "Deliver the blueprints to the Guildmaster of Tucma.",
       "Get back to Myrisles Engineering."
     ],
-    "rewards": [
-      "Lightning Rod",
-      "Snare"
-    ],
+    "rewards": ["Lightning Rod", "Snare"],
     "startingLocation": "Nanga",
     "startingNPC": "Oliana"
   },
@@ -285,9 +342,7 @@
       "team",
       "Report back to Valentina"
     ],
-    "rewards": [
-      "Sweatband"
-    ],
+    "rewards": ["Sweatband"],
     "startingLocation": "",
     "startingNPC": "Valentina"
   },
@@ -299,12 +354,8 @@
     "requirements": "Access to Kisiwa",
     "reward": "DoubleScreen, ???",
     "type": "side",
-    "steps": [
-      "Find a coveted copy of \"Endaira's Quest\" in Kisiwa."
-    ],
-    "rewards": [
-      "DoubleScreen"
-    ],
+    "steps": ["Find a coveted copy of \"Endaira's Quest\" in Kisiwa."],
+    "rewards": ["DoubleScreen"],
     "startingLocation": "Arissola",
     "startingNPC": "Laura"
   },
@@ -320,9 +371,7 @@
       "Find the missing pendant...",
       "Return the pendant to Clara in Zadar"
     ],
-    "rewards": [
-      "TC001: Tsunami"
-    ],
+    "rewards": ["TC001: Tsunami"],
     "startingLocation": "Zadar",
     "startingNPC": "Clara"
   },
@@ -334,11 +383,13 @@
     "requirements": "None",
     "reward": "Drill, Incubator device",
     "type": "side",
-    "steps": [],
-    "rewards": [
-      "Drill",
-      "Incubator device"
+    "steps": [
+      "Locate Zamzaditta, somewhere in Kisiwa.",
+      "Bring Zamzaditta a Gyalis egg.",
+      "Bring Zamzaditta a Hidody egg.",
+      "Deliver the incubator prototype to Akihiro."
     ],
+    "rewards": ["Drill", "Incubator device"],
     "startingLocation": "Historical Customs Office",
     "startingNPC": "Akihiro"
   },
@@ -355,9 +406,7 @@
       "Free Tlaloc from the prison",
       "Rejoin Tlaloc and Tokatl in the Xolot island."
     ],
-    "rewards": [
-      "TC018: Major Slash"
-    ],
+    "rewards": ["TC018: Major Slash"],
     "startingLocation": "Tucma",
     "startingNPC": "Tokatl"
   },
@@ -369,11 +418,13 @@
     "requirements": "None",
     "reward": "TurbanHandcuffs",
     "type": "side",
-    "steps": [],
-    "rewards": [
-      "Turban",
-      "Handcuffs"
+    "steps": [
+      "Get the screenplay from Visesia's agent.",
+      "Study the script with the help of the director.",
+      "Tell the camerawoman you're ready.",
+      "Star in a movie with Visesia!"
     ],
+    "rewards": ["Turban", "Handcuffs"],
     "startingLocation": "Nuru Lodge",
     "startingNPC": "Visesia"
   },
@@ -385,12 +436,8 @@
     "requirements": "None",
     "reward": "TC020: Brace",
     "type": "side",
-    "steps": [
-      "See what Carlos can learn from Lady Lottie's diary..."
-    ],
-    "rewards": [
-      "Brace"
-    ],
+    "steps": ["See what Carlos can learn from Lady Lottie's diary..."],
+    "rewards": ["Brace"],
     "startingLocation": "Giant Banyan",
     "startingNPC": ""
   },
@@ -406,9 +453,7 @@
       "Consult with Carlos in Briçal.",
       "Alternatively, if you have already advanced in the main story, talk to Old Despina in Turquesa."
     ],
-    "rewards": [
-      "Revive"
-    ],
+    "rewards": ["Revive"],
     "startingLocation": "Sillaro River",
     "startingNPC": ""
   },
@@ -424,9 +469,7 @@
       "Find Yusuf and Roger in Briçal.",
       "Report back to the Headmistress of the Accademia."
     ],
-    "rewards": [
-      "Decoy"
-    ],
+    "rewards": ["Decoy"],
     "startingLocation": "Briçal de Mar",
     "startingNPC": "Headmistress Dolça"
   },
@@ -444,9 +487,7 @@
       "Look for the slip of paper in the Briçal Temporium.",
       "Return the slip of paper to Josep at the Accademia."
     ],
-    "rewards": [
-      "Vital Apple"
-    ],
+    "rewards": ["Vital Apple"],
     "startingLocation": "Briçal de Mar",
     "startingNPC": "Josep"
   },
@@ -462,9 +503,7 @@
       "Locate the famous Visesia in Citerior Omninesia",
       "Talk to Paparazzo."
     ],
-    "rewards": [
-      "Pillow"
-    ],
+    "rewards": ["Pillow"],
     "startingLocation": "Mokupuni or The Flywalk",
     "startingNPC": "Paparazzo or Visesia"
   },
@@ -490,9 +529,7 @@
     "reward": "Revive x1",
     "type": "side",
     "steps": [],
-    "rewards": [
-      "Revive"
-    ],
+    "rewards": ["Revive"],
     "startingLocation": "Briçal de Mar",
     "startingNPC": "Cute Toddler"
   },
@@ -508,10 +545,7 @@
       "Acquire the goods from Lorenzo, near Turquesa.",
       "Bring back the salt to Parfumier."
     ],
-    "rewards": [
-      "Sea Salt",
-      "Scent"
-    ],
+    "rewards": ["Sea Salt", "Scent"],
     "startingLocation": "The Gifted Bridges",
     "startingNPC": "Giulia"
   },
@@ -523,15 +557,8 @@
     "requirements": "None",
     "reward": "TC004: Wake Up",
     "type": "side",
-    "steps": [
-      "OBJECTIVE NEEDED",
-      "Giant Banyan",
-      "Vulvir",
-      "Mokupuni"
-    ],
-    "rewards": [
-      "TC004: Wake Up"
-    ],
+    "steps": ["OBJECTIVE NEEDED", "Giant Banyan", "Vulvir", "Mokupuni"],
+    "rewards": ["TC004: Wake Up"],
     "startingLocation": "Mokupuni (Inside the building)",
     "startingNPC": "Sanyu"
   },
@@ -543,13 +570,8 @@
     "requirements": "",
     "reward": "Egg Timer",
     "type": "side",
-    "steps": [
-      "Breed a Bigu and bring it to the man.",
-      "Important:"
-    ],
-    "rewards": [
-      "Egg Timer"
-    ],
+    "steps": ["Breed a Bigu and bring it to the man.", "Important:"],
+    "rewards": ["Egg Timer"],
     "startingLocation": "Quetzal",
     "startingNPC": "Temtem Connoisseur"
   },
@@ -565,9 +587,7 @@
       "Show Daedalus your Tempedia",
       "Daedalus (Thalassian Cliffs) needs a Barnshe."
     ],
-    "rewards": [
-      "TC003: Turbo Choreography"
-    ],
+    "rewards": ["TC003: Turbo Choreography"],
     "startingLocation": "Thalassian Cliffs",
     "startingNPC": "Daedalus"
   },
@@ -587,10 +607,7 @@
       "Break the bad news to Idris in Turquesa.",
       "Inform Theodora about the cancelled ferry."
     ],
-    "rewards": [
-      "Revive",
-      "Smoke Bomb"
-    ],
+    "rewards": ["Revive", "Smoke Bomb"],
     "startingLocation": "Briçal de Mar",
     "startingNPC": "Theodora"
   },
@@ -606,9 +623,7 @@
       "Give the tourist in Arissola a guided tour of Deniz",
       "Inform the tour operator in Arissola of your success"
     ],
-    "rewards": [
-      "Umbrella"
-    ],
+    "rewards": ["Umbrella"],
     "startingLocation": "Arissola",
     "startingNPC": "Tour Operator"
   },
@@ -620,14 +635,8 @@
     "requirements": "Access to the Narwhal",
     "reward": "Lure, Hand Fan, Coat, 2500",
     "type": "side",
-    "steps": [
-      "Omninesia."
-    ],
-    "rewards": [
-      "Lure",
-      "Hand Fan",
-      "Coat"
-    ],
+    "steps": ["Omninesia."],
+    "rewards": ["Lure", "Hand Fan", "Coat"],
     "startingLocation": "Narwhal",
     "startingNPC": "Tarlae"
   },
@@ -639,12 +648,8 @@
     "requirements": "None",
     "reward": "Energetic Kiwi",
     "type": "side",
-    "steps": [
-      "Do you know as much about Temtem as little Liliana?"
-    ],
-    "rewards": [
-      "Energetic Kiwi"
-    ],
+    "steps": ["Do you know as much about Temtem as little Liliana?"],
+    "rewards": ["Energetic Kiwi"],
     "startingLocation": "Arissola",
     "startingNPC": "Liliana"
   }

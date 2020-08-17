@@ -41,12 +41,19 @@ export default async function embellishQuests(quests: MinimalQuest[]) {
   const webpages = await fetchHTML("quests", quests, "wikiUrl");
   const embellished = webpages.map(({ item, html }) => {
     const $ = cheerio.load(html);
-    const steps = $("#Objectives")
+    const stepsContainer = $("#Objectives")
       .parent()
-      .next()
+      .next();
+    let steps = stepsContainer
       .find("b")
       .map((_i, b) => $(b).text())
       .toArray();
+    if (steps.length === 0) {
+      steps = stepsContainer
+        .find("li")
+        .map((_i, b) => $(b).text())
+        .toArray();
+    }
     const reward = getInfoBoxEl($, "Reward");
     const rewardItems = $(reward)
       .children()
