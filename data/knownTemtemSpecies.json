@@ -11747,52 +11747,39 @@
       "spdef": 50,
       "total": 437
     },
-    "traits": [],
+    "traits": [
+      "Kinetic Transfer"
+    ],
     "details": {
       "height": {
-        "cm": 170,
-        "inches": 66
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 110,
-        "lbs": 242
+        "kg": 0,
+        "lbs": 0
       }
     },
     "techniques": [
       {
-        "name": "Sparks",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "DC Beam",
-        "source": "Levelling",
-        "levels": 3
-      },
-      {
-        "name": "Sparkling Bullet",
-        "source": "Levelling",
-        "levels": 9
-      },
-      {
         "name": "Tesla Prison",
         "source": "Levelling",
-        "levels": 15
+        "levels": 0
       },
       {
         "name": "Thunder Strike",
         "source": "Levelling",
-        "levels": 20
+        "levels": 0
       },
       {
         "name": "Electropunch",
         "source": "Levelling",
-        "levels": 32
+        "levels": 0
       },
       {
         "name": "Electromagnitism",
         "source": "Levelling",
-        "levels": 40
+        "levels": 0
       }
     ],
     "trivia": [
@@ -11811,7 +11798,9 @@
           "number": 91,
           "name": "Raignet",
           "stage": 2,
-          "traitMapping": {}
+          "traitMapping": {
+            "Kinetic Transfer": "Kinetic Transfer"
+          }
         }
       ],
       "evolves": true,
@@ -11826,8 +11815,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 90,
-    "hatchMins": 27,
+    "catchRate": 200,
+    "hatchMins": 5,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -15291,93 +15280,42 @@
       "total": 497
     },
     "traits": [
-      "Comebacker",
-      "Cold-Blooded"
+      "Comebacker"
     ],
     "details": {
       "height": {
-        "cm": 230,
-        "inches": 90
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 400,
-        "lbs": 882
+        "kg": 0,
+        "lbs": 0
       }
     },
     "techniques": [
       {
-        "name": "Charge",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Fierce Claw",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Show Off",
-        "source": "Levelling",
-        "levels": 10
-      },
-      {
-        "name": "Bonecracker",
-        "source": "Levelling",
-        "levels": 15
-      },
-      {
         "name": "Late Torment",
         "source": "Levelling",
-        "levels": 23
+        "levels": 0
       },
       {
         "name": "Savage Suplex",
         "source": "Levelling",
-        "levels": 30
+        "levels": 0
       },
       {
         "name": "Oshi-Dashi",
         "source": "Levelling",
-        "levels": 42
+        "levels": 0
       },
       {
         "name": "Hibernate",
         "source": "Levelling",
-        "levels": 50
-      },
-      {
-        "name": "Winter Call",
-        "source": "Levelling",
-        "levels": 58
-      },
-      {
-        "name": "Misogi",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Confiscate",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Block",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Darkness",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Toughen",
-        "source": "Breeding"
-      },
-      {
-        "name": "Ice Cubes",
-        "source": "Breeding"
+        "levels": 0
       }
     ],
     "trivia": [
-      "Yowlar's name is derived from Yowie (Australian folklore creature similar to the Yeti) and Polar.",
-      "Yowlar has the highest base stat total of all Temtem and, by extension, all Neutral type Temtem at 497."
+      "Yowlar's name is derived from Yowie (Australian folklore creature similar to the Yeti) and Polar."
     ],
     "evolution": {
       "evolves": false
@@ -15391,8 +15329,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 90,
-    "hatchMins": 27,
+    "catchRate": 200,
+    "hatchMins": 5,
     "tvYields": {
       "hp": 3,
       "sta": 0,
@@ -16049,69 +15987,40 @@
     ],
     "details": {
       "height": {
-        "cm": 205,
-        "inches": 80
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 148,
-        "lbs": 326
+        "kg": 0,
+        "lbs": 0
       }
     },
     "techniques": [
       {
-        "name": "Kick",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Bamboozle",
-        "source": "Levelling",
-        "levels": 5
-      },
-      {
-        "name": "Hypnosis",
-        "source": "Levelling",
-        "levels": 8
-      },
-      {
-        "name": "Head Ram",
-        "source": "Levelling",
-        "levels": 16
-      },
-      {
         "name": "Intimidation",
         "source": "Levelling",
-        "levels": 24
+        "levels": 0
       },
       {
         "name": "Psy Surge",
         "source": "Levelling",
-        "levels": 32
+        "levels": 0
       },
       {
         "name": "Extra Energy Slam",
         "source": "Levelling",
-        "levels": 40
+        "levels": 0
       },
       {
         "name": "Telekinetic Shrapnel",
         "source": "Levelling",
-        "levels": 50
-      },
-      {
-        "name": "Darkness",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Untangle",
-        "source": "TechniqueCourses"
+        "levels": 0
       }
     ],
     "trivia": [
       "Valiar's name is derived from Vacio (empty in Spanish) and Ampliar (extend in Spanish referencing them using their ear holes to amplify their mental powers).",
       "Valiar was first revealed through its early concept art via Twitter.",
-      "Valiar looks very different in its concept art compared to its final design. The main colouration is a dark and light purple, and Valiar is generally depicted with a stripe pattern instead of a spot pattern. In addition, some key details like the thick neck tuft are not present. The eyes have a completely different shape and color compared to the final version.",
-      "Judging by its description and appearance, Valiar will likely be a Mental-type Temtem."
+      "Valiar looks very different in its concept art compared to its final design. The main colouration is a dark and light purple, and Valiar is generally depicted with a stripe pattern instead of a spot pattern. In addition, some key details like the thick neck tuft are not present. The eyes have a completely different shape and color compared to the final version."
     ],
     "evolution": {
       "evolves": false
@@ -16125,8 +16034,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 85,
-    "hatchMins": 28,
+    "catchRate": 200,
+    "hatchMins": 5,
     "tvYields": {
       "hp": 0,
       "sta": 2,
