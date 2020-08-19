@@ -2346,18 +2346,18 @@
   {
     "name": "Regenerate",
     "wikiUrl": "https://temtem.gamepedia.com/Regenerate",
-    "type": "Neutral",
-    "class": "Status",
-    "classIcon": "/images/icons/technique/Status.png",
+    "type": "",
+    "class": "",
+    "classIcon": "/images/icons/technique/.png",
     "damage": 0,
     "staminaCost": 0,
     "hold": 0,
     "priority": "unknown",
     "priorityIcon": "/images/icons/priority/unknown.png",
-    "synergy": "?",
+    "synergy": "",
     "synergyEffects": [],
-    "targets": "?",
-    "description": "Currently, Regenerate is unavailable, so its unknown what it's description is."
+    "targets": "",
+    "description": ""
   },
   {
     "name": "Relax",
@@ -2738,24 +2738,18 @@
   {
     "name": "Slow Down",
     "wikiUrl": "https://temtem.gamepedia.com/Slow_Down",
-    "type": "Mental",
-    "class": "Status",
-    "classIcon": "/images/icons/technique/Status.png",
+    "type": "",
+    "class": "",
+    "classIcon": "/images/icons/technique/.png",
     "damage": 0,
     "staminaCost": 0,
     "hold": 0,
     "priority": "unknown",
     "priorityIcon": "/images/icons/priority/unknown.png",
-    "synergy": "Mental",
-    "synergyEffects": [
-      {
-        "effect": "+ Sleep Status",
-        "type": "condition",
-        "damage": 0
-      }
-    ],
-    "targets": "?",
-    "description": "Currently, Slow Down is unavailable, so its unknown what it's description is."
+    "synergy": "",
+    "synergyEffects": [],
+    "targets": "",
+    "description": ""
   },
   {
     "name": "Sludge Gift",
