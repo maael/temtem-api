@@ -162,6 +162,7 @@ function getRenderImages(html: string, debug: boolean = false) {
           .replace(`/${path.parse(originalUrl).name}`, "")
           .replace(".png.png", ".png")
           .replace(".gif.gif", ".gif")
+          .replace(/\/revision\/latest\/scale-to-width.*$/, "")
       };
     })
   ).reduce(
@@ -184,6 +185,7 @@ function getRenderImages(html: string, debug: boolean = false) {
           .replace(`/${path.parse(originalUrl).name}`, "")
           .replace(".png.png", ".png")
           .replace(".gif.gif", ".gif")
+          .replace(/\/revision\/latest\/scale-to-width.*$/, "")
       };
     })
   ).reduce(
@@ -263,7 +265,7 @@ function getWikiPortraitUrl(html: string) {
     $("#mw-content-text .infobox-table #ttw-temtem img")
       .first()
       .attr("src") || ""
-  );
+  ).replace(/\/revision\/latest\/scale-to-width.*$/, "");
 }
 
 function getWikiLumaPortraitUrl(html: string) {
@@ -272,7 +274,7 @@ function getWikiLumaPortraitUrl(html: string) {
     $("#mw-content-text .infobox-table #ttw-temtem-luma img")
       .first()
       .attr("src") || ""
-  );
+  ).replace(/\/revision\/latest\/scale-to-width.*$/, "");
 }
 
 function getCatchRate(html: string) {

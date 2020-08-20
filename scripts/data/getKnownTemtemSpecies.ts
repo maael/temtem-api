@@ -61,7 +61,8 @@ function getTemInfoFromRow($, row): Temtem {
     .find("img")
     .attr("src")
     .trim()
-    .replace(/\?.*/, "");
+    .replace(/\?.*/, "")
+    .replace(/\/revision\/latest\/scale-to-width.*$/, "");
   const tem = {
     number: basicStats[0],
     name: basicStats[1],
