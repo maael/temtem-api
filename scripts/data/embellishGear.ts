@@ -45,7 +45,9 @@ export default async function embellishGear(
           ($("#mw-content-text>.mw-parser-output .infobox-table a")
             .html()!
             .match(/src="(.+?)"/) || [])[1] || ""
-        ).split("?")[0];
+        )
+          .split("?")[0]
+          .replace(/\/revision\/latest\/scale-to-width.*$/, "");
         return {
           ...item,
           wikiIconUrl,

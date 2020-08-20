@@ -81,9 +81,10 @@ function getImage($: CheerioStatic) {
   const thumbnail = thumb.find("img").attr("src");
   const parsedThumbnail = url.parse(thumbnail || "");
   return {
-    imageWikiThumbnail: thumbnail
+    imageWikiThumbnail: (thumbnail
       ? `${parsedThumbnail.protocol}//${parsedThumbnail.host}${parsedThumbnail.pathname}`
-      : "",
+      : ""
+    ).replace(/\/revision\/latest\/scale-to-width.*$/, ""),
     imageWikiFile: `https://temtem.gamepedia.com${fileLink}`
   };
 }
