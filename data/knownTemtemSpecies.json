@@ -13530,10 +13530,51 @@
     "trivia": [
       "Toxolotl's name is derived from toxic and axolotl."
     ],
-    "evolution": {},
+    "evolution": {
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 105,
+          "name": "Toxolotl",
+          "stage": 1,
+          "levels": 30,
+          "trading": false,
+          "traitMapping": {
+            "Power Nap": "Trance",
+            "Toxic Farewell": "Toxic Skin"
+          }
+        },
+        {
+          "number": 106,
+          "name": "Noxolotl",
+          "stage": 2,
+          "traitMapping": {
+            "Trance": "Trance",
+            "Toxic Skin": "Toxic Skin"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
+    },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4e/Toxolotl.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/59/LumaToxolotl.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Xolot Reservoir",
+        "place": "Xolot Reservoir",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "50% - 100%",
+        "level": "26 - 30",
+        "freetem": {
+          "minLevel": 26,
+          "maxLevel": 30,
+          "minPansuns": 85,
+          "maxPansuns": 95
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Toxolotl.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Toxolotl.png",
     "genderRatio": {
@@ -13551,7 +13592,7 @@
       "spatk": 2,
       "spdef": 0
     },
-    "gameDescription": "",
+    "gameDescription": "Perhaps no other Temtem is as representative of Tucma as the colorful Toxolotl. Each strand in its mane is supposed to signify one of the original Tucmani tribes that first excavated and settled Quetzal after the Anak cataclysm.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",

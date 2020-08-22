@@ -801,7 +801,7 @@
       }
     ],
     "targets": "Single Other Target",
-    "description": "Myrisles engineers hate this odd trick! Make the Earth shake and deal massive damage to the whole enemy team."
+    "description": "Myrisles engineers hate this odd trick! Make the Earth shake and deal massive damage to the target"
   },
   {
     "name": "Electric Storm",
@@ -2062,22 +2062,6 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Going for the ring out can be a dangerous Melee move in the smallest islands."
-  },
-  {
-    "name": "Overclock",
-    "wikiUrl": "https://temtem.gamepedia.com/Overclock",
-    "type": "",
-    "class": "",
-    "classIcon": "/images/icons/technique/.png",
-    "damage": 0,
-    "staminaCost": 0,
-    "hold": 0,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
-    "synergy": "",
-    "synergyEffects": [],
-    "targets": "",
-    "description": ""
   },
   {
     "name": "Paralyzing Poison",
@@ -3399,5 +3383,21 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "\"Wake up and smell the coffee! Inflicts minimal damage but wakes up the target instantly.\""
+  },
+  {
+    "name": "Warm Cuddle",
+    "wikiUrl": "https://temtem.gamepedia.com/Warm_Cuddle",
+    "type": "Fire",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 53,
+    "staminaCost": 12,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Some Temtem are so warm and cuddly that they can weaponize that love into a Fire technique."
   }
 ]
