@@ -71,12 +71,12 @@
   },
   {
     "name": "Alerted",
-    "description": "An Alert Temtem cannot fall asleep. After a Temtem wakes up from having the Sleep Condition, it will gain Alerted until the end of the next turn.",
+    "description": "An Alert Temtem cannot fall asleep. After a Temtem loses the Sleep Condition, it will gain Alerted until the end of the next turn.",
     "icon": "/images/icons/conditions/Alerted.png"
   },
   {
     "name": "Isolated",
-    "description": "Synergies do not work with isolated Temtem.",
+    "description": "Synergies do not work with Isolated Temtem.",
     "icon": "/images/icons/conditions/Isolated.png"
   }
 ]
