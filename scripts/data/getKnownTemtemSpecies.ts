@@ -55,7 +55,7 @@ function getTemInfoFromRow($, row): Temtem {
     .find("td")
     .text()
     .split("\n")
-    .map(t => t.trim())
+    .map(t => t.trim().replace("#", ""))
     .map(t => (isNaN(Number(t)) ? t : Number(t)));
   const portraitWikiUrl = $(row)
     .find("img")

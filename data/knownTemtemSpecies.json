@@ -1,10 +1,8 @@
 [
   {
-    "number": "#002",
+    "number": 2,
     "name": "Oree",
-    "types": [
-      "Digital"
-    ],
+    "types": ["Digital"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/99/Oree.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Oree",
@@ -18,9 +16,7 @@
       "spdef": 0,
       "total": 0
     },
-    "traits": [
-      "Attack T"
-    ],
+    "traits": ["Attack T"],
     "details": {
       "height": {
         "cm": 0,
@@ -74,7 +70,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#002",
+          "number": 2,
           "name": "Oree",
           "stage": 1,
           "traitMapping": {
@@ -82,7 +78,7 @@
           }
         },
         {
-          "number": "#003",
+          "number": 3,
           "name": "Zaobian",
           "stage": 2,
           "traitMapping": {
@@ -124,152 +120,121 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Oree.gif"
   },
   {
-    "number": "#161",
-    "name": "Anahir",
-    "types": [
-      "Crystal",
-      "Fire"
-    ],
-    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/ea/Anahir.png",
+    "number": 3,
+    "name": "Zaobian",
+    "types": ["Digital"],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/54/Zaobian.png",
     "lumaPortraitWikiUrl": "",
-    "wikiUrl": "https://temtem.gamepedia.com/Anahir",
+    "wikiUrl": "https://temtem.gamepedia.com/Zaobian",
     "stats": {
-      "hp": 54,
-      "sta": 36,
-      "spd": 31,
-      "atk": 50,
-      "def": 101,
-      "spatk": 50,
-      "spdef": 101,
-      "total": 423
-    },
-    "traits": [
-      "Trauma",
-      "Flawed Crystal"
-    ],
-    "details": {
-      "height": {
-        "cm": 152,
-        "inches": 59
-      },
-      "weight": {
-        "kg": 172,
-        "lbs": 379
-      }
-    },
-    "techniques": [
-      {
-        "name": "Glass Blade",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Fire Flame",
-        "source": "Levelling",
-        "levels": 4
-      },
-      {
-        "name": "Head Charge",
-        "source": "Levelling",
-        "levels": 9
-      },
-      {
-        "name": "Chains Hit",
-        "source": "Levelling",
-        "levels": 15
-      },
-      {
-        "name": "Meteor Swarm",
-        "source": "Levelling",
-        "levels": 21
-      },
-      {
-        "name": "Rampage",
-        "source": "Levelling",
-        "levels": 27
-      },
-      {
-        "name": "Heat Up",
-        "source": "Levelling",
-        "levels": 36
-      },
-      {
-        "name": "Crystal Bite",
-        "source": "Levelling",
-        "levels": 47
-      },
-      {
-        "name": "Mineral Hail",
-        "source": "Levelling",
-        "levels": 58
-      },
-      {
-        "name": "Magma Cannon",
-        "source": "TechniqueCourses"
-      }
-    ],
-    "trivia": [
-      "Anahir's name is derived from Anak and Terlahir (born in Indonesian), so its name means \"Born from Anak\".\nIts name was for a while rumored to be Rihanna backwards, which was \"confirmed\" on Twitter while CEO Tateru was in control on April 1st, 2020.",
-      "Its name was for a while rumored to be Rihanna backwards, which was \"confirmed\" on Twitter while CEO Tateru was in control on April 1st, 2020.",
-      "The Anahir you obtain during the quest Adventure in the Myrisles will always have 50 SVs in both DEF and SPDEF stats.",
-      "Players can decide to not obtain Anahir to save storage, useful for those who value storage for FreeTem. Similarly players can decide to obtain Anahir at a later date.",
-      "The Crystal Temtem that was subjected to intense heat to create Anahir is not a reference to any specific Temtem."
-    ],
-    "evolution": {
-      "evolves": false
-    },
-    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/ea/Anahir.png",
-    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/94/LumaAnahir.png",
-    "locations": [
-      {
-        "location": "Anak Volcano",
-        "place": "Anak Volcano",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "Gift",
-        "level": "20",
-        "freetem": {
-          "minLevel": 20,
-          "maxLevel": 20,
-          "minPansuns": null,
-          "maxPansuns": null
-        }
-      }
-    ],
-    "icon": "/images/portraits/temtem/large/Anahir.png",
-    "lumaIcon": "/images/portraits/temtem/luma/large/Anahir.png",
-    "genderRatio": {
-      "male": 50,
-      "female": 50
-    },
-    "catchRate": 0,
-    "hatchMins": 45,
-    "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
       "atk": 0,
-      "def": 2,
+      "def": 0,
       "spatk": 0,
-      "spdef": 2
+      "spdef": 0,
+      "total": 0
     },
-    "gameDescription": "This tortured creature is the result of Dr. Hamijo's attempts at creating a new \"Diamond\" variety. By picking the sturdiest variety of Crystal Temtem and submitting it to the harshest Fire environment of Anak, he has achieved something unique... and uniquely cruel.",
-    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/19/Anahir_full_render.png",
-    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d7/Anahir_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/be/LumaAnahir_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9c/LumaAnahir_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Anahir.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Anahir.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Anahir.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Anahir.gif"
+    "traits": ["Attack T"],
+    "details": {
+      "height": {
+        "cm": 0,
+        "inches": 0
+      },
+      "weight": {
+        "kg": 0,
+        "lbs": 0
+      }
+    },
+    "techniques": [
+      {
+        "name": "Cold Breeze",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
+        "name": "Tesla Prison",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
+        "name": "Heat Up",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
+        "name": "Turbo Attack",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
+        "name": "Firewall",
+        "source": "Levelling",
+        "levels": 0
+      }
+    ],
+    "trivia": [
+      "Zaobian's name is derived from zhào (megabyte in Chinese) and túbiàn (mutation in Chinese).",
+      "Zaobian and its pre-evolution are the only Digital Temtem as of Alpha 0.6.5."
+    ],
+    "evolution": {
+      "stage": 2,
+      "evolutionTree": [
+        {
+          "number": 2,
+          "name": "Oree",
+          "stage": 1,
+          "traitMapping": {
+            "Attack T": "Attack T"
+          }
+        },
+        {
+          "number": 3,
+          "name": "Zaobian",
+          "stage": 2,
+          "traitMapping": {
+            "Attack T": "Attack T"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
+    },
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/54/Zaobian.png",
+    "lumaWikiPortraitUrlLarge": "",
+    "locations": [],
+    "icon": "/images/portraits/temtem/large/Zaobian.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Zaobian.png",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 2,
+      "spd": 0,
+      "atk": 1,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "Zaobian are part of the second generation of Digital Temtem. Created with much more refined technology, they are more intelligent friends and companions, as well as sturdier in battle.",
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e0/Zaobian_full_render.png",
+    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/20/Zaobian_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e0/Zaobian_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/20/Zaobian_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Zaobian.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Zaobian.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Zaobian.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Zaobian.gif"
   },
   {
-    "number": "#007",
+    "number": 7,
     "name": "Platypet",
-    "types": [
-      "Water",
-      "Toxic"
-    ],
+    "types": ["Water", "Toxic"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/03/Platypet.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Platypet",
@@ -283,10 +248,7 @@
       "spdef": 56,
       "total": 358
     },
-    "traits": [
-      "Toxic Affinity",
-      "Amphibian"
-    ],
+    "traits": ["Toxic Affinity", "Amphibian"],
     "details": {
       "height": {
         "cm": 85,
@@ -359,7 +321,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#007",
+          "number": 7,
           "name": "Platypet",
           "stage": 1,
           "levels": 20,
@@ -370,7 +332,7 @@
           }
         },
         {
-          "number": "#008",
+          "number": 8,
           "name": "Platox",
           "stage": 2,
           "levels": 20,
@@ -381,7 +343,7 @@
           }
         },
         {
-          "number": "#009",
+          "number": 9,
           "name": "Platimous",
           "stage": 3,
           "traitMapping": {
@@ -467,12 +429,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Platypet.gif"
   },
   {
-    "number": "#008",
+    "number": 8,
     "name": "Platox",
-    "types": [
-      "Water",
-      "Toxic"
-    ],
+    "types": ["Water", "Toxic"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7b/Platox.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Platox",
@@ -486,10 +445,7 @@
       "spdef": 63,
       "total": 404
     },
-    "traits": [
-      "Resistant",
-      "Resilient"
-    ],
+    "traits": ["Resistant", "Resilient"],
     "details": {
       "height": {
         "cm": 140,
@@ -595,7 +551,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#007",
+          "number": 7,
           "name": "Platypet",
           "stage": 1,
           "levels": 20,
@@ -606,7 +562,7 @@
           }
         },
         {
-          "number": "#008",
+          "number": 8,
           "name": "Platox",
           "stage": 2,
           "levels": 20,
@@ -617,7 +573,7 @@
           }
         },
         {
-          "number": "#009",
+          "number": 9,
           "name": "Platimous",
           "stage": 3,
           "traitMapping": {
@@ -675,12 +631,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Platox.gif"
   },
   {
-    "number": "#009",
+    "number": 9,
     "name": "Platimous",
-    "types": [
-      "Water",
-      "Toxic"
-    ],
+    "types": ["Water", "Toxic"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7f/Platimous.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Platimous",
@@ -694,10 +647,7 @@
       "spdef": 70,
       "total": 462
     },
-    "traits": [
-      "Zen",
-      "Determined"
-    ],
+    "traits": ["Zen", "Determined"],
     "details": {
       "height": {
         "cm": 190,
@@ -813,7 +763,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": "#007",
+          "number": 7,
           "name": "Platypet",
           "stage": 1,
           "levels": 20,
@@ -824,7 +774,7 @@
           }
         },
         {
-          "number": "#008",
+          "number": 8,
           "name": "Platox",
           "stage": 2,
           "levels": 20,
@@ -835,7 +785,7 @@
           }
         },
         {
-          "number": "#009",
+          "number": 9,
           "name": "Platimous",
           "stage": 3,
           "traitMapping": {
@@ -878,11 +828,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Platimous.gif"
   },
   {
-    "number": "#010",
+    "number": 10,
     "name": "Swali",
-    "types": [
-      "Nature"
-    ],
+    "types": ["Nature"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8a/Swali.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Swali",
@@ -896,10 +844,7 @@
       "spdef": 60,
       "total": 349
     },
-    "traits": [
-      "Shared Pain",
-      "Mithridatism"
-    ],
+    "traits": ["Shared Pain", "Mithridatism"],
     "details": {
       "height": {
         "cm": 82,
@@ -981,7 +926,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#010",
+          "number": 10,
           "name": "Swali",
           "stage": 1,
           "levels": 8,
@@ -992,7 +937,7 @@
           }
         },
         {
-          "number": "#011",
+          "number": 11,
           "name": "Loali",
           "stage": 2,
           "traitMapping": {
@@ -1064,12 +1009,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Swali.gif"
   },
   {
-    "number": "#011",
+    "number": 11,
     "name": "Loali",
-    "types": [
-      "Nature",
-      "Wind"
-    ],
+    "types": ["Nature", "Wind"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0c/Loali.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Loali",
@@ -1083,10 +1025,7 @@
       "spdef": 90,
       "total": 485
     },
-    "traits": [
-      "Botanist",
-      "Toxic Farewell"
-    ],
+    "traits": ["Botanist", "Toxic Farewell"],
     "details": {
       "height": {
         "cm": 60,
@@ -1184,7 +1123,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#010",
+          "number": 10,
           "name": "Swali",
           "stage": 1,
           "levels": 8,
@@ -1195,7 +1134,7 @@
           }
         },
         {
-          "number": "#011",
+          "number": 11,
           "name": "Loali",
           "stage": 2,
           "traitMapping": {
@@ -1309,11 +1248,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Loali.gif"
   },
   {
-    "number": "#012",
+    "number": 12,
     "name": "Tateru",
-    "types": [
-      "Neutral"
-    ],
+    "types": ["Neutral"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/55/Tateru.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Tateru",
@@ -1327,10 +1264,7 @@
       "spdef": 66,
       "total": 488
     },
-    "traits": [
-      "Soft Touch",
-      "Resilient"
-    ],
+    "traits": ["Soft Touch", "Resilient"],
     "details": {
       "height": {
         "cm": 145,
@@ -1483,11 +1417,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tateru.gif"
   },
   {
-    "number": "#016",
+    "number": 16,
     "name": "Paharo",
-    "types": [
-      "Wind"
-    ],
+    "types": ["Wind"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1c/Paharo.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Paharo",
@@ -1501,10 +1433,7 @@
       "spdef": 50,
       "total": 306
     },
-    "traits": [
-      "Hover",
-      "Friendship"
-    ],
+    "traits": ["Hover", "Friendship"],
     "details": {
       "height": {
         "cm": 75,
@@ -1591,7 +1520,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#016",
+          "number": 16,
           "name": "Paharo",
           "stage": 1,
           "levels": 7,
@@ -1602,7 +1531,7 @@
           }
         },
         {
-          "number": "#017",
+          "number": 17,
           "name": "Paharac",
           "stage": 2,
           "levels": 16,
@@ -1613,7 +1542,7 @@
           }
         },
         {
-          "number": "#018",
+          "number": 18,
           "name": "Granpah",
           "stage": 3,
           "traitMapping": {
@@ -1656,11 +1585,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Paharo.gif"
   },
   {
-    "number": "#017",
+    "number": 17,
     "name": "Paharac",
-    "types": [
-      "Wind"
-    ],
+    "types": ["Wind"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2c/Paharac.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Paharac",
@@ -1674,10 +1601,7 @@
       "spdef": 60,
       "total": 385
     },
-    "traits": [
-      "Caffeinated",
-      "Camaraderie"
-    ],
+    "traits": ["Caffeinated", "Camaraderie"],
     "details": {
       "height": {
         "cm": 125,
@@ -1765,7 +1689,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#016",
+          "number": 16,
           "name": "Paharo",
           "stage": 1,
           "levels": 7,
@@ -1776,7 +1700,7 @@
           }
         },
         {
-          "number": "#017",
+          "number": 17,
           "name": "Paharac",
           "stage": 2,
           "levels": 16,
@@ -1787,7 +1711,7 @@
           }
         },
         {
-          "number": "#018",
+          "number": 18,
           "name": "Granpah",
           "stage": 3,
           "traitMapping": {
@@ -1929,11 +1853,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Paharac.gif"
   },
   {
-    "number": "#018",
+    "number": 18,
     "name": "Granpah",
-    "types": [
-      "Wind"
-    ],
+    "types": ["Wind"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d5/Granpah.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Granpah",
@@ -1947,10 +1869,7 @@
       "spdef": 66,
       "total": 437
     },
-    "traits": [
-      "Last Rush",
-      "Bully"
-    ],
+    "traits": ["Last Rush", "Bully"],
     "details": {
       "height": {
         "cm": 186,
@@ -2046,7 +1965,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": "#016",
+          "number": 16,
           "name": "Paharo",
           "stage": 1,
           "levels": 7,
@@ -2057,7 +1976,7 @@
           }
         },
         {
-          "number": "#017",
+          "number": 17,
           "name": "Paharac",
           "stage": 2,
           "levels": 16,
@@ -2068,7 +1987,7 @@
           }
         },
         {
-          "number": "#018",
+          "number": 18,
           "name": "Granpah",
           "stage": 3,
           "traitMapping": {
@@ -2111,11 +2030,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Granpah.gif"
   },
   {
-    "number": "#019",
+    "number": 19,
     "name": "Ampling",
-    "types": [
-      "Electric"
-    ],
+    "types": ["Electric"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/93/Ampling.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Ampling",
@@ -2150,13 +2067,13 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#019",
+          "number": 19,
           "name": "Ampling",
           "stage": 1,
           "traitMapping": {}
         },
         {
-          "number": "#020",
+          "number": 20,
           "name": "Amphatyr",
           "stage": 2,
           "traitMapping": {}
@@ -2196,12 +2113,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#020",
+    "number": 20,
     "name": "Amphatyr",
-    "types": [
-      "Electric",
-      "Nature"
-    ],
+    "types": ["Electric", "Nature"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a8/Amphatyr.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Amphatyr",
@@ -2235,13 +2149,13 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#019",
+          "number": 19,
           "name": "Ampling",
           "stage": 1,
           "traitMapping": {}
         },
         {
-          "number": "#020",
+          "number": 20,
           "name": "Amphatyr",
           "stage": 2,
           "traitMapping": {}
@@ -2281,12 +2195,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#021",
+    "number": 21,
     "name": "Bunbun",
-    "types": [
-      "Earth",
-      "Crystal"
-    ],
+    "types": ["Earth", "Crystal"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/38/Bunbun.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Bunbun",
@@ -2300,10 +2211,7 @@
       "spdef": 43,
       "total": 374
     },
-    "traits": [
-      "Caffeinated",
-      "Resilient"
-    ],
+    "traits": ["Caffeinated", "Resilient"],
     "details": {
       "height": {
         "cm": 55,
@@ -2371,7 +2279,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#021",
+          "number": 21,
           "name": "Bunbun",
           "stage": 1,
           "levels": 20,
@@ -2382,7 +2290,7 @@
           }
         },
         {
-          "number": "#022",
+          "number": 22,
           "name": "Mudrid",
           "stage": 2,
           "traitMapping": {
@@ -2454,12 +2362,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Bunbun.gif"
   },
   {
-    "number": "#022",
+    "number": 22,
     "name": "Mudrid",
-    "types": [
-      "Earth",
-      "Crystal"
-    ],
+    "types": ["Earth", "Crystal"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f5/Mudrid.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Mudrid",
@@ -2473,10 +2378,7 @@
       "spdef": 50,
       "total": 456
     },
-    "traits": [
-      "Receptive",
-      "Resistant"
-    ],
+    "traits": ["Receptive", "Resistant"],
     "details": {
       "height": {
         "cm": 150,
@@ -2561,7 +2463,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#021",
+          "number": 21,
           "name": "Bunbun",
           "stage": 1,
           "levels": 20,
@@ -2572,7 +2474,7 @@
           }
         },
         {
-          "number": "#022",
+          "number": 22,
           "name": "Mudrid",
           "stage": 2,
           "traitMapping": {
@@ -2630,11 +2532,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Mudrid.gif"
   },
   {
-    "number": "#023",
+    "number": 23,
     "name": "Hidody",
-    "types": [
-      "Nature"
-    ],
+    "types": ["Nature"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/Hidody.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Hidody",
@@ -2648,10 +2548,7 @@
       "spdef": 55,
       "total": 356
     },
-    "traits": [
-      "Electric Synthesize",
-      "Botanist"
-    ],
+    "traits": ["Electric Synthesize", "Botanist"],
     "details": {
       "height": {
         "cm": 100,
@@ -2743,7 +2640,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#023",
+          "number": 23,
           "name": "Hidody",
           "stage": 1,
           "levels": 15,
@@ -2754,7 +2651,7 @@
           }
         },
         {
-          "number": "#024",
+          "number": 24,
           "name": "Taifu",
           "stage": 2,
           "traitMapping": {
@@ -2840,11 +2737,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Hidody.gif"
   },
   {
-    "number": "#024",
+    "number": 24,
     "name": "Taifu",
-    "types": [
-      "Nature"
-    ],
+    "types": ["Nature"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/36/Taifu.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Taifu",
@@ -2858,10 +2753,7 @@
       "spdef": 89,
       "total": 461
     },
-    "traits": [
-      "Toxic Farewell",
-      "Resilient"
-    ],
+    "traits": ["Toxic Farewell", "Resilient"],
     "details": {
       "height": {
         "cm": 180,
@@ -2972,7 +2864,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#023",
+          "number": 23,
           "name": "Hidody",
           "stage": 1,
           "levels": 15,
@@ -2983,7 +2875,7 @@
           }
         },
         {
-          "number": "#024",
+          "number": 24,
           "name": "Taifu",
           "stage": 2,
           "traitMapping": {
@@ -3055,11 +2947,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Taifu.gif"
   },
   {
-    "number": "#025",
+    "number": 25,
     "name": "Fomu",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/76/Fomu.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Fomu",
@@ -3073,10 +2963,7 @@
       "spdef": 70,
       "total": 340
     },
-    "traits": [
-      "Amphibian",
-      "Hydrologist"
-    ],
+    "traits": ["Amphibian", "Hydrologist"],
     "details": {
       "height": {
         "cm": 58,
@@ -3146,7 +3033,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#025",
+          "number": 25,
           "name": "Fomu",
           "stage": 1,
           "levels": 20,
@@ -3157,7 +3044,7 @@
           }
         },
         {
-          "number": "#026",
+          "number": 26,
           "name": "Wiplump",
           "stage": 2,
           "traitMapping": {
@@ -3243,12 +3130,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Fomu.gif"
   },
   {
-    "number": "#026",
+    "number": 26,
     "name": "Wiplump",
-    "types": [
-      "Water",
-      "Wind"
-    ],
+    "types": ["Water", "Wind"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f7/Wiplump.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Wiplump",
@@ -3262,10 +3146,7 @@
       "spdef": 80,
       "total": 481
     },
-    "traits": [
-      "Plethoric",
-      "Patient"
-    ],
+    "traits": ["Plethoric", "Patient"],
     "details": {
       "height": {
         "cm": 125,
@@ -3347,14 +3228,12 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Wiplump's name is derived from wing and plump."
-    ],
+    "trivia": ["Wiplump's name is derived from wing and plump."],
     "evolution": {
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#025",
+          "number": 25,
           "name": "Fomu",
           "stage": 1,
           "levels": 20,
@@ -3365,7 +3244,7 @@
           }
         },
         {
-          "number": "#026",
+          "number": 26,
           "name": "Wiplump",
           "stage": 2,
           "traitMapping": {
@@ -3451,11 +3330,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Wiplump.gif"
   },
   {
-    "number": "#027",
+    "number": 27,
     "name": "Skail",
-    "types": [
-      "Neutral"
-    ],
+    "types": ["Neutral"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/77/Skail.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Skail",
@@ -3469,10 +3346,7 @@
       "spdef": 41,
       "total": 328
     },
-    "traits": [
-      "Furor",
-      "Scavenger"
-    ],
+    "traits": ["Furor", "Scavenger"],
     "details": {
       "height": {
         "cm": 80,
@@ -3543,7 +3417,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#027",
+          "number": 27,
           "name": "Skail",
           "stage": 1,
           "levels": 17,
@@ -3554,7 +3428,7 @@
           }
         },
         {
-          "number": "#028",
+          "number": 28,
           "name": "Skunch",
           "stage": 2,
           "traitMapping": {
@@ -3682,12 +3556,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Skail.gif"
   },
   {
-    "number": "#028",
+    "number": 28,
     "name": "Skunch",
-    "types": [
-      "Neutral",
-      "Melee"
-    ],
+    "types": ["Neutral", "Melee"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4b/Skunch.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Skunch",
@@ -3701,10 +3572,7 @@
       "spdef": 60,
       "total": 454
     },
-    "traits": [
-      "Brawny",
-      "Bully"
-    ],
+    "traits": ["Brawny", "Bully"],
     "details": {
       "height": {
         "cm": 150,
@@ -3799,7 +3667,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#027",
+          "number": 27,
           "name": "Skail",
           "stage": 1,
           "levels": 17,
@@ -3810,7 +3678,7 @@
           }
         },
         {
-          "number": "#028",
+          "number": 28,
           "name": "Skunch",
           "stage": 2,
           "traitMapping": {
@@ -3896,11 +3764,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Skunch.gif"
   },
   {
-    "number": "#029",
+    "number": 29,
     "name": "Goty",
-    "types": [
-      "Neutral"
-    ],
+    "types": ["Neutral"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/19/Goty.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Goty",
@@ -3914,10 +3780,7 @@
       "spdef": 37,
       "total": 328
     },
-    "traits": [
-      "Rested",
-      "Plethoric"
-    ],
+    "traits": ["Rested", "Plethoric"],
     "details": {
       "height": {
         "cm": 80,
@@ -3973,7 +3836,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#029",
+          "number": 29,
           "name": "Goty",
           "stage": 1,
           "levels": 13,
@@ -3984,7 +3847,7 @@
           }
         },
         {
-          "number": "#030",
+          "number": 30,
           "name": "Mouflank",
           "stage": 2,
           "traitMapping": {
@@ -4084,11 +3947,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#030",
+    "number": 30,
     "name": "Mouflank",
-    "types": [
-      "Neutral"
-    ],
+    "types": ["Neutral"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/75/Mouflank.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Mouflank",
@@ -4102,10 +3963,7 @@
       "spdef": 41,
       "total": 483
     },
-    "traits": [
-      "Hurry-wart",
-      "Unnoticed"
-    ],
+    "traits": ["Hurry-wart", "Unnoticed"],
     "details": {
       "height": {
         "cm": 170,
@@ -4194,7 +4052,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#029",
+          "number": 29,
           "name": "Goty",
           "stage": 1,
           "levels": 13,
@@ -4205,7 +4063,7 @@
           }
         },
         {
-          "number": "#030",
+          "number": 30,
           "name": "Mouflank",
           "stage": 2,
           "traitMapping": {
@@ -4248,12 +4106,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#031",
+    "number": 31,
     "name": "Rhoulder",
-    "types": [
-      "Neutral",
-      "Earth"
-    ],
+    "types": ["Neutral", "Earth"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0d/Rhoulder.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Rhoulder",
@@ -4267,10 +4122,7 @@
       "spdef": 40,
       "total": 398
     },
-    "traits": [
-      "Tardy Rush",
-      "Thick Skin"
-    ],
+    "traits": ["Tardy Rush", "Thick Skin"],
     "details": {
       "height": {
         "cm": 180,
@@ -4401,11 +4253,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#032",
+    "number": 32,
     "name": "Houchic",
-    "types": [
-      "Mental"
-    ],
+    "types": ["Mental"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/af/Houchic.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Houchic",
@@ -4419,10 +4269,7 @@
       "spdef": 52,
       "total": 353
     },
-    "traits": [
-      "Mental Alliance",
-      "Soft Touch"
-    ],
+    "traits": ["Mental Alliance", "Soft Touch"],
     "details": {
       "height": {
         "cm": 110,
@@ -4504,7 +4351,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#032",
+          "number": 32,
           "name": "Houchic",
           "stage": 1,
           "levels": 29,
@@ -4515,7 +4362,7 @@
           }
         },
         {
-          "number": "#033",
+          "number": 33,
           "name": "Tental",
           "stage": 2,
           "levels": 24,
@@ -4526,7 +4373,7 @@
           }
         },
         {
-          "number": "#034",
+          "number": 34,
           "name": "Nagaise",
           "stage": 3,
           "traitMapping": {
@@ -4569,11 +4416,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Houchic.gif"
   },
   {
-    "number": "#033",
+    "number": 33,
     "name": "Tental",
-    "types": [
-      "Mental"
-    ],
+    "types": ["Mental"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/37/Tental.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Tental",
@@ -4587,10 +4432,7 @@
       "spdef": 62,
       "total": 403
     },
-    "traits": [
-      "Avenger",
-      "Water Affinity"
-    ],
+    "traits": ["Avenger", "Water Affinity"],
     "details": {
       "height": {
         "cm": 160,
@@ -4683,14 +4525,12 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Tental's name is derived from tentacle and mental."
-    ],
+    "trivia": ["Tental's name is derived from tentacle and mental."],
     "evolution": {
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#032",
+          "number": 32,
           "name": "Houchic",
           "stage": 1,
           "levels": 29,
@@ -4701,7 +4541,7 @@
           }
         },
         {
-          "number": "#033",
+          "number": 33,
           "name": "Tental",
           "stage": 2,
           "levels": 24,
@@ -4712,7 +4552,7 @@
           }
         },
         {
-          "number": "#034",
+          "number": 34,
           "name": "Nagaise",
           "stage": 3,
           "traitMapping": {
@@ -4755,12 +4595,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tental.gif"
   },
   {
-    "number": "#034",
+    "number": 34,
     "name": "Nagaise",
-    "types": [
-      "Mental",
-      "Water"
-    ],
+    "types": ["Mental", "Water"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/82/Nagaise.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Nagaise",
@@ -4774,10 +4611,7 @@
       "spdef": 76,
       "total": 452
     },
-    "traits": [
-      "Deceit Aura",
-      "Water Custodian"
-    ],
+    "traits": ["Deceit Aura", "Water Custodian"],
     "details": {
       "height": {
         "cm": 200,
@@ -4875,14 +4709,12 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Nagaise's name is derived from Naga and Wise."
-    ],
+    "trivia": ["Nagaise's name is derived from Naga and Wise."],
     "evolution": {
       "stage": 3,
       "evolutionTree": [
         {
-          "number": "#032",
+          "number": 32,
           "name": "Houchic",
           "stage": 1,
           "levels": 29,
@@ -4893,7 +4725,7 @@
           }
         },
         {
-          "number": "#033",
+          "number": 33,
           "name": "Tental",
           "stage": 2,
           "levels": 24,
@@ -4904,7 +4736,7 @@
           }
         },
         {
-          "number": "#034",
+          "number": 34,
           "name": "Nagaise",
           "stage": 3,
           "traitMapping": {
@@ -4947,12 +4779,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#035",
+    "number": 35,
     "name": "Orphyll",
-    "types": [
-      "Nature",
-      "Toxic"
-    ],
+    "types": ["Nature", "Toxic"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/Orphyll.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Orphyll",
@@ -4966,10 +4795,7 @@
       "spdef": 40,
       "total": 364
     },
-    "traits": [
-      "Toxic Affinity",
-      "Apothecary"
-    ],
+    "traits": ["Toxic Affinity", "Apothecary"],
     "details": {
       "height": {
         "cm": 117,
@@ -5060,7 +4886,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#035",
+          "number": 35,
           "name": "Orphyll",
           "stage": 1,
           "levels": 22,
@@ -5071,7 +4897,7 @@
           }
         },
         {
-          "number": "#036",
+          "number": 36,
           "name": "Nidrasil",
           "stage": 2,
           "traitMapping": {
@@ -5143,12 +4969,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Orphyll.gif"
   },
   {
-    "number": "#036",
+    "number": 36,
     "name": "Nidrasil",
-    "types": [
-      "Nature",
-      "Toxic"
-    ],
+    "types": ["Nature", "Toxic"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5b/Nidrasil.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Nidrasil",
@@ -5162,10 +4985,7 @@
       "spdef": 51,
       "total": 445
     },
-    "traits": [
-      "Toxic Farewell",
-      "Tri-Apothecary"
-    ],
+    "traits": ["Toxic Farewell", "Tri-Apothecary"],
     "details": {
       "height": {
         "cm": 178,
@@ -5260,7 +5080,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#035",
+          "number": 35,
           "name": "Orphyll",
           "stage": 1,
           "levels": 22,
@@ -5271,7 +5091,7 @@
           }
         },
         {
-          "number": "#036",
+          "number": 36,
           "name": "Nidrasil",
           "stage": 2,
           "traitMapping": {
@@ -5314,11 +5134,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Nidrasil.gif"
   },
   {
-    "number": "#037",
+    "number": 37,
     "name": "Banapi",
-    "types": [
-      "Fire"
-    ],
+    "types": ["Fire"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/27/Banapi.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Banapi",
@@ -5332,10 +5150,7 @@
       "spdef": 41,
       "total": 333
     },
-    "traits": [
-      "Pyromaniac",
-      "Settling"
-    ],
+    "traits": ["Pyromaniac", "Settling"],
     "details": {
       "height": {
         "cm": 90,
@@ -5413,7 +5228,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#037",
+          "number": 37,
           "name": "Banapi",
           "stage": 1,
           "levels": 17,
@@ -5424,7 +5239,7 @@
           }
         },
         {
-          "number": "#038",
+          "number": 38,
           "name": "Capyre",
           "stage": 2,
           "traitMapping": {
@@ -5524,11 +5339,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#038",
+    "number": 38,
     "name": "Capyre",
-    "types": [
-      "Fire"
-    ],
+    "types": ["Fire"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/cf/Capyre.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Capyre",
@@ -5542,10 +5355,7 @@
       "spdef": 47,
       "total": 429
     },
-    "traits": [
-      "Last Rush",
-      "Resilient"
-    ],
+    "traits": ["Last Rush", "Resilient"],
     "details": {
       "height": {
         "cm": 150,
@@ -5633,7 +5443,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#037",
+          "number": 37,
           "name": "Banapi",
           "stage": 1,
           "levels": 17,
@@ -5644,7 +5454,7 @@
           }
         },
         {
-          "number": "#038",
+          "number": 38,
           "name": "Capyre",
           "stage": 2,
           "traitMapping": {
@@ -5687,11 +5497,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#039",
+    "number": 39,
     "name": "Lapinite",
-    "types": [
-      "Crystal"
-    ],
+    "types": ["Crystal"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/69/Lapinite.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Lapinite",
@@ -5705,10 +5513,7 @@
       "spdef": 56,
       "total": 353
     },
-    "traits": [
-      "Scavenger",
-      "Electric Synthesize"
-    ],
+    "traits": ["Scavenger", "Electric Synthesize"],
     "details": {
       "height": {
         "cm": 90,
@@ -5768,7 +5573,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#039",
+          "number": 39,
           "name": "Lapinite",
           "stage": 1,
           "levels": 25,
@@ -5779,7 +5584,7 @@
           }
         },
         {
-          "number": "#040",
+          "number": 40,
           "name": "Azuroc",
           "stage": 2,
           "traitMapping": {
@@ -5793,7 +5598,7 @@
           "stage": 3
         },
         {
-          "number": "#041",
+          "number": 41,
           "name": "Zenoreth",
           "stage": 4,
           "traitMapping": {
@@ -5851,11 +5656,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#040",
+    "number": 40,
     "name": "Azuroc",
-    "types": [
-      "Crystal"
-    ],
+    "types": ["Crystal"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9a/Azuroc.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Azuroc",
@@ -5869,10 +5672,7 @@
       "spdef": 62,
       "total": 397
     },
-    "traits": [
-      "Mirroring",
-      "Fainted Curse"
-    ],
+    "traits": ["Mirroring", "Fainted Curse"],
     "details": {
       "height": {
         "cm": 203,
@@ -5937,14 +5737,12 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Azuroc's name is derived from azure and rock."
-    ],
+    "trivia": ["Azuroc's name is derived from azure and rock."],
     "evolution": {
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#039",
+          "number": 39,
           "name": "Lapinite",
           "stage": 1,
           "levels": 25,
@@ -5955,7 +5753,7 @@
           }
         },
         {
-          "number": "#040",
+          "number": 40,
           "name": "Azuroc",
           "stage": 2,
           "traitMapping": {
@@ -5969,7 +5767,7 @@
           "stage": 3
         },
         {
-          "number": "#041",
+          "number": 41,
           "name": "Zenoreth",
           "stage": 4,
           "traitMapping": {
@@ -6027,11 +5825,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#041",
+    "number": 41,
     "name": "Zenoreth",
-    "types": [
-      "Crystal"
-    ],
+    "types": ["Crystal"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/22/Zenoreth.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Zenoreth",
@@ -6045,10 +5841,7 @@
       "spdef": 69,
       "total": 450
     },
-    "traits": [
-      "Channeler",
-      "Wrecked Farewell"
-    ],
+    "traits": ["Channeler", "Wrecked Farewell"],
     "details": {
       "height": {
         "cm": 310,
@@ -6131,7 +5924,7 @@
       "stage": 4,
       "evolutionTree": [
         {
-          "number": "#039",
+          "number": 39,
           "name": "Lapinite",
           "stage": 1,
           "levels": 25,
@@ -6142,7 +5935,7 @@
           }
         },
         {
-          "number": "#040",
+          "number": 40,
           "name": "Azuroc",
           "stage": 2,
           "traitMapping": {
@@ -6156,7 +5949,7 @@
           "stage": 3
         },
         {
-          "number": "#041",
+          "number": 41,
           "name": "Zenoreth",
           "stage": 4,
           "traitMapping": {
@@ -6199,11 +5992,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#044",
+    "number": 44,
     "name": "Bigu",
-    "types": [
-      "Nature"
-    ],
+    "types": ["Nature"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/09/Bigu.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Bigu",
@@ -6217,10 +6008,7 @@
       "spdef": 42,
       "total": 329
     },
-    "traits": [
-      "Warm-Blooded",
-      "Amphibian"
-    ],
+    "traits": ["Warm-Blooded", "Amphibian"],
     "details": {
       "height": {
         "cm": 113,
@@ -6290,7 +6078,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#044",
+          "number": 44,
           "name": "Bigu",
           "stage": 1,
           "levels": 18,
@@ -6301,7 +6089,7 @@
           }
         },
         {
-          "number": "#045",
+          "number": 45,
           "name": "Babawa",
           "stage": 2,
           "traitMapping": {
@@ -6344,12 +6132,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Bigu.gif"
   },
   {
-    "number": "#045",
+    "number": 45,
     "name": "Babawa",
-    "types": [
-      "Nature",
-      "Water"
-    ],
+    "types": ["Nature", "Water"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b9/Babawa.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Babawa",
@@ -6363,10 +6148,7 @@
       "spdef": 44,
       "total": 448
     },
-    "traits": [
-      "Mucous",
-      "Withdrawal"
-    ],
+    "traits": ["Mucous", "Withdrawal"],
     "details": {
       "height": {
         "cm": 226,
@@ -6460,7 +6242,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#044",
+          "number": 44,
           "name": "Bigu",
           "stage": 1,
           "levels": 18,
@@ -6471,7 +6253,7 @@
           }
         },
         {
-          "number": "#045",
+          "number": 45,
           "name": "Babawa",
           "stage": 2,
           "traitMapping": {
@@ -6557,11 +6339,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Babawa.gif"
   },
   {
-    "number": "#048",
+    "number": 48,
     "name": "Kaku",
-    "types": [
-      "Nature"
-    ],
+    "types": ["Nature"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4e/Kaku.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Kaku",
@@ -6575,10 +6355,7 @@
       "spdef": 50,
       "total": 357
     },
-    "traits": [
-      "Caffeinated",
-      "Mithridatism"
-    ],
+    "traits": ["Caffeinated", "Mithridatism"],
     "details": {
       "height": {
         "cm": 54,
@@ -6661,7 +6438,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#048",
+          "number": 48,
           "name": "Kaku",
           "stage": 1,
           "levels": 11,
@@ -6672,7 +6449,7 @@
           }
         },
         {
-          "number": "#049",
+          "number": 49,
           "name": "Saku",
           "stage": 2,
           "traitMapping": {
@@ -6786,12 +6563,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#049",
+    "number": 49,
     "name": "Saku",
-    "types": [
-      "Nature",
-      "Wind"
-    ],
+    "types": ["Nature", "Wind"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2a/Saku.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Saku",
@@ -6805,10 +6579,7 @@
       "spdef": 70,
       "total": 420
     },
-    "traits": [
-      "Air Specialist",
-      "Botanist"
-    ],
+    "traits": ["Air Specialist", "Botanist"],
     "details": {
       "height": {
         "cm": 92,
@@ -6905,7 +6676,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#048",
+          "number": 48,
           "name": "Kaku",
           "stage": 1,
           "levels": 11,
@@ -6916,7 +6687,7 @@
           }
         },
         {
-          "number": "#049",
+          "number": 49,
           "name": "Saku",
           "stage": 2,
           "traitMapping": {
@@ -7016,12 +6787,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#050",
+    "number": 50,
     "name": "Valash",
-    "types": [
-      "Neutral",
-      "Crystal"
-    ],
+    "types": ["Neutral", "Crystal"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/80/Valash.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Valash",
@@ -7035,10 +6803,7 @@
       "spdef": 56,
       "total": 465
     },
-    "traits": [
-      "Scavenger",
-      "Determined"
-    ],
+    "traits": ["Scavenger", "Determined"],
     "details": {
       "height": {
         "cm": 185,
@@ -7186,12 +6951,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Valash.gif"
   },
   {
-    "number": "#053",
+    "number": 53,
     "name": "Barnshe",
-    "types": [
-      "Wind",
-      "Mental"
-    ],
+    "types": ["Wind", "Mental"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6c/Barnshe.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Barnshe",
@@ -7205,10 +6967,7 @@
       "spdef": 79,
       "total": 420
     },
-    "traits": [
-      "Neutrality",
-      "Air Specialist"
-    ],
+    "traits": ["Neutrality", "Air Specialist"],
     "details": {
       "height": {
         "cm": 171,
@@ -7361,12 +7120,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Barnshe.gif"
   },
   {
-    "number": "#054",
+    "number": 54,
     "name": "Gyalis",
-    "types": [
-      "Crystal",
-      "Melee"
-    ],
+    "types": ["Crystal", "Melee"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d6/Gyalis.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Gyalis",
@@ -7380,10 +7136,7 @@
       "spdef": 61,
       "total": 460
     },
-    "traits": [
-      "Mirroring",
-      "Resistant"
-    ],
+    "traits": ["Mirroring", "Resistant"],
     "details": {
       "height": {
         "cm": 204,
@@ -7527,11 +7280,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#055",
+    "number": 55,
     "name": "Occlura",
-    "types": [
-      "Crystal"
-    ],
+    "types": ["Crystal"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/38/Occlura.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Occlura",
@@ -7545,10 +7296,7 @@
       "spdef": 65,
       "total": 330
     },
-    "traits": [
-      "Warm-Blooded",
-      "Scavenger"
-    ],
+    "traits": ["Warm-Blooded", "Scavenger"],
     "details": {
       "height": {
         "cm": 137,
@@ -7611,7 +7359,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#055",
+          "number": 55,
           "name": "Occlura",
           "stage": 1,
           "levels": 18,
@@ -7622,7 +7370,7 @@
           }
         },
         {
-          "number": "#056",
+          "number": 56,
           "name": "Myx",
           "stage": 2,
           "traitMapping": {
@@ -7680,12 +7428,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Occlura.gif"
   },
   {
-    "number": "#056",
+    "number": 56,
     "name": "Myx",
-    "types": [
-      "Crystal",
-      "Mental"
-    ],
+    "types": ["Crystal", "Mental"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/07/Myx.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Myx",
@@ -7699,10 +7444,7 @@
       "spdef": 80,
       "total": 443
     },
-    "traits": [
-      "Puppet Master",
-      "Rejuvenate"
-    ],
+    "traits": ["Puppet Master", "Rejuvenate"],
     "details": {
       "height": {
         "cm": 243,
@@ -7788,7 +7530,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#055",
+          "number": 55,
           "name": "Occlura",
           "stage": 1,
           "levels": 18,
@@ -7799,7 +7541,7 @@
           }
         },
         {
-          "number": "#056",
+          "number": 56,
           "name": "Myx",
           "stage": 2,
           "traitMapping": {
@@ -7842,11 +7584,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#057",
+    "number": 57,
     "name": "Raiber",
-    "types": [
-      "Fire"
-    ],
+    "types": ["Fire"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c8/Raiber.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Raiber",
@@ -7860,10 +7600,7 @@
       "spdef": 38,
       "total": 332
     },
-    "traits": [
-      "Camaraderie",
-      "Rested"
-    ],
+    "traits": ["Camaraderie", "Rested"],
     "details": {
       "height": {
         "cm": 95,
@@ -7923,7 +7660,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#057",
+          "number": 57,
           "name": "Raiber",
           "stage": 1,
           "levels": 15,
@@ -7934,7 +7671,7 @@
           }
         },
         {
-          "number": "#058",
+          "number": 58,
           "name": "Raize",
           "stage": 2,
           "levels": 25,
@@ -7945,7 +7682,7 @@
           }
         },
         {
-          "number": "#059",
+          "number": 59,
           "name": "Raican",
           "stage": 3,
           "traitMapping": {
@@ -8031,11 +7768,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Raiber.gif"
   },
   {
-    "number": "#058",
+    "number": 58,
     "name": "Raize",
-    "types": [
-      "Fire"
-    ],
+    "types": ["Fire"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f4/Raize.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Raize",
@@ -8049,10 +7784,7 @@
       "spdef": 43,
       "total": 384
     },
-    "traits": [
-      "Furor",
-      "Demoralize"
-    ],
+    "traits": ["Furor", "Demoralize"],
     "details": {
       "height": {
         "cm": 160,
@@ -8118,7 +7850,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#057",
+          "number": 57,
           "name": "Raiber",
           "stage": 1,
           "levels": 15,
@@ -8129,7 +7861,7 @@
           }
         },
         {
-          "number": "#058",
+          "number": 58,
           "name": "Raize",
           "stage": 2,
           "levels": 25,
@@ -8140,7 +7872,7 @@
           }
         },
         {
-          "number": "#059",
+          "number": 59,
           "name": "Raican",
           "stage": 3,
           "traitMapping": {
@@ -8183,11 +7915,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#059",
+    "number": 59,
     "name": "Raican",
-    "types": [
-      "Fire"
-    ],
+    "types": ["Fire"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/90/Raican.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Raican",
@@ -8201,10 +7931,7 @@
       "spdef": 50,
       "total": 441
     },
-    "traits": [
-      "Prideful",
-      "Motivator"
-    ],
+    "traits": ["Prideful", "Motivator"],
     "details": {
       "height": {
         "cm": 195,
@@ -8284,7 +8011,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": "#057",
+          "number": 57,
           "name": "Raiber",
           "stage": 1,
           "levels": 15,
@@ -8295,7 +8022,7 @@
           }
         },
         {
-          "number": "#058",
+          "number": 58,
           "name": "Raize",
           "stage": 2,
           "levels": 25,
@@ -8306,7 +8033,7 @@
           }
         },
         {
-          "number": "#059",
+          "number": 59,
           "name": "Raican",
           "stage": 3,
           "traitMapping": {
@@ -8349,11 +8076,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#060",
+    "number": 60,
     "name": "Pewki",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/86/Pewki.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Pewki",
@@ -8367,10 +8092,7 @@
       "spdef": 10,
       "total": 263
     },
-    "traits": [
-      "Hydrologist",
-      "Rested"
-    ],
+    "traits": ["Hydrologist", "Rested"],
     "details": {
       "height": {
         "cm": 60,
@@ -8451,7 +8173,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#060",
+          "number": 60,
           "name": "Pewki",
           "stage": 1,
           "levels": 13,
@@ -8462,7 +8184,7 @@
           }
         },
         {
-          "number": "#061",
+          "number": 61,
           "name": "Piraniant",
           "stage": 2,
           "traitMapping": {
@@ -8548,11 +8270,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Pewki.gif"
   },
   {
-    "number": "#061",
+    "number": 61,
     "name": "Piraniant",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/01/Piraniant.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Piraniant",
@@ -8566,10 +8286,7 @@
       "spdef": 37,
       "total": 449
     },
-    "traits": [
-      "Patient",
-      "Energy Reserves"
-    ],
+    "traits": ["Patient", "Energy Reserves"],
     "details": {
       "height": {
         "cm": 200,
@@ -8661,7 +8378,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#060",
+          "number": 60,
           "name": "Pewki",
           "stage": 1,
           "levels": 13,
@@ -8672,7 +8389,7 @@
           }
         },
         {
-          "number": "#061",
+          "number": 61,
           "name": "Piraniant",
           "stage": 2,
           "traitMapping": {
@@ -8730,11 +8447,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#066",
+    "number": 66,
     "name": "Osuchi",
-    "types": [
-      "Earth"
-    ],
+    "types": ["Earth"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/81/Osuchi.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Osuchi",
@@ -8748,10 +8463,7 @@
       "spdef": 25,
       "total": 292
     },
-    "traits": [
-      "Caffeinated",
-      "Brawny"
-    ],
+    "traits": ["Caffeinated", "Brawny"],
     "details": {
       "height": {
         "cm": 125,
@@ -8807,7 +8519,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#066",
+          "number": 66,
           "name": "Osuchi",
           "stage": 1,
           "levels": 12,
@@ -8818,7 +8530,7 @@
           }
         },
         {
-          "number": "#067",
+          "number": 67,
           "name": "Osukan",
           "stage": 2,
           "levels": 14,
@@ -8829,7 +8541,7 @@
           }
         },
         {
-          "number": "#068",
+          "number": 68,
           "name": "Osukai",
           "stage": 3,
           "traitMapping": {
@@ -8915,12 +8627,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#067",
+    "number": 67,
     "name": "Osukan",
-    "types": [
-      "Earth",
-      "Melee"
-    ],
+    "types": ["Earth", "Melee"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5e/Osukan.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Osukan",
@@ -8934,10 +8643,7 @@
       "spdef": 27,
       "total": 342
     },
-    "traits": [
-      "Furor",
-      "Parrier"
-    ],
+    "traits": ["Furor", "Parrier"],
     "details": {
       "height": {
         "cm": 171,
@@ -9003,7 +8709,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#066",
+          "number": 66,
           "name": "Osuchi",
           "stage": 1,
           "levels": 12,
@@ -9014,7 +8720,7 @@
           }
         },
         {
-          "number": "#067",
+          "number": 67,
           "name": "Osukan",
           "stage": 2,
           "levels": 14,
@@ -9025,7 +8731,7 @@
           }
         },
         {
-          "number": "#068",
+          "number": 68,
           "name": "Osukai",
           "stage": 3,
           "traitMapping": {
@@ -9068,12 +8774,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#068",
+    "number": 68,
     "name": "Osukai",
-    "types": [
-      "Earth",
-      "Melee"
-    ],
+    "types": ["Earth", "Melee"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/25/Osukai.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Osukai",
@@ -9087,10 +8790,7 @@
       "spdef": 33,
       "total": 419
     },
-    "traits": [
-      "Sensei",
-      "Body Stretch"
-    ],
+    "traits": ["Sensei", "Body Stretch"],
     "details": {
       "height": {
         "cm": 235,
@@ -9173,7 +8873,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": "#066",
+          "number": 66,
           "name": "Osuchi",
           "stage": 1,
           "levels": 12,
@@ -9184,7 +8884,7 @@
           }
         },
         {
-          "number": "#067",
+          "number": 67,
           "name": "Osukan",
           "stage": 2,
           "levels": 14,
@@ -9195,7 +8895,7 @@
           }
         },
         {
-          "number": "#068",
+          "number": 68,
           "name": "Osukai",
           "stage": 3,
           "traitMapping": {
@@ -9238,12 +8938,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#069",
+    "number": 69,
     "name": "Saipat",
-    "types": [
-      "Water",
-      "Melee"
-    ],
+    "types": ["Water", "Melee"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e3/Saipat.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Saipat",
@@ -9257,10 +8954,7 @@
       "spdef": 40,
       "total": 444
     },
-    "traits": [
-      "Amphibian",
-      "Toxic Affinity"
-    ],
+    "traits": ["Amphibian", "Toxic Affinity"],
     "details": {
       "height": {
         "cm": 100,
@@ -9459,12 +9153,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#070",
+    "number": 70,
     "name": "Pycko",
-    "types": [
-      "Earth",
-      "Fire"
-    ],
+    "types": ["Earth", "Fire"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/3b/Pycko.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Pycko",
@@ -9478,10 +9169,7 @@
       "spdef": 41,
       "total": 320
     },
-    "traits": [
-      "Furor",
-      "Tireless"
-    ],
+    "traits": ["Furor", "Tireless"],
     "details": {
       "height": {
         "cm": 42,
@@ -9539,14 +9227,12 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Pycko's name is derived from Pyre and Gecko."
-    ],
+    "trivia": ["Pycko's name is derived from Pyre and Gecko."],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#070",
+          "number": 70,
           "name": "Pycko",
           "stage": 1,
           "levels": 14,
@@ -9557,7 +9243,7 @@
           }
         },
         {
-          "number": "#071",
+          "number": 71,
           "name": "Drakash",
           "stage": 2,
           "traitMapping": {
@@ -9629,12 +9315,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#071",
+    "number": 71,
     "name": "Drakash",
-    "types": [
-      "Earth",
-      "Fire"
-    ],
+    "types": ["Earth", "Fire"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/40/Drakash.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Drakash",
@@ -9648,10 +9331,7 @@
       "spdef": 72,
       "total": 460
     },
-    "traits": [
-      "Heat Discharge",
-      "Sentinel"
-    ],
+    "traits": ["Heat Discharge", "Sentinel"],
     "details": {
       "height": {
         "cm": 165,
@@ -9736,7 +9416,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#070",
+          "number": 70,
           "name": "Pycko",
           "stage": 1,
           "levels": 14,
@@ -9747,7 +9427,7 @@
           }
         },
         {
-          "number": "#071",
+          "number": 71,
           "name": "Drakash",
           "stage": 2,
           "traitMapping": {
@@ -9790,127 +9470,185 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#003",
-    "name": "Zaobian",
-    "types": [
-      "Digital"
-    ],
-    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/54/Zaobian.png",
+    "number": 72,
+    "name": "Crystle",
+    "types": ["Crystal"],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Crystle.png",
     "lumaPortraitWikiUrl": "",
-    "wikiUrl": "https://temtem.gamepedia.com/Zaobian",
+    "wikiUrl": "https://temtem.gamepedia.com/Crystle",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 60,
+      "sta": 41,
+      "spd": 33,
+      "atk": 61,
+      "def": 69,
+      "spatk": 46,
+      "spdef": 42,
+      "total": 352
     },
-    "traits": [
-      "Attack T"
-    ],
+    "traits": ["Amphibian", "Rested"],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 60,
+        "inches": 23
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 48,
+        "lbs": 105
       }
     },
     "techniques": [
       {
-        "name": "Cold Breeze",
+        "name": "Glass Blade",
         "source": "Levelling",
-        "levels": 0
+        "levels": 1
       },
       {
-        "name": "Tesla Prison",
+        "name": "Mirror Shell",
         "source": "Levelling",
-        "levels": 0
+        "levels": 3
       },
       {
-        "name": "Heat Up",
+        "name": "Nibble",
         "source": "Levelling",
-        "levels": 0
+        "levels": 5
       },
       {
-        "name": "Turbo Attack",
+        "name": "Crystal Dust",
         "source": "Levelling",
-        "levels": 0
+        "levels": 9
       },
       {
-        "name": "Firewall",
+        "name": "Head Ram",
         "source": "Levelling",
-        "levels": 0
+        "levels": 14
+      },
+      {
+        "name": "Crystallize",
+        "source": "Levelling",
+        "levels": 17
+      },
+      {
+        "name": "Crystal Spikes",
+        "source": "Levelling",
+        "levels": 27
+      },
+      {
+        "name": "Rampage",
+        "source": "Levelling",
+        "levels": 35
+      },
+      {
+        "name": "Stone Wall",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Antitoxins",
+        "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Zaobian's name is derived from zhào (megabyte in Chinese) and túbiàn (mutation in Chinese).",
-      "Zaobian and its pre-evolution are the only Digital Temtem as of Alpha 0.6.5."
-    ],
+    "trivia": ["Crystle's name is derived from crystal and turtle."],
     "evolution": {
-      "stage": 2,
+      "stage": 1,
       "evolutionTree": [
         {
-          "number": "#002",
-          "name": "Oree",
+          "number": 72,
+          "name": "Crystle",
           "stage": 1,
+          "levels": 30,
+          "trading": false,
           "traitMapping": {
-            "Attack T": "Attack T"
+            "Amphibian": "Mirroring",
+            "Rested": "Provident"
           }
         },
         {
-          "number": "#003",
-          "name": "Zaobian",
+          "number": 73,
+          "name": "Sherald",
           "stage": 2,
+          "levels": 21,
+          "trading": false,
           "traitMapping": {
-            "Attack T": "Attack T"
+            "Mirroring": "Confined",
+            "Provident": "Efficient"
+          }
+        },
+        {
+          "number": 74,
+          "name": "Tortenite",
+          "stage": 3,
+          "traitMapping": {
+            "Confined": "Confined",
+            "Efficient": "Efficient"
           }
         }
       ],
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/54/Zaobian.png",
-    "lumaWikiPortraitUrlLarge": "",
-    "locations": [],
-    "icon": "/images/portraits/temtem/large/Zaobian.png",
-    "lumaIcon": "/images/portraits/temtem/luma/large/Zaobian.png",
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Crystle.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c6/LumaCrystle.png",
+    "locations": [
+      {
+        "location": "Mines of Mictlan",
+        "place": "Mines of Mictlan",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "5%",
+        "level": "28 - 30",
+        "freetem": {
+          "minLevel": 28,
+          "maxLevel": 30,
+          "minPansuns": 73,
+          "maxPansuns": 77
+        }
+      },
+      {
+        "location": "Kupeleleza",
+        "place": "Kupeleleza",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "5%",
+        "level": "24 - 28",
+        "freetem": {
+          "minLevel": 24,
+          "maxLevel": 28,
+          "minPansuns": 65,
+          "maxPansuns": 73
+        }
+      }
+    ],
+    "icon": "/images/portraits/temtem/large/Crystle.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Crystle.png",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 35,
+      "female": 65
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 160,
+    "hatchMins": 13,
     "tvYields": {
       "hp": 0,
-      "sta": 2,
+      "sta": 0,
       "spd": 0,
-      "atk": 1,
-      "def": 0,
+      "atk": 0,
+      "def": 2,
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Zaobian are part of the second generation of Digital Temtem. Created with much more refined technology, they are more intelligent friends and companions, as well as sturdier in battle.",
-    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e0/Zaobian_full_render.png",
-    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/20/Zaobian_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e0/Zaobian_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/20/Zaobian_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Zaobian.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Zaobian.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Zaobian.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Zaobian.gif"
+    "gameDescription": "Native to Tucma, Crystle are akin to smaragdine turtles, but they are actually closer to minerals than to fauna. Cute but tough, they are an excellent introductory Crystal Temtem for rookie tamers.",
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b7/Crystle_full_render.png",
+    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8e/Crystle_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8f/LumaCrystle_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/69/LumaCrystle_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Crystle.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Crystle.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Crystle.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Crystle.gif"
   },
   {
-    "number": "#073",
+    "number": 73,
     "name": "Sherald",
-    "types": [
-      "Crystal"
-    ],
+    "types": ["Crystal"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/ff/Sherald.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Sherald",
@@ -9924,10 +9662,7 @@
       "spdef": 48,
       "total": 402
     },
-    "traits": [
-      "Mirroring",
-      "Provident"
-    ],
+    "traits": ["Mirroring", "Provident"],
     "details": {
       "height": {
         "cm": 120,
@@ -9997,14 +9732,12 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Sherald's name is derived from shell and emerald."
-    ],
+    "trivia": ["Sherald's name is derived from shell and emerald."],
     "evolution": {
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#072",
+          "number": 72,
           "name": "Crystle",
           "stage": 1,
           "levels": 30,
@@ -10015,7 +9748,7 @@
           }
         },
         {
-          "number": "#073",
+          "number": 73,
           "name": "Sherald",
           "stage": 2,
           "levels": 21,
@@ -10026,7 +9759,7 @@
           }
         },
         {
-          "number": "#074",
+          "number": 74,
           "name": "Tortenite",
           "stage": 3,
           "traitMapping": {
@@ -10069,12 +9802,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Sherald.gif"
   },
   {
-    "number": "#074",
+    "number": 74,
     "name": "Tortenite",
-    "types": [
-      "Crystal",
-      "Toxic"
-    ],
+    "types": ["Crystal", "Toxic"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/31/Tortenite.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Tortenite",
@@ -10088,10 +9818,7 @@
       "spdef": 60,
       "total": 448
     },
-    "traits": [
-      "Confined",
-      "Efficient"
-    ],
+    "traits": ["Confined", "Efficient"],
     "details": {
       "height": {
         "cm": 190,
@@ -10166,14 +9893,12 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Tortenite's name is derived from Tortoise and Torbenite."
-    ],
+    "trivia": ["Tortenite's name is derived from Tortoise and Torbenite."],
     "evolution": {
       "stage": 3,
       "evolutionTree": [
         {
-          "number": "#072",
+          "number": 72,
           "name": "Crystle",
           "stage": 1,
           "levels": 30,
@@ -10184,7 +9909,7 @@
           }
         },
         {
-          "number": "#073",
+          "number": 73,
           "name": "Sherald",
           "stage": 2,
           "levels": 21,
@@ -10195,7 +9920,7 @@
           }
         },
         {
-          "number": "#074",
+          "number": 74,
           "name": "Tortenite",
           "stage": 3,
           "traitMapping": {
@@ -10238,11 +9963,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#079",
+    "number": 79,
     "name": "Hocus",
-    "types": [
-      "Mental"
-    ],
+    "types": ["Mental"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d7/Hocus.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Hocus",
@@ -10256,10 +9979,7 @@
       "spdef": 34,
       "total": 353
     },
-    "traits": [
-      "Soft Touch",
-      "Mirroring"
-    ],
+    "traits": ["Soft Touch", "Mirroring"],
     "details": {
       "height": {
         "cm": 115,
@@ -10310,7 +10030,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#079",
+          "number": 79,
           "name": "Hocus",
           "stage": 1,
           "levels": 21,
@@ -10321,7 +10041,7 @@
           }
         },
         {
-          "number": "#080",
+          "number": 80,
           "name": "Pocus",
           "stage": 2,
           "traitMapping": {
@@ -10364,11 +10084,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Hocus.gif"
   },
   {
-    "number": "#080",
+    "number": 80,
     "name": "Pocus",
-    "types": [
-      "Mental"
-    ],
+    "types": ["Mental"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fb/Pocus.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Pocus",
@@ -10382,10 +10100,7 @@
       "spdef": 38,
       "total": 423
     },
-    "traits": [
-      "Dreaded Alarm",
-      "Rejuvenate"
-    ],
+    "traits": ["Dreaded Alarm", "Rejuvenate"],
     "details": {
       "height": {
         "cm": 190,
@@ -10445,7 +10160,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#079",
+          "number": 79,
           "name": "Hocus",
           "stage": 1,
           "levels": 21,
@@ -10456,7 +10171,7 @@
           }
         },
         {
-          "number": "#080",
+          "number": 80,
           "name": "Pocus",
           "stage": 2,
           "traitMapping": {
@@ -10499,11 +10214,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Pocus.gif"
   },
   {
-    "number": "#082",
+    "number": 82,
     "name": "Sparzy",
-    "types": [
-      "Electric"
-    ],
+    "types": ["Electric"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/80/Sparzy.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Sparzy",
@@ -10517,9 +10230,7 @@
       "spdef": 0,
       "total": 0
     },
-    "traits": [
-      "Last Rush"
-    ],
+    "traits": ["Last Rush"],
     "details": {
       "height": {
         "cm": 0,
@@ -10573,7 +10284,7 @@
           "stage": 1
         },
         {
-          "number": "#082",
+          "number": 82,
           "name": "Sparzy",
           "stage": 2,
           "traitMapping": {
@@ -10620,11 +10331,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#084",
+    "number": 84,
     "name": "Mushi",
-    "types": [
-      "Toxic"
-    ],
+    "types": ["Toxic"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/78/Mushi.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Mushi",
@@ -10638,10 +10347,7 @@
       "spdef": 29,
       "total": 310
     },
-    "traits": [
-      "Resistant",
-      "Resilient"
-    ],
+    "traits": ["Resistant", "Resilient"],
     "details": {
       "height": {
         "cm": 100,
@@ -10697,14 +10403,12 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Mushi's name is derived from a mushroom diminutive."
-    ],
+    "trivia": ["Mushi's name is derived from a mushroom diminutive."],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#084",
+          "number": 84,
           "name": "Mushi",
           "stage": 1,
           "levels": 20,
@@ -10715,7 +10419,7 @@
           }
         },
         {
-          "number": "#085",
+          "number": 85,
           "name": "Mushook",
           "stage": 2,
           "traitMapping": {
@@ -10801,12 +10505,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#085",
+    "number": 85,
     "name": "Mushook",
-    "types": [
-      "Toxic",
-      "Melee"
-    ],
+    "types": ["Toxic", "Melee"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/90/Mushook.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Mushook",
@@ -10820,10 +10521,7 @@
       "spdef": 41,
       "total": 444
     },
-    "traits": [
-      "Parrier",
-      "Tireless"
-    ],
+    "traits": ["Parrier", "Tireless"],
     "details": {
       "height": {
         "cm": 210,
@@ -10910,14 +10608,12 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Mushook's name is derived from mushroom and hook."
-    ],
+    "trivia": ["Mushook's name is derived from mushroom and hook."],
     "evolution": {
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#084",
+          "number": 84,
           "name": "Mushi",
           "stage": 1,
           "levels": 20,
@@ -10928,7 +10624,7 @@
           }
         },
         {
-          "number": "#085",
+          "number": 85,
           "name": "Mushook",
           "stage": 2,
           "traitMapping": {
@@ -10971,11 +10667,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#086",
+    "number": 86,
     "name": "Magmis",
-    "types": [
-      "Fire"
-    ],
+    "types": ["Fire"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5d/Magmis.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Magmis",
@@ -10989,10 +10683,7 @@
       "spdef": 35,
       "total": 317
     },
-    "traits": [
-      "Caffeinated",
-      "Thick Skin"
-    ],
+    "traits": ["Caffeinated", "Thick Skin"],
     "details": {
       "height": {
         "cm": 115,
@@ -11044,7 +10735,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#086",
+          "number": 86,
           "name": "Magmis",
           "stage": 1,
           "levels": 16,
@@ -11055,7 +10746,7 @@
           }
         },
         {
-          "number": "#087",
+          "number": 87,
           "name": "Mastione",
           "stage": 2,
           "traitMapping": {
@@ -11127,11 +10818,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#087",
+    "number": 87,
     "name": "Mastione",
-    "types": [
-      "Fire"
-    ],
+    "types": ["Fire"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/32/Mastione.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Mastione",
@@ -11145,10 +10834,7 @@
       "spdef": 37,
       "total": 438
     },
-    "traits": [
-      "Bully",
-      "Pyromaniac"
-    ],
+    "traits": ["Bully", "Pyromaniac"],
     "details": {
       "height": {
         "cm": 240,
@@ -11234,7 +10920,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#086",
+          "number": 86,
           "name": "Magmis",
           "stage": 1,
           "levels": 16,
@@ -11245,7 +10931,7 @@
           }
         },
         {
-          "number": "#087",
+          "number": 87,
           "name": "Mastione",
           "stage": 2,
           "traitMapping": {
@@ -11303,11 +10989,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#088",
+    "number": 88,
     "name": "Umishi",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4f/Umishi.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Umishi",
@@ -11321,10 +11005,7 @@
       "spdef": 45,
       "total": 370
     },
-    "traits": [
-      "Shared Pain",
-      "Caffeinated"
-    ],
+    "traits": ["Shared Pain", "Caffeinated"],
     "details": {
       "height": {
         "cm": 95,
@@ -11399,7 +11080,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#088",
+          "number": 88,
           "name": "Umishi",
           "stage": 1,
           "levels": 14,
@@ -11410,7 +11091,7 @@
           }
         },
         {
-          "number": "#089",
+          "number": 89,
           "name": "Ukama",
           "stage": 2,
           "traitMapping": {
@@ -11482,11 +11163,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#089",
+    "number": 89,
     "name": "Ukama",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/75/Ukama.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Ukama",
@@ -11500,10 +11179,7 @@
       "spdef": 54,
       "total": 473
     },
-    "traits": [
-      "Hydrologist",
-      "Plethoric"
-    ],
+    "traits": ["Hydrologist", "Plethoric"],
     "details": {
       "height": {
         "cm": 140,
@@ -11587,7 +11263,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#088",
+          "number": 88,
           "name": "Umishi",
           "stage": 1,
           "levels": 14,
@@ -11598,7 +11274,7 @@
           }
         },
         {
-          "number": "#089",
+          "number": 89,
           "name": "Ukama",
           "stage": 2,
           "traitMapping": {
@@ -11656,11 +11332,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#091",
+    "number": 91,
     "name": "Raignet",
-    "types": [
-      "Electric"
-    ],
+    "types": ["Electric"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/50/Raignet.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Raignet",
@@ -11674,9 +11348,7 @@
       "spdef": 0,
       "total": 0
     },
-    "traits": [
-      "Kinetic Transfer"
-    ],
+    "traits": ["Kinetic Transfer"],
     "details": {
       "height": {
         "cm": 0,
@@ -11722,7 +11394,7 @@
           "stage": 1
         },
         {
-          "number": "#091",
+          "number": 91,
           "name": "Raignet",
           "stage": 2,
           "traitMapping": {
@@ -11764,11 +11436,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#092",
+    "number": 92,
     "name": "Smazee",
-    "types": [
-      "Melee"
-    ],
+    "types": ["Melee"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f7/Smazee.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Smazee",
@@ -11782,10 +11452,7 @@
       "spdef": 37,
       "total": 357
     },
-    "traits": [
-      "Fever Rush",
-      "Friendship"
-    ],
+    "traits": ["Fever Rush", "Friendship"],
     "details": {
       "height": {
         "cm": 96,
@@ -11869,14 +11536,12 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Smazee's name is derived from smack and chimpanzee."
-    ],
+    "trivia": ["Smazee's name is derived from smack and chimpanzee."],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#092",
+          "number": 92,
           "name": "Smazee",
           "stage": 1,
           "levels": 29,
@@ -11887,7 +11552,7 @@
           }
         },
         {
-          "number": "#093",
+          "number": 93,
           "name": "Baboong",
           "stage": 2,
           "levels": 23,
@@ -11898,7 +11563,7 @@
           }
         },
         {
-          "number": "#094",
+          "number": 94,
           "name": "Seismunch",
           "stage": 3,
           "traitMapping": {
@@ -11941,11 +11606,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Smazee.gif"
   },
   {
-    "number": "#093",
+    "number": 93,
     "name": "Baboong",
-    "types": [
-      "Melee"
-    ],
+    "types": ["Melee"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/28/Baboong.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Baboong",
@@ -11959,10 +11622,7 @@
       "spdef": 41,
       "total": 402
     },
-    "traits": [
-      "Brawny",
-      "Warm-Blooded"
-    ],
+    "traits": ["Brawny", "Warm-Blooded"],
     "details": {
       "height": {
         "cm": 160,
@@ -12046,14 +11706,12 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Baboong's name is derived from baboon and young."
-    ],
+    "trivia": ["Baboong's name is derived from baboon and young."],
     "evolution": {
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#092",
+          "number": 92,
           "name": "Smazee",
           "stage": 1,
           "levels": 29,
@@ -12064,7 +11722,7 @@
           }
         },
         {
-          "number": "#093",
+          "number": 93,
           "name": "Baboong",
           "stage": 2,
           "levels": 23,
@@ -12075,7 +11733,7 @@
           }
         },
         {
-          "number": "#094",
+          "number": 94,
           "name": "Seismunch",
           "stage": 3,
           "traitMapping": {
@@ -12118,12 +11776,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Baboong.gif"
   },
   {
-    "number": "#094",
+    "number": 94,
     "name": "Seismunch",
-    "types": [
-      "Melee",
-      "Earth"
-    ],
+    "types": ["Melee", "Earth"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/87/Seismunch.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Seismunch",
@@ -12137,10 +11792,7 @@
       "spdef": 43,
       "total": 449
     },
-    "traits": [
-      "Self-Esteem",
-      "Earthbound"
-    ],
+    "traits": ["Self-Esteem", "Earthbound"],
     "details": {
       "height": {
         "cm": 195,
@@ -12237,7 +11889,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": "#092",
+          "number": 92,
           "name": "Smazee",
           "stage": 1,
           "levels": 29,
@@ -12248,7 +11900,7 @@
           }
         },
         {
-          "number": "#093",
+          "number": 93,
           "name": "Baboong",
           "stage": 2,
           "levels": 23,
@@ -12259,7 +11911,7 @@
           }
         },
         {
-          "number": "#094",
+          "number": 94,
           "name": "Seismunch",
           "stage": 3,
           "traitMapping": {
@@ -12302,11 +11954,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#095",
+    "number": 95,
     "name": "Zizare",
-    "types": [
-      "Earth"
-    ],
+    "types": ["Earth"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fe/Zizare.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Zizare",
@@ -12320,10 +11970,7 @@
       "spdef": 45,
       "total": 410
     },
-    "traits": [
-      "Rested",
-      "Electric Synthesize"
-    ],
+    "traits": ["Rested", "Electric Synthesize"],
     "details": {
       "height": {
         "cm": 180,
@@ -12486,11 +12133,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#100",
+    "number": 100,
     "name": "Kuri",
-    "types": [
-      "Earth"
-    ],
+    "types": ["Earth"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/52/Kuri.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Kuri",
@@ -12504,10 +12149,7 @@
       "spdef": 31,
       "total": 318
     },
-    "traits": [
-      "Camaraderie",
-      "Callosity"
-    ],
+    "traits": ["Camaraderie", "Callosity"],
     "details": {
       "height": {
         "cm": 100,
@@ -12551,7 +12193,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#100",
+          "number": 100,
           "name": "Kuri",
           "stage": 1,
           "levels": 16,
@@ -12562,7 +12204,7 @@
           }
         },
         {
-          "number": "#101",
+          "number": 101,
           "name": "Kauren",
           "stage": 2,
           "traitMapping": {
@@ -12662,11 +12304,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#101",
+    "number": 101,
     "name": "Kauren",
-    "types": [
-      "Earth"
-    ],
+    "types": ["Earth"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/09/Kauren.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Kauren",
@@ -12680,10 +12320,7 @@
       "spdef": 51,
       "total": 443
     },
-    "traits": [
-      "Scavenger",
-      "Skull Helmet"
-    ],
+    "traits": ["Scavenger", "Skull Helmet"],
     "details": {
       "height": {
         "cm": 170,
@@ -12755,7 +12392,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#100",
+          "number": 100,
           "name": "Kuri",
           "stage": 1,
           "levels": 16,
@@ -12766,7 +12403,7 @@
           }
         },
         {
-          "number": "#101",
+          "number": 101,
           "name": "Kauren",
           "stage": 2,
           "traitMapping": {
@@ -12809,11 +12446,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#102",
+    "number": 102,
     "name": "Spriole",
-    "types": [
-      "Nature"
-    ],
+    "types": ["Nature"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/80/Spriole.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Spriole",
@@ -12827,10 +12462,7 @@
       "spdef": 31,
       "total": 355
     },
-    "traits": [
-      "Camaraderie",
-      "Botanist"
-    ],
+    "traits": ["Camaraderie", "Botanist"],
     "details": {
       "height": {
         "cm": 74,
@@ -12886,14 +12518,12 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Spriole's name is derived from sprout and petiole."
-    ],
+    "trivia": ["Spriole's name is derived from sprout and petiole."],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#102",
+          "number": 102,
           "name": "Spriole",
           "stage": 1,
           "levels": 12,
@@ -12904,7 +12534,7 @@
           }
         },
         {
-          "number": "#103",
+          "number": 103,
           "name": "Deendre",
           "stage": 2,
           "levels": 25,
@@ -12915,7 +12545,7 @@
           }
         },
         {
-          "number": "#104",
+          "number": 104,
           "name": "Cerneaf",
           "stage": 3,
           "traitMapping": {
@@ -13029,11 +12659,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Spriole.gif"
   },
   {
-    "number": "#103",
+    "number": 103,
     "name": "Deendre",
-    "types": [
-      "Nature"
-    ],
+    "types": ["Nature"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/42/Deendre.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Deendre",
@@ -13047,10 +12675,7 @@
       "spdef": 35,
       "total": 391
     },
-    "traits": [
-      "Mithridatism",
-      "Settling"
-    ],
+    "traits": ["Mithridatism", "Settling"],
     "details": {
       "height": {
         "cm": 120,
@@ -13118,7 +12743,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#102",
+          "number": 102,
           "name": "Spriole",
           "stage": 1,
           "levels": 12,
@@ -13129,7 +12754,7 @@
           }
         },
         {
-          "number": "#103",
+          "number": 103,
           "name": "Deendre",
           "stage": 2,
           "levels": 25,
@@ -13140,7 +12765,7 @@
           }
         },
         {
-          "number": "#104",
+          "number": 104,
           "name": "Cerneaf",
           "stage": 3,
           "traitMapping": {
@@ -13226,11 +12851,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#104",
+    "number": 104,
     "name": "Cerneaf",
-    "types": [
-      "Nature"
-    ],
+    "types": ["Nature"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fa/Cerneaf.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Cerneaf",
@@ -13244,10 +12867,7 @@
       "spdef": 46,
       "total": 451
     },
-    "traits": [
-      "Callosity",
-      "Settling"
-    ],
+    "traits": ["Callosity", "Settling"],
     "details": {
       "height": {
         "cm": 210,
@@ -13334,7 +12954,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": "#102",
+          "number": 102,
           "name": "Spriole",
           "stage": 1,
           "levels": 12,
@@ -13345,7 +12965,7 @@
           }
         },
         {
-          "number": "#103",
+          "number": 103,
           "name": "Deendre",
           "stage": 2,
           "levels": 25,
@@ -13356,7 +12976,7 @@
           }
         },
         {
-          "number": "#104",
+          "number": 104,
           "name": "Cerneaf",
           "stage": 3,
           "traitMapping": {
@@ -13399,11 +13019,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#105",
+    "number": 105,
     "name": "Toxolotl",
-    "types": [
-      "Toxic"
-    ],
+    "types": ["Toxic"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4e/Toxolotl.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Toxolotl",
@@ -13417,10 +13035,7 @@
       "spdef": 37,
       "total": 362
     },
-    "traits": [
-      "Power Nap",
-      "Toxic Farewell"
-    ],
+    "traits": ["Power Nap", "Toxic Farewell"],
     "details": {
       "height": {
         "cm": 106,
@@ -13484,14 +13099,12 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Toxolotl's name is derived from toxic and axolotl."
-    ],
+    "trivia": ["Toxolotl's name is derived from toxic and axolotl."],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#105",
+          "number": 105,
           "name": "Toxolotl",
           "stage": 1,
           "levels": 30,
@@ -13502,7 +13115,7 @@
           }
         },
         {
-          "number": "#106",
+          "number": 106,
           "name": "Noxolotl",
           "stage": 2,
           "traitMapping": {
@@ -13560,11 +13173,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#106",
+    "number": 106,
     "name": "Noxolotl",
-    "types": [
-      "Toxic"
-    ],
+    "types": ["Toxic"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/55/Noxolotl.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Noxolotl",
@@ -13578,10 +13189,7 @@
       "spdef": 45,
       "total": 451
     },
-    "traits": [
-      "Trance",
-      "Toxic Skin"
-    ],
+    "traits": ["Trance", "Toxic Skin"],
     "details": {
       "height": {
         "cm": 177,
@@ -13663,7 +13271,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#105",
+          "number": 105,
           "name": "Toxolotl",
           "stage": 1,
           "levels": 30,
@@ -13674,7 +13282,7 @@
           }
         },
         {
-          "number": "#106",
+          "number": 106,
           "name": "Noxolotl",
           "stage": 2,
           "traitMapping": {
@@ -13717,11 +13325,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Noxolotl.gif"
   },
   {
-    "number": "#107",
+    "number": 107,
     "name": "Blooze",
-    "types": [
-      "Toxic"
-    ],
+    "types": ["Toxic"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/ff/Blooze.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Blooze",
@@ -13735,10 +13341,7 @@
       "spdef": 54,
       "total": 346
     },
-    "traits": [
-      "Toxic Skin",
-      "Bully"
-    ],
+    "traits": ["Toxic Skin", "Bully"],
     "details": {
       "height": {
         "cm": 178,
@@ -13785,14 +13388,12 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Blooze's name is derived fromblob and ooze."
-    ],
+    "trivia": ["Blooze's name is derived fromblob and ooze."],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#107",
+          "number": 107,
           "name": "Blooze",
           "stage": 1,
           "levels": 25,
@@ -13803,7 +13404,7 @@
           }
         },
         {
-          "number": "#108",
+          "number": 108,
           "name": "Goolder",
           "stage": 2,
           "traitMapping": {
@@ -13861,11 +13462,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#108",
+    "number": 108,
     "name": "Goolder",
-    "types": [
-      "Toxic"
-    ],
+    "types": ["Toxic"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/26/Goolder.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Goolder",
@@ -13879,10 +13478,7 @@
       "spdef": 56,
       "total": 444
     },
-    "traits": [
-      "Strong Liver",
-      "Punching Bag"
-    ],
+    "traits": ["Strong Liver", "Punching Bag"],
     "details": {
       "height": {
         "cm": 222,
@@ -13972,7 +13568,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#107",
+          "number": 107,
           "name": "Blooze",
           "stage": 1,
           "levels": 25,
@@ -13983,7 +13579,7 @@
           }
         },
         {
-          "number": "#108",
+          "number": 108,
           "name": "Goolder",
           "stage": 2,
           "traitMapping": {
@@ -14026,12 +13622,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#109",
+    "number": 109,
     "name": "Zephyruff",
-    "types": [
-      "Toxic",
-      "Wind"
-    ],
+    "types": ["Toxic", "Wind"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f7/Zephyruff.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Zephyruff",
@@ -14045,10 +13638,7 @@
       "spdef": 51,
       "total": 348
     },
-    "traits": [
-      "Toxic Affinity",
-      "Air Specialist"
-    ],
+    "traits": ["Toxic Affinity", "Air Specialist"],
     "details": {
       "height": {
         "cm": 92,
@@ -14110,7 +13700,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#109",
+          "number": 109,
           "name": "Zephyruff",
           "stage": 1,
           "levels": 22,
@@ -14121,7 +13711,7 @@
           }
         },
         {
-          "number": "#110",
+          "number": 110,
           "name": "Volarend",
           "stage": 2,
           "traitMapping": {
@@ -14221,12 +13811,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#110",
+    "number": 110,
     "name": "Volarend",
-    "types": [
-      "Toxic",
-      "Wind"
-    ],
+    "types": ["Toxic", "Wind"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/87/Volarend.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Volarend",
@@ -14240,10 +13827,7 @@
       "spdef": 96,
       "total": 442
     },
-    "traits": [
-      "Aerobic",
-      "Anaerobic"
-    ],
+    "traits": ["Aerobic", "Anaerobic"],
     "details": {
       "height": {
         "cm": 205,
@@ -14318,7 +13902,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#109",
+          "number": 109,
           "name": "Zephyruff",
           "stage": 1,
           "levels": 22,
@@ -14329,7 +13913,7 @@
           }
         },
         {
-          "number": "#110",
+          "number": 110,
           "name": "Volarend",
           "stage": 2,
           "traitMapping": {
@@ -14401,11 +13985,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#111",
+    "number": 111,
     "name": "Grumvel",
-    "types": [
-      "Earth"
-    ],
+    "types": ["Earth"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7a/Grumvel.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Grumvel",
@@ -14419,10 +14001,7 @@
       "spdef": 60,
       "total": 384
     },
-    "traits": [
-      "Energy Reserves",
-      "Settling"
-    ],
+    "traits": ["Energy Reserves", "Settling"],
     "details": {
       "height": {
         "cm": 120,
@@ -14459,14 +14038,12 @@
         "source": "TechniqueCourses"
       }
     ],
-    "trivia": [
-      "Grumvel's name is derived from Grumpy and Gravel."
-    ],
+    "trivia": ["Grumvel's name is derived from Grumpy and Gravel."],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#111",
+          "number": 111,
           "name": "Grumvel",
           "stage": 1,
           "levels": 16,
@@ -14477,7 +14054,7 @@
           }
         },
         {
-          "number": "#112",
+          "number": 112,
           "name": "Grumper",
           "stage": 2,
           "traitMapping": {
@@ -14549,12 +14126,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#112",
+    "number": 112,
     "name": "Grumper",
-    "types": [
-      "Earth",
-      "Electric"
-    ],
+    "types": ["Earth", "Electric"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b0/Grumper.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Grumper",
@@ -14568,10 +14142,7 @@
       "spdef": 67,
       "total": 445
     },
-    "traits": [
-      "Inductor",
-      "Coward's Rest"
-    ],
+    "traits": ["Inductor", "Coward's Rest"],
     "details": {
       "height": {
         "cm": 200,
@@ -14640,14 +14211,12 @@
         "source": "TechniqueCourses"
       }
     ],
-    "trivia": [
-      "Grumper's name is derived from Grumpy and Thunder."
-    ],
+    "trivia": ["Grumper's name is derived from Grumpy and Thunder."],
     "evolution": {
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#111",
+          "number": 111,
           "name": "Grumvel",
           "stage": 1,
           "levels": 16,
@@ -14658,7 +14227,7 @@
           }
         },
         {
-          "number": "#112",
+          "number": 112,
           "name": "Grumper",
           "stage": 2,
           "traitMapping": {
@@ -14701,12 +14270,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#113",
+    "number": 113,
     "name": "Ganki",
-    "types": [
-      "Electric",
-      "Wind"
-    ],
+    "types": ["Electric", "Wind"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/bc/Ganki.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Ganki",
@@ -14720,10 +14286,7 @@
       "spdef": 73,
       "total": 375
     },
-    "traits": [
-      "Botanophobia",
-      "Cold-Natured"
-    ],
+    "traits": ["Botanophobia", "Cold-Natured"],
     "details": {
       "height": {
         "cm": 105,
@@ -14797,7 +14360,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#113",
+          "number": 113,
           "name": "Ganki",
           "stage": 1,
           "levels": 27,
@@ -14808,7 +14371,7 @@
           }
         },
         {
-          "number": "#114",
+          "number": 114,
           "name": "Gazuma",
           "stage": 2,
           "traitMapping": {
@@ -14880,12 +14443,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#114",
+    "number": 114,
     "name": "Gazuma",
-    "types": [
-      "Electric",
-      "Wind"
-    ],
+    "types": ["Electric", "Wind"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5c/Gazuma.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Gazuma",
@@ -14899,10 +14459,7 @@
       "spdef": 91,
       "total": 449
     },
-    "traits": [
-      "Receptive",
-      "Fast Charge"
-    ],
+    "traits": ["Receptive", "Fast Charge"],
     "details": {
       "height": {
         "cm": 145,
@@ -14982,7 +14539,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#113",
+          "number": 113,
           "name": "Ganki",
           "stage": 1,
           "levels": 27,
@@ -14993,7 +14550,7 @@
           }
         },
         {
-          "number": "#114",
+          "number": 114,
           "name": "Gazuma",
           "stage": 2,
           "traitMapping": {
@@ -15051,11 +14608,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#115",
+    "number": 115,
     "name": "Oceara",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/26/Oceara.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Oceara",
@@ -15069,10 +14624,7 @@
       "spdef": 65,
       "total": 486
     },
-    "traits": [
-      "Hydrologist",
-      "Mithridatism"
-    ],
+    "traits": ["Hydrologist", "Mithridatism"],
     "details": {
       "height": {
         "cm": 222,
@@ -15188,11 +14740,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Oceara.gif"
   },
   {
-    "number": "#116",
+    "number": 116,
     "name": "Yowlar",
-    "types": [
-      "Neutral"
-    ],
+    "types": ["Neutral"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/35/Yowlar.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Yowlar",
@@ -15206,9 +14756,7 @@
       "spdef": 0,
       "total": 0
     },
-    "traits": [
-      "Comebacker"
-    ],
+    "traits": ["Comebacker"],
     "details": {
       "height": {
         "cm": 0,
@@ -15278,12 +14826,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#117",
+    "number": 117,
     "name": "Droply",
-    "types": [
-      "Water",
-      "Earth"
-    ],
+    "types": ["Water", "Earth"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d7/Droply.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Droply",
@@ -15297,10 +14842,7 @@
       "spdef": 54,
       "total": 363
     },
-    "traits": [
-      "Water Affinity",
-      "Amphibian"
-    ],
+    "traits": ["Water Affinity", "Amphibian"],
     "details": {
       "height": {
         "cm": 40,
@@ -15333,14 +14875,12 @@
         "levels": 22
       }
     ],
-    "trivia": [
-      "Droply's name is derived from Droplet and Baby."
-    ],
+    "trivia": ["Droply's name is derived from Droplet and Baby."],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#117",
+          "number": 117,
           "name": "Droply",
           "stage": 1,
           "levels": 20,
@@ -15351,7 +14891,7 @@
           }
         },
         {
-          "number": "#118",
+          "number": 118,
           "name": "Garyo",
           "stage": 2,
           "traitMapping": {
@@ -15437,12 +14977,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Droply.gif"
   },
   {
-    "number": "#118",
+    "number": 118,
     "name": "Garyo",
-    "types": [
-      "Water",
-      "Earth"
-    ],
+    "types": ["Water", "Earth"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a4/Garyo.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Garyo",
@@ -15456,10 +14993,7 @@
       "spdef": 66,
       "total": 445
     },
-    "traits": [
-      "Autotomy",
-      "Marathonist"
-    ],
+    "traits": ["Autotomy", "Marathonist"],
     "details": {
       "height": {
         "cm": 80,
@@ -15519,14 +15053,12 @@
         "source": "TechniqueCourses"
       }
     ],
-    "trivia": [
-      "Garyo's name is derived from Gregarious and Lake Moyo."
-    ],
+    "trivia": ["Garyo's name is derived from Gregarious and Lake Moyo."],
     "evolution": {
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#117",
+          "number": 117,
           "name": "Droply",
           "stage": 1,
           "levels": 20,
@@ -15537,7 +15069,7 @@
           }
         },
         {
-          "number": "#118",
+          "number": 118,
           "name": "Garyo",
           "stage": 2,
           "traitMapping": {
@@ -15580,12 +15112,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#122",
+    "number": 122,
     "name": "Shuine",
-    "types": [
-      "Crystal",
-      "Water"
-    ],
+    "types": ["Crystal", "Water"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d9/Shuine.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Shuine",
@@ -15599,10 +15128,7 @@
       "spdef": 60,
       "total": 462
     },
-    "traits": [
-      "Immunity",
-      "Guardian"
-    ],
+    "traits": ["Immunity", "Guardian"],
     "details": {
       "height": {
         "cm": 250,
@@ -15720,12 +15246,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Shuine.gif"
   },
   {
-    "number": "#123",
+    "number": 123,
     "name": "Nessla",
-    "types": [
-      "Water",
-      "Electric"
-    ],
+    "types": ["Water", "Electric"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/81/Nessla.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Nessla",
@@ -15739,10 +15262,7 @@
       "spdef": 72,
       "total": 437
     },
-    "traits": [
-      "Electric Synthesize",
-      "Hydrologist"
-    ],
+    "traits": ["Electric Synthesize", "Hydrologist"],
     "details": {
       "height": {
         "cm": 190,
@@ -15891,11 +15411,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Nessla.gif"
   },
   {
-    "number": "#124",
+    "number": 124,
     "name": "Valiar",
-    "types": [
-      "Mental"
-    ],
+    "types": ["Mental"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7b/Valiar.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Valiar",
@@ -15909,9 +15427,7 @@
       "spdef": 0,
       "total": 0
     },
-    "traits": [
-      "Effective Denial"
-    ],
+    "traits": ["Effective Denial"],
     "details": {
       "height": {
         "cm": 0,
@@ -15983,11 +15499,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#127",
+    "number": 127,
     "name": "Kalazu",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fc/Kalazu.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Kalazu",
@@ -16001,10 +15515,7 @@
       "spdef": 44,
       "total": 321
     },
-    "traits": [
-      "Mithridatism",
-      "Hydrologist"
-    ],
+    "traits": ["Mithridatism", "Hydrologist"],
     "details": {
       "height": {
         "cm": 114,
@@ -16081,7 +15592,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#127",
+          "number": 127,
           "name": "Kalazu",
           "stage": 1,
           "levels": 18,
@@ -16092,7 +15603,7 @@
           }
         },
         {
-          "number": "#128",
+          "number": 128,
           "name": "Kalabyss",
           "stage": 2,
           "traitMapping": {
@@ -16206,12 +15717,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#128",
+    "number": 128,
     "name": "Kalabyss",
-    "types": [
-      "Water",
-      "Toxic"
-    ],
+    "types": ["Water", "Toxic"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/90/Kalabyss.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Kalabyss",
@@ -16225,10 +15733,7 @@
       "spdef": 55,
       "total": 451
     },
-    "traits": [
-      "Botanophobia",
-      "Loneliness"
-    ],
+    "traits": ["Botanophobia", "Loneliness"],
     "details": {
       "height": {
         "cm": 170,
@@ -16324,7 +15829,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#127",
+          "number": 127,
           "name": "Kalazu",
           "stage": 1,
           "levels": 18,
@@ -16335,7 +15840,7 @@
           }
         },
         {
-          "number": "#128",
+          "number": 128,
           "name": "Kalabyss",
           "stage": 2,
           "traitMapping": {
@@ -16393,12 +15898,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#129",
+    "number": 129,
     "name": "Adoroboros",
-    "types": [
-      "Toxic",
-      "Mental"
-    ],
+    "types": ["Toxic", "Mental"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/26/Adoroboros.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Adoroboros",
@@ -16412,10 +15914,7 @@
       "spdef": 110,
       "total": 442
     },
-    "traits": [
-      "Synergy Master",
-      "Toxic Skin"
-    ],
+    "traits": ["Synergy Master", "Toxic Skin"],
     "details": {
       "height": {
         "cm": 88,
@@ -16564,11 +16063,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#130",
+    "number": 130,
     "name": "Tuwai",
-    "types": [
-      "Wind"
-    ],
+    "types": ["Wind"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/db/Tuwai.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Tuwai",
@@ -16582,10 +16079,7 @@
       "spdef": 47,
       "total": 373
     },
-    "traits": [
-      "Spoilsport",
-      "Resilient"
-    ],
+    "traits": ["Spoilsport", "Resilient"],
     "details": {
       "height": {
         "cm": 106,
@@ -16649,7 +16143,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#130",
+          "number": 130,
           "name": "Tuwai",
           "stage": 1,
           "traitMapping": {
@@ -16663,7 +16157,7 @@
           "stage": 2
         },
         {
-          "number": "#131",
+          "number": 131,
           "name": "Tukai",
           "stage": 3,
           "traitMapping": {
@@ -16749,12 +16243,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tuwai.gif"
   },
   {
-    "number": "#131",
+    "number": 131,
     "name": "Tukai",
-    "types": [
-      "Wind",
-      "Water"
-    ],
+    "types": ["Wind", "Water"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/89/Tukai.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Tukai",
@@ -16768,10 +16259,7 @@
       "spdef": 78,
       "total": 462
     },
-    "traits": [
-      "Spreader",
-      "Hydrologist"
-    ],
+    "traits": ["Spreader", "Hydrologist"],
     "details": {
       "height": {
         "cm": 170,
@@ -16857,7 +16345,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": "#130",
+          "number": 130,
           "name": "Tuwai",
           "stage": 1,
           "traitMapping": {
@@ -16871,7 +16359,7 @@
           "stage": 2
         },
         {
-          "number": "#131",
+          "number": 131,
           "name": "Tukai",
           "stage": 3,
           "traitMapping": {
@@ -16914,12 +16402,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tukai.gif"
   },
   {
-    "number": "#133",
+    "number": 133,
     "name": "Tuvine",
-    "types": [
-      "Wind",
-      "Crystal"
-    ],
+    "types": ["Wind", "Crystal"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7e/Tuvine.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Tuvine",
@@ -16933,10 +16418,7 @@
       "spdef": 47,
       "total": 448
     },
-    "traits": [
-      "Receptive",
-      "Determined"
-    ],
+    "traits": ["Receptive", "Determined"],
     "details": {
       "height": {
         "cm": 172,
@@ -17011,7 +16493,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": "#130",
+          "number": 130,
           "name": "Tuwai",
           "stage": 1,
           "traitMapping": {
@@ -17025,7 +16507,7 @@
           "stage": 2
         },
         {
-          "number": "#133",
+          "number": 133,
           "name": "Tuvine",
           "stage": 3,
           "traitMapping": {
@@ -17068,12 +16550,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#134",
+    "number": 134,
     "name": "Turoc",
-    "types": [
-      "Wind",
-      "Earth"
-    ],
+    "types": ["Wind", "Earth"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6a/Turoc.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Turoc",
@@ -17087,10 +16566,7 @@
       "spdef": 45,
       "total": 444
     },
-    "traits": [
-      "Escapist",
-      "Tactical Strike"
-    ],
+    "traits": ["Escapist", "Tactical Strike"],
     "details": {
       "height": {
         "cm": 175,
@@ -17165,7 +16641,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": "#130",
+          "number": 130,
           "name": "Tuwai",
           "stage": 1,
           "traitMapping": {
@@ -17179,7 +16655,7 @@
           "stage": 2
         },
         {
-          "number": "#134",
+          "number": 134,
           "name": "Turoc",
           "stage": 3,
           "traitMapping": {
@@ -17222,12 +16698,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#137",
+    "number": 137,
     "name": "Kinu",
-    "types": [
-      "Nature",
-      "Mental"
-    ],
+    "types": ["Nature", "Mental"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/47/Kinu.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Kinu",
@@ -17241,10 +16714,7 @@
       "spdef": 89,
       "total": 433
     },
-    "traits": [
-      "Protector",
-      "Benefactor"
-    ],
+    "traits": ["Protector", "Benefactor"],
     "details": {
       "height": {
         "cm": 93,
@@ -17376,12 +16846,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#138",
+    "number": 138,
     "name": "Vulvir",
-    "types": [
-      "Fire",
-      "Earth"
-    ],
+    "types": ["Fire", "Earth"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/40/Vulvir.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Vulvir",
@@ -17395,10 +16862,7 @@
       "spdef": 31,
       "total": 359
     },
-    "traits": [
-      "Camaraderie",
-      "Caffeinated"
-    ],
+    "traits": ["Camaraderie", "Caffeinated"],
     "details": {
       "height": {
         "cm": 76,
@@ -17464,7 +16928,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": "#138",
+          "number": 138,
           "name": "Vulvir",
           "stage": 1,
           "levels": 14,
@@ -17475,7 +16939,7 @@
           }
         },
         {
-          "number": "#139",
+          "number": 139,
           "name": "Vulor",
           "stage": 2,
           "levels": 28,
@@ -17486,7 +16950,7 @@
           }
         },
         {
-          "number": "#140",
+          "number": 140,
           "name": "Vulcrane",
           "stage": 3,
           "traitMapping": {
@@ -17558,12 +17022,9 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Vulvir.gif"
   },
   {
-    "number": "#139",
+    "number": 139,
     "name": "Vulor",
-    "types": [
-      "Fire",
-      "Earth"
-    ],
+    "types": ["Fire", "Earth"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/61/Vulor.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Vulor",
@@ -17577,10 +17038,7 @@
       "spdef": 32,
       "total": 388
     },
-    "traits": [
-      "Pyromaniac",
-      "Individualist"
-    ],
+    "traits": ["Pyromaniac", "Individualist"],
     "details": {
       "height": {
         "cm": 163,
@@ -17660,7 +17118,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": "#138",
+          "number": 138,
           "name": "Vulvir",
           "stage": 1,
           "levels": 14,
@@ -17671,7 +17129,7 @@
           }
         },
         {
-          "number": "#139",
+          "number": 139,
           "name": "Vulor",
           "stage": 2,
           "levels": 28,
@@ -17682,7 +17140,7 @@
           }
         },
         {
-          "number": "#140",
+          "number": 140,
           "name": "Vulcrane",
           "stage": 3,
           "traitMapping": {
@@ -17754,12 +17212,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#140",
+    "number": 140,
     "name": "Vulcrane",
-    "types": [
-      "Fire",
-      "Earth"
-    ],
+    "types": ["Fire", "Earth"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/Vulcrane.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Vulcrane",
@@ -17773,10 +17228,7 @@
       "spdef": 35,
       "total": 473
     },
-    "traits": [
-      "Receptive",
-      "Vigorous"
-    ],
+    "traits": ["Receptive", "Vigorous"],
     "details": {
       "height": {
         "cm": 233,
@@ -17870,7 +17322,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": "#138",
+          "number": 138,
           "name": "Vulvir",
           "stage": 1,
           "levels": 14,
@@ -17881,7 +17333,7 @@
           }
         },
         {
-          "number": "#139",
+          "number": 139,
           "name": "Vulor",
           "stage": 2,
           "levels": 28,
@@ -17892,7 +17344,7 @@
           }
         },
         {
-          "number": "#140",
+          "number": 140,
           "name": "Vulcrane",
           "stage": 3,
           "traitMapping": {
@@ -17950,11 +17402,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#141",
+    "number": 141,
     "name": "Pigepic",
-    "types": [
-      "Wind"
-    ],
+    "types": ["Wind"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/20/Pigepic.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Pigepic",
@@ -17968,10 +17418,7 @@
       "spdef": 72,
       "total": 433
     },
-    "traits": [
-      "Friendship",
-      "Fainted Curse"
-    ],
+    "traits": ["Friendship", "Fainted Curse"],
     "details": {
       "height": {
         "cm": 69,
@@ -18144,12 +17591,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#142",
+    "number": 142,
     "name": "Akranox",
-    "types": [
-      "Earth",
-      "Toxic"
-    ],
+    "types": ["Earth", "Toxic"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d2/Akranox.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Akranox",
@@ -18163,10 +17607,7 @@
       "spdef": 64,
       "total": 454
     },
-    "traits": [
-      "Book Lungs",
-      "Cobweb"
-    ],
+    "traits": ["Book Lungs", "Cobweb"],
     "details": {
       "height": {
         "cm": 160,
@@ -18296,12 +17737,9 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#144",
+    "number": 144,
     "name": "Vulffy",
-    "types": [
-      "Earth",
-      "Nature"
-    ],
+    "types": ["Earth", "Nature"],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/46/Vulffy.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Vulffy",
@@ -18315,10 +17753,7 @@
       "spdef": 85,
       "total": 439
     },
-    "traits": [
-      "Burglar",
-      "Team Elusive"
-    ],
+    "traits": ["Burglar", "Team Elusive"],
     "details": {
       "height": {
         "cm": 84,
@@ -18458,36 +17893,31 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": "#072",
-    "name": "Crystle",
-    "types": [
-      "Crystal"
-    ],
-    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Crystle.png",
+    "number": 161,
+    "name": "Anahir",
+    "types": ["Crystal", "Fire"],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/ea/Anahir.png",
     "lumaPortraitWikiUrl": "",
-    "wikiUrl": "https://temtem.gamepedia.com/Crystle",
+    "wikiUrl": "https://temtem.gamepedia.com/Anahir",
     "stats": {
-      "hp": 60,
-      "sta": 41,
-      "spd": 33,
-      "atk": 61,
-      "def": 69,
-      "spatk": 46,
-      "spdef": 42,
-      "total": 352
+      "hp": 54,
+      "sta": 36,
+      "spd": 31,
+      "atk": 50,
+      "def": 101,
+      "spatk": 50,
+      "spdef": 101,
+      "total": 423
     },
-    "traits": [
-      "Amphibian",
-      "Rested"
-    ],
+    "traits": ["Trauma", "Flawed Crystal"],
     "details": {
       "height": {
-        "cm": 60,
-        "inches": 23
+        "cm": 152,
+        "inches": 59
       },
       "weight": {
-        "kg": 48,
-        "lbs": 105
+        "kg": 172,
+        "lbs": 379
       }
     },
     "techniques": [
@@ -18497,130 +17927,86 @@
         "levels": 1
       },
       {
-        "name": "Mirror Shell",
+        "name": "Fire Flame",
         "source": "Levelling",
-        "levels": 3
+        "levels": 4
       },
       {
-        "name": "Nibble",
-        "source": "Levelling",
-        "levels": 5
-      },
-      {
-        "name": "Crystal Dust",
+        "name": "Head Charge",
         "source": "Levelling",
         "levels": 9
       },
       {
-        "name": "Head Ram",
+        "name": "Chains Hit",
         "source": "Levelling",
-        "levels": 14
+        "levels": 15
       },
       {
-        "name": "Crystallize",
+        "name": "Meteor Swarm",
         "source": "Levelling",
-        "levels": 17
-      },
-      {
-        "name": "Crystal Spikes",
-        "source": "Levelling",
-        "levels": 27
+        "levels": 21
       },
       {
         "name": "Rampage",
         "source": "Levelling",
-        "levels": 35
+        "levels": 27
       },
       {
-        "name": "Stone Wall",
+        "name": "Heat Up",
+        "source": "Levelling",
+        "levels": 36
+      },
+      {
+        "name": "Crystal Bite",
+        "source": "Levelling",
+        "levels": 47
+      },
+      {
+        "name": "Mineral Hail",
+        "source": "Levelling",
+        "levels": 58
+      },
+      {
+        "name": "Magma Cannon",
         "source": "TechniqueCourses"
-      },
-      {
-        "name": "Antitoxins",
-        "source": "Breeding"
       }
     ],
     "trivia": [
-      "Crystle's name is derived from crystal and turtle."
+      "Anahir's name is derived from Anak and Terlahir (born in Indonesian), so its name means \"Born from Anak\".\nIts name was for a while rumored to be Rihanna backwards, which was \"confirmed\" on Twitter while CEO Tateru was in control on April 1st, 2020.",
+      "Its name was for a while rumored to be Rihanna backwards, which was \"confirmed\" on Twitter while CEO Tateru was in control on April 1st, 2020.",
+      "The Anahir you obtain during the quest Adventure in the Myrisles will always have 50 SVs in both DEF and SPDEF stats.",
+      "Players can decide to not obtain Anahir to save storage, useful for those who value storage for FreeTem. Similarly players can decide to obtain Anahir at a later date.",
+      "The Crystal Temtem that was subjected to intense heat to create Anahir is not a reference to any specific Temtem."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": "#072",
-          "name": "Crystle",
-          "stage": 1,
-          "levels": 30,
-          "trading": false,
-          "traitMapping": {
-            "Amphibian": "Mirroring",
-            "Rested": "Provident"
-          }
-        },
-        {
-          "number": "#073",
-          "name": "Sherald",
-          "stage": 2,
-          "levels": 21,
-          "trading": false,
-          "traitMapping": {
-            "Mirroring": "Confined",
-            "Provident": "Efficient"
-          }
-        },
-        {
-          "number": "#074",
-          "name": "Tortenite",
-          "stage": 3,
-          "traitMapping": {
-            "Confined": "Confined",
-            "Efficient": "Efficient"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Crystle.png",
-    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c6/LumaCrystle.png",
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/ea/Anahir.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/94/LumaAnahir.png",
     "locations": [
       {
-        "location": "Mines of Mictlan",
-        "place": "Mines of Mictlan",
+        "location": "Anak Volcano",
+        "place": "Anak Volcano",
         "note": "",
-        "island": "Tucma",
-        "frequency": "5%",
-        "level": "28 - 30",
+        "island": "Omninesia",
+        "frequency": "Gift",
+        "level": "20",
         "freetem": {
-          "minLevel": 28,
-          "maxLevel": 30,
-          "minPansuns": 73,
-          "maxPansuns": 77
-        }
-      },
-      {
-        "location": "Kupeleleza",
-        "place": "Kupeleleza",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "5%",
-        "level": "24 - 28",
-        "freetem": {
-          "minLevel": 24,
-          "maxLevel": 28,
-          "minPansuns": 65,
-          "maxPansuns": 73
+          "minLevel": 20,
+          "maxLevel": 20,
+          "minPansuns": null,
+          "maxPansuns": null
         }
       }
     ],
-    "icon": "/images/portraits/temtem/large/Crystle.png",
-    "lumaIcon": "/images/portraits/temtem/luma/large/Crystle.png",
+    "icon": "/images/portraits/temtem/large/Anahir.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Anahir.png",
     "genderRatio": {
-      "male": 35,
-      "female": 65
+      "male": 50,
+      "female": 50
     },
-    "catchRate": 160,
-    "hatchMins": 13,
+    "catchRate": 0,
+    "hatchMins": 45,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -18628,16 +18014,16 @@
       "atk": 0,
       "def": 2,
       "spatk": 0,
-      "spdef": 0
+      "spdef": 2
     },
-    "gameDescription": "Native to Tucma, Crystle are akin to smaragdine turtles, but they are actually closer to minerals than to fauna. Cute but tough, they are an excellent introductory Crystal Temtem for rookie tamers.",
-    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b7/Crystle_full_render.png",
-    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8e/Crystle_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8f/LumaCrystle_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/69/LumaCrystle_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Crystle.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Crystle.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Crystle.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Crystle.gif"
+    "gameDescription": "This tortured creature is the result of Dr. Hamijo's attempts at creating a new \"Diamond\" variety. By picking the sturdiest variety of Crystal Temtem and submitting it to the harshest Fire environment of Anak, he has achieved something unique... and uniquely cruel.",
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/19/Anahir_full_render.png",
+    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d7/Anahir_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/be/LumaAnahir_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9c/LumaAnahir_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Anahir.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Anahir.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Anahir.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Anahir.gif"
   }
 ]
