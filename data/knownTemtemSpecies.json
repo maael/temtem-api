@@ -1,6 +1,6 @@
 [
   {
-    "number": 2,
+    "number": "#002",
     "name": "Oree",
     "types": [
       "Digital"
@@ -74,7 +74,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 2,
+          "number": "#002",
           "name": "Oree",
           "stage": 1,
           "traitMapping": {
@@ -82,7 +82,7 @@
           }
         },
         {
-          "number": 3,
+          "number": "#003",
           "name": "Zaobian",
           "stage": 2,
           "traitMapping": {
@@ -124,123 +124,147 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Oree.gif"
   },
   {
-    "number": 3,
-    "name": "Zaobian",
+    "number": "#161",
+    "name": "Anahir",
     "types": [
-      "Digital"
+      "Crystal",
+      "Fire"
     ],
-    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/54/Zaobian.png",
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/ea/Anahir.png",
     "lumaPortraitWikiUrl": "",
-    "wikiUrl": "https://temtem.gamepedia.com/Zaobian",
+    "wikiUrl": "https://temtem.gamepedia.com/Anahir",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 54,
+      "sta": 36,
+      "spd": 31,
+      "atk": 50,
+      "def": 101,
+      "spatk": 50,
+      "spdef": 101,
+      "total": 423
     },
     "traits": [
-      "Attack T"
+      "Trauma",
+      "Flawed Crystal"
     ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 152,
+        "inches": 59
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 172,
+        "lbs": 379
       }
     },
     "techniques": [
       {
-        "name": "Cold Breeze",
+        "name": "Glass Blade",
         "source": "Levelling",
-        "levels": 0
+        "levels": 1
       },
       {
-        "name": "Tesla Prison",
+        "name": "Fire Flame",
         "source": "Levelling",
-        "levels": 0
+        "levels": 4
+      },
+      {
+        "name": "Head Charge",
+        "source": "Levelling",
+        "levels": 9
+      },
+      {
+        "name": "Chains Hit",
+        "source": "Levelling",
+        "levels": 15
+      },
+      {
+        "name": "Meteor Swarm",
+        "source": "Levelling",
+        "levels": 21
+      },
+      {
+        "name": "Rampage",
+        "source": "Levelling",
+        "levels": 27
       },
       {
         "name": "Heat Up",
         "source": "Levelling",
-        "levels": 0
+        "levels": 36
       },
       {
-        "name": "Turbo Attack",
+        "name": "Crystal Bite",
         "source": "Levelling",
-        "levels": 0
+        "levels": 47
       },
       {
-        "name": "Firewall",
+        "name": "Mineral Hail",
         "source": "Levelling",
-        "levels": 0
+        "levels": 58
+      },
+      {
+        "name": "Magma Cannon",
+        "source": "TechniqueCourses"
       }
     ],
     "trivia": [
-      "Zaobian's name is derived from zhào (megabyte in Chinese) and túbiàn (mutation in Chinese).",
-      "Zaobian and its pre-evolution are the only Digital Temtem as of Alpha 0.6.5."
+      "Anahir's name is derived from Anak and Terlahir (born in Indonesian), so its name means \"Born from Anak\".\nIts name was for a while rumored to be Rihanna backwards, which was \"confirmed\" on Twitter while CEO Tateru was in control on April 1st, 2020.",
+      "Its name was for a while rumored to be Rihanna backwards, which was \"confirmed\" on Twitter while CEO Tateru was in control on April 1st, 2020.",
+      "The Anahir you obtain during the quest Adventure in the Myrisles will always have 50 SVs in both DEF and SPDEF stats.",
+      "Players can decide to not obtain Anahir to save storage, useful for those who value storage for FreeTem. Similarly players can decide to obtain Anahir at a later date.",
+      "The Crystal Temtem that was subjected to intense heat to create Anahir is not a reference to any specific Temtem."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 2,
-          "name": "Oree",
-          "stage": 1,
-          "traitMapping": {
-            "Attack T": "Attack T"
-          }
-        },
-        {
-          "number": 3,
-          "name": "Zaobian",
-          "stage": 2,
-          "traitMapping": {
-            "Attack T": "Attack T"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/54/Zaobian.png",
-    "lumaWikiPortraitUrlLarge": "",
-    "locations": [],
-    "icon": "/images/portraits/temtem/large/Zaobian.png",
-    "lumaIcon": "/images/portraits/temtem/luma/large/Zaobian.png",
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/ea/Anahir.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/94/LumaAnahir.png",
+    "locations": [
+      {
+        "location": "Anak Volcano",
+        "place": "Anak Volcano",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "Gift",
+        "level": "20",
+        "freetem": {
+          "minLevel": 20,
+          "maxLevel": 20,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
+      }
+    ],
+    "icon": "/images/portraits/temtem/large/Anahir.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Anahir.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 0,
+    "hatchMins": 45,
     "tvYields": {
       "hp": 0,
-      "sta": 2,
+      "sta": 0,
       "spd": 0,
-      "atk": 1,
-      "def": 0,
+      "atk": 0,
+      "def": 2,
       "spatk": 0,
-      "spdef": 0
+      "spdef": 2
     },
-    "gameDescription": "Zaobian are part of the second generation of Digital Temtem. Created with much more refined technology, they are more intelligent friends and companions, as well as sturdier in battle.",
-    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e0/Zaobian_full_render.png",
-    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/20/Zaobian_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e0/Zaobian_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/20/Zaobian_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Zaobian.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Zaobian.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Zaobian.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Zaobian.gif"
+    "gameDescription": "This tortured creature is the result of Dr. Hamijo's attempts at creating a new \"Diamond\" variety. By picking the sturdiest variety of Crystal Temtem and submitting it to the harshest Fire environment of Anak, he has achieved something unique... and uniquely cruel.",
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/19/Anahir_full_render.png",
+    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d7/Anahir_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/be/LumaAnahir_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9c/LumaAnahir_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Anahir.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Anahir.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Anahir.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Anahir.gif"
   },
   {
-    "number": 7,
+    "number": "#007",
     "name": "Platypet",
     "types": [
       "Water",
@@ -335,7 +359,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 7,
+          "number": "#007",
           "name": "Platypet",
           "stage": 1,
           "levels": 20,
@@ -346,7 +370,7 @@
           }
         },
         {
-          "number": 8,
+          "number": "#008",
           "name": "Platox",
           "stage": 2,
           "levels": 20,
@@ -357,7 +381,7 @@
           }
         },
         {
-          "number": 9,
+          "number": "#009",
           "name": "Platimous",
           "stage": 3,
           "traitMapping": {
@@ -443,7 +467,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Platypet.gif"
   },
   {
-    "number": 8,
+    "number": "#008",
     "name": "Platox",
     "types": [
       "Water",
@@ -571,7 +595,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 7,
+          "number": "#007",
           "name": "Platypet",
           "stage": 1,
           "levels": 20,
@@ -582,7 +606,7 @@
           }
         },
         {
-          "number": 8,
+          "number": "#008",
           "name": "Platox",
           "stage": 2,
           "levels": 20,
@@ -593,7 +617,7 @@
           }
         },
         {
-          "number": 9,
+          "number": "#009",
           "name": "Platimous",
           "stage": 3,
           "traitMapping": {
@@ -651,7 +675,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Platox.gif"
   },
   {
-    "number": 9,
+    "number": "#009",
     "name": "Platimous",
     "types": [
       "Water",
@@ -789,7 +813,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": 7,
+          "number": "#007",
           "name": "Platypet",
           "stage": 1,
           "levels": 20,
@@ -800,7 +824,7 @@
           }
         },
         {
-          "number": 8,
+          "number": "#008",
           "name": "Platox",
           "stage": 2,
           "levels": 20,
@@ -811,7 +835,7 @@
           }
         },
         {
-          "number": 9,
+          "number": "#009",
           "name": "Platimous",
           "stage": 3,
           "traitMapping": {
@@ -854,7 +878,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Platimous.gif"
   },
   {
-    "number": 10,
+    "number": "#010",
     "name": "Swali",
     "types": [
       "Nature"
@@ -957,7 +981,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 10,
+          "number": "#010",
           "name": "Swali",
           "stage": 1,
           "levels": 8,
@@ -968,7 +992,7 @@
           }
         },
         {
-          "number": 11,
+          "number": "#011",
           "name": "Loali",
           "stage": 2,
           "traitMapping": {
@@ -1040,7 +1064,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Swali.gif"
   },
   {
-    "number": 11,
+    "number": "#011",
     "name": "Loali",
     "types": [
       "Nature",
@@ -1160,7 +1184,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 10,
+          "number": "#010",
           "name": "Swali",
           "stage": 1,
           "levels": 8,
@@ -1171,7 +1195,7 @@
           }
         },
         {
-          "number": 11,
+          "number": "#011",
           "name": "Loali",
           "stage": 2,
           "traitMapping": {
@@ -1285,7 +1309,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Loali.gif"
   },
   {
-    "number": 12,
+    "number": "#012",
     "name": "Tateru",
     "types": [
       "Neutral"
@@ -1459,7 +1483,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tateru.gif"
   },
   {
-    "number": 16,
+    "number": "#016",
     "name": "Paharo",
     "types": [
       "Wind"
@@ -1567,7 +1591,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 16,
+          "number": "#016",
           "name": "Paharo",
           "stage": 1,
           "levels": 7,
@@ -1578,7 +1602,7 @@
           }
         },
         {
-          "number": 17,
+          "number": "#017",
           "name": "Paharac",
           "stage": 2,
           "levels": 16,
@@ -1589,7 +1613,7 @@
           }
         },
         {
-          "number": 18,
+          "number": "#018",
           "name": "Granpah",
           "stage": 3,
           "traitMapping": {
@@ -1632,7 +1656,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Paharo.gif"
   },
   {
-    "number": 17,
+    "number": "#017",
     "name": "Paharac",
     "types": [
       "Wind"
@@ -1741,7 +1765,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 16,
+          "number": "#016",
           "name": "Paharo",
           "stage": 1,
           "levels": 7,
@@ -1752,7 +1776,7 @@
           }
         },
         {
-          "number": 17,
+          "number": "#017",
           "name": "Paharac",
           "stage": 2,
           "levels": 16,
@@ -1763,7 +1787,7 @@
           }
         },
         {
-          "number": 18,
+          "number": "#018",
           "name": "Granpah",
           "stage": 3,
           "traitMapping": {
@@ -1905,7 +1929,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Paharac.gif"
   },
   {
-    "number": 18,
+    "number": "#018",
     "name": "Granpah",
     "types": [
       "Wind"
@@ -2022,7 +2046,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": 16,
+          "number": "#016",
           "name": "Paharo",
           "stage": 1,
           "levels": 7,
@@ -2033,7 +2057,7 @@
           }
         },
         {
-          "number": 17,
+          "number": "#017",
           "name": "Paharac",
           "stage": 2,
           "levels": 16,
@@ -2044,7 +2068,7 @@
           }
         },
         {
-          "number": 18,
+          "number": "#018",
           "name": "Granpah",
           "stage": 3,
           "traitMapping": {
@@ -2087,7 +2111,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Granpah.gif"
   },
   {
-    "number": 19,
+    "number": "#019",
     "name": "Ampling",
     "types": [
       "Electric"
@@ -2126,13 +2150,13 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 19,
+          "number": "#019",
           "name": "Ampling",
           "stage": 1,
           "traitMapping": {}
         },
         {
-          "number": 20,
+          "number": "#020",
           "name": "Amphatyr",
           "stage": 2,
           "traitMapping": {}
@@ -2172,7 +2196,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 20,
+    "number": "#020",
     "name": "Amphatyr",
     "types": [
       "Electric",
@@ -2211,13 +2235,13 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 19,
+          "number": "#019",
           "name": "Ampling",
           "stage": 1,
           "traitMapping": {}
         },
         {
-          "number": 20,
+          "number": "#020",
           "name": "Amphatyr",
           "stage": 2,
           "traitMapping": {}
@@ -2257,7 +2281,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 21,
+    "number": "#021",
     "name": "Bunbun",
     "types": [
       "Earth",
@@ -2347,7 +2371,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 21,
+          "number": "#021",
           "name": "Bunbun",
           "stage": 1,
           "levels": 20,
@@ -2358,7 +2382,7 @@
           }
         },
         {
-          "number": 22,
+          "number": "#022",
           "name": "Mudrid",
           "stage": 2,
           "traitMapping": {
@@ -2430,7 +2454,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Bunbun.gif"
   },
   {
-    "number": 22,
+    "number": "#022",
     "name": "Mudrid",
     "types": [
       "Earth",
@@ -2537,7 +2561,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 21,
+          "number": "#021",
           "name": "Bunbun",
           "stage": 1,
           "levels": 20,
@@ -2548,7 +2572,7 @@
           }
         },
         {
-          "number": 22,
+          "number": "#022",
           "name": "Mudrid",
           "stage": 2,
           "traitMapping": {
@@ -2606,7 +2630,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Mudrid.gif"
   },
   {
-    "number": 23,
+    "number": "#023",
     "name": "Hidody",
     "types": [
       "Nature"
@@ -2719,7 +2743,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 23,
+          "number": "#023",
           "name": "Hidody",
           "stage": 1,
           "levels": 15,
@@ -2730,7 +2754,7 @@
           }
         },
         {
-          "number": 24,
+          "number": "#024",
           "name": "Taifu",
           "stage": 2,
           "traitMapping": {
@@ -2816,7 +2840,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Hidody.gif"
   },
   {
-    "number": 24,
+    "number": "#024",
     "name": "Taifu",
     "types": [
       "Nature"
@@ -2948,7 +2972,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 23,
+          "number": "#023",
           "name": "Hidody",
           "stage": 1,
           "levels": 15,
@@ -2959,7 +2983,7 @@
           }
         },
         {
-          "number": 24,
+          "number": "#024",
           "name": "Taifu",
           "stage": 2,
           "traitMapping": {
@@ -3031,7 +3055,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Taifu.gif"
   },
   {
-    "number": 25,
+    "number": "#025",
     "name": "Fomu",
     "types": [
       "Water"
@@ -3122,7 +3146,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 25,
+          "number": "#025",
           "name": "Fomu",
           "stage": 1,
           "levels": 20,
@@ -3133,7 +3157,7 @@
           }
         },
         {
-          "number": 26,
+          "number": "#026",
           "name": "Wiplump",
           "stage": 2,
           "traitMapping": {
@@ -3219,7 +3243,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Fomu.gif"
   },
   {
-    "number": 26,
+    "number": "#026",
     "name": "Wiplump",
     "types": [
       "Water",
@@ -3330,7 +3354,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 25,
+          "number": "#025",
           "name": "Fomu",
           "stage": 1,
           "levels": 20,
@@ -3341,7 +3365,7 @@
           }
         },
         {
-          "number": 26,
+          "number": "#026",
           "name": "Wiplump",
           "stage": 2,
           "traitMapping": {
@@ -3427,7 +3451,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Wiplump.gif"
   },
   {
-    "number": 27,
+    "number": "#027",
     "name": "Skail",
     "types": [
       "Neutral"
@@ -3519,7 +3543,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 27,
+          "number": "#027",
           "name": "Skail",
           "stage": 1,
           "levels": 17,
@@ -3530,7 +3554,7 @@
           }
         },
         {
-          "number": 28,
+          "number": "#028",
           "name": "Skunch",
           "stage": 2,
           "traitMapping": {
@@ -3658,7 +3682,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Skail.gif"
   },
   {
-    "number": 28,
+    "number": "#028",
     "name": "Skunch",
     "types": [
       "Neutral",
@@ -3775,7 +3799,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 27,
+          "number": "#027",
           "name": "Skail",
           "stage": 1,
           "levels": 17,
@@ -3786,7 +3810,7 @@
           }
         },
         {
-          "number": 28,
+          "number": "#028",
           "name": "Skunch",
           "stage": 2,
           "traitMapping": {
@@ -3872,7 +3896,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Skunch.gif"
   },
   {
-    "number": 29,
+    "number": "#029",
     "name": "Goty",
     "types": [
       "Neutral"
@@ -3949,7 +3973,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 29,
+          "number": "#029",
           "name": "Goty",
           "stage": 1,
           "levels": 13,
@@ -3960,7 +3984,7 @@
           }
         },
         {
-          "number": 30,
+          "number": "#030",
           "name": "Mouflank",
           "stage": 2,
           "traitMapping": {
@@ -4060,7 +4084,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 30,
+    "number": "#030",
     "name": "Mouflank",
     "types": [
       "Neutral"
@@ -4170,7 +4194,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 29,
+          "number": "#029",
           "name": "Goty",
           "stage": 1,
           "levels": 13,
@@ -4181,7 +4205,7 @@
           }
         },
         {
-          "number": 30,
+          "number": "#030",
           "name": "Mouflank",
           "stage": 2,
           "traitMapping": {
@@ -4224,7 +4248,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 31,
+    "number": "#031",
     "name": "Rhoulder",
     "types": [
       "Neutral",
@@ -4377,7 +4401,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 32,
+    "number": "#032",
     "name": "Houchic",
     "types": [
       "Mental"
@@ -4480,7 +4504,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 32,
+          "number": "#032",
           "name": "Houchic",
           "stage": 1,
           "levels": 29,
@@ -4491,7 +4515,7 @@
           }
         },
         {
-          "number": 33,
+          "number": "#033",
           "name": "Tental",
           "stage": 2,
           "levels": 24,
@@ -4502,7 +4526,7 @@
           }
         },
         {
-          "number": 34,
+          "number": "#034",
           "name": "Nagaise",
           "stage": 3,
           "traitMapping": {
@@ -4545,7 +4569,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Houchic.gif"
   },
   {
-    "number": 33,
+    "number": "#033",
     "name": "Tental",
     "types": [
       "Mental"
@@ -4666,7 +4690,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 32,
+          "number": "#032",
           "name": "Houchic",
           "stage": 1,
           "levels": 29,
@@ -4677,7 +4701,7 @@
           }
         },
         {
-          "number": 33,
+          "number": "#033",
           "name": "Tental",
           "stage": 2,
           "levels": 24,
@@ -4688,7 +4712,7 @@
           }
         },
         {
-          "number": 34,
+          "number": "#034",
           "name": "Nagaise",
           "stage": 3,
           "traitMapping": {
@@ -4731,7 +4755,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tental.gif"
   },
   {
-    "number": 34,
+    "number": "#034",
     "name": "Nagaise",
     "types": [
       "Mental",
@@ -4858,7 +4882,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": 32,
+          "number": "#032",
           "name": "Houchic",
           "stage": 1,
           "levels": 29,
@@ -4869,7 +4893,7 @@
           }
         },
         {
-          "number": 33,
+          "number": "#033",
           "name": "Tental",
           "stage": 2,
           "levels": 24,
@@ -4880,7 +4904,7 @@
           }
         },
         {
-          "number": 34,
+          "number": "#034",
           "name": "Nagaise",
           "stage": 3,
           "traitMapping": {
@@ -4923,7 +4947,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 35,
+    "number": "#035",
     "name": "Orphyll",
     "types": [
       "Nature",
@@ -5036,7 +5060,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 35,
+          "number": "#035",
           "name": "Orphyll",
           "stage": 1,
           "levels": 22,
@@ -5047,7 +5071,7 @@
           }
         },
         {
-          "number": 36,
+          "number": "#036",
           "name": "Nidrasil",
           "stage": 2,
           "traitMapping": {
@@ -5119,7 +5143,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Orphyll.gif"
   },
   {
-    "number": 36,
+    "number": "#036",
     "name": "Nidrasil",
     "types": [
       "Nature",
@@ -5236,7 +5260,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 35,
+          "number": "#035",
           "name": "Orphyll",
           "stage": 1,
           "levels": 22,
@@ -5247,7 +5271,7 @@
           }
         },
         {
-          "number": 36,
+          "number": "#036",
           "name": "Nidrasil",
           "stage": 2,
           "traitMapping": {
@@ -5290,7 +5314,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Nidrasil.gif"
   },
   {
-    "number": 37,
+    "number": "#037",
     "name": "Banapi",
     "types": [
       "Fire"
@@ -5389,7 +5413,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 37,
+          "number": "#037",
           "name": "Banapi",
           "stage": 1,
           "levels": 17,
@@ -5400,7 +5424,7 @@
           }
         },
         {
-          "number": 38,
+          "number": "#038",
           "name": "Capyre",
           "stage": 2,
           "traitMapping": {
@@ -5500,7 +5524,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 38,
+    "number": "#038",
     "name": "Capyre",
     "types": [
       "Fire"
@@ -5609,7 +5633,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 37,
+          "number": "#037",
           "name": "Banapi",
           "stage": 1,
           "levels": 17,
@@ -5620,7 +5644,7 @@
           }
         },
         {
-          "number": 38,
+          "number": "#038",
           "name": "Capyre",
           "stage": 2,
           "traitMapping": {
@@ -5663,7 +5687,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 39,
+    "number": "#039",
     "name": "Lapinite",
     "types": [
       "Crystal"
@@ -5744,7 +5768,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 39,
+          "number": "#039",
           "name": "Lapinite",
           "stage": 1,
           "levels": 25,
@@ -5755,7 +5779,7 @@
           }
         },
         {
-          "number": 40,
+          "number": "#040",
           "name": "Azuroc",
           "stage": 2,
           "traitMapping": {
@@ -5769,7 +5793,7 @@
           "stage": 3
         },
         {
-          "number": 41,
+          "number": "#041",
           "name": "Zenoreth",
           "stage": 4,
           "traitMapping": {
@@ -5827,7 +5851,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 40,
+    "number": "#040",
     "name": "Azuroc",
     "types": [
       "Crystal"
@@ -5920,7 +5944,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 39,
+          "number": "#039",
           "name": "Lapinite",
           "stage": 1,
           "levels": 25,
@@ -5931,7 +5955,7 @@
           }
         },
         {
-          "number": 40,
+          "number": "#040",
           "name": "Azuroc",
           "stage": 2,
           "traitMapping": {
@@ -5945,7 +5969,7 @@
           "stage": 3
         },
         {
-          "number": 41,
+          "number": "#041",
           "name": "Zenoreth",
           "stage": 4,
           "traitMapping": {
@@ -6003,7 +6027,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 41,
+    "number": "#041",
     "name": "Zenoreth",
     "types": [
       "Crystal"
@@ -6107,7 +6131,7 @@
       "stage": 4,
       "evolutionTree": [
         {
-          "number": 39,
+          "number": "#039",
           "name": "Lapinite",
           "stage": 1,
           "levels": 25,
@@ -6118,7 +6142,7 @@
           }
         },
         {
-          "number": 40,
+          "number": "#040",
           "name": "Azuroc",
           "stage": 2,
           "traitMapping": {
@@ -6132,7 +6156,7 @@
           "stage": 3
         },
         {
-          "number": 41,
+          "number": "#041",
           "name": "Zenoreth",
           "stage": 4,
           "traitMapping": {
@@ -6175,7 +6199,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 44,
+    "number": "#044",
     "name": "Bigu",
     "types": [
       "Nature"
@@ -6266,7 +6290,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 44,
+          "number": "#044",
           "name": "Bigu",
           "stage": 1,
           "levels": 18,
@@ -6277,7 +6301,7 @@
           }
         },
         {
-          "number": 45,
+          "number": "#045",
           "name": "Babawa",
           "stage": 2,
           "traitMapping": {
@@ -6320,7 +6344,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Bigu.gif"
   },
   {
-    "number": 45,
+    "number": "#045",
     "name": "Babawa",
     "types": [
       "Nature",
@@ -6436,7 +6460,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 44,
+          "number": "#044",
           "name": "Bigu",
           "stage": 1,
           "levels": 18,
@@ -6447,7 +6471,7 @@
           }
         },
         {
-          "number": 45,
+          "number": "#045",
           "name": "Babawa",
           "stage": 2,
           "traitMapping": {
@@ -6533,7 +6557,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Babawa.gif"
   },
   {
-    "number": 48,
+    "number": "#048",
     "name": "Kaku",
     "types": [
       "Nature"
@@ -6637,7 +6661,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 48,
+          "number": "#048",
           "name": "Kaku",
           "stage": 1,
           "levels": 11,
@@ -6648,7 +6672,7 @@
           }
         },
         {
-          "number": 49,
+          "number": "#049",
           "name": "Saku",
           "stage": 2,
           "traitMapping": {
@@ -6762,7 +6786,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 49,
+    "number": "#049",
     "name": "Saku",
     "types": [
       "Nature",
@@ -6881,7 +6905,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 48,
+          "number": "#048",
           "name": "Kaku",
           "stage": 1,
           "levels": 11,
@@ -6892,7 +6916,7 @@
           }
         },
         {
-          "number": 49,
+          "number": "#049",
           "name": "Saku",
           "stage": 2,
           "traitMapping": {
@@ -6992,7 +7016,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 50,
+    "number": "#050",
     "name": "Valash",
     "types": [
       "Neutral",
@@ -7162,7 +7186,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Valash.gif"
   },
   {
-    "number": 53,
+    "number": "#053",
     "name": "Barnshe",
     "types": [
       "Wind",
@@ -7337,7 +7361,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Barnshe.gif"
   },
   {
-    "number": 54,
+    "number": "#054",
     "name": "Gyalis",
     "types": [
       "Crystal",
@@ -7503,7 +7527,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 55,
+    "number": "#055",
     "name": "Occlura",
     "types": [
       "Crystal"
@@ -7587,7 +7611,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 55,
+          "number": "#055",
           "name": "Occlura",
           "stage": 1,
           "levels": 18,
@@ -7598,7 +7622,7 @@
           }
         },
         {
-          "number": 56,
+          "number": "#056",
           "name": "Myx",
           "stage": 2,
           "traitMapping": {
@@ -7656,7 +7680,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Occlura.gif"
   },
   {
-    "number": 56,
+    "number": "#056",
     "name": "Myx",
     "types": [
       "Crystal",
@@ -7764,7 +7788,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 55,
+          "number": "#055",
           "name": "Occlura",
           "stage": 1,
           "levels": 18,
@@ -7775,7 +7799,7 @@
           }
         },
         {
-          "number": 56,
+          "number": "#056",
           "name": "Myx",
           "stage": 2,
           "traitMapping": {
@@ -7818,7 +7842,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 57,
+    "number": "#057",
     "name": "Raiber",
     "types": [
       "Fire"
@@ -7899,7 +7923,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 57,
+          "number": "#057",
           "name": "Raiber",
           "stage": 1,
           "levels": 15,
@@ -7910,7 +7934,7 @@
           }
         },
         {
-          "number": 58,
+          "number": "#058",
           "name": "Raize",
           "stage": 2,
           "levels": 25,
@@ -7921,7 +7945,7 @@
           }
         },
         {
-          "number": 59,
+          "number": "#059",
           "name": "Raican",
           "stage": 3,
           "traitMapping": {
@@ -8007,7 +8031,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Raiber.gif"
   },
   {
-    "number": 58,
+    "number": "#058",
     "name": "Raize",
     "types": [
       "Fire"
@@ -8094,7 +8118,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 57,
+          "number": "#057",
           "name": "Raiber",
           "stage": 1,
           "levels": 15,
@@ -8105,7 +8129,7 @@
           }
         },
         {
-          "number": 58,
+          "number": "#058",
           "name": "Raize",
           "stage": 2,
           "levels": 25,
@@ -8116,7 +8140,7 @@
           }
         },
         {
-          "number": 59,
+          "number": "#059",
           "name": "Raican",
           "stage": 3,
           "traitMapping": {
@@ -8159,7 +8183,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 59,
+    "number": "#059",
     "name": "Raican",
     "types": [
       "Fire"
@@ -8260,7 +8284,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": 57,
+          "number": "#057",
           "name": "Raiber",
           "stage": 1,
           "levels": 15,
@@ -8271,7 +8295,7 @@
           }
         },
         {
-          "number": 58,
+          "number": "#058",
           "name": "Raize",
           "stage": 2,
           "levels": 25,
@@ -8282,7 +8306,7 @@
           }
         },
         {
-          "number": 59,
+          "number": "#059",
           "name": "Raican",
           "stage": 3,
           "traitMapping": {
@@ -8325,7 +8349,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 60,
+    "number": "#060",
     "name": "Pewki",
     "types": [
       "Water"
@@ -8427,7 +8451,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 60,
+          "number": "#060",
           "name": "Pewki",
           "stage": 1,
           "levels": 13,
@@ -8438,7 +8462,7 @@
           }
         },
         {
-          "number": 61,
+          "number": "#061",
           "name": "Piraniant",
           "stage": 2,
           "traitMapping": {
@@ -8524,7 +8548,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Pewki.gif"
   },
   {
-    "number": 61,
+    "number": "#061",
     "name": "Piraniant",
     "types": [
       "Water"
@@ -8637,7 +8661,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 60,
+          "number": "#060",
           "name": "Pewki",
           "stage": 1,
           "levels": 13,
@@ -8648,7 +8672,7 @@
           }
         },
         {
-          "number": 61,
+          "number": "#061",
           "name": "Piraniant",
           "stage": 2,
           "traitMapping": {
@@ -8706,7 +8730,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 66,
+    "number": "#066",
     "name": "Osuchi",
     "types": [
       "Earth"
@@ -8783,7 +8807,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 66,
+          "number": "#066",
           "name": "Osuchi",
           "stage": 1,
           "levels": 12,
@@ -8794,7 +8818,7 @@
           }
         },
         {
-          "number": 67,
+          "number": "#067",
           "name": "Osukan",
           "stage": 2,
           "levels": 14,
@@ -8805,7 +8829,7 @@
           }
         },
         {
-          "number": 68,
+          "number": "#068",
           "name": "Osukai",
           "stage": 3,
           "traitMapping": {
@@ -8891,7 +8915,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 67,
+    "number": "#067",
     "name": "Osukan",
     "types": [
       "Earth",
@@ -8979,7 +9003,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 66,
+          "number": "#066",
           "name": "Osuchi",
           "stage": 1,
           "levels": 12,
@@ -8990,7 +9014,7 @@
           }
         },
         {
-          "number": 67,
+          "number": "#067",
           "name": "Osukan",
           "stage": 2,
           "levels": 14,
@@ -9001,7 +9025,7 @@
           }
         },
         {
-          "number": 68,
+          "number": "#068",
           "name": "Osukai",
           "stage": 3,
           "traitMapping": {
@@ -9044,7 +9068,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 68,
+    "number": "#068",
     "name": "Osukai",
     "types": [
       "Earth",
@@ -9149,7 +9173,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": 66,
+          "number": "#066",
           "name": "Osuchi",
           "stage": 1,
           "levels": 12,
@@ -9160,7 +9184,7 @@
           }
         },
         {
-          "number": 67,
+          "number": "#067",
           "name": "Osukan",
           "stage": 2,
           "levels": 14,
@@ -9171,7 +9195,7 @@
           }
         },
         {
-          "number": 68,
+          "number": "#068",
           "name": "Osukai",
           "stage": 3,
           "traitMapping": {
@@ -9214,7 +9238,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 69,
+    "number": "#069",
     "name": "Saipat",
     "types": [
       "Water",
@@ -9435,7 +9459,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 70,
+    "number": "#070",
     "name": "Pycko",
     "types": [
       "Earth",
@@ -9522,7 +9546,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 70,
+          "number": "#070",
           "name": "Pycko",
           "stage": 1,
           "levels": 14,
@@ -9533,7 +9557,7 @@
           }
         },
         {
-          "number": 71,
+          "number": "#071",
           "name": "Drakash",
           "stage": 2,
           "traitMapping": {
@@ -9605,7 +9629,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 71,
+    "number": "#071",
     "name": "Drakash",
     "types": [
       "Earth",
@@ -9712,7 +9736,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 70,
+          "number": "#070",
           "name": "Pycko",
           "stage": 1,
           "levels": 14,
@@ -9723,7 +9747,7 @@
           }
         },
         {
-          "number": 71,
+          "number": "#071",
           "name": "Drakash",
           "stage": 2,
           "traitMapping": {
@@ -9766,190 +9790,123 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 72,
-    "name": "Crystle",
+    "number": "#003",
+    "name": "Zaobian",
     "types": [
-      "Crystal"
+      "Digital"
     ],
-    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Crystle.png",
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/54/Zaobian.png",
     "lumaPortraitWikiUrl": "",
-    "wikiUrl": "https://temtem.gamepedia.com/Crystle",
+    "wikiUrl": "https://temtem.gamepedia.com/Zaobian",
     "stats": {
-      "hp": 60,
-      "sta": 41,
-      "spd": 33,
-      "atk": 61,
-      "def": 69,
-      "spatk": 46,
-      "spdef": 42,
-      "total": 352
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "total": 0
     },
     "traits": [
-      "Amphibian",
-      "Rested"
+      "Attack T"
     ],
     "details": {
       "height": {
-        "cm": 60,
-        "inches": 23
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 48,
-        "lbs": 105
+        "kg": 0,
+        "lbs": 0
       }
     },
     "techniques": [
       {
-        "name": "Glass Blade",
+        "name": "Cold Breeze",
         "source": "Levelling",
-        "levels": 1
+        "levels": 0
       },
       {
-        "name": "Mirror Shell",
+        "name": "Tesla Prison",
         "source": "Levelling",
-        "levels": 3
+        "levels": 0
       },
       {
-        "name": "Nibble",
+        "name": "Heat Up",
         "source": "Levelling",
-        "levels": 5
+        "levels": 0
       },
       {
-        "name": "Crystal Dust",
+        "name": "Turbo Attack",
         "source": "Levelling",
-        "levels": 9
+        "levels": 0
       },
       {
-        "name": "Head Ram",
+        "name": "Firewall",
         "source": "Levelling",
-        "levels": 14
-      },
-      {
-        "name": "Crystallize",
-        "source": "Levelling",
-        "levels": 17
-      },
-      {
-        "name": "Crystal Spikes",
-        "source": "Levelling",
-        "levels": 27
-      },
-      {
-        "name": "Rampage",
-        "source": "Levelling",
-        "levels": 35
-      },
-      {
-        "name": "Stone Wall",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Antitoxins",
-        "source": "Breeding"
+        "levels": 0
       }
     ],
     "trivia": [
-      "Crystle's name is derived from crystal and turtle."
+      "Zaobian's name is derived from zhào (megabyte in Chinese) and túbiàn (mutation in Chinese).",
+      "Zaobian and its pre-evolution are the only Digital Temtem as of Alpha 0.6.5."
     ],
     "evolution": {
-      "stage": 1,
+      "stage": 2,
       "evolutionTree": [
         {
-          "number": 72,
-          "name": "Crystle",
+          "number": "#002",
+          "name": "Oree",
           "stage": 1,
-          "levels": 30,
-          "trading": false,
           "traitMapping": {
-            "Amphibian": "Mirroring",
-            "Rested": "Provident"
+            "Attack T": "Attack T"
           }
         },
         {
-          "number": 73,
-          "name": "Sherald",
+          "number": "#003",
+          "name": "Zaobian",
           "stage": 2,
-          "levels": 21,
-          "trading": false,
           "traitMapping": {
-            "Mirroring": "Confined",
-            "Provident": "Efficient"
-          }
-        },
-        {
-          "number": 74,
-          "name": "Tortenite",
-          "stage": 3,
-          "traitMapping": {
-            "Confined": "Confined",
-            "Efficient": "Efficient"
+            "Attack T": "Attack T"
           }
         }
       ],
       "evolves": true,
       "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Crystle.png",
-    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c6/LumaCrystle.png",
-    "locations": [
-      {
-        "location": "Mines of Mictlan",
-        "place": "Mines of Mictlan",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "5%",
-        "level": "28 - 30",
-        "freetem": {
-          "minLevel": 28,
-          "maxLevel": 30,
-          "minPansuns": 73,
-          "maxPansuns": 77
-        }
-      },
-      {
-        "location": "Kupeleleza",
-        "place": "Kupeleleza",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "5%",
-        "level": "24 - 28",
-        "freetem": {
-          "minLevel": 24,
-          "maxLevel": 28,
-          "minPansuns": 65,
-          "maxPansuns": 73
-        }
-      }
-    ],
-    "icon": "/images/portraits/temtem/large/Crystle.png",
-    "lumaIcon": "/images/portraits/temtem/luma/large/Crystle.png",
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/54/Zaobian.png",
+    "lumaWikiPortraitUrlLarge": "",
+    "locations": [],
+    "icon": "/images/portraits/temtem/large/Zaobian.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Zaobian.png",
     "genderRatio": {
-      "male": 35,
-      "female": 65
+      "male": 50,
+      "female": 50
     },
-    "catchRate": 160,
-    "hatchMins": 13,
+    "catchRate": 200,
+    "hatchMins": 5,
     "tvYields": {
       "hp": 0,
-      "sta": 0,
+      "sta": 2,
       "spd": 0,
-      "atk": 0,
-      "def": 2,
+      "atk": 1,
+      "def": 0,
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Native to Tucma, Crystle are akin to smaragdine turtles, but they are actually closer to minerals than to fauna. Cute but tough, they are an excellent introductory Crystal Temtem for rookie tamers.",
-    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b7/Crystle_full_render.png",
-    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8e/Crystle_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8f/LumaCrystle_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/69/LumaCrystle_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Crystle.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Crystle.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Crystle.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Crystle.gif"
+    "gameDescription": "Zaobian are part of the second generation of Digital Temtem. Created with much more refined technology, they are more intelligent friends and companions, as well as sturdier in battle.",
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e0/Zaobian_full_render.png",
+    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/20/Zaobian_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e0/Zaobian_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/20/Zaobian_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Zaobian.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Zaobian.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Zaobian.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Zaobian.gif"
   },
   {
-    "number": 73,
+    "number": "#073",
     "name": "Sherald",
     "types": [
       "Crystal"
@@ -10047,7 +10004,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 72,
+          "number": "#072",
           "name": "Crystle",
           "stage": 1,
           "levels": 30,
@@ -10058,7 +10015,7 @@
           }
         },
         {
-          "number": 73,
+          "number": "#073",
           "name": "Sherald",
           "stage": 2,
           "levels": 21,
@@ -10069,7 +10026,7 @@
           }
         },
         {
-          "number": 74,
+          "number": "#074",
           "name": "Tortenite",
           "stage": 3,
           "traitMapping": {
@@ -10112,7 +10069,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Sherald.gif"
   },
   {
-    "number": 74,
+    "number": "#074",
     "name": "Tortenite",
     "types": [
       "Crystal",
@@ -10216,7 +10173,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": 72,
+          "number": "#072",
           "name": "Crystle",
           "stage": 1,
           "levels": 30,
@@ -10227,7 +10184,7 @@
           }
         },
         {
-          "number": 73,
+          "number": "#073",
           "name": "Sherald",
           "stage": 2,
           "levels": 21,
@@ -10238,7 +10195,7 @@
           }
         },
         {
-          "number": 74,
+          "number": "#074",
           "name": "Tortenite",
           "stage": 3,
           "traitMapping": {
@@ -10281,7 +10238,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 79,
+    "number": "#079",
     "name": "Hocus",
     "types": [
       "Mental"
@@ -10353,7 +10310,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 79,
+          "number": "#079",
           "name": "Hocus",
           "stage": 1,
           "levels": 21,
@@ -10364,7 +10321,7 @@
           }
         },
         {
-          "number": 80,
+          "number": "#080",
           "name": "Pocus",
           "stage": 2,
           "traitMapping": {
@@ -10407,7 +10364,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Hocus.gif"
   },
   {
-    "number": 80,
+    "number": "#080",
     "name": "Pocus",
     "types": [
       "Mental"
@@ -10488,7 +10445,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 79,
+          "number": "#079",
           "name": "Hocus",
           "stage": 1,
           "levels": 21,
@@ -10499,7 +10456,7 @@
           }
         },
         {
-          "number": 80,
+          "number": "#080",
           "name": "Pocus",
           "stage": 2,
           "traitMapping": {
@@ -10542,7 +10499,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Pocus.gif"
   },
   {
-    "number": 82,
+    "number": "#082",
     "name": "Sparzy",
     "types": [
       "Electric"
@@ -10616,7 +10573,7 @@
           "stage": 1
         },
         {
-          "number": 82,
+          "number": "#082",
           "name": "Sparzy",
           "stage": 2,
           "traitMapping": {
@@ -10663,7 +10620,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 84,
+    "number": "#084",
     "name": "Mushi",
     "types": [
       "Toxic"
@@ -10747,7 +10704,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 84,
+          "number": "#084",
           "name": "Mushi",
           "stage": 1,
           "levels": 20,
@@ -10758,7 +10715,7 @@
           }
         },
         {
-          "number": 85,
+          "number": "#085",
           "name": "Mushook",
           "stage": 2,
           "traitMapping": {
@@ -10844,7 +10801,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 85,
+    "number": "#085",
     "name": "Mushook",
     "types": [
       "Toxic",
@@ -10960,7 +10917,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 84,
+          "number": "#084",
           "name": "Mushi",
           "stage": 1,
           "levels": 20,
@@ -10971,7 +10928,7 @@
           }
         },
         {
-          "number": 85,
+          "number": "#085",
           "name": "Mushook",
           "stage": 2,
           "traitMapping": {
@@ -11014,7 +10971,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 86,
+    "number": "#086",
     "name": "Magmis",
     "types": [
       "Fire"
@@ -11087,7 +11044,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 86,
+          "number": "#086",
           "name": "Magmis",
           "stage": 1,
           "levels": 16,
@@ -11098,7 +11055,7 @@
           }
         },
         {
-          "number": 87,
+          "number": "#087",
           "name": "Mastione",
           "stage": 2,
           "traitMapping": {
@@ -11170,7 +11127,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 87,
+    "number": "#087",
     "name": "Mastione",
     "types": [
       "Fire"
@@ -11277,7 +11234,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 86,
+          "number": "#086",
           "name": "Magmis",
           "stage": 1,
           "levels": 16,
@@ -11288,7 +11245,7 @@
           }
         },
         {
-          "number": 87,
+          "number": "#087",
           "name": "Mastione",
           "stage": 2,
           "traitMapping": {
@@ -11346,7 +11303,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 88,
+    "number": "#088",
     "name": "Umishi",
     "types": [
       "Water"
@@ -11442,7 +11399,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 88,
+          "number": "#088",
           "name": "Umishi",
           "stage": 1,
           "levels": 14,
@@ -11453,7 +11410,7 @@
           }
         },
         {
-          "number": 89,
+          "number": "#089",
           "name": "Ukama",
           "stage": 2,
           "traitMapping": {
@@ -11525,7 +11482,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 89,
+    "number": "#089",
     "name": "Ukama",
     "types": [
       "Water"
@@ -11630,7 +11587,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 88,
+          "number": "#088",
           "name": "Umishi",
           "stage": 1,
           "levels": 14,
@@ -11641,7 +11598,7 @@
           }
         },
         {
-          "number": 89,
+          "number": "#089",
           "name": "Ukama",
           "stage": 2,
           "traitMapping": {
@@ -11699,7 +11656,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 91,
+    "number": "#091",
     "name": "Raignet",
     "types": [
       "Electric"
@@ -11765,7 +11722,7 @@
           "stage": 1
         },
         {
-          "number": 91,
+          "number": "#091",
           "name": "Raignet",
           "stage": 2,
           "traitMapping": {
@@ -11807,7 +11764,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 92,
+    "number": "#092",
     "name": "Smazee",
     "types": [
       "Melee"
@@ -11919,7 +11876,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 92,
+          "number": "#092",
           "name": "Smazee",
           "stage": 1,
           "levels": 29,
@@ -11930,7 +11887,7 @@
           }
         },
         {
-          "number": 93,
+          "number": "#093",
           "name": "Baboong",
           "stage": 2,
           "levels": 23,
@@ -11941,7 +11898,7 @@
           }
         },
         {
-          "number": 94,
+          "number": "#094",
           "name": "Seismunch",
           "stage": 3,
           "traitMapping": {
@@ -11984,7 +11941,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Smazee.gif"
   },
   {
-    "number": 93,
+    "number": "#093",
     "name": "Baboong",
     "types": [
       "Melee"
@@ -12096,7 +12053,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 92,
+          "number": "#092",
           "name": "Smazee",
           "stage": 1,
           "levels": 29,
@@ -12107,7 +12064,7 @@
           }
         },
         {
-          "number": 93,
+          "number": "#093",
           "name": "Baboong",
           "stage": 2,
           "levels": 23,
@@ -12118,7 +12075,7 @@
           }
         },
         {
-          "number": 94,
+          "number": "#094",
           "name": "Seismunch",
           "stage": 3,
           "traitMapping": {
@@ -12161,7 +12118,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Baboong.gif"
   },
   {
-    "number": 94,
+    "number": "#094",
     "name": "Seismunch",
     "types": [
       "Melee",
@@ -12280,7 +12237,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": 92,
+          "number": "#092",
           "name": "Smazee",
           "stage": 1,
           "levels": 29,
@@ -12291,7 +12248,7 @@
           }
         },
         {
-          "number": 93,
+          "number": "#093",
           "name": "Baboong",
           "stage": 2,
           "levels": 23,
@@ -12302,7 +12259,7 @@
           }
         },
         {
-          "number": 94,
+          "number": "#094",
           "name": "Seismunch",
           "stage": 3,
           "traitMapping": {
@@ -12345,7 +12302,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 95,
+    "number": "#095",
     "name": "Zizare",
     "types": [
       "Earth"
@@ -12529,7 +12486,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 100,
+    "number": "#100",
     "name": "Kuri",
     "types": [
       "Earth"
@@ -12594,7 +12551,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 100,
+          "number": "#100",
           "name": "Kuri",
           "stage": 1,
           "levels": 16,
@@ -12605,7 +12562,7 @@
           }
         },
         {
-          "number": 101,
+          "number": "#101",
           "name": "Kauren",
           "stage": 2,
           "traitMapping": {
@@ -12705,7 +12662,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 101,
+    "number": "#101",
     "name": "Kauren",
     "types": [
       "Earth"
@@ -12798,7 +12755,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 100,
+          "number": "#100",
           "name": "Kuri",
           "stage": 1,
           "levels": 16,
@@ -12809,7 +12766,7 @@
           }
         },
         {
-          "number": 101,
+          "number": "#101",
           "name": "Kauren",
           "stage": 2,
           "traitMapping": {
@@ -12852,7 +12809,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 102,
+    "number": "#102",
     "name": "Spriole",
     "types": [
       "Nature"
@@ -12936,7 +12893,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 102,
+          "number": "#102",
           "name": "Spriole",
           "stage": 1,
           "levels": 12,
@@ -12947,7 +12904,7 @@
           }
         },
         {
-          "number": 103,
+          "number": "#103",
           "name": "Deendre",
           "stage": 2,
           "levels": 25,
@@ -12958,7 +12915,7 @@
           }
         },
         {
-          "number": 104,
+          "number": "#104",
           "name": "Cerneaf",
           "stage": 3,
           "traitMapping": {
@@ -13072,7 +13029,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Spriole.gif"
   },
   {
-    "number": 103,
+    "number": "#103",
     "name": "Deendre",
     "types": [
       "Nature"
@@ -13161,7 +13118,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 102,
+          "number": "#102",
           "name": "Spriole",
           "stage": 1,
           "levels": 12,
@@ -13172,7 +13129,7 @@
           }
         },
         {
-          "number": 103,
+          "number": "#103",
           "name": "Deendre",
           "stage": 2,
           "levels": 25,
@@ -13183,7 +13140,7 @@
           }
         },
         {
-          "number": 104,
+          "number": "#104",
           "name": "Cerneaf",
           "stage": 3,
           "traitMapping": {
@@ -13269,7 +13226,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 104,
+    "number": "#104",
     "name": "Cerneaf",
     "types": [
       "Nature"
@@ -13377,7 +13334,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": 102,
+          "number": "#102",
           "name": "Spriole",
           "stage": 1,
           "levels": 12,
@@ -13388,7 +13345,7 @@
           }
         },
         {
-          "number": 103,
+          "number": "#103",
           "name": "Deendre",
           "stage": 2,
           "levels": 25,
@@ -13399,7 +13356,7 @@
           }
         },
         {
-          "number": 104,
+          "number": "#104",
           "name": "Cerneaf",
           "stage": 3,
           "traitMapping": {
@@ -13442,7 +13399,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 105,
+    "number": "#105",
     "name": "Toxolotl",
     "types": [
       "Toxic"
@@ -13534,7 +13491,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 105,
+          "number": "#105",
           "name": "Toxolotl",
           "stage": 1,
           "levels": 30,
@@ -13545,7 +13502,7 @@
           }
         },
         {
-          "number": 106,
+          "number": "#106",
           "name": "Noxolotl",
           "stage": 2,
           "traitMapping": {
@@ -13603,7 +13560,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 106,
+    "number": "#106",
     "name": "Noxolotl",
     "types": [
       "Toxic"
@@ -13706,7 +13663,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 105,
+          "number": "#105",
           "name": "Toxolotl",
           "stage": 1,
           "levels": 30,
@@ -13717,7 +13674,7 @@
           }
         },
         {
-          "number": 106,
+          "number": "#106",
           "name": "Noxolotl",
           "stage": 2,
           "traitMapping": {
@@ -13760,7 +13717,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Noxolotl.gif"
   },
   {
-    "number": 107,
+    "number": "#107",
     "name": "Blooze",
     "types": [
       "Toxic"
@@ -13835,7 +13792,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 107,
+          "number": "#107",
           "name": "Blooze",
           "stage": 1,
           "levels": 25,
@@ -13846,7 +13803,7 @@
           }
         },
         {
-          "number": 108,
+          "number": "#108",
           "name": "Goolder",
           "stage": 2,
           "traitMapping": {
@@ -13904,7 +13861,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 108,
+    "number": "#108",
     "name": "Goolder",
     "types": [
       "Toxic"
@@ -14015,7 +13972,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 107,
+          "number": "#107",
           "name": "Blooze",
           "stage": 1,
           "levels": 25,
@@ -14026,7 +13983,7 @@
           }
         },
         {
-          "number": 108,
+          "number": "#108",
           "name": "Goolder",
           "stage": 2,
           "traitMapping": {
@@ -14069,7 +14026,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 109,
+    "number": "#109",
     "name": "Zephyruff",
     "types": [
       "Toxic",
@@ -14153,7 +14110,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 109,
+          "number": "#109",
           "name": "Zephyruff",
           "stage": 1,
           "levels": 22,
@@ -14164,7 +14121,7 @@
           }
         },
         {
-          "number": 110,
+          "number": "#110",
           "name": "Volarend",
           "stage": 2,
           "traitMapping": {
@@ -14264,7 +14221,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 110,
+    "number": "#110",
     "name": "Volarend",
     "types": [
       "Toxic",
@@ -14361,7 +14318,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 109,
+          "number": "#109",
           "name": "Zephyruff",
           "stage": 1,
           "levels": 22,
@@ -14372,7 +14329,7 @@
           }
         },
         {
-          "number": 110,
+          "number": "#110",
           "name": "Volarend",
           "stage": 2,
           "traitMapping": {
@@ -14444,7 +14401,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 111,
+    "number": "#111",
     "name": "Grumvel",
     "types": [
       "Earth"
@@ -14509,7 +14466,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 111,
+          "number": "#111",
           "name": "Grumvel",
           "stage": 1,
           "levels": 16,
@@ -14520,7 +14477,7 @@
           }
         },
         {
-          "number": 112,
+          "number": "#112",
           "name": "Grumper",
           "stage": 2,
           "traitMapping": {
@@ -14592,7 +14549,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 112,
+    "number": "#112",
     "name": "Grumper",
     "types": [
       "Earth",
@@ -14690,7 +14647,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 111,
+          "number": "#111",
           "name": "Grumvel",
           "stage": 1,
           "levels": 16,
@@ -14701,7 +14658,7 @@
           }
         },
         {
-          "number": 112,
+          "number": "#112",
           "name": "Grumper",
           "stage": 2,
           "traitMapping": {
@@ -14744,7 +14701,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 113,
+    "number": "#113",
     "name": "Ganki",
     "types": [
       "Electric",
@@ -14840,7 +14797,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 113,
+          "number": "#113",
           "name": "Ganki",
           "stage": 1,
           "levels": 27,
@@ -14851,7 +14808,7 @@
           }
         },
         {
-          "number": 114,
+          "number": "#114",
           "name": "Gazuma",
           "stage": 2,
           "traitMapping": {
@@ -14923,7 +14880,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 114,
+    "number": "#114",
     "name": "Gazuma",
     "types": [
       "Electric",
@@ -15025,7 +14982,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 113,
+          "number": "#113",
           "name": "Ganki",
           "stage": 1,
           "levels": 27,
@@ -15036,7 +14993,7 @@
           }
         },
         {
-          "number": 114,
+          "number": "#114",
           "name": "Gazuma",
           "stage": 2,
           "traitMapping": {
@@ -15094,7 +15051,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 115,
+    "number": "#115",
     "name": "Oceara",
     "types": [
       "Water"
@@ -15231,7 +15188,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Oceara.gif"
   },
   {
-    "number": 116,
+    "number": "#116",
     "name": "Yowlar",
     "types": [
       "Neutral"
@@ -15321,7 +15278,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 117,
+    "number": "#117",
     "name": "Droply",
     "types": [
       "Water",
@@ -15383,7 +15340,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 117,
+          "number": "#117",
           "name": "Droply",
           "stage": 1,
           "levels": 20,
@@ -15394,7 +15351,7 @@
           }
         },
         {
-          "number": 118,
+          "number": "#118",
           "name": "Garyo",
           "stage": 2,
           "traitMapping": {
@@ -15470,17 +15427,17 @@
       "spdef": 0
     },
     "gameDescription": "Although not particularly popular among tamers, Droply is used by many scholars as a prime example of an early Archipelagian amphibian, a crucial link in the evolution of earthborne Temtem.",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f1/Droply_full_render.png",
+    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/be/Droply_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d1/LumaDroply_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/17/LumaDroply_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Droply.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Droply.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Droply.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Droply.gif"
   },
   {
-    "number": 118,
+    "number": "#118",
     "name": "Garyo",
     "types": [
       "Water",
@@ -15569,7 +15526,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 117,
+          "number": "#117",
           "name": "Droply",
           "stage": 1,
           "levels": 20,
@@ -15580,7 +15537,7 @@
           }
         },
         {
-          "number": 118,
+          "number": "#118",
           "name": "Garyo",
           "stage": 2,
           "traitMapping": {
@@ -15623,7 +15580,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 122,
+    "number": "#122",
     "name": "Shuine",
     "types": [
       "Crystal",
@@ -15763,7 +15720,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Shuine.gif"
   },
   {
-    "number": 123,
+    "number": "#123",
     "name": "Nessla",
     "types": [
       "Water",
@@ -15934,7 +15891,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Nessla.gif"
   },
   {
-    "number": 124,
+    "number": "#124",
     "name": "Valiar",
     "types": [
       "Mental"
@@ -16026,7 +15983,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 127,
+    "number": "#127",
     "name": "Kalazu",
     "types": [
       "Water"
@@ -16124,7 +16081,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 127,
+          "number": "#127",
           "name": "Kalazu",
           "stage": 1,
           "levels": 18,
@@ -16135,7 +16092,7 @@
           }
         },
         {
-          "number": 128,
+          "number": "#128",
           "name": "Kalabyss",
           "stage": 2,
           "traitMapping": {
@@ -16249,7 +16206,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 128,
+    "number": "#128",
     "name": "Kalabyss",
     "types": [
       "Water",
@@ -16367,7 +16324,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 127,
+          "number": "#127",
           "name": "Kalazu",
           "stage": 1,
           "levels": 18,
@@ -16378,7 +16335,7 @@
           }
         },
         {
-          "number": 128,
+          "number": "#128",
           "name": "Kalabyss",
           "stage": 2,
           "traitMapping": {
@@ -16436,7 +16393,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 129,
+    "number": "#129",
     "name": "Adoroboros",
     "types": [
       "Toxic",
@@ -16607,7 +16564,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 130,
+    "number": "#130",
     "name": "Tuwai",
     "types": [
       "Wind"
@@ -16692,7 +16649,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 130,
+          "number": "#130",
           "name": "Tuwai",
           "stage": 1,
           "traitMapping": {
@@ -16706,7 +16663,7 @@
           "stage": 2
         },
         {
-          "number": 131,
+          "number": "#131",
           "name": "Tukai",
           "stage": 3,
           "traitMapping": {
@@ -16792,7 +16749,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tuwai.gif"
   },
   {
-    "number": 131,
+    "number": "#131",
     "name": "Tukai",
     "types": [
       "Wind",
@@ -16900,7 +16857,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": 130,
+          "number": "#130",
           "name": "Tuwai",
           "stage": 1,
           "traitMapping": {
@@ -16914,7 +16871,7 @@
           "stage": 2
         },
         {
-          "number": 131,
+          "number": "#131",
           "name": "Tukai",
           "stage": 3,
           "traitMapping": {
@@ -16957,7 +16914,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 133,
+    "number": "#133",
     "name": "Tuvine",
     "types": [
       "Wind",
@@ -17054,7 +17011,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": 130,
+          "number": "#130",
           "name": "Tuwai",
           "stage": 1,
           "traitMapping": {
@@ -17068,7 +17025,7 @@
           "stage": 2
         },
         {
-          "number": 133,
+          "number": "#133",
           "name": "Tuvine",
           "stage": 3,
           "traitMapping": {
@@ -17111,7 +17068,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 134,
+    "number": "#134",
     "name": "Turoc",
     "types": [
       "Wind",
@@ -17208,7 +17165,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": 130,
+          "number": "#130",
           "name": "Tuwai",
           "stage": 1,
           "traitMapping": {
@@ -17222,7 +17179,7 @@
           "stage": 2
         },
         {
-          "number": 134,
+          "number": "#134",
           "name": "Turoc",
           "stage": 3,
           "traitMapping": {
@@ -17265,7 +17222,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 137,
+    "number": "#137",
     "name": "Kinu",
     "types": [
       "Nature",
@@ -17419,7 +17376,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 138,
+    "number": "#138",
     "name": "Vulvir",
     "types": [
       "Fire",
@@ -17507,7 +17464,7 @@
       "stage": 1,
       "evolutionTree": [
         {
-          "number": 138,
+          "number": "#138",
           "name": "Vulvir",
           "stage": 1,
           "levels": 14,
@@ -17518,7 +17475,7 @@
           }
         },
         {
-          "number": 139,
+          "number": "#139",
           "name": "Vulor",
           "stage": 2,
           "levels": 28,
@@ -17529,7 +17486,7 @@
           }
         },
         {
-          "number": 140,
+          "number": "#140",
           "name": "Vulcrane",
           "stage": 3,
           "traitMapping": {
@@ -17601,7 +17558,7 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Vulvir.gif"
   },
   {
-    "number": 139,
+    "number": "#139",
     "name": "Vulor",
     "types": [
       "Fire",
@@ -17703,7 +17660,7 @@
       "stage": 2,
       "evolutionTree": [
         {
-          "number": 138,
+          "number": "#138",
           "name": "Vulvir",
           "stage": 1,
           "levels": 14,
@@ -17714,7 +17671,7 @@
           }
         },
         {
-          "number": 139,
+          "number": "#139",
           "name": "Vulor",
           "stage": 2,
           "levels": 28,
@@ -17725,7 +17682,7 @@
           }
         },
         {
-          "number": 140,
+          "number": "#140",
           "name": "Vulcrane",
           "stage": 3,
           "traitMapping": {
@@ -17797,7 +17754,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 140,
+    "number": "#140",
     "name": "Vulcrane",
     "types": [
       "Fire",
@@ -17913,7 +17870,7 @@
       "stage": 3,
       "evolutionTree": [
         {
-          "number": 138,
+          "number": "#138",
           "name": "Vulvir",
           "stage": 1,
           "levels": 14,
@@ -17924,7 +17881,7 @@
           }
         },
         {
-          "number": 139,
+          "number": "#139",
           "name": "Vulor",
           "stage": 2,
           "levels": 28,
@@ -17935,7 +17892,7 @@
           }
         },
         {
-          "number": 140,
+          "number": "#140",
           "name": "Vulcrane",
           "stage": 3,
           "traitMapping": {
@@ -17993,7 +17950,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 141,
+    "number": "#141",
     "name": "Pigepic",
     "types": [
       "Wind"
@@ -18187,7 +18144,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 142,
+    "number": "#142",
     "name": "Akranox",
     "types": [
       "Earth",
@@ -18339,7 +18296,7 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 144,
+    "number": "#144",
     "name": "Vulffy",
     "types": [
       "Earth",
@@ -18501,37 +18458,36 @@
     "renderAnimatedLumaImage": ""
   },
   {
-    "number": 161,
-    "name": "Anahir",
+    "number": "#072",
+    "name": "Crystle",
     "types": [
-      "Crystal",
-      "Fire"
+      "Crystal"
     ],
-    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/ea/Anahir.png",
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Crystle.png",
     "lumaPortraitWikiUrl": "",
-    "wikiUrl": "https://temtem.gamepedia.com/Anahir",
+    "wikiUrl": "https://temtem.gamepedia.com/Crystle",
     "stats": {
-      "hp": 54,
-      "sta": 36,
-      "spd": 31,
-      "atk": 50,
-      "def": 101,
-      "spatk": 50,
-      "spdef": 101,
-      "total": 423
+      "hp": 60,
+      "sta": 41,
+      "spd": 33,
+      "atk": 61,
+      "def": 69,
+      "spatk": 46,
+      "spdef": 42,
+      "total": 352
     },
     "traits": [
-      "Trauma",
-      "Flawed Crystal"
+      "Amphibian",
+      "Rested"
     ],
     "details": {
       "height": {
-        "cm": 152,
-        "inches": 59
+        "cm": 60,
+        "inches": 23
       },
       "weight": {
-        "kg": 172,
-        "lbs": 379
+        "kg": 48,
+        "lbs": 105
       }
     },
     "techniques": [
@@ -18541,86 +18497,130 @@
         "levels": 1
       },
       {
-        "name": "Fire Flame",
+        "name": "Mirror Shell",
         "source": "Levelling",
-        "levels": 4
+        "levels": 3
       },
       {
-        "name": "Head Charge",
+        "name": "Nibble",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Crystal Dust",
         "source": "Levelling",
         "levels": 9
       },
       {
-        "name": "Chains Hit",
+        "name": "Head Ram",
         "source": "Levelling",
-        "levels": 15
+        "levels": 14
       },
       {
-        "name": "Meteor Swarm",
+        "name": "Crystallize",
         "source": "Levelling",
-        "levels": 21
+        "levels": 17
       },
       {
-        "name": "Rampage",
+        "name": "Crystal Spikes",
         "source": "Levelling",
         "levels": 27
       },
       {
-        "name": "Heat Up",
+        "name": "Rampage",
         "source": "Levelling",
-        "levels": 36
+        "levels": 35
       },
       {
-        "name": "Crystal Bite",
-        "source": "Levelling",
-        "levels": 47
-      },
-      {
-        "name": "Mineral Hail",
-        "source": "Levelling",
-        "levels": 58
-      },
-      {
-        "name": "Magma Cannon",
+        "name": "Stone Wall",
         "source": "TechniqueCourses"
+      },
+      {
+        "name": "Antitoxins",
+        "source": "Breeding"
       }
     ],
     "trivia": [
-      "Anahir's name is derived from Anak and Terlahir (born in Indonesian), so its name means \"Born from Anak\".\nIts name was for a while rumored to be Rihanna backwards, which was \"confirmed\" on Twitter while CEO Tateru was in control on April 1st, 2020.",
-      "Its name was for a while rumored to be Rihanna backwards, which was \"confirmed\" on Twitter while CEO Tateru was in control on April 1st, 2020.",
-      "The Anahir you obtain during the quest Adventure in the Myrisles will always have 50 SVs in both DEF and SPDEF stats.",
-      "Players can decide to not obtain Anahir to save storage, useful for those who value storage for FreeTem. Similarly players can decide to obtain Anahir at a later date.",
-      "The Crystal Temtem that was subjected to intense heat to create Anahir is not a reference to any specific Temtem."
+      "Crystle's name is derived from crystal and turtle."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": "#072",
+          "name": "Crystle",
+          "stage": 1,
+          "levels": 30,
+          "trading": false,
+          "traitMapping": {
+            "Amphibian": "Mirroring",
+            "Rested": "Provident"
+          }
+        },
+        {
+          "number": "#073",
+          "name": "Sherald",
+          "stage": 2,
+          "levels": 21,
+          "trading": false,
+          "traitMapping": {
+            "Mirroring": "Confined",
+            "Provident": "Efficient"
+          }
+        },
+        {
+          "number": "#074",
+          "name": "Tortenite",
+          "stage": 3,
+          "traitMapping": {
+            "Confined": "Confined",
+            "Efficient": "Efficient"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
-    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/ea/Anahir.png",
-    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/94/LumaAnahir.png",
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Crystle.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c6/LumaCrystle.png",
     "locations": [
       {
-        "location": "Anak Volcano",
-        "place": "Anak Volcano",
+        "location": "Mines of Mictlan",
+        "place": "Mines of Mictlan",
         "note": "",
-        "island": "Omninesia",
-        "frequency": "Gift",
-        "level": "20",
+        "island": "Tucma",
+        "frequency": "5%",
+        "level": "28 - 30",
         "freetem": {
-          "minLevel": 20,
-          "maxLevel": 20,
-          "minPansuns": null,
-          "maxPansuns": null
+          "minLevel": 28,
+          "maxLevel": 30,
+          "minPansuns": 73,
+          "maxPansuns": 77
+        }
+      },
+      {
+        "location": "Kupeleleza",
+        "place": "Kupeleleza",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "5%",
+        "level": "24 - 28",
+        "freetem": {
+          "minLevel": 24,
+          "maxLevel": 28,
+          "minPansuns": 65,
+          "maxPansuns": 73
         }
       }
     ],
-    "icon": "/images/portraits/temtem/large/Anahir.png",
-    "lumaIcon": "/images/portraits/temtem/luma/large/Anahir.png",
+    "icon": "/images/portraits/temtem/large/Crystle.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Crystle.png",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 35,
+      "female": 65
     },
-    "catchRate": 0,
-    "hatchMins": 45,
+    "catchRate": 160,
+    "hatchMins": 13,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -18628,16 +18628,16 @@
       "atk": 0,
       "def": 2,
       "spatk": 0,
-      "spdef": 2
+      "spdef": 0
     },
-    "gameDescription": "This tortured creature is the result of Dr. Hamijo's attempts at creating a new \"Diamond\" variety. By picking the sturdiest variety of Crystal Temtem and submitting it to the harshest Fire environment of Anak, he has achieved something unique... and uniquely cruel.",
-    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/19/Anahir_full_render.png",
-    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d7/Anahir_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/be/LumaAnahir_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9c/LumaAnahir_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Anahir.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Anahir.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Anahir.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Anahir.gif"
+    "gameDescription": "Native to Tucma, Crystle are akin to smaragdine turtles, but they are actually closer to minerals than to fauna. Cute but tough, they are an excellent introductory Crystal Temtem for rookie tamers.",
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b7/Crystle_full_render.png",
+    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8e/Crystle_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8f/LumaCrystle_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/69/LumaCrystle_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Crystle.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Crystle.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Crystle.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Crystle.gif"
   }
 ]
