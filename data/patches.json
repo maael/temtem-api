@@ -1,5 +1,24 @@
 [
   {
+    "name": "Temtem 0.6.8",
+    "version": "0.6.8",
+    "url": "https://crema.gg/temtem/temtem-0-6-8/",
+    "date": "2020-8-28",
+    "patchInfo": {
+      "fixes": [
+        "👥Fixed traits with the “when entering the battlefield” trigger not being triggered if the holder was the last Temtem available on the bench and was entering the battle automatically.",
+        "👥Fixed a soft-lock after having a Temtem with Toxic Skin being KOed by a Temtem with the trait Self Esteem.",
+        "👥Fixed a soft-lock when entering a battle after using a Growth Enhancer on a knocked-out Temtem.",
+        "👥Fixed Alerted not being applied correctly if Sleep was removed at the same time Regenerating was being applied.",
+        "👥Fixed priority order not being recalculated correctly after using a Synergy with an ally that fainted during the turn.",
+        "👥Fixed priority order not being recalculated correctly after using a Synergy with a Temtem that has lost the Isolated status during the turn."
+      ],
+      "improvements": [],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
     "name": "Temtem 0.6.6",
     "version": "0.6.6",
     "url": "https://crema.gg/temtem/temtem-0-6-6/",
