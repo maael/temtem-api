@@ -572,7 +572,7 @@
   {
     "name": "Trance",
     "wikiUrl": "https://temtem.gamepedia.com/Trance",
-    "description": "When attacked, gets asleep and regenerating for 2 turns, SPATK and SPDEF if HP is below 30%.",
+    "description": "Once per battle, if the Temtem is attacked and the HP is below 30%, gets asleep and regenerating for 2 turns, SPATK and SPDEF .",
     "effect": "If a Temtem with Trance is the target of a technique, and afterwards its HP is 30% or less of its maximum, it gets the Asleep Condition and the Regenerated Condition for 2 turns, and also gets SPATK and SPDEF. This is regardless of if the technique did damage, but Trance only can ever trigger once per battle."
   },
   {
