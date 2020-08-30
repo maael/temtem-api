@@ -351,7 +351,13 @@
     "targets": "Self",
     "description": "\"In a hole in the ground there lived a Temtem...\" which allowed it to evade for 4 turns.",
     "effectText": "Burrow gives the Evading Condition to the user for 4 turns.",
-    "effects": []
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 4,
+        "condition": "Evading"
+      }
+    ]
   },
   {
     "name": "Bush",
@@ -1914,7 +1920,13 @@
     "targets": "Self",
     "description": "The sap of life, from the living heart of the Giant Banyan. Heals 10% HP for 7 turns.",
     "effectText": "Lifeful Sap applies the Regenerated Condition to the user for 7 turns.",
-    "effects": []
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 7,
+        "condition": "Regenerated"
+      }
+    ]
   },
   {
     "name": "Look out",

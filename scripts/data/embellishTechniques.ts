@@ -139,7 +139,7 @@ function getEffectText($: CheerioStatic) {
 function getEffectsFromText(text: string, conditions: Condition[]) {
   const possibleConditionNames = conditions.map(({ name }) => name);
   const possibleConditions =
-    text.match(/ (\w+?) Condition for (\d+) turns?/g) || [];
+    text.match(/ (\w+?) Condition( to the user)? for (\d+) turns?/g) || [];
   const flippedPossibleConditions =
     text.match(/ (\d+) turns? of the (\w+?) Condition/g) || [];
   const allPossible = possibleConditions
