@@ -151,7 +151,7 @@ function getEffectsFromText(text: string, conditions: Condition[]) {
       );
       if (!condition) {
         log.warn(`Failed to find condition in effect: ${text}`);
-        return;
+        return undefined;
       }
       return {
         type: "condition",
