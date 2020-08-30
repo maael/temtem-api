@@ -1,8 +1,8 @@
-import path from "path";
 import got from "got";
 import cheerio from "cheerio";
 import pipeFile from "../util/pipeFile";
 import * as log from "../util/log";
+import { typedToArray } from "../util/cheerioHelpers";
 
 export default async function getConditionIcons() {
   log.info("Starting");
@@ -10,21 +10,19 @@ export default async function getConditionIcons() {
     "https://temtem.gamepedia.com/Category:Condition_icons"
   );
   const $ = cheerio.load(result.body);
-  const images = $("#mw-content-text")
-    .find("img")
-    .map((_i, el) => $(el).attr("src"))
-    .toArray();
+  typedToArray;
+  const images = typedToArray<{ src: string; name: string }>(
+    $("#mw-content-text")
+      .find("img")
+      .map((_i, el) => ({
+        src: $(el).attr("src"),
+        name: $(el).attr("alt") || ""
+      }))
+  );
   await Promise.all(
     images.map(async img => {
-      const p = path.parse((img as unknown) as string);
-      const filename = `${p.name}${p.ext.split("?")[0]}`;
       try {
-        await pipeFile((img as unknown) as string, [
-          "images",
-          "icons",
-          "conditions",
-          filename
-        ]);
+        await pipeFile(img.src, ["images", "icons", "conditions", img.name]);
       } catch (e) {
         log.error(e.message);
       }
