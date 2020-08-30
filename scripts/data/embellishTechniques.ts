@@ -3,6 +3,7 @@ import * as log from "../util/log";
 import fetchHTML from "../util/fetchHTML";
 import { cleanToNumber } from "../util/cleaners";
 import { Technique as MinimalTechnique } from "./getTechniques";
+import { Condition } from "./getConditions";
 
 export enum TechniquePriority {
   ULTRA = "ultra",
@@ -85,7 +86,8 @@ function getPriority($: any) {
 }
 
 export default async function embellishTechniques(
-  techniques: MinimalTechnique[]
+  techniques: MinimalTechnique[],
+  conditions: Condition[]
 ): Promise<Technique[] | undefined> {
   log.info("Starting");
   try {
@@ -97,6 +99,8 @@ export default async function embellishTechniques(
         const hold = getInfoBoxNumeric($, "Hold");
         const classField = getInfoBox($, "Class");
         const priority = getPriority($);
+        const effectText = getEffectText($);
+        const effects = getEffectsFromText(effectText, conditions);
         return {
           ...item,
           type: getInfoBox($, "Type"),
@@ -109,7 +113,9 @@ export default async function embellishTechniques(
           priorityIcon: `/images/icons/priority/${priority}.png`,
           ...getSynergyData($),
           targets: getInfoBox($, "Targets"),
-          description: getDescription($)
+          description: getDescription($),
+          effectText,
+          effects
         };
       })
       .sort((a, b) => a.name.localeCompare(b.name));
@@ -118,6 +124,43 @@ export default async function embellishTechniques(
   } catch (e) {
     log.error(e.message);
   }
+}
+
+function getEffectText($: CheerioStatic) {
+  const effectTextHeader = $("#Effect");
+  if (!effectTextHeader.length) return "";
+  const effectText = $(effectTextHeader)
+    .parent()
+    .next();
+  if (!effectText.length || effectText[0].name !== "p") return "";
+  return $(effectText).text();
+}
+
+function getEffectsFromText(text: string, conditions: Condition[]) {
+  const possibleConditionNames = conditions.map(({ name }) => name);
+  const possibleConditions =
+    text.match(/ (\w+?) Condition for (\d+) turns?/g) || [];
+  const flippedPossibleConditions =
+    text.match(/ (\d+) turns? of the (\w+?) Condition/g) || [];
+  const allPossible = possibleConditions
+    .concat(flippedPossibleConditions)
+    .map(s => {
+      const turns = Number(((s.match(/\d+/) || [])[0] || "0").trim());
+      const condition = possibleConditionNames.find(n =>
+        s.toLowerCase().includes(n.toLowerCase())
+      );
+      if (!condition) {
+        log.warn(`Failed to find condition in effect: ${text}`);
+        return;
+      }
+      return {
+        type: "condition",
+        turns,
+        condition
+      };
+    })
+    .filter(Boolean);
+  return allPossible;
 }
 
 function getSynergyData($: CheerioStatic) {

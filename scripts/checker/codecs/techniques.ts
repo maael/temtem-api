@@ -35,7 +35,15 @@ export const Codec = t.type({
     t.type({ effect: t.string, damage: t.number, type: SynergyType })
   ),
   targets: t.string,
-  description: t.string
+  description: t.string,
+  effectText: t.string,
+  effects: t.array(
+    t.type({
+      condition: t.string,
+      type: t.literal("condition"),
+      turns: t.number
+    })
+  )
 });
 
 export const TechniqueList = t.array(Codec);

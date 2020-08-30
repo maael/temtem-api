@@ -34,7 +34,11 @@ import checkAndWrite from "../util/checkAndWrite";
   await checkAndWrite("dyes", "dyes", getDyes);
   await checkAndWrite("cosmetics", "cosmetics", getCosmetics);
   await checkAndWrite("weaknesses", "weaknesses", getWeaknessTable);
-  await checkAndWrite("conditions", "conditions", getConditions);
+  const conditions = await checkAndWrite(
+    "conditions",
+    "conditions",
+    getConditions
+  );
   await checkAndWrite("characters", "characters", getCharacters);
   await checkAndWrite("quests", "quests", async () => {
     const quests = await getQuests();
@@ -50,7 +54,7 @@ import checkAndWrite from "../util/checkAndWrite";
   });
   await checkAndWrite("techniques", "techniques", async () => {
     const techniques = await getTechniques();
-    return embellishTechniques(techniques || []);
+    return embellishTechniques(techniques || [], conditions);
   });
   await checkAndWrite("traits", "traits", async () => {
     const traits = await getTraits();
