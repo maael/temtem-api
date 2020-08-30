@@ -22,7 +22,7 @@ export default async function getTechniques() {
       nextPage = undefined;
     }
   }
-  return techniques;
+  return techniques.filter(({ name }) => !name.endsWith("/de"));
 }
 
 async function getTechniquesForPage(url: string) {
