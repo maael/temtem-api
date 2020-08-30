@@ -3399,5 +3399,129 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Some Temtem are so warm and cuddly that they can weaponize that love into a Fire technique."
+  },
+  {
+    "name": "Water Blade",
+    "wikiUrl": "https://temtem.gamepedia.com/Water_Blade",
+    "type": "Water",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 52,
+    "staminaCost": 10,
+    "hold": 0,
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Whipping seawater, like the stormy Sillaro lashing at the cliffs."
+  },
+  {
+    "name": "Water Cannon",
+    "wikiUrl": "https://temtem.gamepedia.com/Water_Cannon",
+    "type": "Water",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 100,
+    "staminaCost": 21,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "Toxic",
+    "synergyEffects": [
+      {
+        "effect": "+2 Turns Poison",
+        "type": "condition",
+        "damage": 0
+      }
+    ],
+    "targets": "Single Other Target",
+    "description": "The strongest Sillaro current has nothing on this unstoppable jet."
+  },
+  {
+    "name": "Water Cutting Lily",
+    "wikiUrl": "https://temtem.gamepedia.com/Water_Cutting_Lily",
+    "type": "Nature",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 120,
+    "staminaCost": 31,
+    "hold": 0,
+    "priority": "high",
+    "priorityIcon": "/images/icons/priority/high.png",
+    "synergy": "Water",
+    "synergyEffects": [
+      {
+        "effect": "+24 Base Damage",
+        "type": "damage",
+        "damage": 24
+      }
+    ],
+    "targets": "Single Other Target",
+    "description": "As pretty than Denizan Water lilies... but much deadlier."
+  },
+  {
+    "name": "Waterjet",
+    "wikiUrl": "https://temtem.gamepedia.com/Waterjet",
+    "type": "Water",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 110,
+    "staminaCost": 16,
+    "hold": 2,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "About time your enemies took a shower! This pressurized jet inflicts considerable damage and leaves the target Cold for 2 turns."
+  },
+  {
+    "name": "Willpower Drain",
+    "wikiUrl": "https://temtem.gamepedia.com/Willpower_Drain",
+    "type": "Neutral",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 15,
+    "hold": 1,
+    "priority": "high",
+    "priorityIcon": "/images/icons/priority/high.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Sapping the very will to fight from an enemy's mind, this quick Neutral technique steals 23 Stamina points."
+  },
+  {
+    "name": "Wind Blade",
+    "wikiUrl": "https://temtem.gamepedia.com/Wind_Blade",
+    "type": "Wind",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 40,
+    "staminaCost": 9,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Lashing gales, like the frozen tramontane howling over Loch."
+  },
+  {
+    "name": "Wind Burst",
+    "wikiUrl": "https://temtem.gamepedia.com/Wind_Burst",
+    "type": "Wind",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 90,
+    "staminaCost": 12,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "A terrifying gust of wind, capable of throwing a small airship off-course."
   }
 ]
