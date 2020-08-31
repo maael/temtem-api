@@ -10,7 +10,6 @@ export default async function getConditionIcons() {
     "https://temtem.gamepedia.com/Category:Condition_icons"
   );
   const $ = cheerio.load(result.body);
-  typedToArray;
   const images = typedToArray<{ src: string; name: string }>(
     $("#mw-content-text")
       .find("img")
