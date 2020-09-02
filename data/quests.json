@@ -391,24 +391,6 @@
     "startingNPC": "Laura"
   },
   {
-    "name": "Gone with the Sillaro",
-    "wikiUrl": "https://temtem.gamepedia.com/Gone_with_the_Sillaro",
-    "island": "Deniz",
-    "location": "Zadar",
-    "requirements": "Surfboard",
-    "reward": "TC001: Tsunami",
-    "type": "side",
-    "steps": [
-      "Find the missing pendant...",
-      "Return the pendant to Clara in Zadar"
-    ],
-    "rewards": [
-      "TC001: Tsunami"
-    ],
-    "startingLocation": "Zadar",
-    "startingNPC": "Clara"
-  },
-  {
     "name": "For Science!",
     "wikiUrl": "https://temtem.gamepedia.com/For_Science!",
     "island": "Kisiwa",
@@ -447,6 +429,46 @@
     ],
     "startingLocation": "Tucma",
     "startingNPC": "Tokatl"
+  },
+  {
+    "name": "Gone with the Sillaro",
+    "wikiUrl": "https://temtem.gamepedia.com/Gone_with_the_Sillaro",
+    "island": "Deniz",
+    "location": "Zadar",
+    "requirements": "Surfboard",
+    "reward": "TC001: Tsunami",
+    "type": "side",
+    "steps": [
+      "Find the missing pendant...",
+      "Return the pendant to Clara in Zadar"
+    ],
+    "rewards": [
+      "TC001: Tsunami"
+    ],
+    "startingLocation": "Zadar",
+    "startingNPC": "Clara"
+  },
+  {
+    "name": "Heartbeats",
+    "wikiUrl": "https://temtem.gamepedia.com/Heartbeats",
+    "island": "Kisiwa",
+    "location": "Vumbi",
+    "requirements": "Gravitonic piolets",
+    "reward": "TC027: Untangle, Baton Pass",
+    "type": "side",
+    "steps": [
+      "Look for Elizabeth in Tucma.",
+      "Find Macuil in the wreck of the Narwhal.",
+      "Bring a Zizare to Macuil.",
+      "Join Macuil and Elizabeth back in the bandit hideout.",
+      "Report back to Jeremy at the Vumbi Dojo."
+    ],
+    "rewards": [
+      "TC027: Untangle",
+      "Baton Pass"
+    ],
+    "startingLocation": "Vumbi Dojo",
+    "startingNPC": "Jeremy"
   },
   {
     "name": "Lights, camera, action!",
@@ -608,6 +630,26 @@
     "startingNPC": "Giulia"
   },
   {
+    "name": "Serbatiyo's Wrath",
+    "wikiUrl": "https://temtem.gamepedia.com/Serbatiyo%27s_Wrath_(quest)",
+    "island": "Kisiwa",
+    "location": "Tasa Desert",
+    "requirements": "Gravitonic piolets",
+    "reward": "TC023: Serbatiyo's Wrath",
+    "type": "side",
+    "steps": [
+      "Find Minha in the desert.",
+      "Buy \"Fables of the Isles at Tossaint Books in Uhuru.",
+      "Get the book from the bookcase.",
+      "Find the entrance to the Sea-Queendom."
+    ],
+    "rewards": [
+      "TC023: Serbatiyo's Wrath"
+    ],
+    "startingLocation": "Tasa Desert",
+    "startingNPC": "Mhina"
+  },
+  {
     "name": "Study Up",
     "wikiUrl": "https://temtem.gamepedia.com/Study_Up",
     "island": "Omninesia",
@@ -643,6 +685,29 @@
     ],
     "startingLocation": "Quetzal",
     "startingNPC": "Temtem Connoisseur"
+  },
+  {
+    "name": "Temtemed Out",
+    "wikiUrl": "https://temtem.gamepedia.com/Temtemed_Out",
+    "island": "Kisiwa",
+    "location": "Uhuru",
+    "requirements": "TC023: Serbatiyo's Wrath",
+    "reward": "TC021: Double EdgeDoppelganger Brooch",
+    "type": "side",
+    "steps": [
+      "Cheer up Ige doing an exhibition fight with Lyato.",
+      "Temtem up with Ige.",
+      "Bring Ige an Oceara.",
+      "Learn the technique Serbatiyo's Wrath and find Ige.",
+      "Fight Ige's souped-up Temtem!",
+      "Get a reward from Lyato."
+    ],
+    "rewards": [
+      "TC021: Double Edge",
+      "Doppelganger Brooch"
+    ],
+    "startingLocation": "Uhuru",
+    "startingNPC": "Lyato"
   },
   {
     "name": "The Denizan Icarus",
@@ -684,6 +749,19 @@
     ],
     "startingLocation": "Briçal de Mar",
     "startingNPC": "Theodora"
+  },
+  {
+    "name": "The Writer's Journey",
+    "wikiUrl": "https://temtem.gamepedia.com/index.php?title=The_Writer%27s_Journey&action=edit&redlink=1",
+    "island": "Deniz",
+    "location": "Turquesa",
+    "requirements": "",
+    "reward": "Hopeless Tonic, ???",
+    "type": "side",
+    "steps": [],
+    "rewards": [],
+    "startingLocation": "",
+    "startingNPC": ""
   },
   {
     "name": "Tour Guide",
