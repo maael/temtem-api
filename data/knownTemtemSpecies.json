@@ -10423,7 +10423,22 @@
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d7/Hocus.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/18/LumaHocus.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Gifted Bridges",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "5%",
+        "level": "30 - 40",
+        "freetem": {
+          "minLevel": 30,
+          "maxLevel": 40,
+          "minPansuns": 120,
+          "maxPansuns": 154
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Hocus.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Hocus.png",
     "genderRatio": {
