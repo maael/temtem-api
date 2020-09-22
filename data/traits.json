@@ -2,31 +2,31 @@
   {
     "name": "Aerobic",
     "wikiUrl": "https://temtem.gamepedia.com/Aerobic",
-    "description": "When attacking with Wind techniques, gets SPDEF and SPD.",
-    "effect": "When a Temtem with this trait uses a Technique, they get SPDEF and SPD."
+    "description": "",
+    "effect": "When a Temtem with this trait uses a Wind Technique, they get SPDEF and SPD."
   },
   {
     "name": "Air Specialist",
     "wikiUrl": "https://temtem.gamepedia.com/Air_Specialist",
-    "description": "+15% damage with Wind techniques.",
+    "description": "",
     "effect": "Air Specialist increases the damage of the user's Wind Techniques by an additional 15%."
   },
   {
     "name": "Amphibian",
     "wikiUrl": "https://temtem.gamepedia.com/Amphibian",
-    "description": "When attacked with a Water technique, gets SPD.",
-    "effect": "Whenever a Temtem with Amphibian is attacked by a technique, it gets SPD."
+    "description": "",
+    "effect": "Whenever a Temtem with Amphibian is attacked by a Water Technique, it gets SPD."
   },
   {
     "name": "Anaerobic",
     "wikiUrl": "https://temtem.gamepedia.com/Anaerobic",
-    "description": "When attacking with a Toxic technique, gets SPDEF and SPATK.",
-    "effect": "Whenever a Temtem with Anaerobic uses a Technique, it gets SPDEF and SPATK."
+    "description": "",
+    "effect": "Whenever a Temtem with Anaerobic uses a Toxic Technique, it gets SPDEF and SPATK."
   },
   {
     "name": "Apothecary",
     "wikiUrl": "https://temtem.gamepedia.com/Apothecary",
-    "description": "When attacking with a special technique, the target gets poisoned for 1 turn if it's a rival or regenerating for 1 turn if it's an ally or itself.",
+    "description": "",
     "effect": "Whenever a Temtem with Apothecary attacks with a Special Technique, if the target is an enemy, it inflicts the Poisoned Condition for 1 turn, or if the target is an ally or itself, it inflicts the Regenerated Condition for 1 turn."
   },
   {
@@ -38,133 +38,133 @@
   {
     "name": "Autotomy",
     "wikiUrl": "https://temtem.gamepedia.com/Autotomy",
-    "description": "When entering the battlefield for the first time, gets evading for 2 turns.",
+    "description": "",
     "effect": "Autotomy causes the user to get the Evading Condition for 2 turns upon its first entry onto the battlefield."
   },
   {
     "name": "Avenger",
     "wikiUrl": "https://temtem.gamepedia.com/Avenger",
-    "description": "When an ally is knocked-out, gets SPATK and SPD.",
+    "description": "",
     "effect": "A Temtem with Avenger gets SPATK and SPD whenever its ally is knocked out."
   },
   {
     "name": "Benefactor",
     "wikiUrl": "https://temtem.gamepedia.com/Benefactor",
-    "description": "When an ally is damaged, restores 10% of max HP.",
-    "effect": "Whenever the ally of the Temtem with Benefactor takes damage from a technique (no matter the target), they are healed by 10% of their max HP. This effect has no minimum value, meaning it can heal the ally for more HP than they lost due to getting attacked. It will only trigger if they take damage from the attack."
+    "description": "",
+    "effect": "Whenever the ally of the Temtem with Benefactor takes damage from a technique (no matter the target), they are healed by 10% of their max HP. This effect has no minimum value, meaning it can heal the ally for more HP than they lost due to getting attacked. It will only trigger if they take damage from the technique."
   },
   {
     "name": "Body Stretch",
     "wikiUrl": "https://temtem.gamepedia.com/Body_Stretch",
-    "description": "When resting, gets regenerating for 2 turns.",
+    "description": "",
     "effect": "Whenever a Temtem with Body Stretch rests, it gains the Regenerated Condition for 2 turns."
   },
   {
     "name": "Book Lungs",
     "wikiUrl": "https://temtem.gamepedia.com/Book_Lungs",
-    "description": "Damage taken from Water techniques is reduced by 30%.",
-    "effect": "Whenever a Temtem with Book Lungs takes damage from a technique, the damage is reduced by 30%."
+    "description": "",
+    "effect": "Whenever a Temtem with Book Lungs takes damage from a Water technique, the damage is reduced by 30%."
   },
   {
     "name": "Botanist",
     "wikiUrl": "https://temtem.gamepedia.com/Botanist",
-    "description": "+15% damage with Nature techniques.",
+    "description": "",
     "effect": "Botanist increases the damage of the user's Nature Techniques by an additional 15%."
   },
   {
     "name": "Botanophobia",
     "wikiUrl": "https://temtem.gamepedia.com/Botanophobia",
-    "description": "When attacked with a Nature technique, it is increased in damage by 50%.",
-    "effect": "Whenever a Temtem with Botanophobia is attacked by a Technique, the damage is increased by 50%."
+    "description": "",
+    "effect": "Whenever a Temtem with Botanophobia is attacked by a Nature Technique, the damage is increased by 50%."
   },
   {
     "name": "Brawny",
     "wikiUrl": "https://temtem.gamepedia.com/Brawny",
-    "description": "Damage done with physical techniques is increased by 20%.",
+    "description": "",
     "effect": "A Temtem with Brawny has all damage done by Physical Techniques boosted by an additional 20%."
   },
   {
     "name": "Bully",
     "wikiUrl": "https://temtem.gamepedia.com/Bully",
-    "description": "While allies outnumber rivals, techniques inflict +30% Damage.",
-    "effect": "If the number of allies conscious is greater than the number of enemies conscious, including Temtem not on the battlefield for both totals, then Temtem with Bully deal 30% more damage."
+    "description": "",
+    "effect": "If the number of allies conscious is greater than the number of enemies conscious, including Temtem not on the battlefield for both totals, then Temtem with Bully deal an additional 30% more damage."
   },
   {
     "name": "Burglar",
     "wikiUrl": "https://temtem.gamepedia.com/Burglar",
-    "description": "When attacking an asleep or exhausted Temtem, disables its gear.",
+    "description": "",
     "effect": "When a Temtem with Burglar attacks another Temtem that has the Asleep Condition or the Exhausted Condition, the defender's gear will be disabled for the remainder of the combat."
   },
   {
     "name": "Caffeinated",
     "wikiUrl": "https://temtem.gamepedia.com/Caffeinated",
-    "description": "Prevents the asleep status condition.",
+    "description": "",
     "effect": "Temtem with Caffeinated will never receive the Asleep Condition."
   },
   {
     "name": "Callosity",
     "wikiUrl": "https://temtem.gamepedia.com/Callosity",
-    "description": "When attacked with a physical technique, gets DEF.",
-    "effect": "Whenever a Temtem with Callosity gets attacked by a physical technique, it then gets DEF."
+    "description": "",
+    "effect": "Whenever a Temtem with Callosity gets attacked by a Physical Technique, it then gets DEF."
   },
   {
     "name": "Camaraderie",
     "wikiUrl": "https://temtem.gamepedia.com/Camaraderie",
-    "description": "When attacked, reduces 50% damage if both allies are part of the same evolutionary line.",
+    "description": "",
     "effect": "When a Temtem with Camaraderie is attacked, if its ally is part of its evolutionary line, then it takes 50% less damage."
   },
   {
     "name": "Channeler",
     "wikiUrl": "https://temtem.gamepedia.com/Channeler",
-    "description": "Damage done with special techniques is increased by 25%.",
+    "description": "",
     "effect": "Special Techniques used by a Temtem with Channeler do 25% more damage."
   },
   {
     "name": "Cobweb",
     "wikiUrl": "https://temtem.gamepedia.com/Cobweb",
-    "description": "When applying a poison status condition, the target gets trapped for 2 turns too.",
+    "description": "",
     "effect": "Whenever a Temtem with Cobweb causes another Temtem to get the Poisoned Condition, it also causes it to get the Trapped Condition for 2 turns."
   },
   {
     "name": "Cold-Natured",
     "wikiUrl": "https://temtem.gamepedia.com/Cold-Natured",
-    "description": "Instead of getting Cold, the Temtem gets Frozen.",
+    "description": "",
     "effect": "Whenever a Temtem with Cold-Natured would get the Cold Condition, they instead get the Frozen Condition for the same amount of turns."
   },
   {
     "name": "Comebacker",
     "wikiUrl": "https://temtem.gamepedia.com/Comebacker",
-    "description": "Currently, Comebacker is unavailable, so it's unknown what its description is.",
+    "description": "",
     "effect": "Currently, Comebacker is unavailable, so it's unknown what its full effect is."
   },
   {
     "name": "Confined",
     "wikiUrl": "https://temtem.gamepedia.com/Confined",
-    "description": "When getting an trapped status condition, gets DEF and SPDEF if the attacker is itself.",
-    "effect": "When a Temtem with Confined uses a technique that causes it to give itself the , it also gets DEF and SPDEF."
+    "description": "",
+    "effect": "When a Temtem with Confined uses a technique that causes it to give itself the Trapped Condition, it also gets DEF and SPDEF."
   },
   {
     "name": "Coward's Rest",
     "wikiUrl": "https://temtem.gamepedia.com/Coward%27s_Rest",
-    "description": "When resting, gets for 2 turns.",
+    "description": "",
     "effect": "Whenever a Temtem with Coward's Rest rests, it gains the Evading Condition for 2 turns."
   },
   {
     "name": "Deceit Aura",
     "wikiUrl": "https://temtem.gamepedia.com/Deceit_Aura",
-    "description": "Techniques priority order is inverted during each turn the Temtem is present on the battlefield.",
+    "description": "",
     "effect": "At any turn in which a Temtem with Deceit Aura is present, the individual Temtem turn order is reversed. This reversal applies to the order in which techniques are used and the order in which Temtem are swapped. Techniques with Ultra Priority, Temtem swapping and item usage still occur prior to techniques."
   },
   {
     "name": "Demoralize",
     "wikiUrl": "https://temtem.gamepedia.com/Demoralize",
-    "description": "When entering the battlefield, rivals get SPD.",
+    "description": "",
     "effect": "When a Temtem with Demoralize enters the battlefield, both enemies immediately get SPD, even if they are then immediately after swapped out."
   },
   {
     "name": "Determined",
     "wikiUrl": "https://temtem.gamepedia.com/Determined",
-    "description": "Prevents negative stat stage changes.",
+    "description": "",
     "effect": "Temtem with Determined can never have its stats decreased by any amount of stages."
   },
   {
@@ -548,8 +548,8 @@
   {
     "name": "Toxic Affinity",
     "wikiUrl": "https://temtem.gamepedia.com/Toxic_Affinity",
-    "description": "Toxic Type techniques get type damage boost.",
-    "effect": "Toxic Affinity multiplies the base damage of the user's Techniques by x1.5, as if the user had STAB (Same-Type Attack Bonus). This stacks with actual STAB if the user is also a , resulting in a total multiple of x2.25 (1.5 x 1.5)."
+    "description": "",
+    "effect": "Toxic Affinity multiplies the base damage of the user's Toxic Techniques by x1.5, as if the user had STAB (Same-Type Attack Bonus). This stacks with actual STAB if the user is also a Toxic Temtem, resulting in a total multiple of x2.25 (1.5 x 1.5)."
   },
   {
     "name": "Toxic Farewell",
