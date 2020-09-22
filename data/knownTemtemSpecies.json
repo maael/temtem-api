@@ -13762,6 +13762,10 @@
         "source": "TechniqueCourses"
       },
       {
+        "name": "Brace",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Narcoleptic Hit",
         "source": "Breeding"
       }
@@ -14074,7 +14078,7 @@
     ],
     "trivia": [
       "Goolder's name is derived from goo and elder.",
-      "Goolder has the highest HP stat of all Temtem at 120.\nDue to this, Goolder has the highest single base stat of any Temtem",
+      "Goolder has the highest HP stat of all Temtem at 125.\nDue to this, Goolder has the highest single base stat of any Temtem",
       "Due to this, Goolder has the highest single base stat of any Temtem",
       "Goolder has the lowest Speed stat of all Temtem at 10.\nIts tied with Pewki for having the lowest single base stat of any Temtem.",
       "Its tied with Pewki for having the lowest single base stat of any Temtem."
@@ -15324,34 +15328,83 @@
     ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 230,
+        "inches": 90
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 400,
+        "lbs": 882
       }
     },
     "techniques": [
       {
+        "name": "Charge",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Fierce Claw",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Show Off",
+        "source": "Levelling",
+        "levels": 10
+      },
+      {
+        "name": "Clinch",
+        "source": "Levelling",
+        "levels": 15
+      },
+      {
         "name": "Late Torment",
         "source": "Levelling",
-        "levels": 0
+        "levels": 23
       },
       {
         "name": "Savage Suplex",
         "source": "Levelling",
-        "levels": 0
+        "levels": 30
       },
       {
         "name": "Oshi-Dashi",
         "source": "Levelling",
-        "levels": 0
+        "levels": 42
       },
       {
         "name": "Hibernate",
         "source": "Levelling",
-        "levels": 0
+        "levels": 50
+      },
+      {
+        "name": "Winter Call",
+        "source": "Levelling",
+        "levels": 58
+      },
+      {
+        "name": "Misogi",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Confiscate",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Block",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Darkness",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Toughen",
+        "source": "Breeding"
+      },
+      {
+        "name": "Ice Cubes",
+        "source": "Breeding"
       }
     ],
     "trivia": [
@@ -15366,11 +15419,11 @@
     "icon": "/images/portraits/temtem/large/Yowlar.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Yowlar.png",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 75,
+      "female": 25
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 90,
+    "hatchMins": 27,
     "tvYields": {
       "hp": 3,
       "sta": 0,
@@ -15380,7 +15433,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "",
+    "gameDescription": "Considered vanishingly rare until Linnaea's work, this lonesome Temtem inhabits the most inaccessible Kilima peaks, where they keep large, fiercely defended hunting ranges.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -15919,6 +15972,10 @@
       {
         "name": "Rend",
         "source": "TechniqueCourses"
+      },
+      {
+        "name": "Thunder Strike",
+        "source": "Breeding"
       }
     ],
     "trivia": [

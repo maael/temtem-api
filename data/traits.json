@@ -126,6 +126,12 @@
     "effect": "Whenever a Temtem with Cobweb causes another Temtem to get the Poisoned Condition, it also causes it to get the Trapped Condition for 2 turns."
   },
   {
+    "name": "Cold-Blooded",
+    "wikiUrl": "https://temtem.gamepedia.com/Cold-Blooded",
+    "description": "Instead of getting Cold, Temtem regenerates for 2 turns.",
+    "effect": "If a Temtem with Cold-Blooded is inflicted with Cold Condition, it instead gains Regenerated Condition for 2 turns."
+  },
+  {
     "name": "Cold-Natured",
     "wikiUrl": "https://temtem.gamepedia.com/Cold-Natured",
     "description": "",
@@ -134,8 +140,8 @@
   {
     "name": "Comebacker",
     "wikiUrl": "https://temtem.gamepedia.com/Comebacker",
-    "description": "",
-    "effect": "When attacked by a rival, damage done to the attacker is increased by 50% during the same turn."
+    "description": "When attacked by a rival, damage done to the attacker is increased by 50% during the same turn.",
+    "effect": "When an attacker targets a Temtem with Comebacker, the attacker takes 50% increased damage for the rest of the turn."
   },
   {
     "name": "Confined",
@@ -170,8 +176,8 @@
   {
     "name": "Dreaded Alarm",
     "wikiUrl": "https://temtem.gamepedia.com/Dreaded_Alarm",
-    "description": "When a rival rests, they lose 20% of max HP.",
-    "effect": "Whenever the enemy of a Temtem with Dreaded Alarm rests, they lose 20% of their maximum HP."
+    "description": "When a rival rests, they lose 25% of max HP.",
+    "effect": "Whenever the enemy of a Temtem with Dreaded Alarm rests, they lose 25% of their maximum HP."
   },
   {
     "name": "Earthbound",
@@ -200,8 +206,8 @@
   {
     "name": "Energy Reserves",
     "wikiUrl": "https://temtem.gamepedia.com/Energy_Reserves",
-    "description": "If HP is below 25% by the end of the turn, gets invigorated for 2 turns.",
-    "effect": "If, at the end of the turn, the HP of a Temtem with Energy Reserves is below 25% of its maximum, the Temtem gets the Vigorized Condition for 2 turns."
+    "description": "Once per battle, if HP is below 40% by the end of the turn, gets ATK and invigorated for 2 turns.",
+    "effect": "If, at the end of the turn, the HP of a Temtem with Energy Reserves is below 40% of its maximum, the Temtem gets the Vigorized Condition for 2 turns and ATK."
   },
   {
     "name": "Escapist",
@@ -486,6 +492,12 @@
     "effect": "Temtem with Skull Helmet take 25% less damage from techniques that are either or ."
   },
   {
+    "name": "Snowstorm",
+    "wikiUrl": "https://temtem.gamepedia.com/Snowstorm",
+    "description": "When entering the battlefield for the first time, rivals and the ally get cold for 2 turns if they aren't cold already.",
+    "effect": "When a Temtem with Snowstorm enters the battlefield, their ally and both rivals each get the Cold Condition for 2 turns if they do not already have the condition."
+  },
+  {
     "name": "Soft Touch",
     "wikiUrl": "https://temtem.gamepedia.com/Soft_Touch",
     "description": "When attacking an asleep target, it won't wake up.",
@@ -502,6 +514,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/Spreader",
     "description": "Single-target special techniques become multi-target, and damage done with them is reduced by 66%.",
     "effect": "Whenever a Temtem with Spreader attacks with a Special Technique, the attack affects the entire target team instead but only deals 66% damage."
+  },
+  {
+    "name": "Stabmaster",
+    "wikiUrl": "https://temtem.gamepedia.com/Stabmaster",
+    "description": "Damage done with matching type techniques is increased by 50%.",
+    "effect": "When a Temtem with Stabmaster uses a technique that shares a type with it, it deals 50% extra damage in addition to the STAB bonus."
   },
   {
     "name": "Strong Liver",
