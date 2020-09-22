@@ -2739,6 +2739,35 @@
     "effects": []
   },
   {
+    "name": "Quetza-leño",
+    "wikiUrl": "https://temtem.gamepedia.com/Quetza-le%C3%B1o",
+    "type": "Fire",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 110,
+    "staminaCost": 27,
+    "hold": 0,
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
+    "synergy": "Neutral",
+    "synergyEffects": [
+      {
+        "effect": "+ 5 Base Damage",
+        "type": "damage",
+        "damage": 0
+      },
+      {
+        "effect": "+1 Priority",
+        "type": "priority",
+        "damage": 0
+      }
+    ],
+    "targets": "None",
+    "description": "A party trick someone showed you once, involving a Fire Temtem, a log and a bottle of Quetzaleño Reposado...",
+    "effectText": "Quetza-leño deals damage to a single target.",
+    "effects": []
+  },
+  {
     "name": "Quicksand",
     "wikiUrl": "https://temtem.gamepedia.com/Quicksand",
     "type": "Earth",

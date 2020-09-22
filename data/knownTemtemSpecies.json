@@ -5641,6 +5641,10 @@
         "source": "TechniqueCourses"
       },
       {
+        "name": "Quetza-leño",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Roar",
         "source": "Breeding"
       }
@@ -8289,6 +8293,10 @@
       },
       {
         "name": "Held Anger",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Quetza-leño",
         "source": "TechniqueCourses"
       },
       {
@@ -15311,7 +15319,8 @@
       "total": 0
     },
     "traits": [
-      "Comebacker"
+      "Comebacker",
+      "Cold-Blooded"
     ],
     "details": {
       "height": {
@@ -16191,8 +16200,8 @@
           "levels": 18,
           "trading": false,
           "traitMapping": {
-            "Mithridatism": "Botanophobia",
-            "Hydrologist": "Loneliness"
+            "Mithridatism": "Toxic Skin",
+            "Hydrologist": "Mucous"
           }
         },
         {
@@ -16200,8 +16209,8 @@
           "name": "Kalabyss",
           "stage": 2,
           "traitMapping": {
-            "Botanophobia": "Botanophobia",
-            "Loneliness": "Loneliness"
+            "Toxic Skin": "Toxic Skin",
+            "Mucous": "Mucous"
           }
         }
       ],
@@ -16330,8 +16339,8 @@
       "total": 451
     },
     "traits": [
-      "Botanophobia",
-      "Loneliness"
+      "Toxic Skin",
+      "Mucous"
     ],
     "details": {
       "height": {
@@ -16434,8 +16443,8 @@
           "levels": 18,
           "trading": false,
           "traitMapping": {
-            "Mithridatism": "Botanophobia",
-            "Hydrologist": "Loneliness"
+            "Mithridatism": "Toxic Skin",
+            "Hydrologist": "Mucous"
           }
         },
         {
@@ -16443,8 +16452,8 @@
           "name": "Kalabyss",
           "stage": 2,
           "traitMapping": {
-            "Botanophobia": "Botanophobia",
-            "Loneliness": "Loneliness"
+            "Toxic Skin": "Toxic Skin",
+            "Mucous": "Mucous"
           }
         }
       ],
@@ -18489,10 +18498,6 @@
       },
       {
         "name": "Quicksand",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Drought",
         "source": "TechniqueCourses"
       }
     ],
