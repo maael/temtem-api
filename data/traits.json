@@ -135,7 +135,7 @@
     "name": "Comebacker",
     "wikiUrl": "https://temtem.gamepedia.com/Comebacker",
     "description": "",
-    "effect": "Currently, Comebacker is unavailable, so it's unknown what its full effect is."
+    "effect": "When attacked by a rival, damage done to the attacker is increased by 50% during the same turn."
   },
   {
     "name": "Confined",
@@ -248,8 +248,8 @@
   {
     "name": "Guardian",
     "wikiUrl": "https://temtem.gamepedia.com/Guardian",
-    "description": "Prevents the cold, burned, poisoned and doomed status conditions on the ally.",
-    "effect": "The ally of a Temtem with Guardian cannot get the Cold Condition, Burned Condition, Poisoned Condition, or Doomed Condition."
+    "description": "Prevents negative stat stage changes and the cold, burned, poisoned and doomed status conditions on the ally.",
+    "effect": "The ally of a Temtem with Guardian cannot get the Cold Condition, Burned Condition, Poisoned Condition, or Doomed Condition, nor can it receive any negative stage changes to its stats."
   },
   {
     "name": "Heat Discharge",
@@ -278,8 +278,8 @@
   {
     "name": "Immunity",
     "wikiUrl": "https://temtem.gamepedia.com/Immunity",
-    "description": "Resists damage from Toxic techniques.",
-    "effect": "Techniques deal no damage to a Temtem with Immunity. However, the Temtem can still receive the Poisoned Condition."
+    "description": "Resists damage from Toxic techniques and prevents poisoned.",
+    "effect": "Techniques deal no damage to a Temtem with Immunity, and Temtem with Immunity cannot receive the Poisoned Condition."
   },
   {
     "name": "Individualist",
@@ -386,8 +386,8 @@
   {
     "name": "Protector",
     "wikiUrl": "https://temtem.gamepedia.com/Protector",
-    "description": "When entering the battlefield, the ally gets DEF and SPDEF.",
-    "effect": "When a Temtem with Protector enters the battlefield, its ally gets DEF and SPDEF, even if the ally is immediately then swapped out."
+    "description": "When entering the battlefield, loses 10% of max HP and the ally gets DEF and SPDEF.",
+    "effect": "When a Temtem with Protector enters the battlefield, it loses 10% of its maximum HP, and its ally gets DEF and SPDEF, even if the ally is immediately then swapped out."
   },
   {
     "name": "Provident",
@@ -422,8 +422,8 @@
   {
     "name": "Rejuvenate",
     "wikiUrl": "https://temtem.gamepedia.com/Rejuvenate",
-    "description": "When attacking with a physical technique, restore 15% of max HP.",
-    "effect": "After attacking with a Physical Technique, if the attacking Temtem has Rejuvenate, it restores 15% of its maximum HP."
+    "description": "When attacking with a physical technique, restore 20% of max HP.",
+    "effect": "After attacking with a Physical Technique, if the attacking Temtem has Rejuvenate, it restores 20% of its maximum HP."
   },
   {
     "name": "Resilient",
@@ -500,8 +500,8 @@
   {
     "name": "Spreader",
     "wikiUrl": "https://temtem.gamepedia.com/Spreader",
-    "description": "Single-target special techniques become multi-target, and damage done with them is reduced by 50%.",
-    "effect": "Whenever a Temtem with Spreader attacks with a Special Technique, the attack affects the entire target team instead but deals 50% less damage."
+    "description": "Single-target special techniques become multi-target, and damage done with them is reduced by 66%.",
+    "effect": "Whenever a Temtem with Spreader attacks with a Special Technique, the attack affects the entire target team instead but only deals 66% damage."
   },
   {
     "name": "Strong Liver",
@@ -572,8 +572,8 @@
   {
     "name": "Trance",
     "wikiUrl": "https://temtem.gamepedia.com/Trance",
-    "description": "Once per battle, if the Temtem is attacked and the HP is below 30%, gets asleep and regenerating for 2 turns, SPATK and SPDEF .",
-    "effect": "If a Temtem with Trance is the target of a technique, and afterwards its HP is 30% or less of its maximum, it gets the Asleep Condition and the Regenerated Condition for 2 turns, and also gets SPATK and SPDEF. This is regardless of if the technique did damage, but Trance only can ever trigger once per battle."
+    "description": "Once per battle, if the Temtem is attacked and the HP is below 30%, gets asleep for 2 turns and regenerating for 3 turns, SPATK and SPDEF .",
+    "effect": "If a Temtem with Trance is the target of a technique, and afterwards its HP is 30% or less of its maximum, it gets the Asleep Condition for 2 turns and the Regenerated Condition for 3 turns, and also gets SPATK and SPDEF. This is regardless of if the technique did damage, but Trance only can ever trigger once per battle."
   },
   {
     "name": "Trauma",
