@@ -5,7 +5,7 @@ import Jimp from "jimp";
 
 console.info("Looking for files in", `${__dirname}/../public/images/`);
 
-const MAX_DIMENSION_SIZE = 800;
+const MAX_DIMENSION_SIZE = 1000;
 
 glob(
   `${__dirname}/../public/images/**/*.@(png|jpeg|jpg)`,
