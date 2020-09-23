@@ -12598,13 +12598,13 @@
   },
   {
     "number": 99,
-    "name": "50x50px Momo",
+    "name": "Momo",
     "types": [
       "Neutral"
     ],
-    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/Neutral.png",
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d2/Momo.png",
     "lumaPortraitWikiUrl": "",
-    "wikiUrl": "https://temtem.gamepedia.com/50x50px Momo",
+    "wikiUrl": "https://temtem.gamepedia.com/Momo",
     "stats": {
       "hp": 75,
       "sta": 64,
@@ -12615,35 +12615,81 @@
       "spdef": 75,
       "total": 477
     },
-    "traits": [],
+    "traits": [
+      "Stabmaster",
+      "Snowstorm"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 160,
+        "inches": 62
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 74,
+        "lbs": 163
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Nibble",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Bark",
+        "source": "Levelling",
+        "levels": 15
+      },
+      {
+        "name": "Head Charge",
+        "source": "Levelling",
+        "levels": 20
+      },
+      {
+        "name": "Brace",
+        "source": "Levelling",
+        "levels": 30
+      },
+      {
+        "name": "Willpower Drain",
+        "source": "Levelling",
+        "levels": 39
+      },
+      {
+        "name": "Undermine",
+        "source": "Levelling",
+        "levels": 50
+      },
+      {
+        "name": "Double Edge",
+        "source": "TechniqueCourses"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "",
-    "lumaWikiPortraitUrlLarge": "",
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d2/Momo.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/41/LumaMomo.png",
     "locations": [],
-    "icon": "/images/portraits/temtem/large/50x50px Momo.png",
-    "lumaIcon": "/images/portraits/temtem/luma/large/50x50px Momo.png",
+    "icon": "/images/portraits/temtem/large/Momo.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Momo.png",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 10,
+      "female": 90
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "",
+    "catchRate": 98,
+    "hatchMins": 25.4,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 3,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "While some Temtemologist point to the primeval forests of Arbury and Cipanku as possible origin of this species, there is plenty of archaeological proof of their early domestication around Lake Moyo.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -16019,16 +16065,17 @@
         "levels": 44
       },
       {
+        "name": "Thunder Strike",
+        "source": "Levelling",
+        "levels": 57
+      },
+      {
         "name": "Wake Up",
         "source": "TechniqueCourses"
       },
       {
         "name": "Rend",
         "source": "TechniqueCourses"
-      },
-      {
-        "name": "Thunder Strike",
-        "source": "Breeding"
       }
     ],
     "trivia": [
