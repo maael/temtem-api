@@ -1,5 +1,39 @@
 [
   {
+    "name": "Temtem 0.6.10",
+    "version": "0.6.10",
+    "url": "https://crema.gg/temtem/temtem-0-6-10/",
+    "date": "2020-9-23",
+    "patchInfo": {
+      "fixes": [
+        "👥Fixed Nagaise freezing battles when Deceit Aura was activated.",
+        "👥Fixed getting locked when completing a main quest and traveling to the Narwhal.",
+        "👥Fixed Chamomile Immunity effect not triggering on every change.",
+        "Fixed Immunity effect jibberish text when triggered.",
+        "Fixed Tortenite’s Garden’s description.",
+        "Fixed an invisible collision in the Narwhal dock during the “On Solid Footing?” quest.",
+        "Fixed NPC Tamer (Chidi) in Kilima Peaks having an Azuroc with the wrong tech pool.",
+        "Fixed a typo in the Heat Discharge description.",
+        "👥Fixed the alternative movement keys not working on UIs.",
+        "Fixed Luma particles not working properly on Atoll Row.",
+        "Fixed Momo’s female ratio (it was 10% and now it’s 90%).",
+        "👥Fixed an incorrect name appearing on the map for the Kilima Range.",
+        "Fixed a clipping problem occurring during Momo’s special animation.",
+        "Fixed doors in Atoll Row not working properly.",
+        "Fixed incorrect player position on login if the player was surfing.",
+        "👥Fixed an NPC in Kisiwa not showing their name during their dialog.",
+        "👥Fixed blurred TemCards during battles in Windward Fort and Aguamarina Caves."
+      ],
+      "improvements": [
+        "We have disabled the encounters near the music crystals in the Barafu Glacier. Play the song of your people, now without interruptions."
+      ],
+      "features": [
+        "This patch includes translation for all the new content except for the dialogues, into all of the supported languages: Spanish, French, German, Portuguese, Japanese, Chinese, and Korean."
+      ],
+      "balance": []
+    }
+  },
+  {
     "name": "Temtem 0.6.9",
     "version": "0.6.9",
     "url": "https://crema.gg/temtem/temtem-0-6-9/",
