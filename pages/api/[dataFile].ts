@@ -1,4 +1,5 @@
 import cors from "../../util/cors";
+import pruneData from "../../util/pruneData";
 
 const dataMap = {
   breeding: [],
@@ -13,14 +14,27 @@ const dataMap = {
   quests: require("../../data/quests.json"),
   saipark: require("../../data/saipark.json"),
   "training-courses": require("../../data/trainingCourses.json"),
-  types: require("../../data/types.json")
+  types: require("../../data/types.json"),
+  techniques: require("../../data/techniques.json"),
+  traits: require("../../data/traits.json")
 };
 
 export default cors(async (req, res) => {
   const { dataFile } = req.query;
   const dataFileStr = dataFile.toString();
   if (Object.keys(dataMap).includes(dataFileStr)) {
-    res.json(dataMap[dataFileStr]);
+    let data = dataMap[dataFileStr];
+    try {
+      data = pruneData(
+        data,
+        req.query.names,
+        req.query.fields,
+        req.query.limit
+      );
+    } catch {
+      // Do nothing
+    }
+    res.json(data);
   } else {
     res.status(404).send("Not found");
   }
