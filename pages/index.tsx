@@ -7,7 +7,7 @@ import ApiNoteBlock from "@maael/api-note-block-component";
 import * as examples from "../util/examples";
 import Header from "../components/Header";
 
-export default () => (
+const Index = () => (
   <>
     <Head>
       <title>Temtem API</title>
@@ -65,6 +65,8 @@ export default () => (
     <BreedingBlock />
   </>
 );
+
+export default Index;
 
 function useNum(url: string) {
   const [num, setNum] = useState(0);
