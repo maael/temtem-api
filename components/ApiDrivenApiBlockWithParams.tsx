@@ -20,7 +20,7 @@ export default function ApiDrivenApiBlockWithParams({
     params.reduce((acc, cur) => ({ ...acc, [cur.name]: "" }), {})
   );
   const [res, setRes] = useState({});
-  const [err, setErr] = useState();
+  const [err, setErr] = useState<string | undefined>();
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     (async () => {
