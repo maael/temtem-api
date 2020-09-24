@@ -217,6 +217,21 @@ function TypesBlock() {
     <ApiBlock example={examples.typeExample}>
       <>
         <ApiHeader path="/api/types" style={{ marginBottom: 10 }} />
+        <ApiParamBlock
+          style={{ margin: 10 }}
+          params={[
+            {
+              name: "fields",
+              required: false,
+              description: "A comma separated list of fields you want returned."
+            },
+            {
+              name: "limit",
+              required: false,
+              description: "The maximum number of items to return."
+            }
+          ]}
+        />
         <p>Currently has information for {num} types.</p>
         <IconFieldNote />
         <TypeNote type="TemTemApiType[]" />
@@ -231,6 +246,21 @@ function ConditionsBlock() {
     <ApiBlock example={examples.conditionExample}>
       <>
         <ApiHeader path="/api/conditions" style={{ marginBottom: 10 }} />
+        <ApiParamBlock
+          style={{ margin: 10 }}
+          params={[
+            {
+              name: "fields",
+              required: false,
+              description: "A comma separated list of fields you want returned."
+            },
+            {
+              name: "limit",
+              required: false,
+              description: "The maximum number of items to return."
+            }
+          ]}
+        />
         <p>Currently has information for {num} conditions.</p>
         <IconFieldNote />
         <TypeNote type="TemTemApiCondition[]" />
@@ -258,6 +288,11 @@ function TechniquesBlock() {
               name: "fields",
               required: false,
               description: "A comma separated list of fields you want returned."
+            },
+            {
+              name: "limit",
+              required: false,
+              description: "The maximum number of items to return."
             }
           ]}
         />
@@ -274,6 +309,21 @@ function TrainingCoursesBlock() {
     <ApiBlock example={examples.trainingCourseExample}>
       <>
         <ApiHeader path="/api/training-courses" style={{ marginBottom: 10 }} />
+        <ApiParamBlock
+          style={{ margin: 10 }}
+          params={[
+            {
+              name: "fields",
+              required: false,
+              description: "A comma separated list of fields you want returned."
+            },
+            {
+              name: "limit",
+              required: false,
+              description: "The maximum number of items to return."
+            }
+          ]}
+        />
         <p>Currently has information for {num} training courses.</p>
       </>
     </ApiBlock>
@@ -299,6 +349,11 @@ function TraitsBlock() {
               name: "fields",
               required: false,
               description: "A comma separated list of fields you want returned."
+            },
+            {
+              name: "limit",
+              required: false,
+              description: "The maximum number of items to return."
             }
           ]}
         />
@@ -315,6 +370,21 @@ function GearBlock() {
     <ApiBlock example={examples.gearExample}>
       <>
         <ApiHeader path="/api/gear" style={{ marginBottom: 10 }} />
+        <ApiParamBlock
+          style={{ margin: 10 }}
+          params={[
+            {
+              name: "fields",
+              required: false,
+              description: "A comma separated list of fields you want returned."
+            },
+            {
+              name: "limit",
+              required: false,
+              description: "The maximum number of items to return."
+            }
+          ]}
+        />
         <p>Currently has information for {num} pieces of gear.</p>
         <IconFieldNote />
         <TypeNote type="TemTemApiGear[]" />
@@ -329,6 +399,21 @@ function ItemBlock() {
     <ApiBlock example={examples.itemExample}>
       <>
         <ApiHeader path="/api/items" style={{ marginBottom: 10 }} />
+        <ApiParamBlock
+          style={{ margin: 10 }}
+          params={[
+            {
+              name: "fields",
+              required: false,
+              description: "A comma separated list of fields you want returned."
+            },
+            {
+              name: "limit",
+              required: false,
+              description: "The maximum number of items to return."
+            }
+          ]}
+        />
         <p>Currently has information for {num} items.</p>
         <IconFieldNote />
       </>
@@ -342,6 +427,21 @@ function LocationsBlock() {
     <ApiBlock example={examples.locationExample}>
       <>
         <ApiHeader path="/api/locations" style={{ marginBottom: 10 }} />
+        <ApiParamBlock
+          style={{ margin: 10 }}
+          params={[
+            {
+              name: "fields",
+              required: false,
+              description: "A comma separated list of fields you want returned."
+            },
+            {
+              name: "limit",
+              required: false,
+              description: "The maximum number of items to return."
+            }
+          ]}
+        />
         <p>Currently has information for {num} islands.</p>
       </>
     </ApiBlock>
@@ -354,6 +454,21 @@ function QuestsBlock() {
     <ApiBlock example={examples.questExample}>
       <>
         <ApiHeader path="/api/quests" style={{ marginBottom: 10 }} />
+        <ApiParamBlock
+          style={{ margin: 10 }}
+          params={[
+            {
+              name: "fields",
+              required: false,
+              description: "A comma separated list of fields you want returned."
+            },
+            {
+              name: "limit",
+              required: false,
+              description: "The maximum number of items to return."
+            }
+          ]}
+        />
         <p>Currently has information for {num} quests.</p>
       </>
     </ApiBlock>
@@ -366,6 +481,21 @@ function CharactersBlock() {
     <ApiBlock example={examples.characterExample}>
       <>
         <ApiHeader path="/api/characters" style={{ marginBottom: 10 }} />
+        <ApiParamBlock
+          style={{ margin: 10 }}
+          params={[
+            {
+              name: "fields",
+              required: false,
+              description: "A comma separated list of fields you want returned."
+            },
+            {
+              name: "limit",
+              required: false,
+              description: "The maximum number of items to return."
+            }
+          ]}
+        />
         <p>Currently has information for {num} characters.</p>
       </>
     </ApiBlock>
@@ -378,6 +508,21 @@ function PatchesBlock() {
     <ApiBlock example={examples.patchesExample}>
       <>
         <ApiHeader path="/api/patches" style={{ marginBottom: 10 }} />
+        <ApiParamBlock
+          style={{ margin: 10 }}
+          params={[
+            {
+              name: "fields",
+              required: false,
+              description: "A comma separated list of fields you want returned."
+            },
+            {
+              name: "limit",
+              required: false,
+              description: "The maximum number of items to return."
+            }
+          ]}
+        />
         <p>Currently has information for {num} patches.</p>
       </>
     </ApiBlock>
@@ -390,6 +535,21 @@ function SaiparkBlock() {
     <ApiBlock example={examples.saipark}>
       <>
         <ApiHeader path="/api/saipark" style={{ marginBottom: 10 }} />
+        <ApiParamBlock
+          style={{ margin: 10 }}
+          params={[
+            {
+              name: "fields",
+              required: false,
+              description: "A comma separated list of fields you want returned."
+            },
+            {
+              name: "limit",
+              required: false,
+              description: "The maximum number of items to return."
+            }
+          ]}
+        />
         <p>Currently has information for {num} saipark rotations.</p>
       </>
     </ApiBlock>
@@ -458,6 +618,21 @@ function DyesBlock() {
     <ApiBlock example={examples.dyesExample}>
       <>
         <ApiHeader path="/api/dyes" style={{ marginBottom: 10 }} />
+        <ApiParamBlock
+          style={{ margin: 10 }}
+          params={[
+            {
+              name: "fields",
+              required: false,
+              description: "A comma separated list of fields you want returned."
+            },
+            {
+              name: "limit",
+              required: false,
+              description: "The maximum number of items to return."
+            }
+          ]}
+        />
         <p>Currently has information for {num} dyes.</p>
       </>
     </ApiBlock>
@@ -470,6 +645,21 @@ function CosmeticsBlock() {
     <ApiBlock example={examples.cosmeticsExample}>
       <>
         <ApiHeader path="/api/cosmetics" style={{ marginBottom: 10 }} />
+        <ApiParamBlock
+          style={{ margin: 10 }}
+          params={[
+            {
+              name: "fields",
+              required: false,
+              description: "A comma separated list of fields you want returned."
+            },
+            {
+              name: "limit",
+              required: false,
+              description: "The maximum number of items to return."
+            }
+          ]}
+        />
         <p>Currently has information for {num} cosmetics.</p>
       </>
     </ApiBlock>
