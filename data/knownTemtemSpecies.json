@@ -613,8 +613,8 @@
         "place": "Saipark",
         "note": "",
         "island": "Deniz",
-        "frequency": "35%",
-        "level": "37-40",
+        "frequency": "50%",
+        "level": "37 - 40",
         "freetem": {
           "minLevel": 37,
           "maxLevel": 40,
@@ -623,12 +623,12 @@
         }
       },
       {
-        "location": "Salt Works",
-        "place": "",
+        "location": "Sillaro River",
+        "place": "Sillaro River",
         "note": "",
         "island": "Deniz",
         "frequency": "15%",
-        "level": "40-45",
+        "level": "40 - 45",
         "freetem": {
           "minLevel": 40,
           "maxLevel": 45,
@@ -1016,13 +1016,13 @@
         "place": "Thalassian Cliffs",
         "note": "",
         "island": "Deniz",
-        "frequency": "30%",
-        "level": "5 - 7",
+        "frequency": "20% - 30%",
+        "level": "5 - 8",
         "freetem": {
           "minLevel": 5,
-          "maxLevel": 7,
+          "maxLevel": 8,
           "minPansuns": 28,
-          "maxPansuns": 31
+          "maxPansuns": 32
         }
       }
     ],
@@ -1220,12 +1220,12 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "30% - 50%",
-        "level": "19 - 20",
+        "level": "18 - 25",
         "freetem": {
-          "minLevel": 19,
-          "maxLevel": 20,
-          "minPansuns": 61,
-          "maxPansuns": 63
+          "minLevel": 18,
+          "maxLevel": 25,
+          "minPansuns": 59,
+          "maxPansuns": 74
         }
       },
       {
@@ -12668,7 +12668,8 @@
     "trivia": [
       "Momo is named after YaW's dog, featured in the team pageof Crema.",
       "Momo's cry resembles the \"woof\" barking sound of a dog.",
-      "This is the only known Temtem with heterochromia (having different iris colors)."
+      "This is the only known Temtem with heterochromia (having different iris colors).",
+      "This Temtem is supposed to resemble a Husky."
     ],
     "evolution": {
       "evolves": false
