@@ -12667,6 +12667,7 @@
     ],
     "trivia": [
       "Momo is named after YaW's dog, featured in the team pageof Crema.",
+      "The Luma color scheme closely resembles that of YaW's dog.",
       "Momo's cry resembles the \"woof\" barking sound of a dog.",
       "This is the only known Temtem with heterochromia (having different iris colors).",
       "This Temtem is supposed to resemble a Husky."
@@ -15519,7 +15520,22 @@
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/35/Yowlar.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/61/LumaYowlar.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Barafu Glacier",
+        "place": "Barafu Glacier",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "5%",
+        "level": "50 - 53",
+        "freetem": {
+          "minLevel": 50,
+          "maxLevel": 53,
+          "minPansuns": 187,
+          "maxPansuns": 197
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Yowlar.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Yowlar.png",
     "genderRatio": {
