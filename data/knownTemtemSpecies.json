@@ -12677,7 +12677,36 @@
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d2/Momo.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/41/LumaMomo.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Kilima Peaks",
+        "place": "Kilima Peaks",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "20% - 50%",
+        "level": "40 - 46",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 46,
+          "minPansuns": 143,
+          "maxPansuns": 161
+        }
+      },
+      {
+        "location": "Barafu Glacier",
+        "place": "Barafu Glacier",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "5%",
+        "level": "40 - 45",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 45,
+          "minPansuns": 143,
+          "maxPansuns": 158
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Momo.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Momo.png",
     "genderRatio": {
