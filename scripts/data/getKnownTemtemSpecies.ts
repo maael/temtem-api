@@ -29,7 +29,7 @@ export default async function getKnownTemtemSpecies() {
   log.info("Starting");
   try {
     log.info("Running");
-    const result = await got("https://temtem.gamepedia.com/Temtem_Species");
+    const result = await got("https://temtem.gamepedia.com/Temtem_(Creatures)");
     const $ = cheerio.load(result.body);
     const temRows = $("table.temtem-list>tbody>tr").filter((_i, el) => {
       return !!$(el).find("td").length;
