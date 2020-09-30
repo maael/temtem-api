@@ -392,8 +392,8 @@
   {
     "name": "Protector",
     "wikiUrl": "https://temtem.gamepedia.com/Protector",
-    "description": "When entering the battlefield, loses 10% of max HP and the ally gets DEF and SPDEF.",
-    "effect": "When a Temtem with Protector enters the battlefield, it loses 10% of its maximum HP, and its ally gets DEF and SPDEF, even if the ally is immediately then swapped out."
+    "description": "",
+    "effect": "When a Temtem with Protector enters the battlefield, it loses 10% of its maximum HP and its ally gets DEF and SPDEF, even if the ally is immediately then swapped out."
   },
   {
     "name": "Provident",
@@ -428,7 +428,7 @@
   {
     "name": "Rejuvenate",
     "wikiUrl": "https://temtem.gamepedia.com/Rejuvenate",
-    "description": "When attacking with a physical technique, restore 20% of max HP.",
+    "description": "",
     "effect": "After attacking with a Physical Technique, if the attacking Temtem has Rejuvenate, it restores 20% of its maximum HP."
   },
   {
@@ -512,7 +512,7 @@
   {
     "name": "Spreader",
     "wikiUrl": "https://temtem.gamepedia.com/Spreader",
-    "description": "Single-target special techniques become multi-target, and damage done with them is reduced by 33%.",
+    "description": "",
     "effect": "Whenever a Temtem with Spreader attacks with a Special Technique, the attack affects the entire target team instead but only deals ~66% damage."
   },
   {
@@ -590,7 +590,7 @@
   {
     "name": "Trance",
     "wikiUrl": "https://temtem.gamepedia.com/Trance",
-    "description": "Once per battle, if the Temtem is attacked and the HP is below 30%, gets asleep for 2 turns and regenerating for 3 turns, SPATK and SPDEF .",
+    "description": "",
     "effect": "If a Temtem with Trance is the target of a technique, and afterwards its HP is 30% or less of its maximum, it gets the Asleep Condition for 2 turns and the Regenerated Condition for 3 turns, and also gets SPATK and SPDEF. This is regardless of if the technique did damage, but Trance only can ever trigger once per battle."
   },
   {
