@@ -1,5 +1,66 @@
 [
   {
+    "name": "Temtem 0.6.11",
+    "version": "0.6.11",
+    "url": "https://crema.gg/temtem/temtem-0-6-11/",
+    "date": "2020-10-5",
+    "patchInfo": {
+      "fixes": [
+        "👥Fixed an error in the Breeding Center that caused players to see wandering Temtem outside the Breeding Center.",
+        "Fixed other players’ surf loop sounding in 2D so it was audible for all the players within the same instance.",
+        "Fixed starter Temtem’s border changing color when trying to change slots in the Temtem trade menu.",
+        "Fixed a black screen when trying to reconnect and suffering a new disconnection.",
+        "Fixed seeing other players with their feet into the floor after reconnecting inside a building.",
+        "👥Fixed getting stuck in the furniture of a house if you set them very closed to one another.",
+        "👥Fixed egg timer resetting when entering a battle at timer 00:00.",
+        "👥Fixed the Buy UI in Temporiums being darker than the rest of UIs.",
+        "👥Fixed some visual bars when evolving in 32:9.",
+        "👥Fixed a collision problem in a house of Leeward Kisiwa.",
+        "Fixed a missing animation of an NPC in Mare Nostrum.",
+        "Fixed seeing other players with the incorrect animation when climbing in Mare Nostrum.",
+        "Fixed not seeing a player in the proper position if we moved between blocks (horizontally) in Atoll Row while the other Player was using the tube.",
+        "Fixed a bug that caused players to stop seeing others when opening an egg.",
+        "Fixed seeing a Player inside a bench if we entered a house in Atoll Row while the other Player was sitting.",
+        "Fixed getting stuck in battles against NPCs that have more temtem than you when, in the same turn, the tems from both parties are knocked out.",
+        "👥Fixed text bubbles getting stuck on screen if an egg hatched while the message was still visible.",
+        "👥Fixed being able to edit the house of other players (Client side only).",
+        "👥Fixed Ukama not being visually frozen when getting freeze from Iced Stalactite.",
+        "Fixed water particles appearing during an encounter if the player started the combat with their feet inside a body of water.",
+        "👥Fixed Goty’s animation when entering combat",
+        "👥Fixed getting stuck behind an NPC at Dabmis’ Rest while playing in Co-op.",
+        "👥Fixed egg animation in the incubator bag reproducing wrongly in some cases.",
+        "Fixed the right audio not playing when a player used a lift while the other player opened the door to the lift.",
+        "Fixed a bug where you couldn’t see other players moving if they were sitting in your house and you changed the disposition of the seat.",
+        "Fixed text showing a trade was successful even when the trade had failed.",
+        "👥Fixed the Strange Vest not appearing in battlelog or sidebar after being activated.",
+        "👥Fixed some cases of Co-op black screens in the Anak Volcano.",
+        "Fixed NPCs incorrectly using a water idle animation if you used a Smoke Bomb near one NPC who had that animation.",
+        "Fixed DNA Strands remaining equipped in your competitive squad even after having been spent.",
+        "👥Fixed Pycko’s status conditions Invigorated, Evading and Poison bugging in a case when, while having evading, it used Smoldering Kiss against a Kalabyss with Toxic Skin.",
+        "👥Fixed being able to release Temtem from your squad if you pressed release quickly multiple times when opening an egg.",
+        "Fixed Charge being shown in English in every language.",
+        "Fixed not being able to access any Menu if we evolved a Temtem in a house while the owner of that house was saving a change made in their house.",
+        "👥Fixed Last Rush not applying its effects properly.",
+        "👥 Fixed some SFX not being heard in certain areas of the game.",
+        "Fixed some techniques appearing as available a turn too early.",
+        "Fixed seeing other Players standing up if we opened an egg while they were sitting down.",
+        "👥Fixed the surfboard water particles sliding after an encounter on the water.",
+        "👥Fixed a black screen occurring before and after entering Ocelotl’s house in Co-op.",
+        "Fixed some clipping issues with our following Temtem and ramps.",
+        "👥Fixed having x-1 Saicards in our backpack if Saipark reset while we were using a Saicard.",
+        "Fixed a softlock and black screen that happened if one of the players runs out of time in the experience gain screen while in Co-op.",
+        "Fixed a softlock that happened while completing the main quest, during a cinematic in the Giant Banyan while playing in Co-op."
+      ],
+      "improvements": [
+        "Updated Handcuffs’ description to better describe the effect."
+      ],
+      "features": [
+        "The translations for all the dialogues have been added. You can now play the entirety of the Kilima Range and the Housing quest in any of the supported languages."
+      ],
+      "balance": []
+    }
+  },
+  {
     "name": "Temtem 0.6.10",
     "version": "0.6.10",
     "url": "https://crema.gg/temtem/temtem-0-6-10/",
