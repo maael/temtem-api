@@ -2830,9 +2830,9 @@
       "spd": 45,
       "atk": 50,
       "def": 45,
-      "spatk": 85,
+      "spatk": 91,
       "spdef": 89,
-      "total": 461
+      "total": 467
     },
     "traits": [
       "Toxic Farewell",
@@ -3820,7 +3820,7 @@
         "place": "Chini Grotto",
         "note": "",
         "island": "Kisiwa",
-        "frequency": "?",
+        "frequency": "20%",
         "level": "40-45",
         "freetem": {
           "minLevel": 40,
@@ -3855,6 +3855,20 @@
           "maxLevel": 29,
           "minPansuns": 107,
           "maxPansuns": 117
+        }
+      },
+      {
+        "location": "Kilima Peaks",
+        "place": "Kilima Peaks",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "70%",
+        "level": "40-45",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 45,
+          "minPansuns": 154,
+          "maxPansuns": 170
         }
       }
     ],
@@ -7993,7 +8007,7 @@
       },
       {
         "location": "Anak Caldera",
-        "place": "",
+        "place": "Anak Caldera",
         "note": "",
         "island": "Omninesia",
         "frequency": "50%",
@@ -9083,12 +9097,12 @@
     "stats": {
       "hp": 71,
       "sta": 48,
-      "spd": 58,
-      "atk": 93,
+      "spd": 68,
+      "atk": 95,
       "def": 85,
       "spatk": 31,
-      "spdef": 33,
-      "total": 419
+      "spdef": 43,
+      "total": 441
     },
     "traits": [
       "Sensei",
@@ -10443,14 +10457,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Pocus",
     "stats": {
-      "hp": 60,
+      "hp": 65,
       "sta": 73,
       "spd": 78,
       "atk": 61,
       "def": 36,
-      "spatk": 77,
+      "spatk": 87,
       "spdef": 38,
-      "total": 423
+      "total": 438
     },
     "traits": [
       "Dreaded Alarm",
@@ -11156,7 +11170,7 @@
       },
       {
         "location": "Anak Caldera",
-        "place": "",
+        "place": "Anak Caldera",
         "note": "",
         "island": "Omninesia",
         "frequency": "80%",
@@ -11332,7 +11346,7 @@
     "locations": [
       {
         "location": "Anak Caldera",
-        "place": "",
+        "place": "Anak Caldera",
         "note": "",
         "island": "Omninesia",
         "frequency": "20%",
@@ -12384,11 +12398,11 @@
       "hp": 60,
       "sta": 75,
       "spd": 30,
-      "atk": 70,
-      "def": 90,
+      "atk": 90,
+      "def": 95,
       "spatk": 40,
-      "spdef": 45,
-      "total": 410
+      "spdef": 57,
+      "total": 447
     },
     "traits": [
       "Rested",
@@ -12546,6 +12560,144 @@
       "spdef": 0
     },
     "gameDescription": "One of the most remarkable inhabitants of the Kisiwan savanna, the powerful Zizare are the biggest creeping Temtem. Proud and territorial, they make for staunch friends.",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 99,
+    "name": "Momo",
+    "types": [
+      "Neutral"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d2/Momo.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Momo",
+    "stats": {
+      "hp": 75,
+      "sta": 64,
+      "spd": 89,
+      "atk": 46,
+      "def": 49,
+      "spatk": 79,
+      "spdef": 75,
+      "total": 477
+    },
+    "traits": [
+      "Stabmaster",
+      "Snowstorm"
+    ],
+    "details": {
+      "height": {
+        "cm": 160,
+        "inches": 62
+      },
+      "weight": {
+        "kg": 74,
+        "lbs": 163
+      }
+    },
+    "techniques": [
+      {
+        "name": "Nibble",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Bark",
+        "source": "Levelling",
+        "levels": 15
+      },
+      {
+        "name": "Head Charge",
+        "source": "Levelling",
+        "levels": 20
+      },
+      {
+        "name": "Brace",
+        "source": "Levelling",
+        "levels": 30
+      },
+      {
+        "name": "Willpower Drain",
+        "source": "Levelling",
+        "levels": 39
+      },
+      {
+        "name": "Undermine",
+        "source": "Levelling",
+        "levels": 50
+      },
+      {
+        "name": "Double Edge",
+        "source": "TechniqueCourses"
+      }
+    ],
+    "trivia": [
+      "Momo is named after YaW's dog, featured in the team pageof Crema.",
+      "The Luma color scheme closely resembles that of YaW's dog.",
+      "Momo's cry resembles the \"woof\" barking sound of a dog.",
+      "This is the only known Temtem with heterochromia (having different iris colors).",
+      "This Temtem was designed with a Husky in mind."
+    ],
+    "evolution": {
+      "evolves": false
+    },
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d2/Momo.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/41/LumaMomo.png",
+    "locations": [
+      {
+        "location": "Kilima Peaks",
+        "place": "Kilima Peaks",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "20% - 50%",
+        "level": "40 - 46",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 46,
+          "minPansuns": 143,
+          "maxPansuns": 161
+        }
+      },
+      {
+        "location": "Barafu Glacier",
+        "place": "Barafu Glacier",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "5%",
+        "level": "40 - 45",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 45,
+          "minPansuns": 143,
+          "maxPansuns": 158
+        }
+      }
+    ],
+    "icon": "/images/portraits/temtem/large/Momo.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Momo.png",
+    "genderRatio": {
+      "male": 10,
+      "female": 90
+    },
+    "catchRate": 98,
+    "hatchMins": 25.4,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 3,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "While some Temtemologist point to the primeval forests of Arbury and Cipanku as possible origin of this species, there is plenty of archaeological proof of their early domestication around Lake Moyo.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -13940,14 +14092,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Goolder",
     "stats": {
-      "hp": 120,
+      "hp": 125,
       "sta": 70,
       "spd": 10,
       "atk": 64,
-      "def": 56,
+      "def": 62,
       "spatk": 68,
-      "spdef": 56,
-      "total": 444
+      "spdef": 62,
+      "total": 461
     },
     "traits": [
       "Strong Liver",
@@ -15268,14 +15420,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Yowlar",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 96,
+      "sta": 71,
+      "spd": 40,
+      "atk": 80,
+      "def": 86,
+      "spatk": 50,
+      "spdef": 74,
+      "total": 497
     },
     "traits": [
       "Comebacker",
@@ -15369,7 +15521,7 @@
     "locations": [
       {
         "location": "Barafu Glacier",
-        "place": "",
+        "place": "Barafu Glacier",
         "note": "",
         "island": "Kisiwa",
         "frequency": "5%",
@@ -15582,11 +15734,11 @@
       "hp": 74,
       "sta": 65,
       "spd": 38,
-      "atk": 78,
-      "def": 68,
+      "atk": 82,
+      "def": 72,
       "spatk": 56,
       "spdef": 66,
-      "total": 445
+      "total": 453
     },
     "traits": [
       "Autotomy",
@@ -15867,9 +16019,9 @@
       "spd": 66,
       "atk": 76,
       "def": 50,
-      "spatk": 70,
+      "spatk": 76,
       "spdef": 72,
-      "total": 437
+      "total": 443
     },
     "traits": [
       "Electric Synthesize",
@@ -17649,7 +17801,7 @@
       },
       {
         "location": "Anak Caldera",
-        "place": "",
+        "place": "Anak Caldera",
         "note": "",
         "island": "Omninesia",
         "frequency": "80%",
@@ -17845,7 +17997,7 @@
       },
       {
         "location": "Anak Caldera",
-        "place": "",
+        "place": "Anak Caldera",
         "note": "",
         "island": "Omninesia",
         "frequency": "20%",
@@ -18286,14 +18438,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Akranox",
     "stats": {
-      "hp": 61,
+      "hp": 71,
       "sta": 52,
       "spd": 71,
       "atk": 71,
       "def": 64,
       "spatk": 71,
       "spdef": 64,
-      "total": 454
+      "total": 464
     },
     "traits": [
       "Book Lungs",
