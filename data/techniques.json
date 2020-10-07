@@ -4186,5 +4186,23 @@
     "description": "A terrifying gust of wind, capable of throwing a small airship off-course.",
     "effectText": "Wind Burst deals damage to a single target.",
     "effects": []
+  },
+  {
+    "name": "Winter Call",
+    "wikiUrl": "https://temtem.gamepedia.com/Winter_Call",
+    "type": "Neutral",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 20,
+    "hold": 3,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "All",
+    "description": "A wintry sonata that leaves all Temtem in the battlefield as Cold as the Kilima snows.",
+    "effectText": "Winter Call inflicts Cold Condition on all targets on the battlefield for 2 turns.",
+    "effects": []
   }
 ]
