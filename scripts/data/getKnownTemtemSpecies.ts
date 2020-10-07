@@ -25,29 +25,41 @@ export interface Temtem {
   };
 }
 
+const possibleUrls = [
+  "https://temtem.gamepedia.com/Temtem_species",
+  "https://temtem.gamepedia.com/Temtem_(Creatures)"
+];
+
 export default async function getKnownTemtemSpecies() {
   log.info("Starting");
-  try {
-    log.info("Running");
-    const result = await got("https://temtem.gamepedia.com/Temtem_(Creatures)");
-    const $ = cheerio.load(result.body);
-    const temRows = $("table.temtem-list>tbody>tr").filter((_i, el) => {
-      return !!$(el).find("td").length;
-    });
-    log.info(`Found ${temRows.length} temtem`);
-    // TODO: Probably check we only have 1 of each number
-    const temtem = typedToArray<Temtem>(
-      temRows.map((_i, row) => getTemInfoFromRow($, row))
-    ).filter(
-      ({ number: num, name }) => num !== 0 && !UNSAFE_NAME_REGEX.test(name)
-    );
-    log.info("Example received:", JSON.stringify(temtem[0]));
-    return temtem;
-  } catch (e) {
-    log.error(e.message);
-  } finally {
-    log.info("Finished");
+  let potentialUpdate: Temtem[] = [];
+  for (const url of possibleUrls) {
+    try {
+      log.info("Running");
+      const result = await got(url);
+      const $ = cheerio.load(result.body);
+      const temRows = $("table.temtem-list>tbody>tr").filter((_i, el) => {
+        return !!$(el).find("td").length;
+      });
+      log.info(`Found ${temRows.length} temtem`);
+      // TODO: Probably check we only have 1 of each number
+      const temtem = typedToArray<Temtem>(
+        temRows.map((_i, row) => getTemInfoFromRow($, row))
+      ).filter(
+        ({ number: num, name }) => num !== 0 && !UNSAFE_NAME_REGEX.test(name)
+      );
+      log.info("Example received:", JSON.stringify(temtem[0]));
+      const retrieved = temtem;
+      if (retrieved.length > 0 && potentialUpdate.length === 0) {
+        potentialUpdate = retrieved;
+      }
+    } catch (e) {
+      log.error(e.message);
+    } finally {
+      log.info("Finished");
+    }
   }
+  return potentialUpdate;
 }
 
 function getTemInfoFromRow($, row): Temtem {
