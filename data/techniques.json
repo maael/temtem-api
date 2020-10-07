@@ -168,24 +168,6 @@
     ]
   },
   {
-    "name": "Bark",
-    "wikiUrl": "https://temtem.gamepedia.com/Bark",
-    "type": "Neutral",
-    "class": "Status",
-    "classIcon": "/images/icons/technique/Status.png",
-    "damage": 0,
-    "staminaCost": 20,
-    "hold": 1,
-    "priority": "high",
-    "priorityIcon": "/images/icons/priority/high.png",
-    "synergy": "None",
-    "synergyEffects": [],
-    "targets": "Single Other Target",
-    "description": "This Tem's bark is much worse than its bite - it gives the enemy DEF and SPDEF.",
-    "effectText": "Bark gives the target DEF and SPDEF.",
-    "effects": []
-  },
-  {
     "name": "Bark Shield",
     "wikiUrl": "https://temtem.gamepedia.com/Bark_Shield",
     "type": "Nature",
@@ -391,15 +373,20 @@
     "synergy": "Earth",
     "synergyEffects": [
       {
-        "effect": "+2 SPDEF",
+        "effect": "+2SPDEF",
         "type": "buff",
         "damage": 0
       }
     ],
     "targets": "Self",
-    "description": "When in doubt, run and shout! This fast Nature technique helps your Temtem regenerate and evade for 1 turn.",
-    "effectText": "Bush gives Regenerated Condition and Evading Condition for 1 turn.",
+    "description": "When in doubt, run and shout! This fast Nature technique helps your Temtem regenerate for 2 turns and evade for 1 turn.",
+    "effectText": "Bush gives Regenerated Condition for 2 turns and Evading Condition for 1 turn.",
     "effects": [
+      {
+        "type": "condition",
+        "turns": 2,
+        "condition": "Regenerated"
+      },
       {
         "type": "condition",
         "turns": 1,
@@ -805,8 +792,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "An accurate strike at the target's main pressure point, ignoring its defenses to deal exactly 80 damage without waking it up.",
-    "effectText": "Dim Mak deals an exact, consistent 80 damage to a single target, regardless of DEF, SPDEF, type resistances, or traits. This will not wake up a Temtem with the Asleep Condition.",
+    "description": "An accurate strike at the target's main pressure point, ignoring its defenses to deal exactly 80 damage.",
+    "effectText": "Dim Mak deals an exact, consistent 80 damage to a single target, regardless of DEF, SPDEF, or type resistances.",
     "effects": []
   },
   {
@@ -896,8 +883,8 @@
     "damage": 0,
     "staminaCost": 14,
     "hold": 1,
-    "priority": "veryhigh",
-    "priorityIcon": "/images/icons/priority/veryhigh.png",
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "None",
     "synergyEffects": [],
     "targets": "All",
@@ -1117,7 +1104,7 @@
   {
     "name": "Extra Energy Slam",
     "wikiUrl": "https://temtem.gamepedia.com/Extra_Energy_Slam",
-    "type": "Neutral",
+    "type": "?",
     "class": "?",
     "classIcon": "/images/icons/technique/?.png",
     "damage": 0,
@@ -1601,8 +1588,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Self",
-    "description": "Just a little nap while it's cold outside... The target is for 3 turns but recovers 40% of health and stamina.",
-    "effectText": "Hibernate inflicts the user with the Frozen Condition for 3 turns but restores 40% of its maximum HP and STA.",
+    "description": "Just a little nap while it's cold outside... The target is for 3 turns but recovers 50% of health and stamina.",
+    "effectText": "Hibernate inflicts the user with the Frozen Condition for 3 turns but restores 50% of its maximum HP and STA.",
     "effects": [
       {
         "type": "condition",
@@ -1835,12 +1822,12 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Other Team or Ally",
-    "description": "That \"don't mess with me\" look makes the target team exhausted for 2 turns.",
-    "effectText": "Intimidation inflicts the opposing team or an ally with the Exhausted Condition for 2 turns.",
+    "description": "That \"don't mess with me\" look makes the target team exhausted for 1 turn.",
+    "effectText": "Intimidation inflicts the opposing team or an ally with the Exhausted Condition for 1 turn.",
     "effects": [
       {
         "type": "condition",
-        "turns": 2,
+        "turns": 1,
         "condition": "Exhausted"
       }
     ]
@@ -1902,19 +1889,19 @@
   {
     "name": "Late Torment",
     "wikiUrl": "https://temtem.gamepedia.com/Late_Torment",
-    "type": "Neutral",
-    "class": "Physical",
-    "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 180,
-    "staminaCost": 20,
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
     "hold": 0,
-    "priority": "low",
-    "priorityIcon": "/images/icons/priority/low.png",
-    "synergy": "None",
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "?",
     "synergyEffects": [],
-    "targets": "Single Other Target",
-    "description": "The first cut is the deepest, but the last one hurts like Downbelow. This Neutral Technique only works on trapped enemies and inflicts 180 damage.",
-    "effectText": "Late Torment deals damage to a single target if it has the Trapped Condition.",
+    "targets": "?",
+    "description": "Currently, Late Torment is unavailable, so it's unknown what its description is.",
+    "effectText": "Currently, Late Torment is unavailable, so it's unknown what its full effect is.",
     "effects": []
   },
   {
@@ -2013,9 +2000,9 @@
     "type": "Fire",
     "class": "Special",
     "classIcon": "/images/icons/technique/Special.png",
-    "damage": 92,
-    "staminaCost": 29,
-    "hold": 2,
+    "damage": 70,
+    "staminaCost": 37,
+    "hold": 3,
     "priority": "low",
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "None",
@@ -2139,7 +2126,7 @@
     "type": "Fire",
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 80,
+    "damage": 75,
     "staminaCost": 25,
     "hold": 1,
     "priority": "low",
@@ -2147,9 +2134,9 @@
     "synergy": "Fire",
     "synergyEffects": [
       {
-        "effect": "+1 Turn Burn  +10 Damage",
-        "type": "damage",
-        "damage": 1
+        "effect": "+1 Turn Burn",
+        "type": "condition",
+        "damage": 0
       }
     ],
     "targets": "Other Team or Ally",
@@ -2165,7 +2152,7 @@
     "classIcon": "/images/icons/technique/Physical.png",
     "damage": 100,
     "staminaCost": 30,
-    "hold": 2,
+    "hold": 3,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
@@ -2711,7 +2698,7 @@
       }
     ],
     "targets": "Single Other Target",
-    "description": "This Mental technique does a meagre 1 damage... It's all in your mind, after all.",
+    "description": "This {{type|mental|20|n0}Mental technique does a meager 1 damage... It's all in your mind, after all.",
     "effectText": "Psychic Collaborator deals damage to a single target with no additional effects.",
     "effects": []
   },
@@ -2749,35 +2736,6 @@
     "targets": "Single Target",
     "description": "Temtem found defensive uses for rock crystal centuries before humans did: DEF and SPDEF.",
     "effectText": "Quartz Shield gives the target DEF and SPDEF.",
-    "effects": []
-  },
-  {
-    "name": "Quetza-leño",
-    "wikiUrl": "https://temtem.gamepedia.com/Quetza-le%C3%B1o",
-    "type": "Fire",
-    "class": "Physical",
-    "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 110,
-    "staminaCost": 27,
-    "hold": 0,
-    "priority": "normal",
-    "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "Neutral",
-    "synergyEffects": [
-      {
-        "effect": "+ 5 Base Damage",
-        "type": "damage",
-        "damage": 0
-      },
-      {
-        "effect": "+1 Priority",
-        "type": "priority",
-        "damage": 0
-      }
-    ],
-    "targets": "Single Other Target",
-    "description": "A party trick someone showed you once, involving a Fire Temtem, a log and a bottle of Quetzaleño Reposado...",
-    "effectText": "Quetza-leño deals damage to a single target.",
     "effects": []
   },
   {
@@ -3104,7 +3062,7 @@
     "type": "Earth",
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 110,
+    "damage": 115,
     "staminaCost": 33,
     "hold": 1,
     "priority": "normal",
@@ -3128,9 +3086,9 @@
     "type": "Water",
     "class": "Special",
     "classIcon": "/images/icons/technique/Special.png",
-    "damage": 100,
+    "damage": 108,
     "staminaCost": 35,
-    "hold": 2,
+    "hold": 3,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
@@ -3209,7 +3167,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Take cover! This slow technique gives DEF and SPDEF at the expense of leaving you Overexerted on the next turn.",
-    "effectText": "Shelter gives the user DEF and SPDEF, while overexerting them the next turn.",
+    "effectText": "Shelter gives the user DEF and SPDEF, but is overexerted its next turn, meaning it can't use any techniques.",
     "effects": []
   },
   {
@@ -3603,7 +3561,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Target",
+    "targets": "Single Other Target",
     "description": "Hear it roar! The sound and fury of this technique inflict heavy damage but Exhaust the attacker for 2 turns.",
     "effectText": "Thunder Strike deals damage to a single target, but gives the user the Exhausted Condition for 2 turns.",
     "effects": [
@@ -3676,7 +3634,7 @@
     ],
     "targets": "Single Team",
     "description": "Lil' Tort just wanted to play in its garden... but it won't suffer intruders! You heal 8% while the target is Doomed for 4 turns.",
-    "effectText": "Tortenite's Garden heals the user for 10% of its maximum HP and gives the target the Doomed Condition for 4 turns.",
+    "effectText": "Tortenite's Garden heals the user for 8% of its maximum HP and gives the target the Doomed Condition for 4 turns.",
     "effects": [
       {
         "type": "condition",
@@ -3852,16 +3810,16 @@
     "type": "Toxic",
     "class": "Special",
     "classIcon": "/images/icons/technique/Special.png",
-    "damage": 60,
+    "damage": 40,
     "staminaCost": 10,
-    "hold": 1,
+    "hold": 2,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
     "targets": "All",
     "description": "\"Toxinestorm\" isn't as colorful as the alternative, but you get the idea... Slightly damages all Temtem in the battlefield.",
-    "effectText": "Toxin Shower deals damage to all targets on the battlefield.",
+    "effectText": "Toxin Shower deals damage to a all targets on the battlefield.",
     "effects": []
   },
   {
@@ -3951,24 +3909,6 @@
     "targets": "Single Team",
     "description": "The ancestral dance of Deniz is a powerful ritual that bestows protection, SPD to the whole team.",
     "effectText": "Turbo Choreography gives the target team SPD.",
-    "effects": []
-  },
-  {
-    "name": "Undermine",
-    "wikiUrl": "https://temtem.gamepedia.com/Undermine",
-    "type": "Neutral",
-    "class": "Special",
-    "classIcon": "/images/icons/technique/Special.png",
-    "damage": 145,
-    "staminaCost": 26,
-    "hold": 1,
-    "priority": "normal",
-    "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "None",
-    "synergyEffects": [],
-    "targets": "Single Other Target",
-    "description": "Leave your opponent heavily damaged and treading on very thin ice, giving it SPATK.",
-    "effectText": "Undermine deals damage to the opposing Temtem or the user's ally.",
     "effects": []
   },
   {
@@ -4245,24 +4185,6 @@
     "targets": "Single Other Target",
     "description": "A terrifying gust of wind, capable of throwing a small airship off-course.",
     "effectText": "Wind Burst deals damage to a single target.",
-    "effects": []
-  },
-  {
-    "name": "Winter Call",
-    "wikiUrl": "https://temtem.gamepedia.com/Winter_Call",
-    "type": "Neutral",
-    "class": "Status",
-    "classIcon": "/images/icons/technique/Status.png",
-    "damage": 0,
-    "staminaCost": 20,
-    "hold": 3,
-    "priority": "normal",
-    "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "None",
-    "synergyEffects": [],
-    "targets": "All",
-    "description": "A wintry sonata that leaves all Temtem in the battlefield as Cold as the Kilima snows.",
-    "effectText": "Winter Call inflicts Cold Condition on all targets on the battlefield for 2 turns.",
     "effects": []
   }
 ]
