@@ -32,6 +32,15 @@ export default async function checkAndWrite(
     } else {
       log.warn(`No codec found to enforce for: "${codecKey}"`);
     }
+    if (itemCount === 0) {
+      log.warn("Rejecting write due to lack of data");
+      try {
+        return require(file);
+      } catch (e) {
+        log.error(`Failed to read existing data ${file}`);
+        return awaitedData;
+      }
+    }
     try {
       await write(file, awaitedData);
       return awaitedData;
