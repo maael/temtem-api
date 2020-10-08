@@ -1016,13 +1016,13 @@
         "place": "Thalassian Cliffs",
         "note": "",
         "island": "Deniz",
-        "frequency": "30%",
-        "level": "5 - 7",
+        "frequency": "20% - 30%",
+        "level": "5 - 8",
         "freetem": {
           "minLevel": 5,
-          "maxLevel": 7,
+          "maxLevel": 8,
           "minPansuns": 28,
-          "maxPansuns": 31
+          "maxPansuns": 32
         }
       }
     ],
@@ -1220,12 +1220,12 @@
         "note": "",
         "island": "Omninesia",
         "frequency": "30% - 50%",
-        "level": "19 - 20",
+        "level": "18 - 25",
         "freetem": {
-          "minLevel": 19,
-          "maxLevel": 20,
-          "minPansuns": 61,
-          "maxPansuns": 63
+          "minLevel": 18,
+          "maxLevel": 25,
+          "minPansuns": 59,
+          "maxPansuns": 74
         }
       },
       {
@@ -3981,6 +3981,14 @@
         "name": "Pickpocket",
         "source": "Levelling",
         "levels": 36
+      },
+      {
+        "name": "Burrow",
+        "source": "Breeding"
+      },
+      {
+        "name": "Head Charge",
+        "source": "Breeding"
       }
     ],
     "trivia": [
@@ -7520,7 +7528,7 @@
         "place": "Mines of Mictlan",
         "note": "",
         "island": "Tucma",
-        "frequency": "5%",
+        "frequency": "10%",
         "level": "34 - 35",
         "freetem": {
           "minLevel": 34,
@@ -8299,6 +8307,10 @@
       },
       {
         "name": "Held Anger",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Quetza-leño",
         "source": "TechniqueCourses"
       },
       {
@@ -10433,7 +10445,22 @@
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d7/Hocus.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/18/LumaHocus.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Gifted Bridges",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "5%",
+        "level": "30 - 40",
+        "freetem": {
+          "minLevel": 30,
+          "maxLevel": 40,
+          "minPansuns": 120,
+          "maxPansuns": 154
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Hocus.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Hocus.png",
     "genderRatio": {
@@ -11832,7 +11859,7 @@
       "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/50/Raignet.png",
-    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/54/LumaRaignet.png",
+    "lumaWikiPortraitUrlLarge": "",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Raignet.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Raignet.png",
@@ -13887,6 +13914,10 @@
         "source": "TechniqueCourses"
       },
       {
+        "name": "Brace",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Narcoleptic Hit",
         "source": "Breeding"
       }
@@ -14199,7 +14230,7 @@
     ],
     "trivia": [
       "Goolder's name is derived from goo and elder.",
-      "Goolder has the highest HP stat of all Temtem at 120.\nDue to this, Goolder has the highest single base stat of any Temtem",
+      "Goolder has the highest HP stat of all Temtem at 125.\nDue to this, Goolder has the highest single base stat of any Temtem",
       "Due to this, Goolder has the highest single base stat of any Temtem",
       "Goolder has the lowest Speed stat of all Temtem at 10.\nIts tied with Pewki for having the lowest single base stat of any Temtem.",
       "Its tied with Pewki for having the lowest single base stat of any Temtem."
@@ -16098,6 +16129,11 @@
         "levels": 44
       },
       {
+        "name": "Thunder Strike",
+        "source": "Levelling",
+        "levels": 57
+      },
+      {
         "name": "Wake Up",
         "source": "TechniqueCourses"
       },
@@ -16251,7 +16287,7 @@
       "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7b/Valiar.png",
-    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d9/LumaValiar.png",
+    "lumaWikiPortraitUrlLarge": "",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Valiar.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Valiar.png",
@@ -17952,6 +17988,7 @@
       }
     ],
     "trivia": [
+      "Needed for quest If You Build It",
       "Vulor's name is derived from Vulcano (Roman God of fire) and calor (heat in Spanish)."
     ],
     "evolution": {

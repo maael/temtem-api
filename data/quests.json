@@ -385,10 +385,15 @@
     "requirements": "",
     "reward": "",
     "type": "side",
-    "steps": [],
-    "rewards": [],
-    "startingLocation": "",
-    "startingNPC": ""
+    "steps": [
+      "Acquire firewood from a bonfire in Tucma.",
+      "Bing the firewood to Kyle's fire in the Kilimas."
+    ],
+    "rewards": [
+      "TC028: Quetza-leño"
+    ],
+    "startingLocation": "Kilima Peaks",
+    "startingNPC": "Kyle"
   },
   {
     "name": "Cultist Hunt",
