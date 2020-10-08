@@ -8,7 +8,7 @@
     "consumable": true,
     "limitedQuantity": false,
     "purchasable": true,
-    "buyPrice": 1000,
+    "buyPrice": 1,
     "description": "Aggressive DNA Strand is a single-use held item used in Breeding. When held, it ensures the holder's ATK is inherited by the egg. It is only sold in the Breeding Center in Omninesia.",
     "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's ATK."
   },
@@ -23,7 +23,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Baton Pass is a gear.",
-    "gameDescription": "When entering the battlefield, restores 8% of max HP."
+    "gameDescription": "When entering the battlefield, restores 10% of max HP."
   },
   {
     "name": "Calm Patch",
@@ -49,7 +49,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Chamomile is a gear.",
-    "gameDescription": "When entering the battlefield, removes stage changes."
+    "gameDescription": "When entering the battlefield, gets Immune for 4 turns and removes stages changes of the temtem holding the gear."
   },
   {
     "name": "Clumsy Patch",
@@ -112,7 +112,7 @@
     "consumable": true,
     "limitedQuantity": false,
     "purchasable": true,
-    "buyPrice": 1000,
+    "buyPrice": 1,
     "description": "Dominant DNA Strand is a single-use held item used in Breeding. When held, it ensures the holder's SPDEF is inherited by the egg. It is only sold in the Breeding Center in Omninesia.",
     "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's SPDEF."
   },
@@ -164,7 +164,7 @@
     "consumable": true,
     "limitedQuantity": false,
     "purchasable": true,
-    "buyPrice": 1000,
+    "buyPrice": 1,
     "description": "Endurance DNA Strand is a single-use held item used in Breeding. When held, it ensures the holder's STA is inherited by the egg. It is only sold in the Breeding Center in Omninesia.",
     "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's STA."
   },
@@ -190,8 +190,8 @@
     "consumable": true,
     "limitedQuantity": false,
     "purchasable": false,
-    "buyPrice": 10000,
-    "description": "Engineered DNA Strand is a single-use held item used in Breeding. When held, it ensures the holder's Trait is inherited by the egg. It is only sold in the Breeding Center in Omninesia.",
+    "buyPrice": 10,
+    "description": "Engineered DNA Strand is a single-use held item used in Breeding. When held, it ensures the holder's Trait slot is inherited by the egg. It is only sold in the Breeding Center in Omninesia.",
     "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's trait slot."
   },
   {
@@ -255,7 +255,7 @@
     "consumable": true,
     "limitedQuantity": false,
     "purchasable": true,
-    "buyPrice": 1000,
+    "buyPrice": 1,
     "description": "Gifted DNA Strand is a single-use held item used in Breeding. When held, it ensures the holder's SPATK is inherited by the egg. It is only sold in the Breeding Center in Omninesia.",
     "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's SPATK."
   },
@@ -296,7 +296,7 @@
     "purchasable": false,
     "buyPrice": 0,
     "description": "Handcuffs is a gear.",
-    "gameDescription": "A souvenir from Visesia... When exhausting a Temtem, the target gets trapped for 3 turns."
+    "gameDescription": "A souvenir from Visesia... When your target is exhausted or attacking an exhausted Temtem, the target gets trapped for 3 turns."
   },
   {
     "name": "Hardening DNA Strand",
@@ -307,9 +307,9 @@
     "consumable": true,
     "limitedQuantity": false,
     "purchasable": true,
-    "buyPrice": 1000,
+    "buyPrice": 1,
     "description": "Hardening DNA Strand is a single-use held item used in Breeding. When held, it ensures the holder's DEF is inherited by the egg. It is only sold in the Breeding Center in Omninesia.",
-    "gameDescription": "Hardening DNA Strand This single-use DNA strand ensures the egg inherits the parent's DEF."
+    "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's DEF."
   },
   {
     "name": "Hopeless Tonic",
@@ -359,7 +359,7 @@
     "consumable": true,
     "limitedQuantity": false,
     "purchasable": false,
-    "buyPrice": 5000,
+    "buyPrice": 5,
     "description": "Immunity DNA Strand is a single-use held item used in Breeding. When held, it ensures the holder's DEF and SPDEF is inherited by the egg. It is only sold in the Breeding Center in Omninesia.",
     "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's DEF and SPDEF."
   },
@@ -411,7 +411,7 @@
     "consumable": true,
     "limitedQuantity": false,
     "purchasable": true,
-    "buyPrice": 1000,
+    "buyPrice": 1,
     "description": "Lithe DNA Strand is a single-use held item used in Breeding. When held, it ensures the holder's SPD is inherited by the egg. It is only sold in the Breeding Center in Omninesia.",
     "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's SPD."
   },
@@ -437,7 +437,7 @@
     "consumable": true,
     "limitedQuantity": false,
     "purchasable": false,
-    "buyPrice": 5000,
+    "buyPrice": 5,
     "description": "Mighty DNA Strand ensures the egg inherits the parent's ATK and SPATK",
     "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's ATK and SPATK"
   },
@@ -684,7 +684,7 @@
     "consumable": true,
     "limitedQuantity": false,
     "purchasable": false,
-    "buyPrice": 5000,
+    "buyPrice": 5,
     "description": "Vigor DNA Strand is a single-use held item used in Breeding. When held, it ensures the holder's HP and STA is inherited by the egg. It is only sold in the Breeding Center in Omninesia.",
     "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's HP and STA."
   },
@@ -697,9 +697,9 @@
     "consumable": true,
     "limitedQuantity": false,
     "purchasable": true,
-    "buyPrice": 1000,
+    "buyPrice": 1,
     "description": "Vitality DNA Strand is a single-use held item used in Breeding. When held, it ensures the holder's HP is inherited by the egg. It is only sold in the Breeding Center in Omninesia.",
-    "gameDescription": "Vitality DNA Strand This single-use DNA strand ensures the egg inherits the parent's HP."
+    "gameDescription": "This single-use DNA strand ensures the egg inherits the parent's HP."
   },
   {
     "name": "War Drum",

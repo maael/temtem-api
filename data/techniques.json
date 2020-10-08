@@ -168,6 +168,24 @@
     ]
   },
   {
+    "name": "Bark",
+    "wikiUrl": "https://temtem.gamepedia.com/Bark",
+    "type": "",
+    "class": "",
+    "classIcon": "/images/icons/technique/.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "",
+    "synergyEffects": [],
+    "targets": "",
+    "description": "",
+    "effectText": "",
+    "effects": []
+  },
+  {
     "name": "Bark Shield",
     "wikiUrl": "https://temtem.gamepedia.com/Bark_Shield",
     "type": "Nature",
@@ -373,20 +391,15 @@
     "synergy": "Earth",
     "synergyEffects": [
       {
-        "effect": "+2SPDEF",
+        "effect": "+2 SPDEF",
         "type": "buff",
         "damage": 0
       }
     ],
     "targets": "Self",
-    "description": "When in doubt, run and shout! This fast Nature technique helps your Temtem regenerate for 2 turns and evade for 1 turn.",
-    "effectText": "Bush gives Regenerated Condition for 2 turns and Evading Condition for 1 turn.",
+    "description": "When in doubt, run and shout! This fast Nature technique helps your Temtem regenerate and evade for 1 turn.",
+    "effectText": "Bush gives Regenerated Condition and Evading Condition for 1 turn.",
     "effects": [
-      {
-        "type": "condition",
-        "turns": 2,
-        "condition": "Regenerated"
-      },
       {
         "type": "condition",
         "turns": 1,
@@ -2739,6 +2752,24 @@
     "effects": []
   },
   {
+    "name": "Quetza-leño",
+    "wikiUrl": "https://temtem.gamepedia.com/Quetza-le%C3%B1o",
+    "type": "",
+    "class": "",
+    "classIcon": "/images/icons/technique/.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "",
+    "synergyEffects": [],
+    "targets": "",
+    "description": "",
+    "effectText": "",
+    "effects": []
+  },
+  {
     "name": "Quicksand",
     "wikiUrl": "https://temtem.gamepedia.com/Quicksand",
     "type": "Earth",
@@ -3909,6 +3940,24 @@
     "targets": "Single Team",
     "description": "The ancestral dance of Deniz is a powerful ritual that bestows protection, SPD to the whole team.",
     "effectText": "Turbo Choreography gives the target team SPD.",
+    "effects": []
+  },
+  {
+    "name": "Undermine",
+    "wikiUrl": "https://temtem.gamepedia.com/Undermine",
+    "type": "Neutral",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 145,
+    "staminaCost": 26,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Leave your opponent heavily damaged and treading on very thin ice, giving it SPATK.",
+    "effectText": "Undermine deals damage to the opposing Temtem or the user's ally.",
     "effects": []
   },
   {

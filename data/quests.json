@@ -21,7 +21,7 @@
     ],
     "rewards": [
       "Tempedia",
-      "Tuwai",
+      "Starter Temtem",
       "Temessence phial",
       "Surfboard",
       "Airship ticket"
@@ -212,7 +212,7 @@
   },
   {
     "name": "The Battle of Kisiwa",
-    "wikiUrl": "https://temtem.gamepedia.com/The_Battle_of_Kisiwa?action=edit&redlink=1",
+    "wikiUrl": "https://temtem.gamepedia.com/The_Battle_of_Kisiwa",
     "type": "main",
     "steps": [
       "Reach Vumbi and see what is going on.",
@@ -246,10 +246,10 @@
   {
     "name": "A Better Future",
     "wikiUrl": "https://temtem.gamepedia.com/A_Better_Future",
-    "island": "Deniz",
+    "island": "Side",
     "location": "Sillaro River",
     "requirements": "See sub-quests",
-    "reward": "???",
+    "reward": "See sub-quests",
     "type": "side",
     "steps": [
       "Ask Pasiphaë at her Turquesa townhouse."
@@ -261,10 +261,10 @@
   {
     "name": "A Rock Too Far",
     "wikiUrl": "https://temtem.gamepedia.com/A_Rock_Too_Far",
-    "island": "Tucma",
+    "island": "Side",
     "location": "Kupeleleza",
     "requirements": "",
-    "reward": "TC015: Footwork",
+    "reward": "",
     "type": "side",
     "steps": [
       "Report the missing kid to the Lifeguard!",
@@ -284,10 +284,10 @@
   {
     "name": "Archipelago Colors",
     "wikiUrl": "https://temtem.gamepedia.com/Archipelago_Colors",
-    "island": "Omninesia",
+    "island": "Side",
     "location": "The Flywalk",
     "requirements": "Access to Tucma and Kisiwa",
-    "reward": "2100",
+    "reward": "Access to Tucma and Kisiwa",
     "type": "side",
     "steps": [
       "Get some purple paint from Luisouvenirs ((Brical de Mar))",
@@ -308,10 +308,10 @@
   {
     "name": "Better Future: Ariadne",
     "wikiUrl": "https://temtem.gamepedia.com/Better_Future:_Ariadne",
-    "island": "Deniz",
+    "island": "Side",
     "location": "Sillaro River",
     "requirements": "Lift key Access to Kisiwa",
-    "reward": "1000, Wild Savanna dye bundle",
+    "reward": "Lift key, Access to Kisiwa",
     "type": "side",
     "steps": [
       "Find Ara in Omninesia and ask her to mentor Ariadne.",
@@ -325,10 +325,10 @@
   {
     "name": "Better Future: Asterion",
     "wikiUrl": "https://temtem.gamepedia.com/Better_Future:_Asterion",
-    "island": "Deniz",
+    "island": "Side",
     "location": "Sillaro River",
     "requirements": "Completion of First Steps",
-    "reward": "700 or Pewki with 3 Perfect Single Values",
+    "reward": "Completion of First Steps",
     "type": "side",
     "steps": [
       "Ask Adia Turay to help Asterion",
@@ -344,10 +344,10 @@
   {
     "name": "Better Future: Phaedra",
     "wikiUrl": "https://temtem.gamepedia.com/Better_Future:_Phaedra",
-    "island": "Deniz",
+    "island": "Side",
     "location": "Sillaro River",
     "requirements": "Access to Kisiwa",
-    "reward": "Iron Coating",
+    "reward": "Access to Kisiwa",
     "type": "side",
     "steps": [
       "Get Phaedra a place in Arbury University."
@@ -361,10 +361,10 @@
   {
     "name": "Blueprint Delivery",
     "wikiUrl": "https://temtem.gamepedia.com/Blueprint_Delivery",
-    "island": "Omninesia",
+    "island": "Side",
     "location": "Nanga",
     "requirements": "Access to Tucma",
-    "reward": "Lightning Rod",
+    "reward": "Access to Tucma",
     "type": "side",
     "steps": [
       "Deliver the blueprints to the Guildmaster of Tucma.",
@@ -378,31 +378,43 @@
     "startingNPC": "Oliana"
   },
   {
+    "name": "Bonfire Restored",
+    "wikiUrl": "https://temtem.gamepedia.com/Bonfire_Restored",
+    "island": "Side",
+    "location": "Kilima Peaks",
+    "requirements": "",
+    "reward": "",
+    "type": "side",
+    "steps": [],
+    "rewards": [],
+    "startingLocation": "",
+    "startingNPC": ""
+  },
+  {
     "name": "Cultist Hunt",
     "wikiUrl": "https://temtem.gamepedia.com/Cultist_Hunt",
-    "island": "Tucma",
+    "island": "Side",
     "location": "Kupeleleza",
-    "requirements": "Defeat Valentina & Federico",
-    "reward": "Sweatband",
+    "requirements": "",
+    "reward": "",
     "type": "side",
     "steps": [
       "Find the Crystal Temtem cultist.",
-      "team",
       "Report back to Valentina"
     ],
     "rewards": [
       "Sweatband"
     ],
-    "startingLocation": "",
+    "startingLocation": "Kupeleleza",
     "startingNPC": "Valentina"
   },
   {
     "name": "Endaira's Quest",
     "wikiUrl": "https://temtem.gamepedia.com/Endaira%27s_Quest",
-    "island": "Deniz",
+    "island": "Side",
     "location": "Arissola",
     "requirements": "Access to Kisiwa",
-    "reward": "DoubleScreen, ???",
+    "reward": "Access to Kisiwa",
     "type": "side",
     "steps": [
       "Find a coveted copy of \"Endaira's Quest\" in Kisiwa."
@@ -414,30 +426,12 @@
     "startingNPC": "Laura"
   },
   {
-    "name": "Gone with the Sillaro",
-    "wikiUrl": "https://temtem.gamepedia.com/Gone_with_the_Sillaro",
-    "island": "Deniz",
-    "location": "Zadar",
-    "requirements": "Surfboard",
-    "reward": "TC001: Tsunami",
-    "type": "side",
-    "steps": [
-      "Find the missing pendant...",
-      "Return the pendant to Clara in Zadar"
-    ],
-    "rewards": [
-      "TC001: Tsunami"
-    ],
-    "startingLocation": "Zadar",
-    "startingNPC": "Clara"
-  },
-  {
     "name": "For Science!",
     "wikiUrl": "https://temtem.gamepedia.com/For_Science!",
-    "island": "Kisiwa",
+    "island": "Side",
     "location": "Historical Customs Office",
     "requirements": "None",
-    "reward": "Drill, Incubator device",
+    "reward": "None",
     "type": "side",
     "steps": [
       "Locate Zamzaditta, somewhere in Kisiwa.",
@@ -455,29 +449,94 @@
   {
     "name": "Freeing bandits",
     "wikiUrl": "https://temtem.gamepedia.com/Freeing_bandits",
-    "island": "Tucma",
+    "island": "Side",
     "location": "Xolot Reservoir",
-    "requirements": "Acid-proof Surfboard",
-    "reward": "TC018: Major Slash",
+    "requirements": "None",
+    "reward": "None",
     "type": "side",
     "steps": [
-      "Get the prison key from the off-duty Smith",
-      "Free Tlaloc from the prison",
+      "Get the prison key from the off-duty Smith.",
+      "Free Tlaloc from the prison.",
       "Rejoin Tlaloc and Tokatl in the Xolot island."
     ],
     "rewards": [
       "TC018: Major Slash"
     ],
-    "startingLocation": "Tucma",
+    "startingLocation": "Xolot Reservoir",
     "startingNPC": "Tokatl"
+  },
+  {
+    "name": "Gone with the Sillaro",
+    "wikiUrl": "https://temtem.gamepedia.com/Gone_with_the_Sillaro",
+    "island": "Side",
+    "location": "Zadar",
+    "requirements": "Surfboard",
+    "reward": "Surfboard",
+    "type": "side",
+    "steps": [
+      "Find the missing pendant...",
+      "Return the pendant to Clara in Zadar"
+    ],
+    "rewards": [
+      "TC001: Tsunami"
+    ],
+    "startingLocation": "Zadar",
+    "startingNPC": "Clara"
+  },
+  {
+    "name": "Heartbeats",
+    "wikiUrl": "https://temtem.gamepedia.com/Heartbeats",
+    "island": "Side",
+    "location": "Vumbi Dojo",
+    "requirements": "Gravitonic piolets",
+    "reward": "Gravitonic piolets",
+    "type": "side",
+    "steps": [
+      "Look for Elizabeth in Tucma.",
+      "Find Macuil in the wreck of the Narwhal.",
+      "Bring a Zizare to Macuil.",
+      "Join Macuil and Elizabeth back in the bandit hideout.",
+      "Report back to Jeremy at the Vumbi Dojo."
+    ],
+    "rewards": [
+      "TC027: Untangle",
+      "Baton Pass"
+    ],
+    "startingLocation": "Vumbi Dojo",
+    "startingNPC": "Jeremy"
+  },
+  {
+    "name": "If You Build It",
+    "wikiUrl": "https://temtem.gamepedia.com/If_You_Build_It",
+    "island": "Side",
+    "location": "Coral Plaza",
+    "requirements": "Access to Kisiwa Completion of On Solid Footing?",
+    "reward": "Access to Kisiwa, Completion of On Solid Footing?",
+    "type": "side",
+    "steps": [
+      "Ask the architect in Windward Fort for help.",
+      "Get the architect a Vulor for inspiration.",
+      "Return to Atoll Row.",
+      "Order the building materials at the Smiths' Guild.",
+      "Board the Ocra at the Quetzal airship terminal.",
+      "Find Captain Makamba - ask in the Vumbi Dojo?",
+      "Find Captain Makamba - try again in Upinzani.",
+      "Rendezvous with Makamba at Nanga airport.",
+      "Get back to Salamasina."
+    ],
+    "rewards": [
+      "Key to your house"
+    ],
+    "startingLocation": "Coral Plaza",
+    "startingNPC": "Salamasina"
   },
   {
     "name": "Lights, camera, action!",
     "wikiUrl": "https://temtem.gamepedia.com/Lights,_camera,_action!",
-    "island": "Kisiwa",
+    "island": "Side",
     "location": "Nuru Lodge",
     "requirements": "None",
-    "reward": "TurbanHandcuffs",
+    "reward": "None",
     "type": "side",
     "steps": [
       "Get the screenplay from Visesia's agent.",
@@ -495,10 +554,10 @@
   {
     "name": "Lottie's Diary",
     "wikiUrl": "https://temtem.gamepedia.com/Lottie%27s_Diary",
-    "island": "Omninesia",
+    "island": "Side",
     "location": "Giant Banyan",
     "requirements": "None",
-    "reward": "TC020: Brace",
+    "reward": "None",
     "type": "side",
     "steps": [
       "See what Carlos can learn from Lady Lottie's diary..."
@@ -512,10 +571,10 @@
   {
     "name": "Message in a Bottle",
     "wikiUrl": "https://temtem.gamepedia.com/Message_in_a_Bottle",
-    "island": "Deniz",
+    "island": "Side",
     "location": "Sillaro River",
     "requirements": "",
-    "reward": "Revive",
+    "reward": "",
     "type": "side",
     "steps": [
       "Consult with Carlos in Briçal.",
@@ -530,10 +589,10 @@
   {
     "name": "Missing Kids",
     "wikiUrl": "https://temtem.gamepedia.com/Missing_Kids",
-    "island": "Deniz",
+    "island": "Side",
     "location": "Briçal de Mar",
     "requirements": "Surfboard",
-    "reward": "Decoy",
+    "reward": "Surfboard",
     "type": "side",
     "steps": [
       "Find Yusuf and Roger in Briçal.",
@@ -548,10 +607,10 @@
   {
     "name": "No Head For Numbers",
     "wikiUrl": "https://temtem.gamepedia.com/No_Head_For_Numbers",
-    "island": "Deniz",
+    "island": "Side",
     "location": "Briçal de Mar",
     "requirements": "None",
-    "reward": "Vital Apple x2",
+    "reward": "None",
     "type": "side",
     "steps": [
       "Talk to the Accademia receptionist.",
@@ -566,12 +625,41 @@
     "startingNPC": "Josep"
   },
   {
+    "name": "On Solid Footing?",
+    "wikiUrl": "https://temtem.gamepedia.com/On_Solid_Footing%3F",
+    "island": "Side",
+    "location": "Coral Plaza",
+    "requirements": "",
+    "reward": "",
+    "type": "side",
+    "steps": [
+      "Get a safety certificate from Myrisles Engineering.",
+      "Convince Kalei to end his vacation.",
+      "Investigate Kalei's hotel room.",
+      "Ask about Kalei at the Sirokos bar.",
+      "Bribe Ektli with a Cerneaf.",
+      "Meet with Ektli at the Malachite furniture shop.",
+      "Look for Kalei, west of Turquesa.",
+      "Convince Minos you are not a Belsoto.",
+      "Find \"Headmaster Dolça\" in Deniz.",
+      "Unmask Kalei at the Accademia.",
+      "Meet with Kalei at the airport and escort him.",
+      "Go back to Coral Plaza and rejoin Salamasina.",
+      "Buy a slot of land in Atol Row from Salamasina."
+    ],
+    "rewards": [
+      "Zadar family dining table"
+    ],
+    "startingLocation": "Coral Plaza",
+    "startingNPC": "Salamasina"
+  },
+  {
     "name": "Paparazzo",
     "wikiUrl": "https://temtem.gamepedia.com/Paparazzo",
-    "island": "Omninesia",
-    "location": "Mokupuni",
+    "island": "Side",
+    "location": "Mokupuni or The Flywalk",
     "requirements": "Lift key",
-    "reward": "Pillow",
+    "reward": "Lift key",
     "type": "side",
     "steps": [
       "Locate the famous Visesia in Citerior Omninesia",
@@ -586,10 +674,10 @@
   {
     "name": "Perilous Archaeology",
     "wikiUrl": "https://temtem.gamepedia.com/Perilous_Archaeology",
-    "island": "Deniz",
+    "island": "Side",
     "location": "Sillaro River",
     "requirements": "Surfboard",
-    "reward": "30 Tiny Crystal",
+    "reward": "Surfboard",
     "type": "side",
     "steps": [],
     "rewards": [],
@@ -599,10 +687,10 @@
   {
     "name": "Pigepic Fan",
     "wikiUrl": "https://temtem.gamepedia.com/Pigepic_Fan",
-    "island": "Deniz",
+    "island": "Side",
     "location": "Briçal de Mar",
     "requirements": "Capture Pigepic and show it to the Cute Toddler",
-    "reward": "Revive x1",
+    "reward": "Capture Pigepic and show it to the Cute Toddler",
     "type": "side",
     "steps": [],
     "rewards": [
@@ -614,10 +702,10 @@
   {
     "name": "Salty Business",
     "wikiUrl": "https://temtem.gamepedia.com/Salty_Business",
-    "island": "Deniz",
+    "island": "Side",
     "location": "The Gifted Bridges",
     "requirements": "Surfboard",
-    "reward": "Sea Salt x3, Scent x5",
+    "reward": "Surfboard",
     "type": "side",
     "steps": [
       "Acquire the goods from Lorenzo, near Turquesa.",
@@ -631,12 +719,32 @@
     "startingNPC": "Giulia"
   },
   {
+    "name": "Serbatiyo's Wrath (quest)",
+    "wikiUrl": "https://temtem.gamepedia.com/Serbatiyo%27s_Wrath_(quest)",
+    "island": "Side",
+    "location": "Tasa Desert",
+    "requirements": "Gravitonic piolets",
+    "reward": "Gravitonic piolets",
+    "type": "side",
+    "steps": [
+      "Find Minha in the desert.",
+      "Buy \"Fables of the Isles at Tossaint Books in Uhuru.",
+      "Get the book from the bookcase.",
+      "Find the entrance to the Sea-Queendom."
+    ],
+    "rewards": [
+      "TC023: Serbatiyo's Wrath"
+    ],
+    "startingLocation": "Tasa Desert",
+    "startingNPC": "Mhina"
+  },
+  {
     "name": "Study Up",
     "wikiUrl": "https://temtem.gamepedia.com/Study_Up",
-    "island": "Omninesia",
-    "location": "Mokupuni",
+    "island": "Side",
+    "location": "Mokupuni (Inside the building)",
     "requirements": "None",
-    "reward": "TC004: Wake Up",
+    "reward": "None",
     "type": "side",
     "steps": [
       "OBJECTIVE NEEDED",
@@ -653,10 +761,10 @@
   {
     "name": "Temtem Connoisseur",
     "wikiUrl": "https://temtem.gamepedia.com/Temtem_Connoisseur",
-    "island": "Tucma",
+    "island": "Side",
     "location": "Quetzal",
     "requirements": "",
-    "reward": "Egg Timer",
+    "reward": "",
     "type": "side",
     "steps": [
       "Breed a Bigu and bring it to the man"
@@ -668,12 +776,35 @@
     "startingNPC": "Temtem Connoisseur"
   },
   {
+    "name": "Temtemed Out",
+    "wikiUrl": "https://temtem.gamepedia.com/Temtemed_Out",
+    "island": "Side",
+    "location": "Uhuru",
+    "requirements": "TC023: Serbatiyo's Wrath",
+    "reward": "TC023: Serbatiyo's Wrath",
+    "type": "side",
+    "steps": [
+      "Cheer up Ige doing an exhibition fight with Lyato.",
+      "Temtem up with Ige.",
+      "Bring Ige an Oceara.",
+      "Learn the technique Serbatiyo's Wrath and find Ige.",
+      "Fight Ige's souped-up Temtem!",
+      "Get a reward from Lyato."
+    ],
+    "rewards": [
+      "TC021: Double Edge",
+      "Doppelganger Brooch"
+    ],
+    "startingLocation": "Uhuru",
+    "startingNPC": "Lyato"
+  },
+  {
     "name": "The Denizan Icarus",
     "wikiUrl": "https://temtem.gamepedia.com/The_Denizan_Icarus",
-    "island": "Deniz",
+    "island": "Side",
     "location": "Thalassian Cliffs",
     "requirements": "Barnshe",
-    "reward": "TC003: Turbo Choreography",
+    "reward": "Barnshe",
     "type": "side",
     "steps": [
       "Show Daedalus your Tempedia",
@@ -688,10 +819,10 @@
   {
     "name": "The Turquesa Ferry",
     "wikiUrl": "https://temtem.gamepedia.com/The_Turquesa_Ferry",
-    "island": "Deniz",
+    "island": "Side",
     "location": "Briçal de Mar",
     "requirements": "Surfboard",
-    "reward": "Revive x2, Smoke Bomb x3",
+    "reward": "Surfboard",
     "type": "side",
     "steps": [
       "Ask at the Riverine Fellowship in Turquesa",
@@ -711,10 +842,10 @@
   {
     "name": "Tour Guide",
     "wikiUrl": "https://temtem.gamepedia.com/Tour_Guide",
-    "island": "Deniz",
+    "island": "Side",
     "location": "Arissola",
     "requirements": "None",
-    "reward": "Umbrella",
+    "reward": "None",
     "type": "side",
     "steps": [
       "Give the tourist in Arissola a guided tour of Deniz",
@@ -729,10 +860,10 @@
   {
     "name": "Travel Writer",
     "wikiUrl": "https://temtem.gamepedia.com/Travel_Writer",
-    "island": "Omninesia",
+    "island": "Side",
     "location": "Narwhal",
     "requirements": "Access to the Narwhal",
-    "reward": "Lure, Hand Fan, Coat, 2500",
+    "reward": "Access to the Narwhal",
     "type": "side",
     "steps": [
       "Omninesia."
@@ -748,10 +879,10 @@
   {
     "name": "Wild Imagination",
     "wikiUrl": "https://temtem.gamepedia.com/Wild_Imagination",
-    "island": "Deniz",
+    "island": "Side",
     "location": "Arissola",
     "requirements": "None",
-    "reward": "Energetic Kiwi",
+    "reward": "None",
     "type": "side",
     "steps": [
       "Do you know as much about Temtem as little Liliana?"
