@@ -2101,13 +2101,7 @@
     "targets": "Self",
     "description": "Sync your breathing, become more aware of the space around you, feel your body and mind get Vigorized for 3 turns...",
     "effectText": "Meditation give the user the Vigorized Condition for 3 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 3,
-        "condition": "Vigorized"
-      }
-    ]
+    "effects": []
   },
   {
     "name": "Metabolize",
@@ -2599,13 +2593,7 @@
     "targets": "Single Other Target",
     "description": "Zizare's signature technique - a fast attack that terrifies enemies DEF and lifts your spirits, giving you Vigor for 2 turns.",
     "effectText": "Piercing Wheel deals damage to a single target and gives it DEF, while also giving its user the Vigorized Condition for 2 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 2,
-        "condition": "Vigorized"
-      }
-    ]
+    "effects": []
   },
   {
     "name": "Plague",
@@ -3324,13 +3312,7 @@
     "targets": "Single Other Target",
     "description": "Ah, the crazy Fire of passion! The target gets just a little scorched, but the kisser is invigorated for 2 turns.",
     "effectText": "Smoldering Kiss deals damage to a single target, and gives the user the Vigorized Condition for 2 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 2,
-        "condition": "Vigorized"
-      }
-    ]
+    "effects": []
   },
   {
     "name": "Sparks",
