@@ -3113,19 +3113,19 @@
   {
     "name": "Serbatiyo's Wrath",
     "wikiUrl": "https://temtem.gamepedia.com/Serbatiyo%27s_Wrath",
-    "type": "Water",
-    "class": "Special",
-    "classIcon": "/images/icons/technique/Special.png",
-    "damage": 100,
-    "staminaCost": 35,
-    "hold": 2,
-    "priority": "normal",
-    "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "None",
+    "type": "",
+    "class": "",
+    "classIcon": "/images/icons/technique/.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "",
     "synergyEffects": [],
-    "targets": "Other Team or Ally",
-    "description": "Only Oceara can tap into the immense power of the mythical serbatiyo to unleash a devastating Water attack on the whole enemy team.",
-    "effectText": "Serbatiyo's Wrath deals damage to the target team.",
+    "targets": "",
+    "description": "",
+    "effectText": "",
     "effects": []
   },
   {
@@ -3706,26 +3706,20 @@
   {
     "name": "Toxic Fang",
     "wikiUrl": "https://temtem.gamepedia.com/Toxic_Fang",
-    "type": "Toxic",
-    "class": "Physical",
-    "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 62,
-    "staminaCost": 12,
-    "hold": 1,
-    "priority": "normal",
-    "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "None",
+    "type": "",
+    "class": "",
+    "classIcon": "/images/icons/technique/.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "",
     "synergyEffects": [],
-    "targets": "Single Other Target",
-    "description": "A quick nibble that doesn't look like much... until you notice the Poison for 1 turn.",
-    "effectText": "Toxic Fang deals damage to a single target and inflicts 1 turn of the Poisoned Condition.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 1,
-        "condition": "Poisoned"
-      }
-    ]
+    "targets": "",
+    "description": "",
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Toxic Gas",
@@ -4172,26 +4166,20 @@
   {
     "name": "Waterjet",
     "wikiUrl": "https://temtem.gamepedia.com/Waterjet",
-    "type": "Water",
-    "class": "Physical",
-    "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 110,
-    "staminaCost": 16,
-    "hold": 2,
-    "priority": "normal",
-    "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "None",
+    "type": "",
+    "class": "",
+    "classIcon": "/images/icons/technique/.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "",
     "synergyEffects": [],
-    "targets": "Single Other Target",
-    "description": "About time your enemies took a shower! This pressurized jet inflicts considerable damage and leaves the target Cold for 2 turns.",
-    "effectText": "Waterjet deals damage to a single target and gives them the Cold Condition for 2 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 2,
-        "condition": "Cold"
-      }
-    ]
+    "targets": "",
+    "description": "",
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Willpower Drain",
