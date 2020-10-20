@@ -39,6 +39,8 @@ export function cleanStrings(s: any) {
         .replace(/\n/g, " ")
         .replace("„", "")
         .replace("~ In-Game Description", "")
+        .replace("[edit]", "")
+        .replace("[edit | edit source]", "")
         .replace(/\s\s+/g, " ")
         .trim()
     : s;

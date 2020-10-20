@@ -1,3 +1,5 @@
+import * as log from "./log";
+
 export function formatDate({
   day,
   month,
@@ -7,9 +9,16 @@ export function formatDate({
   month: number;
   year: number;
 }) {
-  return new Date(
-    `${year}-${`${month}`.padStart(2, "0")}-${`${day}`.padStart(2, "0")}`
-  ).toISOString();
+  const dateStr = `${year}-${`${month}`.padStart(2, "0")}-${`${day}`.padStart(
+    2,
+    "0"
+  )}`;
+  try {
+    return new Date(dateStr).toISOString();
+  } catch (e) {
+    log.warn(`Failed to format date from: ${dateStr}`);
+    return "";
+  }
 }
 
 const monthAbbrevs = [
