@@ -1004,19 +1004,25 @@
   {
     "name": "Electropunch",
     "wikiUrl": "https://temtem.gamepedia.com/Electropunch",
-    "type": "?",
-    "class": "?",
-    "classIcon": "/images/icons/technique/?.png",
-    "damage": 0,
-    "staminaCost": 0,
+    "type": "Electric",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 110,
+    "staminaCost": 19,
     "hold": 0,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
-    "synergy": "?",
-    "synergyEffects": [],
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "Digital",
+    "synergyEffects": [
+      {
+        "effect": "+2 Priority",
+        "type": "priority",
+        "damage": 0
+      }
+    ],
     "targets": "?",
-    "description": "Currently, Electropunch is unobtainable, so it's unknown what its description is.",
-    "effectText": "Currently, Electropunch is unobtainable, so it's unknown what its full effect is.",
+    "description": "Disco might be dead, but electro still packs A LOT of punch...",
+    "effectText": "Electropunch deals damage to a single target.",
     "effects": []
   },
   {
@@ -4104,6 +4110,24 @@
     "effects": []
   },
   {
+    "name": "Wastewater",
+    "wikiUrl": "https://temtem.gamepedia.com/Wastewater",
+    "type": "Toxic",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 100,
+    "staminaCost": 25,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "Like raw sewage raining on you, without the \"like\", it inflicts moderate Toxic damage and poisons for 2 turns.",
+    "effectText": "Wastewater deals damage to a single target and gives it the for 2 turns.",
+    "effects": []
+  },
+  {
     "name": "Water Blade",
     "wikiUrl": "https://temtem.gamepedia.com/Water_Blade",
     "type": "Water",
@@ -4167,6 +4191,24 @@
     "targets": "Single Other Target",
     "description": "As pretty than Denizan Water lilies... but much deadlier.",
     "effectText": "Water Cutting Lily deals damage to a single target.",
+    "effects": []
+  },
+  {
+    "name": "Water Stream",
+    "wikiUrl": "https://temtem.gamepedia.com/Water_Stream",
+    "type": "Water",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 85,
+    "staminaCost": 24,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "Temtem",
+    "effectText": "Water Stream deals damage to a single target.",
     "effects": []
   },
   {
@@ -4245,6 +4287,24 @@
     "targets": "Single Other Target",
     "description": "A terrifying gust of wind, capable of throwing a small airship off-course.",
     "effectText": "Wind Burst deals damage to a single target.",
+    "effects": []
+  },
+  {
+    "name": "Wind Stream",
+    "wikiUrl": "https://temtem.gamepedia.com/Wind_Stream",
+    "type": "Wind",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 85,
+    "staminaCost": 24,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "This Koish variety, probably from Deniz, can inflict moderate Wind damage.",
+    "effectText": "Wind Stream deals damage to a single target.",
     "effects": []
   },
   {
