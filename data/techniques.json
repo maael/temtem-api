@@ -120,6 +120,24 @@
     "effects": []
   },
   {
+    "name": "Autodestruction",
+    "wikiUrl": "https://temtem.gamepedia.com/Autodestruction",
+    "type": "Digital",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 125,
+    "staminaCost": 30,
+    "hold": 3,
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "Let's press the big red button with the danger signs! The Digital attacker self-destructs to inflict massive damage.",
+    "effectText": "Autodestruction deals damage to a single target.",
+    "effects": []
+  },
+  {
     "name": "Awful Song",
     "wikiUrl": "https://temtem.gamepedia.com/Awful_Song",
     "type": "Neutral",
@@ -702,6 +720,24 @@
     "effects": []
   },
   {
+    "name": "Crystal Stream",
+    "wikiUrl": "https://temtem.gamepedia.com/Crystal_Stream",
+    "type": "Crystal",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 85,
+    "staminaCost": 24,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Target",
+    "description": "Thought to have originated in unexplored submarine caves, these Koish are capable of inflicting moderate Crystal damage.",
+    "effectText": "Crystal Stream deals damage to a single target.",
+    "effects": []
+  },
+  {
     "name": "Crystallize",
     "wikiUrl": "https://temtem.gamepedia.com/Crystallize",
     "type": "Crystal",
@@ -789,6 +825,24 @@
     "targets": "Self",
     "description": "Harder than the hardest Crystal Temtem! It confers DEF and SPDEF .",
     "effectText": "Diamond Fort gives the user DEF and SPDEF.",
+    "effects": []
+  },
+  {
+    "name": "Digital Stream",
+    "wikiUrl": "https://temtem.gamepedia.com/Digital_Stream",
+    "type": "Digital",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 85,
+    "staminaCost": 24,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "It is a complete mystery how some Koish have developed Digital attacks, but this one is capable of moderate damage.",
+    "effectText": "Digital Stream deals damage to a single target.",
     "effects": []
   },
   {
@@ -924,6 +978,24 @@
     "effects": []
   },
   {
+    "name": "Earth Stream",
+    "wikiUrl": "https://temtem.gamepedia.com/Earth_Stream",
+    "type": "Earth",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 85,
+    "staminaCost": 24,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "Temtem",
+    "effectText": "Earth Stream deals damage to a single target.",
+    "effects": []
+  },
+  {
     "name": "Earth Wave",
     "wikiUrl": "https://temtem.gamepedia.com/Earth_Wave",
     "type": "Earth",
@@ -981,6 +1053,24 @@
     "targets": "Other Team or Ally",
     "description": "True Electric storm like the monsoon over Cipanku. Damages whole team.",
     "effectText": "Electric Storm deals damage to the enemies team or an ally.",
+    "effects": []
+  },
+  {
+    "name": "Electric Stream",
+    "wikiUrl": "https://temtem.gamepedia.com/Electric_Stream",
+    "type": "Electric",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 85,
+    "staminaCost": 24,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "This Koish subspecies can deliver a short Electric discharge to inflict moderate damage.",
+    "effectText": "Electric Stream deals damage to a single target.",
     "effects": []
   },
   {
@@ -1208,6 +1298,24 @@
     "targets": "Single Other Target",
     "description": "Blazing like the depths of Anak, this flame geyser scorches your enemies.",
     "effectText": "Fire Flame deals damage to a single target.",
+    "effects": []
+  },
+  {
+    "name": "Fire Stream",
+    "wikiUrl": "https://temtem.gamepedia.com/Fire_Stream",
+    "type": "Fire",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 85,
+    "staminaCost": 24,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "Smoke on the water! Many novice tamers are surprised to see Koish use a Fire attack, with moderate effects.",
+    "effectText": "Fire Stream deals damage to a single target.",
     "effects": []
   },
   {
@@ -2074,6 +2182,24 @@
     "effects": []
   },
   {
+    "name": "Matter Teleport",
+    "wikiUrl": "https://temtem.gamepedia.com/Matter_Teleport",
+    "type": "Mental",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 125,
+    "staminaCost": 28,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "Feels like being disintegrated into molecules - not nice. This Mental technique inflicts heavy damage.",
+    "effectText": "Matter Teleport deals damage to a single target.",
+    "effects": []
+  },
+  {
     "name": "Mechanical Heat",
     "wikiUrl": "https://temtem.gamepedia.com/Mechanical_Heat",
     "type": "Fire",
@@ -2107,6 +2233,42 @@
     "targets": "Self",
     "description": "Sync your breathing, become more aware of the space around you, feel your body and mind get Vigorized for 3 turns...",
     "effectText": "Meditation give the user the Vigorized Condition for 3 turns.",
+    "effects": []
+  },
+  {
+    "name": "Melee Stream",
+    "wikiUrl": "https://temtem.gamepedia.com/Melee_Stream",
+    "type": "Melee",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 85,
+    "staminaCost": 24,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "With strong muscles developed by swimming against the current, some Koish can do moderate Melee damage.",
+    "effectText": "Melee Stream deals damage to a single target.",
+    "effects": []
+  },
+  {
+    "name": "Mental Stream",
+    "wikiUrl": "https://temtem.gamepedia.com/Mental_Stream",
+    "type": "Mental",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 85,
+    "staminaCost": 24,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "Related to ancient Cipanku river kami, this Koish has Mental powers that deliver moderate damage.",
+    "effectText": "Mental Stream deals damage to a single target.",
     "effects": []
   },
   {
@@ -2300,6 +2462,42 @@
         "condition": "Asleep"
       }
     ]
+  },
+  {
+    "name": "Nature Stream",
+    "wikiUrl": "https://temtem.gamepedia.com/Nature_Stream",
+    "type": "Nature",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 85,
+    "staminaCost": 24,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "Koish that live in dense brackish waters can channel the power of Nature to inflict moderate damage.",
+    "effectText": "Nature Stream deals damage to a single target.",
+    "effects": []
+  },
+  {
+    "name": "Neutral Stream",
+    "wikiUrl": "https://temtem.gamepedia.com/Neutral_Stream",
+    "type": "neutral",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 105,
+    "staminaCost": 24,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "Cute but still fight-heavy. Koish know how to inflict moderate Neutral damage.",
+    "effectText": "Neutral Stream deals damage to a single target.",
+    "effects": []
   },
   {
     "name": "Nibble",
@@ -2815,6 +3013,35 @@
     "description": "The red mist makes a Temtem brutal but also careless, getting ATK and DEF .",
     "effectText": "Rage gives the user ATK but also DEF.",
     "effects": []
+  },
+  {
+    "name": "Rainbow Guard",
+    "wikiUrl": "https://temtem.gamepedia.com/Rainbow_Guard",
+    "type": "Neutral",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 20,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Self",
+    "description": "En garde! This technique makes you immune for 2 turns and makes you evade attacks for 1 turn.",
+    "effectText": "Rainbow Guard causes the user to gain the Immune Condition for 2 turns and the Evading Condition for 1 turn.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 2,
+        "condition": "Immune"
+      },
+      {
+        "type": "condition",
+        "turns": 1,
+        "condition": "Evading"
+      }
+    ]
   },
   {
     "name": "Rampage",
@@ -3851,6 +4078,24 @@
         "condition": "Poisoned"
       }
     ]
+  },
+  {
+    "name": "Toxic Stream",
+    "wikiUrl": "https://temtem.gamepedia.com/Toxic_Stream",
+    "type": "Toxic",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 85,
+    "staminaCost": 24,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "Condensing waterborne toxins, Koish can use a stream of Toxic fluid that inflicts moderate damage.",
+    "effectText": "Toxic Stream deals damage to a single target.",
+    "effects": []
   },
   {
     "name": "Toxin Shower",

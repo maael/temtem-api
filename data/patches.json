@@ -1,5 +1,28 @@
 [
   {
+    "name": "Temtem 0.6.13",
+    "version": "0.6.13",
+    "url": "https://crema.gg/temtem/temtem-0-6-13/",
+    "date": "2020-10-28",
+    "patchInfo": {
+      "fixes": [
+        "Fixed Earth Koish not having Earth Stream in their learnset.",
+        "Fixed Water Koish not being able to learn Water Stream and Cold Geyser.",
+        "Fixed Trait Hacks not being applied correctly.",
+        "Fixed getting stuck in battle after capturing a Temtem in a double battle, and having one of your Temtem in battle faint while having more Temtem in your bench.",
+        "Fixed radar encounters being activated while the Player was not moving.",
+        "Fixed radar spawn timers resetting when the players changed between different spawn zones.",
+        "Fixed Temtem spawning over the limit of Temtem that could spawn with the radar.",
+        "Fixed the radar counter not showing the correct number of the Temtem chain.",
+        "Fixed some data not being reset after resetting our character.",
+        "Fixed an incorrect animation appearing when a player enter a battle while surfing."
+      ],
+      "improvements": [],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
     "name": "Temtem 0.6.12",
     "version": "0.6.12",
     "url": "https://crema.gg/temtem/temtem-0-6-12/",
