@@ -1,5 +1,54 @@
 [
   {
+    "name": "Temtem 0.6.14",
+    "version": "0.6.14",
+    "url": "https://crema.gg/temtem/temtem-0-6-14/",
+    "date": "2020-10-30",
+    "patchInfo": {
+      "fixes": [
+        "Fixed the capture screen border animation being shown while reconnecting after a player was capturing a Temtem.",
+        "Fixed the Postal Service rewards not being received if they gave us an egg of a Temtem that doesn’t have any egg technique currently available.",
+        "Fixed an instance where a couple of tems would suddenly appear in the world, overlapping. It was very spoopy.",
+        "Fixed the map showing the door for the Furniture shop in Deniz in the wrong place.",
+        "Fixed the stage change’s indicator not being completely visible because of a visual effect covering part of it.",
+        "👥Fixed being able to fish while sitting on some benches close to bodies of water.",
+        "👥Fixed [Status: Poisoned] being shown in the description for the Cobweb trait.",
+        "👥Fixed a confusing message when you entered a battle against two Temtem of the same species, one of them luma.",
+        "👥Fixed the pop-up for Resistant being shown after the type Immunity one, even if the Status wasn’t applied to the Temtem because of this immunity.",
+        "Fixed that the effects of a Temtem despawning were shown in battle instead of when returning to the world.",
+        "Fixed Koish’s tail ignoring the Freeze Animation command in Photo Mode.",
+        "Fixed a situation where using the sit emote and changing a cosmetic made the Player name overlap with the character.",
+        "👥Fixed the wrong name in an NPC in the Uhuru library.",
+        "Fixed a wrong location in one of the Postal Service quests.",
+        "👥Fixed that radar tems could appear out of bounds if they spawned while the player was climbing.",
+        "👥Fixed not seeing the evo, but battling them even though we had collided with their pre-evo in the overworld while using the radar.",
+        "👥Made third evos unable to appear in the radar in the spawn zones for their pre-evos, since they are not tameable. If you go to an exclusive third evo spawn zone, they will still appear, and be untameable.",
+        "Fixed getting stuck in battle if the Temtem you just captured was about to enter the battlefield but it fainted in the bench as a new turn began.",
+        "Fixed a wrong dialogue and combat lock when attempting to Co-op a Dojo that had a rematch available.",
+        "Fixed seeing the backpack from other players floating when getting in and out of a building.",
+        "Fixed Koish not appearing properly in the overworld when using the radar.",
+        "Fixed a situation where encountering a radar Temtem from the Saipark residents would cause a softlock.",
+        "Fixed a case where your tems in battle and the tem you tamed fainted in battle and it wouldn’t allow you to pick a Temtem from the bench.",
+        "👥Fixed seeing spawned radar Temtem when evolving one or hatching an egg.",
+        "👥Fixed not being able to catch a new Temtem after receiving an egg from the Post Service rewards."
+      ],
+      "improvements": [
+        "👥Added a new particle on radar-spawned Temtem that will be visible over everything else.This should make radar tems easier to detect even in populated places.",
+        "This should make radar tems easier to detect even in populated places.",
+        "👥Crystal Shrine’s spawn density has been changed to match the density of the rest of the Shrines.",
+        "👥Postal Service icon added to the map.",
+        "👥The Delivery packages’ Loot Pools have been improved.The difference between delivering more packages is now more evident.Now they also give fruits and/or fruit candies.",
+        "The difference between delivering more packages is now more evident.",
+        "Now they also give fruits and/or fruit candies.",
+        "👥Radars can now be sold per 1250 pansuns each."
+      ],
+      "features": [],
+      "balance": [
+        "Incubator Ticket selling price has been lowered from 4000 pansuns to 2500 pansuns."
+      ]
+    }
+  },
+  {
     "name": "Temtem 0.6.13",
     "version": "0.6.13",
     "url": "https://crema.gg/temtem/temtem-0-6-13/",
