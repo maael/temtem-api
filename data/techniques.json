@@ -595,9 +595,15 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "A icy stream from the depths, this soaker inflicts moderate Water damage and leaves you cold for 2 turns.",
-    "effectText": "Cold Geyser deals damage to a single target and gives the to a Temtem.",
-    "effects": []
+    "description": "",
+    "effectText": "Cold Geyser deals damage to a single target and gives them the Cold Condition for 2 turns.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 2,
+        "condition": "Cold"
+      }
+    ]
   },
   {
     "name": "Confiscate",
@@ -613,7 +619,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "Gimme all your stuff! The target is Seized for 3 turns.",
+    "description": "",
     "effectText": "Confiscate inflicts a single target with the Seized Condition for 3 turns.",
     "effects": [
       {
@@ -637,7 +643,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "Team equality! This equalizes all team members' STA with the team average.",
+    "description": "",
     "effectText": "Cooperation takes the target team's current total STA and splits it evenly between the target team's Temtem.",
     "effects": []
   },
@@ -655,7 +661,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "What do Crystal Temtem eat? Surely not other Temtem... but they can still take a vicious bite.",
+    "description": "",
     "effectText": "Crystal Bite deals damage to a single target.",
     "effects": []
   },
@@ -691,7 +697,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "What's more damaging than a feather gatling? Well, a Crystal shard gatling! Worse than a broken mirror!",
+    "description": "",
     "effectText": "Crystal Plume Gatling deals damage to a single target.",
     "effects": []
   },
@@ -709,7 +715,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "This nana-Anak analogue tectonic effect causes crystal shards to extrude from the ground and do damage.",
+    "description": "",
     "effectText": "Crystal Spikes deals damage to a single target.",
     "effects": []
   },
@@ -727,7 +733,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "Thought to have originated in unexplored submarine caves, these Koish are capable of inflicting moderate Crystal damage.",
+    "description": "",
     "effectText": "Crystal Stream deals damage to a single target.",
     "effects": []
   },
@@ -745,7 +751,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "Inspired by the ruins of the Amethyst Barrens, this crystal crust provides protection at the expense of speed: DEF but SPD .",
+    "description": "",
     "effectText": "Crystallize gives the user DEF but SPD .",
     "effects": []
   },
@@ -763,7 +769,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "Where is everybody? All Temtem in the battlefield are Isolated for 2 turns, negating any synergies.",
+    "description": "",
     "effectText": "Darkness gives the Isolated Condition to all Temtem on the battlefield for 2 turns.",
     "effects": []
   },
@@ -781,7 +787,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "Currently, Data Burst is unavailable, so its unknown what it's description is.",
+    "description": "",
     "effectText": "Currently, Data Burst is unavailable, so its unknown what it's full effect is.",
     "effects": []
   },
@@ -799,7 +805,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "Lightning, an elemental force; not extremely powerful, but always reliable.",
+    "description": "",
     "effectText": "DC Beam deals damage to a single target.",
     "effects": []
   },
@@ -817,7 +823,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "Harder than the hardest Crystal Temtem! It confers DEF and SPDEF .",
+    "description": "",
     "effectText": "Diamond Fort gives the user DEF and SPDEF .",
     "effects": []
   },
@@ -835,7 +841,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "It is a complete mystery how some Koish have developed Digital attacks, but this one is capable of moderate damage.",
+    "description": "",
     "effectText": "Digital Stream deals damage to a single target.",
     "effects": []
   },
@@ -853,7 +859,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "An accurate strike at the target's main pressure point, ignoring its defenses to deal exactly 80 damage without waking it up.",
+    "description": "",
     "effectText": "Dim Mak deals an exact, consistent 80 damage to a single target, regardless of DEF, SPDEF, type resistances, or traits. This will not wake up a Temtem with the Asleep Condition.",
     "effects": []
   },
@@ -871,7 +877,7 @@
     "synergy": "Neutral",
     "synergyEffects": [],
     "targets": "",
-    "description": "Cuts both ways, in true Neutral fashion - inflicts moderate damage to the target, but also gives it DEF and SPDEF .",
+    "description": "",
     "effectText": "Double Edge deals damage to the target and gives it DEF and SPDEF .",
     "effects": []
   },
@@ -889,7 +895,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "\"Tis but a scratch! Or two!\". This Melee Technique is nothing to write home about.",
+    "description": "",
     "effectText": "Double Gash does damage to a single target.",
     "effects": []
   },
@@ -907,7 +913,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "An effective and cool-looking double kick inspired by Cipanki action movies.",
+    "description": "",
     "effectText": "Double Kick deals damage to a single target.",
     "effects": []
   },
@@ -925,7 +931,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "Nothing does armor piercing damage like a drill to the head.",
+    "description": "",
     "effectText": "Drill Impact deals damage to a single target.",
     "effects": []
   },
@@ -943,7 +949,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "A bone-dry technique that leaves every Temtem on the battlefield for 2 turns, and the attacker overextended next turn.",
+    "description": "",
     "effectText": "Drought causes all Temtem to get the Exhausted Condition, and 2 turns, and leaves the user overexerted next turn.",
     "effects": []
   },
@@ -961,7 +967,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "This technique buffs the enemy with the fury of the fiercest Kisiwan sandstorm.",
+    "description": "",
     "effectText": "Dust Vortex deals damage to a single target.",
     "effects": []
   },

@@ -19232,7 +19232,22 @@
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6a/Koish.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ae/LumaKoish.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Moyo Lake",
+        "place": "",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "25%",
+        "level": "42 - 46",
+        "freetem": {
+          "minLevel": 42,
+          "maxLevel": 46,
+          "minPansuns": 146,
+          "maxPansuns": 158
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Koish.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Koish.png",
     "genderRatio": {
