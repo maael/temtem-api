@@ -9133,7 +9133,22 @@
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5e/Osukan.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5d/LumaOsukan.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Kilima Peaks",
+        "place": "",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "20% - 35%",
+        "level": "38 - 43",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 43,
+          "minPansuns": 124,
+          "maxPansuns": 138
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Osukan.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Osukan.png",
     "genderRatio": {
@@ -14717,6 +14732,20 @@
           "maxLevel": 41,
           "minPansuns": 131,
           "maxPansuns": 146
+        }
+      },
+      {
+        "location": "Kilima Peaks",
+        "place": "",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "30%",
+        "level": "40 - 42",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 42,
+          "minPansuns": 143,
+          "maxPansuns": 149
         }
       }
     ],
