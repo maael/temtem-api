@@ -1453,7 +1453,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "Like death by a thousand cuts... but this is just one of them.",
+    "description": "",
     "effectText": "Glass Blade deals damage to a single target.",
     "effects": []
   },
@@ -1471,7 +1471,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "You mess with the horns, you get the... No, wait! This fast, Neutral technique does serious damage.",
+    "description": "",
     "effectText": "Goring deals damage to a single target.",
     "effects": []
   },
@@ -1489,7 +1489,7 @@
     "synergy": "",
     "synergyEffects": [],
     "targets": "",
-    "description": "A slashing open-hand strike in the Cipanki martial arts tradition. Inflicts Physical damage and leaves them Asleep the same turn.",
+    "description": "",
     "effectText": "Haito Uchi deals damage to a single target and inflicts them with the Asleep Condition for 1 turn.",
     "effects": [
       {
@@ -1503,8 +1503,8 @@
     "name": "Hallucination",
     "wikiUrl": "https://temtem.gamepedia.com/Hallucination",
     "type": "Toxic",
-    "class": "Status",
-    "classIcon": "/images/icons/technique/Status.png",
+    "class": "Status Special",
+    "classIcon": "/images/icons/technique/Status Special.png",
     "damage": 0,
     "staminaCost": 0,
     "hold": 0,
@@ -1513,7 +1513,7 @@
     "synergy": "Mental",
     "synergyEffects": [],
     "targets": "",
-    "description": "Suggestive and Toxic visions that exhaust the mind and tire and trap the target for 2 turns.",
+    "description": "",
     "effectText": "Hallucination inflicts the target with the Exhausted Condition and the Trapped Condition for 2 turns.",
     "effects": [
       {
@@ -3732,7 +3732,7 @@
     "synergy": "Crystal",
     "synergyEffects": [],
     "targets": "",
-    "description": "Lil' Tort just wanted to play in its garden... but it won't suffer intruders! You heal 8% while the target is Doomed for 4 turns.",
+    "description": "Lil' Tort just wanted to play in its garden... but it won't suffer intruders! You heal 10% while the target is Doomed for 4 turns.",
     "effectText": "Tortenite's Garden heals the user for 10% of its maximum HP and gives the target the Doomed Condition for 4 turns.",
     "effects": [
       {
