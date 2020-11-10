@@ -4017,6 +4017,10 @@
         "levels": 36
       },
       {
+        "name": "Bestial Charge",
+        "source": "Breeding"
+      },
+      {
         "name": "Burrow",
         "source": "Breeding"
       },
@@ -4030,31 +4034,7 @@
       "It may also be a pun on the abbreviation for Game of the Year. This is alluded to in its Tempedia entry, which states it's \"Voted Best Temtem every year\"."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 29,
-          "name": "Goty",
-          "stage": 1,
-          "levels": 13,
-          "trading": false,
-          "traitMapping": {
-            "Rested": "Hurry-wart",
-            "Plethoric": "Unnoticed"
-          }
-        },
-        {
-          "number": 30,
-          "name": "Mouflank",
-          "stage": 2,
-          "traitMapping": {
-            "Hurry-wart": "Hurry-wart",
-            "Unnoticed": "Unnoticed"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/19/Goty.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/25/LumaGoty.png",
@@ -4263,31 +4243,7 @@
       "Mouflank's name is derived from Mouflon and Ankole-Watusi (cattle breed)."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 29,
-          "name": "Goty",
-          "stage": 1,
-          "levels": 13,
-          "trading": false,
-          "traitMapping": {
-            "Rested": "Hurry-wart",
-            "Plethoric": "Unnoticed"
-          }
-        },
-        {
-          "number": 30,
-          "name": "Mouflank",
-          "stage": 2,
-          "traitMapping": {
-            "Hurry-wart": "Hurry-wart",
-            "Unnoticed": "Unnoticed"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/75/Mouflank.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8d/LumaMouflank.png",
@@ -15795,31 +15751,7 @@
       "Droply's name is derived from Droplet and Baby."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 117,
-          "name": "Droply",
-          "stage": 1,
-          "levels": 20,
-          "trading": false,
-          "traitMapping": {
-            "Water Affinity": "Autotomy",
-            "Amphibian": "Marathonist"
-          }
-        },
-        {
-          "number": 118,
-          "name": "Garyo",
-          "stage": 2,
-          "traitMapping": {
-            "Autotomy": "Autotomy",
-            "Marathonist": "Marathonist"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d7/Droply.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8a/LumaDroply.png",
@@ -15985,31 +15917,7 @@
       "Garyo's name is derived from Gregarious and Lake Moyo."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 117,
-          "name": "Droply",
-          "stage": 1,
-          "levels": 20,
-          "trading": false,
-          "traitMapping": {
-            "Water Affinity": "Autotomy",
-            "Amphibian": "Marathonist"
-          }
-        },
-        {
-          "number": 118,
-          "name": "Garyo",
-          "stage": 2,
-          "traitMapping": {
-            "Autotomy": "Autotomy",
-            "Marathonist": "Marathonist"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a4/Garyo.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9f/LumaGaryo.png",
