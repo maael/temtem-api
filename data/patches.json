@@ -1,5 +1,54 @@
 [
   {
+    "name": "Temtem 0.6.16",
+    "version": "0.6.16",
+    "url": "https://crema.gg/temtem/temtem-0-6-16/",
+    "date": "2020-11-12",
+    "patchInfo": {
+      "fixes": [
+        "👥Fixed the performance issues that were causing lag and FPS drops.",
+        "Fixed a softlock caused by delivering a Postal Service package to an NPC called Tucmani Curator.",
+        "Fixed the brightness being higher than in previous patches.",
+        "👥Fixed a softlock if, during a match, a Kinu died due to the Protector Trait and the player used that same turn to revive it.",
+        "Fixed backpack TC/ETC items bugging if the user reconnected right after choosing the ability slot for said ETC/TC.",
+        "Fixed a blank system message when disbanding from a co-op party.",
+        "👥Fixed dyes being lost if you removed other dyes from a 4-slot dye cosmetic.",
+        "Fixed a case where the type required for a Synergy wasn’t appearing properly in the attack details.",
+        "👥Fixed a case where zooming into one end of a given zone using the keyboard or the controller, and then do a quick flick of the mouse, we’d suddenly be snapped back to the map center.",
+        "Fixed accidentally selecting the first Temtem from the next box when trying to select a Tem at the same time you changed boxes.",
+        "Fixed cosmetics not being visible when worn if it was a recently obtained one.",
+        "Fixed the egg timer blinking if you closed the chat or a tab menu.",
+        "Fixed the key references in tutorial pop-ups having wrong spacing in Japanese, Chinese, and Korean.",
+        "Fixed references to keys in tutorial pop-ups appearing outside of the text box.",
+        "Fixed a mismatch in quest progress after removing it from the Quest Diary.",
+        "Fixed the Notifications tutorial not popping up.",
+        "Fixed a case where we’d get redirected from our Competitive Squad to our Squad after seeing the details of a Temtem.",
+        "👥Fixed losing the required Pansun fee if we tried to edit a club name or short name with an already taken combination.",
+        "Fixed pop-ups not deactivating the interaction with the overworld. Gotta focus and read’em.",
+        "Fixed a mysterious scroll up and down every time you used a medicine item of which you had many. Spooky.",
+        "Fixed a visual bug where the icon to mark a quest would remain visible even when not selecting that quest.",
+        "Fixed other players still seeing us as AFK after we just used a smoke bomb after being AFK.",
+        "👥Fixed some teeny tiny red and yellow spots in Skail’s luma model.",
+        "Fixed a visual bug that caused only the shadow of the UI to appear when opening and closing the Tempedia filter very fast.",
+        "👥Fixed the Furniture tab appearing in the Vault and Trade menu even when all the items it contained were being used.",
+        "Fixed the surfing animation not being properly synchronized with a running animation.",
+        "Fixed the capture animation on Nidrasil.",
+        "👥Fixed the Windward Kisiwa cableway door appearing red.",
+        "Fixed the Minitemporium in the Nuru Lodge working as a Co-op shop instead of a single player one.",
+        "Fixed a case with the new reporting feature where the reasons “RMT” or “Other” couldn’t be selected, and other reasons were giving an error.",
+        "Fixed some pointy shapes in Goolder’s model. Now it’s perfectly round and thicc.",
+        "Fixed a case where we could see the bait failing mid-air if we opened the menu right while starting to fish.",
+        "👥Fixed getting stuck in battle if the Hopeless Tonic gear triggered in the same turn that the Temtem carrying it was about to faint because of status condition Doom.",
+        "👥Fixed some differences between the mini-map and the actual locations."
+      ],
+      "improvements": [
+        "Tems avoiding damage due to a trait will no longer perform the animation of being hit."
+      ],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
     "name": "Temtem 0.6.15",
     "version": "0.6.15",
     "url": "https://crema.gg/temtem/temtem-0-6-15/",
