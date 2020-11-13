@@ -8163,34 +8163,23 @@
       "Animations for idle, physical attack, special attack, and one other were shown off on Twitter."
     ],
     "evolution": {
-      "stage": 2,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 57,
           "name": "Raiber",
           "stage": 1,
-          "levels": 15,
-          "trading": false,
-          "traitMapping": {
-            "Camaraderie": "Furor",
-            "Rested": "Demoralize"
-          }
-        },
-        {
-          "number": 58,
-          "name": "Raize",
-          "stage": 2,
           "levels": 25,
           "trading": false,
           "traitMapping": {
-            "Furor": "Prideful",
-            "Demoralize": "Motivator"
+            "Camaraderie": "Prideful",
+            "Rested": "Motivator"
           }
         },
         {
           "number": 59,
           "name": "Raican",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Prideful": "Prideful",
             "Motivator": "Motivator"
