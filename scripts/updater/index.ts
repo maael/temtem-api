@@ -17,7 +17,7 @@ async function processFiles(type: "data" | "public" | "codec-logs") {
   if (dataFiles.length) {
     log.info(`Staging ${type} files`, dataFiles);
     await dataGit.add(dataFiles);
-    log.info(`Commiting ${type} files`);
+    log.info(`Committing ${type} files`);
     await dataGit.commit(
       `${type}: 🤖 Automatically updating ${type} files`,
       dataFiles
