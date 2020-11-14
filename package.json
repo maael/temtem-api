@@ -19,7 +19,7 @@
     "tidy-assets": "npx ts-node --project scripts/tsconfig.json scripts/tidy-assets",
     "sync": "yarn data && yarn assets && yarn summary",
     "push": "npx ts-node --project scripts/tsconfig.json scripts/updater",
-    "sync:push": "yarn sync && yarn checker && yarn push"
+    "sync:push": "yarn data && yarn summary && yarn checker && yarn push"
   },
   "husky": {
     "hooks": {

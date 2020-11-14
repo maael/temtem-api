@@ -30,17 +30,6 @@ commands:
             - ./node_modules
             - ./.next/cache
           key: v3-dependencies-{{ checksum "yarn.lock" }}
-  failure_notification:
-    description: Send SMS on failure
-    steps:
-      - run:
-          name: Send Notification
-          command: |
-            curl -X POST -d "Body=Hi, $CIRCLE_PROJECT_REPONAME just failed to deploy. The commit was \"$(git log --format="%s%b" -n 1 $CIRCLE_SHA1)\" See $CIRCLE_BUILD_URL for the build." \
-              -d "From=CountDokku" -d "To=$NOTIFICATION_NUMBER_TO" \
-              "https://api.twilio.com/2010-04-01/Accounts/$TWILIO_SID/Messages" \
-              -u "$TWILIO_SID:$TWILIO_AUTH_TOKEN" || 0
-          when: on_fail
 
 jobs:
   all:
