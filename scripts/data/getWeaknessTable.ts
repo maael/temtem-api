@@ -4,13 +4,13 @@ import * as log from "../util/log";
 
 const ordering = [
   "Neutral",
-  "Fire",
+  "Wind",
+  "Earth",
   "Water",
+  "Fire",
   "Nature",
   "Electric",
-  "Earth",
   "Mental",
-  "Wind",
   "Digital",
   "Melee",
   "Crystal",
