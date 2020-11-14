@@ -96,13 +96,15 @@ export interface Temtem extends MinimalTemtem {
   renderAnimatedLumaImage: string;
 }
 
-function asyncGlob(path: string) {
+async function asyncGlob(p: string) {
   return new Promise<string[]>((resolve, reject) => {
-    glob(path, (err, matches) => {
+    glob(p, (err, matches) => {
       if (err) {
-        return reject(err);
+        reject(err);
+        return;
       }
-      return resolve(matches);
+      resolve(matches);
+      return;
     });
   });
 }

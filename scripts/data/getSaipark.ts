@@ -81,7 +81,7 @@ export default async function getSaipark() {
     const weekParts = items[0].week
       .toLowerCase()
       .split("week")
-      .map(i => parseInt(i.trim()));
+      .map(i => parseInt(i.trim(), 10));
     const weeks = weekParts[1];
     const startDate = add(week_1_2020_start, { weeks, days: 1 });
     const endDate = add(endOfWeek(startDate), { days: 1 });
