@@ -450,9 +450,16 @@ function getTechniqueTableType(caption: string) {
 
 function getGameDescription(html: string) {
   const $ = cheerio.load(html);
-  const text = $("#Description")
+  let potentialEl = $("#Description")
     .parent()
-    .next("table")
+    .next();
+  if (potentialEl[0].name !== "table") {
+    potentialEl = $(potentialEl).next();
+  }
+  if (potentialEl[0].name !== "table") {
+    return "";
+  }
+  const text = $(potentialEl)
     .find("i")
     .text()
     .trim();
