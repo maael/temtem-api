@@ -230,16 +230,7 @@ function getSynergyEffectType(text: string) {
 }
 
 function getDescription($: any) {
-  const description = $("#Description")
-    .parent()
-    .next()
+  return $(".mw-parser-output .infobox-table .infobox-centered i")
     .text()
     .trim();
-  return description === "Game Description[edit | edit source]"
-    ? $("#Game_Description")
-        .parent()
-        .next()
-        .text()
-        .trim()
-    : description;
 }
