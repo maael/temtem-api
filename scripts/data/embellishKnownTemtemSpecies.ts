@@ -1,5 +1,6 @@
 import path from "path";
 import cheerio from "cheerio";
+import glob from "glob";
 import * as log from "../util/log";
 import fetchHTML from "../util/fetchHTML";
 import { cleanToNumber } from "../util/cleaners";
@@ -95,16 +96,41 @@ export interface Temtem extends MinimalTemtem {
   renderAnimatedLumaImage: string;
 }
 
+function asyncGlob(path: string) {
+  return new Promise<string[]>((resolve, reject) => {
+    glob(path, (err, matches) => {
+      if (err) {
+        return reject(err);
+      }
+      return resolve(matches);
+    });
+  });
+}
+
 export default async function embellishKnownTemtemSpecies(
   ar: MinimalTemtem[]
 ): Promise<Temtem[] | undefined> {
   log.info(`Embellishing ${ar.length} tems`);
   try {
     const webpages = await fetchHTML("temtem", ar, "name", true);
+    const icons = await asyncGlob(
+      path.join(
+        __dirname,
+        "..",
+        "..",
+        "public",
+        "images",
+        "portraits",
+        "temtem",
+        "**/*.png"
+      )
+    );
     const result = webpages
       .map(({ item, html }) => {
         const catchRate = getCatchRate(html);
         const renderedImages = getRenderImages(html);
+        const icon = `/images/portraits/temtem/large/${item.name}.png`;
+        const lumaIcon = `/images/portraits/temtem/luma/large/${item.name}.png`;
         return {
           ...item,
           traits: getTraits(html),
@@ -115,8 +141,8 @@ export default async function embellishKnownTemtemSpecies(
           wikiPortraitUrlLarge: getWikiPortraitUrl(html),
           lumaWikiPortraitUrlLarge: getWikiLumaPortraitUrl(html),
           locations: getLocations(html),
-          icon: `/images/portraits/temtem/large/${item.name}.png`,
-          lumaIcon: `/images/portraits/temtem/luma/large/${item.name}.png`,
+          icon: icons.some(i => i.endsWith(icon)) ? icon : "",
+          lumaIcon: icons.some(i => i.endsWith(lumaIcon)) ? lumaIcon : "",
           genderRatio: getGenderRatio(html),
           catchRate,
           hatchMins: calculateHatchMins(catchRate),
