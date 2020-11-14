@@ -62,7 +62,6 @@ jobs:
       - checkout
       # - run:
       #     command: npx now --token $NOW_TOKEN  --prod
-      - failure_notification
 
   updater:
     docker:
