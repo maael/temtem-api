@@ -17759,167 +17759,43 @@
       "spdef": 31,
       "total": 359
     },
-    "traits": [
-      "Camaraderie",
-      "Caffeinated"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 76,
-        "inches": 29
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 45,
-        "lbs": 99
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Scratch",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Stare",
-        "source": "Levelling",
-        "levels": 3
-      },
-      {
-        "name": "Sand Splatter",
-        "source": "Levelling",
-        "levels": 7
-      },
-      {
-        "name": "Fire Flame",
-        "source": "Levelling",
-        "levels": 10
-      },
-      {
-        "name": "Head Ram",
-        "source": "Levelling",
-        "levels": 15
-      },
-      {
-        "name": "Embers",
-        "source": "Levelling",
-        "levels": 21
-      },
-      {
-        "name": "Wake Up",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Magma Cannon",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Earth Wave",
-        "source": "Breeding"
-      },
-      {
-        "name": "Extinction",
-        "source": "Breeding"
-      }
-    ],
-    "trivia": [
-      "Vulvir's name is derived from Vulcan (Roman God of fire) and hervir (boil in Spanish)."
-    ],
+    "techniques": [],
+    "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 138,
-          "name": "Vulvir",
-          "stage": 1,
-          "levels": 14,
-          "trading": false,
-          "traitMapping": {
-            "Camaraderie": "Pyromaniac",
-            "Caffeinated": "Individualist"
-          }
-        },
-        {
-          "number": 139,
-          "name": "Vulor",
-          "stage": 2,
-          "levels": 28,
-          "trading": false,
-          "traitMapping": {
-            "Pyromaniac": "Receptive",
-            "Individualist": "Vigorous"
-          }
-        },
-        {
-          "number": 140,
-          "name": "Vulcrane",
-          "stage": 3,
-          "traitMapping": {
-            "Receptive": "Receptive",
-            "Vigorous": "Vigorous"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/40/Vulvir.png",
-    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a2/LumaVulvir.png",
-    "locations": [
-      {
-        "location": "Anak Volcano",
-        "place": "",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "80%",
-        "level": "22 - 25",
-        "freetem": {
-          "minLevel": 22,
-          "maxLevel": 25,
-          "minPansuns": 73,
-          "maxPansuns": 80
-        }
-      },
-      {
-        "location": "Anak Caldera",
-        "place": "",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "80%",
-        "level": "30 - 35",
-        "freetem": {
-          "minLevel": 30,
-          "maxLevel": 35,
-          "minPansuns": 92,
-          "maxPansuns": 105
-        }
-      }
-    ],
+    "wikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "",
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Vulvir.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Vulvir.png",
     "genderRatio": {
-      "male": 60,
-      "female": 40
+      "male": 50,
+      "female": 50
     },
-    "catchRate": 125,
-    "hatchMins": 20,
-    "tvYields": {
-      "hp": 1,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0
-    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
     "gameDescription": "",
-    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c1/Vulvir_full_render.png",
-    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0a/Vulvir_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/ef/LumaVulvir_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7e/LumaVulvir_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Vulvir.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Vulvir.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Vulvir.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Vulvir.gif"
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 139,
@@ -18030,10 +17906,7 @@
           "stage": 1,
           "levels": 14,
           "trading": false,
-          "traitMapping": {
-            "Camaraderie": "Pyromaniac",
-            "Caffeinated": "Individualist"
-          }
+          "traitMapping": {}
         },
         {
           "number": 139,
@@ -18240,10 +18113,7 @@
           "stage": 1,
           "levels": 14,
           "trading": false,
-          "traitMapping": {
-            "Camaraderie": "Pyromaniac",
-            "Caffeinated": "Individualist"
-          }
+          "traitMapping": {}
         },
         {
           "number": 139,
