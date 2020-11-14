@@ -107,7 +107,7 @@ export default async function embellishTechniques(
           class: classField,
           classIcon: `/images/icons/technique/${classField}.png`,
           damage: cleanToNumber(getInfoBoxNumeric($, "Damage")),
-          staminaCost: cleanToNumber(getInfoBoxNumeric($, "Stamina Cost")),
+          staminaCost: cleanToNumber(getInfoBoxNumeric($, "STA Cost")),
           hold: cleanToNumber(hold),
           priority,
           priorityIcon: `/images/icons/priority/${priority}.png`,
