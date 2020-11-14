@@ -15,6 +15,7 @@ const week_1_2020_start = startOfWeek(
 interface Item {
   temtem: string;
   area: string;
+  areas: string[];
   week: string;
   tweet: string;
   ratePercent: number;
@@ -26,7 +27,7 @@ interface Item {
 function formatItem(item: Item) {
   return {
     temtem: item.temtem,
-    area: item.area,
+    areas: item.areas,
     ratePercent: item.ratePercent,
     lumaRate: item.lumaRate,
     minSvs: item.minSvs,
@@ -63,6 +64,7 @@ export default async function getSaipark() {
         return {
           temtem: data[0].text,
           area: data[1].text,
+          areas: data[1].text.split(",").map(a => a.trim()),
           week: data[6].text,
           tweet: data[6].href,
           ratePercent: parseFloat(data[2].text.replace("%", "")) || 100,
@@ -99,22 +101,10 @@ export default async function getSaipark() {
       tweet: items[0].tweet,
       land: items
         .filter(i =>
-          ["Hills", "Fields", "Caves"].some(l =>
-            i.area
-              .split(",")
-              .map(a => a.trim())
-              .includes(l)
-          )
+          ["Hills", "Fields", "Caves"].some(l => i.areas.includes(l))
         )
         .map(formatItem),
-      water: items
-        .filter(i =>
-          i.area
-            .split(",")
-            .map(a => a.trim())
-            .includes("Water")
-        )
-        .map(formatItem)
+      water: items.filter(i => i.areas.includes("Water")).map(formatItem)
     });
   }, []);
   return formatted;

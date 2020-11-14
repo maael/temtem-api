@@ -9,7 +9,7 @@
     "land": [
       {
         "temtem": "Momo",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 60,
         "lumaRate": 3,
         "minSvs": 0,
@@ -17,7 +17,7 @@
       },
       {
         "temtem": "Adoroboros",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 40,
         "lumaRate": 3,
         "minSvs": 0,
@@ -36,7 +36,7 @@
     "land": [
       {
         "temtem": "Osuchi",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 80,
         "lumaRate": 1,
         "minSvs": 28,
@@ -44,7 +44,7 @@
       },
       {
         "temtem": "Bunbun",
-        "area": "Fields",
+        "areas": ["Fields"],
         "ratePercent": 80,
         "lumaRate": 1,
         "minSvs": 28,
@@ -63,7 +63,7 @@
     "land": [
       {
         "temtem": "Kuri",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 50,
         "lumaRate": 4,
         "minSvs": 0,
@@ -71,7 +71,7 @@
       },
       {
         "temtem": "Occlura",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 50,
         "lumaRate": 4,
         "minSvs": 0,
@@ -90,7 +90,7 @@
     "land": [
       {
         "temtem": "Magmis",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 70,
         "lumaRate": 3,
         "minSvs": 0,
@@ -98,7 +98,7 @@
       },
       {
         "temtem": "Orphyll",
-        "area": "Fields",
+        "areas": ["Fields"],
         "ratePercent": 60,
         "lumaRate": 3,
         "minSvs": 0,
@@ -117,7 +117,7 @@
     "land": [
       {
         "temtem": "Mushi",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 70,
         "lumaRate": 1,
         "minSvs": 27,
@@ -127,7 +127,7 @@
     "water": [
       {
         "temtem": "Droply",
-        "area": "Water",
+        "areas": ["Water"],
         "ratePercent": 70,
         "lumaRate": 1,
         "minSvs": 30,
@@ -145,7 +145,7 @@
     "land": [
       {
         "temtem": "Ganki",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 80,
         "lumaRate": 4,
         "minSvs": 0,
@@ -155,7 +155,7 @@
     "water": [
       {
         "temtem": "Bigu",
-        "area": "Water",
+        "areas": ["Water"],
         "ratePercent": 80,
         "lumaRate": 3,
         "minSvs": 0,
@@ -173,7 +173,7 @@
     "land": [
       {
         "temtem": "Grumvel",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 29,
@@ -181,7 +181,7 @@
       },
       {
         "temtem": "Zizare",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 28,
@@ -200,7 +200,7 @@
     "land": [
       {
         "temtem": "Lapinite",
-        "area": "Fields",
+        "areas": ["Fields"],
         "ratePercent": 85,
         "lumaRate": 3,
         "minSvs": 0,
@@ -208,7 +208,7 @@
       },
       {
         "temtem": "Skail",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -227,7 +227,7 @@
     "land": [
       {
         "temtem": "Swali",
-        "area": "Fields",
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 29,
@@ -235,7 +235,7 @@
       },
       {
         "temtem": "Orphyll",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 29,
@@ -254,7 +254,7 @@
     "land": [
       {
         "temtem": "Goty",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -262,7 +262,7 @@
       },
       {
         "temtem": "Pycko",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 50,
         "lumaRate": 3,
         "minSvs": 0,
@@ -281,7 +281,7 @@
     "land": [
       {
         "temtem": "Hidody",
-        "area": "Fields",
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 27,
@@ -291,7 +291,7 @@
     "water": [
       {
         "temtem": "Fomu",
-        "area": "Water",
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 30,
@@ -309,7 +309,7 @@
     "land": [
       {
         "temtem": "Blooze",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 50,
         "lumaRate": 3,
         "minSvs": 0,
@@ -317,7 +317,7 @@
       },
       {
         "temtem": "Zephyruff",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 75,
         "lumaRate": 4,
         "minSvs": 0,
@@ -336,7 +336,7 @@
     "land": [
       {
         "temtem": "Kaku",
-        "area": "Fields",
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 29,
@@ -346,7 +346,7 @@
     "water": [
       {
         "temtem": "Umishi",
-        "area": "Water",
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 27,
@@ -364,7 +364,7 @@
     "land": [
       {
         "temtem": "Pigepic",
-        "area": "Fields, Hills",
+        "areas": ["Fields", "Hills"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -374,7 +374,7 @@
     "water": [
       {
         "temtem": "Kalazu",
-        "area": "Water",
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -392,7 +392,7 @@
     "land": [
       {
         "temtem": "Ganki",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 30,
@@ -402,7 +402,7 @@
     "water": [
       {
         "temtem": "Platypet",
-        "area": "Water",
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 27,
@@ -420,7 +420,7 @@
     "land": [
       {
         "temtem": "Paharo",
-        "area": "Fields, Hills",
+        "areas": ["Fields", "Hills"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -428,7 +428,7 @@
       },
       {
         "temtem": "Spriole",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -447,7 +447,7 @@
     "land": [
       {
         "temtem": "Tateru",
-        "area": "Fields, Hills",
+        "areas": ["Fields", "Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 30,
@@ -455,7 +455,7 @@
       },
       {
         "temtem": "Saipat",
-        "area": "Caves, Water",
+        "areas": ["Caves", "Water"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 27,
@@ -465,7 +465,7 @@
     "water": [
       {
         "temtem": "Saipat",
-        "area": "Caves, Water",
+        "areas": ["Caves", "Water"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 27,
@@ -483,7 +483,7 @@
     "land": [
       {
         "temtem": "Occlura",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 60,
         "lumaRate": 3,
         "minSvs": 0,
@@ -491,7 +491,7 @@
       },
       {
         "temtem": "Raiber",
-        "area": "Fields",
+        "areas": ["Fields"],
         "ratePercent": 50,
         "lumaRate": 3,
         "minSvs": 0,
@@ -510,7 +510,7 @@
     "land": [
       {
         "temtem": "Adoroboros",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 50,
         "lumaRate": 1,
         "minSvs": 27,
@@ -518,7 +518,7 @@
       },
       {
         "temtem": "Banapi",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 31,
@@ -537,7 +537,7 @@
     "land": [
       {
         "temtem": "Kaku",
-        "area": "Fields",
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -545,7 +545,7 @@
       },
       {
         "temtem": "Hidody",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 75,
         "lumaRate": 2,
         "minSvs": 0,
@@ -564,7 +564,7 @@
     "land": [
       {
         "temtem": "Ganki",
-        "area": "Fields, Hills",
+        "areas": ["Fields", "Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 28,
@@ -572,7 +572,7 @@
       },
       {
         "temtem": "Umishi",
-        "area": "Caves, Water",
+        "areas": ["Caves", "Water"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 28,
@@ -582,7 +582,7 @@
     "water": [
       {
         "temtem": "Umishi",
-        "area": "Caves, Water",
+        "areas": ["Caves", "Water"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 28,
@@ -600,7 +600,7 @@
     "land": [
       {
         "temtem": "Tuwai",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 20,
         "lumaRate": 3,
         "minSvs": 0,
@@ -608,7 +608,7 @@
       },
       {
         "temtem": "Shuine",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 20,
         "lumaRate": 3,
         "minSvs": 0,
@@ -627,7 +627,7 @@
     "land": [
       {
         "temtem": "Skail",
-        "area": "Fields",
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 30,
@@ -635,7 +635,7 @@
       },
       {
         "temtem": "Zephyruff",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 24,
@@ -654,7 +654,7 @@
     "land": [
       {
         "temtem": "Valash",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 40,
         "lumaRate": 2,
         "minSvs": 0,
@@ -664,7 +664,7 @@
     "water": [
       {
         "temtem": "Nessla",
-        "area": "Water",
+        "areas": ["Water"],
         "ratePercent": 40,
         "lumaRate": 2,
         "minSvs": 0,
@@ -682,7 +682,7 @@
     "land": [
       {
         "temtem": "Loali",
-        "area": "Fields",
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 28,
@@ -690,7 +690,7 @@
       },
       {
         "temtem": "Vulor",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 90,
         "lumaRate": 1,
         "minSvs": 30,
@@ -709,7 +709,7 @@
     "land": [
       {
         "temtem": "Tateru",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 85,
         "lumaRate": 3,
         "minSvs": 0,
@@ -717,7 +717,7 @@
       },
       {
         "temtem": "Pewki",
-        "area": "Caves, Water",
+        "areas": ["Caves", "Water"],
         "ratePercent": 75,
         "lumaRate": 2.5,
         "minSvs": 0,
@@ -727,7 +727,7 @@
     "water": [
       {
         "temtem": "Pewki",
-        "area": "Caves, Water",
+        "areas": ["Caves", "Water"],
         "ratePercent": 75,
         "lumaRate": 2.5,
         "minSvs": 0,
@@ -745,7 +745,7 @@
     "land": [
       {
         "temtem": "Pigepic",
-        "area": "Fields",
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 22,
@@ -753,7 +753,7 @@
       },
       {
         "temtem": "Hidody",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 70,
         "lumaRate": 1,
         "minSvs": 26,
@@ -772,7 +772,7 @@
     "land": [
       {
         "temtem": "Fomu",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -782,7 +782,7 @@
     "water": [
       {
         "temtem": "Umishi",
-        "area": "Water",
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -800,7 +800,7 @@
     "land": [
       {
         "temtem": "Gyalis",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 25,
         "lumaRate": 1,
         "minSvs": 20,
@@ -808,7 +808,7 @@
       },
       {
         "temtem": "Orphyll",
-        "area": "Fields",
+        "areas": ["Fields"],
         "ratePercent": 80,
         "lumaRate": 1,
         "minSvs": 27,
@@ -827,7 +827,7 @@
     "land": [
       {
         "temtem": "Banapi",
-        "area": "Fields, Hills",
+        "areas": ["Fields", "Hills"],
         "ratePercent": 100,
         "lumaRate": 2,
         "minSvs": 0,
@@ -837,7 +837,7 @@
     "water": [
       {
         "temtem": "Bigu",
-        "area": "Water",
+        "areas": ["Water"],
         "ratePercent": 55,
         "lumaRate": 2,
         "minSvs": 0,
@@ -855,7 +855,7 @@
     "land": [
       {
         "temtem": "Kaku",
-        "area": "Fields",
+        "areas": ["Fields"],
         "ratePercent": 90,
         "lumaRate": 1,
         "minSvs": 26,
@@ -863,7 +863,7 @@
       },
       {
         "temtem": "Lapinite",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 24,
@@ -882,7 +882,7 @@
     "land": [
       {
         "temtem": "Bunbun",
-        "area": "Fields",
+        "areas": ["Fields"],
         "ratePercent": 50,
         "lumaRate": 2,
         "minSvs": 10,
@@ -890,7 +890,7 @@
       },
       {
         "temtem": "Mudrid",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 50,
         "lumaRate": 3,
         "minSvs": 0,
@@ -909,7 +909,7 @@
     "land": [
       {
         "temtem": "Toxolotl",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -919,7 +919,7 @@
     "water": [
       {
         "temtem": "Platypet",
-        "area": "Water",
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 2.5,
         "minSvs": 0,
@@ -937,7 +937,7 @@
     "land": [
       {
         "temtem": "Paharo",
-        "area": "Fields, Hills",
+        "areas": ["Fields", "Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 203,
@@ -945,7 +945,7 @@
       },
       {
         "temtem": "Magmis",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 90,
         "lumaRate": 1,
         "minSvs": 175,
@@ -964,7 +964,7 @@
     "land": [
       {
         "temtem": "Mushi",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 80,
         "lumaRate": 3,
         "minSvs": 0,
@@ -972,7 +972,7 @@
       },
       {
         "temtem": "Adoroboros",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 70,
         "lumaRate": 2,
         "minSvs": 0,
@@ -991,7 +991,7 @@
     "land": [
       {
         "temtem": "Blooze",
-        "area": "Caves",
+        "areas": ["Caves"],
         "ratePercent": 85,
         "lumaRate": 1,
         "minSvs": 147,
@@ -999,7 +999,7 @@
       },
       {
         "temtem": "Deendre",
-        "area": "Fields",
+        "areas": ["Fields"],
         "ratePercent": 75,
         "lumaRate": 1,
         "minSvs": 168,
@@ -1018,7 +1018,7 @@
     "land": [
       {
         "temtem": "Ganki",
-        "area": "Hills",
+        "areas": ["Hills"],
         "ratePercent": 85,
         "lumaRate": 2.5,
         "minSvs": 0,
@@ -1026,7 +1026,7 @@
       },
       {
         "temtem": "Saipat",
-        "area": "Fields, Water",
+        "areas": ["Fields", "Water"],
         "ratePercent": 100,
         "lumaRate": 2.5,
         "minSvs": 0,
@@ -1036,7 +1036,7 @@
     "water": [
       {
         "temtem": "Saipat",
-        "area": "Fields, Water",
+        "areas": ["Fields", "Water"],
         "ratePercent": 100,
         "lumaRate": 2.5,
         "minSvs": 0,
@@ -1054,7 +1054,7 @@
     "land": [
       {
         "temtem": "Raiber",
-        "area": "Fields, Hills",
+        "areas": ["Fields", "Hills"],
         "ratePercent": 65,
         "lumaRate": 1,
         "minSvs": 160,
@@ -1064,7 +1064,7 @@
     "water": [
       {
         "temtem": "Kalazu",
-        "area": "Water",
+        "areas": ["Water"],
         "ratePercent": 75,
         "lumaRate": 1,
         "minSvs": 190,
@@ -1082,7 +1082,7 @@
     "land": [
       {
         "temtem": "Barnshe",
-        "area": "Caves, Hills",
+        "areas": ["Caves", "Hills"],
         "ratePercent": 30,
         "lumaRate": 2,
         "minSvs": 0,
@@ -1092,7 +1092,7 @@
     "water": [
       {
         "temtem": "Oceara",
-        "area": "Water",
+        "areas": ["Water"],
         "ratePercent": 30,
         "lumaRate": 2,
         "minSvs": 0,

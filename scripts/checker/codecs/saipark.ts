@@ -2,7 +2,7 @@ import * as t from "io-ts";
 
 const AreaInfo = t.type({
   temtem: t.string,
-  area: t.string,
+  areas: t.array(t.string),
   ratePercent: t.number,
   lumaRate: t.number,
   minSvs: t.number,
