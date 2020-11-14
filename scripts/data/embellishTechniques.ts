@@ -36,7 +36,25 @@ export interface Technique extends MinimalTechnique {
   description: string;
 }
 
-function getInfoBox($: any, str: string): string {
+function getInfoBox($: CheerioStatic, str: string, idx: number = 0): string {
+  let found = $(".infobox-row-name").filter((_i, el) => {
+    return (
+      $(el)
+        .text()
+        .trim()
+        .toLowerCase() === str.toLowerCase()
+    );
+  });
+  if (idx) {
+    found = found.get(idx);
+  }
+  return (idx ? $(found) : found)
+    .next(".infobox-row-value")
+    .text()
+    .trim();
+}
+
+function getInfoBoxEl($: CheerioStatic, str: string): Cheerio {
   return $(".infobox-row-name")
     .filter((_i, el) => {
       return (
@@ -46,13 +64,15 @@ function getInfoBox($: any, str: string): string {
           .toLowerCase() === str.toLowerCase()
       );
     })
-    .next(".infobox-row-value")
-    .text()
-    .trim();
+    .next(".infobox-row-value");
 }
 
-function getInfoBoxNumeric($: any, str: string): string | number {
-  const text = getInfoBox($, str);
+function getInfoBoxNumeric(
+  $: any,
+  str: string,
+  idx: number = 0
+): string | number {
+  const text = getInfoBox($, str, idx);
   return isNaN(parseInt(text, 10)) ? text : parseInt(text, 10);
 }
 
@@ -164,29 +184,61 @@ function getEffectsFromText(text: string, conditions: Condition[]) {
 }
 
 function getSynergyData($: CheerioStatic) {
-  const synergyEffects = getInfoBox($, "Synergy Effect")
-    .split("\n")
-    .map(e => e.split(","))
-    .reduce((acc, pre) => [...acc, ...pre], [])
-    .map(e => e.trim())
-    .filter(e => e && !["-", "?"].includes(e));
+  const effectsEl = getInfoBoxEl($, "Effects");
+  const effectIcon = (
+    $(effectsEl)
+      .find("a")
+      .last()
+      .attr("href") || ""
+  )
+    .replace(/^\/File:/, "")
+    .replace(/\.png$/, "")
+    .toLowerCase();
+  const synergyEffect = effectsEl.text().trim();
+  const synergyEffectObj = synergyEffect
+    ? [processSynergyEffect(synergyEffect, effectIcon)]
+    : [];
+  const damage = cleanToNumber(getInfoBoxNumeric($, "Damage", 1));
+  const damageObj = damage
+    ? [{ damage, type: SynergyType.DAMAGE, effect: `+${damage} Damage` }]
+    : [];
+  const staminaCost = cleanToNumber(getInfoBoxNumeric($, "STA Cost", 1));
+  const staminaCostObj = staminaCost
+    ? [{ damage, type: SynergyType.BUFF, effect: `${staminaCost} STA Cost` }]
+    : [];
   return {
-    synergy: getInfoBox($, "Synergy"),
-    synergyEffects: synergyEffects.map(processSynergyEffect)
+    synergy: getInfoBox($, "Synergy") || "None",
+    synergyEffects: synergyEffectObj.concat(damageObj).concat(staminaCostObj)
   };
 }
 
-function processSynergyEffect(text: string) {
+function countOccurances(str: string, type: "buff" | "debuff") {
+  let num = 0;
+  if (type === "buff") {
+    num = (str.match(/up/g) || []).length;
+  } else {
+    num = (str.match(/down/g) || []).length;
+  }
+  return (num ? `${type === "buff" ? "+" : "-"}${num}` : "").trim();
+}
+
+function processSynergyEffect(text: string, icon: string) {
   const synergyEffectNumeric = isNaN(parseInt(text, 10))
     ? text
     : parseInt(text, 10);
-  const type = getSynergyEffectType(text);
+  const type = getSynergyEffectType(text, icon);
   const cleanedSynergyEffect =
     typeof synergyEffectNumeric === "string"
       ? synergyEffectNumeric.replace(/^\-$/, "")
       : synergyEffectNumeric;
+  const numericModifier =
+    type === "buff"
+      ? countOccurances(icon, "buff")
+      : type === "debuff"
+      ? countOccurances(icon, "debuff")
+      : "";
   return {
-    effect: text,
+    effect: `${numericModifier} ${text}`.trim(),
     type,
     damage:
       type === SynergyType.DAMAGE
@@ -197,7 +249,9 @@ function processSynergyEffect(text: string) {
   };
 }
 
-function getSynergyEffectType(text: string) {
+const statNames = ["hp", "sta", "spd", "atk", "def", "spatk", "spdef"];
+
+function getSynergyEffectType(text: string, icon: string) {
   const ltext = text.toLowerCase();
   if (
     ltext.includes("damage") ||
@@ -213,18 +267,15 @@ function getSynergyEffectType(text: string) {
     ltext.includes("turn")
   ) {
     return SynergyType.CONDITION;
+  } else if (statNames.some(n => ltext.includes(n)) && icon.includes("down")) {
+    return SynergyType.DEBUFF;
   } else if (
-    ltext.includes("stamina") ||
-    ltext.includes("sta") ||
-    (ltext.includes("spd") && ltext.includes("+"))
+    statNames.some(n => ltext.includes(n)) &&
+    (icon.includes("up") || ltext.includes("recover"))
   ) {
     return SynergyType.BUFF;
-  } else if (
-    ltext.includes("targets get") ||
-    (ltext.includes("spd") && ltext.includes("-"))
-  ) {
-    return SynergyType.DEBUFF;
   } else {
+    console.warn("[FAILED]", text, icon);
     return SynergyType.UNKNOWN;
   }
 }
