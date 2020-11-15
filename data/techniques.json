@@ -974,8 +974,14 @@
     "synergyEffects": [],
     "targets": "All",
     "description": "A bone-dry technique that leaves every Temtem on the battlefield for 2 turns, and the attacker overextended next turn.",
-    "effectText": "Drought causes all Temtem to get the Exhausted Condition, and 2 turns, and leaves the user overexerted next turn.",
-    "effects": []
+    "effectText": "Drought causes all Temtem to get the Exhausted Condition for 2 turns, and leaves the user overexerted next turn.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 2,
+        "condition": "Exhausted"
+      }
+    ]
   },
   {
     "name": "Dust Vortex",
