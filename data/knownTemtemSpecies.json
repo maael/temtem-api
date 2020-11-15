@@ -18232,7 +18232,7 @@
       "Vulcrane's name is derived from Vulcan (Roman God of fire) and Cráneo (cranium in Spanish)."
     ],
     "evolution": {
-      "stage": 3,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 138,
@@ -18252,17 +18252,8 @@
           "levels": 28,
           "trading": false,
           "traitMapping": {
-            "Pyromaniac": "Receptive",
-            "Individualist": "Vigorous"
-          }
-        },
-        {
-          "number": 140,
-          "name": "Vulcrane",
-          "stage": 3,
-          "traitMapping": {
-            "Receptive": "Receptive",
-            "Vigorous": "Vigorous"
+            "Pyromaniac": "Pyromaniac",
+            "Individualist": "Individualist"
           }
         }
       ],
