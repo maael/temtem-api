@@ -4234,9 +4234,9 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
-    "description": "",
-    "effectText": "Undermine deals damage to the opposing Temtem or the user's ally.",
+    "targets": "Single Other Target",
+    "description": "Leave your opponent heavily damaged and treading on very thin ice, giving it SPATK .",
+    "effectText": "Undermine deals damage to a single target.",
     "effects": []
   },
   {
@@ -4588,8 +4588,8 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
-    "description": "",
+    "targets": "All",
+    "description": "A wintry sonata that leaves all Temtem in the battlefield as Cold as the Kilima snows.",
     "effectText": "Winter Call inflicts Cold Condition on all targets on the battlefield for 2 turns.",
     "effects": []
   }
