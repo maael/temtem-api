@@ -11021,31 +11021,7 @@
       "Mushook's name is derived from mushroom and hook."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 84,
-          "name": "Mushi",
-          "stage": 1,
-          "levels": 20,
-          "trading": false,
-          "traitMapping": {
-            "Resistant": "Parrier",
-            "Resilient": "Tireless"
-          }
-        },
-        {
-          "number": 85,
-          "name": "Mushook",
-          "stage": 2,
-          "traitMapping": {
-            "Parrier": "Parrier",
-            "Tireless": "Tireless"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/90/Mushook.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b8/LumaMushook.png",
