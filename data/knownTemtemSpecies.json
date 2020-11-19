@@ -8454,34 +8454,11 @@
     ],
     "trivia": [
       "Pewki's name is derived from pewa (dorsal fin in Hawaiian) and iki (small in Hawaiian)",
-      "Pewki has the lowest base stat total of all Temtem at 263 and the lowest base Special Defense of all Temtem at 10."
+      "Pewki has the lowest base stat total of all Temtem at 263 and the lowest base Special Defense of all Temtem at 10.\nIn addition, it is tied with Goolder for having the lowest single base stat of any Temtem.",
+      "In addition, it is tied with Goolder for having the lowest single base stat of any Temtem."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 60,
-          "name": "Pewki",
-          "stage": 1,
-          "levels": 13,
-          "trading": false,
-          "traitMapping": {
-            "Hydrologist": "Patient",
-            "Rested": "Energy Reserves"
-          }
-        },
-        {
-          "number": 61,
-          "name": "Piraniant",
-          "stage": 2,
-          "traitMapping": {
-            "Patient": "Patient",
-            "Energy Reserves": "Energy Reserves"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/86/Pewki.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/61/LumaPewki.png",
@@ -13003,31 +12980,7 @@
       "Kauren's name is derived from Kura (hyena in Hausa) and Hauren giwa (ivory in Hausa)."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 100,
-          "name": "Kuri",
-          "stage": 1,
-          "levels": 16,
-          "trading": false,
-          "traitMapping": {
-            "Camaraderie": "Scavenger",
-            "Callosity": "Skull Helmet"
-          }
-        },
-        {
-          "number": 101,
-          "name": "Kauren",
-          "stage": 2,
-          "traitMapping": {
-            "Scavenger": "Scavenger",
-            "Skull Helmet": "Skull Helmet"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/09/Kauren.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2b/LumaKauren.png",
@@ -19160,7 +19113,10 @@
     ],
     "trivia": [],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6a/Koish.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ae/LumaKoish.png",
