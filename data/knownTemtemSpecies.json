@@ -2441,31 +2441,7 @@
       "Mudrid's name is derived from mud and leoporid (rabbits family scientific name)."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 21,
-          "name": "Bunbun",
-          "stage": 1,
-          "levels": 20,
-          "trading": false,
-          "traitMapping": {
-            "Caffeinated": "Receptive",
-            "Resilient": "Resistant"
-          }
-        },
-        {
-          "number": 22,
-          "name": "Mudrid",
-          "stage": 2,
-          "traitMapping": {
-            "Receptive": "Receptive",
-            "Resistant": "Resistant"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f5/Mudrid.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6c/LumaMudrid.png",
@@ -3018,31 +2994,7 @@
       "Due to its first appearance as a cropped picture in the competitive set-up screen (top left, under the player avatar), users in the official Discord attempted to draw out the rest of the creature. Among the drawings, a bird with human-like legs became popular, and thus the name \"Legbird\" was coined."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 25,
-          "name": "Fomu",
-          "stage": 1,
-          "levels": 20,
-          "trading": false,
-          "traitMapping": {
-            "Amphibian": "Plethoric",
-            "Hydrologist": "Patient"
-          }
-        },
-        {
-          "number": 26,
-          "name": "Wiplump",
-          "stage": 2,
-          "traitMapping": {
-            "Plethoric": "Plethoric",
-            "Patient": "Patient"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/76/Fomu.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4e/LumaFomu.png",
@@ -3226,7 +3178,31 @@
       "Wiplump's name is derived from wing and plump."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 2,
+      "evolutionTree": [
+        {
+          "number": 25,
+          "name": "Fomu",
+          "stage": 1,
+          "levels": 20,
+          "trading": false,
+          "traitMapping": {
+            "Amphibian": "Plethoric",
+            "Hydrologist": "Patient"
+          }
+        },
+        {
+          "number": 26,
+          "name": "Wiplump",
+          "stage": 2,
+          "traitMapping": {
+            "Plethoric": "Plethoric",
+            "Patient": "Patient"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f7/Wiplump.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/66/LumaWiplump.png",
@@ -4536,34 +4512,23 @@
       "Tental's name is derived from tentacle and mental."
     ],
     "evolution": {
-      "stage": 2,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 32,
           "name": "Houchic",
           "stage": 1,
-          "levels": 29,
-          "trading": false,
-          "traitMapping": {
-            "Mental Alliance": "Avenger",
-            "Soft Touch": "Water Affinity"
-          }
-        },
-        {
-          "number": 33,
-          "name": "Tental",
-          "stage": 2,
           "levels": 24,
           "trading": false,
           "traitMapping": {
-            "Avenger": "Deceit Aura",
-            "Water Affinity": "Water Custodian"
+            "Mental Alliance": "Deceit Aura",
+            "Soft Touch": "Water Custodian"
           }
         },
         {
           "number": 34,
           "name": "Nagaise",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Deceit Aura": "Deceit Aura",
             "Water Custodian": "Water Custodian"
@@ -6596,31 +6561,7 @@
       "The Temtem Discord community created \"cults\" worshipping Saku and Pigepic. The official Twitter account for Temtem later created a tweet pitting the “Sakult” and “Team Porket” against each other. The Sakult is currently the winner."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 48,
-          "name": "Kaku",
-          "stage": 1,
-          "levels": 11,
-          "trading": false,
-          "traitMapping": {
-            "Caffeinated": "Air Specialist",
-            "Mithridatism": "Botanist"
-          }
-        },
-        {
-          "number": 49,
-          "name": "Saku",
-          "stage": 2,
-          "traitMapping": {
-            "Air Specialist": "Air Specialist",
-            "Botanist": "Botanist"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2a/Saku.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b7/LumaSaku.png",
@@ -7576,23 +7517,12 @@
       "Raiber was first revealed as a mention on a Twitter post about Raican."
     ],
     "evolution": {
-      "stage": 1,
+      "stage": 0,
       "evolutionTree": [
-        {
-          "number": 57,
-          "name": "Raiber",
-          "stage": 1,
-          "levels": 15,
-          "trading": false,
-          "traitMapping": {
-            "Camaraderie": "Furor",
-            "Rested": "Demoralize"
-          }
-        },
         {
           "number": 58,
           "name": "Raize",
-          "stage": 2,
+          "stage": 1,
           "levels": 25,
           "trading": false,
           "traitMapping": {
@@ -7603,7 +7533,7 @@
         {
           "number": 59,
           "name": "Raican",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Prideful": "Prideful",
             "Motivator": "Motivator"
@@ -8421,12 +8351,23 @@
       "Osuchi's name is derived from Osu (Japanese expression for martial arts) and Chi (earth in Japanese)."
     ],
     "evolution": {
-      "stage": 0,
+      "stage": 1,
       "evolutionTree": [
+        {
+          "number": 66,
+          "name": "Osuchi",
+          "stage": 1,
+          "levels": 12,
+          "trading": false,
+          "traitMapping": {
+            "Caffeinated": "Furor",
+            "Brawny": "Parrier"
+          }
+        },
         {
           "number": 67,
           "name": "Osukan",
-          "stage": 1,
+          "stage": 2,
           "levels": 14,
           "trading": false,
           "traitMapping": {
@@ -8437,7 +8378,7 @@
         {
           "number": 68,
           "name": "Osukai",
-          "stage": 2,
+          "stage": 3,
           "traitMapping": {
             "Sensei": "Sensei",
             "Body Stretch": "Body Stretch"
@@ -9343,31 +9284,7 @@
       "Drakash's name is derived from Draak (dragon in Afrikaans) and Ash."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 70,
-          "name": "Pycko",
-          "stage": 1,
-          "levels": 14,
-          "trading": false,
-          "traitMapping": {
-            "Furor": "Heat Discharge",
-            "Tireless": "Sentinel"
-          }
-        },
-        {
-          "number": 71,
-          "name": "Drakash",
-          "stage": 2,
-          "traitMapping": {
-            "Heat Discharge": "Heat Discharge",
-            "Sentinel": "Sentinel"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/40/Drakash.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/LumaDrakash.png",
@@ -10100,31 +10017,7 @@
       "Pocus' name is derived from Hocus Pocus (a common phrase attributed to magicians and witches)."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 79,
-          "name": "Hocus",
-          "stage": 1,
-          "levels": 21,
-          "trading": false,
-          "traitMapping": {
-            "Soft Touch": "Dreaded Alarm",
-            "Mirroring": "Rejuvenate"
-          }
-        },
-        {
-          "number": 80,
-          "name": "Pocus",
-          "stage": 2,
-          "traitMapping": {
-            "Dreaded Alarm": "Dreaded Alarm",
-            "Rejuvenate": "Rejuvenate"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fb/Pocus.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e5/LumaPocus.png",
@@ -10643,7 +10536,31 @@
       "Magmis was the first Temtem with a confirmed evolution."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 86,
+          "name": "Magmis",
+          "stage": 1,
+          "levels": 16,
+          "trading": false,
+          "traitMapping": {
+            "Caffeinated": "Bully",
+            "Thick Skin": "Pyromaniac"
+          }
+        },
+        {
+          "number": 87,
+          "name": "Mastione",
+          "stage": 2,
+          "traitMapping": {
+            "Bully": "Bully",
+            "Pyromaniac": "Pyromaniac"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5d/Magmis.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0a/LumaMagmis.png",
@@ -11429,23 +11346,12 @@
       "Smazee's name is derived from smack and chimpanzee."
     ],
     "evolution": {
-      "stage": 1,
+      "stage": 0,
       "evolutionTree": [
-        {
-          "number": 92,
-          "name": "Smazee",
-          "stage": 1,
-          "levels": 29,
-          "trading": false,
-          "traitMapping": {
-            "Fever Rush": "Brawny",
-            "Friendship": "Warm-Blooded"
-          }
-        },
         {
           "number": 93,
           "name": "Baboong",
-          "stage": 2,
+          "stage": 1,
           "levels": 23,
           "trading": false,
           "traitMapping": {
@@ -11456,7 +11362,7 @@
         {
           "number": 94,
           "name": "Seismunch",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Self-Esteem": "Self-Esteem",
             "Earthbound": "Earthbound"
@@ -14333,31 +14239,7 @@
       "Grumper's name is derived from Grumpy and Thunder."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 111,
-          "name": "Grumvel",
-          "stage": 1,
-          "levels": 16,
-          "trading": false,
-          "traitMapping": {
-            "Energy Reserves": "Inductor",
-            "Settling": "Coward's Rest"
-          }
-        },
-        {
-          "number": 112,
-          "name": "Grumper",
-          "stage": 2,
-          "traitMapping": {
-            "Inductor": "Inductor",
-            "Coward's Rest": "Coward's Rest"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b0/Grumper.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9c/LumaGrumper.png",
@@ -15783,31 +15665,7 @@
       "Kalazu's name was suggested by the discord user Yobri#7969 in the naming suggestion poll from August 14."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 127,
-          "name": "Kalazu",
-          "stage": 1,
-          "levels": 18,
-          "trading": false,
-          "traitMapping": {
-            "Mithridatism": "Toxic Skin",
-            "Hydrologist": "Mucous"
-          }
-        },
-        {
-          "number": 128,
-          "name": "Kalabyss",
-          "stage": 2,
-          "traitMapping": {
-            "Toxic Skin": "Toxic Skin",
-            "Mucous": "Mucous"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fc/Kalazu.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/75/LumaKalazu.png",
