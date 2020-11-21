@@ -70,7 +70,27 @@
       "Oree was the first Digital Temtem to appear in the game."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 2,
+          "name": "Oree",
+          "stage": 1,
+          "traitMapping": {
+            "Attack T": "Attack T"
+          }
+        },
+        {
+          "number": 3,
+          "name": "Zaobian",
+          "stage": 2,
+          "traitMapping": {
+            "Attack T": "Attack T"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/99/Oree.png",
     "lumaWikiPortraitUrlLarge": "",
@@ -312,23 +332,12 @@
       "Platypet has the lowest Defense stat of all currently available Temtem."
     ],
     "evolution": {
-      "stage": 1,
+      "stage": 0,
       "evolutionTree": [
-        {
-          "number": 7,
-          "name": "Platypet",
-          "stage": 1,
-          "levels": 20,
-          "trading": false,
-          "traitMapping": {
-            "Toxic Affinity": "Resistant",
-            "Amphibian": "Resilient"
-          }
-        },
         {
           "number": 8,
           "name": "Platox",
-          "stage": 2,
+          "stage": 1,
           "levels": 20,
           "trading": false,
           "traitMapping": {
@@ -339,7 +348,7 @@
         {
           "number": 9,
           "name": "Platimous",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Zen": "Zen",
             "Determined": "Determined"
@@ -1688,34 +1697,23 @@
       "There's a home in Arissola where a Luma Paharac sits near the other end of the home."
     ],
     "evolution": {
-      "stage": 2,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 16,
           "name": "Paharo",
           "stage": 1,
-          "levels": 7,
-          "trading": false,
-          "traitMapping": {
-            "Hover": "Caffeinated",
-            "Friendship": "Camaraderie"
-          }
-        },
-        {
-          "number": 17,
-          "name": "Paharac",
-          "stage": 2,
           "levels": 16,
           "trading": false,
           "traitMapping": {
-            "Caffeinated": "Last Rush",
-            "Camaraderie": "Bully"
+            "Hover": "Last Rush",
+            "Friendship": "Bully"
           }
         },
         {
           "number": 18,
           "name": "Granpah",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Last Rush": "Last Rush",
             "Bully": "Bully"
@@ -2253,7 +2251,31 @@
       "Bunbun's name is derived from bùn (Vietnamese for mud) and bunny."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 21,
+          "name": "Bunbun",
+          "stage": 1,
+          "levels": 20,
+          "trading": false,
+          "traitMapping": {
+            "Caffeinated": "Receptive",
+            "Resilient": "Resistant"
+          }
+        },
+        {
+          "number": 22,
+          "name": "Mudrid",
+          "stage": 2,
+          "traitMapping": {
+            "Receptive": "Receptive",
+            "Resistant": "Resistant"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/38/Bunbun.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c7/LumaBunbun.png",
@@ -2846,31 +2868,7 @@
       "The Taifu traded has the same Gender, Level, SVs and remaining Fertility."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 23,
-          "name": "Hidody",
-          "stage": 1,
-          "levels": 15,
-          "trading": false,
-          "traitMapping": {
-            "Electric Synthesize": "Toxic Farewell",
-            "Botanist": "Resilient"
-          }
-        },
-        {
-          "number": 24,
-          "name": "Taifu",
-          "stage": 2,
-          "traitMapping": {
-            "Toxic Farewell": "Toxic Farewell",
-            "Resilient": "Resilient"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/36/Taifu.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/45/LumaTaifu.png",
@@ -3228,31 +3226,7 @@
       "Wiplump's name is derived from wing and plump."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 25,
-          "name": "Fomu",
-          "stage": 1,
-          "levels": 20,
-          "trading": false,
-          "traitMapping": {
-            "Amphibian": "Plethoric",
-            "Hydrologist": "Patient"
-          }
-        },
-        {
-          "number": 26,
-          "name": "Wiplump",
-          "stage": 2,
-          "traitMapping": {
-            "Plethoric": "Plethoric",
-            "Patient": "Patient"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f7/Wiplump.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/66/LumaWiplump.png",
@@ -5737,7 +5711,7 @@
       "Azuroc's name is derived from azure and rock."
     ],
     "evolution": {
-      "stage": 2,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 39,
@@ -5746,28 +5720,19 @@
           "levels": 25,
           "trading": false,
           "traitMapping": {
-            "Scavenger": "Mirroring",
-            "Electric Synthesize": "Fainted Curse"
-          }
-        },
-        {
-          "number": 40,
-          "name": "Azuroc",
-          "stage": 2,
-          "traitMapping": {
-            "Mirroring": "Mirroring",
-            "Fainted Curse": "Fainted Curse"
+            "Scavenger": "Scavenger",
+            "Electric Synthesize": "Electric Synthesize"
           }
         },
         {
           "number": -1,
           "name": "Trade",
-          "stage": 3
+          "stage": 2
         },
         {
           "number": 41,
           "name": "Zenoreth",
-          "stage": 4,
+          "stage": 3,
           "traitMapping": {
             "Channeler": "Channeler",
             "Wrecked Farewell": "Wrecked Farewell"
@@ -6074,31 +6039,7 @@
       "Bigu plays a role in the Temtem Connoisseur side-quest."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 44,
-          "name": "Bigu",
-          "stage": 1,
-          "levels": 18,
-          "trading": false,
-          "traitMapping": {
-            "Warm-Blooded": "Mucous",
-            "Amphibian": "Withdrawal"
-          }
-        },
-        {
-          "number": 45,
-          "name": "Babawa",
-          "stage": 2,
-          "traitMapping": {
-            "Mucous": "Mucous",
-            "Withdrawal": "Withdrawal"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/09/Bigu.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/27/LumaBigu.png",
@@ -6877,7 +6818,10 @@
       "A level 35 Valash is gifted to the player as a part of the main story questline Shipwrecked in Tucma!"
     ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/80/Valash.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/42/LumaValash.png",
@@ -7521,31 +7465,7 @@
       "Myx's name is derived from Mystic and Nyx (the female personification of the night, daughter of Chaos)."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 55,
-          "name": "Occlura",
-          "stage": 1,
-          "levels": 18,
-          "trading": false,
-          "traitMapping": {
-            "Warm-Blooded": "Puppet Master",
-            "Scavenger": "Rejuvenate"
-          }
-        },
-        {
-          "number": 56,
-          "name": "Myx",
-          "stage": 2,
-          "traitMapping": {
-            "Puppet Master": "Puppet Master",
-            "Rejuvenate": "Rejuvenate"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/07/Myx.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6b/LumaMyx.png",
@@ -8501,23 +8421,12 @@
       "Osuchi's name is derived from Osu (Japanese expression for martial arts) and Chi (earth in Japanese)."
     ],
     "evolution": {
-      "stage": 1,
+      "stage": 0,
       "evolutionTree": [
-        {
-          "number": 66,
-          "name": "Osuchi",
-          "stage": 1,
-          "levels": 12,
-          "trading": false,
-          "traitMapping": {
-            "Caffeinated": "Furor",
-            "Brawny": "Parrier"
-          }
-        },
         {
           "number": 67,
           "name": "Osukan",
-          "stage": 2,
+          "stage": 1,
           "levels": 14,
           "trading": false,
           "traitMapping": {
@@ -8528,7 +8437,7 @@
         {
           "number": 68,
           "name": "Osukai",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Sensei": "Sensei",
             "Body Stretch": "Body Stretch"
@@ -8697,34 +8606,23 @@
       "Osukan's name is derived from Osu (Japanese expression for martial arts) and Keikan (rooster's crest in Japanese)."
     ],
     "evolution": {
-      "stage": 2,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 66,
           "name": "Osuchi",
           "stage": 1,
-          "levels": 12,
-          "trading": false,
-          "traitMapping": {
-            "Caffeinated": "Furor",
-            "Brawny": "Parrier"
-          }
-        },
-        {
-          "number": 67,
-          "name": "Osukan",
-          "stage": 2,
           "levels": 14,
           "trading": false,
           "traitMapping": {
-            "Furor": "Sensei",
-            "Parrier": "Body Stretch"
+            "Caffeinated": "Sensei",
+            "Brawny": "Body Stretch"
           }
         },
         {
           "number": 68,
           "name": "Osukai",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Sensei": "Sensei",
             "Body Stretch": "Body Stretch"
@@ -9588,23 +9486,12 @@
       "Crystle's name is derived from crystal and turtle."
     ],
     "evolution": {
-      "stage": 1,
+      "stage": 0,
       "evolutionTree": [
-        {
-          "number": 72,
-          "name": "Crystle",
-          "stage": 1,
-          "levels": 30,
-          "trading": false,
-          "traitMapping": {
-            "Amphibian": "Mirroring",
-            "Rested": "Provident"
-          }
-        },
         {
           "number": 73,
           "name": "Sherald",
-          "stage": 2,
+          "stage": 1,
           "levels": 21,
           "trading": false,
           "traitMapping": {
@@ -9615,7 +9502,7 @@
         {
           "number": 74,
           "name": "Tortenite",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Confined": "Confined",
             "Efficient": "Efficient"
@@ -10087,31 +9974,7 @@
       "Hocus is Lady Lottie's signature Temtem."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 79,
-          "name": "Hocus",
-          "stage": 1,
-          "levels": 21,
-          "trading": false,
-          "traitMapping": {
-            "Soft Touch": "Dreaded Alarm",
-            "Mirroring": "Rejuvenate"
-          }
-        },
-        {
-          "number": 80,
-          "name": "Pocus",
-          "stage": 2,
-          "traitMapping": {
-            "Dreaded Alarm": "Dreaded Alarm",
-            "Rejuvenate": "Rejuvenate"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d7/Hocus.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/18/LumaHocus.png",
@@ -10780,31 +10643,7 @@
       "Magmis was the first Temtem with a confirmed evolution."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 86,
-          "name": "Magmis",
-          "stage": 1,
-          "levels": 16,
-          "trading": false,
-          "traitMapping": {
-            "Caffeinated": "Bully",
-            "Thick Skin": "Pyromaniac"
-          }
-        },
-        {
-          "number": 87,
-          "name": "Mastione",
-          "stage": 2,
-          "traitMapping": {
-            "Bully": "Bully",
-            "Pyromaniac": "Pyromaniac"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5d/Magmis.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0a/LumaMagmis.png",
@@ -12749,23 +12588,12 @@
       "Spriole's name is derived from sprout and petiole."
     ],
     "evolution": {
-      "stage": 1,
+      "stage": 0,
       "evolutionTree": [
-        {
-          "number": 102,
-          "name": "Spriole",
-          "stage": 1,
-          "levels": 12,
-          "trading": false,
-          "traitMapping": {
-            "Camaraderie": "Mithridatism",
-            "Botanist": "Settling"
-          }
-        },
         {
           "number": 103,
           "name": "Deendre",
-          "stage": 2,
+          "stage": 1,
           "levels": 25,
           "trading": false,
           "traitMapping": {
@@ -12776,7 +12604,7 @@
         {
           "number": 104,
           "name": "Cerneaf",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Callosity": "Callosity",
             "Settling": "Settling"
@@ -13833,31 +13661,7 @@
       "As of Alpha 0.6.9, Goolder is the heaviest known Temtem, over 3 times heavier than the second heaviest known (Tortenite)"
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 107,
-          "name": "Blooze",
-          "stage": 1,
-          "levels": 25,
-          "trading": false,
-          "traitMapping": {
-            "Toxic Skin": "Strong Liver",
-            "Bully": "Punching Bag"
-          }
-        },
-        {
-          "number": 108,
-          "name": "Goolder",
-          "stage": 2,
-          "traitMapping": {
-            "Strong Liver": "Strong Liver",
-            "Punching Bag": "Punching Bag"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/26/Goolder.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/91/LumaGoolder.png",
@@ -13970,7 +13774,31 @@
       "Zephyruff's name is derived from Zephyr (a gentle breeze or wind along with deriving from Zephyros, the Greek God of the West Wind) and Ruff (a piece of clothing that was popular during the sixteenth and seventeenth century with more modern uses being by Bishops)."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 109,
+          "name": "Zephyruff",
+          "stage": 1,
+          "levels": 22,
+          "trading": false,
+          "traitMapping": {
+            "Toxic Affinity": "Aerobic",
+            "Air Specialist": "Anaerobic"
+          }
+        },
+        {
+          "number": 110,
+          "name": "Volarend",
+          "stage": 2,
+          "traitMapping": {
+            "Aerobic": "Aerobic",
+            "Anaerobic": "Anaerobic"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f7/Zephyruff.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/74/LumaZephyruff.png",
@@ -16499,26 +16327,17 @@
       "Tuwai's name is derived from tukana (toucan in Hawaiian) and wai (juice in Hawaiian)."
     ],
     "evolution": {
-      "stage": 1,
+      "stage": 0,
       "evolutionTree": [
-        {
-          "number": 130,
-          "name": "Tuwai",
-          "stage": 1,
-          "traitMapping": {
-            "Spoilsport": "Spoilsport",
-            "Resilient": "Resilient"
-          }
-        },
         {
           "number": -1,
           "name": "Shrine atDabmis' Rest",
-          "stage": 2
+          "stage": 1
         },
         {
           "number": 131,
           "name": "Tukai",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Spreader": "Spreader",
             "Hydrologist": "Hydrologist"
@@ -16707,7 +16526,7 @@
       "Tukai's name is derived from Tukana (tucan in Hawaiian) and Kai (sea in Hawaiian)."
     ],
     "evolution": {
-      "stage": 0,
+      "stage": 3,
       "evolutionTree": [
         {
           "number": 130,
@@ -16722,6 +16541,15 @@
           "number": -1,
           "name": "Shrine atDabmis' Rest",
           "stage": 2
+        },
+        {
+          "number": 131,
+          "name": "Tukai",
+          "stage": 3,
+          "traitMapping": {
+            "Spreader": "Spreader",
+            "Hydrologist": "Hydrologist"
+          }
         }
       ],
       "evolves": true,
@@ -17163,7 +16991,10 @@
       "It is also on the Kickstarter exclusive painted statue alongside a Temtem Tamer."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/47/Kinu.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f2/LumaKinu.png",
@@ -17296,12 +17127,23 @@
       "Vulvir's name is derived from Vulcan (Roman God of fire) and hervir (boil in Spanish)."
     ],
     "evolution": {
-      "stage": 0,
+      "stage": 1,
       "evolutionTree": [
+        {
+          "number": 138,
+          "name": "Vulvir",
+          "stage": 1,
+          "levels": 14,
+          "trading": false,
+          "traitMapping": {
+            "Camaraderie": "Pyromaniac",
+            "Caffeinated": "Individualist"
+          }
+        },
         {
           "number": 139,
           "name": "Vulor",
-          "stage": 1,
+          "stage": 2,
           "levels": 28,
           "trading": false,
           "traitMapping": {
@@ -17312,7 +17154,7 @@
         {
           "number": 140,
           "name": "Vulcrane",
-          "stage": 2,
+          "stage": 3,
           "traitMapping": {
             "Receptive": "Receptive",
             "Vigorous": "Vigorous"
@@ -18064,7 +17906,10 @@
       "Akranox's name is derived from Akrabuamelu (scorpion deity) and Noxious."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d2/Akranox.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/23/LumaAkranox.png",
