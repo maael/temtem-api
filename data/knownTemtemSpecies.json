@@ -70,27 +70,7 @@
       "Oree was the first Digital Temtem to appear in the game."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 2,
-          "name": "Oree",
-          "stage": 1,
-          "traitMapping": {
-            "Attack T": "Attack T"
-          }
-        },
-        {
-          "number": 3,
-          "name": "Zaobian",
-          "stage": 2,
-          "traitMapping": {
-            "Attack T": "Attack T"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/99/Oree.png",
     "lumaWikiPortraitUrlLarge": "",
@@ -185,27 +165,7 @@
       "Zaobian's name is derived from zhào (megabyte in Chinese) and túbiàn (mutation in Chinese)."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 2,
-          "name": "Oree",
-          "stage": 1,
-          "traitMapping": {
-            "Attack T": "Attack T"
-          }
-        },
-        {
-          "number": 3,
-          "name": "Zaobian",
-          "stage": 2,
-          "traitMapping": {
-            "Attack T": "Attack T"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/54/Zaobian.png",
     "lumaWikiPortraitUrlLarge": "",
@@ -792,7 +752,7 @@
       "Platimous' name is derived from platypus and either venomous or enormous."
     ],
     "evolution": {
-      "stage": 3,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 7,
@@ -812,17 +772,8 @@
           "levels": 20,
           "trading": false,
           "traitMapping": {
-            "Resistant": "Zen",
-            "Resilient": "Determined"
-          }
-        },
-        {
-          "number": 9,
-          "name": "Platimous",
-          "stage": 3,
-          "traitMapping": {
-            "Zen": "Zen",
-            "Determined": "Determined"
+            "Resistant": "Resistant",
+            "Resilient": "Resilient"
           }
         }
       ],
@@ -1384,7 +1335,10 @@
       "Tateru took over Temtem and became the CEO for one day on April 1st, 2020. It made several comical tweets and several other Tateru invaded the Discord chats before retiring at the end of the day due to being tired."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/55/Tateru.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/de/LumaTateru.png",
@@ -3178,31 +3132,7 @@
       "Wiplump's name is derived from wing and plump."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 25,
-          "name": "Fomu",
-          "stage": 1,
-          "levels": 20,
-          "trading": false,
-          "traitMapping": {
-            "Amphibian": "Plethoric",
-            "Hydrologist": "Patient"
-          }
-        },
-        {
-          "number": 26,
-          "name": "Wiplump",
-          "stage": 2,
-          "traitMapping": {
-            "Plethoric": "Plethoric",
-            "Patient": "Patient"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f7/Wiplump.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/66/LumaWiplump.png",
@@ -4326,23 +4256,12 @@
       "Houchic and Ganki are tied for the lowest base HP of all Temtem at 38."
     ],
     "evolution": {
-      "stage": 1,
+      "stage": 0,
       "evolutionTree": [
-        {
-          "number": 32,
-          "name": "Houchic",
-          "stage": 1,
-          "levels": 29,
-          "trading": false,
-          "traitMapping": {
-            "Mental Alliance": "Avenger",
-            "Soft Touch": "Water Affinity"
-          }
-        },
         {
           "number": 33,
           "name": "Tental",
-          "stage": 2,
+          "stage": 1,
           "levels": 24,
           "trading": false,
           "traitMapping": {
@@ -4353,7 +4272,7 @@
         {
           "number": 34,
           "name": "Nagaise",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Deceit Aura": "Deceit Aura",
             "Water Custodian": "Water Custodian"
@@ -4693,7 +4612,7 @@
       "Nagaise's name is derived from Naga and Wise."
     ],
     "evolution": {
-      "stage": 3,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 32,
@@ -4713,17 +4632,8 @@
           "levels": 24,
           "trading": false,
           "traitMapping": {
-            "Avenger": "Deceit Aura",
-            "Water Affinity": "Water Custodian"
-          }
-        },
-        {
-          "number": 34,
-          "name": "Nagaise",
-          "stage": 3,
-          "traitMapping": {
-            "Deceit Aura": "Deceit Aura",
-            "Water Custodian": "Water Custodian"
+            "Avenger": "Avenger",
+            "Water Affinity": "Water Affinity"
           }
         }
       ],
@@ -8205,31 +8115,7 @@
       "Piraniant has an emote on the official Temtem discord."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 60,
-          "name": "Pewki",
-          "stage": 1,
-          "levels": 13,
-          "trading": false,
-          "traitMapping": {
-            "Hydrologist": "Patient",
-            "Rested": "Energy Reserves"
-          }
-        },
-        {
-          "number": 61,
-          "name": "Piraniant",
-          "stage": 2,
-          "traitMapping": {
-            "Patient": "Patient",
-            "Energy Reserves": "Energy Reserves"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/01/Piraniant.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2a/LumaPiraniant.png",
@@ -8351,23 +8237,12 @@
       "Osuchi's name is derived from Osu (Japanese expression for martial arts) and Chi (earth in Japanese)."
     ],
     "evolution": {
-      "stage": 1,
+      "stage": 0,
       "evolutionTree": [
-        {
-          "number": 66,
-          "name": "Osuchi",
-          "stage": 1,
-          "levels": 12,
-          "trading": false,
-          "traitMapping": {
-            "Caffeinated": "Furor",
-            "Brawny": "Parrier"
-          }
-        },
         {
           "number": 67,
           "name": "Osukan",
-          "stage": 2,
+          "stage": 1,
           "levels": 14,
           "trading": false,
           "traitMapping": {
@@ -8378,7 +8253,7 @@
         {
           "number": 68,
           "name": "Osukai",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Sensei": "Sensei",
             "Body Stretch": "Body Stretch"
@@ -8721,7 +8596,7 @@
       "Osukai was first shown on the printed sticker pack in the Kickstarter physical rewards status and progress update."
     ],
     "evolution": {
-      "stage": 3,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 66,
@@ -8741,17 +8616,8 @@
           "levels": 14,
           "trading": false,
           "traitMapping": {
-            "Furor": "Sensei",
-            "Parrier": "Body Stretch"
-          }
-        },
-        {
-          "number": 68,
-          "name": "Osukai",
-          "stage": 3,
-          "traitMapping": {
-            "Sensei": "Sensei",
-            "Body Stretch": "Body Stretch"
+            "Furor": "Furor",
+            "Parrier": "Parrier"
           }
         }
       ],
@@ -9094,31 +8960,7 @@
       "Pycko's name is derived from Pyre and Gecko."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 70,
-          "name": "Pycko",
-          "stage": 1,
-          "levels": 14,
-          "trading": false,
-          "traitMapping": {
-            "Furor": "Heat Discharge",
-            "Tireless": "Sentinel"
-          }
-        },
-        {
-          "number": 71,
-          "name": "Drakash",
-          "stage": 2,
-          "traitMapping": {
-            "Heat Discharge": "Heat Discharge",
-            "Sentinel": "Sentinel"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/3b/Pycko.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/LumaPycko.png",
@@ -10726,31 +10568,7 @@
       "Mastione was the first Temtem with a confirmed pre-evolution."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 86,
-          "name": "Magmis",
-          "stage": 1,
-          "levels": 16,
-          "trading": false,
-          "traitMapping": {
-            "Caffeinated": "Bully",
-            "Thick Skin": "Pyromaniac"
-          }
-        },
-        {
-          "number": 87,
-          "name": "Mastione",
-          "stage": 2,
-          "traitMapping": {
-            "Bully": "Bully",
-            "Pyromaniac": "Pyromaniac"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/32/Mastione.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/bf/LumaMastione.png",
@@ -10891,31 +10709,7 @@
       "Umishi was first seen in iNinjaHero's Twitch stream on 08/08/2018."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 88,
-          "name": "Umishi",
-          "stage": 1,
-          "levels": 14,
-          "trading": false,
-          "traitMapping": {
-            "Shared Pain": "Hydrologist",
-            "Caffeinated": "Plethoric"
-          }
-        },
-        {
-          "number": 89,
-          "name": "Ukama",
-          "stage": 2,
-          "traitMapping": {
-            "Hydrologist": "Hydrologist",
-            "Plethoric": "Plethoric"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4f/Umishi.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/72/LumaUmishi.png",
@@ -11187,24 +10981,7 @@
       "Raignet was first revealed via Twitter."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": -1,
-          "name": "Unknown",
-          "stage": 1
-        },
-        {
-          "number": 91,
-          "name": "Raignet",
-          "stage": 2,
-          "traitMapping": {
-            "Kinetic Transfer": "Kinetic Transfer"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/50/Raignet.png",
     "lumaWikiPortraitUrlLarge": "",
@@ -12052,7 +11829,10 @@
       "This is the only known Temtem with heterochromia (having different iris colors)."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d2/Momo.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/41/LumaMomo.png",
@@ -12708,34 +12488,23 @@
       "Deendre's name is derived from deer and cendre (ash tree in French)."
     ],
     "evolution": {
-      "stage": 2,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 102,
           "name": "Spriole",
           "stage": 1,
-          "levels": 12,
-          "trading": false,
-          "traitMapping": {
-            "Camaraderie": "Mithridatism",
-            "Botanist": "Settling"
-          }
-        },
-        {
-          "number": 103,
-          "name": "Deendre",
-          "stage": 2,
           "levels": 25,
           "trading": false,
           "traitMapping": {
-            "Mithridatism": "Callosity",
-            "Settling": "Settling"
+            "Camaraderie": "Callosity",
+            "Botanist": "Settling"
           }
         },
         {
           "number": 104,
           "name": "Cerneaf",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Callosity": "Callosity",
             "Settling": "Settling"
@@ -13888,31 +13657,7 @@
       "Volarend was originally referred to by the community as \"Zabirdo\", a variation on \"the bird\"."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 109,
-          "name": "Zephyruff",
-          "stage": 1,
-          "levels": 22,
-          "trading": false,
-          "traitMapping": {
-            "Toxic Affinity": "Aerobic",
-            "Air Specialist": "Anaerobic"
-          }
-        },
-        {
-          "number": 110,
-          "name": "Volarend",
-          "stage": 2,
-          "traitMapping": {
-            "Aerobic": "Aerobic",
-            "Anaerobic": "Anaerobic"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/87/Volarend.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/bc/LumaVolarend.png",
@@ -14054,31 +13799,7 @@
       "Grumvel's name is derived from Grumpy and Gravel."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 111,
-          "name": "Grumvel",
-          "stage": 1,
-          "levels": 16,
-          "trading": false,
-          "traitMapping": {
-            "Energy Reserves": "Inductor",
-            "Settling": "Coward's Rest"
-          }
-        },
-        {
-          "number": 112,
-          "name": "Grumper",
-          "stage": 2,
-          "traitMapping": {
-            "Inductor": "Inductor",
-            "Coward's Rest": "Coward's Rest"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7a/Grumvel.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/49/LumaGrumvel.png",
@@ -14365,31 +14086,7 @@
       "Ganki is tied with Houchic for the lowest base HP of all Temtem at 38."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 113,
-          "name": "Ganki",
-          "stage": 1,
-          "levels": 27,
-          "trading": false,
-          "traitMapping": {
-            "Botanophobia": "Receptive",
-            "Cold-Natured": "Fast Charge"
-          }
-        },
-        {
-          "number": 114,
-          "name": "Gazuma",
-          "stage": 2,
-          "traitMapping": {
-            "Receptive": "Receptive",
-            "Fast Charge": "Fast Charge"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/bc/Ganki.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c5/LumaGanki.png",
@@ -15248,7 +14945,10 @@
       "Shuine is based on the feathered deities of Mesoamerican religions, with western dragon ears."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d9/Shuine.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a4/LumaShuine.png",
@@ -16055,7 +15755,10 @@
       "Adoroboros was first nicknamed Adoroboros by Temtem Discord community member Husky. The nickname was later put into an official poll for naming the Temtem by the Discord member TMTrainer. It won the poll with 157 votes, becoming the official name of #129."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/26/Adoroboros.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/52/LumaAdoroboros.png",
@@ -16384,7 +16087,7 @@
       "Tukai's name is derived from Tukana (tucan in Hawaiian) and Kai (sea in Hawaiian)."
     ],
     "evolution": {
-      "stage": 3,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 130,
@@ -16399,15 +16102,6 @@
           "number": -1,
           "name": "Shrine atDabmis' Rest",
           "stage": 2
-        },
-        {
-          "number": 131,
-          "name": "Tukai",
-          "stage": 3,
-          "traitMapping": {
-            "Spreader": "Spreader",
-            "Hydrologist": "Hydrologist"
-          }
         }
       ],
       "evolves": true,
@@ -18526,7 +18220,10 @@
       "Vulffy's name is derived from Vulpes (fox in Latin) and Fluffy."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/46/Vulffy.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/89/LumaVulffy.png",
