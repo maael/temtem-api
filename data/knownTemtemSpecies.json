@@ -1130,31 +1130,7 @@
       "A Loali is given to the player as a part of the main story quest: Shipwrecked in Tucma!"
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 10,
-          "name": "Swali",
-          "stage": 1,
-          "levels": 8,
-          "trading": false,
-          "traitMapping": {
-            "Shared Pain": "Botanist",
-            "Mithridatism": "Toxic Farewell"
-          }
-        },
-        {
-          "number": 11,
-          "name": "Loali",
-          "stage": 2,
-          "traitMapping": {
-            "Botanist": "Botanist",
-            "Toxic Farewell": "Toxic Farewell"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0c/Loali.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/13/LumaLoali.png",
@@ -2277,31 +2253,7 @@
       "Bunbun's name is derived from bùn (Vietnamese for mud) and bunny."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 21,
-          "name": "Bunbun",
-          "stage": 1,
-          "levels": 20,
-          "trading": false,
-          "traitMapping": {
-            "Caffeinated": "Receptive",
-            "Resilient": "Resistant"
-          }
-        },
-        {
-          "number": 22,
-          "name": "Mudrid",
-          "stage": 2,
-          "traitMapping": {
-            "Receptive": "Receptive",
-            "Resistant": "Resistant"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/38/Bunbun.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c7/LumaBunbun.png",
@@ -4273,7 +4225,10 @@
       "Rhoulder has both the lowest Special Attack stat and the lowest base stat total of any fully evolved Temtem currently available."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0d/Rhoulder.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/eb/LumaRhoulder.png",
@@ -4977,31 +4932,7 @@
       "Orphyll's name was submitted by Eggs#8022 during the #035/#036 naming contest, and won with 262 votes."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 35,
-          "name": "Orphyll",
-          "stage": 1,
-          "levels": 22,
-          "trading": false,
-          "traitMapping": {
-            "Toxic Affinity": "Toxic Farewell",
-            "Apothecary": "Tri-Apothecary"
-          }
-        },
-        {
-          "number": 36,
-          "name": "Nidrasil",
-          "stage": 2,
-          "traitMapping": {
-            "Toxic Farewell": "Toxic Farewell",
-            "Tri-Apothecary": "Tri-Apothecary"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/Orphyll.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5b/LumaOrphyll.png",
@@ -6143,7 +6074,31 @@
       "Bigu plays a role in the Temtem Connoisseur side-quest."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "number": 44,
+          "name": "Bigu",
+          "stage": 1,
+          "levels": 18,
+          "trading": false,
+          "traitMapping": {
+            "Warm-Blooded": "Mucous",
+            "Amphibian": "Withdrawal"
+          }
+        },
+        {
+          "number": 45,
+          "name": "Babawa",
+          "stage": 2,
+          "traitMapping": {
+            "Mucous": "Mucous",
+            "Withdrawal": "Withdrawal"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/09/Bigu.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/27/LumaBigu.png",
@@ -6922,10 +6877,7 @@
       "A level 35 Valash is gifted to the player as a part of the main story questline Shipwrecked in Tucma!"
     ],
     "evolution": {
-      "stage": 0,
-      "evolutionTree": [],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/80/Valash.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/42/LumaValash.png",
@@ -8549,12 +8501,23 @@
       "Osuchi's name is derived from Osu (Japanese expression for martial arts) and Chi (earth in Japanese)."
     ],
     "evolution": {
-      "stage": 0,
+      "stage": 1,
       "evolutionTree": [
+        {
+          "number": 66,
+          "name": "Osuchi",
+          "stage": 1,
+          "levels": 12,
+          "trading": false,
+          "traitMapping": {
+            "Caffeinated": "Furor",
+            "Brawny": "Parrier"
+          }
+        },
         {
           "number": 67,
           "name": "Osukan",
-          "stage": 1,
+          "stage": 2,
           "levels": 14,
           "trading": false,
           "traitMapping": {
@@ -8565,7 +8528,7 @@
         {
           "number": 68,
           "name": "Osukai",
-          "stage": 2,
+          "stage": 3,
           "traitMapping": {
             "Sensei": "Sensei",
             "Body Stretch": "Body Stretch"
@@ -11362,31 +11325,7 @@
       "The Taifu traded has the same Gender, Level, SVs and remaining Fertility."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 88,
-          "name": "Umishi",
-          "stage": 1,
-          "levels": 14,
-          "trading": false,
-          "traitMapping": {
-            "Shared Pain": "Hydrologist",
-            "Caffeinated": "Plethoric"
-          }
-        },
-        {
-          "number": 89,
-          "name": "Ukama",
-          "stage": 2,
-          "traitMapping": {
-            "Hydrologist": "Hydrologist",
-            "Plethoric": "Plethoric"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/75/Ukama.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f6/LumaUkama.png",
@@ -15747,7 +15686,10 @@
       "A Nessla is given to the player as a part of the main story quest Shipwrecked in Tucma!"
     ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/81/Nessla.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/85/LumaNessla.png",
@@ -17354,23 +17296,12 @@
       "Vulvir's name is derived from Vulcan (Roman God of fire) and hervir (boil in Spanish)."
     ],
     "evolution": {
-      "stage": 1,
+      "stage": 0,
       "evolutionTree": [
-        {
-          "number": 138,
-          "name": "Vulvir",
-          "stage": 1,
-          "levels": 14,
-          "trading": false,
-          "traitMapping": {
-            "Camaraderie": "Pyromaniac",
-            "Caffeinated": "Individualist"
-          }
-        },
         {
           "number": 139,
           "name": "Vulor",
-          "stage": 2,
+          "stage": 1,
           "levels": 28,
           "trading": false,
           "traitMapping": {
@@ -17381,7 +17312,7 @@
         {
           "number": 140,
           "name": "Vulcrane",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Receptive": "Receptive",
             "Vigorous": "Vigorous"
@@ -19046,7 +18977,10 @@
       "The Crystal Temtem that was subjected to intense heat to create Anahir is not a reference to any specific Temtem."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/ea/Anahir.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/94/LumaAnahir.png",
