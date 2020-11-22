@@ -519,7 +519,7 @@
       "Platox has the highest base stat total of any Temtem that is not in its final evolutionary stage."
     ],
     "evolution": {
-      "stage": 2,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 7,
@@ -528,25 +528,14 @@
           "levels": 20,
           "trading": false,
           "traitMapping": {
-            "Toxic Affinity": "Resistant",
-            "Amphibian": "Resilient"
-          }
-        },
-        {
-          "number": 8,
-          "name": "Platox",
-          "stage": 2,
-          "levels": 20,
-          "trading": false,
-          "traitMapping": {
-            "Resistant": "Zen",
-            "Resilient": "Determined"
+            "Toxic Affinity": "Zen",
+            "Amphibian": "Determined"
           }
         },
         {
           "number": 9,
           "name": "Platimous",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Zen": "Zen",
             "Determined": "Determined"
@@ -2205,31 +2194,7 @@
       "Bunbun's name is derived from bùn (Vietnamese for mud) and bunny."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 21,
-          "name": "Bunbun",
-          "stage": 1,
-          "levels": 20,
-          "trading": false,
-          "traitMapping": {
-            "Caffeinated": "Receptive",
-            "Resilient": "Resistant"
-          }
-        },
-        {
-          "number": 22,
-          "name": "Mudrid",
-          "stage": 2,
-          "traitMapping": {
-            "Receptive": "Receptive",
-            "Resistant": "Resistant"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/38/Bunbun.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c7/LumaBunbun.png",
@@ -2567,31 +2532,7 @@
       "Hidody was first revealed via Twitter."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 23,
-          "name": "Hidody",
-          "stage": 1,
-          "levels": 15,
-          "trading": false,
-          "traitMapping": {
-            "Electric Synthesize": "Toxic Farewell",
-            "Botanist": "Resilient"
-          }
-        },
-        {
-          "number": 24,
-          "name": "Taifu",
-          "stage": 2,
-          "traitMapping": {
-            "Toxic Farewell": "Toxic Farewell",
-            "Resilient": "Resilient"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/Hidody.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/99/LumaHidody.png",
@@ -3311,31 +3252,7 @@
       "Skail was first revealed via Twitter."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 27,
-          "name": "Skail",
-          "stage": 1,
-          "levels": 17,
-          "trading": false,
-          "traitMapping": {
-            "Furor": "Brawny",
-            "Scavenger": "Bully"
-          }
-        },
-        {
-          "number": 28,
-          "name": "Skunch",
-          "stage": 2,
-          "traitMapping": {
-            "Brawny": "Brawny",
-            "Bully": "Bully"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/77/Skail.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a5/LumaSkail.png",
@@ -5086,31 +5003,7 @@
       "Banapi's name was determined through a community naming contest. The winner and creator of the name Banapi was smvid4#0118, from the official Temtem Discord."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 37,
-          "name": "Banapi",
-          "stage": 1,
-          "levels": 17,
-          "trading": false,
-          "traitMapping": {
-            "Pyromaniac": "Last Rush",
-            "Settling": "Resilient"
-          }
-        },
-        {
-          "number": 38,
-          "name": "Capyre",
-          "stage": 2,
-          "traitMapping": {
-            "Last Rush": "Last Rush",
-            "Resilient": "Resilient"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/27/Banapi.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e5/LumaBanapi.png",
@@ -5586,7 +5479,7 @@
       "Azuroc's name is derived from azure and rock."
     ],
     "evolution": {
-      "stage": 0,
+      "stage": 2,
       "evolutionTree": [
         {
           "number": 39,
@@ -5595,19 +5488,28 @@
           "levels": 25,
           "trading": false,
           "traitMapping": {
-            "Scavenger": "Scavenger",
-            "Electric Synthesize": "Electric Synthesize"
+            "Scavenger": "Mirroring",
+            "Electric Synthesize": "Fainted Curse"
+          }
+        },
+        {
+          "number": 40,
+          "name": "Azuroc",
+          "stage": 2,
+          "traitMapping": {
+            "Mirroring": "Mirroring",
+            "Fainted Curse": "Fainted Curse"
           }
         },
         {
           "number": -1,
           "name": "Trade",
-          "stage": 2
+          "stage": 3
         },
         {
           "number": 41,
           "name": "Zenoreth",
-          "stage": 3,
+          "stage": 4,
           "traitMapping": {
             "Channeler": "Channeler",
             "Wrecked Farewell": "Wrecked Farewell"
@@ -8772,7 +8674,10 @@
       "Saipat is likely a parody of the Pokémon Psyduck. (In English, sai and psy are pronounced the same way.)"
     ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e3/Saipat.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/29/LumaSaipat.png",
@@ -9426,34 +9331,23 @@
       "Sherald's name is derived from shell and emerald."
     ],
     "evolution": {
-      "stage": 2,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 72,
           "name": "Crystle",
           "stage": 1,
-          "levels": 30,
-          "trading": false,
-          "traitMapping": {
-            "Amphibian": "Mirroring",
-            "Rested": "Provident"
-          }
-        },
-        {
-          "number": 73,
-          "name": "Sherald",
-          "stage": 2,
           "levels": 21,
           "trading": false,
           "traitMapping": {
-            "Mirroring": "Confined",
-            "Provident": "Efficient"
+            "Amphibian": "Confined",
+            "Rested": "Efficient"
           }
         },
         {
           "number": 74,
           "name": "Tortenite",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Confined": "Confined",
             "Efficient": "Efficient"
@@ -10378,31 +10272,7 @@
       "Magmis was the first Temtem with a confirmed evolution."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 86,
-          "name": "Magmis",
-          "stage": 1,
-          "levels": 16,
-          "trading": false,
-          "traitMapping": {
-            "Caffeinated": "Bully",
-            "Thick Skin": "Pyromaniac"
-          }
-        },
-        {
-          "number": 87,
-          "name": "Mastione",
-          "stage": 2,
-          "traitMapping": {
-            "Bully": "Bully",
-            "Pyromaniac": "Pyromaniac"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5d/Magmis.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0a/LumaMagmis.png",
@@ -11289,34 +11159,23 @@
       "Baboong's name is derived from baboon and young."
     ],
     "evolution": {
-      "stage": 2,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 92,
           "name": "Smazee",
           "stage": 1,
-          "levels": 29,
-          "trading": false,
-          "traitMapping": {
-            "Fever Rush": "Brawny",
-            "Friendship": "Warm-Blooded"
-          }
-        },
-        {
-          "number": 93,
-          "name": "Baboong",
-          "stage": 2,
           "levels": 23,
           "trading": false,
           "traitMapping": {
-            "Brawny": "Self-Esteem",
-            "Warm-Blooded": "Earthbound"
+            "Fever Rush": "Self-Esteem",
+            "Friendship": "Earthbound"
           }
         },
         {
           "number": 94,
           "name": "Seismunch",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Self-Esteem": "Self-Esteem",
             "Earthbound": "Earthbound"
@@ -11474,7 +11333,7 @@
       "As of Alpha 0.6.9, Seismunch awards the most total TVs (5) of any known Temtem. It is tied with Tortenite."
     ],
     "evolution": {
-      "stage": 3,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 92,
@@ -11494,17 +11353,8 @@
           "levels": 23,
           "trading": false,
           "traitMapping": {
-            "Brawny": "Self-Esteem",
-            "Warm-Blooded": "Earthbound"
-          }
-        },
-        {
-          "number": 94,
-          "name": "Seismunch",
-          "stage": 3,
-          "traitMapping": {
-            "Self-Esteem": "Self-Esteem",
-            "Earthbound": "Earthbound"
+            "Brawny": "Brawny",
+            "Warm-Blooded": "Warm-Blooded"
           }
         }
       ],
@@ -11636,7 +11486,10 @@
       "Zizare was first seen through the Kickstarter Video then fully revealed on Twitter."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fe/Zizare.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/77/LumaZizare.png",
@@ -11956,31 +11809,7 @@
       "Kuri's name is derived from a Kura diminutive (hyena in Hausa)."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 100,
-          "name": "Kuri",
-          "stage": 1,
-          "levels": 16,
-          "trading": false,
-          "traitMapping": {
-            "Camaraderie": "Scavenger",
-            "Callosity": "Skull Helmet"
-          }
-        },
-        {
-          "number": 101,
-          "name": "Kauren",
-          "stage": 2,
-          "traitMapping": {
-            "Scavenger": "Scavenger",
-            "Skull Helmet": "Skull Helmet"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/52/Kuri.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/19/LumaKuri.png",
@@ -12693,7 +12522,7 @@
       "Cerneaf was first revealed via Twitter."
     ],
     "evolution": {
-      "stage": 3,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 102,
@@ -12713,16 +12542,7 @@
           "levels": 25,
           "trading": false,
           "traitMapping": {
-            "Mithridatism": "Callosity",
-            "Settling": "Settling"
-          }
-        },
-        {
-          "number": 104,
-          "name": "Cerneaf",
-          "stage": 3,
-          "traitMapping": {
-            "Callosity": "Callosity",
+            "Mithridatism": "Mithridatism",
             "Settling": "Settling"
           }
         }
@@ -12850,31 +12670,7 @@
       "Toxolotl's name is derived from toxic and axolotl."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 105,
-          "name": "Toxolotl",
-          "stage": 1,
-          "levels": 30,
-          "trading": false,
-          "traitMapping": {
-            "Power Nap": "Trance",
-            "Toxic Farewell": "Toxic Skin"
-          }
-        },
-        {
-          "number": 106,
-          "name": "Noxolotl",
-          "stage": 2,
-          "traitMapping": {
-            "Trance": "Trance",
-            "Toxic Skin": "Toxic Skin"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4e/Toxolotl.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/59/LumaToxolotl.png",
@@ -13026,31 +12822,7 @@
       "Despite it’s highest stat being special attack, it was unable to learn any special attacks until the update following it's release."
     ],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "number": 105,
-          "name": "Toxolotl",
-          "stage": 1,
-          "levels": 30,
-          "trading": false,
-          "traitMapping": {
-            "Power Nap": "Trance",
-            "Toxic Farewell": "Toxic Skin"
-          }
-        },
-        {
-          "number": 106,
-          "name": "Noxolotl",
-          "stage": 2,
-          "traitMapping": {
-            "Trance": "Trance",
-            "Toxic Skin": "Toxic Skin"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/55/Noxolotl.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/87/LumaNoxolotl.png",
@@ -13155,31 +12927,7 @@
       "Blooze's name is derived fromblob and ooze."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 107,
-          "name": "Blooze",
-          "stage": 1,
-          "levels": 25,
-          "trading": false,
-          "traitMapping": {
-            "Toxic Skin": "Strong Liver",
-            "Bully": "Punching Bag"
-          }
-        },
-        {
-          "number": 108,
-          "name": "Goolder",
-          "stage": 2,
-          "traitMapping": {
-            "Strong Liver": "Strong Liver",
-            "Punching Bag": "Punching Bag"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/ff/Blooze.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d8/LumaBlooze.png",
@@ -13449,31 +13197,7 @@
       "Zephyruff's name is derived from Zephyr (a gentle breeze or wind along with deriving from Zephyros, the Greek God of the West Wind) and Ruff (a piece of clothing that was popular during the sixteenth and seventeenth century with more modern uses being by Bishops)."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "number": 109,
-          "name": "Zephyruff",
-          "stage": 1,
-          "levels": 22,
-          "trading": false,
-          "traitMapping": {
-            "Toxic Affinity": "Aerobic",
-            "Air Specialist": "Anaerobic"
-          }
-        },
-        {
-          "number": 110,
-          "name": "Volarend",
-          "stage": 2,
-          "traitMapping": {
-            "Aerobic": "Aerobic",
-            "Anaerobic": "Anaerobic"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "level"
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f7/Zephyruff.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/74/LumaZephyruff.png",
@@ -14384,7 +14108,10 @@
       "Oceara seems to be based off the Qilin/Kirin, antelopine divine creatures in Chinese and Japanese mythology respectively."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/26/Oceara.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/ea/LumaOceara.png",
@@ -16232,7 +15959,7 @@
       "Tuvine has the highest base Defense of all Temtem at 111."
     ],
     "evolution": {
-      "stage": 3,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 130,
@@ -16247,15 +15974,6 @@
           "number": -1,
           "name": "Shrine atSons of Crystal",
           "stage": 2
-        },
-        {
-          "number": 133,
-          "name": "Tuvine",
-          "stage": 3,
-          "traitMapping": {
-            "Receptive": "Receptive",
-            "Determined": "Determined"
-          }
         }
       ],
       "evolves": true,
@@ -16679,23 +16397,12 @@
       "Vulvir's name is derived from Vulcan (Roman God of fire) and hervir (boil in Spanish)."
     ],
     "evolution": {
-      "stage": 1,
+      "stage": 0,
       "evolutionTree": [
-        {
-          "number": 138,
-          "name": "Vulvir",
-          "stage": 1,
-          "levels": 14,
-          "trading": false,
-          "traitMapping": {
-            "Camaraderie": "Pyromaniac",
-            "Caffeinated": "Individualist"
-          }
-        },
         {
           "number": 139,
           "name": "Vulor",
-          "stage": 2,
+          "stage": 1,
           "levels": 28,
           "trading": false,
           "traitMapping": {
@@ -16706,7 +16413,7 @@
         {
           "number": 140,
           "name": "Vulcrane",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Receptive": "Receptive",
             "Vigorous": "Vigorous"
@@ -16876,34 +16583,23 @@
       "Vulor's name is derived from Vulcano (Roman God of fire) and calor (heat in Spanish)."
     ],
     "evolution": {
-      "stage": 2,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 138,
           "name": "Vulvir",
           "stage": 1,
-          "levels": 14,
-          "trading": false,
-          "traitMapping": {
-            "Camaraderie": "Pyromaniac",
-            "Caffeinated": "Individualist"
-          }
-        },
-        {
-          "number": 139,
-          "name": "Vulor",
-          "stage": 2,
           "levels": 28,
           "trading": false,
           "traitMapping": {
-            "Pyromaniac": "Receptive",
-            "Individualist": "Vigorous"
+            "Camaraderie": "Receptive",
+            "Caffeinated": "Vigorous"
           }
         },
         {
           "number": 140,
           "name": "Vulcrane",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Receptive": "Receptive",
             "Vigorous": "Vigorous"
