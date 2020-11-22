@@ -1466,23 +1466,12 @@
       "Paharo is the lightest Temtem currently available."
     ],
     "evolution": {
-      "stage": 1,
+      "stage": 0,
       "evolutionTree": [
-        {
-          "number": 16,
-          "name": "Paharo",
-          "stage": 1,
-          "levels": 7,
-          "trading": false,
-          "traitMapping": {
-            "Hover": "Caffeinated",
-            "Friendship": "Camaraderie"
-          }
-        },
         {
           "number": 17,
           "name": "Paharac",
-          "stage": 2,
+          "stage": 1,
           "levels": 16,
           "trading": false,
           "traitMapping": {
@@ -1493,7 +1482,7 @@
         {
           "number": 18,
           "name": "Granpah",
-          "stage": 3,
+          "stage": 2,
           "traitMapping": {
             "Last Rush": "Last Rush",
             "Bully": "Bully"
@@ -5479,7 +5468,7 @@
       "Azuroc's name is derived from azure and rock."
     ],
     "evolution": {
-      "stage": 2,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 39,
@@ -5488,28 +5477,19 @@
           "levels": 25,
           "trading": false,
           "traitMapping": {
-            "Scavenger": "Mirroring",
-            "Electric Synthesize": "Fainted Curse"
-          }
-        },
-        {
-          "number": 40,
-          "name": "Azuroc",
-          "stage": 2,
-          "traitMapping": {
-            "Mirroring": "Mirroring",
-            "Fainted Curse": "Fainted Curse"
+            "Scavenger": "Scavenger",
+            "Electric Synthesize": "Electric Synthesize"
           }
         },
         {
           "number": -1,
           "name": "Trade",
-          "stage": 3
+          "stage": 2
         },
         {
           "number": 41,
           "name": "Zenoreth",
-          "stage": 4,
+          "stage": 3,
           "traitMapping": {
             "Channeler": "Channeler",
             "Wrecked Farewell": "Wrecked Farewell"
@@ -6913,6 +6893,10 @@
       },
       {
         "name": "Footwork",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Major Slash",
         "source": "TechniqueCourses"
       },
       {
@@ -9490,7 +9474,7 @@
       "As of Alpha 0.6.9, Tortenite awards the most total TVs (5) of any known Temtem. It is tied with Seismunch."
     ],
     "evolution": {
-      "stage": 3,
+      "stage": 0,
       "evolutionTree": [
         {
           "number": 72,
@@ -9510,17 +9494,8 @@
           "levels": 21,
           "trading": false,
           "traitMapping": {
-            "Mirroring": "Confined",
-            "Provident": "Efficient"
-          }
-        },
-        {
-          "number": 74,
-          "name": "Tortenite",
-          "stage": 3,
-          "traitMapping": {
-            "Confined": "Confined",
-            "Efficient": "Efficient"
+            "Mirroring": "Mirroring",
+            "Provident": "Provident"
           }
         }
       ],
@@ -16974,7 +16949,10 @@
       "The Temtem Discord community created \"cults\" worshiping Saku and Pigepic. The official Twitter account for Temtem later created a tweet pitting the “Sakult” and “Team Porket” against each other. The Sakult is currently the winner."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [],
+      "evolves": true,
+      "type": "level"
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/20/Pigepic.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4a/LumaPigepic.png",
