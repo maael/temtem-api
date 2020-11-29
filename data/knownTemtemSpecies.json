@@ -7821,6 +7821,20 @@
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/61/LumaPewki.png",
     "locations": [
       {
+        "location": "Prasine Coast",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "100%",
+        "level": "14 - 20",
+        "freetem": {
+          "minLevel": 14,
+          "maxLevel": 20,
+          "minPansuns": 48,
+          "maxPansuns": 60
+        }
+      },
+      {
         "location": "Sillaro River",
         "place": "",
         "note": "",
@@ -17752,6 +17766,20 @@
           "maxLevel": 46,
           "minPansuns": 146,
           "maxPansuns": 158
+        }
+      },
+      {
+        "location": "Nuru Lodge",
+        "place": "",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "100%",
+        "level": "42 - 48",
+        "freetem": {
+          "minLevel": 42,
+          "maxLevel": 48,
+          "minPansuns": 146,
+          "maxPansuns": 164
         }
       }
     ],
