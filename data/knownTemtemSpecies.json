@@ -1659,20 +1659,6 @@
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/3b/LumaPaharac.png",
     "locations": [
       {
-        "location": "The Gifted Bridges",
-        "place": "",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "5% - 95%",
-        "level": "8 - 40",
-        "freetem": {
-          "minLevel": 8,
-          "maxLevel": 40,
-          "minPansuns": 40,
-          "maxPansuns": 116
-        }
-      },
-      {
         "location": "Saipark",
         "place": "",
         "note": "",
@@ -1683,6 +1669,20 @@
           "minLevel": 37,
           "maxLevel": 40,
           "minPansuns": 109,
+          "maxPansuns": 116
+        }
+      },
+      {
+        "location": "Gifted Bridges",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "5% - 95%",
+        "level": "8 - 40",
+        "freetem": {
+          "minLevel": 8,
+          "maxLevel": 40,
+          "minPansuns": 40,
           "maxPansuns": 116
         }
       },
@@ -2541,20 +2541,6 @@
         }
       },
       {
-        "location": "The Glassyway",
-        "place": "",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "50%",
-        "level": "19-22",
-        "freetem": {
-          "minLevel": 19,
-          "maxLevel": 22,
-          "minPansuns": 52,
-          "maxPansuns": 57
-        }
-      },
-      {
         "location": "Giant Banyan",
         "place": "",
         "note": "",
@@ -2566,6 +2552,20 @@
           "maxLevel": 26,
           "minPansuns": 59,
           "maxPansuns": 64
+        }
+      },
+      {
+        "location": "The Glassyway",
+        "place": "",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "50%",
+        "level": "19-22",
+        "freetem": {
+          "minLevel": 19,
+          "maxLevel": 22,
+          "minPansuns": 52,
+          "maxPansuns": 57
         }
       }
     ],
@@ -2884,7 +2884,7 @@
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4e/LumaFomu.png",
     "locations": [
       {
-        "location": "The Gifted Bridges",
+        "location": "Gifted Bridges",
         "place": "",
         "note": "",
         "island": "Deniz",
@@ -2894,20 +2894,6 @@
           "minLevel": 12,
           "maxLevel": 15,
           "minPansuns": 44,
-          "maxPansuns": 50
-        }
-      },
-      {
-        "location": "Sillaro River",
-        "place": "",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "50% - 100%",
-        "level": "13 - 15",
-        "freetem": {
-          "minLevel": 13,
-          "maxLevel": 15,
-          "minPansuns": 46,
           "maxPansuns": 50
         }
       },
@@ -2923,6 +2909,20 @@
           "maxLevel": 14,
           "minPansuns": 38,
           "maxPansuns": 48
+        }
+      },
+      {
+        "location": "Sillaro River",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "50% - 100%",
+        "level": "13 - 15",
+        "freetem": {
+          "minLevel": 13,
+          "maxLevel": 15,
+          "minPansuns": 46,
+          "maxPansuns": 50
         }
       }
     ],
@@ -3072,27 +3072,13 @@
         "place": "",
         "note": "",
         "island": "Deniz",
-        "frequency": "15%",
-        "level": "14 - 15",
+        "frequency": "5% - 85%",
+        "level": "14 - 42",
         "freetem": {
           "minLevel": 14,
-          "maxLevel": 15,
+          "maxLevel": 42,
           "minPansuns": 67,
-          "maxPansuns": 70
-        }
-      },
-      {
-        "location": "Salt Works",
-        "place": "",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "85%",
-        "level": "40 - 45",
-        "freetem": {
-          "minLevel": 40,
-          "maxLevel": 45,
-          "minPansuns": 154,
-          "maxPansuns": 170
+          "maxPansuns": 160
         }
       },
       {
@@ -3465,17 +3451,17 @@
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b0/LumaSkunch.png",
     "locations": [
       {
-        "location": "Chini Grotto",
+        "location": "Aguamarina Caves",
         "place": "",
         "note": "",
-        "island": "Kisiwa",
-        "frequency": "20%",
-        "level": "40-45",
+        "island": "Deniz",
+        "frequency": "5%",
+        "level": "14 - 20",
         "freetem": {
-          "minLevel": 40,
-          "maxLevel": 45,
-          "minPansuns": 154,
-          "maxPansuns": 170
+          "minLevel": 14,
+          "maxLevel": 20,
+          "minPansuns": 67,
+          "maxPansuns": 87
         }
       },
       {
@@ -3484,7 +3470,7 @@
         "note": "",
         "island": "Tucma",
         "frequency": "20%",
-        "level": "25-29",
+        "level": "25 - 29",
         "freetem": {
           "minLevel": 25,
           "maxLevel": 29,
@@ -3498,7 +3484,7 @@
         "note": "",
         "island": "Tucma",
         "frequency": "50%",
-        "level": "26-29",
+        "level": "26 - 29",
         "freetem": {
           "minLevel": 26,
           "maxLevel": 29,
@@ -3512,7 +3498,7 @@
         "note": "",
         "island": "Kisiwa",
         "frequency": "70%",
-        "level": "40-45",
+        "level": "40 - 45",
         "freetem": {
           "minLevel": 40,
           "maxLevel": 45,
@@ -3526,7 +3512,21 @@
         "note": "",
         "island": "Kisiwa",
         "frequency": "65%",
-        "level": "40-45",
+        "level": "40 - 45",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 45,
+          "minPansuns": 154,
+          "maxPansuns": 170
+        }
+      },
+      {
+        "location": "Chini Grotto",
+        "place": "",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "20%",
+        "level": "40 - 45",
         "freetem": {
           "minLevel": 40,
           "maxLevel": 45,
@@ -4998,21 +4998,7 @@
         }
       },
       {
-        "location": "The Glassyway, Above Crystal Path",
-        "place": "",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "30%",
-        "level": "20 - 22",
-        "freetem": {
-          "minLevel": 20,
-          "maxLevel": 22,
-          "minPansuns": 60,
-          "maxPansuns": 64
-        }
-      },
-      {
-        "location": "The Glassyway, Rock-hopping Hook Island",
+        "location": "Anak Caldera",
         "place": "",
         "note": "",
         "island": "Omninesia",
@@ -5037,6 +5023,20 @@
           "maxLevel": 24,
           "minPansuns": 64,
           "maxPansuns": 68
+        }
+      },
+      {
+        "location": "The Glassyway",
+        "place": "",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "30%",
+        "level": "20 - 22",
+        "freetem": {
+          "minLevel": 20,
+          "maxLevel": 22,
+          "minPansuns": 60,
+          "maxPansuns": 64
         }
       }
     ],
@@ -6153,7 +6153,7 @@
         }
       },
       {
-        "location": "The Gifted Bridges",
+        "location": "Gifted Bridges",
         "place": "",
         "note": "",
         "island": "Deniz",
@@ -6345,7 +6345,7 @@
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b7/LumaSaku.png",
     "locations": [
       {
-        "location": "The Gifted Bridges",
+        "location": "Gifted Bridges",
         "place": "",
         "note": "",
         "island": "Deniz",
@@ -6550,27 +6550,13 @@
         "place": "",
         "note": "",
         "island": "Tucma",
-        "frequency": "10%",
+        "frequency": "Gift - 10%",
         "level": "35 - 39",
         "freetem": {
           "minLevel": 35,
           "maxLevel": 39,
           "minPansuns": 131,
           "maxPansuns": 144
-        }
-      },
-      {
-        "location": "Mines of Mictlan, From Ocelotl",
-        "place": "",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "Gift (Once)",
-        "level": "35",
-        "freetem": {
-          "minLevel": 35,
-          "maxLevel": 35,
-          "minPansuns": 131,
-          "maxPansuns": 131
         }
       }
     ],
@@ -7329,34 +7315,6 @@
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b6/LumaRaiber.png",
     "locations": [
       {
-        "location": "The Glassyway",
-        "place": "",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "30% - 50%",
-        "level": "20 - 35",
-        "freetem": {
-          "minLevel": 20,
-          "maxLevel": 35,
-          "minPansuns": 60,
-          "maxPansuns": 90
-        }
-      },
-      {
-        "location": "Anak Volcano",
-        "place": "",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "10 - 50%",
-        "level": "17 - 24",
-        "freetem": {
-          "minLevel": 17,
-          "maxLevel": 24,
-          "minPansuns": 54,
-          "maxPansuns": 68
-        }
-      },
-      {
         "location": "Anak Caldera",
         "place": "",
         "note": "",
@@ -7368,6 +7326,34 @@
           "maxLevel": 35,
           "minPansuns": 80,
           "maxPansuns": 90
+        }
+      },
+      {
+        "location": "Anak Volcano",
+        "place": "",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "10% - 50%",
+        "level": "17 - 24",
+        "freetem": {
+          "minLevel": 17,
+          "maxLevel": 24,
+          "minPansuns": 54,
+          "maxPansuns": 68
+        }
+      },
+      {
+        "location": "The Glassyway",
+        "place": "",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "30%",
+        "level": "20 - 22",
+        "freetem": {
+          "minLevel": 20,
+          "maxLevel": 22,
+          "minPansuns": 60,
+          "maxPansuns": 64
         }
       }
     ],
@@ -8694,7 +8680,7 @@
         }
       },
       {
-        "location": "The Gifted Bridges",
+        "location": "Gifted Bridges",
         "place": "",
         "note": "",
         "island": "Deniz",
@@ -10280,20 +10266,6 @@
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0a/LumaMagmis.png",
     "locations": [
       {
-        "location": "Anak Volcano",
-        "place": "",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "80%",
-        "level": "17 - 20",
-        "freetem": {
-          "minLevel": 17,
-          "maxLevel": 20,
-          "minPansuns": 46,
-          "maxPansuns": 50
-        }
-      },
-      {
         "location": "Anak Caldera",
         "place": "",
         "note": "",
@@ -10305,6 +10277,20 @@
           "maxLevel": 35,
           "minPansuns": 65,
           "maxPansuns": 73
+        }
+      },
+      {
+        "location": "Anak Volcano",
+        "place": "",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "80%",
+        "level": "17 - 20",
+        "freetem": {
+          "minLevel": 17,
+          "maxLevel": 20,
+          "minPansuns": 46,
+          "maxPansuns": 50
         }
       }
     ],
@@ -11525,34 +11511,6 @@
         }
       },
       {
-        "location": "Kwea Upland",
-        "place": "",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "30%",
-        "level": "40 - 45",
-        "freetem": {
-          "minLevel": 40,
-          "maxLevel": 45,
-          "minPansuns": 180,
-          "maxPansuns": 200
-        }
-      },
-      {
-        "location": "Chini Grotto",
-        "place": "",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "10% - 30%",
-        "level": "41 - 46",
-        "freetem": {
-          "minLevel": 41,
-          "maxLevel": 46,
-          "minPansuns": 184,
-          "maxPansuns": 204
-        }
-      },
-      {
         "location": "Kilima Peaks",
         "place": "",
         "note": "",
@@ -11578,6 +11536,34 @@
           "maxLevel": 45,
           "minPansuns": 189,
           "maxPansuns": 200
+        }
+      },
+      {
+        "location": "Kwea Upland",
+        "place": "",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "30%",
+        "level": "40 - 45",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 45,
+          "minPansuns": 180,
+          "maxPansuns": 200
+        }
+      },
+      {
+        "location": "Chini Grotto",
+        "place": "",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "10% - 30%",
+        "level": "41 - 46",
+        "freetem": {
+          "minLevel": 41,
+          "maxLevel": 46,
+          "minPansuns": 184,
+          "maxPansuns": 204
         }
       }
     ],
@@ -12163,6 +12149,20 @@
         }
       },
       {
+        "location": "Giant Banyan",
+        "place": "",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "55%",
+        "level": "23 - 36",
+        "freetem": {
+          "minLevel": 23,
+          "maxLevel": 36,
+          "minPansuns": 59,
+          "maxPansuns": 80
+        }
+      },
+      {
         "location": "The Hangroad",
         "place": "",
         "note": "",
@@ -12188,20 +12188,6 @@
           "maxLevel": 23,
           "minPansuns": 54,
           "maxPansuns": 59
-        }
-      },
-      {
-        "location": "Giant Banyan",
-        "place": "",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "55%",
-        "level": "23 - 36",
-        "freetem": {
-          "minLevel": 23,
-          "maxLevel": 36,
-          "minPansuns": 59,
-          "maxPansuns": 80
         }
       }
     ],
@@ -14393,13 +14379,13 @@
         "place": "",
         "note": "",
         "island": "Kisiwa",
-        "frequency": "55%",
-        "level": "30 - 33",
+        "frequency": "20% - 40%",
+        "level": "32 - 37",
         "freetem": {
-          "minLevel": 30,
-          "maxLevel": 33,
-          "minPansuns": 85,
-          "maxPansuns": 91
+          "minLevel": 32,
+          "maxLevel": 37,
+          "minPansuns": 89,
+          "maxPansuns": 100
         }
       },
       {
@@ -14407,13 +14393,13 @@
         "place": "",
         "note": "",
         "island": "Kisiwa",
-        "frequency": "100%",
-        "level": "37 - 41",
+        "frequency": "20% - 100%",
+        "level": "35 - 45",
         "freetem": {
-          "minLevel": 37,
-          "maxLevel": 41,
-          "minPansuns": 100,
-          "maxPansuns": 108
+          "minLevel": 35,
+          "maxLevel": 45,
+          "minPansuns": 95,
+          "maxPansuns": 117
         }
       },
       {
@@ -14421,13 +14407,27 @@
         "place": "",
         "note": "",
         "island": "Kisiwa",
-        "frequency": "90%",
+        "frequency": "75%",
         "level": "40 - 43",
         "freetem": {
           "minLevel": 40,
           "maxLevel": 43,
           "minPansuns": 106,
           "maxPansuns": 113
+        }
+      },
+      {
+        "location": "Matope Road",
+        "place": "",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "50%",
+        "level": "40 - 42",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 42,
+          "minPansuns": 106,
+          "maxPansuns": 110
         }
       }
     ],
@@ -15655,10 +15655,10 @@
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e9/LumaTuwai.png",
     "locations": [
       {
-        "location": "Sons of Crystal",
+        "location": "Dabmis' Rest",
         "place": "",
         "note": "",
-        "island": "Tucma",
+        "island": "Deniz",
         "frequency": "5%",
         "level": "5 - 10",
         "freetem": {
@@ -15669,10 +15669,10 @@
         }
       },
       {
-        "location": "Dabmis' Rest",
+        "location": "Sons of Crystal",
         "place": "",
         "note": "",
-        "island": "Deniz",
+        "island": "Tucma",
         "frequency": "5%",
         "level": "5 - 10",
         "freetem": {
@@ -16443,20 +16443,6 @@
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a2/LumaVulvir.png",
     "locations": [
       {
-        "location": "Anak Volcano",
-        "place": "",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "80%",
-        "level": "22 - 25",
-        "freetem": {
-          "minLevel": 22,
-          "maxLevel": 25,
-          "minPansuns": 73,
-          "maxPansuns": 80
-        }
-      },
-      {
         "location": "Anak Caldera",
         "place": "",
         "note": "",
@@ -16468,6 +16454,20 @@
           "maxLevel": 35,
           "minPansuns": 92,
           "maxPansuns": 105
+        }
+      },
+      {
+        "location": "Anak Volcano",
+        "place": "",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "80%",
+        "level": "22 - 25",
+        "freetem": {
+          "minLevel": 22,
+          "maxLevel": 25,
+          "minPansuns": 73,
+          "maxPansuns": 80
         }
       }
     ],
@@ -16629,6 +16629,20 @@
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/77/LumaVulor.png",
     "locations": [
       {
+        "location": "Anak Caldera",
+        "place": "",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "20%",
+        "level": "33 - 38",
+        "freetem": {
+          "minLevel": 33,
+          "maxLevel": 38,
+          "minPansuns": 119,
+          "maxPansuns": 134
+        }
+      },
+      {
         "location": "Mines of Mictlan",
         "place": "",
         "note": "",
@@ -16640,20 +16654,6 @@
           "maxLevel": 34,
           "minPansuns": 116,
           "maxPansuns": 123
-        }
-      },
-      {
-        "location": "Anak Caldera",
-        "place": "",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "20%",
-        "level": "30 - 35",
-        "freetem": {
-          "minLevel": 30,
-          "maxLevel": 35,
-          "minPansuns": 110,
-          "maxPansuns": 125
         }
       }
     ],
@@ -17041,7 +17041,7 @@
         }
       },
       {
-        "location": "The Gifted Bridges",
+        "location": "Gifted Bridges",
         "place": "",
         "note": "",
         "island": "Deniz",
@@ -17811,20 +17811,6 @@
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ae/LumaKoish.png",
     "locations": [
       {
-        "location": "Moyo Lake",
-        "place": "",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "25%",
-        "level": "42 - 46",
-        "freetem": {
-          "minLevel": 42,
-          "maxLevel": 46,
-          "minPansuns": 146,
-          "maxPansuns": 158
-        }
-      },
-      {
         "location": "Nuru Lodge",
         "place": "",
         "note": "",
@@ -17836,6 +17822,20 @@
           "maxLevel": 48,
           "minPansuns": 146,
           "maxPansuns": 164
+        }
+      },
+      {
+        "location": "Moyo Lake",
+        "place": "",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "25%",
+        "level": "42 - 46",
+        "freetem": {
+          "minLevel": 42,
+          "maxLevel": 46,
+          "minPansuns": 146,
+          "maxPansuns": 158
         }
       }
     ],
