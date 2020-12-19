@@ -132,7 +132,7 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "All",
     "description": "Let's press the big red button with the danger signs! The Digital attacker self-destructs to inflict massive damage.",
     "effectText": "Autodestruction deals damage to all Tems on the battlefield then KO's the user.",
     "effects": []
@@ -3186,7 +3186,7 @@
         "effect": "11 STA Cost"
       }
     ],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "Antiseptic and a couple of bandages. Target recovers 25% HP.Antibiotics and a proper bandage. Target recovers 25% HP and Temtem 10%.",
     "effectText": "Revitalize recovers 25% of the targets max HP.",
     "effects": []
@@ -4390,7 +4390,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Target",
     "description": "Like raw sewage raining on you, without the \"like\", it inflicts moderate Toxic damage and poisons for 2 turns.",
     "effectText": "Wastewater deals damage to a single target and inflicts the Poisoned Condition for 2 turns.",
     "effects": [
