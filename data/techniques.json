@@ -2698,12 +2698,12 @@
     ],
     "targets": "Single Target",
     "description": "This strong venom traps and poisons the target for 2 turns.Used in combination with a Toxic ally, the poisoning lasts for 4 turns.",
-    "effectText": "Paralyzing Poison inflicts the target with the Poisoned Condition for 2 turns.",
+    "effectText": "Paralyzing Poison inflicts the target with the Poisoned Condition and the Trapped Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
         "turns": 2,
-        "condition": "Poisoned"
+        "condition": "Trapped"
       }
     ]
   },
