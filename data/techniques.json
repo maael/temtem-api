@@ -4391,12 +4391,12 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Target",
-    "description": "Like raw sewage raining on you, without the \"like\", it inflicts moderate Toxic damage and poisons for 2 turns.",
-    "effectText": "Wastewater deals damage to a single target and inflicts the Poisoned Condition for 2 turns.",
+    "description": "Like raw sewage raining on you, without the \"like\", it inflicts moderate Toxic damage and poison for 1 turn.",
+    "effectText": "Wastewater deals damage to a single target and inflicts the Poisoned Condition for 1 turn.",
     "effects": [
       {
         "type": "condition",
-        "turns": 2,
+        "turns": 1,
         "condition": "Poisoned"
       }
     ]
