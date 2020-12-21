@@ -1,5 +1,49 @@
 [
   {
+    "name": "Temtem 0.6.18",
+    "version": "0.6.18",
+    "url": "https://crema.gg/temtem/temtem-0-6-18/",
+    "date": "2020-11-21",
+    "patchInfo": {
+      "fixes": [
+        "[PS5] Fixed the most common crash source in PS5, caused by the overloading of the console’s memory.",
+        "👥Fixed getting stuck situation after battling an NPC who’s facing a wall/obstacle. This was the case in the Mines of Mictlan, where most of the user stucks have happened since the previous patch.",
+        "[PS5] Fixed the FPS drops after leaving a battle.",
+        "[PS5] Fixed the virtual keyboard appearing over the info message letting you know the Tamer name you’d chosen was already in use.",
+        "👥Fixed a softlock situation in the Competitive Squad menu in the Temdeck when attempting to Move a tem.",
+        "👥Fixed a lock status when focusing the trade chat using a gamepad.",
+        "[PS5] Fixed a loading bar being shown for a second before the Early Access message.",
+        "👥Fixed some NPC’s Temtem not appearing correctly in the battlefield, giving the feeling of an invisible, un-targetable Temtem being used.",
+        "Fixed that the Start button on any Gamepad was not opening the Game Menu while in combat.",
+        "NPCs with new quests will now be able to give you said quests even though they have an available dialog of another ongoing quest.",
+        "Fixed a bug that would replace the level of a Temtem in your squad with the remaining time left on the egg timer of an egg in your Squad if you switched it around.",
+        "Fixed your bag disappearing if you were sitting in someone’s house while the house was being edited and then saved.",
+        "Fixed a softlock after receiving a trade petition from another player, who then canceled it, while you were looking at a sign.",
+        "Fixed being able to see more than one tem selected at a time when moving around the Temdeck and Squad menus.",
+        "Fixed that the prompt to see all active channels in the chat appeared as a Hold action when using a controller.",
+        "👥Fixed some Traits not proccing when using a team-targeted Technique against a team containing one Evading tem.",
+        "Fixed the hotkey X for Dismiss not disappearing when moving a tem assigned to the Competitive Squad.",
+        "Fixed gender symbols in the Filter UI mistakenly appearing as selected after leaving that pop-up.",
+        "Fixed not being able to select a secondary type that we had previously selected on the filter if we activated and deactivated the secondary type option.",
+        "Fixed Tlaloc hiding his name after he had already told you. What a master of stealth he is.",
+        "Fixed being able to filter using the Mark “-“.",
+        "Fixed the prompt to Assign and Dismiss visually disappearing if you tried to Assign a Temtem to a Competitive Squad where said Temtem’s species was already present.",
+        "👥Fixed a case where the Slingshot gear was triggering despite the target Temtem having the Nullified status.",
+        "👥Fixed becoming invisible and un-targetable to other Players when you were opening an egg while sitting inside a house where someone else was.",
+        "[PC] Fixed seeing the (useless in this case) prompt to Toggle Keyboard after pressing Back in the Character Creation screen."
+      ],
+      "improvements": [
+        "[PS5] The Triangle (▲) button is now a shortcut to open the Interact Menu.",
+        "We’ve improved the navigation flow on the Interact menu while using a gamepad.",
+        "Housing mailbox info gets updated in real-time now.",
+        "Technique animations will now load on runtime when required, instead of having all of the animations loaded at all times. This should improve the memory consumption for the game and speed up the initial loading.Due to this change, this patch will be bigger than other patches without content.",
+        "Due to this change, this patch will be bigger than other patches without content."
+      ],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
     "name": "Temtem 0.6.17",
     "version": "0.6.17",
     "url": "https://crema.gg/temtem/temtem-0-6-17/",
