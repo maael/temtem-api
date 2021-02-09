@@ -8431,9 +8431,10 @@
           "stage": 1
         },
         {
-          "number": -1,
+          "number": 83,
           "name": "Golzy",
-          "stage": 2
+          "stage": 2,
+          "traitMapping": {}
         }
       ],
       "evolves": true,
@@ -8460,6 +8461,117 @@
       "spdef": 0
     },
     "gameDescription": "Also known familiarly as \"Sparky\", this Temtem is a common sight in Cipanku. Children are warned to keep away from them - although normally good-natured and cheerful, they can involuntarily discharge considerable electric shocks.",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 83,
+    "name": "Golzy",
+    "types": [
+      "Electric",
+      "Melee"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5f/Golzy.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Golzy",
+    "stats": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "total": 0
+    },
+    "traits": [],
+    "details": {
+      "height": {
+        "cm": 0,
+        "inches": 0
+      },
+      "weight": {
+        "kg": 0,
+        "lbs": 0
+      }
+    },
+    "techniques": [
+      {
+        "name": "DC Beam",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
+        "name": "Held Anger",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
+        "name": "Tesla Prison",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
+        "name": "Psychosis",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
+        "name": "Electric Storm",
+        "source": "Levelling",
+        "levels": 0
+      }
+    ],
+    "trivia": [
+      "\"Golzy\" may be derived from goliath and crazy."
+    ],
+    "evolution": {
+      "stage": 0,
+      "evolutionTree": [
+        {
+          "number": -1,
+          "name": "Unknown",
+          "stage": 1
+        },
+        {
+          "number": 82,
+          "name": "Sparzy",
+          "stage": 2,
+          "traitMapping": {
+            "Last Rush": "Last Rush"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "level"
+    },
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5f/Golzy.png",
+    "lumaWikiPortraitUrlLarge": "",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
