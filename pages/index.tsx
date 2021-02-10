@@ -54,6 +54,7 @@ const Index = () => (
     <ItemBlock />
     <GearBlock />
     <QuestsBlock />
+    <DojosBlock />
     <CharactersBlock />
     <SaiparkBlock />
     <LocationsBlock />
@@ -300,6 +301,18 @@ function TechniquesBlock() {
         />
         <p>Currently has information for {num} techniques.</p>
         <TypeNote type="TemTemApiTechnique[]" />
+      </>
+    </ApiBlock>
+  );
+}
+
+function DojosBlock() {
+  const num = useNum("/api/dojos");
+  return (
+    <ApiBlock example={examples.dojosExample}>
+      <>
+        <ApiHeader path="/api/dojos" style={{ marginBottom: 10 }} />
+        <p>Currently has information for {num} dojos.</p>
       </>
     </ApiBlock>
   );

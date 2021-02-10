@@ -809,3 +809,63 @@ export const itemExample = [
     category: "quest"
   }
 ];
+
+export const dojosExample = [
+  {
+    name: "Arissola Dojo",
+    wikiUrl: "https://temtem.gamepedia.com/Arissola_Dojo",
+    types: ["Wind", "Water"],
+    leader: {
+      name: "Sophia",
+      temtem: [
+        {
+          level: 17,
+          name: "Kalabyss",
+          number: 128,
+          trait: "Botanophobia",
+          techniques: ["Aqua Stone", "Strangle", "Water Blade", "Tentacle Whip"]
+        },
+        {
+          level: 17,
+          name: "Loali",
+          number: 11,
+          trait: "Botanist",
+          techniques: ["Toxic Spores", "Wind Blade", "Urushiol", "Tenderness"]
+        },
+        {
+          level: 18,
+          name: "Sparzy",
+          number: 82,
+          trait: "Last Rush",
+          techniques: ["Psychosis", "Tesla Prison", "Held Anger", "DC Beam"]
+        },
+        {
+          level: 19,
+          name: "Pigepic",
+          number: 141,
+          trait: "Friendship",
+          techniques: ["Heavy Blow", "Nimble", "Nibble", "Scratch"]
+        },
+        {
+          level: 21,
+          name: "Tuwai",
+          number: 130,
+          trait: "Spoilsport",
+          techniques: [
+            "Multiple Pecks",
+            "Wind Burst",
+            "Feather Gatling",
+            "Shrill Voice"
+          ]
+        },
+        {
+          level: 22,
+          name: "Oceara",
+          number: 115,
+          trait: "Hydrologist",
+          techniques: ["Ice Shuriken", "Tsunami", "High-pressure Water", "Kick"]
+        }
+      ]
+    }
+  }
+];
