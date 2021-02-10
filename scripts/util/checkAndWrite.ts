@@ -11,13 +11,14 @@ export default async function checkAndWrite(
   file: string,
   data: any
 ) {
+  const args = process.argv.slice(2);
+  const isDryRun = args.includes("--dry") || args.includes("-D");
+  const filter = args
+    .filter(i => !i.startsWith("-"))
+    .map(i => i.split(",").map(t => t.trim()))
+    .reduce((acc, arr) => acc.concat(arr), []);
+  const isDebug = args.includes("--debug");
   try {
-    const args = process.argv.slice(2);
-    const isDryRun = args.includes("--dry") || args.includes("-D");
-    const filter = args
-      .filter(i => !i.startsWith("-"))
-      .map(i => i.split(",").map(t => t.trim()))
-      .reduce((acc, arr) => acc.concat(arr), []);
     if (filter.length && !filter.includes(codecKey)) {
       log.info(`Skipping ${codecKey}, not in filter ${filter.join(", ")}`);
       try {
@@ -64,11 +65,11 @@ export default async function checkAndWrite(
       }
       return awaitedData;
     } catch (e) {
-      log.error(`Problem writing data: "${e.message}"`);
+      log.error(`Problem writing data: "${e.message}"`, isDebug ? e : "");
       return undefined;
     }
   } catch (e) {
-    log.error(`Problem processing ${file}: ${e.message}`);
+    log.error(`Problem processing ${file}: ${e.message}`, isDebug ? e : "");
     return undefined;
   }
 }

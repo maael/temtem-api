@@ -53,13 +53,17 @@ import checkAndWrite from "../util/checkAndWrite";
     const gear = await getGear();
     return embellishGear(gear!);
   });
-  await checkAndWrite("techniques", "techniques", async () => {
-    const techniques = await getTechniques();
-    return embellishTechniques(techniques || [], conditions);
-  });
-  await checkAndWrite("traits", "traits", async () => {
-    const traits = await getTraits();
-    return embellishTraits(traits || []);
+  const techniques = await checkAndWrite(
+    "techniques",
+    "techniques",
+    async () => {
+      const t = await getTechniques();
+      return embellishTechniques(t || [], conditions);
+    }
+  );
+  const traits = await checkAndWrite("traits", "traits", async () => {
+    const t = await getTraits();
+    return embellishTraits(t || []);
   });
   const temtem = await checkAndWrite(
     "temtem",
@@ -82,7 +86,9 @@ import checkAndWrite from "../util/checkAndWrite";
   });
   await checkAndWrite("saipark", "saipark", getSaipark);
   await checkAndWrite("freetemRewards", "freetemRewards", getFreeTemRewards);
-  await checkAndWrite("dojos", "dojos", getDojos);
+  await checkAndWrite("dojos", "dojos", async () => {
+    return getDojos(temtem || [], techniques || [], traits || []);
+  });
 })().catch(e => {
   log.error(e);
   throw e;
