@@ -7,6 +7,10 @@ import traverse, {
   removeWikiReferences
 } from "./objectCleaner";
 
+export function getDataPath(name: string) {
+  return path.join(__dirname, "..", "..", "data", `${name}.json`);
+}
+
 export default async function write(name: string, data: any) {
   log.info("cleaning");
   const cleanData = traverse(data, [
@@ -18,7 +22,7 @@ export default async function write(name: string, data: any) {
   log.info("writing", name);
   try {
     await fs.writeFile(
-      path.join(__dirname, "..", "..", "data", `${name}.json`),
+      getDataPath(name),
       JSON.stringify(cleanData, undefined, 2)
     );
     log.info("finished writing", name);

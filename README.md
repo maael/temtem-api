@@ -16,22 +16,22 @@ I used `node@10.17.0` to develop it.
 
 ## NPM Scripts
 
-| Script           | Description                                                                                                        |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------ |
-| `dev`            | Starts the local development server on `http://localhost:3000`, or whatever `PORT` is specified in env.            |
-| `build`          | Builds server.                                                                                                     |
-| `start`          | Started built server.                                                                                              |
-| `lint`           | Runs [tslint](https://www.npmjs.com/package/tslint) against project.                                               |
-| `prettier`       | Runs [prettier](https://www.npmjs.com/package/prettier) against project, writing corrections.                      |
-| `prettier:check` | Runs [prettier](https://www.npmjs.com/package/prettier) against project, used by CI to check project.              |
-| `test`           | ⚠️ TODO ⚠️                                                                                                         |
-| `data`           | Runs data fetching scripts.                                                                                        |
-| `assets`         | Runs asset fetching scripts.                                                                                       |
-| `summary`        | Generates summary of fetched data.                                                                                 |
-| `checker`        | Checks generated data against codecs in `./scripts/checker/codecs` using [io-ts](https://github.com/gcanti/io-ts). |
-| `sync`           | Sequentially runs `yarn data`, `yarn assets`, and `yarn summary`.                                                  |
-| `push`           | Pushes `./data` and `./public` changes to GitHub.                                                                  |
-| `sync:push`      | Sequentially runs `yarn sync` followed by `yarn push`.                                                             |
+| Script           | Description                                                                                                                                     |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| `dev`            | Starts the local development server on `http://localhost:3000`, or whatever `PORT` is specified in env.                                         |
+| `build`          | Builds server.                                                                                                                                  |
+| `start`          | Started built server.                                                                                                                           |
+| `lint`           | Runs [tslint](https://www.npmjs.com/package/tslint) against project.                                                                            |
+| `prettier`       | Runs [prettier](https://www.npmjs.com/package/prettier) against project, writing corrections.                                                   |
+| `prettier:check` | Runs [prettier](https://www.npmjs.com/package/prettier) against project, used by CI to check project.                                           |
+| `test`           | ⚠️ TODO ⚠️                                                                                                                                      |
+| `data`           | Runs data fetching scripts, you can filter them with a comma-separated list of codecs, and pass `-D` or `--dry` to do a dry run with no writes. |
+| `assets`         | Runs asset fetching scripts.                                                                                                                    |
+| `summary`        | Generates summary of fetched data.                                                                                                              |
+| `checker`        | Checks generated data against codecs in `./scripts/checker/codecs` using [io-ts](https://github.com/gcanti/io-ts).                              |
+| `sync`           | Sequentially runs `yarn data`, `yarn assets`, and `yarn summary`.                                                                               |
+| `push`           | Pushes `./data` and `./public` changes to GitHub.                                                                                               |
+| `sync:push`      | Sequentially runs `yarn sync` followed by `yarn push`.                                                                                          |
 
 ## Config
 

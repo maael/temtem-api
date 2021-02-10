@@ -4,7 +4,7 @@ import got from "got";
 import { PathReporter } from "io-ts/lib/PathReporter";
 import codecMap, { Codec } from "../checker/codecs";
 import * as log from "./log";
-import write from "./write";
+import write, { getDataPath } from "./write";
 
 export default async function checkAndWrite(
   codecKey: Codec | "missing",
@@ -12,6 +12,21 @@ export default async function checkAndWrite(
   data: any
 ) {
   try {
+    const args = process.argv.slice(2);
+    const isDryRun = args.includes("--dry") || args.includes("-D");
+    const filter = args
+      .filter(i => !i.startsWith("-"))
+      .map(i => i.split(",").map(t => t.trim()))
+      .reduce((acc, arr) => acc.concat(arr), []);
+    if (filter.length && !filter.includes(codecKey)) {
+      log.info(`Skipping ${codecKey}, not in filter ${filter.join(", ")}`);
+      try {
+        return JSON.parse((await fs.readFile(getDataPath(file))).toString());
+      } catch (e) {
+        log.error(`Issue getting existing ${file} data`, e.message);
+        return [];
+      }
+    }
     const awaitedData = await (typeof data === "function" ? data() : data);
     const itemCount = Array.isArray(awaitedData) ? awaitedData.length : 1;
     log.info(
@@ -42,7 +57,11 @@ export default async function checkAndWrite(
       }
     }
     try {
-      await write(file, awaitedData);
+      if (!isDryRun) {
+        await write(file, awaitedData);
+      } else {
+        log.info("Skipping write due to dry run");
+      }
       return awaitedData;
     } catch (e) {
       log.error(`Problem writing data: "${e.message}"`);

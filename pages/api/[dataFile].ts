@@ -16,7 +16,8 @@ const dataMap = {
   "training-courses": require("../../data/trainingCourses.json"),
   types: require("../../data/types.json"),
   techniques: require("../../data/techniques.json"),
-  traits: require("../../data/traits.json")
+  traits: require("../../data/traits.json"),
+  dojos: require("../../data/dojos.json")
 };
 
 export default cors(async (req, res) => {

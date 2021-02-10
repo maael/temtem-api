@@ -15,6 +15,7 @@ import { CharacterList } from "./characters";
 import { TemtemList } from "./temtem";
 import { FreetemRewardList } from "./freetemRewards";
 import { ItemList } from "./items";
+import { DojoList } from "./dojos";
 
 const codecMap = {
   gear: GearList,
@@ -33,7 +34,8 @@ const codecMap = {
   characters: CharacterList,
   trainingCourses: TrainingCourseList,
   freetemRewards: FreetemRewardList,
-  items: ItemList
+  items: ItemList,
+  dojos: DojoList
 };
 
 export type Codec = keyof typeof codecMap;

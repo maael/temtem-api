@@ -24,6 +24,7 @@ import getSaipark from "./getSaipark";
 import getCharacters from "./getCharacters";
 import getTrainingCourses from "./getTrainingCourses";
 import getFreeTemRewards from "./getFreeTemRewards";
+import getDojos from "./getDojos";
 import * as log from "../util/log";
 import checkAndWrite from "../util/checkAndWrite";
 
@@ -81,6 +82,7 @@ import checkAndWrite from "../util/checkAndWrite";
   });
   await checkAndWrite("saipark", "saipark", getSaipark);
   await checkAndWrite("freetemRewards", "freetemRewards", getFreeTemRewards);
+  await checkAndWrite("dojos", "dojos", getDojos);
 })().catch(e => {
   log.error(e);
   throw e;
