@@ -32,7 +32,7 @@ async function getBasicList() {
           $(el)
             .find("a")
             .map((_j, a) => {
-              if (a.firstChild.tagName == "img") return;
+              if (a.firstChild.tagName === "img") return;
               return {
                 text: $(a)
                   .text()
@@ -116,7 +116,8 @@ async function embellishDojos(
             .parent()
             .text()
             .replace("Lv.", "")
-            .trim()
+            .trim(),
+          10
         );
         const matchedTechniques = links
           .map(l => techniques.find(t => t.name === l.text))
