@@ -3,6 +3,7 @@ import cors from "../../../util/cors";
 import pruneData from "../../../util/pruneData";
 import expandFields from "../../../util/expandFields";
 import { TechniqueSource } from "../../../scripts/data/embellishKnownTemtemSpecies";
+import { addWeaknesses } from "../../../util/calculateWeaknesses";
 
 const knownTemtems = require("../../../data/knownTemtemSpecies.json");
 const traits = require("../../../data/traits.json");
@@ -29,7 +30,7 @@ export default cors(async (req: NextApiRequest, res: NextApiResponse) => {
     !req.query.hasOwnProperty("expand") ||
     (req.query.expand || "").toString() === "false"
   ) {
-    res.json(pruned.pop());
+    res.json(addWeaknesses(pruned.pop(), !!req.query.weaknesses));
   } else {
     const expand = ((req.query.expand || "").toString() || "")
       .split(",")
@@ -55,7 +56,7 @@ export default cors(async (req: NextApiRequest, res: NextApiResponse) => {
           ? expandFields(types, "types", "name")
           : identity
       );
-    res.json(result.pop());
+    res.json(addWeaknesses(result.pop(), !!req.query.weaknesses));
   }
 });
 

@@ -1,27 +1,13 @@
 import cors from "../../../util/cors";
-import { TYPES } from "../../../util/constants";
-
-const weaknesses = require("../../../data/weaknesses.json");
+import calculateWeaknesses from "../../../util/calculateWeaknesses";
 
 export default cors(async (req, res) => {
   const query = req.query as Record<string, string>;
   const attacking = (query.attacking || "").trim();
   const defending = (query.defending || "").split(",").map(t => t.trim());
-  if (
-    attacking.length &&
-    TYPES.includes(attacking) &&
-    defending.length &&
-    defending.every(d => TYPES.includes(d))
-  ) {
-    const attackingRow = weaknesses[attacking];
-    const defendingModifiers = defending.map(d => attackingRow[d]);
-    res.json({
-      attacking,
-      defending,
-      modifiers: defendingModifiers,
-      result: defendingModifiers.reduce((pre, cur) => pre * cur, 1)
-    });
-  } else {
-    res.status(400).json({ error: "An unknown type is present" });
+  try {
+    res.json(calculateWeaknesses(defending, attacking));
+  } catch (e) {
+    res.status(400).json({ error: e.message });
   }
 });

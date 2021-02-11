@@ -2,6 +2,7 @@ import cors from "../../../util/cors";
 import pruneData from "../../../util/pruneData";
 import expandFields from "../../../util/expandFields";
 import { TechniqueSource } from "../../../scripts/data/embellishKnownTemtemSpecies";
+import { addWeaknesses } from "../../../util/calculateWeaknesses";
 
 const knownTemtems = require("../../../data/knownTemtemSpecies.json");
 const traits = require("../../../data/traits.json");
@@ -15,7 +16,7 @@ export default cors(async (req, res) => {
   const query = req.query as Record<string, string>;
   const pruned = pruneData(knownTemtems, query.names, query.fields);
   if (!req.query.hasOwnProperty("expand") || query.expand === "false") {
-    res.json(pruned);
+    res.json(pruned.map(i => addWeaknesses(i, !!query.weaknesses)));
   } else {
     const expand = (query.expand || "").split(",").map(t => t.trim());
     const result = pruned
@@ -39,7 +40,7 @@ export default cors(async (req, res) => {
           ? expandFields(types, "types", "name")
           : identity
       );
-    res.json(result);
+    res.json(result.map(i => addWeaknesses(i, !!query.weaknesses)));
   }
 });
 

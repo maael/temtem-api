@@ -134,6 +134,12 @@ function TemtemsBlock() {
               name: "expand",
               required: false,
               description: "A comma separated list of fields you want extended."
+            },
+            {
+              name: "weaknesses",
+              required: false,
+              description:
+                "A flag to indicate if you want a 'weaknesses' object included for each temtem with attacking types as keys, and the resulting modifiers as values."
             }
           ]}
         />
@@ -167,6 +173,12 @@ function TemtemBlock() {
               name: "expand",
               required: false,
               description: "A comma separated list of fields you want extended."
+            },
+            {
+              name: "weaknesses",
+              required: false,
+              description:
+                "A flag to indicate if you want a 'weaknesses' object included for each temtem with attacking types as keys, and the resulting modifiers as values."
             }
           ]}
         />
