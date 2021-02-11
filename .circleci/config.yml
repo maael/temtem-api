@@ -96,22 +96,22 @@ workflows:
           filters:
             branches:
               only: master
-      - approve-deploy:
-          type: approval
-          context: common-env-vars
-          requires:
-            - pre-deploy
-          filters:
-            branches:
-              only: master
-      - now-deploy:
-          name: now-deploy
-          context: common-env-vars
-          requires:
-            - approve-deploy
-          filters:
-            branches:
-              only: master
+      # - approve-deploy:
+      #     type: approval
+      #     context: common-env-vars
+      #     requires:
+      #       - pre-deploy
+      #     filters:
+      #       branches:
+      #         only: master
+      # - now-deploy:
+      #     name: now-deploy
+      #     context: common-env-vars
+      #     requires:
+      #       - approve-deploy
+      #     filters:
+      #       branches:
+      #         only: master
 
   updater:
     triggers:
