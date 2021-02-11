@@ -132,7 +132,10 @@ export default async function embellishTechniques(
           priority,
           priorityIcon: `/images/icons/priority/${priority}.png`,
           ...getSynergyData($),
-          targets: getInfoBox($, "Targeting"),
+          targets: getInfoBoxEl($, "Targeting")
+            .first()
+            .text()
+            .trim(),
           description: getDescription($),
           effectText,
           effects
