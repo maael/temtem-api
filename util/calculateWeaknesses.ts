@@ -1,7 +1,7 @@
 import { Temtem } from "../scripts/checker/codecs/temtem";
 import { TYPES } from "./constants";
 
-const weaknesses = require("../data/weaknesses.json");
+const weaknessesData = require("../data/weaknesses.json");
 
 export default function calculateWeaknesses(
   defending: string[],
@@ -14,7 +14,7 @@ export default function calculateWeaknesses(
     defending.length &&
     defending.every(d => TYPES.includes(d))
   ) {
-    const attackingRow = weaknesses[attacking];
+    const attackingRow = weaknessesData[attacking];
     const defendingModifiers = defending.map(d => attackingRow[d]);
     return {
       attacking,
