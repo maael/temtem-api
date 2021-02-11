@@ -40,7 +40,12 @@ async function getTechniquesForPage(url: string) {
           wikiUrl: `https://temtem.gamepedia.com${$(el).attr("href")}`
         };
       })
-    ).filter(({ name }) => name !== "Training Course");
+    ).filter(
+      ({ name, wikiUrl }) =>
+        name !== "Technique Course" &&
+        name !== "Training Course" &&
+        wikiUrl !== "https://temtem.gamepedia.com/Technique_Course"
+    );
     const nextPage = typedToArray<string | undefined>(
       $("#mw-pages>a").map((_i, el) => {
         return $(el)
