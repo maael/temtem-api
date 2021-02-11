@@ -481,10 +481,10 @@ function getGameDescription(html: string) {
   let potentialEl = $("#Description")
     .parent()
     .next();
-  if (potentialEl[0].name !== "table") {
+  if (potentialEl[0] && potentialEl[0].name !== "table") {
     potentialEl = $(potentialEl).next();
   }
-  if (potentialEl[0].name !== "table") {
+  if (potentialEl[0] && potentialEl[0].name !== "table") {
     return "";
   }
   const text = $(potentialEl)

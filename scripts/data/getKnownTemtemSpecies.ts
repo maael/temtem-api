@@ -68,7 +68,7 @@ function getTemInfoFromRow($, row): Temtem {
     .text()
     .split("\n")
     .map(t => t.trim().replace("#", ""))
-    .map(t => (isNaN(Number(t)) ? t : Number(t)));
+    .map((t, i) => (i === 1 || isNaN(Number(t)) ? t : Number(t)));
   const portraitWikiUrl = $(row)
     .find("img")
     .attr("src")
@@ -76,8 +76,8 @@ function getTemInfoFromRow($, row): Temtem {
     .replace(/\?.*/, "")
     .replace(/\/revision\/latest\/scale-to-width.*$/, "");
   const tem = {
-    number: basicStats[0],
-    name: basicStats[1],
+    number: cleanToNumber(basicStats[0]),
+    name: `${basicStats[1]}`,
     types: [].concat(basicStats[2].replace(/(.)([A-Z])/g, "$1 $2").split(" ")),
     portraitWikiUrl,
     lumaPortraitWikiUrl: "",
