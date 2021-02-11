@@ -149,7 +149,13 @@
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Neutral",
-    "synergyEffects": [],
+    "synergyEffects": [
+      {
+        "damage": 0,
+        "type": "targeting",
+        "effect": "Other Team or Ally"
+      }
+    ],
     "targets": "Single Target",
     "description": "Ninety-nine Temesseeeence viaaaals! This horrible Tucmani drinking song does considerable damage (especially to the eardrums!).Used in combination with a Neutral ally, the Awful Song inflicts damage on the whole team.",
     "effectText": "Awful Song deals damage to a single target.",

@@ -16,6 +16,7 @@ const SynergyType = t.union([
   t.literal("debuff"),
   t.literal("condition"),
   t.literal("priority"),
+  t.literal("targeting"),
   t.literal("unknown")
 ]);
 

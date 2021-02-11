@@ -21,6 +21,7 @@ export enum SynergyType {
   DEBUFF = "debuff",
   CONDITION = "condition",
   PRIORITY = "priority",
+  TARGETING = "targeting",
   UNKNOWN = "unknown"
 }
 export interface Technique extends MinimalTechnique {
@@ -209,9 +210,16 @@ function getSynergyData($: CheerioStatic) {
   const staminaCostObj = staminaCost
     ? [{ damage, type: SynergyType.BUFF, effect: `${staminaCost} STA Cost` }]
     : [];
+  const targeting = getInfoBox($, "Targeting", 1);
+  const targetingObj = targeting
+    ? [{ damage: 0, type: SynergyType.TARGETING, effect: targeting }]
+    : [];
   return {
     synergy: getInfoBox($, "Synergy") || "None",
-    synergyEffects: synergyEffectObj.concat(damageObj).concat(staminaCostObj)
+    synergyEffects: synergyEffectObj
+      .concat(damageObj)
+      .concat(staminaCostObj)
+      .concat(targetingObj)
   };
 }
 
