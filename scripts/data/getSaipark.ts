@@ -96,7 +96,7 @@ export default async function getSaipark() {
       )}`,
       startDateFormatted: format(startDate, "dd/MM/yyyy"),
       endDateFormatted: format(endDate, "dd/MM/yyyy"),
-      startDate: endDate.toISOString(),
+      startDate: startDate.toISOString(),
       endDate: endDate.toISOString(),
       tweet: items[0].tweet,
       land: items
