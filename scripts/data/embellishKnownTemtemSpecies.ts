@@ -239,13 +239,23 @@ function calculateHatchMins(catchRate: number) {
   return 40 - catchRate / 5 + 5;
 }
 
-function getLocations(html: string) {
+function getLocations(html: string, debug?: boolean) {
   const $ = cheerio.load(html);
+  const locationHeader = $("#Location");
+  let locationTable = $(locationHeader)
+    .parent()
+    .next();
+  if (locationTable[0].tagName !== "table") {
+    locationTable = $(locationTable).next();
+  }
+  if (locationTable[0].tagName !== "table") {
+    return [];
+  }
   const locations = typedToArray<TemtemLocation>(
-    $("#Location")
-      .parent()
-      .next("table")
-      .find("tbody>tr")
+    $(locationTable)
+      .find("tbody")
+      .first()
+      .find("tr")
       .map((_i, row) => {
         const cells = $(row).find("td");
         const item = (cells
@@ -255,6 +265,9 @@ function getLocations(html: string) {
               .trim();
           })
           .toArray() as unknown) as string[];
+        if (debug) {
+          console.info("[temtem:location:item]", item);
+        }
         // tslint:disable-next-line:strict-type-predicates
         if (item[0] === undefined || item.every(i => i === "?"))
           return undefined;

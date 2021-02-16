@@ -51,7 +51,7 @@ export default async function checkAndWrite(
     if (itemCount === 0) {
       log.warn("Rejecting write due to lack of data");
       try {
-        return require(file);
+        return JSON.parse((await fs.readFile(getDataPath(file))).toString());
       } catch (e) {
         log.error(`Failed to read existing data ${file}`);
         return awaitedData;
