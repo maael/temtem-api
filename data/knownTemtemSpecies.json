@@ -8429,6 +8429,115 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Pocus.gif"
   },
   {
+    "number": 81,
+    "name": "Smolzy",
+    "types": [
+      "Electric"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/81/Smolzy.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Smolzy",
+    "stats": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "total": 0
+    },
+    "traits": [],
+    "details": {
+      "height": {
+        "cm": 0,
+        "inches": 0
+      },
+      "weight": {
+        "kg": 0,
+        "lbs": 0
+      }
+    },
+    "techniques": [
+      {
+        "name": "DC Beam",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
+        "name": "Held Anger",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
+        "name": "Tesla Prison",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
+        "name": "Psychosis",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
+        "name": "Electric Storm",
+        "source": "Levelling",
+        "levels": 0
+      }
+    ],
+    "trivia": [],
+    "evolution": {
+      "stage": 0,
+      "evolutionTree": [
+        {
+          "number": 82,
+          "name": "Sparzy",
+          "stage": 1,
+          "traitMapping": {
+            "Last Rush": "Unknown"
+          }
+        },
+        {
+          "number": 83,
+          "name": "Golzy",
+          "stage": 2,
+          "traitMapping": {}
+        }
+      ],
+      "evolves": true,
+      "type": "level"
+    },
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/81/Smolzy.png",
+    "lumaWikiPortraitUrlLarge": "",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
     "number": 82,
     "name": "Sparzy",
     "types": [
@@ -8497,9 +8606,10 @@
       "stage": 0,
       "evolutionTree": [
         {
-          "number": -1,
+          "number": 81,
           "name": "Smolzy",
-          "stage": 1
+          "stage": 1,
+          "traitMapping": {}
         },
         {
           "number": 83,
@@ -8606,9 +8716,10 @@
       "stage": 0,
       "evolutionTree": [
         {
-          "number": -1,
+          "number": 81,
           "name": "Smolzy",
-          "stage": 1
+          "stage": 1,
+          "traitMapping": {}
         },
         {
           "number": 82,
