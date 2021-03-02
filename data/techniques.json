@@ -462,7 +462,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "Healing is a collective process - in clockwise order, 3 Temtem recover 20% health.",
     "effectText": "Chain Heal heals 20% of health of the target and the two successive targets in a clockwise order. When only two tems are on the battlefield, the initial target will heal 40% of health while 20% for the remaining target.",
     "effects": []
@@ -3924,7 +3924,7 @@
         "damage": 0
       }
     ],
-    "targets": "Single Team",
+    "targets": "Single Other Target",
     "description": "Lil' Tort just wanted to play in its garden... but it won't suffer intruders! You heal 10% while the target is Doomed for 4 turns.Used in combination with a Crystal ally, Tortenite's Garden heals 20% and inflicts Doomed for 3 turns instead of 4.",
     "effectText": "Tortenite's Garden heals the user for 10% of its max HP and inflicts the target with a 4 turn countdown of the Doomed Condition.",
     "effects": []
