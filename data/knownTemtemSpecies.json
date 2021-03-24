@@ -4577,13 +4577,42 @@
     "trivia": [
       "Orphyll's name is derived from ormr (snake in Old Norse) and chlorophyll.",
       "Orphyll was one of the scrapped Temtem designs that had a chance to be added into the game during the first \"Choose a Temtem\" mini-game. However, it was not selected in the end.",
-      "Orphyll's design had a second chance to be added into the game during the third \"Choose a Temtem\" mini-game, and ended up winning.Orphyll's name was submitted by Eggs#8022 during the #035/#036 naming contest, and won with 262 votes.",
+      "Orphyll's design had a second chance to be added into the game during the third \"Choose a Temtem\" mini-game, and ended up winning.\nOrphyll's name was submitted by Eggs#8022 during the #035/#036 naming contest, and won with 262 votes.",
       "Orphyll's name was submitted by Eggs#8022 during the #035/#036 naming contest, and won with 262 votes."
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/Orphyll.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5b/LumaOrphyll.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Corrupted Badlands",
+        "place": "Corrupted Badlands",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "20% - 75%",
+        "level": "24 - 27",
+        "freetem": {
+          "minLevel": 24,
+          "maxLevel": 27,
+          "minPansuns": 80,
+          "maxPansuns": 88
+        }
+      },
+      {
+        "location": "Xolot Reservoir",
+        "place": "Xolot Reservoir",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "50%",
+        "level": "27 - 29",
+        "freetem": {
+          "minLevel": 27,
+          "maxLevel": 29,
+          "minPansuns": 88,
+          "maxPansuns": 93
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Orphyll.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Orphyll.png",
     "genderRatio": {
@@ -4601,15 +4630,15 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "gameDescription": "Probably a mutation from an ancient serpentine strand of Nature Temtem, Orphyll show remarkable adaptation to noxious conditions. They feature prominently in the art of ancient proto-Arburian cultures, who feared and revered them.",
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5b/Orphyll_full_render.png",
+    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2c/Orphyll_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f1/LumaOrphyll_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/04/LumaOrphyll_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Orphyll.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Orphyll.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Orphyll.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Orphyll.gif"
   },
   {
     "number": 36,
