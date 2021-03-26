@@ -464,7 +464,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Healing is a collective process - in clockwise order, 3 Temtem recover 20% health.",
-    "effectText": "",
+    "effectText": "Chain Heal heals 20% of health of the target and the two successive targets in a clockwise order. When only two tems are on the battlefield, the initial target will heal 40% of health while 20% for the remaining target.",
     "effects": []
   },
   {
@@ -590,8 +590,14 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A shivery draft that deals light damage and chills the target with Cold for 3 turns.",
-    "effectText": "",
-    "effects": []
+    "effectText": "Cold Breeze deals damage to a single target and inflicts them with the Cold Condition for 3 turns.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 3,
+        "condition": "Cold"
+      }
+    ]
   },
   {
     "name": "Cold Geyser",
@@ -824,7 +830,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Lightning, an elemental force; not extremely powerful, but always reliable.",
-    "effectText": "",
+    "effectText": "DC Beam deals damage to a single target.",
     "effects": []
   },
   {
