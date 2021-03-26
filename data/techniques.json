@@ -464,7 +464,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Healing is a collective process - in clockwise order, 3 Temtem recover 20% health.",
-    "effectText": "",
+    "effectText": "Chain Heal heals 20% of health of the target and the two successive targets in a clockwise order. When only two tems are on the battlefield, the initial target will heal 40% of health while 20% for the remaining target.",
     "effects": []
   },
   {
@@ -830,7 +830,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Lightning, an elemental force; not extremely powerful, but always reliable.",
-    "effectText": "",
+    "effectText": "DC Beam deals damage to a single target.",
     "effects": []
   },
   {
@@ -962,7 +962,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Nothing does armor piercing damage like a drill to the head.",
-    "effectText": "",
+    "effectText": "Drill Impact deals damage to a single target.",
     "effects": []
   },
   {
@@ -1680,7 +1680,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Effective and unsubtle, like a Tucmani mine drill.",
-    "effectText": "",
+    "effectText": "Heavy Blow deals damage to a single target.",
     "effects": []
   },
   {
@@ -3644,7 +3644,7 @@
     ],
     "targets": "Single Team",
     "description": "A stampede worth of the Kisiwan savanna. Damages the whole team.Used in combination with an Earth ally, inflicts extra damage.",
-    "effectText": "",
+    "effectText": "Stampede deals damage to a single team.",
     "effects": []
   },
   {
