@@ -590,14 +590,8 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A shivery draft that deals light damage and chills the target with Cold for 3 turns.",
-    "effectText": "Cold Breeze deals damage to a single target and inflicts them with the Cold Condition for 3 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 3,
-        "condition": "Cold"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Cold Geyser",
@@ -962,7 +956,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Nothing does armor piercing damage like a drill to the head.",
-    "effectText": "",
+    "effectText": "Drill Impact deals damage to a single target.",
     "effects": []
   },
   {
@@ -1308,7 +1302,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Also known as \"siren slap\". Hurts your pride more than anything else.",
-    "effectText": "Finbeat deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -2548,7 +2542,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Many Temtem have this habit of gently chewing plants and furniture. This is a little less gentle.",
-    "effectText": "",
+    "effectText": "Nibble deals damage to a single target.",
     "effects": []
   },
   {
@@ -3350,7 +3344,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Almost any claw or nail can scratch the surface. Sometimes that's enough.",
-    "effectText": "Scratch deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {

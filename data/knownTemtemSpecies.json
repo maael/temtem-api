@@ -3222,6 +3222,9 @@
     ],
     "trivia": [
       "Skail's name is derived from Skaven and tail.",
+      "As of Alpha 0.6.19:\nSkail has the lowest base ATK of all Neutral Temtem.\nSkail is tied with Goty for the lowest base stat total of all Neutral Temtem.",
+      "Skail has the lowest base ATK of all Neutral Temtem.",
+      "Skail is tied with Goty for the lowest base stat total of all Neutral Temtem.",
       "Skail was first revealed via Twitter."
     ],
     "evolution": {},
@@ -3640,7 +3643,11 @@
     ],
     "trivia": [
       "Goty's name is derived from a Goat diminutive.\nIt may also be a pun on the abbreviation for Game of the Year. This is alluded to in its Tempedia entry, which states it's \"Voted Best Temtem every year\".",
-      "It may also be a pun on the abbreviation for Game of the Year. This is alluded to in its Tempedia entry, which states it's \"Voted Best Temtem every year\"."
+      "It may also be a pun on the abbreviation for Game of the Year. This is alluded to in its Tempedia entry, which states it's \"Voted Best Temtem every year\".",
+      "As of Alpha 0.6.19:\nGoty is tied with Neutral Koish for the lowest base HP stat of all Neutral Temtem.\nGoty has the lowest base SPD, DEF, and SPDEF stat of all Neutral Temtem.\nGoty is tied with Skail for the lowest base stat total of all Neutral Temtem.",
+      "Goty is tied with Neutral Koish for the lowest base HP stat of all Neutral Temtem.",
+      "Goty has the lowest base SPD, DEF, and SPDEF stat of all Neutral Temtem.",
+      "Goty is tied with Skail for the lowest base stat total of all Neutral Temtem."
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/19/Goty.png",
@@ -3983,8 +3990,12 @@
     ],
     "trivia": [
       "Rhoulder's name is derived from Rhino and Boulder.",
-      "Though it lives in an Africa-inspired region, it more closely resembles the Indian Rhinoceros due to the leathery armor it has.",
-      "Rhoulder has both the lowest Special Attack stat and the lowest base stat total of any fully evolved Temtem currently available."
+      "As of Alpha 0.6.19:\nRhoulder has the lowest base STA stat of all Neutral Temtem.\nRhoulder has the highest base ATK stat of all Neutral Temtem.\nRhoulder has the lowest base SPATK stat of all Temtem.\nRhoulder has the lowest base stat total of all fully evolved Temtem.",
+      "Rhoulder has the lowest base STA stat of all Neutral Temtem.",
+      "Rhoulder has the highest base ATK stat of all Neutral Temtem.",
+      "Rhoulder has the lowest base SPATK stat of all Temtem.",
+      "Rhoulder has the lowest base stat total of all fully evolved Temtem.",
+      "Though it lives in an Africa-inspired region, it more closely resembles the Indian Rhinoceros due to the leathery armor it has."
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0d/Rhoulder.png",
@@ -8318,7 +8329,120 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e3/Saipat.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/29/LumaSaipat.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Saipark",
+        "place": "Saipark",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "50%",
+        "level": "38 - 41",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 41,
+          "minPansuns": 102,
+          "maxPansuns": 108
+        }
+      },
+      {
+        "location": "Thalassian Cliffs",
+        "place": "Thalassian Cliffs",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "5%",
+        "level": "6 - 8",
+        "freetem": {
+          "minLevel": 6,
+          "maxLevel": 8,
+          "minPansuns": 33,
+          "maxPansuns": 38
+        }
+      },
+      {
+        "location": "Arissola Dojo",
+        "place": "Arissola Dojo",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "35%",
+        "level": "15 - 17",
+        "freetem": {
+          "minLevel": 15,
+          "maxLevel": 17,
+          "minPansuns": 53,
+          "maxPansuns": 57
+        }
+      },
+      {
+        "location": "Gifted Bridges",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "15% - 100%",
+        "level": "8 - 14",
+        "freetem": {
+          "minLevel": 8,
+          "maxLevel": 14,
+          "minPansuns": 38,
+          "maxPansuns": 50
+        }
+      },
+      {
+        "location": "Windward Fort",
+        "place": "Windward Fort",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "20% - 50%",
+        "level": "9 - 15",
+        "freetem": {
+          "minLevel": 9,
+          "maxLevel": 15,
+          "minPansuns": 40,
+          "maxPansuns": 53
+        }
+      },
+      {
+        "location": "Sillaro River",
+        "place": "Sillaro River",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "45% - 100%",
+        "level": "13 - 16",
+        "freetem": {
+          "minLevel": 13,
+          "maxLevel": 16,
+          "minPansuns": 48,
+          "maxPansuns": 55
+        }
+      },
+      {
+        "location": "Aguamarina Caves",
+        "place": "Aguamarina Caves",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "20% - 40%",
+        "level": "15 - 20",
+        "freetem": {
+          "minLevel": 15,
+          "maxLevel": 20,
+          "minPansuns": 53,
+          "maxPansuns": 63
+        }
+      },
+      {
+        "location": "Xolot Reservoir",
+        "place": "Xolot Reservoir",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "30% - 40%",
+        "level": "29 - 32",
+        "freetem": {
+          "minLevel": 29,
+          "maxLevel": 32,
+          "minPansuns": 83,
+          "maxPansuns": 89
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Saipat.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Saipat.png",
     "genderRatio": {
@@ -8336,7 +8460,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "",
+    "gameDescription": "Nothing says 'amateur' like making fun of Saipat. Sure, they might look comical at first sight, but nobody who has faced a totally focused Saipat, sturdy coral sai in hand, takes them anything but seriously.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -15340,7 +15464,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Just how a Crystal Temtem manages to fly effectively is still a mystery to most Temtemologists. Some theorize its flight is aided by magnetic repulsion generated by mineral organs... but most tamers just enjoy their emerald majesty without asking too many questions.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
