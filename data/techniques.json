@@ -1159,14 +1159,8 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Shower your opponent in burning embers. Fire technique that burns for 1 turn.",
-    "effectText": "Embers deals damage to a single target and inflicts them with the Burned Condition for 1 turn.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 1,
-        "condition": "Burned"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Energy Manipulation",
@@ -2992,7 +2986,7 @@
     ],
     "targets": "Single Other Target",
     "description": "A party trick someone showed you once, involving a Fire Temtem, a log and a bottle of Quetzaleño Reposado...Used in combination with a Neutral ally, Quetza-leño inflicts extra damage. Party!",
-    "effectText": "Quetza-leño deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -3284,7 +3278,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A fistful of humble sand becomes a faceful of dirty fighting.",
-    "effectText": "",
+    "effectText": "Sand Splatter deals damage to a single target.",
     "effects": []
   },
   {
