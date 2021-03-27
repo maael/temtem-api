@@ -1159,8 +1159,14 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Shower your opponent in burning embers. Fire technique that burns for 1 turn.",
-    "effectText": "",
-    "effects": []
+    "effectText": "Embers deals damage to a single target and inflicts them with the Burned Condition for 1 turn.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 1,
+        "condition": "Burned"
+      }
+    ]
   },
   {
     "name": "Energy Manipulation",
@@ -1488,8 +1494,14 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Exhausts the target for 2 turns.",
-    "effectText": "",
-    "effects": []
+    "effectText": "Gamma Burst deals damage to a single target and gives it the Exhausted Condition for 2 turns.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 2,
+        "condition": "Exhausted"
+      }
+    ]
   },
   {
     "name": "Glass Blade",
@@ -3278,7 +3290,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A fistful of humble sand becomes a faceful of dirty fighting.",
-    "effectText": "Sand Splatter deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
