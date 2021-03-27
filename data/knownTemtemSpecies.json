@@ -8620,7 +8620,36 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/3b/Pycko.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/LumaPycko.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Chini Grotto",
+        "place": "Chini Grotto",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "5%",
+        "level": "38 - 42",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 42,
+          "minPansuns": 96,
+          "maxPansuns": 105
+        }
+      },
+      {
+        "location": "Tasa Desert",
+        "place": "Tasa Desert",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "15% - 40%",
+        "level": "35 - 42",
+        "freetem": {
+          "minLevel": 35,
+          "maxLevel": 42,
+          "minPansuns": 90,
+          "maxPansuns": 105
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Pycko.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Pycko.png",
     "genderRatio": {
@@ -8638,7 +8667,7 @@
       "spatk": 1,
       "spdef": 0
     },
-    "gameDescription": "",
+    "gameDescription": "Bubbly and cheerful, this Temtem is the protagonist of an animation series aimed at warning children of the dangers of fire. It has been a lifelong friend to many first-time tamers.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
