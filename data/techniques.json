@@ -464,7 +464,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Healing is a collective process - in clockwise order, 3 Temtem recover 20% health.",
-    "effectText": "",
+    "effectText": "Chain Heal heals 20% of health of the target and the two successive targets in a clockwise order. When only two tems are on the battlefield, the initial target will heal 40% of health while 20% for the remaining target.",
     "effects": []
   },
   {
@@ -1159,8 +1159,14 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Shower your opponent in burning embers. Fire technique that burns for 1 turn.",
-    "effectText": "",
-    "effects": []
+    "effectText": "Embers deals damage to a single target and inflicts them with the Burned Condition for 1 turn.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 1,
+        "condition": "Burned"
+      }
+    ]
   },
   {
     "name": "Energy Manipulation",
@@ -1488,14 +1494,8 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Exhausts the target for 2 turns.",
-    "effectText": "Gamma Burst deals damage to a single target and gives it the Exhausted Condition for 2 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 2,
-        "condition": "Exhausted"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Glass Blade",
