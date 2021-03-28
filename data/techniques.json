@@ -56,7 +56,7 @@
     "synergyEffects": [],
     "targets": "Single Team",
     "description": "Advanced antitoxins that cure Poison on the inoculated target.",
-    "effectText": "Antitoxins removes the Poisoned Condition from the target team.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -638,14 +638,8 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Gimme all your stuff! The target is Seized for 3 turns.",
-    "effectText": "Confiscate inflicts a single target with the Seized Condition for 3 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 3,
-        "condition": "Seized"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Cooperation",
@@ -2992,7 +2986,7 @@
     ],
     "targets": "Single Other Target",
     "description": "A party trick someone showed you once, involving a Fire Temtem, a log and a bottle of Quetzaleño Reposado...Used in combination with a Neutral ally, Quetza-leño inflicts extra damage. Party!",
-    "effectText": "",
+    "effectText": "Quetza-leño deals damage to a single target.",
     "effects": []
   },
   {
