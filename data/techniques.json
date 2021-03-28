@@ -638,8 +638,14 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Gimme all your stuff! The target is Seized for 3 turns.",
-    "effectText": "",
-    "effects": []
+    "effectText": "Confiscate inflicts a single target with the Seized Condition for 3 turns.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 3,
+        "condition": "Seized"
+      }
+    ]
   },
   {
     "name": "Cooperation",
@@ -1548,8 +1554,14 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A slashing open-hand strike in the Cipanki martial arts tradition. Inflicts Physical damage and leaves them Asleep the same turn.",
-    "effectText": "",
-    "effects": []
+    "effectText": "Haito Uchi deals damage to a single target and inflicts them with the Asleep Condition for 1 turn.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 1,
+        "condition": "Asleep"
+      }
+    ]
   },
   {
     "name": "Hallucination",
@@ -1781,7 +1793,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Very few Temtem are still kicking after receiving this kick!",
-    "effectText": "Hook Kick deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -2135,7 +2147,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "There is an edge to this madness - those willing to take 30% Damage will get SPDEF and SPATK .",
-    "effectText": "Madness Buff causes the user lose 30% of their total HP and then gets SPDEF and SPATK .",
+    "effectText": "",
     "effects": []
   },
   {
@@ -2632,7 +2644,7 @@
     ],
     "targets": "Single Other Target",
     "description": "Just one step above a slap, but everybody's got to start somewhere.",
-    "effectText": "Novice Punch deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
