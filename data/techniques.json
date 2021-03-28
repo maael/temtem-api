@@ -638,8 +638,14 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Gimme all your stuff! The target is Seized for 3 turns.",
-    "effectText": "",
-    "effects": []
+    "effectText": "Confiscate inflicts a single target with the Seized Condition for 3 turns.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 3,
+        "condition": "Seized"
+      }
+    ]
   },
   {
     "name": "Cooperation",
@@ -2009,7 +2015,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Primal and instinctive, sometimes a good kick is all you need.",
-    "effectText": "Kick deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
