@@ -1554,14 +1554,8 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A slashing open-hand strike in the Cipanki martial arts tradition. Inflicts Physical damage and leaves them Asleep the same turn.",
-    "effectText": "Haito Uchi deals damage to a single target and inflicts them with the Asleep Condition for 1 turn.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 1,
-        "condition": "Asleep"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Hallucination",
