@@ -4965,64 +4965,7 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/27/Banapi.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e5/LumaBanapi.png",
-    "locations": [
-      {
-        "location": "The Hangroad",
-        "place": "The Hangroad",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "65%",
-        "level": "14 - 19",
-        "freetem": {
-          "minLevel": 14,
-          "maxLevel": 19,
-          "minPansuns": 48,
-          "maxPansuns": 58
-        }
-      },
-      {
-        "location": "Anak Caldera",
-        "place": "Anak Caldera",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "50%",
-        "level": "30 - 35",
-        "freetem": {
-          "minLevel": 30,
-          "maxLevel": 35,
-          "minPansuns": 80,
-          "maxPansuns": 90
-        }
-      },
-      {
-        "location": "Anak Volcano",
-        "place": "Anak Volcano",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "10% - 50%",
-        "level": "22 - 24",
-        "freetem": {
-          "minLevel": 22,
-          "maxLevel": 24,
-          "minPansuns": 64,
-          "maxPansuns": 68
-        }
-      },
-      {
-        "location": "The Glassyway",
-        "place": "The Glassyway",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "30%",
-        "level": "20 - 22",
-        "freetem": {
-          "minLevel": 20,
-          "maxLevel": 22,
-          "minPansuns": 60,
-          "maxPansuns": 64
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Banapi.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Banapi.png",
     "genderRatio": {
@@ -8937,36 +8880,7 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Crystle.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c6/LumaCrystle.png",
-    "locations": [
-      {
-        "location": "Mines of Mictlan",
-        "place": "Mines of Mictlan",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "5%",
-        "level": "28 - 30",
-        "freetem": {
-          "minLevel": 28,
-          "maxLevel": 30,
-          "minPansuns": 73,
-          "maxPansuns": 77
-        }
-      },
-      {
-        "location": "Kupeleleza",
-        "place": "Kupeleleza",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "5%",
-        "level": "24 - 28",
-        "freetem": {
-          "minLevel": 24,
-          "maxLevel": 28,
-          "minPansuns": 65,
-          "maxPansuns": 73
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Crystle.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Crystle.png",
     "genderRatio": {
@@ -8985,14 +8899,14 @@
       "spdef": 0
     },
     "gameDescription": "",
-    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b7/Crystle_full_render.png",
-    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8e/Crystle_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8f/LumaCrystle_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/69/LumaCrystle_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Crystle.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Crystle.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Crystle.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Crystle.gif"
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 73,
@@ -9447,7 +9361,10 @@
       }
     ],
     "trivia": [
-      "Pocus' name is derived from Hocus Pocus (a common phrase attributed to magicians and witches)."
+      "Pocus' name is derived from Hocus Pocus.",
+      "As of Alpha 0.6.19:\nPocus has the highest base HP and STA stats of all Mental Temtem.\nPocus has the highest base ATK stat of all Mental Temtem if Mental Koish is ignored.",
+      "Pocus has the highest base HP and STA stats of all Mental Temtem.",
+      "Pocus has the highest base ATK stat of all Mental Temtem if Mental Koish is ignored."
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fb/Pocus.png",
@@ -9470,7 +9387,7 @@
       "spatk": 1,
       "spdef": 0
     },
-    "gameDescription": "Pocus was considered blue-blooded among the blue bloods, and was traditionally given only to the male heirs of the House of Braeside. When the lineage fell, they mostly went extinct... until recently.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f5/Pocus_full_render.png",
     "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/56/Pocus_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/06/LumaPocus_full_render.png",
@@ -9603,7 +9520,7 @@
       }
     ],
     "trivia": [
-      "Sparzy's name is derived from spark and  crazy.",
+      "Sparzy's name is derived from spark and crazy.",
       "Sparzy was first revealed unnamed via Twitter.",
       "Sparzy’s name came from Yerin's suggestion on Twitter.",
       "Sparzy has an emote on the official Temtem discord."
@@ -9629,7 +9546,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Also known familiarly as \"Sparky\", this Temtem is a common sight in Cipanku. Children are warned to keep away from them - although normally good-natured and cheerful, they can involuntarily discharge considerable electric shocks.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -9698,7 +9615,7 @@
       }
     ],
     "trivia": [
-      "\"Golzy\" may be derived from goliath and crazy."
+      "Golzy's name may be derived from goliath and crazy."
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5f/Golzy.png",
@@ -9721,7 +9638,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Bred by the patient priests of Miyako from local varieties of Electric Temtem, Golzy is a gentle giant that helps the villagers carry heavy loads through the difficult mountain passes. Their constant presence has become a symbol of the Monastery.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -9810,7 +9727,8 @@
       }
     ],
     "trivia": [
-      "Mushi's name is derived from a mushroom diminutive."
+      "Mushi's name is derived from a mushroom diminutive.",
+      "As of Alpha 0.6.19, Mushi has the lowest base STA, SPDEF stats and base stat total of all Toxic Temtem."
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/78/Mushi.png",
@@ -9876,7 +9794,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Closely related to the non-sentient fungi of the Corrupted Badlands, Mushi are shy but territorial. Always mineral-hungry, wise tamers keep them well away from Crystal Temtem.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -10020,7 +9938,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Mushook are a hybrid variety, developed at the Quetzal Dojo by expert breeders. Strong and single-minded, some of the bigger specimens are occasionally employed by the Guards as static sentries at strategic points.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -10097,6 +10015,7 @@
     ],
     "trivia": [
       "Magmis' name is derived from malleus (hammer in Latin) and ignis (fire in Latin).",
+      "As of Alpha 0.6.19, Magmis has the lowest base stat total of all Fire Temtem.",
       "Magmis was first revealed via Twitter.",
       "Magmis was the first Temtem with a confirmed evolution."
     ],
@@ -10150,7 +10069,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Magmis' original habitat was in the lava rivers under the Anak caldera, but now they can be found all around the Archipelago, as foundry operators in Quetzal, heating systems in Arbury... And, of course, in Temtem battles.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -10261,6 +10180,7 @@
     ],
     "trivia": [
       "Mastione's name is derived from malleus (hammer in Latin) and combustione (combustion in Latin).",
+      "As of Alpha 0.6.19, Mastione has the highest base ATK stat of all Fire Temtem.",
       "Mastione was first revealed via Twitter.",
       "Mastione was the first Temtem with a confirmed pre-evolution."
     ],
@@ -10300,7 +10220,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Mastione are fire-loving Temtem, at home in the fiercest of blazes. They can be found grazing in woods devoured by wildfire. The tamed varieties learn to rein in their destructive tendencies - but even then, trainers should exercise care.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
