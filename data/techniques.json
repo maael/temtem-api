@@ -308,7 +308,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Thou shall not pass! A Melee technique that confers DEF .",
-    "effectText": "",
+    "effectText": "Block gives the user DEF .",
     "effects": []
   },
   {
@@ -2147,7 +2147,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "There is an edge to this madness - those willing to take 30% Damage will get SPDEF and SPATK .",
-    "effectText": "Madness Buff causes the user lose 30% of their total HP and then gets SPDEF and SPATK .",
+    "effectText": "",
     "effects": []
   },
   {
@@ -3860,14 +3860,8 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Hear it roar! The sound and fury of this technique inflict heavy damage but Exhaust the attacker for 2 turns.",
-    "effectText": "Thunder Strike deals damage to a single target, but inflicts the user with the Exhausted Condition for 2 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 2,
-        "condition": "Exhausted"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Time Split",
