@@ -308,7 +308,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Thou shall not pass! A Melee technique that confers DEF .",
-    "effectText": "Block gives the user DEF .",
+    "effectText": "",
     "effects": []
   },
   {
@@ -2470,7 +2470,7 @@
     ],
     "targets": "Other Team or Ally",
     "description": "lä, lä! Nagaise is calling some Water friends from the deeps... The whole enemy team will regret this.Used in combination with a Mental ally, Nagaise's Fury inflicts extra damage.",
-    "effectText": "",
+    "effectText": "Nagaise's Fury deals damage to the opposing team or the user's ally.",
     "effects": []
   },
   {
@@ -2872,14 +2872,8 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "Noxious fumes, almost unheard-of in the unspoilt Archipelago. They Poison the whole team for 2 turns.",
-    "effectText": "Pollution inflicts the opposing team or the user's ally with the Poisoned Condition for 2 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 2,
-        "condition": "Poisoned"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Psy Surge",
@@ -3860,14 +3854,8 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Hear it roar! The sound and fury of this technique inflict heavy damage but Exhaust the attacker for 2 turns.",
-    "effectText": "Thunder Strike deals damage to a single target, but inflicts the user with the Exhausted Condition for 2 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 2,
-        "condition": "Exhausted"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Time Split",
