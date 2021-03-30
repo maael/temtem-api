@@ -4965,7 +4965,64 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/27/Banapi.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e5/LumaBanapi.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "The Hangroad",
+        "place": "The Hangroad",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "65%",
+        "level": "14 - 19",
+        "freetem": {
+          "minLevel": 14,
+          "maxLevel": 19,
+          "minPansuns": 48,
+          "maxPansuns": 58
+        }
+      },
+      {
+        "location": "Anak Caldera",
+        "place": "Anak Caldera",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "50%",
+        "level": "30 - 35",
+        "freetem": {
+          "minLevel": 30,
+          "maxLevel": 35,
+          "minPansuns": 80,
+          "maxPansuns": 90
+        }
+      },
+      {
+        "location": "Anak Volcano",
+        "place": "Anak Volcano",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "10% - 50%",
+        "level": "22 - 24",
+        "freetem": {
+          "minLevel": 22,
+          "maxLevel": 24,
+          "minPansuns": 64,
+          "maxPansuns": 68
+        }
+      },
+      {
+        "location": "The Glassyway",
+        "place": "The Glassyway",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "30%",
+        "level": "20 - 22",
+        "freetem": {
+          "minLevel": 20,
+          "maxLevel": 22,
+          "minPansuns": 60,
+          "maxPansuns": 64
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Banapi.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Banapi.png",
     "genderRatio": {
@@ -8880,7 +8937,36 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Crystle.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c6/LumaCrystle.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Mines of Mictlan",
+        "place": "Mines of Mictlan",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "5%",
+        "level": "28 - 30",
+        "freetem": {
+          "minLevel": 28,
+          "maxLevel": 30,
+          "minPansuns": 73,
+          "maxPansuns": 77
+        }
+      },
+      {
+        "location": "Kupeleleza",
+        "place": "Kupeleleza",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "5%",
+        "level": "24 - 28",
+        "freetem": {
+          "minLevel": 24,
+          "maxLevel": 28,
+          "minPansuns": 65,
+          "maxPansuns": 73
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Crystle.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Crystle.png",
     "genderRatio": {
@@ -8899,14 +8985,14 @@
       "spdef": 0
     },
     "gameDescription": "",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b7/Crystle_full_render.png",
+    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8e/Crystle_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8f/LumaCrystle_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/69/LumaCrystle_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Crystle.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Crystle.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Crystle.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Crystle.gif"
   },
   {
     "number": 73,
@@ -9025,14 +9111,14 @@
       "spdef": 0
     },
     "gameDescription": "",
-    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/00/Sherald_full_render.png",
-    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/67/Sherald_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b2/LumaSherald_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c4/LumaSherald_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Sherald.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Sherald.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Sherald.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Sherald.gif"
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 74,
@@ -9733,50 +9819,7 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/78/Mushi.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/cb/LumaMushi.png",
-    "locations": [
-      {
-        "location": "Corrupted Badlands",
-        "place": "Corrupted Badlands",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "40 - 50%",
-        "level": "23 - 27",
-        "freetem": {
-          "minLevel": 23,
-          "maxLevel": 27,
-          "minPansuns": 76,
-          "maxPansuns": 85
-        }
-      },
-      {
-        "location": "Xolot Reservoir",
-        "place": "Xolot Reservoir",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "65%",
-        "level": "28 - 31",
-        "freetem": {
-          "minLevel": 28,
-          "maxLevel": 31,
-          "minPansuns": 88,
-          "maxPansuns": 95
-        }
-      },
-      {
-        "location": "Kupeleleza",
-        "place": "Kupeleleza",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "60%",
-        "level": "30 - 36",
-        "freetem": {
-          "minLevel": 30,
-          "maxLevel": 36,
-          "minPansuns": 92,
-          "maxPansuns": 107
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Mushi.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Mushi.png",
     "genderRatio": {
@@ -11467,64 +11510,7 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/52/Kuri.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/19/LumaKuri.png",
-    "locations": [
-      {
-        "location": "Mawingu Islets",
-        "place": "Mawingu Islets",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "50%",
-        "level": "31 - 37",
-        "freetem": {
-          "minLevel": 31,
-          "maxLevel": 37,
-          "minPansuns": 92,
-          "maxPansuns": 106
-        }
-      },
-      {
-        "location": "Jino Gap",
-        "place": "Jino Gap",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "40%",
-        "level": "33 - 37",
-        "freetem": {
-          "minLevel": 33,
-          "maxLevel": 37,
-          "minPansuns": 97,
-          "maxPansuns": 106
-        }
-      },
-      {
-        "location": "Kwea Uplands",
-        "place": "Kwea Uplands",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "20% - 80%",
-        "level": "38 - 42",
-        "freetem": {
-          "minLevel": 38,
-          "maxLevel": 42,
-          "minPansuns": 108,
-          "maxPansuns": 117
-        }
-      },
-      {
-        "location": "Matope Road",
-        "place": "Matope Road",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "25% - 30%",
-        "level": "40 - 45",
-        "freetem": {
-          "minLevel": 40,
-          "maxLevel": 45,
-          "minPansuns": 113,
-          "maxPansuns": 124
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Kuri.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Kuri.png",
     "genderRatio": {
@@ -15391,7 +15377,7 @@
       "spatk": 0,
       "spdef": 3
     },
-    "gameDescription": "It is unclear whether Professor Konstantinos ever discovered this evolution, with its flaming aquamarine wings - a true feat of meta-mimetic evolution, unseen elsewhere in the whole Archipelago.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5f/Tukai_full_render.png",
     "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/73/Tukai_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/cc/LumaTukai_full_render.png",
@@ -15493,7 +15479,7 @@
     ],
     "trivia": [
       "Tuvine's name derives from Tukana (toucan in Hawaian) and Olivine.",
-      "Tuvine has the highest base Defense of all Temtem at 111."
+      "As of Alpha 0.6.19, Tuvine has the highest base DEF stat of all Temtem."
     ],
     "evolution": {
       "stage": 2,
@@ -15522,7 +15508,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Just how a Crystal Temtem manages to fly effectively is still a mystery to most Temtemologists. Some theorize its flight is aided by magnetic repulsion generated by mineral organs... but most tamers just enjoy their emerald majesty without asking too many questions.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -15624,6 +15610,10 @@
     ],
     "trivia": [
       "Turoc's name is derived from Tukana (Tucan in Hawaiian) and Rock.",
+      "As of Alpha 0.6.19:\nTuroc has the highest base HP stat of all Wind Temtem.\nTuroc has the highest base ATK stat of all Wind Temtem if Wind Koish is ignored.\nTuroc has the lowest base SPDEF stat of all Wind Temtem.",
+      "Turoc has the highest base HP stat of all Wind Temtem.",
+      "Turoc has the highest base ATK stat of all Wind Temtem if Wind Koish is ignored.",
+      "Turoc has the lowest base SPDEF stat of all Wind Temtem.",
       "It might also be a pun on the Turok video game series.",
       "The Roc is a massive bird of prey of arabic mythology."
     ],
@@ -15648,7 +15638,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Turoc is, in the words of Linnaea, \"a meeting of opposites - a flying rock, stone on wings - an impossibility, and yet, a reality (...) further proof of the marvelous diversity of Temtem lifeforms.\"",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -15800,7 +15790,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "The elusive Kinu are some of the rarest Nature Temtem in the Myrisles - to the point that some tamers think they're a mere legend. When they do show up, Omninesians treat them with the respect reserved for the guardian spirits of the Banyan.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -15893,7 +15883,8 @@
       }
     ],
     "trivia": [
-      "Vulvir's name is derived from Vulcan (Roman God of fire) and hervir (boil in Spanish)."
+      "Vulvir's name is derived from Vulcan (Roman God of fire) and hervir (boil in Spanish).",
+      "As of Alpha 0.6.19, Vulvir has the lowest base SPDEF stat of all Fire Temtem."
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/40/Vulvir.png",
@@ -15945,7 +15936,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Some academics speculate that this is the last remnant of a long-lost \"Draconic\" variety of Temtem. In practice terms, most tamers classify them as Fire-Earth, which is an accurate designator for these mighty but shy creatures.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c1/Vulvir_full_render.png",
     "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0a/Vulvir_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/ef/LumaVulvir_full_render.png",
@@ -16052,7 +16043,6 @@
       }
     ],
     "trivia": [
-      "Needed for quest If You Build It",
       "Vulor's name is derived from Vulcano (Roman God of fire) and calor (heat in Spanish)."
     ],
     "evolution": {},
@@ -16105,7 +16095,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Although they hide their faces in hollow rocks like their lesser brethren, these Temtem have very little to fear from their environment. Tough as stone and destructive as fire, they are a force to be reckoned with.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -16226,7 +16216,10 @@
       }
     ],
     "trivia": [
-      "Vulcrane's name is derived from Vulcan (Roman God of fire) and Cráneo (cranium in Spanish)."
+      "Vulcrane's name is derived from Vulcan (Roman God of fire) and Cráneo (cranium in Spanish).",
+      "As of Alpha 0.6.19:\nVulcrane has the highest base STA stat of all Fire Temtem.\nVulcrane has the highest base stat total of all Earth and Fire Temtem.",
+      "Vulcrane has the highest base STA stat of all Fire Temtem.",
+      "Vulcrane has the highest base stat total of all Earth and Fire Temtem."
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/Vulcrane.png",
@@ -16264,7 +16257,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Vulcrane are sometimes described as \"Anak on two legs\". If a variety of draconic-looking Temtem ever existed, they couldn't have been much fiercer than this advanced, flaming beast.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -16387,6 +16380,7 @@
     ],
     "trivia": [
       "Pigepic's name is derived from pig and epic.",
+      "As of Alpha 0.6.19, Pigepic has the lowest base SPATK stat of all Wind Temtem.",
       "Pigepic's design is likely based on the English phrase, \"when pigs fly\", which is used to describe an impossible situation.",
       "Despite being Temtem number #141, Pigepic was the first Temtem to be revealed to the public via Twitter.",
       "Pigepic has two emotes on the official Temtem discord, originally alongside Pewki's single emote.",
@@ -16470,7 +16464,7 @@
       "spatk": 0,
       "spdef": 1
     },
-    "gameDescription": "The absolute favourites of toddlers all around the Archipelago, Pigepic are fluffy, soft and absolutely adorable. Voluminous and cumbersome, they normally float low over the ground, making them ideal playmates for small children.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -16582,7 +16576,8 @@
       }
     ],
     "trivia": [
-      "Akranox's name is derived from Akrabuamelu (scorpion deity) and Noxious."
+      "Akranox's name is derived from Akrabuamelu (scorpion deity) and Noxious.",
+      "As of Alpha 0.6.19, Akranox has the highest base stat total of all Toxic Temtem."
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d2/Akranox.png",
@@ -16620,7 +16615,7 @@
       "spatk": 1,
       "spdef": 0
     },
-    "gameDescription": "Well-armed with a mighty stinger and protected by rugged rock-like armor, Akranox can afford to have flash colored pincers and a cocky attitude, making them a favorite of Archipelagian teens.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -17150,10 +17145,20 @@
       }
     ],
     "trivia": [
+      "Koish's name is derived from \"koi\" and \"fish\".",
+      "As of Alpha 0.6.19 and due to its various sub-species:\nKoish has the highest base ATK stat of all Water Temtem.\nNeutral Koish is tied with Goty for the lowest base HP stat of all Neutral Temtem.\nWind Koish has the highest base ATK stat of all Wind Temtem. Turoc has the next highest base ATK stat for Wind Temtem if Koish sub-species are ignored.\nElectric Koish has the highest base ATK stat of all Electric Temtem. Nessla has the next highest base ATK stat for Electric Temtem if Koish sub-species are ignored.\nMental Koish has the highest base ATK stat of all Mental Temtem. Pocus has the next highest base ATK stat for Mental Temtem if Koish sub-species are ignored.\nMental Koish has the highest base DEF stat of all Mental Temtem. Nagaise has the next highest base DEF stat for Mental Temtem if Koish sub-species are ignored.\nMelee Koish is tied with Saipat for the highest base SPATK stat of all Melee Temtem.\nElectric Koish has the lowest base SPDEF stat of all Electric Temtem.\nDigital Koish has the highest base HP, STA, SPD, ATK, DEF, SPATK, SPDEF stats and base stat total of all Digital Temtem, as its the only Digital Temtem currently obtainable.",
+      "Koish has the highest base ATK stat of all Water Temtem.",
+      "Neutral Koish is tied with Goty for the lowest base HP stat of all Neutral Temtem.",
+      "Wind Koish has the highest base ATK stat of all Wind Temtem. Turoc has the next highest base ATK stat for Wind Temtem if Koish sub-species are ignored.",
+      "Electric Koish has the highest base ATK stat of all Electric Temtem. Nessla has the next highest base ATK stat for Electric Temtem if Koish sub-species are ignored.",
+      "Mental Koish has the highest base ATK stat of all Mental Temtem. Pocus has the next highest base ATK stat for Mental Temtem if Koish sub-species are ignored.",
+      "Mental Koish has the highest base DEF stat of all Mental Temtem. Nagaise has the next highest base DEF stat for Mental Temtem if Koish sub-species are ignored.",
+      "Melee Koish is tied with Saipat for the highest base SPATK stat of all Melee Temtem.",
+      "Electric Koish has the lowest base SPDEF stat of all Electric Temtem.",
+      "Digital Koish has the highest base HP, STA, SPD, ATK, DEF, SPATK, SPDEF stats and base stat total of all Digital Temtem, as its the only Digital Temtem currently obtainable.",
       "Given the Iridescence trait and a Mental secondary typing, Koish is the only Temtem that is weak to Neutral attacks.",
       "Given the Iridescence trait and either a Mental, Digital, or Melee secondary typing, Koish is the only Temtem that is resistant to Digital attacks.",
-      "Koish has 2 possible whisker lengths, 2 possible fin sizes, 6 possible colors for each of its 3 tail stripes, and 12 type combinations (each with a different pool of tail colors). This results in 864 variations of each Koish type and 10,368 variations total, not including Lumas.",
-      "Its name comes from \"koi\" and \"fish\"."
+      "Koish has 2 possible whisker lengths, 2 possible fin sizes, 6 possible colors for each of its 3 tail stripes, and 12 type combinations (each with a different pool of tail colors). This results in 864 variations of each Koish type and 10,368 variations total, not including Lumas."
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6a/Koish.png",
@@ -17205,7 +17210,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -17309,7 +17314,10 @@
       }
     ],
     "trivia": [
-      "Vulffy's name is derived from Vulpes (fox in Latin) and Fluffy."
+      "Vulffy's name is derived from Vulpes (fox in Latin) and Fluffy.",
+      "As of Alpha 0.6.19:\nVulffy has the lowest base ATK stat of all Earth Temtem.\nVulffy has the highest base SPDEF stat of all Earth Temtem.",
+      "Vulffy has the lowest base ATK stat of all Earth Temtem.",
+      "Vulffy has the highest base SPDEF stat of all Earth Temtem."
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/46/Vulffy.png",
@@ -17361,7 +17369,7 @@
       "spatk": 0,
       "spdef": 3
     },
-    "gameDescription": "Extremely perceptive and aware, this species flourishes (in all senses of the word) in the great expanses of wild land - although they are inquisitive by nature, and never shy away from human contact.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -17459,6 +17467,10 @@
     "trivia": [
       "Anahir's name is derived from Anak and Terlahir (born in Indonesian), so its name means \"Born from Anak\".\nIts name was for a while rumored to be Rihanna backwards, which was \"confirmed\" on Twitter while CEO Tateru was in control on April 1st, 2020.",
       "Its name was for a while rumored to be Rihanna backwards, which was \"confirmed\" on Twitter while CEO Tateru was in control on April 1st, 2020.",
+      "As of Alpha 0.6.19:\nAnahir has the lowest base SPD stat of all Fire and Crystal Temtem.\nAnahir has the highest base DEF stat of all Fire Temtem.\nAnahir has the highest base SPDEF stat of all Fire and Crystal Temtem.",
+      "Anahir has the lowest base SPD stat of all Fire and Crystal Temtem.",
+      "Anahir has the highest base DEF stat of all Fire Temtem.",
+      "Anahir has the highest base SPDEF stat of all Fire and Crystal Temtem.",
       "The Anahir you obtain during the quest Adventure in the Myrisles will always have 50 SVs in both DEF and SPDEF stats.",
       "Players can decide to not obtain Anahir to save storage, useful for those who value storage for FreeTem. Similarly players can decide to obtain Anahir at a later date.\nHowever, the interior of Anak Volcano becomes inaccessible once the player defeats Tihani and departs on the Narwhal.",
       "However, the interior of Anak Volcano becomes inaccessible once the player defeats Tihani and departs on the Narwhal.",
@@ -17500,7 +17512,7 @@
       "spatk": 0,
       "spdef": 2
     },
-    "gameDescription": "This tortured creature is the result of Dr. Hamijo's attempts at creating a new \"Diamond\" variety. By picking the sturdiest variety of Crystal Temtem and submitting it to the harshest Fire environment of Anak, he has achieved something unique... and uniquely cruel.",
+    "gameDescription": "",
     "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/19/Anahir_full_render.png",
     "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d7/Anahir_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/be/LumaAnahir_full_render.png",
