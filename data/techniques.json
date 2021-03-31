@@ -308,7 +308,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Thou shall not pass! A Melee technique that confers DEF .",
-    "effectText": "Block gives the user DEF .",
+    "effectText": "",
     "effects": []
   },
   {
@@ -2872,14 +2872,8 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "Noxious fumes, almost unheard-of in the unspoilt Archipelago. They Poison the whole team for 2 turns.",
-    "effectText": "Pollution inflicts the opposing team or the user's ally with the Poisoned Condition for 2 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 2,
-        "condition": "Poisoned"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Psy Surge",
