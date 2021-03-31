@@ -2250,7 +2250,36 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/38/Bunbun.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c7/LumaBunbun.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Mines of Mictlan",
+        "place": "Mines of Mictlan",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "70%",
+        "level": "31-34",
+        "freetem": {
+          "minLevel": 31,
+          "maxLevel": 34,
+          "minPansuns": 95,
+          "maxPansuns": 102
+        }
+      },
+      {
+        "location": "Kakama Cenote",
+        "place": "Kakama Cenote",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "75%",
+        "level": "35-39",
+        "freetem": {
+          "minLevel": 35,
+          "maxLevel": 39,
+          "minPansuns": 105,
+          "maxPansuns": 114
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Bunbun.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Bunbun.png",
     "genderRatio": {
@@ -2269,14 +2298,14 @@
       "spdef": 0
     },
     "gameDescription": "",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/bb/Bunbun_full_render.png",
+    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/22/Bunbun_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e5/LumaBunbun_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e1/LumaBunbun_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Bunbun.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Bunbun.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Bunbun.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Bunbun.gif"
   },
   {
     "number": 22,
@@ -9790,7 +9819,50 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/78/Mushi.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/cb/LumaMushi.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Corrupted Badlands",
+        "place": "Corrupted Badlands",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "40 - 50%",
+        "level": "23 - 27",
+        "freetem": {
+          "minLevel": 23,
+          "maxLevel": 27,
+          "minPansuns": 76,
+          "maxPansuns": 85
+        }
+      },
+      {
+        "location": "Xolot Reservoir",
+        "place": "Xolot Reservoir",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "65%",
+        "level": "28 - 31",
+        "freetem": {
+          "minLevel": 28,
+          "maxLevel": 31,
+          "minPansuns": 88,
+          "maxPansuns": 95
+        }
+      },
+      {
+        "location": "Kupeleleza",
+        "place": "Kupeleleza",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "60%",
+        "level": "30 - 36",
+        "freetem": {
+          "minLevel": 30,
+          "maxLevel": 36,
+          "minPansuns": 92,
+          "maxPansuns": 107
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Mushi.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Mushi.png",
     "genderRatio": {
@@ -15068,13 +15140,28 @@
       "Adoroboros has the lowest base SPD stat of all Mental Temtem.",
       "Adoroboros has the lowest base ATK stat of all Mental and Toxic Temtem.",
       "Adoroboros has the highest base SPDEF stat of all Temtem.",
-      "Adoroboros was originally shown on the Choose-a-Temtem V3 poll, currently unnamed. It got second place with 554 votes, just 25 votes behind the winner.Adoroboros was first nicknamed Adoroboros by Temtem Discord community member Husky. The nickname was later put into an official poll for naming the Temtem by the Discord member TMTrainer. It won the poll with 157 votes, becoming the official name of #129.",
+      "Adoroboros was originally shown on the Choose-a-Temtem V3 poll, currently unnamed. It got second place with 554 votes, just 25 votes behind the winner.\nAdoroboros was first nicknamed Adoroboros by Temtem Discord community member Husky. The nickname was later put into an official poll for naming the Temtem by the Discord member TMTrainer. It won the poll with 157 votes, becoming the official name of #129.",
       "Adoroboros was first nicknamed Adoroboros by Temtem Discord community member Husky. The nickname was later put into an official poll for naming the Temtem by the Discord member TMTrainer. It won the poll with 157 votes, becoming the official name of #129."
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/26/Adoroboros.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/52/LumaAdoroboros.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Xolot Reservoir",
+        "place": "Xolot Reservoir",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "35%",
+        "level": "28 - 31",
+        "freetem": {
+          "minLevel": 28,
+          "maxLevel": 31,
+          "minPansuns": 85,
+          "maxPansuns": 92
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Adoroboros.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Adoroboros.png",
     "genderRatio": {
