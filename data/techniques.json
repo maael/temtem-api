@@ -338,14 +338,8 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Survival is often the greatest of victories. Only effective if the Temtem is already alerted, and gives for 2 turns.",
-    "effectText": "Brace causes the user to gain the Evading Condition for 2 turns if it already has the Alerted Condition.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 2,
-        "condition": "Evading"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Bubbles",
@@ -938,7 +932,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "An effective and cool-looking double kick inspired by Cipanki action movies.",
-    "effectText": "Double Kick deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -1602,7 +1596,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Some Temtem lick you to signify affection... and some use it as a powerful attack! Eww!",
-    "effectText": "",
+    "effectText": "Harmful Lick deals damage to a single target.",
     "effects": []
   },
   {
@@ -2315,7 +2309,7 @@
     ],
     "targets": "Single Other Target",
     "description": "This metabolic enhancement reacts to poison in the target's body by purging it and the caster recovers 15% of health.Used in combination with a Nature ally, improved assimilation of nutrients regenerates the Temtem for 2 turns.",
-    "effectText": "If the target of Metabolize has the Poisoned Condition, it loses the condition and the user is healed 15% of its max HP.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -2578,7 +2572,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Through rigorous training, Temtem can become extra fast and gain SPD .",
-    "effectText": "",
+    "effectText": "Nimble gives the target SPD .",
     "effects": []
   },
   {
