@@ -938,7 +938,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "An effective and cool-looking double kick inspired by Cipanki action movies.",
-    "effectText": "",
+    "effectText": "Double Kick deals damage to a single target.",
     "effects": []
   },
   {
@@ -1602,7 +1602,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Some Temtem lick you to signify affection... and some use it as a powerful attack! Eww!",
-    "effectText": "Harmful Lick deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -2315,7 +2315,7 @@
     ],
     "targets": "Single Other Target",
     "description": "This metabolic enhancement reacts to poison in the target's body by purging it and the caster recovers 15% of health.Used in combination with a Nature ally, improved assimilation of nutrients regenerates the Temtem for 2 turns.",
-    "effectText": "",
+    "effectText": "If the target of Metabolize has the Poisoned Condition, it loses the condition and the user is healed 15% of its max HP.",
     "effects": []
   },
   {
@@ -2578,7 +2578,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Through rigorous training, Temtem can become extra fast and gain SPD .",
-    "effectText": "Nimble gives the target SPD .",
+    "effectText": "",
     "effects": []
   },
   {
