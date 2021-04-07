@@ -662,7 +662,7 @@
     "synergyEffects": [],
     "targets": "Single Team",
     "description": "Team equality! This equalizes all team members' STA with the team average.",
-    "effectText": "",
+    "effectText": "Cooperation takes the target team's current total STA and splits it evenly between the target team's Temtem.",
     "effects": []
   },
   {
@@ -2003,7 +2003,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "",
-    "effectText": "",
+    "effectText": "Jaw Strike deals damage to a single target.",
     "effects": []
   },
   {
@@ -2039,7 +2039,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "When the king roars, the rest run away. Decreases SPD and ATK of the other team.",
-    "effectText": "",
+    "effectText": "King's Roar gives the targets SPD and ATK .",
     "effects": []
   },
   {
@@ -2243,7 +2243,7 @@
     "synergyEffects": [],
     "targets": "?",
     "description": "",
-    "effectText": "",
+    "effectText": "Currently, Mechanical Heat is unavailable, so its unknown what it's full effect is.",
     "effects": []
   },
   {
@@ -2321,7 +2321,7 @@
     ],
     "targets": "Single Other Target",
     "description": "This metabolic enhancement reacts to poison in the target's body by purging it and the caster recovers 15% of health.Used in combination with a Nature ally, improved assimilation of nutrients regenerates the Temtem for 2 turns.",
-    "effectText": "",
+    "effectText": "If the target of Metabolize has the Poisoned Condition, it loses the condition and the user is healed 15% of its max HP.",
     "effects": []
   },
   {
@@ -4188,7 +4188,7 @@
     "synergyEffects": [],
     "targets": "Single Team",
     "description": "Turn it to eleven! Decreases the Hold level of our whole team.",
-    "effectText": "Turbo Charge lowers all of the target team's technique's Hold by 1.",
+    "effectText": "",
     "effects": []
   },
   {
