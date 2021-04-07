@@ -176,8 +176,14 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Give'em the old razzle dazzle! The target evades for 2 turns.",
-    "effectText": "",
-    "effects": []
+    "effectText": "Bamboozle gives the target the Evading Condition for 2 turns.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 2,
+        "condition": "Evading"
+      }
+    ]
   },
   {
     "name": "Bark",
@@ -728,7 +734,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "This nana-Anak analogue tectonic effect causes crystal shards to extrude from the ground and do damage.",
-    "effectText": "",
+    "effectText": "Crystal Spikes deals damage to a single target.",
     "effects": []
   },
   {
@@ -800,7 +806,7 @@
     "synergyEffects": [],
     "targets": "?",
     "description": "",
-    "effectText": "",
+    "effectText": "Currently, Data Burst is unavailable, so its unknown what it's full effect is.",
     "effects": []
   },
   {
@@ -1859,7 +1865,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Watch your enemies choke as you turn around and... take their breath away.",
-    "effectText": "Hypoxia deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -2309,7 +2315,7 @@
     ],
     "targets": "Single Other Target",
     "description": "This metabolic enhancement reacts to poison in the target's body by purging it and the caster recovers 15% of health.Used in combination with a Nature ally, improved assimilation of nutrients regenerates the Temtem for 2 turns.",
-    "effectText": "",
+    "effectText": "If the target of Metabolize has the Poisoned Condition, it loses the condition and the user is healed 15% of its max HP.",
     "effects": []
   },
   {
