@@ -6665,7 +6665,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6c/Barnshe.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e3/LumaBarnshe.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Windward Fort",
+        "place": "Windward Fort",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "5%",
+        "level": "12 - 14",
+        "freetem": {
+          "minLevel": 12,
+          "maxLevel": 14,
+          "minPansuns": 58,
+          "maxPansuns": 65
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Barnshe.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Barnshe.png",
     "genderRatio": {
@@ -6684,14 +6699,14 @@
       "spdef": 0
     },
     "gameDescription": "",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c2/Barnshe_full_render.png",
+    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/57/Barnshe_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/LumaBarnshe_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/68/LumaBarnshe_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Barnshe.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Barnshe.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Barnshe.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Barnshe.gif"
   },
   {
     "number": 54,
