@@ -91,14 +91,14 @@
       "spdef": 0
     },
     "gameDescription": "",
-    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Oree_full_render.png",
-    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9a/Oree_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Oree_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9a/Oree_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Oree.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Oree.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Oree.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Oree.gif"
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 3,
@@ -4063,7 +4063,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0d/Rhoulder.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/eb/LumaRhoulder.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Tasa Desert",
+        "place": "Tasa Desert",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "5%",
+        "level": "43 - 48",
+        "freetem": {
+          "minLevel": 43,
+          "maxLevel": 48,
+          "minPansuns": 182,
+          "maxPansuns": 200
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Rhoulder.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Rhoulder.png",
     "genderRatio": {
@@ -6650,22 +6665,7 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6c/Barnshe.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e3/LumaBarnshe.png",
-    "locations": [
-      {
-        "location": "Windward Fort",
-        "place": "Windward Fort",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "5%",
-        "level": "12 - 14",
-        "freetem": {
-          "minLevel": 12,
-          "maxLevel": 14,
-          "minPansuns": 58,
-          "maxPansuns": 65
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Barnshe.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Barnshe.png",
     "genderRatio": {
@@ -6684,14 +6684,14 @@
       "spdef": 0
     },
     "gameDescription": "",
-    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c2/Barnshe_full_render.png",
-    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/57/Barnshe_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/LumaBarnshe_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/68/LumaBarnshe_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Barnshe.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Barnshe.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Barnshe.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Barnshe.gif"
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 54,
@@ -9229,14 +9229,14 @@
       "spdef": 0
     },
     "gameDescription": "",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/15/Tortenite_full_render.png",
+    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b2/Tortenite_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/26/LumaTortenite_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/83/LumaTortenite_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Tortenite.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Tortenite.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Tortenite.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tortenite.gif"
   },
   {
     "number": 79,
@@ -11115,14 +11115,14 @@
       "spdef": 0
     },
     "gameDescription": "",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b5/Seismunch_full_render.png",
+    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fa/Seismunch_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/36/LumaSeismunch_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4c/LumaSeismunch_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Seismunch.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Seismunch.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Seismunch.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Seismunch.gif"
   },
   {
     "number": 95,
@@ -16473,7 +16473,64 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/20/Pigepic.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4a/LumaPigepic.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Prasine Coast",
+        "place": "Prasine Coast",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "5%",
+        "level": "4 - 6",
+        "freetem": {
+          "minLevel": 4,
+          "maxLevel": 6,
+          "minPansuns": 29,
+          "maxPansuns": 34
+        }
+      },
+      {
+        "location": "Saipark",
+        "place": "Saipark",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "50%",
+        "level": "38 - 41",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 41,
+          "minPansuns": 105,
+          "maxPansuns": 112
+        }
+      },
+      {
+        "location": "Thalassian Cliffs",
+        "place": "Thalassian Cliffs",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "50% - 100%",
+        "level": "5 - 11",
+        "freetem": {
+          "minLevel": 5,
+          "maxLevel": 11,
+          "minPansuns": 32,
+          "maxPansuns": 45
+        }
+      },
+      {
+        "location": "Gifted Bridges",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "85%",
+        "level": "8 - 10",
+        "freetem": {
+          "minLevel": 8,
+          "maxLevel": 10,
+          "minPansuns": 38,
+          "maxPansuns": 43
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Pigepic.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Pigepic.png",
     "genderRatio": {

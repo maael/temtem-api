@@ -38,7 +38,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "A burst of allergen spores that inflicts damage to the whole team.",
-    "effectText": "Allergic Spread deals damage to the opposing team or the user's ally.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -344,8 +344,14 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Survival is often the greatest of victories. Only effective if the Temtem is already alerted, and gives for 2 turns.",
-    "effectText": "",
-    "effects": []
+    "effectText": "Brace causes the user to gain the Evading Condition for 2 turns if it already has the Alerted Condition.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 2,
+        "condition": "Evading"
+      }
+    ]
   },
   {
     "name": "Bubbles",
@@ -656,7 +662,7 @@
     "synergyEffects": [],
     "targets": "Single Team",
     "description": "Team equality! This equalizes all team members' STA with the team average.",
-    "effectText": "Cooperation takes the target team's current total STA and splits it evenly between the target team's Temtem.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -788,7 +794,7 @@
     "synergyEffects": [],
     "targets": "All",
     "description": "Where is everybody? All Temtem in the battlefield are Isolated for 2 turns, negating any synergies.",
-    "effectText": "Darkness gives the Isolated Condition to all Temtem on the battlefield for 2 turns.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -1865,7 +1871,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Watch your enemies choke as you turn around and... take their breath away.",
-    "effectText": "",
+    "effectText": "Hypoxia deals damage to a single target.",
     "effects": []
   },
   {
@@ -2237,7 +2243,7 @@
     "synergyEffects": [],
     "targets": "?",
     "description": "",
-    "effectText": "Currently, Mechanical Heat is unavailable, so its unknown what it's full effect is.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -2315,7 +2321,7 @@
     ],
     "targets": "Single Other Target",
     "description": "This metabolic enhancement reacts to poison in the target's body by purging it and the caster recovers 15% of health.Used in combination with a Nature ally, improved assimilation of nutrients regenerates the Temtem for 2 turns.",
-    "effectText": "If the target of Metabolize has the Poisoned Condition, it loses the condition and the user is healed 15% of its max HP.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -4182,7 +4188,7 @@
     "synergyEffects": [],
     "targets": "Single Team",
     "description": "Turn it to eleven! Decreases the Hold level of our whole team.",
-    "effectText": "Turbo Charge lowers all of the target team's technique's Hold by 1.",
+    "effectText": "",
     "effects": []
   },
   {
