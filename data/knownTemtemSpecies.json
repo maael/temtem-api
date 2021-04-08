@@ -634,7 +634,78 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0c/Loali.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/13/LumaLoali.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "The Canopath",
+        "place": "The Canopath",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "20%",
+        "level": "16 - 19",
+        "freetem": {
+          "minLevel": 16,
+          "maxLevel": 19,
+          "minPansuns": 55,
+          "maxPansuns": 61
+        }
+      },
+      {
+        "location": "The Flywalk",
+        "place": "The Flywalk",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "30% - 50%",
+        "level": "18 - 25",
+        "freetem": {
+          "minLevel": 18,
+          "maxLevel": 25,
+          "minPansuns": 59,
+          "maxPansuns": 74
+        }
+      },
+      {
+        "location": "The Hangroad",
+        "place": "The Hangroad",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "20%",
+        "level": "15 - 20",
+        "freetem": {
+          "minLevel": 15,
+          "maxLevel": 20,
+          "minPansuns": 53,
+          "maxPansuns": 63
+        }
+      },
+      {
+        "location": "The Glassyway",
+        "place": "The Glassyway",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "80%",
+        "level": "19 - 22",
+        "freetem": {
+          "minLevel": 19,
+          "maxLevel": 22,
+          "minPansuns": 61,
+          "maxPansuns": 68
+        }
+      },
+      {
+        "location": "Mines of Mictlan",
+        "place": "Mines of Mictlan",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "Gift",
+        "level": "38",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 38,
+          "minPansuns": 102,
+          "maxPansuns": 102
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Loali.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Loali.png",
     "genderRatio": {
@@ -653,14 +724,14 @@
       "spdef": 0
     },
     "gameDescription": "",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1f/Loali_full_render.png",
+    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6f/Loali_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/97/LumaLoali_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/65/LumaLoali_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Loali.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Loali.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Loali.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Loali.gif"
   },
   {
     "number": 12,
