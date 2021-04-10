@@ -1123,7 +1123,7 @@
     "synergyEffects": [],
     "targets": "?",
     "description": "",
-    "effectText": "Electromagnitism gives the target SPD while inflicting the user and the target with the Trapped Condition for 3 turns.",
+    "effectText": "Electromagnetism gives the target SPD while inflicting the user and the target with the Trapped Condition for 3 turns.",
     "effects": [
       {
         "type": "condition",
@@ -1224,7 +1224,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "\"Omnes vulnerant, postuma necat\". Slowly the hour creeps onwards... it does only slight damage, but if that leaves the Temtem under 40% of their total HP... it's over for them.",
-    "effectText": "Execution deals damage to a single target. If this damage would put it below 40% of its maximum HP, it instead is knocked-out.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -2327,7 +2327,7 @@
     ],
     "targets": "Single Other Target",
     "description": "This metabolic enhancement reacts to poison in the target's body by purging it and the caster recovers 15% of health.Used in combination with a Nature ally, improved assimilation of nutrients regenerates the Temtem for 2 turns.",
-    "effectText": "If the target of Metabolize has the Poisoned Condition, it loses the condition and the user is healed 15% of its max HP.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -2668,7 +2668,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "This nasty stinker inflicts Toxic damage... Just don't use it in an elevator...",
-    "effectText": "Noxious Bomb deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -3668,14 +3668,8 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "This Temtem's intimidating stare gives the Temtem Alert for 2 turns, and makes rivals feel more vulnerable: DEF .",
-    "effectText": "Stare gives the target DEF and the user gains the Alerted Condition for 2 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 2,
-        "condition": "Alerted"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Sting",
@@ -4010,14 +4004,8 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "The victim will have time to regret getting this tattoo... While it's Poisoned for 2 turns.",
-    "effectText": "Toxic Ink deals damage to a single target and inflicts the Poisoned Condition for 2 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 2,
-        "condition": "Poisoned"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Toxic Plume",
