@@ -1109,8 +1109,8 @@
     "effects": []
   },
   {
-    "name": "Electromagnetism",
-    "wikiUrl": "https://temtem.gamepedia.com/wiki/Electromagnetism",
+    "name": "Electromagnitism",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Electromagnitism",
     "type": "?",
     "class": "?",
     "classIcon": "/images/icons/technique/?.png",
@@ -1224,7 +1224,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "\"Omnes vulnerant, postuma necat\". Slowly the hour creeps onwards... it does only slight damage, but if that leaves the Temtem under 40% of their total HP... it's over for them.",
-    "effectText": "",
+    "effectText": "Execution deals damage to a single target. If this damage would put it below 40% of its maximum HP, it instead is knocked-out.",
     "effects": []
   },
   {
@@ -2572,7 +2572,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "This basic strike for sai delivers a powerful Melee technique.",
-    "effectText": "Nicho Sai deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -3046,7 +3046,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "The red mist makes a Temtem brutal but also careless, getting ATK and DEF .",
-    "effectText": "",
+    "effectText": "Rage gives the user ATK but also DEF .",
     "effects": []
   },
   {
@@ -3572,7 +3572,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "An extremely weak Earth technique... but you don't look a sludge gift in the rock, right?",
-    "effectText": "",
+    "effectText": "Sludge Gift deals damage to a single target.",
     "effects": []
   },
   {
@@ -3668,8 +3668,14 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "This Temtem's intimidating stare gives the Temtem Alert for 2 turns, and makes rivals feel more vulnerable: DEF .",
-    "effectText": "",
-    "effects": []
+    "effectText": "Stare gives the target DEF and the user gains the Alerted Condition for 2 turns.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 2,
+        "condition": "Alerted"
+      }
+    ]
   },
   {
     "name": "Sting",
