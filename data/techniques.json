@@ -1109,8 +1109,8 @@
     "effects": []
   },
   {
-    "name": "Electromagnitism",
-    "wikiUrl": "https://temtem.gamepedia.com/wiki/Electromagnitism",
+    "name": "Electromagnetism",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Electromagnetism",
     "type": "?",
     "class": "?",
     "classIcon": "/images/icons/technique/?.png",
@@ -1224,7 +1224,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "\"Omnes vulnerant, postuma necat\". Slowly the hour creeps onwards... it does only slight damage, but if that leaves the Temtem under 40% of their total HP... it's over for them.",
-    "effectText": "",
+    "effectText": "Execution deals damage to a single target. If this damage would put it below 40% of its maximum HP, it instead is knocked-out.",
     "effects": []
   },
   {
@@ -3572,7 +3572,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "An extremely weak Earth technique... but you don't look a sludge gift in the rock, right?",
-    "effectText": "Sludge Gift deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
