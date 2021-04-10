@@ -1123,8 +1123,14 @@
     "synergyEffects": [],
     "targets": "?",
     "description": "",
-    "effectText": "Currently, Electromagnitism is unobtainable, so it's unknown what its full effect is.",
-    "effects": []
+    "effectText": "Electromagnitism gives the target SPD while inflicting the user and the target with the Trapped Condition for 3 turns.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 3,
+        "condition": "Trapped"
+      }
+    ]
   },
   {
     "name": "Electropunch",
