@@ -704,7 +704,7 @@
     ],
     "targets": "Single Target",
     "description": "A miniature version of the \"star-rain\" that is said to have spawned the Archipelago.",
-    "effectText": "Crystal Dust deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -1109,8 +1109,8 @@
     "effects": []
   },
   {
-    "name": "Electromagnitism",
-    "wikiUrl": "https://temtem.gamepedia.com/wiki/Electromagnitism",
+    "name": "Electromagnetism",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Electromagnetism",
     "type": "?",
     "class": "?",
     "classIcon": "/images/icons/technique/?.png",
@@ -1224,7 +1224,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "\"Omnes vulnerant, postuma necat\". Slowly the hour creeps onwards... it does only slight damage, but if that leaves the Temtem under 40% of their total HP... it's over for them.",
-    "effectText": "Execution deals damage to a single target. If this damage would put it below 40% of its maximum HP, it instead is knocked-out.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -2572,7 +2572,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "This basic strike for sai delivers a powerful Melee technique.",
-    "effectText": "",
+    "effectText": "Nicho Sai deals damage to a single target.",
     "effects": []
   },
   {
@@ -3046,7 +3046,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "The red mist makes a Temtem brutal but also careless, getting ATK and DEF .",
-    "effectText": "Rage gives the user ATK but also DEF .",
+    "effectText": "",
     "effects": []
   },
   {
