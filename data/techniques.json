@@ -3668,8 +3668,14 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "This Temtem's intimidating stare gives the Temtem Alert for 2 turns, and makes rivals feel more vulnerable: DEF .",
-    "effectText": "",
-    "effects": []
+    "effectText": "Stare gives the target DEF and the user gains the Alerted Condition for 2 turns.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 2,
+        "condition": "Alerted"
+      }
+    ]
   },
   {
     "name": "Sting",
