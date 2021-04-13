@@ -14,7 +14,7 @@
   {
     "name": "Amphibian",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Amphibian",
-    "description": "Whenever a Temtem with Amphibian is attacked by a Water Technique, it gets SPD .",
+    "description": "Whenever a Temtem with Amphibian is attacked by a Water Technique, it gets SPD and ATK .",
     "effect": ""
   },
   {
@@ -62,7 +62,7 @@
   {
     "name": "Book Lungs",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Book_Lungs",
-    "description": "Whenever a Temtem with Book Lungs takes damage from a Water technique, the damage is reduced by 30%.",
+    "description": "Whenever a Temtem with Book Lungs takes damage from a Water technique, the damage is reduced by 50%.",
     "effect": ""
   },
   {
@@ -104,7 +104,7 @@
   {
     "name": "Callosity",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Callosity",
-    "description": "Whenever a Temtem with Callosity gets attacked by a Physical Technique, it then gets DEF .",
+    "description": "Whenever a Temtem with Callosity gets attacked by a Physical Technique, it then gets DEF . It cannot be triggered more than once per turn.",
     "effect": ""
   },
   {
@@ -141,7 +141,7 @@
     "name": "Comebacker",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Comebacker",
     "description": "",
-    "effect": "When an attacker targets a Temtem with Comebacker, the attacker takes 50% increased damage for the rest of the turn."
+    "effect": "When an attacker targets a Temtem with Comebacker, the attacker takes 35% increased damage for the rest of the turn."
   },
   {
     "name": "Confined",
@@ -158,7 +158,7 @@
   {
     "name": "Deceit Aura",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Deceit_Aura",
-    "description": "At any turn in which a Temtem with Deceit Aura is present, the individual Temtem turn order is reversed. This reversal applies to the order in which techniques are used and the order in which Temtem are swapped. Temtem swapping and item usage still occur prior to techniques.",
+    "description": "For the first four turns in which a Temtem with Deceit Aura is present on the battlefield, the individual Temtem turn order is reversed. This reversal applies to the order in which techniques are used and the order in which Temtem are swapped. Temtem swapping and item usage still occur prior to techniques.",
     "effect": ""
   },
   {
@@ -206,7 +206,7 @@
   {
     "name": "Energy Reserves",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Energy_Reserves",
-    "description": "If, at the end of the turn, the HP of a Temtem with Energy Reserves is below 40% of its maximum, the Temtem gets the Vigorized Condition for 2 turns and ATK . This will only happen once per battle.",
+    "description": "As soon as a Temtem with Energy Reserves has 40% or less of its maximum HP, the Temtem gets the Vigorized Condition for 2 turns and ATK . This will only happen once per battle.",
     "effect": ""
   },
   {
@@ -314,7 +314,7 @@
   {
     "name": "Last Rush",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Last_Rush",
-    "description": "Temtem with Last Rush get 50% increased ATK, SPATK, and SPD if all their allies are knocked-out.",
+    "description": "If the number of allies conscious is less than the number of enemies conscious, including Temtem not on the battlefield for both totals, Temtem with Last Rush deal 30% more damage.",
     "effect": ""
   },
   {
@@ -338,7 +338,7 @@
   {
     "name": "Mirroring",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Mirroring",
-    "description": "Whenever a Temtem with Mirroring receives damage from a Special technique, the attacker receives 25% of the damage as well if the Temtem wasn't knocked out.",
+    "description": "Whenever a Temtem with Mirroring receives damage from a Special technique, the attacker receives 40% of the damage as well if the Temtem wasn't knocked out.",
     "effect": ""
   },
   {
@@ -356,13 +356,13 @@
   {
     "name": "Mucous",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Mucous",
-    "description": "Temtem with Mucous never receive the Cold Condition nor the Burned Condition. Additionally, they take 30% less damage from Techniques.",
+    "description": "Temtem with Mucous never receive the Cold Condition nor the Burned Condition. Additionally, they take 30% less damage from Electric or Toxic type Techniques.",
     "effect": ""
   },
   {
     "name": "Neutrality",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Neutrality",
-    "description": "Temtem with Neutrality never receive any status conditions, whether they be positive or negative.",
+    "description": "Temtem with Neutrality never receive any negative status conditions.",
     "effect": ""
   },
   {
@@ -380,7 +380,7 @@
   {
     "name": "Plethoric",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Plethoric",
-    "description": "If a Temtem with Plethoric's HP is full, and it has not taken any damage, its SPD is increased by 30%.",
+    "description": "If a Temtem with Plethoric's HP is at 70% or higher its SPD is increased by 30%.",
     "effect": ""
   },
   {
@@ -398,7 +398,7 @@
   {
     "name": "Protector",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Protector",
-    "description": "When a Temtem with Protector enters the battlefield, it loses 10% of its maximum HP and its ally gets DEF and SPDEF , even if the ally is immediately then swapped out.",
+    "description": "When a Temtem with Protector enters the battlefield, it loses 10% of its maximum HP and gets Trapped Condition for 2 turns, and its ally gets DEF and SPDEF , even if the ally is immediately then swapped out.",
     "effect": ""
   },
   {
@@ -434,13 +434,13 @@
   {
     "name": "Rejuvenate",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Rejuvenate",
-    "description": "After attacking with a Physical Technique, if the attacking Temtem has Rejuvenate, it restores 20% of its maximum HP.",
+    "description": "After attacking with a SpecialTechnique, if the attacking Temtem has Rejuvenate, it restores 7% of its maximum HP.",
     "effect": ""
   },
   {
     "name": "Resilient",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Resilient",
-    "description": "If a Temtem with Resilient is to knock itself out due to overexertion, it will instead survive with 1 HP.",
+    "description": "If a Temtem with Resilient is to knock itself out due to overexertion, it will instead survive with 1 HP and get SPD . Resilient can only trigger once per battle.",
     "effect": ""
   },
   {
@@ -500,13 +500,13 @@
   {
     "name": "Snowstorm",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Snowstorm",
-    "description": "When entering the battlefield for the first time, rivals and the ally get cold for 2 turns if they aren't cold already.",
-    "effect": "When a Temtem with Snowstorm enters the battlefield, their ally and both rivals each get the Cold Condition for 2 turns if they do not already have the condition."
+    "description": "When entering the battlefield for the first time, rivals and the ally get cold for 3 turns if they aren't cold already.",
+    "effect": "When a Temtem with Snowstorm enters the battlefield, their ally and both rivals each get the Cold Condition for 3 turns if they do not already have the condition."
   },
   {
     "name": "Soft Touch",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Soft_Touch",
-    "description": "When a Temtem with Soft Touch attacks a target afflicted with the Asleep Condition with a damage dealing technique, the condition will not be removed.",
+    "description": "When a Temtem with Soft Touch attacks a target afflicted with the Asleep Condition with a damage dealing technique, the condition will not be removed, and the damage will be increased by 20%.",
     "effect": ""
   },
   {
@@ -518,14 +518,14 @@
   {
     "name": "Spreader",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Spreader",
-    "description": "Whenever a Temtem with Spreader attacks with a Special Technique, the attack affects the entire target team instead but only deals ~66% damage.",
+    "description": "Whenever a Temtem with Spreader attacks with a Special Technique, if there are multiple enemy Temtem on the battlefield, the attack affects the entire target team instead but only deals ~66% damage.",
     "effect": ""
   },
   {
     "name": "Stabmaster",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Stabmaster",
-    "description": "Damage done with matching type techniques is increased by 50%.",
-    "effect": "When a Temtem with Stabmaster uses a technique that shares a type with it, it deals 50% extra damage in addition to the STAB bonus."
+    "description": "Damage done with matching type techniques is increased by 40%.",
+    "effect": "When a Temtem with Stabmaster uses a technique that shares a type with it, it deals 40% extra damage in addition to the STAB bonus."
   },
   {
     "name": "Strong Liver",
@@ -566,7 +566,7 @@
   {
     "name": "Tireless",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Tireless",
-    "description": "When a Temtem with Tireless overexerts, it doesn't lose its next turn. It will still be able to use a Technique.",
+    "description": "When a Temtem with Tireless overexerts, it doesn't lose its next turn, and it gets ATK . It will still be able to use a Technique.",
     "effect": ""
   },
   {
@@ -578,7 +578,7 @@
   {
     "name": "Toxic Farewell",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Toxic_Farewell",
-    "description": "When a Temtem knocks out a target with Toxic Farewell, it receives the Poisoned Condition for 3 turns.",
+    "description": "When a Temtem knocks out a target with Toxic Farewell, it loses 10% of its maximum HP.",
     "effect": ""
   },
   {
@@ -596,7 +596,7 @@
   {
     "name": "Trance",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Trance",
-    "description": "If a Temtem with Trance is the target of a technique, and afterwards its HP is 30% or less of its maximum, it gets the Asleep Condition for 2 turns and the Regenerated Condition for 3 turns, and also gets SPATK and SPDEF . This is regardless of if the technique did damage, but Trance only can ever trigger once per battle.",
+    "description": "If a Temtem with Trance is the target of a technique, and afterwards its HP is 30% or less of its maximum, it gets the Asleep Condition for 2 turns and the Regenerated Condition for 4 turns, and also gets SPATK and SPDEF . This is regardless of if the technique did damage, but Trance only can ever trigger once per battle.",
     "effect": ""
   },
   {
@@ -644,13 +644,13 @@
   {
     "name": "Withdrawal",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Withdrawal",
-    "description": "Whenever a Temtem with Withdrawal rests for their turn, they recover 15% of their maximum HP and if they had the Asleep Condition, they lose it.",
+    "description": "Whenever a Temtem with Withdrawal rests for their turn, they recover 20% of their maximum HP and if they had the Asleep Condition or the Poisoned Condition, they lose it.",
     "effect": ""
   },
   {
     "name": "Wrecked Farewell",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Wrecked_Farewell",
-    "description": "Whenever a Temtem with Wrecked Farewell is knocked out by itself, such as by self-damaging techniques or by overexerting, all other Temtem, including allies, lose 25% of their maximum HP.",
+    "description": "Whenever a Temtem with Wrecked Farewell is knocked out by itself, such as by self-damaging techniques or by overexerting, all enemy Temtem lose 25% of their maximum HP.",
     "effect": ""
   },
   {
