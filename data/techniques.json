@@ -846,6 +846,24 @@
     "effects": []
   },
   {
+    "name": "Data Corruption",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Data_Corruption",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "",
+    "effectText": "",
+    "effects": []
+  },
+  {
     "name": "DC Beam",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/DC_Beam",
     "type": "Electric",
@@ -921,6 +939,48 @@
     "targets": "Single Target",
     "description": "It is a complete mystery how some Koish have developed Digital attacks, but this one is capable of moderate damage.",
     "effectText": "Digital Stream deals damage to a single target.",
+    "effects": []
+  },
+  {
+    "name": "Digital Whip",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Digital_Whip",
+    "type": "Digital",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 20,
+    "staminaCost": 6,
+    "hold": 0,
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "Like being slapped with a snippet of code - its bark is much worse than its byte! This technique does little damage.",
+    "effectText": "Digital Whip deals damage to a single target.",
+    "effects": []
+  },
+  {
+    "name": "Digithreat",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Digithreat",
+    "type": "Digital",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 100,
+    "staminaCost": 20,
+    "hold": 1,
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
+    "synergy": "Mental",
+    "synergyEffects": [
+      {
+        "effect": "3 turns Doomed",
+        "type": "condition",
+        "damage": 0
+      }
+    ],
+    "targets": "Single Other Target",
+    "description": "Just like trash-posting, this technique is a slow way of inflicting damage to the mind...All those trash-posts are messing with your head... Used in combination with a Mental ally. Digithreat dooms the target for 3 turns.",
+    "effectText": "Digithreat deals damage to a single target.",
     "effects": []
   },
   {
@@ -1315,6 +1375,30 @@
     "targets": "?",
     "description": "",
     "effectText": "Currently, Extra Energy Slam is unavailable, so it's unknown what its full effect is.",
+    "effects": []
+  },
+  {
+    "name": "Faraday Cage",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Faraday_Cage",
+    "type": "Digital",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 100,
+    "staminaCost": 32,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "Toxic",
+    "synergyEffects": [
+      {
+        "effect": "3 Turns Poison",
+        "type": "condition",
+        "damage": 0
+      }
+    ],
+    "targets": "?",
+    "description": "This classic science experiment, weaponized. This technique inflicts decent damage and exiles the target for 3 turns.\"...and the nhe drak the battery liquid!\" Used in combination with a Toxic ally, Faraday cage poisons the target for 3 turns.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -1720,6 +1804,24 @@
     "effects": []
   },
   {
+    "name": "Harmful Microwaves",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Harmful_Microwaves",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "",
+    "effectText": "",
+    "effects": []
+  },
+  {
     "name": "Head Charge",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Head_Charge",
     "type": "Melee",
@@ -1937,7 +2039,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "When you gotta hit hard and fast - the faster, the harder. Inflicts extra damage depending on the Temtem's SPD.",
-    "effectText": "Hyperkinetic Strike deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -3110,6 +3212,24 @@
     "effects": []
   },
   {
+    "name": "Purgation",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Purgation",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "",
+    "effectText": "",
+    "effects": []
+  },
+  {
     "name": "Quartz Dirt",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Quartz_Dirt",
     "type": "Crystal",
@@ -3639,6 +3759,24 @@
     "targets": "Single Other Target",
     "description": "Like winter in the Kilima peaks, this blizzard of sharp shards is as fast as piercing.",
     "effectText": "Sharp Stabs deals damage to a single target.",
+    "effects": []
+  },
+  {
+    "name": "Sharpening",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Sharpening",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "",
+    "effectText": "",
     "effects": []
   },
   {
@@ -4819,6 +4957,24 @@
     "targets": "All",
     "description": "A wintry sonata that leaves all Temtem in the battlefield as Cold as the Kilima snows.",
     "effectText": "Winter Call inflicts Cold Condition on all targets on the battlefield for 2 turns.",
+    "effects": []
+  },
+  {
+    "name": "Zen Meditation",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Zen_Meditation",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "",
+    "effectText": "",
     "effects": []
   }
 ]

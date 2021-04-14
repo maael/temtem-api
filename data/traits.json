@@ -144,6 +144,12 @@
     "effect": "When an attacker targets a Temtem with Comebacker, the attacker takes 35% increased damage for the rest of the turn."
   },
   {
+    "name": "Common Factor",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Common_Factor",
+    "description": "",
+    "effect": "Temtem"
+  },
+  {
     "name": "Confined",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Confined",
     "description": "When a Temtem with Confined uses a technique that causes it to give itself the Trapped Condition, it also gets DEF and SPDEF .",
@@ -159,6 +165,12 @@
     "name": "Deceit Aura",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Deceit_Aura",
     "description": "For the first four turns in which a Temtem with Deceit Aura is present on the battlefield, the individual Temtem turn order is reversed. This reversal applies to the order in which techniques are used and the order in which Temtem are swapped. Temtem swapping and item usage still occur prior to techniques.",
+    "effect": ""
+  },
+  {
+    "name": "Defuser",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Defuser",
+    "description": "When a Temtem with Defuser attacks another Temtem with a physical technique, the target of the attack will recieve the Seized Condition for 3 turns.",
     "effect": ""
   },
   {
@@ -196,6 +208,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Efficient",
     "description": "When a Temtem with Efficient uses an offensive technique, the technique costs 30% less stamina.",
     "effect": ""
+  },
+  {
+    "name": "Electric Custodian",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Electric_Custodian",
+    "description": "",
+    "effect": "Electric Techniques targeting an ally will target this Temtem instead."
   },
   {
     "name": "Electric Synthesize",
@@ -246,10 +264,22 @@
     "effect": ""
   },
   {
+    "name": "Frightening",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Frightening",
+    "description": "",
+    "effect": "Temtem"
+  },
+  {
     "name": "Furor",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Furor",
     "description": "When the HP of a Temtem with Furor is below 33% of its maximum, the techniques it uses do 33% more damage.",
     "effect": ""
+  },
+  {
+    "name": "Good Friend",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Good_Friend",
+    "description": "",
+    "effect": "Temtem"
   },
   {
     "name": "Guardian",
@@ -258,10 +288,22 @@
     "effect": ""
   },
   {
+    "name": "Half Full",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Half_Full",
+    "description": "",
+    "effect": "Temtem"
+  },
+  {
     "name": "Heat Discharge",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Heat_Discharge",
     "description": "When a Temtem knocks out another Temtem with Heat Discharge, it gets the Burned Condition for 3 turns.",
     "effect": ""
+  },
+  {
+    "name": "Heater",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Heater",
+    "description": "",
+    "effect": "Temtem"
   },
   {
     "name": "Hover",
@@ -300,6 +342,12 @@
     "effect": ""
   },
   {
+    "name": "Intimidator",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Intimidator",
+    "description": "",
+    "effect": "Temtem"
+  },
+  {
     "name": "Iridescence",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Iridescence",
     "description": "The damage multipliers based on technique types are reversed. (Very) effective matchups become (very) ineffective and vice versa.",
@@ -310,6 +358,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Kinetic_Transfer",
     "description": "",
     "effect": "Currently, Kinetic Transfer is unobtainable, so it's unknown what its full effect is."
+  },
+  {
+    "name": "Landing Transmog",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Landing_Transmog",
+    "description": "",
+    "effect": "Temtem"
   },
   {
     "name": "Last Rush",
@@ -360,6 +414,12 @@
     "effect": ""
   },
   {
+    "name": "Neurotoxins",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Neurotoxins",
+    "description": "",
+    "effect": "Temtem"
+  },
+  {
     "name": "Neutrality",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Neutrality",
     "description": "Temtem with Neutrality never receive any negative status conditions.",
@@ -376,6 +436,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Patient",
     "description": "Whenever a Temtem with Patient uses a technique with a Hold, it restores 10% of its maximum STA.",
     "effect": ""
+  },
+  {
+    "name": "Physmaster",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Physmaster",
+    "description": "",
+    "effect": "Temtem"
   },
   {
     "name": "Plethoric",
@@ -510,6 +576,18 @@
     "effect": ""
   },
   {
+    "name": "Specmaster",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Specmaster",
+    "description": "",
+    "effect": "Temtem"
+  },
+  {
+    "name": "Splitter",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Splitter",
+    "description": "",
+    "effect": "Temtem"
+  },
+  {
     "name": "Spoilsport",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Spoilsport",
     "description": "Whenever a Temtem with Spoilsport uses a Technique that can hit multiple targets, it does 25% more damage.",
@@ -526,6 +604,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Stabmaster",
     "description": "Damage done with matching type techniques is increased by 40%.",
     "effect": "When a Temtem with Stabmaster uses a technique that shares a type with it, it deals 40% extra damage in addition to the STAB bonus."
+  },
+  {
+    "name": "Striking Transmog",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Striking_Transmog",
+    "description": "",
+    "effect": "Temtem"
   },
   {
     "name": "Strong Liver",
@@ -624,6 +708,12 @@
     "effect": ""
   },
   {
+    "name": "Voltaic Charge",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Voltaic_Charge",
+    "description": "When a Temtem with Voltaic Charge is attacked with a single-target technique, it will inflict 10% damage to the attacker.",
+    "effect": ""
+  },
+  {
     "name": "Warm-Blooded",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Warm-Blooded",
     "description": "Temtem with Warm-Blooded will never receive the Cold Condition.",
@@ -640,6 +730,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Water_Custodian",
     "description": "While a Temtem with Water Custodian is on the battlefield, any Water techniques that target the ally will target this Temtem instead.",
     "effect": ""
+  },
+  {
+    "name": "Water Synthesizer",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Water_Synthesizer",
+    "description": "",
+    "effect": "Temtem"
   },
   {
     "name": "Withdrawal",

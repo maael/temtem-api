@@ -1,5 +1,101 @@
 [
   {
+    "number": 1,
+    "name": "Mimit",
+    "types": [
+      "Digital"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/88/Mimit.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Mimit",
+    "stats": {
+      "hp": 55,
+      "sta": 55,
+      "spd": 55,
+      "atk": 55,
+      "def": 65,
+      "spatk": 55,
+      "spdef": 65,
+      "total": 405
+    },
+    "traits": [
+      "Striking Transmog",
+      "Landing Transmog"
+    ],
+    "details": {
+      "height": {
+        "cm": 42,
+        "inches": 16
+      },
+      "weight": {
+        "kg": 42,
+        "lbs": 92
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "Mimit's name is derived from Mimic and Qubit."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/88/Mimit.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4f/LumaMimit.png",
+    "locations": [
+      {
+        "location": "Iwaba",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
+      },
+      {
+        "location": "This table shows rough information on where Mimit spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
+      }
+    ],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 30,
+    "hatchMins": 39,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 1,
+      "spatk": 0,
+      "spdef": 1
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
     "number": 2,
     "name": "Oree",
     "types": [
@@ -9,17 +105,18 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Oree",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 61,
+      "sta": 74,
+      "spd": 35,
+      "atk": 65,
+      "def": 44,
+      "spatk": 32,
+      "spdef": 31,
+      "total": 342
     },
     "traits": [
-      "Attack T"
+      "Attack T",
+      "Fast Charge"
     ],
     "details": {
       "height": {
@@ -40,16 +137,16 @@
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/99/Oree.png",
-    "lumaWikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8f/LumaOree.png",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Oree.png",
     "lumaIcon": "",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 25,
+      "female": 75
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 145,
+    "hatchMins": 16,
     "tvYields": {
       "hp": 0,
       "sta": 1,
@@ -79,17 +176,18 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Zaobian",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 72,
+      "sta": 90,
+      "spd": 51,
+      "atk": 84,
+      "def": 50,
+      "spatk": 42,
+      "spdef": 44,
+      "total": 433
     },
     "traits": [
-      "Attack T"
+      "Attack T",
+      "Voltaic Charge"
     ],
     "details": {
       "height": {
@@ -107,16 +205,16 @@
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/54/Zaobian.png",
-    "lumaWikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/3a/LumaZaobian.png",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Zaobian.png",
     "lumaIcon": "",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 25,
+      "female": 75
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 0,
+    "hatchMins": 45,
     "tvYields": {
       "hp": 0,
       "sta": 2,
@@ -137,6 +235,142 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Zaobian.gif"
   },
   {
+    "number": 4,
+    "name": "Chromeon",
+    "types": [
+      "Digital"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2d/Chromeon.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Chromeon",
+    "stats": {
+      "hp": 51,
+      "sta": 55,
+      "spd": 66,
+      "atk": 65,
+      "def": 49,
+      "spatk": 78,
+      "spdef": 63,
+      "total": 427
+    },
+    "traits": [
+      "Synertyper",
+      "Pigment Inverter"
+    ],
+    "details": {
+      "height": {
+        "cm": 77,
+        "inches": 30
+      },
+      "weight": {
+        "kg": 36,
+        "lbs": 79
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "Chromeon's name is derived from Chroma and Chameleon."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2d/Chromeon.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/97/LumaChromeon.png",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 5,
+    "name": "Halzhi",
+    "types": [
+      "Digital"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/88/Halzhi.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Halzhi",
+    "stats": {
+      "hp": 52,
+      "sta": 35,
+      "spd": 38,
+      "atk": 56,
+      "def": 48,
+      "spatk": 39,
+      "spdef": 55,
+      "total": 323
+    },
+    "traits": [
+      "Parrier",
+      "Neutrality"
+    ],
+    "details": {
+      "height": {
+        "cm": 90,
+        "inches": 35
+      },
+      "weight": {
+        "kg": 95,
+        "lbs": 209
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "Halzhi's name is derived from HAL9000 and Zhi (young/infantile in Chinese)."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/88/Halzhi.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6e/LumaHalzhi.png",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 1,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
     "number": 6,
     "name": "Molgu",
     "types": [
@@ -155,22 +389,27 @@
       "spdef": 58,
       "total": 415
     },
-    "traits": [],
+    "traits": [
+      "Splitter",
+      "Sentinel"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 170,
+        "inches": 66
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 150,
+        "lbs": 330
       }
     },
     "techniques": [],
-    "trivia": [],
+    "trivia": [
+      "Molgu's name is derived from mole and chingu (friend in Korean, 친구)."
+    ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5f/Molgu.png",
-    "lumaWikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/83/LumaMolgu.png",
     "locations": [],
     "icon": "",
     "lumaIcon": "",
@@ -184,7 +423,7 @@
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 2,
       "def": 0,
       "spatk": 0,
       "spdef": 0
@@ -285,6 +524,19 @@
           "maxLevel": 35,
           "minPansuns": 95,
           "maxPansuns": 105
+        }
+      },
+      {
+        "location": "This table shows rough information on where Platypet spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -387,6 +639,19 @@
           "minPansuns": 135,
           "maxPansuns": 149
         }
+      },
+      {
+        "location": "This table shows rough information on where Platox spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Platox.png",
@@ -460,7 +725,35 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7f/Platimous.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e4/LumaPlatimous.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Dabmis' Rest",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "95%",
+        "level": "70",
+        "freetem": {
+          "minLevel": 70,
+          "maxLevel": 70,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
+      },
+      {
+        "location": "This table shows rough information on where Platimous spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 0,
+          "maxPansuns": 0
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Platimous.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Platimous.png",
     "genderRatio": {
@@ -557,6 +850,19 @@
           "maxLevel": 8,
           "minPansuns": 28,
           "maxPansuns": 32
+        }
+      },
+      {
+        "location": "This table shows rough information on where Swali spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -703,6 +1009,19 @@
           "maxLevel": 38,
           "minPansuns": 102,
           "maxPansuns": 102
+        }
+      },
+      {
+        "location": "This table shows rough information on where Loali spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -890,6 +1209,19 @@
           "minPansuns": 93,
           "maxPansuns": 97
         }
+      },
+      {
+        "location": "This table shows rough information on where Tateru spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Tateru.png",
@@ -1006,6 +1338,19 @@
           "maxLevel": 10,
           "minPansuns": 32,
           "maxPansuns": 36
+        }
+      },
+      {
+        "location": "This table shows rough information on where Paharo spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -1191,6 +1536,19 @@
           "minPansuns": 112,
           "maxPansuns": 119
         }
+      },
+      {
+        "location": "This table shows rough information on where Paharac spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Paharac.png",
@@ -1300,35 +1658,38 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Ampling",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 51,
+      "sta": 40,
+      "spd": 70,
+      "atk": 35,
+      "def": 36,
+      "spatk": 41,
+      "spdef": 42,
+      "total": 315
     },
-    "traits": [],
+    "traits": [
+      "Caffeinated",
+      "Dreaded Alarm"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 130,
+        "inches": 51
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 45,
+        "lbs": 99
       }
     },
     "techniques": [],
     "trivia": [
-      "Ampling's name is derived of Ampere and fawnling.",
+      "Ampling's name is derived of Ampere and Fawnling.",
       "Ampling was originally unnamed #32 on a list of scrapped Temtem that was to be voted to bring back on Kickstarter Update #2.",
       "Ampling was the winner of the Chose a Temtem backer mini-game. Its name was proposed by a community member (ItsTomas) in the Official Discord, and later chosen as the winner during the Choose a Temtem names poll in the 6th update of Temtem's Kickstarter."
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/93/Ampling.png",
-    "lumaWikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/db/LumaAmpling.png",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Ampling.png",
     "lumaIcon": "",
@@ -1341,7 +1702,7 @@
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 2,
       "atk": 0,
       "def": 0,
       "spatk": 0,
@@ -1368,24 +1729,27 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Amphatyr",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 65,
+      "sta": 42,
+      "spd": 110,
+      "atk": 51,
+      "def": 53,
+      "spatk": 62,
+      "spdef": 64,
+      "total": 447
     },
-    "traits": [],
+    "traits": [
+      "Relaxed",
+      "Infectious"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 202,
+        "inches": 79
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 65,
+        "lbs": 143
       }
     },
     "techniques": [],
@@ -1395,7 +1759,7 @@
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a8/Amphatyr.png",
-    "lumaWikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/cc/LumaAmphatyr.png",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Amphatyr.png",
     "lumaIcon": "",
@@ -1493,6 +1857,19 @@
           "maxLevel": 39,
           "minPansuns": 105,
           "maxPansuns": 114
+        }
+      },
+      {
+        "location": "This table shows rough information on where Bunbun spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -1592,6 +1969,19 @@
           "maxLevel": 43,
           "minPansuns": 154,
           "maxPansuns": 164
+        }
+      },
+      {
+        "location": "This table shows rough information on where Mudrid spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -1705,6 +2095,19 @@
           "minPansuns": 52,
           "maxPansuns": 57
         }
+      },
+      {
+        "location": "This table shows rough information on where Hidody spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Hidody.png",
@@ -1805,6 +2208,19 @@
           "maxLevel": 22,
           "minPansuns": 66,
           "maxPansuns": 73
+        }
+      },
+      {
+        "location": "This table shows rough information on where Taifu spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -1918,6 +2334,19 @@
           "maxLevel": 15,
           "minPansuns": 46,
           "maxPansuns": 50
+        }
+      },
+      {
+        "location": "This table shows rough information on where Fomu spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -2035,6 +2464,19 @@
           "maxLevel": 40,
           "minPansuns": 144,
           "maxPansuns": 154
+        }
+      },
+      {
+        "location": "This table shows rough information on where Wiplump spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -2178,6 +2620,19 @@
           "maxLevel": 18,
           "minPansuns": 55,
           "maxPansuns": 65
+        }
+      },
+      {
+        "location": "This table shows rough information on where Skail spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -2334,6 +2789,19 @@
           "minPansuns": 154,
           "maxPansuns": 170
         }
+      },
+      {
+        "location": "This table shows rough information on where Skunch spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Skunch.png",
@@ -2464,6 +2932,19 @@
           "minPansuns": 110,
           "maxPansuns": 117
         }
+      },
+      {
+        "location": "This table shows rough information on where Goty spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Goty.png",
@@ -2575,11 +3056,11 @@
       "hp": 90,
       "sta": 37,
       "spd": 42,
-      "atk": 84,
-      "def": 83,
+      "atk": 79,
+      "def": 91,
       "spatk": 22,
-      "spdef": 40,
-      "total": 398
+      "spdef": 65,
+      "total": 426
     },
     "traits": [
       "Tardy Rush",
@@ -2621,6 +3102,19 @@
           "maxLevel": 48,
           "minPansuns": 182,
           "maxPansuns": 200
+        }
+      },
+      {
+        "location": "This table shows rough information on where Rhoulder spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -2939,6 +3433,19 @@
           "minPansuns": 88,
           "maxPansuns": 93
         }
+      },
+      {
+        "location": "This table shows rough information on where Orphyll spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Orphyll.png",
@@ -3138,6 +3645,19 @@
           "minPansuns": 60,
           "maxPansuns": 64
         }
+      },
+      {
+        "location": "This table shows rough information on where Banapi spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Banapi.png",
@@ -3294,6 +3814,19 @@
           "minPansuns": 78,
           "maxPansuns": 88
         }
+      },
+      {
+        "location": "This table shows rough information on where Lapinite spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Lapinite.png",
@@ -3377,6 +3910,19 @@
           "minPansuns": 105,
           "maxPansuns": 121
         }
+      },
+      {
+        "location": "This table shows rough information on where Azuroc spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Azuroc.png",
@@ -3417,13 +3963,13 @@
     "wikiUrl": "https://temtem.gamepedia.com/Zenoreth",
     "stats": {
       "hp": 71,
-      "sta": 35,
+      "sta": 45,
       "spd": 56,
       "atk": 67,
       "def": 87,
       "spatk": 65,
       "spdef": 69,
-      "total": 450
+      "total": 460
     },
     "traits": [
       "Channeler",
@@ -3448,7 +3994,35 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/22/Zenoreth.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c7/LumaZenoreth.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Sons of Crystal",
+        "place": "",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "95%",
+        "level": "50 - 55",
+        "freetem": {
+          "minLevel": 50,
+          "maxLevel": 55,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
+      },
+      {
+        "location": "This table shows rough information on where Zenoreth spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 0,
+          "maxPansuns": 0
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Zenoreth.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Zenoreth.png",
     "genderRatio": {
@@ -3563,8 +4137,8 @@
       "atk": 79,
       "def": 57,
       "spatk": 51,
-      "spdef": 44,
-      "total": 448
+      "spdef": 49,
+      "total": 453
     },
     "traits": [
       "Mucous",
@@ -3644,6 +4218,19 @@
           "minPansuns": 120,
           "maxPansuns": 144
         }
+      },
+      {
+        "location": "This table shows rough information on where Babawa spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Babawa.png",
@@ -3677,11 +4264,81 @@
     "number": 46,
     "name": "0b1",
     "types": [
-      "Unknown"
+      "Digital",
+      "Electric"
     ],
     "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e5/0b1.png",
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/0b1",
+    "stats": {
+      "hp": 22,
+      "sta": 38,
+      "spd": 74,
+      "atk": 24,
+      "def": 32,
+      "spatk": 29,
+      "spdef": 34,
+      "total": 253
+    },
+    "traits": [
+      "Fast Charge",
+      "Sentinel"
+    ],
+    "details": {
+      "height": {
+        "cm": 12,
+        "inches": 4
+      },
+      "weight": {
+        "kg": 1,
+        "lbs": 2
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "0b1's name is derived from the Binary code for 1 (0b1)."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e5/0b1.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1d/Luma0b1.png",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 1,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 47,
+    "name": "0b10",
+    "types": [
+      "Digital",
+      "Electric"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e9/0b10.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/0b10",
     "stats": {
       "hp": 0,
       "sta": 0,
@@ -3704,10 +4361,12 @@
       }
     },
     "techniques": [],
-    "trivia": [],
+    "trivia": [
+      "0b10's name is derived from the Binary code for 2."
+    ],
     "evolution": {},
-    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e5/0b1.png",
-    "lumaWikiPortraitUrlLarge": "",
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e9/0b10.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/da/Luma0b10.png",
     "locations": [],
     "icon": "",
     "lumaIcon": "",
@@ -3849,6 +4508,19 @@
           "minPansuns": 49,
           "maxPansuns": 52
         }
+      },
+      {
+        "location": "This table shows rough information on where Kaku spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Kaku.png",
@@ -3979,6 +4651,19 @@
           "minPansuns": 93,
           "maxPansuns": 100
         }
+      },
+      {
+        "location": "This table shows rough information on where Saku spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Saku.png",
@@ -4066,6 +4751,19 @@
           "minPansuns": 131,
           "maxPansuns": 144
         }
+      },
+      {
+        "location": "This table shows rough information on where Valash spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Valash.png",
@@ -4108,12 +4806,12 @@
     "stats": {
       "hp": 50,
       "sta": 51,
-      "spd": 65,
+      "spd": 80,
       "atk": 60,
       "def": 40,
       "spatk": 75,
       "spdef": 79,
-      "total": 420
+      "total": 435
     },
     "traits": [
       "Neutrality",
@@ -4152,6 +4850,19 @@
           "maxLevel": 14,
           "minPansuns": 58,
           "maxPansuns": 65
+        }
+      },
+      {
+        "location": "This table shows rough information on where Barnshe spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -4242,6 +4953,19 @@
           "minPansuns": 148,
           "maxPansuns": 152
         }
+      },
+      {
+        "location": "This table shows rough information on where Gyalis spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Gyalis.png",
@@ -4327,6 +5051,19 @@
           "minPansuns": 98,
           "maxPansuns": 110
         }
+      },
+      {
+        "location": "This table shows rough information on where Occlura spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Occlura.png",
@@ -4372,9 +5109,9 @@
       "spd": 65,
       "atk": 51,
       "def": 43,
-      "spatk": 94,
+      "spatk": 82,
       "spdef": 80,
-      "total": 443
+      "total": 431
     },
     "traits": [
       "Puppet Master",
@@ -4509,6 +5246,19 @@
           "maxLevel": 22,
           "minPansuns": 60,
           "maxPansuns": 64
+        }
+      },
+      {
+        "location": "This table shows rough information on where Raiber spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -4780,6 +5530,19 @@
           "minPansuns": 48,
           "maxPansuns": 56
         }
+      },
+      {
+        "location": "This table shows rough information on where Pewki spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Pewki.png",
@@ -4880,6 +5643,281 @@
     "renderAnimatedLumaImage": ""
   },
   {
+    "number": 62,
+    "name": "Scarawatt",
+    "types": [
+      "Electric"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9f/Scarawatt.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Scarawatt",
+    "stats": {
+      "hp": 51,
+      "sta": 41,
+      "spd": 40,
+      "atk": 24,
+      "def": 50,
+      "spatk": 35,
+      "spdef": 61,
+      "total": 302
+    },
+    "traits": [
+      "Immunity",
+      "Strong Liver"
+    ],
+    "details": {
+      "height": {
+        "cm": 40,
+        "inches": 15
+      },
+      "weight": {
+        "kg": 98,
+        "lbs": 216
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "Scarawatt's name is derived from Scarab and Watt."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9f/Scarawatt.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/87/LumaScarawatt.png",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 2,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 63,
+    "name": "Scaravolt",
+    "types": [
+      "Electric",
+      "Fire"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fc/Scaravolt.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Scaravolt",
+    "stats": {
+      "hp": 89,
+      "sta": 52,
+      "spd": 44,
+      "atk": 57,
+      "def": 65,
+      "spatk": 62,
+      "spdef": 77,
+      "total": 446
+    },
+    "traits": [
+      "Half Full",
+      "Good Friend"
+    ],
+    "details": {
+      "height": {
+        "cm": 0,
+        "inches": 0
+      },
+      "weight": {
+        "kg": 0,
+        "lbs": 0
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "Scaravolt's name is derived from Scarab and Volt."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fc/Scaravolt.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/74/LumaScaravolt.png",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 3,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 64,
+    "name": "Hoglip",
+    "types": [
+      "Digital",
+      "Fire"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b1/Hoglip.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Hoglip",
+    "stats": {
+      "hp": 46,
+      "sta": 43,
+      "spd": 70,
+      "atk": 44,
+      "def": 53,
+      "spatk": 72,
+      "spdef": 55,
+      "total": 383
+    },
+    "traits": [
+      "Gotta Go Fast",
+      "Fast Charge"
+    ],
+    "details": {
+      "height": {
+        "cm": 85,
+        "inches": 33
+      },
+      "weight": {
+        "kg": 50,
+        "lbs": 110
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "Hoglip's name is derived from Hoglet and Chip."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b1/Hoglip.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d2/LumaHoglip.png",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 65,
+    "name": "Hedgine",
+    "types": [
+      "Digital",
+      "Fire"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/60/Hedgine.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Hedgine",
+    "stats": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "total": 0
+    },
+    "traits": [
+      "Gotta Go Fast",
+      "Going Away Gift"
+    ],
+    "details": {
+      "height": {
+        "cm": 0,
+        "inches": 0
+      },
+      "weight": {
+        "kg": 0,
+        "lbs": 0
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "Hedgine's name is derived from Hedgehog + Engine."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/60/Hedgine.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/17/LumaHedgine.png",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
     "number": 66,
     "name": "Osuchi",
     "types": [
@@ -4961,6 +5999,19 @@
           "maxLevel": 39,
           "minPansuns": 95,
           "maxPansuns": 104
+        }
+      },
+      {
+        "location": "This table shows rough information on where Osuchi spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -5047,6 +6098,19 @@
           "minPansuns": 124,
           "maxPansuns": 138
         }
+      },
+      {
+        "location": "This table shows rough information on where Osukan spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Osukan.png",
@@ -5122,7 +6186,35 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/25/Osukai.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a8/LumaOsukai.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Aisha's Hearth",
+        "place": "",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "95%",
+        "level": "70",
+        "freetem": {
+          "minLevel": 70,
+          "maxLevel": 70,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
+      },
+      {
+        "location": "This table shows rough information on where Osukai spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 0,
+          "maxPansuns": 0
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Osukai.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Osukai.png",
     "genderRatio": {
@@ -5309,6 +6401,19 @@
           "minPansuns": 83,
           "maxPansuns": 89
         }
+      },
+      {
+        "location": "This table shows rough information on where Saipat spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Saipat.png",
@@ -5409,6 +6514,19 @@
           "maxLevel": 42,
           "minPansuns": 90,
           "maxPansuns": 105
+        }
+      },
+      {
+        "location": "This table shows rough information on where Pycko spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -5578,6 +6696,19 @@
           "minPansuns": 65,
           "maxPansuns": 73
         }
+      },
+      {
+        "location": "This table shows rough information on where Crystle spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Crystle.png",
@@ -5746,6 +6877,144 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tortenite.gif"
   },
   {
+    "number": 75,
+    "name": "Innki",
+    "types": [
+      "Electric",
+      "Crystal"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2c/Innki.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Innki",
+    "stats": {
+      "hp": 59,
+      "sta": 74,
+      "spd": 73,
+      "atk": 62,
+      "def": 58,
+      "spatk": 62,
+      "spdef": 58,
+      "total": 446
+    },
+    "traits": [
+      "Physmaster",
+      "Specmaster"
+    ],
+    "details": {
+      "height": {
+        "cm": 138,
+        "inches": 54
+      },
+      "weight": {
+        "kg": 46,
+        "lbs": 101
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "Innki's name is derived from Inpu (romaji for Imp) and Denki (electricity in Japanese)."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2c/Innki.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/68/LumaInnki.png",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 1,
+      "spd": 1,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 78,
+    "name": "Cycrox",
+    "types": [
+      "Digital",
+      "Toxic"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9d/Cycrox.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Cycrox",
+    "stats": {
+      "hp": 73,
+      "sta": 62,
+      "spd": 48,
+      "atk": 54,
+      "def": 61,
+      "spatk": 75,
+      "spdef": 71,
+      "total": 444
+    },
+    "traits": [
+      "Neurotoxins",
+      "Water Synthesizer"
+    ],
+    "details": {
+      "height": {
+        "cm": 132,
+        "inches": 51
+      },
+      "weight": {
+        "kg": 41,
+        "lbs": 90
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "Cycrox's name is derived from Cyborg, Croak, and Toxic."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9d/Cycrox.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d8/LumaCycrox.png",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 2,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
     "number": 79,
     "name": "Hocus",
     "types": [
@@ -5803,6 +7072,19 @@
           "minPansuns": 120,
           "maxPansuns": 154
         }
+      },
+      {
+        "location": "This table shows rough information on where Hocus spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Hocus.png",
@@ -5848,8 +7130,8 @@
       "atk": 61,
       "def": 36,
       "spatk": 87,
-      "spdef": 38,
-      "total": 438
+      "spdef": 46,
+      "total": 446
     },
     "traits": [
       "Dreaded Alarm",
@@ -5934,10 +7216,12 @@
       }
     },
     "techniques": [],
-    "trivia": [],
+    "trivia": [
+      "Smolzy's name is derived from Small and Crazy."
+    ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/81/Smolzy.png",
-    "lumaWikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/92/LumaSmolzy.png",
     "locations": [],
     "icon": "",
     "lumaIcon": "",
@@ -5976,26 +7260,27 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Sparzy",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 62,
+      "sta": 78,
+      "spd": 78,
+      "atk": 81,
+      "def": 45,
+      "spatk": 40,
+      "spdef": 45,
+      "total": 429
     },
     "traits": [
-      "Last Rush"
+      "Last Rush",
+      "Inductor"
     ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 160,
+        "inches": 62
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 73,
+        "lbs": 160
       }
     },
     "techniques": [],
@@ -6007,7 +7292,7 @@
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/80/Sparzy.png",
-    "lumaWikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e2/LumaSparzy.png",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Sparzy.png",
     "lumaIcon": "",
@@ -6047,33 +7332,36 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Golzy",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 76,
+      "sta": 78,
+      "spd": 82,
+      "atk": 84,
+      "def": 49,
+      "spatk": 40,
+      "spdef": 40,
+      "total": 449
     },
-    "traits": [],
+    "traits": [
+      "Defuser",
+      "Voltaic Charge"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 206,
+        "inches": 81
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 186,
+        "lbs": 410
       }
     },
     "techniques": [],
     "trivia": [
-      "Golzy's name may be derived from goliath and crazy."
+      "Golzy's name is derived from Golem and Crazy."
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5f/Golzy.png",
-    "lumaWikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/ff/LumaGolzy.png",
     "locations": [],
     "icon": "",
     "lumaIcon": "",
@@ -6087,7 +7375,7 @@
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 3,
       "def": 0,
       "spatk": 0,
       "spdef": 0
@@ -6184,6 +7472,19 @@
           "maxLevel": 36,
           "minPansuns": 92,
           "maxPansuns": 107
+        }
+      },
+      {
+        "location": "This table shows rough information on where Mushi spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -6354,6 +7655,19 @@
           "minPansuns": 46,
           "maxPansuns": 50
         }
+      },
+      {
+        "location": "This table shows rough information on where Magmis spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Magmis.png",
@@ -6439,6 +7753,19 @@
           "maxLevel": 38,
           "minPansuns": 119,
           "maxPansuns": 134
+        }
+      },
+      {
+        "location": "This table shows rough information on where Mastione spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -6541,6 +7868,19 @@
           "minPansuns": 64,
           "maxPansuns": 70
         }
+      },
+      {
+        "location": "This table shows rough information on where Umishi spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Umishi.png",
@@ -6629,6 +7969,19 @@
           "minPansuns": 179,
           "maxPansuns": 188
         }
+      },
+      {
+        "location": "This table shows rough information on where Ukama spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Ukama.png",
@@ -6644,6 +7997,74 @@
       "sta": 1,
       "spd": 2,
       "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 90,
+    "name": "Galvanid",
+    "types": [
+      "Electric"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/Galvanid.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Galvanid",
+    "stats": {
+      "hp": 59,
+      "sta": 49,
+      "spd": 46,
+      "atk": 70,
+      "def": 60,
+      "spatk": 50,
+      "spdef": 43,
+      "total": 377
+    },
+    "traits": [
+      "Efficient",
+      "Inductor"
+    ],
+    "details": {
+      "height": {
+        "cm": 103,
+        "inches": 40
+      },
+      "weight": {
+        "kg": 55,
+        "lbs": 121
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "Galvanid's name is derived from Galvanize and Kid."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/Galvanid.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/ce/LumaGalvanid.png",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
       "def": 0,
       "spatk": 0,
       "spdef": 0
@@ -6697,7 +8118,7 @@
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/50/Raignet.png",
-    "lumaWikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/54/LumaRaignet.png",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Raignet.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Raignet.png",
@@ -6951,12 +8372,12 @@
       "atk": 90,
       "def": 95,
       "spatk": 40,
-      "spdef": 57,
-      "total": 447
+      "spdef": 62,
+      "total": 452
     },
     "traits": [
       "Rested",
-      "Electric Synthesize"
+      "Electric Custodian"
     ],
     "details": {
       "height": {
@@ -7061,6 +8482,19 @@
           "minPansuns": 184,
           "maxPansuns": 204
         }
+      },
+      {
+        "location": "This table shows rough information on where Zizare spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Zizare.png",
@@ -7161,6 +8595,19 @@
           "maxLevel": 45,
           "minPansuns": 143,
           "maxPansuns": 158
+        }
+      },
+      {
+        "location": "This table shows rough information on where Momo spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -7288,6 +8735,19 @@
           "maxLevel": 45,
           "minPansuns": 113,
           "maxPansuns": 124
+        }
+      },
+      {
+        "location": "This table shows rough information on where Kuri spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -7497,6 +8957,19 @@
           "minPansuns": 54,
           "maxPansuns": 59
         }
+      },
+      {
+        "location": "This table shows rough information on where Spriole spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Spriole.png",
@@ -7607,6 +9080,19 @@
           "maxLevel": 22,
           "minPansuns": 59,
           "maxPansuns": 73
+        }
+      },
+      {
+        "location": "This table shows rough information on where Deendre spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -7761,6 +9247,19 @@
           "minPansuns": 85,
           "maxPansuns": 95
         }
+      },
+      {
+        "location": "This table shows rough information on where Toxolotl spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Toxolotl.png",
@@ -7911,6 +9410,19 @@
           "maxLevel": 29,
           "minPansuns": 89,
           "maxPansuns": 107
+        }
+      },
+      {
+        "location": "This table shows rough information on where Blooze spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -8113,6 +9625,19 @@
           "minPansuns": 79,
           "maxPansuns": 88
         }
+      },
+      {
+        "location": "This table shows rough information on where Zephyruff spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Zephyruff.png",
@@ -8229,6 +9754,19 @@
           "minPansuns": 143,
           "maxPansuns": 149
         }
+      },
+      {
+        "location": "This table shows rough information on where Volarend spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Volarend.png",
@@ -8325,6 +9863,19 @@
           "maxLevel": 43,
           "minPansuns": 120,
           "maxPansuns": 133
+        }
+      },
+      {
+        "location": "This table shows rough information on where Grumvel spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -8503,6 +10054,19 @@
           "minPansuns": 45,
           "maxPansuns": 55
         }
+      },
+      {
+        "location": "This table shows rough information on where Ganki spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Ganki.png",
@@ -8591,6 +10155,19 @@
           "minPansuns": 140,
           "maxPansuns": 155
         }
+      },
+      {
+        "location": "This table shows rough information on where Gazuma spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Gazuma.png",
@@ -8641,7 +10218,7 @@
     },
     "traits": [
       "Hydrologist",
-      "Mithridatism"
+      "Hurry-wart"
     ],
     "details": {
       "height": {
@@ -8679,6 +10256,19 @@
           "maxLevel": 22,
           "minPansuns": 149,
           "maxPansuns": 209
+        }
+      },
+      {
+        "location": "This table shows rough information on where Oceara spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -8765,6 +10355,19 @@
           "maxLevel": 53,
           "minPansuns": 187,
           "maxPansuns": 197
+        }
+      },
+      {
+        "location": "This table shows rough information on where Yowlar spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -8892,6 +10495,19 @@
           "maxLevel": 42,
           "minPansuns": 106,
           "maxPansuns": 110
+        }
+      },
+      {
+        "location": "This table shows rough information on where Droply spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -9050,6 +10666,19 @@
           "minPansuns": 298,
           "maxPansuns": 328
         }
+      },
+      {
+        "location": "This table shows rough information on where Shuine spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Shuine.png",
@@ -9090,14 +10719,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Nessla",
     "stats": {
-      "hp": 45,
+      "hp": 50,
       "sta": 58,
       "spd": 66,
       "atk": 76,
       "def": 50,
       "spatk": 76,
       "spdef": 72,
-      "total": 443
+      "total": 448
     },
     "traits": [
       "Electric Synthesize",
@@ -9166,6 +10795,19 @@
           "maxLevel": 39,
           "minPansuns": 200,
           "maxPansuns": 200
+        }
+      },
+      {
+        "location": "This table shows rough information on where Nessla spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -9236,7 +10878,7 @@
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7b/Valiar.png",
-    "lumaWikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d9/LumaValiar.png",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Valiar.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Valiar.png",
@@ -9249,6 +10891,144 @@
     "tvYields": {
       "hp": 0,
       "sta": 2,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 125,
+    "name": "Pupoise",
+    "types": [
+      "Digital",
+      "Nature"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/59/Pupoise.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Pupoise",
+    "stats": {
+      "hp": 51,
+      "sta": 37,
+      "spd": 49,
+      "atk": 66,
+      "def": 54,
+      "spatk": 40,
+      "spdef": 42,
+      "total": 339
+    },
+    "traits": [
+      "Thick Skin",
+      "Amphibian"
+    ],
+    "details": {
+      "height": {
+        "cm": 0,
+        "inches": 0
+      },
+      "weight": {
+        "kg": 0,
+        "lbs": 0
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "Pupoise's name is derived from Puppy and Tortoise."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/59/Pupoise.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/79/LumaPupoise.png",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 126,
+    "name": "Loatle",
+    "types": [
+      "Digital",
+      "Mental"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0a/Loatle.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Loatle",
+    "stats": {
+      "hp": 84,
+      "sta": 44,
+      "spd": 61,
+      "atk": 79,
+      "def": 67,
+      "spatk": 51,
+      "spdef": 54,
+      "total": 440
+    },
+    "traits": [
+      "Seppuku",
+      "Voodoo"
+    ],
+    "details": {
+      "height": {
+        "cm": 200,
+        "inches": 78
+      },
+      "weight": {
+        "kg": 127,
+        "lbs": 280
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "Loatle's name is derived from Loa (Voodoo spirits) and Turtle."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0a/Loatle.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a1/LumaLoatle.png",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 2,
+      "sta": 0,
       "spd": 0,
       "atk": 2,
       "def": 0,
@@ -9392,6 +11172,19 @@
           "minPansuns": 80,
           "maxPansuns": 89
         }
+      },
+      {
+        "location": "This table shows rough information on where Kalazu spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Kalazu.png",
@@ -9478,6 +11271,19 @@
           "maxLevel": 33,
           "minPansuns": 90,
           "maxPansuns": 100
+        }
+      },
+      {
+        "location": "This table shows rough information on where Kalabyss spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -9568,6 +11374,19 @@
           "maxLevel": 31,
           "minPansuns": 85,
           "maxPansuns": 92
+        }
+      },
+      {
+        "location": "This table shows rough information on where Adoroboros spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -9686,6 +11505,19 @@
           "minPansuns": 35,
           "maxPansuns": 50
         }
+      },
+      {
+        "location": "This table shows rough information on where Tuwai spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Tuwai.png",
@@ -9783,6 +11615,75 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Tukai.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Tukai.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tukai.gif"
+  },
+  {
+    "number": 132,
+    "name": "Tulcan",
+    "types": [
+      "Wind",
+      "Fire"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/05/Tulcan.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Tulcan",
+    "stats": {
+      "hp": 62,
+      "sta": 54,
+      "spd": 65,
+      "atk": 62,
+      "def": 69,
+      "spatk": 79,
+      "spdef": 49,
+      "total": 440
+    },
+    "traits": [
+      "Heater",
+      "Pyromaniac"
+    ],
+    "details": {
+      "height": {
+        "cm": 180,
+        "inches": 70
+      },
+      "weight": {
+        "kg": 88,
+        "lbs": 194
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "Tulcan's name is derived from Tukana (Toucan in Hawaiian) and Vulcan."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/05/Tulcan.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/17/LumaTulcan.png",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 3,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 133,
@@ -9936,6 +11837,75 @@
     "renderAnimatedLumaImage": ""
   },
   {
+    "number": 135,
+    "name": "Tuwire",
+    "types": [
+      "Wind",
+      "Digital"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d7/Tuwire.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Tuwire",
+    "stats": {
+      "hp": 59,
+      "sta": 70,
+      "spd": 66,
+      "atk": 79,
+      "def": 52,
+      "spatk": 60,
+      "spdef": 51,
+      "total": 437
+    },
+    "traits": [
+      "Splitter",
+      "Common Factor"
+    ],
+    "details": {
+      "height": {
+        "cm": 160,
+        "inches": 62
+      },
+      "weight": {
+        "kg": 120,
+        "lbs": 264
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "Tuwire's name is derived from Tukana (Toucan in Hawaiian) and Wire."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d7/Tuwire.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d8/LumaTuwire.png",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
     "number": 137,
     "name": "Kinu",
     "types": [
@@ -9991,6 +11961,19 @@
           "maxLevel": 28,
           "minPansuns": 200,
           "maxPansuns": 230
+        }
+      },
+      {
+        "location": "This table shows rough information on where Kinu spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -10091,6 +12074,19 @@
           "minPansuns": 73,
           "maxPansuns": 80
         }
+      },
+      {
+        "location": "This table shows rough information on where Vulvir spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Vulvir.png",
@@ -10189,6 +12185,19 @@
           "minPansuns": 116,
           "maxPansuns": 123
         }
+      },
+      {
+        "location": "This table shows rough information on where Vulor spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Vulor.png",
@@ -10275,6 +12284,19 @@
           "maxLevel": 33,
           "minPansuns": null,
           "maxPansuns": null
+        }
+      },
+      {
+        "location": "This table shows rough information on where Vulcrane spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 0,
+          "maxPansuns": 0
         }
       }
     ],
@@ -10406,6 +12428,19 @@
           "minPansuns": 38,
           "maxPansuns": 43
         }
+      },
+      {
+        "location": "This table shows rough information on where Pigepic spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Pigepic.png",
@@ -10490,6 +12525,19 @@
           "maxLevel": 46,
           "minPansuns": 120,
           "maxPansuns": 136
+        }
+      },
+      {
+        "location": "This table shows rough information on where Akranox spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
         }
       }
     ],
@@ -10601,6 +12649,19 @@
           "minPansuns": 146,
           "maxPansuns": 158
         }
+      },
+      {
+        "location": "This table shows rough information on where Koish spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "",
@@ -10702,6 +12763,19 @@
           "minPansuns": 130,
           "maxPansuns": 146
         }
+      },
+      {
+        "location": "This table shows rough information on where Vulffy spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Vulffy.png",
@@ -10720,6 +12794,144 @@
       "def": 0,
       "spatk": 0,
       "spdef": 3
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 145,
+    "name": "Chubee",
+    "types": [
+      "Digital",
+      "Wind"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/Chubee.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Chubee",
+    "stats": {
+      "hp": 64,
+      "sta": 40,
+      "spd": 36,
+      "atk": 30,
+      "def": 65,
+      "spatk": 28,
+      "spdef": 65,
+      "total": 328
+    },
+    "traits": [
+      "Hover",
+      "Going Away Gift"
+    ],
+    "details": {
+      "height": {
+        "cm": 40,
+        "inches": 15
+      },
+      "weight": {
+        "kg": 22,
+        "lbs": 48
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "Chubee's name is derived from Chubby and Bee."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/Chubee.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/60/LumaChubee.png",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 1,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 1,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 146,
+    "name": "Waspeen",
+    "types": [
+      "Digital",
+      "Crystal"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b8/Waspeen.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Waspeen",
+    "stats": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0,
+      "total": 0
+    },
+    "traits": [
+      "Royal Jelly",
+      "Wax Bath"
+    ],
+    "details": {
+      "height": {
+        "cm": 0,
+        "inches": 0
+      },
+      "weight": {
+        "kg": 0,
+        "lbs": 0
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "Waspeen's name is derived from Wasp and Queen."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b8/Waspeen.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f2/LumaWaspeen.png",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
     },
     "gameDescription": "",
     "wikiRenderStaticUrl": "",
@@ -10795,6 +13007,19 @@
           "minPansuns": null,
           "maxPansuns": null
         }
+      },
+      {
+        "location": "This table shows rough information on where Anahir spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 0,
+          "maxPansuns": 0
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Anahir.png",
@@ -10823,5 +13048,74 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Anahir.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Anahir.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Anahir.gif"
+  },
+  {
+    "number": 163,
+    "name": "Tyranak",
+    "types": [
+      "Fire",
+      "Nature"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/29/Tyranak.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Tyranak",
+    "stats": {
+      "hp": 78,
+      "sta": 48,
+      "spd": 34,
+      "atk": 81,
+      "def": 74,
+      "spatk": 57,
+      "spdef": 76,
+      "total": 448
+    },
+    "traits": [
+      "Intimidator",
+      "Frightening"
+    ],
+    "details": {
+      "height": {
+        "cm": 420,
+        "inches": 165
+      },
+      "weight": {
+        "kg": 4600,
+        "lbs": 10143
+      }
+    },
+    "techniques": [],
+    "trivia": [
+      "Tyranak's name is derived from Tyrannosaurus Rex and Anak."
+    ],
+    "evolution": {},
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/29/Tyranak.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fe/LumaTyranak.png",
+    "locations": [],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 0,
+    "hatchMins": 45,
+    "tvYields": {
+      "hp": 1,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 1
+    },
+    "gameDescription": "",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   }
 ]
