@@ -5280,19 +5280,19 @@
   {
     "name": "Zen Meditation",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Zen_Meditation",
-    "type": "?",
-    "class": "?",
-    "classIcon": "/images/icons/technique/?.png",
+    "type": "Melee",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
     "damage": 0,
     "staminaCost": 0,
-    "hold": 0,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
+    "hold": 2,
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
-    "description": "",
-    "effectText": "",
+    "targets": "Self",
+    "description": "Focus on your breathing. Remember, no effort, no resistance... The technique consumes no stamina and boosts your ATK and SPATK .",
+    "effectText": "Zen Meditation increases the ATK and SPATK of the user.",
     "effects": []
   }
 ]
