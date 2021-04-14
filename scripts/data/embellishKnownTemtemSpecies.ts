@@ -275,6 +275,9 @@ function getLocations(html: string, debug?: boolean) {
           /([a-z])([A-Z])/g,
           "$1, $2"
         );
+        if (tidiedLocation.toLowerCase().startsWith("this table shows")) {
+          return undefined;
+        }
         return {
           location: tidiedLocation,
           place: "",
