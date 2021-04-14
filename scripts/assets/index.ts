@@ -29,7 +29,7 @@ async function runIfActive(k: string, fn: () => Promise<void>) {
   await runIfActive("temlarge", getTemPortraitsLarge);
   await runIfActive("conditions", getConditionIcons);
   await runIfActive("gear", getGearIcons);
-  await runIfActive("item", getItemIcons);
+  await runIfActive("items", getItemIcons);
   await runIfActive("renders", getRenders);
 })().catch(e => {
   log.error(e);
