@@ -956,19 +956,19 @@
   {
     "name": "Debris Typhoon",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Debris_Typhoon",
-    "type": "?",
-    "class": "?",
-    "classIcon": "/images/icons/technique/?.png",
-    "damage": 0,
-    "staminaCost": 0,
+    "type": "Wind",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 60,
+    "staminaCost": 10,
     "hold": 0,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
-    "description": "",
-    "effectText": "",
+    "targets": "Single Other Target",
+    "description": "A good brute-force technique if you don't mind tidying up later.",
+    "effectText": "Debris Typhoon deals damage to a single target.",
     "effects": []
   },
   {
@@ -1309,7 +1309,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "This Koish subspecies can deliver a short Electric discharge to inflict moderate damage.",
-    "effectText": "",
+    "effectText": "Electric Stream deals damage to a single target.",
     "effects": []
   },
   {
@@ -2201,7 +2201,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "When you gotta hit hard and fast - the faster, the harder. Inflicts extra damage depending on the Temtem's SPD.",
-    "effectText": "",
+    "effectText": "Hyperkinetic Strike deals damage to a single target.",
     "effects": []
   },
   {
@@ -4096,6 +4096,30 @@
         "condition": "Trapped"
       }
     ]
+  },
+  {
+    "name": "Slow Down",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Slow_Down",
+    "type": "Mental",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 8,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "Mental",
+    "synergyEffects": [
+      {
+        "effect": "2 Turns Asleep",
+        "type": "condition",
+        "damage": 0
+      }
+    ],
+    "targets": "Single Other Target",
+    "description": "Time to chill and take it slow... The target gets SPD Used in combination with a Mental ally, Slow Down also causes the target to fall asleep for 2 turns.",
+    "effectText": "Slow Down gives the target SPD .",
+    "effects": []
   },
   {
     "name": "Sludge Gift",
