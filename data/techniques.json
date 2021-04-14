@@ -912,9 +912,9 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Target",
-    "description": "",
-    "effectText": "Data Burst deals damage and has no additional effect.",
+    "targets": "Single Other Target",
+    "description": "Data input overflow! This sensory overload causes moderate damage.",
+    "effectText": "Data Burst deals damage to a single target.",
     "effects": []
   },
   {
@@ -1309,7 +1309,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "This Koish subspecies can deliver a short Electric discharge to inflict moderate damage.",
-    "effectText": "Electric Stream deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -1932,19 +1932,25 @@
   {
     "name": "Harmful Microwaves",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Harmful_Microwaves",
-    "type": "?",
-    "class": "?",
-    "classIcon": "/images/icons/technique/?.png",
-    "damage": 0,
-    "staminaCost": 0,
+    "type": "Digital",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 86,
+    "staminaCost": 28,
     "hold": 0,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
-    "synergy": "None",
-    "synergyEffects": [],
-    "targets": "?",
-    "description": "",
-    "effectText": "",
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
+    "synergy": "Digital",
+    "synergyEffects": [
+      {
+        "damage": 0,
+        "type": "buff",
+        "effect": "14 STA Cost"
+      }
+    ],
+    "targets": "",
+    "description": "Make your enemies feel like reheated coffee does! This technique inflicts moderate damage.WARNING: Do not actually put your 'Tems in the microwave! Used in combination with a Digital ally, Harmful Microwaves costs only half the stamina and increases pirority.",
+    "effectText": "Harmful Microwaves deals damage to a single target.",
     "effects": []
   },
   {
@@ -2117,20 +2123,26 @@
   {
     "name": "Hologram",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Hologram",
-    "type": "?",
-    "class": "?",
-    "classIcon": "/images/icons/technique/?.png",
+    "type": "Digital",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
     "damage": 0,
-    "staminaCost": 0,
-    "hold": 0,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
+    "staminaCost": 12,
+    "hold": 1,
+    "priority": "veryhigh",
+    "priorityIcon": "/images/icons/priority/veryhigh.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
-    "description": "",
-    "effectText": "",
-    "effects": []
+    "targets": "Self",
+    "description": "Let them atrack your digital ghost while you evade them for 1 turn",
+    "effectText": "Hologram applies the Evading Condition to the user for 1 turn.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 1,
+        "condition": "Evading"
+      }
+    ]
   },
   {
     "name": "Hook",
@@ -2201,7 +2213,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "When you gotta hit hard and fast - the faster, the harder. Inflicts extra damage depending on the Temtem's SPD.",
-    "effectText": "Hyperkinetic Strike deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -4160,19 +4172,25 @@
   {
     "name": "Sparkling Bullet",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Sparkling_Bullet",
-    "type": "?",
-    "class": "?",
-    "classIcon": "/images/icons/technique/?.png",
-    "damage": 0,
-    "staminaCost": 0,
+    "type": "Electric",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 60,
+    "staminaCost": 12,
     "hold": 0,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
-    "synergy": "None",
-    "synergyEffects": [],
-    "targets": "?",
-    "description": "",
-    "effectText": "",
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "Neutral",
+    "synergyEffects": [
+      {
+        "damage": 105,
+        "type": "damage",
+        "effect": "+105 Damage"
+      }
+    ],
+    "targets": "Single Other Target",
+    "description": "All flash and no bang - this sparkly Electric technique does little damage.Used in combination with a Neutral ally, this upgraded missile deals increased damage.",
+    "effectText": "Sparkling Bullet deals damage to a single target.",
     "effects": []
   },
   {
