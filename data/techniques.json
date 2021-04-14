@@ -282,6 +282,24 @@
     "effects": []
   },
   {
+    "name": "Binary Flood",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Binary_Flood",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "",
+    "effectText": "",
+    "effects": []
+  },
+  {
     "name": "Blizzard",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Blizzard",
     "type": "Wind",
@@ -358,6 +376,24 @@
         "condition": "Evading"
       }
     ]
+  },
+  {
+    "name": "Bright Beam",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Bright_Beam",
+    "type": "Electric",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 18,
+    "staminaCost": 10,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "Beam me up! This technique makes you alert and able to evade for 2 turns.",
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Bubbles",
@@ -525,6 +561,24 @@
     "targets": "Single Other Target",
     "description": "There's a time for cunning strategy, and there's a time for charging head-on. This is for the latter case.",
     "effectText": "Charge deals damage to a single target.",
+    "effects": []
+  },
+  {
+    "name": "Charged Iron Fillings",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Charged_Iron_Fillings",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "",
+    "effectText": "",
     "effects": []
   },
   {
@@ -810,6 +864,24 @@
     "effects": []
   },
   {
+    "name": "Cyberclaw",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Cyberclaw",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "",
+    "effectText": "",
+    "effects": []
+  },
+  {
     "name": "Darkness",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Darkness",
     "type": "Neutral",
@@ -879,6 +951,24 @@
     "targets": "Single Other Target",
     "description": "Lightning, an elemental force; not extremely powerful, but always reliable.",
     "effectText": "DC Beam deals damage to a single target.",
+    "effects": []
+  },
+  {
+    "name": "Debris Typhoon",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Debris_Typhoon",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "",
+    "effectText": "",
     "effects": []
   },
   {
@@ -1219,24 +1309,24 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "This Koish subspecies can deliver a short Electric discharge to inflict moderate damage.",
-    "effectText": "Electric Stream deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
     "name": "Electromagnetism",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Electromagnetism",
-    "type": "?",
-    "class": "?",
-    "classIcon": "/images/icons/technique/?.png",
+    "type": "Electric",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
     "damage": 0,
-    "staminaCost": 0,
-    "hold": 0,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
+    "staminaCost": 16,
+    "hold": 2,
+    "priority": "veryhigh",
+    "priorityIcon": "/images/icons/priority/veryhigh.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
-    "description": "",
+    "targets": "Single Other Target",
+    "description": "Electromagnetically bound, attacker and target are trapped for 3 turns, while the target gets SPD .",
     "effectText": "Electromagnetism gives the target SPD while inflicting the user and the target with the Trapped Condition for 3 turns.",
     "effects": [
       {
@@ -1435,6 +1525,24 @@
     "targets": "Single Other Target",
     "description": "Raw as untamed Temtem and unstoppable as a Kisiwan stampede.",
     "effectText": "Fierce Claw deals damage to a single target.",
+    "effects": []
+  },
+  {
+    "name": "Fierty Heist",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Fierty_Heist",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "",
+    "effectText": "",
     "effects": []
   },
   {
@@ -1694,6 +1802,24 @@
         "condition": "Exhausted"
       }
     ]
+  },
+  {
+    "name": "Generify",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Generify",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "",
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Glass Blade",
@@ -1986,6 +2112,42 @@
     "targets": "Single Other Target",
     "description": "An industrial-grade water jet that packs real punch.Used in combination with a Fire ally, it produced boiling water that inflicts Burn for 3 turns.",
     "effectText": "High-pressure Water deals damage to a single target.",
+    "effects": []
+  },
+  {
+    "name": "Hologram",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Hologram",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "",
+    "effectText": "",
+    "effects": []
+  },
+  {
+    "name": "Hook",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Hook",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "",
+    "effectText": "",
     "effects": []
   },
   {
@@ -2918,6 +3080,24 @@
     "effects": []
   },
   {
+    "name": "Overclock",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Overclock",
+    "type": "Digital",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 10,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Self",
+    "description": "Unrecommended for longer periods, this thechnique makes your 'Tems go way faster, bestorying SPEED .",
+    "effectText": "Overclock give the user SPD .",
+    "effects": []
+  },
+  {
     "name": "Paralyzing Poison",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Paralyzing_Poison",
     "type": "Toxic",
@@ -3086,6 +3266,24 @@
     "effects": []
   },
   {
+    "name": "Piezoelectricity Blow",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Piezoelectricity_Blow",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "",
+    "effectText": "",
+    "effects": []
+  },
+  {
     "name": "Plague",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Plague",
     "type": "Nature",
@@ -3108,6 +3306,24 @@
         "condition": "Exhausted"
       }
     ]
+  },
+  {
+    "name": "Plasma Beam",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Plasma_Beam",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "",
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Pollution",
@@ -3918,6 +4134,24 @@
     "effects": []
   },
   {
+    "name": "Sparkling Bullet",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Sparkling_Bullet",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "",
+    "effectText": "",
+    "effects": []
+  },
+  {
     "name": "Sparks",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Sparks",
     "type": "Electric",
@@ -4215,6 +4449,24 @@
     "targets": "Single Other Target",
     "description": "Twist the fabric of time-space to your advantage, gaining SPD and giving the enemy SPD .",
     "effectText": "Time Split deals damage to a single target, gives it SPD , and gives the user SPD .",
+    "effects": []
+  },
+  {
+    "name": "Token",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Token",
+    "type": "?",
+    "class": "?",
+    "classIcon": "/images/icons/technique/?.png",
+    "damage": 0,
+    "staminaCost": 0,
+    "hold": 0,
+    "priority": "unknown",
+    "priorityIcon": "/images/icons/priority/unknown.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "?",
+    "description": "",
+    "effectText": "",
     "effects": []
   },
   {

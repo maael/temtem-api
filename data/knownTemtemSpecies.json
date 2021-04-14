@@ -281,15 +281,15 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 80,
+    "hatchMins": 29,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 2,
       "spdef": 0
     },
     "gameDescription": "",
@@ -346,11 +346,11 @@
     "icon": "",
     "lumaIcon": "",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 5,
+      "female": 95
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 125,
+    "hatchMins": 20,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -414,11 +414,11 @@
     "icon": "",
     "lumaIcon": "",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 5,
+      "female": 95
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 105,
+    "hatchMins": 24,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -1694,11 +1694,11 @@
     "icon": "/images/portraits/temtem/large/Ampling.png",
     "lumaIcon": "",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 65,
+      "female": 35
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 95,
+    "hatchMins": 26,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -1764,15 +1764,15 @@
     "icon": "/images/portraits/temtem/large/Amphatyr.png",
     "lumaIcon": "",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 65,
+      "female": 35
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 40,
+    "hatchMins": 37,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 4,
       "atk": 0,
       "def": 0,
       "spatk": 0,
@@ -4308,8 +4308,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 90,
+    "hatchMins": 27,
     "tvYields": {
       "hp": 0,
       "sta": 1,
@@ -4340,24 +4340,27 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/0b10",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 61,
+      "sta": 76,
+      "spd": 78,
+      "atk": 52,
+      "def": 64,
+      "spatk": 62,
+      "spdef": 68,
+      "total": 461
     },
-    "traits": [],
+    "traits": [
+      "Source Replicator",
+      "Target Replicator"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 12,
+        "inches": 4
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 2,
+        "lbs": 4
       }
     },
     "techniques": [],
@@ -4374,11 +4377,11 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 45,
+    "hatchMins": 36,
     "tvYields": {
       "hp": 0,
-      "sta": 0,
+      "sta": 2,
       "spd": 0,
       "atk": 0,
       "def": 0,
@@ -5686,11 +5689,11 @@
     "icon": "",
     "lumaIcon": "",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 75,
+      "female": 25
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 150,
+    "hatchMins": 15,
     "tvYields": {
       "hp": 2,
       "sta": 0,
@@ -5736,12 +5739,12 @@
     ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 150,
+        "inches": 59
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 390,
+        "lbs": 859
       }
     },
     "techniques": [],
@@ -5755,11 +5758,11 @@
     "icon": "",
     "lumaIcon": "",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 75,
+      "female": 25
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 100,
+    "hatchMins": 25,
     "tvYields": {
       "hp": 3,
       "sta": 0,
@@ -5827,15 +5830,15 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 80,
+    "hatchMins": 29,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 1,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 1,
       "spdef": 0
     },
     "gameDescription": "",
@@ -5859,14 +5862,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Hedgine",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 54,
+      "sta": 50,
+      "spd": 84,
+      "atk": 51,
+      "def": 61,
+      "spatk": 82,
+      "spdef": 64,
+      "total": 446
     },
     "traits": [
       "Gotta Go Fast",
@@ -5874,12 +5877,12 @@
     ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 145,
+        "inches": 57
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 90,
+        "lbs": 198
       }
     },
     "techniques": [],
@@ -5896,15 +5899,15 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 70,
+    "hatchMins": 31,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 2,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 2,
       "spdef": 0
     },
     "gameDescription": "",
@@ -6924,8 +6927,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 40,
+    "hatchMins": 37,
     "tvYields": {
       "hp": 0,
       "sta": 1,
@@ -6990,11 +6993,11 @@
     "icon": "",
     "lumaIcon": "",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 20,
+      "female": 80
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 90,
+    "hatchMins": 27,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -7195,24 +7198,27 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Smolzy",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 40,
+      "sta": 60,
+      "spd": 65,
+      "atk": 65,
+      "def": 26,
+      "spatk": 22,
+      "spdef": 26,
+      "total": 304
     },
-    "traits": [],
+    "traits": [
+      "Caffeinated",
+      "Electric Synthesize"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 99,
+        "inches": 38
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 64,
+        "lbs": 141
       }
     },
     "techniques": [],
@@ -7226,16 +7232,16 @@
     "icon": "",
     "lumaIcon": "",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 70,
+      "female": 30
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 150,
+    "hatchMins": 15,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 1,
       "def": 0,
       "spatk": 0,
       "spdef": 0
@@ -7297,11 +7303,11 @@
     "icon": "/images/portraits/temtem/large/Sparzy.png",
     "lumaIcon": "",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 70,
+      "female": 30
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 100,
+    "hatchMins": 25,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -7338,8 +7344,8 @@
       "atk": 84,
       "def": 49,
       "spatk": 40,
-      "spdef": 40,
-      "total": 449
+      "spdef": 48,
+      "total": 457
     },
     "traits": [
       "Defuser",
@@ -7366,11 +7372,11 @@
     "icon": "",
     "lumaIcon": "",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 70,
+      "female": 30
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 0,
+    "hatchMins": 45,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -8058,8 +8064,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 150,
+    "hatchMins": 15,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -8089,26 +8095,27 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Raignet",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 68,
+      "sta": 57,
+      "spd": 54,
+      "atk": 81,
+      "def": 69,
+      "spatk": 58,
+      "spdef": 50,
+      "total": 437
     },
     "traits": [
-      "Kinetic Transfer"
+      "Kinetic Transfer",
+      "Electric Custodian"
     ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 170,
+        "inches": 66
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 110,
+        "lbs": 242
       }
     },
     "techniques": [],
@@ -8126,8 +8133,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 90,
+    "hatchMins": 27,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -10933,12 +10940,12 @@
     ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 87,
+        "inches": 34
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 37,
+        "lbs": 81
       }
     },
     "techniques": [],
@@ -10955,8 +10962,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 123,
+    "hatchMins": 20.4,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -11024,8 +11031,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 90,
+    "hatchMins": 27,
     "tvYields": {
       "hp": 2,
       "sta": 0,
@@ -11664,8 +11671,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 0,
+    "hatchMins": 45,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -11884,8 +11891,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 0,
+    "hatchMins": 45,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -12850,11 +12857,11 @@
     "icon": "",
     "lumaIcon": "",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 0,
+      "female": 100
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 125,
+    "hatchMins": 20,
     "tvYields": {
       "hp": 1,
       "sta": 0,
@@ -12885,14 +12892,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Waspeen",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 92,
+      "sta": 64,
+      "spd": 36,
+      "atk": 58,
+      "def": 80,
+      "spatk": 50,
+      "spdef": 70,
+      "total": 450
     },
     "traits": [
       "Royal Jelly",
@@ -12900,12 +12907,12 @@
     ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 120,
+        "inches": 47
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 76,
+        "lbs": 167
       }
     },
     "techniques": [],
@@ -12919,13 +12926,13 @@
     "icon": "",
     "lumaIcon": "",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 0,
+      "female": 100
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 84,
+    "hatchMins": 28.2,
     "tvYields": {
-      "hp": 0,
+      "hp": 3,
       "sta": 0,
       "spd": 0,
       "atk": 0,
