@@ -138,35 +138,7 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/99/Oree.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8f/LumaOree.png",
-    "locations": [
-      {
-        "location": "Rice Fields",
-        "place": "",
-        "note": "",
-        "island": "Cipanku",
-        "frequency": "",
-        "level": "",
-        "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
-        }
-      },
-      {
-        "location": "This table shows rough information on where Oree spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
-        "place": "",
-        "note": "",
-        "frequency": "",
-        "level": "",
-        "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Oree.png",
     "lumaIcon": "",
     "genderRatio": {
@@ -185,14 +157,14 @@
       "spdef": 0
     },
     "gameDescription": "",
-    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Oree_full_render.png",
-    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9a/Oree_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Oree_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9a/Oree_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Oree.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Oree.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Oree.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Oree.gif"
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 3,
@@ -370,7 +342,35 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/88/Halzhi.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6e/LumaHalzhi.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Rice Fields",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
+      },
+      {
+        "location": "This table shows rough information on where Halzhi spawns. For more complete information within those areas, see the corresponding route/landmark pages linked below.",
+        "place": "",
+        "note": "",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
+      }
+    ],
     "icon": "",
     "lumaIcon": "",
     "genderRatio": {
@@ -433,7 +433,7 @@
     },
     "techniques": [],
     "trivia": [
-      "Molgu's name is derived from mole and chingu (friend in Korean, 친구)."
+      "Molgu's name is derived from mole and chingu (friend in Korean)."
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5f/Molgu.png",
@@ -10996,7 +10996,7 @@
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 1,
       "def": 0,
       "spatk": 0,
       "spdef": 0
@@ -11532,6 +11532,34 @@
         "place": "",
         "note": "",
         "island": "Kisiwa",
+        "frequency": "5%",
+        "level": "5 - 10",
+        "freetem": {
+          "minLevel": 5,
+          "maxLevel": 10,
+          "minPansuns": 35,
+          "maxPansuns": 50
+        }
+      },
+      {
+        "location": "Altar of the Inner Flame",
+        "place": "",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "5%",
+        "level": "5 - 10",
+        "freetem": {
+          "minLevel": 5,
+          "maxLevel": 10,
+          "minPansuns": 35,
+          "maxPansuns": 50
+        }
+      },
+      {
+        "location": "Digital Kami Shrine",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
         "frequency": "5%",
         "level": "5 - 10",
         "freetem": {
