@@ -45,13 +45,13 @@
         "place": "",
         "note": "",
         "island": "Cipanku",
-        "frequency": "",
-        "level": "",
+        "frequency": "20%",
+        "level": "46 - 52",
         "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
+          "minLevel": 46,
+          "maxLevel": 52,
+          "minPansuns": 481,
+          "maxPansuns": 540
         }
       }
     ],
@@ -2047,7 +2047,36 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/36/Taifu.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/45/LumaTaifu.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Prasine Coast",
+        "place": "Prasine Coast",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "85%",
+        "level": "40 - 45",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 45,
+          "minPansuns": 116,
+          "maxPansuns": 128
+        }
+      },
+      {
+        "location": "The Glassyway",
+        "place": "The Glassyway",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "25%",
+        "level": "19 - 22",
+        "freetem": {
+          "minLevel": 19,
+          "maxLevel": 22,
+          "minPansuns": 66,
+          "maxPansuns": 73
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Taifu.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Taifu.png",
     "genderRatio": {
@@ -2066,14 +2095,14 @@
       "spdef": 0
     },
     "gameDescription": "",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/72/Taifu_full_render.png",
+    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a2/Taifu_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d5/LumaTaifu_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c2/LumaTaifu_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Taifu.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Taifu.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Taifu.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Taifu.gif"
   },
   {
     "number": 25,
@@ -6754,7 +6783,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/80/Sparzy.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e2/LumaSparzy.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Pillars of Highabove",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "40%",
+        "level": "42 - 47",
+        "freetem": {
+          "minLevel": 42,
+          "maxLevel": 47,
+          "minPansuns": 146,
+          "maxPansuns": 161
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Sparzy.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Sparzy.png",
     "genderRatio": {

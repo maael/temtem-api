@@ -33,7 +33,7 @@
     "name": "Attack T",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Attack_T",
     "description": "",
-    "effect": "Attack T changes the user's secondary Type to match the Technique they are about to use. If the move the Temtem is about to use is the same type as that Temtem's primary type, then the Temtem becomes a single-type Temtem of that type. For example, Oree becomes a Digital/Electric Temtem when using Tesla Prison, and becomes pure Digital when using Turbo Attack."
+    "effect": "Attack<T> changes the user's secondary Type to match the Technique they are about to use. If the move the Temtem is about to use is the same type as that Temtem's primary type, then the Temtem becomes a single-type Temtem of that type. For example, Oree becomes a Digital/Electric Temtem when using Tesla Prison, and becomes pure Digital when using Turbo Attack."
   },
   {
     "name": "Autotomy",
@@ -279,7 +279,7 @@
     "name": "Going Away Gift",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Going_Away_Gift",
     "description": "",
-    "effect": "Temtem"
+    "effect": "When knocked-out, adds the Temtem positive stat state changes to the ally."
   },
   {
     "name": "Good Friend",
@@ -722,7 +722,7 @@
   {
     "name": "Toxic Farewell",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Toxic_Farewell",
-    "description": "When a Temtem knocks out a target with Toxic Farewell, it loses 10% of its maximum HP.",
+    "description": "When a Temtem knocks out a target with Toxic Farewell, it loses 10% of its maximum HP and gets the Poisoned Condition for 3 turns.",
     "effect": ""
   },
   {
