@@ -33,7 +33,9 @@
       }
     },
     "techniques": [],
-    "trivia": [],
+    "trivia": [
+      "As of Alpha 0.7, Mimit has the lowest base stat total of all fully evolved Temtem."
+    ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/88/Mimit.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4f/LumaMimit.png",
@@ -1659,10 +1661,7 @@
       }
     },
     "techniques": [],
-    "trivia": [
-      "Amphatyr's name is derived from Ampere and Satyr (a woodland deity from Greek mythology).",
-      "The name of Amphatyr was proposed by a community member (ItsTomas) of the official Discord, and later chosen as the winner during the Choose a Temtem names poll in the 6th update of Temtem's Kickstarter."
-    ],
+    "trivia": [],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a8/Amphatyr.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/cc/LumaAmphatyr.png",
@@ -2048,36 +2047,7 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/36/Taifu.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/45/LumaTaifu.png",
-    "locations": [
-      {
-        "location": "Prasine Coast",
-        "place": "Prasine Coast",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "85%",
-        "level": "40 - 45",
-        "freetem": {
-          "minLevel": 40,
-          "maxLevel": 45,
-          "minPansuns": 116,
-          "maxPansuns": 128
-        }
-      },
-      {
-        "location": "The Glassyway",
-        "place": "The Glassyway",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "25%",
-        "level": "19 - 22",
-        "freetem": {
-          "minLevel": 19,
-          "maxLevel": 22,
-          "minPansuns": 66,
-          "maxPansuns": 73
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Taifu.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Taifu.png",
     "genderRatio": {
@@ -2096,14 +2066,14 @@
       "spdef": 0
     },
     "gameDescription": "",
-    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/72/Taifu_full_render.png",
-    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a2/Taifu_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d5/LumaTaifu_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c2/LumaTaifu_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Taifu.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Taifu.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Taifu.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Taifu.gif"
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 25,
@@ -2878,7 +2848,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0d/Rhoulder.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/eb/LumaRhoulder.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Tasa Desert",
+        "place": "Tasa Desert",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "5%",
+        "level": "43 - 48",
+        "freetem": {
+          "minLevel": 43,
+          "maxLevel": 48,
+          "minPansuns": 182,
+          "maxPansuns": 200
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Rhoulder.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Rhoulder.png",
     "genderRatio": {
@@ -3978,9 +3963,7 @@
       }
     },
     "techniques": [],
-    "trivia": [
-      "0b1's name is derived from the Binary code for 1 (0b1)."
-    ],
+    "trivia": [],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e5/0b1.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1d/Luma0b1.png",
@@ -5742,7 +5725,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/25/Osukai.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a8/LumaOsukai.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Aisha's Hearth",
+        "place": "",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "95%",
+        "level": "70",
+        "freetem": {
+          "minLevel": 70,
+          "maxLevel": 70,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Osukai.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Osukai.png",
     "genderRatio": {
