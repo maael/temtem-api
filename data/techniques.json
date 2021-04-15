@@ -383,17 +383,29 @@
     "type": "Electric",
     "class": "Special",
     "classIcon": "/images/icons/technique/Special.png",
-    "damage": 18,
-    "staminaCost": 10,
+    "damage": 10,
+    "staminaCost": 18,
     "hold": 1,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "None",
-    "synergyEffects": [],
-    "targets": "?",
-    "description": "Beam me up! This technique makes you alert and able to evade for 2 turns.",
-    "effectText": "",
-    "effects": []
+    "synergy": "Crystal",
+    "synergyEffects": [
+      {
+        "damage": 45,
+        "type": "damage",
+        "effect": "+45 Damage"
+      }
+    ],
+    "targets": "Other Team or Ally",
+    "description": "Beam me up! This technique makes you alert and able to evade for 2 turns.Supercharge that beam, Scotty! Used in combination with a Crystal ally Bright Beam inflicts slightly more damage on the whole team.",
+    "effectText": "Bright Beam deals damage to the opposing team or ally and gives the user of Bright Beam the Alerted Condition and the Evading Condition for 2 turns.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 2,
+        "condition": "Evading"
+      }
+    ]
   },
   {
     "name": "Bubbles",
@@ -926,19 +938,19 @@
   {
     "name": "Data Corruption",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Data_Corruption",
-    "type": "?",
-    "class": "?",
-    "classIcon": "/images/icons/technique/?.png",
+    "type": "Digital",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
     "damage": 0,
-    "staminaCost": 0,
-    "hold": 0,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
+    "staminaCost": 22,
+    "hold": 2,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
-    "description": "",
-    "effectText": "",
+    "targets": "Single Other Target",
+    "description": "Hacking your opponent's database takes some time, but it's worth it. This technique weakens SPDEF .",
+    "effectText": "Data Corruption gives the target SPDEF .",
     "effects": []
   },
   {
@@ -1492,7 +1504,7 @@
         "damage": 0
       }
     ],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "This classic science experiment, weaponized. This technique inflicts decent damage and exiles the target for 3 turns.\"...and the nhe drak the battery liquid!\" Used in combination with a Toxic ally, Faraday cage poisons the target for 3 turns.",
     "effectText": "",
     "effects": []
@@ -1972,7 +1984,7 @@
         "effect": "14 STA Cost"
       }
     ],
-    "targets": "",
+    "targets": "Single Other Target",
     "description": "Make your enemies feel like reheated coffee does! This technique inflicts moderate damage.WARNING: Do not actually put your 'Tems in the microwave! Used in combination with a Digital ally, Harmful Microwaves costs only half the stamina and increases pirority.",
     "effectText": "Harmful Microwaves deals damage to a single target.",
     "effects": []
@@ -2482,9 +2494,9 @@
     "synergy": "Water",
     "synergyEffects": [
       {
-        "damage": 100,
-        "type": "damage",
-        "effect": "+100 Damage"
+        "effect": "+3 Turns Seized",
+        "type": "condition",
+        "damage": 0
       }
     ],
     "targets": "Single Other Target",
@@ -2621,7 +2633,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "This blow targets the enemy's weak spot for massive damage.",
-    "effectText": "",
+    "effectText": "Major Slash deals damage to a single target.",
     "effects": []
   },
   {
@@ -2673,7 +2685,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "",
     "effectText": "Mechanical Heat deals damage and has no additional effect.",
     "effects": []
@@ -3304,19 +3316,30 @@
   {
     "name": "Piezoelectricity Blow",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Piezoelectricity_Blow",
-    "type": "?",
-    "class": "?",
-    "classIcon": "/images/icons/technique/?.png",
-    "damage": 0,
-    "staminaCost": 0,
-    "hold": 0,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
-    "synergy": "None",
-    "synergyEffects": [],
-    "targets": "?",
-    "description": "",
-    "effectText": "",
+    "type": "Electric",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 120,
+    "staminaCost": 30,
+    "hold": 3,
+    "priority": "high",
+    "priorityIcon": "/images/icons/priority/high.png",
+    "synergy": "Earth",
+    "synergyEffects": [
+      {
+        "effect": "2 turns Seized",
+        "type": "condition",
+        "damage": 0
+      },
+      {
+        "damage": 155,
+        "type": "damage",
+        "effect": "+155 Damage"
+      }
+    ],
+    "targets": "Single Other Target",
+    "description": "This Temtem can compress a part of its body to unleash an electric shock - fast and damaging.Oh, And you have an earthing electrode? Used in combination with an Earth ally, Piezoelectric Blow inflicts additional damage and seizes for 2 turns.",
+    "effectText": "Piezoelectric Blow deals damage to a single target.",
     "effects": []
   },
   {
@@ -3466,19 +3489,19 @@
   {
     "name": "Purgation",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Purgation",
-    "type": "?",
-    "class": "?",
-    "classIcon": "/images/icons/technique/?.png",
+    "type": "Mental",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
     "damage": 0,
-    "staminaCost": 0,
+    "staminaCost": 14,
     "hold": 0,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
-    "description": "",
-    "effectText": "",
+    "targets": "Self",
+    "description": "Out with the bad, in with the good! This technique increases ATK and eliminates doomed.",
+    "effectText": "Gives the user ATK and removes the Doomed Condition.",
     "effects": []
   },
   {
@@ -4021,19 +4044,19 @@
   {
     "name": "Sharpening",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Sharpening",
-    "type": "?",
-    "class": "?",
-    "classIcon": "/images/icons/technique/?.png",
+    "type": "Crystal",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
     "damage": 0,
-    "staminaCost": 0,
-    "hold": 0,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
+    "staminaCost": 17,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
-    "description": "",
-    "effectText": "",
+    "targets": "Self",
+    "description": "Sharpen those claws, it's time to tear through the opposition! This technique bestows increased ATK and SPD .",
+    "effectText": "Sharpening gives the user ATK and SPD .",
     "effects": []
   },
   {
@@ -5019,10 +5042,16 @@
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "Sometimes a little shock is all you need to gain an edge. This fast technique inflicts slight damage but seizes the target for 1 turn.",
-    "effectText": "",
-    "effects": []
+    "effectText": "Voltopuncture inflicts damage to a single target and inflicts the Seized Condition for 1 turn.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 1,
+        "condition": "Seized"
+      }
+    ]
   },
   {
     "name": "Wake Up",
