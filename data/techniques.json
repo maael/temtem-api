@@ -14,7 +14,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "Toxolotl draws from the Toxic essence of Xolot, moderately damaging and Poisoning the whole team for 2 turns.",
-    "effectText": "Acid Reflux deals damage to the opposing team or the user's ally and inflicts the Poisoned Condition for 2 turns.",
+    "effectText": "Acid Reflux deals damage to the opposing team or the user's ally and inflicts them with the Poisoned Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -2028,7 +2028,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Hey, I'm still warming up! ATK .",
-    "effectText": "Heat Up gives the user ATK .",
+    "effectText": "",
     "effects": []
   },
   {
@@ -3494,6 +3494,11 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Earth",
     "synergyEffects": [
+      {
+        "effect": "2 Turns Trapped",
+        "type": "condition",
+        "damage": 0
+      },
       {
         "damage": 70,
         "type": "damage",
@@ -5033,7 +5038,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Target",
-    "description": "\"Wake up and smell the coffee! Inflicts minimal damage but wakes up the target instantly.\"",
+    "description": "Wake up and smell the coffee! Inflicts minimal damage but wakes up the target instantly.",
     "effectText": "Wake Up deals damage to a single target.",
     "effects": []
   },
