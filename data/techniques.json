@@ -864,6 +864,24 @@
     "effects": []
   },
   {
+    "name": "Crystal Torrent",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Crystal_Torrent",
+    "type": "Crystal",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 65,
+    "staminaCost": 18,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "\"Chromeon, make our victory Crystal clear!\" This technique inflicts moderate damage.",
+    "effectText": "Crystal Torrent deals damage to a single target.",
+    "effects": []
+  },
+  {
     "name": "Crystallize",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Crystallize",
     "type": "Crystal",
@@ -1047,6 +1065,24 @@
     "targets": "Single Target",
     "description": "It is a complete mystery how some Koish have developed Digital attacks, but this one is capable of moderate damage.",
     "effectText": "Digital Stream deals damage to a single target.",
+    "effects": []
+  },
+  {
+    "name": "Digital Torrent",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Digital_Torrent",
+    "type": "Digital",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 65,
+    "staminaCost": 18,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "\"Chromeon, cancel all their downloads and log 'em out!\" This technique inflicts moderate damage.",
+    "effectText": "Digital Torrent deals damage to a single target.",
     "effects": []
   },
   {
@@ -1331,6 +1367,24 @@
     "effects": []
   },
   {
+    "name": "Electric Torrent",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Electric_Torrent",
+    "type": "Electric",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 65,
+    "staminaCost": 18,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "\"Chromeon, give them a shocking experience!\" This technique inflicts moderate damage.",
+    "effectText": "Electric Torrent deals damage to a single target.",
+    "effects": []
+  },
+  {
     "name": "Electromagnetism",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Electromagnetism",
     "type": "Electric",
@@ -1445,7 +1499,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "\"Omnes vulnerant, postuma necat\". Slowly the hour creeps onwards... it does only slight damage, but if that leaves the Temtem under 40% of their total HP... it's over for them.",
+    "description": "\"Omnes vulnerant, postuma necat\". Slowly the hour creeps onwards... it does only slight damage, but if that leaves the Temtem under 30% of their total HP... it's over for them.",
     "effectText": "Execution deals damage to a single target. If this damage would put it below 30% of its maximum HP, it instead is knocked-out.",
     "effects": []
   },
@@ -1543,24 +1597,6 @@
     "targets": "Single Other Target",
     "description": "Raw as untamed Temtem and unstoppable as a Kisiwan stampede.",
     "effectText": "Fierce Claw deals damage to a single target.",
-    "effects": []
-  },
-  {
-    "name": "Fierty Heist",
-    "wikiUrl": "https://temtem.gamepedia.com/wiki/Fierty_Heist",
-    "type": "",
-    "class": "",
-    "classIcon": "/images/icons/technique/.png",
-    "damage": 0,
-    "staminaCost": 0,
-    "hold": 0,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
-    "synergy": "None",
-    "synergyEffects": [],
-    "targets": "",
-    "description": "",
-    "effectText": "",
     "effects": []
   },
   {
@@ -2633,7 +2669,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "This blow targets the enemy's weak spot for massive damage.",
-    "effectText": "Major Slash deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -2957,6 +2993,24 @@
     "targets": "Single Target",
     "description": "Koish that live in dense brackish waters can channel the power of Nature to inflict moderate damage.",
     "effectText": "Nature Stream deals damage to a single target.",
+    "effects": []
+  },
+  {
+    "name": "Nature Torrent",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Nature_Torrent",
+    "type": "Nature",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 65,
+    "staminaCost": 18,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "\"Chromeon, hit them with the power of Nature!\" This technique inflicts moderate damage.",
+    "effectText": "Nature Torrent deals damage to a single target.",
     "effects": []
   },
   {
@@ -3314,8 +3368,8 @@
     "effects": []
   },
   {
-    "name": "Piezoelectricity Blow",
-    "wikiUrl": "https://temtem.gamepedia.com/wiki/Piezoelectricity_Blow",
+    "name": "Piezoelectric Blow",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Piezoelectric_Blow",
     "type": "Electric",
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
@@ -4785,6 +4839,24 @@
     "effects": []
   },
   {
+    "name": "Toxic Torrent",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Toxic_Torrent",
+    "type": "Toxic",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 65,
+    "staminaCost": 18,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "\"Chromeon, show me your Toxic side!\" This technique inflicts moderate damage.",
+    "effectText": "Toxic Torrent deals damage to a single target.",
+    "effects": []
+  },
+  {
     "name": "Toxin Shower",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Toxin_Shower",
     "type": "Toxic",
@@ -5198,6 +5270,24 @@
     "effects": []
   },
   {
+    "name": "Water Torrent",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Water_Torrent",
+    "type": "Water",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 65,
+    "staminaCost": 18,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "\"Chromeon, it's time to hode 'em down!\" This technique inflicts moderate damage.",
+    "effectText": "Water Torrent deals damage to a single target.",
+    "effects": []
+  },
+  {
     "name": "Waterjet",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Waterjet",
     "type": "Water",
@@ -5291,6 +5381,24 @@
     "targets": "Single Target",
     "description": "This Koish variety, probably from Deniz, can inflict moderate Wind damage.",
     "effectText": "Wind Stream deals damage to a single target.",
+    "effects": []
+  },
+  {
+    "name": "Wind Torrent",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Wind_Torrent",
+    "type": "Wind",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 65,
+    "staminaCost": 18,
+    "hold": 0,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "\"Chromeon, make sure they are well ventilated!\" This technique inflicts moderate damage.",
+    "effectText": "Wind Torrent deals damage to a single target.",
     "effects": []
   },
   {
