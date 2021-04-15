@@ -32,8 +32,8 @@
   {
     "name": "Attack T",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Attack_T",
-    "description": "Currently, Attack T is unavailable, so it is unknown what its description is.",
-    "effect": "Currently, Attack T is unavailable, so it is unknown what its full effect is."
+    "description": "",
+    "effect": "Attack T changes the user's secondary Type to match the Technique they are about to use. If the move the Temtem is about to use is the same type as that Temtem's primary type, then the Temtem becomes a single-type Temtem of that type. For example, Oree becomes a Digital/Electric Temtem when using Tesla Prison, and becomes pure Digital when using Turbo Attack."
   },
   {
     "name": "Autotomy",
@@ -152,7 +152,7 @@
   {
     "name": "Confined",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Confined",
-    "description": "When a Temtem with Confined uses a technique that causes it to give itself the <img alt=\"Trapped Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/cc/Trapped.png/revision/latest/scale-to-width-down/25?cb=20191219195521\" decoding=\"async\" width=\"25\" height=\"26\"> Trapped Condition, it also gets DEF <img alt=\"Stats\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d4/Stage_up.png/revision/latest/scale-to-width-down/14?cb=20200724064407\" decoding=\"async\" width=\"14\" height=\"13\" style=\"vertical-align: baseline\"> and SPDEF <img alt=\"Stats\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d4/Stage_up.png/revision/latest/scale-to-width-down/14?cb=20200724064407\" decoding=\"async\" width=\"14\" height=\"13\" style=\"vertical-align: baseline\"> .",
+    "description": "When a Temtem with Confined uses a technique that causes it to give itself the Trapped Condition, it also gets DEF and SPDEF .",
     "effect": ""
   },
   {
@@ -254,7 +254,7 @@
   {
     "name": "Flawed Crystal",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Flawed_Crystal",
-    "description": "Whenever a Temtem with Flawed Crystal takes damage from a technique that is either <img alt=\"mental\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/bf/Mental.png/revision/latest/scale-to-width-down/25?cb=20201010231303\" decoding=\"async\" width=\"25\" height=\"25\"> Mental, <img alt=\"toxic\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/96/Toxic.png/revision/latest/scale-to-width-down/25?cb=20201010231309\" decoding=\"async\" width=\"25\" height=\"25\"> Toxic, or <img alt=\"electric\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2f/Electric.png/revision/latest/scale-to-width-down/25?cb=20201010231304\" decoding=\"async\" width=\"25\" height=\"25\"> Electric, it takes 50% increased damage.",
+    "description": "Whenever a Temtem with Flawed Crystal takes damage from a technique that is either Mental, Toxic, or Electric, it takes 50% increased damage.",
     "effect": ""
   },
   {
@@ -267,7 +267,7 @@
     "name": "Frightening",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Frightening",
     "description": "",
-    "effect": "Temtem"
+    "effect": "Gear equipped on both opponent and allied Temtem will not have any effect on the holders or other Temtem for the first 2 turns a Temtem with Frightening is present on the battlefield."
   },
   {
     "name": "Furor",
@@ -363,7 +363,7 @@
     "name": "Intimidator",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Intimidator",
     "description": "",
-    "effect": "Temtem"
+    "effect": "The Traits of both opponent and allied Temtem will not have any effect on themselves or other Temtem for the first 2 turns a Temtem with Intimidator is present on the battlefield."
   },
   {
     "name": "Iridescence",
@@ -435,7 +435,7 @@
     "name": "Neurotoxins",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Neurotoxins",
     "description": "",
-    "effect": "Temtem"
+    "effect": "When inflicting a Temtem with the Poisoned Condition, it will instead inflict that Temtem with the Doomed Condition for 4 turns without the initial Poison."
   },
   {
     "name": "Neutrality",
@@ -458,12 +458,6 @@
   {
     "name": "Physmaster",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Physmaster",
-    "description": "",
-    "effect": "Temtem"
-  },
-  {
-    "name": "Pigment Inverter",
-    "wikiUrl": "https://temtem.gamepedia.com/wiki/Pigment_Inverter",
     "description": "",
     "effect": "Temtem"
   },
@@ -672,12 +666,6 @@
     "effect": ""
   },
   {
-    "name": "Synertyper",
-    "wikiUrl": "https://temtem.gamepedia.com/wiki/Synertyper",
-    "description": "",
-    "effect": "Temtem"
-  },
-  {
     "name": "Tactical Strike",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Tactical_Strike",
     "description": "Whenever a Temtem with Tactical Strike attacks with a technique with a hold of 1 or more, it deals 15% more damage.",
@@ -800,8 +788,8 @@
   {
     "name": "Water Synthesizer",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Water_Synthesizer",
-    "description": "",
-    "effect": "Temtem"
+    "description": "When a Temtem with Water Synthesizer is attacked with a damaging Water Technique, it restores their HP equal to the amount of damage they would have received.",
+    "effect": ""
   },
   {
     "name": "Wax Bath",

@@ -33,9 +33,7 @@
       }
     },
     "techniques": [],
-    "trivia": [
-      "Mimit's name is derived from Mimic and Qubit."
-    ],
+    "trivia": [],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/88/Mimit.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4f/LumaMimit.png",
@@ -117,7 +115,6 @@
     },
     "techniques": [],
     "trivia": [
-      "Oree’s name is derived from orejas (ear in Spanish) and electronic.",
       "Oree is mentioned in The creation of Digital Temtem.",
       "Oree is the starter Temtem for the player’s rival, Max.",
       "Oree was the first Digital Temtem to appear in the game."
@@ -125,7 +122,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/99/Oree.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8f/LumaOree.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Rice Fields",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "",
+        "level": "",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Oree.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Oree.png",
     "genderRatio": {
@@ -144,14 +156,14 @@
       "spdef": 0
     },
     "gameDescription": "",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Oree_full_render.png",
+    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9a/Oree_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Oree_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9a/Oree_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Oree.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Oree.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Oree.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Oree.gif"
   },
   {
     "number": 3,
@@ -255,9 +267,7 @@
       }
     },
     "techniques": [],
-    "trivia": [
-      "Chromeon's name is derived from Chroma and Chameleon."
-    ],
+    "trivia": [],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2d/Chromeon.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/97/LumaChromeon.png",
@@ -323,9 +333,7 @@
       }
     },
     "techniques": [],
-    "trivia": [
-      "Halzhi's name is derived from HAL9000 and Zhi (young/infantile in Chinese)."
-    ],
+    "trivia": [],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/88/Halzhi.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6e/LumaHalzhi.png",
@@ -2870,22 +2878,7 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0d/Rhoulder.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/eb/LumaRhoulder.png",
-    "locations": [
-      {
-        "location": "Tasa Desert",
-        "place": "Tasa Desert",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "5%",
-        "level": "43 - 48",
-        "freetem": {
-          "minLevel": 43,
-          "maxLevel": 48,
-          "minPansuns": 182,
-          "maxPansuns": 200
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Rhoulder.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Rhoulder.png",
     "genderRatio": {
@@ -5749,22 +5742,7 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/25/Osukai.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a8/LumaOsukai.png",
-    "locations": [
-      {
-        "location": "Aisha's Hearth",
-        "place": "",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "95%",
-        "level": "70",
-        "freetem": {
-          "minLevel": 70,
-          "maxLevel": 70,
-          "minPansuns": null,
-          "maxPansuns": null
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Osukai.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Osukai.png",
     "genderRatio": {
@@ -5840,6 +5818,20 @@
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e3/Saipat.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/29/LumaSaipat.png",
     "locations": [
+      {
+        "location": "Prasine Coast",
+        "place": "Prasine Coast",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "20% - 50%",
+        "level": "2 - 5",
+        "freetem": {
+          "minLevel": 2,
+          "maxLevel": 5,
+          "minPansuns": 25,
+          "maxPansuns": 31
+        }
+      },
       {
         "location": "Saipark",
         "place": "Saipark",
@@ -5944,12 +5936,12 @@
         "note": "",
         "island": "Tucma",
         "frequency": "30% - 40%",
-        "level": "29 - 32",
+        "level": "30 - 33",
         "freetem": {
-          "minLevel": 29,
-          "maxLevel": 32,
-          "minPansuns": 83,
-          "maxPansuns": 89
+          "minLevel": 30,
+          "maxLevel": 33,
+          "minPansuns": 85,
+          "maxPansuns": 91
         }
       }
     ],
@@ -12159,9 +12151,7 @@
       }
     },
     "techniques": [],
-    "trivia": [
-      "Tyranak's name is derived from Tyrannosaurus Rex and Anak."
-    ],
+    "trivia": [],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/29/Tyranak.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fe/LumaTyranak.png",
