@@ -999,8 +999,8 @@
     "name": "Debris Typhoon",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Debris_Typhoon",
     "type": "Wind",
-    "class": "Special",
-    "classIcon": "/images/icons/technique/Special.png",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
     "damage": 60,
     "staminaCost": 10,
     "hold": 0,
@@ -2645,8 +2645,14 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "Twinkle twinkle little Tem /Whole opponent team falls Asleep for 2 turns.",
-    "effectText": "",
-    "effects": []
+    "effectText": "Lullaby inflicts the opposing team or the user's ally with the Asleep Condition for 2 turns.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 2,
+        "condition": "Asleep"
+      }
+    ]
   },
   {
     "name": "Madness Buff",

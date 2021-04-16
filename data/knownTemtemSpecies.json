@@ -130,13 +130,27 @@
         "place": "",
         "note": "",
         "island": "Cipanku",
-        "frequency": "",
-        "level": "",
+        "frequency": "60%",
+        "level": "40 - 50",
         "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
+          "minLevel": 40,
+          "maxLevel": 50,
+          "minPansuns": 103,
+          "maxPansuns": 124
+        }
+      },
+      {
+        "location": "Pillars of Highabove",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "50%",
+        "level": "38 - 50",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 50,
+          "minPansuns": 99,
+          "maxPansuns": 124
         }
       }
     ],
@@ -360,13 +374,13 @@
         "place": "",
         "note": "",
         "island": "Cipanku",
-        "frequency": "",
-        "level": "",
+        "frequency": "60%",
+        "level": "42 - 50",
         "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
+          "minLevel": 42,
+          "maxLevel": 50,
+          "minPansuns": 121,
+          "maxPansuns": 140
         }
       }
     ],
@@ -3745,22 +3759,7 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/22/Zenoreth.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c7/LumaZenoreth.png",
-    "locations": [
-      {
-        "location": "Sons of Crystal",
-        "place": "",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "95%",
-        "level": "50 - 55",
-        "freetem": {
-          "minLevel": 50,
-          "maxLevel": 55,
-          "minPansuns": null,
-          "maxPansuns": null
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Zenoreth.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Zenoreth.png",
     "genderRatio": {
@@ -4024,7 +4023,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e5/0b1.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1d/Luma0b1.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Pillars of Highabove",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "70%",
+        "level": "40 - 50",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 50,
+          "minPansuns": 154,
+          "maxPansuns": 187
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/0b1.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/0b1.png",
     "genderRatio": {
@@ -5471,7 +5485,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b1/Hoglip.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d2/LumaHoglip.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Pillars of Highabove",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "60%",
+        "level": "40 - 50",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 50,
+          "minPansuns": 170,
+          "maxPansuns": 208
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Hoglip.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Hoglip.png",
     "genderRatio": {
@@ -5901,134 +5930,7 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e3/Saipat.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/29/LumaSaipat.png",
-    "locations": [
-      {
-        "location": "Prasine Coast",
-        "place": "Prasine Coast",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "20% - 50%",
-        "level": "2 - 5",
-        "freetem": {
-          "minLevel": 2,
-          "maxLevel": 5,
-          "minPansuns": 25,
-          "maxPansuns": 31
-        }
-      },
-      {
-        "location": "Saipark",
-        "place": "Saipark",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "50%",
-        "level": "38 - 41",
-        "freetem": {
-          "minLevel": 38,
-          "maxLevel": 41,
-          "minPansuns": 102,
-          "maxPansuns": 108
-        }
-      },
-      {
-        "location": "Thalassian Cliffs",
-        "place": "Thalassian Cliffs",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "5%",
-        "level": "6 - 8",
-        "freetem": {
-          "minLevel": 6,
-          "maxLevel": 8,
-          "minPansuns": 33,
-          "maxPansuns": 38
-        }
-      },
-      {
-        "location": "Arissola Dojo",
-        "place": "Arissola Dojo",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "35%",
-        "level": "15 - 17",
-        "freetem": {
-          "minLevel": 15,
-          "maxLevel": 17,
-          "minPansuns": 53,
-          "maxPansuns": 57
-        }
-      },
-      {
-        "location": "Gifted Bridges",
-        "place": "",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "15% - 100%",
-        "level": "8 - 14",
-        "freetem": {
-          "minLevel": 8,
-          "maxLevel": 14,
-          "minPansuns": 38,
-          "maxPansuns": 50
-        }
-      },
-      {
-        "location": "Windward Fort",
-        "place": "Windward Fort",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "20% - 50%",
-        "level": "9 - 15",
-        "freetem": {
-          "minLevel": 9,
-          "maxLevel": 15,
-          "minPansuns": 40,
-          "maxPansuns": 53
-        }
-      },
-      {
-        "location": "Sillaro River",
-        "place": "Sillaro River",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "45% - 100%",
-        "level": "13 - 16",
-        "freetem": {
-          "minLevel": 13,
-          "maxLevel": 16,
-          "minPansuns": 48,
-          "maxPansuns": 55
-        }
-      },
-      {
-        "location": "Aguamarina Caves",
-        "place": "Aguamarina Caves",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "20% - 40%",
-        "level": "15 - 20",
-        "freetem": {
-          "minLevel": 15,
-          "maxLevel": 20,
-          "minPansuns": 53,
-          "maxPansuns": 63
-        }
-      },
-      {
-        "location": "Xolot Reservoir",
-        "place": "Xolot Reservoir",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "30% - 40%",
-        "level": "30 - 33",
-        "freetem": {
-          "minLevel": 30,
-          "maxLevel": 33,
-          "minPansuns": 85,
-          "maxPansuns": 91
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Saipat.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Saipat.png",
     "genderRatio": {
@@ -6504,7 +6406,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2c/Innki.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/68/LumaInnki.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Pillars of Highabove",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "5%",
+        "level": "45 - 55",
+        "freetem": {
+          "minLevel": 45,
+          "maxLevel": 55,
+          "minPansuns": 358,
+          "maxPansuns": 433
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Innki.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Innki.png",
     "genderRatio": {
@@ -6573,7 +6490,36 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9d/Cycrox.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d8/LumaCycrox.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Rice Fields",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "60%",
+        "level": "47 - 55",
+        "freetem": {
+          "minLevel": 47,
+          "maxLevel": 55,
+          "minPansuns": 177,
+          "maxPansuns": 204
+        }
+      },
+      {
+        "location": "Sacred Lake",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "60%",
+        "level": "55 - 65",
+        "freetem": {
+          "minLevel": 55,
+          "maxLevel": 65,
+          "minPansuns": 204,
+          "maxPansuns": 237
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Cycrox.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Cycrox.png",
     "genderRatio": {
@@ -6968,7 +6914,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5f/Golzy.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/ff/LumaGolzy.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Digital Kami Shrine",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "95%",
+        "level": "70",
+        "freetem": {
+          "minLevel": 70,
+          "maxLevel": 70,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Golzy.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Golzy.png",
     "genderRatio": {
@@ -7592,7 +7553,36 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/Galvanid.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/ce/LumaGalvanid.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Iwaba",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "20%",
+        "level": "40 - 50",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 50,
+          "minPansuns": 100,
+          "maxPansuns": 120
+        }
+      },
+      {
+        "location": "Pillars of Highabove",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "30%",
+        "level": "40 - 50",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 50,
+          "minPansuns": 100,
+          "maxPansuns": 120
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Galvanid.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Galvanid.png",
     "genderRatio": {
@@ -9020,64 +9010,7 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f7/Zephyruff.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/74/LumaZephyruff.png",
-    "locations": [
-      {
-        "location": "Corrupted Badlands",
-        "place": "Corrupted Badlands",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "60%",
-        "level": "24 - 28",
-        "freetem": {
-          "minLevel": 24,
-          "maxLevel": 28,
-          "minPansuns": 64,
-          "maxPansuns": 71
-        }
-      },
-      {
-        "location": "Kupeleleza",
-        "place": "Kupeleleza",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "35% - 95%",
-        "level": "30 - 37",
-        "freetem": {
-          "minLevel": 30,
-          "maxLevel": 37,
-          "minPansuns": 75,
-          "maxPansuns": 88
-        }
-      },
-      {
-        "location": "Mawingu Islets",
-        "place": "Mawingu Islets",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "50%",
-        "level": "31 - 38",
-        "freetem": {
-          "minLevel": 31,
-          "maxLevel": 38,
-          "minPansuns": 77,
-          "maxPansuns": 90
-        }
-      },
-      {
-        "location": "Jino Gap",
-        "place": "Jino Gap",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "20%",
-        "level": "32 - 37",
-        "freetem": {
-          "minLevel": 32,
-          "maxLevel": 37,
-          "minPansuns": 79,
-          "maxPansuns": 88
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Zephyruff.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Zephyruff.png",
     "genderRatio": {
@@ -10129,6 +10062,34 @@
           "maxLevel": 39,
           "minPansuns": 200,
           "maxPansuns": 200
+        }
+      },
+      {
+        "location": "Rice Fields",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "20%",
+        "level": "46 - 55",
+        "freetem": {
+          "minLevel": 46,
+          "maxLevel": 55,
+          "minPansuns": 233,
+          "maxPansuns": 274
+        }
+      },
+      {
+        "location": "Sacred Lake",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "40%",
+        "level": "55 - 65",
+        "freetem": {
+          "minLevel": 55,
+          "maxLevel": 65,
+          "minPansuns": 274,
+          "maxPansuns": 320
         }
       }
     ],
@@ -11544,22 +11505,7 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/Vulcrane.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/af/LumaVulcrane.png",
-    "locations": [
-      {
-        "location": "Mines of Mictlan",
-        "place": "Mines of Mictlan",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "Gift",
-        "level": "33",
-        "freetem": {
-          "minLevel": 33,
-          "maxLevel": 33,
-          "minPansuns": null,
-          "maxPansuns": null
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Vulcrane.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Vulcrane.png",
     "genderRatio": {
@@ -12054,7 +12000,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/Chubee.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/60/LumaChubee.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Pillars of Highabove",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "60%",
+        "level": "40 - 50",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 50,
+          "minPansuns": 116,
+          "maxPansuns": 140
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Chubee.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Chubee.png",
     "genderRatio": {
