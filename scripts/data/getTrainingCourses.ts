@@ -40,8 +40,8 @@ export default async function getTrainingCourses() {
         return {
           number: parts[0],
           technique: parts[1],
-          type: parts[2],
-          location: parts[3],
+          type: parts[2] || "Unknown",
+          location: parts[3] || "Unknown",
           locationType: ["complete", "reward", "quest"].some(k =>
             (parts[3] || "").toLowerCase().includes(k)
           )
