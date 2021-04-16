@@ -782,8 +782,14 @@
     ],
     "targets": "Single Target",
     "description": "It's raining 'Tems, halleluja! This special Crystal technique inflicts moderate damage and isolates for 3 turns.Used in combination with a mental ally, Crystal Deluge makes you asleep for 3 turns and increases priority.",
-    "effectText": "Crystal Deluge deals damage to a single target.",
-    "effects": []
+    "effectText": "Crystal Deluge deals damage to a single target and inflicts the Isolated Condition for 3 turns.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 3,
+        "condition": "Isolated"
+      }
+    ]
   },
   {
     "name": "Crystal Dust",
@@ -2112,7 +2118,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Hey, I'm still warming up! ATK .",
-    "effectText": "",
+    "effectText": "Heat Up gives the user ATK .",
     "effects": []
   },
   {
@@ -2639,14 +2645,8 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "Twinkle twinkle little Tem /Whole opponent team falls Asleep for 2 turns.",
-    "effectText": "Lullaby inflicts the opposing team or the user's ally with the Asleep Condition for 2 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 2,
-        "condition": "Asleep"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Madness Buff",
@@ -2705,7 +2705,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "This blow targets the enemy's weak spot for massive damage.",
-    "effectText": "",
+    "effectText": "Major Slash deals damage to a single target.",
     "effects": []
   },
   {
@@ -3022,7 +3022,7 @@
     ],
     "targets": "Other Team or Ally",
     "description": "lä, lä! Nagaise is calling some Water friends from the deeps... The whole enemy team will regret this.Used in combination with a Mental ally, Nagaise's Fury inflicts extra damage.",
-    "effectText": "Nagaise's Fury deals damage to the opposing team or the user's ally.",
+    "effectText": "",
     "effects": []
   },
   {
