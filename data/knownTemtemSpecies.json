@@ -273,7 +273,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2d/Chromeon.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/97/LumaChromeon.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Pillars of Highabove",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "50%",
+        "level": "45 - 55",
+        "freetem": {
+          "minLevel": 45,
+          "maxLevel": 55,
+          "minPansuns": 189,
+          "maxPansuns": 227
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Chromeon.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Chromeon.png",
     "genderRatio": {
@@ -1596,7 +1611,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/93/Ampling.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/db/LumaAmpling.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Iwaba",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "20% - 80%",
+        "level": "40 - 50",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 50,
+          "minPansuns": 147,
+          "maxPansuns": 178
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Ampling.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Ampling.png",
     "genderRatio": {
@@ -5259,7 +5289,36 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9f/Scarawatt.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/87/LumaScarawatt.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Iwaba",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "20% - 100%",
+        "level": "40 - 50",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 50,
+          "minPansuns": 100,
+          "maxPansuns": 120
+        }
+      },
+      {
+        "location": "Pillars of Highabove",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "25%",
+        "level": "38 - 52",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 52,
+          "minPansuns": 96,
+          "maxPansuns": 124
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Scarawatt.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Scarawatt.png",
     "genderRatio": {
@@ -6798,17 +6857,31 @@
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e2/LumaSparzy.png",
     "locations": [
       {
+        "location": "Iwaba",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "15% - 20%",
+        "level": "38 - 40",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 40,
+          "minPansuns": 134,
+          "maxPansuns": 140
+        }
+      },
+      {
         "location": "Pillars of Highabove",
         "place": "",
         "note": "",
         "island": "Cipanku",
-        "frequency": "40%",
-        "level": "42 - 47",
+        "frequency": "10% - 50%",
+        "level": "38 - 45",
         "freetem": {
-          "minLevel": 42,
-          "maxLevel": 47,
-          "minPansuns": 146,
-          "maxPansuns": 161
+          "minLevel": 38,
+          "maxLevel": 45,
+          "minPansuns": 134,
+          "maxPansuns": 155
         }
       }
     ],
@@ -10181,7 +10254,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/59/Pupoise.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/79/LumaPupoise.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Rice Fields",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "10%",
+        "level": "42 - 50",
+        "freetem": {
+          "minLevel": 42,
+          "maxLevel": 50,
+          "minPansuns": 123,
+          "maxPansuns": 142
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Pupoise.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Pupoise.png",
     "genderRatio": {
