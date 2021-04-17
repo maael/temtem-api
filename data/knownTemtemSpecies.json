@@ -3759,7 +3759,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/22/Zenoreth.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c7/LumaZenoreth.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Sons of Crystal",
+        "place": "",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "95%",
+        "level": "50 - 55",
+        "freetem": {
+          "minLevel": 50,
+          "maxLevel": 55,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Zenoreth.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Zenoreth.png",
     "genderRatio": {
@@ -5930,7 +5945,134 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e3/Saipat.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/29/LumaSaipat.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Prasine Coast",
+        "place": "Prasine Coast",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "20% - 50%",
+        "level": "2 - 5",
+        "freetem": {
+          "minLevel": 2,
+          "maxLevel": 5,
+          "minPansuns": 25,
+          "maxPansuns": 31
+        }
+      },
+      {
+        "location": "Saipark",
+        "place": "Saipark",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "50%",
+        "level": "38 - 41",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 41,
+          "minPansuns": 102,
+          "maxPansuns": 108
+        }
+      },
+      {
+        "location": "Thalassian Cliffs",
+        "place": "Thalassian Cliffs",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "5%",
+        "level": "6 - 8",
+        "freetem": {
+          "minLevel": 6,
+          "maxLevel": 8,
+          "minPansuns": 33,
+          "maxPansuns": 38
+        }
+      },
+      {
+        "location": "Arissola Dojo",
+        "place": "Arissola Dojo",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "35%",
+        "level": "15 - 17",
+        "freetem": {
+          "minLevel": 15,
+          "maxLevel": 17,
+          "minPansuns": 53,
+          "maxPansuns": 57
+        }
+      },
+      {
+        "location": "Gifted Bridges",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "15% - 100%",
+        "level": "8 - 14",
+        "freetem": {
+          "minLevel": 8,
+          "maxLevel": 14,
+          "minPansuns": 38,
+          "maxPansuns": 50
+        }
+      },
+      {
+        "location": "Windward Fort",
+        "place": "Windward Fort",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "20% - 50%",
+        "level": "9 - 15",
+        "freetem": {
+          "minLevel": 9,
+          "maxLevel": 15,
+          "minPansuns": 40,
+          "maxPansuns": 53
+        }
+      },
+      {
+        "location": "Sillaro River",
+        "place": "Sillaro River",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "45% - 100%",
+        "level": "13 - 16",
+        "freetem": {
+          "minLevel": 13,
+          "maxLevel": 16,
+          "minPansuns": 48,
+          "maxPansuns": 55
+        }
+      },
+      {
+        "location": "Aguamarina Caves",
+        "place": "Aguamarina Caves",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "20% - 40%",
+        "level": "15 - 20",
+        "freetem": {
+          "minLevel": 15,
+          "maxLevel": 20,
+          "minPansuns": 53,
+          "maxPansuns": 63
+        }
+      },
+      {
+        "location": "Xolot Reservoir",
+        "place": "Xolot Reservoir",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "30% - 40%",
+        "level": "30 - 33",
+        "freetem": {
+          "minLevel": 30,
+          "maxLevel": 33,
+          "minPansuns": 85,
+          "maxPansuns": 91
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Saipat.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Saipat.png",
     "genderRatio": {
@@ -7547,9 +7689,7 @@
       }
     },
     "techniques": [],
-    "trivia": [
-      "Galvanid's name is derived from Galvanize and Kid."
-    ],
+    "trivia": [],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/Galvanid.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/ce/LumaGalvanid.png",
@@ -7714,7 +7854,6 @@
     },
     "techniques": [],
     "trivia": [
-      "Smazee's name is derived from smack and chimpanzee.",
       "As of Alpha 0.6.19, Smazee has the lowest base HP, ATK, and DEF stats of all Melee Temtem."
     ],
     "evolution": {},
@@ -7782,9 +7921,7 @@
       }
     },
     "techniques": [],
-    "trivia": [
-      "Baboong's name is derived from baboon and young."
-    ],
+    "trivia": [],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/28/Baboong.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b0/LumaBaboong.png",
@@ -7852,7 +7989,6 @@
     },
     "techniques": [],
     "trivia": [
-      "Seismunch's name is derived from Seismic and Punch.",
       "As of Alpha 0.6.19, Seismunch has the highest base STA stat of all Melee Temtem.",
       "As of Alpha 0.6.19, Seismunch is tied with Tortenite with awarding the most TVs of all Temtem.",
       "Seismunch could be loosely based on Sun Wukong the monkey king born of stone from the book the journey to the west."
@@ -9010,7 +9146,64 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f7/Zephyruff.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/74/LumaZephyruff.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Corrupted Badlands",
+        "place": "Corrupted Badlands",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "60%",
+        "level": "24 - 28",
+        "freetem": {
+          "minLevel": 24,
+          "maxLevel": 28,
+          "minPansuns": 64,
+          "maxPansuns": 71
+        }
+      },
+      {
+        "location": "Kupeleleza",
+        "place": "Kupeleleza",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "35% - 95%",
+        "level": "30 - 37",
+        "freetem": {
+          "minLevel": 30,
+          "maxLevel": 37,
+          "minPansuns": 75,
+          "maxPansuns": 88
+        }
+      },
+      {
+        "location": "Mawingu Islets",
+        "place": "Mawingu Islets",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "50%",
+        "level": "31 - 38",
+        "freetem": {
+          "minLevel": 31,
+          "maxLevel": 38,
+          "minPansuns": 77,
+          "maxPansuns": 90
+        }
+      },
+      {
+        "location": "Jino Gap",
+        "place": "Jino Gap",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "20%",
+        "level": "32 - 37",
+        "freetem": {
+          "minLevel": 32,
+          "maxLevel": 37,
+          "minPansuns": 79,
+          "maxPansuns": 88
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Zephyruff.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Zephyruff.png",
     "genderRatio": {
@@ -11505,7 +11698,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/Vulcrane.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/af/LumaVulcrane.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Mines of Mictlan",
+        "place": "Mines of Mictlan",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "Gift",
+        "level": "33",
+        "freetem": {
+          "minLevel": 33,
+          "maxLevel": 33,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Vulcrane.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Vulcrane.png",
     "genderRatio": {

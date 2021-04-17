@@ -1582,7 +1582,7 @@
         "damage": 0
       }
     ],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "This classic science experiment, weaponized. This technique inflicts decent damage and exiles the target for 3 turns.\"...and then he drank the battery liquid!\" Used in combination with a Toxic ally, Faraday cage poisons the target for 3 turns.",
     "effectText": "",
     "effects": []
@@ -3309,7 +3309,7 @@
     "synergy": "Toxic",
     "synergyEffects": [
       {
-        "effect": "4 Turns Poison",
+        "effect": "4 Turns Poisoned",
         "type": "condition",
         "damage": 0
       }
