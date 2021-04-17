@@ -381,7 +381,7 @@
     "name": "Landing Transmog",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Landing_Transmog",
     "description": "",
-    "effect": "When entering the battlefield, Mimit transforms into the next Temtem in clockwise order. It will use the same Base Stats, Techniques, Traits and Typing of the target. It will still keep its own Level, Single Values and Training Values. It also won't take over any Status Conditions and Stat Modifiers which are currently applied on the target."
+    "effect": "Landing Transmog causes Mimit transforms into the next Temtem in clockwise order upon entering the battlefield. It will use the same base stats, techniques, trait and typing of the target. It will still keep its own level, SVs and TVs. It also won't take over any status conditions and stat modifiers which are currently applied on the target. If the next Temtem is a Mimit, then the transforming Mimit will skip to the next Temtem of a different species."
   },
   {
     "name": "Last Rush",
