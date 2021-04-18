@@ -494,13 +494,13 @@
   {
     "name": "Provident",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Provident",
-    "description": "Whenever a Temtem with Provident is attacked by a technique that is either , , or , it gets SPDEF .",
+    "description": "Whenever a Temtem with Provident is attacked by a technique that is either Fire, Earth, or Melee, it gets SPDEF .",
     "effect": ""
   },
   {
     "name": "Punching Bag",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Punching_Bag",
-    "description": "If a Temtem with Punching Bag is attacked by a Technique, it takes 30% less damage.",
+    "description": "If a Temtem with Punching Bag is attacked by a Melee technique, it takes 30% less damage.",
     "effect": ""
   },
   {
@@ -608,7 +608,7 @@
   {
     "name": "Snowstorm",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Snowstorm",
-    "description": "When entering the battlefield for the first time, rivals and the ally get cold for 3 turns if they aren't cold already.",
+    "description": "",
     "effect": "When a Temtem with Snowstorm enters the battlefield, their ally and both rivals each get the Cold Condition for 3 turns if they do not already have the condition."
   },
   {
@@ -650,8 +650,8 @@
   {
     "name": "Stabmaster",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Stabmaster",
-    "description": "Damage done with matching type techniques is increased by 40%.",
-    "effect": "When a Temtem with Stabmaster uses a technique that shares a type with it, it deals 40% extra damage in addition to the STAB bonus."
+    "description": "",
+    "effect": "When a Temtem with Stabmaster uses a Technique that shares a type with it, it deals 40% extra damage in addition to the STAB bonus."
   },
   {
     "name": "Striking Transmog",

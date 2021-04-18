@@ -529,17 +529,31 @@
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/50/LumaPlatypet.png",
     "locations": [
       {
+        "location": "Gifted Bridges",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "70%",
+        "level": "7 - 10",
+        "freetem": {
+          "minLevel": 7,
+          "maxLevel": 10,
+          "minPansuns": 37,
+          "maxPansuns": 44
+        }
+      },
+      {
         "location": "Corrupted Badlands",
         "place": "Corrupted Badlands",
         "note": "",
         "island": "Tucma",
         "frequency": "30%",
-        "level": "24 - 28",
+        "level": "25 - 29",
         "freetem": {
-          "minLevel": 24,
-          "maxLevel": 28,
-          "minPansuns": 78,
-          "maxPansuns": 88
+          "minLevel": 25,
+          "maxLevel": 29,
+          "minPansuns": 80,
+          "maxPansuns": 90
         }
       },
       {
@@ -548,12 +562,12 @@
         "note": "",
         "island": "Tucma",
         "frequency": "50% - 70%",
-        "level": "28 - 32",
+        "level": "29 - 33",
         "freetem": {
-          "minLevel": 28,
-          "maxLevel": 32,
-          "minPansuns": 88,
-          "maxPansuns": 97
+          "minLevel": 29,
+          "maxLevel": 33,
+          "minPansuns": 90,
+          "maxPansuns": 100
         }
       },
       {
@@ -562,12 +576,12 @@
         "note": "",
         "island": "Tucma",
         "frequency": "85%",
-        "level": "31 - 35",
+        "level": "32 - 36",
         "freetem": {
-          "minLevel": 31,
-          "maxLevel": 35,
-          "minPansuns": 95,
-          "maxPansuns": 105
+          "minLevel": 32,
+          "maxLevel": 36,
+          "minPansuns": 97,
+          "maxPansuns": 107
         }
       }
     ],
@@ -1167,12 +1181,12 @@
         "note": "",
         "island": "Kisiwa",
         "frequency": "80%",
-        "level": "30 - 35",
+        "level": "32 - 37",
         "freetem": {
-          "minLevel": 30,
-          "maxLevel": 35,
-          "minPansuns": 75,
-          "maxPansuns": 84
+          "minLevel": 32,
+          "maxLevel": 37,
+          "minPansuns": 79,
+          "maxPansuns": 88
         }
       },
       {
@@ -1181,12 +1195,12 @@
         "note": "",
         "island": "Kisiwa",
         "frequency": "20%",
-        "level": "40 - 42",
+        "level": "42 - 44",
         "freetem": {
-          "minLevel": 40,
-          "maxLevel": 42,
-          "minPansuns": 93,
-          "maxPansuns": 97
+          "minLevel": 42,
+          "maxLevel": 44,
+          "minPansuns": 97,
+          "maxPansuns": 100
         }
       }
     ],
@@ -1295,7 +1309,7 @@
         "place": "",
         "note": "",
         "island": "Deniz",
-        "frequency": "60% - 95%",
+        "frequency": "30% - 95%",
         "level": "7 - 10",
         "freetem": {
           "minLevel": 7,
@@ -1405,6 +1419,20 @@
         }
       },
       {
+        "location": "Thalassian Cliffs",
+        "place": "Thalassian Cliffs",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "20%",
+        "level": "16 - 17",
+        "freetem": {
+          "minLevel": 16,
+          "maxLevel": 17,
+          "minPansuns": 59,
+          "maxPansuns": 61
+        }
+      },
+      {
         "location": "Gifted Bridges",
         "place": "",
         "note": "",
@@ -1466,12 +1494,12 @@
         "note": "",
         "island": "Kisiwa",
         "frequency": "40%",
-        "level": "20 - 30",
+        "level": "22 - 32",
         "freetem": {
-          "minLevel": 20,
-          "maxLevel": 30,
-          "minPansuns": 68,
-          "maxPansuns": 92
+          "minLevel": 22,
+          "maxLevel": 32,
+          "minPansuns": 73,
+          "maxPansuns": 97
         }
       },
       {
@@ -1480,12 +1508,40 @@
         "note": "",
         "island": "Kisiwa",
         "frequency": "70%",
-        "level": "38 - 41",
+        "level": "40 - 43",
         "freetem": {
-          "minLevel": 38,
-          "maxLevel": 41,
-          "minPansuns": 112,
-          "maxPansuns": 119
+          "minLevel": 40,
+          "maxLevel": 43,
+          "minPansuns": 116,
+          "maxPansuns": 124
+        }
+      },
+      {
+        "location": "Iwaba",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "15%",
+        "level": "46 - 52",
+        "freetem": {
+          "minLevel": 46,
+          "maxLevel": 52,
+          "minPansuns": 131,
+          "maxPansuns": 145
+        }
+      },
+      {
+        "location": "Pillars of Highabove",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "10%",
+        "level": "50 - 60",
+        "freetem": {
+          "minLevel": 50,
+          "maxLevel": 60,
+          "minPansuns": 140,
+          "maxPansuns": 164
         }
       }
     ],
@@ -2493,6 +2549,20 @@
           "minLevel": 4,
           "maxLevel": 9,
           "minPansuns": 30,
+          "maxPansuns": 43
+        }
+      },
+      {
+        "location": "Gifted Bridges",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "30%",
+        "level": "7 - 9",
+        "freetem": {
+          "minLevel": 7,
+          "maxLevel": 9,
+          "minPansuns": 38,
           "maxPansuns": 43
         }
       },
@@ -3553,7 +3623,36 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/cf/Capyre.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e2/LumaCapyre.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Anak Caldera",
+        "place": "Anak Caldera",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "25%",
+        "level": "33 - 38",
+        "freetem": {
+          "minLevel": 33,
+          "maxLevel": 38,
+          "minPansuns": 119,
+          "maxPansuns": 134
+        }
+      },
+      {
+        "location": "Anak Volcano",
+        "place": "Anak Volcano",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "50%",
+        "level": "38 - 48",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 48,
+          "minPansuns": 134,
+          "maxPansuns": 164
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Capyre.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Capyre.png",
     "genderRatio": {
@@ -4274,7 +4373,7 @@
         "place": "",
         "note": "",
         "island": "Deniz",
-        "frequency": "95% - 100%",
+        "frequency": "30%",
         "level": "7 - 11",
         "freetem": {
           "minLevel": 7,
@@ -4386,20 +4485,6 @@
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b7/LumaSaku.png",
     "locations": [
       {
-        "location": "Gifted Bridges",
-        "place": "",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "5%",
-        "level": "9 - 11",
-        "freetem": {
-          "minLevel": 9,
-          "maxLevel": 11,
-          "minPansuns": 40,
-          "maxPansuns": 44
-        }
-      },
-      {
         "location": "The Canopath",
         "place": "The Canopath",
         "note": "",
@@ -4433,12 +4518,12 @@
         "note": "",
         "island": "Tucma",
         "frequency": "40%",
-        "level": "34 - 37",
+        "level": "35 - 38",
         "freetem": {
-          "minLevel": 34,
-          "maxLevel": 37,
-          "minPansuns": 93,
-          "maxPansuns": 100
+          "minLevel": 35,
+          "maxLevel": 38,
+          "minPansuns": 95,
+          "maxPansuns": 102
         }
       }
     ],
@@ -5041,7 +5126,36 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/f4/Raize.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/07/LumaRaize.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Anak Caldera",
+        "place": "Anak Caldera",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "25%",
+        "level": "33 - 38",
+        "freetem": {
+          "minLevel": 33,
+          "maxLevel": 38,
+          "minPansuns": 103,
+          "maxPansuns": 115
+        }
+      },
+      {
+        "location": "Anak Volcano",
+        "place": "Anak Volcano",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "25%",
+        "level": "40 - 50",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 50,
+          "minPansuns": 120,
+          "maxPansuns": 145
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Raize.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Raize.png",
     "genderRatio": {
@@ -5112,7 +5226,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/90/Raican.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8d/LumaRaican.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Altar of the Inner Flame",
+        "place": "",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "95%",
+        "level": "70",
+        "freetem": {
+          "minLevel": 70,
+          "maxLevel": 70,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Raican.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Raican.png",
     "genderRatio": {
@@ -6303,7 +6432,22 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/40/Drakash.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b3/LumaDrakash.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Anak Volcano",
+        "place": "Anak Volcano",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "30%",
+        "level": "45 - 50",
+        "freetem": {
+          "minLevel": 45,
+          "maxLevel": 50,
+          "minPansuns": 155,
+          "maxPansuns": 170
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Drakash.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Drakash.png",
     "genderRatio": {
@@ -7489,13 +7633,27 @@
         "place": "Anak Caldera",
         "note": "",
         "island": "Omninesia",
-        "frequency": "20%",
+        "frequency": "25%",
         "level": "33 - 38",
         "freetem": {
           "minLevel": 33,
           "maxLevel": 38,
           "minPansuns": 119,
           "maxPansuns": 134
+        }
+      },
+      {
+        "location": "Anak Volcano",
+        "place": "Anak Volcano",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "25% - 35%",
+        "level": "45 - 55",
+        "freetem": {
+          "minLevel": 45,
+          "maxLevel": 55,
+          "minPansuns": 155,
+          "maxPansuns": 185
         }
       }
     ],
@@ -9630,13 +9788,13 @@
         "place": "Thalassian Cliffs",
         "note": "",
         "island": "Deniz",
-        "frequency": "100%",
-        "level": "5 - 8",
+        "frequency": "80% - 100%",
+        "level": "5 - 16",
         "freetem": {
           "minLevel": 5,
-          "maxLevel": 8,
+          "maxLevel": 16,
           "minPansuns": 33,
-          "maxPansuns": 40
+          "maxPansuns": 60
         }
       },
       {
@@ -9922,12 +10080,12 @@
         "note": "",
         "island": "Kisiwa",
         "frequency": "5%",
-        "level": "50 - 53",
+        "level": "52 - 55",
         "freetem": {
-          "minLevel": 50,
-          "maxLevel": 53,
-          "minPansuns": 187,
-          "maxPansuns": 197
+          "minLevel": 52,
+          "maxLevel": 55,
+          "minPansuns": 194,
+          "maxPansuns": 204
         }
       }
     ],
@@ -11677,7 +11835,7 @@
         "place": "Anak Caldera",
         "note": "",
         "island": "Omninesia",
-        "frequency": "20%",
+        "frequency": "25%",
         "level": "33 - 38",
         "freetem": {
           "minLevel": 33,
@@ -11687,17 +11845,31 @@
         }
       },
       {
+        "location": "Anak Volcano",
+        "place": "Anak Volcano",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "25% - 35%",
+        "level": "40 - 51",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 51,
+          "minPansuns": 140,
+          "maxPansuns": 173
+        }
+      },
+      {
         "location": "Mines of Mictlan",
         "place": "Mines of Mictlan",
         "note": "",
         "island": "Tucma",
         "frequency": "25%",
-        "level": "32 - 34",
+        "level": "33 - 35",
         "freetem": {
-          "minLevel": 32,
-          "maxLevel": 34,
-          "minPansuns": 116,
-          "maxPansuns": 123
+          "minLevel": 33,
+          "maxLevel": 35,
+          "minPansuns": 119,
+          "maxPansuns": 125
         }
       }
     ],
