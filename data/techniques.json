@@ -1006,10 +1006,16 @@
     "hold": 0,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "None",
-    "synergyEffects": [],
+    "synergy": "Wind",
+    "synergyEffects": [
+      {
+        "damage": 90,
+        "type": "damage",
+        "effect": "+90 Damage"
+      }
+    ],
     "targets": "Single Other Target",
-    "description": "A good brute-force technique if you don't mind tidying up later.",
+    "description": "A good brute-force technique if you don't mind tidying up later.No description available in the game yet.",
     "effectText": "Debris Typhoon deals damage to a single target.",
     "effects": []
   },
