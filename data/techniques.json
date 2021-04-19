@@ -590,14 +590,8 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "Do NOT let your 'Tem eat these. This technique inflicts moderate damage on the whole team and nullifies it for 2 turns.",
-    "effectText": "Charged Iron Fillings deals damage to the opposing team or the user's ally and inflicts them with the Nullified Condition for 2 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 2,
-        "condition": "Nullified"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Cheer Up",
@@ -4800,7 +4794,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "When the going gets tough, the tough get going - and DEF !",
-    "effectText": "Toughen gives the user DEF .",
+    "effectText": "",
     "effects": []
   },
   {
