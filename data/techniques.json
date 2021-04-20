@@ -1112,7 +1112,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Like being slapped with a snippet of code - its bark is much worse than its byte! This technique does little damage.",
-    "effectText": "Digital Whip deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -1429,14 +1429,8 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Electromagnetically bound, attacker and target are trapped for 3 turns, while the target gets SPD .",
-    "effectText": "Electromagnetism gives the target SPD while inflicting the user and the target with the Trapped Condition for 3 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 3,
-        "condition": "Trapped"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Electropunch",
@@ -1823,7 +1817,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Target",
-    "description": "Real protection is not about unmovable strength, but dynamic defense. This technique gives the target immunity for 3 turns and SPATK .",
+    "description": "Real protection is not about unmovable strength, but dynamic defense. This technique gives the target immunity for 3 turns and SPDEF .",
     "effectText": "Fluid Barrier gives the target SPDEF and Immune Condition for 3 turns",
     "effects": [
       {
