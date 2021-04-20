@@ -285,7 +285,7 @@
     "name": "Good Friend",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Good_Friend",
     "description": "",
-    "effect": "Temtem"
+    "effect": "if the users ally gets hit by a opponents Technique, the next Technique during the same turn gets redirected to the user."
   },
   {
     "name": "Gotta Go Fast",
@@ -303,7 +303,7 @@
     "name": "Half Full",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Half_Full",
     "description": "",
-    "effect": "Temtem"
+    "effect": "Once per battle, if the user enters the field while having 100% of their HP, the user loses 50% of their HP to get ATK , DEF , SPATK , and SPDEF ."
   },
   {
     "name": "Heat Discharge",
@@ -315,7 +315,7 @@
     "name": "Heater",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Heater",
     "description": "",
-    "effect": "Temtem"
+    "effect": "Once per battle when the user enters the field, the user inflicts both opponents with the <img alt=\"Burned Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/79/Burned.png/revision/latest/scale-to-width-down/20?cb=20190520155919\" decoding=\"async\" width=\"20\" height=\"21\"> Burned Condition for 1 turn."
   },
   {
     "name": "Hover",
@@ -357,7 +357,7 @@
     "name": "Infectious",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Infectious",
     "description": "",
-    "effect": "Invalidates the regenerating effects on rivals."
+    "effect": "Disables the Regenerated Condition on the opponents team. The Regenerated Condition will not be removed but the healing effect will not apply. It works in the same round as the user switches in but it does not affect opponents which are not on the field."
   },
   {
     "name": "Intimidator",
@@ -459,13 +459,13 @@
     "name": "Physmaster",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Physmaster",
     "description": "",
-    "effect": "Temtem"
+    "effect": "Increases damage dealt with Physical techniques by 50%."
   },
   {
     "name": "Pigment Inverter",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Pigment_Inverter",
     "description": "",
-    "effect": "When attacking, type resistances for the target TemTem are reversed."
+    "effect": "If the user uses a Technique, the type resistances for the target are reversed."
   },
   {
     "name": "Plethoric",
@@ -531,7 +531,7 @@
     "name": "Relaxed",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Relaxed",
     "description": "",
-    "effect": "Restores 15% of max HP after not receiving any rival attacks during the turn."
+    "effect": "At the end of the turn, if the user did not take any damage from Techniques used by the opponent the user restores 15% of their total HP."
   },
   {
     "name": "Resilient",
@@ -621,13 +621,13 @@
     "name": "Source Replicator",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Source_Replicator",
     "description": "",
-    "effect": "Temtem"
+    "effect": "If the user is inflicted with a positive Status Condition the users ally will receive the same Status Condition for the same amount of turns."
   },
   {
     "name": "Specmaster",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Specmaster",
     "description": "",
-    "effect": "Temtem"
+    "effect": "Increases damage dealt with Special techniques by 50%."
   },
   {
     "name": "Splitter",
@@ -675,7 +675,7 @@
     "name": "Synertyper",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Synertyper",
     "description": "",
-    "effect": "Damage done with techniques is increased by 30% if both allies share a type."
+    "effect": "Damage done with techniques is increased by 30% if both allies share a Type."
   },
   {
     "name": "Tactical Strike",
@@ -693,7 +693,7 @@
     "name": "Target Replicator",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Target_Replicator",
     "description": "",
-    "effect": "Temtem"
+    "effect": "If the users ally is inflicted with a positive Status Condition the user will receive the same Status Condition for the same amount of turns."
   },
   {
     "name": "Team Elusive",
