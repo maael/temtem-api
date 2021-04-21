@@ -5002,7 +5002,36 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c8/Raiber.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b6/LumaRaiber.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Anak Volcano",
+        "place": "Anak Volcano",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "10% - 50%",
+        "level": "17 - 24",
+        "freetem": {
+          "minLevel": 17,
+          "maxLevel": 24,
+          "minPansuns": 54,
+          "maxPansuns": 68
+        }
+      },
+      {
+        "location": "The Glassyway",
+        "place": "The Glassyway",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "30%",
+        "level": "20 - 22",
+        "freetem": {
+          "minLevel": 20,
+          "maxLevel": 22,
+          "minPansuns": 60,
+          "maxPansuns": 64
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Raiber.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Raiber.png",
     "genderRatio": {
@@ -5021,14 +5050,14 @@
       "spdef": 0
     },
     "gameDescription": "",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e6/Raiber_full_render.png",
+    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7b/Raiber_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e5/LumaRaiber_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a3/LumaRaiber_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Raiber.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Raiber.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Raiber.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Raiber.gif"
   },
   {
     "number": 58,
@@ -9537,36 +9566,7 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7a/Grumvel.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/49/LumaGrumvel.png",
-    "locations": [
-      {
-        "location": "Juu Tunnel",
-        "place": "Juu Tunnel",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "80%",
-        "level": "32 - 42",
-        "freetem": {
-          "minLevel": 32,
-          "maxLevel": 42,
-          "minPansuns": 104,
-          "maxPansuns": 130
-        }
-      },
-      {
-        "location": "Chini Grotto",
-        "place": "Chini Grotto",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "60% - 90%",
-        "level": "38 - 43",
-        "freetem": {
-          "minLevel": 38,
-          "maxLevel": 43,
-          "minPansuns": 120,
-          "maxPansuns": 133
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Grumvel.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Grumvel.png",
     "genderRatio": {
