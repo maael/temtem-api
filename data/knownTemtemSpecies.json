@@ -5002,36 +5002,7 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c8/Raiber.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b6/LumaRaiber.png",
-    "locations": [
-      {
-        "location": "Anak Volcano",
-        "place": "Anak Volcano",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "10% - 50%",
-        "level": "17 - 24",
-        "freetem": {
-          "minLevel": 17,
-          "maxLevel": 24,
-          "minPansuns": 54,
-          "maxPansuns": 68
-        }
-      },
-      {
-        "location": "The Glassyway",
-        "place": "The Glassyway",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "30%",
-        "level": "20 - 22",
-        "freetem": {
-          "minLevel": 20,
-          "maxLevel": 22,
-          "minPansuns": 60,
-          "maxPansuns": 64
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Raiber.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Raiber.png",
     "genderRatio": {
@@ -5050,14 +5021,14 @@
       "spdef": 0
     },
     "gameDescription": "",
-    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e6/Raiber_full_render.png",
-    "wikiRenderAnimatedUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7b/Raiber_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e5/LumaRaiber_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a3/LumaRaiber_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Raiber.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Raiber.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Raiber.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Raiber.gif"
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 58,
@@ -7883,8 +7854,8 @@
         "freetem": {
           "minLevel": 40,
           "maxLevel": 50,
-          "minPansuns": 100,
-          "maxPansuns": 120
+          "minPansuns": 130,
+          "maxPansuns": 157
         }
       },
       {
@@ -7897,19 +7868,19 @@
         "freetem": {
           "minLevel": 40,
           "maxLevel": 50,
-          "minPansuns": 100,
-          "maxPansuns": 120
+          "minPansuns": 130,
+          "maxPansuns": 157
         }
       }
     ],
     "icon": "/images/portraits/temtem/large/Galvanid.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Galvanid.png",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 75,
+      "female": 25
     },
-    "catchRate": 150,
-    "hatchMins": 15,
+    "catchRate": 110,
+    "hatchMins": 23,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -7974,11 +7945,11 @@
     "icon": "/images/portraits/temtem/large/Raignet.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Raignet.png",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 75,
+      "female": 25
     },
-    "catchRate": 90,
-    "hatchMins": 27,
+    "catchRate": 80,
+    "hatchMins": 29,
     "tvYields": {
       "hp": 0,
       "sta": 0,
