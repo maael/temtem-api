@@ -9566,7 +9566,36 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7a/Grumvel.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/49/LumaGrumvel.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Juu Tunnel",
+        "place": "Juu Tunnel",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "80%",
+        "level": "32 - 42",
+        "freetem": {
+          "minLevel": 32,
+          "maxLevel": 42,
+          "minPansuns": 104,
+          "maxPansuns": 130
+        }
+      },
+      {
+        "location": "Chini Grotto",
+        "place": "Chini Grotto",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "60% - 90%",
+        "level": "38 - 43",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 43,
+          "minPansuns": 120,
+          "maxPansuns": 133
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Grumvel.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Grumvel.png",
     "genderRatio": {
