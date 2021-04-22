@@ -1375,7 +1375,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "True Electric storm like the monsoon over Cipanku. Damages whole team.",
-    "effectText": "Electric Storm deals damage to the opposing team or the user's ally.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -2771,7 +2771,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "",
-    "effectText": "",
+    "effectText": "Mechanical Heat deals damage and has no additional effect.",
     "effects": []
   },
   {
@@ -4228,7 +4228,7 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Self",
     "description": "Take cover! This slow technique gives DEF and SPDEF at the expense of leaving you Overexerted on the next turn.",
     "effectText": "Shelter gives the user DEF and SPDEF , while overexerting them the next turn.",
     "effects": []
