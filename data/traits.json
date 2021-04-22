@@ -381,7 +381,7 @@
     "name": "Landing Transmog",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Landing_Transmog",
     "description": "",
-    "effect": "Landing Transmog causes Mimit transforms into the next Temtem in clockwise order upon entering the battlefield. It will use the same base stats, techniques, trait and typing of the target. It will still keep its own level, SVs and TVs. It also won't take over any status conditions and stat modifiers which are currently applied on the target. If the next Temtem is a Mimit, then the transforming Mimit will skip to the next Temtem of a different species."
+    "effect": "Landing Transmog causes Mimit transforms into the next Temtem in clockwise order upon entering the battlefield. It will use the same base stats, techniques, trait and typing of the target. It will still keep its own level, SVs and TVs. It also won't take over any status conditions and stat modifiers which are currently applied on the target. If the next Temtem is a Mimit, then the transforming Mimit will skip to the next Temtem of a different species. If already transformed, returned, and sent out again, so long as the next Temtem in a different species than what is currently copied, Mimit will change when entering the battlefield."
   },
   {
     "name": "Last Rush",
@@ -662,7 +662,7 @@
   {
     "name": "Strong Liver",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Strong_Liver",
-    "description": "When a Temtem with Strong Liver is attacked with a damaging Technique, it restores their HP equal to the amount of damage they would have recieved.",
+    "description": "When a Temtem with Strong Liver is attacked with a damaging <img alt=\"toxic\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/96/Toxic.png/revision/latest/scale-to-width-down/25?cb=20201010231309\" decoding=\"async\" width=\"25\" height=\"25\"> Technique, it restores their HP equal to the amount of damage they would have recieved.",
     "effect": ""
   },
   {
