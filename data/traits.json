@@ -14,14 +14,14 @@
   {
     "name": "Amphibian",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Amphibian",
-    "description": "Amphibian gifts the holder with SPD and ATK when hit with a Water technique.",
-    "effect": ""
+    "description": "",
+    "effect": "Amphibian gifts the holder with SPD and ATK when hit with a Water technique."
   },
   {
     "name": "Anaerobic",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Anaerobic",
-    "description": "Whenever a Temtem with Anaerobic uses a Toxic Technique, it gets SPDEF and SPATK .",
-    "effect": ""
+    "description": "",
+    "effect": "Anaerobic gifts the holder with SPDEF but also inflicts them with SPATK whenever they use a Toxic technique."
   },
   {
     "name": "Apothecary",
@@ -33,30 +33,30 @@
     "name": "Attack T",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Attack_T",
     "description": "",
-    "effect": "Attack<T> changes the user's secondary Type to match the Technique they are about to use. If the move the Temtem is about to use is the same type as that Temtem's primary type, then the Temtem becomes a single-type Temtem of that type. For example, Oree becomes a Digital/Electric Temtem when using Tesla Prison, and becomes pure Digital when using Turbo Attack."
+    "effect": "Attack<T> changes the user's secondary Type to match the Technique they are about to use. If the move the Temtem is about to use is the same type as that Temtem's primary type, then the Temtem becomes a single-type Temtem of that type. For example, Oree becomes Digital/Electric when using Tesla Prison, and becomes pure Digital when using Turbo Attack."
   },
   {
     "name": "Autotomy",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Autotomy",
     "description": "",
-    "effect": "Autotomy causes the user to get the Evading Condition for 2 turns upon its first entry onto the battlefield."
+    "effect": "Autotomy gifts the holder with the Evading Condition for 2 turns upon entering the battlefield for the first time."
   },
   {
     "name": "Avenger",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Avenger",
-    "description": "A Temtem with Avenger gets SPATK and SPD whenever its ally is knocked out.",
-    "effect": ""
+    "description": "",
+    "effect": "Avenger gifts the holder with SPD and SPATK whenever their ally is knocked out."
   },
   {
     "name": "Benefactor",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Benefactor",
-    "description": "Whenever the ally of the Temtem with Benefactor takes damage from a technique (no matter the target), they are healed by 10% of their max HP. This effect has no minimum value, meaning it can heal the ally for more HP than they lost due to getting attacked. It will only trigger if they take damage from the technique.",
-    "effect": ""
+    "description": "",
+    "effect": "Benefactor heals the holder's ally by 10% of their max HP whenever they take damage from a technique. The targeting of the technique doesn't matter and teheffect has no minimum value, meaning it can heal the ally for more HP than they lost due to getting attacked. It will only trigger if they take damage from a technique, so damage from other traits like Mirroring or from status conditions like the Poisoned Condition will not cause Benefactor to activate."
   },
   {
     "name": "Body Stretch",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Body_Stretch",
-    "description": "Whenever a Temtem with Body Stretch rests, it gains the Regenerated Condition for 2 turns.",
+    "description": "Body Stretch gifts the holder with the Regenerated Condition for 2 turns whenever they rest.",
     "effect": ""
   },
   {
@@ -68,8 +68,8 @@
   {
     "name": "Botanist",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Botanist",
-    "description": "Botanist increases the damage of the user's Nature Techniques by an additional 15%.",
-    "effect": ""
+    "description": "",
+    "effect": "Botanist increases the damage of the holder's Nature techniques by 15%."
   },
   {
     "name": "Botanophobia",
@@ -98,8 +98,8 @@
   {
     "name": "Caffeinated",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Caffeinated",
-    "description": "Temtem with Caffeinated will never receive the Asleep Condition.",
-    "effect": ""
+    "description": "",
+    "effect": "Caffeinated protects the holder from the Asleep Condition."
   },
   {
     "name": "Callosity",
@@ -182,7 +182,7 @@
   {
     "name": "Determined",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Determined",
-    "description": "Temtem with Determined can never have its stats decreased by any amount of stages.",
+    "description": "Determined protects the holder's stats from being lowered by any number of stages.",
     "effect": ""
   },
   {
@@ -242,8 +242,8 @@
   {
     "name": "Fast Charge",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Fast_Charge",
-    "description": "When a Digital Temtem enters the battlefield, it gets SPD if its ally has Fast Charge.",
-    "effect": ""
+    "description": "",
+    "effect": "Fast Charge gifts the holder's Digital ally with SPD once both the holder and the ally are on the battlefield together for the first time. Fast Charge can only activate once per battle."
   },
   {
     "name": "Fever Rush",
@@ -260,8 +260,8 @@
   {
     "name": "Friendship",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Friendship",
-    "description": "Whenever the ally of a Temtem with Friendship uses an offensive technique that would target it, the technique instead has no effects on that Temtem. If the technique also targeted enemies, they will still be affected.",
-    "effect": ""
+    "description": "",
+    "effect": "Friendship protects the holder from taking damage form any damaging technique from their ally."
   },
   {
     "name": "Frightening",
@@ -296,7 +296,7 @@
   {
     "name": "Guardian",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Guardian",
-    "description": "The ally of a Temtem with Guardian cannot get the <img alt=\"Cold Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6b/Cold.png/revision/latest/scale-to-width-down/25?cb=20190520155949\" decoding=\"async\" width=\"25\" height=\"26\"> Cold Condition, <img alt=\"Burned Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/79/Burned.png/revision/latest/scale-to-width-down/25?cb=20190520155919\" decoding=\"async\" width=\"25\" height=\"26\"> Burned Condition, <img alt=\"Poisoned Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/11/Poisoned.png/revision/latest/scale-to-width-down/25?cb=20190520160243\" decoding=\"async\" width=\"25\" height=\"26\"> Poisoned Condition, or <img alt=\"Doomed Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1b/Doomed.png/revision/latest/scale-to-width-down/25?cb=20190520160026\" decoding=\"async\" width=\"25\" height=\"26\"> Doomed Condition, nor can it receive any negative stage changes to its stats.",
+    "description": "The ally of a Temtem with Guardian cannot get the Cold Condition, Burned Condition, Poisoned Condition, or Doomed Condition, nor can it receive any negative stage changes to its stats.",
     "effect": ""
   },
   {
@@ -320,7 +320,7 @@
   {
     "name": "Hover",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Hover",
-    "description": "Temtem with Hover take 50% less damage from Earth techniques.",
+    "description": "Hover reduces the damage the holder takes from Earth techniques by 50%.",
     "effect": ""
   },
   {
@@ -416,7 +416,7 @@
   {
     "name": "Mithridatism",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Mithridatism",
-    "description": "Temtem with Mithridatism never receive the Poisoned Condition.",
+    "description": "Mithridatism protects the holder from receiving the Poisoned Condition.",
     "effect": ""
   },
   {
@@ -440,14 +440,14 @@
   {
     "name": "Neutrality",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Neutrality",
-    "description": "Temtem with Neutrality never receive any negative status conditions.",
+    "description": "Neutrality prevents the holder from being inflicted with any negative status conditions like the Poisoned Condition or the Burned Condition.",
     "effect": ""
   },
   {
     "name": "Parrier",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Parrier",
-    "description": "Whenever a Temtem with Parrier is attacked by a Physical Technique, it takes 30% less damage.",
-    "effect": ""
+    "description": "",
+    "effect": "Parrier reduces the amount of damage the holder takes from Physical technqiues by 30%."
   },
   {
     "name": "Patient",
@@ -465,7 +465,7 @@
     "name": "Pigment Inverter",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Pigment_Inverter",
     "description": "",
-    "effect": "If the user uses a Technique, the type resistances for the target are reversed."
+    "effect": "Pigment Inverter causes the holder's target to have inverted type resistances. For example: if the holder attacks a Water target with a Fire technique, the target will receive x2 the normal damage from the technique rather than the usual x0.5 the damage."
   },
   {
     "name": "Plethoric",
@@ -537,12 +537,12 @@
     "name": "Resilient",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Resilient",
     "description": "",
-    "effect": "Resilient prevents the holder from knocking themselves out due to overexertion by leaving them with 1 HP and gifts them SPD . It can only activate once per battle."
+    "effect": "Resilient protects the holder from knocking themselves out due to overexertion by leaving them with 1 HP, gifts them SPD , and negates the overexertion turn penalty once per battle."
   },
   {
     "name": "Resistant",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Resistant",
-    "description": "Temtem with Resistant have the duration of the Cold Condition, the Asleep Condition, the Trapped Condition, the Seized Condition, the Poisoned Condition, the Burned Condition, and the Exhausted Condition decreased by 1 turn.",
+    "description": "Resistant reduces the duration of negative status conditions on the holder by 1 turn. The status conditions affected include: the Cold Condition, the Asleep Condition, the Trapped Condition, the Seized Condition, the Poisoned Condition, the Burned Condition, and the Exhausted Condition.",
     "effect": ""
   },
   {
@@ -578,7 +578,7 @@
   {
     "name": "Sentinel",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Sentinel",
-    "description": "While a Temtem with Sentinel is on the battlefield, neither it nor the ally can get the Asleep Condition. Also, when it enters the battlefield, if the ally has the Asleep Condition, it loses it.",
+    "description": "Sentinel protects the holder and their ally from the Asleep Condition and cures their ally of the Asleep Condition when the holder enters the battlefield.",
     "effect": ""
   },
   {
@@ -596,8 +596,8 @@
   {
     "name": "Shared Pain",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Shared_Pain",
-    "description": "If a Temtem with Shared Pain is attacked twice in the same turn, the second attack gets redirected to the ally.",
-    "effect": ""
+    "description": "",
+    "effect": "Shared Pain protects the holder from receiving damage from from a second attack that turn by redirecting it to their ally."
   },
   {
     "name": "Skull Helmet",
@@ -614,8 +614,8 @@
   {
     "name": "Soft Touch",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Soft_Touch",
-    "description": "When a Temtem with Soft Touch attacks a target afflicted with the Asleep Condition with a damage dealing technique, the condition will not be removed, and the damage will be increased by 20%.",
-    "effect": ""
+    "description": "",
+    "effect": "Soft Touch allows the holder to attack a target afflicted with the Asleep Condition without removing it and damage done to Asleep targets is increased by 20%."
   },
   {
     "name": "Source Replicator",
@@ -633,7 +633,7 @@
     "name": "Splitter",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Splitter",
     "description": "",
-    "effect": "When attacked with a physical or special technique, prevents all negative status conditions."
+    "effect": "Splitter protects the holder from negative status conditions like the Poisoned Condition or the Burned Condition when attacked with a Physical or Special technique. For example: Embers won't inflict Burn and Toxic Ink won't inflict Poisoned."
   },
   {
     "name": "Spoilsport",
@@ -675,7 +675,7 @@
     "name": "Synertyper",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Synertyper",
     "description": "",
-    "effect": "Damage done with techniques is increased by 30% if both allies share a Type."
+    "effect": "Synertyper increases the damage of the holder's techniques by 30% if both the holder and their ally share a type."
   },
   {
     "name": "Tactical Strike",
@@ -716,13 +716,13 @@
   {
     "name": "Toxic Affinity",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Toxic_Affinity",
-    "description": "Toxic Affinity multiplies the base damage of the user's Toxic Techniques by x1.5, as if the user had STAB (Same-Type Attack Bonus). This stacks with actual STAB if the user is also a Toxic Temtem, resulting in a total multiple of x2.25 (1.5 x 1.5).",
+    "description": "Toxic Affinity multiplies the base damage of the user's Toxic techniques by x1.5, as if the user had STAB. This stacks with actual STAB if the user is also Toxic, resulting in a total multiple of x2.25 (1.5 x 1.5).",
     "effect": ""
   },
   {
     "name": "Toxic Farewell",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Toxic_Farewell",
-    "description": "When a Temtem knocks out a target with Toxic Farewell, it loses 10% of its maximum HP and gets the Poisoned Condition for 3 turns.",
+    "description": "Toxic Farewell inflicts the attacker that knocked-out the holder with the Poisoned Condition for 3 turns and they lose 10% of their maximum HP.",
     "effect": ""
   },
   {
@@ -770,8 +770,8 @@
   {
     "name": "Voltaic Charge",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Voltaic_Charge",
-    "description": "When a Temtem with Voltaic Charge is attacked with a single-target technique, it will inflict 10% damage to the attacker.",
-    "effect": ""
+    "description": "",
+    "effect": "Voltaic Charge inflicts the holder's attacker with 10% of the damage they just received as long as the holder was the only target of the attacker's technique."
   },
   {
     "name": "Voodoo",
@@ -824,7 +824,7 @@
   {
     "name": "Zen",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Zen",
-    "description": "Whenever a Temtem with Zen gets the Asleep Condition, it also gets DEF and SPDEF .",
-    "effect": ""
+    "description": "",
+    "effect": "Zen gifts the holder with DEF and SPDEF when inflicted with the Asleep Condition."
   }
 ]

@@ -1375,7 +1375,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "True Electric storm like the monsoon over Cipanku. Damages whole team.",
-    "effectText": "",
+    "effectText": "Electric Storm deals damage to the opposing team or the user's ally.",
     "effects": []
   },
   {
@@ -1506,14 +1506,8 @@
     ],
     "targets": "Single Other Target",
     "description": "A simple yet quick Mental attack that exhausts the target for 1 turn.Used in combination with a Nature ally, Energy Manipulation does additional damage and exhausts for 2 turns.",
-    "effectText": "Energy Manipulation deals damage to a single target and inflicts the Exhausted Condition for 1 turn.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 1,
-        "condition": "Exhausted"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Execution",
@@ -2771,7 +2765,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "",
-    "effectText": "Mechanical Heat deals damage and has no additional effect.",
+    "effectText": "",
     "effects": []
   },
   {
