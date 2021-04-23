@@ -3291,7 +3291,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Self",
-    "description": "Unrecommended for longer periods, this thechnique makes your 'Tems go way faster, bestowing SPEED .",
+    "description": "Unrecommended for longer periods, this technique makes your 'Tems go way faster, bestowing SPEED .",
     "effectText": "Overclock give the user SPD .",
     "effects": []
   },
@@ -4068,14 +4068,8 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "In classic Temtem wresting showbiz style, this Neutral technique damages and the target for 2 turns.",
-    "effectText": "Savage Suplex deals damage to a single target and inflicts them with the Exhausted Condition for 2 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 2,
-        "condition": "Exhausted"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Scratch",
@@ -4499,8 +4493,14 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A tiny prick only hurts a little... until they notice they're for 2 turns.",
-    "effectText": "",
-    "effects": []
+    "effectText": "Sting deals damage to a single target and gives it the Poisoned Condition for 2 turns.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 2,
+        "condition": "Poisoned"
+      }
+    ]
   },
   {
     "name": "Stone Ball",

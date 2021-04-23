@@ -9,7 +9,7 @@
     "name": "Air Specialist",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Air_Specialist",
     "description": "",
-    "effect": "Air Specialist increases the damage of the holders Wind techniques by 15%."
+    "effect": "Air Specialist increases the damage of the holder's Wind techniques by 15%."
   },
   {
     "name": "Amphibian",
@@ -56,8 +56,8 @@
   {
     "name": "Body Stretch",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Body_Stretch",
-    "description": "Body Stretch gifts the holder with the Regenerated Condition for 2 turns whenever they rest.",
-    "effect": ""
+    "description": "",
+    "effect": "Body Stretch gifts the holder with the Regenerated Condition for 2 turns whenever they rest."
   },
   {
     "name": "Book Lungs",
@@ -99,7 +99,7 @@
     "name": "Caffeinated",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Caffeinated",
     "description": "",
-    "effect": "Caffeinated protects the holder from the Asleep Condition."
+    "effect": "Caffeinated protects the holder from being inflicted with the Asleep Condition."
   },
   {
     "name": "Callosity",
@@ -152,8 +152,8 @@
   {
     "name": "Confined",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Confined",
-    "description": "When a Temtem with Confined uses a technique that causes it to give itself the Trapped Condition, it also gets DEF and SPDEF .",
-    "effect": ""
+    "description": "",
+    "effect": "Confined gifts the holder with DEF and SPDEF when inflicted by the Trapped Condition if they inflicted it on themselves."
   },
   {
     "name": "Coward's Rest",
@@ -170,14 +170,14 @@
   {
     "name": "Defuser",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Defuser",
-    "description": "When a Temtem with Defuser attacks another Temtem with a physical technique, the target of the attack will recieve the Seized Condition for 3 turns.",
-    "effect": ""
+    "description": "",
+    "effect": "Defuser causes all of the holder's Physical techniques to inflict the Seized Condition for 3 turns."
   },
   {
     "name": "Demoralize",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Demoralize",
-    "description": "When a Temtem with Demoralize enters the battlefield, both enemies immediately get SPD , even if they are then immediately after swapped out.",
-    "effect": ""
+    "description": "",
+    "effect": "Demoralize causes all rivals to be inflicted with SPD when the holder enters the battlefield."
   },
   {
     "name": "Determined",
@@ -194,8 +194,8 @@
   {
     "name": "Earthbound",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Earthbound",
-    "description": "Earthbound gives the user DEF whenever they use an Earth technique.",
-    "effect": ""
+    "description": "",
+    "effect": "Earthbound gifts the holder with DEF whenever they use a Earth technique."
   },
   {
     "name": "Effective Denial",
@@ -206,14 +206,14 @@
   {
     "name": "Efficient",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Efficient",
-    "description": "When a Temtem with Efficient uses an offensive technique, the technique costs 30% less stamina.",
-    "effect": ""
+    "description": "",
+    "effect": "Efficient reduces the STA cost of the holders damage dealing techniques by 30%."
   },
   {
     "name": "Electric Custodian",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Electric_Custodian",
     "description": "",
-    "effect": "Electric techniques targeting the ally will target the Temtem instead."
+    "effect": "Electric Custodian causes all incoming Electric techniques targeted at the holder's ally to target the holder instead."
   },
   {
     "name": "Electric Synthesize",
@@ -224,7 +224,7 @@
   {
     "name": "Energy Reserves",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Energy_Reserves",
-    "description": "As soon as a Temtem with Energy Reserves has 40% or less of its maximum HP, the Temtem gets the Vigorized Condition for 2 turns and ATK . This will only happen once per battle.",
+    "description": "Energy Reserves, once per battle, gifts the holder with ATK and Vigorized Condition for 2 turns as soon as the holder's HP drops below 40%.",
     "effect": ""
   },
   {
@@ -243,13 +243,13 @@
     "name": "Fast Charge",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Fast_Charge",
     "description": "",
-    "effect": "Fast Charge gifts the holder's Digital ally with SPD once both the holder and the ally are on the battlefield together for the first time. Fast Charge can only activate once per battle."
+    "effect": "Fast Charge, once per battle, gifts the holder's Digital ally with SPD once both the holder and the ally are on the battlefield together."
   },
   {
     "name": "Fever Rush",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Fever_Rush",
-    "description": "Whenever a Temtem with Fever Rush receives any status condition, it also gets ATK .",
-    "effect": ""
+    "description": "",
+    "effect": "Fever Rush gifts the holder with ATK whenever they get a status condition."
   },
   {
     "name": "Flawed Crystal",
@@ -279,19 +279,19 @@
     "name": "Going Away Gift",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Going_Away_Gift",
     "description": "",
-    "effect": "When knocked-out, adds the Temtem positive stat state changes to the ally."
+    "effect": "Going Away Gift gifts all the holders positive stat changes to their ally upon the holder being knocked-out."
   },
   {
     "name": "Good Friend",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Good_Friend",
     "description": "",
-    "effect": "if the users ally gets hit by a opponents Technique, the next Technique during the same turn gets redirected to the user."
+    "effect": "Good Friend causes a second rival attack that's directed at the holder's ally to be redirected to the holder."
   },
   {
     "name": "Gotta Go Fast",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Gotta_Go_Fast",
     "description": "",
-    "effect": "Changes the Temtem's very low, low and normal priority techniques to high priority."
+    "effect": "Gotta Go Fast causes all of the holders techniques that have Very Low, Low, and Normal priority to have High priority."
   },
   {
     "name": "Guardian",
@@ -303,13 +303,13 @@
     "name": "Half Full",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Half_Full",
     "description": "",
-    "effect": "Once per battle, if the user enters the field while having 100% of their HP, the user loses 50% of their HP to get ATK , DEF , SPATK , and SPDEF ."
+    "effect": "Half Full, once per battle, gifts the holder with ATK , DEF , SPATK , and SPDEF but they lose 50% of their maximum HP upon entering the battlefield for the first time and will only activate while HP is full."
   },
   {
     "name": "Heat Discharge",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Heat_Discharge",
-    "description": "When a Temtem knocks out another Temtem with Heat Discharge, it gets the Burned Condition for 3 turns.",
-    "effect": ""
+    "description": "",
+    "effect": "Heat Discharge inflicts the attacker that knocked-out the holder with the Burned Condition for 3 turns."
   },
   {
     "name": "Heater",
@@ -339,7 +339,7 @@
     "name": "Immunity",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Immunity",
     "description": "",
-    "effect": "Immunity makes the Temtem take no damage from incoming Toxic Techniques and can't be inflicted with the Poisoned Condition."
+    "effect": "Immunity causes the holder to take no damage from Toxic techniques and protects the holder from being inflicted with the Poisoned Condition."
   },
   {
     "name": "Individualist",
@@ -350,8 +350,8 @@
   {
     "name": "Inductor",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Inductor",
-    "description": "Any time an Electric type Technique is used, all Temtem with Inductor on the field will restore 8% of their maximum HP.",
-    "effect": ""
+    "description": "",
+    "effect": "Inductor restores 8% of the holders HP every time a Electric technique is used on either side of the battlefield."
   },
   {
     "name": "Infectious",
@@ -375,7 +375,7 @@
     "name": "Kinetic Transfer",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Kinetic_Transfer",
     "description": "",
-    "effect": "When attacked, restore 10% of max STA and the attacker loses 10% of max STA."
+    "effect": "Kinetic Transfer causes the holder to restore 10% of their maximum STA and their attacker to lose 10% of their maximum STA when the holder is hit by a damage dealing technique."
   },
   {
     "name": "Landing Transmog",
@@ -416,14 +416,14 @@
   {
     "name": "Mithridatism",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Mithridatism",
-    "description": "Mithridatism protects the holder from receiving the Poisoned Condition.",
+    "description": "Mithridatism protects the holder from being inflicted with the Poisoned Condition.",
     "effect": ""
   },
   {
     "name": "Motivator",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Motivator",
-    "description": "At the start of the turn, if a Temtem with Motivator is on the battlefield, all its allies, including those not on the battlefield, restore 10% of their maximum STA.",
-    "effect": ""
+    "description": "",
+    "effect": "Motivator causes both the holder and their ally to restore 10% of their maximum STA at the start of each turn."
   },
   {
     "name": "Mucous",
@@ -435,7 +435,7 @@
     "name": "Neurotoxins",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Neurotoxins",
     "description": "",
-    "effect": "When inflicting a Temtem with the Poisoned Condition, it will instead inflict that Temtem with the Doomed Condition for 4 turns without the initial Poison."
+    "effect": "Neurotoxins causes all of the holder's techniques that can inflict the Poisoned Condition to instead inflict the Doomed Condition with a 4 turn countdown."
   },
   {
     "name": "Neutrality",
@@ -459,7 +459,7 @@
     "name": "Physmaster",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Physmaster",
     "description": "",
-    "effect": "Increases damage dealt with Physical techniques by 50%."
+    "effect": "Physmaster increases the damage of the holder's Physical techniques by 50%."
   },
   {
     "name": "Pigment Inverter",
@@ -482,8 +482,8 @@
   {
     "name": "Prideful",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Prideful",
-    "description": "When a Temtem with Prideful attacks another Temtem and knocks it out, it gets ATK , SPATK , and SPD .",
-    "effect": ""
+    "description": "",
+    "effect": "Prideful gifts the holder with SPD , ATK , and SPATK when they knock-out a target."
   },
   {
     "name": "Protector",
@@ -494,8 +494,8 @@
   {
     "name": "Provident",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Provident",
-    "description": "Whenever a Temtem with Provident is attacked by a technique that is either Fire, Earth, or Melee, it gets SPDEF .",
-    "effect": ""
+    "description": "",
+    "effect": "Provident gifts the holder with SPDEF when attacked by a Fire, Earth, or Melee technique."
   },
   {
     "name": "Punching Bag",
@@ -506,8 +506,8 @@
   {
     "name": "Puppet Master",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Puppet_Master",
-    "description": "If a Temtem with Puppet Master becomes the target of a single-target attack while its HP is below 40%, its ally becomes the target instead.",
-    "effect": ""
+    "description": "",
+    "effect": "Puppet Master causes all incoming, rival, single target techniques aimed the holder to be redirected to their ally so long as the holder's HP is below 40%."
   },
   {
     "name": "Pyromaniac",
@@ -524,8 +524,8 @@
   {
     "name": "Rejuvenate",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Rejuvenate",
-    "description": "After attacking with a Special Technique, if the attacking Temtem has Rejuvenate, it restores 7% of its maximum HP.",
-    "effect": ""
+    "description": "",
+    "effect": "Rejuvenate causes the holder to restore 7% of their maximum HP after attacking with a Special technique."
   },
   {
     "name": "Relaxed",
@@ -537,7 +537,7 @@
     "name": "Resilient",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Resilient",
     "description": "",
-    "effect": "Resilient protects the holder from knocking themselves out due to overexertion by leaving them with 1 HP, gifts them SPD , and negates the overexertion turn penalty once per battle."
+    "effect": "Resilient, once per battle, protects the holder from knocking themselves out due to overexertion by leaving them with 1 HP, gifts them with SPD , and negates the overexertion turn penalty."
   },
   {
     "name": "Resistant",
@@ -566,14 +566,14 @@
   {
     "name": "Self-Esteem",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Self-Esteem",
-    "description": "When a Temtem with Self-Esteem attacks and knocks out a Temtem and is affected by the Cold Condition, the Trapped Condition, the Seized Condition, the Poisoned Condition, the Burned Condition, the Doomed Condition, the Isolated Condition, or the Exhausted Condition, the condition is removed.",
-    "effect": ""
+    "description": "",
+    "effect": "Self-Esteem cures the holder of the Cold Condition, the Trapped Condition, the Seized Condition, the Poisoned Condition, the Burned Condition, the Doomed Condition, the Isolated Condition, and the Exhausted Condition when they knock-out a target."
   },
   {
     "name": "Sensei",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Sensei",
-    "description": "Whenever a Temtem with Sensei attacks with a Physical Technique, SPATK is used instead of ATK. Similarly, if it is a Special Technique, it uses ATK instead of SPATK.",
-    "effect": ""
+    "description": "",
+    "effect": "Sensei causes the holder to use their SPATK instead of their ATK when using a Physical technique and use their ATK instead of their SPATK when using a Special technique."
   },
   {
     "name": "Sentinel",
@@ -609,7 +609,7 @@
     "name": "Snowstorm",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Snowstorm",
     "description": "",
-    "effect": "When a Temtem with Snowstorm enters the battlefield, their ally and both rivals each get the Cold Condition for 3 turns if they do not already have the condition."
+    "effect": "Snowstorm, once per battle, inflicts both rivals and the holder's ally with the Cold Condition for 3 turns of they aren't already inflicted with the Cold condition when the holder enters the battlefield."
   },
   {
     "name": "Soft Touch",
@@ -621,13 +621,13 @@
     "name": "Source Replicator",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Source_Replicator",
     "description": "",
-    "effect": "If the user is inflicted with a positive Status Condition the users ally will receive the same Status Condition for the same amount of turns."
+    "effect": "Source Replicator copies any positive status condition the holder has and gifts them to their ally for the same duration."
   },
   {
     "name": "Specmaster",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Specmaster",
     "description": "",
-    "effect": "Increases damage dealt with Special techniques by 50%."
+    "effect": "Specmaster increases the damage of the holder's Special techniques by 50%."
   },
   {
     "name": "Splitter",
@@ -651,7 +651,7 @@
     "name": "Stabmaster",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Stabmaster",
     "description": "",
-    "effect": "When a Temtem with Stabmaster uses a Technique that shares a type with it, it deals 40% extra damage in addition to the STAB bonus."
+    "effect": "Stabmaster boosts the damage of the holders techniques that are the same type as the holder by 40%. This boost stacks with STAB."
   },
   {
     "name": "Striking Transmog",
@@ -662,7 +662,7 @@
   {
     "name": "Strong Liver",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Strong_Liver",
-    "description": "When a Temtem with Strong Liver is attacked with a damaging Technique, it restores their HP equal to the amount of damage they would have recieved.",
+    "description": "Strong Liver causes the holder to restore HP instead of taking damage from Toxic techniques. The healing is equal to the amount of damage they would have received.",
     "effect": ""
   },
   {
@@ -693,7 +693,7 @@
     "name": "Target Replicator",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Target_Replicator",
     "description": "",
-    "effect": "If the users ally is inflicted with a positive Status Condition the user will receive the same Status Condition for the same amount of turns."
+    "effect": "Target Replicator causes the holder to copy any positive status conditions that their ally has to themselves for the same duration."
   },
   {
     "name": "Team Elusive",
@@ -710,8 +710,8 @@
   {
     "name": "Tireless",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Tireless",
-    "description": "When a Temtem with Tireless overexerts, it doesn't lose its next turn, and it gets ATK . It will still be able to use a Technique.",
-    "effect": ""
+    "description": "",
+    "effect": "Tireless gifts the holder with ATK when they overexert and ignore the turn penalty from overexerting."
   },
   {
     "name": "Toxic Affinity",
@@ -801,7 +801,7 @@
     "name": "Water Synthesizer",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Water_Synthesizer",
     "description": "",
-    "effect": "Water Synthesizer causes all incoming, damage dealing Water techniques to restore HP to the holder rather than taking damage. The healing is equal to the amount of damage they would have received."
+    "effect": "Water Synthesizer causes the holder to restore HP instead of taking damage from Water techniques. The healing is equal to the amount of damage they would have received."
   },
   {
     "name": "Wax Bath",
@@ -812,8 +812,8 @@
   {
     "name": "Withdrawal",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Withdrawal",
-    "description": "Whenever a Temtem with Withdrawal rests for their turn, they recover 20% of their maximum HP and if they had the Asleep Condition or the Poisoned Condition, they lose it.",
-    "effect": ""
+    "description": "",
+    "effect": "Withdrawal restores 20% of the holder's maximum HP and cures them of the Asleep Condition and the Poisoned Condition when they rest."
   },
   {
     "name": "Wrecked Farewell",
