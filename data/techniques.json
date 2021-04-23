@@ -3291,7 +3291,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Self",
-    "description": "Unrecommended for longer periods, this thechnique makes your 'Tems go way faster, bestorying SPEED .",
+    "description": "Unrecommended for longer periods, this thechnique makes your 'Tems go way faster, bestowing SPEED .",
     "effectText": "Overclock give the user SPD .",
     "effects": []
   },
@@ -4499,14 +4499,8 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A tiny prick only hurts a little... until they notice they're for 2 turns.",
-    "effectText": "Sting deals damage to a single target and gives it the Poisoned Condition for 2 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 2,
-        "condition": "Poisoned"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Stone Ball",

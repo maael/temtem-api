@@ -6811,36 +6811,7 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9d/Cycrox.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d8/LumaCycrox.png",
-    "locations": [
-      {
-        "location": "Rice Fields",
-        "place": "",
-        "note": "",
-        "island": "Cipanku",
-        "frequency": "60%",
-        "level": "47 - 55",
-        "freetem": {
-          "minLevel": 47,
-          "maxLevel": 55,
-          "minPansuns": 177,
-          "maxPansuns": 204
-        }
-      },
-      {
-        "location": "Sacred Lake",
-        "place": "",
-        "note": "",
-        "island": "Cipanku",
-        "frequency": "60%",
-        "level": "55 - 65",
-        "freetem": {
-          "minLevel": 55,
-          "maxLevel": 65,
-          "minPansuns": 204,
-          "maxPansuns": 237
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Cycrox.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Cycrox.png",
     "genderRatio": {
@@ -8402,7 +8373,36 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d2/Momo.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/41/LumaMomo.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Kilima Peaks",
+        "place": "Kilima Peaks",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "20% - 50%",
+        "level": "40 - 46",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 46,
+          "minPansuns": 143,
+          "maxPansuns": 161
+        }
+      },
+      {
+        "location": "Barafu Glacier",
+        "place": "Barafu Glacier",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "5%",
+        "level": "40 - 45",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 45,
+          "minPansuns": 143,
+          "maxPansuns": 158
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Momo.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Momo.png",
     "genderRatio": {
@@ -10899,22 +10899,7 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/90/Kalabyss.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0a/LumaKalabyss.png",
-    "locations": [
-      {
-        "location": "Xolot Reservoir",
-        "place": "Xolot Reservoir",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "10%",
-        "level": "29 - 33",
-        "freetem": {
-          "minLevel": 29,
-          "maxLevel": 33,
-          "minPansuns": 90,
-          "maxPansuns": 100
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Kalabyss.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Kalabyss.png",
     "genderRatio": {
@@ -12634,12 +12619,12 @@
       "spdef": 1
     },
     "gameDescription": "",
-    "wikiRenderStaticUrl": "",
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/76/Tyranak_full_render.png",
     "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/67/LumaTyranak_full_render.png",
     "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
+    "renderStaticImage": "/images/renders/temtem/static/Tyranak.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Tyranak.png",
     "renderAnimatedImage": "",
     "renderAnimatedLumaImage": ""
   }

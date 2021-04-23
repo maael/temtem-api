@@ -26,8 +26,8 @@
   {
     "name": "Apothecary",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Apothecary",
-    "description": "Whenever a Temtem with Apothecary attacks with a Special Technique, if the target is an enemy, it inflicts the Poisoned Condition for 1 turn, or if the target is an ally or itself, it inflicts the Regenerated Condition for 1 turn.",
-    "effect": ""
+    "description": "",
+    "effect": "Apothecary causes all of the holders Special techniques to inflict the Poisoned Condition for 1 turn if the target was a rival or gift the Regenerated Condition for 1 turn if the target was an ally or itself."
   },
   {
     "name": "Attack T",
@@ -80,13 +80,13 @@
   {
     "name": "Brawny",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Brawny",
-    "description": "A Temtem with Brawny has all damage done by Physical Techniques boosted by an additional 20%.",
-    "effect": ""
+    "description": "",
+    "effect": "Brawny increases the damage of the holder's Physical techniques by 20%."
   },
   {
     "name": "Bully",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Bully",
-    "description": "If the number of allies conscious is greater than the number of enemies conscious, including Temtem not on the battlefield for both totals, then Temtem with Bully deal an additional 30% more damage.",
+    "description": "Bully increases the holder's damage by an additional 30% while the number of conscious Temtem on the holder's team outnumber the number of conscious Temtem on the rival's team.",
     "effect": ""
   },
   {
@@ -110,14 +110,14 @@
   {
     "name": "Camaraderie",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Camaraderie",
-    "description": "When a Temtem with Camaraderie is attacked, if its ally is part of its evolutionary line, then it takes 50% less damage.",
+    "description": "Camaraderie reduces the damage the holder takes from attacks by 50% if both the holder and their ally are part of the same evolutionary line.",
     "effect": ""
   },
   {
     "name": "Channeler",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Channeler",
-    "description": "Special Techniques used by a Temtem with Channeler do 25% more damage.",
-    "effect": ""
+    "description": "",
+    "effect": "Channeler increases the damage of the holder's Special techniques by 25%."
   },
   {
     "name": "Cobweb",
@@ -164,8 +164,8 @@
   {
     "name": "Deceit Aura",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Deceit_Aura",
-    "description": "For the first four turns in which a Temtem with Deceit Aura is present on the battlefield, the individual Temtem turn order is reversed. This reversal applies to the order in which techniques are used and the order in which Temtem are swapped. Temtem swapping and item usage still occur prior to techniques.",
-    "effect": ""
+    "description": "",
+    "effect": "Deceit Aura causes the turn order of all techniques used by all battlers present and the order of Temtem switched out to be reversed for the first four turns the holder is on the battlefield. Temtem swapping and item usage still occur prior to techniques."
   },
   {
     "name": "Defuser",
@@ -188,8 +188,8 @@
   {
     "name": "Dreaded Alarm",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Dreaded_Alarm",
-    "description": "Whenever the enemy of a Temtem with Dreaded Alarm rests, they lose 25% of their maximum HP.",
-    "effect": ""
+    "description": "",
+    "effect": "Dreaded Alarm causes all rival Temtem to lose 25% of their maximum HP when they rest."
   },
   {
     "name": "Earthbound",
@@ -218,8 +218,8 @@
   {
     "name": "Electric Synthesize",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Electric_Synthesize",
-    "description": "When a Temtem with Electric Synthesize is attacked with a damaging Electric Technique, it restores their HP equal to the amount of damage they would have received.",
-    "effect": ""
+    "description": "",
+    "effect": "Electric Synthesize causes the holder to restore HP instead of taking damage from Electric techniques. The healing is equal to the amount of damage they would have received."
   },
   {
     "name": "Energy Reserves",
@@ -236,8 +236,8 @@
   {
     "name": "Fainted Curse",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Fainted_Curse",
-    "description": "When a Temtem with Fainted Curse is knocked-out by a damage dealing Technique, the attacker loses 30% of their max HP.",
-    "effect": ""
+    "description": "",
+    "effect": "Fainted Curse causes the attacker who knocked-out the holder with a damage dealing technique to lose 30% of their maximum HP."
   },
   {
     "name": "Fast Charge",
@@ -272,7 +272,7 @@
   {
     "name": "Furor",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Furor",
-    "description": "When the HP of a Temtem with Furor is below 33% of its maximum, the techniques it uses do 33% more damage.",
+    "description": "Furor increases the damage of holder's techniques by 33% while their HP is below 33%.",
     "effect": ""
   },
   {
@@ -326,13 +326,13 @@
   {
     "name": "Hurry-wart",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Hurry-wart",
-    "description": "When a Temtem with Hurry-wart enters the battlefield, all its techniques with a Hold lose 1 Hold.",
-    "effect": ""
+    "description": "",
+    "effect": "Hurry-wart reduces the Hold of all the holder's techniques by 1 when they enter the battlefield."
   },
   {
     "name": "Hydrologist",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Hydrologist",
-    "description": "Hydrologist increases the damage of the user's Water Techniques by an additional 15%.",
+    "description": "Hydrologist increases the damage of the holder's Water techniques by 15%.",
     "effect": ""
   },
   {
@@ -357,7 +357,7 @@
     "name": "Infectious",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Infectious",
     "description": "",
-    "effect": "Disables the Regenerated Condition on the opponents team. The Regenerated Condition will not be removed but the healing effect will not apply. It works in the same round as the user switches in but it does not affect opponents which are not on the field."
+    "effect": "Infectious prevents the effects of the Regenerated Condition on the rival team. The condition will not be removed but will not have any effects. Infectious does not affect rival Temtem not on the battlefield."
   },
   {
     "name": "Intimidator",
@@ -386,8 +386,8 @@
   {
     "name": "Last Rush",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Last_Rush",
-    "description": "If the number of allies conscious is less than the number of enemies conscious, including Temtem not on the battlefield for both totals, Temtem with Last Rush deal 30% more damage.",
-    "effect": ""
+    "description": "",
+    "effect": "Last Rush increases the holder's damage by an additional 30% while the number of conscious Temtem on the rival's team outnumber the number of conscious Temtem on the holder's team."
   },
   {
     "name": "Loneliness",
@@ -404,14 +404,14 @@
   {
     "name": "Mental Alliance",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Mental_Alliance",
-    "description": "Temtem with Mental Alliance get a 15% increase to their SPATK if their ally is Mental.",
-    "effect": ""
+    "description": "",
+    "effect": "Mental Alliance increases the holder's SPATK by 15% if their ally is Mental."
   },
   {
     "name": "Mirroring",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Mirroring",
-    "description": "Whenever a Temtem with Mirroring receives damage from a Special technique, the attacker receives 40% of the damage as well if the Temtem wasn't knocked out.",
-    "effect": ""
+    "description": "",
+    "effect": "Mirroring causes 40% of the damage the holder takes from Special techniques to be returned to the attacker so long as the holder survived the attack."
   },
   {
     "name": "Mithridatism",
@@ -428,7 +428,7 @@
   {
     "name": "Mucous",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Mucous",
-    "description": "Temtem with Mucous never receive the Cold Condition nor the Burned Condition. Additionally, they take 30% less damage from Electric or Toxic type Techniques.",
+    "description": "Mucous reduces the damage the holder takes from Electric and Toxic techniques by 30% and protects them from receiving the Cold Condition and the Burned Condition.",
     "effect": ""
   },
   {
@@ -452,7 +452,7 @@
   {
     "name": "Patient",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Patient",
-    "description": "Whenever a Temtem with Patient uses a technique with a Hold, it restores 10% of its maximum STA.",
+    "description": "Patient restores 10% of the holders maximum STA when they use a technique that has any amount of Hold.",
     "effect": ""
   },
   {
@@ -470,7 +470,7 @@
   {
     "name": "Plethoric",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Plethoric",
-    "description": "If a Temtem with Plethoric's HP is at 70% or higher its SPD is increased by 30%.",
+    "description": "Plethoric increases the holder's SPD by 30% so long as their HP is 70% or higher.",
     "effect": ""
   },
   {
@@ -512,13 +512,13 @@
   {
     "name": "Pyromaniac",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Pyromaniac",
-    "description": "Pyromaniac increases the damage of the user's Fire Techniques by an additional 15%.",
-    "effect": ""
+    "description": "",
+    "effect": "Pyromaniac increases the damage of the holder's Fire techniques by 15%."
   },
   {
     "name": "Receptive",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Receptive",
-    "description": "Temtem with Receptive have the duration of the Vigorized Condition, the Immune Condition, the Regenerated Condition, the Evading Condition, and the Alerted Condition increased by 1 turn.",
+    "description": "",
     "effect": ""
   },
   {
@@ -531,7 +531,7 @@
     "name": "Relaxed",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Relaxed",
     "description": "",
-    "effect": "At the end of the turn, if the user did not take any damage from Techniques used by the opponent the user restores 15% of their total HP."
+    "effect": "Relaxed restores 15% of the holder's maximum HP so long as the holder does not take any damage by techniques from the opposing team."
   },
   {
     "name": "Resilient",
@@ -548,8 +548,8 @@
   {
     "name": "Rested",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Rested",
-    "description": "Temtem with Rested gets an increase of 30% to its ATK and SPATK for the first 2 turns it is present on the battlefield.",
-    "effect": ""
+    "description": "",
+    "effect": "Rested increases the holder's ATK and SPATK by 30% for the first 2 turns they are on the battlefield. It only activates once per battle."
   },
   {
     "name": "Royal Jelly",
@@ -560,8 +560,8 @@
   {
     "name": "Scavenger",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Scavenger",
-    "description": "Whenever another Temtem, ally or enemy, is knocked out, the Temtem with Scavenger restores 20% of their maximum HP.",
-    "effect": ""
+    "description": "",
+    "effect": "Scavenger restores 20% of the holders maximum HP when another Temtem, weather it be an ally or opponent, is knocked-out."
   },
   {
     "name": "Self-Esteem",
@@ -590,14 +590,14 @@
   {
     "name": "Settling",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Settling",
-    "description": "Each turn a Temtem with Settling is on the battlefield, its ATK increases by 8%. However, if it leaves the battlefield, this cumulative bonus is reset.",
-    "effect": ""
+    "description": "",
+    "effect": "Settling increases the holder's ATK increases by 8% for each turn they are on the battlefield. If the holder leaves the battlefield at any point, the cumulative bonus is reset."
   },
   {
     "name": "Shared Pain",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Shared_Pain",
     "description": "",
-    "effect": "Shared Pain protects the holder from receiving damage from from a second attack that turn by redirecting it to their ally."
+    "effect": "Shared Pain protects the holder from receiving damage from a second attack from the rival team that turn by redirecting it to their ally."
   },
   {
     "name": "Skull Helmet",
@@ -686,7 +686,7 @@
   {
     "name": "Tardy Rush",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Tardy_Rush",
-    "description": "After a Temtem with Tardy Rush has been on the battlefield for 3 turns in a row, its SPD increases by 100% and its ATK by 10% until it leaves the battlefield. If it is swapped in, the turn it enters the battlefield counts as turn 1.",
+    "description": "Tardy Rush increases the holder's SPD by 100% and ATK by 10% after being on the battlefield for 3 turns in a row. The effect lasts until the holder leaves the battlefield. If the holder is swapped in, the turn they enter the battlefield counts as turn 1.",
     "effect": ""
   },
   {
@@ -704,7 +704,7 @@
   {
     "name": "Thick Skin",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Thick_Skin",
-    "description": "Temtem with Thick Skin take 50% less damage from Wind Techniques.",
+    "description": "Thick Skin reduces the damage the holder takes from Wind techniques by 50%.",
     "effect": ""
   },
   {
@@ -716,14 +716,14 @@
   {
     "name": "Toxic Affinity",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Toxic_Affinity",
-    "description": "Toxic Affinity multiplies the base damage of the user's Toxic techniques by x1.5, as if the user had STAB. This stacks with actual STAB if the user is also Toxic, resulting in a total multiple of x2.25 (1.5 x 1.5).",
+    "description": "Toxic Affinity increases the base damage of the holder's Toxic techniques by x1.5, as if they had STAB. This stacks with actual STAB if the holder is also Toxic, resulting in a total multiple of x2.25 (1.5 x 1.5).",
     "effect": ""
   },
   {
     "name": "Toxic Farewell",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Toxic_Farewell",
-    "description": "Toxic Farewell inflicts the attacker that knocked-out the holder with the Poisoned Condition for 3 turns and they lose 10% of their maximum HP.",
-    "effect": ""
+    "description": "",
+    "effect": "Toxic Farewell inflicts the attacker that knocked-out the holder with the Poisoned Condition for 3 turns and they lose 10% of their maximum HP."
   },
   {
     "name": "Toxic Skin",
@@ -752,14 +752,14 @@
   {
     "name": "Tri-Apothecary",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Tri-Apothecary",
-    "description": "Whenever a Temtem with Tri-Apothecary attacks using a Special Technique, if the target is an enemy, it inflicts the Poisoned Condition for 3 turns, or if the target is an ally or itself, it inflicts the Regenerated Condition for 3 turns.",
-    "effect": ""
+    "description": "",
+    "effect": "Tri-Apothecary causes all of the holders Special techniques to inflict the Poisoned Condition for 3 turns if the target was a rival or gift the Regenerated Condition for 3 turns if the target was an ally or itself."
   },
   {
     "name": "Unnoticed",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Unnoticed",
-    "description": "When a Temtem with Unnoticed lasts a whole turn without being targeted by any rival attacks, it gets SPD .",
-    "effect": ""
+    "description": "",
+    "effect": "Unnoticed gifts the holder with SPD so long as the holder does not take any damage by techniques from the opposing team."
   },
   {
     "name": "Vigorous",
@@ -782,20 +782,20 @@
   {
     "name": "Warm-Blooded",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Warm-Blooded",
-    "description": "Temtem with Warm-Blooded will never receive the Cold Condition.",
-    "effect": ""
+    "description": "",
+    "effect": "Warm-Blooded protects the holder from receiving the Cold Condition."
   },
   {
     "name": "Water Affinity",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Water_Affinity",
-    "description": "Water Affinity multiplies the base damage of the user's Water techniques by x1.5, as if the user had STAB (Same-Type Attack Bonus). This stacks with actual STAB if the user is also a Water type, resulting in a total multiple of x2.25 (1.5 x 1.5).",
+    "description": "Toxic Affinity increases the base damage of the holder's Water techniques by x1.5, as if they had STAB. This stacks with actual STAB if the holder is also Water, resulting in a total multiple of x2.25 (1.5 x 1.5).",
     "effect": ""
   },
   {
     "name": "Water Custodian",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Water_Custodian",
-    "description": "While a Temtem with Water Custodian is on the battlefield, any Water techniques that target the ally will target this Temtem instead.",
-    "effect": ""
+    "description": "",
+    "effect": "Water Custodian causes all incoming Water techniques targeted at the holder's ally to target the holder instead."
   },
   {
     "name": "Water Synthesizer",
@@ -818,8 +818,8 @@
   {
     "name": "Wrecked Farewell",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Wrecked_Farewell",
-    "description": "Whenever a Temtem with Wrecked Farewell is knocked out by itself, such as by self-damaging techniques or by overexerting, all enemy Temtem lose 25% of their maximum HP.",
-    "effect": ""
+    "description": "",
+    "effect": "Wrecked Farewell causes all rivals to lose 25% of their maximum HP when the holder knocks itself out by either overexertion or by using self-damaging techniques like Madness Buff."
   },
   {
     "name": "Zen",
