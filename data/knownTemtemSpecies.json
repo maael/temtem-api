@@ -8402,7 +8402,36 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d2/Momo.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/41/LumaMomo.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Kilima Peaks",
+        "place": "Kilima Peaks",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "20% - 50%",
+        "level": "40 - 46",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 46,
+          "minPansuns": 143,
+          "maxPansuns": 161
+        }
+      },
+      {
+        "location": "Barafu Glacier",
+        "place": "Barafu Glacier",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "5%",
+        "level": "40 - 45",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 45,
+          "minPansuns": 143,
+          "maxPansuns": 158
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Momo.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Momo.png",
     "genderRatio": {
@@ -10983,28 +11012,13 @@
       "Adoroboros has the lowest base SPD stat of all Mental Temtem.",
       "Adoroboros has the lowest base ATK stat of all Mental and Toxic Temtem.",
       "Adoroboros has the highest base SPDEF stat of all Temtem.",
-      "Adoroboros was originally shown on the Choose-a-Temtem V3 poll, currently unnamed. It got second place with 554 votes, just 25 votes behind the winner.\nAdoroboros was first nicknamed Adoroboros by Temtem Discord community member Husky. The nickname was later put into an official poll for naming the Temtem by the Discord member TMTrainer. It won the poll with 157 votes, becoming the official name of #129.",
+      "Adoroboros was originally shown on the Choose-a-Temtem V3 poll, currently unnamed. It got second place with 554 votes, just 25 votes behind the winner.Adoroboros was first nicknamed Adoroboros by Temtem Discord community member Husky. The nickname was later put into an official poll for naming the Temtem by the Discord member TMTrainer. It won the poll with 157 votes, becoming the official name of #129.",
       "Adoroboros was first nicknamed Adoroboros by Temtem Discord community member Husky. The nickname was later put into an official poll for naming the Temtem by the Discord member TMTrainer. It won the poll with 157 votes, becoming the official name of #129."
     ],
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/26/Adoroboros.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/52/LumaAdoroboros.png",
-    "locations": [
-      {
-        "location": "Xolot Reservoir",
-        "place": "Xolot Reservoir",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "35%",
-        "level": "28 - 31",
-        "freetem": {
-          "minLevel": 28,
-          "maxLevel": 31,
-          "minPansuns": 85,
-          "maxPansuns": 92
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Adoroboros.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Adoroboros.png",
     "genderRatio": {

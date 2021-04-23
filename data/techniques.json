@@ -278,7 +278,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A mighty beta-wave surge that bombards the target with a subatomic fusillade.",
-    "effectText": "Beta Burst deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -1506,8 +1506,14 @@
     ],
     "targets": "Single Other Target",
     "description": "A simple yet quick Mental attack that exhausts the target for 1 turn.Used in combination with a Nature ally, Energy Manipulation does additional damage and exhausts for 2 turns.",
-    "effectText": "",
-    "effects": []
+    "effectText": "Energy Manipulation deals damage to a single target and inflicts the Exhausted Condition for 1 turn.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 1,
+        "condition": "Exhausted"
+      }
+    ]
   },
   {
     "name": "Execution",
@@ -2765,7 +2771,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "",
-    "effectText": "",
+    "effectText": "Mechanical Heat deals damage and has no additional effect.",
     "effects": []
   },
   {
@@ -4068,8 +4074,14 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "In classic Temtem wresting showbiz style, this Neutral technique damages and the target for 2 turns.",
-    "effectText": "",
-    "effects": []
+    "effectText": "Savage Suplex deals damage to a single target and inflicts them with the Exhausted Condition for 2 turns.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 2,
+        "condition": "Exhausted"
+      }
+    ]
   },
   {
     "name": "Scratch",
@@ -4990,7 +5002,7 @@
     "synergyEffects": [],
     "targets": "All",
     "description": "\"Toxinestorm\" isn't as colorful as the alternative, but you get the idea... Slightly damages all Temtem in the battlefield.",
-    "effectText": "",
+    "effectText": "Toxin Shower deals damage to all targets on the battlefield.",
     "effects": []
   },
   {
