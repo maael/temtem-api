@@ -296,7 +296,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "It's either 1 or 0. And it's not 0... This technique inflicts moderate damage on the whole team.",
-    "effectText": "",
+    "effectText": "Binary Flood deals damage to the opposing team or the user's ally.",
     "effects": []
   },
   {
@@ -2603,14 +2603,8 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "The sap of life, from the living heart of the Giant Banyan. Heals 10% HP for 7 turns.",
-    "effectText": "Lifeful Sap applies the Regenerated Condition to the user for 7 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 7,
-        "condition": "Regenerated"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Look out",
@@ -3202,7 +3196,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "The secret arts of the Cipanku shinobi! This technique lets you backstab enemies in the blink of an eye.",
-    "effectText": "Ninja Jutsu deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -4140,7 +4134,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "Only Oceara can tap into the immense power of the mythical serbatiyo to unleash a devastating Water attack on the whole enemy team.",
-    "effectText": "Serbatiyo's Wrath deals damage to the opposing team or the user's ally and gives SPATK to the user.",
+    "effectText": "",
     "effects": []
   },
   {
@@ -5355,7 +5349,7 @@
     ],
     "targets": "Single Other Target",
     "description": "The strongest Sillaro current has nothing on this unstoppable jet.Used in combination with a Toxic ally, it produces a stream of Poison for 2 turns.",
-    "effectText": "Water Cannon deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {
