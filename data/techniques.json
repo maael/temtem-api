@@ -1557,15 +1557,15 @@
     "type": "Neutral",
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 0,
-    "staminaCost": 0,
+    "damage": 72,
+    "staminaCost": 29,
     "hold": 0,
-    "priority": "unknown",
-    "priorityIcon": "/images/icons/priority/unknown.png",
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
     "targets": "?",
-    "description": "",
+    "description": "A simple truth about Temtem fighting: the stronger you are, the harder you hit. This Neutral technique inflicts variable damage depending on the launcher's STA.",
     "effectText": "Currently, Extra Energy Slam is unavailable, so it's unknown what its full effect is.",
     "effects": []
   },
@@ -2603,8 +2603,14 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "The sap of life, from the living heart of the Giant Banyan. Heals 10% HP for 7 turns.",
-    "effectText": "",
-    "effects": []
+    "effectText": "Lifeful Sap applies the Regenerated Condition to the user for 7 turns.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 7,
+        "condition": "Regenerated"
+      }
+    ]
   },
   {
     "name": "Look out",
@@ -3722,7 +3728,7 @@
     ],
     "targets": "Single Other Target",
     "description": "A party trick someone showed you once, involving a Fire Temtem, a log and a bottle of Quetzaleño Reposado...Used in combination with a Neutral ally, Quetza-leño inflicts extra damage. Party!",
-    "effectText": "",
+    "effectText": "Quetza-leño deals damage to a single target.",
     "effects": []
   },
   {
@@ -4134,7 +4140,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "Only Oceara can tap into the immense power of the mythical serbatiyo to unleash a devastating Water attack on the whole enemy team.",
-    "effectText": "",
+    "effectText": "Serbatiyo's Wrath deals damage to the opposing team or the user's ally and gives SPATK to the user.",
     "effects": []
   },
   {
@@ -4721,7 +4727,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Twist the fabric of time-space to your advantage, gaining SPD and giving the enemy SPD .",
-    "effectText": "Time Split deals damage to a single target, gives it SPD , and gives the user SPD .",
+    "effectText": "",
     "effects": []
   },
   {
@@ -5505,7 +5511,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "This Koish variety, probably from Deniz, can inflict moderate Wind damage.",
-    "effectText": "Wind Stream deals damage to a single target.",
+    "effectText": "",
     "effects": []
   },
   {

@@ -9802,7 +9802,36 @@
     "evolution": {},
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/5c/Gazuma.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/3d/LumaGazuma.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Matope Road",
+        "place": "Matope Road",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "20%",
+        "level": "42 - 47",
+        "freetem": {
+          "minLevel": 42,
+          "maxLevel": 47,
+          "minPansuns": 146,
+          "maxPansuns": 161
+        }
+      },
+      {
+        "location": "Pillars of Highabove",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "20% - 25%",
+        "level": "45 - 60",
+        "freetem": {
+          "minLevel": 45,
+          "maxLevel": 60,
+          "minPansuns": 155,
+          "maxPansuns": 200
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Gazuma.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Gazuma.png",
     "genderRatio": {
