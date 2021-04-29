@@ -149,7 +149,7 @@ export default async function embellishKnownTemtemSpecies(
           catchRate,
           hatchMins: calculateHatchMins(catchRate),
           tvYields: getTvYield(html),
-          gameDescription: getGameDescription(html),
+          gameDescription: getGameDescription(html, item),
           wikiRenderStaticUrl: renderedImages.static.normal,
           wikiRenderAnimatedUrl: renderedImages.animated.normal,
           wikiRenderStaticLumaUrl: renderedImages.static.luma,
@@ -467,17 +467,21 @@ function getTechniqueTableType(caption: string) {
   }
 }
 
-function getGameDescription(html: string) {
+function getGameDescription(html: string, _item: MinimalTemtem) {
   const $ = cheerio.load(html);
   let potentialEl = $("#Description").parent().next();
   if (potentialEl[0] && potentialEl[0].name !== "table") {
     potentialEl = $(potentialEl).next();
   }
+  let text = "";
   if (potentialEl[0] && potentialEl[0].name !== "table") {
-    return "";
+    text = "";
+  } else {
+    text = $(potentialEl).find("i").text().trim();
   }
-  const text = $(potentialEl).find("i").text().trim();
-  return text || "";
+  const gameDesc =
+    text || $("#Tempedia").parent().next().text().trim() || "N/A";
+  return gameDesc;
 }
 
 function getTechniquesFromTable(
