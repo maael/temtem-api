@@ -14,18 +14,18 @@ export const Codec = t.type({
     def: t.number,
     spatk: t.number,
     spdef: t.number,
-    total: t.number
+    total: t.number,
   }),
   traits: t.array(t.string),
   details: t.type({
     height: t.type({
       cm: t.number,
-      inches: t.number
+      inches: t.number,
     }),
     weight: t.type({
       kg: t.number,
-      lbs: t.number
-    })
+      lbs: t.number,
+    }),
   }),
   techniques: t.array(
     t.type({
@@ -33,21 +33,13 @@ export const Codec = t.type({
       source: t.union([
         t.literal("Levelling"),
         t.literal("TechniqueCourses"),
-        t.literal("Breeding")
+        t.literal("Breeding"),
       ]),
-      levels: t.union([t.number, t.undefined])
+      levels: t.union([t.number, t.undefined]),
     })
   ),
   trivia: t.array(t.string),
-  evolution: t.union([
-    t.type({
-      stage: t.number,
-      evolutionTree: t.array(t.unknown),
-      evolves: t.literal(true),
-      type: t.literal("level")
-    }),
-    t.type({ evolves: t.literal(false) })
-  ]),
+  evolution: t.union([t.unknown, t.type({ evolves: t.literal(false) })]),
   wikiPortraitUrlLarge: t.string,
   locations: t.array(
     t.type({
@@ -61,15 +53,15 @@ export const Codec = t.type({
         minLevel: t.number,
         maxLevel: t.number,
         minPansuns: t.number,
-        maxPansuns: t.number
-      })
+        maxPansuns: t.number,
+      }),
     })
   ),
   icon: t.string,
   lumaIcon: t.string,
   genderRatio: t.type({
     male: t.number,
-    female: t.number
+    female: t.number,
   }),
   catchRate: t.number,
   hatchMins: t.number,
@@ -80,7 +72,7 @@ export const Codec = t.type({
     atk: t.number,
     def: t.number,
     spatk: t.number,
-    spdef: t.number
+    spdef: t.number,
   }),
   gameDescription: t.string,
   wikiRenderStaticUrl: t.string,
@@ -90,7 +82,7 @@ export const Codec = t.type({
   renderStaticImage: t.string,
   renderStaticLumaImage: t.string,
   renderAnimatedImage: t.string,
-  renderAnimatedLumaImage: t.string
+  renderAnimatedLumaImage: t.string,
 });
 
 export const TemtemList = t.array(Codec);

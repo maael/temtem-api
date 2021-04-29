@@ -10,12 +10,12 @@ import { Temtem as MinimalTemtem } from "./getKnownTemtemSpecies";
 export enum TechniqueSource {
   LEVELLING = "Levelling",
   TRAINING_COURSE = "TechniqueCourses",
-  BREEDING = "Breeding"
+  BREEDING = "Breeding",
 }
 
 export enum TemtemEvolutionType {
   LEVEL = "level",
-  SPECIAL = "special"
+  SPECIAL = "special",
 }
 
 export interface TemtemTechnique {
@@ -143,8 +143,8 @@ export default async function embellishKnownTemtemSpecies(
           wikiPortraitUrlLarge: getWikiPortraitUrl(html),
           lumaWikiPortraitUrlLarge: getWikiLumaPortraitUrl(html),
           locations: getLocations(html),
-          icon: icons.some(i => i.endsWith(icon)) ? icon : "",
-          lumaIcon: icons.some(i => i.endsWith(lumaIcon)) ? lumaIcon : "",
+          icon: icons.some((i) => i.endsWith(icon)) ? icon : "",
+          lumaIcon: icons.some((i) => i.endsWith(lumaIcon)) ? lumaIcon : "",
           genderRatio: getGenderRatio(html),
           catchRate,
           hatchMins: calculateHatchMins(catchRate),
@@ -165,7 +165,7 @@ export default async function embellishKnownTemtemSpecies(
             : "",
           renderAnimatedLumaImage: renderedImages.animated.luma
             ? `/images/renders/temtem/luma/animated/${item.name}.gif`
-            : ""
+            : "",
         };
       })
       .sort((a, b) => a.number - b.number);
@@ -179,18 +179,17 @@ function getRenderImages(html: string, debug: boolean = false) {
   const $ = cheerio.load(html);
   const staticImages = typedToArray<{ luma: boolean; url: string }>(
     $("a[href*=full_render]").map((_i, el) => {
-      const originalUrl = (
-        $(el)
-          .find("img")
-          .attr("src") || ""
-      ).replace("/thumb/", "/");
+      const originalUrl = ($(el).find("img").attr("src") || "").replace(
+        "/thumb/",
+        "/"
+      );
       return {
         luma: ($(el).attr("href") || "").includes("/File:Luma"),
         url: originalUrl
           .replace(`/${path.parse(originalUrl).name}`, "")
           .replace(".png.png", ".png")
           .replace(".gif.gif", ".gif")
-          .replace(/\/revision\/latest\/scale-to-width.*$/, "")
+          .replace(/\/revision\/latest\/scale-to-width.*$/, ""),
       };
     })
   ).reduce(
@@ -202,18 +201,17 @@ function getRenderImages(html: string, debug: boolean = false) {
   }
   const animatedImages = typedToArray<{ luma: boolean; url: string }>(
     $("a[href*=idle_animation]").map((_i, el) => {
-      const originalUrl = (
-        $(el)
-          .find("img")
-          .attr("src") || ""
-      ).replace("/thumb/", "/");
+      const originalUrl = ($(el).find("img").attr("src") || "").replace(
+        "/thumb/",
+        "/"
+      );
       return {
         luma: ($(el).attr("href") || "").includes("/File:Luma"),
         url: originalUrl
           .replace(`/${path.parse(originalUrl).name}`, "")
           .replace(".png.png", ".png")
           .replace(".gif.gif", ".gif")
-          .replace(/\/revision\/latest\/scale-to-width.*$/, "")
+          .replace(/\/revision\/latest\/scale-to-width.*$/, ""),
       };
     })
   ).reduce(
@@ -226,12 +224,12 @@ function getRenderImages(html: string, debug: boolean = false) {
   return {
     static: {
       normal: staticImages.normal || staticImages.luma,
-      luma: staticImages.luma || staticImages.normal
+      luma: staticImages.luma || staticImages.normal,
     },
     animated: {
       normal: animatedImages.normal || animatedImages.luma,
-      luma: animatedImages.luma || animatedImages.normal
-    }
+      luma: animatedImages.luma || animatedImages.normal,
+    },
   };
 }
 
@@ -242,9 +240,7 @@ function calculateHatchMins(catchRate: number) {
 function getLocations(html: string, debug?: boolean) {
   const $ = cheerio.load(html);
   const locationHeader = $("#Location");
-  let locationTable = $(locationHeader)
-    .parent()
-    .next();
+  let locationTable = $(locationHeader).parent().next();
   if (locationTable[0].tagName !== "table") {
     locationTable = $(locationTable).next();
   }
@@ -260,16 +256,14 @@ function getLocations(html: string, debug?: boolean) {
         const cells = $(row).find("td");
         const item = (cells
           .map((_j, cell) => {
-            return $(cell)
-              .text()
-              .trim();
+            return $(cell).text().trim();
           })
           .toArray() as unknown) as string[];
         if (debug) {
           console.info("[temtem:location:item]", item);
         }
         // tslint:disable-next-line:strict-type-predicates
-        if (item[0] === undefined || item.every(i => i === "?"))
+        if (item[0] === undefined || item.every((i) => i === "?"))
           return undefined;
         const tidiedLocation = (item[0] || "").replace(
           /([a-z])([A-Z])/g,
@@ -295,8 +289,8 @@ function getLocations(html: string, debug?: boolean) {
             minLevel: 0,
             maxLevel: 0,
             minPansuns: 0,
-            maxPansuns: 0
-          }
+            maxPansuns: 0,
+          },
         };
       })
   );
@@ -306,9 +300,8 @@ function getLocations(html: string, debug?: boolean) {
 function getWikiPortraitUrl(html: string) {
   const $ = cheerio.load(html);
   return (
-    $("#mw-content-text .infobox-table #ttw-temtem img")
-      .first()
-      .attr("src") || ""
+    $("#mw-content-text .infobox-table #ttw-temtem img").first().attr("src") ||
+    ""
   ).replace(/\/revision\/latest\/scale-to-width.*$/, "");
 }
 
@@ -325,12 +318,7 @@ function getCatchRate(html: string) {
   const $ = cheerio.load(html);
   const catchRate = $(".infobox-row-name")
     .filter((_i, el) => {
-      return (
-        $(el)
-          .text()
-          .trim()
-          .toLowerCase() === "catch rate"
-      );
+      return $(el).text().trim().toLowerCase() === "catch rate";
     })
     .parent()
     .find(".infobox-row-value")
@@ -345,15 +333,7 @@ function getTvYield(html: string) {
   const yields = ($(".tv-table tr")
     .last()
     .find("td")
-    .map(
-      (_, el) =>
-        parseInt(
-          $(el)
-            .text()
-            .trim(),
-          10
-        ) || 0
-    )
+    .map((_, el) => parseInt($(el).text().trim(), 10) || 0)
     .toArray() as unknown) as number[];
   return {
     hp: yields[0],
@@ -362,7 +342,7 @@ function getTvYield(html: string) {
     atk: yields[3],
     def: yields[4],
     spatk: yields[5],
-    spdef: yields[6]
+    spdef: yields[6],
   };
 }
 
@@ -370,12 +350,7 @@ function getGenderRatio(html: string) {
   const $ = cheerio.load(html);
   const catchRate = $(".infobox-row-name")
     .filter((_i, el) => {
-      return (
-        $(el)
-          .text()
-          .trim()
-          .toLowerCase() === "gender ratio"
-      );
+      return $(el).text().trim().toLowerCase() === "gender ratio";
     })
     .parent()
     .find(".infobox-row-value")
@@ -394,7 +369,7 @@ function getGenderRatio(html: string) {
       femaleRatio.length === 2 &&
       !isNaN(parseInt(femaleRatio[1], 10))
         ? parseInt(femaleRatio[1], 10)
-        : 50
+        : 50,
   };
 }
 
@@ -402,19 +377,13 @@ function getTraits(html: string) {
   const $ = cheerio.load(html);
   const $traitInfo = $(".infobox-row")
     .filter((_i, el) => {
-      return !!$(el)
-        .text()
-        .includes("Traits");
+      return !!$(el).text().includes("Traits");
     })
     .first()
     .find(".infobox-row-value")
     .last();
   return typedToArray<string>(
-    $traitInfo.find("a").map((_i, el) =>
-      $(el)
-        .text()
-        .trim()
-    )
+    $traitInfo.find("a").map((_i, el) => $(el).text().trim())
   );
 }
 
@@ -422,9 +391,7 @@ function getDetails(html: string) {
   const $ = cheerio.load(html);
   const heightInfo = $(".infobox-half-row")
     .filter((_i, el) => {
-      return !!$(el)
-        .text()
-        .includes("Height");
+      return !!$(el).text().includes("Height");
     })
     .first()
     .find(".infobox-row-value")
@@ -432,9 +399,7 @@ function getDetails(html: string) {
     .text();
   const weightInfo = $(".infobox-half-row")
     .filter((_i, el) => {
-      return !!$(el)
-        .text()
-        .includes("Weight");
+      return !!$(el).text().includes("Weight");
     })
     .first()
     .find(".infobox-row-value")
@@ -443,12 +408,12 @@ function getDetails(html: string) {
   return {
     height: {
       cm: cleanToNumber(getDetailSafely(heightInfo, "cm", 0)),
-      inches: cleanToNumber(getDetailSafely(heightInfo, '"', 1))
+      inches: cleanToNumber(getDetailSafely(heightInfo, '"', 1)),
     },
     weight: {
       kg: cleanToNumber(getDetailSafely(weightInfo, "kg", 0)),
-      lbs: cleanToNumber(getDetailSafely(weightInfo, "lbs", 1))
-    }
+      lbs: cleanToNumber(getDetailSafely(weightInfo, "lbs", 1)),
+    },
   };
 }
 
@@ -468,26 +433,17 @@ function getTechniques(html: string) {
   // The ids for the various tables are on span elements nested in h3 elements. The table is always after the h3.
   const levelTechniques = getTechniquesFromTable(
     $,
-    $("#By_Leveling_up")
-      .parent()
-      .next()
-      .get(0),
+    $("#By_Leveling_up").parent().next().get(0),
     TechniqueSource.LEVELLING
   );
   const tcTechniques = getTechniquesFromTable(
     $,
-    $("#By_Technique_Course")
-      .parent()
-      .next()
-      .get(0),
+    $("#By_Technique_Course").parent().next().get(0),
     TechniqueSource.TRAINING_COURSE
   );
   const eggTechniques = getTechniquesFromTable(
     $,
-    $("#By_Breeding")
-      .parent()
-      .next()
-      .get(0),
+    $("#By_Breeding").parent().next().get(0),
     TechniqueSource.BREEDING
   );
 
@@ -513,19 +469,14 @@ function getTechniqueTableType(caption: string) {
 
 function getGameDescription(html: string) {
   const $ = cheerio.load(html);
-  let potentialEl = $("#Description")
-    .parent()
-    .next();
+  let potentialEl = $("#Description").parent().next();
   if (potentialEl[0] && potentialEl[0].name !== "table") {
     potentialEl = $(potentialEl).next();
   }
   if (potentialEl[0] && potentialEl[0].name !== "table") {
     return "";
   }
-  const text = $(potentialEl)
-    .find("i")
-    .text()
-    .trim();
+  const text = $(potentialEl).find("i").text().trim();
   return text || "";
 }
 
@@ -538,24 +489,13 @@ function getTechniquesFromTable(
     .find("tbody>tr")
     .map((i, el) => {
       if (i === 0) return undefined;
-      const techniqueName = $(el)
-        .find("td")
-        .eq(1)
-        .text()
-        .trim();
+      const techniqueName = $(el).find("td").eq(1).text().trim();
       const data =
         !techniqueName || techniqueName === "?"
           ? undefined
           : { name: techniqueName, source: type };
       if (data && type === "Levelling") {
-        const levels = parseInt(
-          $(el)
-            .find("td")
-            .eq(0)
-            .text()
-            .trim(),
-          10
-        );
+        const levels = parseInt($(el).find("td").eq(0).text().trim(), 10);
         (data as any).levels = isNaN(levels) ? 0 : levels;
       }
       return data;
@@ -572,92 +512,85 @@ function getTrivia(html: string) {
       .next()
       .find("li")
       .map((_i, el) =>
-        $(el)
-          .text()
-          .replace(/\[.\]/g, "")
-          .replace(/\\/g, "")
-          .trim()
+        $(el).text().replace(/\[.\]/g, "").replace(/\\/g, "").trim()
       )
   );
   return trivia;
 }
 
-function getEvolutionInfo(items: any[], item: any, html: string) {
+function getEvolutionInfo(
+  items: MinimalTemtem[],
+  item: any,
+  html: string
+): any {
   const $ = cheerio.load(html);
-  const $evolutionHeader = $("#Evolution");
-  if ($evolutionHeader.length) {
-    let $evolutionTable = $evolutionHeader.parent().next();
-    if (!$evolutionTable.is("table")) {
-      $evolutionTable = $evolutionTable.next();
-      if (!$evolutionTable.is("table")) {
-        $evolutionTable = $evolutionTable.next();
-        if (!$evolutionTable.is("table")) {
-          if (item.name === "Tuwai" || item.name === "Tuvine") {
-            return {
-              stage: item.name === "Tuwai" ? 1 : 2,
-              evolutionTree: [],
-              evolves: true,
-              type: "special",
-              description:
-                "Tuwai can evolve into Tuvine by taking one to the Crystal Shrine, and selecting it. This requires that you beat the Cultist Hunt side-quest."
-            } as any;
-          }
-          log.warn("Gave up on evolution table for", item.name);
-          return {};
-        }
+  const table = $(".evobox-container");
+
+  let lastLevel = 0;
+  let type = "levels";
+  let description;
+  let stage = 0;
+  let stageCount = 0;
+  let evolutionTree: any = [];
+
+  table.children().each((i, el) => {
+    if ($(el).hasClass("evobox")) {
+      if ($(el).hasClass("selected")) {
+        stage = stageCount;
       }
+      const traits = $(el)
+        .find(".evobox-trait")
+        .map((j, ele) => $(ele).text().trim())
+        .toArray();
+      const name = $(el).find(".evobox-name").text().trim();
+      evolutionTree.push({
+        stage: stageCount,
+        number: items.find(({ name: n }) => n === name)?.number,
+        name,
+        level: lastLevel,
+        type,
+        trading: type === "trade",
+        traits,
+        description,
+      });
+      stageCount++;
+    } else {
+      const $el = $(el);
+      $(el).find("br").replaceWith(" ");
+      const text = $el.text().trim();
+      const currentType =
+        text === "Trade"
+          ? "trade"
+          : isNaN(parseInt(text))
+          ? "special"
+          : "levels";
+      lastLevel = currentType === "levels" ? parseInt(text) : 0;
+      type = currentType;
+      description = currentType === "special" ? text : undefined;
     }
-    const evolutionParts: (string | number)[] = [];
-    $evolutionTable.find("tbody>tr>td").each((i, el) => {
-      const text = $(el)
-        .text()
-        .trim();
-      if (
-        text.includes("Levels") ||
-        ($(el).children("a").length &&
-          text !== "" &&
-          text !== "100x100px" &&
-          text !== "???")
-      ) {
-        evolutionParts.push(
-          isNaN(parseInt(text, 10)) ? text : parseInt(text, 10)
-        );
-      }
-    });
-    const evolutionTree = evolutionParts.reduce<any>((prev, cur) => {
-      if (typeof cur === "string" && !cur.includes("Levels")) {
-        const evoItem = items.find(({ name }) => name === cur);
-        prev.push({
-          number: evoItem ? evoItem.number : -1,
-          name: cur,
-          stage: Number(prev.length) + 1
-        });
-      } else if (prev.length) {
-        const cleaned = `${cur}`
-          .replace(/./g, i => (!isNaN(Number(i)) ? i : ""))
-          .trim();
-        prev[prev.length - 1].levels = `${cur}`.includes("?")
-          ? 0
-          : parseInt(cleaned, 10);
-        prev[prev.length - 1].trading = `${cur}`.includes("Trading");
-      }
-      return prev;
-    }, []);
-    if (evolutionTree.length === 1) {
-      return {
-        evolves: false
-      };
-    }
-    return {
-      stage:
-        Number(evolutionTree.findIndex(({ name }) => item.name === name)) + 1,
+  });
+
+  evolutionTree = evolutionTree.map((e, i) => ({
+    ...e,
+    traitMapping: e.traits.reduce(
+      (acc, t, j) => ({ ...acc, [t]: (evolutionTree[i + 1] || e).traits[j] }),
+      {}
+    ),
+  }));
+
+  let evoData = { evolves: false };
+
+  if (evolutionTree && evolutionTree.length > 1) {
+    evoData = {
+      stage,
       evolutionTree,
       evolves: true,
-      type: "level"
-    };
-  } else {
-    return {
-      evolves: false
+      type: evolutionTree[stage].type,
+      from: evolutionTree[stage - 1] || null,
+      to: evolutionTree[stage + 1] || null,
+      ...evolutionTree[stage],
     };
   }
+
+  return evoData;
 }
