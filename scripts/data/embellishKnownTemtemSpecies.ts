@@ -464,18 +464,37 @@ function getDetailSafely(str: string, key: string, i: number) {
 function getTechniques(html: string) {
   const $ = cheerio.load(html);
   const techniques: any[] = [];
-  $("#mw-content-text table").each((_i, el) => {
-    const type = getTechniqueTableType(
-      $(el)
-        .find("caption")
-        .first()
-        .text()
-        .trim()
-    );
-    if (!type) return undefined;
-    const typeTechniques = getTechniquesFromTable($, el, type);
-    techniques.push(...typeTechniques);
-  });
+
+  // The ids for the various tables are on span elements nested in h3 elements. The table is always after the h3.
+  const levelTechniques = getTechniquesFromTable(
+    $,
+    $("#By_Leveling_up")
+      .parent()
+      .next()
+      .get(0),
+    TechniqueSource.LEVELLING
+  );
+  const tcTechniques = getTechniquesFromTable(
+    $,
+    $("#By_Technique_Course")
+      .parent()
+      .next()
+      .get(0),
+    TechniqueSource.TRAINING_COURSE
+  );
+  const eggTechniques = getTechniquesFromTable(
+    $,
+    $("#By_Breeding")
+      .parent()
+      .next()
+      .get(0),
+    TechniqueSource.BREEDING
+  );
+
+  techniques.push(...levelTechniques);
+  techniques.push(...tcTechniques);
+  techniques.push(...eggTechniques);
+
   return techniques;
 }
 
@@ -519,10 +538,9 @@ function getTechniquesFromTable(
     .find("tbody>tr")
     .map((i, el) => {
       if (i === 0) return undefined;
-      const tdIndex = type === "Breeding" ? 0 : 1;
       const techniqueName = $(el)
         .find("td")
-        .eq(tdIndex)
+        .eq(1)
         .text()
         .trim();
       const data =
