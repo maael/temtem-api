@@ -1,82 +1,82 @@
 [
   {
     "name": "Alerted",
-    "description": "An <img alt=\"Alerted Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c7/Alerted.png/revision/latest/scale-to-width-down/25?cb=20200414233218\" decoding=\"async\" width=\"25\" height=\"26\"> Alerted Temtem cannot fall asleep. After a Temtem loses the <img alt=\"Asleep Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6c/Asleep.png/revision/latest/scale-to-width-down/25?cb=20190520155841\" decoding=\"async\" width=\"25\" height=\"26\"> Asleep Condition, it will gain Alerted until the end of the next turn.",
+    "description": "An Alerted Temtem cannot fall asleep. After a Temtem loses the Asleep Condition, it will gain Alerted until the end of the next turn.",
     "icon": "/images/icons/conditions/Alerted.png"
   },
   {
     "name": "Asleep",
-    "description": "<img alt=\"Asleep Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6c/Asleep.png/revision/latest/scale-to-width-down/25?cb=20190520155841\" decoding=\"async\" width=\"25\" height=\"26\"> Asleep Temtem cannot attack. If they are damaged, including damage from other conditions like <img alt=\"Burned Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/79/Burned.png/revision/latest/scale-to-width-down/25?cb=20190520155919\" decoding=\"async\" width=\"25\" height=\"26\"> Burned or <img alt=\"Poisoned Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/11/Poisoned.png/revision/latest/scale-to-width-down/25?cb=20190520160243\" decoding=\"async\" width=\"25\" height=\"26\"> Poisoned, they will wake up and the Asleep condition is removed. Upon waking, the Temtem will gain the <img alt=\"Alerted Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/c7/Alerted.png/revision/latest/scale-to-width-down/25?cb=20200414233218\" decoding=\"async\" width=\"25\" height=\"26\"> Alerted condition until the end of the next turn. <img alt=\"mental\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/bf/Mental.png/revision/latest/scale-to-width-down/25?cb=20201010231303\" decoding=\"async\" width=\"25\" height=\"25\"> Mental type Temtem are immune against the Asleep condition.",
+    "description": "Asleep Temtem cannot attack. If they are damaged, including damage from other conditions like Burned or Poisoned, they will wake up and the Asleep condition is removed. Upon waking, the Temtem will gain the Alerted condition until the end of the next turn. Mental type Temtem are immune against the Asleep condition.",
     "icon": "/images/icons/conditions/Asleep.png"
   },
   {
     "name": "Burned",
-    "description": "<img alt=\"Burned Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/79/Burned.png/revision/latest/scale-to-width-down/25?cb=20190520155919\" decoding=\"async\" width=\"25\" height=\"26\"> Burned Temtem lose 1/16 of health every turn and it reduces both the ATK and SPATK stats by 30%. Temtem of the <img alt=\"fire\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/30/Fire.png/revision/latest/scale-to-width-down/25?cb=20201010231306\" decoding=\"async\" width=\"25\" height=\"25\"> Fire type are immune against this condition. The Burned condition erases the <img alt=\"Cold Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6b/Cold.png/revision/latest/scale-to-width-down/25?cb=20190520155949\" decoding=\"async\" width=\"25\" height=\"26\"> Cold and <img alt=\"Frozen Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/86/Frozen.png/revision/latest/scale-to-width-down/25?cb=20190520160137\" decoding=\"async\" width=\"25\" height=\"26\"> Frozen conditions when applied to a Temtem, and vice versa these conditions can remove the Burned condition.",
+    "description": "Burned Temtem lose 1/16 of health every turn and it reduces both the ATK and SPATK stats by 30%. Temtem of the Fire type are immune against this condition. The Burned condition erases the Cold and Frozen conditions when applied to a Temtem, and vice versa these conditions can remove the Burned condition.",
     "icon": "/images/icons/conditions/Burned.png"
   },
   {
     "name": "Cold",
-    "description": "If <img alt=\"Cold Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6b/Cold.png/revision/latest/scale-to-width-down/25?cb=20190520155949\" decoding=\"async\" width=\"25\" height=\"26\"> Cold is afflicted twice, the Temtem becomes <img alt=\"Frozen Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/86/Frozen.png/revision/latest/scale-to-width-down/25?cb=20190520160137\" decoding=\"async\" width=\"25\" height=\"26\"> Frozen. Frozen Temtem cannot attack, but they can rest normally. Cold and Frozen also serve to erase the <img alt=\"Burned Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/79/Burned.png/revision/latest/scale-to-width-down/25?cb=20190520155919\" decoding=\"async\" width=\"25\" height=\"26\"> Burned Condition from a Temtem, while Burned erases both the Cold and Frozen conditions.",
+    "description": "If Cold is afflicted twice, the Temtem becomes Frozen. Frozen Temtem cannot attack, but they can rest normally. Cold and Frozen also serve to erase the Burned Condition from a Temtem, while Burned erases both the Cold and Frozen conditions.",
     "icon": "/images/icons/conditions/Cold.png"
   },
   {
     "name": "Frozen",
-    "description": "If <img alt=\"Cold Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6b/Cold.png/revision/latest/scale-to-width-down/25?cb=20190520155949\" decoding=\"async\" width=\"25\" height=\"26\"> Cold is afflicted twice, the Temtem becomes <img alt=\"Frozen Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/86/Frozen.png/revision/latest/scale-to-width-down/25?cb=20190520160137\" decoding=\"async\" width=\"25\" height=\"26\"> Frozen. Frozen Temtem cannot attack, but they can rest normally. Cold and Frozen also serve to erase the <img alt=\"Burned Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/79/Burned.png/revision/latest/scale-to-width-down/25?cb=20190520155919\" decoding=\"async\" width=\"25\" height=\"26\"> Burned Condition from a Temtem, while Burned erases both the Cold and Frozen conditions.",
+    "description": "If Cold is afflicted twice, the Temtem becomes Frozen. Frozen Temtem cannot attack, but they can rest normally. Cold and Frozen also serve to erase the Burned Condition from a Temtem, while Burned erases both the Cold and Frozen conditions.",
     "icon": "/images/icons/conditions/Frozen.png"
   },
   {
     "name": "Doomed",
-    "description": "Once the turn counter on the <img alt=\"Doomed Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1b/Doomed.png/revision/latest/scale-to-width-down/25?cb=20190520160026\" decoding=\"async\" width=\"25\" height=\"26\"> Doomed Temtem hits 0, the Temtem faints.",
+    "description": "Once the turn counter on the Doomed Temtem hits 0, the Temtem faints.",
     "icon": "/images/icons/conditions/Doomed.png"
   },
   {
     "name": "Evading",
-    "description": "An <img alt=\"Evading Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1e/Evading.png/revision/latest/scale-to-width-down/25?cb=20200414175650\" decoding=\"async\" width=\"25\" height=\"26\"> Evading Temtem will not be affected by the next offensive technique used on it. Once damaged, this condition is removed.",
+    "description": "An Evading Temtem will not be affected by the next offensive technique used on it. Once damaged, this condition is removed.",
     "icon": "/images/icons/conditions/Evading.png"
   },
   {
     "name": "Exhausted",
-    "description": "The Stamina cost of techniques used by an <img alt=\"Exhausted Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8f/Exhausted.png/revision/latest/scale-to-width-down/25?cb=20190520160109\" decoding=\"async\" width=\"25\" height=\"26\"> Exhausted Temtem increases by 50%. Applying the <img alt=\"Vigorized Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/ea/Vigorized.png/revision/latest/scale-to-width-down/25?cb=20190520160346\" decoding=\"async\" width=\"25\" height=\"26\"> Invigorated condition removes the Exhausted condition and vice versa.",
+    "description": "The Stamina cost of techniques used by an Exhausted Temtem increases by 50%. Applying the Invigorated condition removes the Exhausted condition and vice versa.",
     "icon": "/images/icons/conditions/Exhausted.png"
   },
   {
     "name": "Immune",
-    "description": "<img alt=\"Immune Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/cd/Immune.png/revision/latest/scale-to-width-down/25?cb=20190520160214\" decoding=\"async\" width=\"25\" height=\"26\"> Immune Temtem are unable to be afflicted with new status conditions.",
+    "description": "Immune Temtem are unable to be afflicted with new status conditions.",
     "icon": "/images/icons/conditions/Immune.png"
   },
   {
     "name": "Isolated",
-    "description": "Synergies do not work with <img alt=\"Isolated Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e6/Isolated.png/revision/latest/scale-to-width-down/25?cb=20200724062155\" decoding=\"async\" width=\"25\" height=\"24\"> Isolated Temtem.",
+    "description": "Synergies do not work with Isolated Temtem.",
     "icon": "/images/icons/conditions/Isolated.png"
   },
   {
     "name": "Nullified",
-    "description": "<img alt=\"Nullified Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9e/Nullified.png/revision/latest/scale-to-width-down/25?cb=20191219195638\" decoding=\"async\" width=\"25\" height=\"26\"> Nullified Temtem have their type based resistances and weaknesses omitted.",
+    "description": "Nullified Temtem have their type based resistances and weaknesses omitted.",
     "icon": "/images/icons/conditions/Nullified.png"
   },
   {
     "name": "Poisoned",
-    "description": "<img alt=\"Poisoned Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/11/Poisoned.png/revision/latest/scale-to-width-down/25?cb=20190520160243\" decoding=\"async\" width=\"25\" height=\"26\"> Poisoned Temtem lose 1/8 of their health every turn. Temtem of the <img alt=\"toxic\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/96/Toxic.png/revision/latest/scale-to-width-down/25?cb=20201010231309\" decoding=\"async\" width=\"25\" height=\"25\"> Toxic type are immune against this condition.",
+    "description": "Poisoned Temtem lose 1/8 of their health every turn. Temtem of the Toxic type are immune against this condition.",
     "icon": "/images/icons/conditions/Poisoned.png"
   },
   {
     "name": "Regenerated",
-    "description": "<img alt=\"Regenerated Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4a/Regenerated.png/revision/latest/scale-to-width-down/25?cb=20190520160311\" decoding=\"async\" width=\"25\" height=\"26\"> Regenerated Temtem heal 1/10 of their health on each turn.",
+    "description": "Regenerated Temtem heal 1/10 of their health on each turn.",
     "icon": "/images/icons/conditions/Regenerated.png"
   },
   {
     "name": "Seized",
-    "description": "<img alt=\"Seized Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/53/Seized.png/revision/latest/scale-to-width-down/25?cb=20191219195707\" decoding=\"async\" width=\"25\" height=\"26\"> Seized Temtem lose their equipped gear's effect.",
+    "description": "Seized Temtem lose their equipped gear's effect.",
     "icon": "/images/icons/conditions/Seized.png"
   },
   {
     "name": "Trapped",
-    "description": "<img alt=\"Trapped Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/cc/Trapped.png/revision/latest/scale-to-width-down/25?cb=20191219195521\" decoding=\"async\" width=\"25\" height=\"26\"> Trapped Temtem cannot swap out.",
+    "description": "Trapped Temtem cannot swap out.",
     "icon": "/images/icons/conditions/Trapped.png"
   },
   {
     "name": "Invigorated",
-    "description": "The Stamina cost of techniques used by a <img alt=\"Vigorized Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/ea/Vigorized.png/revision/latest/scale-to-width-down/25?cb=20190520160346\" decoding=\"async\" width=\"25\" height=\"26\"> Invigorated Temtem decreases by 50%. Applying the <img alt=\"Exhausted Condition\" src=\"https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8f/Exhausted.png/revision/latest/scale-to-width-down/25?cb=20190520160109\" decoding=\"async\" width=\"25\" height=\"26\"> Exhausted condition removes the Vigorized condition and vice versa.",
+    "description": "The Stamina cost of techniques used by a Invigorated Temtem decreases by 50%. Applying the Exhausted condition removes the Vigorized condition and vice versa.",
     "icon": "/images/icons/conditions/Invigorated.png"
   }
 ]
