@@ -5247,8 +5247,14 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Sometimes a little shock is all you need to gain an edge. This fast technique inflicts slight damage but seizes the target for 1 turn.",
-    "effectText": "",
-    "effects": []
+    "effectText": "Voltopuncture inflicts damage to a single target and inflicts the Seized Condition for 1 turn.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 1,
+        "condition": "Seized"
+      }
+    ]
   },
   {
     "name": "Wake Up",
