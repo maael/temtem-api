@@ -1058,7 +1058,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Harder than the hardest Crystal Temtem! It confers DEF and SPDEF .",
-    "effectText": "",
+    "effectText": "Diamond Fort gives the user DEF and SPDEF .",
     "effects": []
   },
   {
@@ -1154,7 +1154,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "An accurate strike at the target's main pressure point, ignoring its defenses to deal exactly 80 damage without waking it up.",
-    "effectText": "",
+    "effectText": "Dim Mak deals an exact, consistent 80 damage to a single target, regardless of DEF, SPDEF, type resistances, or traits. This will not wake up a Temtem with the Asleep Condition.",
     "effects": []
   },
   {
@@ -5247,14 +5247,8 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Sometimes a little shock is all you need to gain an edge. This fast technique inflicts slight damage but seizes the target for 1 turn.",
-    "effectText": "Voltopuncture inflicts damage to a single target and inflicts the Seized Condition for 1 turn.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 1,
-        "condition": "Seized"
-      }
-    ]
+    "effectText": "",
+    "effects": []
   },
   {
     "name": "Wake Up",
