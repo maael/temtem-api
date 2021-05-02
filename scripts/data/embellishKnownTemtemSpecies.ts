@@ -535,7 +535,7 @@ function getEvolutionInfo(
   let description;
   let stage = 0;
   let stageCount = 0;
-  let evolutionTree: any = [];
+  let evolutionTree: any[] = [];
 
   table.children().each((i, el) => {
     if ($(el).hasClass("evobox")) {
@@ -565,10 +565,10 @@ function getEvolutionInfo(
       const currentType =
         text === "Trade"
           ? "trade"
-          : isNaN(parseInt(text))
+          : isNaN(parseInt(text, 10))
           ? "special"
           : "levels";
-      lastLevel = currentType === "levels" ? parseInt(text) : 0;
+      lastLevel = currentType === "levels" ? parseInt(text, 10) : 0;
       type = currentType;
       description = currentType === "special" ? text : undefined;
     }
