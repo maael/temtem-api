@@ -27,7 +27,7 @@ export default function ErrorPage() {
           width: "100%",
           marginTop: 20,
           fontSize: 32,
-          fontFamily: "Arial, sans-serif"
+          fontFamily: "Arial, sans-serif",
         }}
       >
         <Link href="/">

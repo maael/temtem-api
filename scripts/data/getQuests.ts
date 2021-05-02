@@ -5,7 +5,7 @@ import { typedToArray } from "../util/cheerioHelpers";
 
 export enum QuestType {
   MAIN = "main",
-  SIDE = "side"
+  SIDE = "side",
 }
 
 export type Quest = MainQuest | SideQuest;
@@ -46,7 +46,7 @@ export default async function getQuests() {
           return {
             name,
             wikiUrl,
-            type: QuestType.MAIN
+            type: QuestType.MAIN,
           };
         })
     );
@@ -63,12 +63,10 @@ export default async function getQuests() {
             $(el)
               .find("td")
               .map((_j, tdEl) => ({
-                text: $(tdEl)
-                  .text()
-                  .trim(),
+                text: $(tdEl).text().trim(),
                 link: `https://temtem.gamepedia.com${$(tdEl)
                   .find("a")
-                  .attr("href")}`
+                  .attr("href")}`,
               }))
           );
           return {
@@ -78,7 +76,7 @@ export default async function getQuests() {
             location: td[2].text,
             requirements: td[3].text.replace(/\s\s/g, ", "),
             reward: td[4].text.replace(/\s\s/g, ", "),
-            type: QuestType.SIDE
+            type: QuestType.SIDE,
           };
         })
     );

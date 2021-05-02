@@ -14,7 +14,7 @@ const ordering = [
   "Digital",
   "Melee",
   "Crystal",
-  "Toxic"
+  "Toxic",
 ];
 
 export default async function getWeaknessTable() {
@@ -35,12 +35,7 @@ export default async function getWeaknessTable() {
         $(el)
           .children("td")
           .each((j, td) => {
-            const value = Number(
-              $(td)
-                .text()
-                .trim()
-                .replace("x", "")
-            );
+            const value = Number($(td).text().trim().replace("x", ""));
             row[ordering[j]] = value === 0 ? 1 : value;
           });
         table[ordering[i - 1]] = row;

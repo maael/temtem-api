@@ -207,13 +207,13 @@ const root = {
   patches: () => patches,
   quests: () => ({
     main: quests.filter(({ type }) => type === "main"),
-    side: quests.filter(({ type }) => type === "side")
+    side: quests.filter(({ type }) => type === "side"),
   }),
   saipark: () => saipark,
   summary: () => summary,
   techniques: () => techniques,
   traits: () => traits,
-  types: () => types
+  types: () => types,
 };
 
 export default cors(async (req, res) => {

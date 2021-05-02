@@ -7,7 +7,7 @@ const Priority = t.union([
   t.literal("normal"),
   t.literal("low"),
   t.literal("verylow"),
-  t.literal("unknown")
+  t.literal("unknown"),
 ]);
 
 const SynergyType = t.union([
@@ -17,7 +17,7 @@ const SynergyType = t.union([
   t.literal("condition"),
   t.literal("priority"),
   t.literal("targeting"),
-  t.literal("unknown")
+  t.literal("unknown"),
 ]);
 
 export const Codec = t.type({
@@ -42,9 +42,9 @@ export const Codec = t.type({
     t.type({
       condition: t.string,
       type: t.literal("condition"),
-      turns: t.number
+      turns: t.number,
     })
-  )
+  ),
 });
 
 export const TechniqueList = t.array(Codec);

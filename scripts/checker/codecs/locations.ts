@@ -4,13 +4,13 @@ const LocationTypes = t.union([
   t.literal("island"),
   t.literal("route"),
   t.literal("townorvillage"),
-  t.literal("landmark")
+  t.literal("landmark"),
 ]);
 
 const LocationOfType = t.type({
   name: t.string,
   wikiUrl: t.string,
-  type: LocationTypes
+  type: LocationTypes,
 });
 
 export const Codec = t.type({
@@ -23,7 +23,7 @@ export const Codec = t.type({
   townsAndVillages: t.array(LocationOfType),
   landmarks: t.array(LocationOfType),
   temtem: t.array(t.string),
-  trivia: t.array(t.string)
+  trivia: t.array(t.string),
 });
 
 export const LocationList = t.array(Codec);

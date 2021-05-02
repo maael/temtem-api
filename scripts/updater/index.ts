@@ -5,7 +5,7 @@ import * as log from "../util/log";
   await processFiles("data");
   await processFiles("public");
   await processFiles("codec-logs");
-})().catch(e => {
+})().catch((e) => {
   log.error(e);
   throw e;
 });

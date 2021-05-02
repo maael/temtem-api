@@ -4,9 +4,9 @@ export default function pruneData(
   fields?: string,
   limit?: string
 ) {
-  const namesFilter = names ? names.split(",").map(t => t.trim()) : undefined;
+  const namesFilter = names ? names.split(",").map((t) => t.trim()) : undefined;
   const fieldsFilter = fields
-    ? fields.split(",").map(t => t.trim())
+    ? fields.split(",").map((t) => t.trim())
     : undefined;
   const limitFilter =
     limit && !isNaN(Number(limit)) ? Number(limit) : undefined;

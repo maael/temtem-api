@@ -3,7 +3,7 @@ import * as log from "./log";
 export function formatDate({
   day,
   month,
-  year
+  year,
 }: {
   day: number;
   month: number;
@@ -33,7 +33,7 @@ const monthAbbrevs = [
   "Sep",
   "Oct",
   "Nov",
-  "Dec"
+  "Dec",
 ];
 
 export function processDate(text: string) {
@@ -46,12 +46,12 @@ export function processDate(text: string) {
     start: {
       day: days ? Number(days[0]) : 0,
       month: matchedMonths[0],
-      year: year ? Number(year[0]) : 2020
+      year: year ? Number(year[0]) : 2020,
     },
     end: {
       day: days ? Number(days[1]) : 0,
       month: matchedMonths[1] || matchedMonths[0],
-      year: year ? Number(year[0]) : 2020
-    }
+      year: year ? Number(year[0]) : 2020,
+    },
   };
 }

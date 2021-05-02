@@ -9,7 +9,7 @@ export enum CosmeticType {
   TOP = "top",
   BOTTOM = "bottom",
   SET = "set",
-  BAG = "bag"
+  BAG = "bag",
 }
 export interface Cosmetic {
   type: CosmeticType;
@@ -39,7 +39,7 @@ export default async function getCosmetics() {
       ...getItems($, "#Top", "top"),
       ...getItems($, "#Bottom", "bottom"),
       ...getItems($, "#Set", "set"),
-      ...getItems($, "#Bag", "bag")
+      ...getItems($, "#Bag", "bag"),
     ];
     return all;
   } catch (e) {
@@ -60,15 +60,9 @@ function getItems($, selector, type) {
           $(el)
             .find("td")
             .map((_j, td) => ({
-              text: $(td)
-                .text()
-                .trim(),
-              wikiUrl: $(td)
-                .find("a")
-                .attr("href"),
-              wikiImageUrl: $(td)
-                .find("img")
-                .attr("src")
+              text: $(td).text().trim(),
+              wikiUrl: $(td).find("a").attr("href"),
+              wikiImageUrl: $(td).find("img").attr("src"),
             }))
         );
         const imageParts = url.parse(items[0].wikiImageUrl || "");
@@ -83,7 +77,7 @@ function getItems($, selector, type) {
           location: items[2].text,
           cost: isNaN(parsedCost) ? 0 : parsedCost,
           requirement: isNaN(parsedCost) ? items[3].text : "",
-          description: items[4].text
+          description: items[4].text,
         };
       })
   );

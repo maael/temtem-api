@@ -15,8 +15,10 @@ export async function getStagedDataFiles(
   const fileFilter = [...filter, ".gitkeep"];
   return status.files
     .map(({ path: p }) => p)
-    .filter(p => p.startsWith(rootDir) && !fileFilter.some(f => p.endsWith(f)))
-    .map(p => path.resolve(path.join(__dirname, "..", "..", p)))
+    .filter(
+      (p) => p.startsWith(rootDir) && !fileFilter.some((f) => p.endsWith(f))
+    )
+    .map((p) => path.resolve(path.join(__dirname, "..", "..", p)))
     .filter(testChanged);
 }
 

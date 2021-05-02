@@ -34,10 +34,8 @@ async function getTechniquesForPage(url: string) {
     const techniques = typedToArray<Technique>(
       page.find("a").map((_i, el) => {
         return {
-          name: $(el)
-            .text()
-            .trim(),
-          wikiUrl: `https://temtem.gamepedia.com${$(el).attr("href")}`
+          name: $(el).text().trim(),
+          wikiUrl: `https://temtem.gamepedia.com${$(el).attr("href")}`,
         };
       })
     ).filter(
@@ -48,10 +46,7 @@ async function getTechniquesForPage(url: string) {
     );
     const nextPage = typedToArray<string | undefined>(
       $("#mw-pages>a").map((_i, el) => {
-        return $(el)
-          .text()
-          .trim()
-          .toLowerCase() === "next page"
+        return $(el).text().trim().toLowerCase() === "next page"
           ? `https://temtem.gamepedia.com${$(el).attr("href")}`
           : undefined;
       })

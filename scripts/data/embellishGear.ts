@@ -19,9 +19,7 @@ export interface Gear extends MinimalGear {
 function getInfoBox($: any, str: string) {
   const text = $(".infobox-row")
     .filter((_i, el) => {
-      return !!$(el)
-        .text()
-        .includes(str);
+      return !!$(el).text().includes(str);
     })
     .first()
     .find(".infobox-row-value")
@@ -61,7 +59,7 @@ export default async function embellishGear(
           purchasable: getInfoBox($, "Purchasable") === "Yes",
           buyPrice: getInfoBox($, "Buy Price") || 0,
           description: getDescription($),
-          gameDescription: getGameDescription($)
+          gameDescription: getGameDescription($),
         };
       })
       .sort((a, b) => a.name.localeCompare(b.name));
@@ -83,19 +81,11 @@ function getDescription($: CheerioStatic) {
     .next();
   let potentialSecondPContent = "";
   if (firstPSibling[0] && firstPSibling[0].name === "p") {
-    potentialSecondPContent = firstPSibling
-      .text()
-      .replace(/\n/g, "")
-      .trim();
+    potentialSecondPContent = firstPSibling.text().replace(/\n/g, "").trim();
   }
   return `${firstP}${potentialSecondPContent}`;
 }
 
 function getGameDescription($: CheerioStatic) {
-  return $("#Description")
-    .parent()
-    .next()
-    .text()
-    .replace(/\n/g, "")
-    .trim();
+  return $("#Description").parent().next().text().replace(/\n/g, "").trim();
 }

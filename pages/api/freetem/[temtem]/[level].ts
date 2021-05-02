@@ -13,6 +13,6 @@ export default cors(async (req, res) => {
     temtem: temtem,
     level: level,
     catchRate,
-    reward: calculateFreetemReward(catchRate, Number(level))
+    reward: calculateFreetemReward(catchRate, Number(level)),
   });
 });

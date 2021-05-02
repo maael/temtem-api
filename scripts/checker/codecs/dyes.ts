@@ -5,7 +5,7 @@ export const Codec = t.type({
   color: t.string,
   name: t.string,
   description: t.string,
-  bundles: t.array(t.string)
+  bundles: t.array(t.string),
 });
 
 export const DyeList = t.array(Codec);

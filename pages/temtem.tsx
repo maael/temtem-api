@@ -13,7 +13,7 @@ function Home() {
       } catch (e) {
         console.error(e);
       }
-    })().catch(e => console.error(e));
+    })().catch((e) => console.error(e));
   }, []);
   return (
     <div
@@ -25,7 +25,7 @@ function Home() {
         display: "flex",
         flexDirection: "row",
         alignItems: "center",
-        justifyContent: "center"
+        justifyContent: "center",
       }}
     >
       <Head>
@@ -52,7 +52,7 @@ function Home() {
                 display: "flex",
                 flexDirection: "row",
                 alignItems: "center",
-                justifyContent: "space-around"
+                justifyContent: "space-around",
               }}
             >
               <div>{num}</div>
@@ -60,7 +60,7 @@ function Home() {
                 <a href={wikiUrl}>{name}</a>
               </div>
               <div>
-                {types.map(t => (
+                {types.map((t) => (
                   <img
                     key={t}
                     height={50}

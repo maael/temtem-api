@@ -10,7 +10,7 @@ export const Codec = t.type({
   freedTemtem: t.number,
   duration: t.string,
   startDate: t.string,
-  endDate: t.string
+  endDate: t.string,
 });
 
 export const FreetemRewardList = t.array(Codec);

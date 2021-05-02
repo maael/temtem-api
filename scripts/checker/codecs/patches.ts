@@ -9,8 +9,8 @@ export const PatchCodec = t.type({
     fixes: t.array(t.string),
     improvements: t.array(t.string),
     features: t.array(t.string),
-    balance: t.array(t.string)
-  })
+    balance: t.array(t.string),
+  }),
 });
 
 export const PatchList = t.array(PatchCodec);

@@ -5,7 +5,7 @@ import write from "../util/write";
 
 let existing = {
   mostRecent: "",
-  dataStats: [] as any[]
+  dataStats: [] as any[],
 };
 try {
   existing = require("../../data/summary.json");
@@ -17,15 +17,15 @@ try {
   log.info("Building summary");
   const git = getGit("data");
   const status = await getStagedDataFiles(git, ["summary.json"], "data");
-  const getFilenames = status.map(f => path.parse(f).name);
+  const getFilenames = status.map((f) => path.parse(f).name);
   const updateTime = new Date().toISOString();
-  const updateMap = getFilenames.map(name => ({
+  const updateMap = getFilenames.map((name) => ({
     mtime: updateTime,
-    name
+    name,
   }));
   const mergedDataStats = [
     ...existing.dataStats.filter(({ name }) => !getFilenames.includes(name)),
-    ...updateMap
+    ...updateMap,
   ];
   const newMostRecent = mergedDataStats
     .map(({ mtime }) => mtime)
@@ -37,12 +37,12 @@ try {
     const toWrite = {
       ...existing,
       mostRecent: newMostRecent,
-      dataStats: mergedDataStats.sort((a, b) => b.name.localeCompare(a.name))
+      dataStats: mergedDataStats.sort((a, b) => b.name.localeCompare(a.name)),
     };
     log.info("mostRecent", toWrite.mostRecent);
     await write("summary", toWrite);
   }
-})().catch(e => {
+})().catch((e) => {
   log.error(e);
   throw e;
 });

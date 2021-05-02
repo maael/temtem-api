@@ -11,7 +11,7 @@ export const GearCodec = t.type({
   purchasable: t.boolean,
   buyPrice: t.number,
   description: t.string,
-  gameDescription: t.string
+  gameDescription: t.string,
 });
 
 export const GearList = t.array(GearCodec);

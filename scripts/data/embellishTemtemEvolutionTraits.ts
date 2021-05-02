@@ -1,7 +1,7 @@
 import { Temtem } from "./embellishKnownTemtemSpecies";
 
 export default function embellishTemtemEvolutionTraits(temtem: Temtem[]) {
-  return temtem.map(t => {
+  return temtem.map((t) => {
     if (t.evolution.evolves && t.evolution.evolutionTree) {
       t.evolution.evolutionTree = t.evolution.evolutionTree.map((e, i, ar) => {
         const first = temtem.find(({ name }) => name === e.name);
@@ -14,10 +14,10 @@ export default function embellishTemtemEvolutionTraits(temtem: Temtem[]) {
           traitMapping: first.traits.reduce(
             (acc, trait, j) =>
               Object.assign(acc, {
-                [trait]: (second && second.traits[j]) || "Unknown"
+                [trait]: (second && second.traits[j]) || "Unknown",
               }),
             {}
-          )
+          ),
         };
       });
     }

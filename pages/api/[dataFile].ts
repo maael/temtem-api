@@ -17,7 +17,7 @@ const dataMap = {
   types: require("../../data/types.json"),
   techniques: require("../../data/techniques.json"),
   traits: require("../../data/traits.json"),
-  dojos: require("../../data/dojos.json")
+  dojos: require("../../data/dojos.json"),
 };
 
 export default cors(async (req, res) => {

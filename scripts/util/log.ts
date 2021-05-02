@@ -23,12 +23,14 @@ function log(severity: "info" | "error" | "warn", ...args) {
 function getPrefix() {
   const potentialStack = (new Error().stack || "")
     .split("\n")
-    .filter(t => t.match(/scripts\/(data|assets)/) && !t.includes("index.ts"));
+    .filter(
+      (t) => t.match(/scripts\/(data|assets)/) && !t.includes("index.ts")
+    );
   const line = potentialStack.length
     ? potentialStack.pop()
     : (new Error().stack || "")
         .split("\n")
-        .filter(t => !t.includes("next_tick"))
+        .filter((t) => !t.includes("next_tick"))
         .pop();
   if (line) {
     const parse = path.parse(line);

@@ -21,7 +21,7 @@ export default async function getTraits(
         return {
           ...item,
           description: getDescription($),
-          effect: getEffect($)
+          effect: getEffect($),
         };
       })
       .sort((a, b) => a.name.localeCompare(b.name));
@@ -50,10 +50,5 @@ function getText(
   const element = $(primarySelector).length
     ? $(primarySelector)
     : $(secondarySelector);
-  return element
-    .parent()
-    .next()
-    .text()
-    .trim()
-    .replace(/\\n/g, "");
+  return element.parent().next().text().trim().replace(/\\n/g, "");
 }

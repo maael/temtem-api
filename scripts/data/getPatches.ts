@@ -30,13 +30,9 @@ export default async function getPatches() {
           .match(/\d+\.\d+(.\d+)?/);
         return {
           name: $(el).text(),
-          version: potentialVersion
-            ? potentialVersion[0]
-            : $(el)
-                .text()
-                .trim(),
+          version: potentialVersion ? potentialVersion[0] : $(el).text().trim(),
           url: $(el).attr("href"),
-          date: getFormattedDate($, el)
+          date: getFormattedDate($, el),
         };
       })
     );
@@ -62,15 +58,11 @@ const monthMap = {
   September: 9,
   October: 10,
   November: 11,
-  December: 11
+  December: 11,
 };
 
 function getFormattedDate($: any, el: any) {
-  const rawDate = $(el)
-    .parent()
-    .next(".entry-meta")
-    .text()
-    .trim();
+  const rawDate = $(el).parent().next(".entry-meta").text().trim();
   const potentialDate = Object.entries(monthMap)
     .reduce((acc, [month, num]) => {
       return acc.replace(month, num);

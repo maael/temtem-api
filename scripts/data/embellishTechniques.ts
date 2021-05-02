@@ -12,7 +12,7 @@ export enum TechniquePriority {
   NORMAL = "normal",
   LOW = "low",
   VERY_LOW = "verylow",
-  UNKNOWN = "unknown"
+  UNKNOWN = "unknown",
 }
 
 export enum SynergyType {
@@ -22,7 +22,7 @@ export enum SynergyType {
   CONDITION = "condition",
   PRIORITY = "priority",
   TARGETING = "targeting",
-  UNKNOWN = "unknown"
+  UNKNOWN = "unknown",
 }
 export interface Technique extends MinimalTechnique {
   type: string;
@@ -39,31 +39,18 @@ export interface Technique extends MinimalTechnique {
 
 function getInfoBox($: CheerioStatic, str: string, idx: number = 0): string {
   let found = $(".infobox-row-name").filter((_i, el) => {
-    return (
-      $(el)
-        .text()
-        .trim()
-        .toLowerCase() === str.toLowerCase()
-    );
+    return $(el).text().trim().toLowerCase() === str.toLowerCase();
   });
   if (idx) {
     found = found.get(idx);
   }
-  return (idx ? $(found) : found)
-    .next(".infobox-row-value")
-    .text()
-    .trim();
+  return (idx ? $(found) : found).next(".infobox-row-value").text().trim();
 }
 
 function getInfoBoxEl($: CheerioStatic, str: string): Cheerio {
   return $(".infobox-row-name")
     .filter((_i, el) => {
-      return (
-        $(el)
-          .text()
-          .trim()
-          .toLowerCase() === str.toLowerCase()
-      );
+      return $(el).text().trim().toLowerCase() === str.toLowerCase();
     })
     .next(".infobox-row-value");
 }
@@ -80,9 +67,7 @@ function getInfoBoxNumeric(
 function getPriority($: any) {
   const priority = $(".infobox-row")
     .filter((_i, el) => {
-      return !!$(el)
-        .text()
-        .includes("Priority");
+      return !!$(el).text().includes("Priority");
     })
     .first()
     .find(".infobox-row-value")
@@ -133,13 +118,10 @@ export default async function embellishTechniques(
           priority,
           priorityIcon: `/images/icons/priority/${priority}.png`,
           ...getSynergyData($),
-          targets: getInfoBoxEl($, "Targeting")
-            .first()
-            .text()
-            .trim(),
+          targets: getInfoBoxEl($, "Targeting").first().text().trim(),
           description: getDescription($),
           effectText,
-          effects
+          effects,
         };
       })
       .sort((a, b) => a.name.localeCompare(b.name));
@@ -153,9 +135,7 @@ export default async function embellishTechniques(
 function getEffectText($: CheerioStatic) {
   const effectTextHeader = $("#Effect");
   if (!effectTextHeader.length) return "";
-  const effectText = $(effectTextHeader)
-    .parent()
-    .next();
+  const effectText = $(effectTextHeader).parent().next();
   if (!effectText.length || effectText[0].name !== "p") return "";
   return $(effectText).text();
 }
@@ -168,9 +148,9 @@ function getEffectsFromText(text: string, conditions: Condition[]) {
     text.match(/ (\d+) turns? of the (\w+?) Condition/g) || [];
   const allPossible = possibleConditions
     .concat(flippedPossibleConditions)
-    .map(s => {
+    .map((s) => {
       const turns = Number(((s.match(/\d+/) || [])[0] || "0").trim());
-      const condition = possibleConditionNames.find(n =>
+      const condition = possibleConditionNames.find((n) =>
         s.toLowerCase().includes(n.toLowerCase())
       );
       if (!condition) {
@@ -180,7 +160,7 @@ function getEffectsFromText(text: string, conditions: Condition[]) {
       return {
         type: "condition",
         turns,
-        condition
+        condition,
       };
     })
     .filter(Boolean);
@@ -189,12 +169,7 @@ function getEffectsFromText(text: string, conditions: Condition[]) {
 
 function getSynergyData($: CheerioStatic) {
   const effectsEl = getInfoBoxEl($, "Effects");
-  const effectIcon = (
-    $(effectsEl)
-      .find("a")
-      .last()
-      .attr("href") || ""
-  )
+  const effectIcon = ($(effectsEl).find("a").last().attr("href") || "")
     .replace(/^\/File:/, "")
     .replace(/\.png$/, "")
     .toLowerCase();
@@ -219,7 +194,7 @@ function getSynergyData($: CheerioStatic) {
     synergyEffects: synergyEffectObj
       .concat(damageObj)
       .concat(staminaCostObj)
-      .concat(targetingObj)
+      .concat(targetingObj),
   };
 }
 
@@ -256,7 +231,7 @@ function processSynergyEffect(text: string, icon: string) {
         ? typeof cleanedSynergyEffect === "number"
           ? cleanedSynergyEffect
           : 0
-        : 0
+        : 0,
   };
 }
 
@@ -278,10 +253,13 @@ function getSynergyEffectType(text: string, icon: string) {
     ltext.includes("turn")
   ) {
     return SynergyType.CONDITION;
-  } else if (statNames.some(n => ltext.includes(n)) && icon.includes("down")) {
+  } else if (
+    statNames.some((n) => ltext.includes(n)) &&
+    icon.includes("down")
+  ) {
     return SynergyType.DEBUFF;
   } else if (
-    statNames.some(n => ltext.includes(n)) &&
+    statNames.some((n) => ltext.includes(n)) &&
     (icon.includes("up") || ltext.includes("recover"))
   ) {
     return SynergyType.BUFF;

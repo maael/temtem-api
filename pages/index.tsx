@@ -81,7 +81,7 @@ function useNum(url: string) {
       } catch (e) {
         console.error(e);
       }
-    })().catch(e => console.error(e));
+    })().catch((e) => console.error(e));
   }, []);
   return num;
 }
@@ -123,24 +123,26 @@ function TemtemsBlock() {
               name: "names",
               required: false,
               description:
-                "A comma separated list of the Temtem names that you want information about."
+                "A comma separated list of the Temtem names that you want information about.",
             },
             {
               name: "fields",
               required: false,
-              description: "A comma separated list of fields you want returned."
+              description:
+                "A comma separated list of fields you want returned.",
             },
             {
               name: "expand",
               required: false,
-              description: "A comma separated list of fields you want extended."
+              description:
+                "A comma separated list of fields you want extended.",
             },
             {
               name: "weaknesses",
               required: false,
               description:
-                "A flag to indicate if you want a 'weaknesses' object included for each temtem with attacking types as keys, and the resulting modifiers as values."
-            }
+                "A flag to indicate if you want a 'weaknesses' object included for each temtem with attacking types as keys, and the resulting modifiers as values.",
+            },
           ]}
         />
         <p>Currently has information for {num} Temtems.</p>
@@ -167,19 +169,21 @@ function TemtemBlock() {
             {
               name: "fields",
               required: false,
-              description: "A comma separated list of fields you want returned."
+              description:
+                "A comma separated list of fields you want returned.",
             },
             {
               name: "expand",
               required: false,
-              description: "A comma separated list of fields you want extended."
+              description:
+                "A comma separated list of fields you want extended.",
             },
             {
               name: "weaknesses",
               required: false,
               description:
-                "A flag to indicate if you want a 'weaknesses' object included for each temtem with attacking types as keys, and the resulting modifiers as values."
-            }
+                "A flag to indicate if you want a 'weaknesses' object included for each temtem with attacking types as keys, and the resulting modifiers as values.",
+            },
           ]}
         />
         <p>
@@ -238,13 +242,14 @@ function TypesBlock() {
             {
               name: "fields",
               required: false,
-              description: "A comma separated list of fields you want returned."
+              description:
+                "A comma separated list of fields you want returned.",
             },
             {
               name: "limit",
               required: false,
-              description: "The maximum number of items to return."
-            }
+              description: "The maximum number of items to return.",
+            },
           ]}
         />
         <p>Currently has information for {num} types.</p>
@@ -267,13 +272,14 @@ function ConditionsBlock() {
             {
               name: "fields",
               required: false,
-              description: "A comma separated list of fields you want returned."
+              description:
+                "A comma separated list of fields you want returned.",
             },
             {
               name: "limit",
               required: false,
-              description: "The maximum number of items to return."
-            }
+              description: "The maximum number of items to return.",
+            },
           ]}
         />
         <p>Currently has information for {num} conditions.</p>
@@ -297,18 +303,19 @@ function TechniquesBlock() {
               name: "names",
               required: false,
               description:
-                "A comma separated list of technique names that you want information about."
+                "A comma separated list of technique names that you want information about.",
             },
             {
               name: "fields",
               required: false,
-              description: "A comma separated list of fields you want returned."
+              description:
+                "A comma separated list of fields you want returned.",
             },
             {
               name: "limit",
               required: false,
-              description: "The maximum number of items to return."
-            }
+              description: "The maximum number of items to return.",
+            },
           ]}
         />
         <p>Currently has information for {num} techniques.</p>
@@ -342,13 +349,14 @@ function TrainingCoursesBlock() {
             {
               name: "fields",
               required: false,
-              description: "A comma separated list of fields you want returned."
+              description:
+                "A comma separated list of fields you want returned.",
             },
             {
               name: "limit",
               required: false,
-              description: "The maximum number of items to return."
-            }
+              description: "The maximum number of items to return.",
+            },
           ]}
         />
         <p>Currently has information for {num} training courses.</p>
@@ -370,18 +378,19 @@ function TraitsBlock() {
               name: "names",
               required: false,
               description:
-                "A comma separated list of trait names that you want information about."
+                "A comma separated list of trait names that you want information about.",
             },
             {
               name: "fields",
               required: false,
-              description: "A comma separated list of fields you want returned."
+              description:
+                "A comma separated list of fields you want returned.",
             },
             {
               name: "limit",
               required: false,
-              description: "The maximum number of items to return."
-            }
+              description: "The maximum number of items to return.",
+            },
           ]}
         />
         <p>Currently has information for {num} traits.</p>
@@ -403,13 +412,14 @@ function GearBlock() {
             {
               name: "fields",
               required: false,
-              description: "A comma separated list of fields you want returned."
+              description:
+                "A comma separated list of fields you want returned.",
             },
             {
               name: "limit",
               required: false,
-              description: "The maximum number of items to return."
-            }
+              description: "The maximum number of items to return.",
+            },
           ]}
         />
         <p>Currently has information for {num} pieces of gear.</p>
@@ -432,13 +442,14 @@ function ItemBlock() {
             {
               name: "fields",
               required: false,
-              description: "A comma separated list of fields you want returned."
+              description:
+                "A comma separated list of fields you want returned.",
             },
             {
               name: "limit",
               required: false,
-              description: "The maximum number of items to return."
-            }
+              description: "The maximum number of items to return.",
+            },
           ]}
         />
         <p>Currently has information for {num} items.</p>
@@ -460,13 +471,14 @@ function LocationsBlock() {
             {
               name: "fields",
               required: false,
-              description: "A comma separated list of fields you want returned."
+              description:
+                "A comma separated list of fields you want returned.",
             },
             {
               name: "limit",
               required: false,
-              description: "The maximum number of items to return."
-            }
+              description: "The maximum number of items to return.",
+            },
           ]}
         />
         <p>Currently has information for {num} islands.</p>
@@ -487,13 +499,14 @@ function QuestsBlock() {
             {
               name: "fields",
               required: false,
-              description: "A comma separated list of fields you want returned."
+              description:
+                "A comma separated list of fields you want returned.",
             },
             {
               name: "limit",
               required: false,
-              description: "The maximum number of items to return."
-            }
+              description: "The maximum number of items to return.",
+            },
           ]}
         />
         <p>Currently has information for {num} quests.</p>
@@ -514,13 +527,14 @@ function CharactersBlock() {
             {
               name: "fields",
               required: false,
-              description: "A comma separated list of fields you want returned."
+              description:
+                "A comma separated list of fields you want returned.",
             },
             {
               name: "limit",
               required: false,
-              description: "The maximum number of items to return."
-            }
+              description: "The maximum number of items to return.",
+            },
           ]}
         />
         <p>Currently has information for {num} characters.</p>
@@ -541,13 +555,14 @@ function PatchesBlock() {
             {
               name: "fields",
               required: false,
-              description: "A comma separated list of fields you want returned."
+              description:
+                "A comma separated list of fields you want returned.",
             },
             {
               name: "limit",
               required: false,
-              description: "The maximum number of items to return."
-            }
+              description: "The maximum number of items to return.",
+            },
           ]}
         />
         <p>Currently has information for {num} patches.</p>
@@ -568,13 +583,14 @@ function SaiparkBlock() {
             {
               name: "fields",
               required: false,
-              description: "A comma separated list of fields you want returned."
+              description:
+                "A comma separated list of fields you want returned.",
             },
             {
               name: "limit",
               required: false,
-              description: "The maximum number of items to return."
-            }
+              description: "The maximum number of items to return.",
+            },
           ]}
         />
         <p>Currently has information for {num} saipark rotations.</p>
@@ -613,14 +629,14 @@ function CalculateBlock() {
             {
               name: "attacking",
               required: true,
-              description: "A valid Temtem type to use as the attack value."
+              description: "A valid Temtem type to use as the attack value.",
             },
             {
               name: "defending",
               required: true,
               description:
-                "A comma separated list of valid Temtem types to use as the defending values"
-            }
+                "A comma separated list of valid Temtem types to use as the defending values",
+            },
           ]}
         />
       </>
@@ -651,13 +667,14 @@ function DyesBlock() {
             {
               name: "fields",
               required: false,
-              description: "A comma separated list of fields you want returned."
+              description:
+                "A comma separated list of fields you want returned.",
             },
             {
               name: "limit",
               required: false,
-              description: "The maximum number of items to return."
-            }
+              description: "The maximum number of items to return.",
+            },
           ]}
         />
         <p>Currently has information for {num} dyes.</p>
@@ -678,13 +695,14 @@ function CosmeticsBlock() {
             {
               name: "fields",
               required: false,
-              description: "A comma separated list of fields you want returned."
+              description:
+                "A comma separated list of fields you want returned.",
             },
             {
               name: "limit",
               required: false,
-              description: "The maximum number of items to return."
-            }
+              description: "The maximum number of items to return.",
+            },
           ]}
         />
         <p>Currently has information for {num} cosmetics.</p>

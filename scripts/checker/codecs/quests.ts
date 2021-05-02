@@ -8,7 +8,7 @@ const MainQuestCodec = t.type({
   rewards: t.array(t.string),
   startingLocation: t.string,
   startingNPC: t.string,
-  requirements: t.string
+  requirements: t.string,
 });
 
 const SideQuestCodec = t.type({
@@ -22,7 +22,7 @@ const SideQuestCodec = t.type({
   steps: t.array(t.string),
   rewards: t.array(t.string),
   startingLocation: t.string,
-  startingNPC: t.string
+  startingNPC: t.string,
 });
 
 const QuestCodec = t.union([MainQuestCodec, SideQuestCodec]);

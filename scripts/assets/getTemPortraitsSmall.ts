@@ -10,14 +10,14 @@ export default async function getTemPortraits() {
   log.info("Starting");
   await Promise.all(
     knownTems.map(
-      throat(CONCURRENCY_LIMIT, async item => {
+      throat(CONCURRENCY_LIMIT, async (item) => {
         try {
           await pipeFile((item.portraitWikiUrl as unknown) as string, [
             "images",
             "portraits",
             "temtem",
             "small",
-            `${item.name}.png`
+            `${item.name}.png`,
           ]);
         } catch (e) {
           log.error(e.message);

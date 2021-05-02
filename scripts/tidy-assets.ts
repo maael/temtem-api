@@ -19,13 +19,13 @@ glob(
       format: "{bar} | {percentage}% | {value}/{total} | {duration_formatted}",
       barCompleteChar: "\u2588",
       barIncompleteChar: "\u2591",
-      hideCursor: true
+      hideCursor: true,
     });
     prog.start(files.length, 0);
     const largeImages: string[] = [];
     await Promise.all(
       files.map(
-        throat(15, async f => {
+        throat(15, async (f) => {
           const img = await Jimp.read(f);
           const height = img.getHeight();
           const width = img.getWidth();

@@ -4,12 +4,12 @@ const summary = require("../../data/summary.json");
 export default async (_req, res) => {
   const [lastChecked, lastBuildStatus] = await Promise.all([
     getCiInfo(),
-    getCiMostRecentStatus()
+    getCiMostRecentStatus(),
   ]);
   res.json({
     lastChecked,
     lastUpdated: summary.mostRecent,
-    lastBuildStatus
+    lastBuildStatus,
   });
 };
 
@@ -19,7 +19,7 @@ async function getCiInfo() {
     const url = `https://circleci.com/api/v1.1/project/gh/maael/temtem-api?circle-token=${TOKEN}&limit=50&filter=completed`;
     const res = await got<any>(url, { responseType: "json" });
     const updaterJobs = res.body.filter(
-      item => item.build_parameters.CIRCLE_JOB === "updater"
+      (item) => item.build_parameters.CIRCLE_JOB === "updater"
     );
     const mostRecent = updaterJobs[0];
     if (mostRecent) {

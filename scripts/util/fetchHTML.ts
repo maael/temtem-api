@@ -13,7 +13,7 @@ export default async function htmlFetcher<T = any>(
   log.info(`Fetching ${label} html for ${items.length} items`);
   const result = await Promise.all(
     items.map(
-      throat(CONCURRENCY_LIMIT, async item => {
+      throat(CONCURRENCY_LIMIT, async (item) => {
         const url = prefix
           ? `https://temtem.gamepedia.com/${item[itemKey]}`
           : item[itemKey];
@@ -21,13 +21,13 @@ export default async function htmlFetcher<T = any>(
           const res = await got(url);
           return {
             item,
-            html: res.body
+            html: res.body,
           };
         } catch (e) {
           log.warn("error getting html for", url);
           return {
             item,
-            html: ""
+            html: "",
           };
         }
       })

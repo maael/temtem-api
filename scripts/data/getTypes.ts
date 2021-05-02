@@ -12,16 +12,16 @@ const ordering = [
   "Digital",
   "Melee",
   "Crystal",
-  "Toxic"
+  "Toxic",
 ];
 
 export default async function getTypes() {
   log.info("Starting");
   try {
     log.info("Running");
-    const types = ordering.map(t => ({
+    const types = ordering.map((t) => ({
       name: t,
-      icon: `/images/icons/types/${t}.png`
+      icon: `/images/icons/types/${t}.png`,
     }));
     return types;
   } catch (e) {

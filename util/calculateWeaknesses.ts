@@ -12,15 +12,15 @@ export default function calculateWeaknesses(
     attacking.length &&
     TYPES.includes(attacking) &&
     defending.length &&
-    defending.every(d => TYPES.includes(d))
+    defending.every((d) => TYPES.includes(d))
   ) {
     const attackingRow = weaknessesData[attacking];
-    const defendingModifiers = defending.map(d => attackingRow[d]);
+    const defendingModifiers = defending.map((d) => attackingRow[d]);
     return {
       attacking,
       defending,
       modifiers: defendingModifiers,
-      result: defendingModifiers.reduce((pre, cur) => pre * cur, 1)
+      result: defendingModifiers.reduce((pre, cur) => pre * cur, 1),
     };
   } else {
     throw Error("An unknown type is present");

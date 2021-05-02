@@ -31,17 +31,14 @@ function formatItem(item: Item) {
     ratePercent: item.ratePercent,
     lumaRate: item.lumaRate,
     minSvs: item.minSvs,
-    eggTechPercent: item.eggTechPercent
+    eggTechPercent: item.eggTechPercent,
   };
 }
 
 export default async function getSaipark() {
   const result = await got("https://temtem.gamepedia.com/Saipark");
   const $ = cheerio.load(result.body);
-  const $previousTable = $("#Featured_Temtem_History")
-    .parent()
-    .next()
-    .next();
+  const $previousTable = $("#Featured_Temtem_History").parent().next().next();
   const rows = typedToArray<Item>(
     $($previousTable)
       .find("tbody > tr")
@@ -50,27 +47,21 @@ export default async function getSaipark() {
           $(tr)
             .find("td")
             .map((_j, td) => ({
-              text: $(td)
-                .text()
-                .replace(/\\n/, "")
-                .trim(),
-              href:
-                $(td)
-                  .find("a")
-                  .attr("href") || ""
+              text: $(td).text().replace(/\\n/, "").trim(),
+              href: $(td).find("a").attr("href") || "",
             }))
         );
         if (data.length === 0) return undefined;
         return {
           temtem: data[0].text,
           area: data[1].text,
-          areas: data[1].text.split(",").map(a => a.trim()),
+          areas: data[1].text.split(",").map((a) => a.trim()),
           week: data[6].text,
           tweet: data[6].href,
           ratePercent: parseFloat(data[2].text.replace("%", "")) || 100,
           lumaRate: parseFloat(data[3].text.replace("x", "")) || 0,
           minSvs: parseFloat(data[4].text) || 0,
-          eggTechPercent: parseFloat(data[5].text.replace("%", "")) || 0
+          eggTechPercent: parseFloat(data[5].text.replace("%", "")) || 0,
         };
       })
   );
@@ -81,7 +72,7 @@ export default async function getSaipark() {
     const weekParts = items[0].week
       .toLowerCase()
       .split("week")
-      .map(i => parseInt(i.trim(), 10));
+      .map((i) => parseInt(i.trim(), 10));
     const weeks = weekParts[1];
     const startDate = add(week_1_2020_start, { weeks, days: 1 });
     const endDate = add(endOfWeek(startDate), { days: 1 });
@@ -100,11 +91,11 @@ export default async function getSaipark() {
       endDate: endDate.toISOString(),
       tweet: items[0].tweet,
       land: items
-        .filter(i =>
-          ["Hills", "Fields", "Caves"].some(l => i.areas.includes(l))
+        .filter((i) =>
+          ["Hills", "Fields", "Caves"].some((l) => i.areas.includes(l))
         )
         .map(formatItem),
-      water: items.filter(i => i.areas.includes("Water")).map(formatItem)
+      water: items.filter((i) => i.areas.includes("Water")).map(formatItem),
     });
   }, []);
   return formatted;

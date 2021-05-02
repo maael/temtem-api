@@ -13,7 +13,7 @@ export default async function getTypeIcons() {
     .map((_i, el) => $(el).attr("src"))
     .toArray();
   await Promise.all(
-    images.map(async img => {
+    images.map(async (img) => {
       const p = path.parse((img as unknown) as string);
       let filename = `${p.name.split("-")[1]}${p.ext.split("?")[0]}`;
       if (filename === "UnknownType.png") {
@@ -24,7 +24,7 @@ export default async function getTypeIcons() {
           "images",
           "icons",
           "types",
-          filename
+          filename,
         ]);
       } catch (e) {
         log.error(e.message);

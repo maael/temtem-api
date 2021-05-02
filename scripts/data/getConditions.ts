@@ -27,10 +27,10 @@ export default async function getStatuses() {
       const conditions = $(el)
         .text()
         .split(" and ")
-        .map(c => ({
+        .map((c) => ({
           name: c.trim(),
           description,
-          icon: `/images/icons/conditions/${c.trim()}.png`
+          icon: `/images/icons/conditions/${c.trim()}.png`,
         }));
       statuses.push(...conditions);
     });

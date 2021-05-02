@@ -5,7 +5,7 @@ const CosmeticTypes = t.union([
   t.literal("top"),
   t.literal("bottom"),
   t.literal("set"),
-  t.literal("bag")
+  t.literal("bag"),
 ]);
 
 export const Codec = t.type({
@@ -16,7 +16,7 @@ export const Codec = t.type({
   location: t.string,
   cost: t.number,
   requirement: t.string,
-  description: t.string
+  description: t.string,
 });
 
 export const CosmeticList = t.array(Codec);

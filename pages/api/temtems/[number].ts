@@ -34,7 +34,7 @@ export default cors(async (req: NextApiRequest, res: NextApiResponse) => {
   } else {
     const expand = ((req.query.expand || "").toString() || "")
       .split(",")
-      .map(t => t.trim());
+      .map((t) => t.trim());
     const result = pruned
       .map(
         expand.includes("traits")
@@ -61,11 +61,11 @@ export default cors(async (req: NextApiRequest, res: NextApiResponse) => {
 });
 
 function customExpandTechniqueSource(trainingCoursesList: any[]) {
-  return function(input) {
-    input.techniques = input.techniques.map(tech => {
+  return function (input) {
+    input.techniques = input.techniques.map((tech) => {
       if (tech.source !== TechniqueSource.TRAINING_COURSE) return tech;
       return Object.assign(tech, {
-        trainingCourse: trainingCoursesList.find(({ name }) => tech.name)
+        trainingCourse: trainingCoursesList.find(({ name }) => tech.name),
       });
     });
     return input;

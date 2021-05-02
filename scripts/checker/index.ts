@@ -6,13 +6,10 @@ import * as log from "../util/log";
 (async () => {
   const dataDir = __dirname + "/../../data/";
   const dataFiles = (await fs.readdir(dataDir)).filter(
-    i => i.endsWith(".json") && !i.startsWith("summary")
+    (i) => i.endsWith(".json") && !i.startsWith("summary")
   );
-  dataFiles.forEach(i => {
-    const name = i
-      .split(".")
-      .slice(0, -1)
-      .join("");
+  dataFiles.forEach((i) => {
+    const name = i.split(".").slice(0, -1).join("");
     const codec = codecMap[name];
     if (codec) {
       let data;
@@ -27,7 +24,7 @@ import * as log from "../util/log";
       log.warn("Missing codec for:", name);
     }
   });
-})().catch(e => {
+})().catch((e) => {
   log.error(e);
   process.exit(0);
 });

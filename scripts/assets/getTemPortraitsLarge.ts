@@ -10,7 +10,7 @@ export default async function getTemPortraits() {
   log.info("Starting");
   await Promise.all(
     knownTems.map(
-      throat(CONCURRENCY_LIMIT, async item => {
+      throat(CONCURRENCY_LIMIT, async (item) => {
         try {
           await Promise.all([
             pipeFile(item.wikiPortraitUrlLarge, [
@@ -18,7 +18,7 @@ export default async function getTemPortraits() {
               "portraits",
               "temtem",
               "large",
-              `${item.name}.png`
+              `${item.name}.png`,
             ]),
             item.lumaWikiPortraitUrlLarge
               ? pipeFile(item.lumaWikiPortraitUrlLarge, [
@@ -27,9 +27,9 @@ export default async function getTemPortraits() {
                   "temtem",
                   "luma",
                   "large",
-                  `${item.name}.png`
+                  `${item.name}.png`,
                 ])
-              : undefined
+              : undefined,
           ]);
         } catch (e) {
           log.error(e.message);

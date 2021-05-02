@@ -43,14 +43,12 @@ function embellishPatch({ item, html }) {
         .next("ul")
         .find("li")
         .map((_j, patchItem) => {
-          return $(patchItem)
-            .text()
-            .trim();
+          return $(patchItem).text().trim();
         })
         .toArray();
       return {
         type,
-        items
+        items,
       };
     })
     .toArray() as any)
@@ -59,7 +57,7 @@ function embellishPatch({ item, html }) {
       fixes: [],
       improvements: [],
       features: [],
-      balance: []
+      balance: [],
     });
   return { ...item, patchInfo };
 }

@@ -4,7 +4,7 @@ import * as log from "./log";
 import traverse, {
   cleanStrings,
   capitalizeType,
-  removeWikiReferences
+  removeWikiReferences,
 } from "./objectCleaner";
 
 export function getDataPath(name: string) {
@@ -16,7 +16,7 @@ export default async function write(name: string, data: any) {
   const cleanData = traverse(data, [
     cleanStrings,
     capitalizeType,
-    removeWikiReferences
+    removeWikiReferences,
   ]);
   log.info("cleaned");
   log.info("writing", name);

@@ -6,7 +6,7 @@ const AreaInfo = t.type({
   ratePercent: t.number,
   lumaRate: t.number,
   minSvs: t.number,
-  eggTechPercent: t.number
+  eggTechPercent: t.number,
 });
 
 export const Codec = t.type({
@@ -17,7 +17,7 @@ export const Codec = t.type({
   endDateFormatted: t.string,
   tweet: t.string,
   land: t.array(AreaInfo),
-  water: t.array(AreaInfo)
+  water: t.array(AreaInfo),
 });
 
 export const SaiparkList = t.array(Codec);

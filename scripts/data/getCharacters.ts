@@ -20,10 +20,8 @@ export default async function getCharacters() {
     const characters = typedToArray<Character>(
       page.find("a").map((_i, el) => {
         return {
-          name: $(el)
-            .text()
-            .trim(),
-          wikiUrl: `https://temtem.gamepedia.com${$(el).attr("href")}`
+          name: $(el).text().trim(),
+          wikiUrl: `https://temtem.gamepedia.com${$(el).attr("href")}`,
         };
       })
     ).filter(({ name }) => !["Characters", "Characters/pt-br"].includes(name));

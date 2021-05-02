@@ -18,7 +18,7 @@ export async function sendPageView(req: NextApiRequest, page: string) {
       dh: req.headers.host,
       dp: `/api/${page}`,
       dt: page,
-      ds: "server"
+      ds: "server",
     });
     if (!process.env.GA_TOKEN) {
       console.info("ga:pageView", qss);

@@ -12,7 +12,7 @@ const TypeName = t.union([
   t.literal("Digital"),
   t.literal("Melee"),
   t.literal("Crystal"),
-  t.literal("Toxic")
+  t.literal("Toxic"),
 ]);
 
 export const Codec = t.record(TypeName, t.record(TypeName, t.number));

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import ApiBlock from "@maael/api-block-component";
 import ApiHeader from "@maael/api-header-component";
 import ApiParamBlock, {
-  Props as ParamBlockProps
+  Props as ParamBlockProps,
 } from "@maael/api-param-block-component";
 
 export interface Props {
@@ -14,7 +14,7 @@ export interface Props {
 export default function ApiDrivenApiBlockWithParams({
   url,
   params,
-  children
+  children,
 }: Props) {
   const [paramState] = useState(
     params.reduce((acc, cur) => ({ ...acc, [cur.name]: "" }), {})
@@ -37,7 +37,7 @@ export default function ApiDrivenApiBlockWithParams({
       } finally {
         setLoading(false);
       }
-    })().catch(e => console.error(e));
+    })().catch((e) => console.error(e));
   }, [paramState]);
   console.info(paramState, err, loading);
   return (

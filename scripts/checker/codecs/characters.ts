@@ -2,7 +2,7 @@ import * as t from "io-ts";
 
 export const Codec = t.type({
   name: t.string,
-  wikiUrl: t.string
+  wikiUrl: t.string,
 });
 
 export const CharacterList = t.array(Codec);

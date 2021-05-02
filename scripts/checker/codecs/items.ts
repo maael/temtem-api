@@ -19,8 +19,8 @@ export const Codec = t.type({
     t.literal("gear"),
     t.literal("course"),
     t.literal("key"),
-    t.literal("quest")
-  ])
+    t.literal("quest"),
+  ]),
 });
 
 export const ItemList = t.array(Codec);

@@ -9,8 +9,8 @@ import * as log from "../util/log";
 
 const args = process.argv.slice(2);
 const filter = args
-  .filter(i => !i.startsWith("-"))
-  .map(i => i.split(",").map(t => t.trim()))
+  .filter((i) => !i.startsWith("-"))
+  .map((i) => i.split(",").map((t) => t.trim()))
   .reduce((acc, arr) => acc.concat(arr), []);
 
 async function runIfActive(k: string, fn: () => Promise<void>) {
@@ -31,7 +31,7 @@ async function runIfActive(k: string, fn: () => Promise<void>) {
   await runIfActive("gear", getGearIcons);
   await runIfActive("items", getItemIcons);
   await runIfActive("renders", getRenders);
-})().catch(e => {
+})().catch((e) => {
   log.error(e);
   throw e;
 });

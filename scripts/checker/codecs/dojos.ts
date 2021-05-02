@@ -12,10 +12,10 @@ export const Codec = t.type({
         name: t.string,
         number: t.number,
         techniques: t.array(t.string),
-        trait: t.string
+        trait: t.string,
       })
-    )
-  })
+    ),
+  }),
 });
 
 export const DojoList = t.array(Codec);

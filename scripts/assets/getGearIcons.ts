@@ -11,7 +11,7 @@ export default async function getGearIcons() {
   log.info("Starting");
   await Promise.all(
     gear.map(
-      throat(CONCURRENCY_LIMIT, async item => {
+      throat(CONCURRENCY_LIMIT, async (item) => {
         try {
           const { base } = path.parse(item.wikiIconUrl);
           const cleanFilename = base.split("-").pop()!;
@@ -19,7 +19,7 @@ export default async function getGearIcons() {
             "images",
             "icons",
             "gear",
-            cleanFilename
+            cleanFilename,
           ]);
         } catch (e) {
           log.error(e.message);

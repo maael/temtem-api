@@ -1,8 +1,8 @@
 export const typeExample = [
   {
     name: "Neutral",
-    icon: "/images/icons/types/Neutral.png"
-  }
+    icon: "/images/icons/types/Neutral.png",
+  },
 ];
 
 export const conditionExample = [
@@ -10,8 +10,8 @@ export const conditionExample = [
     name: "Cold",
     description:
       "If Cold is afflicted twice, the Temtem becomes Frozen. Frozen Temtem cannot attack, but they can rest normally. Cold and Frozen also serve to erase the Burnt Condition from a Temtem, while Burnt erases both Cold and Frozen",
-    icon: "/images/icons/conditions/Cold.png"
-  }
+    icon: "/images/icons/conditions/Cold.png",
+  },
 ];
 
 export const locationExample = [
@@ -26,77 +26,77 @@ export const locationExample = [
       {
         name: "Prasine Coast",
         wikiUrl: "https://temtem.gamepedia.com/Prasine_Coast",
-        type: "route"
+        type: "route",
       },
       {
         name: "Thalassian Cliffs",
         wikiUrl: "https://temtem.gamepedia.com/Thalassian_Cliffs",
-        type: "route"
+        type: "route",
       },
       {
         name: "The Gifted Bridges",
         wikiUrl: "https://temtem.gamepedia.com/The_Gifted_Bridges",
-        type: "route"
+        type: "route",
       },
       {
         name: "Sillaro River",
         wikiUrl: "https://temtem.gamepedia.com/Sillaro_River",
-        type: "route"
-      }
+        type: "route",
+      },
     ],
     townsAndVillages: [
       {
         name: "Zadar",
         wikiUrl: "https://temtem.gamepedia.com/Zadar",
-        type: "townorvillage"
+        type: "townorvillage",
       },
       {
         name: "Briçal de Mar",
         wikiUrl: "https://temtem.gamepedia.com/Bri%C3%A7al_de_Mar",
-        type: "townorvillage"
+        type: "townorvillage",
       },
       {
         name: "Arissola",
         wikiUrl: "https://temtem.gamepedia.com/Arissola",
-        type: "townorvillage"
+        type: "townorvillage",
       },
       {
         name: "Turquesa",
         wikiUrl: "https://temtem.gamepedia.com/Turquesa",
-        type: "townorvillage"
-      }
+        type: "townorvillage",
+      },
     ],
     landmarks: [
       {
         name: "Sillaro",
         wikiUrl: "https://temtem.gamepedia.com/Sillaro",
-        type: "landmark"
+        type: "landmark",
       },
       {
         name: "Windward Fort",
         wikiUrl: "https://temtem.gamepedia.com/Windward_Fort",
-        type: "landmark"
+        type: "landmark",
       },
       {
         name: "Aguamarina Caves",
         wikiUrl: "https://temtem.gamepedia.com/Aguamarina_Caves",
-        type: "landmark"
+        type: "landmark",
       },
       {
         name: "Indigo Lake",
         wikiUrl: "https://temtem.gamepedia.com/Indigo_Lake",
-        type: "landmark"
+        type: "landmark",
       },
       {
         name: "Arissola Dojo",
         wikiUrl: "https://temtem.gamepedia.com/Arissola_Dojo",
-        type: "landmark"
+        type: "landmark",
       },
       {
         name: "Saipark",
         wikiUrl: "https://temtem.gamepedia.com/Saipark",
-        type: "landmark"
-      }
+        type: "landmark",
+      },
     ],
     temtem: [
       "Swali",
@@ -119,13 +119,13 @@ export const locationExample = [
       "Barnshe",
       "Nessla",
       "Oceara",
-      "Pigepic"
+      "Pigepic",
     ],
     trivia: [
       'The inspiration of Deniz is a melting pot relating to the Mediterranean Sea, the most predominant cultures being Spain, Italy, and Turkey. The island\'s name itself means "sea" in Turkish. Several placenames are Spanish, and the fact that its the starting region might allude to Crema being based of Madrid.',
-      "Deniz was the first playable island to be featured in the game. During Alpha 1.0, it was the only explorable island."
-    ]
-  }
+      "Deniz was the first playable island to be featured in the game. During Alpha 1.0, it was the only explorable island.",
+    ],
+  },
 ];
 
 export const techniqueExample = [
@@ -145,18 +145,18 @@ export const techniqueExample = [
       {
         effect: "+20 Base Power",
         type: "damage",
-        damage: 20
+        damage: 20,
       },
       {
         effect: "+1 Priority",
         type: "priority",
-        damage: 0
-      }
+        damage: 0,
+      },
     ],
     targets: "Single Other Target",
     description:
-      'A miniature version of the "star-rain" that is said to have spawned the Archipelago.'
-  }
+      'A miniature version of the "star-rain" that is said to have spawned the Archipelago.',
+  },
 ];
 
 export const traitExample = [
@@ -166,8 +166,8 @@ export const traitExample = [
     description:
       "When an ally is knocked-out, increases SPATK and SPD by 1 stage.",
     effect:
-      "Increase SPATK and SPD by one stage whenever an ally temtem is knocked out."
-  }
+      "Increase SPATK and SPD by one stage whenever an ally temtem is knocked out.",
+  },
 ];
 
 export const questExample = [
@@ -186,18 +186,18 @@ export const questExample = [
       "Put an end to Dr. Hamijo's dastardly plan!",
       "Time to return to Nanga and Check on Tihani...",
       "Beat Tihani to prove your mettle.",
-      "Fly to Kisiwa on the Narwhal"
+      "Fly to Kisiwa on the Narwhal",
     ],
     rewards: [
       "Lift key",
       "Belsoto grunt uniform",
       "Crystal skates",
       "Anahir",
-      "Deendre"
+      "Deendre",
     ],
     startingLocation: "Nanga",
     startingNPC: "",
-    requirements: ""
+    requirements: "",
   },
   {
     name: "Paparazzo",
@@ -209,12 +209,12 @@ export const questExample = [
     type: "side",
     steps: [
       "Locate the famous Visesia in Citerior Omninesia",
-      "Talk to Paparazzo."
+      "Talk to Paparazzo.",
     ],
     rewards: ["Pillow"],
     startingLocation: "Mokupuni or The Flywalk",
-    startingNPC: "Paparazzo or Visesia"
-  }
+    startingNPC: "Paparazzo or Visesia",
+  },
 ];
 
 export const gearExample = [
@@ -231,8 +231,8 @@ export const gearExample = [
     buyPrice: 10,
     description:
       "Aggressive DNA Strand This single-use DNA strand ensures the egg inherits the parent's ATK.",
-    gameDescription: "NEEDS DESCRIPTION"
-  }
+    gameDescription: "NEEDS DESCRIPTION",
+  },
 ];
 
 export const knownTemtemExample = [
@@ -251,77 +251,77 @@ export const knownTemtemExample = [
       def: 38,
       spatk: 62,
       spdef: 73,
-      total: 375
+      total: 375,
     },
     traits: ["Botanophobia", "Cold-Natured"],
     details: {
       height: {
         cm: 105,
-        inches: 41
+        inches: 41,
       },
       weight: {
         kg: 14,
-        lbs: 31
-      }
+        lbs: 31,
+      },
     },
     techniques: [
       {
         name: "Sparks",
         source: "Levelling",
-        levels: 1
+        levels: 1,
       },
       {
         name: "Nimble",
         source: "Levelling",
-        levels: 3
+        levels: 3,
       },
       {
         name: "Wind Blade",
         source: "Levelling",
-        levels: 5
+        levels: 5,
       },
       {
         name: "DC Beam",
         source: "Levelling",
-        levels: 7
+        levels: 7,
       },
       {
         name: "Chain Lightning",
         source: "Levelling",
-        levels: 16
+        levels: 16,
       },
       {
         name: "Drill Impact",
         source: "Levelling",
-        levels: 22
+        levels: 22,
       },
       {
         name: "Electric Storm",
         source: "Levelling",
-        levels: 32
+        levels: 32,
       },
       {
         name: "Turbo Choreography",
-        source: "TechniqueCourses"
+        source: "TechniqueCourses",
       },
       {
         name: "Misogi",
-        source: "TechniqueCourses"
+        source: "TechniqueCourses",
       },
       {
         name: "Noxious Bomb",
-        source: "TechniqueCourses"
+        source: "TechniqueCourses",
       },
       {
         name: "Tesla Prison",
-        source: "Breeding"
-      }
+        source: "Breeding",
+      },
     ],
     trivia: [
       "Ganki was first revealed via Twitter.",
       "Ganki is a combination of ga (moth) + denki (electric current), both being Japanese words.",
       "Ganki has an emote on the official Temtem discord.",
-      "Prior to alpha 0.2.5 Ganki learned hypnosis."
+      "Prior to alpha 0.2.5 Ganki learned hypnosis.",
     ],
     evolution: {
       stage: 1,
@@ -334,8 +334,8 @@ export const knownTemtemExample = [
           trading: false,
           traitMapping: {
             Botanophobia: "Receptive",
-            "Cold-Natured": "Fast Charge"
-          }
+            "Cold-Natured": "Fast Charge",
+          },
         },
         {
           number: 114,
@@ -343,12 +343,12 @@ export const knownTemtemExample = [
           stage: 2,
           traitMapping: {
             Receptive: "Receptive",
-            "Fast Charge": "Fast Charge"
-          }
-        }
+            "Fast Charge": "Fast Charge",
+          },
+        },
       ],
       evolves: true,
-      type: "level"
+      type: "level",
     },
     wikiPortraitUrlLarge:
       "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/bc/Ganki.png/250px-Ganki.png?version=d18706728e9cc3706caea19e24063ac4",
@@ -364,8 +364,8 @@ export const knownTemtemExample = [
           minLevel: 5,
           maxLevel: 8,
           minPansuns: 33,
-          maxPansuns: 40
-        }
+          maxPansuns: 40,
+        },
       },
       {
         location: "Windward Fort",
@@ -378,15 +378,15 @@ export const knownTemtemExample = [
           minLevel: 12,
           maxLevel: 14,
           minPansuns: 50,
-          maxPansuns: 55
-        }
-      }
+          maxPansuns: 55,
+        },
+      },
     ],
     icon: "/images/portraits/temtem/large/Ganki.png",
     lumaIcon: "/images/portraits/temtem/luma/large/Ganki.png",
     genderRatio: {
       male: 50,
-      female: 50
+      female: 50,
     },
     catchRate: 120,
     hatchMins: 21,
@@ -397,7 +397,7 @@ export const knownTemtemExample = [
       atk: 1,
       def: 0,
       spatk: 0,
-      spdef: 0
+      spdef: 0,
     },
     gameDescription:
       "Many Cipanki legends mention the kind but powerful Ganki as mountain spirits, mythologically related to lightning and whirlwinds. Although they are no longer revered as kami, the Cipanki still appreciate and breed them.",
@@ -408,8 +408,8 @@ export const knownTemtemExample = [
     renderStaticImage: "",
     renderStaticLumaImage: "",
     renderAnimatedImage: "",
-    renderAnimatedLumaImage: ""
-  }
+    renderAnimatedLumaImage: "",
+  },
 ];
 
 export const weaknessesExample = {
@@ -425,7 +425,7 @@ export const weaknessesExample = {
     Digital: 1,
     Melee: 1,
     Crystal: 1,
-    Toxic: 1
+    Toxic: 1,
   },
   Fire: {
     Neutral: 1,
@@ -439,7 +439,7 @@ export const weaknessesExample = {
     Digital: 1,
     Melee: 1,
     Crystal: 2,
-    Toxic: 1
+    Toxic: 1,
   },
   Water: {
     Neutral: 1,
@@ -453,7 +453,7 @@ export const weaknessesExample = {
     Digital: 2,
     Melee: 1,
     Crystal: 1,
-    Toxic: 0.5
+    Toxic: 0.5,
   },
   Nature: {
     Neutral: 1,
@@ -467,7 +467,7 @@ export const weaknessesExample = {
     Digital: 1,
     Melee: 1,
     Crystal: 1,
-    Toxic: 0.5
+    Toxic: 0.5,
   },
   Electric: {
     Neutral: 1,
@@ -481,7 +481,7 @@ export const weaknessesExample = {
     Digital: 2,
     Melee: 1,
     Crystal: 0.5,
-    Toxic: 1
+    Toxic: 1,
   },
   Earth: {
     Neutral: 1,
@@ -495,7 +495,7 @@ export const weaknessesExample = {
     Digital: 1,
     Melee: 1,
     Crystal: 2,
-    Toxic: 1
+    Toxic: 1,
   },
   Mental: {
     Neutral: 2,
@@ -509,7 +509,7 @@ export const weaknessesExample = {
     Digital: 1,
     Melee: 2,
     Crystal: 0.5,
-    Toxic: 1
+    Toxic: 1,
   },
   Wind: {
     Neutral: 1,
@@ -523,7 +523,7 @@ export const weaknessesExample = {
     Digital: 1,
     Melee: 1,
     Crystal: 1,
-    Toxic: 2
+    Toxic: 2,
   },
   Digital: {
     Neutral: 1,
@@ -537,7 +537,7 @@ export const weaknessesExample = {
     Digital: 2,
     Melee: 2,
     Crystal: 1,
-    Toxic: 1
+    Toxic: 1,
   },
   Melee: {
     Neutral: 1,
@@ -551,7 +551,7 @@ export const weaknessesExample = {
     Digital: 1,
     Melee: 0.5,
     Crystal: 2,
-    Toxic: 1
+    Toxic: 1,
   },
   Crystal: {
     Neutral: 1,
@@ -565,7 +565,7 @@ export const weaknessesExample = {
     Digital: 1,
     Melee: 1,
     Crystal: 1,
-    Toxic: 1
+    Toxic: 1,
   },
   Toxic: {
     Neutral: 1,
@@ -579,15 +579,15 @@ export const weaknessesExample = {
     Digital: 0.5,
     Melee: 1,
     Crystal: 0.5,
-    Toxic: 0.5
-  }
+    Toxic: 0.5,
+  },
 };
 
 export const weaknessCalculateExample = {
   attacking: "Electric",
   defending: ["Water", "Wind"],
   modifiers: [2, 2],
-  result: 4
+  result: 4,
 };
 
 export const breedingExample = [];
@@ -605,13 +605,13 @@ export const patchesExample = [
         "The Tamer Info screen can now be closed even when there’s an error and it doesn’t display information.",
         "Fixed some interactions between moving platforms and opening eggs.",
         "Fixed Name Reservation missing icon.",
-        "Fixed some dialogs."
+        "Fixed some dialogs.",
       ],
       improvements: [],
       features: [],
-      balance: ["Increased the price for all breeding gears."]
-    }
-  }
+      balance: ["Increased the price for all breeding gears."],
+    },
+  },
 ];
 
 export const cosmeticsExample = [
@@ -625,8 +625,8 @@ export const cosmeticsExample = [
     cost: 24999,
     requirement: "",
     description:
-      "Practical shorts, enhanced with tied rope details for a rustic touch."
-  }
+      "Practical shorts, enhanced with tied rope details for a rustic touch.",
+  },
 ];
 
 export const dyesExample = [
@@ -636,8 +636,8 @@ export const dyesExample = [
     color: "#f79935",
     name: "Sea Queen Dye",
     description: "The hue of secrets as deep as the Sillaro.",
-    bundles: ["Fury of Anak", "Sillaro Romance"]
-  }
+    bundles: ["Fury of Anak", "Sillaro Romance"],
+  },
 ];
 
 export const saipark = [
@@ -650,32 +650,32 @@ export const saipark = [
         temtem: "Barnshe",
         lumaRate: 2,
         minSvs: 0,
-        eggMoves: 0
-      }
+        eggMoves: 0,
+      },
     ],
     water: [
       {
         temtem: "Oceara",
         lumaRate: 2,
         minSvs: 0,
-        eggMoves: 0
-      }
-    ]
-  }
+        eggMoves: 0,
+      },
+    ],
+  },
 ];
 
 export const freetemExample = {
   temtem: "Ganki",
   level: 30,
   catchRate: 120,
-  reward: 95
+  reward: 95,
 };
 
 export const characterExample = [
   {
     name: "Lady Lottie",
-    wikiUrl: "https://temtem.gamepedia.com/Lady_Lottie"
-  }
+    wikiUrl: "https://temtem.gamepedia.com/Lady_Lottie",
+  },
 ];
 
 export const trainingCourseExample = [
@@ -684,7 +684,7 @@ export const trainingCourseExample = [
     technique: "Tsunami",
     type: "Water",
     location: "Complete Gone with the Sillaro. Requires the Surfboard.",
-    locationType: "quest"
+    locationType: "quest",
   },
   {
     number: "TC002",
@@ -692,8 +692,8 @@ export const trainingCourseExample = [
     type: "Earth",
     location:
       "Windward Fort prison floor, cell in the water. Requires the Surfboard.",
-    locationType: "found"
-  }
+    locationType: "found",
+  },
 ];
 
 export const freetemRewardExample = [
@@ -709,8 +709,8 @@ export const freetemRewardExample = [
     freedTemtem: 200,
     duration: "March 9 - March 15",
     startDate: "2020-03-09T00:00:00.000Z",
-    endDate: "2020-03-15T00:00:00.000Z"
-  }
+    endDate: "2020-03-15T00:00:00.000Z",
+  },
 ];
 
 export const itemExample = [
@@ -725,7 +725,7 @@ export const itemExample = [
     buyPrice: 120,
     sellPrice: 83,
     quest: null,
-    category: "general"
+    category: "general",
   },
   {
     wikiImageUrl:
@@ -739,7 +739,7 @@ export const itemExample = [
     buyPrice: 80,
     sellPrice: 55,
     quest: null,
-    category: "capture"
+    category: "capture",
   },
   {
     wikiImageUrl:
@@ -753,7 +753,7 @@ export const itemExample = [
     buyPrice: null,
     sellPrice: 4900,
     quest: null,
-    category: "medicine"
+    category: "medicine",
   },
   {
     wikiImageUrl:
@@ -767,7 +767,7 @@ export const itemExample = [
     buyPrice: null,
     sellPrice: null,
     quest: null,
-    category: "gear"
+    category: "gear",
   },
   {
     wikiImageUrl:
@@ -780,7 +780,7 @@ export const itemExample = [
     buyPrice: null,
     sellPrice: null,
     quest: null,
-    category: "course"
+    category: "course",
   },
   {
     wikiImageUrl:
@@ -793,7 +793,7 @@ export const itemExample = [
     buyPrice: null,
     sellPrice: null,
     quest: null,
-    category: "key"
+    category: "key",
   },
   {
     wikiImageUrl:
@@ -806,8 +806,8 @@ export const itemExample = [
     buyPrice: null,
     sellPrice: null,
     quest: "Liberate Matthew",
-    category: "quest"
-  }
+    category: "quest",
+  },
 ];
 
 export const dojosExample = [
@@ -823,28 +823,33 @@ export const dojosExample = [
           name: "Kalabyss",
           number: 128,
           trait: "Botanophobia",
-          techniques: ["Aqua Stone", "Strangle", "Water Blade", "Tentacle Whip"]
+          techniques: [
+            "Aqua Stone",
+            "Strangle",
+            "Water Blade",
+            "Tentacle Whip",
+          ],
         },
         {
           level: 17,
           name: "Loali",
           number: 11,
           trait: "Botanist",
-          techniques: ["Toxic Spores", "Wind Blade", "Urushiol", "Tenderness"]
+          techniques: ["Toxic Spores", "Wind Blade", "Urushiol", "Tenderness"],
         },
         {
           level: 18,
           name: "Sparzy",
           number: 82,
           trait: "Last Rush",
-          techniques: ["Psychosis", "Tesla Prison", "Held Anger", "DC Beam"]
+          techniques: ["Psychosis", "Tesla Prison", "Held Anger", "DC Beam"],
         },
         {
           level: 19,
           name: "Pigepic",
           number: 141,
           trait: "Friendship",
-          techniques: ["Heavy Blow", "Nimble", "Nibble", "Scratch"]
+          techniques: ["Heavy Blow", "Nimble", "Nibble", "Scratch"],
         },
         {
           level: 21,
@@ -855,17 +860,22 @@ export const dojosExample = [
             "Multiple Pecks",
             "Wind Burst",
             "Feather Gatling",
-            "Shrill Voice"
-          ]
+            "Shrill Voice",
+          ],
         },
         {
           level: 22,
           name: "Oceara",
           number: 115,
           trait: "Hydrologist",
-          techniques: ["Ice Shuriken", "Tsunami", "High-pressure Water", "Kick"]
-        }
-      ]
-    }
-  }
+          techniques: [
+            "Ice Shuriken",
+            "Tsunami",
+            "High-pressure Water",
+            "Kick",
+          ],
+        },
+      ],
+    },
+  },
 ];

@@ -15,11 +15,11 @@ export default async function getConditionIcons() {
       .find("img")
       .map((_i, el) => ({
         src: $(el).attr("src"),
-        name: $(el).attr("alt") || ""
+        name: $(el).attr("alt") || "",
       }))
   );
   await Promise.all(
-    images.map(async img => {
+    images.map(async (img) => {
       try {
         await pipeFile(img.src, ["images", "icons", "conditions", img.name]);
       } catch (e) {

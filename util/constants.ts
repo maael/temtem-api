@@ -10,5 +10,5 @@ export const TYPES = [
   "Digital",
   "Melee",
   "Crystal",
-  "Toxic"
+  "Toxic",
 ];

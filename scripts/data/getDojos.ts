@@ -34,10 +34,8 @@ async function getBasicList() {
             .map((_j, a) => {
               if (a.firstChild.tagName === "img") return;
               return {
-                text: $(a)
-                  .text()
-                  .trim(),
-                url: $(a).attr("href")
+                text: $(a).text().trim(),
+                url: $(a).attr("href"),
               };
             })
         );
@@ -50,8 +48,8 @@ async function getBasicList() {
             .filter(Boolean),
           leader: {
             name: links[1].text,
-            temtem: []
-          }
+            temtem: [],
+          },
         };
         return dojo;
       })
@@ -94,38 +92,30 @@ async function embellishDojos(
             .find("a")
             .map((_j, a) => {
               return {
-                text: $(a)
-                  .text()
-                  .trim(),
+                text: $(a).text().trim(),
                 url: $(a).attr("href") || "",
-                title: $(a).attr("tite") || ""
+                title: $(a).attr("tite") || "",
               };
             })
         );
 
         const matchedTemtem = links
-          .map(l => temtem.find(t => t.name === l.text))
+          .map((l) => temtem.find((t) => t.name === l.text))
           .filter(Boolean)[0];
 
         if (!matchedTemtem) return;
 
         const level = parseInt(
-          $(tem)
-            .find("small")
-            .eq(3)
-            .parent()
-            .text()
-            .replace("Lv.", "")
-            .trim(),
+          $(tem).find("small").eq(3).parent().text().replace("Lv.", "").trim(),
           10
         );
         const matchedTechniques = links
-          .map(l => techniques.find(t => t.name === l.text))
+          .map((l) => techniques.find((t) => t.name === l.text))
           .filter(Boolean)
-          .map(t => (t ? t.name : ""))
+          .map((t) => (t ? t.name : ""))
           .filter(Boolean);
         const matchedTrait = links
-          .map(l => traits.find(t => t.name === l.text))
+          .map((l) => traits.find((t) => t.name === l.text))
           .filter(Boolean)[0];
 
         return {
@@ -133,7 +123,7 @@ async function embellishDojos(
           name: matchedTemtem.name,
           number: matchedTemtem.number,
           trait: matchedTrait ? matchedTrait.name : "Unknown",
-          techniques: matchedTechniques
+          techniques: matchedTechniques,
         };
       })
     );

@@ -2,7 +2,7 @@ let TYPES = {};
 try {
   TYPES = require("../../data/types.json").reduce((acc, { name }) => ({
     ...acc,
-    [name.toLowerCase()]: name
+    [name.toLowerCase()]: name,
   }));
 } catch {
   // Do nothing
@@ -29,7 +29,7 @@ export default function traverse(
   funcs: Array<(value: any, key: string) => any>
 ) {
   return Array.isArray(obj)
-    ? obj.map(o => traverseObject(o, funcs))
+    ? obj.map((o) => traverseObject(o, funcs))
     : traverseObject(obj, funcs);
 }
 

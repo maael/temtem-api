@@ -26,7 +26,7 @@ export default async function getItems(): Promise<Item[]> {
       ...gearItems,
       ...courseItems,
       ...keyItems,
-      ...questItems
+      ...questItems,
     ];
   } catch (e) {
     log.error(e.message, e);
@@ -50,10 +50,8 @@ function getItemTableWithDetails(
             const $img = $(td).find("img");
             return {
               text: $(td).text(),
-              href: $(td)
-                .find("a")
-                .attr("href"),
-              src: stripQuerystring($img.attr("src") || "")
+              href: $(td).find("a").attr("href"),
+              src: stripQuerystring($img.attr("src") || ""),
             };
           })
       );
@@ -75,7 +73,7 @@ function getItemTableWithDetails(
         buyPrice: parseInt(cells[3].text, 10) || null,
         sellPrice: parseInt(cells[4].text, 10) || null,
         quest: null,
-        category
+        category,
       };
     })
   );
@@ -102,10 +100,8 @@ function getSimpleItemTable(
             const $img = $(td).find("img");
             return {
               text: $(td).text(),
-              href: $(td)
-                .find("a")
-                .attr("href"),
-              src: stripQuerystring($img.attr("src") || "")
+              href: $(td).find("a").attr("href"),
+              src: stripQuerystring($img.attr("src") || ""),
             };
           })
       );
@@ -127,7 +123,7 @@ function getSimpleItemTable(
         buyPrice: null,
         sellPrice: null,
         quest: category === "quest" ? (cells[3] ? cells[3].text : null) : null,
-        category
+        category,
       };
     })
   );

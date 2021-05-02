@@ -15,7 +15,7 @@ export const baseDir = path.join(__dirname, "..", "..", "public");
 const dirCache = {};
 
 function getSharpProcessFromExt(fileName: string) {
-  if ([".jpg", ".jpeg"].some(ext => fileName.endsWith(ext))) {
+  if ([".jpg", ".jpeg"].some((ext) => fileName.endsWith(ext))) {
     return sharp()
       .resize({ width: 700, withoutEnlargement: true })
       .jpeg({ quality: 80 });
@@ -39,7 +39,7 @@ export default async function pipeFile(fileUrl: string, p: string[]) {
     }
     if (
       (await dirCache[baseFolder]).some(
-        f => f.toLowerCase() === fileName.toLowerCase()
+        (f) => f.toLowerCase() === fileName.toLowerCase()
       )
     ) {
       return Promise.resolve();
@@ -49,7 +49,7 @@ export default async function pipeFile(fileUrl: string, p: string[]) {
     ...([
       got.stream(fileUrl),
       getSharpProcessFromExt(fileName),
-      fs.createWriteStream(path.join(baseDir, ...p))
+      fs.createWriteStream(path.join(baseDir, ...p)),
     ] as const)
   );
 }

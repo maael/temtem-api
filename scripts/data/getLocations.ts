@@ -9,7 +9,7 @@ enum LocationType {
   ISLAND = "island",
   ROUTE = "route",
   TOWN_OR_VILLAGE = "townorvillage",
-  LANDMARK = "landmark"
+  LANDMARK = "landmark",
 }
 
 interface RawIsland {
@@ -44,8 +44,8 @@ async function getIslands() {
           description,
           temtemTypes: types
             .map(({ name }) => name)
-            .filter(t => description.includes(` ${t} `)),
-          type: LocationType.ISLAND
+            .filter((t) => description.includes(` ${t} `)),
+          type: LocationType.ISLAND,
         };
       })
   );
@@ -67,12 +67,12 @@ async function embellishIsland(island: RawIsland) {
       LocationType.LANDMARK
     ),
     temtem: getSectionList($, "Temtem").map(({ name }) => name),
-    trivia: getSectionList($, "Trivia", "li").map(({ name }) => name)
+    trivia: getSectionList($, "Trivia", "li").map(({ name }) => name),
   };
 }
 
 function attachType(ar: any[], type: LocationType) {
-  return ar.map(a => ({ ...a, type }));
+  return ar.map((a) => ({ ...a, type }));
 }
 
 function getImage($: CheerioStatic) {
@@ -85,7 +85,7 @@ function getImage($: CheerioStatic) {
       ? `${parsedThumbnail.protocol}//${parsedThumbnail.host}${parsedThumbnail.pathname}`
       : ""
     ).replace(/\/revision\/latest\/scale-to-width.*$/, ""),
-    imageWikiFile: `https://temtem.gamepedia.com${fileLink}`
+    imageWikiFile: `https://temtem.gamepedia.com${fileLink}`,
   };
 }
 
@@ -101,7 +101,7 @@ function getSectionList(
       .find(detailEl)
       .map((_i, el) => ({
         name: $(el).text(),
-        wikiUrl: `https://temtem.gamepedia.com${$(el).attr("href")}`
+        wikiUrl: `https://temtem.gamepedia.com${$(el).attr("href")}`,
       }))
   );
 }

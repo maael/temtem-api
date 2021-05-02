@@ -39,20 +39,12 @@ export default async function getDyes() {
                 const style = $(td).attr("style") || "";
                 const colorMatches = style.match(/(#\w{3,6})/);
                 const color = colorMatches ? colorMatches[0] : "";
-                const text = $(td)
-                  .text()
-                  .trim();
-                const image = $(td)
-                  .find("img")
-                  .attr("src");
+                const text = $(td).text().trim();
+                const image = $(td).find("img").attr("src");
                 const imageParts = url.parse(image || "");
                 const items = $(td)
                   .find("a")
-                  .map((_k, a) =>
-                    $(a)
-                      .text()
-                      .trim()
-                  )
+                  .map((_k, a) => $(a).text().trim())
                   .toArray();
                 return {
                   color,
@@ -61,7 +53,7 @@ export default async function getDyes() {
                     ""
                   ),
                   text,
-                  items
+                  items,
                 };
               })
           );
@@ -70,7 +62,7 @@ export default async function getDyes() {
             color: tdItems[0].color,
             name: tdItems[1].text,
             description: tdItems[2].text,
-            bundles: tdItems[3].items
+            bundles: tdItems[3].items,
           };
         })
     );

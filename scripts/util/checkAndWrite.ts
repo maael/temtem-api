@@ -14,8 +14,8 @@ export default async function checkAndWrite(
   const args = process.argv.slice(2);
   const isDryRun = args.includes("--dry") || args.includes("-D");
   const filter = args
-    .filter(i => !i.startsWith("-"))
-    .map(i => i.split(",").map(t => t.trim()))
+    .filter((i) => !i.startsWith("-"))
+    .map((i) => i.split(",").map((t) => t.trim()))
     .reduce((acc, arr) => acc.concat(arr), []);
   const isDebug = args.includes("--debug");
   try {
@@ -81,10 +81,7 @@ async function writeErrorLog(
   report: string[]
 ) {
   try {
-    const dateTime = new Date()
-      .toISOString()
-      .replace(/:/g, "-")
-      .split(".")[0];
+    const dateTime = new Date().toISOString().replace(/:/g, "-").split(".")[0];
     const logName = `[error]-[${dateTime}]-[${codecKey}]-[${file}].log`;
     const logPath = path.join(__dirname, "..", "..", "codec-logs", logName);
     const issueUrl = await openGitHubIssue(codecKey, data, report);
@@ -113,7 +110,7 @@ async function openGitHubIssue(codecKey: Codec, data: any, report: string[]) {
       {
         method: "POST",
         headers: {
-          Authorization: `token ${process.env.GITHUB_TOKEN}`
+          Authorization: `token ${process.env.GITHUB_TOKEN}`,
         },
         body: JSON.stringify({
           title: `[${codecKey}] data codec failure`,
@@ -131,8 +128,8 @@ ${JSON.stringify(data, undefined, 2)}
 ${"```"}
         `,
           labels: ["bug", "data issue"],
-          assignees: ["maael"]
-        })
+          assignees: ["maael"],
+        }),
       }
     ).json();
     return url;

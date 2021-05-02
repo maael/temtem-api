@@ -8,12 +8,12 @@ export default function expandFields(
     if (!object[objectKey]) return object;
     return {
       ...object,
-      [objectKey]: object[objectKey].map(obItem => ({
+      [objectKey]: object[objectKey].map((obItem) => ({
         ...data.find(
-          item => item[matchingKey] === (subKey ? obItem[subKey] : obItem)
+          (item) => item[matchingKey] === (subKey ? obItem[subKey] : obItem)
         ),
-        ...(subKey ? obItem : {})
-      }))
+        ...(subKey ? obItem : {}),
+      })),
     };
   };
 }

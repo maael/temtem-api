@@ -27,7 +27,7 @@ export interface Temtem {
 
 const possibleUrls = [
   "https://temtem.gamepedia.com/Temtem_species",
-  "https://temtem.gamepedia.com/Temtem_(Creatures)"
+  "https://temtem.gamepedia.com/Temtem_(Creatures)",
 ];
 
 export default async function getKnownTemtemSpecies() {
@@ -67,7 +67,7 @@ function getTemInfoFromRow($, row): Temtem {
     .find("td")
     .text()
     .split("\n")
-    .map(t => t.trim().replace("#", ""))
+    .map((t) => t.trim().replace("#", ""))
     .map((t, i) => (i === 1 || isNaN(Number(t)) ? t : Number(t)));
   const portraitWikiUrl = $(row)
     .find("img")
@@ -90,8 +90,8 @@ function getTemInfoFromRow($, row): Temtem {
       def: cleanToNumber(basicStats[7]),
       spatk: cleanToNumber(basicStats[8]),
       spdef: cleanToNumber(basicStats[9]),
-      total: cleanToNumber(basicStats[10])
-    }
+      total: cleanToNumber(basicStats[10]),
+    },
   };
   return tem;
 }

@@ -89,7 +89,7 @@ import checkAndWrite from "../util/checkAndWrite";
   await checkAndWrite("dojos", "dojos", async () => {
     return getDojos(temtem || [], techniques || [], traits || []);
   });
-})().catch(e => {
+})().catch((e) => {
   log.error(e);
   throw e;
 });

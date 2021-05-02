@@ -22,34 +22,31 @@ export default function embellishTemtemLocationPlacesAndNotes(
         },
         []
       )
-    )
+    ),
   ];
-  return temtem.map(t => ({
+  return temtem.map((t) => ({
     ...t,
     locations: t.locations
       .map(extractPlace(possiblePlaceNames))
-      .map(getFreetemInfo(t))
+      .map(getFreetemInfo(t)),
   }));
 }
 
 function extractPlace(possiblePlaceNames: string[]) {
-  return function(l: Temtem["locations"][0]) {
-    const place = possiblePlaceNames.find(p =>
+  return function (l: Temtem["locations"][0]) {
+    const place = possiblePlaceNames.find((p) =>
       l.location.toLowerCase().startsWith(p.toLowerCase())
     );
     if (place) {
       l.place = place;
-      l.note = l.location
-        .replace(place, "")
-        .replace(", ", "")
-        .trim();
+      l.note = l.location.replace(place, "").replace(", ", "").trim();
     }
     return l;
   };
 }
 
 function getFreetemInfo(t: Temtem) {
-  return function(l: Temtem["locations"][0]) {
+  return function (l: Temtem["locations"][0]) {
     const levelParts = l.level.split("-");
     const minLevel = parseInt(levelParts.slice(0, 1)[0], 10) || 0;
     const maxLevel = parseInt(levelParts.slice(-1)[0], 10) || 0;
@@ -57,7 +54,7 @@ function getFreetemInfo(t: Temtem) {
       minLevel,
       maxLevel,
       minPansuns: calculateFreetemReward(t.catchRate, minLevel) || 0,
-      maxPansuns: calculateFreetemReward(t.catchRate, maxLevel) || 0
+      maxPansuns: calculateFreetemReward(t.catchRate, maxLevel) || 0,
     };
     return l;
   };

@@ -14,10 +14,7 @@ export default async function getFreetemRewards() {
       "https://temtem.gamepedia.com/FreeTem!_Organisation"
     );
     const $ = cheerio.load(result.body);
-    const tableRows = $("#Rewards")
-      .parent()
-      .next()
-      .find("tr");
+    const tableRows = $("#Rewards").parent().next().find("tr");
     return typedToArray<FreetemReward>(
       tableRows.map((i, el) => {
         if (i === 0) return;
@@ -30,19 +27,10 @@ export default async function getFreetemRewards() {
           $(el)
             .find("td")
             .map((_j, td) => ({
-              text: $(td)
-                .text()
-                .trim(),
-              link: $(td)
-                .find("a")
-                .text()
-                .trim(),
-              href: $(td)
-                .find("a")
-                .attr("href"),
-              src: $(td)
-                .find("img")
-                .attr("src")
+              text: $(td).text().trim(),
+              link: $(td).find("a").text().trim(),
+              href: $(td).find("a").attr("href"),
+              src: $(td).find("img").attr("src"),
             }))
         );
         const quantity = parseInt(
@@ -70,7 +58,7 @@ export default async function getFreetemRewards() {
               ? dateInfo
               : formatDate(dateInfo.start),
           endDate:
-            typeof dateInfo === "string" ? dateInfo : formatDate(dateInfo.end)
+            typeof dateInfo === "string" ? dateInfo : formatDate(dateInfo.end),
         };
         return reward;
       })

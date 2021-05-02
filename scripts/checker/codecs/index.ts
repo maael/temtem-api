@@ -35,7 +35,7 @@ const codecMap = {
   trainingCourses: TrainingCourseList,
   freetemRewards: FreetemRewardList,
   items: ItemList,
-  dojos: DojoList
+  dojos: DojoList,
 };
 
 export type Codec = keyof typeof codecMap;

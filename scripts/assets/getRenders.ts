@@ -11,7 +11,7 @@ export default async function getRenders() {
   log.info("Starting");
   await Promise.all(
     knownTems.map(
-      throat(CONCURRENCY_LIMIT, async item => {
+      throat(CONCURRENCY_LIMIT, async (item) => {
         try {
           await Promise.all([
             item.wikiRenderStaticUrl
@@ -20,7 +20,7 @@ export default async function getRenders() {
                   "renders",
                   "temtem",
                   "static",
-                  `${item.name}.png`
+                  `${item.name}.png`,
                 ])
               : undefined,
             item.wikiRenderAnimatedUrl
@@ -29,7 +29,7 @@ export default async function getRenders() {
                   "renders",
                   "temtem",
                   "animated",
-                  `${item.name}.gif`
+                  `${item.name}.gif`,
                 ])
               : undefined,
             item.wikiRenderStaticLumaUrl
@@ -39,7 +39,7 @@ export default async function getRenders() {
                   "temtem",
                   "luma",
                   "static",
-                  `${item.name}.png`
+                  `${item.name}.png`,
                 ])
               : undefined,
             item.wikiRenderAnimatedLumaUrl
@@ -49,9 +49,9 @@ export default async function getRenders() {
                   "temtem",
                   "luma",
                   "animated",
-                  `${item.name}.gif`
+                  `${item.name}.gif`,
                 ])
-              : undefined
+              : undefined,
           ]);
         } catch (e) {
           log.error(e.message);

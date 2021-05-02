@@ -20,10 +20,8 @@ export default async function getGear() {
     const gear = typedToArray<Gear>(
       page.find("a").map((_i, el) => {
         return {
-          name: $(el)
-            .text()
-            .trim(),
-          wikiUrl: `https://temtem.gamepedia.com${$(el).attr("href")}`
+          name: $(el).text().trim(),
+          wikiUrl: `https://temtem.gamepedia.com${$(el).attr("href")}`,
         };
       })
     );

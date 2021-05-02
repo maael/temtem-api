@@ -6,7 +6,7 @@ function useInfo() {
   const [info, setInfo] = useState({
     lastUpdated: "🔄",
     lastChecked: "🔄",
-    lastBuildStatus: "🔄"
+    lastBuildStatus: "🔄",
   });
   useEffect(() => {
     (async () => {
@@ -18,12 +18,12 @@ function useInfo() {
           lastUpdated: data.lastUpdated ? formatDate(data.lastUpdated) : "❔",
           lastBuildStatus: data.lastBuildStatus
             ? formatStatus(data.lastBuildStatus)
-            : "❔"
+            : "❔",
         });
       } catch (e) {
         console.error(e);
       }
-    })().catch(e => console.error(e));
+    })().catch((e) => console.error(e));
   }, []);
   return info;
 }
@@ -73,7 +73,7 @@ export default function Header() {
           fontSize: 14,
           textAlign: "center",
           backgroundColor: "rebeccapurple",
-          color: "#FFFFFF"
+          color: "#FFFFFF",
         }}
       >
         <a
@@ -94,7 +94,7 @@ export default function Header() {
           textAlign: "center",
           backgroundColor: "rebeccapurple",
           color: "#FFFFFF",
-          paddingTop: 5
+          paddingTop: 5,
         }}
       >
         <p
@@ -102,7 +102,7 @@ export default function Header() {
             display: "inline",
             color: "#B28CD9",
             textDecoration: "none",
-            margin: "0px 10px"
+            margin: "0px 10px",
           }}
         >
           Made by:
@@ -111,7 +111,7 @@ export default function Header() {
           style={{
             color: "#B28CD9",
             textDecoration: "none",
-            margin: "0px 10px"
+            margin: "0px 10px",
           }}
           href="https://www.reddit.com/user/Maael/"
         >
@@ -125,7 +125,7 @@ export default function Header() {
           style={{
             color: "#B28CD9",
             textDecoration: "none",
-            margin: "0px 10px"
+            margin: "0px 10px",
           }}
           href="https://discordapp.com"
         >
@@ -143,7 +143,7 @@ export default function Header() {
           textAlign: "center",
           padding: 10,
           backgroundColor: "rebeccapurple",
-          color: "#FFFFFF"
+          color: "#FFFFFF",
         }}
       >
         Typescript types for responses are available from{" "}
@@ -153,7 +153,7 @@ export default function Header() {
             style={{
               textDecoration: "none",
               color: "#B28CD9",
-              fontWeight: "bold"
+              fontWeight: "bold",
             }}
           >
             @maael/temtem-types

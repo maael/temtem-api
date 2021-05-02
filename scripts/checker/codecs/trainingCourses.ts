@@ -5,7 +5,7 @@ export const Codec = t.type({
   technique: t.string,
   type: t.string,
   location: t.string,
-  locationType: t.union([t.literal("quest"), t.literal("found")])
+  locationType: t.union([t.literal("quest"), t.literal("found")]),
 });
 
 export const TrainingCourseList = t.array(Codec);
