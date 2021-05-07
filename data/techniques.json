@@ -1566,7 +1566,7 @@
     "synergyEffects": [],
     "targets": "?",
     "description": "A simple truth about Temtem fighting - the stronger you are, the harder you hit. This Neutral technique inflicts variable damage depending on the launcher's STA.",
-    "effectText": "Currently, Extra Energy Slam is unavailable, so it's unknown what its full effect is. Based on can be found, Extra Energy Slam deals damage to a single target with it's power varying on the user's STA.",
+    "effectText": "Currently, Extra Energy Slam is unavailable, so its full effect is unknown. Based on what can be found, Extra Energy Slam deals damage to a single target with its power varying based on the user's STA.",
     "effects": []
   },
   {
@@ -3537,8 +3537,14 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A jet of superheated matter, right where it hurts. This technique does slight damage and burns the target for 1 turn.",
-    "effectText": "Plasma Beam deals damage to a single target.",
-    "effects": []
+    "effectText": "Plasma Beam deals damage to a single target and inflicts them with the Burned Condition for 1 turn;",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 1,
+        "condition": "Burned"
+      }
+    ]
   },
   {
     "name": "Pollution",
