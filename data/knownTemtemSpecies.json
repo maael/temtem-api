@@ -8185,10 +8185,7 @@
       }
     ],
     "trivia": [
-      "Nidrasil's name is derived from Níðhöggr (or Nidhogg, a Nordic mythological serpent that means \"He who strikes with malice\" in old Norse) and Yggdrasil (Nordic tree of life that connects the Nine Worlds together).",
-      "As of Alpha 0.6.19, Nidrasil has the highest base ATK stat of all Nature and Toxic Temtem.",
-      "Nidrasil's design was revealed during the naming contest for #035 and #036.\nNidrasil's name was submitted by Eggs#8022 during the #035/#036 contest, and won with 262 votes.",
-      "Nidrasil's name was submitted by Eggs#8022 during the #035/#036 contest, and won with 262 votes."
+      "Nidrasil's design was revealed during the naming contest for #035 and #036."
     ],
     "evolution": {
       "stage": 1,
@@ -8380,11 +8377,7 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Banapi's name is derived from banteng (bull in Indonesian) and api (fire in Indonesian).",
-      "As of Alpha 0.6.19, Banapi has the lowest base HP and SPATK stats of all Fire Temtem.",
-      "Banapi's name was determined through a community naming contest. The winner and creator of the name Banapi was smvid4#0118, from the official Temtem Discord."
-    ],
+    "trivia": [],
     "evolution": {
       "stage": 0,
       "evolutionTree": [
@@ -8632,11 +8625,7 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Capyre's name is derived from capra (genus for goats) and pyre.",
-      "As of Alpha 0.6.19, Capyre has the highest base SPD stat of all Fire Temtem.",
-      "Capyre's name was determined through a community naming contest. The winners and creators of the name Capyre were Eggs#8022 and Soma Ghost#4762, from the official Temtem Discord."
-    ],
+    "trivia": [],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
@@ -10438,8 +10427,6 @@
       }
     ],
     "trivia": [
-      "Kaku's name is derived from kakusareta (protected in Japanese).",
-      "As of Alpha 0.6.19, Kaku has the lowest base ATK stat of all Nature Temtem.",
       "Kaku was first revealed to the public on Kickstarter update #13.",
       "Kaku has an emote on the official Temtem Discord."
     ],
@@ -11859,8 +11846,6 @@
       }
     ],
     "trivia": [
-      "Raiber's name is derived from raion (lion in Japanese) and ember.",
-      "As of Alpha 0.6.19, Raiber has the lowest base STA and ATK stats of all Fire Temtem.",
       "Raiber was first revealed as a mention on a Twitter post about Raican."
     ],
     "evolution": {
@@ -12849,7 +12834,6 @@
       }
     ],
     "trivia": [
-      "Piraniant's name is derived from piranha and giant.",
       "Piraniant was first revealed via Twitter.",
       "Piraniant has an emote on the official Temtem discord."
     ],
@@ -13263,9 +13247,7 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Scaravolt's name is derived from Scarab and Volt."
-    ],
+    "trivia": [],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
@@ -17972,8 +17954,6 @@
       }
     ],
     "trivia": [
-      "Mastione's name is derived from malleus (hammer in Latin) and combustione (combustion in Latin).",
-      "As of Alpha 0.6.19, Mastione has the highest base ATK stat of all Fire Temtem.",
       "Mastione was first revealed via Twitter.",
       "Mastione was the first Temtem with a confirmed pre-evolution."
     ],
@@ -21066,8 +21046,6 @@
       }
     ],
     "trivia": [
-      "Cerneaf's name is derived from Cernunnos (Celtic deer God) and leaf.",
-      "As of Alpha 0.6.19, Cerneaf has the highest base HP and DEF stats of all Nature Temtem.",
       "Cerneaf was first revealed via Twitter."
     ],
     "evolution": {
@@ -24529,9 +24507,7 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [
-      "Pupoise's name is derived from Puppy and Tortoise."
-    ],
+    "trivia": [],
     "evolution": {
       "stage": 0,
       "evolutionTree": [
@@ -25238,10 +25214,7 @@
       }
     ],
     "trivia": [
-      "Kalabyss' name is derived from Calamari and Abyss.",
-      "As of Alpha 0.6.19, Kalabyss has the highest base DEF stat of all Water and Toxic Temtem.",
-      "Kalabyss was revealed to the public on the official discord and the Kickstarter update #30.",
-      "Kalabyss' name (originally Calabyss) was suggested by the discord user lepastro#3547 in the naming suggestion poll from August 14 and was later modified to Kalabyss to better match its pre-evolutions name."
+      "Kalabyss was revealed to the public on the official discord and the Kickstarter update #30."
     ],
     "evolution": {
       "stage": 1,
@@ -29576,16 +29549,28 @@
         "levels": 66
       }
     ],
-    "trivia": [
-      "Tyranak is the tallest known Temtem. It is over 100 cm taller than the second tallest known, Zenoreth.",
-      "Tyranak is the heaviest known Temtem. It is over twice as heavy as the second heaviest known, Goolder."
-    ],
+    "trivia": [],
     "evolution": {
       "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/29/Tyranak.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fe/LumaTyranak.png",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Anak Volcano",
+        "place": "Anak Volcano",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "Reward",
+        "level": "1 (Egg)",
+        "freetem": {
+          "minLevel": 1,
+          "maxLevel": 1,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Tyranak.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Tyranak.png",
     "genderRatio": {
