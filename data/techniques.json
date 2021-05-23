@@ -2331,7 +2331,7 @@
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "When you gotta hit hard and fast - the faster, the harder. Inflicts extra damage depending on the Temtem's SPD.",
     "effectText": "Hyperkinetic Strike deals damage to a single target.",
     "effects": []
@@ -4467,7 +4467,7 @@
         "effect": "+125 Damage"
       }
     ],
-    "targets": "Single Team",
+    "targets": "Other Team or Ally",
     "description": "A stampede worth of the Kisiwan savanna. Damages the whole team.Used in combination with an Earth ally, inflicts extra damage.",
     "effectText": "Stampede deals damage to a single team.",
     "effects": []
@@ -4904,7 +4904,7 @@
         "effect": "16 STA Cost"
       }
     ],
-    "targets": "Single Team",
+    "targets": "Other Team or Ally",
     "description": "Like a faulty airship engine, this Temtem can leave a trail of toxic gas that gives Poison to the whole team for 1 turn.Used in combination with a Crystal ally, Toxic Plume saves you STA and the target gets ATK .",
     "effectText": "Toxic Plume does damage to a single team and gives them the Poisoned Condition for 1 turn.",
     "effects": [
@@ -5497,7 +5497,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "A terrifying gust of wind, capable of throwing a small airship off-course.",
     "effectText": "Wind Burst deals damage to a single target.",
     "effects": []
