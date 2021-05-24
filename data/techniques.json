@@ -1590,8 +1590,14 @@
     ],
     "targets": "Single Target",
     "description": "This classic science experiment, weaponized. This technique inflicts decent damage and exiles the target for 3 turns.\"...and then he drank the battery liquid!\" Used in combination with a Toxic ally, Faraday cage poisons the target for 3 turns.",
-    "effectText": "",
-    "effects": []
+    "effectText": "Faraday Cage deals damage to a single target and inflicts the target with the Isolated Condition for 3 turns.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 3,
+        "condition": "Isolated"
+      }
+    ]
   },
   {
     "name": "Feather Gatling",
