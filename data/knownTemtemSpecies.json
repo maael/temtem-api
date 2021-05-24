@@ -1370,14 +1370,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Molgu",
     "stats": {
-      "hp": 69,
+      "hp": 79,
       "sta": 47,
       "spd": 51,
-      "atk": 74,
+      "atk": 84,
       "def": 64,
       "spatk": 52,
       "spdef": 58,
-      "total": 415
+      "total": 435
     },
     "traits": [
       "Splitter",
@@ -3830,14 +3830,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Granpah",
     "stats": {
-      "hp": 69,
-      "sta": 36,
+      "hp": 70,
+      "sta": 39,
       "spd": 78,
       "atk": 55,
       "def": 61,
-      "spatk": 72,
+      "spatk": 76,
       "spdef": 66,
-      "total": 437
+      "total": 445
     },
     "traits": [
       "Last Rush",
@@ -9216,12 +9216,12 @@
     "stats": {
       "hp": 71,
       "sta": 45,
-      "spd": 56,
-      "atk": 67,
+      "spd": 60,
+      "atk": 72,
       "def": 87,
-      "spatk": 65,
+      "spatk": 70,
       "spdef": 69,
-      "total": 460
+      "total": 474
     },
     "traits": [
       "Channeler",
@@ -13573,13 +13573,13 @@
     "wikiUrl": "https://temtem.gamepedia.com/Hedgine",
     "stats": {
       "hp": 54,
-      "sta": 50,
+      "sta": 43,
       "spd": 84,
       "atk": 51,
       "def": 61,
-      "spatk": 82,
+      "spatk": 80,
       "spdef": 64,
-      "total": 446
+      "total": 437
     },
     "traits": [
       "Gotta Go Fast",
@@ -16353,14 +16353,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Pocus",
     "stats": {
-      "hp": 65,
+      "hp": 70,
       "sta": 73,
       "spd": 78,
       "atk": 61,
       "def": 36,
       "spatk": 87,
       "spdef": 46,
-      "total": 446
+      "total": 451
     },
     "traits": [
       "Dreaded Alarm",
@@ -20963,13 +20963,13 @@
     "wikiUrl": "https://temtem.gamepedia.com/Cerneaf",
     "stats": {
       "hp": 91,
-      "sta": 44,
+      "sta": 52,
       "spd": 79,
       "atk": 60,
       "def": 88,
       "spatk": 43,
       "spdef": 46,
-      "total": 451
+      "total": 459
     },
     "traits": [
       "Callosity",
@@ -23421,14 +23421,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Yowlar",
     "stats": {
-      "hp": 96,
+      "hp": 89,
       "sta": 71,
       "spd": 40,
       "atk": 80,
-      "def": 86,
+      "def": 82,
       "spatk": 50,
-      "spdef": 74,
-      "total": 497
+      "spdef": 70,
+      "total": 482
     },
     "traits": [
       "Comebacker",
@@ -26523,14 +26523,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Turoc",
     "stats": {
-      "hp": 101,
+      "hp": 105,
       "sta": 48,
       "spd": 60,
       "atk": 75,
       "def": 68,
       "spatk": 47,
       "spdef": 45,
-      "total": 444
+      "total": 448
     },
     "traits": [
       "Escapist",
@@ -26914,14 +26914,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Kinu",
     "stats": {
-      "hp": 43,
-      "sta": 64,
+      "hp": 47,
+      "sta": 74,
       "spd": 74,
       "atk": 53,
       "def": 41,
       "spatk": 69,
-      "spdef": 89,
-      "total": 433
+      "spdef": 96,
+      "total": 454
     },
     "traits": [
       "Protector",
@@ -27654,6 +27654,10 @@
         "source": "TechniqueCourses"
       },
       {
+        "name": "Steam Soil",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Earth Wave",
         "source": "Breeding"
       },
@@ -28091,6 +28095,11 @@
         "levels": 58
       },
       {
+        "name": "Mud Shower",
+        "source": "Levelling",
+        "levels": 69
+      },
+      {
         "name": "Quicksand",
         "source": "TechniqueCourses"
       },
@@ -28388,11 +28397,6 @@
         "name": "Fire Stream",
         "source": "Levelling",
         "levels": 42
-      },
-      {
-        "name": "Quetza-leño",
-        "source": "Levelling",
-        "levels": 52
       },
       {
         "name": "Lava Wave",
@@ -29401,6 +29405,11 @@
         "levels": 58
       },
       {
+        "name": "Chain Heal",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
         "name": "Magma Cannon",
         "source": "TechniqueCourses"
       },
@@ -29612,6 +29621,130 @@
     "wikiRenderAnimatedLumaUrl": "",
     "renderStaticImage": "/images/renders/temtem/static/Tyranak.png",
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Tyranak.png",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
+  },
+  {
+    "number": 164,
+    "name": "Volgon",
+    "types": [
+      "Electric"
+    ],
+    "portraitWikiUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ab/Volgon.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.gamepedia.com/Volgon",
+    "stats": {
+      "hp": 60,
+      "sta": 38,
+      "spd": 60,
+      "atk": 58,
+      "def": 62,
+      "spatk": 90,
+      "spdef": 67,
+      "total": 435
+    },
+    "traits": [
+      "Short Circuit",
+      "Superconductivity"
+    ],
+    "details": {
+      "height": {
+        "cm": 1200,
+        "inches": 472
+      },
+      "weight": {
+        "kg": 6200,
+        "lbs": 13671
+      }
+    },
+    "techniques": [
+      {
+        "name": "DC Beam",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Strangle",
+        "source": "Levelling",
+        "levels": 4
+      },
+      {
+        "name": "Stare",
+        "source": "Levelling",
+        "levels": 7
+      },
+      {
+        "name": "Willpower Drain",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Late Torment",
+        "source": "Levelling",
+        "levels": 16
+      },
+      {
+        "name": "Purgation",
+        "source": "Levelling",
+        "levels": 21
+      },
+      {
+        "name": "Undermine",
+        "source": "Levelling",
+        "levels": 65
+      },
+      {
+        "name": "Blizzard",
+        "source": "Levelling",
+        "levels": 70
+      }
+    ],
+    "trivia": [],
+    "evolution": {
+      "evolves": false
+    },
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ab/Volgon.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ae/LumaVolgon.png",
+    "locations": [
+      {
+        "location": "Sacred Lake",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "Reward",
+        "level": "1 (Egg)",
+        "freetem": {
+          "minLevel": 1,
+          "maxLevel": 1,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
+      }
+    ],
+    "icon": "",
+    "lumaIcon": "",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 0,
+    "hatchMins": 45,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 4,
+      "spdef": 0
+    },
+    "gameDescription": "In Cipanki lore, dragons are born of lightning to roam the vast reaches of heaven. Sometimes, a curious member of their race will visit the Archipelago and befriend a human. They are never considered \"tamed\" - they merely consent to accompanying a tamer for a few years or even decades.",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
     "renderAnimatedImage": "",
     "renderAnimatedLumaImage": ""
   }

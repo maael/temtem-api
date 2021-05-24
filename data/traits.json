@@ -249,7 +249,7 @@
     "name": "Fever Rush",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Fever_Rush",
     "description": "",
-    "effect": "Fever Rush gifts the holder with ATK whenever they get a status condition."
+    "effect": "Fever Rush gifts the holder with ATK whenever they get a status condition. Does not work with the Alerted Condition."
   },
   {
     "name": "Flawed Crystal",
@@ -489,7 +489,7 @@
     "name": "Protector",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Protector",
     "description": "",
-    "effect": "Protector, upon entering the battlefield, gifts the holder's ally with DEF and SPDEF but the holder loses 10% of their maximum HP and is inflicted with the Trapped Condition for 2 turns."
+    "effect": "Protector, upon entering the battlefield, gifts the holder's ally with DEF and SPDEF once per battle."
   },
   {
     "name": "Provident",
@@ -525,7 +525,7 @@
     "name": "Rejuvenate",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Rejuvenate",
     "description": "",
-    "effect": "Rejuvenate causes the holder to restore 7% of their maximum HP after attacking with a Special technique."
+    "effect": "Rejuvenate causes the holder to restore 8% of their maximum HP after attacking with a Special technique."
   },
   {
     "name": "Relaxed",
@@ -555,7 +555,7 @@
     "name": "Royal Jelly",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Royal_Jelly",
     "description": "",
-    "effect": "Royal Jelly, at the start of a turn, restores the 3% of the holder's and their allies' maximum HP."
+    "effect": "Royal Jelly, at the start of a turn, restores the 5% of the holder's and their allies' maximum HP."
   },
   {
     "name": "Scavenger",
