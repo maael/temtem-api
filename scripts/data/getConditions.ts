@@ -19,7 +19,7 @@ export default async function getStatuses() {
     $page.find(".mw-headline").each((i, el) => {
       if (i === 0) return;
       const description = $(el)
-        .parent("h2")
+        .parent()
         .next("p")
         .text()
         .trim()
@@ -34,7 +34,7 @@ export default async function getStatuses() {
         }));
       statuses.push(...conditions);
     });
-    return statuses;
+    return statuses.filter((s) => !s.name.endsWith("Status Conditions"));
   } catch (e) {
     log.error(e.message);
   }

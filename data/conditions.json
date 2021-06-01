@@ -1,102 +1,82 @@
 [
   {
-    "name": "Negative Status Conditions",
-    "description": "",
-    "icon": "/images/icons/conditions/Negative Status Conditions.png"
-  },
-  {
     "name": "Asleep",
-    "description": "",
+    "description": "Asleep Temtem cannot attack. If they are damaged, including damage from other conditions like Burned or Poisoned, they will wake up and the Asleep condition is removed. Upon waking, the Temtem will gain the Alerted condition until the end of the next turn. Mental type Temtem are immune against the Asleep condition.",
     "icon": "/images/icons/conditions/Asleep.png"
   },
   {
     "name": "Burned",
-    "description": "",
+    "description": "Burned Temtem lose 1/16 of health every turn and it reduces both the ATK and SPATK stats by 30%. Temtem of the Fire type are immune against this condition. The Burned condition erases the Cold and Frozen conditions when applied to a Temtem, and vice versa these conditions can remove the Burned condition.",
     "icon": "/images/icons/conditions/Burned.png"
   },
   {
     "name": "Cold",
-    "description": "",
+    "description": "If Cold is afflicted twice, the Temtem becomes Frozen. Frozen Temtem cannot attack, but they can rest normally. Cold and Frozen also serve to erase the Burned Condition from a Temtem, while Burned erases both the Cold and Frozen conditions.",
     "icon": "/images/icons/conditions/Cold.png"
   },
   {
     "name": "Frozen",
-    "description": "",
+    "description": "If Cold is afflicted twice, the Temtem becomes Frozen. Frozen Temtem cannot attack, but they can rest normally. Cold and Frozen also serve to erase the Burned Condition from a Temtem, while Burned erases both the Cold and Frozen conditions.",
     "icon": "/images/icons/conditions/Frozen.png"
   },
   {
     "name": "Exhausted",
-    "description": "",
+    "description": "The Stamina cost of techniques used by an Exhausted Temtem increases by 50%. Applying the Invigorated condition removes the Exhausted condition and vice versa.",
     "icon": "/images/icons/conditions/Exhausted.png"
   },
   {
     "name": "Isolated",
-    "description": "",
+    "description": "Synergies do not work with Isolated Temtem.",
     "icon": "/images/icons/conditions/Isolated.png"
   },
   {
     "name": "Poisoned",
-    "description": "",
+    "description": "Poisoned Temtem lose 1/8 of their health every turn. Temtem of the Toxic type are immune against this condition.",
     "icon": "/images/icons/conditions/Poisoned.png"
   },
   {
     "name": "Seized",
-    "description": "",
+    "description": "Seized Temtem lose their equipped gear's effect.",
     "icon": "/images/icons/conditions/Seized.png"
   },
   {
     "name": "Trapped",
-    "description": "",
+    "description": "Trapped Temtem cannot swap out.",
     "icon": "/images/icons/conditions/Trapped.png"
   },
   {
-    "name": "Positive Status Conditions",
-    "description": "",
-    "icon": "/images/icons/conditions/Positive Status Conditions.png"
-  },
-  {
     "name": "Alerted",
-    "description": "",
+    "description": "An Alerted Temtem cannot fall asleep. After a Temtem loses the Asleep Condition, it will gain Alerted until the end of the next turn.",
     "icon": "/images/icons/conditions/Alerted.png"
   },
   {
     "name": "Regenerated",
-    "description": "",
+    "description": "Regenerated Temtem heal 1/10 of their health on each turn.",
     "icon": "/images/icons/conditions/Regenerated.png"
   },
   {
     "name": "Evading",
-    "description": "",
+    "description": "An Evading Temtem will not be affected by the next offensive technique used on it. Once damaged, this condition is removed.",
     "icon": "/images/icons/conditions/Evading.png"
   },
   {
     "name": "Immune",
-    "description": "",
+    "description": "Immune Temtem are unable to be afflicted with new status conditions.",
     "icon": "/images/icons/conditions/Immune.png"
   },
   {
     "name": "Invigorated",
-    "description": "",
+    "description": "The Stamina cost of techniques used by a Invigorated Temtem decreases by 50%. Applying the Exhausted condition removes the Vigorized condition and vice versa.",
     "icon": "/images/icons/conditions/Invigorated.png"
   },
   {
-    "name": "Neutral Status Conditions",
-    "description": "",
-    "icon": "/images/icons/conditions/Neutral Status Conditions.png"
-  },
-  {
     "name": "Nullified",
-    "description": "",
+    "description": "Nullified Temtem have their type based resistances and weaknesses omitted.",
     "icon": "/images/icons/conditions/Nullified.png"
   },
   {
-    "name": "Other Status Conditions",
-    "description": "",
-    "icon": "/images/icons/conditions/Other Status Conditions.png"
-  },
-  {
     "name": "Doomed",
-    "description": "",
+    "description": "Once the turn counter on the Doomed Temtem hits 0, the Temtem faints.",
     "icon": "/images/icons/conditions/Doomed.png"
   }
 ]
