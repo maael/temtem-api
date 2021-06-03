@@ -740,7 +740,7 @@
     "synergyEffects": [],
     "targets": "Single Team",
     "description": "Team equality! This equalizes all team members' STA with the team average.",
-    "effectText": "Cooperation takes the target team's current total STA and splits it evenly between the target team's Temtem. It also heals 7% of the users team HP.",
+    "effectText": "Cooperation takes the target team's current total STA and splits it evenly between the target team's Temtem. It also heals 7% of the target team's HP.",
     "effects": []
   },
   {
@@ -5197,7 +5197,7 @@
     "priorityIcon": "/images/icons/priority/ultra.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "With a few swift movement, this technique Untraps the target from any tangle.",
     "effectText": "Untangle removes the Trapped Condition from the target.",
     "effects": []
