@@ -10,42 +10,62 @@
           "name": "Kalabyss",
           "level": 17,
           "trait": "Toxic Skin",
-          "techniques": ["Tentacle Whip"],
+          "techniques": [
+            "Aqua Stone",
+            "Strangle",
+            "Water Blade",
+            "Tentacle Whip"
+          ],
           "number": 128
         },
         {
           "name": "Loali",
           "level": 17,
           "trait": "Botanist",
-          "techniques": ["Tenderness"],
+          "techniques": [
+            "Toxic Spores",
+            "Wind Blade",
+            "Urushiol",
+            "Tenderness"
+          ],
           "number": 11
         },
         {
           "name": "Sparzy",
           "level": 18,
           "trait": "Last Rush",
-          "techniques": ["DC Beam"],
+          "techniques": ["Psychosis", "Tesla Prison", "Held Anger", "DC Beam"],
           "number": 82
         },
         {
           "name": "Pigepic",
           "level": 19,
           "trait": "Friendship",
-          "techniques": ["Scratch"],
+          "techniques": ["Heavy Blow", "Nimble", "Nibble", "Scratch"],
           "number": 141
         },
         {
           "name": "Tuwai",
           "level": 21,
           "trait": "Spoilsport",
-          "techniques": ["Shrill Voice"],
+          "techniques": [
+            "Multiple Pecks",
+            "Wind Burst",
+            "Feather Gatling",
+            "Shrill Voice"
+          ],
           "number": 130
         },
         {
           "name": "Oceara",
           "level": 22,
           "trait": "Hydrologist",
-          "techniques": ["Kick"],
+          "techniques": [
+            "Ice Shuriken",
+            "Tsunami",
+            "High-pressure Water",
+            "Kick"
+          ],
           "number": 115
         }
       ]
@@ -62,42 +82,47 @@
           "name": "Deendre",
           "level": 24,
           "trait": "Mithridatism",
-          "techniques": ["Roots"],
+          "techniques": [
+            "Double Kick",
+            "Allergic Spread",
+            "Sharp Leaf",
+            "Roots"
+          ],
           "number": 103
         },
         {
           "name": "",
           "level": 24,
           "trait": "Soft Touch",
-          "techniques": ["Nibble"],
+          "techniques": ["Rage", "Sand Splatter", "Heavy Blow", "Nibble"],
           "number": 0
         },
         {
           "name": "Taifu",
           "level": 29,
           "trait": "Toxic Farewell",
-          "techniques": ["Cheer Up"],
+          "techniques": ["Bark Shield", "Gaia", "Allergic Spread", "Cheer Up"],
           "number": 24
         },
         {
           "name": "Magmis",
           "level": 22,
           "trait": "Thick Skin",
-          "techniques": ["Tenderness"],
+          "techniques": ["Rage", "Jaw Strike", "Fire Flame", "Tenderness"],
           "number": 86
         },
         {
           "name": "Banapi",
           "level": 18,
           "trait": "Pyromaniac",
-          "techniques": ["Warm Cuddle"],
+          "techniques": ["Embers", "Head Ram", "Sand Splatter", "Warm Cuddle"],
           "number": 37
         },
         {
           "name": "Raize",
           "level": 28,
           "trait": "Demoralize",
-          "techniques": ["Roar"],
+          "techniques": ["Fire Tornado", "Embers", "Fierce Claw", "Roar"],
           "number": 58
         }
       ]
@@ -114,42 +139,62 @@
           "name": "Cerneaf",
           "level": 33,
           "trait": "Callosity",
-          "techniques": ["Sharp Leaf"],
+          "techniques": [
+            "Rampage",
+            "Double Kick",
+            "Allergic Spread",
+            "Sharp Leaf"
+          ],
           "number": 104
         },
         {
           "name": "Mastione",
           "level": 33,
           "trait": "Bully",
-          "techniques": ["Jaw Strike"],
+          "techniques": ["Embers", "Warm Cuddle", "Rage", "Jaw Strike"],
           "number": 87
         },
         {
           "name": "Kinu",
           "level": 38,
           "trait": "Protector",
-          "techniques": ["Revitalize"],
+          "techniques": ["Lifeful Sap", "Gaia", "Beta Burst", "Revitalize"],
           "number": 137
         },
         {
           "name": "Ukama",
           "level": 33,
           "trait": "Hydrologist",
-          "techniques": ["Cooperation"],
+          "techniques": [
+            "Aqua Bullet Hell",
+            "Sharp Rain",
+            "Water Cannon",
+            "Cooperation"
+          ],
           "number": 89
         },
         {
           "name": "Granpah",
           "level": 33,
           "trait": "Last Rush",
-          "techniques": ["Wind Burst"],
+          "techniques": [
+            "Hypoxia",
+            "Feather Gatling",
+            "Cheer Up",
+            "Wind Burst"
+          ],
           "number": 18
         },
         {
           "name": "Wiplump",
           "level": 31,
           "trait": "Plethoric",
-          "techniques": ["Ice Cubes"],
+          "techniques": [
+            "Drill Impact",
+            "Cold Breeze",
+            "Blizzard",
+            "Ice Cubes"
+          ],
           "number": 26
         }
       ]
@@ -166,42 +211,72 @@
           "name": "Volarend",
           "level": 36,
           "trait": "Aerobic",
-          "techniques": ["Venomous Claws"],
+          "techniques": [
+            "Toxic Plume",
+            "Blizzard",
+            "Multiple Pecks",
+            "Venomous Claws"
+          ],
           "number": 110
         },
         {
           "name": "Myx",
           "level": 33,
           "trait": "Puppet Master",
-          "techniques": ["Energy Manipulation"],
+          "techniques": [
+            "Clinch",
+            "Crystal Bite",
+            "Head Ram",
+            "Energy Manipulation"
+          ],
           "number": 56
         },
         {
           "name": "Mudrid",
           "level": 39,
           "trait": "Receptive",
-          "techniques": ["Sand Splatter"],
+          "techniques": [
+            "Stone Ball",
+            "Head Ram",
+            "Mud Shower",
+            "Sand Splatter"
+          ],
           "number": 22
         },
         {
           "name": "Gazuma",
           "level": 34,
           "trait": "Receptive",
-          "techniques": ["DC Beam"],
+          "techniques": [
+            "Electric Storm",
+            "Drill Impact",
+            "Chain Lightning",
+            "DC Beam"
+          ],
           "number": 114
         },
         {
           "name": "Noxolotl",
           "level": 35,
           "trait": "Trance",
-          "techniques": ["Stare"],
+          "techniques": [
+            "Tentacle Whip",
+            "Toxic Ink",
+            "Venomous Claws",
+            "Stare"
+          ],
           "number": 106
         },
         {
           "name": "Shuine",
           "level": 43,
           "trait": "Guardian",
-          "techniques": ["Aqua Bullet Hell"],
+          "techniques": [
+            "Crystal Bite",
+            "Flood",
+            "Iced Stalactite",
+            "Aqua Bullet Hell"
+          ],
           "number": 122
         }
       ]
@@ -218,42 +293,67 @@
           "name": "Mudrid",
           "level": 40,
           "trait": "",
-          "techniques": ["Sand Splatter"],
+          "techniques": [
+            "Stone Ball",
+            "Head Ram",
+            "Mud Shower",
+            "Sand Splatter"
+          ],
           "number": 22
         },
         {
           "name": "Kauren",
           "level": 40,
           "trait": "Scavenger",
-          "techniques": ["Burrow"],
+          "techniques": ["Stampede", "Stone Ball", "Sand Storm", "Burrow"],
           "number": 101
         },
         {
           "name": "Yowlar",
           "level": 50,
           "trait": "Comebacker",
-          "techniques": ["Late Torment"],
+          "techniques": [
+            "Hibernate",
+            "Oshi-Dashi",
+            "Savage Suplex",
+            "Late Torment"
+          ],
           "number": 116
         },
         {
           "name": "Mushook",
           "level": 42,
           "trait": "",
-          "techniques": ["Humiliating Slap"],
+          "techniques": [
+            "Uppercut",
+            "Perfect Jab",
+            "Paralyzing Poison",
+            "Humiliating Slap"
+          ],
           "number": 85
         },
         {
           "name": "Akranox",
           "level": 42,
           "trait": "Book Lungs",
-          "techniques": ["Intimidation"],
+          "techniques": [
+            "Petrify",
+            "Toxin Shower",
+            "Metabolize",
+            "Intimidation"
+          ],
           "number": 142
         },
         {
           "name": "Skunch",
           "level": 48,
           "trait": "Brawny",
-          "techniques": ["Fierce Claw"],
+          "techniques": [
+            "Ninja Jutsu",
+            "Inner Spirit",
+            "Haito Uchi",
+            "Fierce Claw"
+          ],
           "number": 28
         }
       ]

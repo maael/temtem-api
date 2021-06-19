@@ -75,7 +75,7 @@ async function embellishDojos(
     log.info("[start] Embellish dojo", item.name);
     const $ = cheerio.load(html);
     const temtemItems = getTemtem($, item.leader.name);
-    log.info("[start] Get dojo leader temtem");
+    log.info("[start] Get dojo leader temtem", temtemItems);
     const leaderTemtem = temtemItems.map((i) => {
       const tem = temtem.find((t) => t.name === i.name);
       const trait = traits.find((t) => t.name === i.trait);
@@ -141,8 +141,8 @@ function getTemtem($: CheerioStatic, leader: string) {
           .find("tbody")
           .first()
           .children()
-          .last()
-          .map((_j, techEl) => {
+          .map((j, techEl) => {
+            if (j < 4) return;
             return cleanStrings($(techEl).text().trim())
               .replace("(+)", "")
               .trim();
