@@ -2,62 +2,269 @@
   {
     "name": "Arissola Dojo",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Arissola_Dojo",
-    "types": [
-      "Wind",
-      "Water"
-    ],
+    "types": ["Wind", "Water"],
     "leader": {
       "name": "Sophia",
-      "temtem": []
+      "temtem": [
+        {
+          "name": "Kalabyss",
+          "level": 17,
+          "trait": "Toxic Skin",
+          "techniques": ["Tentacle Whip"],
+          "number": 128
+        },
+        {
+          "name": "Loali",
+          "level": 17,
+          "trait": "Botanist",
+          "techniques": ["Tenderness"],
+          "number": 11
+        },
+        {
+          "name": "Sparzy",
+          "level": 18,
+          "trait": "Last Rush",
+          "techniques": ["DC Beam"],
+          "number": 82
+        },
+        {
+          "name": "Pigepic",
+          "level": 19,
+          "trait": "Friendship",
+          "techniques": ["Scratch"],
+          "number": 141
+        },
+        {
+          "name": "Tuwai",
+          "level": 21,
+          "trait": "Spoilsport",
+          "techniques": ["Shrill Voice"],
+          "number": 130
+        },
+        {
+          "name": "Oceara",
+          "level": 22,
+          "trait": "Hydrologist",
+          "techniques": ["Kick"],
+          "number": 115
+        }
+      ]
     }
   },
   {
     "name": "Mokupuni Dojo",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Mokupuni_Dojo",
-    "types": [
-      "Nature",
-      "Fire"
-    ],
+    "types": ["Nature", "Fire"],
     "leader": {
       "name": "Rawiri",
-      "temtem": []
+      "temtem": [
+        {
+          "name": "Deendre",
+          "level": 24,
+          "trait": "Mithridatism",
+          "techniques": ["Roots"],
+          "number": 103
+        },
+        {
+          "name": "",
+          "level": 24,
+          "trait": "Soft Touch",
+          "techniques": ["Nibble"],
+          "number": 0
+        },
+        {
+          "name": "Taifu",
+          "level": 29,
+          "trait": "Toxic Farewell",
+          "techniques": ["Cheer Up"],
+          "number": 24
+        },
+        {
+          "name": "Magmis",
+          "level": 22,
+          "trait": "Thick Skin",
+          "techniques": ["Tenderness"],
+          "number": 86
+        },
+        {
+          "name": "Banapi",
+          "level": 18,
+          "trait": "Pyromaniac",
+          "techniques": ["Warm Cuddle"],
+          "number": 37
+        },
+        {
+          "name": "Raize",
+          "level": 28,
+          "trait": "Demoralize",
+          "techniques": ["Roar"],
+          "number": 58
+        }
+      ]
     }
   },
   {
     "name": "Nanga Dojo",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Nanga_Dojo",
-    "types": [
-      "Wind",
-      "Water",
-      "Nature",
-      "Fire"
-    ],
+    "types": ["Wind", "Water", "Nature", "Fire"],
     "leader": {
       "name": "Tihani",
-      "temtem": []
+      "temtem": [
+        {
+          "name": "Cerneaf",
+          "level": 33,
+          "trait": "Callosity",
+          "techniques": ["Sharp Leaf"],
+          "number": 104
+        },
+        {
+          "name": "Mastione",
+          "level": 33,
+          "trait": "Bully",
+          "techniques": ["Jaw Strike"],
+          "number": 87
+        },
+        {
+          "name": "Kinu",
+          "level": 38,
+          "trait": "Protector",
+          "techniques": ["Revitalize"],
+          "number": 137
+        },
+        {
+          "name": "Ukama",
+          "level": 33,
+          "trait": "Hydrologist",
+          "techniques": ["Cooperation"],
+          "number": 89
+        },
+        {
+          "name": "Granpah",
+          "level": 33,
+          "trait": "Last Rush",
+          "techniques": ["Wind Burst"],
+          "number": 18
+        },
+        {
+          "name": "Wiplump",
+          "level": 31,
+          "trait": "Plethoric",
+          "techniques": ["Ice Cubes"],
+          "number": 26
+        }
+      ]
     }
   },
   {
     "name": "Quetzal Dojo",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Quetzal_Dojo",
-    "types": [
-      "Toxic",
-      "Crystal"
-    ],
+    "types": ["Toxic", "Crystal"],
     "leader": {
       "name": "Yareni",
-      "temtem": []
+      "temtem": [
+        {
+          "name": "Volarend",
+          "level": 36,
+          "trait": "Aerobic",
+          "techniques": ["Venomous Claws"],
+          "number": 110
+        },
+        {
+          "name": "Myx",
+          "level": 33,
+          "trait": "Puppet Master",
+          "techniques": ["Energy Manipulation"],
+          "number": 56
+        },
+        {
+          "name": "Mudrid",
+          "level": 39,
+          "trait": "Receptive",
+          "techniques": ["Sand Splatter"],
+          "number": 22
+        },
+        {
+          "name": "Gazuma",
+          "level": 34,
+          "trait": "Receptive",
+          "techniques": ["DC Beam"],
+          "number": 114
+        },
+        {
+          "name": "Noxolotl",
+          "level": 35,
+          "trait": "Trance",
+          "techniques": ["Stare"],
+          "number": 106
+        },
+        {
+          "name": "Shuine",
+          "level": 43,
+          "trait": "Guardian",
+          "techniques": ["Aqua Bullet Hell"],
+          "number": 122
+        }
+      ]
     }
   },
   {
     "name": "Vumbi Dojo",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Vumbi_Dojo",
-    "types": [
-      "Neutral",
-      "Earth"
-    ],
+    "types": ["Neutral", "Earth"],
     "leader": {
       "name": "Musa",
+      "temtem": [
+        {
+          "name": "Mudrid",
+          "level": 40,
+          "trait": "",
+          "techniques": ["Sand Splatter"],
+          "number": 22
+        },
+        {
+          "name": "Kauren",
+          "level": 40,
+          "trait": "Scavenger",
+          "techniques": ["Burrow"],
+          "number": 101
+        },
+        {
+          "name": "Yowlar",
+          "level": 50,
+          "trait": "Comebacker",
+          "techniques": ["Late Torment"],
+          "number": 116
+        },
+        {
+          "name": "Mushook",
+          "level": 42,
+          "trait": "",
+          "techniques": ["Humiliating Slap"],
+          "number": 85
+        },
+        {
+          "name": "Akranox",
+          "level": 42,
+          "trait": "Book Lungs",
+          "techniques": ["Intimidation"],
+          "number": 142
+        },
+        {
+          "name": "Skunch",
+          "level": 48,
+          "trait": "Brawny",
+          "techniques": ["Fierce Claw"],
+          "number": 28
+        }
+      ]
+    }
+  },
+  {
+    "name": "Neoedo Dojo",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Neoedo_Dojo",
+    "types": ["Digital", "Electric"],
+    "leader": {
+      "name": "Dr. Sasaya",
       "temtem": []
     }
   }

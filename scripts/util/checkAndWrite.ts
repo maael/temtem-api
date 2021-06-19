@@ -65,11 +65,11 @@ export default async function checkAndWrite(
       }
       return awaitedData;
     } catch (e) {
-      log.error(`Problem writing data: "${e.message}"`, isDebug ? e : "");
+      log.error(`Problem writing data: "${e.message}"`, isDebug ? e : "", e);
       return undefined;
     }
   } catch (e) {
-    log.error(`Problem processing ${file}: ${e.message}`, isDebug ? e : "");
+    log.error(`Problem processing ${file}: ${e.message}`, isDebug ? e : "", e);
     return undefined;
   }
 }
