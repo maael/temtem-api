@@ -47,6 +47,22 @@ function getInfoBox($: CheerioStatic, str: string, idx: number = 0): string {
   return (idx ? $(found) : found).next(".infobox-row-value").text().trim();
 }
 
+function getInfoBoxTitle(
+  $: CheerioStatic,
+  str: string,
+  idx: number = 0
+): string {
+  let found = $(".infobox-row-name").filter((_i, el) => {
+    return $(el).text().trim().toLowerCase() === str.toLowerCase();
+  });
+  if (idx) {
+    found = $(found.get(idx));
+  }
+  return (
+    found.next(".infobox-row-value").find("a").attr("title") || ""
+  ).trim();
+}
+
 function getInfoBoxEl($: CheerioStatic, str: string): Cheerio {
   return $(".infobox-row-name")
     .filter((_i, el) => {
@@ -103,7 +119,7 @@ export default async function embellishTechniques(
       .map(({ item, html }) => {
         const $ = cheerio.load(html);
         const hold = getInfoBoxNumeric($, "Hold");
-        const classField = getInfoBox($, "Class");
+        const classField = getInfoBoxTitle($, "Class");
         const priority = getPriority($);
         const effectText = getEffectText($);
         const effects = getEffectsFromText(effectText, conditions);
