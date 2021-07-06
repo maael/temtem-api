@@ -1154,7 +1154,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "An accurate strike at the target's main pressure point, ignoring its defenses to deal exactly 80 damage without waking it up.",
-    "effectText": "Dim Mak deals an exact, consistent 80 damage to a single target, regardless of DEF, SPDEF, type resistances, or traits. This will not wake up a Temtem with the Asleep Condition.",
+    "effectText": "Dim Mak deals an exact, consistent 100 damage to a single target, regardless of DEF, SPDEF, type resistances, or traits. This will not wake up a Temtem with the Asleep Condition.",
     "effects": []
   },
   {
@@ -1683,7 +1683,7 @@
     "type": "Fire",
     "class": "Special",
     "classIcon": "/images/icons/technique/Special.png",
-    "damage": 90,
+    "damage": 75,
     "staminaCost": 23,
     "hold": 0,
     "priority": "high",
@@ -3552,8 +3552,8 @@
     "type": "Nature",
     "class": "Special",
     "classIcon": "/images/icons/technique/Special.png",
-    "damage": 100,
-    "staminaCost": 23,
+    "damage": 90,
+    "staminaCost": 24,
     "hold": 0,
     "priority": "high",
     "priorityIcon": "/images/icons/priority/high.png",
