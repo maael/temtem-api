@@ -918,7 +918,7 @@
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "You think the cyber world can't reach you here. Think again. This technique is fast and inflicts moderate damage.",
     "effectText": "Cyberclaw deals damage to a single target.",
     "effects": []
@@ -1469,7 +1469,7 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "Digital",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "Disco might be dead, but electro still packs A LOT of punch...Used in combination with a Digital ally, Electropunch becomes faster than optical fiber.",
     "effectText": "Electropunch deals damage to a single target.",
     "effects": []
@@ -1979,8 +1979,8 @@
       }
     ],
     "targets": "Self",
-    "description": "Anything is better than Generic. This technqiue nullifies you for 2 turns.Even more generic? Used in combination with a Neutral ally, Generify nullifies and lets you evade for 2 turns.",
-    "effectText": "Generify gives the user the Nullified Condition for 2 turns.",
+    "description": "Anything is better than generic. This technique nullifies you for 2 turns.Even more generic? Used in combination with a Neutral ally, Generify nullifies and lets you evade for 2 turns.",
+    "effectText": "Generify gifts the user with the Nullified Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -2302,8 +2302,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Self",
-    "description": "Let them attack your digital ghost while you evade them for 1 turn",
-    "effectText": "Hologram applies the Evading Condition to the user for 1 turn.",
+    "description": "Let them attack your digital ghost while you evade them for 1 turn.",
+    "effectText": "Hologram gifts the user with the Evading Condition for 1 turn.",
     "effects": [
       {
         "type": "condition",
@@ -3711,7 +3711,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Out with the bad, in with the good! This technique increases ATK and eliminates doomed.",
-    "effectText": "Gives the target ATK and removes the Doomed Condition.",
+    "effectText": "Purgation gifts the target with ATK and cures them of the Doomed Condition.",
     "effects": []
   },
   {
@@ -4344,7 +4344,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Some Temtem are naturally introverted and keep to themselves, obtaining DEF .",
-    "effectText": "Shy Shield gives the user DEF .",
+    "effectText": "Shy Shield gifts the user with DEF .",
     "effects": []
   },
   {
@@ -5378,8 +5378,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Target",
-    "description": "Like raw sewage raining on you, without the \"like\", it inflicts moderate Toxic damage and poison for 1 turn.",
-    "effectText": "Wastewater deals damage to a single target and inflicts the Poisoned Condition for 1 turn.",
+    "description": "Like raw sewage raining on you, without the \"like\". It inflicts moderate Toxic damage and poisons for 1 turn.",
+    "effectText": "Wastewater deals damage to a single target and inflicts them with the Poisoned Condition for 1 turn.",
     "effects": [
       {
         "type": "condition",
