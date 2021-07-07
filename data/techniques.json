@@ -1805,7 +1805,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Self",
-    "description": "Effective protection against hackers and hostile Temtem... it bestows immunity for 4 turns.",
+    "description": "Effective protection against hackers and hostile Temtem... it bestows 4 immunity for 4 turns.",
     "effectText": "Firewall gifts the user with the Immune Condition for 4 turns.",
     "effects": [
       {
@@ -2172,7 +2172,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Hey, I'm still warming up! ATK .",
-    "effectText": "Heat Up gives the user ATK .",
+    "effectText": "Heat Up gifts the user with ATK .",
     "effects": []
   },
   {
@@ -2421,7 +2421,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "Watch your enemies choke as you turn around and... take their breath away.",
     "effectText": "Hypoxia deals damage to a single target.",
     "effects": []
@@ -3345,7 +3345,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Self",
-    "description": "Unrecommended for longer periods, this technique makes your 'Tems go way faster, bestowing SPEED .",
+    "description": "Unrecommended for longer periods, this technique makes your 'Tems go way faster, bestowing SPD .",
     "effectText": "Overclock give the user SPD .",
     "effects": []
   },
@@ -4552,7 +4552,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "This Temtem's intimidating stare gives the Temtem Alert for 2 turns, and makes rivals feel more vulnerable: DEF .",
+    "description": "This intimidating stare gives the Temtem Alert for 2 turns, and makes rivals feel more vulnerable: DEF .",
     "effectText": "Stare gives the target DEF and the user gains the Alerted Condition for 2 turns.",
     "effects": [
       {
@@ -5121,7 +5121,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Time to supercharge your attack - like nitro, but for Temtem!",
-    "effectText": "Turbo Attack deals damage and has no additional effect.",
+    "effectText": "Turbo Attack deals damage to a single target.",
     "effects": []
   },
   {
@@ -5529,7 +5529,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Sapping the very will to fight from an enemy's mind, this quick Neutral technique steals 23 Stamina points.",
-    "effectText": "Willpower Drain removes 23 STA from the target, while the user gains 23 STA. The user will still overexert if they don't have enough STA to use Willpower Drain.",
+    "effectText": "Willpower Drain drains 23 STA from the target and restores 23 STA to the user. The user will still overexert if they don't have enough STA to use Willpower Drain.",
     "effects": []
   },
   {
@@ -5546,7 +5546,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Lashing gales, like the frozen tramontane howling over Loch.",
+    "description": "Lashing gales, like the frozen tramontane wind howling over Loch.",
     "effectText": "Wind Blade deals damage to a single target.",
     "effects": []
   },
