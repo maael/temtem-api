@@ -182,7 +182,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Give'em the old razzle dazzle! The target evades for 2 turns.",
-    "effectText": "Bamboozle gifts the target with the Evading Condition for 2 turns.",
+    "effectText": "Bamboozle gifts a single target with the Evading Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -206,7 +206,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "This Tem's bark is much worse than its bite - it gives the enemy DEF and SPDEF .",
-    "effectText": "Bark inflicts the target with DEF and SPDEF .",
+    "effectText": "Bark inflicts a single target with DEF and SPDEF .",
     "effects": []
   },
   {
@@ -349,7 +349,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "\"Originated as an Omninesian technique to reach hanging fruit in the jungle canopy.\"",
+    "description": "Originated as an Omninesian technique to reach hanging fruit in the jungle canopy.",
     "effectText": "Boomerang deals damage to a single target.",
     "effects": []
   },
@@ -367,8 +367,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Self",
-    "description": "Survival is often the greatest of victories. Only effective if the Temtem is already alerted, and gives for 2 turns.",
-    "effectText": "Brace causes the user to gain the Evading Condition for 2 turns if it already has the Alerted Condition.",
+    "description": "Survival is often the greatest of victories. Only effective if the Temtem is already alerted, and gives evading for 2 turns.",
+    "effectText": "Brace gifts the user with the Evading Condition for 2 turns if it already has the Alerted Condition.",
     "effects": [
       {
         "type": "condition",
@@ -440,7 +440,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "\"In a hole in the ground there lived a Temtem...\" which allowed it to evade for 4 turns.",
-    "effectText": "Burrow gives the Evading Condition to the user for 4 turns.",
+    "effectText": "Burrow gifts the user with the Evading Condition for 4 turns.",
     "effects": [
       {
         "type": "condition",
@@ -518,7 +518,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Healing is a collective process - in clockwise order, 3 Temtem recover 20% health.",
-    "effectText": "Chain Heal heals 20% of health of the target and the two successive targets in a clockwise order. When only two Temtem are on the battlefield, the initial target will heal 40% of health while 20% for the remaining target.",
+    "effectText": "Chain Heal heals three targets in clockwise order for 20% of their max HP. When only two Temtem are on the battlefield, the initial target will heal 40% while the remaining target will heal 20%.",
     "effects": []
   },
   {
@@ -535,8 +535,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Target",
-    "description": "This miracle of Electric manipulation bounces 3 times clockwise, dealing decreasing damage.",
-    "effectText": "Chain Lightning damages a single target 100% of damage value and two successive Temtems 70% and 60% located clockwise respectively, unless any Temtem in the damage range blocks damage and stops the damage from passing on. Damage can be blocked if the target or other Temtem in the chain have the Evading Condition, has the trait Electric Synthesize or, if the target is an ally, has the Friendship trait.",
+    "description": "This miracle of Electric manipulation bounces 3 times clockwise for as long as it deals damage, dealing decreasing damage with each hit.",
+    "effectText": "Chain Lightning deals damage to three targets in clockwise order. The selected target takes 100% of the damage, the second takes 70%, and the third takes 60%. The chain of damage will fail to continue to the next target if the damage was blocked by the current target. Damage can be blocked if the target who would have taken damage has the Evading Condition, has the Electric Synthesize Trait, or, if the target is an ally, has the Friendship trait.",
     "effects": []
   },
   {
@@ -571,7 +571,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "There's a time for cunning strategy, and there's a time for charging head-on. This is for the latter case.",
+    "description": "There's a time for cunning strategy, and there's a time for charging head-on. This one is for the latter case.",
     "effectText": "Charge deals damage to a single target.",
     "effects": []
   },
@@ -614,7 +614,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Lifts the spirits of the target and gives -1 Hold.",
-    "effectText": "Cheer Up reduces the Hold of all techniques of the target by 1 as if an additional turn had gone by.",
+    "effectText": "Cheer Up reduces the Hold of all the techniques of a single target by 1, as if an additional turn had gone by.",
     "effects": []
   },
   {
@@ -631,8 +631,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Mudslinging to see what sticks? Just a little Earth damage, probably...",
-    "effectText": "Clay Ball deals damage to a single target and gives SPD to the enemy.",
+    "description": "Mudslinging to see what sticks? It won't do much damage, but it slows them down... Inflicts moderate damage and SPD",
+    "effectText": "Clay Ball deals damage to a single target and inflicts them with SPD .",
     "effects": []
   },
   {
@@ -692,7 +692,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "A icy stream from the depths, this soaker inflicts moderate Water damage and leaves you cold for 2 turns.",
-    "effectText": "Cold Geyser deals damage to a single target and inflicts the Cold Condition for 2 turns.",
+    "effectText": "Cold Geyser deals damage to a single target and inflicts them with the Cold Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -739,8 +739,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Team",
-    "description": "Team equality! This equalizes all team members' STA with the team average.",
-    "effectText": "Cooperation takes the target team's current total STA and splits it evenly between the target team's Temtem. It also heals 7% of the target team's HP.",
+    "description": "Team equality! This equalizes all team members' STA with the team average and the whole team recovers 7% HP.",
+    "effectText": "Cooperation takes the targeted team's current total STA then evenly splits it between the targeted team's Temtem and heals 7% of their max HP.",
     "effects": []
   },
   {
