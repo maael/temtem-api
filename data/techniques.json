@@ -902,7 +902,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Inspired by the ruins of the Amethyst Barrens, this crystal crust provides protection at the expense of speed: DEF but SPD .",
-    "effectText": "Crystallize gives the user DEF and SPD .",
+    "effectText": "Crystallize gifts the user with DEF but also inflicts the user with SPD .",
     "effects": []
   },
   {
@@ -937,9 +937,15 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "All",
-    "description": "Where is everybody? All Temtem in the battlefield are Isolated for 2 turns, negating any synergies.",
-    "effectText": "Darkness gives the Isolated Condition to all Temtem on the battlefield for 2 turns.",
-    "effects": []
+    "description": "Where is everybody!? All Temtem in the battlefield are Isolated for 2 turns, negating any synergies.",
+    "effectText": "Darkness inflicts all Temtem on the battlefield with the Isolated Condition for 2 turns.",
+    "effects": [
+      {
+        "type": "condition",
+        "turns": 2,
+        "condition": "Isolated"
+      }
+    ]
   },
   {
     "name": "Data Burst",
@@ -1032,7 +1038,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "Quick, give me another shock! This technique inflicts moderate damage and isolates it for 2 turns.",
     "effectText": "Defibrillate deals damage to a single target and inflicts the Isolated Condition for 2 turns.",
     "effects": [
@@ -1050,15 +1056,15 @@
     "class": "Status",
     "classIcon": "/images/icons/technique/Status.png",
     "damage": 0,
-    "staminaCost": 26,
+    "staminaCost": 27,
     "hold": 2,
     "priority": "low",
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Self",
-    "description": "Harder than the hardest Crystal Temtem! It confers DEF and SPDEF .",
-    "effectText": "Diamond Fort gives the user DEF and SPDEF .",
+    "description": "Harder than the hardest Crystal Temtem! It confers DEF and SPDEF .",
+    "effectText": "Diamond Fort gifts the user with DEF and SPDEF .",
     "effects": []
   },
   {
@@ -1153,8 +1159,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "An accurate strike at the target's main pressure point, ignoring its defenses to deal exactly 80 damage without waking it up.",
-    "effectText": "Dim Mak deals an exact, consistent 100 damage to a single target, regardless of DEF, SPDEF, type resistances, or traits. This will not wake up a Temtem with the Asleep Condition.",
+    "description": "An accurate strike at the target's main pressure point, ignoring its defenses to deal exactly 100 damage without waking it up.",
+    "effectText": "Dim Mak deals an exact 100 damage to a single target, regardless of DEF, SPDEF, type resistances, or traits. It will also not wake up a Temtem afflicted with the Asleep Condition.",
     "effects": []
   },
   {
@@ -1172,7 +1178,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "The needle-prick doesn't inflict much damage, but Mimit uses the DNA sample to adapt its defense, bestowing SPD .",
-    "effectText": "DNA Extraction inflicts damage to a single target and gifts the user with SPD .",
+    "effectText": "DNA Extraction deals damage to a single target and gifts the user with SPD .",
     "effects": []
   },
   {
@@ -1213,8 +1219,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "\"Tis but a scratch! Or two!\". This Melee Technique is nothing to write home about.",
-    "effectText": "Double Gash does damage to a single target.",
+    "description": "\"'Tis but a scratch! Or two!\". This Melee Technique is nothing to write home about.",
+    "effectText": "Double Gash deals damage to a single target.",
     "effects": []
   },
   {
@@ -1267,8 +1273,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "All",
-    "description": "A bone-dry technique that leaves every Temtem on the battlefield for 2 turns, and the attacker overextended next turn.",
-    "effectText": "Drought causes all Temtem to get the Exhausted Condition for 2 turns, and leaves the user overexerted next turn.",
+    "description": "A bone-dry technique that leaves every Temtem on the battlefield Exhausted for 2 turns, and the attacker overextended next turn.",
+    "effectText": "Drought inflicts all Temtem on the battlefield with the Exhausted Condition for 2 turns and leaves the user overexerted next turn.",
     "effects": [
       {
         "type": "condition",
@@ -1291,7 +1297,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "This technique buffs the enemy with the fury of the fiercest Kisiwan sandstorm.",
+    "description": "This technique buffets the enemy with the fury of the fiercest Kisiwan sandstorm.",
     "effectText": "Dust Vortex deals damage to a single target.",
     "effects": []
   },
@@ -1309,7 +1315,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Target",
-    "description": "",
+    "description": "This brown-water Koish subspecies has developed the skill to inflict moderate Earth damage.",
     "effectText": "Earth Stream deals damage to a single target.",
     "effects": []
   },
@@ -1345,7 +1351,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Other Team or Ally",
-    "description": "Feel the Earth shake under your feet, rising with Anak-like force - slow, but devastating for the whole team.",
+    "description": "Feel the Earth shake under your feet, rising with Anak-like force: slow, but devastating for the whole team.",
     "effectText": "Earth Wave deals damage to the opposing team or the user's ally.",
     "effects": []
   },
@@ -1446,8 +1452,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Electromagnetically bound, attacker and target are trapped for 3 turns, while the target gets SPD .",
-    "effectText": "Electromagnetism gives the target SPD while inflicting the user and the target with the Trapped Condition for 3 turns.",
+    "description": "Electromagnetically bound, attacker and target are trapped for 3 turns, while target gets SPD .",
+    "effectText": "Electromagnetism inflicts the target and user with the Trapped Condition for 3 turns then inflicts the target with SPD .",
     "effects": [
       {
         "type": "condition",
