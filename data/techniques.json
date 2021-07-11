@@ -1774,8 +1774,8 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
-    "description": "Unleash a mighty Fire storm against your opponents. Try to wear nothing flammable...",
+    "targets": "Single Target",
+    "description": "Unleash a mighty Fire storm against your opponents. Try not to wear anything flammable...",
     "effectText": "Fire Tornado deals damage to a single target.",
     "effects": []
   },
@@ -1835,7 +1835,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Target",
-    "description": "Some Temtem can call on Highabove forces to bring down a fiery fire inferno on one enemy.",
+    "description": "Some Temtem can call on Highabove forces to bring down a fiery Fire inferno on one enemy.",
     "effectText": "Flaming Meteorite deals damage to a single target.",
     "effects": []
   },
@@ -1878,7 +1878,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Real protection is not about unmovable strength, but dynamic defense. This technique gives the target immunity for 3 turns and SPDEF .",
-    "effectText": "Fluid Barrier gives the target SPDEF and Immune Condition for 3 turns",
+    "effectText": "Fluid Barrier gifts a single target with SPDEF and the Immune Condition for 3 turns",
     "effects": [
       {
         "type": "condition",
@@ -1902,7 +1902,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Advanced balance training developed by Tucmani rockhoppers: it confers SPD .",
-    "effectText": "Footwork gives the user SPD .",
+    "effectText": "Footwork gifts the user with SPD .",
     "effects": []
   },
   {
@@ -1938,7 +1938,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Invoke the ancient spirit of the Omninesian jungle to recover 100% STA.",
-    "effectText": "Gaia restores the user's STA to full. The user will still overexert if they lack the required stamina before use.",
+    "effectText": "Gaia restores the user's STA to full. The user will still overexert if they lack the required STA before use.",
     "effects": []
   },
   {
@@ -1956,7 +1956,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "The shorter the wavelength, the higher the damage. This mighty technique costs a lot of stamina but leaves the target even more exhausted.",
-    "effectText": "Gamma Burst deals damage to a single target and gives it the Exhausted Condition for 2 turns.",
+    "effectText": "Gamma Burst deals damage to a single target and inflicts them with the Exhausted Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -2260,8 +2260,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Self",
-    "description": "Just a little nap while it's cold outside... The target is for 3 turns but recovers 40% of health and stamina.",
-    "effectText": "Hibernate inflicts the user with the Frozen Condition for 3 turns but restores 40% of its maximum HP and STA.",
+    "description": "Just a little nap while it's cold outside... The target is Frozen for 3 turns but recovers 40% of health and stamina.",
+    "effectText": "Hibernate restores 40% of the user's max HP and STA but inflicts them with the Frozen Condition for 3 turns.",
     "effects": [
       {
         "type": "condition",
@@ -2331,9 +2331,9 @@
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "A quick lunge for that unprotected jaw. This technique doesn't do much damage, but gives the attacker ATK .",
-    "effectText": "Hook deals damage to a single target and gives the user ATK .",
+    "effectText": "Hook deals damage to a single target and gifts the user with ATK .",
     "effects": []
   },
   {
@@ -2349,7 +2349,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "Very few Temtem are still kicking after receiving this kick!",
     "effectText": "Hook Kick deals damage to a single target.",
     "effects": []
@@ -2368,8 +2368,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "A bruised ego hurts more than a wounded body. This is just the thing! DEF .",
-    "effectText": "Humiliating Slap deals damage to a single target and gives them DEF",
+    "description": "A bruised ego hurts more than a wounded body. This is just the thing! DEF .",
+    "effectText": "Humiliating Slap deals damage to a single target and inflicts them with DEF",
     "effects": []
   },
   {
