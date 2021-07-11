@@ -2470,7 +2470,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "An obscure technique created by the secretive Iwaba clan, deep in the Cipanki hills, Cold for 2 turns.",
+    "description": "An obscure technique created by the secretive Iwaba clan, deep in the Cipanki hills, which inflicts Cold for 2 turns.",
     "effectText": "Ice Shuriken deals damage to a single target and inflicts them with the Cold Condition for 2 turns.",
     "effects": [
       {
@@ -2495,7 +2495,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Cold *does* bother you anyway... This giant icicle inflicts damage and also Cold for 3 turns.",
-    "effectText": "Iced Stalactite deals damage to a single target and inflicts it with the Cold Condition for 3 turns.",
+    "effectText": "Iced Stalactite deals damage to a single target and inflicts them with the Cold Condition for 3 turns.",
     "effects": [
       {
         "type": "condition",
@@ -2518,7 +2518,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Target",
-    "description": "It is said this attack channels the spirit of a long-lost, draconic variety of Temtem, for massive damage.",
+    "description": "It is said this technique channels the spirit of a long-lost, draconic variety of Temtem, for massive damage.",
     "effectText": "Inner Spirit deals damage to a single target.",
     "effects": []
   },
@@ -2560,7 +2560,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "",
+    "description": "Temtem with powerful jaws always know how to use them...",
     "effectText": "Jaw Strike deals damage to a single target.",
     "effects": []
   },
@@ -2597,7 +2597,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "When the king roars, the rest run away. Decreases SPD and ATK of the other team.",
-    "effectText": "King's Roar gives the targets SPD and ATK .",
+    "effectText": "King's Roar inflicts the opposing team or the user's ally with SPD and ATK .",
     "effects": []
   },
   {
@@ -2657,7 +2657,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "The sap of life, from the living heart of the Giant Banyan. Heals 10% HP for 7 turns.",
-    "effectText": "Lifeful Sap applies the Regenerated Condition to the user for 7 turns.",
+    "effectText": "Lifeful Sap gifts the user with the Regenerated Condition for 7 turns.",
     "effects": [
       {
         "type": "condition",
@@ -2681,7 +2681,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "This Temtem has (metaphorical) eyes on the back of its head. This hyperalert state makes it alerted for 5 turns.",
-    "effectText": "Look out gives the target the Alerted Condition for 5 turns.",
+    "effectText": "Look out gifts a single target with the Alerted Condition for 5 turns.",
     "effects": [
       {
         "type": "condition",
@@ -2704,7 +2704,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Other Team or Ally",
-    "description": "Twinkle twinkle little Tem /Whole opponent team falls Asleep for 2 turns.",
+    "description": "Twinkle twinkle little Tem / Whole opponent team falls Asleep for 2 turns.",
     "effectText": "Lullaby inflicts the opposing team or the user's ally with the Asleep Condition for 2 turns.",
     "effects": [
       {
@@ -2729,7 +2729,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "There is an edge to this madness - those willing to take 30% Damage will get SPDEF and SPATK .",
-    "effectText": "Madness Buff causes the user lose 30% of their total HP and then gets SPDEF and SPATK .",
+    "effectText": "Madness Buff causes the user lose 30% of their max HP and then is gifted SPDEF and SPATK .",
     "effects": []
   },
   {
