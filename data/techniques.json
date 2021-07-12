@@ -3333,7 +3333,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Going for the ring out can be a dangerous Melee move in the smallest islands.",
+    "description": "Going for the ring out can be a dangerous Melee move in the smallest islands...",
     "effectText": "Oshi-Dashi deals damage to a single target.",
     "effects": []
   },
@@ -3417,8 +3417,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Blood magic requires blood sacrifice - will you pay the price? Loatle can inflict 10% of damage on itself to boost the ATK and SPATK .",
-    "effectText": "Penance causes the user lose 10% of their total HP and then give the target ATK and SPATK .",
+    "description": "Blood magic requires blood sacrifice - will you pay the price? Loatle can inflict 10% of damage on itself to boost the ATK and SPATK of the target.",
+    "effectText": "Penance causes the user lose 10% of their max HP and then gift the target with ATK and SPATK .",
     "effects": []
   },
   {
@@ -3436,7 +3436,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Strike smarter, not harder. Weak, but enemy get DEF .",
-    "effectText": "Perfect Jab deals damage to a single target and gives them DEF .",
+    "effectText": "Perfect Jab deals damage to a single target and inflicts them with DEF .",
     "effects": []
   },
   {
@@ -3452,9 +3452,9 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
-    "description": "Have a heart... of stone. It doesn't hurt much, but it leaves enemies for 5 turns.",
-    "effectText": "Petrify deals damage to a single target and inflicts the Trapped Condition for 5 turns.",
+    "targets": "Single Target",
+    "description": "Have a heart... of stone. It doesn't hurt much, but it leaves enemies trapped for 5 turns.",
+    "effectText": "Petrify deals damage to a single target and inflicts with the Trapped Condition for 5 turns.",
     "effects": [
       {
         "type": "condition",
@@ -3764,7 +3764,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Temtem found defensive uses for rock crystal centuries before humans did: DEF and SPDEF .",
-    "effectText": "Quartz Shield gives the target DEF and SPDEF .",
+    "effectText": "Quartz Shield gifts a single target with DEF and SPDEF .",
     "effects": []
   },
   {
@@ -3830,7 +3830,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "The red mist makes a Temtem brutal but also careless, getting ATK and DEF .",
-    "effectText": "Rage gives the user ATK but also DEF .",
+    "effectText": "Rage gifts the user with ATK but also inflicts the user with DEF .",
     "effects": []
   },
   {
