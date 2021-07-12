@@ -2986,7 +2986,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "Imagine a Crystal storm in the darkest depths of Mictlan... Now just watch the enemy team.",
-    "effectText": "Mineral Hail deals damage to a the opposing team or the user's ally.",
+    "effectText": "Mineral Hail deals damage to the opposing team or the user's ally.",
     "effects": []
   },
   {
@@ -3004,7 +3004,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "\"Mirror, mirror in my hand, who's the best tamer in the Archipelago?\" \"No idea, but you get SPDEF \".",
-    "effectText": "Mirror Shell gives the user SPDEF .",
+    "effectText": "Mirror Shell gifts the user with SPDEF .",
     "effects": []
   },
   {
@@ -3044,7 +3044,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "Some of the larger Temtem of the savannah love this Earth technique, as messy as it is fun!",
     "effectText": "Mud Shower deals damage to a single target.",
     "effects": []
@@ -3105,8 +3105,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "A potent attack that exhausts the attacker's psyche, making it Asleep for 2 turns.",
-    "effectText": "Narcoleptic Hit deals damage to a single target and inflicts the user with the Asleep Condition for 2 turns.",
+    "description": "A potent attack that exhausts the attacker's psyche, making it fall Asleep for 2 turns.",
+    "effectText": "Narcoleptic Hit deals damage to a single target then inflicts the user with the Asleep Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -3165,7 +3165,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Target",
-    "description": "Cute but still fight-heavy. Koish know how to inflict moderate Neutral damage.",
+    "description": "Cute but still fight-savvy, Koish know how to inflict moderate Neutral damage.",
     "effectText": "Neutral Stream deals damage to a single target.",
     "effects": []
   },
@@ -3237,8 +3237,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Through rigorous training, Temtem can become extra fast and gain SPD .",
-    "effectText": "Nimble gives the target SPD .",
+    "description": "Through rigorous training, Temtem can become extra fast and gain SPD .",
+    "effectText": "Nimble gifts the target with SPD .",
     "effects": []
   },
   {
