@@ -2537,7 +2537,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "That \"don't mess with me\" look makes the target team exhausted for 2 turns.",
-    "effectText": "Intimidation inflicts the opposing team or an ally with the Exhausted Condition for 2 turns.",
+    "effectText": "Intimidation inflicts the opposing team or the user's ally with the Exhausted Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -2747,7 +2747,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Like a surge of Anak lava to the face! Fire technique that burns for 3 turns.",
-    "effectText": "Magma Cannon deals damage to a single target and inflicts the Burned Condition for 3 turns.",
+    "effectText": "Magma Cannon deals damage to a single target and inflicts them with the Burned Condition for 3 turns.",
     "effects": [
       {
         "type": "condition",
@@ -3478,7 +3478,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Nature Temtem are unique in their use of Pan-sunlight to nourish themselves and recover 50% STA.",
-    "effectText": "Photosynthesis restores 50% of the user's total STA.",
+    "effectText": "Photosynthesis restores 50% of the user's max STA. The user will still overexert if they lack the required STA before use.",
     "effects": []
   },
   {
@@ -3496,7 +3496,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A dirty trick from the seedier alleys of Lochburg, uses nimble fingers (or claws) to Seize the target for 2 turns.",
-    "effectText": "Pickpocket deals damage to a single target and inflicts the Seized Condition for 2 turns.",
+    "effectText": "Pickpocket deals damage to a single target and inflicts them with the Seized Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -3520,7 +3520,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Zizare's signature technique - a fast attack that terrifies enemies DEF and lifts your spirits, giving you Vigor for 2 turns.",
-    "effectText": "Piercing Wheel deals damage to a single target and gives it DEF , while also giving its user the Vigorized Condition for 2 turns.",
+    "effectText": "Piercing Wheel deals damage to a single target and inflicts them with DEF while also gifting the user with the Vigorized Condition for 2 turns.",
     "effects": []
   },
   {
@@ -3590,8 +3590,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "A jet of superheated matter, right where it hurts. This technique does slight damage and burns the target for 1 turn.",
-    "effectText": "Plasma Beam deals damage to a single target and inflicts them with the Burned Condition for 1 turn;",
+    "description": "A jet of superheated matter, right where it hurts. This technique does slight damage and burns a target for 1 turn.",
+    "effectText": "Plasma Beam deals damage to a single target and inflicts them with the Burned Condition for 1 turn.",
     "effects": [
       {
         "type": "condition",
@@ -3697,9 +3697,9 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
-    "description": "Inflicts Doom for 4 turns.",
-    "effectText": "Psychosis inflicts the target with a 4 turn countdown of the Doomed Condition.",
+    "targets": "Single Target",
+    "description": "Never take a shower before checking you're really alone... It dooms the target for 4 turns.",
+    "effectText": "Psychosis inflicts a single target with a 4 turn countdown of the Doomed Condition.",
     "effects": []
   },
   {
@@ -3717,7 +3717,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Out with the bad, in with the good! This technique increases ATK and eliminates doomed.",
-    "effectText": "Purgation gifts the target with ATK and cures them of the Doomed Condition.",
+    "effectText": "Purgation gifts a single target with ATK and cures them of the Doomed Condition.",
     "effects": []
   },
   {
@@ -3942,8 +3942,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "While this technique does only moderate damage, it Nullifies the target for 4 turns, buying you some precious time...",
-    "effectText": "Rend deals damage to a single target and inflicts the Nullified Condition for 4 turns.",
+    "description": "While this technique does only moderate damage, it nullifies the target for 4 turns, buying you some precious time...",
+    "effectText": "Rend deals damage to a single target and inflicts them with the Nullified Condition for 4 turns.",
     "effects": [
       {
         "type": "condition",
@@ -3965,9 +3965,9 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "Like a mosquito in amber, this technique damages an enemy and leaves it trapped for 2 turns.",
-    "effectText": "Resin Trap deals damage to a single target and inflicts the Trapped Condition for 2 turns.",
+    "effectText": "Resin Trap deals damage to a single target and inflicts them with the Trapped Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -4019,8 +4019,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Other Team or Ally",
-    "description": "A mighty roar at a crucial moment, to intimidate rivals for ATK .",
-    "effectText": "Roar gives the targets ATK .",
+    "description": "A mighty roar at a crucial moment, to intimidate rivals for ATK .",
+    "effectText": "Roar inflicts the opposing team or the user's ally with ATK .",
     "effects": []
   },
   {
