@@ -4062,7 +4062,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Legends tell of the Omninesian tamers who would root rivals in place, inflicting SPD .",
-    "effectText": "Roots gives the target SPD .",
+    "effectText": "Roots inflicts a single target with SPD .",
     "effects": []
   },
   {
@@ -4079,8 +4079,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Temtem may pay the ultimate price to heal the target of all Status conditions and give them DEF and SPDEF .",
-    "effectText": "Sacrifice causes the user to knock itself out then removes all Status Conditions from the target and give it DEF and SPDEF .",
+    "description": "A Temtem may pay the ultimate price to heal the target of all Status conditions and give them DEF and SPDEF .",
+    "effectText": "Sacrifice removes all Status Conditions from a single target and gifts them with DEF and SPDEF , then the user is knocked out.",
     "effects": []
   },
   {
@@ -4097,7 +4097,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "A fistful of humble sand becomes a faceful of dirty fighting.",
+    "description": "A fistful of humble sand becomes a face full of dirty fighting.",
     "effectText": "Sand Splatter deals damage to a single target.",
     "effects": []
   },
@@ -4133,7 +4133,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "In classic Temtem wresting showbiz style, this Neutral technique damages and the target for 2 turns.",
+    "description": "In classic Temtem wresting showbiz style, this Neutral technique damages and exhausts the target for 2 turns.",
     "effectText": "Savage Suplex deals damage to a single target and inflicts them with the Exhausted Condition for 2 turns.",
     "effects": [
       {
@@ -4199,8 +4199,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Other Team or Ally",
-    "description": "Only Oceara can tap into the immense power of the mythical serbatiyo to unleash a devastating Water attack on the whole enemy team.",
-    "effectText": "Serbatiyo's Wrath deals damage to the opposing team or the user's ally and gives SPATK to the user.",
+    "description": "Only Oceara can tap into the mythical power of the serbatiyo to give itself SPAT and unleash a devastating Water attack on the whole enemy team.",
+    "effectText": "Serbatiyo's Wrath deals damage to the opposing team or the user's ally then gifts the user with SPATK .",
     "effects": []
   },
   {
@@ -4234,7 +4234,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "Rather like snow, if snow was razor-sharp ice needles instead of gentle flakes.",
     "effectText": "Sharp Rain deals damage to a single target.",
     "effects": []
@@ -4272,7 +4272,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Sharpen those claws, it's time to tear through the opposition! This technique bestows increased ATK and SPD .",
-    "effectText": "Sharpening gives the user ATK and SPD .",
+    "effectText": "Sharpening gifts the user with ATK and SPD .",
     "effects": []
   },
   {
