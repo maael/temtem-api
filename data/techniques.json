@@ -2615,7 +2615,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "The first cut is the deepest, but the last one hurts like Downbelow. This Neutral Technique only works on trapped enemies and inflicts 180 damage.",
-    "effectText": "Late Torment deals damage to a single target if it has the Trapped Condition.",
+    "effectText": "Late Torment deals damage to a single target if they're afflicted with the Trapped Condition.",
     "effects": []
   },
   {
@@ -4290,7 +4290,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Take cover! This slow technique gives DEF and SPDEF at the expense of leaving you Overexerted on the next turn.",
-    "effectText": "Shelter gives the user DEF and SPDEF , while overexerting the next turn.",
+    "effectText": "Shelter gifts the user with DEF and SPDEF , but overexerts them the next turn.",
     "effects": []
   },
   {
@@ -4332,7 +4332,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "Widely used by Accademia teachers, this Neutral attack deafens the whole class... eh, team.",
-    "effectText": "Shrill Voice deals damage to the targets.",
+    "effectText": "Shrill Voice deals damage to the opposing team or the user's ally.",
     "effects": []
   },
   {
@@ -4368,7 +4368,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Nothing slows you down like being swamped in sticky goo... Traps for 2 turns and gives SPD .",
-    "effectText": "Slime gives the target SPD and inflicts the Trapped Condition for 2 turns.",
+    "effectText": "Slime inflicts a single target with the Trapped Condition for 2 turns and SPD .",
     "effects": [
       {
         "type": "condition",
@@ -4434,7 +4434,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Ah, the crazy Fire of passion! The target gets just a little scorched, but the kisser is invigorated for 2 turns.",
-    "effectText": "Smoldering Kiss deals damage to a single target, and gives the user the Vigorized Condition for 2 turns.",
+    "effectText": "Smoldering Kiss deals damage to a single target and gifts the user with the Vigorized Condition for 2 turns.",
     "effects": []
   },
   {
@@ -4494,7 +4494,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Nothing perks you up like a spark-up! SPATK .",
-    "effectText": "Sparks gives the target SPATK .",
+    "effectText": "Sparks gifts a single target with SPATK .",
     "effects": []
   },
   {
@@ -4559,7 +4559,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "This intimidating stare gives the Temtem Alert for 2 turns, and makes rivals feel more vulnerable: DEF .",
-    "effectText": "Stare gives the target DEF and the user gains the Alerted Condition for 2 turns.",
+    "effectText": "Stare inflicts a single target with DEF and gifts the user with the Alerted Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -4582,8 +4582,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "A tiny prick only hurts a little... until they notice they're for 2 turns.",
-    "effectText": "Sting deals damage to a single target and gives it the Poisoned Condition for 2 turns.",
+    "description": "A tiny prick only hurts a little... until they notice they're Poisoned for 2 turns.",
+    "effectText": "Sting deals damage to a single target and inflicts them with the Poisoned Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -4630,8 +4630,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Other Team or Ally",
-    "description": "Get to cover! This technqiue inflicts medium damage on the target team and you get Evading for 2 turns.",
-    "effectText": "Stone Trench deals damage to the opponents team or the user's ally and gives the user the Evading Condition for 2 turns.",
+    "description": "Get to cover! This technique inflicts medium damage on the target team and you get evading for 2 turns.",
+    "effectText": "Stone Trench deals damage to the opposing team or the user's ally and gifts the user with the Evading Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -4655,7 +4655,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "The best way to stonewall a Temtem, giving DEF and SPDEF .",
-    "effectText": "Stone Wall gives the target DEF and SPDEF .",
+    "effectText": "Stone Wall gifts a single target with DEF and SPDEF .",
     "effects": []
   },
   {
@@ -4664,7 +4664,7 @@
     "type": "Neutral",
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 25,
+    "damage": 35,
     "staminaCost": 11,
     "hold": 0,
     "priority": "verylow",
@@ -4672,7 +4672,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Strangler and strangled, united in a deadly embrace. Both attacker and target lose their next turn as long as they are present in the field, while the attacker not asleep.",
+    "description": "Strangler and strangled, united in a deadly embrace. Both attacker and target get overextended next turn.",
     "effectText": "Strangle deals damage to a single target and causes both the user and the target to become overexerted for the next turn.",
     "effects": []
   },
@@ -4727,7 +4727,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Really? Are you going to attack something *this* cute? Inflicts ATK .",
-    "effectText": "Tenderness gives the target ATK .",
+    "effectText": "Tenderness inflicts a single target with ATK .",
     "effects": []
   },
   {
@@ -4763,7 +4763,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "An electromagnetic trap that does light damage and slows down the target: SPD .",
-    "effectText": "Tesla Prison deals damage to a single target and gives it SPD .",
+    "effectText": "Tesla Prison deals damage to a single target and inflicts them with SPD .",
     "effects": []
   },
   {
@@ -4781,7 +4781,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Hear it roar! The sound and fury of this technique inflict heavy damage but Exhaust the attacker for 2 turns.",
-    "effectText": "Thunder Strike deals damage to a single target, but inflicts the user with the Exhausted Condition for 2 turns.",
+    "effectText": "Thunder Strike deals damage to a single target but inflicts the user with the Exhausted Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -4805,7 +4805,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Twist the fabric of time-space to your advantage, gaining SPD and giving the enemy SPD .",
-    "effectText": "Time Split deals damage to a single target, gives it SPD , and gives the user SPD .",
+    "effectText": "Time Split deals damage to a single target, inflicts it with SPD , and gifts the user with SPD .",
     "effects": []
   },
   {
@@ -4883,7 +4883,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "When the going gets tough, the tough get going - and DEF !",
-    "effectText": "Toughen gives the user DEF .",
+    "effectText": "Toughen gifts the user with DEF .",
     "effects": []
   },
   {
@@ -4901,7 +4901,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A quick nibble that doesn't look like much... until you notice the Poison for 1 turn.",
-    "effectText": "Toxic Fang deals damage to a single target and inflicts 1 turn of the Poisoned Condition.",
+    "effectText": "Toxic Fang deals damage to a single target and inflicts them with the Poisoned Condition for 1 turn.",
     "effects": [
       {
         "type": "condition",
@@ -4943,7 +4943,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "The victim will have time to regret getting this tattoo... While it's Poisoned for 2 turns.",
-    "effectText": "Toxic Ink deals damage to a single target and inflicts the Poisoned Condition for 2 turns.",
+    "effectText": "Toxic Ink deals damage to a single target and inflicts them with the Poisoned Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -5000,7 +5000,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "This takes the form of a repulsive wave of slime that hurts the body... and your self-esteem.",
     "effectText": "Toxic Slime deals damage to a single target.",
     "effects": []
@@ -5019,7 +5019,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Toxin-carrying spores that inoculate with Poisoned Condition for 3 turns.",
+    "description": "Toxin-carrying spores that inoculate with Poisoned for 3 turns.",
     "effectText": "Toxic Spores inflicts a single target with the Poisoned Condition for 3 turns.",
     "effects": [
       {
@@ -5080,7 +5080,7 @@
     "synergyEffects": [],
     "targets": "All",
     "description": "\"Toxinestorm\" isn't as colorful as the alternative, but you get the idea... Slightly damages all Temtem in the battlefield.",
-    "effectText": "Toxin Shower deals damage to all targets on the battlefield.",
+    "effectText": "Toxin Shower deals damage to all Temtem on the battlefield.",
     "effects": []
   },
   {
@@ -5145,7 +5145,7 @@
     "synergyEffects": [],
     "targets": "Single Team",
     "description": "Turn it to eleven! Decreases the Hold level of our whole team.",
-    "effectText": "Turbo Charge lowers all of the target team's technique's Hold by 1.",
+    "effectText": "Turbo Charge reduces the Hold of all the techniques of the targeted team by 1, as if an additional turn had gone by.",
     "effects": []
   },
   {
@@ -5187,7 +5187,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Leave your opponent heavily damaged and treading on very thin ice, giving it SPATK .",
-    "effectText": "Undermine deals damage to a single target and inflicts SPATK .",
+    "effectText": "Undermine deals damage to a single target and inflicts them with SPATK .",
     "effects": []
   },
   {
@@ -5204,8 +5204,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Target",
-    "description": "With a few swift movement, this technique Untraps the target from any tangle.",
-    "effectText": "Untangle removes the Trapped Condition from the target.",
+    "description": "With a few swift movement, this techniques Untraps the target from any tangle.",
+    "effectText": "Untangle cures a single target of the Trapped Condition.",
     "effects": []
   },
   {
@@ -5263,9 +5263,9 @@
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "This technique only works on already poisoned enemies - but in that case, the toxin rush inflicts 150 damage.",
-    "effectText": "Venom Spread deals damage to a single target if it has the Poisoned Condition.",
+    "effectText": "Venom Spread deals damage to a single target if they're afflicted with the Poisoned Condition.",
     "effects": []
   },
   {
@@ -5325,7 +5325,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Sometimes a little shock is all you need to gain an edge. This fast technique inflicts slight damage but seizes the target for 1 turn.",
-    "effectText": "Voltopuncture inflicts damage to a single target and inflicts the Seized Condition for 1 turn.",
+    "effectText": "Voltopuncture deals damage to a single target and inflicts them with the Seized Condition for 1 turn.",
     "effects": [
       {
         "type": "condition",
@@ -5366,7 +5366,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Some Temtem are so warm and cuddly that they can weaponize that love into a Fire technique.",
+    "description": "Some Temtem are so warm and cuddly that they can weaponize that love as a Fire technique.",
     "effectText": "Warm Cuddle deals damage to a single target.",
     "effects": []
   },
