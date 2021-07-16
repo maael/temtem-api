@@ -397,15 +397,9 @@
       }
     ],
     "targets": "Other Team or Ally",
-    "description": "Beam me up! This technique makes you alert and able to evade for 2 turns.Supercharge that beam, Scotty! Used in combination with a Crystal ally, Bright Bream inflicts slightly more damage on the whole team.",
-    "effectText": "Bright Beam deals damage to the opposing team or the user's ally and gifts the user with the Alerted Condition and the Evading Condition for 2 turns.",
-    "effects": [
-      {
-        "type": "condition",
-        "turns": 2,
-        "condition": "Evading"
-      }
-    ]
+    "description": "Beam me up! This technique makes you alert and able to evade for 2 turns.",
+    "effectText": "Bright Beam deals damage to the opposing team or the user's ally and gifts the user with the and the for 2 turns.",
+    "effects": []
   },
   {
     "name": "Bubbles",
@@ -775,14 +769,14 @@
     "synergy": "Mental",
     "synergyEffects": [
       {
-        "damage": 100,
-        "type": "damage",
-        "effect": "+100 Damage"
+        "effect": "3 Turns Asleep",
+        "type": "condition",
+        "damage": 0
       }
     ],
     "targets": "Single Target",
-    "description": "It's raining 'Tems, halleluja! This special Crystal technique inflicts moderate damage and isolates for 3 turns.Used in combination with a mental ally, Crystal Deluge makes you asleep for 3 turns and increases priority.",
-    "effectText": "Crystal Deluge deals damage to a single target and inflicts the Isolated Condition for 3 turns.",
+    "description": "It's raining 'Tems, hallelujah! This special Crystal technique inflicts moderate damage and isolates it for 3 turns.Used in combination with a Mental ally, Crystal Deluge makes you asleep for 3 turns and increases priority.",
+    "effectText": "Crystal Deluge deals damage to a single target and inflicts them with the Isolated Condition for 3 turns.",
     "effects": [
       {
         "type": "condition",
@@ -1020,8 +1014,8 @@
         "effect": "+90 Damage"
       }
     ],
-    "targets": "Single Other Target",
-    "description": "A good brute-force technique if you don't mind tidying up later.No description available in the game yet.",
+    "targets": "Single Target",
+    "description": "A good brute-force technique if you don't mind tidying up later.",
     "effectText": "Debris Typhoon deals damage to a single target.",
     "effects": []
   },
@@ -1140,7 +1134,7 @@
         "damage": 0
       }
     ],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "Just like trash-posting, this technique is a slow way of inflicting damage to the mind...All those trash-posts are messing with your head... Used in combination with a Mental ally. Digithreat dooms the target for 3 turns.",
     "effectText": "Digithreat deals damage to a single target.",
     "effects": []
@@ -1201,8 +1195,8 @@
       }
     ],
     "targets": "Single Other Target",
-    "description": "Cuts both ways, in true Neutral fashion - inflicts moderate damage to the target, but also gives it DEF and SPDEF .Used in combination with a Neutral ally, it deals only moderate damage while still giving DEF and SPDEF .",
-    "effectText": "Double Edge deals damage to the target and gives it DEF and SPDEF .",
+    "description": "Cuts both ways, in true Neutral fashion - inflicts moderate damage to the target, but also gives it DEF and SPDEF .",
+    "effectText": "Double Edge deals damage to a single target and gifts them with DEF and SPDEF .",
     "effects": []
   },
   {
@@ -1369,7 +1363,7 @@
     "synergy": "Electric",
     "synergyEffects": [
       {
-        "effect": "Becomes Electric 2 turns Seized",
+        "effect": "Becomes Electric 2 Turns Seized",
         "type": "condition",
         "damage": 0
       },
@@ -1380,7 +1374,7 @@
       }
     ],
     "targets": "Single Other Target",
-    "description": "Myrisles engineers hate this odd trick! Make the Earth shake and deal massive damage to the target.Used in combination with a Electric ally, it deals extra damage and the target is Seized for 2 turns.",
+    "description": "Myrisles engineers hate this odd trick! Make the Earth shake and deal massive damage to the target.Used in combination with a Electric ally, it changes the technique type to Electric and the target is Seized for 2 turns.",
     "effectText": "Earthbreaker deals damage to a single target.",
     "effects": []
   },
@@ -1476,7 +1470,7 @@
     "synergy": "Digital",
     "synergyEffects": [],
     "targets": "Single Target",
-    "description": "Disco might be dead, but electro still packs A LOT of punch...Used in combination with a Digital ally, Electropunch becomes faster than optical fiber.",
+    "description": "Disco might be dead, but electro still packs A LOT of punch...",
     "effectText": "Electropunch deals damage to a single target.",
     "effects": []
   },
@@ -1530,7 +1524,7 @@
     ],
     "targets": "Single Other Target",
     "description": "A simple yet quick Mental attack that exhausts the target for 1 turn.Used in combination with a Nature ally, Energy Manipulation does additional damage and exhausts for 2 turns.",
-    "effectText": "Energy Manipulation deals damage to a single target and inflicts the Exhausted Condition for 1 turn.",
+    "effectText": "Energy Manipulation deals damage to a single target and inflicts them with the Exhausted Condition for 1 turn.",
     "effects": [
       {
         "type": "condition",
@@ -1607,14 +1601,14 @@
     "synergy": "Toxic",
     "synergyEffects": [
       {
-        "effect": "3 Turns Poison",
+        "effect": "3 Turns Poisoned",
         "type": "condition",
         "damage": 0
       }
     ],
     "targets": "Single Target",
-    "description": "This classic science experiment, weaponized. This technique inflicts decent damage and exiles the target for 3 turns.\"...and then he drank the battery liquid!\" Used in combination with a Toxic ally, Faraday cage poisons the target for 3 turns.",
-    "effectText": "Faraday Cage deals damage to a single target and inflicts the target with the Isolated Condition for 3 turns.",
+    "description": "This classic science experiment, weaponized. This technique inflicts decent damage and exiles the target for 3 turns.\"...and then he drank the battery liquid!\" Used in combination with a Toxic ally, Faraday Cage poisons the target for 3 turns.",
+    "effectText": "Faraday Cage deals damage to a single target and inflicts them with the Isolated Condition for 3 turns.",
     "effects": [
       {
         "type": "condition",
@@ -1671,9 +1665,15 @@
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Earth",
-    "synergyEffects": [],
+    "synergyEffects": [
+      {
+        "effect": "4 Turns Seized 4 Turns Burned",
+        "type": "condition",
+        "damage": 0
+      }
+    ],
     "targets": "Single Other Target",
-    "description": "Put your hands up, this 'Tem's too hot to handle! This technique seizes and burns for 2 turns.If used with an Earth ally, Fiery Heist seizes and burns for 4 turns.",
+    "description": "Put your hands up, this 'Tem's too hot to handle! This technique seizes and burns for 2 turns.Used in combination with an ally, Fiery Heist seizes and burns for 4 turns.",
     "effectText": "Fiery Heist inflicts a single target with the Seized Condition and Burned Condition for 2 turns.",
     "effects": [
       {
@@ -1860,7 +1860,7 @@
     ],
     "targets": "Other Team or Ally",
     "description": "Watch the opponent get all bogged down. The whole team gets SPD .A mess of Mudshire proportions. Used in combination with an Earth ally, gives the enemy team SPD .",
-    "effectText": "Flood gives the enemies team's or ally's SPD",
+    "effectText": "Flood inflicts the opposing team or the user's ally with SPD",
     "effects": []
   },
   {
@@ -1986,7 +1986,7 @@
     ],
     "targets": "Self",
     "description": "Anything is better than generic. This technique nullifies you for 2 turns.Even more generic? Used in combination with a Neutral ally, Generify nullifies and lets you evade for 2 turns.",
-    "effectText": "Generify gifts the user with the Nullified Condition for 2 turns.",
+    "effectText": "Generify gives the user the Nullified Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -2076,7 +2076,7 @@
     ],
     "targets": "Single Other Target",
     "description": "Suggestive and Toxic visions that exhaust the mind and tire and trap the target for 2 turns.Used in combination with a Mental ally, the Hallucination does Special damage.",
-    "effectText": "Hallucination inflicts the target with the Exhausted Condition and the Trapped Condition for 2 turns.",
+    "effectText": "Hallucination inflicts the a single target with the Exhausted Condition and the Trapped Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -2123,7 +2123,7 @@
       }
     ],
     "targets": "Single Target",
-    "description": "Make your enemies feel like reheated coffee does! This technique inflicts moderate damage.WARNING: Do not actually put your 'Tems in the microwave! Used in combination with a Digital ally, Harmful Microwaves costs only half the stamina and increases pirority.",
+    "description": "Make your enemies feel like reheated coffee does! This technique inflicts moderate damage.",
     "effectText": "Harmful Microwaves deals damage to a single target.",
     "effects": []
   },
