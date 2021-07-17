@@ -224,7 +224,7 @@
     "synergyEffects": [],
     "targets": "Single Team",
     "description": "Omninenesian Temtem use pieces of Banyan bark as shields, giving the whole team DEF .",
-    "effectText": "Bark Shield gifts the targeted team with DEF .",
+    "effectText": "Bark Shield gifts a single team with DEF .",
     "effects": []
   },
   {
@@ -368,7 +368,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Survival is often the greatest of victories. Only effective if the Temtem is already alerted, and gives evading for 2 turns.",
-    "effectText": "Brace gifts the user with the Evading Condition for 2 turns if it already has the Alerted Condition.",
+    "effectText": "Brace gifts the user with the Evading Condition for 2 turns if they already have the Alerted Condition.",
     "effects": [
       {
         "type": "condition",
@@ -590,7 +590,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "Do NOT let your 'Tem eat these. This technique inflicts moderate damage on the whole team and nullifies it for 2 turns.",
-    "effectText": "Charged Iron Filings deals damage to the opposing team or the user's ally and inflicts them with the Nullified Condition for 2 turns.",
+    "effectText": "Charged Iron Filings deals damage to the opposing team or the user's ally and gives them the Nullified Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -1040,7 +1040,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Quick, give me another shock! This technique inflicts moderate damage and isolates it for 2 turns.",
-    "effectText": "Defibrillate deals damage to a single target and inflicts the Isolated Condition for 2 turns.",
+    "effectText": "Defibrillate deals damage to a single target and inflicts them with the Isolated Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -1453,7 +1453,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Electromagnetically bound, attacker and target are trapped for 3 turns, while target gets SPD .",
-    "effectText": "Electromagnetism inflicts the target and user with the Trapped Condition for 3 turns then inflicts the target with SPD .",
+    "effectText": "Electromagnetism inflicts a single target and user with the Trapped Condition for 3 turns then inflicts the target with SPD .",
     "effects": [
       {
         "type": "condition",
@@ -3244,7 +3244,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Through rigorous training, Temtem can become extra fast and gain SPD .",
-    "effectText": "Nimble gifts the target with SPD .",
+    "effectText": "Nimble gifts a single target with SPD .",
     "effects": []
   },
   {
@@ -3363,7 +3363,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Unrecommended for longer periods, this technique makes your 'Tems go way faster, bestowing SPD .",
-    "effectText": "Overclock give the user SPD .",
+    "effectText": "Overclock gifts the user with SPD .",
     "effects": []
   },
   {
@@ -3429,7 +3429,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Blood magic requires blood sacrifice - will you pay the price? Loatle can inflict 10% of damage on itself to boost the ATK and SPATK of the target.",
-    "effectText": "Penance causes the user lose 10% of their max HP and then gift the target with ATK and SPATK .",
+    "effectText": "Penance causes the user lose 10% of their max HP and then gifts a single target with ATK and SPATK .",
     "effects": []
   },
   {
@@ -3841,7 +3841,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "The red mist makes a Temtem brutal but also careless, getting ATK and DEF .",
-    "effectText": "Rage gifts the user with ATK but also inflicts the user with DEF .",
+    "effectText": "Rage gifts the user with ATK but also inflicts them with DEF .",
     "effects": []
   },
   {
@@ -3917,7 +3917,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "About time you took a little breather! This technique increases SPATK and heals 6% Health.",
-    "effectText": "Refresh gifts the user with SPATK and heals 6% of max HP.",
+    "effectText": "Refresh gifts the user with SPATK and heals 6% of their max HP.",
     "effects": []
   },
   {
@@ -3959,7 +3959,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "While this technique does only moderate damage, it nullifies the target for 4 turns, buying you some precious time...",
-    "effectText": "Rend deals damage to a single target and inflicts them with the Nullified Condition for 4 turns.",
+    "effectText": "Rend deals damage to a single target and gives them the Nullified Condition for 4 turns.",
     "effects": [
       {
         "type": "condition",
@@ -4096,7 +4096,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A Temtem may pay the ultimate price to heal the target of all Status conditions and give them DEF and SPDEF .",
-    "effectText": "Sacrifice removes all Status Conditions from a single target and gifts them with DEF and SPDEF , then the user is knocked out.",
+    "effectText": "Sacrifice removes/cures all Status Conditions from a single target and gifts them with DEF and SPDEF , then the user is knocked out.",
     "effects": []
   },
   {
@@ -4197,7 +4197,7 @@
       }
     ],
     "targets": "Other Team or Ally",
-    "description": "Seismunch has exactly the balls to deal with the whole enemy team... Earth balls, that is.Used in combination with a Melee ally, Seismunch's Wreck becomes faster and inflicts extra damage.",
+    "description": "Seismunch has exactly the balls to deal with the whole enemy team... Earth balls, that is.",
     "effectText": "Seismunch's Wreck deals damage to the opposing team or the user's ally.",
     "effects": []
   },
@@ -4306,7 +4306,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Take cover! This slow technique gives DEF and SPDEF at the expense of leaving you Overexerted on the next turn.",
-    "effectText": "Shelter gifts the user with DEF and SPDEF , but overexerts them the next turn.",
+    "effectText": "Shelter gifts the user with DEF and SPDEF , but leaves them overexerted the next turn.",
     "effects": []
   },
   {
@@ -4323,14 +4323,14 @@
     "synergy": "Melee",
     "synergyEffects": [
       {
-        "effect": "3 Turns Vigor",
+        "effect": "3 Turns Vigorized",
         "type": "condition",
         "damage": 0
       }
     ],
     "targets": "Self",
     "description": "A good Melee fighter is a always a good showman: ATK .Used in combination with a Melee ally, it also bestows Vigor for 3 turns.",
-    "effectText": "Show Off gives the user ATK .",
+    "effectText": "Show Off gifts the user with ATK .",
     "effects": []
   },
   {
@@ -4412,9 +4412,9 @@
         "damage": 0
       }
     ],
-    "targets": "Single Other Target",
+    "targets": "Single Target",
     "description": "Time to chill and take it slow... The target gets SPD Used in combination with a Mental ally, Slow Down also causes the target to fall asleep for 2 turns.",
-    "effectText": "Slow Down gives the target SPD .",
+    "effectText": "Slow Down inflicts a single target with SPD .",
     "effects": []
   },
   {
@@ -4491,7 +4491,7 @@
       }
     ],
     "targets": "Single Other Target",
-    "description": "All flash and no bang - this sparkly Electric technique does little damage.Used in combination with a Neutral ally, this upgraded missile deals increased damage.",
+    "description": "All flash and no bang - this sparkly Electric technique does little damage.",
     "effectText": "Sparkling Bullet deals damage to a single target.",
     "effects": []
   },
@@ -4556,8 +4556,8 @@
       }
     ],
     "targets": "Other Team or Ally",
-    "description": "A stampede worth of the Kisiwan savanna. Damages the whole team.Used in combination with an Earth ally, inflicts extra damage.",
-    "effectText": "Stampede deals damage to a single team.",
+    "description": "A stampede worth of the Kisiwan savanna. Damages the whole team.Used in combination with an Earth ally, inflicts extra damage and seizes for 3 turns.",
+    "effectText": "Stampede deals damage to the opposing team or the user's ally.",
     "effects": []
   },
   {
@@ -4622,7 +4622,7 @@
     "synergy": "Fire",
     "synergyEffects": [
       {
-        "effect": "2 Turns Burn",
+        "effect": "2 Turns Burned",
         "type": "condition",
         "damage": 0
       }
@@ -4689,7 +4689,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Strangler and strangled, united in a deadly embrace. Both attacker and target get overextended next turn.",
-    "effectText": "Strangle deals damage to a single target and causes both the user and the target to become overexerted for the next turn.",
+    "effectText": "Strangle deals damage to a single target and causes both the user and the target to become overexerted the next turn.",
     "effects": []
   },
   {
@@ -4881,7 +4881,7 @@
     ],
     "targets": "Single Other Target",
     "description": "Lil' Tort just wanted to play in its garden... but it won't suffer intruders! You heal 10% while the target is Doomed for 4 turns.Used in combination with a Crystal ally, Tortenite's Garden heals 20% and inflicts Doomed for 3 turns instead of 4.",
-    "effectText": "Tortenite's Garden heals the user for 10% of its max HP and inflicts the target with a 4 turn countdown of the Doomed Condition.",
+    "effectText": "Tortenite's Garden restores 10% of the user's max HP and inflicts a single target with a 4 turn countdown of the Doomed Condition.",
     "effects": []
   },
   {
@@ -4994,7 +4994,7 @@
     ],
     "targets": "Other Team or Ally",
     "description": "Like a faulty airship engine, this Temtem can leave a trail of toxic gas that gives Poison to the whole team for 1 turn.Used in combination with a Crystal ally, Toxic Plume saves you STA and the target gets ATK .",
-    "effectText": "Toxic Plume does damage to a single team and gives them the Poisoned Condition for 1 turn.",
+    "effectText": "Toxic Plume deals damage to the opposing team or the user's ally and inflicts them with the Poisoned Condition for 1 turn.",
     "effects": [
       {
         "type": "condition",
@@ -5191,7 +5191,7 @@
     ],
     "targets": "Single Team",
     "description": "The ancestral dance of Deniz is a powerful ritual that bestows protection, SPD to the whole team.Wind allies boost the effect of Turbo Choreography to the whole team SPD .",
-    "effectText": "Turbo Choreography gives the target team SPD .",
+    "effectText": "Turbo Choreography gives a single team with SPD .",
     "effects": []
   },
   {
@@ -5262,7 +5262,7 @@
     "synergy": "Toxic",
     "synergyEffects": [
       {
-        "effect": "4 Turns Poison",
+        "effect": "4 Turns Poisoned Condition",
         "type": "condition",
         "damage": 0
       }
@@ -5323,12 +5323,12 @@
     "synergyEffects": [
       {
         "damage": 0,
-        "type": "buff",
-        "effect": "15 STA Cost"
+        "type": "targeting",
+        "effect": "Other Team or Ally"
       }
     ],
-    "targets": "Single Other Target",
-    "description": "Don't you know that you're toxic? This technique does moderate damage.Virulent Gust inflicts damage on the whole enemy team.",
+    "targets": "Single Target",
+    "description": "Don't you know that you're toxic? This technique does moderate damage.Can you feel me now? Used in combination with a Water ally, Virulent Gust inflcits damage on the whole enemy team.",
     "effectText": "Virulent Gust deals damage to a single target.",
     "effects": []
   },
@@ -5448,7 +5448,7 @@
     "synergy": "Toxic",
     "synergyEffects": [
       {
-        "effect": "2 Turns Poison",
+        "effect": "2 Turns Poisoned",
         "type": "condition",
         "damage": 0
       }
@@ -5477,8 +5477,8 @@
         "effect": "+144 Damage"
       }
     ],
-    "targets": "Single Other Target",
-    "description": "As pretty than Denizan Water lilies... but much deadlier.Used in combination with a Water Ally, inflicts additional Damage.",
+    "targets": "Single Target",
+    "description": "As pretty than Denizan Water lilies... but much deadlier.",
     "effectText": "Water Cutting Lily deals damage to a single target.",
     "effects": []
   },
