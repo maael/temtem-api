@@ -1,5 +1,53 @@
 [
   {
+    "name": "Patch 0.7.5",
+    "version": "0.7.5",
+    "url": "https://crema.gg/temtem/patch-0-7-5/",
+    "date": "2021-7-22",
+    "patchInfo": {
+      "fixes": [
+        "👥Fixed more instances where the Temtem’s stat values wouldn’t match the ones obtained through the formula.",
+        "Fixed a softlock occurring when a Tamer tried to spectate another one that was conceding in the Pick&Ban phase or during the Battlebox selection.",
+        "👥Fixed a softlock that’d happen when a Temtem earned experience the battle after having evolved.",
+        "👥Fixed a softlock when spectating someone with a Temtem that had the Regenerating Status Condition activate right before their rival swapped out a fainted Temtem.",
+        "Fixed showing the match skipped as won when a Tamer advanced rounds automatically in a Tournament.",
+        "Fixed that Tamers would stop moving if their character jumped over a ledge they shouldn’t have jumped during the pathfinding of Mouse only control.",
+        "Fixed Autodestruction not winning the match when it defeated the last Temtem on the battlefield.",
+        "👥Fixed that Mythical Temtem were losing two lives instead of one when they faint. This was happening because of damage-affecting traits such as Mirroring or Voltaic Charge.",
+        "👥Fixed the Aerobic and Anaerobic traits activating even when trying to hit a target that was evading.",
+        "Fixed not being able to see the Stat changes happening with the Aerobic Trait after using the Hyperkinetic Strike technique.",
+        "👥Fixed that the message of “Mimit damaged itself” was appearing after it received damage right before transforming and adjusting its HP values.",
+        "Fixed that the Timer would stop if a Tamer disconnected the same turn one of their Temtem fainted, and then reconnected in the Swap menu.",
+        "Fixed Haruki’s Chromeon having attacks that doesn’t correspond to its typing in Cipanku’s Rice Fields.",
+        "👥Fixed Adia being in Kisiwa after arriving to Cipanku.",
+        "👥Fixed Temtem overlapping in the Competitive Battlebox portraits when switching between boxes while hovering over one Temtem.",
+        "👥Fixed that the Minimonolith’s big sprite would appear as the Reactive Vial sprite in the Backpack if the UI resolution was set to 1080.",
+        "Fixed trait signs being shown in the world if a Tamer left the Spectate mode between the end and the beginning of a turn.",
+        "Fixed that Temtem’s and Tamers’ footprints were appearing in the battlezones.",
+        "Fixed that the wrong camera would be used if a stat-changing trait was activated right before using the Tsunami technique.",
+        "Fixed Details prompt being shown while hovering over the Continue button in the Rewards menu for Tournaments.",
+        "Fixed that pronouns IDs were being shown in a dialogue with Captain Magda in Deniz.",
+        "👥Fixed the music being too low when you entered a battle after skipping a dialogue.",
+        "👥Fixed following Temtem being able to clip through a door in Neoedo."
+      ],
+      "improvements": [
+        "We’ve changed the minimum number of players for a Tournament to 21.",
+        "We’ve also made some improvements to the way Tournaments are created, to ensure the highest possible number of tournaments.Before, the system would try to pack as many players as possible in a tournament until it was filled entirely, even if it meant that 10 other players would not get a tournament at all. Now, it will take into account the number of participants and split them so it can create as many tournaments per league as possible.",
+        "Before, the system would try to pack as many players as possible in a tournament until it was filled entirely, even if it meant that 10 other players would not get a tournament at all. Now, it will take into account the number of participants and split them so it can create as many tournaments per league as possible.",
+        "👥We’ve revisited and improved the current Tournament rewards so they’re more consistent:We’ve improved and upped the rewards for winning a Tournament.We’ve also added rewards for the top 4 players of each Tournament. These don’t affect the current Pansun rewards nor the rewards for winning; these only add to them.",
+        "We’ve improved and upped the rewards for winning a Tournament.",
+        "We’ve also added rewards for the top 4 players of each Tournament. These don’t affect the current Pansun rewards nor the rewards for winning; these only add to them.",
+        "👥Tamers can’t face the same rival twice in a row while playing ranked matches.Although the current system already tried hard not to match you with the same person twice in a row, it was still occasionally happening. Now it will no more.",
+        "Although the current system already tried hard not to match you with the same person twice in a row, it was still occasionally happening. Now it will no more.",
+        "👥We’ve added visual and sound cues to PVP timersThese cues will go off on key moments of your turn to help you better manage your time during a match.This has been planned for a while, but we’ve decided to push it forward due to the feedback of the community after Tournaments, where timers are different to the ones in Ranked Competitive.",
+        "These cues will go off on key moments of your turn to help you better manage your time during a match.",
+        "This has been planned for a while, but we’ve decided to push it forward due to the feedback of the community after Tournaments, where timers are different to the ones in Ranked Competitive."
+      ],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
     "name": "Patch 0.7.4",
     "version": "0.7.4",
     "url": "https://crema.gg/temtem/patch-0-7-4/",
