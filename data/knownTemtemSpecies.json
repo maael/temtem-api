@@ -13089,72 +13089,7 @@
       "Scarawatt is the only Temtem with an absolute type immunity, due to both of its traits preventing damage from Toxic attacks."
     ],
     "evolution": {
-      "stage": 0,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 62,
-          "name": "Scarawatt",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Immunity",
-            "Strong Liver"
-          ],
-          "traitMapping": {
-            "Immunity": "Half Full",
-            "Strong Liver": "Good Friend"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 63,
-          "name": "Scaravolt",
-          "level": 12,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Half Full",
-            "Good Friend"
-          ],
-          "traitMapping": {
-            "Half Full": "Half Full",
-            "Good Friend": "Good Friend"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": null,
-      "to": {
-        "stage": 1,
-        "number": 63,
-        "name": "Scaravolt",
-        "level": 12,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Half Full",
-          "Good Friend"
-        ],
-        "traitMapping": {
-          "Half Full": "Half Full",
-          "Good Friend": "Good Friend"
-        }
-      },
-      "number": 62,
-      "name": "Scarawatt",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Immunity",
-        "Strong Liver"
-      ],
-      "traitMapping": {
-        "Immunity": "Half Full",
-        "Strong Liver": "Good Friend"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9f/Scarawatt.png",
     "lumaWikiPortraitUrlLarge": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
@@ -13205,7 +13140,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "As the old joke goes, \"when you're a tamer in Cipanku. it's not so much a matter of Scarawatt but of Scarawhen\". This variety is an old staple of the Neoedo Dojo, where every generation rediscovers this industrious and friendly 'Tem.",
+    "gameDescription": "As the old joke goes, \"when you're a tamer in Cipanku, it's not so much a matter of Scarawatt but of Scarawhen\". This variety is an old staple of the Neoedo Dojo, where every generation rediscovers this industrious and friendly 'Tem.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -24582,7 +24517,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Valiar is unobtainable, so it's Tempedia entry is unknown.",
+    "gameDescription": "Valiar is unobtainable, so its Tempedia entry is unknown.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
