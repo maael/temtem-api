@@ -13089,7 +13089,72 @@
       "Scarawatt is the only Temtem with an absolute type immunity, due to both of its traits preventing damage from Toxic attacks."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 62,
+          "name": "Scarawatt",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Immunity",
+            "Strong Liver"
+          ],
+          "traitMapping": {
+            "Immunity": "Half Full",
+            "Strong Liver": "Good Friend"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 63,
+          "name": "Scaravolt",
+          "level": 12,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Half Full",
+            "Good Friend"
+          ],
+          "traitMapping": {
+            "Half Full": "Half Full",
+            "Good Friend": "Good Friend"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": null,
+      "to": {
+        "stage": 1,
+        "number": 63,
+        "name": "Scaravolt",
+        "level": 12,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Half Full",
+          "Good Friend"
+        ],
+        "traitMapping": {
+          "Half Full": "Half Full",
+          "Good Friend": "Good Friend"
+        }
+      },
+      "number": 62,
+      "name": "Scarawatt",
+      "level": 0,
+      "trading": false,
+      "traits": [
+        "Immunity",
+        "Strong Liver"
+      ],
+      "traitMapping": {
+        "Immunity": "Half Full",
+        "Strong Liver": "Good Friend"
+      }
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/9f/Scarawatt.png",
     "lumaWikiPortraitUrlLarge": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
