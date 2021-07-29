@@ -1,5 +1,41 @@
 [
   {
+    "name": "Patch 0.7.6",
+    "version": "0.7.6",
+    "url": "https://crema.gg/temtem/patch-0-7-6/",
+    "date": "2021-7-29",
+    "patchInfo": {
+      "fixes": [
+        "Fixed the issue of automatically resting non-stop in a PvP match if the Tamer ran out of reserve time.",
+        "Fixed getting stuck in battle if a Tamer entered Spectate Mode when the time for both contenders was almost up in turn 30.",
+        "Fixed a softlock when trying to enter a ranked match while watching the Experience gain screen in a PvE match.",
+        "Fixed getting stuck in a dialogue with an NPC after receiving an item from them while playing in Co-op.",
+        "Fixed having the same configuration for both Lairs if it was the same group participating in them.",
+        "Fixed that one Co-op partner would move towards the other when they started using the Drone.",
+        "Fixed Co-op not showing the sign for new zones when Tamers entered a building or landmark.",
+        "👥Fixed a wrongful interaction of the Neurotoxins trait of enemy Cycrox and the Lair bonus that applies Poison to all rivals at the beginning of the match that was causing the enemy Cycrox to get doomed.",
+        "👥Fixed that the Tireless trait wasn’t avoiding overexertion when a Temtem hit another Temtem that had the Evading status condition.",
+        "Fixed that only one Temtem of a team was showing the Evading VFX when the whole team, both Evading, was hit by a multi-target technique.",
+        "Fixed having the wrong timer when a Temtem from the orange side fainted in a PvP match.",
+        "Fixed the winners not seeing the last turn if they had won 2vs1 in a Casual Match.",
+        "Fixed the Concede option being available in a Casual Match when any of the teams was made from 2 people. You can only concede on 1v1 Casual matches.",
+        "Fixed a confirmation message being incorrectly shown when a Tamer was waiting for their next rival on a Tournament. This message informed the player that their “Ready” status would be changed to “Not Ready”, despite being on the “Waiting” status.",
+        "Fixed a mysterious disappearance of the Mythical Temtem if you defeated them and one your Temtem fainted due to overexertion.",
+        "Fixed seeing the wrong camera after Seismunch’s Wreck was used on two Temtem, one of them evading."
+      ],
+      "improvements": [
+        "👥Notes #5 and #6 are now more distinguishable between the Blue and Orange octaves in the Toy Piano. Damián really is fine-tuning this."
+      ],
+      "features": [
+        "We’ve added 6 new technique animations ✨"
+      ],
+      "balance": [
+        "👥 The “All Nature Techniques are now Toxic” Bonus has been removed from the Sacred Lake Lair.This bonus, that was originally designed for the Anak Sanctum Lair, can be even disadvantageous in the Sacred Lake Lair, so it’s been removed from there.",
+        "This bonus, that was originally designed for the Anak Sanctum Lair, can be even disadvantageous in the Sacred Lake Lair, so it’s been removed from there."
+      ]
+    }
+  },
+  {
     "name": "Patch 0.7.5",
     "version": "0.7.5",
     "url": "https://crema.gg/temtem/patch-0-7-5/",
