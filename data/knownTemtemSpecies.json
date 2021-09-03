@@ -5243,9 +5243,9 @@
       "spdef": 0
     },
     "gameDescription": "This cutie is an adept climber, thanks to the little suckers located in each of its eight stubby legs. For the same reason, Omninesian children quickly learn to hide their cookies instead of putting them on the higher shelf...",
-    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/02/LumaHidody_full_render.png",
+    "wikiRenderStaticUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
     "wikiRenderAnimatedUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/02/LumaHidody_full_render.png",
+    "wikiRenderStaticLumaUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
     "wikiRenderAnimatedLumaUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
     "renderStaticImage": "/images/renders/temtem/static/Hidody.png",
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Hidody.png",
@@ -5452,20 +5452,6 @@
     "lumaWikiPortraitUrlLarge": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
     "locations": [
       {
-        "location": "Prasine Coast",
-        "place": "Prasine Coast",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "85%",
-        "level": "40 - 45",
-        "freetem": {
-          "minLevel": 40,
-          "maxLevel": 45,
-          "minPansuns": 116,
-          "maxPansuns": 128
-        }
-      },
-      {
         "location": "The Glassyway",
         "place": "The Glassyway",
         "note": "",
@@ -5477,6 +5463,20 @@
           "maxLevel": 22,
           "minPansuns": 66,
           "maxPansuns": 73
+        }
+      },
+      {
+        "location": "Prasine Coast",
+        "place": "Prasine Coast",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "85%",
+        "level": "40 - 45",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 45,
+          "minPansuns": 116,
+          "maxPansuns": 128
         }
       }
     ],
@@ -5666,20 +5666,6 @@
     "lumaWikiPortraitUrlLarge": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
     "locations": [
       {
-        "location": "Gifted Bridges",
-        "place": "",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "80%",
-        "level": "12 - 15",
-        "freetem": {
-          "minLevel": 12,
-          "maxLevel": 15,
-          "minPansuns": 44,
-          "maxPansuns": 50
-        }
-      },
-      {
         "location": "Windward Fort",
         "place": "Windward Fort",
         "note": "",
@@ -5691,6 +5677,20 @@
           "maxLevel": 14,
           "minPansuns": 38,
           "maxPansuns": 48
+        }
+      },
+      {
+        "location": "Gifted Bridges",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "80%",
+        "level": "12 - 15",
+        "freetem": {
+          "minLevel": 12,
+          "maxLevel": 15,
+          "minPansuns": 44,
+          "maxPansuns": 50
         }
       },
       {
