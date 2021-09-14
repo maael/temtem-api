@@ -11048,13 +11048,27 @@
         "place": "Mines of Mictlan",
         "note": "",
         "island": "Tucma",
-        "frequency": "Gift - 10%",
+        "frequency": "10%",
         "level": "36 - 40",
         "freetem": {
           "minLevel": 36,
           "maxLevel": 40,
           "minPansuns": 134,
           "maxPansuns": 147
+        }
+      },
+      {
+        "location": "Mines of Mictlan",
+        "place": "Mines of Mictlan",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "Gift",
+        "level": "35",
+        "freetem": {
+          "minLevel": 35,
+          "maxLevel": 35,
+          "minPansuns": 131,
+          "maxPansuns": 131
         }
       }
     ],
