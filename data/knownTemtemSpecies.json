@@ -27671,6 +27671,20 @@
     "lumaWikiPortraitUrlLarge": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
     "locations": [
       {
+        "location": "Mines of Mictlan",
+        "place": "Mines of Mictlan",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "25%",
+        "level": "33 - 35",
+        "freetem": {
+          "minLevel": 33,
+          "maxLevel": 35,
+          "minPansuns": 119,
+          "maxPansuns": 125
+        }
+      },
+      {
         "location": "Anak Caldera",
         "place": "Anak Caldera",
         "note": "",
@@ -27696,20 +27710,6 @@
           "maxLevel": 51,
           "minPansuns": 140,
           "maxPansuns": 173
-        }
-      },
-      {
-        "location": "Mines of Mictlan",
-        "place": "Mines of Mictlan",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "25%",
-        "level": "33 - 35",
-        "freetem": {
-          "minLevel": 33,
-          "maxLevel": 35,
-          "minPansuns": 119,
-          "maxPansuns": 125
         }
       }
     ],
@@ -28138,20 +28138,6 @@
         }
       },
       {
-        "location": "Saipark",
-        "place": "Saipark",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "50%",
-        "level": "38 - 41",
-        "freetem": {
-          "minLevel": 38,
-          "maxLevel": 41,
-          "minPansuns": 105,
-          "maxPansuns": 112
-        }
-      },
-      {
         "location": "Thalassian Cliffs",
         "place": "Thalassian Cliffs",
         "note": "",
@@ -28177,6 +28163,20 @@
           "maxLevel": 10,
           "minPansuns": 38,
           "maxPansuns": 43
+        }
+      },
+      {
+        "location": "Saipark",
+        "place": "Saipark",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "50%",
+        "level": "38 - 41",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 41,
+          "minPansuns": 105,
+          "maxPansuns": 112
         }
       }
     ],
