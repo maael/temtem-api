@@ -5197,20 +5197,6 @@
         }
       },
       {
-        "location": "Giant Banyan",
-        "place": "Giant Banyan",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "40%",
-        "level": "23-26",
-        "freetem": {
-          "minLevel": 23,
-          "maxLevel": 26,
-          "minPansuns": 59,
-          "maxPansuns": 64
-        }
-      },
-      {
         "location": "The Glassyway",
         "place": "The Glassyway",
         "note": "",
@@ -5222,6 +5208,20 @@
           "maxLevel": 22,
           "minPansuns": 52,
           "maxPansuns": 57
+        }
+      },
+      {
+        "location": "Giant Banyan",
+        "place": "Giant Banyan",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "40%",
+        "level": "23-26",
+        "freetem": {
+          "minLevel": 23,
+          "maxLevel": 26,
+          "minPansuns": 59,
+          "maxPansuns": 64
         }
       }
     ],
@@ -12027,20 +12027,6 @@
     "lumaWikiPortraitUrlLarge": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
     "locations": [
       {
-        "location": "Anak Volcano",
-        "place": "Anak Volcano",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "10% - 50%",
-        "level": "17 - 24",
-        "freetem": {
-          "minLevel": 17,
-          "maxLevel": 24,
-          "minPansuns": 54,
-          "maxPansuns": 68
-        }
-      },
-      {
         "location": "The Glassyway",
         "place": "The Glassyway",
         "note": "",
@@ -12052,6 +12038,20 @@
           "maxLevel": 22,
           "minPansuns": 60,
           "maxPansuns": 64
+        }
+      },
+      {
+        "location": "Anak Volcano",
+        "place": "Anak Volcano",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "10% - 50%",
+        "level": "17 - 24",
+        "freetem": {
+          "minLevel": 17,
+          "maxLevel": 24,
+          "minPansuns": 54,
+          "maxPansuns": 68
         }
       }
     ],
@@ -14661,20 +14661,6 @@
         }
       },
       {
-        "location": "Saipark",
-        "place": "Saipark",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "50%",
-        "level": "38 - 41",
-        "freetem": {
-          "minLevel": 38,
-          "maxLevel": 41,
-          "minPansuns": 102,
-          "maxPansuns": 108
-        }
-      },
-      {
         "location": "Thalassian Cliffs",
         "place": "Thalassian Cliffs",
         "note": "",
@@ -14686,20 +14672,6 @@
           "maxLevel": 8,
           "minPansuns": 33,
           "maxPansuns": 38
-        }
-      },
-      {
-        "location": "Arissola Dojo",
-        "place": "Arissola Dojo",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "35%",
-        "level": "15 - 17",
-        "freetem": {
-          "minLevel": 15,
-          "maxLevel": 17,
-          "minPansuns": 53,
-          "maxPansuns": 57
         }
       },
       {
@@ -14770,6 +14742,34 @@
           "maxLevel": 33,
           "minPansuns": 85,
           "maxPansuns": 91
+        }
+      },
+      {
+        "location": "Saipark",
+        "place": "Saipark",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "50%",
+        "level": "38 - 41",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 41,
+          "minPansuns": 102,
+          "maxPansuns": 108
+        }
+      },
+      {
+        "location": "Arissola Dojo",
+        "place": "Arissola Dojo",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "35% (Fishing)",
+        "level": "15 - 17",
+        "freetem": {
+          "minLevel": 15,
+          "maxLevel": 17,
+          "minPansuns": 53,
+          "maxPansuns": 57
         }
       },
       {
@@ -19878,34 +19878,6 @@
         }
       },
       {
-        "location": "Kilima Peaks",
-        "place": "Kilima Peaks",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "20% - 35%",
-        "level": "44 - 50",
-        "freetem": {
-          "minLevel": 44,
-          "maxLevel": 50,
-          "minPansuns": 196,
-          "maxPansuns": 220
-        }
-      },
-      {
-        "location": "Barafu Glacier",
-        "place": "Barafu Glacier",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "10%",
-        "level": "44 - 47",
-        "freetem": {
-          "minLevel": 44,
-          "maxLevel": 47,
-          "minPansuns": 196,
-          "maxPansuns": 208
-        }
-      },
-      {
         "location": "Kwea Upland",
         "place": "",
         "note": "",
@@ -19931,6 +19903,34 @@
           "maxLevel": 48,
           "minPansuns": 192,
           "maxPansuns": 212
+        }
+      },
+      {
+        "location": "Kilima Peaks",
+        "place": "Kilima Peaks",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "20% - 35%",
+        "level": "44 - 50",
+        "freetem": {
+          "minLevel": 44,
+          "maxLevel": 50,
+          "minPansuns": 196,
+          "maxPansuns": 220
+        }
+      },
+      {
+        "location": "Barafu Glacier",
+        "place": "Barafu Glacier",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "10%",
+        "level": "44 - 47",
+        "freetem": {
+          "minLevel": 44,
+          "maxLevel": 47,
+          "minPansuns": 196,
+          "maxPansuns": 208
         }
       }
     ],
@@ -20741,20 +20741,6 @@
         }
       },
       {
-        "location": "Giant Banyan",
-        "place": "Giant Banyan",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "55%",
-        "level": "23 - 26",
-        "freetem": {
-          "minLevel": 23,
-          "maxLevel": 26,
-          "minPansuns": 59,
-          "maxPansuns": 64
-        }
-      },
-      {
         "location": "The Hangroad",
         "place": "The Hangroad",
         "note": "",
@@ -20780,6 +20766,20 @@
           "maxLevel": 23,
           "minPansuns": 54,
           "maxPansuns": 59
+        }
+      },
+      {
+        "location": "Giant Banyan",
+        "place": "Giant Banyan",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "55%",
+        "level": "23 - 26",
+        "freetem": {
+          "minLevel": 23,
+          "maxLevel": 26,
+          "minPansuns": 59,
+          "maxPansuns": 64
         }
       }
     ],
@@ -25197,20 +25197,6 @@
         }
       },
       {
-        "location": "Arissola Dojo",
-        "place": "Arissola Dojo",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "65%",
-        "level": "15 - 18",
-        "freetem": {
-          "minLevel": 15,
-          "maxLevel": 18,
-          "minPansuns": 53,
-          "maxPansuns": 59
-        }
-      },
-      {
         "location": "Sillaro River",
         "place": "Sillaro River",
         "note": "",
@@ -25264,6 +25250,20 @@
           "maxLevel": 33,
           "minPansuns": 83,
           "maxPansuns": 91
+        }
+      },
+      {
+        "location": "Arissola Dojo",
+        "place": "Arissola Dojo",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "65%",
+        "level": "15 - 18",
+        "freetem": {
+          "minLevel": 15,
+          "maxLevel": 18,
+          "minPansuns": 53,
+          "maxPansuns": 59
         }
       }
     ],
