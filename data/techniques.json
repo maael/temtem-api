@@ -56,7 +56,7 @@
     "synergyEffects": [],
     "targets": "Single Team",
     "description": "Advanced antitoxins that cure poison on the inoculated target.",
-    "effectText": "Antitoxins cures the targeted team of the Poisoned Condition.",
+    "effectText": "Antitoxins cures a single team of the Poisoned Condition.",
     "effects": []
   },
   {
@@ -206,7 +206,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "This Tem's bark is much worse than its bite - it gives the enemy DEF and SPDEF .",
-    "effectText": "Bark inflicts a single target with DEF and SPDEF .",
+    "effectText": "Bark inflicts a single other target with DEF and SPDEF .",
     "effects": []
   },
   {
@@ -242,7 +242,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "It's not the jump that hurts, it's the landing - and it hurts the target A LOT.",
-    "effectText": "Base Jump deals damage to a single target.",
+    "effectText": "Base Jump deals damage to a single other target.",
     "effects": []
   },
   {
@@ -278,7 +278,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A mighty beta-wave surge that bombards the target with a subatomic barrage.",
-    "effectText": "Beta Burst deals damage to a single target.",
+    "effectText": "Beta Burst deals damage to a single other target.",
     "effects": []
   },
   {
@@ -314,7 +314,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Cold and furious like the mistral winds in the Thalassian Cliffs.",
-    "effectText": "Blizzard deals damage to a single target.",
+    "effectText": "Blizzard deals damage to a single other target.",
     "effects": []
   },
   {
@@ -350,7 +350,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Originated as an Omninesian technique to reach hanging fruit in the jungle canopy.",
-    "effectText": "Boomerang deals damage to a single target.",
+    "effectText": "Boomerang deals damage to a single other target.",
     "effects": []
   },
   {
@@ -422,7 +422,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Bubbles! <3 This weakens the target by means of extreme cuteness.",
-    "effectText": "Bubbles deals damage to a single target.",
+    "effectText": "Bubbles deals damage to a single other target.",
     "effects": []
   },
   {
@@ -518,7 +518,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Healing is a collective process - in clockwise order, 3 Temtem recover 20% health.",
-    "effectText": "Chain Heal heals three targets in clockwise order for 20% of their max HP. When only two Temtem are on the battlefield, the initial target will heal 40% while the remaining target will heal 20%.",
+    "effectText": "Chain Heal heals a single target then two other Temtem in clockwise order from the initial target for 20% of their max HP. When only two Temtem are on the battlefield, the initial target will heal 40% while the remaining target will heal 20%.",
     "effects": []
   },
   {
@@ -536,7 +536,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "This miracle of Electric manipulation bounces 3 times clockwise for as long as it deals damage, dealing decreasing damage with each hit.",
-    "effectText": "Chain Lightning deals damage to three targets in clockwise order. The selected target takes 100% of the damage, the second takes 70%, and the third takes 60%. The chain of damage will fail to continue to the next target if the damage was blocked by the current target. Damage can be blocked if the target who would have taken damage has the Evading Condition, has the Electric Synthesize Trait, or, if the target is an ally, has the Friendship trait.",
+    "effectText": "Chain Lightning deals damage to a single target then two other Temtem in clockwise order from the initial target. The initial target takes 100% of the damage, the second takes 70%, and the third takes 60%. The chain of damage will fail to continue to the next target if the damage was blocked by the current target. Damage can be blocked if the target who would have taken damage has the Evading Condition, has the Electric Synthesize trait, or, if the target is an ally, has the Friendship trait.",
     "effects": []
   },
   {
