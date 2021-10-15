@@ -716,7 +716,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Gimme all your stuff! The target is Seized for 3 turns.",
-    "effectText": "Confiscate inflicts a single target with the Seized Condition for 3 turns.",
+    "effectText": "Confiscate inflicts a single other target with the Seized Condition for 3 turns.",
     "effects": [
       {
         "type": "condition",
@@ -740,7 +740,7 @@
     "synergyEffects": [],
     "targets": "Single Team",
     "description": "Team equality! This equalizes all team members' STA with the team average and the whole team recovers 7% HP.",
-    "effectText": "Cooperation takes the targeted team's current total STA then evenly splits it between the targeted team's Temtem and heals 7% of their max HP.",
+    "effectText": "Cooperation takes a single team's current total STA then evenly splits it between the team's Temtem and heals 7% of their max HP.",
     "effects": []
   },
   {
@@ -758,7 +758,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "What do Crystal Temtem eat? Surely not other Temtem... but they can still take a vicious bite.",
-    "effectText": "Crystal Bite deals damage to a single target.",
+    "effectText": "Crystal Bite deals damage to a single other target.",
     "effects": []
   },
   {
@@ -830,7 +830,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "What's more damaging than a feather gatling? Well, a * Crystal shard* gatling! Worse than a broken mirror!",
-    "effectText": "Crystal Plume Gatling deals damage to a single target.",
+    "effectText": "Crystal Plume Gatling deals damage to a single other target.",
     "effects": []
   },
   {
