@@ -554,7 +554,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A Neutral technique that whips the opponent with heavy chains.",
-    "effectText": "Chains Hit deals damage to a single target.",
+    "effectText": "Chains Hit deals damage to a single other target",
     "effects": []
   },
   {
@@ -572,7 +572,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "There's a time for cunning strategy, and there's a time for charging head-on. This one is for the latter case.",
-    "effectText": "Charge deals damage to a single target.",
+    "effectText": "Charge deals damage to a single other target.",
     "effects": []
   },
   {
@@ -632,7 +632,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Mudslinging to see what sticks? It won't do much damage, but it slows them down... Inflicts moderate damage and SPD",
-    "effectText": "Clay Ball deals damage to a single target and inflicts them with SPD .",
+    "effectText": "Clay Ball deals damage to a single other target and inflicts them with SPD .",
     "effects": []
   },
   {
@@ -650,7 +650,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Give me a hug, bro! Ouch... but... not... like... thaaat...",
-    "effectText": "Clinch deals damage to a single target.",
+    "effectText": "Clinch deals damage to a single other target.",
     "effects": []
   },
   {
@@ -668,7 +668,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A shivery draft that deals light damage and chills the target with Cold for 3 turns.",
-    "effectText": "Cold Breeze deals damage to a single target and inflicts them with the Cold Condition for 3 turns.",
+    "effectText": "Cold Breeze deals damage to a single other target and inflicts them with the Cold Condition for 3 turns.",
     "effects": [
       {
         "type": "condition",
