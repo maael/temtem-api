@@ -1453,7 +1453,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "\"Chromeon, give them a shocking experience!\" This technique inflicts moderate damage.",
-    "effectText": "Electric Torrent deals damage to a single target.",
+    "effectText": "Electric Torrent deals damage to a single other target.",
     "effects": []
   },
   {
@@ -1471,7 +1471,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Electromagnetically bound, attacker and target are trapped for 3 turns, while target gets SPD .",
-    "effectText": "Electromagnetism inflicts a single target and user with the Trapped Condition for 3 turns then inflicts the target with SPD .",
+    "effectText": "Electromagnetism inflicts a single other target and the user with the Trapped Condition for 3 turns then inflicts the target with SPD .",
     "effects": [
       {
         "type": "condition",
