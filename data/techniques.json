@@ -1746,7 +1746,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Also known as \"siren slap\". Hurts your pride more than anything else.",
-    "effectText": "Finbeat deals damage to a single target.",
+    "effectText": "Finbeat deals damage to a single other target.",
     "effects": []
   },
   {
@@ -1764,7 +1764,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Blazing like the depths of Anak, this flame geyser scorches your enemies.",
-    "effectText": "Fire Flame deals damage to a single target.",
+    "effectText": "Fire Flame deals damage to a single other target.",
     "effects": []
   },
   {
@@ -1818,7 +1818,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "\"Chromeon, burn 'em to a crispy crisp!\" This technique inflicts moderate damage.",
-    "effectText": "Fire Torrent deals damage to a single target.",
+    "effectText": "Fire Torrent deals damage to a single other target.",
     "effects": []
   },
   {
@@ -1944,7 +1944,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Feel the true force of Nature, unleashed as a savage lash of the whip!",
-    "effectText": "Frond Whip deals damage to a single target.",
+    "effectText": "Frond Whip deals damage to a single other target.",
     "effects": []
   },
   {
@@ -1980,7 +1980,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "The shorter the wavelength, the higher the damage. This mighty technique costs a lot of stamina but leaves the target even more exhausted.",
-    "effectText": "Gamma Burst deals damage to a single target and inflicts them with the Exhausted Condition for 2 turns.",
+    "effectText": "Gamma Burst deals damage to a single other target and inflicts them with the Exhausted Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -2034,7 +2034,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Like death by a thousand cuts... but this is just one of them.",
-    "effectText": "Glass Blade deals damage to a single target.",
+    "effectText": "Glass Blade deals damage to a single other target.",
     "effects": []
   },
   {
@@ -2052,7 +2052,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "You mess with the horns, you get the... No, wait! This fast, Neutral technique does serious damage.",
-    "effectText": "Goring deals damage to a single target.",
+    "effectText": "Goring deals damage to a single other target.",
     "effects": []
   },
   {
@@ -2070,7 +2070,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A slashing open-hand strike in the Cipanki martial arts tradition. Inflicts Physical damage and leaves them Asleep the same turn.",
-    "effectText": "Haito Uchi deals damage to a single target and inflicts them with the Asleep Condition for 1 turn.",
+    "effectText": "Haito Uchi deals damage to a single other target and inflicts them with the Asleep Condition for 1 turn.",
     "effects": [
       {
         "type": "condition",
@@ -2124,7 +2124,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Some Temtem lick you to signify affection... and some use it as a powerful attack! Eww!",
-    "effectText": "Harmful Lick deals damage to a single target.",
+    "effectText": "Harmful Lick deals damage to a single other target.",
     "effects": []
   },
   {
@@ -2166,7 +2166,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "There are many clever uses for a large skull. This is not one of them, but it's effective.",
-    "effectText": "Head Charge deals damage to a single target.",
+    "effectText": "Head Charge deals damage to a single other target.",
     "effects": []
   },
   {
@@ -2184,7 +2184,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Use your head, non-metaphorically.",
-    "effectText": "Head Ram deals damage to a single target.",
+    "effectText": "Head Ram deals damage to a single other target.",
     "effects": []
   },
   {
@@ -2220,7 +2220,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Effective and unsubtle, like a Tucmani mine drill.",
-    "effectText": "Heavy Blow deals damage to a single target.",
+    "effectText": "Heavy Blow deals damage to a single other target.",
     "effects": []
   },
   {
@@ -2238,7 +2238,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "All that suppressed rage keeps building up... until it bursts in a nova of wrath.",
-    "effectText": "Held Anger deals damage to a single target.",
+    "effectText": "Held Anger deals damage to a single other target.",
     "effects": []
   },
   {
@@ -2285,7 +2285,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Just a little nap while it's cold outside... The target is Frozen for 3 turns but recovers 40% of health and stamina.",
-    "effectText": "Hibernate restores 40% of the user's max HP and STA but inflicts them with the Frozen Condition for 3 turns.",
+    "effectText": "Hibernate restores 40% of the user's max HP and STA but also inflicts the user with the Frozen Condition for 3 turns.",
     "effects": [
       {
         "type": "condition",
@@ -2393,7 +2393,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A bruised ego hurts more than a wounded body. This is just the thing! DEF .",
-    "effectText": "Humiliating Slap deals damage to a single target and inflicts them with DEF",
+    "effectText": "Humiliating Slap deals damage to a single other target and inflicts them with DEF",
     "effects": []
   },
   {
@@ -2429,7 +2429,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A brain hack developed by Arburian Mind specialists that makes the target Asleep for 2 turns.",
-    "effectText": "Hypnosis inflicts a single target with the Asleep Condition for 2 turns.",
+    "effectText": "Hypnosis inflicts a single other target with the Asleep Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -2495,7 +2495,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "An obscure technique created by the secretive Iwaba clan, deep in the Cipanki hills, which inflicts Cold for 2 turns.",
-    "effectText": "Ice Shuriken deals damage to a single target and inflicts them with the Cold Condition for 2 turns.",
+    "effectText": "Ice Shuriken deals damage to a single other target and inflicts them with the Cold Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -2519,7 +2519,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Cold *does* bother you anyway... This giant icicle inflicts damage and also Cold for 3 turns.",
-    "effectText": "Iced Stalactite deals damage to a single target and inflicts them with the Cold Condition for 3 turns.",
+    "effectText": "Iced Stalactite deals damage to a single other target and inflicts them with the Cold Condition for 3 turns.",
     "effects": [
       {
         "type": "condition",
@@ -2585,7 +2585,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Temtem with powerful jaws always know how to use them...",
-    "effectText": "Jaw Strike deals damage to a single target.",
+    "effectText": "Jaw Strike deals damage to a single other target.",
     "effects": []
   },
   {
@@ -2603,7 +2603,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Primal and instinctive, sometimes a good kick is all you need.",
-    "effectText": "Kick deals damage to a single target.",
+    "effectText": "Kick deals damage to a single other target.",
     "effects": []
   },
   {
@@ -2639,7 +2639,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "The first cut is the deepest, but the last one hurts like Downbelow. This Neutral Technique only works on trapped enemies and inflicts 180 damage.",
-    "effectText": "Late Torment deals damage to a single target if they're afflicted with the Trapped Condition.",
+    "effectText": "Late Torment deals damage to a single other target if they're afflicted with the Trapped Condition.",
     "effects": []
   },
   {
@@ -2753,7 +2753,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "There is an edge to this madness - those willing to take 30% Damage will get SPDEF and SPATK .",
-    "effectText": "Madness Buff causes the user to lose 30% of their max HP and then be gifted SPDEF and SPATK .",
+    "effectText": "Madness Buff causes the user to lose 30% of their max HP and then is gifted SPATK and SPDEF .",
     "effects": []
   },
   {
@@ -2771,7 +2771,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Like a surge of Anak lava to the face! Fire technique that burns for 3 turns.",
-    "effectText": "Magma Cannon deals damage to a single target and inflicts them with the Burned Condition for 3 turns.",
+    "effectText": "Magma Cannon deals damage to a single other target and inflicts them with the Burned Condition for 3 turns.",
     "effects": [
       {
         "type": "condition",
@@ -2795,7 +2795,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "This blow targets the enemy's weak spot for massive damage.",
-    "effectText": "Major Slash deals damage to a single target.",
+    "effectText": "Major Slash deals damage to a single other target.",
     "effects": []
   },
   {
