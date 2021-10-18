@@ -1572,7 +1572,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "\"Omnes vulnerant, postuma necat\". Slowly the hour creeps onwards... it does only slight damage, but if that leaves the Temtem under 30% of their total HP... it's over for them.",
-    "effectText": "Execution deals damage to a single target. If this damage would put it below 30% of its max HP, it's instead knocked out.",
+    "effectText": "Execution deals damage to a single other target. If this damage would put it below 30% of its max HP, it's instead knocked out.",
     "effects": []
   },
   {
@@ -1590,7 +1590,7 @@
     "synergyEffects": [],
     "targets": "All",
     "description": "\"Look up! See that cool meteorite... Extinction gives 4 turns of Doomed to everyone on the battlefield.\"",
-    "effectText": "Extinction inflicts every Temtem on the battlefield with a 4 turn countdown of the Doomed Condition.",
+    "effectText": "Extinction inflicts all Temtem on the battlefield with a 4 turn countdown of the Doomed Condition.",
     "effects": []
   },
   {
@@ -1656,7 +1656,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "\"Even the softest feather becomes a sword if the hand is true.\" - Miyako proverb.",
-    "effectText": "Feather Gatling deals damage to a single target.",
+    "effectText": "Feather Gatling deals damage to a single other target.",
     "effects": []
   },
   {
@@ -1674,7 +1674,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Raw as untamed Temtem and unstoppable as a Kisiwan stampede.",
-    "effectText": "Fierce Claw deals damage to a single target.",
+    "effectText": "Fierce Claw deals damage to a single other target.",
     "effects": []
   },
   {
@@ -1722,7 +1722,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "An alter ego of flames, channeled directly from the Anak spirit, which inflicts moderate damage and burns the enemy for 1 turn.",
-    "effectText": "Fiery Soul deals damage to a single target and inflicts them with the Burned Condition for 1 turn.",
+    "effectText": "Fiery Soul deals damage to a single other target and inflicts them with the Burned Condition for 1 turn.",
     "effects": [
       {
         "type": "condition",
