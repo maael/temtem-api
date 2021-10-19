@@ -2903,7 +2903,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "\"Chromeon, show them your wrestling moves!\" This technique inflicts moderate damage.",
-    "effectText": "Melee Torrent deals damage to a single target.",
+    "effectText": "Melee Torrent deals damage to a single other target.",
     "effects": []
   },
   {
@@ -2939,7 +2939,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "\"Chromeon, mess with their heads!\" This technique inflicts moderate damage.",
-    "effectText": "Mental Torrent deals damage to a single target.",
+    "effectText": "Mental Torrent deals damage to a single other target.",
     "effects": []
   },
   {
@@ -3088,7 +3088,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A rapid-fire flurry of furious beaks.",
-    "effectText": "Multiple Pecks deals damage to a single target.",
+    "effectText": "Multiple Pecks deals damage to a single other target.",
     "effects": []
   },
   {
@@ -3130,7 +3130,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A potent attack that exhausts the attacker's psyche, making it fall Asleep for 2 turns.",
-    "effectText": "Narcoleptic Hit deals damage to a single target then inflicts the user with the Asleep Condition for 2 turns.",
+    "effectText": "Narcoleptic Hit deals damage to a single other target then inflicts the user with the Asleep Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
