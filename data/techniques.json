@@ -3620,7 +3620,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A jet of superheated matter, right where it hurts. This technique does slight damage and burns a target for 1 turn.",
-    "effectText": "Plasma Beam deals damage to a single target and inflicts them with the Burned Condition for 1 turn.",
+    "effectText": "Plasma Beam deals damage to a single other target and inflicts them with the Burned Condition for 1 turn.",
     "effects": [
       {
         "type": "condition",
@@ -3668,7 +3668,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "An enhanced version of Psy that inflicts so much psychological damage that it bleeds into the somatic.",
-    "effectText": "Psy Surge deals damage to a single target.",
+    "effectText": "Psy Surge deals damage to a single other target.",
     "effects": []
   },
   {
@@ -3686,7 +3686,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "\"Mens sana in corpore sano\"... but the other way around.",
-    "effectText": "Psy Wave deals damage to a single target.",
+    "effectText": "Psy Wave deals damage to a single other target.",
     "effects": []
   },
   {
