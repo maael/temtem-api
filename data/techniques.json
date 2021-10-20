@@ -3483,7 +3483,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Have a heart... of stone. It doesn't hurt much, but it leaves enemies trapped for 5 turns.",
-    "effectText": "Petrify deals damage to a single target and inflicts with the Trapped Condition for 5 turns.",
+    "effectText": "Petrify deals damage to a single target and inflicts them with the Trapped Condition for 5 turns.",
     "effects": [
       {
         "type": "condition",
@@ -3525,7 +3525,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A dirty trick from the seedier alleys of Lochburg, uses nimble fingers (or claws) to Seize the target for 2 turns.",
-    "effectText": "Pickpocket deals damage to a single target and inflicts them with the Seized Condition for 2 turns.",
+    "effectText": "Pickpocket deals damage to a single other target and inflicts them with the Seized Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -3549,7 +3549,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Zizare's signature technique - a fast attack that terrifies enemies DEF and lifts your spirits, giving you Vigor for 2 turns.",
-    "effectText": "Piercing Wheel deals damage to a single target and inflicts them with DEF while also gifting the user with the Vigorized Condition for 2 turns.",
+    "effectText": "Piercing Wheel deals damage to a single other target and inflicts them with DEF while also gifting the user with the Vigorized Condition for 2 turns.",
     "effects": []
   },
   {
@@ -3596,7 +3596,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A nasty lurgy that damages the target and leaves it Exhausted for 1 turn.",
-    "effectText": "Plague deals damage to a single target and inflicts the Exhausted Condition for 1 turn.",
+    "effectText": "Plague deals damage to a single other target and inflicts them with the Exhausted Condition for 1 turn.",
     "effects": [
       {
         "type": "condition",
