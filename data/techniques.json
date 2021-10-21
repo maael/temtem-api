@@ -3859,7 +3859,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "The red mist makes a Temtem brutal but also careless, getting ATK and DEF .",
-    "effectText": "Rage gifts the user with ATK but also inflicts them with DEF .",
+    "effectText": "Rage gifts the user with ATK but also inflicts the user with DEF .",
     "effects": []
   },
   {
@@ -3953,7 +3953,7 @@
     "synergyEffects": [],
     "targets": "All",
     "description": "Time for a little siesta! Everyone on the battlefield gets Asleep for 2 turns.",
-    "effectText": "Relax inflicts every Temtem on the battlefield with the Asleep Condition for 2 turns.",
+    "effectText": "Relax inflicts all Temtem on the battlefield with the Asleep Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -3977,7 +3977,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "While this technique does only moderate damage, it nullifies the target for 4 turns, buying you some precious time...",
-    "effectText": "Rend deals damage to a single target and gives them the Nullified Condition for 4 turns.",
+    "effectText": "Rend deals damage to a single other target and gives them the Nullified Condition for 4 turns.",
     "effects": [
       {
         "type": "condition",
@@ -4096,7 +4096,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Legends tell of the Omninesian tamers who would root rivals in place, inflicting SPD .",
-    "effectText": "Roots inflicts a single target with SPD .",
+    "effectText": "Roots inflicts a single other target with SPD .",
     "effects": []
   },
   {
@@ -4114,7 +4114,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A Temtem may pay the ultimate price to heal the target of all Status conditions and give them DEF and SPDEF .",
-    "effectText": "Sacrifice removes/cures all Status Conditions from a single target and gifts them with DEF and SPDEF , then the user is knocked out.",
+    "effectText": "Sacrifice removes/cures all Status Conditions from a single other target and gifts them with DEF and SPDEF , then the user is knocked out.",
     "effects": []
   },
   {
@@ -4132,7 +4132,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A fistful of humble sand becomes a face full of dirty fighting.",
-    "effectText": "Sand Splatter deals damage to a single target.",
+    "effectText": "Sand Splatter deals damage to a single other target.",
     "effects": []
   },
   {
