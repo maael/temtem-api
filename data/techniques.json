@@ -3130,7 +3130,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A potent attack that exhausts the attacker's psyche, making it fall Asleep for 2 turns.",
-    "effectText": "Narcoleptic Hit deals damage to a single other target then inflicts the user with the Asleep Condition for 2 turns.",
+    "effectText": "Narcoleptic Hit deals damage to a single other target, but inflicts the user with the Asleep Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -3447,7 +3447,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Blood magic requires blood sacrifice - will you pay the price? Loatle can inflict 10% of damage on itself to boost the ATK and SPATK of the target.",
-    "effectText": "Penance causes the user to lose 10% of their max HP and then gifts a single other target ATK and SPATK .",
+    "effectText": "Penance gifts a single other target with ATK and SPATK , but causes the user to lose 10% of their max HP.",
     "effects": []
   },
   {
@@ -4168,7 +4168,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "In classic Temtem wresting showbiz style, this Neutral technique damages and exhausts the target for 2 turns.",
-    "effectText": "Savage Suplex deals damage to a single target and inflicts them with the Exhausted Condition for 2 turns.",
+    "effectText": "Savage Suplex deals damage to a single other target and inflicts them with the Exhausted Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -4192,7 +4192,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Almost any claw or nail can scratch the surface. Sometimes that's enough.",
-    "effectText": "Scratch deals damage to a single target.",
+    "effectText": "Scratch deals damage to a single other target.",
     "effects": []
   },
   {
@@ -4234,7 +4234,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "Only Oceara can tap into the mythical power of the serbatiyo to give itself SPATK and unleash a devastating Water attack on the whole enemy team.",
-    "effectText": "Serbatiyo's Wrath deals damage to the opposing team or the user's ally then gifts the user with SPATK .",
+    "effectText": "Serbatiyo's Wrath deals damage to the opposing team or the user's ally and gifts the user with SPATK .",
     "effects": []
   },
   {
@@ -4252,7 +4252,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Evolution has armed Nature Temtem with advanced defenses against herbivores.",
-    "effectText": "Sharp Leaf deals damage to a single target.",
+    "effectText": "Sharp Leaf deals damage to a single other target.",
     "effects": []
   },
   {
@@ -4288,7 +4288,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Like winter in the Kilima peaks, this blizzard of sharp shards is as fast as piercing.",
-    "effectText": "Sharp Stabs deals damage to a single target.",
+    "effectText": "Sharp Stabs deals damage to a single other target.",
     "effects": []
   },
   {
@@ -4306,7 +4306,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Sharpen those claws, it's time to tear through the opposition! This technique bestows increased ATK and SPD .",
-    "effectText": "Sharpening gifts the user with ATK and SPD .",
+    "effectText": "Sharpening gifts the user with SPD and ATK .",
     "effects": []
   },
   {
@@ -4324,7 +4324,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Take cover! This slow technique gives DEF and SPDEF at the expense of leaving you Overexerted on the next turn.",
-    "effectText": "Shelter gifts the user with DEF and SPDEF , but leaves them overexerted the next turn.",
+    "effectText": "Shelter gifts the user with DEF and SPDEF , but leaves the user overexerted the next turn.",
     "effects": []
   },
   {
@@ -4402,7 +4402,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Nothing slows you down like being swamped in sticky goo... Traps for 2 turns and gives SPD .",
-    "effectText": "Slime inflicts a single target with the Trapped Condition for 2 turns and SPD .",
+    "effectText": "Slime inflicts a single other target with the Trapped Condition for 2 turns and SPD .",
     "effects": [
       {
         "type": "condition",
@@ -4450,7 +4450,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "An extremely weak Earth technique... but you don't look a sludge gift in the rock, right?",
-    "effectText": "Sludge Gift deals damage to a single target.",
+    "effectText": "Sludge Gift deals damage to a single other target.",
     "effects": []
   },
   {
@@ -4468,7 +4468,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Ah, the crazy Fire of passion! The target gets just a little scorched, but the kisser is invigorated for 2 turns.",
-    "effectText": "Smoldering Kiss deals damage to a single target and gifts the user with the Vigorized Condition for 2 turns.",
+    "effectText": "Smoldering Kiss deals damage to a single other target and gifts the user with the Vigorized Condition for 2 turns.",
     "effects": []
   },
   {
@@ -4486,7 +4486,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Feels just like walking barefoot through the Tasa Desert at noon! It inflicts massive damage on the enemy!",
-    "effectText": "Soil Steam inflicts damage to a single target.",
+    "effectText": "Soil Steam inflicts damage to a single other target.",
     "effects": []
   },
   {
@@ -4546,7 +4546,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "One of the most basic Nature attacks, based on allergenic spores.",
-    "effectText": "Spores deals damage to a single target.",
+    "effectText": "Spores deals damage to a single other target.",
     "effects": []
   },
   {
@@ -4593,7 +4593,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "This intimidating stare gives the Temtem Alert for 2 turns, and makes rivals feel more vulnerable: DEF .",
-    "effectText": "Stare inflicts a single target with DEF and gifts the user with the Alerted Condition for 2 turns.",
+    "effectText": "Stare inflicts a single other target with DEF and gifts the user with the Alerted Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -4617,7 +4617,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A tiny prick only hurts a little... until they notice they're Poisoned for 2 turns.",
-    "effectText": "Sting deals damage to a single target and inflicts them with the Poisoned Condition for 2 turns.",
+    "effectText": "Sting deals damage to a single other target and inflicts them with the Poisoned Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -4707,7 +4707,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Strangler and strangled, united in a deadly embrace. Both attacker and target get overextended next turn.",
-    "effectText": "Strangle deals damage to a single target and causes both the user and the target to become overexerted the next turn.",
+    "effectText": "Strangle deals damage to a single other target, but causes both the user and the target to become overexerted the next turn.",
     "effects": []
   },
   {
@@ -4725,7 +4725,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Sweep the board at one fell swoop.",
-    "effectText": "Tail Strike deals damage to a single target.",
+    "effectText": "Tail Strike deals damage to a single other target.",
     "effects": []
   },
   {
@@ -4743,7 +4743,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Reportedly feels \"like combing your brain with concertina wire.\"",
-    "effectText": "Telekinetic Shrapnel deals damage to a single target.",
+    "effectText": "Telekinetic Shrapnel deals damage to a single other target.",
     "effects": []
   },
   {
@@ -4761,7 +4761,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Really? Are you going to attack something *this* cute? Inflicts ATK .",
-    "effectText": "Tenderness inflicts a single target with ATK .",
+    "effectText": "Tenderness inflicts a single other target with ATK .",
     "effects": []
   },
   {
