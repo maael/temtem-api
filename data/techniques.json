@@ -4779,7 +4779,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Tentacles. Why did it have to be tentacles?",
-    "effectText": "Tentacle Whip deals damage to a single target.",
+    "effectText": "Tentacle Whip deals damage to a single other target.",
     "effects": []
   },
   {
@@ -4797,7 +4797,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "An electromagnetic trap that does light damage and slows down the target: SPD .",
-    "effectText": "Tesla Prison deals damage to a single target and inflicts them with SPD .",
+    "effectText": "Tesla Prison deals damage to a single other target and inflicts them with SPD .",
     "effects": []
   },
   {
@@ -4815,7 +4815,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Hear it roar! The sound and fury of this technique inflict heavy damage but Exhaust the attacker for 2 turns.",
-    "effectText": "Thunder Strike deals damage to a single target but inflicts the user with the Exhausted Condition for 2 turns.",
+    "effectText": "Thunder Strike deals damage to a single target, but inflicts the user with the Exhausted Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -4839,7 +4839,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Twist the fabric of time-space to your advantage, gaining SPD and giving the enemy SPD .",
-    "effectText": "Time Split deals damage to a single target, inflicts it with SPD , and gifts the user with SPD .",
+    "effectText": "Time Split deals damage to a single other target, then gifts the user with SPD and inflicts the target with SPD .",
     "effects": []
   },
   {
@@ -4857,7 +4857,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Launch token attacks, get token results. This technique does little damage.",
-    "effectText": "Token deals damage to a single target.",
+    "effectText": "Token deals damage to a single other target.",
     "effects": []
   },
   {
@@ -4935,7 +4935,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A quick nibble that doesn't look like much... until you notice the Poison for 1 turn.",
-    "effectText": "Toxic Fang deals damage to a single target and inflicts them with the Poisoned Condition for 1 turn.",
+    "effectText": "Toxic Fang deals damage to a single other target and inflicts them with the Poisoned Condition for 1 turn.",
     "effects": [
       {
         "type": "condition",
@@ -4977,7 +4977,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "The victim will have time to regret getting this tattoo... While it's Poisoned for 2 turns.",
-    "effectText": "Toxic Ink deals damage to a single target and inflicts them with the Poisoned Condition for 2 turns.",
+    "effectText": "Toxic Ink deals damage to a single other target and inflicts them with the Poisoned Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -5054,7 +5054,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Toxin-carrying spores that inoculate with Poisoned for 3 turns.",
-    "effectText": "Toxic Spores inflicts a single target with the Poisoned Condition for 3 turns.",
+    "effectText": "Toxic Spores inflicts a single other target with the Poisoned Condition for 3 turns.",
     "effects": [
       {
         "type": "condition",
@@ -5096,7 +5096,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "\"Chromeon, show me your Toxic side!\" This technique inflicts moderate damage.",
-    "effectText": "Toxic Torrent deals damage to a single target.",
+    "effectText": "Toxic Torrent deals damage to a single other target.",
     "effects": []
   },
   {
@@ -5114,7 +5114,7 @@
     "synergyEffects": [],
     "targets": "All Other Temtem",
     "description": "Soak everyone in nasty toxins - but don't splash yourself! Inflicts moderate damage on everyone but you, and lets you evade for 2 turns.",
-    "effectText": "Toxin Shower deals damage to all Temtem on the battlefield except the user and gifts the user with the Evading Condition for 2 turns.",
+    "effectText": "Toxin Shower deals damage to all other Temtem on the battlefield and gifts the user with the Evading Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -5185,7 +5185,7 @@
     "synergyEffects": [],
     "targets": "Single Team",
     "description": "Turn it to eleven! Decreases the Hold level of our whole team.",
-    "effectText": "Turbo Charge reduces the Hold of all the techniques of the targeted team by 1, as if an additional turn had gone by.",
+    "effectText": "Turbo Charge decreases the Hold of all the techniques of a single team by 1, as if an additional turn had gone by.",
     "effects": []
   },
   {
@@ -5227,7 +5227,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Leave your opponent heavily damaged and treading on very thin ice, giving it SPATK .",
-    "effectText": "Undermine deals damage to a single target and inflicts them with SPATK .",
+    "effectText": "Undermine deals damage to a single other target and inflicts them with SPATK .",
     "effects": []
   },
   {
@@ -5263,7 +5263,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Melee Temtem are all about raw strength. This technique is its sincerest expression.",
-    "effectText": "Uppercut deals damage to a single target.",
+    "effectText": "Uppercut deals damage to a single other target.",
     "effects": []
   },
   {
@@ -5323,7 +5323,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "When the look of your claws doesn't prevent the fight, the poison finishes it.",
-    "effectText": "Venomous Claws deals damage to a single target.",
+    "effectText": "Venomous Claws deals damage to a single other target.",
     "effects": []
   },
   {
@@ -5365,7 +5365,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Sometimes a little shock is all you need to gain an edge. This fast technique inflicts slight damage but seizes the target for 1 turn.",
-    "effectText": "Voltopuncture deals damage to a single target and inflicts them with the Seized Condition for 1 turn.",
+    "effectText": "Voltopuncture deals damage to a single other target and inflicts them with the Seized Condition for 1 turn.",
     "effects": [
       {
         "type": "condition",
@@ -5407,7 +5407,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Some Temtem are so warm and cuddly that they can weaponize that love as a Fire technique.",
-    "effectText": "Warm Cuddle deals damage to a single target.",
+    "effectText": "Warm Cuddle deals damage to a single other target.",
     "effects": []
   },
   {
@@ -5449,7 +5449,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Whipping seawater, like the stormy Sillaro whipping the rocks.",
-    "effectText": "Water Blade deals damage to a single target.",
+    "effectText": "Water Blade deals damage to a single other target.",
     "effects": []
   },
   {
@@ -5533,7 +5533,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "\"Chromeon, it's time to hose 'em down!\" This technique inflicts moderate damage.",
-    "effectText": "Water Torrent deals damage to a single target.",
+    "effectText": "Water Torrent deals damage to a single other target.",
     "effects": []
   },
   {
@@ -5551,7 +5551,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "About time your enemies took a shower! This pressurized jet inflicts considerable damage and leaves the target Cold for 2 turns.",
-    "effectText": "Waterjet deals damage to a single target and inflicts them with the Cold Condition for 2 turns.",
+    "effectText": "Waterjet deals damage to a single other target and inflicts them with the Cold Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
