@@ -98,7 +98,7 @@
     ],
     "targets": "Single Other Target",
     "description": "\"An ingenious application of hydraulic pressure for ballistic purposes\" - Sophia d'Arissola.",
-    "effectText": "Aqua Stone deals damage to a single target.",
+    "effectText": "Aqua Stone deals damage to a single other target.",
     "effects": []
   },
   {
@@ -398,7 +398,7 @@
     ],
     "targets": "Other Team or Ally",
     "description": "Beam me up! This technique makes you alert and able to evade for 2 turns.",
-    "effectText": "Bright Beam deals damage to the opposing team or the user's ally and gifts the user with the Alerted Condition and the Evading Condition for 2 turns.",
+    "effectText": "Bright Beam deals damage to the oopposing team or the user's ally and gifts the user with the Alerted Condition and the Evading Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -1220,7 +1220,7 @@
     ],
     "targets": "Single Other Target",
     "description": "Cuts both ways, in true Neutral fashion - inflicts moderate damage to the target, but also gives it DEF and SPDEF .",
-    "effectText": "Double Edge deals damage to a single target and gifts them with DEF and SPDEF .",
+    "effectText": "Double Edge deals damage to a single other target and gifts them with DEF and SPDEF .",
     "effects": []
   },
   {
@@ -1399,7 +1399,7 @@
     ],
     "targets": "Single Other Target",
     "description": "Myrisles engineers hate this odd trick! Make the Earth shake and deal massive damage to the target.Used in combination with a Electric ally, it changes the technique type to Electric and the target is Seized for 2 turns.",
-    "effectText": "Earthbreaker deals damage to a single target.",
+    "effectText": "Earthbreaker deals damage to a single other target.",
     "effects": []
   },
   {
@@ -1548,7 +1548,7 @@
     ],
     "targets": "Single Other Target",
     "description": "A simple yet quick Mental attack that exhausts the target for 1 turn.Used in combination with a Nature ally, Energy Manipulation does additional damage and exhausts for 2 turns.",
-    "effectText": "Energy Manipulation deals damage to a single target and inflicts them with the Exhausted Condition for 1 turn.",
+    "effectText": "Energy Manipulation deals damage to a single other target and inflicts them with the Exhausted Condition for 1 turn.",
     "effects": [
       {
         "type": "condition",
@@ -1698,7 +1698,7 @@
     ],
     "targets": "Single Other Target",
     "description": "Put your hands up, this 'Tem's too hot to handle! This technique seizes and burns for 2 turns.Used in combination with an ally, Fiery Heist seizes and burns for 4 turns.",
-    "effectText": "Fiery Heist inflicts a single target with the Seized Condition and the Burned Condition for 2 turns.",
+    "effectText": "Fiery Heist inflicts a single other target with the Seized Condition and the Burned Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -5575,7 +5575,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Sapping the very will to fight from an enemy's mind, this quick Neutral technique steals 23 Stamina points.",
-    "effectText": "Willpower Drain drains 23 STA from the target and restores 23 STA to the user. The user will still overexert if they don't have enough STA to use Willpower Drain. If the target has less than 23 STA, the user will only restore the amount that was drained.",
+    "effectText": "Willpower Drain drains 23 STA from a single other target and restores 23 STA to the user. The user will still overexert if they don't have enough STA to use Willpower Drain. If the target has less than 23 STA, the user will only restore the amount that was drained.",
     "effects": []
   },
   {
@@ -5593,7 +5593,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Lashing gales, like the frozen tramontane wind howling over the Loch.",
-    "effectText": "Wind Blade deals damage to a single target.",
+    "effectText": "Wind Blade deals damage to a single other target.",
     "effects": []
   },
   {
@@ -5647,7 +5647,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "\"Chromeon, make sure they are well ventilated!\" This technique inflicts moderate damage.",
-    "effectText": "Wind Torrent deals damage to a single target.",
+    "effectText": "Wind Torrent deals damage to a single other target.",
     "effects": []
   },
   {
@@ -5665,7 +5665,7 @@
     "synergyEffects": [],
     "targets": "All",
     "description": "A wintry sonata that leaves all Temtem in the battlefield as Cold as the Kilima snows.",
-    "effectText": "Winter Call inflicts every Temtem on the battlefield with the Cold Condition for 2 turns.",
+    "effectText": "Winter Call inflicts all Temtem on the battlefield with the Cold Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
