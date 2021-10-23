@@ -2315,7 +2315,7 @@
     ],
     "targets": "Single Other Target",
     "description": "An industrial-grade water jet that packs real punch.Used in combination with a Fire ally, it produced boiling water that inflicts Burn for 3 turns.",
-    "effectText": "High-pressure Water deals damage to a single target.",
+    "effectText": "High-pressure Water deals damage to a single other target.",
     "effects": []
   },
   {
@@ -2477,7 +2477,7 @@
     ],
     "targets": "Single Other Target",
     "description": "An extreme version of the ice water bucket challenge that does real damage.",
-    "effectText": "Ice Cubes deals damage to a single target.",
+    "effectText": "Ice Cubes deals damage to a single other target.",
     "effects": []
   },
   {
@@ -2656,14 +2656,14 @@
     "synergy": "Water",
     "synergyEffects": [
       {
-        "effect": "+3 Turns Seized",
+        "effect": "3 Turns Seized",
         "type": "condition",
         "damage": 0
       }
     ],
     "targets": "Single Other Target",
     "description": "Some Temtem like a hot batch, and some like it PIPING hot. This technique inflicts moderate damage.Love me a streamin' bath! Used in combination with a Water ally, Lava Wave seizes for 3 turns and increases priority.",
-    "effectText": "Lava Wave deals damage to a single target.",
+    "effectText": "Lava Wave deals damage to a single other target.",
     "effects": []
   },
   {
@@ -2963,7 +2963,7 @@
     ],
     "targets": "Single Other Target",
     "description": "This metabolic enhancement reacts to poison in the target's body by purging it and recovers 15% of health.Used in combination with a Nature ally, improved assimilation of nutrients regenerates the Temtem for 2 turns.",
-    "effectText": "Metabolize cures a single target of the Poisoned Condition and the user heals 15% of their max HP if the target is afflicted with the Poisoned Condition.",
+    "effectText": "Metabolize cures a single other target of the Poisoned Condition and the heals 15% of the user's max HP if the target is afflicted with the Poisoned Condition.",
     "effects": []
   },
   {
@@ -2992,7 +2992,7 @@
     ],
     "targets": "Other Team or Ally",
     "description": "Death from above... A barrage of flaming meteorites that inflicts Fire damage on the whole team.It's raining fire! Inflicts burns on the whole team.",
-    "effectText": "Meteor Swarm deals damage to the opposing team or an ally.",
+    "effectText": "Meteor Swarm deals damage to the opposing team or the user's ally.",
     "effects": []
   },
   {
@@ -3052,7 +3052,7 @@
     ],
     "targets": "Self",
     "description": "The monks of Miyako developed this technique to eliminate all altered states on the Temtem.Using this waterfall meditation with a Water ally, you become immune for 3 turns.",
-    "effectText": "Misogi cures/removes all Status Conditions gifted/inflicted on the user.",
+    "effectText": "Misogi cures/removes all Status Conditions gifted/given/inflicted on the user.",
     "effects": []
   },
   {
@@ -3327,7 +3327,7 @@
     ],
     "targets": "Single Other Target",
     "description": "Just one step above a slap, but everybody's got to start somewhere.Used in combination with a Melee ally, it changes the technique type to Melee and becomes a more powerful punch.",
-    "effectText": "Novice Punch deals damage to a single target.",
+    "effectText": "Novice Punch deals damage to a single other target.",
     "effects": []
   },
   {
@@ -3405,7 +3405,7 @@
     ],
     "targets": "Single Other Target",
     "description": "This strong venom traps and poisons the target for 2 turns.Used in combination with a Toxic ally, the poisoning lasts for 4 turns.",
-    "effectText": "Paralyzing Poison inflicts a single target with the Poisoned Condition and the Trapped Condition for 2 turns.",
+    "effectText": "Paralyzing Poison inflicts a single other target with the Poisoned Condition and the Trapped Condition for 2 turns.",
     "effects": [
       {
         "type": "condition",
@@ -3710,7 +3710,7 @@
     ],
     "targets": "Single Other Target",
     "description": "This Mental technique does a meagre 1 damage... It's all in your mind, after all.",
-    "effectText": "Psychic Collaborator deals damage to a single target.",
+    "effectText": "Psychic Collaborator deals damage to a single other target.",
     "effects": []
   },
   {
@@ -3775,7 +3775,7 @@
     ],
     "targets": "Other Team or Ally",
     "description": "Micro-fine particles designed to inflict macro-damage to a whole team. Make sure you don't inhale them!A denser cloud. Used in combination with an Earth ally, Quartz Dirt traps the targets for 2 turns.",
-    "effectText": "Quartz Dirt deals damage to a single team or the user's ally.",
+    "effectText": "Quartz Dirt deals damage to the opposing team or the user's ally.",
     "effects": []
   },
   {
@@ -3817,7 +3817,7 @@
     ],
     "targets": "Single Other Target",
     "description": "A party trick someone showed you once, involving a Fire Temtem, a log, and a bottle of Quetzaleño Reposado...",
-    "effectText": "Quetza-leño deals damage to a single target.",
+    "effectText": "Quetza-leño deals damage to a single other target.",
     "effects": []
   },
   {
@@ -4036,7 +4036,7 @@
     ],
     "targets": "Single Target",
     "description": "Antiseptic and a couple of bandages. Target recovers 25% HP.Antibiotics and a proper bandage. Target recovers 25% HP and Temtem 10%.",
-    "effectText": "Revitalize recovers 25% of a single target's max HP.",
+    "effectText": "Revitalize restores 25% of a single target's max HP.",
     "effects": []
   },
   {
@@ -4510,7 +4510,7 @@
     ],
     "targets": "Single Other Target",
     "description": "All flash and no bang - this sparkly Electric technique does little damage.",
-    "effectText": "Sparkling Bullet deals damage to a single target.",
+    "effectText": "Sparkling Bullet deals damage to a single other target.",
     "effects": []
   },
   {
@@ -4892,14 +4892,14 @@
     "synergy": "Crystal",
     "synergyEffects": [
       {
-        "effect": "Heals 20% of max HP 3 Turns Doomed",
+        "effect": "Heals 20% of user's max HP 3 Turns Doomed",
         "type": "condition",
         "damage": 0
       }
     ],
     "targets": "Single Other Target",
     "description": "Lil' Tort just wanted to play in its garden... but it won't suffer intruders! You heal 10% while the target is Doomed for 4 turns.Used in combination with a Crystal ally, Tortenite's Garden heals 20% and inflicts Doomed for 3 turns instead of 4.",
-    "effectText": "Tortenite's Garden restores 10% of the user's max HP and inflicts a single target with a 4 turn countdown of the Doomed Condition.",
+    "effectText": "Tortenite's Garden inflicts a single other target with a 4 turn countdown of the Doomed Condition and restores 10% of the user's max HP.",
     "effects": []
   },
   {
@@ -5209,7 +5209,7 @@
     ],
     "targets": "Single Team",
     "description": "The ancestral dance of Deniz is a powerful ritual that bestows protection, SPD to the whole team.Wind allies boost the effect of Turbo Choreography to the whole team SPD .",
-    "effectText": "Turbo Choreography gives a single team with SPD .",
+    "effectText": "Turbo Choreography gifts a single team with SPD .",
     "effects": []
   },
   {
@@ -5473,7 +5473,7 @@
     ],
     "targets": "Single Other Target",
     "description": "The strongest Sillaro current has nothing on this unstoppable jet.Used in combination with a Toxic ally, it produces a stream of Poison for 2 turns.",
-    "effectText": "Water Cannon deals damage to a single target.",
+    "effectText": "Water Cannon deals damage to a single other target.",
     "effects": []
   },
   {
