@@ -33,13 +33,13 @@
     "name": "Apothecary",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Apothecary",
     "description": "",
-    "effect": "Apothecary causes all of the holder's techniques to inflict the Poisoned Condition for 1 turn if the target was a rival or gift the Regenerated Condition for 1 turn if the target was an ally or itself."
+    "effect": "Apothecary causes all of the holder's Special Techniques to inflict the Poisoned Condition for 1 turn if the target is an opponent or gift the Regenerated Condition for 1 turn if the target is the holder or their ally."
   },
   {
     "name": "Attack T",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Attack_T",
     "description": "",
-    "effect": "Attack<T> changes the user's secondary Type to match the Technique they are about to use. If the move the Temtem is about to use is the same type as that Temtem's primary type, then the Temtem becomes a single-type Temtem of that type. For example, Oree becomes Digital/Electric when using Tesla Prison, and becomes pure Digital when using Turbo Attack."
+    "effect": "Attack<T> changes the user's secondary type to match the technique they're about to use. If the technique the holder is about to use is the same type as the holder's primary type, then the holder loses the secondary type. For example, Oree becomes Digital /Electric when using Tesla Prison, and becomes pure Digital when using Turbo Attack."
   },
   {
     "name": "Autotomy",
@@ -159,7 +159,7 @@
     "name": "Confident",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Confident",
     "description": "",
-    "effect": "Confident gifts the holder with SPD whenever they use a Technique that is Effective (x2 damage) or Super Effective (x4 damage) against a target."
+    "effect": "Confident gifts the holder with SPD whenever they use a Technique that is Effective or Super Effective against a target."
   },
   {
     "name": "Confined",
