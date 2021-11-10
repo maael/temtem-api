@@ -21,13 +21,13 @@
     "name": "Anaerobic",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Anaerobic",
     "description": "",
-    "effect": "Anaerobic gifts the holder with SPDEF but also inflicts them with SPATK whenever they use a Toxic technique."
+    "effect": "Anaerobic gifts the holder with SPDEF but also inflicts them with SPATK whenever they use a Toxic Technique."
   },
   {
     "name": "Antibodies",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Antibodies",
     "description": "",
-    "effect": "Antibodies gifts the holder with DEF and SPDEF when hit with a Toxic Technique."
+    "effect": "Antibodies gifts the holder with DEF and SPDEF when hit by a Toxic Technique."
   },
   {
     "name": "Apothecary",
@@ -39,25 +39,25 @@
     "name": "Attack T",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Attack_T",
     "description": "",
-    "effect": "Attack<T> changes the user's secondary type to match the technique they're about to use. If the technique the holder is about to use is the same type as the holder's primary type, then the holder loses the secondary type. For example, Oree becomes Digital /Electric when using Tesla Prison, and becomes pure Digital when using Turbo Attack."
+    "effect": "Attack<T> changes the holder's secondary type to match the Technique they're about to use. If the technique the holder is about to use is the same type as the holder's primary type, then the holder loses the secondary type. For example, Oree becomes Digital /Electric when using Tesla Prison, and becomes pure Digital when using Turbo Attack."
   },
   {
     "name": "Autotomy",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Autotomy",
     "description": "",
-    "effect": "Autotomy, once per battle, gifts the holder with the Evading Condition for 2 turns upon entering the battlefield."
+    "effect": "Autotomy gifts the holder with the Evading Condition for 2 turns upon entering the battlefield once per battle."
   },
   {
     "name": "Avenger",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Avenger",
     "description": "",
-    "effect": "Avenger gifts the holder with SPD and SPATK whenever their ally is knocked out."
+    "effect": "Avenger gifts the holder with SPD and SPATK when their ally is knocked-out."
   },
   {
     "name": "Benefactor",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Benefactor",
     "description": "",
-    "effect": "Benefactor heals the holder's ally by 10% of their max HP whenever they take damage from a technique. The targeting of the technique doesn't matter and the effect has no minimum value, meaning it can heal the ally for more HP than they lost due to getting attacked. It will only trigger if they take damage from a technique, so damage from other traits like Mirroring or from status conditions like the Poisoned Condition will not cause Benefactor to activate."
+    "effect": "Benefactor heals the holder's ally by 10% of their max HP whenever they take damage from a Technique. The targeting of the technique doesn't matter and the effect has no minimum value, meaning it can heal the ally for more HP than they lost due to getting attacked. Benefactor will only trigger if the holder's ally takes damage from a technique, so damage from other traits like Mirroring or from Status Conditions like the Poisoned Condition will not cause Benefactor to activate."
   },
   {
     "name": "Body Stretch",
@@ -69,37 +69,37 @@
     "name": "Book Lungs",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Book_Lungs",
     "description": "",
-    "effect": "Book Lungs reduces the damage the holder takes from Water techniques by 50%."
+    "effect": "Book Lungs decreases the damage the holder takes from Water Techniques by 50%."
   },
   {
     "name": "Botanist",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Botanist",
     "description": "",
-    "effect": "Botanist increases the damage of the holder's Nature techniques by 15%."
+    "effect": "Botanist increases the damage of the holder's Nature Techniques by 15%."
   },
   {
     "name": "Botanophobia",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Botanophobia",
     "description": "",
-    "effect": "Botanophobia increases the damage the holder takes from Nature techniques by 50%."
+    "effect": "Botanophobia raises the damage the holder takes from Nature Techniques by 50%."
   },
   {
     "name": "Brawny",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Brawny",
     "description": "",
-    "effect": "Brawny increases the damage of the holder's techniques by 20%."
+    "effect": "Brawny increases the damage of the holder's Physical Techniques by 20%."
   },
   {
     "name": "Bully",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Bully",
-    "description": "Bully increases the holder's damage by an additional 30% while the number of conscious Temtem on the holder's team outnumber the number of conscious Temtem on the rival's team.",
+    "description": "Bully increases the damage of the holder's Techniques by an additional 30% while the number of conscious Temtem in the holder's squad outnumber the number of conscious Temtem in the rival's squad.",
     "effect": ""
   },
   {
     "name": "Burglar",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Burglar",
     "description": "",
-    "effect": "Burglar, for the rest of the battle, disables the target's gear if the holder attacks them while they are inflicted with the Asleep Condition or the Exhausted Condition."
+    "effect": "Burglar causes all of the holder's Techniques to disable the target's gear for the rest of the battle if they are afflicted with the Asleep Condition or the Exhausted Condition."
   },
   {
     "name": "Caffeinated",
@@ -111,13 +111,13 @@
     "name": "Callosity",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Callosity",
     "description": "",
-    "effect": "Callosity, once per turn, gifts the holder with DEF when hit with a technique."
+    "effect": "Callosity gifts the holder with DEF when hit with a Physical Technique once per turn."
   },
   {
     "name": "Camaraderie",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Camaraderie",
-    "description": "Camaraderie reduces the damage the holder takes from attacks by 50% if both the holder and their ally are part of the same evolutionary line.",
-    "effect": ""
+    "description": "",
+    "effect": "Camaraderie reduces the damage the holder takes from Techniques by 50% if both the holder and their ally are part of the same evolutionary line."
   },
   {
     "name": "Channeler",
