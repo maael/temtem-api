@@ -141,25 +141,25 @@
     "name": "Cold-Natured",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Cold-Natured",
     "description": "",
-    "effect": "Cold-Natured replaces any inflicted Cold Condition to the holder with the Frozen Condition for the same duration as the Cold condition would have lasted."
+    "effect": "Cold-Natured causes the holder to be inflicted with the Frozen Condition whenever they would have been inflicted with the Cold Condition. The duration of the Frozen Condition is the same as the would have been inflicted Cold Condition."
   },
   {
     "name": "Comebacker",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Comebacker",
     "description": "",
-    "effect": "Comebacker, after being attacked by a rival, increases the holder's damage by 35% to the attacker during the same turn."
+    "effect": "Comebacker increases the damage of the holder's Techniques by 35% after taking damage from a technique but only when attacking the combatant that did damage to the holder."
   },
   {
     "name": "Common Factor",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Common_Factor",
     "description": "",
-    "effect": "Common Factor inflicts all Temtem on the battlefield with the Nullified Condition for 2 turns when the holder enters the battlefield."
+    "effect": "Common Factor applies the Nullified Condition for 2 turns to all Temtem on the battlefield when the holder enters the battlefield."
   },
   {
     "name": "Confident",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Confident",
     "description": "",
-    "effect": "Confident gifts the holder with SPD whenever they use a Technique that is Effective or Super Effective against a target."
+    "effect": "Confident gifts the holder with SPD whenever they use a Technique that is at least Effective against a target."
   },
   {
     "name": "Confined",
