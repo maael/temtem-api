@@ -33,7 +33,7 @@
     "name": "Apothecary",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Apothecary",
     "description": "",
-    "effect": "Apothecary causes all of the holder's Special Techniques to inflict the Poisoned Condition for 1 turn if the target is an opponent or gift the Regenerated Condition for 1 turn if the target is the holder or their ally."
+    "effect": "Apothecary causes all of the holder's Special Techniques to inflict the Poisoned Condition for 1 turn if the target is a rival or gift the Regenerated Condition for 1 turn if the target is the holder or their ally."
   },
   {
     "name": "Attack T",
@@ -195,19 +195,19 @@
     "name": "Demoralize",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Demoralize",
     "description": "",
-    "effect": "Demoralize causes all rivals to be inflicted with SPD when the holder enters the battlefield."
+    "effect": "Demoralize inflicts all rivals with SPD when the holder enters the battlefield."
   },
   {
     "name": "Determined",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Determined",
-    "description": "Determined protects the holder's stats from being lowered by any number of stages.",
-    "effect": ""
+    "description": "",
+    "effect": "Determined protects the holder's being inflicted with negative Stat Stage Changes."
   },
   {
     "name": "Dreaded Alarm",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Dreaded_Alarm",
     "description": "",
-    "effect": "Dreaded Alarm causes all rival Temtem to lose 25% of their maximum HP when they rest."
+    "effect": "Dreaded Alarm causes all rivals to lose 25% of their maximum HP when they rest."
   },
   {
     "name": "Earthbound",
