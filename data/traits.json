@@ -363,31 +363,31 @@
     "name": "Hurry-wart",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Hurry-wart",
     "description": "",
-    "effect": "Hurry-wart reduces the Hold of all the holder's techniques by 1 when they enter the battlefield."
+    "effect": "Hurry-wart decreases the Hold of all the holder's Techniques by 1 when they enter the battlefield as if an additonal turn went by."
   },
   {
     "name": "Hydrologist",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Hydrologist",
-    "description": "Hydrologist increases the damage of the holder's Water techniques by 15%.",
-    "effect": ""
+    "description": "",
+    "effect": "Hydrologist increases the damage of the holder's Water Techniques by 15%."
   },
   {
     "name": "Immunity",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Immunity",
     "description": "",
-    "effect": "Immunity causes the holder to take no damage from Toxic techniques and protects the holder from being inflicted with the Poisoned Condition."
+    "effect": "Immunity protects the holder from taking damage from Toxic Techniques and from being inflicted with the Poisoned Condition."
   },
   {
     "name": "Individualist",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Individualist",
     "description": "",
-    "effect": "Individualist protects the holder's ally from being affected by any techniques the holder uses."
+    "effect": "Individualist protects the holder's ally from being affected by any Techniques the holder uses against them."
   },
   {
     "name": "Inductor",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Inductor",
     "description": "",
-    "effect": "Inductor restores 8% of the holders HP every time a Electric technique is used on either side of the battlefield."
+    "effect": "Inductor restores 8% of the holder's max HP every time an Electric Technique is used by any Temtem on the battlefield."
   },
   {
     "name": "Infectious",
@@ -399,13 +399,13 @@
     "name": "Intimidator",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Intimidator",
     "description": "",
-    "effect": "Intimidator prevents the Traits of the opposing team and the holder's ally from having any effects for the first 5 turns the holder is on the battlefield."
+    "effect": "Intimidator prevents the Traits of the rival team and the holder's ally from having any effects for the first 5 turns the holder is on the battlefield."
   },
   {
     "name": "Iridescence",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Iridescence",
     "description": "",
-    "effect": "Iridescence causes the holder to have inverted type resistances. For example: if the holder is Water and is attacked by a Fire technique, the holder will receive x2 the normal damage from the technique rather than the usual x0.5 the damage."
+    "effect": "Iridescence causes the holder to have inverted Type effectivness. For example: if the holder is Water and is attacked by a Fire Technique, they will take Effective damage rather than Ineffective damage."
   },
   {
     "name": "Kinetic Transfer",
