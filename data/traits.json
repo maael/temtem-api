@@ -321,25 +321,25 @@
     "name": "Good Friend",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Good_Friend",
     "description": "",
-    "effect": "Good Friend causes a second rival attack that's directed at the holder's ally to be redirected to the holder."
+    "effect": "Good Friend causes a second rival Technique that's directed at the holder's ally to be redirected to the holder."
   },
   {
     "name": "Gotta Go Fast",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Gotta_Go_Fast",
     "description": "",
-    "effect": "Gotta Go Fast causes all of the holders techniques that have Very Low, Low, and Normal priority to have High priority."
+    "effect": "Gotta Go Fast causes all of the holders Techniques that have Very Low, Low, and Normal priority to be increased to High priority."
   },
   {
     "name": "Guardian",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Guardian",
     "description": "",
-    "effect": "Guardian protects the holder's ally from the Cold Condition, the Frozen Condition, the Burned Condition, the Poisoned Condition, the Doomed Condition and their stats from being lowered."
+    "effect": "Guardian protects the holder's ally from the Cold Condition, the Frozen Condition, the Burned Condition, the Poisoned Condition, the Doomed Condition and negative Stat Stage Changes."
   },
   {
     "name": "Half Full",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Half_Full",
     "description": "",
-    "effect": "Half Full, once per battle, gifts the holder with ATK , DEF , SPATK , and SPDEF but they lose 50% of their maximum HP upon entering the battlefield for the first time and will only activate while HP is full."
+    "effect": "Half Full gifts the holder with ATK , DEF , SPATK , and SPDEF but also makes them lose 50% of their max HP upon entering the battlefield with full HP once per battle."
   },
   {
     "name": "Heat Discharge",
@@ -351,13 +351,13 @@
     "name": "Heater",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Heater",
     "description": "",
-    "effect": "Heater, once per battle, inflicts the Burned Condition for 1 turn on the holder's rivals upon entering the battlefield."
+    "effect": "Heater inflicts both rivals with the Burned Condition for 1 turn upon the holder entering the battlefield once per battle."
   },
   {
     "name": "Hover",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Hover",
-    "description": "Hover reduces the damage the holder takes from Earth techniques by 50%.",
-    "effect": ""
+    "description": "",
+    "effect": "Hover decreases the damage the holder takes from Earth Techniques by 50%."
   },
   {
     "name": "Hurry-wart",
