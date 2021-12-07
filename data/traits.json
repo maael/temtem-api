@@ -458,26 +458,26 @@
   {
     "name": "Mithridatism",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Mithridatism",
-    "description": "Mithridatism protects the holder from being inflicted with the Poisoned Condition.",
-    "effect": ""
+    "description": "",
+    "effect": "Mithridatism protects the holder from being inflicted with the Poisoned Condition."
   },
   {
     "name": "Motivator",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Motivator",
     "description": "",
-    "effect": "Motivator causes both the holder and their ally to restore 10% of their maximum STA at the start of each turn."
+    "effect": "Motivator restores 10% of both the holder's and their ally's max STA at the start of each turn."
   },
   {
     "name": "Mucous",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Mucous",
-    "description": "Mucous reduces the damage the holder takes from Electric and Toxic techniques by 30% and protects them from receiving the Cold Condition and the Burned Condition.",
-    "effect": ""
+    "description": "",
+    "effect": "Mucous decreases the damage the holder takes from Electric and Toxic Techniques by 30% and protects them from being inflicted with the Cold Condition and the Burned Condition."
   },
   {
     "name": "Neurotoxins",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Neurotoxins",
     "description": "",
-    "effect": "Neurotoxins causes all of the holder's techniques that can inflict the Poisoned Condition to instead inflict the Doomed Condition with a 4 turn countdown. This trait also works on Toxic Temtem."
+    "effect": "Neurotoxins causes all of the holder's Techniques that can inflict the Poisoned Condition to instead inflict the Doomed Condition with a 4 turn countdown. This trait also works on Toxic Temtem."
   },
   {
     "name": "Neutrality",
@@ -489,37 +489,37 @@
     "name": "Parrier",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Parrier",
     "description": "",
-    "effect": "Parrier reduces the amount of damage the holder takes from Physical techniques by 30%."
+    "effect": "Parrier decreases the amount of damage the holder takes from Physical Techniques by 30%."
   },
   {
     "name": "Patient",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Patient",
-    "description": "Patient restores 10% of the holder's maximum STA when they use a technique that has any amount of Hold.",
-    "effect": ""
+    "description": "",
+    "effect": "Patient restores 10% of the holder's max STA when they use a Techniques that has any amount of Hold."
   },
   {
     "name": "Physmaster",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Physmaster",
     "description": "",
-    "effect": "Physmaster increases the damage of the holder's techniques by 50%."
+    "effect": "Physmaster increases the damage of the holder's Physical Techniques by 50%."
   },
   {
     "name": "Pigment Inverter",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Pigment_Inverter",
     "description": "",
-    "effect": "Pigment Inverter causes the holder's target to have inverted type resistances. For example: if the holder attacks a Water target with a Fire technique, the target will receive x2 the normal damage from the technique rather than the usual x0.5 the damage."
+    "effect": "Pigment Inverter causes the holder's target to have inverted Type effectivness. For example: if the holder uses a Fire Technique on a Water target, they will take Effective damage rather than Ineffective damage."
   },
   {
     "name": "Plethoric",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Plethoric",
-    "description": "Plethoric increases the holder's SPD by 30% so long as their HP is 70% or higher.",
-    "effect": ""
+    "description": "",
+    "effect": "Plethoric increases the holder's SPD by 30% as long as they're at or above 70% of their max HP."
   },
   {
     "name": "Power Nap",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Power_Nap",
     "description": "",
-    "effect": "Power Nap, at the start of the turn, restores 15% of the holder's max HP if they are inflicted with the Asleep Condition."
+    "effect": "Power Nap restores 15% of the holder's max HP at the start of each turn if they're afflicted with the Asleep Condition."
   },
   {
     "name": "Predatory",
