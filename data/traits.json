@@ -417,25 +417,25 @@
     "name": "Landing Transmog",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Landing_Transmog",
     "description": "",
-    "effect": "Landing Transmog causes Mimit transforms into the next Temtem in clockwise order upon entering the battlefield. It will use the same base stats, techniques, trait and typing of the target. It will still keep its own level, SVs and TVs. It also won't take over any status conditions and stat modifiers which are currently applied on the target. If the next Temtem is a Mimit, then the transforming Mimit will skip to the next Temtem of a different species. If already transformed, returned, and sent out again, so long as the next Temtem in a different species than what is currently copied, Mimit will change when entering the battlefield."
+    "effect": "Landing Transmog causes Mimit to transform into the next Temtem in clockwise order upon entering the battlefield. It will use the same base stats, Techniques, Trait and Typing of the target but will keep its own level, SVs and TVs. It also won't copy any Status Conditions or Stat Stage Changes which are currently applied on the target. If the next Temtem is a Mimit, then the transforming Mimit will skip to the next Temtem of a different species. If already transformed, swapped out, and sent back in, so long as the next Temtem in a different species than what is currently copied, Mimit will change when entering the battlefield."
   },
   {
     "name": "Last Rush",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Last_Rush",
     "description": "",
-    "effect": "Last Rush increases the holder's damage by an additional 30% while the number of conscious Temtem on the rival's team outnumber the number of conscious Temtem on the holder's team."
+    "effect": "Last Rush increases the damage of the holder's Techniques by an additional 30% while the number of conscious Temtem on the rival's squad outnumber the number of conscious Temtem on the holder's squad."
   },
   {
     "name": "Loneliness",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Loneliness",
     "description": "",
-    "effect": "Loneliness makes the holder and their ally unable to use synergies."
+    "effect": "Loneliness causes the holder and their ally to be unable to use synergies."
   },
   {
     "name": "Marathonist",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Marathonist",
     "description": "",
-    "effect": "Marathonist inflicts the user with SPD when using a technique, but the STA Cost of the technique is reduced by 50%."
+    "effect": "Marathonist decreases the STA cost of Techniques by 50% but also inflicts the user with SPD whenever they use a technque."
   },
   {
     "name": "Mental Alliance",
@@ -447,13 +447,13 @@
     "name": "Mineral Crusher",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Mineral_Crusher",
     "description": "",
-    "effect": "Mineral Crusher increases the damage of all the holder's Techniques by 25% if the target is an Earth or a Crystal Temtem."
+    "effect": "Mineral Crusher increases the damage of all the holder's Techniques by 25% if the target is Earth or Crystal."
   },
   {
     "name": "Mirroring",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Mirroring",
     "description": "",
-    "effect": "Mirroring causes 40% of the damage the holder takes from techniques to be returned to the attacker."
+    "effect": "Mirroring inflicts 40% of the damage the holder takes from Special Techniques to the attacker."
   },
   {
     "name": "Mithridatism",
