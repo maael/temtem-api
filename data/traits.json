@@ -543,73 +543,73 @@
     "name": "Provident",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Provident",
     "description": "",
-    "effect": "Provident gifts the holder with SPDEF when attacked by a Fire, Earth, or Melee technique."
+    "effect": "Provident gifts the holder with SPDEF after being hit by a Earth, Fire, or Melee Technique."
   },
   {
     "name": "Punching Bag",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Punching_Bag",
     "description": "",
-    "effect": "Punching Bag reduces the damage the holder takes from Melee techniques by 30%."
+    "effect": "Punching Bag decreases the damage the holder takes from Melee Techniques by 30%."
   },
   {
     "name": "Puppet Master",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Puppet_Master",
     "description": "",
-    "effect": "Puppet Master causes all incoming, rival, single target techniques aimed the holder to be redirected to their ally so long as the holder's HP is below 40%."
+    "effect": "Puppet Master causes all incoming rival, single target Techniques aimed at the holder to be redirected to their ally while the holder is below 40% of max HP."
   },
   {
     "name": "Pyromaniac",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Pyromaniac",
     "description": "",
-    "effect": "Pyromaniac increases the damage of the holder's Fire techniques by 15%."
+    "effect": "Pyromaniac increases the damage of the holder's Fire Techniques by 15%."
   },
   {
     "name": "Receptive",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Receptive",
     "description": "",
-    "effect": ""
+    "effect": "Receptive increases the duration of the Vigorized Condition, the Immune Condition, the Regenerated Condition, the Evading Condition, and the Alerted Condition the holder is gifted with by 1 turn."
   },
   {
     "name": "Rejuvenate",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Rejuvenate",
     "description": "",
-    "effect": "Rejuvenate causes the holder to restore 8% of their maximum HP after attacking with a technique."
+    "effect": "Rejuvenate restores 8% of the holder's max HP after using a Special Technique."
   },
   {
     "name": "Relaxed",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Relaxed",
     "description": "",
-    "effect": "Relaxed restores 15% of the holder's maximum HP so long as the holder does not take any damage by techniques from the opposing team while being present on the field."
+    "effect": "Relaxed restores 15% of the holder's max HP so long as the holder does not take any damage from Techniques from the rival team while being present on the battlefield."
   },
   {
     "name": "Resilient",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Resilient",
     "description": "",
-    "effect": "Resilient, once per battle, protects the holder from knocking themselves out due to overexertion by leaving them with 1 HP, gifts them with SPD , and negates the overexertion turn penalty."
+    "effect": "Resilient protects the holder from being knocked-out due to overexertion by leaving them with 1 HP, gifts them with SPD and negating the overexertion turn penalty once per battle."
   },
   {
     "name": "Resistant",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Resistant",
-    "description": "Resistant reduces the duration of negative status conditions on the holder by 1 turn. The status conditions affected include: the Cold Condition, the Asleep Condition, the Trapped Condition, the Seized Condition, the Poisoned Condition, the Burned Condition, and the Exhausted Condition.",
-    "effect": ""
+    "description": "",
+    "effect": "Resistant decreases the duration of the Poisoned Condition, the Burned Condition, the Asleep Condition, the Cold Condition, the Exhausted Condition, the Isolated Condition, the Seized Condition, and the Trapped Condition the holder is inflicted with by 1 turn."
   },
   {
     "name": "Rested",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Rested",
     "description": "",
-    "effect": "Rested increases the holder's ATK and SPATK by 30% for the first 2 turns they are on the battlefield. It only activates once per battle."
+    "effect": "Rested increases the holder's ATK and SPATK by 30% for the first 2 turns they are on the battlefield once per battle."
   },
   {
     "name": "Royal Jelly",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Royal_Jelly",
     "description": "",
-    "effect": "Royal Jelly, at the start of a turn, restores the 5% of the holder's and their allies' maximum HP."
+    "effect": "Royal Jelly restores 5% of the holder's and their allies' max HP at the start of each turn."
   },
   {
     "name": "Scavenger",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Scavenger",
     "description": "",
-    "effect": "Scavenger restores 20% of the holder's maximum HP when another Temtem, whether it be an ally or opponent, is knocked-out."
+    "effect": "Scavenger restores 20% of the holder's max HP when either their ally or a rival is knocked-out."
   },
   {
     "name": "Self-Esteem",
