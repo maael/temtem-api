@@ -152,7 +152,7 @@
     ],
     "targets": "Single Target",
     "description": "Ninety-nine Temesseeeence viaaaals! This horrible Tucmani drinking song does considerable damage... especially to reputations, inflicting isolation for 3 turns.Used in combination with a Neutral ally, the Awful Song inflicts damage on the whole team.",
-    "effectText": "Awful Song deals damage to a single target and inflicts them with the Isolated for 3 turns.",
+    "effectText": "Awful Song deals damage to a single target and inflicts them with the Isolated Condition for 3 turns.",
     "effects": []
   },
   {
@@ -374,7 +374,7 @@
     ],
     "targets": "Other Team or Ally",
     "description": "Beam me up! This technique makes you alert and able to evade for 2 turns.",
-    "effectText": "Bright Beam deals damage to the rival team or the user's ally and gifts the user with the Alerted and the Evading for 2 turns.",
+    "effectText": "Bright Beam deals damage to the rival team or the user's ally and gifts the user with the Alerted and Evading Conditions for 2 turns.",
     "effects": []
   },
   {
@@ -434,7 +434,7 @@
     ],
     "targets": "Self",
     "description": "When in doubt, run and shout! This fast Nature technique helps your Temtem regenerate and evade for 1 turn.No more beating around the bush! Used in combination with a Earth ally, this technique gives SPDEF .",
-    "effectText": "Bush gifts the user with the Regenerated and the Evading for 1 turn.",
+    "effectText": "Bush gifts the user with the Regenerated and Evading Conditions for 1 turn.",
     "effects": []
   },
   {
@@ -710,7 +710,7 @@
     ],
     "targets": "Single Target",
     "description": "It's raining 'Tems, hallelujah! This special Crystal technique inflicts moderate damage and isolates it for 3 turns.Used in combination with a Mental ally, Crystal Deluge makes you asleep for 3 turns and increases priority.",
-    "effectText": "Crystal Deluge deals damage to a single target and inflicts them with the Isolated for 3 turns.",
+    "effectText": "Crystal Deluge deals damage to a single target and inflicts them with the Isolated Condition for 3 turns.",
     "effects": []
   },
   {
@@ -1440,7 +1440,7 @@
     ],
     "targets": "Single Other Target",
     "description": "A simple yet quick Mental attack that exhausts the target for 1 turn.Used in combination with a Nature ally, Energy Manipulation does additional damage and exhausts for 2 turns.",
-    "effectText": "Energy Manipulation deals damage to a single other target and inflicts them with the Exhausted for 1 turn.",
+    "effectText": "Energy Manipulation deals damage to a single other target and inflicts them with the Exhausted Condition for 1 turn.",
     "effects": []
   },
   {
@@ -1518,7 +1518,7 @@
     ],
     "targets": "Single Target",
     "description": "This classic science experiment, weaponized. This technique inflicts decent damage and exiles the target for 3 turns.\"...and then he drank the battery liquid!\" Used in combination with a Toxic ally, Faraday Cage poisons the target for 3 turns.",
-    "effectText": "Faraday Cage deals damage to a single target and inflicts them with the Isolated for 3 turns.",
+    "effectText": "Faraday Cage deals damage to a single target and inflicts them with the Isolated Condition for 3 turns.",
     "effects": []
   },
   {
@@ -1578,7 +1578,7 @@
     ],
     "targets": "Single Other Target",
     "description": "Put your hands up, this 'Tem's too hot to handle! This technique seizes and burns for 2 turns.Used in combination with an ally, Fiery Heist seizes and burns for 4 turns.",
-    "effectText": "Fiery Heist inflicts a single other target with the Seized and the Burned for 2 turns.",
+    "effectText": "Fiery Heist inflicts a single other target with the Seized and Burned Conditions for 2 turns.",
     "effects": []
   },
   {
@@ -1860,7 +1860,7 @@
     ],
     "targets": "Self",
     "description": "Anything is better than generic. This technique nullifies you for 2 turns.Even more generic? Used in combination with a Neutral ally, Generify nullifies and lets you evade for 2 turns.",
-    "effectText": "Generify gives the user the Nullified for 2 turns.",
+    "effectText": "Generify gives the user the Nullified Condition for 2 turns.",
     "effects": []
   },
   {
@@ -1938,7 +1938,7 @@
     ],
     "targets": "Single Other Target",
     "description": "Suggestive and Toxic visions that exhaust the mind and tire and trap the target for 2 turns.Used in combination with a Mental ally, the Hallucination does Special damage.",
-    "effectText": "Hallucination inflicts a single other target with the Exhausted and the Trapped for 2 turns.",
+    "effectText": "Hallucination inflicts a single other target with the Exhausted and Trapped Conditions for 2 turns.",
     "effects": []
   },
   {
@@ -2753,7 +2753,7 @@
     ],
     "targets": "Single Other Target",
     "description": "This metabolic enhancement reacts to poison in the target's body by purging it and recovers 15% of health.Used in combination with a Nature ally, improved assimilation of nutrients regenerates the Temtem for 2 turns.",
-    "effectText": "Metabolize cures a single other target of the Poisoned and the heals 15% of the user's max HP if the target is afflicted with the Poisoned Condition.",
+    "effectText": "Metabolize cures a single other target of the Poisoned Condition and the heals 15% of the user's maximum HP if the target is afflicted with the Poisoned Condition.",
     "effects": []
   },
   {
@@ -3189,7 +3189,7 @@
     ],
     "targets": "Single Other Target",
     "description": "This strong venom traps and poisons the target for 2 turns.Used in combination with a Toxic ally, the poisoning lasts for 4 turns.",
-    "effectText": "Paralyzing Poison inflicts a single other target with the Poisoned and the Trapped for 2 turns.",
+    "effectText": "Paralyzing Poison inflicts a single other target with the Poisoned Condition and the Trapped Condition for 2 turns.",
     "effects": []
   },
   {
@@ -3743,7 +3743,7 @@
     "synergy": "Nature",
     "synergyEffects": [
       {
-        "effect": "Restore 10% of user's max HP",
+        "effect": "Restore 10% of user's maximum HP",
         "type": "unknown",
         "damage": 0
       },
@@ -3755,7 +3755,7 @@
     ],
     "targets": "Single Target",
     "description": "Antiseptic and a couple of bandages. Target recovers 25% HP.Antibiotics and a proper bandage. Target recovers 25% HP and Temtem 10%.",
-    "effectText": "Revitalize restores 25% of a single target's max HP.",
+    "effectText": "Revitalize restores 25% of a single target's maximum HP.",
     "effects": []
   },
   {
@@ -4300,7 +4300,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "This intimidating stare gives the Temtem Alert for 2 turns, and makes rivals feel more vulnerable: DEF .",
-    "effectText": "Stare inflicts a single other target with DEF and gifts the user with the Alerted for 2 turns.",
+    "effectText": "Stare inflicts a single other target with DEF and gifts the user with the Alerted Condition for 2 turns.",
     "effects": []
   },
   {
@@ -4318,7 +4318,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A tiny prick only hurts a little... until they notice they're Poisoned for 2 turns.",
-    "effectText": "Sting deals damage to a single other target and inflicts them with the Poisoned for 2 turns.",
+    "effectText": "Sting deals damage to a single other target and inflicts them with the Poisoned Condition for 2 turns.",
     "effects": []
   },
   {
@@ -4360,7 +4360,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "Get to cover! This technique inflicts medium damage on the target team and you get evading for 2 turns.",
-    "effectText": "Stone Trench deals damage to the rival team or the user's ally and gifts the user with the Evading for 2 turns.",
+    "effectText": "Stone Trench deals damage to the rival team or the user's ally and gifts the user with the Evading Condition for 2 turns.",
     "effects": []
   },
   {
@@ -4504,7 +4504,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Hear it roar! The sound and fury of this technique inflict heavy damage but Exhaust the attacker for 2 turns.",
-    "effectText": "Thunder Strike deals damage to a single target, but inflicts the user with the Exhausted for 2 turns.",
+    "effectText": "Thunder Strike deals damage to a single target, but inflicts the user with the Exhausted Condition for 2 turns.",
     "effects": []
   },
   {
@@ -4575,14 +4575,14 @@
     "synergy": "Crystal",
     "synergyEffects": [
       {
-        "effect": "Heals 20% of user's max HP 3 Turns  Doomed",
+        "effect": "Restore 20% of user's maximum HP 3 Turns  Doomed",
         "type": "condition",
         "damage": 0
       }
     ],
     "targets": "Single Other Target",
     "description": "Lil' Tort just wanted to play in its garden... but it won't suffer intruders! You heal 10% while the target is Doomed for 4 turns.Used in combination with a Crystal ally, Tortenite's Garden heals 20% and inflicts Doomed for 3 turns instead of 4.",
-    "effectText": "Tortenite's Garden inflicts a single other target with a 4 turn countdown of the Doomed and restores 10% of the user's max HP.",
+    "effectText": "Tortenite's Garden inflicts a single other target with a 4 turn countdown of the Doomed Condition and restores 10% of the user's maximum HP.",
     "effects": []
   },
   {
@@ -4618,7 +4618,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A quick nibble that doesn't look like much... until you notice the Poison for 1 turn.",
-    "effectText": "Toxic Fang deals damage to a single other target and inflicts them with the Poisoned for 1 turn.",
+    "effectText": "Toxic Fang deals damage to a single other target and inflicts them with the Poisoned Condition for 1 turn.",
     "effects": []
   },
   {
@@ -4654,7 +4654,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "The victim will have time to regret getting this tattoo... While it's Poisoned for 2 turns.",
-    "effectText": "Toxic Ink deals damage to a single other target and inflicts them with the Poisoned for 2 turns.",
+    "effectText": "Toxic Ink deals damage to a single other target and inflicts them with the Poisoned Condition for 2 turns.",
     "effects": []
   },
   {
@@ -4683,7 +4683,7 @@
     ],
     "targets": "Other Team or Ally",
     "description": "Like a faulty airship engine, this Temtem can leave a trail of toxic gas that gives Poison to the whole team for 1 turn.Used in combination with a Crystal ally, Toxic Plume saves you STA and the target gets ATK .",
-    "effectText": "Toxic Plume deals damage to the rival team or the user's ally and inflicts them with the Poisoned for 1 turn.",
+    "effectText": "Toxic Plume deals damage to the rival team or the user's ally and inflicts them with the Poisoned Condition for 1 turn.",
     "effects": []
   },
   {
@@ -4719,7 +4719,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Toxin-carrying spores that inoculate with Poisoned for 3 turns.",
-    "effectText": "Toxic Spores inflicts a single other target with the Poisoned for 3 turns.",
+    "effectText": "Toxic Spores inflicts a single other target with the Poisoned Condition for 3 turns.",
     "effects": []
   },
   {
@@ -4773,7 +4773,7 @@
     "synergyEffects": [],
     "targets": "All Other Temtem",
     "description": "Soak everyone in nasty toxins - but don't splash yourself! Inflicts moderate damage on everyone but you, and lets you evade for 2 turns.",
-    "effectText": "Toxin Shower deals damage to all other Temtem on the battlefield and gifts the user with the Evading for 2 turns.",
+    "effectText": "Toxin Shower deals damage to all other Temtem on the battlefield and gifts the user with the Evading Condition for 2 turns.",
     "effects": []
   },
   {
@@ -4898,7 +4898,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "With a few swift movement, this techniques Untraps the target from any tangle.",
-    "effectText": "Untangle cures a single target of the Trapped.",
+    "effectText": "Untangle cures a single target of the Trapped Condition.",
     "effects": []
   },
   {
@@ -4958,7 +4958,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "This technique only works on already poisoned enemies - but in that case, the toxin rush inflicts 150 damage.",
-    "effectText": "Venom Spread deals damage to a single target if they're afflicted with the Poisoned.",
+    "effectText": "Venom Spread deals damage to a single target if they're afflicted with the Poisoned Condition.",
     "effects": []
   },
   {
@@ -5018,7 +5018,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Sometimes a little shock is all you need to gain an edge. This fast technique inflicts slight damage but seizes the target for 1 turn.",
-    "effectText": "Voltopuncture deals damage to a single other target and inflicts them with the Seized for 1 turn.",
+    "effectText": "Voltopuncture deals damage to a single other target and inflicts them with the Seized Condition for 1 turn.",
     "effects": []
   },
   {
@@ -5072,7 +5072,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Like raw sewage raining on you, without the \"like\". It inflicts moderate Toxic damage and poisons for 1 turn.",
-    "effectText": "Wastewater deals damage to a single target and inflicts them with the Poisoned for 1 turn.",
+    "effectText": "Wastewater deals damage to a single target and inflicts them with the Poisoned Condition for 1 turn.",
     "effects": []
   },
   {
@@ -5192,7 +5192,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "About time your enemies took a shower! This pressurized jet inflicts considerable damage and leaves the target Cold for 2 turns.",
-    "effectText": "Waterjet deals damage to a single other target and inflicts them with the Cold for 2 turns.",
+    "effectText": "Waterjet deals damage to a single other target and inflicts them with the Cold Condition for 2 turns.",
     "effects": []
   },
   {
@@ -5300,7 +5300,7 @@
     "synergyEffects": [],
     "targets": "All",
     "description": "A wintry sonata that leaves all Temtem in the battlefield as Cold as the Kilima snows.",
-    "effectText": "Winter Call inflicts all Temtem on the battlefield with the Cold for 2 turns.",
+    "effectText": "Winter Call inflicts all Temtem on the battlefield with the Cold Condition for 2 turns.",
     "effects": []
   },
   {
