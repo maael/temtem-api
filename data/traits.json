@@ -333,7 +333,7 @@
     "name": "Guardian",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Guardian",
     "description": "",
-    "effect": "Guardian protects the holder's ally from being inflicted with the Cold, Frozen, Burned, Poisoned, and Doomed Conditions and negative Stat Stage Changes."
+    "effect": "Guardian protects the holder's ally from being inflicted with negative Stat Stage Changes and the Cold, Frozen, Burned, Poisoned, and Doomed Conditions."
   },
   {
     "name": "Half Full",
@@ -435,7 +435,7 @@
     "name": "Marathonist",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Marathonist",
     "description": "",
-    "effect": "Marathonist decreases the STA cost of Techniques by 50% but also inflicts the user with SPD whenever they use a technque."
+    "effect": "Marathonist decreases the STA cost of Techniques by 50% but also inflicts the user with SPD whenever they use a Technique."
   },
   {
     "name": "Mental Alliance",
@@ -483,7 +483,7 @@
     "name": "Neutrality",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Neutrality",
     "description": "",
-    "effect": "Neutrality protects the holder from being inflicted with the Asleep, Burned, Cold, Frozen, Exhausted, Isolated, Poisoned, Seized, and Trapped Conditions."
+    "effect": "Neutrality protects the holder from being inflicted with the Asleep, Burned, Cold, Frozen, Exhausted, Isolated, Poisoned, Seized, Trapped, and Doomed Conditions."
   },
   {
     "name": "Parrier",
@@ -591,7 +591,7 @@
     "name": "Resistant",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Resistant",
     "description": "",
-    "effect": "Resistant decreases the duration of the Poisoned, the Burned, the Asleep, the Cold, the Exhausted, the Isolated, the Seized, and the Trapped the holder is inflicted with by 1 turn."
+    "effect": "Resistant decreases the duration of the Poisoned, the Burned, the Asleep, the Cold, the Exhausted, the Isolated, the Seized, and the Trapped Conditions the holder is inflicted with by 1 turn. If the inflicted condition would only last 1 turn normally, the holder will not be inflicted with it."
   },
   {
     "name": "Rested",
