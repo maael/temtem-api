@@ -477,7 +477,7 @@
     "name": "Neurotoxins",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Neurotoxins",
     "description": "",
-    "effect": "Neurotoxins causes all of the holder's Techniques that can inflict the Poisoned Condition to instead inflict a 4 turn countdown of the Doomed Condition. This trait also works on Toxic Temtem."
+    "effect": "Neurotoxins causes all of the holder's Techniques that can inflict the Poisoned Condition to instead inflict a 4 turn countdown of the Doomed Condition. Neurotoxins will inflcit the Doomed Condition on Toxic Temtem but will fail to inflict Temtem that have Mithridatism or Immunity as their Trait."
   },
   {
     "name": "Neutrality",
@@ -633,7 +633,7 @@
     "name": "Seppuku",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Seppuku",
     "description": "",
-    "effect": "Seppuku inflicts the holder's target with with a 2 turn countdown of the Doomed Condition if the holder is knocked-out due to overexertion."
+    "effect": "Seppuku inflicts the target of the holder's Techniques with with a 2 turn countdown of the Doomed Condition if the holder is knocked-out due to Overexertion. Seppuku will not trigger if the holder uses a Technique that automatically knocks-out user like Autodestruction or Sacrifice."
   },
   {
     "name": "Settling",
@@ -651,43 +651,43 @@
     "name": "Short Circuit",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Short_Circuit",
     "description": "",
-    "effect": "Short Circuit prevents all stat changes to both teams as long as the holder is present on the battlefield."
+    "effect": "Short Circuit prevents all Stat Stage Changes from being gifted/inflicted to all combatants on the battlefield as long as the holder is on the battlefield."
   },
   {
     "name": "Skull Helmet",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Skull_Helmet",
     "description": "",
-    "effect": "Skull Helmet reduces the damage the holder takes from Mental and Melee techniques by 25%."
+    "effect": "Skull Helmet decreases the damage the holder takes from Mental and Melee Techniques by 25%."
   },
   {
     "name": "Snowstorm",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Snowstorm",
     "description": "",
-    "effect": "Snowstorm, once per battle, inflicts both rivals and the holder's ally with the Cold Condition for 3 turns if they aren't already inflicted with the Cold condition when the holder enters the battlefield."
+    "effect": "Snowstorm inflicts both rivals and the holder's ally with the Cold Condition for 3 turns if they aren't already inflicted with the Cold Condition when the holder enters the battlefield once per battle."
   },
   {
     "name": "Soft Touch",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Soft_Touch",
     "description": "",
-    "effect": "Soft Touch allows the holder to attack a target afflicted with the Asleep Condition without removing it and damage done to Asleep targets is increased by 20%."
+    "effect": "Soft Touch increases the damage the holder does to targets affected by the Asleep Condition by 20% and stops the holder from curing them of the Asleep Condition with any damage-dealing Techniques."
   },
   {
     "name": "Source Replicator",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Source_Replicator",
     "description": "",
-    "effect": "Source Replicator copies any positive status condition the holder has and gifts them to their ally for the same duration."
+    "effect": "Source Replicator copies any Alerted, Regenerated, Evading, Immune, or Vigorized Conditions the holder is gifted with and gifts them to their ally for the same duration."
   },
   {
     "name": "Specmaster",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Specmaster",
     "description": "",
-    "effect": "Specmaster increases the damage of the holder's techniques by 50%."
+    "effect": "Specmaster increases the damage of the holder's Special Techniques by 50%."
   },
   {
     "name": "Splitter",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Splitter",
     "description": "",
-    "effect": "Splitter protects the holder from negative status conditions like the Poisoned Condition or the Burned Condition when attacked with a Physical or Special technique. For example: Embers won't inflict Burn and Toxic Ink won't inflict Poisoned."
+    "effect": "Splitter protects the holder from being inflicted with the Poisoned, Burned, Asleep, Cold, Exhausted, Isolated, Seized, or Trapped Conditions after being hit with a Physical or Special Technique. For example: Embers won't inflict Burned and Toxic Ink won't inflict Poisoned."
   },
   {
     "name": "Spoilsport",
