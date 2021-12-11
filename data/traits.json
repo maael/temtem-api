@@ -447,7 +447,7 @@
     "name": "Mineral Crusher",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Mineral_Crusher",
     "description": "",
-    "effect": "Mineral Crusher increases the damage of all the holder's Techniques by 25% if the target is Earth or Crystal."
+    "effect": "Mineral Crusher increases the damage of all the holder's Techniques by 25% if their target is part Earth or Crystal."
   },
   {
     "name": "Mirroring",
@@ -776,8 +776,8 @@
   {
     "name": "Toxic Affinity",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Toxic_Affinity",
-    "description": "Toxic Affinity increases the base damage of the holder's Toxic techniques by x1.5, as if they had STAB. This stacks with actual STAB if the holder is also Toxic, resulting in a total multiple of x2.25 (1.5 x 1.5).",
-    "effect": ""
+    "description": "",
+    "effect": "Toxic Affinity increases the damage of the holder's Toxic Techniques by 50%, as if they had STAB. This boost stacks with actual STAB if the holder is part Toxic."
   },
   {
     "name": "Toxic Farewell",
@@ -789,13 +789,13 @@
     "name": "Toxic Skin",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Toxic_Skin",
     "description": "",
-    "effect": "Toxic Skin inflicts the holder's attacker with the Poisoned Condition for 2 turns if the attacker used a Physical technique."
+    "effect": "Toxic Skin inflicts the Poisoned Condition for 2 turns onto any attacker that hits the holder with a Physical Technique."
   },
   {
     "name": "Toxin Crusher",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Toxin_Crusher",
     "description": "",
-    "effect": "Toxin Crusher increases the damage of all the holder's Techniques by 50% if the target is a Toxic Temtem."
+    "effect": "Toxin Crusher increases the damage of all the holder's Techniques by 50% if their target is part Toxic."
   },
   {
     "name": "Traits",
@@ -806,91 +806,91 @@
   {
     "name": "Trance",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Trance",
-    "description": "Trance, once per battle, will inflict the holder with the Asleep Condition for 2 turns but gifts them with the the Regenerated Condition for 4 turns, SPATK and SPDEF so long as their their current HP is below 30% and they are targeted by a technique.",
-    "effect": ""
+    "description": "",
+    "effect": "Trance gifts the holder with SPATK , SPDEF , and the Regenerated Condition for 4 turns but also inflicts the Asleep Condition for 2 turns when the holder's is below 30% of their maximum HP and is the target of a Technique, once per battle."
   },
   {
     "name": "Trauma",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Trauma",
     "description": "",
-    "effect": "Trauma inflicts the holder with DEF when they're hit with a technique or inflicts the holder with SPDEF when they're hit with a technique."
+    "effect": "Trauma inflicts the holder with DEF after they're hit with a Physical Technique and inflicts the holder with SPDEF after they're hit with a Special Technique."
   },
   {
     "name": "Tri-Apothecary",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Tri-Apothecary",
     "description": "",
-    "effect": "Tri-Apothecary causes all of the holder's techniques to inflict the Poisoned Condition for 3 turns if the target was a rival or gift the Regenerated Condition for 3 turns if the target was an ally or itself."
+    "effect": "Tri-Apothecary causes all of the holder's Special Techniques to inflict the Poisoned Condition for 3 turns if the target was a rival or gift the Regenerated Condition for 3 turns if the target is the holder or their ally."
   },
   {
     "name": "Unnoticed",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Unnoticed",
     "description": "",
-    "effect": "Unnoticed gifts the holder with SPD so long as the holder does not take any damage by techniques from the opposing team."
+    "effect": "Unnoticed gifts the holder with SPD so long as the holder does not take any damage from Techniques from the rival team while being present on the battlefield."
   },
   {
     "name": "Vigorous",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Vigorous",
     "description": "",
-    "effect": "Vigorous increases the damage of the holder's techniques by 50% if the holder overexerts."
+    "effect": "Vigorous increases the damage of the holder's Techniques by 50% when the holder Overexerts."
   },
   {
     "name": "Voltaic Charge",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Voltaic_Charge",
     "description": "",
-    "effect": "Voltaic Charge inflicts the holder's attacker with 10% of the damage they just received as long as the holder was the only target of the attacker's technique."
+    "effect": "Voltaic Charge inflicts 10% of the damage the holder takes from Techniques that have single target or single other target as their targeting to the attacker."
   },
   {
     "name": "Voodoo",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Voodoo",
     "description": "",
-    "effect": "Voodoo deals damage to the holder's rivals if the holder attacks their ally. The amount of damage the rivals receive is equal to the amount of damage the holder's ally receives."
+    "effect": "Voodoo deals damage to the holder's rivals after the holder hits their ally. The amount of damage the rivals receive is equal to the amount of damage the holder deals to their ally."
   },
   {
     "name": "Warm-Blooded",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Warm-Blooded",
     "description": "",
-    "effect": "Warm-Blooded protects the holder from receiving the Cold Condition."
+    "effect": "Warm-Blooded protects the holder from being inflicted with the Cold and Frozen Conditions."
   },
   {
     "name": "Water Affinity",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Water_Affinity",
-    "description": "Water Affinity increases the base damage of the holder's Water techniques by x1.5, as if they had STAB. This stacks with actual STAB if the holder is also Water, resulting in a total multiple of x2.25 (1.5 x 1.5).",
-    "effect": ""
+    "description": "",
+    "effect": "Water Affinity increases the damage of the holder's Water Techniques by 50%, as if they had STAB. This boost stacks with actual STAB if the holder is part Water."
   },
   {
     "name": "Water Custodian",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Water_Custodian",
     "description": "",
-    "effect": "Water Custodian causes all incoming Water techniques targeted at the holder's ally to target the holder instead."
+    "effect": "Water Custodian causes all incoming Water Techniques targeting the holder's ally to hit the holder instead."
   },
   {
     "name": "Water Synthesizer",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Water_Synthesizer",
     "description": "",
-    "effect": "Water Synthesizer causes the holder to restore HP instead of taking damage from Water techniques. The healing is equal to the amount of damage they would have received."
+    "effect": "Water Synthesizer protects the holder from taking damage from Water Techniques and restores their HP equal to the amount of damage they would've taken."
   },
   {
     "name": "Wax Bath",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Wax_Bath",
     "description": "",
-    "effect": "Wax Bath gifts the holder's ally with SPDEF when they rest."
+    "effect": "Wax Bath gifts the holder's ally with SPDEF whenever they Rest."
   },
   {
     "name": "Withdrawal",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Withdrawal",
     "description": "",
-    "effect": "Withdrawal restores 20% of the holder's maximum HP and cures them of the Asleep Condition and the Poisoned Condition when they rest."
+    "effect": "Withdrawal restores 20% of the holder's maximum HP and cures them of the Asleep and Poisoned Conditions whenever they Rest."
   },
   {
     "name": "Wrecked Farewell",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Wrecked_Farewell",
     "description": "",
-    "effect": "Wrecked Farewell causes all rivals to lose 25% of their maximum HP when the holder knocks itself out by either overexertion or by using self-damaging techniques like Madness Buff."
+    "effect": "Wrecked Farewell causes all rivals to lose 25% of their maximum HP when the holder knocks themselves out."
   },
   {
     "name": "Zen",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Zen",
     "description": "",
-    "effect": "Zen gifts the holder with DEF and SPDEF when inflicted with the Asleep Condition."
+    "effect": "Zen gifts the holder with DEF and SPDEF upon being inflicted with the Asleep Condition."
   }
 ]
