@@ -417,7 +417,7 @@
     "name": "Landing Transmog",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Landing_Transmog",
     "description": "",
-    "effect": "Landing Transmog causes Mimit to transform into the next Temtem in clockwise order upon entering the battlefield. It will use the same base stats, Techniques, Trait and Typing of the target but will keep its own level, SVs and TVs. It also won't copy any Status Conditions or Stat Stage Changes which are currently applied on the target. If the next Temtem is a Mimit, then the transforming Mimit will skip to the next Temtem of a different species. If already transformed, swapped out, and sent back in, so long as the next Temtem in a different species than what is currently copied, Mimit will change when entering the battlefield."
+    "effect": "Landing Transmog causes Mimit to transform into the next Temtem in clockwise order upon entering the battlefield. It will use the same Base Stats, Techniques, Trait and Typing of the target but will keep its own Level, SVs and TVs. It also won't copy any Status Conditions or Stat Stage Changes which are currently applied on the target. If the next Temtem is a Mimit, then the transforming Mimit will skip to the next Temtem of a different species. If already transformed, swapped out, and sent back in, so long as the next Temtem in a different species than what is currently copied, Mimit will change when entering the battlefield."
   },
   {
     "name": "Last Rush",
@@ -699,79 +699,79 @@
     "name": "Spreader",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Spreader",
     "description": "",
-    "effect": "Spreader, when there are multiple rivals, turns the targeting of all the holder's single-target techniques into multi-target but reduces the damage the technique does by 33%."
+    "effect": "Spreader causes all of the holder's Special Techniques that have single target or single other target as their targeting to hit both rivals but reduces the damage of these Techniques by 33% if there are multiple rivals on the battlefield."
   },
   {
     "name": "Stabmaster",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Stabmaster",
     "description": "",
-    "effect": "Stabmaster boosts the damage of the holders techniques that are the same type as the holder by 40%. This boost stacks with STAB."
+    "effect": "Stabmaster boosts the damage of the holders Techniques that are the same Type as the holder by 40%. This boost stacks with STAB."
   },
   {
     "name": "Striking Transmog",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Striking_Transmog",
     "description": "",
-    "effect": "Striking Transmog causes Mimit to transform into a targeted Temtem if the holder hits them with a technique. Striking Transmog only works with single-target Techniques. It will use the same Base Stats, Techniques, Traits and Typing of the target. It will still keep its own Level, Single Values and Training Values. It also won't take over any Status Conditions and Stat Modifiers which are currently applied on the target."
+    "effect": "Striking Transmog causes Mimit to transform into a the Temtem the holder hits with Physical Techniques that has single target or single other target as their targeting. It will use the same Base Stats, Techniques, Trait and Typing of the target but will keep its own Level, SVs and TVs. It also won't copy any Status Conditions or Stat Stage Changes which are currently applied on the target."
   },
   {
     "name": "Strong Liver",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Strong_Liver",
-    "description": "Strong Liver causes the holder to restore HP instead of taking damage from Toxic techniques. The healing is equal to the amount of damage they would have received.",
-    "effect": ""
+    "description": "",
+    "effect": "Strong Liver protects the holder from taking damage from Toxic Techniques and restores their HP equal to the amount of damage they would've taken."
   },
   {
     "name": "Superconductivity",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Superconductivity",
     "description": "",
-    "effect": "If a user possesses Superconductivity it will always give a synergy bonus when the users ally uses a Technique."
+    "effect": "Superconductivity causes all of the holder's ally's Techniques that have a Synergy to activate that Synergy's effect even if the holder doesn't match the Synergy's Type."
   },
   {
     "name": "Synergy Master",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Synergy_Master",
     "description": "",
-    "effect": "Synergy Master increases the damage done by the holder's and their allies' synergy techniques by 25% when the synergy activates."
+    "effect": "Synergy Master increases the damage of the holder's and their allies' Synergy Techniques by 25% when the Synergy activates."
   },
   {
     "name": "Synertyper",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Synertyper",
     "description": "",
-    "effect": "Synertyper increases the damage of the holder's techniques by 30% if both the holder and their ally share a type."
+    "effect": "Synertyper increases the damage of the holder's Techniques by 30% if both the holder and their ally share a Type."
   },
   {
     "name": "Tactical Strike",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Tactical_Strike",
     "description": "",
-    "effect": "Tactical Strike increases the damage of the holder's techniques that has any amount of Hold by 20%."
+    "effect": "Tactical Strike increases the damage of the holder's Techniques that have any amount of Hold by 20%."
   },
   {
     "name": "Tardy Rush",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Tardy_Rush",
-    "description": "Tardy Rush increases the holder's SPD by 100% and ATK by 10% after being on the battlefield for 3 turns in a row. The effect lasts until the holder leaves the battlefield. If the holder is swapped in, the turn they enter the battlefield counts as turn 1.",
-    "effect": ""
+    "description": "",
+    "effect": "Tardy Rush increases the holder's SPD by 100% and ATK by 10% after being on the battlefield for 3 turns in a row and lasts until the holder leaves the battlefield. If the holder is swapped in, the turn they enter the battlefield counts as turn 1."
   },
   {
     "name": "Target Replicator",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Target_Replicator",
     "description": "",
-    "effect": "Target Replicator causes the holder to copy any positive status conditions that their ally has to themselves for the same duration."
+    "effect": "Target Replicator copies any Alerted, Regenerated, Evading, Immune, or Vigorized Conditions the ally is gifted with and gifts them to the holder for the same duration."
   },
   {
     "name": "Team Elusive",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Team_Elusive",
     "description": "",
-    "effect": "Team Elusive causes the holder to not be affected by multi-targeting techniques by either their rivals or their ally. If Puppet Master would cause a holder of Team Elusive to be the target of an attack, it will."
+    "effect": "Team Elusive protects the holder from being affected by Techniques from both their ally and the rivals that have single team, rival team or the user's ally, all other Temtem, or all as their targeting. If Puppet Master would cause a holder to be the target of a Technique, it will."
   },
   {
     "name": "Thick Skin",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Thick_Skin",
     "description": "",
-    "effect": "Thick Skin reduces the damage the holder takes from Wind techniques by 50%."
+    "effect": "Thick Skin decreases the damage the holder takes from Wind Techniques by 50%."
   },
   {
     "name": "Tireless",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Tireless",
     "description": "",
-    "effect": "Tireless gifts the holder with ATK when they overexert and ignore the turn penalty from overexerting."
+    "effect": "Tireless gifts the holder with ATK and prevents the turn penalty from Overexerting when the holder Overexerts."
   },
   {
     "name": "Toxic Affinity",
