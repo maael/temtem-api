@@ -3223,14 +3223,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Gharunder",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 71,
+      "sta": 59,
+      "spd": 49,
+      "atk": 84,
+      "def": 45,
+      "spatk": 47,
+      "spdef": 85,
+      "total": 440
     },
     "traits": [
       "Brumation",
@@ -3291,14 +3291,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Mosu",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 60,
+      "sta": 39,
+      "spd": 35,
+      "atk": 65,
+      "def": 54,
+      "spatk": 65,
+      "spdef": 54,
+      "total": 372
     },
     "traits": [
       "Parrier"
@@ -11980,12 +11980,12 @@
     ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 80,
+        "inches": 31
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 18,
+        "lbs": 39
       }
     },
     "techniques": [],
@@ -12013,14 +12013,13 @@
           "stage": 1,
           "number": 52,
           "name": "Owlhe",
-          "level": 0,
-          "type": "special",
+          "level": 10,
+          "type": "levels",
           "trading": false,
           "traits": [
             "Determined",
             "Bruiser"
           ],
-          "description": "?, males only",
           "traitMapping": {
             "Determined": "Hypnotist",
             "Bruiser": "Tag Team"
@@ -12030,14 +12029,13 @@
           "stage": 2,
           "number": 51,
           "name": "Towly",
-          "level": 0,
-          "type": "special",
+          "level": 10,
+          "type": "levels",
           "trading": false,
           "traits": [
             "Hypnotist",
             "Tag Team"
           ],
-          "description": "?, males only",
           "traitMapping": {
             "Hypnotist": "Neutrality",
             "Tag Team": "Air Specialist"
@@ -12047,14 +12045,13 @@
           "stage": 3,
           "number": 53,
           "name": "Barnshe",
-          "level": 0,
-          "type": "special",
+          "level": 10,
+          "type": "levels",
           "trading": false,
           "traits": [
             "Neutrality",
             "Air Specialist"
           ],
-          "description": "?, females only",
           "traitMapping": {
             "Neutrality": "Neutrality",
             "Air Specialist": "Air Specialist"
@@ -12062,19 +12059,18 @@
         }
       ],
       "evolves": true,
-      "type": "special",
+      "type": "levels",
       "from": {
         "stage": 1,
         "number": 52,
         "name": "Owlhe",
-        "level": 0,
-        "type": "special",
+        "level": 10,
+        "type": "levels",
         "trading": false,
         "traits": [
           "Determined",
           "Bruiser"
         ],
-        "description": "?, males only",
         "traitMapping": {
           "Determined": "Hypnotist",
           "Bruiser": "Tag Team"
@@ -12084,14 +12080,13 @@
         "stage": 3,
         "number": 53,
         "name": "Barnshe",
-        "level": 0,
-        "type": "special",
+        "level": 10,
+        "type": "levels",
         "trading": false,
         "traits": [
           "Neutrality",
           "Air Specialist"
         ],
-        "description": "?, females only",
         "traitMapping": {
           "Neutrality": "Neutrality",
           "Air Specialist": "Air Specialist"
@@ -12099,13 +12094,12 @@
       },
       "number": 51,
       "name": "Towly",
-      "level": 0,
+      "level": 10,
       "trading": false,
       "traits": [
         "Hypnotist",
         "Tag Team"
       ],
-      "description": "?, males only",
       "traitMapping": {
         "Hypnotist": "Neutrality",
         "Tag Team": "Air Specialist"
@@ -12120,12 +12114,12 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 120,
+    "hatchMins": 21,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 1,
       "atk": 0,
       "def": 0,
       "spatk": 0,
@@ -12152,14 +12146,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Owlhe",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 57,
+      "sta": 46,
+      "spd": 78,
+      "atk": 75,
+      "def": 79,
+      "spatk": 60,
+      "spdef": 40,
+      "total": 435
     },
     "traits": [
       "Determined",
@@ -12167,12 +12161,12 @@
     ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 177,
+        "inches": 69
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 68,
+        "lbs": 149
       }
     },
     "techniques": [],
@@ -12200,14 +12194,13 @@
           "stage": 1,
           "number": 52,
           "name": "Owlhe",
-          "level": 0,
-          "type": "special",
+          "level": 10,
+          "type": "levels",
           "trading": false,
           "traits": [
             "Determined",
             "Bruiser"
           ],
-          "description": "?, male only",
           "traitMapping": {
             "Determined": "Determined",
             "Bruiser": "Bruiser"
@@ -12215,7 +12208,7 @@
         }
       ],
       "evolves": true,
-      "type": "special",
+      "type": "levels",
       "from": {
         "stage": 0,
         "number": 51,
@@ -12235,13 +12228,12 @@
       "to": null,
       "number": 52,
       "name": "Owlhe",
-      "level": 0,
+      "level": 10,
       "trading": false,
       "traits": [
         "Determined",
         "Bruiser"
       ],
-      "description": "?, male only",
       "traitMapping": {
         "Determined": "Determined",
         "Bruiser": "Bruiser"
@@ -12256,13 +12248,13 @@
       "male": 100,
       "female": 0
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 80,
+    "hatchMins": 29,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 1,
       "def": 0,
       "spatk": 0,
       "spdef": 0
@@ -12426,14 +12418,13 @@
           "stage": 1,
           "number": 53,
           "name": "Barnshe",
-          "level": 0,
-          "type": "special",
+          "level": 10,
+          "type": "levels",
           "trading": false,
           "traits": [
             "Neutrality",
             "Air Specialist"
           ],
-          "description": "?, female only",
           "traitMapping": {
             "Neutrality": "Neutrality",
             "Air Specialist": "Air Specialist"
@@ -12441,7 +12432,7 @@
         }
       ],
       "evolves": true,
-      "type": "special",
+      "type": "levels",
       "from": {
         "stage": 0,
         "number": 51,
@@ -12461,13 +12452,12 @@
       "to": null,
       "number": 53,
       "name": "Barnshe",
-      "level": 0,
+      "level": 10,
       "trading": false,
       "traits": [
         "Neutrality",
         "Air Specialist"
       ],
-      "description": "?, female only",
       "traitMapping": {
         "Neutrality": "Neutrality",
         "Air Specialist": "Air Specialist"
@@ -17361,14 +17351,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Shaolite",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 40,
+      "sta": 58,
+      "spd": 68,
+      "atk": 43,
+      "def": 58,
+      "spatk": 54,
+      "spdef": 61,
+      "total": 382
     },
     "traits": [
       "Coward's Rest",
@@ -17376,12 +17366,12 @@
     ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 100,
+        "inches": 39
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 27,
+        "lbs": 59
       }
     },
     "techniques": [],
@@ -17409,14 +17399,13 @@
           "stage": 1,
           "number": 77,
           "name": "Shaolant",
-          "level": 0,
-          "type": "special",
+          "level": 12,
+          "type": "levels",
           "trading": false,
           "traits": [
             "Welcomer",
             "Bruiser"
           ],
-          "description": "?",
           "traitMapping": {
             "Welcomer": "Welcomer",
             "Bruiser": "Bruiser"
@@ -17430,14 +17419,13 @@
         "stage": 1,
         "number": 77,
         "name": "Shaolant",
-        "level": 0,
-        "type": "special",
+        "level": 12,
+        "type": "levels",
         "trading": false,
         "traits": [
           "Welcomer",
           "Bruiser"
         ],
-        "description": "?",
         "traitMapping": {
           "Welcomer": "Welcomer",
           "Bruiser": "Bruiser"
@@ -17465,18 +17453,18 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 100,
+    "hatchMins": 25,
     "tvYields": {
       "hp": 0,
       "sta": 0,
-      "spd": 0,
+      "spd": 1,
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0
+      "spdef": 1
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "If there is a Temtem whose reputation as \"a cutie\" overshadows its proficiency, it's Shaolite. \"Oooh, look, smol karateka! <3\" is often heard right before a crushing defeat.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -17511,12 +17499,12 @@
     ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 150,
+        "inches": 59
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 50,
+        "lbs": 110
       }
     },
     "techniques": [],
@@ -17544,14 +17532,13 @@
           "stage": 1,
           "number": 77,
           "name": "Shaolant",
-          "level": 0,
-          "type": "special",
+          "level": 12,
+          "type": "levels",
           "trading": false,
           "traits": [
             "Welcomer",
             "Bruiser"
           ],
-          "description": "?",
           "traitMapping": {
             "Welcomer": "Welcomer",
             "Bruiser": "Bruiser"
@@ -17559,7 +17546,7 @@
         }
       ],
       "evolves": true,
-      "type": "special",
+      "type": "levels",
       "from": {
         "stage": 0,
         "number": 76,
@@ -17579,13 +17566,12 @@
       "to": null,
       "number": 77,
       "name": "Shaolant",
-      "level": 0,
+      "level": 12,
       "trading": false,
       "traits": [
         "Welcomer",
         "Bruiser"
       ],
-      "description": "?",
       "traitMapping": {
         "Welcomer": "Welcomer",
         "Bruiser": "Bruiser"
@@ -17600,8 +17586,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 80,
+    "hatchMins": 29,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -17609,9 +17595,9 @@
       "atk": 0,
       "def": 0,
       "spatk": 0,
-      "spdef": 0
+      "spdef": 2
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "Bigger and meaner than Shaolite, Shaolant have become the darlings of the tamers of Lochburg Dojo who want to command respect for their choice of squad.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -21515,14 +21501,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Gorong",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 86,
+      "sta": 42,
+      "spd": 63,
+      "atk": 71,
+      "def": 100,
+      "spatk": 12,
+      "spdef": 64,
+      "total": 438
     },
     "traits": [
       "Seismic",
@@ -21592,15 +21578,18 @@
       "spdef": 61,
       "total": 394
     },
-    "traits": [],
+    "traits": [
+      "Soft Touch",
+      "Skull Helmet"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 40,
+        "inches": 15
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 8,
+        "lbs": 17
       }
     },
     "techniques": [
@@ -21673,20 +21662,25 @@
           "traits": [
             "[[]]"
           ],
-          "traitMapping": {}
+          "traitMapping": {
+            "Soft Touch": "Dozing Hit",
+            "Skull Helmet": "Inner Shield"
+          }
         },
         {
           "stage": 1,
           "number": 98,
           "name": "Sanbi",
-          "level": 0,
-          "type": "special",
+          "level": 15,
+          "type": "levels",
           "trading": false,
           "traits": [
             "[[]]"
           ],
-          "description": "?",
-          "traitMapping": {}
+          "traitMapping": {
+            "Dozing Hit": "Dozing Hit",
+            "Inner Shield": "Inner Shield"
+          }
         }
       ],
       "evolves": true,
@@ -21696,13 +21690,12 @@
         "stage": 1,
         "number": 98,
         "name": "Sanbi",
-        "level": 0,
-        "type": "special",
+        "level": 15,
+        "type": "levels",
         "trading": false,
         "traits": [
           "[[]]"
         ],
-        "description": "?",
         "traitMapping": {
           "[[]]": "[[]]"
         }
@@ -21733,7 +21726,7 @@
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 3,
       "def": 0,
       "spatk": 0,
       "spdef": 0
@@ -21767,15 +21760,18 @@
       "spdef": 61,
       "total": 457
     },
-    "traits": [],
+    "traits": [
+      "Dozing Hit",
+      "Inner Shield"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 160,
+        "inches": 62
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 30,
+        "lbs": 66
       }
     },
     "techniques": [
@@ -21874,26 +21870,33 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "[[]]"
+            "Soft Touch",
+            "Skull Helmet"
           ],
-          "traitMapping": {}
+          "traitMapping": {
+            "Soft Touch": "Dozing Hit",
+            "Skull Helmet": "Inner Shield"
+          }
         },
         {
           "stage": 1,
           "number": 98,
           "name": "Sanbi",
-          "level": 0,
-          "type": "special",
+          "level": 15,
+          "type": "levels",
           "trading": false,
           "traits": [
-            "[[]]"
+            "Dozing Hit",
+            "Inner Shield"
           ],
-          "description": "?",
-          "traitMapping": {}
+          "traitMapping": {
+            "Dozing Hit": "Dozing Hit",
+            "Inner Shield": "Inner Shield"
+          }
         }
       ],
       "evolves": true,
-      "type": "special",
+      "type": "levels",
       "from": {
         "stage": 0,
         "number": 97,
@@ -21902,23 +21905,26 @@
         "type": "levels",
         "trading": false,
         "traits": [
-          "[[]]"
+          "Soft Touch",
+          "Skull Helmet"
         ],
         "traitMapping": {
-          "[[]]": "[[]]"
+          "Soft Touch": "Dozing Hit",
+          "Skull Helmet": "Inner Shield"
         }
       },
       "to": null,
       "number": 98,
       "name": "Sanbi",
-      "level": 0,
+      "level": 15,
       "trading": false,
       "traits": [
-        "[[]]"
+        "Dozing Hit",
+        "Inner Shield"
       ],
-      "description": "?",
       "traitMapping": {
-        "[[]]": "[[]]"
+        "Dozing Hit": "Dozing Hit",
+        "Inner Shield": "Inner Shield"
       }
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/67/Sanbi.png",
@@ -21936,12 +21942,12 @@
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
-      "def": 0,
+      "atk": 3,
+      "def": 1,
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "Capable of communicating moods and intentions via complex patterns of its triple tail, these Temtem are aloof creatures who prefer the solitudes of the Arbury highlands. Although they mostly keep to themselves, their mindpower is formidable.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -26130,14 +26136,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Broccoblin",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 59,
+      "sta": 51,
+      "spd": 38,
+      "atk": 35,
+      "def": 32,
+      "spatk": 61,
+      "spdef": 59,
+      "total": 335
     },
     "traits": [
       "Withdrawal",
@@ -26187,7 +26193,7 @@
           ],
           "traitMapping": {
             "Immunity": "Mithridatism",
-            "Coward's Rest": "Unknown"
+            "Coward's Rest": "Camouflage"
           }
         },
         {
@@ -26202,7 +26208,8 @@
             "Camouflage"
           ],
           "traitMapping": {
-            "Mithridatism": "Mithridatism"
+            "Mithridatism": "Mithridatism",
+            "Camouflage": "Camouflage"
           }
         }
       ],
@@ -26258,7 +26265,7 @@
       "spatk": 0,
       "spdef": 1
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "At home int he denser part of the forests, this species is very adept at camouflage and, once they overcome their natural shyness, they make great friends for tamers of all ages.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -26279,14 +26286,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Broccorc",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 66,
+      "sta": 56,
+      "spd": 42,
+      "atk": 54,
+      "def": 50,
+      "spatk": 68,
+      "spdef": 65,
+      "total": 401
     },
     "traits": [
       "Immunity",
@@ -26336,7 +26343,7 @@
           ],
           "traitMapping": {
             "Immunity": "Mithridatism",
-            "Coward's Rest": "Unknown"
+            "Coward's Rest": "Camouflage"
           }
         },
         {
@@ -26351,7 +26358,8 @@
             "Camouflage"
           ],
           "traitMapping": {
-            "Mithridatism": "Mithridatism"
+            "Mithridatism": "Mithridatism",
+            "Camouflage": "Camouflage"
           }
         }
       ],
@@ -26422,7 +26430,7 @@
       "spatk": 2,
       "spdef": 0
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "Bigger and more agile, this variety still lives in symbiosis with its surrounding flora, but it is generally more sociable and easier to train. A favorite of Properton grannies who love gardening!",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -26443,17 +26451,18 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Broccolem",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 74,
+      "sta": 63,
+      "spd": 47,
+      "atk": 60,
+      "def": 60,
+      "spatk": 76,
+      "spdef": 73,
+      "total": 453
     },
     "traits": [
-      "Mithridatism"
+      "Mithridatism",
+      "Camouflage"
     ],
     "details": {
       "height": {
@@ -26499,7 +26508,7 @@
           ],
           "traitMapping": {
             "Immunity": "Mithridatism",
-            "Coward's Rest": "Unknown"
+            "Coward's Rest": "Camouflage"
           }
         },
         {
@@ -26514,7 +26523,8 @@
             "Camouflage"
           ],
           "traitMapping": {
-            "Mithridatism": "Mithridatism"
+            "Mithridatism": "Mithridatism",
+            "Camouflage": "Camouflage"
           }
         }
       ],
@@ -26570,7 +26580,7 @@
       "spatk": 2,
       "spdef": 0
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "Probably the origin of old legends about dryads and forest trolls, this Temtem is a hulking quasi-arboreal of impressive strength and resilience. Like an oak, if oaks could punch.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -28257,7 +28267,7 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 8,
+      "stage": 10,
       "evolutionTree": [
         {
           "stage": 0,
@@ -28424,31 +28434,48 @@
           ],
           "description": "Shrine at Digital Kami Shrine",
           "traitMapping": {
-            "Splitter": "Splitter",
-            "Common Factor": "Common Factor"
+            "Splitter": "Spoilsport",
+            "Common Factor": "Resilient"
+          }
+        },
+        {
+          "stage": 10,
+          "number": 130,
+          "name": "Tuwai",
+          "level": 0,
+          "type": "special",
+          "trading": false,
+          "traits": [
+            "Spoilsport",
+            "Resilient"
+          ],
+          "description": "Shrine at Digital Kami Shrine",
+          "traitMapping": {
+            "Spoilsport": "Tag Team",
+            "Resilient": "Contemplation"
+          }
+        },
+        {
+          "stage": 11,
+          "number": 136,
+          "name": "Tutsu",
+          "level": 0,
+          "type": "special",
+          "trading": false,
+          "traits": [
+            "Tag Team",
+            "Contemplation"
+          ],
+          "description": "Shrine at ?",
+          "traitMapping": {
+            "Tag Team": "Tag Team",
+            "Contemplation": "Contemplation"
           }
         }
       ],
       "evolves": true,
       "type": "special",
       "from": {
-        "stage": 7,
-        "number": 134,
-        "name": "Turoc",
-        "level": 0,
-        "type": "special",
-        "trading": false,
-        "traits": [
-          "Escapist",
-          "Tactical Strike"
-        ],
-        "description": "Shrine at Aisha's Hearth",
-        "traitMapping": {
-          "Escapist": "Spoilsport",
-          "Tactical Strike": "Resilient"
-        }
-      },
-      "to": {
         "stage": 9,
         "number": 135,
         "name": "Tuwire",
@@ -28461,8 +28488,25 @@
         ],
         "description": "Shrine at Digital Kami Shrine",
         "traitMapping": {
-          "Splitter": "Splitter",
-          "Common Factor": "Common Factor"
+          "Splitter": "Spoilsport",
+          "Common Factor": "Resilient"
+        }
+      },
+      "to": {
+        "stage": 11,
+        "number": 136,
+        "name": "Tutsu",
+        "level": 0,
+        "type": "special",
+        "trading": false,
+        "traits": [
+          "Tag Team",
+          "Contemplation"
+        ],
+        "description": "Shrine at ?",
+        "traitMapping": {
+          "Tag Team": "Tag Team",
+          "Contemplation": "Contemplation"
         }
       },
       "number": 130,
@@ -28473,10 +28517,10 @@
         "Spoilsport",
         "Resilient"
       ],
-      "description": "Shrine at Aisha's Hearth",
+      "description": "Shrine at Digital Kami Shrine",
       "traitMapping": {
-        "Spoilsport": "Splitter",
-        "Resilient": "Common Factor"
+        "Spoilsport": "Tag Team",
+        "Resilient": "Contemplation"
       }
     },
     "wikiPortraitUrlLarge": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
@@ -29602,7 +29646,74 @@
     "techniques": [],
     "trivia": [],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 130,
+          "name": "Tuwai",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Spoilsport",
+            "Resilient"
+          ],
+          "traitMapping": {
+            "Spoilsport": "Tag Team",
+            "Resilient": "Contemplation"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 136,
+          "name": "Tutsu",
+          "level": 0,
+          "type": "special",
+          "trading": false,
+          "traits": [
+            "Tag Team",
+            "Contemplation"
+          ],
+          "description": "Shrine at ?",
+          "traitMapping": {
+            "Tag Team": "Tag Team",
+            "Contemplation": "Contemplation"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "special",
+      "from": {
+        "stage": 0,
+        "number": 130,
+        "name": "Tuwai",
+        "level": 0,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Spoilsport",
+          "Resilient"
+        ],
+        "traitMapping": {
+          "Spoilsport": "Tag Team",
+          "Resilient": "Contemplation"
+        }
+      },
+      "to": null,
+      "number": 136,
+      "name": "Tutsu",
+      "level": 0,
+      "trading": false,
+      "traits": [
+        "Tag Team",
+        "Contemplation"
+      ],
+      "description": "Shrine at ?",
+      "traitMapping": {
+        "Tag Team": "Tag Team",
+        "Contemplation": "Contemplation"
+      }
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b0/Tutsu.png",
     "lumaWikiPortraitUrlLarge": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
@@ -29613,8 +29724,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 0,
+    "hatchMins": 45,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -32095,9 +32206,7 @@
       }
     },
     "techniques": [],
-    "trivia": [
-      "Mawtle is one of few Temtem to provide no TVs when defeated"
-    ],
+    "trivia": [],
     "evolution": {
       "stage": 0,
       "evolutionTree": [
@@ -32113,8 +32222,8 @@
             "Body Stretch"
           ],
           "traitMapping": {
-            "Mithridatism": "Unknown",
-            "Body Stretch": "Unknown"
+            "Mithridatism": "Viral Combustion",
+            "Body Stretch": "Refurbished"
           }
         },
         {
@@ -32128,7 +32237,10 @@
             "Viral Combustion",
             "Refurbished"
           ],
-          "traitMapping": {}
+          "traitMapping": {
+            "Viral Combustion": "Viral Combustion",
+            "Refurbished": "Refurbished"
+          }
         }
       ],
       "evolves": true,
@@ -32175,7 +32287,7 @@
     "catchRate": 125,
     "hatchMins": 20,
     "tvYields": {
-      "hp": 0,
+      "hp": 1,
       "sta": 0,
       "spd": 0,
       "atk": 0,
@@ -32183,7 +32295,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "Mawtle's smiley face has become a meme amongst the youngest generation of every Dojo, making this species feel hackneyed to some. Regardless of any fads, it remains a solid choice for any tamer, as well as a tech wonder.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -32213,7 +32325,10 @@
       "spdef": 88,
       "total": 431
     },
-    "traits": [],
+    "traits": [
+      "Viral Combustion",
+      "Refurbished"
+    ],
     "details": {
       "height": {
         "cm": 189,
@@ -32225,9 +32340,7 @@
       }
     },
     "techniques": [],
-    "trivia": [
-      "Mawmense is one of few Temtem to provide no tvs when defeated."
-    ],
+    "trivia": [],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
@@ -32243,8 +32356,8 @@
             "Body Stretch"
           ],
           "traitMapping": {
-            "Mithridatism": "Unknown",
-            "Body Stretch": "Unknown"
+            "Mithridatism": "Viral Combustion",
+            "Body Stretch": "Refurbished"
           }
         },
         {
@@ -32258,7 +32371,10 @@
             "Viral Combustion",
             "Refurbished"
           ],
-          "traitMapping": {}
+          "traitMapping": {
+            "Viral Combustion": "Viral Combustion",
+            "Refurbished": "Refurbished"
+          }
         }
       ],
       "evolves": true,
@@ -32305,7 +32421,7 @@
     "catchRate": 68,
     "hatchMins": 31.4,
     "tvYields": {
-      "hp": 0,
+      "hp": 1,
       "sta": 0,
       "spd": 0,
       "atk": 0,
@@ -32313,7 +32429,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "Visesia herself rides a Mawmense into battle in \"Endaira II\", making it extremely cool and sought-after. Temtemologists argue it's an anachronism, since this is a very recent variety... but who listens to Temtemologists anyway?",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -32670,14 +32786,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Minox",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 69,
+      "sta": 50,
+      "spd": 60,
+      "atk": 74,
+      "def": 61,
+      "spatk": 35,
+      "spdef": 35,
+      "total": 384
     },
     "traits": [
       "Body Stretch",
@@ -32892,14 +33008,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Minothor",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 80,
+      "sta": 59,
+      "spd": 61,
+      "atk": 86,
+      "def": 70,
+      "spatk": 44,
+      "spdef": 44,
+      "total": 444
     },
     "traits": [
       "Ruminant",
@@ -33176,14 +33292,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Venx",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 55,
+      "sta": 51,
+      "spd": 54,
+      "atk": 81,
+      "def": 81,
+      "spatk": 81,
+      "spdef": 81,
+      "total": 484
     },
     "traits": [
       "Parrier",
@@ -33199,7 +33315,69 @@
         "lbs": 176
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Scratch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Heavy Blow",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Strangle",
+        "source": "Levelling",
+        "levels": 15
+      },
+      {
+        "name": "Shelter",
+        "source": "Levelling",
+        "levels": 25
+      },
+      {
+        "name": "Head Ram",
+        "source": "Levelling",
+        "levels": 30
+      },
+      {
+        "name": "Savage Suplex",
+        "source": "Levelling",
+        "levels": 40
+      },
+      {
+        "name": "Late Torment",
+        "source": "Levelling",
+        "levels": 59
+      },
+      {
+        "name": "Sacrifice",
+        "source": "Levelling",
+        "levels": 62
+      },
+      {
+        "name": "Unseen Blow",
+        "source": "Levelling",
+        "levels": 71
+      },
+      {
+        "name": "Brace",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Untangle",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Base Jump",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Ninja Jutsu",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "stage": 2,
@@ -33216,7 +33394,7 @@
             "Arcane Wrap"
           ],
           "traitMapping": {
-            "Parrier": "Unknown",
+            "Parrier": "Parrier",
             "Arcane Wrap": "Unknown"
           }
         },
@@ -33224,27 +33402,28 @@
           "stage": 1,
           "number": 155,
           "name": "Venmet",
-          "level": 0,
-          "type": "special",
+          "level": 17,
+          "type": "levels",
           "trading": false,
           "traits": [
-            "[[]]"
+            "Parrier",
+            "Aggressor"
           ],
-          "description": "?",
-          "traitMapping": {}
+          "traitMapping": {
+            "Parrier": "Parrier"
+          }
         },
         {
           "stage": 2,
           "number": 154,
           "name": "Venx",
-          "level": 0,
-          "type": "special",
+          "level": 17,
+          "type": "levels",
           "trading": false,
           "traits": [
             "Parrier",
             "Arcane Wrap"
           ],
-          "description": "?",
           "traitMapping": {
             "Parrier": "Spiritual",
             "Arcane Wrap": "Arcane Wrap"
@@ -33254,14 +33433,13 @@
           "stage": 3,
           "number": 156,
           "name": "Vental",
-          "level": 0,
-          "type": "special",
+          "level": 17,
+          "type": "levels",
           "trading": false,
           "traits": [
             "Spiritual",
             "Arcane Wrap"
           ],
-          "description": "?",
           "traitMapping": {
             "Spiritual": "Spiritual",
             "Arcane Wrap": "Arcane Wrap"
@@ -33269,34 +33447,34 @@
         }
       ],
       "evolves": true,
-      "type": "special",
+      "type": "levels",
       "from": {
         "stage": 1,
         "number": 155,
         "name": "Venmet",
-        "level": 0,
-        "type": "special",
+        "level": 17,
+        "type": "levels",
         "trading": false,
         "traits": [
-          "[[]]"
+          "Parrier",
+          "Aggressor"
         ],
-        "description": "?",
         "traitMapping": {
-          "[[]]": "Parrier"
+          "Parrier": "Parrier",
+          "Aggressor": "Arcane Wrap"
         }
       },
       "to": {
         "stage": 3,
         "number": 156,
         "name": "Vental",
-        "level": 0,
-        "type": "special",
+        "level": 17,
+        "type": "levels",
         "trading": false,
         "traits": [
           "Spiritual",
           "Arcane Wrap"
         ],
-        "description": "?",
         "traitMapping": {
           "Spiritual": "Spiritual",
           "Arcane Wrap": "Arcane Wrap"
@@ -33304,13 +33482,12 @@
       },
       "number": 154,
       "name": "Venx",
-      "level": 0,
+      "level": 17,
       "trading": false,
       "traits": [
         "Parrier",
         "Arcane Wrap"
       ],
-      "description": "?",
       "traitMapping": {
         "Parrier": "Spiritual",
         "Arcane Wrap": "Arcane Wrap"
@@ -33325,8 +33502,8 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 100,
+    "hatchMins": 25,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -33357,30 +33534,92 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Venmet",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 72,
+      "sta": 60,
+      "spd": 60,
+      "atk": 78,
+      "def": 78,
+      "spatk": 48,
+      "spdef": 48,
+      "total": 444
     },
-    "traits": [],
+    "traits": [
+      "Parrier"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 170,
+        "inches": 66
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 84,
+        "lbs": 185
       }
     },
     "techniques": [],
     "trivia": [],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 154,
+          "name": "Venx",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Parrier",
+            "Arcane Wrap"
+          ],
+          "traitMapping": {
+            "Parrier": "Parrier",
+            "Arcane Wrap": "Unknown"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 155,
+          "name": "Venmet",
+          "level": 17,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "[[]]"
+          ],
+          "traitMapping": {
+            "Parrier": "Parrier"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": {
+        "stage": 0,
+        "number": 154,
+        "name": "Venx",
+        "level": 0,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Parrier",
+          "Arcane Wrap"
+        ],
+        "traitMapping": {
+          "Parrier": "[[]]"
+        }
+      },
+      "to": null,
+      "number": 155,
+      "name": "Venmet",
+      "level": 17,
+      "trading": false,
+      "traits": [
+        "[[]]"
+      ],
+      "traitMapping": {
+        "[[]]": "[[]]"
+      }
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/ff/Venmet.png",
     "lumaWikiPortraitUrlLarge": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
@@ -33391,14 +33630,14 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 80,
+    "hatchMins": 29,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
-      "def": 0,
+      "atk": 2,
+      "def": 2,
       "spatk": 0,
       "spdef": 0
     },
@@ -33423,14 +33662,14 @@
     "lumaPortraitWikiUrl": "",
     "wikiUrl": "https://temtem.gamepedia.com/Vental",
     "stats": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0,
-      "total": 0
+      "hp": 55,
+      "sta": 63,
+      "spd": 74,
+      "atk": 48,
+      "def": 48,
+      "spatk": 78,
+      "spdef": 78,
+      "total": 444
     },
     "traits": [
       "Spiritual",
@@ -33438,12 +33677,12 @@
     ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 150,
+        "inches": 59
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 21,
+        "lbs": 46
       }
     },
     "techniques": [],
@@ -33471,14 +33710,13 @@
           "stage": 1,
           "number": 156,
           "name": "Vental",
-          "level": 0,
-          "type": "special",
+          "level": 17,
+          "type": "levels",
           "trading": false,
           "traits": [
             "Spiritual",
             "Arcane Wrap"
           ],
-          "description": "?",
           "traitMapping": {
             "Spiritual": "Spiritual",
             "Arcane Wrap": "Arcane Wrap"
@@ -33486,7 +33724,7 @@
         }
       ],
       "evolves": true,
-      "type": "special",
+      "type": "levels",
       "from": {
         "stage": 0,
         "number": 154,
@@ -33506,13 +33744,12 @@
       "to": null,
       "number": 156,
       "name": "Vental",
-      "level": 0,
+      "level": 17,
       "trading": false,
       "traits": [
         "Spiritual",
         "Arcane Wrap"
       ],
-      "description": "?",
       "traitMapping": {
         "Spiritual": "Spiritual",
         "Arcane Wrap": "Arcane Wrap"
@@ -33527,18 +33764,18 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 50,
+    "hatchMins": 35,
     "tvYields": {
       "hp": 0,
       "sta": 0,
       "spd": 0,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
-      "spdef": 0
+      "spatk": 2,
+      "spdef": 2
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "Lady Cathrine of Properton herself popularized this species among the fashionable tamers of her age. Nowadays, it is considered one of the timeless classics of Arburian Temtem breeds.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -33568,7 +33805,10 @@
       "spdef": 88,
       "total": 465
     },
-    "traits": [],
+    "traits": [
+      "Disgrace",
+      "Hostile"
+    ],
     "details": {
       "height": {
         "cm": 215,
@@ -33579,7 +33819,78 @@
         "lbs": 156
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Peck",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Glass Blade",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Sharp Leaf",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Rage",
+        "source": "Levelling",
+        "levels": 22
+      },
+      {
+        "name": "Gaia",
+        "source": "Levelling",
+        "levels": 36
+      },
+      {
+        "name": "Multiple Pecks",
+        "source": "Levelling",
+        "levels": 42
+      },
+      {
+        "name": "Burrow",
+        "source": "Levelling",
+        "levels": 56
+      },
+      {
+        "name": "Sharpening",
+        "source": "Levelling",
+        "levels": 69
+      },
+      {
+        "name": "Frond Whip",
+        "source": "Levelling",
+        "levels": 85
+      },
+      {
+        "name": "Crystal Plume Gatling",
+        "source": "Levelling",
+        "levels": 96
+      },
+      {
+        "name": "Confiscate",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Footwork",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Look out",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Rush",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Mirror Shell",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "evolves": false
@@ -33590,11 +33901,11 @@
     "icon": "",
     "lumaIcon": "",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 59,
+      "female": 41
     },
-    "catchRate": 200,
-    "hatchMins": 5,
+    "catchRate": 39,
+    "hatchMins": 37.2,
     "tvYields": {
       "hp": 0,
       "sta": 0,
@@ -33640,12 +33951,12 @@
     ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 170,
+        "inches": 66
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 100,
+        "lbs": 220
       }
     },
     "techniques": [],
@@ -33670,10 +33981,10 @@
       "spd": 0,
       "atk": 0,
       "def": 0,
-      "spatk": 0,
+      "spatk": 3,
       "spdef": 0
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "With way too many legs for anyone's liking, Arachnyte includes multi-core processing to coordinate movement, visual input, and combat subroutines - all in one efficient package of Arburian design.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -33792,14 +34103,13 @@
           "stage": 1,
           "number": 160,
           "name": "Monkko",
-          "level": 0,
-          "type": "special",
+          "level": 20,
+          "type": "levels",
           "trading": false,
           "traits": [
             "Meditation",
             "Shaolin"
           ],
-          "description": "?",
           "traitMapping": {
             "Meditation": "Meditation",
             "Shaolin": "Shaolin"
@@ -33813,14 +34123,13 @@
         "stage": 1,
         "number": 160,
         "name": "Monkko",
-        "level": 0,
-        "type": "special",
+        "level": 20,
+        "type": "levels",
         "trading": false,
         "traits": [
           "Meditation",
           "Shaolin"
         ],
-        "description": "?",
         "traitMapping": {
           "Meditation": "Meditation",
           "Shaolin": "Shaolin"
@@ -34014,14 +34323,13 @@
           "stage": 1,
           "number": 160,
           "name": "Monkko",
-          "level": 0,
-          "type": "special",
+          "level": 20,
+          "type": "levels",
           "trading": false,
           "traits": [
             "Meditation",
             "Shaolin"
           ],
-          "description": "?",
           "traitMapping": {
             "Meditation": "Meditation",
             "Shaolin": "Shaolin"
@@ -34029,7 +34337,7 @@
         }
       ],
       "evolves": true,
-      "type": "special",
+      "type": "levels",
       "from": {
         "stage": 0,
         "number": 159,
@@ -34049,13 +34357,12 @@
       "to": null,
       "number": 160,
       "name": "Monkko",
-      "level": 0,
+      "level": 20,
       "trading": false,
       "traits": [
         "Meditation",
         "Shaolin"
       ],
-      "description": "?",
       "traitMapping": {
         "Meditation": "Meditation",
         "Shaolin": "Shaolin"
@@ -34199,7 +34506,74 @@
       "The Crystal Temtem that was subjected to intense heat to create Anahir is not a reference to any specific Temtem."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 161,
+          "name": "Anahir",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Trauma",
+            "Flawed Crystal"
+          ],
+          "traitMapping": {
+            "Trauma": "Self-Care",
+            "Flawed Crystal": "Protective Crystal"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 162,
+          "name": "Anatan",
+          "level": 0,
+          "type": "special",
+          "trading": false,
+          "traits": [
+            "Self-Care",
+            "Protective Crystal"
+          ],
+          "description": "?",
+          "traitMapping": {
+            "Self-Care": "Self-Care",
+            "Protective Crystal": "Protective Crystal"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": null,
+      "to": {
+        "stage": 1,
+        "number": 162,
+        "name": "Anatan",
+        "level": 0,
+        "type": "special",
+        "trading": false,
+        "traits": [
+          "Self-Care",
+          "Protective Crystal"
+        ],
+        "description": "?",
+        "traitMapping": {
+          "Self-Care": "Self-Care",
+          "Protective Crystal": "Protective Crystal"
+        }
+      },
+      "number": 161,
+      "name": "Anahir",
+      "level": 0,
+      "trading": false,
+      "traits": [
+        "Trauma",
+        "Flawed Crystal"
+      ],
+      "traitMapping": {
+        "Trauma": "Self-Care",
+        "Flawed Crystal": "Protective Crystal"
+      }
     },
     "wikiPortraitUrlLarge": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
     "lumaWikiPortraitUrlLarge": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
@@ -34384,7 +34758,7 @@
             "Self-Care",
             "Protective Crystal"
           ],
-          "description": "",
+          "description": "?",
           "traitMapping": {
             "Self-Care": "Self-Care",
             "Protective Crystal": "Protective Crystal"
@@ -34418,7 +34792,7 @@
         "Self-Care",
         "Protective Crystal"
       ],
-      "description": "",
+      "description": "?",
       "traitMapping": {
         "Self-Care": "Self-Care",
         "Protective Crystal": "Protective Crystal"
