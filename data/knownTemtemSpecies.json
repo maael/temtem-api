@@ -618,6 +618,11 @@
         "levels": 55
       },
       {
+        "name": "Plasma Beam",
+        "source": "Levelling",
+        "levels": 85
+      },
+      {
         "name": "Digital Whip",
         "source": "Levelling",
         "levels": 1
@@ -708,6 +713,11 @@
         "levels": 55
       },
       {
+        "name": "Hypoxia",
+        "source": "Levelling",
+        "levels": 85
+      },
+      {
         "name": "Digital Whip",
         "source": "Levelling",
         "levels": 1
@@ -751,6 +761,11 @@
         "name": "Dust Vortex",
         "source": "Levelling",
         "levels": 55
+      },
+      {
+        "name": "Petrify",
+        "source": "Levelling",
+        "levels": 85
       },
       {
         "name": "Digital Whip",
@@ -978,6 +993,11 @@
         "levels": 55
       },
       {
+        "name": "Denigrate",
+        "source": "Levelling",
+        "levels": 85
+      },
+      {
         "name": "Digital Whip",
         "source": "Levelling",
         "levels": 1
@@ -1021,6 +1041,11 @@
         "name": "Inner Spirit",
         "source": "Levelling",
         "levels": 55
+      },
+      {
+        "name": "Soul Shout",
+        "source": "Levelling",
+        "levels": 85
       },
       {
         "name": "Digital Whip",
@@ -1070,7 +1095,7 @@
       {
         "name": "Crystal Deluge",
         "source": "Levelling",
-        "levels": 70
+        "levels": 85
       },
       {
         "name": "Digital Whip",
@@ -1116,6 +1141,11 @@
         "name": "Venom Spread",
         "source": "Levelling",
         "levels": 55
+      },
+      {
+        "name": "Rotten Goo",
+        "source": "Levelling",
+        "levels": 85
       },
       {
         "name": "Rend",
@@ -1270,6 +1300,10 @@
       },
       {
         "name": "Autodestruction",
+        "source": "Breeding"
+      },
+      {
+        "name": "Turbo Attack",
         "source": "Breeding"
       }
     ],
@@ -1467,6 +1501,16 @@
         "levels": 72
       },
       {
+        "name": "Blue Screen",
+        "source": "Levelling",
+        "levels": 84
+      },
+      {
+        "name": "Knockback Blast",
+        "source": "Levelling",
+        "levels": 94
+      },
+      {
         "name": "Cage",
         "source": "TechniqueCourses"
       },
@@ -1479,7 +1523,15 @@
         "source": "TechniqueCourses"
       },
       {
+        "name": "Rush",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Autodestruction",
+        "source": "Breeding"
+      },
+      {
+        "name": "Turbo Attack",
         "source": "Breeding"
       }
     ],
@@ -2234,6 +2286,11 @@
         "levels": 70
       },
       {
+        "name": "Rotten Goo",
+        "source": "Levelling",
+        "levels": 84
+      },
+      {
         "name": "Misogi",
         "source": "TechniqueCourses"
       },
@@ -2255,6 +2312,10 @@
       },
       {
         "name": "Major Slash",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Sanative Rain",
         "source": "TechniqueCourses"
       },
       {
@@ -4930,6 +4991,11 @@
         "name": "Tesla Prison",
         "source": "Levelling",
         "levels": 66
+      },
+      {
+        "name": "Hasty Lunge",
+        "source": "Levelling",
+        "levels": 88
       },
       {
         "name": "Held Anger",
@@ -16574,6 +16640,11 @@
         "name": "Flaming Meteorite",
         "source": "Levelling",
         "levels": 58
+      },
+      {
+        "name": "Fiery Soul",
+        "source": "Levelling",
+        "levels": 76
       },
       {
         "name": "Magma Cannon",
@@ -34475,7 +34546,92 @@
         "lbs": 185
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Scratch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Heavy Blow",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Strangle",
+        "source": "Levelling",
+        "levels": 15
+      },
+      {
+        "name": "Shelter",
+        "source": "Levelling",
+        "levels": 25
+      },
+      {
+        "name": "Head Ram",
+        "source": "Levelling",
+        "levels": 30
+      },
+      {
+        "name": "Savage Suplex",
+        "source": "Levelling",
+        "levels": 40
+      },
+      {
+        "name": "Double Gash",
+        "source": "Levelling",
+        "levels": 50
+      },
+      {
+        "name": "Late Torment",
+        "source": "Levelling",
+        "levels": 59
+      },
+      {
+        "name": "Sacrifice",
+        "source": "Levelling",
+        "levels": 62
+      },
+      {
+        "name": "Unseen Blow",
+        "source": "Levelling",
+        "levels": 71
+      },
+      {
+        "name": "Uppercut",
+        "source": "Levelling",
+        "levels": 81
+      },
+      {
+        "name": "Hook Kick",
+        "source": "Levelling",
+        "levels": 94
+      },
+      {
+        "name": "Block",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Base Jump",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Brace",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Untangle",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Kesa Gatame",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Ninja Jutsu",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "stage": 1,
@@ -34609,7 +34765,88 @@
         "lbs": 46
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Scratch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Heavy Blow",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Strangle",
+        "source": "Levelling",
+        "levels": 15
+      },
+      {
+        "name": "Shelter",
+        "source": "Levelling",
+        "levels": 25
+      },
+      {
+        "name": "Head Ram",
+        "source": "Levelling",
+        "levels": 30
+      },
+      {
+        "name": "Savage Suplex",
+        "source": "Levelling",
+        "levels": 40
+      },
+      {
+        "name": "Time Split",
+        "source": "Levelling",
+        "levels": 51
+      },
+      {
+        "name": "Late Torment",
+        "source": "Levelling",
+        "levels": 59
+      },
+      {
+        "name": "Sacrifice",
+        "source": "Levelling",
+        "levels": 62
+      },
+      {
+        "name": "Unseen Blow",
+        "source": "Levelling",
+        "levels": 71
+      },
+      {
+        "name": "Psy Surge",
+        "source": "Levelling",
+        "levels": 75
+      },
+      {
+        "name": "Denigrate",
+        "source": "Levelling",
+        "levels": 85
+      },
+      {
+        "name": "Base Jump",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Brace",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Untangle",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Horror",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Ninja Jutsu",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "stage": 1,
@@ -34883,7 +35120,95 @@
         "lbs": 220
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Nibble",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Jaw Strike",
+        "source": "Levelling",
+        "levels": 7
+      },
+      {
+        "name": "Token",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Willpower Drain",
+        "source": "Levelling",
+        "levels": 20
+      },
+      {
+        "name": "Cozy Net",
+        "source": "Levelling",
+        "levels": 35
+      },
+      {
+        "name": "Venom Spread",
+        "source": "Levelling",
+        "levels": 44
+      },
+      {
+        "name": "Plague",
+        "source": "Levelling",
+        "levels": 59
+      },
+      {
+        "name": "Unseen Blow",
+        "source": "Levelling",
+        "levels": 71
+      },
+      {
+        "name": "Execution",
+        "source": "Levelling",
+        "levels": 82
+      },
+      {
+        "name": "Digithreat",
+        "source": "Levelling",
+        "levels": 94
+      },
+      {
+        "name": "Knockback Blast",
+        "source": "Levelling",
+        "levels": 100
+      },
+      {
+        "name": "Cage",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Double Edge",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Untangle",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Harmful Microwaves",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Thunder Strike",
+        "source": "Breeding"
+      },
+      {
+        "name": "Crystal Spikes",
+        "source": "Breeding"
+      },
+      {
+        "name": "Soul Shout",
+        "source": "Breeding"
+      },
+      {
+        "name": "Water Cannon",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "evolves": false

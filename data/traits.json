@@ -1,9 +1,21 @@
 [
   {
+    "name": "Adaptive",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Adaptive",
+    "description": "",
+    "effect": "After being hit by an attack, changes the holder's second type to the type of the received technique and grants the holder SPATK ."
+  },
+  {
     "name": "Aerobic",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Aerobic",
     "description": "",
     "effect": "Aerobic gifts the holder with SPD but also inflicts them with SPDEF whenever they use a Wind Technique."
+  },
+  {
+    "name": "Aggressor",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Aggressor",
+    "description": "",
+    "effect": "Aggressor gifts the holder with ATK but inflicts them with DEF whenever they enter the battlefield."
   },
   {
     "name": "Air Specialist",
@@ -34,6 +46,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Apothecary",
     "description": "",
     "effect": "Apothecary causes all of the holder's Special Techniques to inflict the Poisoned Condition for 1 turn if the target is a rival or gift the Regenerated Condition for 1 turn if the target is the holder or their ally."
+  },
+  {
+    "name": "Arcane Wrap",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Arcane_Wrap",
+    "description": "",
+    "effect": "Arcane Wrap decreases the damage the holder takes from Special Techniques by 30%."
   },
   {
     "name": "Attack T",
@@ -90,6 +108,18 @@
     "effect": "Brawny increases the damage of the holder's Physical Techniques by 20%."
   },
   {
+    "name": "Bruiser",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Bruiser",
+    "description": "",
+    "effect": "Bruiser increases the damage of all of the holder's Melee Techniques by 15%."
+  },
+  {
+    "name": "Brumation",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Brumation",
+    "description": "",
+    "effect": "When the holder of Brumation rests, they gain DEF and have -1 Hold applied to their techniques."
+  },
+  {
     "name": "Bully",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Bully",
     "description": "Bully increases the damage of the holder's Techniques by an additional 30% while the number of conscious Temtem in the holder's squad outnumber the number of conscious Temtem in the rival's squad.",
@@ -118,6 +148,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Camaraderie",
     "description": "",
     "effect": "Camaraderie reduces the damage the holder takes from Techniques by 50% if both the holder and their ally are part of the same evolutionary line."
+  },
+  {
+    "name": "Camouflage",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Camouflage",
+    "description": "",
+    "effect": "Camouflage grants the holder Evading for 2 turns upon taking damage from Physical Techniques."
   },
   {
     "name": "Channeler",
@@ -174,6 +210,12 @@
     "effect": "Contagious inflicts the Poisoned Condition for 2 turns onto any rival that exits the battlefield."
   },
   {
+    "name": "Contemplation",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Contemplation",
+    "description": "",
+    "effect": "Contemplation gifts the holder with the ATK whenever they rest."
+  },
+  {
     "name": "Coward's Rest",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Coward%27s_Rest",
     "description": "",
@@ -202,6 +244,24 @@
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Determined",
     "description": "",
     "effect": "Determined protects the holder's being inflicted with negative Stat Stage Changes."
+  },
+  {
+    "name": "Digi-Protection",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Digi-Protection",
+    "description": "",
+    "effect": "Digi-Protection decreases the damage the holder takes from Digital Techniques by 75%."
+  },
+  {
+    "name": "Disgrace",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Disgrace",
+    "description": "",
+    "effect": "Disgrace inflicts DEF and SPDEF on any rival that exits the battlefield."
+  },
+  {
+    "name": "Dozing Hit",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Dozing_Hit",
+    "description": "",
+    "effect": "Dozing Hit causes all of the holder's Techniques to inflict the Asleep Condition for 1 turn if it's at least Effective against the target."
   },
   {
     "name": "Dreaded Alarm",
@@ -336,6 +396,12 @@
     "effect": "Guardian protects the holder's ally from being inflicted with negative Stat Stage Changes and the Cold, Frozen, Burned, Poisoned, and Doomed Conditions."
   },
   {
+    "name": "Haka",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Haka",
+    "description": "",
+    "effect": "Once per battle, when entering the battlefield, the ally gets ATK +1 and SPATK +1"
+  },
+  {
     "name": "Half Full",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Half_Full",
     "description": "",
@@ -354,6 +420,12 @@
     "effect": "Heater inflicts both rivals with the Burned Condition for 1 turn upon the holder entering the battlefield once per battle."
   },
   {
+    "name": "Hostile",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Hostile",
+    "description": "",
+    "effect": "Hostile grants the holder ATK and SPATK upon their first entry to the battlefield."
+  },
+  {
     "name": "Hover",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Hover",
     "description": "",
@@ -370,6 +442,18 @@
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Hydrologist",
     "description": "",
     "effect": "Hydrologist increases the damage of the holder's Water Techniques by 15%."
+  },
+  {
+    "name": "Hypnotist",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Hypnotist",
+    "description": "",
+    "effect": "When the holder enters the field, Inflicts Asleep to both opposing temtem for 1 turn."
+  },
+  {
+    "name": "Ignis Fatuus",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Ignis_Fatuus",
+    "description": "",
+    "effect": "When another Temtem is knocked out, this Temtem gains Evading for 2 turns."
   },
   {
     "name": "Immunity",
@@ -394,6 +478,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Infectious",
     "description": "",
     "effect": "Infectious prevents the effects of the Regenerated Condition on the rival team. The condition will not be removed but will not have any effects. Infectious does not affect rival Temtem not on the battlefield."
+  },
+  {
+    "name": "Inner Shield",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Inner_Shield",
+    "description": "",
+    "effect": "Inner Shield causes the holder to not be affected by any Status Techniques."
   },
   {
     "name": "Intimidator",
@@ -436,6 +526,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Marathonist",
     "description": "",
     "effect": "Marathonist decreases the STA cost of Techniques by 50% but also inflicts the user with SPD whenever they use a Technique."
+  },
+  {
+    "name": "Meditation (Trait)",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Meditation_(Trait)",
+    "description": "",
+    "effect": "Temtem[]"
   },
   {
     "name": "Mental Alliance",
@@ -498,6 +594,12 @@
     "effect": "Patient restores 10% of the holder's max STA when they use a Techniques that has any amount of Hold."
   },
   {
+    "name": "Physgulp",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Physgulp",
+    "description": "",
+    "effect": "Physgulp restores 15% of the holder's max HP whenever they are attacked by a Physical Technique."
+  },
+  {
     "name": "Physmaster",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Physmaster",
     "description": "",
@@ -534,6 +636,12 @@
     "effect": "Prideful gifts the holder with SPD , ATK , and SPATK when they knock-out a target."
   },
   {
+    "name": "Protective Crystal",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Protective_Crystal",
+    "description": "",
+    "effect": "When an ally is hit by a damaging Electric, Mental, or Fire Technique, the damage that they take is reduced by 20%."
+  },
+  {
     "name": "Protector",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Protector",
     "description": "",
@@ -544,6 +652,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Provident",
     "description": "",
     "effect": "Provident gifts the holder with SPDEF after being hit by a Earth, Fire, or Melee Technique."
+  },
+  {
+    "name": "Punch Bag",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Punch_Bag",
+    "description": "",
+    "effect": "Punch Bag decreases the damage the holder takes from Melee Techniques by 30%."
   },
   {
     "name": "Punching Bag",
@@ -568,6 +682,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Receptive",
     "description": "",
     "effect": "Receptive increases the duration of the Vigorized, the Immune, the Regenerated, the Evading, and the Alerted the holder is gifted with by 1 turn."
+  },
+  {
+    "name": "Refurbished",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Refurbished",
+    "description": "",
+    "effect": "Once the holder has been on the battlefield for 3 consecutive turns, Refurbished grants the holder the Regenerated Status Conditions for 4 turns. Refurbished may only be activated once per battle."
   },
   {
     "name": "Rejuvenate",
@@ -606,10 +726,34 @@
     "effect": "Royal Jelly restores 5% of the holder's and their allies' max HP at the start of each turn."
   },
   {
+    "name": "Ruminant",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Ruminant",
+    "description": "",
+    "effect": "Ruminant grants the Regenerated Condition for 2 turns to the holder when attcked by a Nature Technique."
+  },
+  {
+    "name": "Rusher",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Rusher",
+    "description": "",
+    "effect": "Rusher grants the holder SPD whenever a rival Temtem enters the battlefield, but inflicts the holder with SPD whenever the holder leaves the battlefield."
+  },
+  {
     "name": "Scavenger",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Scavenger",
     "description": "",
     "effect": "Scavenger restores 20% of the holder's max HP when either their ally or a rival is knocked-out."
+  },
+  {
+    "name": "Seismic",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Seismic",
+    "description": "",
+    "effect": "When the holder of Seismic enters the battlefield, all rival Temtem lose 7% of their max HP. Seismic cannot knock out Temtem."
+  },
+  {
+    "name": "Self-Care",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Self-Care",
+    "description": "",
+    "effect": "When a Temtem with this Trait is hit by a damaging Physical or Special Technique, a Temtem is granted the Regenerated Condition for 1 turn."
   },
   {
     "name": "Self-Esteem",
@@ -640,6 +784,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Settling",
     "description": "",
     "effect": "Settling increases the holder's ATK by 8% for each turn they are on the battlefield. If the holder leaves the battlefield at any point, the cumulative bonus is reset."
+  },
+  {
+    "name": "Shaolin",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Shaolin",
+    "description": "",
+    "effect": "All damage done by this Temtem's Special Techniques is increased by 10%."
   },
   {
     "name": "Shared Pain",
@@ -678,10 +828,22 @@
     "effect": "Source Replicator copies any Alerted, Regenerated, Evading, Immune, or Vigorized Conditions the holder is gifted with and gifts them to their ally for the same duration."
   },
   {
+    "name": "Specgulp",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Specgulp",
+    "description": "",
+    "effect": "Specgulp restores 12% of the holder's max HP whenever they are attacked by a Special Technique."
+  },
+  {
     "name": "Specmaster",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Specmaster",
     "description": "",
     "effect": "Specmaster increases the damage of the holder's Special Techniques by 50%."
+  },
+  {
+    "name": "Spiritual",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Spiritual",
+    "description": "",
+    "effect": "Spiritual buffs the holder with SPATK and debuffs the holder with SPDEF when they enter the battlefield."
   },
   {
     "name": "Splitter",
@@ -742,6 +904,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Tactical_Strike",
     "description": "",
     "effect": "Tactical Strike increases the damage of the holder's Techniques that have any amount of Hold by 20%."
+  },
+  {
+    "name": "Tag Team",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Tag_Team",
+    "description": "",
+    "effect": "Tag Team decreases the damage the holder takes from Techniques by 10% if both the holder and their ally share a Type."
   },
   {
     "name": "Tardy Rush",
@@ -834,6 +1002,12 @@
     "effect": "Vigorous increases the damage of the holder's Techniques by 50% when the holder Overexerts."
   },
   {
+    "name": "Viral Combustion",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Viral_Combustion",
+    "description": "",
+    "effect": "Viral Combustion inflicts the Burned Condition for 4 turns onto any attacker that applies the Poisoned status to the holder."
+  },
+  {
     "name": "Voltaic Charge",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Voltaic_Charge",
     "description": "",
@@ -844,6 +1018,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Voodoo",
     "description": "",
     "effect": "Voodoo deals damage to the holder's rivals after the holder hits their ally. The amount of damage the rivals receive is equal to the amount of damage the holder deals to their ally."
+  },
+  {
+    "name": "Warm Gift",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Warm_Gift",
+    "description": "",
+    "effect": "When any rival switches out, they are inflicted with a Burned for 3 turns."
   },
   {
     "name": "Warm-Blooded",
@@ -874,6 +1054,12 @@
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Wax_Bath",
     "description": "",
     "effect": "Wax Bath gifts the holder's ally with SPDEF whenever they Rest."
+  },
+  {
+    "name": "Welcomer",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Welcomer",
+    "description": "",
+    "effect": "Welcomer gifts an ally with Evading for 2 turns, once per battle."
   },
   {
     "name": "Withdrawal",
