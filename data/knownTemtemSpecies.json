@@ -3246,7 +3246,82 @@
         "lbs": 529
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Scratch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Clay Ball",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Voltopuncture",
+        "source": "Levelling",
+        "levels": 10
+      },
+      {
+        "name": "Tesla Prison",
+        "source": "Levelling",
+        "levels": 15
+      },
+      {
+        "name": "Venomous Claws",
+        "source": "Levelling",
+        "levels": 20
+      },
+      {
+        "name": "Toxic Fang",
+        "source": "Levelling",
+        "levels": 34
+      },
+      {
+        "name": "Metabolize",
+        "source": "Levelling",
+        "levels": 44
+      },
+      {
+        "name": "Piezoelectric Blow",
+        "source": "Levelling",
+        "levels": 62
+      },
+      {
+        "name": "Paralyzing Poison",
+        "source": "Levelling",
+        "levels": 84
+      },
+      {
+        "name": "Wastewater",
+        "source": "Levelling",
+        "levels": 91
+      },
+      {
+        "name": "Noxious Bomb",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Drought",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Darkness",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Purgation",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Shelter",
+        "source": "Breeding"
+      },
+      {
+        "name": "Waterjet",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "evolves": false
@@ -3271,7 +3346,7 @@
       "spatk": 0,
       "spdef": 2
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "Popularly known as \"the monster of the sewers\", this species descends from proto-Temtemic lifeforms of the Xolot Reservoir. It is no surprise it has adapted to an extremely toxic ecosystem.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -3301,6 +3376,7 @@
       "total": 372
     },
     "traits": [
+      "Punch Bag",
       "Parrier"
     ],
     "details": {
@@ -3373,7 +3449,8 @@
             "Parrier"
           ],
           "traitMapping": {
-            "Parrier": "Specgulp"
+            "Punch Bag": "Specgulp",
+            "Parrier": "Physgulp"
           }
         },
         {
@@ -3445,7 +3522,7 @@
       "spatk": 1,
       "spdef": 0
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "The adorable Mosu descends from the primeval pachyderms that roamed the Greenglen Forest back when it was part of a great boreal forest spanning almost half of Paninsula.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -3590,7 +3667,8 @@
             "Parrier"
           ],
           "traitMapping": {
-            "Parrier": "Specgulp"
+            "Punch Bag": "Specgulp",
+            "Parrier": "Physgulp"
           }
         },
         {
@@ -3662,7 +3740,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "Temtemologists believe Magmut developed their characteristic flaming mane as an adaptation to the colder and wetter climate of the Lochburg moors.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -11988,7 +12066,65 @@
         "lbs": 39
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Peck",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Sand Splatter",
+        "source": "Levelling",
+        "levels": 4
+      },
+      {
+        "name": "Wind Blade",
+        "source": "Levelling",
+        "levels": 7
+      },
+      {
+        "name": "Wind Burst",
+        "source": "Levelling",
+        "levels": 10
+      },
+      {
+        "name": "Intimidation",
+        "source": "Levelling",
+        "levels": 19
+      },
+      {
+        "name": "Turbo Choreography",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Wake Up",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Noxious Bomb",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Darkness",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Beta Burst",
+        "source": "Breeding"
+      },
+      {
+        "name": "Lullaby",
+        "source": "Breeding"
+      },
+      {
+        "name": "Energy Manipulation",
+        "source": "Breeding"
+      },
+      {
+        "name": "Hook Kick",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "stage": 2,
@@ -12125,7 +12261,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "Propertonian toddlers are taught not to be afraid of this gentle species, in spite of the unnerving appearance of their large, shiny eyes when encountered in the forest at night.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -12169,7 +12305,98 @@
         "lbs": 149
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Peck",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Sand Splatter",
+        "source": "Levelling",
+        "levels": 4
+      },
+      {
+        "name": "Wind Blade",
+        "source": "Levelling",
+        "levels": 7
+      },
+      {
+        "name": "Wind Burst",
+        "source": "Levelling",
+        "levels": 10
+      },
+      {
+        "name": "Intimidation",
+        "source": "Levelling",
+        "levels": 19
+      },
+      {
+        "name": "Boomerang",
+        "source": "Levelling",
+        "levels": 29
+      },
+      {
+        "name": "Perfect Jab",
+        "source": "Levelling",
+        "levels": 40
+      },
+      {
+        "name": "Wrenching Massage",
+        "source": "Levelling",
+        "levels": 55
+      },
+      {
+        "name": "Helicopter Kick",
+        "source": "Levelling",
+        "levels": 74
+      },
+      {
+        "name": "Turbine",
+        "source": "Levelling",
+        "levels": 90
+      },
+      {
+        "name": "Turbo Choreography",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Wake Up",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Noxious Bomb",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Darkness",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "5PPEH",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Kesa Gatame",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Beta Burst",
+        "source": "Breeding"
+      },
+      {
+        "name": "Lullaby",
+        "source": "Breeding"
+      },
+      {
+        "name": "Energy Manipulation",
+        "source": "Breeding"
+      },
+      {
+        "name": "Hook Kick",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "stage": 1,
@@ -12355,6 +12582,11 @@
         "levels": 60
       },
       {
+        "name": "Hypoxia",
+        "source": "Levelling",
+        "levels": 90
+      },
+      {
         "name": "Turbo Choreography",
         "source": "TechniqueCourses"
       },
@@ -12388,6 +12620,10 @@
       },
       {
         "name": "Lullaby",
+        "source": "Breeding"
+      },
+      {
+        "name": "Hook Kick",
         "source": "Breeding"
       }
     ],
@@ -17374,7 +17610,58 @@
         "lbs": 59
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Novice Punch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Martial Strike",
+        "source": "Levelling",
+        "levels": 8
+      },
+      {
+        "name": "Cooperation",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Hook",
+        "source": "Levelling",
+        "levels": 18
+      },
+      {
+        "name": "Gaia",
+        "source": "Levelling",
+        "levels": 30
+      },
+      {
+        "name": "Undermine",
+        "source": "Levelling",
+        "levels": 40
+      },
+      {
+        "name": "Misogi",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Double Edge",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Kesa Gatame",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Unseen Blow",
+        "source": "Breeding"
+      },
+      {
+        "name": "Jinxed Whisper",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "stage": 0,
@@ -17507,7 +17794,90 @@
         "lbs": 110
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Novice Punch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Martial Strike",
+        "source": "Levelling",
+        "levels": 8
+      },
+      {
+        "name": "Cooperation",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Hook",
+        "source": "Levelling",
+        "levels": 18
+      },
+      {
+        "name": "Gaia",
+        "source": "Levelling",
+        "levels": 30
+      },
+      {
+        "name": "Undermine",
+        "source": "Levelling",
+        "levels": 40
+      },
+      {
+        "name": "Dim Mak",
+        "source": "Levelling",
+        "levels": 64
+      },
+      {
+        "name": "Inner Spirit",
+        "source": "Levelling",
+        "levels": 76
+      },
+      {
+        "name": "Execution",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Soul Shout",
+        "source": "Levelling",
+        "levels": 90
+      },
+      {
+        "name": "Misogi",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Double Edge",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Zen Meditation",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Kesa Gatame",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "5PPEH",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Sanative Rain",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Unseen Blow",
+        "source": "Breeding"
+      },
+      {
+        "name": "Jinxed Whisper",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "stage": 1,
@@ -21524,7 +21894,70 @@
         "lbs": 511
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Novice Punch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Stare",
+        "source": "Levelling",
+        "levels": 4
+      },
+      {
+        "name": "Uppercut",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Show Off",
+        "source": "Levelling",
+        "levels": 17
+      },
+      {
+        "name": "Bestial Charge",
+        "source": "Levelling",
+        "levels": 27
+      },
+      {
+        "name": "Hook Kick",
+        "source": "Levelling",
+        "levels": 37
+      },
+      {
+        "name": "Intimidation",
+        "source": "Levelling",
+        "levels": 49
+      },
+      {
+        "name": "Helicopter Kick",
+        "source": "Levelling",
+        "levels": 64
+      },
+      {
+        "name": "Rush",
+        "source": "Levelling",
+        "levels": 78
+      },
+      {
+        "name": "Wrenching Massage",
+        "source": "Levelling",
+        "levels": 85
+      },
+      {
+        "name": "Block",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Kesa Gatame",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Meditation",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "evolves": false
@@ -21660,7 +22093,8 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "[[]]"
+            "Soft Touch",
+            "Skull Helmet"
           ],
           "traitMapping": {
             "Soft Touch": "Dozing Hit",
@@ -21675,7 +22109,8 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "[[]]"
+            "Dozing Hit",
+            "Inner Shield"
           ],
           "traitMapping": {
             "Dozing Hit": "Dozing Hit",
@@ -21694,10 +22129,12 @@
         "type": "levels",
         "trading": false,
         "traits": [
-          "[[]]"
+          "Dozing Hit",
+          "Inner Shield"
         ],
         "traitMapping": {
-          "[[]]": "[[]]"
+          "Dozing Hit": "Dozing Hit",
+          "Inner Shield": "Inner Shield"
         }
       },
       "number": 97,
@@ -21705,10 +22142,12 @@
       "level": 0,
       "trading": false,
       "traits": [
-        "[[]]"
+        "Soft Touch",
+        "Skull Helmet"
       ],
       "traitMapping": {
-        "[[]]": "[[]]"
+        "Soft Touch": "Dozing Hit",
+        "Skull Helmet": "Inner Shield"
       }
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/62/Mitty.png",
@@ -21731,7 +22170,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "Often derided by Lochburgian tamers as a \"typically Propertonian cuteboi that packs no punch!\", Mitty are gentle and curious Temtem, but also fast learners and extremely effective in the hands of an experienced tamer.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -23142,11 +23581,20 @@
         "levels": 65
       },
       {
+        "name": "Gaia",
+        "source": "Levelling",
+        "levels": 90
+      },
+      {
         "name": "Look out",
         "source": "TechniqueCourses"
       },
       {
         "name": "Untangle",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Sanative Rain",
         "source": "TechniqueCourses"
       },
       {
@@ -26159,7 +26607,53 @@
         "lbs": 15
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Scratch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Spores",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Martial Strike",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Photosynthesis",
+        "source": "Levelling",
+        "levels": 18
+      },
+      {
+        "name": "Undermine",
+        "source": "Levelling",
+        "levels": 26
+      },
+      {
+        "name": "Double Edge",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Drought",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Bark Shield",
+        "source": "Breeding"
+      },
+      {
+        "name": "Soul Shout",
+        "source": "Breeding"
+      },
+      {
+        "name": "Frond Whip",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "stage": 0,
@@ -26309,7 +26803,72 @@
         "lbs": 99
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Scratch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Spores",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Martial Strike",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Photosynthesis",
+        "source": "Levelling",
+        "levels": 18
+      },
+      {
+        "name": "Undermine",
+        "source": "Levelling",
+        "levels": 26
+      },
+      {
+        "name": "Bush",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Double Gash",
+        "source": "Levelling",
+        "levels": 50
+      },
+      {
+        "name": "Dim Mak",
+        "source": "Levelling",
+        "levels": 60
+      },
+      {
+        "name": "Block",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Double Edge",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Drought",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Bark Shield",
+        "source": "Breeding"
+      },
+      {
+        "name": "Soul Shout",
+        "source": "Breeding"
+      },
+      {
+        "name": "Frond Whip",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "stage": 1,
@@ -26474,7 +27033,87 @@
         "lbs": 308
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Scratch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Spores",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Martial Strike",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Photosynthesis",
+        "source": "Levelling",
+        "levels": 18
+      },
+      {
+        "name": "Undermine",
+        "source": "Levelling",
+        "levels": 26
+      },
+      {
+        "name": "Bush",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Double Gash",
+        "source": "Levelling",
+        "levels": 50
+      },
+      {
+        "name": "Dim Mak",
+        "source": "Levelling",
+        "levels": 60
+      },
+      {
+        "name": "Uppercut",
+        "source": "Levelling",
+        "levels": 65
+      },
+      {
+        "name": "Resin Trap",
+        "source": "Levelling",
+        "levels": 75
+      },
+      {
+        "name": "Plague",
+        "source": "Levelling",
+        "levels": 86
+      },
+      {
+        "name": "Block",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Double Edge",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Drought",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Bark Shield",
+        "source": "Breeding"
+      },
+      {
+        "name": "Soul Shout",
+        "source": "Breeding"
+      },
+      {
+        "name": "Frond Whip",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "stage": 2,
@@ -27077,7 +27716,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Valiar is unobtainable, so its Tempedia entry is unknown.",
+    "gameDescription": "Although nobody has managed to decipher their language, the Valiar are assumed to be extremely intelligent. The Arburian dons are still trying to come up with a scientific explanation for the way Valiar use their expanding ears to boost their minds.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -28710,6 +29349,11 @@
         "levels": 56
       },
       {
+        "name": "Refreshing Breeze",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
         "name": "Tsunami",
         "source": "TechniqueCourses"
       },
@@ -29113,6 +29757,11 @@
         "levels": 48
       },
       {
+        "name": "Mirror Shell",
+        "source": "Levelling",
+        "levels": 79
+      },
+      {
         "name": "Noxious Bomb",
         "source": "TechniqueCourses"
       }
@@ -29304,7 +29953,16 @@
         "levels": 68
       },
       {
+        "name": "Turbine",
+        "source": "Levelling",
+        "levels": 90
+      },
+      {
         "name": "Noxious Bomb",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Soil Steam",
         "source": "TechniqueCourses"
       }
     ],
@@ -29500,6 +30158,11 @@
         "levels": 70
       },
       {
+        "name": "Overclock",
+        "source": "Levelling",
+        "levels": 86
+      },
+      {
         "name": "Noxious Bomb",
         "source": "TechniqueCourses"
       },
@@ -29643,7 +30306,71 @@
         "lbs": 280
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Peck",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Wind Blade",
+        "source": "Levelling",
+        "levels": 4
+      },
+      {
+        "name": "Shrill Voice",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Feather Gatling",
+        "source": "Levelling",
+        "levels": 10
+      },
+      {
+        "name": "Wind Burst",
+        "source": "Levelling",
+        "levels": 14
+      },
+      {
+        "name": "Multiple Pecks",
+        "source": "Levelling",
+        "levels": 23
+      },
+      {
+        "name": "Humiliating Slap",
+        "source": "Levelling",
+        "levels": 19
+      },
+      {
+        "name": "Tornado",
+        "source": "Levelling",
+        "levels": 40
+      },
+      {
+        "name": "Double Gash",
+        "source": "Levelling",
+        "levels": 45
+      },
+      {
+        "name": "Wrenching Massage",
+        "source": "Levelling",
+        "levels": 62
+      },
+      {
+        "name": "Show Off",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Noxious Bomb",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Zen Meditation",
+        "source": "TechniqueCourses"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "stage": 1,
@@ -29730,12 +30457,12 @@
       "hp": 0,
       "sta": 0,
       "spd": 0,
-      "atk": 0,
+      "atk": 2,
       "def": 0,
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "First described by reputed breeder Nalla of Vumbi, Tutsu is \"like a sudden storm, a nimble yet mighty bird of prey, fiery even when facing much bigger opponents\". It is said that all Tutsu are descended from Nalla's...",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -32205,7 +32932,46 @@
         "lbs": 127
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Kick",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Sharp Leaf",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Data Burst",
+        "source": "Levelling",
+        "levels": 10
+      },
+      {
+        "name": "Spores",
+        "source": "Levelling",
+        "levels": 15
+      },
+      {
+        "name": "Revitalize",
+        "source": "Levelling",
+        "levels": 21
+      },
+      {
+        "name": "Binary Flood",
+        "source": "Levelling",
+        "levels": 34
+      },
+      {
+        "name": "Shy Shield",
+        "source": "Breeding"
+      },
+      {
+        "name": "Digithreat",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "stage": 0,
@@ -32339,7 +33105,82 @@
         "lbs": 458
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Kick",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Sharp Leaf",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Data Burst",
+        "source": "Levelling",
+        "levels": 10
+      },
+      {
+        "name": "Spores",
+        "source": "Levelling",
+        "levels": 15
+      },
+      {
+        "name": "Revitalize",
+        "source": "Levelling",
+        "levels": 21
+      },
+      {
+        "name": "Binary Flood",
+        "source": "Levelling",
+        "levels": 34
+      },
+      {
+        "name": "Resin Trap",
+        "source": "Levelling",
+        "levels": 45
+      },
+      {
+        "name": "Roots",
+        "source": "Levelling",
+        "levels": 68
+      },
+      {
+        "name": "Firewall",
+        "source": "Levelling",
+        "levels": 86
+      },
+      {
+        "name": "Stampede",
+        "source": "Levelling",
+        "levels": 95
+      },
+      {
+        "name": "Block",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Darkness",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Harmful Microwaves",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Sanative Rain",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Shy Shield",
+        "source": "Breeding"
+      },
+      {
+        "name": "Digithreat",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "stage": 1,
@@ -32841,7 +33682,7 @@
         "levels": 29
       },
       {
-        "name": "Stampedee",
+        "name": "Stampede",
         "source": "Levelling",
         "levels": 48
       },
@@ -33031,7 +33872,83 @@
         "lbs": 661
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Nibble",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Tenderness",
+        "source": "Levelling",
+        "levels": 3
+      },
+      {
+        "name": "Energy Manipulation",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Double Kick",
+        "source": "Levelling",
+        "levels": 18
+      },
+      {
+        "name": "Sparkling Bullet",
+        "source": "Levelling",
+        "levels": 29
+      },
+      {
+        "name": "Stampede",
+        "source": "Levelling",
+        "levels": 48
+      },
+      {
+        "name": "Head Ram",
+        "source": "Levelling",
+        "levels": 55
+      },
+      {
+        "name": "Piezoelectric Blow",
+        "source": "Levelling",
+        "levels": 68
+      },
+      {
+        "name": "Hasty Lunge",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Blackhole",
+        "source": "Levelling",
+        "levels": 94
+      },
+      {
+        "name": "Madness Buff",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Purgation",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Turbo Charge",
+        "source": "Breeding"
+      },
+      {
+        "name": "Ultrasound",
+        "source": "Breeding"
+      },
+      {
+        "name": "Thunder Strike",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "stage": 2,
@@ -33137,7 +34054,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "Some of the oldest cave paintings in the Chini Grotto are said to represent prehistorical Minothor. Its ability to transform Mental power into electricity and vice versa must have looked like magic to early humans...",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -33362,15 +34279,15 @@
         "levels": 71
       },
       {
+        "name": "Base Jump",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Brace",
         "source": "TechniqueCourses"
       },
       {
         "name": "Untangle",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Base Jump",
         "source": "TechniqueCourses"
       },
       {
@@ -33395,7 +34312,7 @@
           ],
           "traitMapping": {
             "Parrier": "Parrier",
-            "Arcane Wrap": "Unknown"
+            "Arcane Wrap": "Aggressor"
           }
         },
         {
@@ -33410,7 +34327,8 @@
             "Aggressor"
           ],
           "traitMapping": {
-            "Parrier": "Parrier"
+            "Parrier": "Parrier",
+            "Aggressor": "Arcane Wrap"
           }
         },
         {
@@ -33544,7 +34462,8 @@
       "total": 444
     },
     "traits": [
-      "Parrier"
+      "Parrier",
+      "Aggressor"
     ],
     "details": {
       "height": {
@@ -33574,7 +34493,7 @@
           ],
           "traitMapping": {
             "Parrier": "Parrier",
-            "Arcane Wrap": "Unknown"
+            "Arcane Wrap": "Aggressor"
           }
         },
         {
@@ -33585,10 +34504,12 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "[[]]"
+            "Parrier",
+            "Aggressor"
           ],
           "traitMapping": {
-            "Parrier": "Parrier"
+            "Parrier": "Parrier",
+            "Aggressor": "Aggressor"
           }
         }
       ],
@@ -33606,7 +34527,8 @@
           "Arcane Wrap"
         ],
         "traitMapping": {
-          "Parrier": "[[]]"
+          "Parrier": "Parrier",
+          "Arcane Wrap": "Aggressor"
         }
       },
       "to": null,
@@ -33615,10 +34537,12 @@
       "level": 17,
       "trading": false,
       "traits": [
-        "[[]]"
+        "Parrier",
+        "Aggressor"
       ],
       "traitMapping": {
-        "[[]]": "[[]]"
+        "Parrier": "Parrier",
+        "Aggressor": "Aggressor"
       }
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/ff/Venmet.png",
@@ -33641,7 +34565,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "Sometimes more is more – and this evolution makes for a winning combination of resilience and sheer power. Some historians suggest this species was widely used by reivers on both sides during the turbulent era of Chieftain Mac Aed.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -33915,7 +34839,7 @@
       "spatk": 0,
       "spdef": 2
     },
-    "gameDescription": "Base Stats[]",
+    "gameDescription": "Some urban legends claim this variety wasn't tamed or bred as much as extracted from mineral ores in the deepest pits of Quetzal. Just how its roots interface with the crystals of its body is still a subject of scientific study.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
