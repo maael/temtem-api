@@ -1344,6 +1344,24 @@
     "effects": []
   },
   {
+    "name": "Drool",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Drool",
+    "type": "Neutral",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 28,
+    "hold": 1,
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Target",
+    "description": "Babawa leaves this sticky mucus everywhere, which reputedly has healing properties... it regenrates the target for 3 turns and grants it immunity for 4 turns.",
+    "effectText": "Drool gifts the target with the Regenerated Condition for 3 turns and the Immune Condition for 4 turns.",
+    "effects": []
+  },
+  {
     "name": "Drought",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Drought",
     "type": "Earth",
@@ -2818,7 +2836,7 @@
     ],
     "targets": "?",
     "description": "Normally Taifu prefer cookies... but if there's nothing else available, they'll inflict 35% damage and heal themselves 35%, without even waking up the target.",
-    "effectText": "",
+    "effectText": "Leech drains 35% HP from a single other target and restores 35% HP to the user. This Technique does not remove the Asleep Condition on the target.",
     "effects": []
   },
   {
@@ -3386,7 +3404,7 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Nothing creepier than feeding on a sleeping victim... Inflicts 30% damage to a UnknownType sleeping enemy and heals the user by 30%.",
+    "description": "Nothing creepier than feeding on a sleeping victim... Inflicts 30% damage to a sleeping enemy and heals the user by 30%.",
     "effectText": "Nightmare Feed deals exactly 30% damage to a single target and restores 30% of the user's maximum HP if the target is afflicted with the Asleep Condition.",
     "effects": []
   },
@@ -4119,9 +4137,9 @@
     "priorityIcon": "/images/icons/priority/ultra.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Target",
     "description": "Sometimes, you just need a reset and a fresh start - it wipes all stages and statuses from the target in the blink of an eye.",
-    "effectText": "",
+    "effectText": "Reset cures/removes all Status Conditions and Stage Changes gifted/given/inflicted on the target.",
     "effects": []
   },
   {
@@ -4262,9 +4280,9 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "Electric",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "Eww, what's that stink? This gross, sticky mess damages the target and seizes it for 2 turns.",
-    "effectText": "",
+    "effectText": "Rotten Goo deals damage and inflicts a single other target with the Seized Condition for 2 turns.",
     "effects": []
   },
   {
@@ -4316,7 +4334,7 @@
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "Wind",
     "synergyEffects": [],
-    "targets": "All Other Temtem",
+    "targets": "All",
     "description": "Known as \"the blessing rains of Kisiwa\", this shamanic technique helas 15% of every Temtem on the battlefield..Used in combination with a Wind ally, Sanative Rain heals allied Temtem by 18% but enemies by only 12%.",
     "effectText": "Sanative Rain heals all Temtem on the battlefield by 15%.",
     "effects": []
@@ -4917,7 +4935,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "Every little sting stings and each of them sucks a little blood... It steals 10% health from the enemy team and leaves them exhausted for 1 turn.Used in combination with an Earth ally, Swarm Aid is faster and steals 15% of health.",
-    "effectText": "Swarm Aid inflicts the rival team or the user's ally with the Exhausted Condition for 1 turn and additionally steals 10% of their current HP.",
+    "effectText": "Swarm Aid inflicts the rival team or the user's ally with the Exhausted Condition for 1 turn and additionally decreases 10% of their current HP and increases the user's HP by 10%.",
     "effects": []
   },
   {
@@ -5339,9 +5357,9 @@
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "Swift as the wind and as harsh and razor sharp as a wintery gale. This technique is fast and inflicts decent damage.",
-    "effectText": "Turbine deals damage to ___.",
+    "effectText": "Turbine deals damage to a single other target.",
     "effects": []
   },
   {
@@ -5454,8 +5472,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "",
-    "effectText": "",
+    "description": "Nothing hurts like the blow you didn't see coming! This technique inflicts heavy damage.",
+    "effectText": "Unseen Blow deals damage to a single other target.",
     "effects": []
   },
   {
@@ -5902,9 +5920,9 @@
         "effect": "+116 Damage"
       }
     ],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "The masseurs of Onsenshima don't usually want to hurt you. This technique is the exception - slow, moderate-damage technique.Now, this really pummels your deep tissues. Used in combination with a Melee ally, damage is increased and the enemy is exhausted for 1 turn.",
-    "effectText": "",
+    "effectText": "Wrenching Massage deals damage to a single other target.",
     "effects": []
   },
   {
