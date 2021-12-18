@@ -1506,7 +1506,7 @@
         "levels": 84
       },
       {
-        "name": "Knockback Blast",
+        "name": "Knockback",
         "source": "Levelling",
         "levels": 94
       },
@@ -36542,14 +36542,13 @@
           "stage": 1,
           "number": 162,
           "name": "Anatan",
-          "level": 0,
-          "type": "special",
+          "level": 1000,
+          "type": "levels",
           "trading": false,
           "traits": [
             "Self-Care",
             "Protective Crystal"
           ],
-          "description": "?",
           "traitMapping": {
             "Self-Care": "Self-Care",
             "Protective Crystal": "Protective Crystal"
@@ -36563,14 +36562,13 @@
         "stage": 1,
         "number": 162,
         "name": "Anatan",
-        "level": 0,
-        "type": "special",
+        "level": 1000,
+        "type": "levels",
         "trading": false,
         "traits": [
           "Self-Care",
           "Protective Crystal"
         ],
-        "description": "?",
         "traitMapping": {
           "Self-Care": "Self-Care",
           "Protective Crystal": "Protective Crystal"
@@ -36769,14 +36767,13 @@
           "stage": 1,
           "number": 162,
           "name": "Anatan",
-          "level": 0,
-          "type": "special",
+          "level": 1000,
+          "type": "levels",
           "trading": false,
           "traits": [
             "Self-Care",
             "Protective Crystal"
           ],
-          "description": "?",
           "traitMapping": {
             "Self-Care": "Self-Care",
             "Protective Crystal": "Protective Crystal"
@@ -36784,7 +36781,7 @@
         }
       ],
       "evolves": true,
-      "type": "special",
+      "type": "levels",
       "from": {
         "stage": 0,
         "number": 161,
@@ -36804,13 +36801,12 @@
       "to": null,
       "number": 162,
       "name": "Anatan",
-      "level": 0,
+      "level": 1000,
       "trading": false,
       "traits": [
         "Self-Care",
         "Protective Crystal"
       ],
-      "description": "?",
       "traitMapping": {
         "Self-Care": "Self-Care",
         "Protective Crystal": "Protective Crystal"
