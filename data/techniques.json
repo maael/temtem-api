@@ -14,7 +14,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "By striking the five vital points, the Miyako priests teach advanced tamers how to doom and immunize a target for 5 turns.",
-    "effectText": "",
+    "effectText": "5PPEH inflicts the target with the Doomed Condition and Immune Condition for 5 turns.",
     "effects": []
   },
   {
@@ -1094,7 +1094,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "Sticks and stones... but this mental humiliation hurts too. It inflicts damage on the whole team.",
-    "effectText": "",
+    "effectText": "Denigrate deals damage to the rival team or the user's ally.",
     "effects": []
   },
   {
@@ -2469,7 +2469,7 @@
     "synergy": "Digital",
     "synergyEffects": [
       {
-        "effect": "+2 SPDEF",
+        "effect": "+1 SPD",
         "type": "buff",
         "damage": 0
       }
@@ -2660,9 +2660,9 @@
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Other Team or Ally",
+    "targets": "Single Other Target",
     "description": "Shh! Shut up, you're jinxing your chances! The target falls asleep for 2 turns, but the user gets overextended on the next turn.",
-    "effectText": "Jinxed Whisper inflicts the rival team or the user's ally with the Asleep Condition for 2 turns, but leaves the user overexerted the next turn.",
+    "effectText": "Jinxed Whisper inflicts a single other target with the Asleep Condition for 2 turns, but leaves the user overexerted the next turn.",
     "effects": []
   },
   {
@@ -4143,6 +4143,24 @@
     "effects": []
   },
   {
+    "name": "Restore",
+    "wikiUrl": "https://temtem.gamepedia.com/wiki/Restore",
+    "type": "Earth",
+    "class": "Status",
+    "classIcon": "/images/icons/technique/Status.png",
+    "damage": 0,
+    "staminaCost": 23,
+    "hold": 1,
+    "priority": "high",
+    "priorityIcon": "/images/icons/priority/high.png",
+    "synergy": "Water",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "It's always good to have a backup... This quick technique restores 40% of the target's STA.Used in combination with a Water ally, Resotre also restores 20% STA to the user.",
+    "effectText": "Restore restores 40% of stamina to a single other target.",
+    "effects": []
+  },
+  {
     "name": "Revitalize",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Revitalize",
     "type": "Nature",
@@ -4299,7 +4317,7 @@
     "synergy": "Wind",
     "synergyEffects": [],
     "targets": "All Other Temtem",
-    "description": "Known as \"the blessing rains of Kisiwa\", this shamanic technique helas 15% of every Temtem on the battlefield..Used in combination with a Wind ally, Snative Rain heals allied Temtem by 18% but enemies by only 12%.",
+    "description": "Known as \"the blessing rains of Kisiwa\", this shamanic technique helas 15% of every Temtem on the battlefield..Used in combination with a Wind ally, Sanative Rain heals allied Temtem by 18% but enemies by only 12%.",
     "effectText": "Sanative Rain heals all Temtem on the battlefield by 15%.",
     "effects": []
   },

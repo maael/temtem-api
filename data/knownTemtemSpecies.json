@@ -5987,7 +5987,7 @@
         "levels": 58
       },
       {
-        "name": "Knockback Blast",
+        "name": "Knockback",
         "source": "Levelling",
         "levels": 74
       },
@@ -22780,11 +22780,11 @@
         "levels": 94
       },
       {
-        "name": "Cage",
+        "name": "Awful Song",
         "source": "TechniqueCourses"
       },
       {
-        "name": "Awful Song",
+        "name": "Cage",
         "source": "TechniqueCourses"
       },
       {
@@ -22808,7 +22808,7 @@
         "source": "Breeding"
       },
       {
-        "name": "Paralysing Poison",
+        "name": "Paralyzing Poison",
         "source": "Breeding"
       }
     ],
@@ -28393,7 +28393,7 @@
         "levels": 64
       },
       {
-        "name": "Denigrade",
+        "name": "Denigrate",
         "source": "Levelling",
         "levels": 77
       },
@@ -34650,8 +34650,8 @@
     "icon": "",
     "lumaIcon": "",
     "genderRatio": {
-      "male": 0,
-      "female": 100
+      "male": 50,
+      "female": 50
     },
     "catchRate": 0,
     "hatchMins": 45,
@@ -34971,7 +34971,7 @@
         "levels": 75
       },
       {
-        "name": "Black Hole",
+        "name": "Blackhole",
         "source": "Levelling",
         "levels": 80
       },
@@ -34979,6 +34979,10 @@
         "name": "Depress",
         "source": "Levelling",
         "levels": 90
+      },
+      {
+        "name": "Wake Up",
+        "source": "TechniqueCourses"
       },
       {
         "name": "Zen Meditation",
@@ -34990,10 +34994,6 @@
       },
       {
         "name": "Rush",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Wake Up",
         "source": "TechniqueCourses"
       },
       {
