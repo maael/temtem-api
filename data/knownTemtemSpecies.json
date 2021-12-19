@@ -3594,17 +3594,31 @@
     "lumaWikiPortraitUrlLarge": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
     "locations": [
       {
+        "location": "Mac Aed's Crags",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "25%",
+        "level": "60 - 66",
+        "freetem": {
+          "minLevel": 60,
+          "maxLevel": 66,
+          "minPansuns": 184,
+          "maxPansuns": 200
+        }
+      },
+      {
         "location": "Greenglen Forest",
         "place": "",
         "note": "",
         "island": "Arbury",
-        "frequency": "??",
-        "level": "??",
+        "frequency": "10% - 80%",
+        "level": "50 - 55",
         "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
+          "minLevel": 50,
+          "maxLevel": 55,
+          "minPansuns": 157,
+          "maxPansuns": 170
         }
       }
     ],
@@ -26460,8 +26474,8 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Botanophobia",
-            "Cold-Natured"
+            "Resistant",
+            "Inductor"
           ],
           "traitMapping": {
             "Resistant": "Receptive",
@@ -26495,12 +26509,12 @@
         "type": "levels",
         "trading": false,
         "traits": [
-          "Botanophobia",
-          "Cold-Natured"
+          "Resistant",
+          "Inductor"
         ],
         "traitMapping": {
-          "Botanophobia": "Receptive",
-          "Cold-Natured": "Fast Charge"
+          "Resistant": "Receptive",
+          "Inductor": "Fast Charge"
         }
       },
       "to": null,
