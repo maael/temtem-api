@@ -27984,7 +27984,22 @@
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4c/Broccolem.png",
     "lumaWikiPortraitUrlLarge": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Chieftain's Barrow",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "95%",
+        "level": "100",
+        "freetem": {
+          "minLevel": 100,
+          "maxLevel": 100,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
+      }
+    ],
     "icon": "",
     "lumaIcon": "",
     "genderRatio": {
@@ -29951,7 +29966,7 @@
             "Tag Team",
             "Contemplation"
           ],
-          "description": "Shrine at ?",
+          "description": "Shrine at Chieftain's Barrow",
           "traitMapping": {
             "Tag Team": "Tag Team",
             "Contemplation": "Contemplation"
@@ -29988,7 +30003,7 @@
           "Tag Team",
           "Contemplation"
         ],
-        "description": "Shrine at ?",
+        "description": "Shrine at Chieftain's Barrow",
         "traitMapping": {
           "Tag Team": "Tag Team",
           "Contemplation": "Contemplation"
@@ -30072,6 +30087,20 @@
         "place": "",
         "note": "",
         "island": "Omninesia",
+        "frequency": "5%",
+        "level": "5 - 10",
+        "freetem": {
+          "minLevel": 5,
+          "maxLevel": 10,
+          "minPansuns": 35,
+          "maxPansuns": 50
+        }
+      },
+      {
+        "location": "Chieftain's Barrow",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
         "frequency": "5%",
         "level": "5 - 10",
         "freetem": {
