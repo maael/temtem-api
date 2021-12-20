@@ -66,7 +66,7 @@
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "All",
+    "targets": "All Other Temtem",
     "description": "Volgon's Heavenly Might unleashes a wave of power that sweeps the battleground, affecting everyone except the user, overextending them and vigorizing you for 2 turns.",
     "effectText": "Ampere Outburst causes all Temtem on the battlefield except the user to become overexerted the next turn, and gifts the user with the Vigorized Condition for 2 turns.",
     "effects": []
@@ -2834,7 +2834,7 @@
         "effect": "17 STA Cost"
       }
     ],
-    "targets": "?",
+    "targets": "Single Other Target",
     "description": "Normally Taifu prefer cookies... but if there's nothing else available, they'll inflict 35% damage and heal themselves 35%, without even waking up the target.",
     "effectText": "Leech drains 35% HP from a single other target and restores 35% HP to the user. This Technique does not remove the Asleep Condition on the target.",
     "effects": []
