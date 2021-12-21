@@ -11185,6 +11185,20 @@
           "minPansuns": 177,
           "maxPansuns": 204
         }
+      },
+      {
+        "location": "Meadowdale",
+        "place": "Meadowdale",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "50%",
+        "level": "60 - 65",
+        "freetem": {
+          "minLevel": 60,
+          "maxLevel": 65,
+          "minPansuns": 220,
+          "maxPansuns": 237
+        }
       }
     ],
     "icon": "/images/portraits/temtem/large/Babawa.png",
@@ -16761,13 +16775,27 @@
         "place": "Meadowdale",
         "note": "",
         "island": "Arbury",
-        "frequency": "??",
-        "level": "??",
+        "frequency": "20% - 50%",
+        "level": "55 - 65",
         "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
+          "minLevel": 55,
+          "maxLevel": 65,
+          "minPansuns": 138,
+          "maxPansuns": 160
+        }
+      },
+      {
+        "location": "Loch Aduar",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "60%",
+        "level": "58 - 62",
+        "freetem": {
+          "minLevel": 58,
+          "maxLevel": 62,
+          "minPansuns": 145,
+          "maxPansuns": 153
         }
       }
     ],
@@ -18906,6 +18934,20 @@
           "maxLevel": 40,
           "minPansuns": 120,
           "maxPansuns": 154
+        }
+      },
+      {
+        "location": "Braeside Castle",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "10% - 35%",
+        "level": "60 - 75",
+        "freetem": {
+          "minLevel": 60,
+          "maxLevel": 75,
+          "minPansuns": 220,
+          "maxPansuns": 270
         }
       }
     ],
@@ -23292,13 +23334,13 @@
         "place": "",
         "note": "",
         "island": "Arbury",
-        "frequency": "??",
-        "level": "??",
+        "frequency": "20%",
+        "level": "60 - 70",
         "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
+          "minLevel": 60,
+          "maxLevel": 70,
+          "minPansuns": 204,
+          "maxPansuns": 235
         }
       }
     ],
@@ -28298,11 +28340,11 @@
         "source": "TechniqueCourses"
       },
       {
-        "name": "Quartz Shield",
+        "name": "Mirror Shell",
         "source": "Breeding"
       },
       {
-        "name": "Mirror Shell",
+        "name": "Quartz Shield",
         "source": "Breeding"
       }
     ],
@@ -29795,11 +29837,11 @@
         "source": "TechniqueCourses"
       },
       {
-        "name": "Hypnosis",
+        "name": "Held Anger",
         "source": "Breeding"
       },
       {
-        "name": "Held Anger",
+        "name": "Hypnosis",
         "source": "Breeding"
       },
       {
@@ -29832,6 +29874,20 @@
           "maxLevel": 32,
           "minPansuns": 87,
           "maxPansuns": 94
+        }
+      },
+      {
+        "location": "Braeside Castle",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "20%",
+        "level": "72 - 76",
+        "freetem": {
+          "minLevel": 72,
+          "maxLevel": 76,
+          "minPansuns": 187,
+          "maxPansuns": 196
         }
       }
     ],
@@ -32554,11 +32610,11 @@
         "source": "Breeding"
       },
       {
-        "name": "Sharp Rain",
+        "name": "Hurricane",
         "source": "Breeding"
       },
       {
-        "name": "Hurricane",
+        "name": "Sharp Rain",
         "source": "Breeding"
       }
     ],
@@ -33398,7 +33454,7 @@
         "note": "",
         "island": "Kisiwa",
         "frequency": "100%",
-        "level": "44 - 50",
+        "level": "44 - 50 Weekly",
         "freetem": {
           "minLevel": 44,
           "maxLevel": 50,
@@ -33412,12 +33468,96 @@
         "note": "",
         "island": "Kisiwa",
         "frequency": "25%",
-        "level": "44 - 48",
+        "level": "44 - 48 All still",
         "freetem": {
           "minLevel": 44,
           "maxLevel": 48,
           "minPansuns": 152,
           "maxPansuns": 164
+        }
+      },
+      {
+        "location": "Sillaro River",
+        "place": "Sillaro River",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "??",
+        "level": "?? Water & Wind",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
+      },
+      {
+        "location": "??? Probably The Flywalk",
+        "place": "",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "??",
+        "level": "?? Nature & Fire",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
+      },
+      {
+        "location": "???",
+        "place": "",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "??",
+        "level": "?? Crystal & Toxic",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
+      },
+      {
+        "location": "Mawingu Islets",
+        "place": "Mawingu Islets",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "??",
+        "level": "?? Neutral & Earth",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
+      },
+      {
+        "location": "??? I heard Sacred Lake",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "??",
+        "level": "?? Digital & Electric",
+        "freetem": {
+          "minLevel": 0,
+          "maxLevel": 0,
+          "minPansuns": 20,
+          "maxPansuns": 20
+        }
+      },
+      {
+        "location": "Loch Aduar",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "20%",
+        "level": "58 - 62 Melee & Mental",
+        "freetem": {
+          "minLevel": 58,
+          "maxLevel": 62,
+          "minPansuns": 194,
+          "maxPansuns": 206
         }
       }
     ],
@@ -33684,11 +33824,11 @@
         "levels": 42
       },
       {
-        "name": "Cheer Up",
+        "name": "Chain Heal",
         "source": "Breeding"
       },
       {
-        "name": "Hologram",
+        "name": "Cheer Up",
         "source": "Breeding"
       },
       {
@@ -33696,7 +33836,7 @@
         "source": "Breeding"
       },
       {
-        "name": "Chain Heal",
+        "name": "Hologram",
         "source": "Breeding"
       }
     ],
@@ -33913,11 +34053,11 @@
         "source": "TechniqueCourses"
       },
       {
-        "name": "Cheer Up",
+        "name": "Chain Heal",
         "source": "Breeding"
       },
       {
-        "name": "Hologram",
+        "name": "Cheer Up",
         "source": "Breeding"
       },
       {
@@ -33925,7 +34065,7 @@
         "source": "Breeding"
       },
       {
-        "name": "Chain Heal",
+        "name": "Hologram",
         "source": "Breeding"
       }
     ],
@@ -34097,11 +34237,11 @@
         "levels": 34
       },
       {
-        "name": "Shy Shield",
+        "name": "Digithreat",
         "source": "Breeding"
       },
       {
-        "name": "Digithreat",
+        "name": "Shy Shield",
         "source": "Breeding"
       }
     ],
@@ -34321,11 +34461,11 @@
         "source": "TechniqueCourses"
       },
       {
-        "name": "Shy Shield",
+        "name": "Digithreat",
         "source": "Breeding"
       },
       {
-        "name": "Digithreat",
+        "name": "Shy Shield",
         "source": "Breeding"
       }
     ],
@@ -34666,15 +34806,15 @@
         "source": "TechniqueCourses"
       },
       {
+        "name": "Thunder Strike",
+        "source": "Breeding"
+      },
+      {
         "name": "Turbo Charge",
         "source": "Breeding"
       },
       {
         "name": "Ultrasound",
-        "source": "Breeding"
-      },
-      {
-        "name": "Thunder Strike",
         "source": "Breeding"
       }
     ],
@@ -34888,15 +35028,15 @@
         "source": "TechniqueCourses"
       },
       {
+        "name": "Thunder Strike",
+        "source": "Breeding"
+      },
+      {
         "name": "Turbo Charge",
         "source": "Breeding"
       },
       {
         "name": "Ultrasound",
-        "source": "Breeding"
-      },
-      {
-        "name": "Thunder Strike",
         "source": "Breeding"
       }
     ],
@@ -35129,15 +35269,15 @@
         "source": "TechniqueCourses"
       },
       {
+        "name": "Thunder Strike",
+        "source": "Breeding"
+      },
+      {
         "name": "Turbo Charge",
         "source": "Breeding"
       },
       {
         "name": "Ultrasound",
-        "source": "Breeding"
-      },
-      {
-        "name": "Thunder Strike",
         "source": "Breeding"
       }
     ],
@@ -36203,7 +36343,9 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [],
+    "trivia": [
+      "Chimurian is based on cassowaries."
+    ],
     "evolution": {
       "evolves": false
     },
@@ -36359,15 +36501,15 @@
         "source": "TechniqueCourses"
       },
       {
-        "name": "Thunder Strike",
-        "source": "Breeding"
-      },
-      {
         "name": "Crystal Spikes",
         "source": "Breeding"
       },
       {
         "name": "Soul Shout",
+        "source": "Breeding"
+      },
+      {
+        "name": "Thunder Strike",
         "source": "Breeding"
       },
       {
