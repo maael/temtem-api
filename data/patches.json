@@ -1,5 +1,41 @@
 [
   {
+    "name": "Patch 0.8.2",
+    "version": "0.8.2",
+    "url": "https://crema.gg/temtem/patch-0-8-2/",
+    "date": "2021-11-23",
+    "patchInfo": {
+      "fixes": [
+        "Fixed a softlock when skipping a dialogue with One Eyed Matthew at Properton.",
+        "Fixed constantly seeing another Player at every location, even during cutscenes. You’re on your own now.",
+        "👥Fixed Zaobian and Minox having a 0 catch rate.",
+        "Fixed that Heavy Armor was not available in-game. Heavy Armor is now in.",
+        "👥Fixed that using a Minimonolith would open the TemDeck if a Player opened a Temtem’s Details from the TemDeck before using the item.",
+        "Fixed some Traits that were not working correctly after receiving certain bonuses during a Lair.",
+        "Fixed the Explorer Kudo not working properly.",
+        "Fixed the Inheritance Kudo unlocking without the need of an egg move.",
+        "Fixed being able to hover over Gears that were unavailable in the Backpack, and that it would cause them to appear available.",
+        "👥Fixed being able to select a higher amount of a furniture item than what the Player actually had when trying the sell them to an NPC.",
+        "👥Fixed Mawtle, Mawmense, Tutsu and Anatan not having their TVs properly configurated.",
+        "Fixed not being able to breed an Arachnyte that had their trait Adaptative activated in a battle prior.",
+        "👥Fixed Nutrition Bar only working for 3 turns instead of the correct 4.",
+        "👥Fixed enemy Temtem in the Lairs having techs that they should only learn at higher levels.",
+        "👥Fixed Adia being shown during the pub cinematic while the Player was talking to Carlos.",
+        "👥Fixed Domenico’s last dialogue option not starting a battle at Greenglen Forest.",
+        "Fixed that some character names weren’t using the color system in the dialogues of the cinematic following defeating Konstantinos.",
+        "Fixed Sima’s avatar not appearing while talking to them at their house in Lochburg.",
+        "Fixed that the Character Creation’s cosmetics would not load on the UI after trying to use an unavailable name.",
+        "👥Fixed Telobos’ collision at Sacred Lake not being disabled.",
+        "Fixed a duplicated NPC at Telobos that is placed out of limits.",
+        "👥Properton’s Port Authority NPC removed from the Postal Service Pool, since they leave.",
+        "👥Fixed the NPC name not being referenced properly in a dialogue with Alyssa at Properton if playing in French."
+      ],
+      "improvements": [],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
     "name": "Patch 0.8.1",
     "version": "0.8.1",
     "url": "https://crema.gg/temtem/patch-0-8-1/",
