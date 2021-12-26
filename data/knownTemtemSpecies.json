@@ -33463,6 +33463,104 @@
         }
       },
       {
+        "location": "Sillaro River",
+        "place": "Sillaro River",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "15%",
+        "level": "13 - 14 Water",
+        "freetem": {
+          "minLevel": 13,
+          "maxLevel": 14,
+          "minPansuns": 59,
+          "maxPansuns": 63
+        }
+      },
+      {
+        "location": "Thalassian Cliffs",
+        "place": "Thalassian Cliffs",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "35%",
+        "level": "18 - 20 Wind",
+        "freetem": {
+          "minLevel": 18,
+          "maxLevel": 20,
+          "minPansuns": 74,
+          "maxPansuns": 80
+        }
+      },
+      {
+        "location": "The Flywalk",
+        "place": "The Flywalk",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "30%",
+        "level": "20 - 21 Nature",
+        "freetem": {
+          "minLevel": 20,
+          "maxLevel": 21,
+          "minPansuns": 80,
+          "maxPansuns": 83
+        }
+      },
+      {
+        "location": "The Hangroad",
+        "place": "The Hangroad",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "15%",
+        "level": "18 - 21 Fire",
+        "freetem": {
+          "minLevel": 18,
+          "maxLevel": 21,
+          "minPansuns": 74,
+          "maxPansuns": 83
+        }
+      },
+      {
+        "location": "Xolot Reservoir",
+        "place": "Xolot Reservoir",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "10%",
+        "level": "30 - 33 Toxic",
+        "freetem": {
+          "minLevel": 30,
+          "maxLevel": 33,
+          "minPansuns": 110,
+          "maxPansuns": 119
+        }
+      },
+      {
+        "location": "Mines of Mictlan",
+        "place": "Mines of Mictlan",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "10%",
+        "level": "33 - 39 Crystal",
+        "freetem": {
+          "minLevel": 33,
+          "maxLevel": 39,
+          "minPansuns": 119,
+          "maxPansuns": 137
+        }
+      },
+      {
+        "location": "Mawingu Islets",
+        "place": "Mawingu Islets",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "20%",
+        "level": "32 - 39 Earth",
+        "freetem": {
+          "minLevel": 32,
+          "maxLevel": 39,
+          "minPansuns": 116,
+          "maxPansuns": 137
+        }
+      },
+      {
         "location": "Moyo Lake",
         "place": "Moyo Lake",
         "note": "",
@@ -33477,73 +33575,31 @@
         }
       },
       {
-        "location": "Sillaro River",
-        "place": "Sillaro River",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "??",
-        "level": "?? Water & Wind",
-        "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
-        }
-      },
-      {
-        "location": "The Flywalk",
-        "place": "The Flywalk",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "??",
-        "level": "?? Nature & Fire",
-        "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
-        }
-      },
-      {
-        "location": "???",
-        "place": "",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "??",
-        "level": "?? Crystal & Toxic",
-        "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
-        }
-      },
-      {
-        "location": "Mawingu Islets",
-        "place": "Mawingu Islets",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "??",
-        "level": "?? Neutral & Earth",
-        "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
-        }
-      },
-      {
-        "location": "??? I heard Sacred Lake",
+        "location": "Sacred Lake",
         "place": "",
         "note": "",
         "island": "Cipanku",
-        "frequency": "??",
-        "level": "?? Digital & Electric",
+        "frequency": "10%",
+        "level": "55 - 65 Electric",
         "freetem": {
-          "minLevel": 0,
-          "maxLevel": 0,
-          "minPansuns": 20,
-          "maxPansuns": 20
+          "minLevel": 55,
+          "maxLevel": 65,
+          "minPansuns": 185,
+          "maxPansuns": 215
+        }
+      },
+      {
+        "location": "Sacred Lake",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "10%",
+        "level": "55 - 65 Digital",
+        "freetem": {
+          "minLevel": 55,
+          "maxLevel": 65,
+          "minPansuns": 185,
+          "maxPansuns": 215
         }
       },
       {
@@ -33552,12 +33608,26 @@
         "note": "",
         "island": "Arbury",
         "frequency": "20%",
-        "level": "58 - 62 Melee & Mental",
+        "level": "58 - 65 Mental",
         "freetem": {
           "minLevel": 58,
-          "maxLevel": 62,
+          "maxLevel": 65,
           "minPansuns": 194,
-          "maxPansuns": 206
+          "maxPansuns": 215
+        }
+      },
+      {
+        "location": "Loch Aduar",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "20%",
+        "level": "58 - 65 Melee",
+        "freetem": {
+          "minLevel": 58,
+          "maxLevel": 65,
+          "minPansuns": 194,
+          "maxPansuns": 215
         }
       }
     ],
