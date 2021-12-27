@@ -49,9 +49,9 @@ import checkAndWrite from "../util/checkAndWrite";
     const patches = await getPatches();
     return embellishPatches(patches || []);
   });
-  await checkAndWrite("gear", "gear", async () => {
-    const gear = await getGear();
-    return embellishGear(gear!);
+  const gear = await checkAndWrite("gear", "gear", async () => {
+    const g = await getGear();
+    return embellishGear(g!);
   });
   const techniques = await checkAndWrite(
     "techniques",
@@ -85,7 +85,9 @@ import checkAndWrite from "../util/checkAndWrite";
     return embellishTemtemLocationPlacesAndNotes(temtem || [], locations || []);
   });
   await checkAndWrite("saipark", "saipark", getSaipark);
-  await checkAndWrite("freetemRewards", "freetemRewards", getFreeTemRewards);
+  await checkAndWrite("freetemRewards", "freetemRewards", async () =>
+    getFreeTemRewards(gear)
+  );
   await checkAndWrite("dojos", "dojos", async () => {
     return getDojos(temtem || [], techniques || [], traits || []);
   });
