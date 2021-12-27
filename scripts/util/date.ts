@@ -27,7 +27,6 @@ export function formatDate({
 }
 
 export function processYearWeekDate(text: string) {
-  const dateFormat = "yyyy-MM-dd";
   const start = addDays(
     parse(text.replace("Week", "").replace("  ", " "), "YYYY ww", new Date(), {
       useAdditionalWeekYearTokens: true,
@@ -36,8 +35,8 @@ export function processYearWeekDate(text: string) {
   );
   const end = addDays(endOfWeek(start), 1);
   return {
-    start: format(start, dateFormat),
-    end: format(end, dateFormat),
+    start: start.toISOString(),
+    end: end.toISOString(),
     durationLength: Math.abs(differenceInDays(start, end)),
     duration: `${format(start, "MMMM dd")} - ${format(end, "MMMM dd")}`,
   };

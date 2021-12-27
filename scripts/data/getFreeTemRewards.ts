@@ -66,11 +66,11 @@ export default async function getFreetemRewards(gear: any) {
         let part = "";
         try {
           const parse1 = parse(clean, "MMMM do, yyyy", new Date());
-          part = format(parse1, "yyyy-MM-dd");
+          part = parse1.toISOString();
         } catch {
           try {
             const parse2 = parse(clean, "MMMM do", new Date());
-            part = format(parse2, "yyyy-MM-dd");
+            part = parse2.toISOString();
           } catch (e) {
             log.warn(clean, e);
           }
@@ -115,10 +115,10 @@ export default async function getFreetemRewards(gear: any) {
         effectDescription: matchedGear ? matchedGear.description : "",
         requirement: i.p,
         freedTemtem: parseInt(i.p.replace("releases", ""), 10),
-        duration: `${format(
-          parse(start, "yyyy-MM-dd", new Date()),
+        duration: `${format(new Date(start), "MMMM dd")} - ${format(
+          new Date(end),
           "MMMM dd"
-        )} - ${format(parse(end, "yyyy-MM-dd", new Date()), "MMMM dd")}`,
+        )}`,
         startDate: start,
         endDate: end,
       };
