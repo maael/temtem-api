@@ -1,4 +1,9 @@
 import * as log from "./log";
+import parse from "date-fns/parse";
+import endOfWeek from "date-fns/endOfWeek";
+import differenceInDays from "date-fns/differenceInDays";
+import addDays from "date-fns/addDays";
+import format from "date-fns/format";
 
 export function formatDate({
   day,
@@ -21,37 +26,19 @@ export function formatDate({
   }
 }
 
-const monthAbbrevs = [
-  "Jan",
-  "Feb",
-  "Mar",
-  "Apr",
-  "May",
-  "Jun",
-  "Jul",
-  "Aug",
-  "Sep",
-  "Oct",
-  "Nov",
-  "Dec",
-];
-
-export function processDate(text: string) {
-  const year = text.match(/(\d{4})/);
-  const matchedMonths = monthAbbrevs
-    .map((a, i) => (text.includes(a) ? i + 1 : 0))
-    .filter(Boolean);
-  const days = text.match(/(\d{1,2})/g);
+export function processYearWeekDate(text: string) {
+  const dateFormat = "yyyy-MM-dd";
+  const start = addDays(
+    parse(text.replace("Week", "").replace("  ", " "), "YYYY ww", new Date(), {
+      useAdditionalWeekYearTokens: true,
+    }),
+    1
+  );
+  const end = addDays(endOfWeek(start), 1);
   return {
-    start: {
-      day: days ? Number(days[0]) : 0,
-      month: matchedMonths[0],
-      year: year ? Number(year[0]) : 2020,
-    },
-    end: {
-      day: days ? Number(days[1]) : 0,
-      month: matchedMonths[1] || matchedMonths[0],
-      year: year ? Number(year[0]) : 2020,
-    },
+    start: format(start, dateFormat),
+    end: format(end, dateFormat),
+    durationLength: Math.abs(differenceInDays(start, end)),
+    duration: `${format(start, "MMMM dd")} - ${format(end, "MMMM dd")}`,
   };
 }

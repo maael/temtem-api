@@ -2,11 +2,12 @@ import got from "got";
 import cheerio from "cheerio";
 import * as log from "../util/log";
 import { typedToArray } from "../util/cheerioHelpers";
-import { formatDate, processDate } from "../util/date";
-import { stripQuerystring } from "../util/url";
+import { processYearWeekDate } from "../util/date";
 import { FreetemReward } from "../checker/codecs/freetemRewards";
+import parse from "date-fns/parse";
+import format from "date-fns/format";
 
-export default async function getFreetemRewards() {
+export default async function getFreetemRewards(gear: any) {
   log.info("Starting");
   try {
     log.info("Running");
@@ -14,8 +15,8 @@ export default async function getFreetemRewards() {
       "https://temtem.gamepedia.com/FreeTem!_Organisation"
     );
     const $ = cheerio.load(result.body);
-    const tableRows = $("#Rewards").parent().next().find("tr");
-    return typedToArray<FreetemReward>(
+    const tableRows = $("#Reward_History").parent().next("table").find("tr");
+    const past = typedToArray<FreetemReward>(
       tableRows.map((i, el) => {
         if (i === 0) return;
         const parts = typedToArray<{
@@ -33,37 +34,99 @@ export default async function getFreetemRewards() {
               src: $(td).find("img").attr("src"),
             }))
         );
-        const quantity = parseInt(
-          `${(parts[1].text.match(/(\d+)x/) || [])[1] || 1}`,
-          10
+        const freedTemtem = parseInt(parts[2].text, 10);
+        const dateInfo = processYearWeekDate(parts[3].text);
+        const name = parts[0].text;
+        const wikiUrl = `https://temtem.gamepedia.com${parts[0].href}`;
+        const matchedGear = gear.find(
+          (g) => g.name === name || g.wikiUrl === wikiUrl
         );
-        const freedTemtem = parseInt(
-          `${(parts[3].text.match(/(\d+)/) || [])[1] || 1}`,
-          10
-        );
-        const dateInfo = parts[4].text
-          ? processDate(parts[4].text)
-          : parts[4].text;
         const reward: FreetemReward = {
-          name: parts[1].link,
-          quantity,
-          wikiUrl: `https://temtem.gamepedia.com${parts[1].href}`,
-          wikiImageUrl: stripQuerystring(parts[0].src),
-          effectDescription: parts[2].text,
-          requirement: parts[3].text,
+          name,
+          quantity: parseInt(parts[1].text, 10),
+          wikiUrl,
+          wikiImageUrl: matchedGear ? matchedGear.wikiIconUrl : "",
+          effectDescription: matchedGear ? matchedGear.description : "",
+          requirement: `${freedTemtem} releases`,
           freedTemtem,
-          duration: parts[4].text,
-          startDate:
-            typeof dateInfo === "string"
-              ? dateInfo
-              : formatDate(dateInfo.start),
-          endDate:
-            typeof dateInfo === "string" ? dateInfo : formatDate(dateInfo.end),
+          duration: dateInfo.duration,
+          startDate: dateInfo.start,
+          endDate: dateInfo.end,
         };
         return reward;
       })
     ).reverse();
+    const [start, end] = $("#rewards-curr-table")
+      .prev("h3")
+      .find(".mw-headline")
+      .text()
+      .split(" to ")
+      .map((i) => {
+        const clean = i.trim();
+        let part = "";
+        try {
+          const parse1 = parse(clean, "MMMM do, yyyy", new Date());
+          part = format(parse1, "yyyy-MM-dd");
+        } catch {
+          try {
+            const parse2 = parse(clean, "MMMM do", new Date());
+            part = format(parse2, "yyyy-MM-dd");
+          } catch (e) {
+            log.warn(clean, e);
+          }
+        }
+        return part;
+      });
+    const current = $("#rewards-curr-table").find("tr").last();
+    const currentItems = typedToArray<{
+      text: string;
+      link: string;
+      href: string;
+      p: string;
+    }>(
+      $(current)
+        .find("td")
+        .map((_j, td) => ({
+          text: $(td).text().trim(),
+          link: $(td).find("a").text().trim(),
+          href: $(td).find("a").attr("href"),
+          p: $(td).find("p").text().trim(),
+        }))
+    ).map((i) => {
+      const name = i.link;
+      const wikiUrl = `https://temtem.gamepedia.com${i.href}`;
+      const matchedGear = gear.find(
+        (g) => g.name === name || g.wikiUrl === wikiUrl
+      );
+      const reward: FreetemReward = {
+        name,
+        quantity: parseInt(
+          i.text
+            .replace(i.link, "")
+            .replace(i.p, "")
+            .trim()
+            .replace("\n", "")
+            .replace("x", "")
+            .trim(),
+          10
+        ),
+        wikiUrl,
+        wikiImageUrl: matchedGear ? matchedGear.wikiIconUrl : "",
+        effectDescription: matchedGear ? matchedGear.description : "",
+        requirement: i.p,
+        freedTemtem: parseInt(i.p.replace("releases", ""), 10),
+        duration: `${format(
+          parse(start, "yyyy-MM-dd", new Date()),
+          "MMMM dd"
+        )} - ${format(parse(end, "yyyy-MM-dd", new Date()), "MMMM dd")}`,
+        startDate: start,
+        endDate: end,
+      };
+      return reward;
+    });
+    return past.concat(currentItems);
   } catch (e) {
     log.error(e.message);
+    return [];
   }
 }
