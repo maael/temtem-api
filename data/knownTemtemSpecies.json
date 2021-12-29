@@ -15110,6 +15110,20 @@
     "lumaWikiPortraitUrlLarge": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
     "locations": [
       {
+        "location": "Windward Fort",
+        "place": "Windward Fort",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "30%",
+        "level": "11 - 13",
+        "freetem": {
+          "minLevel": 11,
+          "maxLevel": 13,
+          "minPansuns": 42,
+          "maxPansuns": 46
+        }
+      },
+      {
         "location": "Iwaba",
         "place": "",
         "note": "",
@@ -16687,6 +16701,20 @@
         }
       },
       {
+        "location": "Arissola Dojo",
+        "place": "Arissola Dojo",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "35%",
+        "level": "15 - 17",
+        "freetem": {
+          "minLevel": 15,
+          "maxLevel": 17,
+          "minPansuns": 53,
+          "maxPansuns": 57
+        }
+      },
+      {
         "location": "Sillaro River",
         "place": "Sillaro River",
         "note": "",
@@ -16715,20 +16743,6 @@
         }
       },
       {
-        "location": "Xolot Reservoir",
-        "place": "Xolot Reservoir",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "30% - 40%",
-        "level": "30 - 33",
-        "freetem": {
-          "minLevel": 30,
-          "maxLevel": 33,
-          "minPansuns": 85,
-          "maxPansuns": 91
-        }
-      },
-      {
         "location": "Saipark",
         "place": "Saipark",
         "note": "",
@@ -16743,17 +16757,17 @@
         }
       },
       {
-        "location": "Arissola Dojo",
-        "place": "Arissola Dojo",
+        "location": "Xolot Reservoir",
+        "place": "Xolot Reservoir",
         "note": "",
-        "island": "Deniz",
-        "frequency": "35%",
-        "level": "15 - 17",
+        "island": "Tucma",
+        "frequency": "30% - 40%",
+        "level": "30 - 33",
         "freetem": {
-          "minLevel": 15,
-          "maxLevel": 17,
-          "minPansuns": 53,
-          "maxPansuns": 57
+          "minLevel": 30,
+          "maxLevel": 33,
+          "minPansuns": 85,
+          "maxPansuns": 91
         }
       },
       {
@@ -16771,20 +16785,6 @@
         }
       },
       {
-        "location": "Meadowdale",
-        "place": "Meadowdale",
-        "note": "",
-        "island": "Arbury",
-        "frequency": "20% - 50%",
-        "level": "55 - 65",
-        "freetem": {
-          "minLevel": 55,
-          "maxLevel": 65,
-          "minPansuns": 138,
-          "maxPansuns": 160
-        }
-      },
-      {
         "location": "Loch Aduar",
         "place": "",
         "note": "",
@@ -16796,6 +16796,20 @@
           "maxLevel": 62,
           "minPansuns": 145,
           "maxPansuns": 153
+        }
+      },
+      {
+        "location": "Meadowdale",
+        "place": "Meadowdale",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "20% - 50%",
+        "level": "55 - 65",
+        "freetem": {
+          "minLevel": 55,
+          "maxLevel": 65,
+          "minPansuns": 138,
+          "maxPansuns": 160
         }
       }
     ],
@@ -20342,7 +20356,22 @@
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/90/Mushook.png",
     "lumaWikiPortraitUrlLarge": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Sewers of Properton",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "10% - 20%",
+        "level": "60 - 70",
+        "freetem": {
+          "minLevel": 60,
+          "maxLevel": 70,
+          "minPansuns": 251,
+          "maxPansuns": 290
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Mushook.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Mushook.png",
     "genderRatio": {
@@ -27745,7 +27774,7 @@
       "spatk": 0,
       "spdef": 1
     },
-    "gameDescription": "At home int he denser part of the forests, this species is very adept at camouflage and, once they overcome their natural shyness, they make great friends for tamers of all ages.",
+    "gameDescription": "At home in the denser part of the forests, this species is very adept at camouflage and, once they overcome their natural shyness, they make great friends for tamers of all ages.",
     "wikiRenderStaticUrl": "",
     "wikiRenderAnimatedUrl": "",
     "wikiRenderStaticLumaUrl": "",
@@ -33449,25 +33478,11 @@
     "lumaWikiPortraitUrlLarge": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
     "locations": [
       {
-        "location": "Nuru Lodge",
-        "place": "Nuru Lodge",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "100%",
-        "level": "44 - 50 Weekly",
-        "freetem": {
-          "minLevel": 44,
-          "maxLevel": 50,
-          "minPansuns": 152,
-          "maxPansuns": 170
-        }
-      },
-      {
         "location": "Sillaro River",
         "place": "Sillaro River",
         "note": "",
         "island": "Deniz",
-        "frequency": "15%",
+        "frequency": "20%",
         "level": "13 - 14 Water",
         "freetem": {
           "minLevel": 13,
@@ -33481,7 +33496,7 @@
         "place": "Thalassian Cliffs",
         "note": "",
         "island": "Deniz",
-        "frequency": "35%",
+        "frequency": "30%",
         "level": "18 - 20 Wind",
         "freetem": {
           "minLevel": 18,
@@ -33495,12 +33510,12 @@
         "place": "The Flywalk",
         "note": "",
         "island": "Omninesia",
-        "frequency": "30%",
-        "level": "20 - 21 Nature",
+        "frequency": "15%",
+        "level": "19 - 21 Nature",
         "freetem": {
-          "minLevel": 20,
+          "minLevel": 19,
           "maxLevel": 21,
-          "minPansuns": 80,
+          "minPansuns": 77,
           "maxPansuns": 83
         }
       },
@@ -33519,16 +33534,30 @@
         }
       },
       {
+        "location": "Corrupted Badlands",
+        "place": "Corrupted Badlands",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "20%",
+        "level": "27 - 30 Toxic",
+        "freetem": {
+          "minLevel": 27,
+          "maxLevel": 30,
+          "minPansuns": 101,
+          "maxPansuns": 110
+        }
+      },
+      {
         "location": "Xolot Reservoir",
         "place": "Xolot Reservoir",
         "note": "",
         "island": "Tucma",
         "frequency": "10%",
-        "level": "30 - 33 Toxic",
+        "level": "29 - 33 Toxic",
         "freetem": {
-          "minLevel": 30,
+          "minLevel": 29,
           "maxLevel": 33,
-          "minPansuns": 110,
+          "minPansuns": 107,
           "maxPansuns": 119
         }
       },
@@ -33537,13 +33566,27 @@
         "place": "Mines of Mictlan",
         "note": "",
         "island": "Tucma",
-        "frequency": "10%",
+        "frequency": "15%",
         "level": "33 - 39 Crystal",
         "freetem": {
           "minLevel": 33,
           "maxLevel": 39,
           "minPansuns": 119,
           "maxPansuns": 137
+        }
+      },
+      {
+        "location": "Gardens of Aztlan",
+        "place": "",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "20%",
+        "level": "28 - 35 Crystal",
+        "freetem": {
+          "minLevel": 28,
+          "maxLevel": 35,
+          "minPansuns": 105,
+          "maxPansuns": 125
         }
       },
       {
@@ -33558,6 +33601,20 @@
           "maxLevel": 39,
           "minPansuns": 116,
           "maxPansuns": 137
+        }
+      },
+      {
+        "location": "Nuru Lodge",
+        "place": "Nuru Lodge",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "100%",
+        "level": "44 - 50 Weekly",
+        "freetem": {
+          "minLevel": 44,
+          "maxLevel": 50,
+          "minPansuns": 152,
+          "maxPansuns": 170
         }
       },
       {
@@ -33579,7 +33636,7 @@
         "place": "",
         "note": "",
         "island": "Cipanku",
-        "frequency": "10%",
+        "frequency": "15%",
         "level": "55 - 65 Electric",
         "freetem": {
           "minLevel": 55,
@@ -33593,7 +33650,7 @@
         "place": "",
         "note": "",
         "island": "Cipanku",
-        "frequency": "10%",
+        "frequency": "15%",
         "level": "55 - 65 Digital",
         "freetem": {
           "minLevel": 55,
@@ -33608,12 +33665,12 @@
         "note": "",
         "island": "Arbury",
         "frequency": "20%",
-        "level": "58 - 65 Mental",
+        "level": "58 - 62 Melee",
         "freetem": {
           "minLevel": 58,
-          "maxLevel": 65,
+          "maxLevel": 62,
           "minPansuns": 194,
-          "maxPansuns": 215
+          "maxPansuns": 206
         }
       },
       {
@@ -33622,12 +33679,12 @@
         "note": "",
         "island": "Arbury",
         "frequency": "20%",
-        "level": "58 - 65 Melee",
+        "level": "58 - 62 Mental",
         "freetem": {
           "minLevel": 58,
-          "maxLevel": 65,
+          "maxLevel": 62,
           "minPansuns": 194,
-          "maxPansuns": 215
+          "maxPansuns": 206
         }
       }
     ],
@@ -34707,11 +34764,6 @@
         "name": "Harmful Lick",
         "source": "Levelling",
         "levels": 45
-      },
-      {
-        "name": "Head Ram",
-        "source": "Levelling",
-        "levels": 55
       },
       {
         "name": "Wastewater",
