@@ -38,7 +38,11 @@ async function getBasicList() {
             $(el)
               .find("a")
               .map((_j, a) => {
-                if (a.firstChild.tagName === "img") return;
+                if (
+                  ((a as cheerio.TagElement).firstChild as cheerio.TagElement)
+                    ?.tagName === "img"
+                )
+                  return;
                 return {
                   text: $(a).text().trim(),
                   url: $(a).attr("href"),
@@ -96,7 +100,7 @@ async function embellishDojos(
   return result;
 }
 
-function getTemtem($: CheerioStatic, leader: string) {
+function getTemtem($: cheerio.Root, leader: string) {
   let temtemItems: any = [];
   let $temtemTable: any = null;
   try {

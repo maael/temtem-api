@@ -3,6 +3,7 @@ import cheerio from "cheerio";
 import * as log from "../util/log";
 import fetchHTML from "../util/fetchHTML";
 import { Gear as MinimalGear } from "./getGear";
+import { isTagElement } from "../util/cheerioHelpers";
 
 export interface Gear extends MinimalGear {
   wikiIconUrl: string;
@@ -70,7 +71,7 @@ export default async function embellishGear(
   }
 }
 
-function getDescription($: CheerioStatic) {
+function getDescription($: cheerio.Root) {
   const firstP = $("#mw-content-text>.mw-parser-output>p")
     .first()
     .text()
@@ -80,12 +81,16 @@ function getDescription($: CheerioStatic) {
     .first()
     .next();
   let potentialSecondPContent = "";
-  if (firstPSibling[0] && firstPSibling[0].name === "p") {
+  if (
+    firstPSibling[0] &&
+    isTagElement(firstPSibling[0]) &&
+    firstPSibling[0].name === "p"
+  ) {
     potentialSecondPContent = firstPSibling.text().replace(/\n/g, "").trim();
   }
   return `${firstP}${potentialSecondPContent}`;
 }
 
-function getGameDescription($: CheerioStatic) {
+function getGameDescription($: cheerio.Root) {
   return $("#Description").parent().next().text().replace(/\n/g, "").trim();
 }

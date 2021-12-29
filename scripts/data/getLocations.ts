@@ -75,7 +75,7 @@ function attachType(ar: any[], type: LocationType) {
   return ar.map((a) => ({ ...a, type }));
 }
 
-function getImage($: CheerioStatic) {
+function getImage($: cheerio.Root) {
   const thumb = $(".thumbinner").first();
   const fileLink = thumb.find("a").attr("href");
   const thumbnail = thumb.find("img").attr("src");
@@ -89,11 +89,7 @@ function getImage($: CheerioStatic) {
   };
 }
 
-function getSectionList(
-  $: CheerioStatic,
-  name: string,
-  detailEl: string = "a"
-) {
+function getSectionList($: cheerio.Root, name: string, detailEl: string = "a") {
   return typedToArray<{ name: string; wikiUrl: string }>(
     $(`#${name}`)
       .parent()

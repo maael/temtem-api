@@ -31,11 +31,11 @@ export default async function getTraits(
   }
 }
 
-function getDescription($: CheerioStatic) {
+function getDescription($: cheerio.Root) {
   return getText($, "#In-Game_Description", "#Description");
 }
 
-function getEffect($: CheerioStatic) {
+function getEffect($: cheerio.Root) {
   return getText($, "#Effect_Description", "#Effect").replace(
     "In-depth analysis here.",
     ""
@@ -43,7 +43,7 @@ function getEffect($: CheerioStatic) {
 }
 
 function getText(
-  $: CheerioStatic,
+  $: cheerio.Root,
   primarySelector: string,
   secondarySelector: string
 ) {

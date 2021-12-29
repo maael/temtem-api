@@ -24,7 +24,7 @@ export interface SideQuest extends MinimalSideQuest {
   requirements: string;
 }
 
-function getInfoBoxEl($: any, str: string): Cheerio {
+function getInfoBoxEl($: any, str: string): cheerio.Cheerio {
   return $(".infobox-row")
     .filter((_i, el) => {
       return !!$(el).text().includes(str);
