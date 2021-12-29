@@ -8,6 +8,10 @@ export interface Condition {
   icon: string;
 }
 
+const iconSpecialCases: { [name: string]: string } = {
+  Invigorated: "Vigorized",
+};
+
 export default async function getStatuses() {
   log.info("Starting");
   try {
@@ -30,7 +34,9 @@ export default async function getStatuses() {
         .map((c) => ({
           name: c.trim(),
           description,
-          icon: `/images/icons/conditions/${c.trim()}.png`,
+          icon: `/images/icons/conditions/${
+            iconSpecialCases[c.trim()] || c.trim()
+          }.png`,
         }));
       statuses.push(...conditions);
     });
