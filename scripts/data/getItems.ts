@@ -35,7 +35,7 @@ export default async function getItems(): Promise<Item[]> {
 }
 
 function getItemTableWithDetails(
-  $: CheerioStatic,
+  $: cheerio.Root,
   selector: string,
   category: string
 ) {
@@ -81,7 +81,7 @@ function getItemTableWithDetails(
 }
 
 function getSimpleItemTable(
-  $: CheerioStatic,
+  $: cheerio.Root,
   selector: string,
   category: string,
   next: number = 2

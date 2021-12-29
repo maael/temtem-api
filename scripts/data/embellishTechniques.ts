@@ -37,7 +37,7 @@ export interface Technique extends MinimalTechnique {
   description: string;
 }
 
-function getInfoBox($: CheerioStatic, str: string, idx: number = 0): string {
+function getInfoBox($: cheerio.Root, str: string, idx: number = 0): string {
   let found = $(".infobox-row-name").filter((_i, el) => {
     return $(el).text().trim().toLowerCase() === str.toLowerCase();
   });
@@ -48,7 +48,7 @@ function getInfoBox($: CheerioStatic, str: string, idx: number = 0): string {
 }
 
 function getInfoBoxTitle(
-  $: CheerioStatic,
+  $: cheerio.Root,
   str: string,
   idx: number = 0
 ): string {
@@ -63,7 +63,7 @@ function getInfoBoxTitle(
   ).trim();
 }
 
-function getInfoBoxEl($: CheerioStatic, str: string): Cheerio {
+function getInfoBoxEl($: cheerio.Root, str: string): cheerio.Cheerio {
   return $(".infobox-row-name")
     .filter((_i, el) => {
       return $(el).text().trim().toLowerCase() === str.toLowerCase();
@@ -148,11 +148,12 @@ export default async function embellishTechniques(
   }
 }
 
-function getEffectText($: CheerioStatic) {
+function getEffectText($: cheerio.Root) {
   const effectTextHeader = $("#Effect");
   if (!effectTextHeader.length) return "";
   const effectText = $(effectTextHeader).parent().next();
-  if (!effectText.length || effectText[0].name !== "p") return "";
+  if (!effectText.length || (effectText[0] as cheerio.TagElement).name !== "p")
+    return "";
   return $(effectText).text();
 }
 
@@ -183,7 +184,7 @@ function getEffectsFromText(text: string, conditions: Condition[]) {
   return allPossible;
 }
 
-function getSynergyData($: CheerioStatic) {
+function getSynergyData($: cheerio.Root) {
   const effectsEl = getInfoBoxEl($, "Effects");
   const effectIcon = ($(effectsEl).find("a").last().attr("href") || "")
     .replace(/^\/File:/, "")

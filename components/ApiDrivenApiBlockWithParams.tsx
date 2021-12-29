@@ -39,7 +39,6 @@ export default function ApiDrivenApiBlockWithParams({
       }
     })().catch((e) => console.error(e));
   }, [paramState]);
-  console.info(paramState, err, loading);
   return (
     <ApiBlock example={res}>
       <>

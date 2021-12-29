@@ -4,7 +4,7 @@ import glob from "glob";
 import * as log from "../util/log";
 import fetchHTML from "../util/fetchHTML";
 import { cleanToNumber } from "../util/cleaners";
-import { typedToArray } from "../util/cheerioHelpers";
+import { isElementTagNameNot, typedToArray } from "../util/cheerioHelpers";
 import { Temtem as MinimalTemtem } from "./getKnownTemtemSpecies";
 
 export enum TechniqueSource {
@@ -241,10 +241,10 @@ function getLocations(html: string, debug?: boolean) {
   const $ = cheerio.load(html);
   const locationHeader = $("#Location");
   let locationTable = $(locationHeader).parent().next();
-  if (locationTable[0].tagName !== "table") {
+  if (isElementTagNameNot(locationTable[0], "table", "tagName")) {
     locationTable = $(locationTable).next();
   }
-  if (locationTable[0].tagName !== "table") {
+  if (isElementTagNameNot(locationTable[0], "table", "tagName")) {
     return [];
   }
   const locations = typedToArray<TemtemLocation>(
@@ -470,11 +470,11 @@ function getTechniqueTableType(caption: string) {
 function getGameDescription(html: string, _item: MinimalTemtem) {
   const $ = cheerio.load(html);
   let potentialEl = $("#Description").parent().next();
-  if (potentialEl[0] && potentialEl[0].name !== "table") {
+  if (isElementTagNameNot(potentialEl[0], "table")) {
     potentialEl = $(potentialEl).next();
   }
   let text = "";
-  if (potentialEl[0] && potentialEl[0].name !== "table") {
+  if (isElementTagNameNot(potentialEl[0], "table")) {
     text = "";
   } else {
     text = $(potentialEl).find("i").text().trim();
@@ -485,8 +485,8 @@ function getGameDescription(html: string, _item: MinimalTemtem) {
 }
 
 function getTechniquesFromTable(
-  $: CheerioStatic,
-  table: CheerioElement,
+  $: cheerio.Root,
+  table: cheerio.Element,
   type: ReturnType<typeof getTechniqueTableType>
 ) {
   return $(table)
