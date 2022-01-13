@@ -252,7 +252,7 @@
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
     "damage": 115,
-    "staminaCost": 16,
+    "staminaCost": 22,
     "hold": 0,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
@@ -325,7 +325,7 @@
     "classIcon": "/images/icons/technique/Physical.png",
     "damage": 100,
     "staminaCost": 26,
-    "hold": 2,
+    "hold": 1,
     "priority": "low",
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "Earth",
@@ -594,8 +594,8 @@
     "class": "Status",
     "classIcon": "/images/icons/technique/Status.png",
     "damage": 0,
-    "staminaCost": 20,
-    "hold": 0,
+    "staminaCost": 18,
+    "hold": 1,
     "priority": "high",
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "None",
@@ -823,7 +823,7 @@
     "synergy": "Mental",
     "synergyEffects": [
       {
-        "effect": "3 Turns  Asleep",
+        "effect": "2 Turns  Asleep",
         "type": "condition",
         "damage": 0
       }
@@ -1043,7 +1043,7 @@
     "type": "Wind",
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 60,
+    "damage": 73,
     "staminaCost": 11,
     "hold": 0,
     "priority": "normal",
@@ -1051,9 +1051,9 @@
     "synergy": "Wind",
     "synergyEffects": [
       {
-        "damage": 90,
+        "damage": 103,
         "type": "damage",
-        "effect": "+90 Damage"
+        "effect": "+103 Damage"
       }
     ],
     "targets": "Single Target",
@@ -1659,7 +1659,7 @@
     "type": "Neutral",
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 72,
+    "damage": 90,
     "staminaCost": 29,
     "hold": 0,
     "priority": "normal",
@@ -2229,7 +2229,7 @@
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
     "damage": 100,
-    "staminaCost": 20,
+    "staminaCost": 12,
     "hold": 0,
     "priority": "low",
     "priorityIcon": "/images/icons/priority/low.png",
@@ -2503,7 +2503,7 @@
     "type": "Wind",
     "class": "Special",
     "classIcon": "/images/icons/technique/Special.png",
-    "damage": 59,
+    "damage": 65,
     "staminaCost": 34,
     "hold": 1,
     "priority": "high",
@@ -2674,8 +2674,8 @@
     "damage": 0,
     "staminaCost": 18,
     "hold": 0,
-    "priority": "high",
-    "priorityIcon": "/images/icons/priority/high.png",
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
@@ -3898,7 +3898,7 @@
     "type": "Crystal",
     "class": "Special",
     "classIcon": "/images/icons/technique/Special.png",
-    "damage": 60,
+    "damage": 70,
     "staminaCost": 20,
     "hold": 1,
     "priority": "normal",
@@ -3911,9 +3911,9 @@
         "damage": 0
       },
       {
-        "damage": 70,
+        "damage": 80,
         "type": "damage",
-        "effect": "+70 Damage"
+        "effect": "+80 Damage"
       }
     ],
     "targets": "Other Team or Ally",
@@ -4133,8 +4133,8 @@
     "damage": 0,
     "staminaCost": 26,
     "hold": 1,
-    "priority": "ultra",
-    "priorityIcon": "/images/icons/priority/ultra.png",
+    "priority": "veryhigh",
+    "priorityIcon": "/images/icons/priority/veryhigh.png",
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Target",
@@ -5464,8 +5464,8 @@
     "type": "Neutral",
     "class": "Special",
     "classIcon": "/images/icons/technique/Special.png",
-    "damage": 130,
-    "staminaCost": 31,
+    "damage": 110,
+    "staminaCost": 26,
     "hold": 0,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
@@ -5903,14 +5903,14 @@
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
     "damage": 89,
-    "staminaCost": 33,
+    "staminaCost": 27,
     "hold": 0,
     "priority": "low",
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "Electric",
     "synergyEffects": [
       {
-        "effect": "1 Turn  Exhausted",
+        "effect": "2 Turn  Exhausted",
         "type": "condition",
         "damage": 0
       },
@@ -5921,7 +5921,7 @@
       }
     ],
     "targets": "Single Other Target",
-    "description": "The masseurs of Onsenshima don't usually want to hurt you. This technique is the exception - slow, moderate-damage technique.Now, this really pummels your deep tissues. Used in combination with a Melee [sic] ally, damage is increased and the enemy is exhausted for 1 turn.",
+    "description": "The masseurs of Onsenshima don't usually want to hurt you. This technique is the exception - slow, moderate-damage technique.Now, this really pummels your deep tissues. Used in combination with a Melee [sic] ally, damage is increased and the enemy is exhausted for 2 turns.",
     "effectText": "Wrenching Massage deals damage to a single other target.",
     "effects": []
   },

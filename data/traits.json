@@ -447,7 +447,7 @@
     "name": "Hypnotist",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Hypnotist",
     "description": "",
-    "effect": "When the holder enters the field, Inflicts Asleep to both opposing temtem for 1 turn."
+    "effect": "When the holder enters the field, Inflicts Asleep to both opposing Temtem and the holder's ally for 1 turn."
   },
   {
     "name": "Ignis Fatuus",
@@ -519,7 +519,7 @@
     "name": "Last Rush",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Last_Rush",
     "description": "",
-    "effect": "Last Rush increases the damage of the holder's Techniques by an additional 30% while the number of conscious Temtem on the rival's squad outnumber the number of conscious Temtem on the holder's squad."
+    "effect": "Last Rush increases the damage of the holder's Techniques by an additional 40% while the number of conscious Temtem on the rival's squad outnumber the number of conscious Temtem on the holder's squad."
   },
   {
     "name": "Loneliness",
@@ -597,13 +597,13 @@
     "name": "Patient",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Patient",
     "description": "",
-    "effect": "Patient restores 10% of the holder's max STA when they use a Techniques that has any amount of Hold."
+    "effect": "Patient restores 15% of the holder's max STA when they use a Techniques that has any amount of Hold."
   },
   {
     "name": "Physgulp",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Physgulp",
     "description": "",
-    "effect": "Physgulp restores 12% of the holder's max HP whenever they are attacked by a Physical Technique."
+    "effect": "Physgulp restores 8% of the holder's max HP whenever they are attacked by a Physical Technique."
   },
   {
     "name": "Physmaster",
@@ -831,7 +831,7 @@
     "name": "Specgulp",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Specgulp",
     "description": "",
-    "effect": "Specgulp restores 12% of the holder's max HP whenever they are attacked by a Special Technique."
+    "effect": "Specgulp restores 8% of the holder's max HP whenever they are attacked by a Special Technique."
   },
   {
     "name": "Specmaster",
@@ -909,7 +909,7 @@
     "name": "Tag Team",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Tag_Team",
     "description": "",
-    "effect": "Tag Team decreases the damage the holder takes from Techniques by 10% if both the holder and their ally share a Type."
+    "effect": "Tag Team decreases the damage the holder takes from Techniques by 15% if both the holder and their ally share a Type."
   },
   {
     "name": "Tardy Rush",
@@ -1059,7 +1059,7 @@
     "name": "Welcomer",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Welcomer",
     "description": "",
-    "effect": "Welcomer gifts an ally with Evading for 2 turns, once per battle."
+    "effect": "Welcomer gifts an ally with Evading for 1 turn, once per battle."
   },
   {
     "name": "Withdrawal",
