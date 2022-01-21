@@ -11,12 +11,12 @@
   },
   {
     "name": "Cold",
-    "description": "If Cold is afflicted twice, the Temtem becomes Frozen. Frozen Temtem cannot attack, but they can rest normally. Cold and Frozen also serve to erase the Burned Condition from a Temtem, while Burned erases both the Cold and Frozen conditions.",
+    "description": "While the Cold status condition does not have a direct impact, it serves to set up the Frozen status condtions listed below. Cold erases the Burned Condition from a Temtem, while Burned erases both the Cold and Frozen conditions.",
     "icon": "/images/icons/conditions/Cold.png"
   },
   {
     "name": "Frozen",
-    "description": "If Cold is afflicted twice, the Temtem becomes Frozen. Frozen Temtem cannot attack, but they can rest normally. Cold and Frozen also serve to erase the Burned Condition from a Temtem, while Burned erases both the Cold and Frozen conditions.",
+    "description": "If Cold is afflicted twice, the Temtem becomes Frozen. Frozen Temtem cannot attack, but they can rest normally. Like Cold, Frozen also erases the Burned Condition from a Temtem, while Burned erases both the Cold and Frozen conditions.",
     "icon": "/images/icons/conditions/Frozen.png"
   },
   {
