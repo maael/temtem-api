@@ -11207,13 +11207,27 @@
         "place": "Meadowdale",
         "note": "",
         "island": "Arbury",
-        "frequency": "50%",
+        "frequency": "30% - 50%",
         "level": "60 - 65",
         "freetem": {
           "minLevel": 60,
           "maxLevel": 65,
           "minPansuns": 220,
           "maxPansuns": 237
+        }
+      },
+      {
+        "location": "Greenglen Forest",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "60%",
+        "level": "65 - 70",
+        "freetem": {
+          "minLevel": 65,
+          "maxLevel": 70,
+          "minPansuns": 237,
+          "maxPansuns": 254
         }
       }
     ],
@@ -33734,6 +33748,62 @@
           "maxLevel": 62,
           "minPansuns": 194,
           "maxPansuns": 206
+        }
+      },
+      {
+        "location": "Meadowdale",
+        "place": "Meadowdale",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "20%",
+        "level": "57 - 62 Melee",
+        "freetem": {
+          "minLevel": 57,
+          "maxLevel": 62,
+          "minPansuns": 191,
+          "maxPansuns": 206
+        }
+      },
+      {
+        "location": "Meadowdale",
+        "place": "Meadowdale",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "20%",
+        "level": "57 - 62 Mental",
+        "freetem": {
+          "minLevel": 57,
+          "maxLevel": 62,
+          "minPansuns": 191,
+          "maxPansuns": 206
+        }
+      },
+      {
+        "location": "Greenglen Forest",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "20%",
+        "level": "62 - 70 Melee",
+        "freetem": {
+          "minLevel": 62,
+          "maxLevel": 70,
+          "minPansuns": 206,
+          "maxPansuns": 230
+        }
+      },
+      {
+        "location": "Greenglen Forest",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "20%",
+        "level": "62 - 70 Mental",
+        "freetem": {
+          "minLevel": 62,
+          "maxLevel": 70,
+          "minPansuns": 206,
+          "maxPansuns": 230
         }
       }
     ],
