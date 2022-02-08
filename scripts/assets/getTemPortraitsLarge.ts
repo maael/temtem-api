@@ -32,7 +32,7 @@ export default async function getTemPortraits() {
               : undefined,
           ]);
         } catch (e) {
-          log.error(e.message);
+          log.error(item.name, e.message);
         }
       })
     )

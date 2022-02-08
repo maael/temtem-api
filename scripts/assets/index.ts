@@ -13,6 +13,8 @@ const filter = args
   .map((i) => i.split(",").map((t) => t.trim()))
   .reduce((acc, arr) => acc.concat(arr), []);
 
+if (filter.length) log.info("[filter]", filter);
+
 async function runIfActive(k: string, fn: () => Promise<void>) {
   if (filter.length === 0 || filter.includes(k)) {
     console.info("[asset]", "[start]", k);
