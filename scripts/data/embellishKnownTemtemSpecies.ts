@@ -300,6 +300,7 @@ function getLocations(html: string, debug?: boolean) {
 function getWikiPortraitUrl(html: string) {
   const $ = cheerio.load(html);
   return (
+    $("#mw-content-text .infobox-table #ttw-temtem img").first().data("src") ||
     $("#mw-content-text .infobox-table #ttw-temtem img").first().attr("src") ||
     ""
   ).replace(/\/revision\/latest\/scale-to-width.*$/, "");
@@ -310,7 +311,11 @@ function getWikiLumaPortraitUrl(html: string) {
   return (
     $("#mw-content-text .infobox-table #ttw-temtem-luma img")
       .first()
-      .attr("src") || ""
+      .data("src") ||
+    $("#mw-content-text .infobox-table #ttw-temtem-luma img")
+      .first()
+      .attr("src") ||
+    ""
   ).replace(/\/revision\/latest\/scale-to-width.*$/, "");
 }
 
