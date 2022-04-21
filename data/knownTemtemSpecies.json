@@ -16587,12 +16587,12 @@
     },
     "techniques": [
       {
-        "name": "Martial Strike",
+        "name": "Water Blade",
         "source": "Levelling",
         "levels": 1
       },
       {
-        "name": "Water Blade",
+        "name": "Martial Strike",
         "source": "Levelling",
         "levels": 4
       },
@@ -20031,11 +20031,6 @@
         "levels": 1
       },
       {
-        "name": "Tenderness",
-        "source": "Levelling",
-        "levels": 3
-      },
-      {
         "name": "Urushiol",
         "source": "Levelling",
         "levels": 6
@@ -20254,11 +20249,6 @@
         "name": "Nibble",
         "source": "Levelling",
         "levels": 1
-      },
-      {
-        "name": "Tenderness",
-        "source": "Levelling",
-        "levels": 3
       },
       {
         "name": "Urushiol",
@@ -20516,6 +20506,11 @@
         "name": "Embers",
         "source": "Levelling",
         "levels": 26
+      },
+      {
+        "name": "Water Blade",
+        "source": "Levelling",
+        "levels": 0
       }
     ],
     "trivia": [
@@ -20537,8 +20532,8 @@
             "Thick Skin"
           ],
           "traitMapping": {
-            "Caffeinated": "Bully",
-            "Thick Skin": "Pyromaniac"
+            "Caffeinated": "Pyromaniac",
+            "Thick Skin": "Unknown"
           }
         },
         {
@@ -20549,11 +20544,10 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Bully",
+            "Solidifier",
             "Pyromaniac"
           ],
           "traitMapping": {
-            "Bully": "Bully",
             "Pyromaniac": "Pyromaniac"
           }
         }
@@ -20569,11 +20563,11 @@
         "type": "levels",
         "trading": false,
         "traits": [
-          "Bully",
+          "Solidifier",
           "Pyromaniac"
         ],
         "traitMapping": {
-          "Bully": "Bully",
+          "Solidifier": "Solidifier",
           "Pyromaniac": "Pyromaniac"
         }
       },
@@ -20586,7 +20580,7 @@
         "Thick Skin"
       ],
       "traitMapping": {
-        "Caffeinated": "Bully",
+        "Caffeinated": "Solidifier",
         "Thick Skin": "Pyromaniac"
       }
     },
@@ -20655,7 +20649,6 @@
       "total": 438
     },
     "traits": [
-      "Bully",
       "Pyromaniac"
     ],
     "details": {
@@ -20720,6 +20713,30 @@
         "levels": 80
       },
       {
+        "name": "Water Blade",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
+        "name": "Aqua Stone",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
+        "name": "High-pressure Water",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
+        "name": "Sharp Rain",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
+        "name": "Tsunami",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Magma Cannon",
         "source": "TechniqueCourses"
       },
@@ -20741,6 +20758,10 @@
       },
       {
         "name": "Major Slash",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Sanative Rain",
         "source": "TechniqueCourses"
       },
       {
@@ -20767,8 +20788,8 @@
             "Thick Skin"
           ],
           "traitMapping": {
-            "Caffeinated": "Bully",
-            "Thick Skin": "Pyromaniac"
+            "Caffeinated": "Pyromaniac",
+            "Thick Skin": "Unknown"
           }
         },
         {
@@ -20779,11 +20800,10 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Bully",
+            "Solidifier",
             "Pyromaniac"
           ],
           "traitMapping": {
-            "Bully": "Bully",
             "Pyromaniac": "Pyromaniac"
           }
         }
@@ -20802,7 +20822,7 @@
           "Thick Skin"
         ],
         "traitMapping": {
-          "Caffeinated": "Bully",
+          "Caffeinated": "Solidifier",
           "Thick Skin": "Pyromaniac"
         }
       },
@@ -20812,11 +20832,11 @@
       "level": 16,
       "trading": false,
       "traits": [
-        "Bully",
+        "Solidifier",
         "Pyromaniac"
       ],
       "traitMapping": {
-        "Bully": "Bully",
+        "Solidifier": "Solidifier",
         "Pyromaniac": "Pyromaniac"
       }
     },
@@ -32989,7 +33009,6 @@
       "total": 447
     },
     "traits": [
-      "Synergy Master",
       "Iridescence"
     ],
     "details": {
@@ -35474,7 +35493,7 @@
         "levels": 6
       },
       {
-        "name": "Hypnosis",
+        "name": "Kick",
         "source": "Levelling",
         "levels": 12
       },
