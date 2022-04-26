@@ -4291,7 +4291,7 @@
     "type": "Neutral",
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 40,
+    "damage": 0,
     "staminaCost": 21,
     "hold": 0,
     "priority": "ultra",
@@ -4299,8 +4299,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Hard or weak, what really matters is striking first. This superfast technique does only moderate damage but overextends the user for the next turn.",
-    "effectText": "Rush deals damage to a single other target, but causes the user to become overexerted the next turn.",
+    "description": "Hard or weak, what really matters is striking first. This superfast technique does exactly 40 damage but overextends the user for the next turn.",
+    "effectText": "Rush deals exactly 40 points of fixed damage to a single other target, but causes the user to become overexerted the next turn.",
     "effects": []
   },
   {
