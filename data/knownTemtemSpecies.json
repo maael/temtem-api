@@ -20775,71 +20775,7 @@
       "Mastione was the first Temtem confirmed with a pre-evolution."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 86,
-          "name": "Magmis",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Caffeinated",
-            "Thick Skin"
-          ],
-          "traitMapping": {
-            "Caffeinated": "Pyromaniac",
-            "Thick Skin": "Unknown"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 87,
-          "name": "Mastione",
-          "level": 16,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Solidifier",
-            "Pyromaniac"
-          ],
-          "traitMapping": {
-            "Pyromaniac": "Pyromaniac"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 86,
-        "name": "Magmis",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Caffeinated",
-          "Thick Skin"
-        ],
-        "traitMapping": {
-          "Caffeinated": "Solidifier",
-          "Thick Skin": "Pyromaniac"
-        }
-      },
-      "to": null,
-      "number": 87,
-      "name": "Mastione",
-      "level": 16,
-      "trading": false,
-      "traits": [
-        "Solidifier",
-        "Pyromaniac"
-      ],
-      "traitMapping": {
-        "Solidifier": "Solidifier",
-        "Pyromaniac": "Pyromaniac"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/32/Mastione.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/bf/LumaMastione.png",
