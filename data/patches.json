@@ -1,5 +1,58 @@
 [
   {
+    "name": "Patch 0.9.1",
+    "version": "0.9.1",
+    "url": "https://crema.gg/temtem/patch-0-9-1/",
+    "date": "2022-4-29",
+    "patchInfo": {
+      "fixes": [
+        "Fixed first Bid to claim always being a Smokebomb with 0 as quantity in the Player’s My Bids menu of the Trade House.",
+        "👥Fixed not being able to run using a controller.",
+        "👥Fixed getting stuck in a corner using the Mouse Movement.",
+        "Fixed a softlock when using the filter on the Temdeck while having Temdeck spaces locked.",
+        "Fixed competitive squads and ranked matches being locked during the full duration of a Dojo War.",
+        "Fixed that you couldn’t promote a member of the club after unsubscribing from a Dojo War.",
+        "Fixed getting the item/Tem automatically when bidding in an Auction that had a few seconds left, even if it visually indicated the 2 minute extension.",
+        "Fixed Temtem not being registered in the Tempedia and not counting for the Kudo when they were obtained through the Trade House.",
+        "Fixed not being able to select the Descending Sort order in the Trade House UI if a Player had lost connection with this option selected.",
+        "Fixed Filtered View by Level in the Trade House showing Temtem over the level range indicated in the Filter.",
+        "Fixed Tutorial prompts not being shown with their correspondent key.",
+        "Fixed that trainer combat was reset at Kilima Peaks.",
+        "Fixed image flickering on the first sticker picked.",
+        "Fixed the egg techniques Trade House filter being only available if the egg filter was active.",
+        "👥Fixed being able to see the changes made in a Temtem after selling it at the trade house while not claiming the Pansuns.",
+        "👥Fixed techniques not being changed when finding a ranked match while changing techniques in the Temtem details menu.",
+        "Fixed surf mount not visually appearing after picking anything near water and going into surf.",
+        "Fixed being able to trigger a wild combat when auto-dismounting to perform hook jumps, climb walls or enter buildings.",
+        "Fixed being able to filter eggs by their trait even though they hadn’t been assigned a trait in the UI yet",
+        "Fixed not being able to capture Temtem if, after a Player had all the boxes available full, they increased the storage through the TemDeck Up! quest.",
+        "Fixed stickers’ and mounts’ names being autocompleted in the Item Filter of the Trade House.",
+        "Fixed tax number not updating visually when a Player deactivated then reactivated the Buyout option when posting a new auction.",
+        "Fixed seeing an empty battlebox in the Temdeck if a Player lost connection while having the Details of one of the Temtem in that battlebox open.",
+        "Fixed Koish and Chromeon having their base form on their portraits in the “My Auctions” section of the Trade House while being available to be claimed.",
+        "Fixed losing UI focus after removing a Temtem or an item in a trade while using a gamepad.",
+        "👥Fixed the camera getting stuck if a Player, during the “Lights, camera, action!” quest, selected the second option in the dialogue after receiving the Handcuffs Gear.",
+        "Fixed the Search House UI not displaying correctly."
+      ],
+      "improvements": [
+        "Dyes can now be bought and sold at the Trade House.We know being able to sell Cosmetics in the Trade House is a common request, but due to the nature of the Trade House and how it is built, there are some technical issues with it. While we can’t add support for Cosmetics, we’ve managed a way to include Dyes in the system.",
+        "We know being able to sell Cosmetics in the Trade House is a common request, but due to the nature of the Trade House and how it is built, there are some technical issues with it. While we can’t add support for Cosmetics, we’ve managed a way to include Dyes in the system.",
+        "👥Added a new minimum fertility filter to the Trade House filter options.",
+        "👥Added two new possible durations for Auctions at the Trade House: 7 days and 14 days.",
+        "👥We’ve changed the sorting indicators to make them clearer.",
+        "We’ve tweaked the StickTem! quest a bit. It will now take less stickers to obtain the Competitive Gears, although the big prize remains at 200 stickers.",
+        "👥Added a new tutorial that triggers when you access your Temdeck while having spaces locked.This tutorial indicates players where to start the Storage quest, and will hopefully make the process more streamlined for returning players who might not read patch notes.",
+        "This tutorial indicates players where to start the Storage quest, and will hopefully make the process more streamlined for returning players who might not read patch notes.",
+        "👥The StickTem! Album will now show the name of unowned Stickers.The idea behind this change is to make easier the tracking and trading of missing Stickers.",
+        "The idea behind this change is to make easier the tracking and trading of missing Stickers.",
+        "👥The Sticker Restorer will now find the matching damaged sticker to the one provided by the player, instead of having players manually look for the pair.",
+        "Some Dojo War notifications have been changed to include the players’ and Dojo names."
+      ],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
     "name": "Patch 0.9",
     "version": "0.9",
     "url": "https://crema.gg/temtem/patch-0-9/",
