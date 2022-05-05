@@ -1,5 +1,42 @@
 [
   {
+    "name": "Patch 0.9.2",
+    "version": "0.9.2",
+    "url": "https://crema.gg/temtem/patch-0-9-2/",
+    "date": "2022-5-5",
+    "patchInfo": {
+      "fixes": [
+        "Fixed eggs appearing as search results in the Trade House when filtering by SVs or TVs. Please note that due to the way eggs’ SVs are calculated, we unfortunately can’t add SV filtering for eggs.",
+        "Fixed a game crash when opening the Trade House while having many notifications pending at the notifications center.",
+        "Fixed a game crash while playing on PS5 caused by the audio engine.",
+        "Fixed a Co-op softlock that occurs when one player takes the Omninesian elevator while the other is surfing.",
+        "👥Fixed Temtem HP not rounding correctly in some cases.",
+        "Fixed Dojo Park tamers not having the same Gears as the Temtem in the Competitive Battlebox of the Players that won the Dojo Wars.",
+        "Fixed losing an auction while in Lair and having the Pansuns returned be displayed as Lair Synstars, albeit only visually.",
+        "Fixed auction status not updating when they reached 0 seconds in the Trade House.",
+        "Fixed seeing other players levitating. Dua Lipa is suing us, please help.",
+        "Fixed seeing the Player’s name in the notifications for the Dojo Wars instead of the Dojo Warrior that was joining the Dojo War.",
+        "👥Fixed that the number of items not showing correctly when surpassing 99 by winning an auction.",
+        "Fixed filter settings being kept when a Player moved to another section of the Trade House.",
+        "Fixed being able to write down names of items that weren’t available to the player for purchase in the Trade House.",
+        "Fixed page number not resetting in the Trade House if a Player wasn’t in Page 1 and they applied a filter.",
+        "👥Fixed not seeing the 14 days option in certain resolutions when posting an auction for an egg in the Trade House.",
+        "👥Fixed the TemDeck not taking into account the Temtem in Pages 11-20 when navigating through Temtem’s Details.",
+        "Fixed that Trade House notifications continue to appear even after deleting them from the notifications center.",
+        "👥Fixed Murdag having two Gears duplicated.",
+        "Fixed being able to mount while using the Piano emote with a controller.",
+        "Fixed the wrong text being shown when winning a Dojo War if the Club that won wasn’t the current Regent one.",
+        "Fixed Murdag and Percival displaying their dialogue options as already selected in their Dojo Rematch dialogues.",
+        "👥Fixed an error in NPC Ruairidh’s dialogue in some languages."
+      ],
+      "improvements": [
+        "Player names are interactable in the Dojo Wars bracket screen. This allows for much faster spectating of the matches!"
+      ],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
     "name": "Patch 0.9.1",
     "version": "0.9.1",
     "url": "https://crema.gg/temtem/patch-0-9-1/",
