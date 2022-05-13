@@ -2790,7 +2790,13 @@
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Electric",
-    "synergyEffects": [],
+    "synergyEffects": [
+      {
+        "effect": "Heal user by 10%",
+        "type": "unknown",
+        "damage": 0
+      }
+    ],
     "targets": "Single Other Target",
     "description": "Look, nobody likes doing laundry, but it has to be done, OK? It cleans all statuses, naturally! (And does some damage to boot.).",
     "effectText": "Laundry deals damage to a single target and clears all of the target's Status Conditions.",
