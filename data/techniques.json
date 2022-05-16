@@ -5714,6 +5714,11 @@
         "effect": "2 Turns  Poisoned",
         "type": "condition",
         "damage": 0
+      },
+      {
+        "damage": 100,
+        "type": "damage",
+        "effect": "+100 Damage"
       }
     ],
     "targets": "Single Other Target",
