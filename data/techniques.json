@@ -505,8 +505,8 @@
     "synergy": "Earth",
     "synergyEffects": [
       {
-        "effect": "+2 SPDEF",
-        "type": "buff",
+        "effect": "SPDEF",
+        "type": "unknown",
         "damage": 0
       }
     ],
@@ -1918,8 +1918,8 @@
     "synergy": "Earth",
     "synergyEffects": [
       {
-        "effect": "-2 SPD",
-        "type": "debuff",
+        "effect": "SPD",
+        "type": "unknown",
         "damage": 0
       }
     ],
@@ -2492,8 +2492,8 @@
     "synergy": "Digital",
     "synergyEffects": [
       {
-        "effect": "+1 SPD",
-        "type": "buff",
+        "effect": "SPD",
+        "type": "unknown",
         "damage": 0
       }
     ],
@@ -5221,8 +5221,8 @@
     "synergy": "Crystal",
     "synergyEffects": [
       {
-        "effect": "-1 ATK",
-        "type": "debuff",
+        "effect": "ATK",
+        "type": "unknown",
         "damage": 0
       },
       {
@@ -5423,8 +5423,8 @@
     "synergy": "Wind",
     "synergyEffects": [
       {
-        "effect": "+2 SPD",
-        "type": "buff",
+        "effect": "SPD",
+        "type": "unknown",
         "damage": 0
       }
     ],
