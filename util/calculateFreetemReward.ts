@@ -3,5 +3,5 @@ export default function calculateFreetemReward(
   catchRate: number,
   level: number
 ) {
-  return 20 + Math.ceil((level / catchRate) * 300);
+  return 20 + Math.ceil((level / catchRate) * 270);
 }
