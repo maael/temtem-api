@@ -1,5 +1,55 @@
 [
   {
+    "name": "Patch 0.9.3",
+    "version": "0.9.3",
+    "url": "https://crema.gg/temtem/patch-0-9-3/",
+    "date": "2022-5-23",
+    "patchInfo": {
+      "fixes": [
+        "Fixed getting disconnected from the game chat. Yessssssss at long last!",
+        "Fixed a softlock when attacking Volgon with Magma Cannon in a Lair.",
+        "👥Fixed a softlock caused by the Spectate Mode.",
+        "👥Fixed getting softlocked if a Player that already had the “Saipark Scout” achievement closed the game during a battle with one of the two special Temtem from the Saipark and then captured it once they opened the game again.",
+        "👥Fixed a black screen after a battle in the Dojo Park if one of the members of the Co-op party reached the weekly encounter limit while the other had encounters remaining in that Club Dojo.",
+        "Fixed players being able to go beyond the Dojo Park avatars without fighting them while in Co-op.",
+        "👥Fixed getting stuck in several parts of the map across the game while using mouse movement.",
+        "👥Fixed not being able to use the mount if a Player was on a Mount, then started climbing and used a Smokebomb while climbing that led them to a exterior zone of the world.",
+        "👥Fixed Dozing Hit working on targets with the Nullified Status Condition.",
+        "Fixed not being able to access the Advanced Details in the Trade House’s filter if a filter with the Egg Check was cleared by changing between sections in the Trade House menu.",
+        "Fixed Temtem’s TVs color in the trade house.",
+        "Fixed luma Temtem not appearing with their luma portrait at the “My Auctions” section in the Trade House.",
+        "👥Fixed ETCs and WishYouWell Coins not being included in the list of items available to auto-complete in the Trade House search.",
+        "Fixed Trade House’s filtered view showing Temtem that shouldn’t be included by filter specifications if the total number of Temtem species was 50 or more.",
+        "Fixed not being able to scroll when applying a filter in a section of the Trade House, going to the second page of the filtered list and then going to a different section and coming back.",
+        "Fixed Dojo Park’s avatars appearing without the holographic texture.",
+        "Fixed Dojo Wars’ UI not showing the correct zone of the bracket for the current round.",
+        "Fixed some parts of the map not loading due to a specific movement when entering a new zone. This is one of the oldest bugs in the game, from back during the Alpha. So long, pardner.",
+        "Fixed Temtem portraits appearing white in the battle log after opening the bonuses UI during a Lair combat.",
+        "👥Fixed getting the wrong dialogue after defeating a tamer in the Dojo Park challenge if the Player quit the game while in the Pick/Ban phase.",
+        "Fixed that revalidating a Club Dojo ownership removed all the furniture from the Dojo.",
+        "👥Fixed losing furniture if a Club removed a furniture item of which they had 99 units in their Club Vault.",
+        "👥Fixed Neutral Chromeon’s color resetting to the Digital one.",
+        "Fixed NPC Bitrus not being at Kilima Peaks after starting the Twin Peaks quest.",
+        "👥Fixed Adia mentioning Mines of Mictlan instead of Uhuru in the cinematic that happens before entering Uhuru.",
+        "Fixed that one of the cosmetic stores was selling a hat not meant to be sellable. It has now been substituted by another hat.",
+        "Fixed one player’s position was not resetting correctly if there was a server reset while in Co-op.",
+        "Fixed Player names’ swapped in the Club’s Activity Log when retrieving an item."
+      ],
+      "improvements": [
+        "We’ve extended the Trait filter to cover eggs in the Trade House as well."
+      ],
+      "features": [],
+      "balance": [
+        "This patch introduces the new 8-stage system.Currently, there is a maximum of 5 stages that can give you up to +250% or -71% in a certain stat except for SPD. Each +1 increases each stat by 50%, and decreases it by a variable number (read more here to know the specifics). The maximum of 250%, when reached, can be very oppressive and too much of an advantage. Since each level up was done in steps of 50%, it was difficult to balance and tweak accurately and precisely, and we believed a middle point might be the key. Because of this, and after reading several community suggestions talking about a similar solution, we thought that an 8-stage system, one of the many possible reworks for the stages, would open the chance to a better balancing. We consulted our community on some specifics, and the resulting change affects all Techniques, Traits and Gears that increase or decrease stages in the game.This means Stages can now reach +8 and -8 instead of +5 and -5. A +8 situation will mean an increase of 200%, and a -8 situation will be a 66% decrease, as opposed to the previous maximum 250% increase and 71% decrease.All stats now follow the same pattern the Speed value, that was originally the odd one out, was following. This means SPD now shares the same formula, and can be increased up to 200%. All stats work in the same way now.Techniques up until now could only increase or decrease two stages of a specific stat. With this change, Techniques can now increase or decrease up to 4 stages of a specific stat.Like with the Stamina change in the past, we’ve listed all the specific changes to each Technique, Trait and Gear here, so all of you who are interested can check them out without turning these patch notes into a bible.",
+        "Currently, there is a maximum of 5 stages that can give you up to +250% or -71% in a certain stat except for SPD. Each +1 increases each stat by 50%, and decreases it by a variable number (read more here to know the specifics). The maximum of 250%, when reached, can be very oppressive and too much of an advantage. Since each level up was done in steps of 50%, it was difficult to balance and tweak accurately and precisely, and we believed a middle point might be the key. Because of this, and after reading several community suggestions talking about a similar solution, we thought that an 8-stage system, one of the many possible reworks for the stages, would open the chance to a better balancing. We consulted our community on some specifics, and the resulting change affects all Techniques, Traits and Gears that increase or decrease stages in the game.",
+        "This means Stages can now reach +8 and -8 instead of +5 and -5. A +8 situation will mean an increase of 200%, and a -8 situation will be a 66% decrease, as opposed to the previous maximum 250% increase and 71% decrease.",
+        "All stats now follow the same pattern the Speed value, that was originally the odd one out, was following. This means SPD now shares the same formula, and can be increased up to 200%. All stats work in the same way now.",
+        "Techniques up until now could only increase or decrease two stages of a specific stat. With this change, Techniques can now increase or decrease up to 4 stages of a specific stat.",
+        "Like with the Stamina change in the past, we’ve listed all the specific changes to each Technique, Trait and Gear here, so all of you who are interested can check them out without turning these patch notes into a bible."
+      ]
+    }
+  },
+  {
     "name": "Patch 0.9.2",
     "version": "0.9.2",
     "url": "https://crema.gg/temtem/patch-0-9-2/",

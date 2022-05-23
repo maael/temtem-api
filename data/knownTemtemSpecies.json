@@ -13804,9 +13804,9 @@
       "spdef": 0
     },
     "gameDescription": "The oldest written records in Tucma indicate religious awe of Myx, considered to be embodiments of the \"dark spirits\". Some were considered to be celestial emissaries of Highabove, some evil messengers of Downbelow... but all were feared. With good reason.",
-    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1b/LumaMyx_full_render.png",
+    "wikiRenderStaticUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
     "wikiRenderAnimatedUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1b/LumaMyx_full_render.png",
+    "wikiRenderStaticLumaUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
     "wikiRenderAnimatedLumaUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
     "renderStaticImage": "/images/renders/temtem/static/Myx.png",
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Myx.png",
@@ -14114,7 +14114,7 @@
     ],
     "trivia": [
       "Raize was first revealed through concept art via Twitter.",
-      "Animations for idle, physical attack, special attack, and one other were shown off on Twitter."
+      "Animations for Raize's idle, physical attack, special attack, and one other were shown off on Twitter."
     ],
     "evolution": {
       "stage": 1,
@@ -18144,6 +18144,11 @@
         "name": "Mineral Hail",
         "source": "Levelling",
         "levels": 84
+      },
+      {
+        "name": "Sparks",
+        "source": "Levelling",
+        "levels": 0
       },
       {
         "name": "Zen Meditation",
@@ -32932,6 +32937,10 @@
         "source": "TechniqueCourses"
       },
       {
+        "name": "Soil Steam",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Restore",
         "source": "TechniqueCourses"
       },
@@ -36395,6 +36404,11 @@
         "levels": 85
       },
       {
+        "name": "Beta Burst",
+        "source": "Levelling",
+        "levels": 0
+      },
+      {
         "name": "Base Jump",
         "source": "TechniqueCourses"
       },
@@ -36760,6 +36774,10 @@
         "name": "Knockback",
         "source": "Levelling",
         "levels": 100
+      },
+      {
+        "name": "Awful Song",
+        "source": "TechniqueCourses"
       },
       {
         "name": "Cage",
