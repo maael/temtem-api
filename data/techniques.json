@@ -2471,7 +2471,7 @@
     "type": "Neutral",
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 80,
+    "damage": 90,
     "staminaCost": 23,
     "hold": 0,
     "priority": "normal",
@@ -2847,12 +2847,12 @@
       {
         "damage": 0,
         "type": "buff",
-        "effect": "17 STA Cost"
+        "effect": "20 STA Cost"
       }
     ],
     "targets": "Single Other Target",
-    "description": "Normally Taifu prefer cookies... but if there's nothing else available, they'll inflict 30% damage and heal themselves 30%, without even waking up the target.",
-    "effectText": "Leech drains 30% HP from a single other target and restores 30% HP to the user. This Technique does not remove the Asleep Condition on the target.",
+    "description": "Normally Taifu prefer cookies... but if there's nothing else available, they'll inflict 25% damage and heal themselves 25%, without even waking up the target.",
+    "effectText": "Leech drains 25% HP from a single other target and restores 25% HP to the user. This Technique does not remove the Asleep Condition on the target.",
     "effects": []
   },
   {
@@ -3646,7 +3646,7 @@
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
     "damage": 30,
-    "staminaCost": 19,
+    "staminaCost": 23,
     "hold": 0,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
@@ -4704,7 +4704,7 @@
     "class": "Special",
     "classIcon": "/images/icons/technique/Special.png",
     "damage": 115,
-    "staminaCost": 21,
+    "staminaCost": 25,
     "hold": 0,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
@@ -5200,7 +5200,7 @@
     "type": "Toxic",
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 80,
+    "damage": 65,
     "staminaCost": 18,
     "hold": 0,
     "priority": "normal",
