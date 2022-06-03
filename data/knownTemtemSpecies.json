@@ -11371,8 +11371,8 @@
             "Sentinel"
           ],
           "traitMapping": {
-            "Fast Charge": "Source Replicator",
-            "Sentinel": "Target Replicator"
+            "Fast Charge": "Unknown",
+            "Sentinel": "Unknown"
           }
         },
         {
@@ -11386,10 +11386,7 @@
             "Source Replicator",
             "Target Replicator"
           ],
-          "traitMapping": {
-            "Source Replicator": "Source Replicator",
-            "Target Replicator": "Target Replicator"
-          }
+          "traitMapping": {}
         }
       ],
       "evolves": true,
@@ -11489,184 +11486,24 @@
       "spdef": 68,
       "total": 461
     },
-    "traits": [
-      "Source Replicator",
-      "Target Replicator"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 12,
-        "inches": 4
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 2,
-        "lbs": 4
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "DC Beam",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Plasma Beam",
-        "source": "Levelling",
-        "levels": 7
-      },
-      {
-        "name": "Nimble",
-        "source": "Levelling",
-        "levels": 11
-      },
-      {
-        "name": "Chain Lightning",
-        "source": "Levelling",
-        "levels": 17
-      },
-      {
-        "name": "Digithreat",
-        "source": "Levelling",
-        "levels": 24
-      },
-      {
-        "name": "Electromagnetism",
-        "source": "Levelling",
-        "levels": 33
-      },
-      {
-        "name": "Cooperation",
-        "source": "Levelling",
-        "levels": 45
-      },
-      {
-        "name": "Electric Storm",
-        "source": "Levelling",
-        "levels": 58
-      },
-      {
-        "name": "Binary Flood",
-        "source": "Levelling",
-        "levels": 66
-      },
-      {
-        "name": "Reset",
-        "source": "Levelling",
-        "levels": 84
-      },
-      {
-        "name": "Blue Screen",
-        "source": "Levelling",
-        "levels": 95
-      },
-      {
-        "name": "Double Edge",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Data Corruption",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Harmful Microwaves",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Restore",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Burrow",
-        "source": "Breeding"
-      },
-      {
-        "name": "Bush",
-        "source": "Breeding"
-      },
-      {
-        "name": "Sparks",
-        "source": "Breeding"
-      },
-      {
-        "name": "Tesla Prison",
-        "source": "Breeding"
-      }
-    ],
-    "trivia": [
-      "0b10 is the only Temtem to be a single creature composed of multiple separate entities.",
-      "0b10 and its pre-evolution are the only two Temtem to have numbers in their species name.\nDue to the restrictions on using numbers in Temtem nicknames, this means that they are also the only two Temtem that cannot be reverted to their original species name once they are given a nickname.",
-      "Due to the restrictions on using numbers in Temtem nicknames, this means that they are also the only two Temtem that cannot be reverted to their original species name once they are given a nickname."
-    ],
+    "techniques": [],
+    "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 46,
-          "name": "0b1",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Fast Charge",
-            "Sentinel"
-          ],
-          "traitMapping": {
-            "Fast Charge": "Source Replicator",
-            "Sentinel": "Target Replicator"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 47,
-          "name": "0b10",
-          "level": 15,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Source Replicator",
-            "Target Replicator"
-          ],
-          "traitMapping": {
-            "Source Replicator": "Source Replicator",
-            "Target Replicator": "Target Replicator"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 46,
-        "name": "0b1",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Fast Charge",
-          "Sentinel"
-        ],
-        "traitMapping": {
-          "Fast Charge": "Source Replicator",
-          "Sentinel": "Target Replicator"
-        }
-      },
-      "to": null,
-      "number": 47,
-      "name": "0b10",
-      "level": 15,
-      "trading": false,
-      "traits": [
-        "Source Replicator",
-        "Target Replicator"
-      ],
-      "traitMapping": {
-        "Source Replicator": "Source Replicator",
-        "Target Replicator": "Target Replicator"
-      }
+      "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e9/0b10.png",
-    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/da/Luma0b10.png",
+    "wikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "",
     "locations": [],
     "icon": "/images/portraits/temtem/large/0b10.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/0b10.png",
@@ -11674,26 +11511,18 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 45,
-    "hatchMins": 36,
-    "tvYields": {
-      "hp": 0,
-      "sta": 2,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0
-    },
-    "gameDescription": "Conventional physics can't explain why 0b10 is a two-in-one Temtem, or how their attraction/repulsion dynamics actually work. Tamers don't really care, since this 'Tem is empathetic enough to be tameable... not to mention off-the-charts cute!",
-    "wikiRenderStaticUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "wikiRenderAnimatedUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "wikiRenderStaticLumaUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "wikiRenderAnimatedLumaUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "renderStaticImage": "/images/renders/temtem/static/0b10.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/0b10.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/0b10.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/0b10.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 48,
