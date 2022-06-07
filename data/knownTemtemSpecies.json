@@ -29425,8 +29425,8 @@
             "Hydrologist"
           ],
           "traitMapping": {
-            "Mithridatism": "Toxic Skin",
-            "Hydrologist": "Mucous"
+            "Mithridatism": "Unknown",
+            "Hydrologist": "Unknown"
           }
         },
         {
@@ -29440,10 +29440,7 @@
             "Toxic Skin",
             "Mucous"
           ],
-          "traitMapping": {
-            "Toxic Skin": "Toxic Skin",
-            "Mucous": "Mucous"
-          }
+          "traitMapping": {}
         }
       ],
       "evolves": true,
@@ -29613,234 +29610,43 @@
       "spdef": 55,
       "total": 451
     },
-    "traits": [
-      "Toxic Skin",
-      "Mucous"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 170,
-        "inches": 66
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 163,
-        "lbs": 359
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Bubbles",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Tentacle Whip",
-        "source": "Levelling",
-        "levels": 4
-      },
-      {
-        "name": "Water Blade",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Strangle",
-        "source": "Levelling",
-        "levels": 8
-      },
-      {
-        "name": "Aqua Stone",
-        "source": "Levelling",
-        "levels": 14
-      },
-      {
-        "name": "Toxic Ink",
-        "source": "Levelling",
-        "levels": 19
-      },
-      {
-        "name": "High-pressure Water",
-        "source": "Levelling",
-        "levels": 20
-      },
-      {
-        "name": "Humiliating Slap",
-        "source": "Levelling",
-        "levels": 30
-      },
-      {
-        "name": "Flood",
-        "source": "Levelling",
-        "levels": 43
-      },
-      {
-        "name": "Waterjet",
-        "source": "Levelling",
-        "levels": 58
-      },
-      {
-        "name": "Rotten Goo",
-        "source": "Levelling",
-        "levels": 80
-      },
-      {
-        "name": "Tsunami",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Wake Up",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Major Slash",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Laundry",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Clinch",
-        "source": "Breeding"
-      },
-      {
-        "name": "Iced Stalactite",
-        "source": "Breeding"
-      },
-      {
-        "name": "Toxic Slime",
-        "source": "Breeding"
-      }
-    ],
-    "trivia": [
-      "Kalabyss was revealed to the public on the official discord and the Kickstarter update #30."
-    ],
+    "techniques": [],
+    "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 127,
-          "name": "Kalazu",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Mithridatism",
-            "Hydrologist"
-          ],
-          "traitMapping": {
-            "Mithridatism": "Toxic Skin",
-            "Hydrologist": "Mucous"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 128,
-          "name": "Kalabyss",
-          "level": 18,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Toxic Skin",
-            "Mucous"
-          ],
-          "traitMapping": {
-            "Toxic Skin": "Toxic Skin",
-            "Mucous": "Mucous"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 127,
-        "name": "Kalazu",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Mithridatism",
-          "Hydrologist"
-        ],
-        "traitMapping": {
-          "Mithridatism": "Toxic Skin",
-          "Hydrologist": "Mucous"
-        }
-      },
-      "to": null,
-      "number": 128,
-      "name": "Kalabyss",
-      "level": 18,
-      "trading": false,
-      "traits": [
-        "Toxic Skin",
-        "Mucous"
-      ],
-      "traitMapping": {
-        "Toxic Skin": "Toxic Skin",
-        "Mucous": "Mucous"
-      }
+      "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/90/Kalabyss.png",
-    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0a/LumaKalabyss.png",
-    "locations": [
-      {
-        "location": "Xolot Reservoir",
-        "place": "Xolot Reservoir",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "10%",
-        "level": "30 - 34",
-        "freetem": {
-          "minLevel": 30,
-          "maxLevel": 34,
-          "minPansuns": 85,
-          "maxPansuns": 94
-        }
-      },
-      {
-        "location": "Gardens of Aztlan",
-        "place": "",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "10%",
-        "level": "30 - 35",
-        "freetem": {
-          "minLevel": 30,
-          "maxLevel": 35,
-          "minPansuns": 85,
-          "maxPansuns": 96
-        }
-      }
-    ],
+    "wikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "",
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Kalabyss.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Kalabyss.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 125,
-    "hatchMins": 20,
-    "tvYields": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 2,
-      "spatk": 0,
-      "spdef": 0
-    },
-    "gameDescription": "How did Sillarian octopoda come in contact with mutagenic material is a matter of debate, but Kalabyss stand as an example of extreme adaption to the harshest environments - they have been known to survive a swim in Xolot Reservoir.",
-    "wikiRenderStaticUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "wikiRenderAnimatedUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "wikiRenderStaticLumaUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "wikiRenderAnimatedLumaUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "renderStaticImage": "/images/renders/temtem/static/Kalabyss.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Kalabyss.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Kalabyss.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Kalabyss.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 129,
