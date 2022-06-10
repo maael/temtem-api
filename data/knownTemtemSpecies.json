@@ -21365,43 +21365,200 @@
       "spdef": 43,
       "total": 377
     },
-    "traits": [],
+    "traits": [
+      "Efficient",
+      "Inductor"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 103,
+        "inches": 40
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 55,
+        "lbs": 121
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Novice Punch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Sparks",
+        "source": "Levelling",
+        "levels": 2
+      },
+      {
+        "name": "DC Beam",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Sparkling Bullet",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Tesla Prison",
+        "source": "Levelling",
+        "levels": 18
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 25
+      },
+      {
+        "name": "Perfect Jab",
+        "source": "Levelling",
+        "levels": 31
+      },
+      {
+        "name": "Cage",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Held Anger",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Piezoelectric Blow",
+        "source": "Breeding"
+      },
+      {
+        "name": "Turbine",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 90,
+          "name": "Galvanid",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Efficient",
+            "Inductor"
+          ],
+          "traitMapping": {
+            "Efficient": "Kinetic Transfer",
+            "Inductor": "Electric Custodian"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 91,
+          "name": "Raignet",
+          "level": 16,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Kinetic Transfer",
+            "Electric Custodian"
+          ],
+          "traitMapping": {
+            "Kinetic Transfer": "Kinetic Transfer",
+            "Electric Custodian": "Electric Custodian"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": null,
+      "to": {
+        "stage": 1,
+        "number": 91,
+        "name": "Raignet",
+        "level": 16,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Kinetic Transfer",
+          "Electric Custodian"
+        ],
+        "traitMapping": {
+          "Kinetic Transfer": "Kinetic Transfer",
+          "Electric Custodian": "Electric Custodian"
+        }
+      },
+      "number": 90,
+      "name": "Galvanid",
+      "level": 0,
+      "trading": false,
+      "traits": [
+        "Efficient",
+        "Inductor"
+      ],
+      "traitMapping": {
+        "Efficient": "Kinetic Transfer",
+        "Inductor": "Electric Custodian"
+      }
     },
-    "wikiPortraitUrlLarge": "",
-    "lumaWikiPortraitUrlLarge": "",
-    "locations": [],
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/Galvanid.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/ce/LumaGalvanid.png",
+    "locations": [
+      {
+        "location": "Iwaba",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "20%",
+        "level": "40 - 50",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 50,
+          "minPansuns": 92,
+          "maxPansuns": 110
+        }
+      },
+      {
+        "location": "Pillars of Highabove",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "30%",
+        "level": "40 - 50",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 50,
+          "minPansuns": 92,
+          "maxPansuns": 110
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Galvanid.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Galvanid.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 150,
+    "hatchMins": 15,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "Often paired for comedic effect, Galvanid is the downer counterpart to Sparzy's manic persona. Given its usually serious expression, this 'Tem is the perfect butt of all jokes... which conceals a very effective range of attacks.",
+    "wikiRenderStaticUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b1/LumaGalvanid_full_render.png",
+    "wikiRenderAnimatedUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
+    "wikiRenderStaticLumaUrl": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b1/LumaGalvanid_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
+    "renderStaticImage": "/images/renders/temtem/static/Galvanid.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Galvanid.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Galvanid.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Galvanid.gif"
   },
   {
     "number": 91,
@@ -21531,7 +21688,10 @@
             "Efficient",
             "Inductor"
           ],
-          "traitMapping": {}
+          "traitMapping": {
+            "Efficient": "Kinetic Transfer",
+            "Inductor": "Electric Custodian"
+          }
         },
         {
           "stage": 1,
