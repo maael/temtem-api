@@ -35698,43 +35698,131 @@
       "spdef": 58,
       "total": 448
     },
-    "traits": [],
+    "traits": [
+      "Hypnotist",
+      "Haka"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 160,
+        "inches": 62
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 73,
+        "lbs": 160
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Novice Punch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Meditation",
+        "source": "Levelling",
+        "levels": 8
+      },
+      {
+        "name": "Paralyzing Poison",
+        "source": "Levelling",
+        "levels": 15
+      },
+      {
+        "name": "Jinxed Whisper",
+        "source": "Levelling",
+        "levels": 27
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 34
+      },
+      {
+        "name": "Telekinetic Shrapnel",
+        "source": "Levelling",
+        "levels": 45
+      },
+      {
+        "name": "Nito Seiho",
+        "source": "Levelling",
+        "levels": 75
+      },
+      {
+        "name": "Blackhole",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Depress",
+        "source": "Levelling",
+        "levels": 90
+      },
+      {
+        "name": "Wake Up",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Zen Meditation",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Rush",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Haito Uchi",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "",
-    "lumaWikiPortraitUrlLarge": "",
-    "locations": [],
+    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/75/Maoala.png",
+    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8a/LumaMaoala.png",
+    "locations": [
+      {
+        "location": "Meadowdale",
+        "place": "Meadowdale",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "60% - 75%",
+        "level": "60 - 65",
+        "freetem": {
+          "minLevel": 60,
+          "maxLevel": 65,
+          "minPansuns": 161,
+          "maxPansuns": 173
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Maoala.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Maoala.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 115,
+    "hatchMins": 22,
+    "tvYields": {
+      "hp": 0,
+      "sta": 1,
+      "spd": 0,
+      "atk": 3,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "A favorite of Lochburgian tamers, Maoala are companionable Temtem, always up for a fun party or a hearty battle, equally at home in the dojo and in the pub.",
+    "wikiRenderStaticUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
+    "wikiRenderAnimatedUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
+    "wikiRenderStaticLumaUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
+    "wikiRenderAnimatedLumaUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
+    "renderStaticImage": "/images/renders/temtem/static/Maoala.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Maoala.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Maoala.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Maoala.gif"
   },
   {
     "number": 154,
