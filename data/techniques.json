@@ -566,7 +566,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "This miracle of Electric manipulation bounces 3 times clockwise for as long as it deals damage, dealing decreasing damage with each hit.",
-    "effectText": "Chain Lightning deals damage to a single target then two other Temtem in clockwise order from the initial target. The initial target takes 100% of the damage, the second takes 70%, and the third takes 60%. The chain of damage will fail to continue to the next target if the damage was blocked by the current target. Damage can be blocked if the target who would have taken damage has the Evading Condition, has the Electric Synthesize Trait, or, if the target is an ally, has the Friendship trait.",
+    "effectText": "Chain Lightning deals damage to a single target then two other combatants in clockwise order from the initial target. The initial target takes 100% of the damage, the second takes 70%, and the third takes 60%. The chain of damage will fail to continue to the next target if the damage was blocked by the current target. Damage can be blocked if the target who would have taken damage has the Evading Condition, has the Electric Synthesize Trait, or, if the target is an ally, has the Friendship Trait.",
     "effects": []
   },
   {
@@ -584,7 +584,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A fire technique that whips the opponent with heavy chains and them for 2 turns.",
-    "effectText": "Chains Hit deals damage to a single other target and Trapped traps for 2 turns.",
+    "effectText": "Chains Hit deals damage to a single other target and inflicts them with the Trapped Condition for 2 turns.",
     "effects": []
   },
   {
