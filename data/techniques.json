@@ -1376,7 +1376,7 @@
     "synergyEffects": [],
     "targets": "All Other Temtem",
     "description": "A bone-dry technique that leaves every Temtem on the battlefield except the user Exhausted and Seized for 2 turns, and the attacker overextended next turn.",
-    "effectText": "Drought inflicts all other combatants on the battlefield with the Exhausted Condition and the Seized Condition for 2 turns and but causes the user to be overexerted the next turn.",
+    "effectText": "Drought inflicts all other combatants on the battlefield with the Exhausted Condition and the Seized Condition for 2 turns but causes the user to be overexerted the next turn.",
     "effects": []
   },
   {
@@ -1650,7 +1650,7 @@
     "synergyEffects": [],
     "targets": "All",
     "description": "\"Look up! See that cool meteorite... Extinction gives 4 turns of Doomed to everyone on the battlefield.\"",
-    "effectText": "Extinction inflicts all Temtem on the battlefield with a 4 turn countdown of the Doomed Condition.",
+    "effectText": "Extinction inflicts all combatants on the battlefield with a 4 turn countdown of the Doomed Condition.",
     "effects": []
   },
   {
@@ -2002,7 +2002,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Invoke the ancient spirit of the Omninesian jungle to recover 100% STA and 20% of the user's max HP.",
-    "effectText": "Gaia restores the user's STA to 100% and restores 20% of the user's max HP. The user will still overexert if they lack the required STA before use.",
+    "effectText": "Gaia restores 20% of the user's maximum HP and 100% of their maximum STA. The user will still overexert if they lack the required STA before use.",
     "effects": []
   },
   {
@@ -2654,7 +2654,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "That \"don't mess with me\" look makes the target team exhausted for 2 turns. Also grants the user evading for 1 turn.",
-    "effectText": "Intimidation inflicts the rival team or the user's ally with the Exhausted Condition for 2 turns. It also inflicts the user with the Evading Condition for 1 turn.",
+    "effectText": "Intimidation inflicts the rival team or the user's ally with the Exhausted Condition for 2 turns and gifts the user with the Evading Condition for 1 turn.",
     "effects": []
   },
   {
@@ -2690,7 +2690,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Shh! Shut up, you're jinxing your chances! The target falls asleep for 2 turns, but the user gets overextended on the next turn.",
-    "effectText": "Jinxed Whisper inflicts a single other target with the Asleep Condition for 2 turns, but leaves the user overexerted the next turn.",
+    "effectText": "Jinxed Whisper inflicts a single other target with the Asleep Condition for 2 turns but causes the user to be overexerted the next turn.",
     "effects": []
   },
   {
