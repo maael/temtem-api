@@ -1244,7 +1244,7 @@
     "synergyEffects": [],
     "targets": "Single Team",
     "description": "All hail our lord and savior, Pigepic! This technique increases the team's SPDEF and heals the whole team by 15%",
-    "effectText": "Divine Inspiration gifts a single team with SPDEF and restores their HP by 15%.",
+    "effectText": "Divine Inspiration gifts a single team with SPDEF and restores 15% of their maximum HP.",
     "effects": []
   },
   {
@@ -1358,7 +1358,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Babawa leaves this sticky mucus everywhere, which reputedly has healing properties... it regenerates the target for 3 turns and grants it immunity for 4 turns.",
-    "effectText": "Drool gifts the target with the Regenerated Condition for 3 turns and the Immune Condition for 4 turns.",
+    "effectText": "Drool gifts a single target with the Regenerated Condition for 3 turns and the Immune Condition for 4 turns.",
     "effects": []
   },
   {
@@ -1374,9 +1374,9 @@
     "priorityIcon": "/images/icons/priority/veryhigh.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "",
+    "targets": "All Other Temtem",
     "description": "A bone-dry technique that leaves every Temtem on the battlefield except the user Exhausted and Seized for 2 turns, and the attacker overextended next turn.",
-    "effectText": "Drought inflicts all Temtem on the battlefield except the user with the Exhausted Condition and the Seized Condition for 2 turns and leaves the user overexerted next turn.",
+    "effectText": "Drought inflicts all other combatants on the battlefield with the Exhausted Condition and the Seized Condition for 2 turns and but causes the user to be overexerted the next turn.",
     "effects": []
   },
   {
@@ -1668,7 +1668,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "A simple truth about Temtem fighting - the stronger you are, the harder you hit. This Neutral technique inflicts variable damage depending on the launcher's STA.",
-    "effectText": "Extra Energy Slam deals damage to a single other target with its power varying based on the user's current STA.",
+    "effectText": "Extra Energy Slam deals damage to a single other target with its damage varying based on the user's current STA.",
     "effects": []
   },
   {
