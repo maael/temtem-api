@@ -2888,7 +2888,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "This Temtem has (metaphorical) eyes on the back of its head. This hyperalert state makes it alerted for 5 turns and removes the Asleep status condition.",
-    "effectText": "Look out gifts a single target with the Alerted Condition for 5 turns and removes the Asleep status condition. Unlike other techniques, this technique will add the additional turns of alerted to the current ones the target has, up to a maximum of 5 turns.",
+    "effectText": "Look out gifts a single target with the Alerted Condition for 5 turns and cures them of the Asleep Condition. Unlike other techniques, it will set the duration of any previously gifted Alerted Conditions to 5 turns.",
     "effects": []
   },
   {
@@ -3421,7 +3421,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Nothing creepier than feeding on a sleeping victim... Inflicts 30% damage to a sleeping enemy and heals the user by 30%.",
-    "effectText": "Nightmare Feed deals exactly 30% damage to a single target and restores 30% of the user's maximum HP if the target is afflicted with the Asleep Condition.",
+    "effectText": "Nightmare Feed causes a single target to lose 30% of their maximum HP and the user to restore 30% of their maximum HP if the target is afflicted with the Asleep Condition. It will not cause the target to wake up.",
     "effects": []
   },
   {
@@ -3475,7 +3475,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Derived from Cipanki martial traditions, this technique deals a powerful Melee strike and gives them DEF .",
-    "effectText": "Nito Seiho deals damage to a single other target and lowers DEF .",
+    "effectText": "Nito Seiho deals damage to a single other target and inflicts them with DEF .",
     "effects": []
   },
   {
@@ -3558,7 +3558,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "Behold Tyranak's complete mastery over everything that grows and thrives in their realm! Damages the whole enemy team, decreases their Stamina by 20%, and traps them for 2 turns.",
-    "effectText": "Outgrowth deals damage to the rival team or the user's ally and depletes their STA by 20% as well as inflicts them with the Trapped Condition for 2 turns.",
+    "effectText": "Outgrowth deals damage to the rival team or the user's ally, causes them to lost 20% of their maximum STA and inflicts them with the Trapped Condition for 2 turns.",
     "effects": []
   },
   {
@@ -3636,7 +3636,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Blood magic requires blood sacrifice - will you pay the price? Loatle can inflict 20% of damage on itself to boost the ATK and SPATK of the target.",
-    "effectText": "Penance gifts a single other target with ATK and SPATK but causes the user to lose 20% of their max HP.",
+    "effectText": "Penance gifts a single other target with ATK and SPATK but causes the user to lose 20% of their maximum HP.",
     "effects": []
   },
   {
