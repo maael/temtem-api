@@ -1226,7 +1226,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "An accurate strike at the target's main pressure point, ignoring its defenses to deal exactly 100 damage without waking it up.",
-    "effectText": "Dim Mak deals an exact 100 damage to a single other target, regardless of DEF, SPDEF, Type Effectivness, or Traits. It will also not cause a target afflicted with the Asleep Condition to wake up.",
+    "effectText": "Dim Mak deals an exact 100 damage to a single other target, regardless of DEF, SPDEF, Type Effectivness or Traits. It will also not cause a target afflicted with the Asleep Condition to wake up.",
     "effects": []
   },
   {
@@ -3690,7 +3690,7 @@
     "synergyEffects": [],
     "targets": "Self",
     "description": "Nature Temtem are unique in their use of Pan-sunlight to nourish themselves and recover 50% STA.",
-    "effectText": "Photosynthesis restores 50% of the user's maximum STA. The user will still overexert if they lack the required STA before use.",
+    "effectText": "Photosynthesis restores 50% of the user's maximum STA.",
     "effects": []
   },
   {
@@ -3809,7 +3809,7 @@
     "synergyEffects": [],
     "targets": "Other Team or Ally",
     "description": "Noxious fumes, almost unheard-of in the unspoilt Archipelago. They Poison the whole team for 2 turns and also reduces 10% of stamina from the targets.",
-    "effectText": "Pollution inflicts the rival team or the user's ally with the Poisoned Condition for 2 turns. Pollution also reduces 10% of STA from a single team.",
+    "effectText": "Pollution inflicts the rival team or the user's ally with the Poisoned Condition for 2 turns and causes them to lose 10% of their maximum STA.",
     "effects": []
   },
   {
@@ -4119,7 +4119,7 @@
     "synergyEffects": [],
     "targets": "All",
     "description": "Time for a little siesta! Everyone on the battlefield gets Asleep for 2 turns.",
-    "effectText": "Relax inflicts all Temtem on the battlefield with the Asleep Condition for 2 turns.",
+    "effectText": "Relax inflicts all combatants on the battlefield with the Asleep Condition for 2 turns.",
     "effects": []
   },
   {
@@ -4155,7 +4155,7 @@
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Sometimes, you just need a reset and a fresh start - it wipes all stages and statuses from the target in the blink of an eye.",
-    "effectText": "Reset cures/removes all Status Conditions and Stage Changes gifted/given/inflicted on the target.",
+    "effectText": "Reset cures/removes all Status Conditions and Stat Stage Changes gifted/given/inflicted on a single target.",
     "effects": []
   },
   {
@@ -4316,7 +4316,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Hard or weak, what really matters is striking first. This superfast technique does exactly 40 damage but overextends the user for the next turn.",
-    "effectText": "Rush deals exactly 40 points of fixed damage to a single other target, but causes the user to become overexerted the next turn.",
+    "effectText": "Rush deals an exact 40 damage to a single other target regardless of DEF, SPDEF, Type Effectivness, or Traits, but causes the user to be overexerted the next turn.",
     "effects": []
   },
   {
