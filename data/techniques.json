@@ -331,14 +331,14 @@
     "synergy": "Earth",
     "synergyEffects": [
       {
-        "effect": "Clears the target's stat stage changes.",
+        "effect": "Removes the target'sStat Stage Changes.",
         "type": "unknown",
         "damage": 0
       }
     ],
     "targets": "Single Other Target",
     "description": "Gravity in the Middle Sphere is capricious and mild - but this technique still causes a great deal of damage and wipes all statuses from the target.Used in combination with an Earth ally, Blackhole also wipes all stage changes.",
-    "effectText": "Blackhole deals damage to a single target and clears the target's statuses.",
+    "effectText": "Blackhole deals damage to a single target and cures/removes their Status Conditions.",
     "effects": []
   },
   {
@@ -452,7 +452,7 @@
     ],
     "targets": "Other Team or Ally",
     "description": "Beam me up! This technique makes you alert and able to evade for 2 turns.",
-    "effectText": "Bright Beam deals damage to the rival team or the user's ally and gifts the user with the Alerted and Evading Conditions for 2 turns.",
+    "effectText": "Bright Beam deals damage to the rival team or the user's ally and gifts the user with the Alerted Condition and Evading Condition for 2 turns.",
     "effects": []
   },
   {
@@ -512,7 +512,7 @@
     ],
     "targets": "Self",
     "description": "When in doubt, run and shout! This fast Nature technique helps your Temtem regenerate and evade for 1 turn.No more beating around the bush! Used in combination with a Earth ally, this technique gives SPDEF .",
-    "effectText": "Bush gifts the user with the Regenerated and Evading Conditions for 1 turn.",
+    "effectText": "Bush gifts the user with the Regenerated Condition and Evading Condition for 1 turn.",
     "effects": []
   },
   {
