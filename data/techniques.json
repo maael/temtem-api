@@ -3599,7 +3599,7 @@
     "synergy": "Toxic",
     "synergyEffects": [
       {
-        "effect": "4 Turns  Poisoned",
+        "effect": "6 Turns  Poisoned",
         "type": "condition",
         "damage": 0
       }
@@ -3999,14 +3999,14 @@
     "synergy": "Wind",
     "synergyEffects": [
       {
-        "effect": "Only affects enemy team",
+        "effect": "Only affects rival team",
         "type": "unknown",
         "damage": 0
       }
     ],
     "targets": "All",
     "description": "Can we all sink any lower? Every Temtem on the battlefield gets SPD .Used in combination with a Wind ally, only the enemy team gets SPD .",
-    "effectText": "Quicksand inflicts all Temtem on the battlefield with SPD .",
+    "effectText": "Quicksand inflicts all combatants on the battlefield with SPD .",
     "effects": []
   },
   {
