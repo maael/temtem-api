@@ -781,7 +781,7 @@
     "synergy": "Nature",
     "synergyEffects": [
       {
-        "effect": "Self 3 Turns  Regenerated",
+        "effect": "3 Turns  Regenerated to User",
         "type": "condition",
         "damage": 0
       }
@@ -1757,7 +1757,7 @@
     ],
     "targets": "Single Other Target",
     "description": "Put your hands up, this 'Tem's too hot to handle! This technique seizes and burns for 2 turns.Used in combination with an ally, Fiery Heist seizes and burns for 4 turns.",
-    "effectText": "Fiery Heist inflicts a single other target with the Seized and Burned Conditions for 2 turns.",
+    "effectText": "Fiery Heist inflicts a single other target with the Seized Condition and the Burned Condition for 2 turns.",
     "effects": []
   },
   {
@@ -2151,7 +2151,7 @@
     ],
     "targets": "Single Other Target",
     "description": "Suggestive and Toxic visions that exhaust the mind and tire and trap the target for 2 turns.Used in combination with a Mental ally, the Hallucination does Special damage.",
-    "effectText": "Hallucination inflicts a single other target with the Exhausted and Trapped Conditions for 2 turns.",
+    "effectText": "Hallucination inflicts a single other target with the Exhausted Condition and the Trapped Condition for 2 turns.",
     "effects": []
   },
   {
@@ -2208,10 +2208,16 @@
     "priority": "high",
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "Nature",
-    "synergyEffects": [],
+    "synergyEffects": [
+      {
+        "effect": "User won't be overexerted",
+        "type": "unknown",
+        "damage": 0
+      }
+    ],
     "targets": "Single Other Target",
     "description": "An all-out attack, no time or thought for defense! It's fast, inflicts moderate damage but also overextends the user during their next turn.Used in combination with a ally, Hasty Lunge doesn't overextend the user.",
-    "effectText": "Hasty Lunge deals damage to a single other target, but causes the user to become overexerted the next turn.",
+    "effectText": "Hasty Lunge deals damage to a single other target but causes the user to be overexerted the next turn.",
     "effects": []
   },
   {
@@ -2503,7 +2509,7 @@
       }
     ],
     "targets": "Other Team or Ally",
-    "description": "This technique is named after a former Dojo Master who was once a contender for the title of Champion of the Archipelago... It damages the whole enemy team.Used in combination with a Digital type ally, Hurricane also increases the user's SPD",
+    "description": "This technique is named after a former Dojo Master who was once a contender for the title of Champion of the Archipelago... It damages the whole enemy team.Used in combination with a Digital ally, Hurricane also increases the user's SPD",
     "effectText": "Hurricane deals damage to the rival team or the user's ally.",
     "effects": []
   },
@@ -2797,14 +2803,14 @@
     "synergy": "Electric",
     "synergyEffects": [
       {
-        "effect": "Heal user by 10%",
+        "effect": "Heals 10% of the users maximum HP",
         "type": "unknown",
         "damage": 0
       }
     ],
     "targets": "Single Other Target",
     "description": "Look, nobody likes doing laundry, but it has to be done, OK? It cleans all statuses, naturally! (And does some damage to boot.).",
-    "effectText": "Laundry deals damage to a single target and clears all of the target's Status Conditions.",
+    "effectText": "Laundry deals damage to a single target and cures/removes all of their Status Conditions.",
     "effects": []
   },
   {
@@ -2852,7 +2858,7 @@
     ],
     "targets": "Single Other Target",
     "description": "Normally Taifu prefer cookies... but if there's nothing else available, they'll inflict 25% damage and heal themselves 25%, without even waking up the target.",
-    "effectText": "Leech drains 25% HP from a single other target and restores 25% HP to the user. This Technique does not remove the Asleep Condition on the target.",
+    "effectText": "Leech causes a single other target to lose 25% of their maximum HP and restores 25% of the user's maximum HP. It will not remove the Asleep Condition from afflicted targets.",
     "effects": []
   },
   {
