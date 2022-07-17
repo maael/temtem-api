@@ -2803,7 +2803,7 @@
     "synergy": "Electric",
     "synergyEffects": [
       {
-        "effect": "Heals 10% of the users maximum HP",
+        "effect": "Restore 10% of the user's maximum HP",
         "type": "unknown",
         "damage": 0
       }
@@ -4104,10 +4104,16 @@
     "priority": "high",
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "Nature",
-    "synergyEffects": [],
+    "synergyEffects": [
+      {
+        "effect": "SPDEF",
+        "type": "unknown",
+        "damage": 0
+      }
+    ],
     "targets": "Single Other Target",
     "description": "A breath of fresh air to relax and heal you. This quick technique cures all statuses and decreases SPDEF .Used in combination with a Nature ally, Refreshing Breeze increases SPDEF instead of decreasing it.",
-    "effectText": "Refreshing Breeze cures the user of all status conditions and decreases their SPDEF .",
+    "effectText": "Refreshing Breeze cures/removes all of the user's Status Conditions but inflicts them with SPDEF .",
     "effects": []
   },
   {
@@ -4194,10 +4200,16 @@
     "priority": "high",
     "priorityIcon": "/images/icons/priority/high.png",
     "synergy": "Water",
-    "synergyEffects": [],
+    "synergyEffects": [
+      {
+        "effect": "Restore 20% of user's maximum STA",
+        "type": "unknown",
+        "damage": 0
+      }
+    ],
     "targets": "Single Other Target",
     "description": "It's always good to have a backup... This quick technique restores 40% of the target's STA.Used in combination with a Water ally, Resotre also restores 20% STA to the user.",
-    "effectText": "Restore restores 40% of stamina to a single other target.",
+    "effectText": "Restore restores 40% of a single other target's maximum STA.",
     "effects": []
   },
   {
@@ -4304,7 +4316,7 @@
     "synergyEffects": [],
     "targets": "Single Other Target",
     "description": "Eww, what's that stink? This gross, sticky mess damages the target and seizes it for 2 turns.",
-    "effectText": "Rotten Goo deals damage and inflicts a single other target with the Seized Condition for 2 turns.",
+    "effectText": "Rotten Goo deals damage to a single other target and inflicts them with the Seized Condition for 2 turns.",
     "effects": []
   },
   {
@@ -4355,10 +4367,16 @@
     "priority": "low",
     "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "Wind",
-    "synergyEffects": [],
+    "synergyEffects": [
+      {
+        "effect": "Restore 20% of allies maximum HP Restore 10% of rival's maximum HP",
+        "type": "unknown",
+        "damage": 0
+      }
+    ],
     "targets": "All",
     "description": "Known as \"the blessing rains of Kisiwa\", this shamanic technique heals 15% of every Temtem on the battlefield..Used in combination with a Wind ally, Sanative Rain heals allied Temtem by 20% but enemies by only 10%.",
-    "effectText": "Sanative Rain heals all Temtem on the battlefield by 15%.",
+    "effectText": "Sanative Rain restores 15% of all combatants on the battlefield's maximum HP.",
     "effects": []
   },
   {
