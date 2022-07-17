@@ -4972,10 +4972,16 @@
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Earth",
-    "synergyEffects": [],
+    "synergyEffects": [
+      {
+        "effect": "Targets lose 15% of maximum HP Restore 15% of users maximum HP",
+        "type": "unknown",
+        "damage": 0
+      }
+    ],
     "targets": "Other Team or Ally",
     "description": "Every little sting stings and each of them sucks a little blood... It steals 10% health from the enemy team and leaves them exhausted for 1 turn.Used in combination with an Earth ally, Swarm Aid is faster and steals 15% of health.",
-    "effectText": "Swarm Aid inflicts the rival team or the user's ally with the Exhausted Condition for 1 turn and additionally decreases 10% of their current HP and increases the user's HP by 10%.",
+    "effectText": "Swarm Aid causes the rival team or the user's ally to lose 10% of their maximum HP, inflicts them with the Exhausted Condition for 1 turn and restores 10% of the user's maximum HP.",
     "effects": []
   },
   {
