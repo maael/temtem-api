@@ -75,13 +75,13 @@
     "name": "Benefactor",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Benefactor",
     "description": "",
-    "effect": "Benefactor heals the holder's ally by 10% of their max HP whenever they take damage from a Technique. The targeting of the technique doesn't matter and the effect has no minimum value, meaning it can heal the ally for more HP than they lost due to getting attacked. Benefactor will only trigger if the holder's ally takes damage from a technique, so damage from other traits like Mirroring or from Status Conditions like the Poisoned will not cause Benefactor to activate."
+    "effect": "Benefactor restores 10% of the holder's ally's maximum HP whenever they take damage from a Technique. The targeting of the technique doesn't matter and the effect has no minimum value, meaning it can restore the ally for more HP than they lost due to getting attacked. Benefactor will only trigger if the holder's ally takes damage from a technique, so damage from other traits like Mirroring or from Status Conditions like the Poisoned Condition will not cause it to activate."
   },
   {
     "name": "Body Stretch",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Body_Stretch",
     "description": "",
-    "effect": "Body Stretch gifts the holder with the Regenerated Condition for 2 turns whenever they rest."
+    "effect": "Body Stretch gifts the holder with the Regenerated Condition for 2 turns whenever they Rest."
   },
   {
     "name": "Book Lungs",
