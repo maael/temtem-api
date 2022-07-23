@@ -9239,8 +9239,8 @@
             "Settling"
           ],
           "traitMapping": {
-            "Pyromaniac": "Last Rush",
-            "Settling": "Resilient"
+            "Pyromaniac": "Unknown",
+            "Settling": "Unknown"
           }
         },
         {
@@ -9254,10 +9254,7 @@
             "Last Rush",
             "Resilient"
           ],
-          "traitMapping": {
-            "Last Rush": "Last Rush",
-            "Resilient": "Resilient"
-          }
+          "traitMapping": {}
         }
       ],
       "evolves": true,
@@ -9384,243 +9381,43 @@
       "spdef": 47,
       "total": 429
     },
-    "traits": [
-      "Last Rush",
-      "Resilient"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 150,
-        "inches": 59
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 67,
-        "lbs": 147
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Kick",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Heavy Blow",
-        "source": "Levelling",
-        "levels": 4
-      },
-      {
-        "name": "Warm Cuddle",
-        "source": "Levelling",
-        "levels": 7
-      },
-      {
-        "name": "Sand Splatter",
-        "source": "Levelling",
-        "levels": 8
-      },
-      {
-        "name": "Head Ram",
-        "source": "Levelling",
-        "levels": 13
-      },
-      {
-        "name": "Embers",
-        "source": "Levelling",
-        "levels": 17
-      },
-      {
-        "name": "Fire Tornado",
-        "source": "Levelling",
-        "levels": 23
-      },
-      {
-        "name": "Rampage",
-        "source": "Levelling",
-        "levels": 35
-      },
-      {
-        "name": "Heat Up",
-        "source": "Levelling",
-        "levels": 37
-      },
-      {
-        "name": "Flaming Meteorite",
-        "source": "Levelling",
-        "levels": 46
-      },
-      {
-        "name": "Extinction",
-        "source": "Levelling",
-        "levels": 62
-      },
-      {
-        "name": "Fiery Heist",
-        "source": "Levelling",
-        "levels": 77
-      },
-      {
-        "name": "Charcoal Wall",
-        "source": "Levelling",
-        "levels": 89
-      },
-      {
-        "name": "Base Jump",
-        "source": "Levelling",
-        "levels": 100
-      },
-      {
-        "name": "Magma Cannon",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Block",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Quetza-leño",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Restore",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Roar",
-        "source": "Breeding"
-      },
-      {
-        "name": "Shelter",
-        "source": "Breeding"
-      }
-    ],
+    "techniques": [],
     "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 37,
-          "name": "Banapi",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Pyromaniac",
-            "Settling"
-          ],
-          "traitMapping": {
-            "Pyromaniac": "Last Rush",
-            "Settling": "Resilient"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 38,
-          "name": "Capyre",
-          "level": 17,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Last Rush",
-            "Resilient"
-          ],
-          "traitMapping": {
-            "Last Rush": "Last Rush",
-            "Resilient": "Resilient"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 37,
-        "name": "Banapi",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Pyromaniac",
-          "Settling"
-        ],
-        "traitMapping": {
-          "Pyromaniac": "Last Rush",
-          "Settling": "Resilient"
-        }
-      },
-      "to": null,
-      "number": 38,
-      "name": "Capyre",
-      "level": 17,
-      "trading": false,
-      "traits": [
-        "Last Rush",
-        "Resilient"
-      ],
-      "traitMapping": {
-        "Last Rush": "Last Rush",
-        "Resilient": "Resilient"
-      }
+      "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/cf/Capyre.png",
-    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e2/LumaCapyre.png",
-    "locations": [
-      {
-        "location": "Anak Caldera",
-        "place": "Anak Caldera",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "25%",
-        "level": "33 - 38",
-        "freetem": {
-          "minLevel": 33,
-          "maxLevel": 38,
-          "minPansuns": 110,
-          "maxPansuns": 123
-        }
-      },
-      {
-        "location": "Anak Volcano",
-        "place": "Anak Volcano",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "50%",
-        "level": "38 - 48",
-        "freetem": {
-          "minLevel": 38,
-          "maxLevel": 48,
-          "minPansuns": 123,
-          "maxPansuns": 150
-        }
-      }
-    ],
+    "wikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "",
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Capyre.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Capyre.png",
     "genderRatio": {
-      "male": 60,
-      "female": 40
+      "male": 50,
+      "female": 50
     },
-    "catchRate": 100,
-    "hatchMins": 25,
-    "tvYields": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 2,
-      "atk": 1,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0
-    },
-    "gameDescription": "These temperamental creatures often appear in Myrislan folklore as tricksters, their unreliable nature embedded deeply in the culture. Highly territorial, they breed in Anak and make sure any visitors know just how unwelcome they are.",
-    "wikiRenderStaticUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "wikiRenderAnimatedUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "wikiRenderStaticLumaUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "wikiRenderAnimatedLumaUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "renderStaticImage": "/images/renders/temtem/static/Capyre.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Capyre.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Capyre.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Capyre.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 39,
