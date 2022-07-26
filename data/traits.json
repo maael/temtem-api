@@ -723,7 +723,7 @@
     "name": "Royal Jelly",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Royal_Jelly",
     "description": "",
-    "effect": "Royal Jelly restores 5% of the holder's and their allies' max HP at the end of each turn."
+    "effect": "Royal Jelly restores 5% of the holder's and their allies' max HP at the start of each turn. The healing is applied after Status Conditions have been triggered but before a player is able to replace a knocked out Temtem."
   },
   {
     "name": "Ruminant",
