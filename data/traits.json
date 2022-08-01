@@ -147,13 +147,13 @@
     "name": "Camaraderie",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Camaraderie",
     "description": "",
-    "effect": "Camaraderie reduces the damage the holder takes from Techniques by 50% if both the holder and their ally are part of the same evolutionary line."
+    "effect": "Camaraderie decreases the damage the holder takes from Techniques by 50% if both the holder and their ally are part of the same evolutionary line."
   },
   {
     "name": "Camouflage",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Camouflage",
     "description": "",
-    "effect": "Camouflage grants the holder Evading for 2 turns upon taking damage from Physical Techniques."
+    "effect": "Camouflage gifts the holder with the Evading Condition for 2 turns when hit with a Physical Technique."
   },
   {
     "name": "Channeler",
@@ -171,13 +171,13 @@
     "name": "Cold-Blooded",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Cold-Blooded",
     "description": "",
-    "effect": "Cold-Blooded protects the holder from being inflicted with the Cold or Frozen Condition by swapping it with the Regenerated Condition for 1 turn."
+    "effect": "Cold-Blooded protects the holder from being inflicted with the Cold Condition or the Frozen Condition and instead gifts them with the Regenerated Condition for 1 turn."
   },
   {
     "name": "Cold-Natured",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Cold-Natured",
     "description": "",
-    "effect": "Cold-Natured causes the holder to be inflicted with the Frozen Conditionwhenever they would have been inflicted with the Cold Condition. The duration of the Frozen Condition is the same as the would've been inflicted Cold Condition."
+    "effect": "Cold-Natured causes any Cold Condition the holder is inflicted with to instead be replaced with the Frozen Condition for the same duration of the initial Cold Condition."
   },
   {
     "name": "Comebacker",
@@ -189,7 +189,7 @@
     "name": "Common Factor",
     "wikiUrl": "https://temtem.gamepedia.com/wiki/Common_Factor",
     "description": "",
-    "effect": "Common Factor gives all Temtem on the battlefield the Nullified Condition for 2 turns when the holder enters the battlefield."
+    "effect": "Common Factor gives all combatants on the battlefield the Nullified Condition for 2 turns upon the holder entering the battlefield."
   },
   {
     "name": "Confident",
