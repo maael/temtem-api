@@ -1767,24 +1767,8 @@
             "Resilient"
           ],
           "traitMapping": {
-            "Resistant": "Zen",
-            "Resilient": "Determined"
-          }
-        },
-        {
-          "stage": 2,
-          "number": 9,
-          "name": "Platimous",
-          "level": 20,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Zen",
-            "Determined"
-          ],
-          "traitMapping": {
-            "Zen": "Zen",
-            "Determined": "Determined"
+            "Resistant": "Resistant",
+            "Resilient": "Resilient"
           }
         }
       ],
@@ -1803,8 +1787,8 @@
           "Resilient"
         ],
         "traitMapping": {
-          "Resistant": "Zen",
-          "Resilient": "Determined"
+          "Resistant": "Resistant",
+          "Resilient": "Resilient"
         }
       },
       "number": 7,
@@ -2078,24 +2062,8 @@
             "Resilient"
           ],
           "traitMapping": {
-            "Resistant": "Zen",
-            "Resilient": "Determined"
-          }
-        },
-        {
-          "stage": 2,
-          "number": 9,
-          "name": "Platimous",
-          "level": 20,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Zen",
-            "Determined"
-          ],
-          "traitMapping": {
-            "Zen": "Zen",
-            "Determined": "Determined"
+            "Resistant": "Resistant",
+            "Resilient": "Resilient"
           }
         }
       ],
@@ -2117,22 +2085,7 @@
           "Amphibian": "Resilient"
         }
       },
-      "to": {
-        "stage": 2,
-        "number": 9,
-        "name": "Platimous",
-        "level": 20,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Zen",
-          "Determined"
-        ],
-        "traitMapping": {
-          "Zen": "Zen",
-          "Determined": "Determined"
-        }
-      },
+      "to": null,
       "number": 8,
       "name": "Platox",
       "level": 20,
@@ -2142,8 +2095,8 @@
         "Resilient"
       ],
       "traitMapping": {
-        "Resistant": "Zen",
-        "Resilient": "Determined"
+        "Resistant": "Resistant",
+        "Resilient": "Resilient"
       }
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7b/Platox.png",
@@ -2350,7 +2303,7 @@
       "Platimous' Luma color was chosen based on a community vote by PokéNinja."
     ],
     "evolution": {
-      "stage": 2,
+      "stage": 0,
       "evolutionTree": [
         {
           "stage": 0,
@@ -2380,30 +2333,15 @@
             "Resilient"
           ],
           "traitMapping": {
-            "Resistant": "Zen",
-            "Resilient": "Determined"
-          }
-        },
-        {
-          "stage": 2,
-          "number": 9,
-          "name": "Platimous",
-          "level": 20,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Zen",
-            "Determined"
-          ],
-          "traitMapping": {
-            "Zen": "Zen",
-            "Determined": "Determined"
+            "Resistant": "Resistant",
+            "Resilient": "Resilient"
           }
         }
       ],
       "evolves": true,
       "type": "levels",
-      "from": {
+      "from": null,
+      "to": {
         "stage": 1,
         "number": 8,
         "name": "Platox",
@@ -2415,22 +2353,21 @@
           "Resilient"
         ],
         "traitMapping": {
-          "Resistant": "Zen",
-          "Resilient": "Determined"
+          "Resistant": "Resistant",
+          "Resilient": "Resilient"
         }
       },
-      "to": null,
-      "number": 9,
-      "name": "Platimous",
-      "level": 20,
+      "number": 7,
+      "name": "Platypet",
+      "level": 0,
       "trading": false,
       "traits": [
-        "Zen",
-        "Determined"
+        "Toxic Affinity",
+        "Amphibian"
       ],
       "traitMapping": {
-        "Zen": "Zen",
-        "Determined": "Determined"
+        "Toxic Affinity": "Resistant",
+        "Amphibian": "Resilient"
       }
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7f/Platimous.png",
@@ -27694,24 +27631,8 @@
             "Coward's Rest"
           ],
           "traitMapping": {
-            "Immunity": "Mithridatism",
-            "Coward's Rest": "Camouflage"
-          }
-        },
-        {
-          "stage": 2,
-          "number": 121,
-          "name": "Broccolem",
-          "level": 10,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Mithridatism",
-            "Camouflage"
-          ],
-          "traitMapping": {
-            "Mithridatism": "Mithridatism",
-            "Camouflage": "Camouflage"
+            "Immunity": "Immunity",
+            "Coward's Rest": "Coward's Rest"
           }
         }
       ],
@@ -27730,8 +27651,8 @@
           "Coward's Rest"
         ],
         "traitMapping": {
-          "Immunity": "Mithridatism",
-          "Coward's Rest": "Camouflage"
+          "Immunity": "Immunity",
+          "Coward's Rest": "Coward's Rest"
         }
       },
       "number": 119,
@@ -27924,24 +27845,8 @@
             "Coward's Rest"
           ],
           "traitMapping": {
-            "Immunity": "Mithridatism",
-            "Coward's Rest": "Camouflage"
-          }
-        },
-        {
-          "stage": 2,
-          "number": 121,
-          "name": "Broccolem",
-          "level": 10,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Mithridatism",
-            "Camouflage"
-          ],
-          "traitMapping": {
-            "Mithridatism": "Mithridatism",
-            "Camouflage": "Camouflage"
+            "Immunity": "Immunity",
+            "Coward's Rest": "Coward's Rest"
           }
         }
       ],
@@ -27963,22 +27868,7 @@
           "Autotomy": "Coward's Rest"
         }
       },
-      "to": {
-        "stage": 2,
-        "number": 121,
-        "name": "Broccolem",
-        "level": 10,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Mithridatism",
-          "Camouflage"
-        ],
-        "traitMapping": {
-          "Mithridatism": "Mithridatism",
-          "Camouflage": "Camouflage"
-        }
-      },
+      "to": null,
       "number": 120,
       "name": "Broccorc",
       "level": 10,
@@ -27988,8 +27878,8 @@
         "Coward's Rest"
       ],
       "traitMapping": {
-        "Immunity": "Mithridatism",
-        "Coward's Rest": "Camouflage"
+        "Immunity": "Immunity",
+        "Coward's Rest": "Coward's Rest"
       }
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/88/Broccorc.png",
