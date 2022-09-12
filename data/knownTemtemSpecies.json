@@ -17411,22 +17411,6 @@
       "evolutionTree": [
         {
           "stage": 0,
-          "number": 72,
-          "name": "Crystle",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Amphibian",
-            "Rested"
-          ],
-          "traitMapping": {
-            "Amphibian": "Mirroring",
-            "Rested": "Provident"
-          }
-        },
-        {
-          "stage": 1,
           "number": 73,
           "name": "Sherald",
           "level": 30,
@@ -17442,7 +17426,7 @@
           }
         },
         {
-          "stage": 2,
+          "stage": 1,
           "number": 74,
           "name": "Tortenite",
           "level": 21,
@@ -17463,31 +17447,31 @@
       "from": null,
       "to": {
         "stage": 1,
-        "number": 73,
-        "name": "Sherald",
-        "level": 30,
+        "number": 74,
+        "name": "Tortenite",
+        "level": 21,
         "type": "levels",
         "trading": false,
         "traits": [
-          "Mirroring",
-          "Provident"
+          "Confined",
+          "Efficient"
         ],
         "traitMapping": {
-          "Mirroring": "Confined",
-          "Provident": "Efficient"
+          "Confined": "Confined",
+          "Efficient": "Efficient"
         }
       },
-      "number": 72,
-      "name": "Crystle",
-      "level": 0,
+      "number": 73,
+      "name": "Sherald",
+      "level": 30,
       "trading": false,
       "traits": [
-        "Amphibian",
-        "Rested"
+        "Mirroring",
+        "Provident"
       ],
       "traitMapping": {
-        "Amphibian": "Mirroring",
-        "Rested": "Provident"
+        "Mirroring": "Confined",
+        "Provident": "Efficient"
       }
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/ac/Crystle.png",
@@ -17671,26 +17655,10 @@
       "Sherald's name is derived from Shell and Emerald."
     ],
     "evolution": {
-      "stage": 1,
+      "stage": 0,
       "evolutionTree": [
         {
           "stage": 0,
-          "number": 72,
-          "name": "Crystle",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Amphibian",
-            "Rested"
-          ],
-          "traitMapping": {
-            "Amphibian": "Mirroring",
-            "Rested": "Provident"
-          }
-        },
-        {
-          "stage": 1,
           "number": 73,
           "name": "Sherald",
           "level": 30,
@@ -17706,7 +17674,7 @@
           }
         },
         {
-          "stage": 2,
+          "stage": 1,
           "number": 74,
           "name": "Tortenite",
           "level": 21,
@@ -17724,24 +17692,9 @@
       ],
       "evolves": true,
       "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 72,
-        "name": "Crystle",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Amphibian",
-          "Rested"
-        ],
-        "traitMapping": {
-          "Amphibian": "Mirroring",
-          "Rested": "Provident"
-        }
-      },
+      "from": null,
       "to": {
-        "stage": 2,
+        "stage": 1,
         "number": 74,
         "name": "Tortenite",
         "level": 21,
@@ -17925,26 +17878,10 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 2,
+      "stage": 1,
       "evolutionTree": [
         {
           "stage": 0,
-          "number": 72,
-          "name": "Crystle",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Amphibian",
-            "Rested"
-          ],
-          "traitMapping": {
-            "Amphibian": "Mirroring",
-            "Rested": "Provident"
-          }
-        },
-        {
-          "stage": 1,
           "number": 73,
           "name": "Sherald",
           "level": 30,
@@ -17960,7 +17897,7 @@
           }
         },
         {
-          "stage": 2,
+          "stage": 1,
           "number": 74,
           "name": "Tortenite",
           "level": 21,
@@ -17979,7 +17916,7 @@
       "evolves": true,
       "type": "levels",
       "from": {
-        "stage": 1,
+        "stage": 0,
         "number": 73,
         "name": "Sherald",
         "level": 30,
@@ -30103,26 +30040,10 @@
       "Tuwai is the only Temtem that can be found on every island on the Airborne Archipelago."
     ],
     "evolution": {
-      "stage": 10,
+      "stage": 0,
       "evolutionTree": [
         {
           "stage": 0,
-          "number": 130,
-          "name": "Tuwai",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Spoilsport",
-            "Resilient"
-          ],
-          "traitMapping": {
-            "Spoilsport": "Spreader",
-            "Resilient": "Hydrologist"
-          }
-        },
-        {
-          "stage": 1,
           "number": 131,
           "name": "Tukai",
           "level": 0,
@@ -30134,29 +30055,12 @@
           ],
           "description": "Shrine at Dabmis' Rest",
           "traitMapping": {
-            "Spreader": "Spoilsport",
-            "Hydrologist": "Resilient"
+            "Spreader": "Heater",
+            "Hydrologist": "Pyromaniac"
           }
         },
         {
-          "stage": 2,
-          "number": 130,
-          "name": "Tuwai",
-          "level": 0,
-          "type": "special",
-          "trading": false,
-          "traits": [
-            "Spoilsport",
-            "Resilient"
-          ],
-          "description": "Shrine at Dabmis' Rest",
-          "traitMapping": {
-            "Spoilsport": "Heater",
-            "Resilient": "Pyromaniac"
-          }
-        },
-        {
-          "stage": 3,
+          "stage": 1,
           "number": 132,
           "name": "Tulcan",
           "level": 0,
@@ -30168,29 +30072,12 @@
           ],
           "description": "Shrine at Altar of the Inner Flame",
           "traitMapping": {
-            "Heater": "Spoilsport",
-            "Pyromaniac": "Resilient"
+            "Heater": "Receptive",
+            "Pyromaniac": "Determined"
           }
         },
         {
-          "stage": 4,
-          "number": 130,
-          "name": "Tuwai",
-          "level": 0,
-          "type": "special",
-          "trading": false,
-          "traits": [
-            "Spoilsport",
-            "Resilient"
-          ],
-          "description": "Shrine at Altar of the Inner Flame",
-          "traitMapping": {
-            "Spoilsport": "Receptive",
-            "Resilient": "Determined"
-          }
-        },
-        {
-          "stage": 5,
+          "stage": 2,
           "number": 133,
           "name": "Tuvine",
           "level": 0,
@@ -30202,29 +30089,12 @@
           ],
           "description": "Shrine at Sons of Crystal",
           "traitMapping": {
-            "Receptive": "Spoilsport",
-            "Determined": "Resilient"
+            "Receptive": "Escapist",
+            "Determined": "Tactical Strike"
           }
         },
         {
-          "stage": 6,
-          "number": 130,
-          "name": "Tuwai",
-          "level": 0,
-          "type": "special",
-          "trading": false,
-          "traits": [
-            "Spoilsport",
-            "Resilient"
-          ],
-          "description": "Shrine at Sons of Crystal",
-          "traitMapping": {
-            "Spoilsport": "Escapist",
-            "Resilient": "Tactical Strike"
-          }
-        },
-        {
-          "stage": 7,
+          "stage": 3,
           "number": 134,
           "name": "Turoc",
           "level": 0,
@@ -30236,29 +30106,12 @@
           ],
           "description": "Shrine at Aisha's Hearth",
           "traitMapping": {
-            "Escapist": "Spoilsport",
-            "Tactical Strike": "Resilient"
+            "Escapist": "Splitter",
+            "Tactical Strike": "Common Factor"
           }
         },
         {
-          "stage": 8,
-          "number": 130,
-          "name": "Tuwai",
-          "level": 0,
-          "type": "special",
-          "trading": false,
-          "traits": [
-            "Spoilsport",
-            "Resilient"
-          ],
-          "description": "Shrine at Aisha's Hearth",
-          "traitMapping": {
-            "Spoilsport": "Splitter",
-            "Resilient": "Common Factor"
-          }
-        },
-        {
-          "stage": 9,
+          "stage": 4,
           "number": 135,
           "name": "Tuwire",
           "level": 0,
@@ -30270,29 +30123,12 @@
           ],
           "description": "Shrine at Digital Kami Shrine",
           "traitMapping": {
-            "Splitter": "Spoilsport",
-            "Common Factor": "Resilient"
+            "Splitter": "Tag Team",
+            "Common Factor": "Contemplation"
           }
         },
         {
-          "stage": 10,
-          "number": 130,
-          "name": "Tuwai",
-          "level": 0,
-          "type": "special",
-          "trading": false,
-          "traits": [
-            "Spoilsport",
-            "Resilient"
-          ],
-          "description": "Shrine at Digital Kami Shrine",
-          "traitMapping": {
-            "Spoilsport": "Tag Team",
-            "Resilient": "Contemplation"
-          }
-        },
-        {
-          "stage": 11,
+          "stage": 5,
           "number": 136,
           "name": "Tutsu",
           "level": 0,
@@ -30311,52 +30147,36 @@
       ],
       "evolves": true,
       "type": "special",
-      "from": {
-        "stage": 9,
-        "number": 135,
-        "name": "Tuwire",
-        "level": 0,
-        "type": "special",
-        "trading": false,
-        "traits": [
-          "Splitter",
-          "Common Factor"
-        ],
-        "description": "Shrine at Digital Kami Shrine",
-        "traitMapping": {
-          "Splitter": "Spoilsport",
-          "Common Factor": "Resilient"
-        }
-      },
+      "from": null,
       "to": {
-        "stage": 11,
-        "number": 136,
-        "name": "Tutsu",
+        "stage": 1,
+        "number": 132,
+        "name": "Tulcan",
         "level": 0,
         "type": "special",
         "trading": false,
         "traits": [
-          "Tag Team",
-          "Contemplation"
+          "Heater",
+          "Pyromaniac"
         ],
-        "description": "Shrine at Chieftain's Barrow",
+        "description": "Shrine at Altar of the Inner Flame",
         "traitMapping": {
-          "Tag Team": "Tag Team",
-          "Contemplation": "Contemplation"
+          "Heater": "Receptive",
+          "Pyromaniac": "Determined"
         }
       },
-      "number": 130,
-      "name": "Tuwai",
+      "number": 131,
+      "name": "Tukai",
       "level": 0,
       "trading": false,
       "traits": [
-        "Spoilsport",
-        "Resilient"
+        "Spreader",
+        "Hydrologist"
       ],
-      "description": "Shrine at Digital Kami Shrine",
+      "description": "Shrine at Dabmis' Rest",
       "traitMapping": {
-        "Spoilsport": "Tag Team",
-        "Resilient": "Contemplation"
+        "Spreader": "Heater",
+        "Hydrologist": "Pyromaniac"
       }
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/db/Tuwai.png",
@@ -30583,74 +30403,7 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 130,
-          "name": "Tuwai",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Spoilsport",
-            "Resilient"
-          ],
-          "traitMapping": {
-            "Spoilsport": "Spreader",
-            "Resilient": "Hydrologist"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 131,
-          "name": "Tukai",
-          "level": 0,
-          "type": "special",
-          "trading": false,
-          "traits": [
-            "Spreader",
-            "Hydrologist"
-          ],
-          "description": "Shrine at Dabmis' Rest",
-          "traitMapping": {
-            "Spreader": "Spreader",
-            "Hydrologist": "Hydrologist"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "special",
-      "from": {
-        "stage": 0,
-        "number": 130,
-        "name": "Tuwai",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Spoilsport",
-          "Resilient"
-        ],
-        "traitMapping": {
-          "Spoilsport": "Spreader",
-          "Resilient": "Hydrologist"
-        }
-      },
-      "to": null,
-      "number": 131,
-      "name": "Tukai",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Spreader",
-        "Hydrologist"
-      ],
-      "description": "Shrine at Dabmis' Rest",
-      "traitMapping": {
-        "Spreader": "Spreader",
-        "Hydrologist": "Hydrologist"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/89/Tukai.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/99/LumaTukai.png",
@@ -30779,74 +30532,7 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 130,
-          "name": "Tuwai",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Spoilsport",
-            "Resilient"
-          ],
-          "traitMapping": {
-            "Spoilsport": "Heater",
-            "Resilient": "Pyromaniac"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 132,
-          "name": "Tulcan",
-          "level": 0,
-          "type": "special",
-          "trading": false,
-          "traits": [
-            "Heater",
-            "Pyromaniac"
-          ],
-          "description": "Shrine at Altar of the Inner Flame",
-          "traitMapping": {
-            "Heater": "Heater",
-            "Pyromaniac": "Pyromaniac"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "special",
-      "from": {
-        "stage": 0,
-        "number": 130,
-        "name": "Tuwai",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Spoilsport",
-          "Resilient"
-        ],
-        "traitMapping": {
-          "Spoilsport": "Heater",
-          "Resilient": "Pyromaniac"
-        }
-      },
-      "to": null,
-      "number": 132,
-      "name": "Tulcan",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Heater",
-        "Pyromaniac"
-      ],
-      "description": "Shrine at Altar of the Inner Flame",
-      "traitMapping": {
-        "Heater": "Heater",
-        "Pyromaniac": "Pyromaniac"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/05/Tulcan.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/17/LumaTulcan.png",
@@ -30975,74 +30661,7 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 130,
-          "name": "Tuwai",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Spoilsport",
-            "Resilient"
-          ],
-          "traitMapping": {
-            "Spoilsport": "Receptive",
-            "Resilient": "Determined"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 133,
-          "name": "Tuvine",
-          "level": 0,
-          "type": "special",
-          "trading": false,
-          "traits": [
-            "Receptive",
-            "Determined"
-          ],
-          "description": "Shrine at Sons of Crystal",
-          "traitMapping": {
-            "Receptive": "Receptive",
-            "Determined": "Determined"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "special",
-      "from": {
-        "stage": 0,
-        "number": 130,
-        "name": "Tuwai",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Spoilsport",
-          "Resilient"
-        ],
-        "traitMapping": {
-          "Spoilsport": "Receptive",
-          "Resilient": "Determined"
-        }
-      },
-      "to": null,
-      "number": 133,
-      "name": "Tuvine",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Receptive",
-        "Determined"
-      ],
-      "description": "Shrine at Sons of Crystal",
-      "traitMapping": {
-        "Receptive": "Receptive",
-        "Determined": "Determined"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/7e/Tuvine.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/86/LumaTuvine.png",
@@ -31175,74 +30794,7 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 130,
-          "name": "Tuwai",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Spoilsport",
-            "Resilient"
-          ],
-          "traitMapping": {
-            "Spoilsport": "Escapist",
-            "Resilient": "Tactical Strike"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 134,
-          "name": "Turoc",
-          "level": 0,
-          "type": "special",
-          "trading": false,
-          "traits": [
-            "Escapist",
-            "Tactical Strike"
-          ],
-          "description": "Shrine at Aisha's Hearth",
-          "traitMapping": {
-            "Escapist": "Escapist",
-            "Tactical Strike": "Tactical Strike"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "special",
-      "from": {
-        "stage": 0,
-        "number": 130,
-        "name": "Tuwai",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Spoilsport",
-          "Resilient"
-        ],
-        "traitMapping": {
-          "Spoilsport": "Escapist",
-          "Resilient": "Tactical Strike"
-        }
-      },
-      "to": null,
-      "number": 134,
-      "name": "Turoc",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Escapist",
-        "Tactical Strike"
-      ],
-      "description": "Shrine at Aisha's Hearth",
-      "traitMapping": {
-        "Escapist": "Escapist",
-        "Tactical Strike": "Tactical Strike"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/6/6a/Turoc.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/8f/LumaTuroc.png",
@@ -31380,74 +30932,7 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 130,
-          "name": "Tuwai",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Spoilsport",
-            "Resilient"
-          ],
-          "traitMapping": {
-            "Spoilsport": "Splitter",
-            "Resilient": "Common Factor"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 135,
-          "name": "Tuwire",
-          "level": 0,
-          "type": "special",
-          "trading": false,
-          "traits": [
-            "Splitter",
-            "Common Factor"
-          ],
-          "description": "Shrine at Digital Kami Shrine",
-          "traitMapping": {
-            "Splitter": "Splitter",
-            "Common Factor": "Common Factor"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "special",
-      "from": {
-        "stage": 0,
-        "number": 130,
-        "name": "Tuwai",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Spoilsport",
-          "Resilient"
-        ],
-        "traitMapping": {
-          "Spoilsport": "Splitter",
-          "Resilient": "Common Factor"
-        }
-      },
-      "to": null,
-      "number": 135,
-      "name": "Tuwire",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Splitter",
-        "Common Factor"
-      ],
-      "description": "Shrine at Digital Kami Shrine",
-      "traitMapping": {
-        "Splitter": "Splitter",
-        "Common Factor": "Common Factor"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d7/Tuwire.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/d8/LumaTuwire.png",
@@ -31585,74 +31070,7 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 130,
-          "name": "Tuwai",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Spoilsport",
-            "Resilient"
-          ],
-          "traitMapping": {
-            "Spoilsport": "Tag Team",
-            "Resilient": "Contemplation"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 136,
-          "name": "Tutsu",
-          "level": 0,
-          "type": "special",
-          "trading": false,
-          "traits": [
-            "Tag Team",
-            "Contemplation"
-          ],
-          "description": "Shrine at Chieftain's Barrow",
-          "traitMapping": {
-            "Tag Team": "Tag Team",
-            "Contemplation": "Contemplation"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "special",
-      "from": {
-        "stage": 0,
-        "number": 130,
-        "name": "Tuwai",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Spoilsport",
-          "Resilient"
-        ],
-        "traitMapping": {
-          "Spoilsport": "Tag Team",
-          "Resilient": "Contemplation"
-        }
-      },
-      "to": null,
-      "number": 136,
-      "name": "Tutsu",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Tag Team",
-        "Contemplation"
-      ],
-      "description": "Shrine at Chieftain's Barrow",
-      "traitMapping": {
-        "Tag Team": "Tag Team",
-        "Contemplation": "Contemplation"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b0/Tutsu.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/93/LumaTutsu.png",
