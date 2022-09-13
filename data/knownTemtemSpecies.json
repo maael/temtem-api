@@ -18799,8 +18799,8 @@
             "Mirroring"
           ],
           "traitMapping": {
-            "Soft Touch": "Dreaded Alarm",
-            "Mirroring": "Rejuvenate"
+            "Soft Touch": "Unknown",
+            "Mirroring": "Unknown"
           }
         },
         {
@@ -18814,10 +18814,7 @@
             "Dreaded Alarm",
             "Rejuvenate"
           ],
-          "traitMapping": {
-            "Dreaded Alarm": "Dreaded Alarm",
-            "Rejuvenate": "Rejuvenate"
-          }
+          "traitMapping": {}
         }
       ],
       "evolves": true,
@@ -18930,195 +18927,43 @@
       "spdef": 51,
       "total": 460
     },
-    "traits": [
-      "Dreaded Alarm",
-      "Rejuvenate"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 190,
-        "inches": 74
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 82,
-        "lbs": 180
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Hypnosis",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Stare",
-        "source": "Levelling",
-        "levels": 4
-      },
-      {
-        "name": "Beta Burst",
-        "source": "Levelling",
-        "levels": 8
-      },
-      {
-        "name": "Psychosis",
-        "source": "Levelling",
-        "levels": 12
-      },
-      {
-        "name": "Telekinetic Shrapnel",
-        "source": "Levelling",
-        "levels": 16
-      },
-      {
-        "name": "Gamma Burst",
-        "source": "Levelling",
-        "levels": 35
-      },
-      {
-        "name": "Ninja Jutsu",
-        "source": "Levelling",
-        "levels": 48
-      },
-      {
-        "name": "Time Split",
-        "source": "Levelling",
-        "levels": 58
-      },
-      {
-        "name": "Slow Down",
-        "source": "Levelling",
-        "levels": 65
-      },
-      {
-        "name": "Denigrate",
-        "source": "Levelling",
-        "levels": 76
-      },
-      {
-        "name": "Depress",
-        "source": "Levelling",
-        "levels": 90
-      },
-      {
-        "name": "Darkness",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Purgation",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Horror",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Extra Energy Slam",
-        "source": "Breeding"
-      },
-      {
-        "name": "Pickpocket",
-        "source": "Breeding"
-      }
-    ],
+    "techniques": [],
     "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 79,
-          "name": "Hocus",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Soft Touch",
-            "Mirroring"
-          ],
-          "traitMapping": {
-            "Soft Touch": "Dreaded Alarm",
-            "Mirroring": "Rejuvenate"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 80,
-          "name": "Pocus",
-          "level": 21,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Dreaded Alarm",
-            "Rejuvenate"
-          ],
-          "traitMapping": {
-            "Dreaded Alarm": "Dreaded Alarm",
-            "Rejuvenate": "Rejuvenate"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 79,
-        "name": "Hocus",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Soft Touch",
-          "Mirroring"
-        ],
-        "traitMapping": {
-          "Soft Touch": "Dreaded Alarm",
-          "Mirroring": "Rejuvenate"
-        }
-      },
-      "to": null,
-      "number": 80,
-      "name": "Pocus",
-      "level": 21,
-      "trading": false,
-      "traits": [
-        "Dreaded Alarm",
-        "Rejuvenate"
-      ],
-      "traitMapping": {
-        "Dreaded Alarm": "Dreaded Alarm",
-        "Rejuvenate": "Rejuvenate"
-      }
+      "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/f/fb/Pocus.png",
-    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/e5/LumaPocus.png",
+    "wikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "",
     "locations": [],
     "icon": "/images/portraits/temtem/large/Pocus.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Pocus.png",
     "genderRatio": {
-      "male": 20,
-      "female": 80
+      "male": 50,
+      "female": 50
     },
-    "catchRate": 40,
-    "hatchMins": 37,
-    "tvYields": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 2,
-      "atk": 0,
-      "def": 0,
-      "spatk": 1,
-      "spdef": 0
-    },
-    "gameDescription": "Pocus was considered blue-blooded among the blue bloods, and was traditionally given only to the male heirs of the House of Braeside. When the lineage fell, they mostly went extinct... until recently.",
-    "wikiRenderStaticUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "wikiRenderAnimatedUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "wikiRenderStaticLumaUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "wikiRenderAnimatedLumaUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "renderStaticImage": "/images/renders/temtem/static/Pocus.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Pocus.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Pocus.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Pocus.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 81,
@@ -20131,72 +19976,7 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 84,
-          "name": "Mushi",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Resistant",
-            "Resilient"
-          ],
-          "traitMapping": {
-            "Resistant": "Parrier",
-            "Resilient": "Tireless"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 85,
-          "name": "Mushook",
-          "level": 20,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Parrier",
-            "Tireless"
-          ],
-          "traitMapping": {
-            "Parrier": "Parrier",
-            "Tireless": "Tireless"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 84,
-        "name": "Mushi",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Resistant",
-          "Resilient"
-        ],
-        "traitMapping": {
-          "Resistant": "Parrier",
-          "Resilient": "Tireless"
-        }
-      },
-      "to": null,
-      "number": 85,
-      "name": "Mushook",
-      "level": 20,
-      "trading": false,
-      "traits": [
-        "Parrier",
-        "Tireless"
-      ],
-      "traitMapping": {
-        "Parrier": "Parrier",
-        "Tireless": "Tireless"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/90/Mushook.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/b/b8/LumaMushook.png",
@@ -21231,72 +21011,7 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 0,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 90,
-          "name": "Galvanid",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Efficient",
-            "Inductor"
-          ],
-          "traitMapping": {
-            "Efficient": "Kinetic Transfer",
-            "Inductor": "Electric Custodian"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 91,
-          "name": "Raignet",
-          "level": 16,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Kinetic Transfer",
-            "Electric Custodian"
-          ],
-          "traitMapping": {
-            "Kinetic Transfer": "Kinetic Transfer",
-            "Electric Custodian": "Electric Custodian"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": null,
-      "to": {
-        "stage": 1,
-        "number": 91,
-        "name": "Raignet",
-        "level": 16,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Kinetic Transfer",
-          "Electric Custodian"
-        ],
-        "traitMapping": {
-          "Kinetic Transfer": "Kinetic Transfer",
-          "Electric Custodian": "Electric Custodian"
-        }
-      },
-      "number": 90,
-      "name": "Galvanid",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Efficient",
-        "Inductor"
-      ],
-      "traitMapping": {
-        "Efficient": "Kinetic Transfer",
-        "Inductor": "Electric Custodian"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/1a/Galvanid.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/ce/LumaGalvanid.png",
@@ -21472,72 +21187,7 @@
       "Raignet was first revealed via Twitter."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 90,
-          "name": "Galvanid",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Efficient",
-            "Inductor"
-          ],
-          "traitMapping": {
-            "Efficient": "Kinetic Transfer",
-            "Inductor": "Electric Custodian"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 91,
-          "name": "Raignet",
-          "level": 16,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Kinetic Transfer",
-            "Electric Custodian"
-          ],
-          "traitMapping": {
-            "Kinetic Transfer": "Kinetic Transfer",
-            "Electric Custodian": "Electric Custodian"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 90,
-        "name": "Galvanid",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Efficient",
-          "Inductor"
-        ],
-        "traitMapping": {
-          "Efficient": "Kinetic Transfer",
-          "Inductor": "Electric Custodian"
-        }
-      },
-      "to": null,
-      "number": 91,
-      "name": "Raignet",
-      "level": 16,
-      "trading": false,
-      "traits": [
-        "Kinetic Transfer",
-        "Electric Custodian"
-      ],
-      "traitMapping": {
-        "Kinetic Transfer": "Kinetic Transfer",
-        "Electric Custodian": "Electric Custodian"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/50/Raignet.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/54/LumaRaignet.png",
@@ -23347,72 +22997,7 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 0,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 100,
-          "name": "Kuri",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Camaraderie",
-            "Callosity"
-          ],
-          "traitMapping": {
-            "Camaraderie": "Scavenger",
-            "Callosity": "Skull Helmet"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 101,
-          "name": "Kauren",
-          "level": 16,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Scavenger",
-            "Skull Helmet"
-          ],
-          "traitMapping": {
-            "Scavenger": "Scavenger",
-            "Skull Helmet": "Skull Helmet"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": null,
-      "to": {
-        "stage": 1,
-        "number": 101,
-        "name": "Kauren",
-        "level": 16,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Scavenger",
-          "Skull Helmet"
-        ],
-        "traitMapping": {
-          "Scavenger": "Scavenger",
-          "Skull Helmet": "Skull Helmet"
-        }
-      },
-      "number": 100,
-      "name": "Kuri",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Camaraderie",
-        "Callosity"
-      ],
-      "traitMapping": {
-        "Camaraderie": "Scavenger",
-        "Callosity": "Skull Helmet"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/52/Kuri.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/1/19/LumaKuri.png",
@@ -23620,72 +23205,7 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 100,
-          "name": "Kuri",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Camaraderie",
-            "Callosity"
-          ],
-          "traitMapping": {
-            "Camaraderie": "Scavenger",
-            "Callosity": "Skull Helmet"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 101,
-          "name": "Kauren",
-          "level": 16,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Scavenger",
-            "Skull Helmet"
-          ],
-          "traitMapping": {
-            "Scavenger": "Scavenger",
-            "Skull Helmet": "Skull Helmet"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 100,
-        "name": "Kuri",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Camaraderie",
-          "Callosity"
-        ],
-        "traitMapping": {
-          "Camaraderie": "Scavenger",
-          "Callosity": "Skull Helmet"
-        }
-      },
-      "to": null,
-      "number": 101,
-      "name": "Kauren",
-      "level": 16,
-      "trading": false,
-      "traits": [
-        "Scavenger",
-        "Skull Helmet"
-      ],
-      "traitMapping": {
-        "Scavenger": "Scavenger",
-        "Skull Helmet": "Skull Helmet"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/09/Kauren.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/2/2b/LumaKauren.png",
@@ -23827,23 +23347,7 @@
             "Settling"
           ],
           "traitMapping": {
-            "Mithridatism": "Callosity",
-            "Settling": "Settling"
-          }
-        },
-        {
-          "stage": 2,
-          "number": 104,
-          "name": "Cerneaf",
-          "level": 25,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Callosity",
-            "Settling"
-          ],
-          "traitMapping": {
-            "Callosity": "Callosity",
+            "Mithridatism": "Mithridatism",
             "Settling": "Settling"
           }
         }
@@ -23863,7 +23367,7 @@
           "Settling"
         ],
         "traitMapping": {
-          "Mithridatism": "Callosity",
+          "Mithridatism": "Mithridatism",
           "Settling": "Settling"
         }
       },
@@ -27964,7 +27468,7 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 2,
+      "stage": 0,
       "evolutionTree": [
         {
           "stage": 0,
@@ -27994,30 +27498,15 @@
             "Coward's Rest"
           ],
           "traitMapping": {
-            "Immunity": "Mithridatism",
-            "Coward's Rest": "Camouflage"
-          }
-        },
-        {
-          "stage": 2,
-          "number": 121,
-          "name": "Broccolem",
-          "level": 10,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Mithridatism",
-            "Camouflage"
-          ],
-          "traitMapping": {
-            "Mithridatism": "Mithridatism",
-            "Camouflage": "Camouflage"
+            "Immunity": "Immunity",
+            "Coward's Rest": "Coward's Rest"
           }
         }
       ],
       "evolves": true,
       "type": "levels",
-      "from": {
+      "from": null,
+      "to": {
         "stage": 1,
         "number": 120,
         "name": "Broccorc",
@@ -28029,22 +27518,21 @@
           "Coward's Rest"
         ],
         "traitMapping": {
-          "Immunity": "Mithridatism",
-          "Coward's Rest": "Camouflage"
+          "Immunity": "Immunity",
+          "Coward's Rest": "Coward's Rest"
         }
       },
-      "to": null,
-      "number": 121,
-      "name": "Broccolem",
-      "level": 10,
+      "number": 119,
+      "name": "Broccoblin",
+      "level": 0,
       "trading": false,
       "traits": [
-        "Mithridatism",
-        "Camouflage"
+        "Withdrawal",
+        "Autotomy"
       ],
       "traitMapping": {
-        "Mithridatism": "Mithridatism",
-        "Camouflage": "Camouflage"
+        "Withdrawal": "Immunity",
+        "Autotomy": "Coward's Rest"
       }
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/4/4c/Broccolem.png",
@@ -36611,72 +36099,7 @@
       "The Crystal Temtem that was subjected to intense heat to create Anahir is not a reference to any specific Temtem."
     ],
     "evolution": {
-      "stage": 0,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 161,
-          "name": "Anahir",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Trauma",
-            "Flawed Crystal"
-          ],
-          "traitMapping": {
-            "Trauma": "Self-Care",
-            "Flawed Crystal": "Protective Crystal"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 162,
-          "name": "Anatan",
-          "level": 1000,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Self-Care",
-            "Protective Crystal"
-          ],
-          "traitMapping": {
-            "Self-Care": "Self-Care",
-            "Protective Crystal": "Protective Crystal"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": null,
-      "to": {
-        "stage": 1,
-        "number": 162,
-        "name": "Anatan",
-        "level": 1000,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Self-Care",
-          "Protective Crystal"
-        ],
-        "traitMapping": {
-          "Self-Care": "Self-Care",
-          "Protective Crystal": "Protective Crystal"
-        }
-      },
-      "number": 161,
-      "name": "Anahir",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Trauma",
-        "Flawed Crystal"
-      ],
-      "traitMapping": {
-        "Trauma": "Self-Care",
-        "Flawed Crystal": "Protective Crystal"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/ea/Anahir.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/94/LumaAnahir.png",
