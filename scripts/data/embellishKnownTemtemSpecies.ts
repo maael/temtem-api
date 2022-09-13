@@ -129,10 +129,11 @@ export default async function embellishKnownTemtemSpecies(
     );
     const result = webpages
       .map(({ item, html }) => {
+        const name = item.name.split(" ")[0];
         const catchRate = getCatchRate(html);
-        const renderedImages = getRenderImages(html);
-        const icon = `/images/portraits/temtem/large/${item.name}.png`;
-        const lumaIcon = `/images/portraits/temtem/luma/large/${item.name}.png`;
+        const renderedImages = getRenderImages(html, name);
+        const icon = `/images/portraits/temtem/large/${name}.png`;
+        const lumaIcon = `/images/portraits/temtem/luma/large/${name}.png`;
         return {
           ...item,
           traits: getTraits(html),
@@ -155,16 +156,16 @@ export default async function embellishKnownTemtemSpecies(
           wikiRenderStaticLumaUrl: renderedImages.static.luma,
           wikiRenderAnimatedLumaUrl: renderedImages.animated.luma,
           renderStaticImage: renderedImages.static.normal
-            ? `/images/renders/temtem/static/${item.name}.png`
+            ? `/images/renders/temtem/static/${name}.png`
             : "",
           renderStaticLumaImage: renderedImages.static.luma
-            ? `/images/renders/temtem/luma/static/${item.name}.png`
+            ? `/images/renders/temtem/luma/static/${name}.png`
             : "",
           renderAnimatedImage: renderedImages.animated.normal
-            ? `/images/renders/temtem/animated/${item.name}.gif`
+            ? `/images/renders/temtem/animated/${name}.gif`
             : "",
           renderAnimatedLumaImage: renderedImages.animated.luma
-            ? `/images/renders/temtem/luma/animated/${item.name}.gif`
+            ? `/images/renders/temtem/luma/animated/${name}.gif`
             : "",
         };
       })
@@ -175,16 +176,17 @@ export default async function embellishKnownTemtemSpecies(
   }
 }
 
-function getRenderImages(html: string, debug: boolean = false) {
+function getRenderImages(html: string, name: string, debug: boolean = false) {
   const $ = cheerio.load(html);
   const staticImages = typedToArray<{ luma: boolean; url: string }>(
-    $("a[href*=full_render]").map((_i, el) => {
-      const originalUrl = ($(el).find("img").attr("src") || "").replace(
-        "/thumb/",
-        "/"
-      );
+    $(`a[href*=${name}_full_render]`).map((_i, el) => {
+      const originalUrl = (
+        $(el).find("img").attr("data-src") ||
+        $(el).find("img").attr("src") ||
+        ""
+      ).replace("/thumb/", "/");
       return {
-        luma: ($(el).attr("href") || "").includes("/File:Luma"),
+        luma: ($(el).attr("href") || "").includes(`/Luma${name}`),
         url: originalUrl
           .replace(`/${path.parse(originalUrl).name}`, "")
           .replace(".png.png", ".png")
@@ -200,13 +202,14 @@ function getRenderImages(html: string, debug: boolean = false) {
     console.info("static", staticImages);
   }
   const animatedImages = typedToArray<{ luma: boolean; url: string }>(
-    $("a[href*=idle_animation]").map((_i, el) => {
-      const originalUrl = ($(el).find("img").attr("src") || "").replace(
-        "/thumb/",
-        "/"
-      );
+    $(`a[href*=${name}_idle_animation]`).map((_i, el) => {
+      const originalUrl = (
+        $(el).find("img").attr("data-src") ||
+        $(el).find("img").attr("src") ||
+        ""
+      ).replace("/thumb/", "/");
       return {
-        luma: ($(el).attr("href") || "").includes("/File:Luma"),
+        luma: ($(el).attr("href") || "").includes(`/Luma${name}`),
         url: originalUrl
           .replace(`/${path.parse(originalUrl).name}`, "")
           .replace(".png.png", ".png")
