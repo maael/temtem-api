@@ -34,8 +34,7 @@ export default async function getQuests() {
     const page = $("#mw-content-text");
     const mainQuests = typedToArray<MainQuest>(
       page
-        .find("#Main_Quest_List")
-        .parent()
+        .find(".mw-parser-output")
         .next("ol")
         .find("li")
         .map((_i, el) => {
@@ -53,9 +52,7 @@ export default async function getQuests() {
     const sideQuests = typedToArray<SideQuest>(
       page
         .find("#Side_Quests_List")
-        .parent()
-        .next()
-        .next()
+        .find("tbody")
         .find("tr")
         .map((_i, el) => {
           if ($(el).find("td").length === 0) return;
@@ -74,8 +71,8 @@ export default async function getQuests() {
             wikiUrl: td[0].link,
             island: td[1].text,
             location: td[2].text,
-            requirements: td[3].text.replace(/\s\s/g, ", "),
-            reward: td[4].text.replace(/\s\s/g, ", "),
+            requirements: td[4].text.replace(/\s\s/g, ", "),
+            reward: td[5].text.replace(/\s\s/g, ", "),
             type: QuestType.SIDE,
           };
         })
