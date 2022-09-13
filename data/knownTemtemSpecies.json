@@ -19935,72 +19935,7 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 0,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 84,
-          "name": "Mushi",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Resistant",
-            "Resilient"
-          ],
-          "traitMapping": {
-            "Resistant": "Parrier",
-            "Resilient": "Tireless"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 85,
-          "name": "Mushook",
-          "level": 20,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Parrier",
-            "Tireless"
-          ],
-          "traitMapping": {
-            "Parrier": "Parrier",
-            "Tireless": "Tireless"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": null,
-      "to": {
-        "stage": 1,
-        "number": 85,
-        "name": "Mushook",
-        "level": 20,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Parrier",
-          "Tireless"
-        ],
-        "traitMapping": {
-          "Parrier": "Parrier",
-          "Tireless": "Tireless"
-        }
-      },
-      "number": 84,
-      "name": "Mushi",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Resistant",
-        "Resilient"
-      ],
-      "traitMapping": {
-        "Resistant": "Parrier",
-        "Resilient": "Tireless"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/7/78/Mushi.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/cb/LumaMushi.png",
