@@ -441,72 +441,7 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 2,
-          "name": "Oree",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Attack<T>",
-            "Fast Charge"
-          ],
-          "traitMapping": {
-            "Attack<T>": "Attack<T>",
-            "Fast Charge": "Voltaic Charge"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 3,
-          "name": "Zaobian",
-          "level": 35,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Attack<T>",
-            "Voltaic Charge"
-          ],
-          "traitMapping": {
-            "Attack<T>": "Attack<T>",
-            "Voltaic Charge": "Voltaic Charge"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 2,
-        "name": "Oree",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Attack<T>",
-          "Fast Charge"
-        ],
-        "traitMapping": {
-          "Attack<T>": "Attack<T>",
-          "Fast Charge": "Voltaic Charge"
-        }
-      },
-      "to": null,
-      "number": 3,
-      "name": "Zaobian",
-      "level": 35,
-      "trading": false,
-      "traits": [
-        "Attack<T>",
-        "Voltaic Charge"
-      ],
-      "traitMapping": {
-        "Attack<T>": "Attack<T>",
-        "Voltaic Charge": "Voltaic Charge"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/5/54/Zaobian.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/3a/LumaZaobian.png",
@@ -4818,72 +4753,7 @@
       "Ampling was the winner of the Chose a Temtem backer mini-game. Its name was proposed by a community member (ItsTomas) in the Official Discord, and later chosen as the winner during the Choose a Temtem names poll in the 6th update of Temtem's Kickstarter."
     ],
     "evolution": {
-      "stage": 0,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 19,
-          "name": "Ampling",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Caffeinated",
-            "Dreaded Alarm"
-          ],
-          "traitMapping": {
-            "Caffeinated": "Relaxed",
-            "Dreaded Alarm": "Infectious"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 20,
-          "name": "Amphatyr",
-          "level": 14,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Relaxed",
-            "Infectious"
-          ],
-          "traitMapping": {
-            "Relaxed": "Relaxed",
-            "Infectious": "Infectious"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": null,
-      "to": {
-        "stage": 1,
-        "number": 20,
-        "name": "Amphatyr",
-        "level": 14,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Relaxed",
-          "Infectious"
-        ],
-        "traitMapping": {
-          "Relaxed": "Relaxed",
-          "Infectious": "Infectious"
-        }
-      },
-      "number": 19,
-      "name": "Ampling",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Caffeinated",
-        "Dreaded Alarm"
-      ],
-      "traitMapping": {
-        "Caffeinated": "Relaxed",
-        "Dreaded Alarm": "Infectious"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/9/93/Ampling.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/d/db/LumaAmpling.png",
@@ -5052,72 +4922,7 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 19,
-          "name": "Ampling",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Caffeinated",
-            "Dreaded Alarm"
-          ],
-          "traitMapping": {
-            "Caffeinated": "Relaxed",
-            "Dreaded Alarm": "Infectious"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 20,
-          "name": "Amphatyr",
-          "level": 14,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Relaxed",
-            "Infectious"
-          ],
-          "traitMapping": {
-            "Relaxed": "Relaxed",
-            "Infectious": "Infectious"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 19,
-        "name": "Ampling",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Caffeinated",
-          "Dreaded Alarm"
-        ],
-        "traitMapping": {
-          "Caffeinated": "Relaxed",
-          "Dreaded Alarm": "Infectious"
-        }
-      },
-      "to": null,
-      "number": 20,
-      "name": "Amphatyr",
-      "level": 14,
-      "trading": false,
-      "traits": [
-        "Relaxed",
-        "Infectious"
-      ],
-      "traitMapping": {
-        "Relaxed": "Relaxed",
-        "Infectious": "Infectious"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/a/a8/Amphatyr.png",
     "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/c/cc/LumaAmphatyr.png",
@@ -7757,155 +7562,43 @@
       "spdef": 65,
       "total": 440
     },
-    "traits": [
-      "Tardy Rush",
-      "Thick Skin"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 180,
-        "inches": 70
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 380,
-        "lbs": 837
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Charge",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Sand Splatter",
-        "source": "Levelling",
-        "levels": 5
-      },
-      {
-        "name": "Goring",
-        "source": "Levelling",
-        "levels": 10
-      },
-      {
-        "name": "Execution",
-        "source": "Levelling",
-        "levels": 16
-      },
-      {
-        "name": "Bestial Charge",
-        "source": "Levelling",
-        "levels": 24
-      },
-      {
-        "name": "Shelter",
-        "source": "Levelling",
-        "levels": 28
-      },
-      {
-        "name": "Stampede",
-        "source": "Levelling",
-        "levels": 47
-      },
-      {
-        "name": "Stone Ball",
-        "source": "Levelling",
-        "levels": 50
-      },
-      {
-        "name": "Earthbreaker",
-        "source": "Levelling",
-        "levels": 58
-      },
-      {
-        "name": "Drill Impact",
-        "source": "Levelling",
-        "levels": 76
-      },
-      {
-        "name": "Rockfall",
-        "source": "Levelling",
-        "levels": 94
-      },
-      {
-        "name": "Stone Wall",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Cage",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Held Anger",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Drought",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Rush",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Burrow",
-        "source": "Breeding"
-      },
-      {
-        "name": "Toughen",
-        "source": "Breeding"
-      }
-    ],
-    "trivia": [
-      "Though it lives in an Africa-inspired region, it more closely resembles the Indian Rhinoceros due to the leathery armor it has."
-    ],
+    "techniques": [],
+    "trivia": [],
     "evolution": {
       "evolves": false
     },
-    "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/0/0d/Rhoulder.png",
-    "lumaWikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/e/eb/LumaRhoulder.png",
-    "locations": [
-      {
-        "location": "Tasa Desert",
-        "place": "Tasa Desert",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "5%",
-        "level": "45 - 50",
-        "freetem": {
-          "minLevel": 45,
-          "maxLevel": 50,
-          "minPansuns": 172,
-          "maxPansuns": 189
-        }
-      }
-    ],
+    "wikiPortraitUrlLarge": "",
+    "lumaWikiPortraitUrlLarge": "",
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Rhoulder.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Rhoulder.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 80,
-    "hatchMins": 29,
-    "tvYields": {
-      "hp": 2,
-      "sta": 0,
-      "spd": 0,
-      "atk": 1,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0
-    },
-    "gameDescription": "Once king of the Kisiwan savannah, this species boasts incredibly hard lamellar plates. Before the time of Chacha Turay, they were used in tribal warfare as armored cavalry.",
-    "wikiRenderStaticUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "wikiRenderAnimatedUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "wikiRenderStaticLumaUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "wikiRenderAnimatedLumaUrl": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP//",
-    "renderStaticImage": "/images/renders/temtem/static/Rhoulder.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Rhoulder.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Rhoulder.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Rhoulder.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 32,
@@ -8030,24 +7723,8 @@
             "Water Affinity"
           ],
           "traitMapping": {
-            "Avenger": "Deceit Aura",
-            "Water Affinity": "Water Custodian"
-          }
-        },
-        {
-          "stage": 2,
-          "number": 34,
-          "name": "Nagaise",
-          "level": 24,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Deceit Aura",
-            "Water Custodian"
-          ],
-          "traitMapping": {
-            "Deceit Aura": "Deceit Aura",
-            "Water Custodian": "Water Custodian"
+            "Avenger": "Avenger",
+            "Water Affinity": "Water Affinity"
           }
         }
       ],
@@ -8066,8 +7743,8 @@
           "Water Affinity"
         ],
         "traitMapping": {
-          "Avenger": "Deceit Aura",
-          "Water Affinity": "Water Custodian"
+          "Avenger": "Avenger",
+          "Water Affinity": "Water Affinity"
         }
       },
       "number": 32,
@@ -8275,24 +7952,8 @@
             "Water Affinity"
           ],
           "traitMapping": {
-            "Avenger": "Deceit Aura",
-            "Water Affinity": "Water Custodian"
-          }
-        },
-        {
-          "stage": 2,
-          "number": 34,
-          "name": "Nagaise",
-          "level": 24,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Deceit Aura",
-            "Water Custodian"
-          ],
-          "traitMapping": {
-            "Deceit Aura": "Deceit Aura",
-            "Water Custodian": "Water Custodian"
+            "Avenger": "Avenger",
+            "Water Affinity": "Water Affinity"
           }
         }
       ],
@@ -8314,22 +7975,7 @@
           "Soft Touch": "Water Affinity"
         }
       },
-      "to": {
-        "stage": 2,
-        "number": 34,
-        "name": "Nagaise",
-        "level": 24,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Deceit Aura",
-          "Water Custodian"
-        ],
-        "traitMapping": {
-          "Deceit Aura": "Deceit Aura",
-          "Water Custodian": "Water Custodian"
-        }
-      },
+      "to": null,
       "number": 33,
       "name": "Tental",
       "level": 29,
@@ -8339,8 +7985,8 @@
         "Water Affinity"
       ],
       "traitMapping": {
-        "Avenger": "Deceit Aura",
-        "Water Affinity": "Water Custodian"
+        "Avenger": "Avenger",
+        "Water Affinity": "Water Affinity"
       }
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/3/37/Tental.png",
@@ -8501,7 +8147,7 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 2,
+      "stage": 0,
       "evolutionTree": [
         {
           "stage": 0,
@@ -8531,30 +8177,15 @@
             "Water Affinity"
           ],
           "traitMapping": {
-            "Avenger": "Deceit Aura",
-            "Water Affinity": "Water Custodian"
-          }
-        },
-        {
-          "stage": 2,
-          "number": 34,
-          "name": "Nagaise",
-          "level": 24,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Deceit Aura",
-            "Water Custodian"
-          ],
-          "traitMapping": {
-            "Deceit Aura": "Deceit Aura",
-            "Water Custodian": "Water Custodian"
+            "Avenger": "Avenger",
+            "Water Affinity": "Water Affinity"
           }
         }
       ],
       "evolves": true,
       "type": "levels",
-      "from": {
+      "from": null,
+      "to": {
         "stage": 1,
         "number": 33,
         "name": "Tental",
@@ -8566,22 +8197,21 @@
           "Water Affinity"
         ],
         "traitMapping": {
-          "Avenger": "Deceit Aura",
-          "Water Affinity": "Water Custodian"
+          "Avenger": "Avenger",
+          "Water Affinity": "Water Affinity"
         }
       },
-      "to": null,
-      "number": 34,
-      "name": "Nagaise",
-      "level": 24,
+      "number": 32,
+      "name": "Houchic",
+      "level": 0,
       "trading": false,
       "traits": [
-        "Deceit Aura",
-        "Water Custodian"
+        "Mental Alliance",
+        "Soft Touch"
       ],
       "traitMapping": {
-        "Deceit Aura": "Deceit Aura",
-        "Water Custodian": "Water Custodian"
+        "Mental Alliance": "Avenger",
+        "Soft Touch": "Water Affinity"
       }
     },
     "wikiPortraitUrlLarge": "https://static.wikia.nocookie.net/temtem_gamepedia_en/images/8/82/Nagaise.png",
