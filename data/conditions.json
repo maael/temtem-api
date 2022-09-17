@@ -1,12 +1,12 @@
 [
   {
     "name": "Asleep",
-    "description": "Asleep Temtem cannot attack. If they are damaged, including damage from other conditions like Burned or Poisoned, they will wake up and the Asleep condition is removed. Upon waking, the Temtem will gain the Alerted condition until the end of the next turn. Mental type Temtem are immune against the Asleep condition.",
+    "description": "Asleep Temtem cannot attack. If they are damaged, including damage from other conditions like Burned or Poisoned, they will wake up and the Asleep condition is removed. Upon waking, the Temtem will gain the Alerted condition until the end of the next turn.",
     "icon": "/images/icons/conditions/Asleep.png"
   },
   {
     "name": "Burned",
-    "description": "Burned Temtem lose 1/16 of health every turn and it reduces both the ATK and SPATK stats by 30%. Temtem of the Fire type are immune against this condition. The Burned condition erases the Cold and Frozen conditions when applied to a Temtem, and vice versa these conditions can remove the Burned condition.",
+    "description": "Burned Temtem lose 1/16 of health every turn and it reduces both the ATK and SPATK stats by 30%. Temtem of the",
     "icon": "/images/icons/conditions/Burned.png"
   },
   {
@@ -31,7 +31,7 @@
   },
   {
     "name": "Poisoned",
-    "description": "Poisoned Temtem lose 1/8 of their health every turn. Temtem of the Toxic type are immune against this condition.",
+    "description": "Poisoned Temtem lose 1/8 of their health every turn. Temtem of the",
     "icon": "/images/icons/conditions/Poisoned.png"
   },
   {
