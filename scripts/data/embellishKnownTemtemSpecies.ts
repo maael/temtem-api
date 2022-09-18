@@ -186,9 +186,7 @@ function getRenderImages(html: string, name: string, debug: boolean = false) {
         ""
       ).replace("/thumb/", "/");
       return {
-        luma: `https://temtem.wiki.gg${($(el).attr("href") || "").includes(
-          `/Luma${name}`
-        )}`,
+        luma: ($(el).attr("href") || "").includes(`Luma${name}`),
         url: `https://temtem.wiki.gg${originalUrl
           .replace(`/${path.parse(originalUrl).name}`, "")
           .replace(".png.png", ".png")
@@ -211,9 +209,7 @@ function getRenderImages(html: string, name: string, debug: boolean = false) {
         ""
       ).replace("/thumb/", "/");
       return {
-        luma: `https://temtem.wiki.gg${($(el).attr("href") || "").includes(
-          `/Luma${name}`
-        )}`,
+        luma: ($(el).attr("href") || "").includes(`Luma${name}`),
         url: `https://temtem.wiki.gg${originalUrl
           .replace(`/${path.parse(originalUrl).name}`, "")
           .replace(".png.png", ".png")

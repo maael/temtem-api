@@ -9,7 +9,7 @@ import { Technique } from "./embellishTechniques";
 import { Trait } from "./embellishTraits";
 import { cleanStrings } from "../util/objectCleaner";
 
-const BASE_URL = "https://temtem.wiki.gg/wiki";
+const BASE_URL = "https://temtem.wiki.gg";
 
 export default async function getDojos(
   temtem: Temtem[],
@@ -25,7 +25,7 @@ export default async function getDojos(
 }
 
 async function getBasicList() {
-  const result = await got(`${BASE_URL}/Dojo`);
+  const result = await got(`${BASE_URL}/wiki/Dojo`);
   const $ = cheerio.load(result.body);
   const results = typedToArray<Dojo>(
     $("#Dojos")
@@ -102,10 +102,10 @@ async function embellishDojos(
 
 function getTemtem($: cheerio.Root, leader: string) {
   let temtemItems: any = [];
-  let $temtemTable: any = null;
+  let $temtemPartyCard: any = null;
   try {
-    $temtemTable = $(`#${leader}.mw-headline`).parent().next("table");
-    temtemItems = $temtemTable.find(".partymember-main");
+    $temtemPartyCard = $(`#${leader}.mw-headline`).parent().next(".party-card");
+    temtemItems = $temtemPartyCard.find(".partymember-main");
   } catch (e) {
     log.error("[error] Problem getting temtem list", e.message);
     return [];
