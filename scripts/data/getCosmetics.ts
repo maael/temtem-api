@@ -32,7 +32,7 @@ export default async function getCosmetics() {
   log.info("Starting");
   try {
     log.info("Running");
-    const result = await got("https://temtem.gamepedia.com/Customization");
+    const result = await got("https://temtem.wiki.gg/wiki/Customization");
     const $ = cheerio.load(result.body);
     const all = [
       ...getItems($, "#Head", "head"),
@@ -72,7 +72,7 @@ function getItems($, selector, type) {
           wikiImageUrl: items[0].wikiImageUrl
             ? `${imageParts.protocol}//${imageParts.host}${imageParts.pathname}`
             : "",
-          wikiUrl: `https://temtem.gamepedia.com${items[1].wikiUrl}`,
+          wikiUrl: `https://temtem.wiki.gg${items[1].wikiUrl}`,
           name: items[1].text,
           location: items[2].text,
           cost: isNaN(parsedCost) ? 0 : parsedCost,

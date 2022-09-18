@@ -2,7 +2,7 @@
 
 # Temtem API
 
-A JSON API to return data about the game [Temtem](https://crema.gg/games/temtem/) from the [Official Wiki](https://temtem.gamepedia.com/), that is updated every 4 hours.
+A JSON API to return data about the game [Temtem](https://crema.gg/games/temtem/) from the [Official Wiki](https://temtem.wiki.gg/wiki/), that is updated every 4 hours.
 
 ## Install
 
@@ -105,7 +105,7 @@ Also fair warning, I made this quick, so while it is Typescript, it's super loos
 ## Usages
 
 - [Temtem Weakness Checker](https://esipode.github.io/Temtem-Weakness-Checker/build/)
-    - [Reddit Post](https://www.reddit.com/r/PlayTemtem/comments/xh0k18/made_a_quick_and_easy_online_weakness_checker/)
+  - [Reddit Post](https://www.reddit.com/r/PlayTemtem/comments/xh0k18/made_a_quick_and_easy_online_weakness_checker/)
 - [Temopedia mobile app](https://github.com/TesteurManiak/temopedia)
 - [EduardoAguiarS/Tempidia](https://github.com/EduardoAguiarS/Tempidia)
 - [Khant-Ye-Yint/temx2dex](https://github.com/Khant-Ye-Yint/temx2dex)

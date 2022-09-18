@@ -23,7 +23,7 @@ export default async function getDyes() {
   log.info("Starting");
   try {
     log.info("Running");
-    const result = await got("https://temtem.gamepedia.com/Dye");
+    const result = await got("https://temtem.wiki.gg/wiki/Dye");
     const $ = cheerio.load(result.body);
     const dyes = typedToArray<Dye>(
       $("#Dyes")
@@ -48,7 +48,7 @@ export default async function getDyes() {
                   .toArray();
                 return {
                   color,
-                  image: `${imageParts.protocol}//${imageParts.host}${imageParts.pathname}`.replace(
+                  image: `https://temtem.wiki.gg${imageParts.pathname}`.replace(
                     /\/revision\/latest\/scale-to-width.*$/,
                     ""
                   ),

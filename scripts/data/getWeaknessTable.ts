@@ -21,7 +21,7 @@ export default async function getWeaknessTable() {
   try {
     log.info("getting weaknesses");
     const res = await got(
-      "https://temtem.gamepedia.com/Temtem_Types#Strengths_and_Weaknesses"
+      "https://temtem.wiki.gg/wiki/Temtem_Types#Strengths_and_Weaknesses"
     );
     const $ = cheerio.load(res.body);
     const $table = $("#ttw-type-interactions-dynamic");
