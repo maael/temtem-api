@@ -20,7 +20,7 @@ export default async function getTrainingCourses() {
   log.info("Starting");
   try {
     log.info("Running");
-    const result = await got("https://temtem.gamepedia.com/Training_Course");
+    const result = await got("https://temtem.wiki.gg/wiki/Training_Course");
     const $ = cheerio.load(result.body);
     const table = $("#List_of_Courses").parent().next();
     const trainingCourses = typedToArray<TrainingCourse>(

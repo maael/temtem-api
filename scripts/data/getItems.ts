@@ -10,7 +10,7 @@ export default async function getItems(): Promise<Item[]> {
   log.info("Starting");
   try {
     log.info("Running");
-    const result = await got("https://temtem.gamepedia.com/Items");
+    const result = await got("https://temtem.wiki.gg/wiki/Items");
     const $ = cheerio.load(result.body);
     const generalItems = getItemTableWithDetails($, "#General", "general");
     const captureItems = getItemTableWithDetails($, "#Capture", "capture");
@@ -66,7 +66,7 @@ function getItemTableWithDetails(
           .base.split("-")
           .pop()}`,
         name: cells[1].text,
-        wikiUrl: `https://temtem.gamepedia.com${cells[1].href}`,
+        wikiUrl: `https://temtem.wiki.gg${cells[1].href}`,
         description: cells[2].text,
         effect: null,
         location: null,
@@ -116,7 +116,7 @@ function getSimpleItemTable(
           .base.split("-")
           .pop()}`,
         name: cells[1].text,
-        wikiUrl: `https://temtem.gamepedia.com/${cells[1].href}`,
+        wikiUrl: `https://temtem.wiki.gg/wiki/${cells[1].href}`,
         description: null,
         effect: cells[2].text || null,
         location: category === "quest" ? null : cells[3] ? cells[3].text : null,

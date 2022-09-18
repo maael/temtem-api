@@ -29,7 +29,7 @@ export default async function getQuests() {
   log.info("Starting");
   try {
     log.info("Running");
-    const result = await got("https://temtem.gamepedia.com/Quests");
+    const result = await got("https://temtem.wiki.gg/wiki/Quests");
     const $ = cheerio.load(result.body);
     const page = $("#mw-content-text");
     const mainQuests = typedToArray<MainQuest>(
@@ -40,7 +40,7 @@ export default async function getQuests() {
         .find("li")
         .map((_i, el) => {
           const name = $(el).text();
-          const wikiUrl = `https://temtem.gamepedia.com${$(el)
+          const wikiUrl = `https://temtem.wiki.gg${$(el)
             .find("a")
             .attr("href")}`;
           return {
@@ -64,9 +64,7 @@ export default async function getQuests() {
               .find("td")
               .map((_j, tdEl) => ({
                 text: $(tdEl).text().trim(),
-                link: `https://temtem.gamepedia.com${$(tdEl)
-                  .find("a")
-                  .attr("href")}`,
+                link: `https://temtem.wiki.gg${$(tdEl).find("a").attr("href")}`,
               }))
           );
           return {

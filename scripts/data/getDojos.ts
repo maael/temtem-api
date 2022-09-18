@@ -9,7 +9,7 @@ import { Technique } from "./embellishTechniques";
 import { Trait } from "./embellishTraits";
 import { cleanStrings } from "../util/objectCleaner";
 
-const BASE_URL = "https://temtem.gamepedia.com";
+const BASE_URL = "https://temtem.wiki.gg/wiki";
 
 export default async function getDojos(
   temtem: Temtem[],

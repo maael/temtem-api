@@ -1,56 +1,74 @@
 [
   {
     "name": "Arissola Dojo",
-    "wikiUrl": "https://temtem.gamepedia.com/wiki/Arissola_Dojo",
-    "types": [
-      "https://temtem.wiki.gg/wiki/Dojo"
-    ],
+    "wikiUrl": "https://temtem.wiki.gg/wiki/wiki/Arissola_Dojo",
+    "types": ["Wind", "Water"],
     "leader": {
       "name": "Sophia",
-      "temtem": [
-        {
-          "name": "Kalabyss",
-          "level": 17,
-          "trait": "Toxic Skin",
-          "techniques": [],
-          "number": 128
-        },
-        {
-          "name": "Loali",
-          "level": 17,
-          "trait": "Botanist",
-          "techniques": [],
-          "number": 11
-        },
-        {
-          "name": "Sparzy",
-          "level": 18,
-          "trait": "Last Rush",
-          "techniques": [],
-          "number": 82
-        },
-        {
-          "name": "Pigepic",
-          "level": 19,
-          "trait": "Friendship",
-          "techniques": [],
-          "number": 141
-        },
-        {
-          "name": "Tuwai",
-          "level": 21,
-          "trait": "Spoilsport",
-          "techniques": [],
-          "number": 130
-        },
-        {
-          "name": "Oceara",
-          "level": 22,
-          "trait": "Hydrologist",
-          "techniques": [],
-          "number": 115
-        }
-      ]
+      "temtem": []
+    }
+  },
+  {
+    "name": "Mokupuni Dojo",
+    "wikiUrl": "https://temtem.wiki.gg/wiki/wiki/Mokupuni_Dojo",
+    "types": ["Nature", "Fire"],
+    "leader": {
+      "name": "Rawiri",
+      "temtem": []
+    }
+  },
+  {
+    "name": "Nanga Dojo",
+    "wikiUrl": "https://temtem.wiki.gg/wiki/wiki/Nanga_Dojo",
+    "types": ["Wind", "Water", "Nature", "Fire"],
+    "leader": {
+      "name": "Tihani",
+      "temtem": []
+    }
+  },
+  {
+    "name": "Quetzal Dojo",
+    "wikiUrl": "https://temtem.wiki.gg/wiki/wiki/Quetzal_Dojo",
+    "types": ["Toxic", "Crystal"],
+    "leader": {
+      "name": "Yareni",
+      "temtem": []
+    }
+  },
+  {
+    "name": "Vumbi Dojo",
+    "wikiUrl": "https://temtem.wiki.gg/wiki/wiki/Vumbi_Dojo",
+    "types": ["Neutral", "Earth"],
+    "leader": {
+      "name": "Musa",
+      "temtem": []
+    }
+  },
+  {
+    "name": "Neoedo Dojo",
+    "wikiUrl": "https://temtem.wiki.gg/wiki/wiki/Neoedo_Dojo",
+    "types": ["Digital", "Electric"],
+    "leader": {
+      "name": "Dr. Sasaya",
+      "temtem": []
+    }
+  },
+  {
+    "name": "Lochburg Dojo",
+    "wikiUrl": "https://temtem.wiki.gg/wiki/wiki/Lochburg_Dojo",
+    "types": ["Melee"],
+    "leader": {
+      "name": "Murdag",
+      "temtem": []
+    }
+  },
+  {
+    "name": "Properton Dojo",
+    "wikiUrl": "https://temtem.wiki.gg/wiki/wiki/Properton_Dojo",
+    "types": ["Mental"],
+    "leader": {
+      "name": "Percival",
+      "temtem": []
     }
   }
 ]

@@ -26,8 +26,8 @@ export interface Temtem {
 }
 
 const possibleUrls = [
-  "https://temtem.gamepedia.com/Temtem_species",
-  "https://temtem.gamepedia.com/Temtem_(Creatures)",
+  "https://temtem.wiki.gg/wiki/Temtem_species",
+  "https://temtem.wiki.gg/wiki/Temtem_(Creatures)",
 ];
 
 export default async function getKnownTemtemSpecies() {
@@ -69,19 +69,19 @@ function getTemInfoFromRow($, row): Temtem {
     .split("\n")
     .map((t) => t.trim().replace("#", ""))
     .map((t, i) => (i === 1 || isNaN(Number(t)) ? t : Number(t)));
-  const portraitWikiUrl = (
+  const portraitWikiUrl = `https://temtem.wiki.gg${(
     $(row).find("img").data("src") || $(row).find("img").attr("src")
   )
     .trim()
     .replace(/\?.*/, "")
-    .replace(/\/revision\/latest\/scale-to-width.*$/, "");
+    .replace(/\/revision\/latest\/scale-to-width.*$/, "")}`;
   const tem = {
     number: cleanToNumber(basicStats[0]),
     name: `${basicStats[1]}`,
     types: [].concat(basicStats[2].replace(/(.)([A-Z])/g, "$1 $2").split(" ")),
     portraitWikiUrl,
     lumaPortraitWikiUrl: "",
-    wikiUrl: `https://temtem.gamepedia.com/${basicStats[1]}`,
+    wikiUrl: `https://temtem.wiki.gg/wiki/${basicStats[1]}`,
     stats: {
       hp: cleanToNumber(basicStats[3]),
       sta: cleanToNumber(basicStats[4]),

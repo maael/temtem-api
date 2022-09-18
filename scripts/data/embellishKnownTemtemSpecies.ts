@@ -186,12 +186,14 @@ function getRenderImages(html: string, name: string, debug: boolean = false) {
         ""
       ).replace("/thumb/", "/");
       return {
-        luma: ($(el).attr("href") || "").includes(`/Luma${name}`),
-        url: originalUrl
+        luma: `https://temtem.wiki.gg${($(el).attr("href") || "").includes(
+          `/Luma${name}`
+        )}`,
+        url: `https://temtem.wiki.gg${originalUrl
           .replace(`/${path.parse(originalUrl).name}`, "")
           .replace(".png.png", ".png")
           .replace(".gif.gif", ".gif")
-          .replace(/\/revision\/latest\/scale-to-width.*$/, ""),
+          .replace(/\/revision\/latest\/scale-to-width.*$/, "")}`,
       };
     })
   ).reduce(
@@ -209,12 +211,14 @@ function getRenderImages(html: string, name: string, debug: boolean = false) {
         ""
       ).replace("/thumb/", "/");
       return {
-        luma: ($(el).attr("href") || "").includes(`/Luma${name}`),
-        url: originalUrl
+        luma: `https://temtem.wiki.gg${($(el).attr("href") || "").includes(
+          `/Luma${name}`
+        )}`,
+        url: `https://temtem.wiki.gg${originalUrl
           .replace(`/${path.parse(originalUrl).name}`, "")
           .replace(".png.png", ".png")
           .replace(".gif.gif", ".gif")
-          .replace(/\/revision\/latest\/scale-to-width.*$/, ""),
+          .replace(/\/revision\/latest\/scale-to-width.*$/, "")}`,
       };
     })
   ).reduce(
@@ -302,16 +306,16 @@ function getLocations(html: string, debug?: boolean) {
 
 function getWikiPortraitUrl(html: string) {
   const $ = cheerio.load(html);
-  return (
+  return `https://temtem.wiki.gg${(
     $("#mw-content-text .infobox-table #ttw-temtem img").first().data("src") ||
     $("#mw-content-text .infobox-table #ttw-temtem img").first().attr("src") ||
     ""
-  ).replace(/\/revision\/latest\/scale-to-width.*$/, "");
+  ).replace(/\/revision\/latest\/scale-to-width.*$/, "")}`;
 }
 
 function getWikiLumaPortraitUrl(html: string) {
   const $ = cheerio.load(html);
-  return (
+  return `https://temtem.wiki.gg${(
     $("#mw-content-text .infobox-table #ttw-temtem-luma img")
       .first()
       .data("src") ||
@@ -319,7 +323,7 @@ function getWikiLumaPortraitUrl(html: string) {
       .first()
       .attr("src") ||
     ""
-  ).replace(/\/revision\/latest\/scale-to-width.*$/, "");
+  ).replace(/\/revision\/latest\/scale-to-width.*$/, "")}`;
 }
 
 function getCatchRate(html: string) {

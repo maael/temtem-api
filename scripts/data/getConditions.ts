@@ -16,7 +16,7 @@ export default async function getStatuses() {
   log.info("Starting");
   try {
     log.info("Running");
-    const result = await got("https://temtem.gamepedia.com/Status_Conditions");
+    const result = await got("https://temtem.wiki.gg/wiki/Status_Conditions");
     const $ = cheerio.load(result.body);
     const $page = $(".mw-parser-output").last();
     const statuses: Condition[] = [];
