@@ -12,14 +12,14 @@ export default async function getTraits() {
   log.info("Starting");
   try {
     log.info("Running");
-    const result = await got("https://temtem.gamepedia.com/Category:Traits");
+    const result = await got("https://temtem.wiki.gg/wiki/Category:Traits");
     const $ = cheerio.load(result.body);
     const page = $("#mw-pages");
     const traits = typedToArray<Trait>(
       page.find("a").map((_i, el) => {
         return {
           name: $(el).text().trim(),
-          wikiUrl: `https://temtem.gamepedia.com${$(el).attr("href")}`,
+          wikiUrl: `https://temtem.wiki.gg${$(el).attr("href")}`,
         };
       })
     );

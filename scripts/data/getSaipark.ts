@@ -36,7 +36,7 @@ function formatItem(item: Item) {
 }
 
 export default async function getSaipark() {
-  const result = await got("https://temtem.gamepedia.com/Saipark");
+  const result = await got("https://temtem.wiki.gg/wiki/Saipark");
   const $ = cheerio.load(result.body);
   const $previousTable = $("#Featured_Temtem_History").parent().next().next();
   const rows = typedToArray<Item>(

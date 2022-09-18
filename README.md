@@ -2,7 +2,7 @@
 
 # Temtem API
 
-A JSON API to return data about the game [Temtem](https://crema.gg/games/temtem/) from the [Official Wiki](https://temtem.gamepedia.com/), that is updated every 4 hours.
+A JSON API to return data about the game [Temtem](https://crema.gg/games/temtem/) from the [Official Wiki](https://temtem.wiki.gg/wiki/), that is updated every 4 hours.
 
 ## Install
 
@@ -101,3 +101,33 @@ Also fair warning, I made this quick, so while it is Typescript, it's super loos
 - [ ] Breeding API endpoint
 - [ ] Maybe automatic typing with [quicktype](https://app.quicktype.io/) or something
 - [ ] Finish making data available under graphql endpoint. ([minimal example here](https://github.com/zeit/next.js/pull/7804/files))
+
+## Usages
+
+- [Temtem Weakness Checker](https://esipode.github.io/Temtem-Weakness-Checker/build/)
+  - [Reddit Post](https://www.reddit.com/r/PlayTemtem/comments/xh0k18/made_a_quick_and_easy_online_weakness_checker/)
+- [Temopedia mobile app](https://github.com/TesteurManiak/temopedia)
+- [EduardoAguiarS/Tempidia](https://github.com/EduardoAguiarS/Tempidia)
+- [Khant-Ye-Yint/temx2dex](https://github.com/Khant-Ye-Yint/temx2dex)
+- [TheSmartMonkey/temtem](https://github.com/TheSmartMonkey/temtem)
+- [RonaldoAntonucci/temtemdex](https://github.com/RonaldoAntonucci/temtemdex)
+- [JhonatanMedeiros/temtem-info](https://github.com/JhonatanMedeiros/temtem-info)
+- [BenoitCrozemarie/project-temtem](https://github.com/BenoitCrozemarie/project-temtem)
+- [EricPohlers/temdex](https://github.com/EricPohlers/temdex)
+- [Maikoncg/temtemdex](https://github.com/Maikoncg/temtemdex)
+- [RealNickTriano/temtem-viewer](https://github.com/RealNickTriano/temtem-viewer)
+- [Zhaetar/tempedia](https://github.com/Zhaetar/tempedia)
+- [Xhiffer/temtemapi](https://github.com/Xhiffer/temtemapi)
+- [SeanTSinclair/temtem-combat](https://github.com/SeanTSinclair/temtem-combat)
+- [EmilLubczynski/ProjectTemTem](https://github.com/EmilLubczynski/ProjectTemTem)
+- [Marilyth/Temtem-EncounterTracker](https://github.com/Marilyth/Temtem-EncounterTracker)
+- [samrizzo/temtem-companion](https://github.com/samrizzo/temtem-companion)
+- [DoW-Gray/TemTem](https://github.com/DoW-Gray/TemTem)
+- [AnthonyGReed/temtrack](https://github.com/AnthonyGReed/temtrack)
+- [SilvaraDesign/temtypes](https://github.com/SilvaraDesign/temtypes)
+- [TesteurManiak/temtem_api_wrapper](https://github.com/TesteurManiak/temtem_api_wrapper)
+- [Liuk0000/TemTemTeamBuilder](https://github.com/Liuk0000/TemTemTeamBuilder)
+- [samrizzo/temtem-companion](https://github.com/samrizzo/temtem-companion)
+- [BenZr2/temtem_helper](https://github.com/BenZr2/temtem_helper)
+- [Iwasson/TemTem-Bot](https://github.com/Iwasson/TemTem-Bot)
+- [seanpavlak/Tempedia.Resource](https://github.com/seanpavlak/Tempedia.Resource)

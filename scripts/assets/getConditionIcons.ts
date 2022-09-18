@@ -7,7 +7,7 @@ import { typedToArray } from "../util/cheerioHelpers";
 export default async function getConditionIcons() {
   log.info("Starting");
   const result = await got(
-    "https://temtem.gamepedia.com/Category:Condition_icons"
+    "https://temtem.wiki.gg/wiki/Category:Condition_icons"
   );
   const $ = cheerio.load(result.body);
   const images = typedToArray<{ src: string; name: string }>(

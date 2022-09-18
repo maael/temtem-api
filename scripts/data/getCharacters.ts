@@ -12,16 +12,14 @@ export default async function getCharacters() {
   log.info("Starting");
   try {
     log.info("Running");
-    const result = await got(
-      "https://temtem.gamepedia.com/Category:Characters"
-    );
+    const result = await got("https://temtem.wiki.gg/wiki/Category:Characters");
     const $ = cheerio.load(result.body);
     const page = $(".mw-category").last();
     const characters = typedToArray<Character>(
       page.find("a").map((_i, el) => {
         return {
           name: $(el).text().trim(),
-          wikiUrl: `https://temtem.gamepedia.com${$(el).attr("href")}`,
+          wikiUrl: `https://temtem.wiki.gg${$(el).attr("href")}`,
         };
       })
     ).filter(({ name }) => !["Characters", "Characters/pt-br"].includes(name));

@@ -12,7 +12,7 @@ export default async function getFreetemRewards(gear: any) {
   try {
     log.info("Running");
     const result = await got(
-      "https://temtem.gamepedia.com/FreeTem!_Organisation"
+      "https://temtem.wiki.gg/wiki/FreeTem!_Organisation"
     );
     const $ = cheerio.load(result.body);
     const tableRows = $("#Reward_History").parent().next("table").find("tr");
@@ -37,7 +37,7 @@ export default async function getFreetemRewards(gear: any) {
         const freedTemtem = parseInt(parts[2].text, 10);
         const dateInfo = processYearWeekDate(parts[3].text);
         const name = parts[0].text;
-        const wikiUrl = `https://temtem.gamepedia.com${parts[0].href}`;
+        const wikiUrl = `https://temtem.wiki.gg${parts[0].href}`;
         const matchedGear = gear.find(
           (g) => g.name === name || g.wikiUrl === wikiUrl
         );
@@ -94,7 +94,7 @@ export default async function getFreetemRewards(gear: any) {
         }))
     ).map((i) => {
       const name = i.link;
-      const wikiUrl = `https://temtem.gamepedia.com${i.href}`;
+      const wikiUrl = `https://temtem.wiki.gg${i.href}`;
       const matchedGear = gear.find(
         (g) => g.name === name || g.wikiUrl === wikiUrl
       );
