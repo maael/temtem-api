@@ -15,7 +15,7 @@ export default async function htmlFetcher<T = any>(
     items.map(
       throat(CONCURRENCY_LIMIT, async (item) => {
         const url = prefix
-          ? `https://temtem.gamepedia.com/${item[itemKey]}`
+          ? `https://temtem.wiki.gg/wiki/${item[itemKey]}`
           : item[itemKey];
         try {
           const res = await got(url);

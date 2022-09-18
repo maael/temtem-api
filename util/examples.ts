@@ -17,7 +17,7 @@ export const conditionExample = [
 export const locationExample = [
   {
     name: "Deniz",
-    wikiUrl: "https://temtem.gamepedia.com/Deniz",
+    wikiUrl: "https://temtem.wiki.gg/wiki/Deniz",
     description:
       "Deniz is a Mediterranean paradise of glittering seas where Water and Wind Temtem abound. Walk the streets of Turquesa, explore the ruins of an ancient fort or just chill on the shores of Indigo Lake.",
     temtemTypes: ["Water", "Wind"],
@@ -25,76 +25,76 @@ export const locationExample = [
     routes: [
       {
         name: "Prasine Coast",
-        wikiUrl: "https://temtem.gamepedia.com/Prasine_Coast",
+        wikiUrl: "https://temtem.wiki.gg/wiki/Prasine_Coast",
         type: "route",
       },
       {
         name: "Thalassian Cliffs",
-        wikiUrl: "https://temtem.gamepedia.com/Thalassian_Cliffs",
+        wikiUrl: "https://temtem.wiki.gg/wiki/Thalassian_Cliffs",
         type: "route",
       },
       {
         name: "The Gifted Bridges",
-        wikiUrl: "https://temtem.gamepedia.com/The_Gifted_Bridges",
+        wikiUrl: "https://temtem.wiki.gg/wiki/The_Gifted_Bridges",
         type: "route",
       },
       {
         name: "Sillaro River",
-        wikiUrl: "https://temtem.gamepedia.com/Sillaro_River",
+        wikiUrl: "https://temtem.wiki.gg/wiki/Sillaro_River",
         type: "route",
       },
     ],
     townsAndVillages: [
       {
         name: "Zadar",
-        wikiUrl: "https://temtem.gamepedia.com/Zadar",
+        wikiUrl: "https://temtem.wiki.gg/wiki/Zadar",
         type: "townorvillage",
       },
       {
         name: "Briçal de Mar",
-        wikiUrl: "https://temtem.gamepedia.com/Bri%C3%A7al_de_Mar",
+        wikiUrl: "https://temtem.wiki.gg/wiki/Bri%C3%A7al_de_Mar",
         type: "townorvillage",
       },
       {
         name: "Arissola",
-        wikiUrl: "https://temtem.gamepedia.com/Arissola",
+        wikiUrl: "https://temtem.wiki.gg/wiki/Arissola",
         type: "townorvillage",
       },
       {
         name: "Turquesa",
-        wikiUrl: "https://temtem.gamepedia.com/Turquesa",
+        wikiUrl: "https://temtem.wiki.gg/wiki/Turquesa",
         type: "townorvillage",
       },
     ],
     landmarks: [
       {
         name: "Sillaro",
-        wikiUrl: "https://temtem.gamepedia.com/Sillaro",
+        wikiUrl: "https://temtem.wiki.gg/wiki/Sillaro",
         type: "landmark",
       },
       {
         name: "Windward Fort",
-        wikiUrl: "https://temtem.gamepedia.com/Windward_Fort",
+        wikiUrl: "https://temtem.wiki.gg/wiki/Windward_Fort",
         type: "landmark",
       },
       {
         name: "Aguamarina Caves",
-        wikiUrl: "https://temtem.gamepedia.com/Aguamarina_Caves",
+        wikiUrl: "https://temtem.wiki.gg/wiki/Aguamarina_Caves",
         type: "landmark",
       },
       {
         name: "Indigo Lake",
-        wikiUrl: "https://temtem.gamepedia.com/Indigo_Lake",
+        wikiUrl: "https://temtem.wiki.gg/wiki/Indigo_Lake",
         type: "landmark",
       },
       {
         name: "Arissola Dojo",
-        wikiUrl: "https://temtem.gamepedia.com/Arissola_Dojo",
+        wikiUrl: "https://temtem.wiki.gg/wiki/Arissola_Dojo",
         type: "landmark",
       },
       {
         name: "Saipark",
-        wikiUrl: "https://temtem.gamepedia.com/Saipark",
+        wikiUrl: "https://temtem.wiki.gg/wiki/Saipark",
         type: "landmark",
       },
     ],
@@ -131,7 +131,7 @@ export const locationExample = [
 export const techniqueExample = [
   {
     name: "Crystal Dust",
-    wikiUrl: "https://temtem.gamepedia.com/Crystal_Dust",
+    wikiUrl: "https://temtem.wiki.gg/wiki/Crystal_Dust",
     type: "Crystal",
     class: "Special",
     classIcon: "/images/icons/technique/Special.png",
@@ -162,7 +162,7 @@ export const techniqueExample = [
 export const traitExample = [
   {
     name: "Avenger",
-    wikiUrl: "https://temtem.gamepedia.com/Avenger",
+    wikiUrl: "https://temtem.wiki.gg/wiki/Avenger",
     description:
       "When an ally is knocked-out, increases SPATK and SPD by 1 stage.",
     effect:
@@ -173,7 +173,7 @@ export const traitExample = [
 export const questExample = [
   {
     name: "Adventure in the Myrisles",
-    wikiUrl: "https://temtem.gamepedia.com/Adventure_in_the_Myrisles",
+    wikiUrl: "https://temtem.wiki.gg/wiki/Adventure_in_the_Myrisles",
     type: "main",
     steps: [
       "Find Rawiri at his Dojo in Mokupuni.",
@@ -201,7 +201,7 @@ export const questExample = [
   },
   {
     name: "Paparazzo",
-    wikiUrl: "https://temtem.gamepedia.com/Paparazzo",
+    wikiUrl: "https://temtem.wiki.gg/wiki/Paparazzo",
     island: "Omninesia",
     location: "Mokupuni",
     requirements: "Lift key",
@@ -220,7 +220,7 @@ export const questExample = [
 export const gearExample = [
   {
     name: "Aggressive DNA Strand",
-    wikiUrl: "https://temtem.gamepedia.com/Aggressive_DNA_Strand",
+    wikiUrl: "https://temtem.wiki.gg/wiki/Aggressive_DNA_Strand",
     wikiIconUrl:
       "https://gamepedia.cursecdn.com/temtem_gamepedia_en/8/8f/AggressiveDNAStrand.png",
     icon: "/images/icons/gear/AggressiveDNAStrand.png",
@@ -242,7 +242,7 @@ export const knownTemtemExample = [
     types: ["Electric", "Wind"],
     portraitWikiUrl:
       "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/bc/Ganki.png/50px-Ganki.png",
-    wikiUrl: "https://temtem.gamepedia.com/Ganki",
+    wikiUrl: "https://temtem.wiki.gg/wiki/Ganki",
     stats: {
       hp: 38,
       sta: 46,
@@ -619,7 +619,7 @@ export const cosmeticsExample = [
     type: "bottom",
     wikiImageUrl:
       "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/dc/TieDownPants.png/100px-TieDownPants.png",
-    wikiUrl: "https://temtem.gamepedia.com/Tie_Down_Pants",
+    wikiUrl: "https://temtem.wiki.gg/wiki/Tie_Down_Pants",
     name: "Tie Down Pants",
     location: "Mokupuni",
     cost: 24999,
@@ -674,7 +674,7 @@ export const freetemExample = {
 export const characterExample = [
   {
     name: "Lady Lottie",
-    wikiUrl: "https://temtem.gamepedia.com/Lady_Lottie",
+    wikiUrl: "https://temtem.wiki.gg/wiki/Lady_Lottie",
   },
 ];
 
@@ -700,7 +700,7 @@ export const freetemRewardExample = [
   {
     name: "Telomere Hack - SPD",
     quantity: 2,
-    wikiUrl: "https://temtem.gamepedia.com/Telomere_Hack_-_SPD",
+    wikiUrl: "https://temtem.wiki.gg/wiki/Telomere_Hack_-_SPD",
     wikiImageUrl:
       "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a3/TelomereHackSPD.png/75px-TelomereHackSPD.png",
     effectDescription:
@@ -718,7 +718,7 @@ export const itemExample = [
     wikiImageUrl:
       "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a2/SmokeBomb.png/65px-SmokeBomb.png",
     name: "Smoke Bomb",
-    wikiUrl: "https://temtem.gamepedia.com//Smoke_Bomb",
+    wikiUrl: "https://temtem.wiki.gg/wiki//Smoke_Bomb",
     description: "Teleports the Player to the last visited Temporium.",
     effect: null,
     location: null,
@@ -731,7 +731,7 @@ export const itemExample = [
     wikiImageUrl:
       "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/b/b1/TemCardPlus.png/75px-TemCardPlus.png",
     name: "TemCard+",
-    wikiUrl: "https://temtem.gamepedia.com//TemCard%2B",
+    wikiUrl: "https://temtem.wiki.gg/wiki//TemCard%2B",
     description:
       "Allows to capture and Tame Temtem with an increased catch rate.",
     effect: null,
@@ -745,7 +745,7 @@ export const itemExample = [
     wikiImageUrl:
       "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/4/4d/TelomereHackSPDEF.png/75px-TelomereHackSPDEF.png",
     name: "Telomere Hack - SPDEF",
-    wikiUrl: "https://temtem.gamepedia.com//Telomere_Hack_-_SPDEF",
+    wikiUrl: "https://temtem.wiki.gg/wiki//Telomere_Hack_-_SPDEF",
     description:
       "This experimental genefix alters chromosomes in Temtem DNA, adding 1 SV to SPDEF",
     effect: null,
@@ -759,7 +759,7 @@ export const itemExample = [
     wikiImageUrl:
       "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/9/91/Engineered_DNA_Strand.png/75px-Engineered_DNA_Strand.png",
     name: "Engineered DNA Strand",
-    wikiUrl: "https://temtem.gamepedia.com//Engineered_DNA_Strand",
+    wikiUrl: "https://temtem.wiki.gg/wiki//Engineered_DNA_Strand",
     description: null,
     effect:
       "This single-use DNA strand ensures the egg inherits the parent´s trait slot.",
@@ -773,7 +773,7 @@ export const itemExample = [
     wikiImageUrl:
       "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/a/a9/TechniqueCourse.png/75px-TechniqueCourse.png",
     name: "TC018: Major Slash",
-    wikiUrl: "https://temtem.gamepedia.com//TC018:_Major_Slash",
+    wikiUrl: "https://temtem.wiki.gg/wiki//TC018:_Major_Slash",
     description: null,
     effect: "Allows Major Slash to be learned by a Temtem.",
     location: null,
@@ -786,7 +786,7 @@ export const itemExample = [
     wikiImageUrl:
       "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/2/27/EggTimer.png/75px-EggTimer.png",
     name: "Egg Timer",
-    wikiUrl: "https://temtem.gamepedia.com//Egg_Timer",
+    wikiUrl: "https://temtem.wiki.gg/wiki//Egg_Timer",
     description: null,
     effect: "Used to tell when your eggs hatch",
     location: null,
@@ -799,7 +799,7 @@ export const itemExample = [
     wikiImageUrl:
       "https://gamepedia.cursecdn.com/temtem_gamepedia_en/thumb/d/dd/Unknown.png/75px-Unknown.png",
     name: "Ancient Idol",
-    wikiUrl: "https://temtem.gamepedia.com//Ancient_Idol",
+    wikiUrl: "https://temtem.wiki.gg/wiki//Ancient_Idol",
     description: null,
     effect: null,
     location: null,
@@ -813,7 +813,7 @@ export const itemExample = [
 export const dojosExample = [
   {
     name: "Arissola Dojo",
-    wikiUrl: "https://temtem.gamepedia.com/Arissola_Dojo",
+    wikiUrl: "https://temtem.wiki.gg/wiki/Arissola_Dojo",
     types: ["Wind", "Water"],
     leader: {
       name: "Sophia",

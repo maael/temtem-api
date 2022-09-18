@@ -27,7 +27,7 @@ export default async function getLocations() {
 }
 
 async function getIslands() {
-  const html = (await got("https://temtem.gamepedia.com/Airborne_Archipelago"))
+  const html = (await got("https://temtem.wiki.gg/wiki/Airborne_Archipelago"))
     .body;
   const $ = cheerio.load(html);
   return typedToArray<{ name: string; wikiUrl: string; description: string }>(
@@ -40,7 +40,7 @@ async function getIslands() {
         const description = $(el).text();
         return {
           name: $name.text(),
-          wikiUrl: `https://temtem.gamepedia.com${$name.attr("href")}`,
+          wikiUrl: `https://temtem.wiki.gg${$name.attr("href")}`,
           description,
           temtemTypes: types
             .map(({ name }) => name)
@@ -85,7 +85,7 @@ function getImage($: cheerio.Root) {
       ? `${parsedThumbnail.protocol}//${parsedThumbnail.host}${parsedThumbnail.pathname}`
       : ""
     ).replace(/\/revision\/latest\/scale-to-width.*$/, ""),
-    imageWikiFile: `https://temtem.gamepedia.com${fileLink}`,
+    imageWikiFile: `https://temtem.wiki.gg${fileLink}`,
   };
 }
 
@@ -97,7 +97,7 @@ function getSectionList($: cheerio.Root, name: string, detailEl: string = "a") {
       .find(detailEl)
       .map((_i, el) => ({
         name: $(el).text(),
-        wikiUrl: `https://temtem.gamepedia.com${$(el).attr("href")}`,
+        wikiUrl: `https://temtem.wiki.gg${$(el).attr("href")}`,
       }))
   );
 }

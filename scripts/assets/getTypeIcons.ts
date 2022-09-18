@@ -6,7 +6,7 @@ import * as log from "../util/log";
 
 export default async function getTypeIcons() {
   log.info("Starting");
-  const result = await got("https://temtem.gamepedia.com/Category:Type_icons");
+  const result = await got("https://temtem.wiki.gg/wiki/Category:Type_icons");
   const $ = cheerio.load(result.body);
   const images = $("#mw-content-text")
     .find("img")

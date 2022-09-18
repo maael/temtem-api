@@ -12,7 +12,7 @@ export default async function getTechniques() {
   log.info("Starting");
   let techniques: Technique[] = [];
   let nextPage: string | undefined =
-    "https://temtem.gamepedia.com/Category:Techniques";
+    "https://temtem.wiki.gg/wiki/Category:Techniques";
   while (!!nextPage) {
     const page = await getTechniquesForPage(nextPage);
     if (page) {
@@ -35,19 +35,19 @@ async function getTechniquesForPage(url: string) {
       page.find("a").map((_i, el) => {
         return {
           name: $(el).text().trim(),
-          wikiUrl: `https://temtem.gamepedia.com${$(el).attr("href")}`,
+          wikiUrl: `https://temtem.wiki.gg${$(el).attr("href")}`,
         };
       })
     ).filter(
       ({ name, wikiUrl }) =>
         name !== "Technique Course" &&
         name !== "Training Course" &&
-        wikiUrl !== "https://temtem.gamepedia.com/Technique_Course"
+        wikiUrl !== "https://temtem.wiki.gg/wiki/Technique_Course"
     );
     const nextPage = typedToArray<string | undefined>(
       $("#mw-pages>a").map((_i, el) => {
         return $(el).text().trim().toLowerCase() === "next page"
-          ? `https://temtem.gamepedia.com${$(el).attr("href")}`
+          ? `https://temtem.wiki.gg${$(el).attr("href")}`
           : undefined;
       })
     ).filter(Boolean)[0];
