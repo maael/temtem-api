@@ -122,6 +122,7 @@ export default async function embellishTechniques(
         const classField = getInfoBoxTitle($, "Class");
         const priority = getPriority($);
         const effectText = getEffectText($);
+        const synergyText = getSynergyText($);
         const effects = getEffectsFromText(effectText, conditions);
         return {
           ...item,
@@ -155,6 +156,15 @@ function getEffectText($: cheerio.Root) {
   if (!effectText.length || (effectText[0] as cheerio.TagElement).name !== "p")
     return "";
   return $(effectText).text();
+}
+
+function getSynergyText($: cheerio.Root) {
+  const effectTextHeader = $("#Effect");
+  if (!effectTextHeader.length) return "";
+  const synergyText = $(effectTextHeader).parent().next().next();
+  if (!synergyText.length || (synergyText[0] as cheerio.TagElement).name !== "p")
+    return "";
+  return $(synergyText).text();
 }
 
 function getEffectsFromText(text: string, conditions: Condition[]) {
