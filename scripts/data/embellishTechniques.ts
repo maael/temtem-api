@@ -35,6 +35,8 @@ export interface Technique extends MinimalTechnique {
   synergyEffects: Array<{ damage: number; effect: string }>;
   targets: string;
   description: string;
+  effectText: string;
+  synergyText: string;
 }
 
 function getInfoBox($: cheerio.Root, str: string, idx: number = 0): string {
@@ -138,6 +140,7 @@ export default async function embellishTechniques(
           targets: getInfoBoxEl($, "Targeting").first().text().trim(),
           description: getDescription($),
           effectText,
+          synergyText,
           effects,
         };
       })
