@@ -14,7 +14,10 @@
           "level": 17,
           "trait": "Toxic Skin",
           "techniques": [
-            "Aqua Stone"
+            "Aqua Stone",
+            "Strangle",
+            "Water Blade",
+            "Tentacle Whip"
           ],
           "number": 128
         },
@@ -22,7 +25,12 @@
           "name": "Loali",
           "level": 17,
           "trait": "Botanist",
-          "techniques": [],
+          "techniques": [
+            "Toxic Spores",
+            "Wind Blade",
+            "Urushiol",
+            "Tenderness"
+          ],
           "number": 11
         },
         {
@@ -30,6 +38,8 @@
           "level": 18,
           "trait": "Last Rush",
           "techniques": [
+            "Psychosis",
+            "Tesla Prison",
             "Held Anger",
             "DC Beam"
           ],
@@ -42,7 +52,8 @@
           "techniques": [
             "Heavy Blow",
             "Nimble",
-            "Nibble"
+            "Nibble",
+            "Scratch"
           ],
           "number": 141
         },
@@ -52,7 +63,9 @@
           "trait": "Spoilsport",
           "techniques": [
             "Multiple Pecks",
-            "Feather Gatling"
+            "Wind Burst",
+            "Feather Gatling",
+            "Shrill Voice"
           ],
           "number": 130
         },
@@ -62,6 +75,7 @@
           "trait": "Hydrologist",
           "techniques": [
             "Ice Shuriken",
+            "Tsunami",
             "High-pressure Water",
             "Kick"
           ],
@@ -86,7 +100,9 @@
           "trait": "Mithridatism",
           "techniques": [
             "Double Kick",
-            "Allergic Spread"
+            "Allergic Spread",
+            "Sharp Leaf",
+            "Roots"
           ],
           "number": 103
         },
@@ -95,6 +111,8 @@
           "level": 24,
           "trait": "Soft Touch",
           "techniques": [
+            "Rage",
+            "Sand Splatter",
             "Heavy Blow",
             "Nibble"
           ],
@@ -117,8 +135,10 @@
           "level": 22,
           "trait": "Thick Skin",
           "techniques": [
+            "Rage",
             "Jaw Strike",
-            "Fire Flame"
+            "Fire Flame",
+            "Tenderness"
           ],
           "number": 86
         },
@@ -128,7 +148,9 @@
           "trait": "Pyromaniac",
           "techniques": [
             "Embers",
-            "Head Ram"
+            "Head Ram",
+            "Sand Splatter",
+            "Warm Cuddle"
           ],
           "number": 37
         },
@@ -139,7 +161,8 @@
           "techniques": [
             "Fire Tornado",
             "Embers",
-            "Fierce Claw"
+            "Fierce Claw",
+            "Roar"
           ],
           "number": 58
         }
@@ -163,8 +186,10 @@
           "level": 33,
           "trait": "Callosity",
           "techniques": [
+            "Rampage",
             "Double Kick",
-            "Allergic Spread"
+            "Allergic Spread",
+            "Sharp Leaf"
           ],
           "number": 104
         },
@@ -174,6 +199,8 @@
           "trait": "Bully",
           "techniques": [
             "Embers",
+            "Warm Cuddle",
+            "Rage",
             "Jaw Strike"
           ],
           "number": 87
@@ -185,7 +212,8 @@
           "techniques": [
             "Lifeful Sap",
             "Gaia",
-            "Beta Burst"
+            "Beta Burst",
+            "Revitalize"
           ],
           "number": 137
         },
@@ -195,6 +223,8 @@
           "trait": "Hydrologist",
           "techniques": [
             "Aqua Bullet Hell",
+            "Sharp Rain",
+            "Water Cannon",
             "Cooperation"
           ],
           "number": 89
@@ -206,7 +236,8 @@
           "techniques": [
             "Hypoxia",
             "Feather Gatling",
-            "Cheer Up"
+            "Cheer Up",
+            "Wind Burst"
           ],
           "number": 18
         },
@@ -240,8 +271,10 @@
           "level": 36,
           "trait": "Aerobic",
           "techniques": [
+            "Toxic Plume",
             "Blizzard",
-            "Multiple Pecks"
+            "Multiple Pecks",
+            "Venomous Claws"
           ],
           "number": 110
         },
@@ -262,8 +295,10 @@
           "level": 39,
           "trait": "Receptive",
           "techniques": [
+            "Stone Ball",
             "Head Ram",
-            "Mud Shower"
+            "Mud Shower",
+            "Sand Splatter"
           ],
           "number": 22
         },
@@ -283,7 +318,12 @@
           "name": "Noxolotl",
           "level": 35,
           "trait": "Trance",
-          "techniques": [],
+          "techniques": [
+            "Tentacle Whip",
+            "Toxic Ink",
+            "Venomous Claws",
+            "Stare"
+          ],
           "number": 106
         },
         {
@@ -316,8 +356,10 @@
           "level": 43,
           "trait": "",
           "techniques": [
+            "Stone Ball",
             "Head Ram",
-            "Mud Shower"
+            "Mud Shower",
+            "Sand Splatter"
           ],
           "number": 22
         },
@@ -326,6 +368,9 @@
           "level": 43,
           "trait": "Scavenger",
           "techniques": [
+            "Stampede",
+            "Stone Ball",
+            "Sand Storm",
             "Burrow"
           ],
           "number": 101
@@ -337,6 +382,7 @@
           "techniques": [
             "Hibernate",
             "Oshi-Dashi",
+            "Savage Suplex",
             "Late Torment"
           ],
           "number": 116
@@ -346,6 +392,7 @@
           "level": 45,
           "trait": "",
           "techniques": [
+            "Uppercut",
             "Perfect Jab",
             "Paralyzing Poison",
             "Humiliating Slap"
@@ -358,6 +405,7 @@
           "trait": "Book Lungs",
           "techniques": [
             "Petrify",
+            "Toxin Shower",
             "Metabolize",
             "Intimidation"
           ],
@@ -405,6 +453,7 @@
           "trait": "Haka",
           "techniques": [
             "Jinxed Whisper",
+            "Telekinetic Shrapnel",
             "Paralyzing Poison"
           ],
           "number": 153
@@ -415,6 +464,7 @@
           "trait": "Brawny",
           "techniques": [
             "Fierce Claw",
+            "Savage Suplex",
             "Inner Spirit",
             "Ninja Jutsu"
           ],
@@ -425,6 +475,8 @@
           "level": 64,
           "trait": "Specgulp",
           "techniques": [
+            "Rage",
+            "Rampage",
             "Head Charge"
           ],
           "number": 15
@@ -444,6 +496,7 @@
           "level": 67,
           "trait": "Inductor",
           "techniques": [
+            "Thunder Strike",
             "Petrify",
             "Electric Storm",
             "Earthbreaker"
@@ -455,7 +508,9 @@
           "level": 75,
           "trait": "Defuser",
           "techniques": [
+            "Uppercut",
             "Defibrillate",
+            "Savage Suplex",
             "Oshi-Dashi"
           ],
           "number": 83
@@ -477,7 +532,8 @@
           "level": 77,
           "trait": "Synergy Adept",
           "techniques": [
-            "Matter Teleport"
+            "Matter Teleport",
+            "Water Cannon"
           ],
           "number": 0
         },
@@ -486,6 +542,8 @@
           "level": 77,
           "trait": "Specmaster",
           "techniques": [
+            "Sparkling Bullet",
+            "Sharp Stabs",
             "Piezoelectric Blow"
           ],
           "number": 75
@@ -495,7 +553,9 @@
           "level": 84,
           "trait": "Hydrologist",
           "techniques": [
-            "Multiple Pecks"
+            "Sharp Rain",
+            "Multiple Pecks",
+            "Waterjet"
           ],
           "number": 131
         },
@@ -506,6 +566,7 @@
           "techniques": [
             "Head Ram",
             "Hasty Lunge",
+            "Stampede",
             "Piezoelectric Blow"
           ],
           "number": 152
@@ -526,6 +587,7 @@
           "level": 85,
           "trait": "Spiritual",
           "techniques": [
+            "Unseen Blow",
             "Psy Surge"
           ],
           "number": 156
