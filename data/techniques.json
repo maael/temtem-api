@@ -15,6 +15,7 @@
     "targets": "Single Other Target",
     "description": "By striking the five vital points, the Miyako priests teach advanced tamers how to doom and immunize a target for 5 turns.",
     "effectText": "5PPEH inflicts a single other target with a 5 turn countdown of the Doomed Condition but also gifts them with the Immune Condition for 5 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -33,6 +34,7 @@
     "targets": "Other Team or Ally",
     "description": "Toxolotl draws from the Toxic essence of Xolot, moderately damaging and Poisoning the whole team for 2 turns.",
     "effectText": "Acid Reflux deals damage to the rival team or the user's ally and inflicts them with the Poisoned Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -51,6 +53,7 @@
     "targets": "Other Team or Ally",
     "description": "A burst of allergen spores that inflicts damage on the whole team.",
     "effectText": "Allergic Spread deals damage to the rival team or the user's ally.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -69,6 +72,7 @@
     "targets": "All Other Temtem",
     "description": "Volgon's Heavenly Might unleashes a wave of power that sweeps the battleground, affecting everyone except the user, overextending them and vigorizing you for 2 turns.",
     "effectText": "Ampere Outburst causes all other combatants on the battlefield to be overexerted the next turn and gifts the user with the Invigorated Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -87,6 +91,7 @@
     "targets": "Single Team",
     "description": "Advanced antitoxins that cure poison on the inoculated target and invigorate them for 2 turns.",
     "effectText": "Antitoxins cures a single team of the Poisoned Condition and gifts them with the Invigorated Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -105,6 +110,7 @@
     "targets": "Single Other Target",
     "description": "A devastating Water technique developed by legendary tamer Dan Maku.",
     "effectText": "Aqua Bullet Hell deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -129,6 +135,7 @@
     "targets": "Single Other Target",
     "description": "\"An ingenious application of hydraulic pressure for ballistic purposes\" - Sophia d'Arissola.",
     "effectText": "Aqua Stone deals damage to a single other target.",
+    "synergyText": "If used with an Earth ally, its damage increases to 104.",
     "effects": []
   },
   {
@@ -147,6 +154,7 @@
     "targets": "Single Target",
     "description": "This Water technique is faster than an angry Kalabyss.",
     "effectText": "Aquatic Whirlwind deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -165,6 +173,7 @@
     "targets": "All Other Temtem",
     "description": "Let's press the big red button with the danger signs! The Digital attacker inflicts massive damage and self-destructs in the process.",
     "effectText": "Autodestruction deals damage to all other combatants on the battlefield then knocks-out the user.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -189,6 +198,7 @@
     "targets": "Single Target",
     "description": "Ninety-nine Temesseeeence viaaaals! This horrible Tucmani drinking song does considerable damage... especially to reputations, inflicting isolation for 3 turns.Used in combination with a Neutral ally, the Awful Song inflicts damage on the whole team.",
     "effectText": "Awful Song deals damage to a single target and inflicts them with the Isolated Condition for 3 turns.",
+    "synergyText": "If used with a Neutral ally, its targeting changes Other Team or Ally. As such, if the user targets themselves and the synergy activates, only the user's ally will be damaged.",
     "effects": []
   },
   {
@@ -207,6 +217,7 @@
     "targets": "Single Target",
     "description": "Give'em the old razzle dazzle! The target evades for 2 turns.",
     "effectText": "Bamboozle gifts a single target with the Evading Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -225,6 +236,7 @@
     "targets": "Single Other Target",
     "description": "This Tem's bark is much worse than its bite - it gives the enemy DEF and SPDEF .",
     "effectText": "Bark inflicts a single other target with DEF and SPDEF .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -243,6 +255,7 @@
     "targets": "Single Team",
     "description": "Omninenesian Temtem use pieces of Banyan bark as shields, giving the whole team DEF .",
     "effectText": "Bark Shield gifts a single team with DEF .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -261,6 +274,7 @@
     "targets": "Single Other Target",
     "description": "It's not the jump that hurts, it's the landing - and it hurts the target A LOT.",
     "effectText": "Base Jump deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -279,6 +293,7 @@
     "targets": "Other Team or Ally",
     "description": "A primal charge, like the stampede on the Kisiwa plains! It inflicts damage on the whole team.",
     "effectText": "Bestial Charge deals damage to the rival team or the user's ally.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -297,6 +312,7 @@
     "targets": "Single Other Target",
     "description": "A mighty beta-wave surge that bombards the target with a subatomic barrage.",
     "effectText": "Beta Burst deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -315,6 +331,7 @@
     "targets": "Other Team or Ally",
     "description": "It's either 1 or 0. And it's not 0... This technique inflicts moderate damage on the whole team.",
     "effectText": "Binary Flood deals damage to the rival team or the user's ally.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -339,6 +356,7 @@
     "targets": "Single Other Target",
     "description": "Gravity in the Middle Sphere is capricious and mild - but this technique still causes a great deal of damage and wipes all statuses from the target.Used in combination with an Earth ally, Blackhole also wipes all stage changes.",
     "effectText": "Blackhole deals damage to a single target and cures/removes their Status Conditions.",
+    "synergyText": "If used with an Earth ally, is priority increases to Normal and it also removes the target's Stat Stage Changes.",
     "effects": []
   },
   {
@@ -357,6 +375,7 @@
     "targets": "Single Other Target",
     "description": "Cold and furious like the mistral winds in the Thalassian Cliffs.",
     "effectText": "Blizzard deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -375,6 +394,7 @@
     "targets": "Self",
     "description": "Thou shall not pass! A Melee technique that confers DEF .",
     "effectText": "Block gifts the user with DEF .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -393,6 +413,7 @@
     "targets": "Single Other Target",
     "description": "Feel that shiver down your spine when you see that screen? It inflicts 2 turns of frozen... and considerable frustration.",
     "effectText": "Blue Screen inflicts a single other target with the Frozen Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -411,6 +432,7 @@
     "targets": "Single Other Target",
     "description": "Originated as an Omninesian technique to reach hanging fruit in the jungle canopy.",
     "effectText": "Boomerang deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -429,6 +451,7 @@
     "targets": "Self",
     "description": "Survival is often the greatest of victories. Only effective if the Temtem is already alerted; removes it, gives evading for 2 turns and heals 10%.",
     "effectText": "Brace gifts the user with the Evading Condition for 2 turns and restores 10% of their maximum HP if they already have the Alerted Condition. The Alerted Condition is removed after.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -453,6 +476,7 @@
     "targets": "Other Team or Ally",
     "description": "Beam me up! This technique makes you alert and able to evade for 2 turns.",
     "effectText": "Bright Beam deals damage to the rival team or the user's ally and gifts the user with the Alerted Condition and Evading Condition for 2 turns.",
+    "synergyText": "If used with a Crystal ally, its damage increases to 45.",
     "effects": []
   },
   {
@@ -471,6 +495,7 @@
     "targets": "Single Other Target",
     "description": "Bubbles! <3 This weakens the target by means of extreme cuteness.",
     "effectText": "Bubbles deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -489,6 +514,7 @@
     "targets": "Self",
     "description": "\"In a hole in the ground there lived a Temtem...\" which allowed it to evade for 4 turns.",
     "effectText": "Burrow gifts the user with the Evading Condition for 4 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -513,6 +539,7 @@
     "targets": "Self",
     "description": "When in doubt, run and shout! This fast Nature technique helps your Temtem regenerate and evade for 1 turn.No more beating around the bush! Used in combination with a Earth ally, this technique gives SPDEF .",
     "effectText": "Bush gifts the user with the Regenerated Condition and Evading Condition for 1 turn.",
+    "synergyText": "If used with an Earth ally, it also gifts the user with SPDEF .",
     "effects": []
   },
   {
@@ -531,6 +558,7 @@
     "targets": "All",
     "description": "In you go, Nick! Everyone on the battlefield gets Trapped for 2 turns.",
     "effectText": "Cage inflicts all combatants on the battlefield with the Trapped Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -549,6 +577,7 @@
     "targets": "Single Target",
     "description": "Healing is a collective process - in clockwise order, 3 Temtem recover 20% health.",
     "effectText": "Chain Heal restores 20% of a single target's and two other combatant's maximum HP in clockwise order from the initial target. When only two combatants are on the battlefield, the initial target will restore 40% while the remaining target will restore 20%.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -567,6 +596,7 @@
     "targets": "Single Target",
     "description": "This miracle of Electric manipulation bounces 3 times clockwise for as long as it deals damage, dealing decreasing damage with each hit.",
     "effectText": "Chain Lightning deals damage to a single target then two other combatants in clockwise order from the initial target. The initial target takes 100% of the damage, the second takes 70%, and the third takes 60%. The chain of damage will fail to continue to the next target if the damage was blocked by the current target. Damage can be blocked if the target who would have taken damage has the Evading Condition, has the Electric Synthesize Trait, or, if the target is an ally, has the Friendship Trait.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -585,6 +615,7 @@
     "targets": "Single Other Target",
     "description": "A fire technique that whips the opponent with heavy chains and them for 2 turns.",
     "effectText": "Chains Hit deals damage to a single other target and inflicts them with the Trapped Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -603,6 +634,7 @@
     "targets": "Self",
     "description": "The blackest of barriers, blunts even the fiercest of attacks. It increases the user's SPDEF .",
     "effectText": "Charcoal Wall gifts the user with SPDEF .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -621,6 +653,7 @@
     "targets": "Single Other Target",
     "description": "There's a time for cunning strategy, and there's a time for charging head-on. This one is for the latter case.",
     "effectText": "Charge deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -639,6 +672,7 @@
     "targets": "Other Team or Ally",
     "description": "Do NOT let your 'Tem eat these. This technique inflicts moderate damage on the whole team and nullifies it for 2 turns.",
     "effectText": "Charged Iron Filings deals damage to the rival team or the user's ally and gives them the Nullified Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -657,6 +691,7 @@
     "targets": "Single Target",
     "description": "Lifts the spirits of the target and gives -1 Hold.",
     "effectText": "Cheer Up decreases the Hold of all the techniques of a single target by 1.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -675,6 +710,7 @@
     "targets": "Single Other Target",
     "description": "Mudslinging to see what sticks? It won't do much damage, but it slows them down... Inflicts moderate damage and SPD",
     "effectText": "Clay Ball deals damage to a single other target and inflicts them with SPD .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -693,6 +729,7 @@
     "targets": "Single Other Target",
     "description": "Give me a hug, bro! Ouch... but... not... like... thaaat...",
     "effectText": "Clinch deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -711,6 +748,7 @@
     "targets": "Single Other Target",
     "description": "A shivery draft that deals light damage and chills the target with Cold for 3 turns.",
     "effectText": "Cold Breeze deals damage to a single other target and inflicts them with the Cold Condition for 3 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -729,6 +767,7 @@
     "targets": "Single Target",
     "description": "A icy stream from the depths, this soaker inflicts moderate Water damage and leaves you cold for 2 turns.",
     "effectText": "Cold Geyser deals damage to a single target and inflicts them with the Cold Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -747,6 +786,7 @@
     "targets": "Single Other Target",
     "description": "Gimme all your stuff! The target is Seized for 3 turns.",
     "effectText": "Confiscate inflicts a single other target with the Seized Condition for 3 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -765,6 +805,7 @@
     "targets": "Single Team",
     "description": "Team equality! This equalizes all team members' STA with the team average and the whole team recovers 7% HP.",
     "effectText": "Cooperation takes a single team's current total STA then evenly splits it between the team's combatants and heals 7% of their maximum HP.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -789,6 +830,7 @@
     "targets": "Single Other Target",
     "description": "Arachnyte are adept weavers, and their webs look so temptingly soft... This technique traps a target and makes it fall asleep for 3 turns.Used in combination with a Nature ally, Cozy net also regenerates the user for 3 turns.",
     "effectText": "Cozy Net inflicts a single other target with the Asleep Condition and the Trapped Condition for 3 turns.",
+    "synergyText": "If used with a Nature ally, it also gifts the user with the Regenerated Condition for 3 turns.",
     "effects": []
   },
   {
@@ -807,6 +849,7 @@
     "targets": "Single Other Target",
     "description": "What do Crystal Temtem eat? Surely not other Temtem... but they can still take a vicious bite.",
     "effectText": "Crystal Bite deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -831,6 +874,7 @@
     "targets": "Single Target",
     "description": "It's raining 'Tems, hallelujah! This special Crystal technique inflicts moderate damage and isolates it for 3 turns.Used in combination with a Mental ally, Crystal Deluge makes you asleep for 2 turns and increases priority.",
     "effectText": "Crystal Deluge deals damage to a single target and inflicts them with the Isolated Condition for 3 turns.",
+    "synergyText": "If used with a Mental ally, its priority increases to High and also inflicts the Asleep Condition for 2 turns.",
     "effects": []
   },
   {
@@ -855,6 +899,7 @@
     "targets": "Single Target",
     "description": "A miniature version of the \"star-rain\" that is said to have spawned the Archipelago.",
     "effectText": "Crystal Dust deals damage to a single target.",
+    "synergyText": "If used with a Wind ally, its damage increases to 80 and priority increases to Very High.",
     "effects": []
   },
   {
@@ -873,6 +918,7 @@
     "targets": "Single Other Target",
     "description": "What's more damaging than a feather gatling? Well, a * Crystal shard* gatling! Worse than a broken mirror!",
     "effectText": "Crystal Plume Gatling deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -891,6 +937,7 @@
     "targets": "Single Target",
     "description": "This nano-Anak analogue tectonic effect causes crystal shards to extrude from the ground and do damage.",
     "effectText": "Crystal Spikes deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -909,6 +956,7 @@
     "targets": "Single Target",
     "description": "Thought to have originated in unexplored submarine caves, these Koish are capable of inflicting moderate Crystal damage.",
     "effectText": "Crystal Stream deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -927,6 +975,7 @@
     "targets": "Single Other Target",
     "description": "\"Chromeon, make our victory Crystal clear!\" This technique inflicts moderate damage.",
     "effectText": "Crystal Torrent deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -945,6 +994,7 @@
     "targets": "Self",
     "description": "Inspired by the ruins of the Amethyst Barrens, this crystal crust provides protection at the expense of speed: DEF but SPD .",
     "effectText": "Crystallize gifts the user with DEF but also inflicts them with SPD .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -963,6 +1013,7 @@
     "targets": "Single Target",
     "description": "You think the cyber world can't reach you here. Think again. This technique is fast and inflicts moderate damage.",
     "effectText": "Cyberclaw deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -981,6 +1032,7 @@
     "targets": "All",
     "description": "Where is everybody!? All Temtem in the battlefield are Isolated for 2 turns, negating any synergies.",
     "effectText": "Darkness inflicts all combatants on the battlefield with the Isolated Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -999,6 +1051,7 @@
     "targets": "Single Other Target",
     "description": "Data input overflow! This sensory overload causes moderate damage.",
     "effectText": "Data Burst deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1017,6 +1070,7 @@
     "targets": "Single Other Target",
     "description": "Hacking your opponent's database takes some time, but it's worth it. This technique weakens SPDEF .",
     "effectText": "Data Corruption inflicts a single other target with SPDEF .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1035,6 +1089,7 @@
     "targets": "Single Other Target",
     "description": "Lightning, an elemental force; not extremely powerful, but always reliable.",
     "effectText": "DC Beam deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1059,6 +1114,7 @@
     "targets": "Single Target",
     "description": "A good brute-force technique if you don't mind tidying up later.",
     "effectText": "Debris Typhoon deals damage to a single target.",
+    "synergyText": "If used with a Wind ally, its damage increases to 95.",
     "effects": []
   },
   {
@@ -1077,6 +1133,7 @@
     "targets": "Single Target",
     "description": "Quick, give me another shock! This technique inflicts moderate damage and isolates it for 2 turns.",
     "effectText": "Defibrillate deals damage to a single target and inflicts them with the Isolated Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1095,6 +1152,7 @@
     "targets": "Other Team or Ally",
     "description": "Sticks and stones... but this mental humiliation hurts too. It inflicts damage on the whole team.",
     "effectText": "Denigrate deals damage to the rival team or the user's ally.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1113,6 +1171,7 @@
     "targets": "Single Other Target",
     "description": "Aren't we all? Just take another nap. This technique inflicts exactly 120 damage without waking up the target.",
     "effectText": "Depress deals an exact 120 damage to a single other target, regardless of DEF, SPDEF, Type Effectivness, or Traits. It will also not cause a target afflicted with the Asleep Condition to wake up.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1131,6 +1190,7 @@
     "targets": "Self",
     "description": "Harder than the hardest Crystal Temtem! It confers DEF and SPDEF .",
     "effectText": "Diamond Fort gifts the user with DEF and SPDEF .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1149,6 +1209,7 @@
     "targets": "Single Target",
     "description": "It is a complete mystery how some Koish have developed Digital attacks, but this one is capable of moderate damage.",
     "effectText": "Digital Stream deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1167,6 +1228,7 @@
     "targets": "Single Other Target",
     "description": "\"Chromeon, cancel all their downloads and log 'em out!\" This technique inflicts moderate damage.",
     "effectText": "Digital Torrent deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1185,6 +1247,7 @@
     "targets": "Single Other Target",
     "description": "Like being slapped with a snippet of code - its bark is much worse than its byte! This technique does little damage.",
     "effectText": "Digital Whip deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1209,6 +1272,7 @@
     "targets": "Single Target",
     "description": "Just like trash-posting, this technique is a slow way of inflicting damage to the mind...All those trash-posts are messing with your head... Used in combination with a Mental ally. Digithreat dooms the target for 3 turns.",
     "effectText": "Digithreat deals damage to a single target.",
+    "synergyText": "If used with a Mental ally, it also inflicts a 3 turn countdown of the Doomed Condition.",
     "effects": []
   },
   {
@@ -1227,6 +1291,7 @@
     "targets": "Single Other Target",
     "description": "An accurate strike at the target's main pressure point, ignoring its defenses to deal exactly 100 damage without waking it up.",
     "effectText": "Dim Mak deals an exact 100 damage to a single other target, regardless of DEF, SPDEF, Type Effectivness or Traits. It will also not cause a target afflicted with the Asleep Condition to wake up.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1245,6 +1310,7 @@
     "targets": "Single Team",
     "description": "All hail our lord and savior, Pigepic! This technique increases the team's SPDEF and heals the whole team by 15%",
     "effectText": "Divine Inspiration gifts a single team with SPDEF and restores 15% of their maximum HP.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1263,6 +1329,7 @@
     "targets": "Single Other Target",
     "description": "The needle-prick doesn't inflict much damage, but Mimit uses the DNA sample to adapt its defense, bestowing SPD .",
     "effectText": "DNA Extraction deals damage to a single other target and gifts the user with SPD .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1287,6 +1354,7 @@
     "targets": "Single Other Target",
     "description": "Cuts both ways, in true Neutral fashion - inflicts moderate damage to the target, but also gives it DEF and SPDEF .",
     "effectText": "Double Edge deals damage to a single other target and gifts them with DEF and SPDEF .",
+    "synergyText": "If used with a Neutral ally, its damage decreases to 1.",
     "effects": []
   },
   {
@@ -1305,6 +1373,7 @@
     "targets": "Single Other Target",
     "description": "\"'Tis but a scratch! Or two!\". This Melee Technique is nothing to write home about.",
     "effectText": "Double Gash deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1323,6 +1392,7 @@
     "targets": "Single Other Target",
     "description": "An effective and cool-looking double kick inspired by Cipanki action movies.",
     "effectText": "Double Kick deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1341,6 +1411,7 @@
     "targets": "Single Other Target",
     "description": "Nothing does armor piercing damage like a drill to the head.",
     "effectText": "Drill Impact deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1359,6 +1430,7 @@
     "targets": "Single Target",
     "description": "Babawa leaves this sticky mucus everywhere, which reputedly has healing properties... it regenerates the target for 3 turns and grants it immunity for 4 turns.",
     "effectText": "Drool gifts a single target with the Regenerated Condition for 3 turns and the Immune Condition for 4 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1377,6 +1449,7 @@
     "targets": "All Other Temtem",
     "description": "A bone-dry technique that leaves every Temtem on the battlefield except the user Exhausted and Seized for 2 turns, and the attacker overextended next turn.",
     "effectText": "Drought inflicts all other combatants on the battlefield with the Exhausted Condition and the Seized Condition for 2 turns but causes the user to be overexerted the next turn.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1395,6 +1468,7 @@
     "targets": "Single Other Target",
     "description": "This technique buffets the enemy with the fury of the fiercest Kisiwan sandstorm.",
     "effectText": "Dust Vortex deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1413,6 +1487,7 @@
     "targets": "Single Target",
     "description": "This brown-water Koish subspecies has developed the skill to inflict moderate Earth damage.",
     "effectText": "Earth Stream deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1431,6 +1506,7 @@
     "targets": "Single Other Target",
     "description": "\"Chromeon, run them into the ground!\" This technique inflicts moderate damage.",
     "effectText": "Earth Torrent deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1449,6 +1525,7 @@
     "targets": "Other Team or Ally",
     "description": "Feel the Earth shake under your feet, rising with Anak-like force: slow, but devastating for the whole team.",
     "effectText": "Earth Wave deals damage to the rival team or the user's ally.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1478,6 +1555,7 @@
     "targets": "Single Other Target",
     "description": "Myrisles engineers hate this odd trick! Make the Earth shake and deal massive damage to the target.Used in combination with a Electric ally, it changes the technique type to Electric and the target is Seized for 2 turns.",
     "effectText": "Earthbreaker deals damage to a single other target.",
+    "synergyText": "If used with an Electric ally, it becomes Electric Type, damage increases to 150 and also inflicts the Seized Condition for 2 turns.",
     "effects": []
   },
   {
@@ -1496,6 +1574,7 @@
     "targets": "Other Team or Ally",
     "description": "True Electric storm like the monsoon over Cipanku. Damages whole team.",
     "effectText": "Electric Storm deals damage to the rival team or the user's ally.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1514,6 +1593,7 @@
     "targets": "Single Target",
     "description": "This Koish subspecies can deliver a short Electric discharge to inflict moderate damage.",
     "effectText": "Electric Stream deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1532,6 +1612,7 @@
     "targets": "Single Other Target",
     "description": "\"Chromeon, give them a shocking experience!\" This technique inflicts moderate damage.",
     "effectText": "Electric Torrent deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1550,6 +1631,7 @@
     "targets": "Single Other Target",
     "description": "Electromagnetically bound, attacker and target are trapped for 3 turns, while target gets SPD .",
     "effectText": "Electromagnetism inflicts a single other target and the user with the Trapped Condition for 3 turns and inflicts the target with SPD .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1568,6 +1650,7 @@
     "targets": "Single Target",
     "description": "Disco might be dead, but electro still packs A LOT of punch...",
     "effectText": "Electropunch deals damage to a single target.",
+    "synergyText": "If used with a Digital ally, its priority increases to High.",
     "effects": []
   },
   {
@@ -1586,6 +1669,7 @@
     "targets": "Single Target",
     "description": "Shower your opponent in burning embers. Fire technique that burns for 1 turn.",
     "effectText": "Embers deals damage to a single target and inflicts them with the Burned Condition for 1 turn.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1615,6 +1699,7 @@
     "targets": "Single Other Target",
     "description": "A simple yet quick Mental attack that exhausts the target for 1 turn.Used in combination with a Nature ally, Energy Manipulation does additional damage and exhausts for 2 turns.",
     "effectText": "Energy Manipulation deals damage to a single other target and inflicts them with the Exhausted Condition for 1 turn.",
+    "synergyText": "If used with a Nature ally, its damage increases to 60 and the Exhausted Condition lasts for 2 turns.",
     "effects": []
   },
   {
@@ -1633,6 +1718,7 @@
     "targets": "Single Other Target",
     "description": "\"Omnes vulnerant, postuma necat\". Slowly the hour creeps onwards... it does only slight damage, but if that leaves the Temtem under 35% of their total HP... it's over for them.",
     "effectText": "Execution deals damage to a single other target and if this damage would put them below 35% of their maximum HP, they're instead instantly knocked-out.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1651,6 +1737,7 @@
     "targets": "All",
     "description": "\"Look up! See that cool meteorite... Extinction gives 4 turns of Doomed to everyone on the battlefield.\"",
     "effectText": "Extinction inflicts all combatants on the battlefield with a 4 turn countdown of the Doomed Condition.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1669,6 +1756,7 @@
     "targets": "Single Other Target",
     "description": "A simple truth about Temtem fighting - the stronger you are, the harder you hit. This Neutral technique inflicts variable damage depending on the launcher's STA.",
     "effectText": "Extra Energy Slam deals damage to a single other target with its damage varying based on the user's current STA.",
+    "synergyText": "The following formula applies:",
     "effects": []
   },
   {
@@ -1698,6 +1786,7 @@
     "targets": "Single Target",
     "description": "This classic science experiment, weaponized. This technique inflicts decent damage and exiles the target for 3 turns.\"...and then he drank the battery liquid!\" Used in combination with a Toxic ally, Faraday Cage poisons the target for 2 turns.",
     "effectText": "Faraday Cage deals damage to a single target and inflicts them with the Isolated Condition for 3 turns.",
+    "synergyText": "If used with a Toxic ally, it also inflicts the Poisoned Condition for 2 turns.",
     "effects": []
   },
   {
@@ -1716,6 +1805,7 @@
     "targets": "Single Other Target",
     "description": "\"Even the softest feather becomes a sword if the hand is true.\" - Miyako proverb.",
     "effectText": "Feather Gatling deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1734,6 +1824,7 @@
     "targets": "Single Other Target",
     "description": "Raw as untamed Temtem and unstoppable as a Kisiwan stampede.",
     "effectText": "Fierce Claw deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1758,6 +1849,7 @@
     "targets": "Single Other Target",
     "description": "Put your hands up, this 'Tem's too hot to handle! This technique seizes and burns for 2 turns.Used in combination with an ally, Fiery Heist seizes and burns for 4 turns.",
     "effectText": "Fiery Heist inflicts a single other target with the Seized Condition and the Burned Condition for 2 turns.",
+    "synergyText": "If used with an Earth ally, the Seized Condition and the Burned Condition last for 4 turns.",
     "effects": []
   },
   {
@@ -1776,6 +1868,7 @@
     "targets": "Single Other Target",
     "description": "An alter ego of flames, channeled directly from the Anak spirit, which inflicts moderate damage and burns the enemy for 1 turn.",
     "effectText": "Fiery Soul deals damage to a single other target and inflicts them with the Burned Condition for 1 turn.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1794,6 +1887,7 @@
     "targets": "Single Other Target",
     "description": "Also known as \"siren slap\". Hurts your pride more than anything else.",
     "effectText": "Finbeat deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1812,6 +1906,7 @@
     "targets": "Single Other Target",
     "description": "Blazing like the depths of Anak, this flame geyser scorches your enemies.",
     "effectText": "Fire Flame deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1830,6 +1925,7 @@
     "targets": "Single Target",
     "description": "Smoke on the water! Many novice tamers are surprised to see Koish use a Fire attack, with moderate effects.",
     "effectText": "Fire Stream deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1848,6 +1944,7 @@
     "targets": "Single Target",
     "description": "Unleash a mighty Fire storm against your opponents. Try not to wear anything flammable...",
     "effectText": "Fire Tornado deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1866,6 +1963,7 @@
     "targets": "Single Other Target",
     "description": "\"Chromeon, burn 'em to a crispy crisp!\" This technique inflicts moderate damage.",
     "effectText": "Fire Torrent deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1884,6 +1982,7 @@
     "targets": "Self",
     "description": "Effective protection against hackers and hostile Temtem... it bestows 4 immunity for 4 turns.",
     "effectText": "Firewall gifts the user with the Immune Condition for 4 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1902,6 +2001,7 @@
     "targets": "Single Target",
     "description": "Some Temtem can call on Highabove forces to bring down a fiery Fire inferno on one enemy.",
     "effectText": "Flaming Meteorite deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1931,6 +2031,7 @@
     "targets": "Other Team or Ally",
     "description": "Watch the opponent get all bogged down. The whole team gets SPD .A mess of Mudshire proportions. Used in combination with an Earth ally, gives the enemy team SPD .",
     "effectText": "Flood inflicts the rival team or the user's ally with SPD .",
+    "synergyText": "If used with an Earth ally, its STA Cost decreases to 22 and it instead inflicts SPD .",
     "effects": []
   },
   {
@@ -1949,6 +2050,7 @@
     "targets": "Single Target",
     "description": "Real protection is not about unmovable strength, but dynamic defense. This technique gives the target immunity for 3 turns and SPDEF .",
     "effectText": "Fluid Barrier gifts a single target with SPDEF and the Immune Condition for 3 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1967,6 +2069,7 @@
     "targets": "Self",
     "description": "Advanced balance training developed by Tucmani rockhoppers: it confers SPD .",
     "effectText": "Footwork gifts the user with SPD .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -1985,6 +2088,7 @@
     "targets": "Single Other Target",
     "description": "Feel the true force of Nature, unleashed as a savage lash of the whip!",
     "effectText": "Frond Whip deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2003,6 +2107,7 @@
     "targets": "Self",
     "description": "Invoke the ancient spirit of the Omninesian jungle to recover 100% STA and 20% of the user's max HP.",
     "effectText": "Gaia restores 20% of the user's maximum HP and 100% of their maximum STA. The user will still overexert if they lack the required STA before use.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2021,6 +2126,7 @@
     "targets": "Single Other Target",
     "description": "The shorter the wavelength, the higher the damage. This mighty technique costs a lot of stamina but leaves the target even more exhausted.",
     "effectText": "Gamma Burst deals damage to a single other target and inflicts them with the Exhausted Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2045,6 +2151,7 @@
     "targets": "Self",
     "description": "Anything is better than generic. This technique nullifies you for 2 turns.Even more generic? Used in combination with a Neutral ally, Generify nullifies and lets you evade for 2 turns.",
     "effectText": "Generify gives the user the Nullified Condition for 2 turns.",
+    "synergyText": "If used with a Neutral ally, it also gifts the user with the Evading Condition for 2 turns.",
     "effects": []
   },
   {
@@ -2063,6 +2170,7 @@
     "targets": "Single Other Target",
     "description": "Like death by a thousand cuts... but this is just one of them.",
     "effectText": "Glass Blade deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2081,6 +2189,7 @@
     "targets": "Single Other Target",
     "description": "You mess with the horns, you get the... No, wait! This fast, Neutral technique does serious damage.",
     "effectText": "Goring deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2110,6 +2219,7 @@
     "targets": "Single Other Target",
     "description": "Sometimes, a single sigh is enough to topple a weakened enemy - and they'd better be, for this fast technique inflicts very minor damage.Every sigh contributes, until it's a gale storm... Used in combination with an ally, damage increases and traps the enemy for 1 turn.",
     "effectText": "Gust deals damage to a single target.",
+    "synergyText": "If used with an Electric ally, its damage increases to 75, priority increases to Ultra and also inflicts the Trapped Condition for 1 turn.",
     "effects": []
   },
   {
@@ -2128,6 +2238,7 @@
     "targets": "Single Other Target",
     "description": "A slashing open-hand strike in the Cipanki martial arts tradition. Inflicts Physical damage and leaves them Asleep the same turn.",
     "effectText": "Haito Uchi deals damage to a single other target and inflicts them with the Asleep Condition for 1 turn.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2152,6 +2263,7 @@
     "targets": "Single Other Target",
     "description": "Suggestive and Toxic visions that exhaust the mind and tire and trap the target for 2 turns.Used in combination with a Mental ally, the Hallucination does Special damage.",
     "effectText": "Hallucination inflicts a single other target with the Exhausted Condition and the Trapped Condition for 2 turns.",
+    "synergyText": "If used with a Mental ally, its class becomes Special with 100 damage.",
     "effects": []
   },
   {
@@ -2170,6 +2282,7 @@
     "targets": "Single Other Target",
     "description": "Some Temtem lick you to signify affection... and some use it as a powerful attack! Eww!",
     "effectText": "Harmful Lick deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2194,6 +2307,7 @@
     "targets": "Single Target",
     "description": "Make your enemies feel like reheated coffee does! This technique inflicts moderate damage.",
     "effectText": "Harmful Microwaves deals damage to a single target.",
+    "synergyText": "If used with a Digital ally, its STA Cost decreases to 14 and priority increases to High.",
     "effects": []
   },
   {
@@ -2218,6 +2332,7 @@
     "targets": "Single Other Target",
     "description": "An all-out attack, no time or thought for defense! It's fast, inflicts moderate damage but also overextends the user during their next turn.Used in combination with a ally, Hasty Lunge doesn't overextend the user.",
     "effectText": "Hasty Lunge deals damage to a single other target but causes the user to be overexerted the next turn.",
+    "synergyText": "If used with a Nature ally, it won't overexert the user.",
     "effects": []
   },
   {
@@ -2236,6 +2351,7 @@
     "targets": "Single Other Target",
     "description": "There are many clever uses for a large skull. This is not one of them, but it's effective.",
     "effectText": "Head Charge deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2254,6 +2370,7 @@
     "targets": "Single Other Target",
     "description": "Use your head, non-metaphorically.",
     "effectText": "Head Ram deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2272,6 +2389,7 @@
     "targets": "Self",
     "description": "Hey, I'm still warming up! ATK .",
     "effectText": "Heat Up gifts the user with ATK .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2290,6 +2408,7 @@
     "targets": "Single Other Target",
     "description": "Effective and unsubtle, like a Tucmani mine drill.",
     "effectText": "Heavy Blow deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2308,6 +2427,7 @@
     "targets": "Single Other Target",
     "description": "All that suppressed rage keeps building up... until it bursts in a nova of wrath.",
     "effectText": "Held Anger deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2326,6 +2446,7 @@
     "targets": "Other Team or Ally",
     "description": "Created by the legendary sensei Shunlee Bandamme, this spectacular technique inflicts damage upon the whole enemy squad.",
     "effectText": "Helicopter Kick deals damage to the rival team or the user's ally.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2355,6 +2476,7 @@
     "targets": "Other Team or Ally",
     "description": "Hell hath no fury like a tamer scorned - and this one does serious Fire damage to a whole team.Used in combination with a Fire ally, this technique inflicts extra damage and burns the rival team for 2 turns.",
     "effectText": "Hellfire deals damage to the rival team or the user's ally.",
+    "synergyText": "If used with a Fire ally, its damage increases to 100, priority increases to High and also inflicts the Burned Condition for 2 turns.",
     "effects": []
   },
   {
@@ -2373,6 +2495,7 @@
     "targets": "Self",
     "description": "Just a little nap while it's cold outside... The target is Frozen for 3 turns but recovers 35% of health and stamina.",
     "effectText": "Hibernate restores 35% of the user's maximum HP and STA but also inflicts the user with the Frozen Condition for 3 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2397,6 +2520,7 @@
     "targets": "Single Other Target",
     "description": "An industrial-grade water jet that packs real punch.Used in combination with a Fire ally, it produced boiling water that inflicts Burn for 3 turns.",
     "effectText": "High-pressure Water deals damage to a single other target.",
+    "synergyText": "If used with a Fire ally, it also inflicts the Burned Condition for 3 turns.",
     "effects": []
   },
   {
@@ -2415,6 +2539,7 @@
     "targets": "Self",
     "description": "Let them attack your digital ghost while you evade them for 1 turn.",
     "effectText": "Hologram gifts the user with the Evading Condition for 1 turn.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2433,6 +2558,7 @@
     "targets": "Single Target",
     "description": "A quick lunge for that unprotected jaw. This technique doesn't do much damage, but gives the attacker ATK .",
     "effectText": "Hook deals damage to a single target and gifts the user with ATK .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2451,6 +2577,7 @@
     "targets": "Single Target",
     "description": "Very few Temtem are still kicking after receiving this kick!",
     "effectText": "Hook Kick deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2469,6 +2596,7 @@
     "targets": "Single Other Target",
     "description": "Unspeakable nightmares! Obviously, they can only hurt an asleep target, but they do massive damage to the sleeper.",
     "effectText": "Horror deals damage to a single target if they're afflicted with the Asleep Condition.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2487,6 +2615,7 @@
     "targets": "Single Other Target",
     "description": "A bruised ego hurts more than a wounded body. This is just the thing! DEF .",
     "effectText": "Humiliating Slap deals damage to a single other target and inflicts them with DEF .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2511,6 +2640,7 @@
     "targets": "Other Team or Ally",
     "description": "This technique is named after a former Dojo Master who was once a contender for the title of Champion of the Archipelago... It damages the whole enemy team.Used in combination with a Digital ally, Hurricane also increases the user's SPD",
     "effectText": "Hurricane deals damage to the rival team or the user's ally.",
+    "synergyText": "If used with a Digital ally, it also gifts the user with SPD .",
     "effects": []
   },
   {
@@ -2529,6 +2659,7 @@
     "targets": "Single Target",
     "description": "When you gotta hit hard and fast - the faster, the harder. Inflicts extra damage depending on the Temtem's SPD.",
     "effectText": "Hyperkinetic Strike deals damage to a single target.",
+    "synergyText": "Hyperkinetic Strike's damage formula is close, but not exactly equal to, the combination of the damage it would deal based on SPATK and the damage it would deal based on SPD. The exact formula is intended to be:",
     "effects": []
   },
   {
@@ -2547,6 +2678,7 @@
     "targets": "Single Other Target",
     "description": "A brain hack developed by Arburian Mind specialists that makes the target Asleep for 2 turns.",
     "effectText": "Hypnosis inflicts a single other target with the Asleep Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2565,6 +2697,7 @@
     "targets": "Single Target",
     "description": "Watch your enemies choke as you turn around and... take their breath away.",
     "effectText": "Hypoxia deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2589,6 +2722,7 @@
     "targets": "Single Other Target",
     "description": "An extreme version of the ice water bucket challenge that does real damage.",
     "effectText": "Ice Cubes deals damage to a single other target.",
+    "synergyText": "If used with a Water ally, its STA Cost decreases to 9.",
     "effects": []
   },
   {
@@ -2607,6 +2741,7 @@
     "targets": "Single Other Target",
     "description": "An obscure technique created by the secretive Iwaba clan, deep in the Cipanki hills, which inflicts Cold for 2 turns.",
     "effectText": "Ice Shuriken deals damage to a single other target and inflicts them with the Cold Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2625,6 +2760,7 @@
     "targets": "Single Other Target",
     "description": "Cold *does* bother you anyway... This giant icicle inflicts damage and also Cold for 3 turns.",
     "effectText": "Iced Stalactite deals damage to a single other target and inflicts them with the Cold Condition for 3 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2643,6 +2779,7 @@
     "targets": "Single Target",
     "description": "It is said this technique channels the spirit of a long-lost, draconic variety of Temtem, for massive damage.",
     "effectText": "Inner Spirit deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2661,6 +2798,7 @@
     "targets": "Other Team or Ally",
     "description": "That \"don't mess with me\" look makes the target team exhausted for 2 turns. Also grants the user evading for 1 turn.",
     "effectText": "Intimidation inflicts the rival team or the user's ally with the Exhausted Condition for 2 turns and gifts the user with the Evading Condition for 1 turn.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2679,6 +2817,7 @@
     "targets": "Single Other Target",
     "description": "Temtem with powerful jaws always know how to use them...",
     "effectText": "Jaw Strike deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2697,6 +2836,7 @@
     "targets": "Single Other Target",
     "description": "Shh! Shut up, you're jinxing your chances! The target falls asleep for 2 turns, but the user gets overextended on the next turn.",
     "effectText": "Jinxed Whisper inflicts a single other target with the Asleep Condition for 2 turns but causes the user to be overexerted the next turn.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2715,6 +2855,7 @@
     "targets": "Single Other Target",
     "description": "One of the best-known and most useful Miyako floor techniques, it pins down a target for SPD .",
     "effectText": "Kesa Gatame inflicts a single other target with SPD .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2733,6 +2874,7 @@
     "targets": "Single Other Target",
     "description": "Primal and instinctive, sometimes a good kick is all you need.",
     "effectText": "Kick deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2751,6 +2893,7 @@
     "targets": "Other Team or Ally",
     "description": "When the king roars, the rest run away. Decreases SPD , ATK and SPATK of the other team.",
     "effectText": "King's Roar inflicts the rival team or the user's ally with SPD , ATK and SPATK .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2769,6 +2912,7 @@
     "targets": "Single Other Target",
     "description": "What goes around comes around! This mighty attack inflicts massive damage, but the user gets 30% knockback damage.",
     "effectText": "Knockback deals damage to a single other target but causes the user to take 30% of the damage dealt as recoil.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2787,6 +2931,7 @@
     "targets": "Single Other Target",
     "description": "The first cut is the deepest, but the last one hurts like Downbelow. This Neutral Technique only works on trapped enemies and inflicts 180 damage.",
     "effectText": "Late Torment deals damage to a single other target if they're afflicted with the Trapped Condition.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2811,6 +2956,7 @@
     "targets": "Single Other Target",
     "description": "Look, nobody likes doing laundry, but it has to be done, OK? It cleans all statuses, naturally! (And does some damage to boot.).",
     "effectText": "Laundry deals damage to a single target and cures/removes all of their Status Conditions.",
+    "synergyText": "If used with an Electric ally, its priority increases to High and also heals 10% of user's maximum HP.",
     "effects": []
   },
   {
@@ -2835,6 +2981,7 @@
     "targets": "Single Other Target",
     "description": "Some Temtem like a hot batch, and some like it PIPING hot. This technique inflicts moderate damage.Love me a streamin' bath! Used in combination with a Water ally, Lava Wave seizes for 3 turns and increases priority.",
     "effectText": "Lava Wave deals damage to a single other target.",
+    "synergyText": "If used with a Water ally, its priority increases to High and inflicts the Seized Condition for 3 turns.",
     "effects": []
   },
   {
@@ -2859,6 +3006,7 @@
     "targets": "Single Other Target",
     "description": "Normally Taifu prefer cookies... but if there's nothing else available, they'll inflict 25% damage and heal themselves 25%, without even waking up the target.",
     "effectText": "Leech causes a single other target to lose 25% of their maximum HP and restores 25% of the user's maximum HP. It will not remove the Asleep Condition from afflicted targets.",
+    "synergyText": "If used with a Water ally, its STA Cost decreases to 20 and priority increases to High.",
     "effects": []
   },
   {
@@ -2877,6 +3025,7 @@
     "targets": "Self",
     "description": "The sap of life, from the living heart of the Giant Banyan. Heals 10% HP for 5 turns.",
     "effectText": "Lifeful Sap gifts the user with the Regenerated Condition for 5 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2895,6 +3044,7 @@
     "targets": "Single Target",
     "description": "This Temtem has (metaphorical) eyes on the back of its head. This hyperalert state makes it alerted for 5 turns and removes the Asleep status condition.",
     "effectText": "Look out gifts a single target with the Alerted Condition for 5 turns and cures them of the Asleep Condition. Unlike other techniques, it will set the duration of any previously gifted Alerted Conditions to 5 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2913,6 +3063,7 @@
     "targets": "Other Team or Ally",
     "description": "Twinkle twinkle little Tem / Whole opponent team falls Asleep for 2 turns.",
     "effectText": "Lullaby inflicts the rival team or the user's ally with the Asleep Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2931,6 +3082,7 @@
     "targets": "Self",
     "description": "There is an edge to this madness - those willing to take 30% Damage will get SPDEF and SPATK .",
     "effectText": "Madness Buff causes the user to lose 30% of their maximum HP and then is gifted SPATK and SPDEF .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2949,6 +3101,7 @@
     "targets": "Single Other Target",
     "description": "Like a surge of Anak lava to the face! Fire technique that burns for 3 turns.",
     "effectText": "Magma Cannon deals damage to a single other target and inflicts them with the Burned Condition for 3 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2967,6 +3120,7 @@
     "targets": "Single Other Target",
     "description": "This blow targets the enemy's weak spot for massive damage.",
     "effectText": "Major Slash deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -2985,6 +3139,7 @@
     "targets": "Single Other Target",
     "description": "Many Melee Temtem are trained to perform this basic but effective technique.",
     "effectText": "",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3003,6 +3158,7 @@
     "targets": "Single Target",
     "description": "Feels like being disintegrated into molecules - not nice. This Mental technique inflicts heavy damage.",
     "effectText": "Matter Teleport deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3021,6 +3177,7 @@
     "targets": "Single Other Target",
     "description": "Every moving part generates residual heat - and this is a way to weaponize it and inflict moderate damage.",
     "effectText": "Mechanical Heat deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3039,6 +3196,7 @@
     "targets": "Self",
     "description": "Sync your breathing, become more aware of the space around you, feel your body and mind get Vigorized for 3 turns...",
     "effectText": "Meditation gifts the user with the Invigorated Condition for 3 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3057,6 +3215,7 @@
     "targets": "Single Target",
     "description": "With strong muscles developed by swimming against the current, some Koish can do moderate Melee damage.",
     "effectText": "Melee Stream deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3075,6 +3234,7 @@
     "targets": "Single Other Target",
     "description": "\"Chromeon, show them your wrestling moves!\" This technique inflicts moderate damage.",
     "effectText": "Melee Torrent deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3093,6 +3253,7 @@
     "targets": "Single Target",
     "description": "Related to ancient Cipanku river kami, this Koish has Mental powers that deliver moderate damage.",
     "effectText": "Mental Stream deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3111,6 +3272,7 @@
     "targets": "Single Other Target",
     "description": "\"Chromeon, mess with their heads!\" This technique inflicts moderate damage.",
     "effectText": "Mental Torrent deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3135,6 +3297,7 @@
     "targets": "Single Other Target",
     "description": "This metabolic enhancement reacts to poison in the target's body by purging it and recovers 15% of health.Used in combination with a Nature ally, improved assimilation of nutrients regenerates the Temtem for 2 turns.",
     "effectText": "Metabolize cures a single other target of the Poisoned Condition and restores 15% of the user's maximum HP if the target was cured from the Poisoned Condition.",
+    "synergyText": "If used with a Nature ally, it also gifts the user with the Regenerated Condition for 2 turns.",
     "effects": []
   },
   {
@@ -3164,6 +3327,7 @@
     "targets": "Other Team or Ally",
     "description": "Death from above... A barrage of flaming meteorites that inflicts Fire damage on the whole team.It's raining fire! Inflicts burns on the whole team.",
     "effectText": "Meteor Swarm deals damage to the rival team or the user's ally.",
+    "synergyText": "If used with a Fire ally, its damage increases to 90 and also inflicts the Burned Condition for 2 turns.",
     "effects": []
   },
   {
@@ -3182,6 +3346,7 @@
     "targets": "Other Team or Ally",
     "description": "Imagine a Crystal storm in the darkest depths of Mictlan... Now just watch the enemy team.",
     "effectText": "Mineral Hail deals damage to the rival team or the user's ally.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3200,6 +3365,7 @@
     "targets": "Self",
     "description": "\"Mirror, mirror in my hand, who's the best tamer in the Archipelago?\" \"No idea, but you get SPDEF \".",
     "effectText": "Mirror Shell gifts the user with SPDEF .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3224,6 +3390,7 @@
     "targets": "Self",
     "description": "The monks of Miyako developed this technique to eliminate all altered states on the Temtem.Using this waterfall meditation with a Water ally, you become immune for 3 turns.",
     "effectText": "Misogi cures/removes all Status Conditions gifted/given/inflicted on the user.",
+    "synergyText": "If used with a Water ally, it also gifts the user with the Immune Condition for 3 turns.",
     "effects": []
   },
   {
@@ -3242,6 +3409,7 @@
     "targets": "Single Target",
     "description": "Some of the larger Temtem of the savannah love this Earth technique, as messy as it is fun!",
     "effectText": "Mud Shower deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3260,6 +3428,7 @@
     "targets": "Single Other Target",
     "description": "A rapid-fire flurry of furious beaks.",
     "effectText": "Multiple Pecks deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3284,6 +3453,7 @@
     "targets": "Other Team or Ally",
     "description": "lä, lä! Nagaise is calling some Water friends from the deeps... The whole enemy team will regret this.Used in combination with a Mental ally, Nagaise's Fury inflicts extra damage.",
     "effectText": "Nagaise's Fury deals damage to the rival team or the user's ally.",
+    "synergyText": "If used with a Mental ally, its damage increases to 135.",
     "effects": []
   },
   {
@@ -3302,6 +3472,7 @@
     "targets": "Single Other Target",
     "description": "A potent attack that exhausts the attacker's psyche, making it fall Asleep for 2 turns.",
     "effectText": "Narcoleptic Hit deals damage to a single other target but inflicts the user with the Asleep Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3320,6 +3491,7 @@
     "targets": "Single Target",
     "description": "Koish that live in dense brackish waters can channel the power of Nature to inflict moderate damage.",
     "effectText": "Nature Stream deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3338,6 +3510,7 @@
     "targets": "Single Other Target",
     "description": "\"Chromeon, hit them with the power of Nature!\" This technique inflicts moderate damage.",
     "effectText": "Nature Torrent deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3356,6 +3529,7 @@
     "targets": "Single Target",
     "description": "Cute but still fight-savvy, Koish know how to inflict moderate Neutral damage.",
     "effectText": "Neutral Stream deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3374,6 +3548,7 @@
     "targets": "Single Other Target",
     "description": "\"Chromeon, shower them with torrential power!\" This technique inflicts moderate damage.",
     "effectText": "Neutral Torrent deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3392,6 +3567,7 @@
     "targets": "Single Other Target",
     "description": "Many Temtem have this habit of gently chewing plants and furniture. This is a little less gentle.",
     "effectText": "Nibble deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3410,6 +3586,7 @@
     "targets": "Single Other Target",
     "description": "This basic strike for sai delivers a powerful Melee technique.",
     "effectText": "Nicho Sai deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3428,6 +3605,7 @@
     "targets": "Single Other Target",
     "description": "Nothing creepier than feeding on a sleeping victim... Inflicts 30% damage to a sleeping enemy and heals the user by 30%.",
     "effectText": "Nightmare Feed causes a single target to lose 30% of their maximum HP and the user to restore 30% of their maximum HP if the target is afflicted with the Asleep Condition. It will not cause the target to wake up.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3446,6 +3624,7 @@
     "targets": "Single Other Target",
     "description": "Through rigorous training, Temtem can become extra fast and gain SPD .",
     "effectText": "Nimble gifts a single other target with SPD .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3464,6 +3643,7 @@
     "targets": "Single Other Target",
     "description": "The secret arts of the Cipanku shinobi! This technique lets you backstab enemies in the blink of an eye.",
     "effectText": "Ninja Jutsu deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3482,6 +3662,7 @@
     "targets": "Single Other Target",
     "description": "Derived from Cipanki martial traditions, this technique deals a powerful Melee strike and gives them DEF .",
     "effectText": "Nito Seiho deals damage to a single other target and inflicts them with DEF .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3511,6 +3692,7 @@
     "targets": "Single Other Target",
     "description": "Just one step above a slap, but everybody's got to start somewhere.Used in combination with a Melee ally, it changes the technique type to Melee and becomes a more powerful punch.",
     "effectText": "Novice Punch deals damage to a single other target.",
+    "synergyText": "If used with a Melee ally, it becomes Melee Type and its damage increases to 51.",
     "effects": []
   },
   {
@@ -3529,6 +3711,7 @@
     "targets": "Single Target",
     "description": "This nasty stinker inflicts Toxic damage... Just don't use it in an elevator...",
     "effectText": "Noxious Bomb deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3547,6 +3730,7 @@
     "targets": "Single Other Target",
     "description": "Going for the ring out can be a dangerous Melee move in the smallest islands...",
     "effectText": "Oshi-Dashi deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3565,6 +3749,7 @@
     "targets": "Other Team or Ally",
     "description": "Behold Tyranak's complete mastery over everything that grows and thrives in their realm! Damages the whole enemy team, decreases their Stamina by 20%, and traps them for 2 turns.",
     "effectText": "Outgrowth deals damage to the rival team or the user's ally, causes them to lose 20% of their maximum STA and inflicts them with the Trapped Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3583,6 +3768,7 @@
     "targets": "Self",
     "description": "Unrecommended for longer periods, this technique makes your 'Tems go way faster, bestowing SPD .",
     "effectText": "Overclock gifts the user with SPD .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3607,6 +3793,7 @@
     "targets": "Single Other Target",
     "description": "This strong venom traps and poisons the target for 4 turns.Used in combination with a Toxic ally, the poisoning lasts for 6 turns.",
     "effectText": "Paralyzing Poison inflicts a single other target with the Poisoned Condition for 4 turns and the Trapped Condition for 2 turns.",
+    "synergyText": "If used with a Toxic ally, the Poisoned Condition lasts 6 turns.",
     "effects": []
   },
   {
@@ -3625,6 +3812,7 @@
     "targets": "Single Other Target",
     "description": "All beaked Temtems like to playfully peck their tamers. This is the less friendly version.",
     "effectText": "Peck deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3643,6 +3831,7 @@
     "targets": "Single Other Target",
     "description": "Blood magic requires blood sacrifice - will you pay the price? Loatle can inflict 20% of damage on itself to boost the ATK and SPATK of the target.",
     "effectText": "Penance gifts a single other target with ATK and SPATK but causes the user to lose 20% of their maximum HP.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3661,6 +3850,7 @@
     "targets": "Single Target",
     "description": "Strike smarter, not harder. Weak, but enemy get DEF .",
     "effectText": "Perfect Jab deals damage to a single target and inflicts them with DEF .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3679,6 +3869,7 @@
     "targets": "Single Target",
     "description": "Have a heart... of stone. It doesn't hurt much, but it leaves enemies trapped for 3 turns.",
     "effectText": "Petrify deals damage to a single target and inflicts them with the Trapped Condition for 3 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3697,6 +3888,7 @@
     "targets": "Self",
     "description": "Nature Temtem are unique in their use of Pan-sunlight to nourish themselves and recover 50% STA.",
     "effectText": "Photosynthesis restores 50% of the user's maximum STA.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3715,6 +3907,7 @@
     "targets": "Single Other Target",
     "description": "A dirty trick from the seedier alleys of Lochburg, uses nimble fingers (or claws) to Seize the target for 2 turns.",
     "effectText": "Pickpocket deals damage to a single other target and inflicts them with the Seized Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3733,6 +3926,7 @@
     "targets": "Single Other Target",
     "description": "Zizare's signature technique - a fast attack that terrifies enemies DEF and lifts your spirits, giving you Vigor for 2 turns.",
     "effectText": "Piercing Wheel deals damage to a single other target and inflicts them with DEF while also gifting the user with the Invigorated Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3762,6 +3956,7 @@
     "targets": "Single Target",
     "description": "This Temtem can compress a part of its body to unleash an electric shock - fast and damaging.Oh, and you have an earthing electrode? Used in combination with an Earth ally, Piezoelectric Blow inflicts additional damage and seizes for 2 turns.",
     "effectText": "Piezoelectric Blow deals damage to a single target.",
+    "synergyText": "If used with an Earth ally, its damage increases to 155 and also inflicts the Seized Condition for 2 turns.",
     "effects": []
   },
   {
@@ -3780,6 +3975,7 @@
     "targets": "Single Other Target",
     "description": "A nasty lurgy that damages the target and leaves it Exhausted for 1 turn.",
     "effectText": "Plague deals damage to a single other target and inflicts them with the Exhausted Condition for 1 turn.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3798,6 +3994,7 @@
     "targets": "Single Other Target",
     "description": "A jet of superheated matter, right where it hurts. This technique does slight damage and burns a target for 1 turn.",
     "effectText": "Plasma Beam deals damage to a single other target and inflicts them with the Burned Condition for 1 turn.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3816,6 +4013,7 @@
     "targets": "Other Team or Ally",
     "description": "Noxious fumes, almost unheard-of in the unspoilt Archipelago. They Poison the whole team for 2 turns and also reduces 10% of stamina from the targets.",
     "effectText": "Pollution inflicts the rival team or the user's ally with the Poisoned Condition for 2 turns and causes them to lose 10% of their maximum STA.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3834,6 +4032,7 @@
     "targets": "Single Other Target",
     "description": "An enhanced version of Psy that inflicts so much psychological damage that it bleeds into the somatic.",
     "effectText": "Psy Surge deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3852,6 +4051,7 @@
     "targets": "Single Other Target",
     "description": "\"Mens sana in corpore sano\"... but the other way around.",
     "effectText": "Psy Wave deals damage to a single other target and inflicts SPDEF .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3876,6 +4076,7 @@
     "targets": "Single Other Target",
     "description": "This Mental technique does a meagre 1 damage... It's all in your mind, after all.",
     "effectText": "Psychic Collaborator deals damage to a single other target.",
+    "synergyText": "If used with a Mental ally, its damage increases to 170.",
     "effects": []
   },
   {
@@ -3894,6 +4095,7 @@
     "targets": "Single Target",
     "description": "Never take a shower before checking you're really alone... It dooms the target for 4 turns.",
     "effectText": "Psychosis inflicts a single target with a 4 turn countdown of the Doomed Condition.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3912,6 +4114,7 @@
     "targets": "Single Target",
     "description": "Out with the bad, in with the good! This technique increases ATK and eliminates doomed.",
     "effectText": "Purgation gifts a single target with ATK and cures them of the Doomed Condition.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3941,6 +4144,7 @@
     "targets": "Other Team or Ally",
     "description": "Micro-fine particles designed to inflict macro-damage to a whole team. Make sure you don't inhale them!A denser cloud. Used in combination with an Earth ally, Quartz Dirt traps the targets for 2 turns.",
     "effectText": "Quartz Dirt deals damage to the rival team or the user's ally.",
+    "synergyText": "If used with an Earth ally, its damage increases to 80 and also inflicts the Trapped Condition for 2 turns.",
     "effects": []
   },
   {
@@ -3959,6 +4163,7 @@
     "targets": "Single Target",
     "description": "Temtem found defensive uses for rock crystal centuries before humans did: DEF and SPDEF .",
     "effectText": "Quartz Shield gifts a single target with DEF and SPDEF .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -3983,6 +4188,7 @@
     "targets": "Single Other Target",
     "description": "A party trick someone showed you once, involving a Fire Temtem, a log, and a bottle of Quetzaleño Reposado...",
     "effectText": "Quetza-leño deals damage to a single other target.",
+    "synergyText": "If used with a Neutral ally, its damage increases to 115 and priority increases to High.",
     "effects": []
   },
   {
@@ -4007,6 +4213,7 @@
     "targets": "All",
     "description": "Can we all sink any lower? Every Temtem on the battlefield gets SPD .Used in combination with a Wind ally, only the enemy team gets SPD .",
     "effectText": "Quicksand inflicts all combatants on the battlefield with SPD .",
+    "synergyText": "If used with a Wind ally, it only affects the rival team.",
     "effects": []
   },
   {
@@ -4025,6 +4232,7 @@
     "targets": "Self",
     "description": "The red mist makes a Temtem brutal but also careless, getting ATK and DEF .",
     "effectText": "Rage gifts the user with ATK but also inflicts them with DEF .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4043,6 +4251,7 @@
     "targets": "Self",
     "description": "En garde! This technique makes you immune for 2 turns and makes you evade attacks for 1 turn.",
     "effectText": "Rainbow Guard gifts the user with the Immune Condition for 2 turns and the Evading Condition for 1 turn.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4072,6 +4281,7 @@
     "targets": "Other Team or Ally",
     "description": "Temtem might be cute... but when they go on a Rampage, they inflict damage on the whole team.",
     "effectText": "Rampage deals damage to the rival team or the user's ally.",
+    "synergyText": "If used with a Melee ally, its damage increases to 85 and STA Cost decreases to 28.",
     "effects": []
   },
   {
@@ -4090,6 +4300,7 @@
     "targets": "Self",
     "description": "About time you took a little breather! This technique increases SPATK and heals 6% Health.",
     "effectText": "Refresh gifts the user with SPATK and heals 6% of their maximum HP.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4114,6 +4325,7 @@
     "targets": "Single Other Target",
     "description": "A breath of fresh air to relax and heal you. This quick technique cures all statuses and decreases SPDEF .Used in combination with a Nature ally, Refreshing Breeze increases SPDEF instead of decreasing it.",
     "effectText": "Refreshing Breeze cures/removes all of the user's Status Conditions but inflicts them with SPDEF .",
+    "synergyText": "If used with a Nature ally, it gifts the user with SPDEF instead of inflicting the SPDEF .",
     "effects": []
   },
   {
@@ -4132,6 +4344,7 @@
     "targets": "All",
     "description": "Time for a little siesta! Everyone on the battlefield gets Asleep for 2 turns.",
     "effectText": "Relax inflicts all combatants on the battlefield with the Asleep Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4150,6 +4363,7 @@
     "targets": "Single Other Target",
     "description": "While this technique does only moderate damage, it nullifies the target for 4 turns, buying you some precious time...",
     "effectText": "Rend deals damage to a single other target and gives them the Nullified Condition for 4 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4168,6 +4382,7 @@
     "targets": "Single Target",
     "description": "Sometimes, you just need a reset and a fresh start - it wipes all stages and statuses from the target in the blink of an eye.",
     "effectText": "Reset cures/removes all Status Conditions and Stat Stage Changes gifted/given/inflicted on a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4186,6 +4401,7 @@
     "targets": "Single Target",
     "description": "Like a mosquito in amber, this technique damages an enemy and leaves it trapped for 2 turns.",
     "effectText": "Resin Trap deals damage to a single target and inflicts them with the Trapped Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4210,6 +4426,7 @@
     "targets": "Single Other Target",
     "description": "It's always good to have a backup... This quick technique restores 40% of the target's STA.Used in combination with a Water ally, Resotre also restores 20% STA to the user.",
     "effectText": "Restore restores 40% of a single other target's maximum STA.",
+    "synergyText": "If used with a Water ally, it also restores 20% of the user's maximum STA.",
     "effects": []
   },
   {
@@ -4239,6 +4456,7 @@
     "targets": "Single Target",
     "description": "Antiseptic and a couple of bandages. Target recovers 20% HP.Antibiotics and a proper bandage. Target recovers 20% HP and Temtem 10%.",
     "effectText": "Revitalize restores 20% of a single target's maximum HP.",
+    "synergyText": "If used with a Nature ally, its STA Cost decreases to 15 and also restores 10% of the user's maximum HP.",
     "effects": []
   },
   {
@@ -4257,6 +4475,7 @@
     "targets": "Other Team or Ally",
     "description": "A mighty roar at a crucial moment, to intimidate rivals for ATK and SPATK .",
     "effectText": "Roar inflicts the rival team or the user's ally with ATK and SPATK .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4281,6 +4500,7 @@
     "targets": "Other Team or Ally",
     "description": "Avalanche! The whole enemy team is bombarded with rocky debris for massive damage.Feel the burn! Used in combination with a Fire ally, the enemy team gets burns for 2 turns.",
     "effectText": "Rockfall deals damage to the rival team or the user's ally.",
+    "synergyText": "If used with a Fire ally, it also inflicts the Burned Condition for 2 turns.",
     "effects": []
   },
   {
@@ -4299,6 +4519,7 @@
     "targets": "Single Other Target",
     "description": "Legends tell of the Omninesian tamers who would root rivals in place, inflicting SPD .",
     "effectText": "Roots inflicts a single other target with SPD .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4317,6 +4538,7 @@
     "targets": "Single Other Target",
     "description": "Eww, what's that stink? This gross, sticky mess damages the target and seizes it for 2 turns.",
     "effectText": "Rotten Goo deals damage to a single other target and inflicts them with the Seized Condition for 2 turns.",
+    "synergyText": "If used with an Electric ally, its priority increases to High.",
     "effects": []
   },
   {
@@ -4335,6 +4557,7 @@
     "targets": "Single Other Target",
     "description": "Hard or weak, what really matters is striking first. This superfast technique does exactly 40 damage but overextends the user for the next turn.",
     "effectText": "Rush deals an exact 40 damage to a single other target regardless of DEF, SPDEF, Type Effectivness, or Traits, but causes the user to be overexerted the next turn.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4353,6 +4576,7 @@
     "targets": "Single Other Target",
     "description": "A Temtem may pay the ultimate price to heal the target of all Status conditions and give them DEF and SPDEF .",
     "effectText": "Sacrifice removes/cures a single other target of all Status Conditions and gifts them with DEF and SPDEF , then the user is knocked-out.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4377,6 +4601,7 @@
     "targets": "All",
     "description": "Known as \"the blessing rains of Kisiwa\", this shamanic technique heals 15% of every Temtem on the battlefield..Used in combination with a Wind ally, Sanative Rain heals allied Temtem by 20% but enemies by only 10%.",
     "effectText": "Sanative Rain restores 15% of all combatants on the battlefield's maximum HP.",
+    "synergyText": "If used with a Wind ally, its priority increases to Normal and instead restores 20% of allies maximum HP and restores 10% of rival's maximum HP.",
     "effects": []
   },
   {
@@ -4395,6 +4620,7 @@
     "targets": "Single Other Target",
     "description": "A fistful of humble sand becomes a face full of dirty fighting.",
     "effectText": "Sand Splatter deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4413,6 +4639,7 @@
     "targets": "Other Team or Ally",
     "description": "Developed by the legendary tamer Da-Rud in ancient times, this Earth technique inflicts decent damage on the whole team.",
     "effectText": "Sand Storm deals damage to the rival team or the user's ally.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4431,6 +4658,7 @@
     "targets": "Single Other Target",
     "description": "In classic Temtem wresting showbiz style, this Neutral technique damages and exhausts the target for 2 turns.",
     "effectText": "Savage Suplex deals damage to a single other target and inflicts them with the Exhausted Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4449,6 +4677,7 @@
     "targets": "Single Other Target",
     "description": "Almost any claw or nail can scratch the surface. Sometimes that's enough.",
     "effectText": "Scratch deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4473,6 +4702,7 @@
     "targets": "Other Team or Ally",
     "description": "Seismunch has exactly the balls to deal with the whole enemy team... Earth balls, that is.",
     "effectText": "Seismunch's Wreck deals damage to the rival team or the user's ally.",
+    "synergyText": "If used with a Melee ally, its damage increases to 120 and priority increases to High.",
     "effects": []
   },
   {
@@ -4491,6 +4721,7 @@
     "targets": "Other Team or Ally",
     "description": "Only Oceara can tap into the mythical power of the serbatiyo to give itself SPATK and unleash a devastating Water attack on the whole enemy team.",
     "effectText": "Serbatiyo's Wrath deals damage to the rival team or the user's ally and gifts the user with SPATK .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4509,6 +4740,7 @@
     "targets": "Single Other Target",
     "description": "Evolution has armed Nature Temtem with advanced defenses against herbivores.",
     "effectText": "Sharp Leaf deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4527,6 +4759,7 @@
     "targets": "Single Target",
     "description": "Rather like snow, if snow was razor-sharp ice needles instead of gentle flakes.",
     "effectText": "Sharp Rain deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4545,6 +4778,7 @@
     "targets": "Single Other Target",
     "description": "Like winter in the Kilima peaks, this blizzard of sharp shards is as fast as piercing.",
     "effectText": "Sharp Stabs deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4563,6 +4797,7 @@
     "targets": "Self",
     "description": "Sharpen those claws, it's time to tear through the opposition! This technique bestows increased ATK and SPD .",
     "effectText": "Sharpening gifts the user with SPD and ATK .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4581,6 +4816,7 @@
     "targets": "Self",
     "description": "Take cover! This slow technique gives DEF and SPDEF at the expense of leaving you Overexerted on the next turn.",
     "effectText": "Shelter gifts the user with DEF and SPDEF but causes the user to be overexerted the next turn.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4605,6 +4841,7 @@
     "targets": "Self",
     "description": "A good Melee fighter is a always a good showman: ATK .Used in combination with a Melee ally, it also bestows Vigor for 3 turns.",
     "effectText": "Show Off gifts the user with ATK .",
+    "synergyText": "If used with a Melee ally, it also gifts the Invigorated Condition for 3 turns.",
     "effects": []
   },
   {
@@ -4623,6 +4860,7 @@
     "targets": "Other Team or Ally",
     "description": "Widely used by Accademia teachers, this Neutral attack deafens the whole class... eh, team.",
     "effectText": "Shrill Voice deals damage to the rival team or the user's ally.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4641,6 +4879,7 @@
     "targets": "Self",
     "description": "Some Temtem are naturally introverted and keep to themselves, obtaining DEF .",
     "effectText": "Shy Shield gifts the user with DEF .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4659,6 +4898,7 @@
     "targets": "Single Other Target",
     "description": "Nothing slows you down like being swamped in sticky goo... Traps for 2 turns and gives SPD .",
     "effectText": "Slime inflicts a single other target with SPD and the Trapped Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4683,6 +4923,7 @@
     "targets": "Single Target",
     "description": "Time to chill and take it slow... The target gets SPD Used in combination with a Mental ally, Slow Down also causes the target to fall asleep for 2 turns.",
     "effectText": "Slow Down inflicts a single target with SPD .",
+    "synergyText": "If used with a Mental ally, it also inflicts the Asleep Condition for 2 turns.",
     "effects": []
   },
   {
@@ -4701,6 +4942,7 @@
     "targets": "Single Other Target",
     "description": "An extremely weak Earth technique... but you don't look a sludge gift in the rock, right?",
     "effectText": "Sludge Gift deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4719,6 +4961,7 @@
     "targets": "Single Other Target",
     "description": "Ah, the crazy Fire of passion! The target gets just a little scorched, but the kisser is invigorated for 2 turns.",
     "effectText": "Smoldering Kiss deals damage to a single other target and gifts the user with the Invigorated Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4737,6 +4980,7 @@
     "targets": "Single Other Target",
     "description": "Feels just like walking barefoot through the Tasa Desert at noon! It inflicts massive damage on the enemy!",
     "effectText": "Soil Steam inflicts damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4755,6 +4999,7 @@
     "targets": "Single Other Target",
     "description": "A mighty scream, powered by the Temtem's very soul, inflicting considerable damage on an enemy.",
     "effectText": "Soul Shout deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4779,6 +5024,7 @@
     "targets": "Single Other Target",
     "description": "All flash and no bang - this sparkly Electric technique does little damage.",
     "effectText": "Sparkling Bullet deals damage to a single other target.",
+    "synergyText": "If used with a Neutral ally, its damage increases to 105.",
     "effects": []
   },
   {
@@ -4797,6 +5043,7 @@
     "targets": "Single Target",
     "description": "Nothing perks you up like a spark-up! SPATK .",
     "effectText": "Sparks gifts a single target with SPATK .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4815,6 +5062,7 @@
     "targets": "Single Other Target",
     "description": "One of the most basic Nature attacks, based on allergenic spores.",
     "effectText": "Spores deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4844,6 +5092,7 @@
     "targets": "Other Team or Ally",
     "description": "A stampede worth of the Kisiwan savanna. Damages the whole team.Used in combination with an Earth ally, inflicts extra damage and seizes for 3 turns.",
     "effectText": "Stampede deals damage to the rival team or the user's ally.",
+    "synergyText": "If used with an Earth ally, its damage increases to 125 and also inflicts the Seized Condition for 3 turns.",
     "effects": []
   },
   {
@@ -4862,6 +5111,7 @@
     "targets": "Single Other Target",
     "description": "This intimidating stare gives the Temtem Alert for 2 turns, and makes rivals feel more vulnerable: DEF .",
     "effectText": "Stare inflicts a single other target with DEF and gifts the user with the Alerted Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4880,6 +5130,7 @@
     "targets": "Single Other Target",
     "description": "A tiny prick only hurts a little... until they notice they're Poisoned for 2 turns.",
     "effectText": "Sting deals damage to a single other target and inflicts them with the Poisoned Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4904,6 +5155,7 @@
     "targets": "Single Target",
     "description": "The bane of exploring archaeologists, this is a mighty Earth technique.Used in combination with a Fire ally, that flaming ball Burns for 2 turns.",
     "effectText": "Stone Ball deals damage to a single target.",
+    "synergyText": "If used with a Fire ally, it also inflicts the Burned Condition for 2 turns.",
     "effects": []
   },
   {
@@ -4922,6 +5174,7 @@
     "targets": "Other Team or Ally",
     "description": "Get to cover! This technique inflicts medium damage on the target team and you get evading for 2 turns.",
     "effectText": "Stone Trench deals damage to the rival team or the user's ally and gifts the user with the Evading Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4940,6 +5193,7 @@
     "targets": "Single Target",
     "description": "The best way to stonewall a Temtem, giving DEF and SPDEF .",
     "effectText": "Stone Wall gifts a single target with DEF and SPDEF .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4958,6 +5212,7 @@
     "targets": "Single Other Target",
     "description": "Strangler and strangled, united in a deadly embrace. Both attacker and target get overextended next turn.",
     "effectText": "Strangle deals damage to a single other target but causes both the user and the target to be overexerted the next turn.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -4982,6 +5237,7 @@
     "targets": "Other Team or Ally",
     "description": "Every little sting stings and each of them sucks a little blood... It steals 10% health from the enemy team and leaves them exhausted for 1 turn.Used in combination with an Earth ally, Swarm Aid is faster and steals 15% of health.",
     "effectText": "Swarm Aid causes the rival team or the user's ally to lose 10% of their maximum HP, inflicts them with the Exhausted Condition for 1 turn and restores 10% of the user's maximum HP.",
+    "synergyText": "If used with an Earth ally, its priority increases to Very High and instead causes the rival team or the user's ally to lose 15% of their maximum HP and restores 15% of the user's maximum HP.",
     "effects": []
   },
   {
@@ -5000,6 +5256,7 @@
     "targets": "Single Other Target",
     "description": "Sweep the board at one fell swoop.",
     "effectText": "Tail Strike deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5018,6 +5275,7 @@
     "targets": "Single Other Target",
     "description": "Reportedly feels \"like combing your brain with concertina wire.\"",
     "effectText": "Telekinetic Shrapnel deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5036,6 +5294,7 @@
     "targets": "Single Other Target",
     "description": "Really? Are you going to attack something *this* cute? Inflicts ATK .",
     "effectText": "Tenderness inflicts a single other target with ATK .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5054,6 +5313,7 @@
     "targets": "Single Other Target",
     "description": "Tentacles. Why did it have to be tentacles?",
     "effectText": "Tentacle Whip deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5072,6 +5332,7 @@
     "targets": "Single Other Target",
     "description": "An electromagnetic trap that does light damage and slows down the target: SPD .",
     "effectText": "Tesla Prison deals damage to a single other target and inflicts them with SPD .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5090,6 +5351,7 @@
     "targets": "Single Target",
     "description": "Hear it roar! The sound and fury of this technique inflict heavy damage but Exhaust the attacker for 2 turns.",
     "effectText": "Thunder Strike deals damage to a single target but inflicts the user with the Exhausted Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5108,6 +5370,7 @@
     "targets": "Single Other Target",
     "description": "Twist the fabric of time-space to your advantage, gaining SPD and giving the enemy SPD .",
     "effectText": "Time Split deals damage to a single other target then gifts the user with SPD and inflicts the target with SPD .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5126,6 +5389,7 @@
     "targets": "Single Other Target",
     "description": "Launch token attacks, get token results. This technique does little damage.",
     "effectText": "Token deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5144,6 +5408,7 @@
     "targets": "Single Target",
     "description": "A powerful wind technique, illegal to use near all airship terminals of the Archipelago.",
     "effectText": "Tornado deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5168,6 +5433,7 @@
     "targets": "Single Other Target",
     "description": "Lil' Tort just wanted to play in its garden... but it won't suffer intruders! You heal 10% while the target is Doomed for 4 turns.Used in combination with a Crystal ally, Tortenite's Garden heals 20% and inflicts Doomed for 3 turns instead of 4.",
     "effectText": "Tortenite's Garden inflicts a single other target with a 4 turn countdown of the Doomed Condition and restores 10% of the user's maximum HP.",
+    "synergyText": "If used with a Crystal ally, the Doomed Condition has a 3 turn countdown and restores 20% of the user's maximum HP.",
     "effects": []
   },
   {
@@ -5186,6 +5452,7 @@
     "targets": "Self",
     "description": "When the going gets tough, the tough get going - and DEF !",
     "effectText": "Toughen gifts the user with DEF .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5204,6 +5471,7 @@
     "targets": "Single Other Target",
     "description": "A quick nibble that doesn't look like much... until you notice the Poison for 1 turn.",
     "effectText": "Toxic Fang deals damage to a single other target and inflicts them with the Poisoned Condition for 1 turn.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5222,6 +5490,7 @@
     "targets": "Other Team or Ally",
     "description": "Hold your nose when you unleash this Toxic attack on the whole team.",
     "effectText": "Toxic Gas deals damage to the rival team or the user's ally.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5240,6 +5509,7 @@
     "targets": "Single Other Target",
     "description": "The victim will have time to regret getting this tattoo... While it's Poisoned for 2 turns.",
     "effectText": "Toxic Ink deals damage to a single other target and inflicts them with the Poisoned Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5269,6 +5539,7 @@
     "targets": "Other Team or Ally",
     "description": "Like a faulty airship engine, this Temtem can leave a trail of toxic gas that gives Poison to the whole team for 1 turn.Used in combination with a Crystal ally, Toxic Plume saves you STA and the target gets ATK .",
     "effectText": "Toxic Plume deals damage to the rival team or the user's ally and inflicts them with the Poisoned Condition for 1 turn.",
+    "synergyText": "If used with a Crystal ally, its STA Cost decreases to 16 and also inflicts ATK .",
     "effects": []
   },
   {
@@ -5287,6 +5558,7 @@
     "targets": "Single Target",
     "description": "This takes the form of a repulsive wave of slime that hurts the body... and your self-esteem.",
     "effectText": "Toxic Slime deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5305,6 +5577,7 @@
     "targets": "Single Other Target",
     "description": "Toxin-carrying spores that inoculate with Poisoned for 3 turns.",
     "effectText": "Toxic Spores inflicts a single other target with the Poisoned Condition for 3 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5323,6 +5596,7 @@
     "targets": "Single Target",
     "description": "Condensing waterborne toxins, Koish can use a stream of Toxic fluid that inflicts moderate damage.",
     "effectText": "Toxic Stream deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5341,6 +5615,7 @@
     "targets": "Single Other Target",
     "description": "\"Chromeon, show me your Toxic side!\" This technique inflicts moderate damage.",
     "effectText": "Toxic Torrent deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5359,6 +5634,7 @@
     "targets": "All Other Temtem",
     "description": "Soak everyone in nasty toxins - but don't splash yourself! Inflicts moderate damage on everyone but you, and lets you evade for 2 turns.",
     "effectText": "Toxin Shower deals damage to all other combatants on the battlefield and gifts the user with the Evading Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5388,6 +5664,7 @@
     "targets": "Other Team or Ally",
     "description": "Summon a rarely seen tidal wave that damages a whole team.Uses in combination with a Wind ally, damage boost and Cold for 3 Turns.",
     "effectText": "Tsunami deals damage to the rival team or the user's ally.",
+    "synergyText": "If used with a Wind ally, its damage increases to 80 and also inflicts the Cold Condition for 3 turns.",
     "effects": []
   },
   {
@@ -5406,6 +5683,7 @@
     "targets": "Single Other Target",
     "description": "Swift as the wind and as harsh and razor sharp as a wintery gale. This technique is fast and inflicts decent damage.",
     "effectText": "Turbine deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5424,6 +5702,7 @@
     "targets": "Single Target",
     "description": "Time to supercharge your attack - like nitro, but for Temtem!",
     "effectText": "Turbo Attack deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5442,6 +5721,7 @@
     "targets": "Single Team",
     "description": "Turn it to eleven! Decreases the Hold level of our whole team.",
     "effectText": "Turbo Charge decreases the Hold of all the techniques of a single team by 1.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5466,6 +5746,7 @@
     "targets": "Single Team",
     "description": "The ancestral dance of Deniz is a powerful ritual that bestows protection, SPD to the whole team.Wind allies boost the effect of Turbo Choreography to the whole team SPD .",
     "effectText": "Turbo Choreography gifts a single team with SPD .",
+    "synergyText": "If used with a Wind ally, it instead gifts SPD .",
     "effects": []
   },
   {
@@ -5484,6 +5765,7 @@
     "targets": "Other Team or Ally",
     "description": "If you can hear it, you've already been hit. This hyper-fast technique exhausts the whole target team for 1 turn.",
     "effectText": "Ultrasound inflicts the rival team or the user's ally with the Exhausted Condition for 1 turn.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5502,6 +5784,7 @@
     "targets": "Single Other Target",
     "description": "Leave your opponent heavily damaged and treading on very thin ice, giving it SPATK .",
     "effectText": "Undermine deals damage to a single other target and inflicts them with SPATK .",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5520,6 +5803,7 @@
     "targets": "Single Other Target",
     "description": "Nothing hurts like the blow you didn't see coming! This technique inflicts heavy damage.",
     "effectText": "Unseen Blow deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5538,6 +5822,7 @@
     "targets": "Single Target",
     "description": "With a few swift movement, this techniques Untraps the target from any tangle. If trapped is removed successfully, the target gets DEF and SPDEF .",
     "effectText": "Untangle cures a single target of the Trapped Condition and gifts them with DEF and SPDEF if they were cured from the Trapped Condition.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5556,6 +5841,7 @@
     "targets": "Single Other Target",
     "description": "Melee Temtem are all about raw strength. This technique is its sincerest expression.",
     "effectText": "Uppercut deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5580,6 +5866,7 @@
     "targets": "Single Other Target",
     "description": "The substance known as Urushiol is a virulent toxic agent.Urushiol's synergy with a Toxic ally Poisons the enemy for 4 turns.",
     "effectText": "",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5598,6 +5885,7 @@
     "targets": "Single Target",
     "description": "This technique only works on already poisoned enemies - but in that case, the toxin rush inflicts 150 damage.",
     "effectText": "Venom Spread deals damage to a single target if they're afflicted with the Poisoned Condition.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5616,6 +5904,7 @@
     "targets": "Single Other Target",
     "description": "When the look of your claws doesn't prevent the fight, the poison finishes it.",
     "effectText": "Venomous Claws deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5640,6 +5929,7 @@
     "targets": "Single Target",
     "description": "Don't you know that you're toxic? This technique does moderate damage.Can you feel me now? Used in combination with a Water ally, Virulent Gust inflcits damage on the whole enemy team.",
     "effectText": "Virulent Gust deals damage to a single target.",
+    "synergyText": "If used with a Water ally, its targeting changes to Other Team or Ally. As such, if the user targets themselves and the synergy activates, only the user's ally will be damaged.",
     "effects": []
   },
   {
@@ -5658,6 +5948,7 @@
     "targets": "Single Other Target",
     "description": "Sometimes a little shock is all you need to gain an edge. This fast technique inflicts slight damage but seizes the target for 1 turn.",
     "effectText": "Voltopuncture deals damage to a single other target and inflicts them with the Seized Condition for 1 turn.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5676,6 +5967,7 @@
     "targets": "Single Target",
     "description": "Wake up and smell the coffee! Inflicts minimal damage but wakes up the target instantly.",
     "effectText": "Wake Up deals damage to a single target.",
+    "synergyText": "Due to the low damage and high priority, its most encouraged use is to damage allies with the Asleep Condition in order to wake them.",
     "effects": []
   },
   {
@@ -5694,6 +5986,7 @@
     "targets": "Single Other Target",
     "description": "Some Temtem are so warm and cuddly that they can weaponize that love as a Fire technique.",
     "effectText": "Warm Cuddle deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5712,6 +6005,7 @@
     "targets": "Single Target",
     "description": "Like raw sewage raining on you, without the \"like\". It inflicts moderate Toxic damage and poisons for 1 turn.",
     "effectText": "Wastewater deals damage to a single target and inflicts them with the Poisoned Condition for 1 turn.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5730,6 +6024,7 @@
     "targets": "Single Other Target",
     "description": "Whipping seawater, like the stormy Sillaro whipping the rocks.",
     "effectText": "Water Blade deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5759,6 +6054,7 @@
     "targets": "Single Other Target",
     "description": "The strongest Sillaro current has nothing on this unstoppable jet.Used in combination with a Toxic ally, it produces a stream of Poison for 2 turns.",
     "effectText": "Water Cannon deals damage to a single other target.",
+    "synergyText": "If used with a Toxic ally, it also inflicts the Poisoned Condition for 2 turns.",
     "effects": []
   },
   {
@@ -5783,6 +6079,7 @@
     "targets": "Single Target",
     "description": "As pretty than Denizan Water lilies... but much deadlier.",
     "effectText": "Water Cutting Lily deals damage to a single target.",
+    "synergyText": "If used with a Water ally, its damage increases to 134 and priority increases to High.",
     "effects": []
   },
   {
@@ -5801,6 +6098,7 @@
     "targets": "Single Target",
     "description": "Like many Water Temtem, Koish can use jets of water to inflict moderate damage.",
     "effectText": "Water Stream deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5819,6 +6117,7 @@
     "targets": "Single Other Target",
     "description": "\"Chromeon, it's time to hose 'em down!\" This technique inflicts moderate damage.",
     "effectText": "Water Torrent deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5837,6 +6136,7 @@
     "targets": "Single Other Target",
     "description": "About time your enemies took a shower! This pressurized jet inflicts considerable damage and leaves the target Cold for 2 turns.",
     "effectText": "Waterjet deals damage to a single other target and inflicts them with the Cold Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5855,6 +6155,7 @@
     "targets": "Single Other Target",
     "description": "Sapping the very will to fight from an enemy's mind, this quick Neutral technique steals 23 Stamina points.",
     "effectText": "Willpower Drain drains 23 STA from a single other target and restores 23 STA to the user. The user will still overexert if they don't have enough STA to use Willpower Drain. If the target has less than 23 STA, the user will only restore the amount that was drained.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5873,6 +6174,7 @@
     "targets": "Single Other Target",
     "description": "Lashing gales, like the frozen tramontane wind howling over the Loch.",
     "effectText": "Wind Blade deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5891,6 +6193,7 @@
     "targets": "Single Target",
     "description": "A terrifying gust of wind, capable of throwing a small airship off course.",
     "effectText": "Wind Burst deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5909,6 +6212,7 @@
     "targets": "Single Target",
     "description": "This Koish variety, probably from Deniz, can inflict moderate Wind damage.",
     "effectText": "Wind Stream deals damage to a single target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5927,6 +6231,7 @@
     "targets": "Single Other Target",
     "description": "\"Chromeon, make sure they are well ventilated!\" This technique inflicts moderate damage.",
     "effectText": "Wind Torrent deals damage to a single other target.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5945,6 +6250,7 @@
     "targets": "All",
     "description": "A wintry sonata that leaves all Temtem in the battlefield as Cold as the Kilima snows.",
     "effectText": "Winter Call inflicts all combatants on the battlefield with the Cold Condition for 2 turns.",
+    "synergyText": "",
     "effects": []
   },
   {
@@ -5974,6 +6280,7 @@
     "targets": "Single Other Target",
     "description": "The masseurs of Onsenshima don't usually want to hurt you. This technique is the exception - slow, moderate-damage technique.Now, this really pummels your deep tissues. Used in combination with a Electric ally, damage is increased and the enemy is exhausted for 2 turns.",
     "effectText": "Wrenching Massage deals damage to a single other target.",
+    "synergyText": "If used with an Electric ally, its damage increases to 116 and also inflicts the Exhausted Condition for 2 turns.",
     "effects": []
   },
   {
@@ -5992,6 +6299,7 @@
     "targets": "Self",
     "description": "Focus on your breathing. Remember, no effort, no resistance... The technique consumes 0 Stamina and boosts your ATK and SPATK .",
     "effectText": "Zen Meditation gifts the user with ATK and SPATK .",
+    "synergyText": "",
     "effects": []
   }
 ]
