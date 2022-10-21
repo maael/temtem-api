@@ -45,6 +45,7 @@ export const Codec = t.type({
       turns: t.number,
     })
   ),
+  synergyText: t.string,
 });
 
 export const TechniqueList = t.array(Codec);
