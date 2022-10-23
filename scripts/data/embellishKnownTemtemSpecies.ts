@@ -451,7 +451,7 @@ function getTechniques(html: string) {
   );
   const eggTechniques = getTechniquesFromTable(
     $,
-    $("#By_Breeding").parent().next().get(0),
+    $("#By_breeding").parent().next().get(0),
     TechniqueSource.BREEDING
   );
 
