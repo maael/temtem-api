@@ -165,7 +165,10 @@ function getSynergyText($: cheerio.Root) {
   const effectTextHeader = $("#Effect");
   if (!effectTextHeader.length) return "";
   const synergyText = $(effectTextHeader).parent().next().next();
-  if (!synergyText.length || (synergyText[0] as cheerio.TagElement).name !== "p")
+  if (
+    !synergyText.length ||
+    (synergyText[0] as cheerio.TagElement).name !== "p"
+  )
     return "";
   return $(synergyText).text();
 }
