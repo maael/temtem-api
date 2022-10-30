@@ -32,7 +32,7 @@ export default async function getTraits(
 }
 
 function getDescription($: cheerio.Root) {
-  return getText($, "#In-Game_Description", "#Description");
+  return toText($(".infobox-table tr .infobox-centered i").html());
 }
 
 function getEffect($: cheerio.Root) {
@@ -50,5 +50,37 @@ function getText(
   const element = $(primarySelector).length
     ? $(primarySelector)
     : $(secondarySelector);
-  return element.parent().next().text().trim().replace(/\\n/g, "");
+
+  return toText(element.parent().next().html());
+}
+
+function toText(html: string | null) {
+  if (html) {
+    while (html.search("<a") >= 0) {
+      const posStart = html.search("<a");
+      const posEnd = html.search("</a>") + 4;
+      let link = html.substring(posStart, posEnd);
+      if (link.search("<img") >= 0) {
+        let title = link.substring(
+          link.search('title="') + 7,
+          link.search('">')
+        );
+        if (title.search("\\+") >= 0 || title.search("\\-") >= 0) {
+          html = html.replace(link, " " + title);
+        } else {
+          html = html.replace(link, "");
+        }
+      } else {
+        let content = link.substring(
+          link.search('">') + 2,
+          link.search("</a>")
+        );
+        html = html.replace(link, content);
+      }
+    }
+    html = html.replace("&lt;", "<");
+    html = html.replace("&gt;", ">");
+    return html.trim().replace(/\\n/g, "");
+  }
+  return "";
 }
