@@ -32,7 +32,7 @@ export default async function getTraits(
 }
 
 function getDescription($: cheerio.Root) {
-  return getText($, "#In-Game_Description", "#Description");
+  return $(".infobox-table").first().find("i").first().text();
 }
 
 function getEffect($: cheerio.Root) {
