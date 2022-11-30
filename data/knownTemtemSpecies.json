@@ -37398,72 +37398,7 @@
       "Monkko has an emote on the official Temtem Discord."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 159,
-          "name": "Thaiko",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Zen",
-            "Mental Alliance"
-          ],
-          "traitMapping": {
-            "Zen": "Meditation",
-            "Mental Alliance": "Shaolin"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 160,
-          "name": "Monkko",
-          "level": 20,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Meditation",
-            "Shaolin"
-          ],
-          "traitMapping": {
-            "Meditation": "Meditation",
-            "Shaolin": "Shaolin"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 159,
-        "name": "Thaiko",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Zen",
-          "Mental Alliance"
-        ],
-        "traitMapping": {
-          "Zen": "Meditation",
-          "Mental Alliance": "Shaolin"
-        }
-      },
-      "to": null,
-      "number": 160,
-      "name": "Monkko",
-      "level": 20,
-      "trading": false,
-      "traits": [
-        "Meditation",
-        "Shaolin"
-      ],
-      "traitMapping": {
-        "Meditation": "Meditation",
-        "Shaolin": "Shaolin"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
