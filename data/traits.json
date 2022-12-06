@@ -80,8 +80,8 @@
   {
     "name": "Body Stretch",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Body_Stretch",
-    "description": "When resting, gets regenerating for 2 turns.",
-    "effect": "Body Stretch gifts the holder with the Regenerated Condition for 2 turns whenever they Rest."
+    "description": "When resting, restores 10% of max HP and gets regenerating for 1 turn.",
+    "effect": "Body Stretch restores 10% of the holder's maximum HP and gifts the holder with the Regenerated condition for 1 turn whenever they Rest."
   },
   {
     "name": "Book Lungs",
@@ -182,8 +182,8 @@
   {
     "name": "Comebacker",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Comebacker",
-    "description": "When damaged by a technique, damage done to the attacker is increased by 35% during the same turn.",
-    "effect": "Comebacker increases the damage of the holder's Techniques by 35% after taking damage from a technique but only when attacking the combatant that did damage to the holder."
+    "description": "When damaged by a technique, damage done to the attacker is increased by 32% during the same turn.",
+    "effect": "Comebacker increases the damage of the holder's Techniques by 32% after taking damage from a technique but only when attacking the combatant that did damage to the holder."
   },
   {
     "name": "Common Factor",
@@ -212,14 +212,14 @@
   {
     "name": "Contemplation",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Contemplation",
-    "description": "When resting, gets ATK .",
-    "effect": "Contemplation gifts the holder with the ATK whenever they Rest."
+    "description": "Once per battle, when resting, gets ATK and SPD .",
+    "effect": "Contemplation gifts the holder with the ATK and SPD when they Rest, once per battle."
   },
   {
     "name": "Coward's Rest",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Coward%27s_Rest",
-    "description": "When resting, gets evading for 2 turns.",
-    "effect": "Coward's Rest gifts the holder with the Evading Condition for 2 turns whenever they rest."
+    "description": "When resting, gets evading and invigorated for 2 turns.",
+    "effect": "Coward's Rest gifts the holder with the Evading and Invigorated conditions for 2 turns whenever they rest."
   },
   {
     "name": "Deceit Aura",
@@ -926,8 +926,8 @@
   {
     "name": "Tardy Rush",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tardy_Rush",
-    "description": "Increases SPD by 100% and ATK by 10% after 3 consecutive turns on the battlefield.",
-    "effect": "Tardy Rush increases the holder's SPD by 100% and ATK by 10% after being on the battlefield for 3 turns in a row and lasts until the holder leaves the battlefield. If the holder is swapped in, the turn they enter the battlefield counts as turn 1."
+    "description": "Increases SPD by 85% and ATK by 10% after 3 consecutive turns on the battlefield.",
+    "effect": "Tardy Rush increases the holder's SPD by 85% and ATK by 10% after being on the battlefield for 3 turns in a row and lasts until the holder leaves the battlefield. If the holder is swapped in, the turn they enter the battlefield counts as turn 1."
   },
   {
     "name": "Target Replicator",
