@@ -1555,7 +1555,7 @@
     "targets": "Single Other Target",
     "description": "Myrisles engineers hate this odd trick! Make the Earth shake and deal massive damage to the target.Used in combination with a Electric ally, it changes the technique type to Electric and the target is Seized for 2 turns.",
     "effectText": "Earthbreaker deals damage to a single other target.",
-    "synergyText": "If used with an Electric ally, it becomes Electric Type, damage increases to 150 and also inflicts the Seized Condition for 2 turns.",
+    "synergyText": "If used with an Electric ally, it becomes Electric Type, damage increases to 175 and also inflicts the Seized Condition for 2 turns.",
     "effects": []
   },
   {
@@ -3730,7 +3730,7 @@
     "type": "Melee",
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 150,
+    "damage": 142,
     "staminaCost": 33,
     "hold": 1,
     "priority": "normal",
@@ -5039,7 +5039,7 @@
     "targets": "Single Other Target",
     "description": "All flash and no bang - this sparkly Electric technique does little damage.",
     "effectText": "Sparkling Bullet deals damage to a single other target.",
-    "synergyText": "If used with a Neutral ally, its damage increases to 105.",
+    "synergyText": "If used with a Neutral ally, its damage increases to 98.",
     "effects": []
   },
   {
