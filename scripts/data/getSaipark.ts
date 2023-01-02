@@ -1,16 +1,11 @@
 import got from "got";
 import cheerio from "cheerio";
 import sub from "date-fns/sub";
-import add from "date-fns/add";
 import format from "date-fns/format";
-import startOfWeek from "date-fns/startOfWeek";
+import parse from "date-fns/parse";
+import isMatch from "date-fns/isMatch";
 import endOfWeek from "date-fns/endOfWeek";
 import { typedToArray } from "../util/cheerioHelpers";
-
-const week_8_2020_start = "2020-02-17";
-const week_1_2020_start = startOfWeek(
-  sub(new Date(week_8_2020_start), { weeks: 8 })
-);
 
 interface Item {
   temtem: string;
@@ -35,10 +30,84 @@ function formatItem(item: Item) {
   };
 }
 
+function parseDate(dateString: string, referenceDate: Date) {
+  const possibleFormats = [
+    "d",
+    "d MMM",
+    "d MMMM",
+    "d MMM y",
+    "d MMMM y",
+    "MMM d",
+    "MMMM d",
+    "MMM d y",
+    "MMMM d y",
+  ];
+
+  // Special Case: Sometimes the month is written with 4 letters instead of 3 (e.g. "Sept" instead of "Sep")
+  // In that case just try to remove the last letter
+  const parts = dateString.split(" ");
+  if (parts.length >= 1 && parts[0].length === 4) {
+    parts[0] = parts[0].substring(0, 3);
+  } else if (parts.length >= 2 && parts[1].length == 4) {
+    parts[1] = parts[1].substring(0, 3);
+  }
+  const updatedDateString = parts.join(" ");
+
+  for (let i = 0; i < possibleFormats.length; i++) {
+    if (isMatch(updatedDateString, possibleFormats[i])) {
+      return parse(updatedDateString, possibleFormats[i], referenceDate);
+    }
+  }
+  return referenceDate;
+}
+
+/*
+ * Existing possibilities of values for parameter "week":
+ *   "2020 Week 50"
+ *   "8-14 March 2021"
+ *   "23 - 29 Aug 2021"
+ *   "Mar 29 - Apr 4 2021"
+ *   "31 May - 6 June 2021"
+ *   "27 Dec 2021 - 2 Jan 2022"
+ *   "30 Aug - 5 Sept 2021"
+ *   "26 Dec - 1 Jan 2023"
+ */
+function parseAvailability(week: string) {
+  const weekLowercase = week.toLowerCase();
+  if (weekLowercase.includes("week")) {
+    const weekParts = weekLowercase
+      .split("week")
+      .map((i) => parseInt(i.trim(), 10));
+    const year = weekParts[0];
+    const weeks = weekParts[1];
+    const startOfYear = new Date(year, 0);
+    const startDate = parse(weeks.toString(), "I", startOfYear);
+    const endDate = endOfWeek(startDate, { weekStartsOn: 1 });
+    return {
+      startDate,
+      endDate,
+    };
+  } else {
+    const parts = weekLowercase.split("-").map((i) => i.trim());
+    const endStr = parts[1];
+    const startStr = parts[0];
+    const endDate = parseDate(endStr, new Date());
+    let startDate = parseDate(startStr, endDate);
+    if (startDate > endDate) {
+      // Probably no year specified on start date (e.g. "26 Dec - 1 Jan 2023")
+      startDate = sub(startDate, { years: 1 });
+    }
+    return {
+      startDate,
+      endDate,
+    };
+  }
+}
+
 export default async function getSaipark() {
   const result = await got("https://temtem.wiki.gg/wiki/Saipark");
   const $ = cheerio.load(result.body);
-  const $previousTable = $("#Featured_Temtem_History").parent().next().next();
+  const $previousTable = $("#Featured_Temtem_history").parent().next().next();
   const rows = typedToArray<Item>(
     $($previousTable)
       .find("tbody > tr")
@@ -69,13 +138,7 @@ export default async function getSaipark() {
     return { ...acc, [i.week]: (acc[i.week] || []).concat(i) };
   }, {});
   const formatted = Object.entries(byWeek).reduce<any>((acc, [_, items]) => {
-    const weekParts = items[0].week
-      .toLowerCase()
-      .split("week")
-      .map((i) => parseInt(i.trim(), 10));
-    const weeks = weekParts[1];
-    const startDate = add(week_1_2020_start, { weeks, days: 1 });
-    const endDate = add(endOfWeek(startDate), { days: 1 });
+    const { startDate, endDate } = parseAvailability(items[0].week);
     const dateRangeStartFormat =
       startDate.getFullYear() === endDate.getFullYear()
         ? "MMM do"
