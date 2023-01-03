@@ -1,17 +1,2320 @@
 [
   {
-    "dateRange": "Apr 20th to Apr 26th 2020",
-    "startDateFormatted": "20/04/2020",
-    "endDateFormatted": "26/04/2020",
-    "startDate": "2020-04-20T00:00:00.000Z",
-    "endDate": "2020-04-26T23:59:59.999Z",
+    "dateRange": "Jan 2nd to Jan 8th 2023",
+    "startDateFormatted": "02/01/2023",
+    "endDateFormatted": "08/01/2023",
+    "startDate": "2023-01-02T00:00:00.000Z",
+    "endDate": "2023-01-08T00:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Halzhi",
+        "areas": ["Fields"],
+        "ratePercent": 75,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 13
+      },
+      {
+        "temtem": "Gorong",
+        "areas": ["Hills"],
+        "ratePercent": 100,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 20
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Dec 26th 2022 to Jan 1st 2023",
+    "startDateFormatted": "26/12/2022",
+    "endDateFormatted": "01/01/2023",
+    "startDate": "2022-12-26T00:00:00.000Z",
+    "endDate": "2023-01-01T00:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Lapinite",
+        "areas": ["Caves"],
+        "ratePercent": 90,
+        "lumaRate": 1,
+        "minSvs": 35,
+        "eggTechPercent": 9
+      },
+      {
+        "temtem": "Paharo",
+        "areas": ["Hills"],
+        "ratePercent": 95,
+        "lumaRate": 1,
+        "minSvs": 35,
+        "eggTechPercent": 18
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Dec 19th to Dec 25th 2022",
+    "startDateFormatted": "19/12/2022",
+    "endDateFormatted": "25/12/2022",
+    "startDate": "2022-12-19T00:00:00.000Z",
+    "endDate": "2022-12-25T00:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Mosu",
+        "areas": ["Fields"],
+        "ratePercent": 85,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 16
+      },
+      {
+        "temtem": "Reval",
+        "areas": ["Hills"],
+        "ratePercent": 80,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 13
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Dec 12th to Dec 18th 2022",
+    "startDateFormatted": "12/12/2022",
+    "endDateFormatted": "18/12/2022",
+    "startDate": "2022-12-12T00:00:00.000Z",
+    "endDate": "2022-12-18T00:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Magmis",
+        "areas": ["Caves"],
+        "ratePercent": 90,
+        "lumaRate": 1,
+        "minSvs": 29,
+        "eggTechPercent": 0
+      },
+      {
+        "temtem": "Spriole",
+        "areas": ["Fields"],
+        "ratePercent": 95,
+        "lumaRate": 1,
+        "minSvs": 29,
+        "eggTechPercent": 12
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Dec 5th to Dec 11th 2022",
+    "startDateFormatted": "05/12/2022",
+    "endDateFormatted": "11/12/2022",
+    "startDate": "2022-12-05T00:00:00.000Z",
+    "endDate": "2022-12-11T00:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Occlura",
+        "areas": ["Caves"],
+        "ratePercent": 60,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 12
+      },
+      {
+        "temtem": "Momo",
+        "areas": ["Fields"],
+        "ratePercent": 95,
+        "lumaRate": 2,
+        "minSvs": 0,
+        "eggTechPercent": 15
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Nov 28th to Dec 4th 2022",
+    "startDateFormatted": "28/11/2022",
+    "endDateFormatted": "04/12/2022",
+    "startDate": "2022-11-28T00:00:00.000Z",
+    "endDate": "2022-12-04T00:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Oree",
+        "areas": ["Fields"],
+        "ratePercent": 60,
+        "lumaRate": 1,
+        "minSvs": 34,
+        "eggTechPercent": 9
+      },
+      {
+        "temtem": "Maoala",
+        "areas": ["Hills"],
+        "ratePercent": 80,
+        "lumaRate": 1,
+        "minSvs": 32,
+        "eggTechPercent": 10
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Nov 21st to Nov 27th 2022",
+    "startDateFormatted": "21/11/2022",
+    "endDateFormatted": "27/11/2022",
+    "startDate": "2022-11-21T00:00:00.000Z",
+    "endDate": "2022-11-27T00:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Orphyll",
+        "areas": ["Caves"],
+        "ratePercent": 95,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 18
+      },
+      {
+        "temtem": "Zephyruff",
+        "areas": ["Hills"],
+        "ratePercent": 95,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 13
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Nov 14th to Nov 20th 2022",
+    "startDateFormatted": "14/11/2022",
+    "endDateFormatted": "20/11/2022",
+    "startDate": "2022-11-14T00:00:00.000Z",
+    "endDate": "2022-11-20T00:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Bunbun",
+        "areas": ["Caves"],
+        "ratePercent": 75,
+        "lumaRate": 1,
+        "minSvs": 35,
+        "eggTechPercent": 12
+      },
+      {
+        "temtem": "Grumvel",
+        "areas": ["Fields"],
+        "ratePercent": 90,
+        "lumaRate": 1,
+        "minSvs": 33,
+        "eggTechPercent": 19
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Nov 7th to Nov 13th 2022",
+    "startDateFormatted": "07/11/2022",
+    "endDateFormatted": "13/11/2022",
+    "startDate": "2022-11-07T00:00:00.000Z",
+    "endDate": "2022-11-13T00:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Goty",
+        "areas": ["Fields"],
+        "ratePercent": 80,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 12
+      },
+      {
+        "temtem": "Kuri",
+        "areas": ["Hills"],
+        "ratePercent": 85,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 11
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Oct 31st to Nov 6th 2022",
+    "startDateFormatted": "31/10/2022",
+    "endDateFormatted": "06/11/2022",
+    "startDate": "2022-10-31T00:00:00.000Z",
+    "endDate": "2022-11-06T00:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Hoglip",
+        "areas": ["Caves"],
+        "ratePercent": 60,
+        "lumaRate": 1,
+        "minSvs": 39,
+        "eggTechPercent": 10
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Nessla",
+        "areas": ["Water"],
+        "ratePercent": 55,
+        "lumaRate": 1,
+        "minSvs": 30,
+        "eggTechPercent": 13
+      }
+    ]
+  },
+  {
+    "dateRange": "Oct 24th to Oct 30th 2022",
+    "startDateFormatted": "24/10/2022",
+    "endDateFormatted": "30/10/2022",
+    "startDate": "2022-10-23T23:00:00.000Z",
+    "endDate": "2022-10-29T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Mimit",
+        "areas": ["Fields"],
+        "ratePercent": 40,
+        "lumaRate": 2,
+        "minSvs": 0,
+        "eggTechPercent": 0
+      },
+      {
+        "temtem": "Arachnyte",
+        "areas": ["Hills"],
+        "ratePercent": 60,
+        "lumaRate": 2,
+        "minSvs": 0,
+        "eggTechPercent": 17
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Oct 17th to Oct 23rd 2022",
+    "startDateFormatted": "17/10/2022",
+    "endDateFormatted": "23/10/2022",
+    "startDate": "2022-10-16T23:00:00.000Z",
+    "endDate": "2022-10-22T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "0b1",
+        "areas": ["Hills"],
+        "ratePercent": 80,
+        "lumaRate": 1,
+        "minSvs": 30,
+        "eggTechPercent": 20
+      },
+      {
+        "temtem": "Blooze",
+        "areas": ["Caves"],
+        "ratePercent": 55,
+        "lumaRate": 1,
+        "minSvs": 34,
+        "eggTechPercent": 14
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Oct 10th to Oct 16th 2022",
+    "startDateFormatted": "10/10/2022",
+    "endDateFormatted": "16/10/2022",
+    "startDate": "2022-10-09T23:00:00.000Z",
+    "endDate": "2022-10-15T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Pycko",
+        "areas": ["Caves"],
+        "ratePercent": 70,
+        "lumaRate": 2,
+        "minSvs": 0,
+        "eggTechPercent": 19
+      },
+      {
+        "temtem": "Mawtle",
+        "areas": ["Fields"],
+        "ratePercent": 55,
+        "lumaRate": 2,
+        "minSvs": 0,
+        "eggTechPercent": 17
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Oct 3rd to Oct 9th 2022",
+    "startDateFormatted": "03/10/2022",
+    "endDateFormatted": "09/10/2022",
+    "startDate": "2022-10-02T23:00:00.000Z",
+    "endDate": "2022-10-08T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Ampling",
+        "areas": ["Hills"],
+        "ratePercent": 95,
+        "lumaRate": 1,
+        "minSvs": 32,
+        "eggTechPercent": 16
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Umishi",
+        "areas": ["Water"],
+        "ratePercent": 95,
+        "lumaRate": 1,
+        "minSvs": 38,
+        "eggTechPercent": 8
+      }
+    ]
+  },
+  {
+    "dateRange": "Sep 26th to Oct 2nd 2022",
+    "startDateFormatted": "26/09/2022",
+    "endDateFormatted": "02/10/2022",
+    "startDate": "2022-09-25T23:00:00.000Z",
+    "endDate": "2022-10-01T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Shaolite",
+        "areas": ["Fields"],
+        "ratePercent": 95,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 17
+      },
+      {
+        "temtem": "Vulffy",
+        "areas": ["Hills"],
+        "ratePercent": 80,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 19
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Sep 19th to Sep 25th 2022",
+    "startDateFormatted": "19/09/2022",
+    "endDateFormatted": "25/09/2022",
+    "startDate": "2022-09-18T23:00:00.000Z",
+    "endDate": "2022-09-24T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Saipat",
+        "areas": ["Fields"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 33,
+        "eggTechPercent": 16
+      },
+      {
+        "temtem": "Hazrat",
+        "areas": ["Caves"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 32,
+        "eggTechPercent": 8
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Sep 12th to Sep 18th 2022",
+    "startDateFormatted": "12/09/2022",
+    "endDateFormatted": "18/09/2022",
+    "startDate": "2022-09-11T23:00:00.000Z",
+    "endDate": "2022-09-17T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Hidody",
+        "areas": ["Fields"],
+        "ratePercent": 85,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 17
+      },
+      {
+        "temtem": "Broccoblin",
+        "areas": ["Hills"],
+        "ratePercent": 75,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 19
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Sep 5th to Sep 11th 2022",
+    "startDateFormatted": "05/09/2022",
+    "endDateFormatted": "11/09/2022",
+    "startDate": "2022-09-04T23:00:00.000Z",
+    "endDate": "2022-09-10T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Mitty",
+        "areas": ["Fields"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 36,
+        "eggTechPercent": 16
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Fomu",
+        "areas": ["Water"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 36,
+        "eggTechPercent": 10
+      }
+    ]
+  },
+  {
+    "dateRange": "Aug 29th to Sep 4th 2022",
+    "startDateFormatted": "29/08/2022",
+    "endDateFormatted": "04/09/2022",
+    "startDate": "2022-08-28T23:00:00.000Z",
+    "endDate": "2022-09-03T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Toxolotl",
+        "areas": ["Caves"],
+        "ratePercent": 100,
+        "lumaRate": 8,
+        "minSvs": 0,
+        "eggTechPercent": 16
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Pewki",
+        "areas": ["Water"],
+        "ratePercent": 100,
+        "lumaRate": 8,
+        "minSvs": 0,
+        "eggTechPercent": 17
+      }
+    ]
+  },
+  {
+    "dateRange": "Aug 22nd to Aug 28th 2022",
+    "startDateFormatted": "22/08/2022",
+    "endDateFormatted": "28/08/2022",
+    "startDate": "2022-08-21T23:00:00.000Z",
+    "endDate": "2022-08-27T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Kaku",
+        "areas": ["Fields"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 29,
+        "eggTechPercent": 12
+      },
+      {
+        "temtem": "Pigepic",
+        "areas": ["Hills"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 28,
+        "eggTechPercent": 12
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Aug 15th to Aug 21st 2022",
+    "startDateFormatted": "15/08/2022",
+    "endDateFormatted": "21/08/2022",
+    "startDate": "2022-08-14T23:00:00.000Z",
+    "endDate": "2022-08-20T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Magmis",
+        "areas": ["Caves"],
+        "ratePercent": 80,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 0
+      },
+      {
+        "temtem": "Spriole",
+        "areas": ["Fields"],
+        "ratePercent": 95,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 14
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Aug 8th to Aug 14th 2022",
+    "startDateFormatted": "08/08/2022",
+    "endDateFormatted": "14/08/2022",
+    "startDate": "2022-08-07T23:00:00.000Z",
+    "endDate": "2022-08-13T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Swali",
+        "areas": ["Fields"],
+        "ratePercent": 90,
+        "lumaRate": 1,
+        "minSvs": 28,
+        "eggTechPercent": 10
+      },
+      {
+        "temtem": "Valiar",
+        "areas": ["Hills"],
+        "ratePercent": 45,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 0
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Aug 1st to Aug 7th 2022",
+    "startDateFormatted": "01/08/2022",
+    "endDateFormatted": "07/08/2022",
+    "startDate": "2022-07-31T23:00:00.000Z",
+    "endDate": "2022-08-06T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Raiber",
+        "areas": ["Caves"],
+        "ratePercent": 75,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 11
+      },
+      {
+        "temtem": "Chromeon",
+        "areas": ["Fields"],
+        "ratePercent": 60,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 0
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Jul 25th to Jul 31st 2022",
+    "startDateFormatted": "25/07/2022",
+    "endDateFormatted": "31/07/2022",
+    "startDate": "2022-07-24T23:00:00.000Z",
+    "endDate": "2022-07-30T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Tateru",
+        "areas": ["Fields"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 14
+      },
+      {
+        "temtem": "Mushi",
+        "areas": ["Caves"],
+        "ratePercent": 80,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 14
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Jul 18th to Jul 24th 2022",
+    "startDateFormatted": "18/07/2022",
+    "endDateFormatted": "24/07/2022",
+    "startDate": "2022-07-17T23:00:00.000Z",
+    "endDate": "2022-07-23T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Osuchi",
+        "areas": ["Fields"],
+        "ratePercent": 90,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 15
+      },
+      {
+        "temtem": "Paharo",
+        "areas": ["Hills"],
+        "ratePercent": 95,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 11
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Jul 11th to Jul 18th 2022",
+    "startDateFormatted": "11/07/2022",
+    "endDateFormatted": "18/07/2022",
+    "startDate": "2022-07-10T23:00:00.000Z",
+    "endDate": "2022-07-17T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Skail",
+        "areas": ["Caves"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 27,
+        "eggTechPercent": 9
+      },
+      {
+        "temtem": "Cycrox",
+        "areas": ["Fields"],
+        "ratePercent": 70,
+        "lumaRate": 1,
+        "minSvs": 27,
+        "eggTechPercent": 11
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Jul 4th to Jul 10th 2022",
+    "startDateFormatted": "04/07/2022",
+    "endDateFormatted": "10/07/2022",
+    "startDate": "2022-07-03T23:00:00.000Z",
+    "endDate": "2022-07-09T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Lapinite",
+        "areas": ["Caves"],
+        "ratePercent": 85,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 18
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Droply",
+        "areas": ["Water"],
+        "ratePercent": 100,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 19
+      }
+    ]
+  },
+  {
+    "dateRange": "Jun 27th to Jul 3rd 2022",
+    "startDateFormatted": "27/06/2022",
+    "endDateFormatted": "03/07/2022",
+    "startDate": "2022-06-26T23:00:00.000Z",
+    "endDate": "2022-07-02T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Minttle",
+        "areas": ["Fields"],
+        "ratePercent": 90,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 7
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Platypet",
+        "areas": ["Water"],
+        "ratePercent": 90,
+        "lumaRate": 1,
+        "minSvs": 31,
+        "eggTechPercent": 10
+      }
+    ]
+  },
+  {
+    "dateRange": "Jun 20th to Jun 26th 2022",
+    "startDateFormatted": "20/06/2022",
+    "endDateFormatted": "26/06/2022",
+    "startDate": "2022-06-19T23:00:00.000Z",
+    "endDate": "2022-06-25T23:00:00.000Z",
+    "tweet": "",
+    "land": [
+      {
+        "temtem": "Zizare",
+        "areas": ["Fields"],
+        "ratePercent": 50,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 18
+      },
+      {
+        "temtem": "Hocus",
+        "areas": ["Hills"],
+        "ratePercent": 50,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 15
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Jun 13th to Jun 19th 2022",
+    "startDateFormatted": "13/06/2022",
+    "endDateFormatted": "19/06/2022",
+    "startDate": "2022-06-12T23:00:00.000Z",
+    "endDate": "2022-06-18T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FVHiyN9WQAEX3uo.jpg:large",
+    "land": [
+      {
+        "temtem": "Banapi",
+        "areas": ["Caves"],
+        "ratePercent": 70,
+        "lumaRate": 1,
+        "minSvs": 32,
+        "eggTechPercent": 7
+      },
+      {
+        "temtem": "Vulvir",
+        "areas": ["Fields"],
+        "ratePercent": 79,
+        "lumaRate": 1,
+        "minSvs": 30,
+        "eggTechPercent": 13
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Jun 6th to Jun 12th 2022",
+    "startDateFormatted": "06/06/2022",
+    "endDateFormatted": "12/06/2022",
+    "startDate": "2022-06-05T23:00:00.000Z",
+    "endDate": "2022-06-11T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FUjgKH3WQAIpMHG.jpg:large",
+    "land": [
+      {
+        "temtem": "Oree",
+        "areas": ["Fields"],
+        "ratePercent": 65,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 18
+      },
+      {
+        "temtem": "Chubee",
+        "areas": ["Hills"],
+        "ratePercent": 60,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 19
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "May 30th to Jun 5th 2022",
+    "startDateFormatted": "30/05/2022",
+    "endDateFormatted": "05/06/2022",
+    "startDate": "2022-05-29T23:00:00.000Z",
+    "endDate": "2022-06-04T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FT_5WTcWUAE86yV.jpg:large",
+    "land": [
+      {
+        "temtem": "Galvanid",
+        "areas": ["Hills"],
+        "ratePercent": 40,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 6
+      },
+      {
+        "temtem": "Adoroboros",
+        "areas": ["Caves"],
+        "ratePercent": 45,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 11
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "May 23rd to May 29th 2022",
+    "startDateFormatted": "23/05/2022",
+    "endDateFormatted": "29/05/2022",
+    "startDate": "2022-05-22T23:00:00.000Z",
+    "endDate": "2022-05-28T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FTbag8XXEAEpue1.jpg:large",
+    "land": [
+      {
+        "temtem": "Bunbun",
+        "areas": ["Caves"],
+        "ratePercent": 75,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 14
+      },
+      {
+        "temtem": "Grumvel",
+        "areas": ["Fields"],
+        "ratePercent": 95,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 19
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "May 16th to May 22nd 2022",
+    "startDateFormatted": "16/05/2022",
+    "endDateFormatted": "22/05/2022",
+    "startDate": "2022-05-15T23:00:00.000Z",
+    "endDate": "2022-05-21T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FS3WD-tWIAESEOG.jpg:large",
+    "land": [
+      {
+        "temtem": "Halzhi",
+        "areas": ["Fields"],
+        "ratePercent": 65,
+        "lumaRate": 1,
+        "minSvs": 30,
+        "eggTechPercent": 8
+      },
+      {
+        "temtem": "Akranox",
+        "areas": ["Caves"],
+        "ratePercent": 75,
+        "lumaRate": 1,
+        "minSvs": 33,
+        "eggTechPercent": 10
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "May 9th to May 15th 2022",
+    "startDateFormatted": "09/05/2022",
+    "endDateFormatted": "15/05/2022",
+    "startDate": "2022-05-08T23:00:00.000Z",
+    "endDate": "2022-05-14T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FSTS5mLXoAAXyKE.jpg:large",
+    "land": [
+      {
+        "temtem": "Hoglip",
+        "areas": ["Caves"],
+        "ratePercent": 80,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 17
+      },
+      {
+        "temtem": "Nessla",
+        "areas": ["Hills"],
+        "ratePercent": 75,
+        "lumaRate": 2,
+        "minSvs": 0,
+        "eggTechPercent": 15
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "May 2nd to May 8th 2022",
+    "startDateFormatted": "02/05/2022",
+    "endDateFormatted": "08/05/2022",
+    "startDate": "2022-05-01T23:00:00.000Z",
+    "endDate": "2022-05-07T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FRvPz54XMAECoqK.jpg:large",
+    "land": [
+      {
+        "temtem": "Scarawatt",
+        "areas": ["Hills"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 33,
+        "eggTechPercent": 12
+      },
+      {
+        "temtem": "Gorong",
+        "areas": ["Fields"],
+        "ratePercent": 85,
+        "lumaRate": 1,
+        "minSvs": 32,
+        "eggTechPercent": 10
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Apr 25th to May 1st 2022",
+    "startDateFormatted": "25/04/2022",
+    "endDateFormatted": "01/05/2022",
+    "startDate": "2022-04-24T23:00:00.000Z",
+    "endDate": "2022-04-30T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FRLNusmWUAE88bn.jpg:large",
+    "land": [
+      {
+        "temtem": "Ampling",
+        "areas": ["Hills"],
+        "ratePercent": 85,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 15
+      },
+      {
+        "temtem": "0b1",
+        "areas": ["Fields"],
+        "ratePercent": 75,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 13
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Apr 18th to Apr 24th 2022",
+    "startDateFormatted": "18/04/2022",
+    "endDateFormatted": "24/04/2022",
+    "startDate": "2022-04-17T23:00:00.000Z",
+    "endDate": "2022-04-23T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FQnJzs8XEAIO1eh.jpg:large",
+    "land": [
+      {
+        "temtem": "Reval",
+        "areas": ["Fields"],
+        "ratePercent": 85,
+        "lumaRate": 1,
+        "minSvs": 32,
+        "eggTechPercent": 5
+      },
+      {
+        "temtem": "Ganki",
+        "areas": ["Hills"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 31,
+        "eggTechPercent": 6
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Apr 11th to Apr 17th 2022",
+    "startDateFormatted": "11/04/2022",
+    "endDateFormatted": "17/04/2022",
+    "startDate": "2022-04-10T23:00:00.000Z",
+    "endDate": "2022-04-16T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FQDGvYMWYAE5wrq.jpg:large",
+    "land": [
+      {
+        "temtem": "Venx",
+        "areas": ["Caves"],
+        "ratePercent": 50,
+        "lumaRate": 2,
+        "minSvs": 0,
+        "eggTechPercent": 5
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Umishi",
+        "areas": ["Water"],
+        "ratePercent": 100,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 20
+      }
+    ]
+  },
+  {
+    "dateRange": "Apr 4th to Apr 10th 2022",
+    "startDateFormatted": "04/04/2022",
+    "endDateFormatted": "10/04/2022",
+    "startDate": "2022-04-03T23:00:00.000Z",
+    "endDate": "2022-04-09T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FPfEFw-WYAIJ_Sr.jpg:large",
+    "land": [
+      {
+        "temtem": "Occlura",
+        "areas": ["Caves"],
+        "ratePercent": 65,
+        "lumaRate": 1,
+        "minSvs": 29,
+        "eggTechPercent": 14
+      },
+      {
+        "temtem": "Momo",
+        "areas": ["Fields"],
+        "ratePercent": 60,
+        "lumaRate": 1,
+        "minSvs": 27,
+        "eggTechPercent": 9
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Mar 28th to Apr 3rd 2022",
+    "startDateFormatted": "28/03/2022",
+    "endDateFormatted": "03/04/2022",
+    "startDate": "2022-03-27T23:00:00.000Z",
+    "endDate": "2022-04-02T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FO7A7UmWUAEP2vt.jpg:large",
+    "land": [
+      {
+        "temtem": "Blooze",
+        "areas": ["Caves"],
+        "ratePercent": 75,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 8
+      },
+      {
+        "temtem": "Mushi",
+        "areas": ["Fields"],
+        "ratePercent": 85,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 20
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Mar 21st to Mar 27th 2022",
+    "startDateFormatted": "21/03/2022",
+    "endDateFormatted": "27/03/2022",
+    "startDate": "2022-03-21T00:00:00.000Z",
+    "endDate": "2022-03-27T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FOW9k0iXIAQAOam.jpg:large",
+    "land": [
+      {
+        "temtem": "Mosu",
+        "areas": ["Fields"],
+        "ratePercent": 95,
+        "lumaRate": 1,
+        "minSvs": 28,
+        "eggTechPercent": 9
+      },
+      {
+        "temtem": "Kuri",
+        "areas": ["Hills"],
+        "ratePercent": 90,
+        "lumaRate": 1,
+        "minSvs": 30,
+        "eggTechPercent": 10
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Mar 14th to Mar 20th 2022",
+    "startDateFormatted": "14/03/2022",
+    "endDateFormatted": "20/03/2022",
+    "startDate": "2022-03-14T00:00:00.000Z",
+    "endDate": "2022-03-20T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FNy6aiYXIAEuYRJ.jpg:large",
+    "land": [
+      {
+        "temtem": "Vulvir",
+        "areas": ["Caves"],
+        "ratePercent": 80,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 19
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Fomu",
+        "areas": ["Water"],
+        "ratePercent": 100,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 14
+      }
+    ]
+  },
+  {
+    "dateRange": "Mar 7th to Mar 13th 2022",
+    "startDateFormatted": "07/03/2022",
+    "endDateFormatted": "13/03/2022",
+    "startDate": "2022-03-07T00:00:00.000Z",
+    "endDate": "2022-03-13T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FNO3hK4XMAEhxq7.jpg:large",
+    "land": [
+      {
+        "temtem": "Goty",
+        "areas": ["Fields"],
+        "ratePercent": 85,
+        "lumaRate": 1,
+        "minSvs": 30,
+        "eggTechPercent": 8
+      },
+      {
+        "temtem": "Orphyll",
+        "areas": ["Caves"],
+        "ratePercent": 80,
+        "lumaRate": 1,
+        "minSvs": 28,
+        "eggTechPercent": 12
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Feb 28th to Mar 6th 2022",
+    "startDateFormatted": "28/02/2022",
+    "endDateFormatted": "06/03/2022",
+    "startDate": "2022-02-28T00:00:00.000Z",
+    "endDate": "2022-03-06T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FMqzjIvWUAAlXLN.jpg:large",
+    "land": [
+      {
+        "temtem": "Saipat",
+        "areas": ["Fields"],
+        "ratePercent": 100,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 15
+      },
+      {
+        "temtem": "Hazrat",
+        "areas": ["Caves"],
+        "ratePercent": 95,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 12
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Feb 21st to Feb 27th 2022",
+    "startDateFormatted": "21/02/2022",
+    "endDateFormatted": "27/02/2022",
+    "startDate": "2022-02-21T00:00:00.000Z",
+    "endDate": "2022-02-27T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FMGwl2iWYAMJS_3.jpg:large",
+    "land": [
+      {
+        "temtem": "Pycko",
+        "areas": ["Caves"],
+        "ratePercent": 50,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 6
+      },
+      {
+        "temtem": "Chimurian",
+        "areas": ["Fields"],
+        "ratePercent": 40,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 6
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Feb 14th to Feb 20th 2022",
+    "startDateFormatted": "14/02/2022",
+    "endDateFormatted": "20/02/2022",
+    "startDate": "2022-02-14T00:00:00.000Z",
+    "endDate": "2022-02-20T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FLiteNMXoAEGD1c.jpg:large",
+    "land": [
+      {
+        "temtem": "Galvanid",
+        "areas": ["Fields"],
+        "ratePercent": 65,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 8
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Kalazu",
+        "areas": ["Water"],
+        "ratePercent": 100,
+        "lumaRate": 5,
+        "minSvs": 0,
+        "eggTechPercent": 25
+      }
+    ]
+  },
+  {
+    "dateRange": "Feb 7th to Feb 13th 2022",
+    "startDateFormatted": "07/02/2022",
+    "endDateFormatted": "13/02/2022",
+    "startDate": "2022-02-07T00:00:00.000Z",
+    "endDate": "2022-02-13T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FK-qjMoXMAAGOfk.jpg:large",
+    "land": [
+      {
+        "temtem": "Zephyruff",
+        "areas": ["Hills"],
+        "ratePercent": 80,
+        "lumaRate": 1,
+        "minSvs": 30,
+        "eggTechPercent": 10
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Bigu",
+        "areas": ["Water"],
+        "ratePercent": 80,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 10
+      }
+    ]
+  },
+  {
+    "dateRange": "Jan 31st to Feb 6th 2022",
+    "startDateFormatted": "31/01/2022",
+    "endDateFormatted": "06/02/2022",
+    "startDate": "2022-01-31T00:00:00.000Z",
+    "endDate": "2022-02-06T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FKanWb4XEAMmP7r.jpg:large",
+    "land": [
+      {
+        "temtem": "Kaku",
+        "areas": ["Fields"],
+        "ratePercent": 95,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 16
+      },
+      {
+        "temtem": "Mitty",
+        "areas": ["Hills"],
+        "ratePercent": 100,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 11
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Jan 24th to Jan 30th 2022",
+    "startDateFormatted": "24/01/2022",
+    "endDateFormatted": "30/01/2022",
+    "startDate": "2022-01-24T00:00:00.000Z",
+    "endDate": "2022-01-30T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FJ2kPXmX0AAb59g.jpg:large",
+    "land": [
+      {
+        "temtem": "Hidody",
+        "areas": ["Fields"],
+        "ratePercent": 55,
+        "lumaRate": 1,
+        "minSvs": 31,
+        "eggTechPercent": 10
+      },
+      {
+        "temtem": "Mawtle",
+        "areas": ["Hills"],
+        "ratePercent": 40,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 8
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Jan 17th to Jan 23rd 2022",
+    "startDateFormatted": "17/01/2022",
+    "endDateFormatted": "23/01/2022",
+    "startDate": "2022-01-17T00:00:00.000Z",
+    "endDate": "2022-01-23T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FJShSPQXMAAHHOD.jpg:large",
+    "land": [
+      {
+        "temtem": "Swali",
+        "areas": ["Fields"],
+        "ratePercent": 55,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 17
+      },
+      {
+        "temtem": "Valiar",
+        "areas": ["Hills"],
+        "ratePercent": 55,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 0
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Jan 10th to Jan 16th 2022",
+    "startDateFormatted": "10/01/2022",
+    "endDateFormatted": "16/01/2022",
+    "startDate": "2022-01-10T00:00:00.000Z",
+    "endDate": "2022-01-16T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FIueQHqXoAAeOe8.jpg:large",
+    "land": [
+      {
+        "temtem": "Chromeon",
+        "areas": ["Fields"],
+        "ratePercent": 60,
+        "lumaRate": 1,
+        "minSvs": 29,
+        "eggTechPercent": 0
+      },
+      {
+        "temtem": "Broccoblin",
+        "areas": ["Hills"],
+        "ratePercent": 80,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 14
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Jan 3rd to Jan 9th 2022",
+    "startDateFormatted": "03/01/2022",
+    "endDateFormatted": "09/01/2022",
+    "startDate": "2022-01-03T00:00:00.000Z",
+    "endDate": "2022-01-09T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FIKa69MXEAA3Z6o.jpg:large",
+    "land": [
+      {
+        "temtem": "Tateru",
+        "areas": ["Fields"],
+        "ratePercent": 100,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 17
+      },
+      {
+        "temtem": "Gorong",
+        "areas": ["Hills"],
+        "ratePercent": 80,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 14
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Dec 27th 2021 to Jan 2nd 2022",
+    "startDateFormatted": "27/12/2021",
+    "endDateFormatted": "02/01/2022",
+    "startDate": "2021-12-27T00:00:00.000Z",
+    "endDate": "2022-01-02T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FHmXkMYXoAUkoUS.jpg:large",
+    "land": [
+      {
+        "temtem": "Shaolite",
+        "areas": ["Fields"],
+        "ratePercent": 90,
+        "lumaRate": 1,
+        "minSvs": 30,
+        "eggTechPercent": 14
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Pewki",
+        "areas": ["Water"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 28,
+        "eggTechPercent": 12
+      }
+    ]
+  },
+  {
+    "dateRange": "Dec 20th to Dec 26th 2021",
+    "startDateFormatted": "20/12/2021",
+    "endDateFormatted": "26/12/2021",
+    "startDate": "2021-12-20T00:00:00.000Z",
+    "endDate": "2021-12-26T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FHCU5CVXoAMF4Lg.jpg:large",
+    "land": [
+      {
+        "temtem": "Mosu",
+        "areas": ["Fields"],
+        "ratePercent": 100,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 16
+      },
+      {
+        "temtem": "Reval",
+        "areas": ["Hills"],
+        "ratePercent": 80,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 20
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Dec 13th to Dec 19th 2021",
+    "startDateFormatted": "13/12/2021",
+    "endDateFormatted": "19/12/2021",
+    "startDate": "2021-12-13T00:00:00.000Z",
+    "endDate": "2021-12-19T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FGeRaA2WYAIZNET.jpg:large",
+    "land": [
+      {
+        "temtem": "Spriole",
+        "areas": ["Fields"],
+        "ratePercent": 95,
+        "lumaRate": 1,
+        "minSvs": 29,
+        "eggTechPercent": 12
+      },
+      {
+        "temtem": "Magmis",
+        "areas": ["Caves"],
+        "ratePercent": 90,
+        "lumaRate": 1,
+        "minSvs": 29,
+        "eggTechPercent": 0
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Dec 6th to Dec 12th 2021",
+    "startDateFormatted": "06/12/2021",
+    "endDateFormatted": "12/12/2021",
+    "startDate": "2021-12-06T00:00:00.000Z",
+    "endDate": "2021-12-12T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FF6OAHuXIAAO_Mu.jpg:large",
+    "land": [
+      {
+        "temtem": "Skail",
+        "areas": ["Caves"],
+        "ratePercent": 100,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 13
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Platypet",
+        "areas": ["Water"],
+        "ratePercent": 85,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 13
+      }
+    ]
+  },
+  {
+    "dateRange": "Nov 29th to Dec 5th 2021",
+    "startDateFormatted": "29/11/2021",
+    "endDateFormatted": "05/12/2021",
+    "startDate": "2021-11-29T00:00:00.000Z",
+    "endDate": "2021-12-05T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FFWK7YrWUAs9wI6.jpg:large",
+    "land": [
+      {
+        "temtem": "Paharo",
+        "areas": ["Hills"],
+        "ratePercent": 95,
+        "lumaRate": 1,
+        "minSvs": 32,
+        "eggTechPercent": 19
+      },
+      {
+        "temtem": "Toxolotl",
+        "areas": ["Caves"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 32,
+        "eggTechPercent": 12
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Nov 22nd to Nov 28th 2021",
+    "startDateFormatted": "22/11/2021",
+    "endDateFormatted": "28/11/2021",
+    "startDate": "2021-11-22T00:00:00.000Z",
+    "endDate": "2021-11-28T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FEyIJJhXIAMFmgY.jpg:large",
+    "land": [
+      {
+        "temtem": "Orphyll",
+        "areas": ["Fields"],
+        "ratePercent": 95,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 16
+      },
+      {
+        "temtem": "Banapi",
+        "areas": ["Hills"],
+        "ratePercent": 80,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 17
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Nov 15th to Nov 21st 2021",
+    "startDateFormatted": "15/11/2021",
+    "endDateFormatted": "21/11/2021",
+    "startDate": "2021-11-15T00:00:00.000Z",
+    "endDate": "2021-11-21T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FEOE8ChX0AAt9da.jpg:large",
+    "land": [
+      {
+        "temtem": "Raiber",
+        "areas": ["Caves"],
+        "ratePercent": 50,
+        "lumaRate": 1,
+        "minSvs": 32,
+        "eggTechPercent": 19
+      },
+      {
+        "temtem": "Hocus",
+        "areas": ["Fields"],
+        "ratePercent": 40,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 17
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Nov 8th to Nov 14th 2021",
+    "startDateFormatted": "08/11/2021",
+    "endDateFormatted": "14/11/2021",
+    "startDate": "2021-11-08T00:00:00.000Z",
+    "endDate": "2021-11-14T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FDqBp3NWYAAV2Q4.jpg:large",
+    "land": [
+      {
+        "temtem": "Cycrox",
+        "areas": ["Caves"],
+        "ratePercent": 75,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 15
+      },
+      {
+        "temtem": "Occlura",
+        "areas": ["Fields"],
+        "ratePercent": 75,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 14
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Nov 1st to Nov 7th 2021",
+    "startDateFormatted": "01/11/2021",
+    "endDateFormatted": "07/11/2021",
+    "startDate": "2021-11-01T00:00:00.000Z",
+    "endDate": "2021-11-07T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FDGAgLoXMAgkJQ1.jpg:large",
+    "land": [
+      {
+        "temtem": "Vulffy",
+        "areas": ["Hills"],
+        "ratePercent": 85,
+        "lumaRate": 1,
+        "minSvs": 28,
+        "eggTechPercent": 12
+      },
+      {
+        "temtem": "Osuchi",
+        "areas": ["Fields"],
+        "ratePercent": 90,
+        "lumaRate": 1,
+        "minSvs": 27,
+        "eggTechPercent": 12
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Oct 25th to Oct 31st 2021",
+    "startDateFormatted": "25/10/2021",
+    "endDateFormatted": "31/10/2021",
+    "startDate": "2021-10-24T23:00:00.000Z",
+    "endDate": "2021-10-30T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FCh7hC6XoAMUD8A.jpg:large",
+    "land": [
+      {
+        "temtem": "Mimit",
+        "areas": ["Fields"],
+        "ratePercent": 50,
+        "lumaRate": 2,
+        "minSvs": 0,
+        "eggTechPercent": 0
+      },
+      {
+        "temtem": "Akranox",
+        "areas": ["Caves"],
+        "ratePercent": 100,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 25
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Oct 18th to Oct 24th 2021",
+    "startDateFormatted": "18/10/2021",
+    "endDateFormatted": "24/10/2021",
+    "startDate": "2021-10-17T23:00:00.000Z",
+    "endDate": "2021-10-23T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FB-MZw2XsAIZyfb.jpg:large",
+    "land": [
+      {
+        "temtem": "Lapinite",
+        "areas": ["Caves"],
+        "ratePercent": 90,
+        "lumaRate": 1,
+        "minSvs": 30,
+        "eggTechPercent": 14
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Droply",
+        "areas": ["Water"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 31,
+        "eggTechPercent": 16
+      }
+    ]
+  },
+  {
+    "dateRange": "Oct 11th to Oct 17th 2021",
+    "startDateFormatted": "11/10/2021",
+    "endDateFormatted": "17/10/2021",
+    "startDate": "2021-10-10T23:00:00.000Z",
+    "endDate": "2021-10-16T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FBZ05oVX0AIr17_.jpg:large",
+    "land": [
+      {
+        "temtem": "Pigepic",
+        "areas": ["Hills"],
+        "ratePercent": 100,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 18
+      },
+      {
+        "temtem": "Kuri",
+        "areas": ["Fields"],
+        "ratePercent": 80,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 11
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Oct 4th to Oct 10th 2021",
+    "startDateFormatted": "04/10/2021",
+    "endDateFormatted": "10/10/2021",
+    "startDate": "2021-10-03T23:00:00.000Z",
+    "endDate": "2021-10-09T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FA1yBTkXMAEiEz8.jpg:large",
+    "land": [
+      {
+        "temtem": "Grumvel",
+        "areas": ["Fields"],
+        "ratePercent": 90,
+        "lumaRate": 1,
+        "minSvs": 29,
+        "eggTechPercent": 12
+      },
+      {
+        "temtem": "Bunbun",
+        "areas": ["Caves"],
+        "ratePercent": 75,
+        "lumaRate": 1,
+        "minSvs": 29,
+        "eggTechPercent": 18
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Sep 27th to Oct 3rd 2021",
+    "startDateFormatted": "27/09/2021",
+    "endDateFormatted": "03/10/2021",
+    "startDate": "2021-09-26T23:00:00.000Z",
+    "endDate": "2021-10-02T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/FARu3BIX0AABH59.jpg:large",
+    "land": [
+      {
+        "temtem": "Zephyruff",
+        "areas": ["Hills"],
+        "ratePercent": 95,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 20
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Ganki",
+        "areas": ["Water"],
+        "ratePercent": 100,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 20
+      }
+    ]
+  },
+  {
+    "dateRange": "Sep 20th to Sep 26th 2021",
+    "startDateFormatted": "20/09/2021",
+    "endDateFormatted": "26/09/2021",
+    "startDate": "2021-09-19T23:00:00.000Z",
+    "endDate": "2021-09-25T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/E_trjUyWQAEaQsJ.jpg:large",
+    "land": [
+      {
+        "temtem": "Nessla",
+        "areas": ["Hills"],
+        "ratePercent": 50,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 14
+      },
+      {
+        "temtem": "Zizare",
+        "areas": ["Fields"],
+        "ratePercent": 50,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 10
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Sep 13th to Sep 19th 2021",
+    "startDateFormatted": "13/09/2021",
+    "endDateFormatted": "19/09/2021",
+    "startDate": "2021-09-12T23:00:00.000Z",
+    "endDate": "2021-09-18T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/E_JomtIXoAEHzWw.jpg:large",
+    "land": [
+      {
+        "temtem": "Goty",
+        "areas": ["Hills"],
+        "ratePercent": 90,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 0
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Kalazu",
+        "areas": ["Water"],
+        "ratePercent": 100,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 20
+      }
+    ]
+  },
+  {
+    "dateRange": "Sep 6th to Sep 12th 2021",
+    "startDateFormatted": "06/09/2021",
+    "endDateFormatted": "12/09/2021",
+    "startDate": "2021-09-05T23:00:00.000Z",
+    "endDate": "2021-09-11T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/E-llpJ1XMAEN3Y3.jpg:large",
+    "land": [
+      {
+        "temtem": "Chubee",
+        "areas": ["Hills"],
+        "ratePercent": 80,
+        "lumaRate": 1,
+        "minSvs": 29,
+        "eggTechPercent": 7
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Umishi",
+        "areas": ["Water"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 33,
+        "eggTechPercent": 10
+      }
+    ]
+  },
+  {
+    "dateRange": "Aug 30th to Sep 5th 2021",
+    "startDateFormatted": "30/08/2021",
+    "endDateFormatted": "05/09/2021",
+    "startDate": "2021-08-29T23:00:00.000Z",
+    "endDate": "2021-09-04T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/E-BiaVCXoAYQvAt?format=jpg&name=4096x4096",
+    "land": [
+      {
+        "temtem": "Halzhi",
+        "areas": ["Fields"],
+        "ratePercent": 70,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 13
+      },
+      {
+        "temtem": "Pycko",
+        "areas": ["Caves"],
+        "ratePercent": 65,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 5
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Aug 23rd to Aug 29th 2021",
+    "startDateFormatted": "23/08/2021",
+    "endDateFormatted": "29/08/2021",
+    "startDate": "2021-08-22T23:00:00.000Z",
+    "endDate": "2021-08-28T23:00:00.000Z",
+    "tweet": "/wiki/File:SaiparkWeek23-28Aug2021.jpg",
+    "land": [
+      {
+        "temtem": "Galvanid",
+        "areas": ["Hills"],
+        "ratePercent": 40,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 3
+      },
+      {
+        "temtem": "Hoglip",
+        "areas": ["Fields"],
+        "ratePercent": 75,
+        "lumaRate": 1,
+        "minSvs": 27,
+        "eggTechPercent": 8
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Aug 16th to Aug 22nd 2021",
+    "startDateFormatted": "16/08/2021",
+    "endDateFormatted": "22/08/2021",
+    "startDate": "2021-08-15T23:00:00.000Z",
+    "endDate": "2021-08-21T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/E85b4rVWQAE4gi6.jpg:large",
+    "land": [
+      {
+        "temtem": "Adoroboros",
+        "areas": ["Fields"],
+        "ratePercent": 20,
+        "lumaRate": 6,
+        "minSvs": 0,
+        "eggTechPercent": 10
+      },
+      {
+        "temtem": "Magmis",
+        "areas": ["Caves"],
+        "ratePercent": 100,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 0
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Aug 9th to Aug 15th 2021",
+    "startDateFormatted": "09/08/2021",
+    "endDateFormatted": "15/08/2021",
+    "startDate": "2021-08-08T23:00:00.000Z",
+    "endDate": "2021-08-14T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/E8VYoAUWYAAmASM?format=jpg&name=4096x4096",
+    "land": [
+      {
+        "temtem": "0b1",
+        "areas": ["Fields"],
+        "ratePercent": 90,
+        "lumaRate": 1,
+        "minSvs": 28,
+        "eggTechPercent": 10
+      },
+      {
+        "temtem": "Mushi",
+        "areas": ["Caves"],
+        "ratePercent": 80,
+        "lumaRate": 1,
+        "minSvs": 29,
+        "eggTechPercent": 10
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Aug 2nd to Aug 8th 2021",
+    "startDateFormatted": "02/08/2021",
+    "endDateFormatted": "08/08/2021",
+    "startDate": "2021-08-01T23:00:00.000Z",
+    "endDate": "2021-08-07T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/E7xVsGbWYAI7ZVx.jpg:large",
+    "land": [
+      {
+        "temtem": "Smolzy",
+        "areas": ["Caves"],
+        "ratePercent": 65,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 10
+      },
+      {
+        "temtem": "Hidody",
+        "areas": ["Fields"],
+        "ratePercent": 75,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 15
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Jul 26th to Aug 1st 2021",
+    "startDateFormatted": "26/07/2021",
+    "endDateFormatted": "01/08/2021",
+    "startDate": "2021-07-25T23:00:00.000Z",
+    "endDate": "2021-07-31T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/E7NSmRuXIAE728C.jpg:large",
+    "land": [
+      {
+        "temtem": "Ampling",
+        "areas": ["Hills"],
+        "ratePercent": 70,
+        "lumaRate": 1,
+        "minSvs": 29,
+        "eggTechPercent": 10
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Fomu",
+        "areas": ["Water"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 27,
+        "eggTechPercent": 10
+      }
+    ]
+  },
+  {
+    "dateRange": "Jul 19th to Jul 25th 2021",
+    "startDateFormatted": "19/07/2021",
+    "endDateFormatted": "25/07/2021",
+    "startDate": "2021-07-18T23:00:00.000Z",
+    "endDate": "2021-07-24T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/E6pPYSIXIAMNzn9.jpg:large",
+    "land": [
+      {
+        "temtem": "Momo",
+        "areas": ["Hills"],
+        "ratePercent": 75,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 0
+      },
+      {
+        "temtem": "Oree",
+        "areas": ["Fields"],
+        "ratePercent": 85,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 10
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Jul 12th to Jul 18th 2021",
+    "startDateFormatted": "12/07/2021",
+    "endDateFormatted": "18/07/2021",
+    "startDate": "2021-07-11T23:00:00.000Z",
+    "endDate": "2021-07-17T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/E6FM2XaWEAMAGHy.jpg:large",
+    "land": [
+      {
+        "temtem": "Mimit",
+        "areas": ["Fields"],
+        "ratePercent": 75,
+        "lumaRate": 1,
+        "minSvs": 29,
+        "eggTechPercent": 0
+      },
+      {
+        "temtem": "Saipat",
+        "areas": ["Caves"],
+        "ratePercent": 85,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 15
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Jul 5th to Jul 11th 2021",
+    "startDateFormatted": "05/07/2021",
+    "endDateFormatted": "11/07/2021",
+    "startDate": "2021-07-04T23:00:00.000Z",
+    "endDate": "2021-07-10T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/E5hJVckX0AQJ9wH.jpg:large",
+    "land": [
+      {
+        "temtem": "Blooze",
+        "areas": ["Caves"],
+        "ratePercent": 100,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 15
+      },
+      {
+        "temtem": "Chromeon",
+        "areas": ["Fields"],
+        "ratePercent": 80,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 0
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Jun 20th to Jul 4th 2021",
+    "startDateFormatted": "20/06/2021",
+    "endDateFormatted": "04/07/2021",
+    "startDate": "2021-06-19T23:00:00.000Z",
+    "endDate": "2021-07-03T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/E49GARHWUAI39v5.jpg:large",
+    "land": [
+      {
+        "temtem": "Tateru",
+        "areas": ["Caves"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 29,
+        "eggTechPercent": 20
+      },
+      {
+        "temtem": "Smolzy",
+        "areas": ["Hills"],
+        "ratePercent": 70,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 20
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Jun 21st to Jun 27th 2021",
+    "startDateFormatted": "21/06/2021",
+    "endDateFormatted": "27/06/2021",
+    "startDate": "2021-06-20T23:00:00.000Z",
+    "endDate": "2021-06-26T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/E4ZC-4IWYAAiWqX.jpg:large",
+    "land": [
+      {
+        "temtem": "Paharo",
+        "areas": ["Hills"],
+        "ratePercent": 80,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 12
+      },
+      {
+        "temtem": "Scarawatt",
+        "areas": ["Caves"],
+        "ratePercent": 85,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 12
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Jun 14th to Jun 20th 2021",
+    "startDateFormatted": "14/06/2021",
+    "endDateFormatted": "20/06/2021",
+    "startDate": "2021-06-13T23:00:00.000Z",
+    "endDate": "2021-06-19T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/E31AqXWXMAAgua6.jpg:large",
+    "land": [
+      {
+        "temtem": "Cycrox",
+        "areas": ["Fields"],
+        "ratePercent": 70,
+        "lumaRate": 1,
+        "minSvs": 28,
+        "eggTechPercent": 10
+      }
+    ],
+    "water": [
+      {
+        "temtem": "Platypet",
+        "areas": ["Water"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 28,
+        "eggTechPercent": 10
+      }
+    ]
+  },
+  {
+    "dateRange": "Jun 7th to Jun 13th 2021",
+    "startDateFormatted": "07/06/2021",
+    "endDateFormatted": "13/06/2021",
+    "startDate": "2021-06-06T23:00:00.000Z",
+    "endDate": "2021-06-12T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/E3Q8wKLXMAADhoZ.jpg:large",
+    "land": [
+      {
+        "temtem": "Raiber",
+        "areas": ["Fields"],
+        "ratePercent": 60,
+        "lumaRate": 4,
+        "minSvs": 0,
+        "eggTechPercent": 20
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "May 31st to Jun 6th 2021",
+    "startDateFormatted": "31/05/2021",
+    "endDateFormatted": "06/06/2021",
+    "startDate": "2021-05-30T23:00:00.000Z",
+    "endDate": "2021-06-05T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/E2s6caVWEAUJnSD.jpg:large",
+    "land": [
+      {
+        "temtem": "Oree",
+        "areas": ["Hills"],
+        "ratePercent": 80,
+        "lumaRate": 1,
+        "minSvs": 27,
+        "eggTechPercent": 10
+      },
+      {
+        "temtem": "Skail",
+        "areas": ["Caves"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 30,
+        "eggTechPercent": 10
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "May 24th to May 30th 2021",
+    "startDateFormatted": "24/05/2021",
+    "endDateFormatted": "30/05/2021",
+    "startDate": "2021-05-23T23:00:00.000Z",
+    "endDate": "2021-05-29T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/E2I1bZaXIAAonPr.jpg:large",
+    "land": [
+      {
+        "temtem": "Galvanid",
+        "areas": ["Caves"],
+        "ratePercent": 50,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 15
+      },
+      {
+        "temtem": "Paharo",
+        "areas": ["Hills"],
+        "ratePercent": 100,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 15
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "May 11th to May 17th 2020",
+    "startDateFormatted": "11/05/2020",
+    "endDateFormatted": "17/05/2020",
+    "startDate": "2020-05-10T23:00:00.000Z",
+    "endDate": "2020-05-17T22:59:59.999Z",
     "tweet": "https://pbs.twimg.com/media/E1kzdy8WQAMfex2?format=jpg&name=4096x4096",
     "land": [
       {
         "temtem": "Banapi",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 80,
         "lumaRate": 1,
         "minSvs": 27,
@@ -19,9 +2322,7 @@
       },
       {
         "temtem": "Halzhi",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 80,
         "lumaRate": 1,
         "minSvs": 26,
@@ -31,19 +2332,17 @@
     "water": []
   },
   {
-    "dateRange": "Apr 13th to Apr 19th 2020",
-    "startDateFormatted": "13/04/2020",
-    "endDateFormatted": "19/04/2020",
-    "startDate": "2020-04-13T00:00:00.000Z",
-    "endDate": "2020-04-19T23:59:59.999Z",
+    "dateRange": "May 4th to May 10th 2020",
+    "startDateFormatted": "04/05/2020",
+    "endDateFormatted": "10/05/2020",
+    "startDate": "2020-05-03T23:00:00.000Z",
+    "endDate": "2020-05-10T22:59:59.999Z",
     "tweet": "https://pbs.twimg.com/media/E1AwNsqWQAAZp8u?format=jpg&name=4096x4096",
     "land": [],
     "water": [
       {
         "temtem": "Pewki",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 4,
         "minSvs": 0,
@@ -52,18 +2351,16 @@
     ]
   },
   {
-    "dateRange": "Apr 13th to Apr 19th 2020",
-    "startDateFormatted": "13/04/2020",
-    "endDateFormatted": "19/04/2020",
-    "startDate": "2020-04-13T00:00:00.000Z",
-    "endDate": "2020-04-19T23:59:59.999Z",
+    "dateRange": "May 4th to May 10th 2020",
+    "startDateFormatted": "04/05/2020",
+    "endDateFormatted": "10/05/2020",
+    "startDate": "2020-05-03T23:00:00.000Z",
+    "endDate": "2020-05-10T22:59:59.999Z",
     "tweet": "https://pbs.twimg.com/media/E1AwNsqWQAAZp8u?format=jpg&name=4096x4096",
     "land": [
       {
         "temtem": "Hoglip",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 90,
         "lumaRate": 3,
         "minSvs": 0,
@@ -73,18 +2370,16 @@
     "water": []
   },
   {
-    "dateRange": "Apr 6th to Apr 12th 2020",
-    "startDateFormatted": "06/04/2020",
-    "endDateFormatted": "12/04/2020",
-    "startDate": "2020-04-06T00:00:00.000Z",
-    "endDate": "2020-04-12T23:59:59.999Z",
+    "dateRange": "Apr 27th to May 3rd 2020",
+    "startDateFormatted": "27/04/2020",
+    "endDateFormatted": "03/05/2020",
+    "startDate": "2020-04-26T23:00:00.000Z",
+    "endDate": "2020-05-03T22:59:59.999Z",
     "tweet": "https://pbs.twimg.com/media/E0ctTbtXoAE_Zw3?format=jpg&name=4096x4096",
     "land": [
       {
         "temtem": "Vulvir",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 30,
@@ -92,9 +2387,7 @@
       },
       {
         "temtem": "Scarawatt",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 30,
@@ -104,18 +2397,16 @@
     "water": []
   },
   {
-    "dateRange": "Mar 30th to Apr 5th 2020",
-    "startDateFormatted": "30/03/2020",
-    "endDateFormatted": "05/04/2020",
-    "startDate": "2020-03-30T00:00:00.000Z",
-    "endDate": "2020-04-05T23:59:59.999Z",
+    "dateRange": "Apr 20th to Apr 26th 2020",
+    "startDateFormatted": "20/04/2020",
+    "endDateFormatted": "26/04/2020",
+    "startDate": "2020-04-19T23:00:00.000Z",
+    "endDate": "2020-04-26T22:59:59.999Z",
     "tweet": "https://pbs.twimg.com/media/E0ctTbtXoAE_Zw3?format=jpg&name=4096x4096",
     "land": [
       {
         "temtem": "0b1",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 90,
         "lumaRate": 3,
         "minSvs": 0,
@@ -123,9 +2414,7 @@
       },
       {
         "temtem": "Ampling",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -135,18 +2424,16 @@
     "water": []
   },
   {
-    "dateRange": "Mar 23rd to Mar 29th 2020",
-    "startDateFormatted": "23/03/2020",
-    "endDateFormatted": "29/03/2020",
-    "startDate": "2020-03-23T00:00:00.000Z",
-    "endDate": "2020-03-29T23:59:59.999Z",
+    "dateRange": "Apr 13th to Apr 19th 2020",
+    "startDateFormatted": "13/04/2020",
+    "endDateFormatted": "19/04/2020",
+    "startDate": "2020-04-12T23:00:00.000Z",
+    "endDate": "2020-04-19T22:59:59.999Z",
     "tweet": "https://pbs.twimg.com/media/EzUnVbbUYAUzdZ2?format=jpg&name=4096x4096",
     "land": [
       {
         "temtem": "Pigepic",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 39,
@@ -156,9 +2443,7 @@
     "water": [
       {
         "temtem": "Koish",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 33,
@@ -167,18 +2452,16 @@
     ]
   },
   {
-    "dateRange": "Mar 16th to Mar 22nd 2020",
-    "startDateFormatted": "16/03/2020",
-    "endDateFormatted": "22/03/2020",
-    "startDate": "2020-03-16T00:00:00.000Z",
-    "endDate": "2020-03-22T23:59:59.999Z",
+    "dateRange": "Apr 6th to Apr 12th 2020",
+    "startDateFormatted": "06/04/2020",
+    "endDateFormatted": "12/04/2020",
+    "startDate": "2020-04-05T23:00:00.000Z",
+    "endDate": "2020-04-12T22:59:59.999Z",
     "tweet": "https://pbs.twimg.com/media/EywkAryWgAA93ns?format=jpg&name=4096x4096",
     "land": [
       {
         "temtem": "Toxolotl",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -186,9 +2469,7 @@
       },
       {
         "temtem": "Spriole",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 4,
         "minSvs": 0,
@@ -198,18 +2479,97 @@
     "water": []
   },
   {
-    "dateRange": "Mar 9th to Mar 15th 2020",
-    "startDateFormatted": "09/03/2020",
-    "endDateFormatted": "15/03/2020",
-    "startDate": "2020-03-09T00:00:00.000Z",
-    "endDate": "2020-03-15T23:59:59.999Z",
+    "dateRange": "Apr 5th to Apr 11th 2021",
+    "startDateFormatted": "05/04/2021",
+    "endDateFormatted": "11/04/2021",
+    "startDate": "2021-04-04T23:00:00.000Z",
+    "endDate": "2021-04-10T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/EyMhqAmXAAADq4u.jpg:large",
+    "land": [
+      {
+        "temtem": "Akranox",
+        "areas": ["Hills"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 27,
+        "eggTechPercent": 10
+      },
+      {
+        "temtem": "Occlura",
+        "areas": ["Caves"],
+        "ratePercent": 85,
+        "lumaRate": 1,
+        "minSvs": 26,
+        "eggTechPercent": 12
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Mar 29th to Apr 4th 2021",
+    "startDateFormatted": "29/03/2021",
+    "endDateFormatted": "04/04/2021",
+    "startDate": "2021-03-28T23:00:00.000Z",
+    "endDate": "2021-04-03T23:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/ExoddU4WUAIz31y.jpg:large",
+    "land": [
+      {
+        "temtem": "Lapinite",
+        "areas": ["Caves"],
+        "ratePercent": 100,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 15
+      },
+      {
+        "temtem": "Mushi",
+        "areas": ["Fields"],
+        "ratePercent": 80,
+        "lumaRate": 3,
+        "minSvs": 0,
+        "eggTechPercent": 15
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Mar 22nd to Mar 28th 2021",
+    "startDateFormatted": "22/03/2021",
+    "endDateFormatted": "28/03/2021",
+    "startDate": "2021-03-22T00:00:00.000Z",
+    "endDate": "2021-03-28T00:00:00.000Z",
+    "tweet": "https://pbs.twimg.com/media/ExEa8EiWUAAOmer.jpg:large",
+    "land": [
+      {
+        "temtem": "Kaku",
+        "areas": ["Hills"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 28,
+        "eggTechPercent": 10
+      },
+      {
+        "temtem": "Swali",
+        "areas": ["Fields"],
+        "ratePercent": 100,
+        "lumaRate": 1,
+        "minSvs": 28,
+        "eggTechPercent": 10
+      }
+    ],
+    "water": []
+  },
+  {
+    "dateRange": "Mar 15th to Mar 21st 2021",
+    "startDateFormatted": "15/03/2021",
+    "endDateFormatted": "21/03/2021",
+    "startDate": "2021-03-15T00:00:00.000Z",
+    "endDate": "2021-03-21T00:00:00.000Z",
     "tweet": "https://pbs.twimg.com/media/EwgXNRnWYAImfqU.jpg:large",
     "land": [
       {
         "temtem": "Vulffy",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 65,
         "lumaRate": 4,
         "minSvs": 0,
@@ -217,9 +2577,7 @@
       },
       {
         "temtem": "Osuchi",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 60,
         "lumaRate": 4,
         "minSvs": 0,
@@ -229,18 +2587,16 @@
     "water": []
   },
   {
-    "dateRange": "Mar 2nd to Mar 8th 2020",
-    "startDateFormatted": "02/03/2020",
-    "endDateFormatted": "08/03/2020",
-    "startDate": "2020-03-02T00:00:00.000Z",
-    "endDate": "2020-03-08T23:59:59.999Z",
+    "dateRange": "Mar 8th to Mar 14th 2021",
+    "startDateFormatted": "08/03/2021",
+    "endDateFormatted": "14/03/2021",
+    "startDate": "2021-03-08T00:00:00.000Z",
+    "endDate": "2021-03-14T00:00:00.000Z",
     "tweet": "https://pbs.twimg.com/media/Ev8UAp7XEAAao1l?format=jpg&name=4096x4096",
     "land": [
       {
         "temtem": "Momo",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 28,
@@ -248,9 +2604,7 @@
       },
       {
         "temtem": "Orphyll",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 26,
@@ -269,9 +2623,7 @@
     "land": [
       {
         "temtem": "Grumvel",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 75,
         "lumaRate": 4,
         "minSvs": 0,
@@ -281,9 +2633,7 @@
     "water": [
       {
         "temtem": "Droply",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 80,
         "lumaRate": 4,
         "minSvs": 0,
@@ -301,9 +2651,7 @@
     "land": [
       {
         "temtem": "Kuri",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 28,
@@ -311,9 +2659,7 @@
       },
       {
         "temtem": "Ganki",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 25,
@@ -332,9 +2678,7 @@
     "land": [
       {
         "temtem": "Bunbun",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 70,
         "lumaRate": 4,
         "minSvs": 0,
@@ -344,9 +2688,7 @@
     "water": [
       {
         "temtem": "Umishi",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 80,
         "lumaRate": 4,
         "minSvs": 0,
@@ -364,9 +2706,7 @@
     "land": [
       {
         "temtem": "Zephyruff",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 80,
         "lumaRate": 1,
         "minSvs": 30,
@@ -376,9 +2716,7 @@
     "water": [
       {
         "temtem": "Bigu",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 80,
         "lumaRate": 1,
         "minSvs": 26,
@@ -396,9 +2734,7 @@
     "land": [
       {
         "temtem": "Zizare",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 60,
         "lumaRate": 3,
         "minSvs": 0,
@@ -406,9 +2742,7 @@
       },
       {
         "temtem": "Kaku",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 80,
         "lumaRate": 4,
         "minSvs": 0,
@@ -427,9 +2761,7 @@
     "land": [
       {
         "temtem": "Goty",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 80,
         "lumaRate": 1,
         "minSvs": 28,
@@ -448,9 +2780,7 @@
     "land": [
       {
         "temtem": "Swali",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 80,
         "lumaRate": 4,
         "minSvs": 0,
@@ -458,9 +2788,7 @@
       },
       {
         "temtem": "Hidody",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 80,
         "lumaRate": 4,
         "minSvs": 0,
@@ -479,9 +2807,7 @@
     "land": [
       {
         "temtem": "Spriole",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 26,
@@ -489,9 +2815,7 @@
       },
       {
         "temtem": "Blooze",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 23,
@@ -510,9 +2834,7 @@
     "land": [
       {
         "temtem": "Tateru",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -522,9 +2844,7 @@
     "water": [
       {
         "temtem": "Saipat",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -542,9 +2862,7 @@
     "land": [
       {
         "temtem": "Magmis",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 25,
@@ -554,9 +2872,7 @@
     "water": [
       {
         "temtem": "Kalazu",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 25,
@@ -574,9 +2890,7 @@
     "land": [
       {
         "temtem": "Fomu",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -586,9 +2900,7 @@
     "water": [
       {
         "temtem": "Koish",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 4,
         "minSvs": 0,
@@ -606,9 +2918,7 @@
     "land": [
       {
         "temtem": "Paharo",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 26,
@@ -616,9 +2926,7 @@
       },
       {
         "temtem": "Lapinite",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 24,
@@ -637,9 +2945,7 @@
     "land": [
       {
         "temtem": "Banapi",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -649,9 +2955,7 @@
     "water": [
       {
         "temtem": "Platypet",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -669,9 +2973,7 @@
     "land": [
       {
         "temtem": "Vulffy",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 28,
@@ -679,9 +2981,7 @@
       },
       {
         "temtem": "Raiber",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 60,
         "lumaRate": 1,
         "minSvs": 28,
@@ -700,9 +3000,7 @@
     "land": [
       {
         "temtem": "Vulvir",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 90,
         "lumaRate": 3,
         "minSvs": 0,
@@ -710,9 +3008,7 @@
       },
       {
         "temtem": "Akranox",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 90,
         "lumaRate": 3,
         "minSvs": 0,
@@ -731,9 +3027,7 @@
     "land": [
       {
         "temtem": "Toxolotl",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 28,
@@ -743,9 +3037,7 @@
     "water": [
       {
         "temtem": "Pewki",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 90,
         "lumaRate": 1,
         "minSvs": 25,
@@ -763,9 +3055,7 @@
     "land": [
       {
         "temtem": "Momo",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 60,
         "lumaRate": 3,
         "minSvs": 0,
@@ -773,9 +3063,7 @@
       },
       {
         "temtem": "Adoroboros",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 40,
         "lumaRate": 3,
         "minSvs": 0,
@@ -794,9 +3082,7 @@
     "land": [
       {
         "temtem": "Osuchi",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 80,
         "lumaRate": 1,
         "minSvs": 28,
@@ -804,9 +3090,7 @@
       },
       {
         "temtem": "Bunbun",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 80,
         "lumaRate": 1,
         "minSvs": 28,
@@ -825,9 +3109,7 @@
     "land": [
       {
         "temtem": "Kuri",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 50,
         "lumaRate": 4,
         "minSvs": 0,
@@ -835,9 +3117,7 @@
       },
       {
         "temtem": "Occlura",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 50,
         "lumaRate": 4,
         "minSvs": 0,
@@ -850,15 +3130,13 @@
     "dateRange": "Oct 19th to Oct 25th 2020",
     "startDateFormatted": "19/10/2020",
     "endDateFormatted": "25/10/2020",
-    "startDate": "2020-10-19T00:00:00.000Z",
+    "startDate": "2020-10-18T23:00:00.000Z",
     "endDate": "2020-10-25T23:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1318099964770353154",
     "land": [
       {
         "temtem": "Magmis",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 70,
         "lumaRate": 3,
         "minSvs": 0,
@@ -866,9 +3144,7 @@
       },
       {
         "temtem": "Orphyll",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 60,
         "lumaRate": 3,
         "minSvs": 0,
@@ -881,15 +3157,13 @@
     "dateRange": "Oct 12th to Oct 18th 2020",
     "startDateFormatted": "12/10/2020",
     "endDateFormatted": "18/10/2020",
-    "startDate": "2020-10-12T00:00:00.000Z",
-    "endDate": "2020-10-18T23:59:59.999Z",
+    "startDate": "2020-10-11T23:00:00.000Z",
+    "endDate": "2020-10-18T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1313026545276067843",
     "land": [
       {
         "temtem": "Mushi",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 70,
         "lumaRate": 1,
         "minSvs": 27,
@@ -899,9 +3173,7 @@
     "water": [
       {
         "temtem": "Droply",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 70,
         "lumaRate": 1,
         "minSvs": 30,
@@ -913,15 +3185,13 @@
     "dateRange": "Oct 5th to Oct 11th 2020",
     "startDateFormatted": "05/10/2020",
     "endDateFormatted": "11/10/2020",
-    "startDate": "2020-10-05T00:00:00.000Z",
-    "endDate": "2020-10-11T23:59:59.999Z",
+    "startDate": "2020-10-04T23:00:00.000Z",
+    "endDate": "2020-10-11T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1313026545276067843",
     "land": [
       {
         "temtem": "Ganki",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 80,
         "lumaRate": 4,
         "minSvs": 0,
@@ -931,9 +3201,7 @@
     "water": [
       {
         "temtem": "Bigu",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 80,
         "lumaRate": 3,
         "minSvs": 0,
@@ -945,15 +3213,13 @@
     "dateRange": "Sep 28th to Oct 4th 2020",
     "startDateFormatted": "28/09/2020",
     "endDateFormatted": "04/10/2020",
-    "startDate": "2020-09-28T00:00:00.000Z",
-    "endDate": "2020-10-04T23:59:59.999Z",
+    "startDate": "2020-09-27T23:00:00.000Z",
+    "endDate": "2020-10-04T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1310489842946641920",
     "land": [
       {
         "temtem": "Grumvel",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 29,
@@ -961,9 +3227,7 @@
       },
       {
         "temtem": "Zizare",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 28,
@@ -976,15 +3240,13 @@
     "dateRange": "Sep 21st to Sep 27th 2020",
     "startDateFormatted": "21/09/2020",
     "endDateFormatted": "27/09/2020",
-    "startDate": "2020-09-21T00:00:00.000Z",
-    "endDate": "2020-09-27T23:59:59.999Z",
+    "startDate": "2020-09-20T23:00:00.000Z",
+    "endDate": "2020-09-27T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1307892697664040961",
     "land": [
       {
         "temtem": "Lapinite",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 85,
         "lumaRate": 3,
         "minSvs": 0,
@@ -992,9 +3254,7 @@
       },
       {
         "temtem": "Skail",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1007,15 +3267,13 @@
     "dateRange": "Sep 14th to Sep 20th 2020",
     "startDateFormatted": "14/09/2020",
     "endDateFormatted": "20/09/2020",
-    "startDate": "2020-09-14T00:00:00.000Z",
-    "endDate": "2020-09-20T23:59:59.999Z",
+    "startDate": "2020-09-13T23:00:00.000Z",
+    "endDate": "2020-09-20T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1305355898014101505",
     "land": [
       {
         "temtem": "Swali",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 29,
@@ -1023,9 +3281,7 @@
       },
       {
         "temtem": "Orphyll",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 29,
@@ -1038,15 +3294,13 @@
     "dateRange": "Sep 7th to Sep 13th 2020",
     "startDateFormatted": "07/09/2020",
     "endDateFormatted": "13/09/2020",
-    "startDate": "2020-09-07T00:00:00.000Z",
-    "endDate": "2020-09-13T23:59:59.999Z",
+    "startDate": "2020-09-06T23:00:00.000Z",
+    "endDate": "2020-09-13T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1302859250222485506",
     "land": [
       {
         "temtem": "Goty",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1054,9 +3308,7 @@
       },
       {
         "temtem": "Pycko",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 50,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1069,15 +3321,13 @@
     "dateRange": "Aug 31st to Sep 6th 2020",
     "startDateFormatted": "31/08/2020",
     "endDateFormatted": "06/09/2020",
-    "startDate": "2020-08-31T00:00:00.000Z",
-    "endDate": "2020-09-06T23:59:59.999Z",
+    "startDate": "2020-08-30T23:00:00.000Z",
+    "endDate": "2020-09-06T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1300342925486952448",
     "land": [
       {
         "temtem": "Hidody",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 27,
@@ -1087,9 +3337,7 @@
     "water": [
       {
         "temtem": "Fomu",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 30,
@@ -1101,15 +3349,13 @@
     "dateRange": "Aug 24th to Aug 30th 2020",
     "startDateFormatted": "24/08/2020",
     "endDateFormatted": "30/08/2020",
-    "startDate": "2020-08-24T00:00:00.000Z",
-    "endDate": "2020-08-30T23:59:59.999Z",
+    "startDate": "2020-08-23T23:00:00.000Z",
+    "endDate": "2020-08-30T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1297806215565553665",
     "land": [
       {
         "temtem": "Blooze",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 50,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1117,9 +3363,7 @@
       },
       {
         "temtem": "Zephyruff",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 75,
         "lumaRate": 4,
         "minSvs": 0,
@@ -1132,15 +3376,13 @@
     "dateRange": "Aug 17th to Aug 23rd 2020",
     "startDateFormatted": "17/08/2020",
     "endDateFormatted": "23/08/2020",
-    "startDate": "2020-08-17T00:00:00.000Z",
-    "endDate": "2020-08-23T23:59:59.999Z",
+    "startDate": "2020-08-16T23:00:00.000Z",
+    "endDate": "2020-08-23T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1295157175145451521",
     "land": [
       {
         "temtem": "Kaku",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 29,
@@ -1150,9 +3392,7 @@
     "water": [
       {
         "temtem": "Umishi",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 27,
@@ -1164,16 +3404,13 @@
     "dateRange": "Aug 10th to Aug 16th 2020",
     "startDateFormatted": "10/08/2020",
     "endDateFormatted": "16/08/2020",
-    "startDate": "2020-08-10T00:00:00.000Z",
-    "endDate": "2020-08-16T23:59:59.999Z",
+    "startDate": "2020-08-09T23:00:00.000Z",
+    "endDate": "2020-08-16T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1292732785493528576",
     "land": [
       {
         "temtem": "Pigepic",
-        "areas": [
-          "Fields",
-          "Hills"
-        ],
+        "areas": ["Fields", "Hills"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1183,9 +3420,7 @@
     "water": [
       {
         "temtem": "Kalazu",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1197,15 +3432,13 @@
     "dateRange": "Aug 3rd to Aug 9th 2020",
     "startDateFormatted": "03/08/2020",
     "endDateFormatted": "09/08/2020",
-    "startDate": "2020-08-03T00:00:00.000Z",
-    "endDate": "2020-08-09T23:59:59.999Z",
+    "startDate": "2020-08-02T23:00:00.000Z",
+    "endDate": "2020-08-09T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1290170043779518467",
     "land": [
       {
         "temtem": "Ganki",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 30,
@@ -1215,9 +3448,7 @@
     "water": [
       {
         "temtem": "Platypet",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 27,
@@ -1229,16 +3460,13 @@
     "dateRange": "Jul 27th to Aug 2nd 2020",
     "startDateFormatted": "27/07/2020",
     "endDateFormatted": "02/08/2020",
-    "startDate": "2020-07-27T00:00:00.000Z",
-    "endDate": "2020-08-02T23:59:59.999Z",
+    "startDate": "2020-07-26T23:00:00.000Z",
+    "endDate": "2020-08-02T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1287631743265255428",
     "land": [
       {
         "temtem": "Paharo",
-        "areas": [
-          "Fields",
-          "Hills"
-        ],
+        "areas": ["Fields", "Hills"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1246,9 +3474,7 @@
       },
       {
         "temtem": "Spriole",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1261,16 +3487,13 @@
     "dateRange": "Jul 20th to Jul 26th 2020",
     "startDateFormatted": "20/07/2020",
     "endDateFormatted": "26/07/2020",
-    "startDate": "2020-07-20T00:00:00.000Z",
-    "endDate": "2020-07-26T23:59:59.999Z",
+    "startDate": "2020-07-19T23:00:00.000Z",
+    "endDate": "2020-07-26T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1285062145487642624",
     "land": [
       {
         "temtem": "Tateru",
-        "areas": [
-          "Fields",
-          "Hills"
-        ],
+        "areas": ["Fields", "Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 30,
@@ -1278,10 +3501,7 @@
       },
       {
         "temtem": "Saipat",
-        "areas": [
-          "Caves",
-          "Water"
-        ],
+        "areas": ["Caves", "Water"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 27,
@@ -1291,10 +3511,7 @@
     "water": [
       {
         "temtem": "Saipat",
-        "areas": [
-          "Caves",
-          "Water"
-        ],
+        "areas": ["Caves", "Water"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 27,
@@ -1306,15 +3523,13 @@
     "dateRange": "Jul 13th to Jul 19th 2020",
     "startDateFormatted": "13/07/2020",
     "endDateFormatted": "19/07/2020",
-    "startDate": "2020-07-13T00:00:00.000Z",
-    "endDate": "2020-07-19T23:59:59.999Z",
+    "startDate": "2020-07-12T23:00:00.000Z",
+    "endDate": "2020-07-19T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1282525442168295424",
     "land": [
       {
         "temtem": "Occlura",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 60,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1322,9 +3537,7 @@
       },
       {
         "temtem": "Raiber",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 50,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1337,15 +3550,13 @@
     "dateRange": "Jul 6th to Jul 12th 2020",
     "startDateFormatted": "06/07/2020",
     "endDateFormatted": "12/07/2020",
-    "startDate": "2020-07-06T00:00:00.000Z",
-    "endDate": "2020-07-12T23:59:59.999Z",
+    "startDate": "2020-07-05T23:00:00.000Z",
+    "endDate": "2020-07-12T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1279988696398417920",
     "land": [
       {
         "temtem": "Adoroboros",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 50,
         "lumaRate": 1,
         "minSvs": 27,
@@ -1353,9 +3564,7 @@
       },
       {
         "temtem": "Banapi",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 31,
@@ -1368,15 +3577,13 @@
     "dateRange": "Jun 29th to Jul 5th 2020",
     "startDateFormatted": "29/06/2020",
     "endDateFormatted": "05/07/2020",
-    "startDate": "2020-06-29T00:00:00.000Z",
-    "endDate": "2020-07-05T23:59:59.999Z",
+    "startDate": "2020-06-28T23:00:00.000Z",
+    "endDate": "2020-07-05T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1277452100344188930",
     "land": [
       {
         "temtem": "Kaku",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1384,9 +3591,7 @@
       },
       {
         "temtem": "Hidody",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 75,
         "lumaRate": 2,
         "minSvs": 0,
@@ -1399,16 +3604,13 @@
     "dateRange": "Jun 22nd to Jun 28th 2020",
     "startDateFormatted": "22/06/2020",
     "endDateFormatted": "28/06/2020",
-    "startDate": "2020-06-22T00:00:00.000Z",
-    "endDate": "2020-06-28T23:59:59.999Z",
+    "startDate": "2020-06-21T23:00:00.000Z",
+    "endDate": "2020-06-28T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1274915293501050880",
     "land": [
       {
         "temtem": "Ganki",
-        "areas": [
-          "Fields",
-          "Hills"
-        ],
+        "areas": ["Fields", "Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 28,
@@ -1416,10 +3618,7 @@
       },
       {
         "temtem": "Umishi",
-        "areas": [
-          "Caves",
-          "Water"
-        ],
+        "areas": ["Caves", "Water"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 28,
@@ -1429,10 +3628,7 @@
     "water": [
       {
         "temtem": "Umishi",
-        "areas": [
-          "Caves",
-          "Water"
-        ],
+        "areas": ["Caves", "Water"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 28,
@@ -1444,15 +3640,13 @@
     "dateRange": "Jun 15th to Jun 21st 2020",
     "startDateFormatted": "15/06/2020",
     "endDateFormatted": "21/06/2020",
-    "startDate": "2020-06-15T00:00:00.000Z",
-    "endDate": "2020-06-21T23:59:59.999Z",
+    "startDate": "2020-06-14T23:00:00.000Z",
+    "endDate": "2020-06-21T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1272413175481282561",
     "land": [
       {
         "temtem": "Tuwai",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 20,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1460,9 +3654,7 @@
       },
       {
         "temtem": "Shuine",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 20,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1475,15 +3667,13 @@
     "dateRange": "Jun 8th to Jun 14th 2020",
     "startDateFormatted": "08/06/2020",
     "endDateFormatted": "14/06/2020",
-    "startDate": "2020-06-08T00:00:00.000Z",
-    "endDate": "2020-06-14T23:59:59.999Z",
+    "startDate": "2020-06-07T23:00:00.000Z",
+    "endDate": "2020-06-14T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1269841811054440449",
     "land": [
       {
         "temtem": "Skail",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 30,
@@ -1491,9 +3681,7 @@
       },
       {
         "temtem": "Zephyruff",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 24,
@@ -1506,15 +3694,13 @@
     "dateRange": "Jun 1st to Jun 7th 2020",
     "startDateFormatted": "01/06/2020",
     "endDateFormatted": "07/06/2020",
-    "startDate": "2020-06-01T00:00:00.000Z",
-    "endDate": "2020-06-07T23:59:59.999Z",
+    "startDate": "2020-05-31T23:00:00.000Z",
+    "endDate": "2020-06-07T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1267305055646035969",
     "land": [
       {
         "temtem": "Valash",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 40,
         "lumaRate": 2,
         "minSvs": 0,
@@ -1524,9 +3710,7 @@
     "water": [
       {
         "temtem": "Nessla",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 40,
         "lumaRate": 2,
         "minSvs": 0,
@@ -1538,15 +3722,13 @@
     "dateRange": "May 25th to May 31st 2020",
     "startDateFormatted": "25/05/2020",
     "endDateFormatted": "31/05/2020",
-    "startDate": "2020-05-25T00:00:00.000Z",
-    "endDate": "2020-05-31T23:59:59.999Z",
+    "startDate": "2020-05-24T23:00:00.000Z",
+    "endDate": "2020-05-31T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1264768367405289473",
     "land": [
       {
         "temtem": "Loali",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 28,
@@ -1554,9 +3736,7 @@
       },
       {
         "temtem": "Vulor",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 90,
         "lumaRate": 1,
         "minSvs": 30,
@@ -1569,15 +3749,13 @@
     "dateRange": "May 18th to May 24th 2020",
     "startDateFormatted": "18/05/2020",
     "endDateFormatted": "24/05/2020",
-    "startDate": "2020-05-18T00:00:00.000Z",
-    "endDate": "2020-05-24T23:59:59.999Z",
+    "startDate": "2020-05-17T23:00:00.000Z",
+    "endDate": "2020-05-24T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1262231637443706882",
     "land": [
       {
         "temtem": "Tateru",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 85,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1585,10 +3763,7 @@
       },
       {
         "temtem": "Pewki",
-        "areas": [
-          "Caves",
-          "Water"
-        ],
+        "areas": ["Caves", "Water"],
         "ratePercent": 75,
         "lumaRate": 2.5,
         "minSvs": 0,
@@ -1598,10 +3773,7 @@
     "water": [
       {
         "temtem": "Pewki",
-        "areas": [
-          "Caves",
-          "Water"
-        ],
+        "areas": ["Caves", "Water"],
         "ratePercent": 75,
         "lumaRate": 2.5,
         "minSvs": 0,
@@ -1613,15 +3785,13 @@
     "dateRange": "May 11th to May 17th 2020",
     "startDateFormatted": "11/05/2020",
     "endDateFormatted": "17/05/2020",
-    "startDate": "2020-05-11T00:00:00.000Z",
-    "endDate": "2020-05-17T23:59:59.999Z",
+    "startDate": "2020-05-10T23:00:00.000Z",
+    "endDate": "2020-05-17T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1259730203322060801",
     "land": [
       {
         "temtem": "Pigepic",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 22,
@@ -1629,9 +3799,7 @@
       },
       {
         "temtem": "Hidody",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 70,
         "lumaRate": 1,
         "minSvs": 26,
@@ -1644,15 +3812,13 @@
     "dateRange": "May 4th to May 10th 2020",
     "startDateFormatted": "04/05/2020",
     "endDateFormatted": "10/05/2020",
-    "startDate": "2020-05-04T00:00:00.000Z",
-    "endDate": "2020-05-10T23:59:59.999Z",
+    "startDate": "2020-05-03T23:00:00.000Z",
+    "endDate": "2020-05-10T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1257158204456345600/",
     "land": [
       {
         "temtem": "Fomu",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1662,9 +3828,7 @@
     "water": [
       {
         "temtem": "Umishi",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1676,15 +3840,13 @@
     "dateRange": "Apr 27th to May 3rd 2020",
     "startDateFormatted": "27/04/2020",
     "endDateFormatted": "03/05/2020",
-    "startDate": "2020-04-27T00:00:00.000Z",
-    "endDate": "2020-05-03T23:59:59.999Z",
+    "startDate": "2020-04-26T23:00:00.000Z",
+    "endDate": "2020-05-03T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1254621474545115142",
     "land": [
       {
         "temtem": "Gyalis",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 25,
         "lumaRate": 1,
         "minSvs": 20,
@@ -1692,9 +3854,7 @@
       },
       {
         "temtem": "Orphyll",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 80,
         "lumaRate": 1,
         "minSvs": 27,
@@ -1707,16 +3867,13 @@
     "dateRange": "Apr 20th to Apr 26th 2020",
     "startDateFormatted": "20/04/2020",
     "endDateFormatted": "26/04/2020",
-    "startDate": "2020-04-20T00:00:00.000Z",
-    "endDate": "2020-04-26T23:59:59.999Z",
+    "startDate": "2020-04-19T23:00:00.000Z",
+    "endDate": "2020-04-26T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1252084759536246786",
     "land": [
       {
         "temtem": "Banapi",
-        "areas": [
-          "Fields",
-          "Hills"
-        ],
+        "areas": ["Fields", "Hills"],
         "ratePercent": 100,
         "lumaRate": 2,
         "minSvs": 0,
@@ -1726,9 +3883,7 @@
     "water": [
       {
         "temtem": "Bigu",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 55,
         "lumaRate": 2,
         "minSvs": 0,
@@ -1740,15 +3895,13 @@
     "dateRange": "Apr 13th to Apr 19th 2020",
     "startDateFormatted": "13/04/2020",
     "endDateFormatted": "19/04/2020",
-    "startDate": "2020-04-13T00:00:00.000Z",
-    "endDate": "2020-04-19T23:59:59.999Z",
+    "startDate": "2020-04-12T23:00:00.000Z",
+    "endDate": "2020-04-19T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1249548037531275264",
     "land": [
       {
         "temtem": "Kaku",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 90,
         "lumaRate": 1,
         "minSvs": 26,
@@ -1756,9 +3909,7 @@
       },
       {
         "temtem": "Lapinite",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 24,
@@ -1771,15 +3922,13 @@
     "dateRange": "Apr 6th to Apr 12th 2020",
     "startDateFormatted": "06/04/2020",
     "endDateFormatted": "12/04/2020",
-    "startDate": "2020-04-06T00:00:00.000Z",
-    "endDate": "2020-04-12T23:59:59.999Z",
+    "startDate": "2020-04-05T23:00:00.000Z",
+    "endDate": "2020-04-12T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1247011345477885954",
     "land": [
       {
         "temtem": "Bunbun",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 50,
         "lumaRate": 2,
         "minSvs": 10,
@@ -1787,9 +3936,7 @@
       },
       {
         "temtem": "Mudrid",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 50,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1802,15 +3949,13 @@
     "dateRange": "Mar 30th to Apr 5th 2020",
     "startDateFormatted": "30/03/2020",
     "endDateFormatted": "05/04/2020",
-    "startDate": "2020-03-30T00:00:00.000Z",
-    "endDate": "2020-04-05T23:59:59.999Z",
+    "startDate": "2020-03-29T23:00:00.000Z",
+    "endDate": "2020-04-05T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1244474601331142658",
     "land": [
       {
         "temtem": "Toxolotl",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 100,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1820,9 +3965,7 @@
     "water": [
       {
         "temtem": "Platypet",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 100,
         "lumaRate": 2.5,
         "minSvs": 0,
@@ -1835,15 +3978,12 @@
     "startDateFormatted": "23/03/2020",
     "endDateFormatted": "29/03/2020",
     "startDate": "2020-03-23T00:00:00.000Z",
-    "endDate": "2020-03-29T23:59:59.999Z",
+    "endDate": "2020-03-29T22:59:59.999Z",
     "tweet": "https://twitter.com/PlayTemtem/status/1241937906194886656",
     "land": [
       {
         "temtem": "Paharo",
-        "areas": [
-          "Fields",
-          "Hills"
-        ],
+        "areas": ["Fields", "Hills"],
         "ratePercent": 100,
         "lumaRate": 1,
         "minSvs": 203,
@@ -1851,9 +3991,7 @@
       },
       {
         "temtem": "Magmis",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 90,
         "lumaRate": 1,
         "minSvs": 175,
@@ -1872,9 +4010,7 @@
     "land": [
       {
         "temtem": "Mushi",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 80,
         "lumaRate": 3,
         "minSvs": 0,
@@ -1882,9 +4018,7 @@
       },
       {
         "temtem": "Adoroboros",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 70,
         "lumaRate": 2,
         "minSvs": 0,
@@ -1903,9 +4037,7 @@
     "land": [
       {
         "temtem": "Blooze",
-        "areas": [
-          "Caves"
-        ],
+        "areas": ["Caves"],
         "ratePercent": 85,
         "lumaRate": 1,
         "minSvs": 147,
@@ -1913,9 +4045,7 @@
       },
       {
         "temtem": "Deendre",
-        "areas": [
-          "Fields"
-        ],
+        "areas": ["Fields"],
         "ratePercent": 75,
         "lumaRate": 1,
         "minSvs": 168,
@@ -1934,9 +4064,7 @@
     "land": [
       {
         "temtem": "Ganki",
-        "areas": [
-          "Hills"
-        ],
+        "areas": ["Hills"],
         "ratePercent": 85,
         "lumaRate": 2.5,
         "minSvs": 0,
@@ -1944,10 +4072,7 @@
       },
       {
         "temtem": "Saipat",
-        "areas": [
-          "Fields",
-          "Water"
-        ],
+        "areas": ["Fields", "Water"],
         "ratePercent": 100,
         "lumaRate": 2.5,
         "minSvs": 0,
@@ -1957,10 +4082,7 @@
     "water": [
       {
         "temtem": "Saipat",
-        "areas": [
-          "Fields",
-          "Water"
-        ],
+        "areas": ["Fields", "Water"],
         "ratePercent": 100,
         "lumaRate": 2.5,
         "minSvs": 0,
@@ -1978,10 +4100,7 @@
     "land": [
       {
         "temtem": "Raiber",
-        "areas": [
-          "Fields",
-          "Hills"
-        ],
+        "areas": ["Fields", "Hills"],
         "ratePercent": 65,
         "lumaRate": 1,
         "minSvs": 160,
@@ -1991,9 +4110,7 @@
     "water": [
       {
         "temtem": "Kalazu",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 75,
         "lumaRate": 1,
         "minSvs": 190,
@@ -2011,10 +4128,7 @@
     "land": [
       {
         "temtem": "Barnshe",
-        "areas": [
-          "Caves",
-          "Hills"
-        ],
+        "areas": ["Caves", "Hills"],
         "ratePercent": 30,
         "lumaRate": 2,
         "minSvs": 0,
@@ -2024,9 +4138,7 @@
     "water": [
       {
         "temtem": "Oceara",
-        "areas": [
-          "Water"
-        ],
+        "areas": ["Water"],
         "ratePercent": 30,
         "lumaRate": 2,
         "minSvs": 0,
