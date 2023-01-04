@@ -48,7 +48,7 @@ function parseDate(dateString: string, referenceDate: Date) {
   const parts = dateString.split(" ");
   if (parts.length >= 1 && parts[0].length === 4) {
     parts[0] = parts[0].substring(0, 3);
-  } else if (parts.length >= 2 && parts[1].length == 4) {
+  } else if (parts.length >= 2 && parts[1].length === 4) {
     parts[1] = parts[1].substring(0, 3);
   }
   const updatedDateString = parts.join(" ");

@@ -1,6 +1,6 @@
 module.exports = {
   linterOptions: {
-    exclude: ["node_modules", "dist", "coverage", "dev"]
+    exclude: ["node_modules", "dist", "coverage", "dev"],
   },
   rules: {
     /**
@@ -18,13 +18,13 @@ module.exports = {
         ["Object", "Avoid using the `Object` type. Did you mean `object`?"],
         [
           "Function",
-          "Avoid using the `Function` type. Prefer a specific function type, like `() => void`."
+          "Avoid using the `Function` type. Prefer a specific function type, like `() => void`.",
         ],
         ["Boolean", "Avoid using the `Boolean` type. Did you mean `boolean`?"],
         ["Number", "Avoid using the `Number` type. Did you mean `number`?"],
         ["String", "Avoid using the `String` type. Did you mean `string`?"],
-        ["Symbol", "Avoid using the `Symbol` type. Did you mean `symbol`?"]
-      ]
+        ["Symbol", "Avoid using the `Symbol` type. Did you mean `symbol`?"],
+      ],
     ],
     /**
      * Disallows internal `module`
@@ -44,12 +44,7 @@ module.exports = {
      * the type of an expression
      */
     "no-unnecessary-type-assertion": true,
-    /**
-     * Recommends a ‘for-of’ loop over a standard ‘for’ loop
-     * if the index is only used to access the array being
-     * iterated.
-     */
-    "prefer-for-of": true,
+    "prefer-for-of": false,
     /**
      * Requires any function or method that returns a promise
      * to be marked async.
@@ -353,6 +348,6 @@ module.exports = {
     /**
      * Disallows variable names like `any`, `Number`, `string` etc.
      */
-    "variable-name": [true, "ban-keywords"]
-  }
+    "variable-name": [true, "ban-keywords"],
+  },
 };
