@@ -1,5 +1,43 @@
 [
   {
+    "name": "Patch 1.2.1",
+    "version": "1.2.1",
+    "url": "https://crema.gg/temtem/patch-1-2-1/",
+    "date": "2023-1-9",
+    "patchInfo": {
+      "fixes": [],
+      "improvements": [
+        "We have tweaked the idle battle cameras following the feedback provided by the community:In order to reduce motion sickness in some players, we’ve slowed all camera movement to 1/3 of its original movement speed.They will also start after 12 seconds of inactivity, as opposed to the previous 5 seconds of threshold. This will make them way less prevalent.In the specific case of Koish fishing, we’ve removed most of the camera angles so that only cameras that focus on the Koish patterns appear. We have also developed some new cameras for this activity in particular that will make identifying the patterns and colors easier.We know idle cameras have caused issues to some our players. Before we go through with disabling them, which would imply we stop receiving feedback and iterating on the feature, we’d like to give these changes a go to improve the main problems the cameras had. We believe the idle cameras add variety and richness to the game, so we’d rather polish them until everyone is happy than disable them without giving them a chance to be good.",
+        "In order to reduce motion sickness in some players, we’ve slowed all camera movement to 1/3 of its original movement speed.",
+        "They will also start after 12 seconds of inactivity, as opposed to the previous 5 seconds of threshold. This will make them way less prevalent.",
+        "In the specific case of Koish fishing, we’ve removed most of the camera angles so that only cameras that focus on the Koish patterns appear. We have also developed some new cameras for this activity in particular that will make identifying the patterns and colors easier.",
+        "We know idle cameras have caused issues to some our players. Before we go through with disabling them, which would imply we stop receiving feedback and iterating on the feature, we’d like to give these changes a go to improve the main problems the cameras had. We believe the idle cameras add variety and richness to the game, so we’d rather polish them until everyone is happy than disable them without giving them a chance to be good.",
+        "We have added some performance improvements to the Switch version. These improvements will be a huge help with the current crashes that the console is experiencing. But we’re not done yet, and we will be adding even more performance improvements for it in future patches.",
+        "👥Tem Renaming Voucher is no longer automatically used when renaming a Temtem. Players will now always have the option to pay the name change with Pansuns instead.",
+        "👥Players will now be able to use the Fruit Blender with Tems in the Temdeck too, not only the ones in the squad.",
+        "👥The Fruit Blender will now show how the stats will change based on the TVs selected.",
+        "👥Showdown Temtem will now always start with their SV value at 50 by default, instead of 1.",
+        "We have added rarity indicators to customization items, like emotes, loading screens, battle intros, battle outros and battle outro music.",
+        "👥The game will now show the gamepad buttons for each action when you press a modifier (a button that displays a set of hotkeys) in battle.",
+        "👥We’ve added new notifications for the Trade House: when you sell something, and when an auction ends without the item/Tem selling.",
+        "When you input a maximum quantity in one of the advanced options of the Temdeck and Trade House filters, it will now automatically select 0 as the minimum quantity.",
+        "Added more information to the Victory screen at the end of a Ranked match in the case of winning because the opponent concedes or in the case of tying.",
+        "Added a glowing effect to the claimable items of events, the same effect that is used in the Tamer Pass.",
+        "We’ve made some improvements to entering text in some UIs, so it’s easier to understand if the text is not valid for any reason.",
+        "We’ve made some performance improvements to the game’s UI."
+      ],
+      "features": [
+        "We have added chat to battles.You’ll see a new menu during battles from now on, with new icons for the Details, Battle Log, and the Chat with their assigned hotkey.Chat will be hidden by default, and you can make it pop out by pressing the associated hotkey, just how the Battle Log works. Chat in battle is disabled for Ranked matches, in-game tournaments, and Dojo Wars, and available for friendly competitive matches and PvE.",
+        "You’ll see a new menu during battles from now on, with new icons for the Details, Battle Log, and the Chat with their assigned hotkey.",
+        "Chat will be hidden by default, and you can make it pop out by pressing the associated hotkey, just how the Battle Log works. Chat in battle is disabled for Ranked matches, in-game tournaments, and Dojo Wars, and available for friendly competitive matches and PvE.",
+        "We’ve added the new music variations per island, this time to the competitive battle theme.",
+        "The Egg Technique icon now appears in Techniques that are Egg Techs in the details of a Tem in Showdown.",
+        "We’ve implemented a new icon that will notify you if there is something available to claim in events."
+      ],
+      "balance": []
+    }
+  },
+  {
     "name": "Patch 1.2",
     "version": "1.2",
     "url": "https://crema.gg/temtem/patch-1-2/",
