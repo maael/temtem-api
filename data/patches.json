@@ -1,5 +1,49 @@
 [
   {
+    "name": "Patch 1.2.2",
+    "version": "1.2.2",
+    "url": "https://crema.gg/temtem/patch-1-2-2/",
+    "date": "2023-2-2",
+    "patchInfo": {
+      "fixes": [
+        "👥Fixed a softlock when defeating the Digilair boss.",
+        "Fixed a case where players could get stuck in a black screen after a battle in some places, for example at The Highbelow.",
+        "👥Fixed the chat automatically swapping to the Local tab when entering buildings or leaving combat.",
+        "Fixed the Tamer Pass’ Weekly Challenge about buying or selling at the Trade House for a value of 10k Pansuns, that could not be completed by buying before the fix.",
+        "👥Fixed that Temtem on the fourth, fifth and sixth slot of a player’s Squad were receiving EXP and TVs through the Co-op Bonus even when that Temtem had the Ignoramus Cloak equipped.",
+        "Fixed not being able to clear the notifications that were sent manually by using the “Clear all notifications” button.",
+        "Fixed the scroll in the Cosmetics’ menu not working properly if there was an empty row at the end.",
+        "Fixed Tihani having two Temtem with the Sweatband gear.",
+        "Fixed the props of some emotes not being displayed in the Shop preview.",
+        "Fixed the Settings’ UI overlapping with the Ranked UI that appears after a Ranked match if the Player had Settings opened while their opponent conceded.",
+        "Fixed that the Club Banner colors were being changed just by hovering over their icons instead of by clicking the buttons.",
+        "Fixed that, when changing cosmetics, the new one was keeping the old one’s dye colors for a few frames.",
+        "Fixed the description of the technique Lifeful Sap to better explain that it gives 5 turns of regeneration.",
+        "Fixed the description of the technique Hallucination showing the wrong status condition in the description.",
+        "Changed the name of the Magma Eruption seal to something that better reflects the seal animation.",
+        "Fixed the Subscribe prompt appearing in sections of the Trade House where it doesn’t have functionality.",
+        "Fixed a typo in the title Surferfolk in English.",
+        "Fixed some localization bugs in dialogues with NPCs in Portuguese",
+        "Fixed level numbers overlapping the “Lv.” text when playing in French or Chinese.",
+        "Fixed that the “Ready for Picnic” table furniture was not localized in English."
+      ],
+      "improvements": [
+        "We’ve improved the issue with crashes on the Switch.Most of the crashes on Switch were happening due to memory issues. The game would use up all the memory available in the console (the amount varies depending on the console), and then it’d crash. We’ve implemented a series of optimization changes that will substantially ameliorate the current issues.Crashes will still happen from time to time, but now that we’ve dived deep into the issue we will be carrying out more optimization in future patches, so as to improve performance even more.",
+        "Most of the crashes on Switch were happening due to memory issues. The game would use up all the memory available in the console (the amount varies depending on the console), and then it’d crash. We’ve implemented a series of optimization changes that will substantially ameliorate the current issues.",
+        "Crashes will still happen from time to time, but now that we’ve dived deep into the issue we will be carrying out more optimization in future patches, so as to improve performance even more.",
+        "👥We have made some improvements and changes to the dye system:We’ve added a confirmation pop-up when trying to apply a dye to a cosmetic.We have added a confirmation pop-up when trying to remove a dye from a cosmetic.Players cannot use the same dye twice in the same slot of a cosmetic; the game will now show a pop-up error when attempting to do so.A preview of the dyes will now be shown at the Tamer Pass UI and the Premium Store UI.We have added a new label to dyes in the Tamer Pass UI and Premium Store UI to clarify they’re a one-time use item.Dyes were the source of a lot of community feedback and unrest. With these changes we hope to make the experience better and easier to navigate. This doesn’t mean dyes are coming back to the Premium Store, as we’re still deciding whether that’s the right place form them or not.",
+        "We’ve added a confirmation pop-up when trying to apply a dye to a cosmetic.",
+        "We have added a confirmation pop-up when trying to remove a dye from a cosmetic.",
+        "Players cannot use the same dye twice in the same slot of a cosmetic; the game will now show a pop-up error when attempting to do so.",
+        "A preview of the dyes will now be shown at the Tamer Pass UI and the Premium Store UI.",
+        "We have added a new label to dyes in the Tamer Pass UI and Premium Store UI to clarify they’re a one-time use item.",
+        "Dyes were the source of a lot of community feedback and unrest. With these changes we hope to make the experience better and easier to navigate. This doesn’t mean dyes are coming back to the Premium Store, as we’re still deciding whether that’s the right place form them or not."
+      ],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
     "name": "Patch 1.2.1",
     "version": "1.2.1",
     "url": "https://crema.gg/temtem/patch-1-2-1/",
