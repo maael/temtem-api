@@ -12,7 +12,7 @@ export default async function getGear() {
   log.info("Starting");
   try {
     log.info("Running");
-    const result = await got("https://temtem.wiki.gg/wiki/Category:Gear_Items");
+    const result = await got("https://temtem.wiki.gg/wiki/Category:Gear_items");
     const $ = cheerio.load(result.body);
     const page = $(".mw-category").last();
     const gear = typedToArray<Gear>(
