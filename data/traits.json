@@ -129,7 +129,7 @@
     "name": "Burglar",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Burglar",
     "description": "When attacking an asleep or exhausted Temtem, disables its gear.",
-    "effect": "Burglar causes all of the holder's Techniques to disable the target's gear for the rest of the battle if they're afflicted with the Asleep or Exhausted Conditions."
+    "effect": "Burglar causes all of the holder's Techniques to disable the target's gear for the rest of the battle if they're afflicted with the Asleep or Exhausted Conditions. This will also work if the holder is applying the Asleep or Exhausted Conditions with an own Technique."
   },
   {
     "name": "Caffeinated",
@@ -728,8 +728,8 @@
   {
     "name": "Ruminant",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Ruminant",
-    "description": "When attacking a Nature Temtem rival, gets regenerating for 2 turns.",
-    "effect": "Ruminant gifts the holder with the the Regenerated Condition for 2 turns after they attack a Nature rival combatant."
+    "description": "When a Nature technique is used, the holder of this trait restores 15% of its max STA.",
+    "effect": "Ruminant restores 15% of the holder's maximum STA if a Nature technique is used."
   },
   {
     "name": "Rusher",
