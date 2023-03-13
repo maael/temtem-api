@@ -1691,11 +1691,6 @@
         "levels": 1
       },
       {
-        "name": "Water Blade",
-        "source": "Levelling",
-        "levels": 3
-      },
-      {
         "name": "Venomous Claws",
         "source": "Levelling",
         "levels": 4
@@ -1968,11 +1963,6 @@
         "name": "Finbeat",
         "source": "Levelling",
         "levels": 1
-      },
-      {
-        "name": "Water Blade",
-        "source": "Levelling",
-        "levels": 3
       },
       {
         "name": "Venomous Claws",
@@ -2266,11 +2256,6 @@
         "name": "Finbeat",
         "source": "Levelling",
         "levels": 1
-      },
-      {
-        "name": "Water Blade",
-        "source": "Levelling",
-        "levels": 3
       },
       {
         "name": "Venomous Claws",
@@ -2615,7 +2600,7 @@
           ],
           "traitMapping": {
             "Shared Pain": "Botanist",
-            "Mithridatism": "Toxic Farewell"
+            "Mithridatism": "Unknown"
           }
         },
         {
@@ -2627,11 +2612,10 @@
           "trading": false,
           "traits": [
             "Botanist",
-            "Toxic Farewell"
+            "Backhanded"
           ],
           "traitMapping": {
-            "Botanist": "Botanist",
-            "Toxic Farewell": "Toxic Farewell"
+            "Botanist": "Botanist"
           }
         }
       ],
@@ -2647,11 +2631,11 @@
         "trading": false,
         "traits": [
           "Botanist",
-          "Toxic Farewell"
+          "Backhanded"
         ],
         "traitMapping": {
           "Botanist": "Botanist",
-          "Toxic Farewell": "Toxic Farewell"
+          "Backhanded": "Backhanded"
         }
       },
       "number": 10,
@@ -2664,7 +2648,7 @@
       ],
       "traitMapping": {
         "Shared Pain": "Botanist",
-        "Mithridatism": "Toxic Farewell"
+        "Mithridatism": "Backhanded"
       }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -2747,8 +2731,7 @@
       "total": 485
     },
     "traits": [
-      "Botanist",
-      "Toxic Farewell"
+      "Botanist"
     ],
     "details": {
       "height": {
@@ -2876,7 +2859,7 @@
           ],
           "traitMapping": {
             "Shared Pain": "Botanist",
-            "Mithridatism": "Toxic Farewell"
+            "Mithridatism": "Unknown"
           }
         },
         {
@@ -2888,11 +2871,10 @@
           "trading": false,
           "traits": [
             "Botanist",
-            "Toxic Farewell"
+            "Backhanded"
           ],
           "traitMapping": {
-            "Botanist": "Botanist",
-            "Toxic Farewell": "Toxic Farewell"
+            "Botanist": "Botanist"
           }
         }
       ],
@@ -2911,7 +2893,7 @@
         ],
         "traitMapping": {
           "Shared Pain": "Botanist",
-          "Mithridatism": "Toxic Farewell"
+          "Mithridatism": "Backhanded"
         }
       },
       "to": null,
@@ -2921,11 +2903,11 @@
       "trading": false,
       "traits": [
         "Botanist",
-        "Toxic Farewell"
+        "Backhanded"
       ],
       "traitMapping": {
         "Botanist": "Botanist",
-        "Toxic Farewell": "Toxic Farewell"
+        "Backhanded": "Backhanded"
       }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -3064,12 +3046,12 @@
     },
     "techniques": [
       {
-        "name": "Tenderness",
+        "name": "Scratch",
         "source": "Levelling",
         "levels": 1
       },
       {
-        "name": "Scratch",
+        "name": "Tenderness",
         "source": "Levelling",
         "levels": 3
       },
@@ -4002,7 +3984,7 @@
         "source": "Breeding"
       },
       {
-        "name": "Hyperkinetic Strike",
+        "name": "Tornado",
         "source": "Breeding"
       }
     ],
@@ -4263,7 +4245,7 @@
         "source": "Breeding"
       },
       {
-        "name": "Hyperkinetic Strike",
+        "name": "Tornado",
         "source": "Breeding"
       }
     ],
@@ -4684,7 +4666,7 @@
         "source": "Breeding"
       },
       {
-        "name": "Hyperkinetic Strike",
+        "name": "Tornado",
         "source": "Breeding"
       }
     ],
@@ -8346,10 +8328,6 @@
         "source": "TechniqueCourses"
       },
       {
-        "name": "Madness Buff",
-        "source": "TechniqueCourses"
-      },
-      {
         "name": "Strangle",
         "source": "Breeding"
       }
@@ -8602,10 +8580,6 @@
         "source": "TechniqueCourses"
       },
       {
-        "name": "Madness Buff",
-        "source": "TechniqueCourses"
-      },
-      {
         "name": "Strangle",
         "source": "Breeding"
       }
@@ -8855,8 +8829,8 @@
             "Apothecary"
           ],
           "traitMapping": {
-            "Toxic Affinity": "Toxic Farewell",
-            "Apothecary": "Tri-Apothecary"
+            "Toxic Affinity": "Tri-Apothecary",
+            "Apothecary": "Unknown"
           }
         },
         {
@@ -8867,11 +8841,10 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Toxic Farewell",
+            "Tri-Phytologist",
             "Tri-Apothecary"
           ],
           "traitMapping": {
-            "Toxic Farewell": "Toxic Farewell",
             "Tri-Apothecary": "Tri-Apothecary"
           }
         }
@@ -8887,11 +8860,11 @@
         "type": "levels",
         "trading": false,
         "traits": [
-          "Toxic Farewell",
+          "Tri-Phytologist",
           "Tri-Apothecary"
         ],
         "traitMapping": {
-          "Toxic Farewell": "Toxic Farewell",
+          "Tri-Phytologist": "Tri-Phytologist",
           "Tri-Apothecary": "Tri-Apothecary"
         }
       },
@@ -8904,7 +8877,7 @@
         "Apothecary"
       ],
       "traitMapping": {
-        "Toxic Affinity": "Toxic Farewell",
+        "Toxic Affinity": "Tri-Phytologist",
         "Apothecary": "Tri-Apothecary"
       }
     },
@@ -8988,7 +8961,6 @@
       "total": 445
     },
     "traits": [
-      "Toxic Farewell",
       "Tri-Apothecary"
     ],
     "details": {
@@ -9104,8 +9076,8 @@
             "Apothecary"
           ],
           "traitMapping": {
-            "Toxic Affinity": "Toxic Farewell",
-            "Apothecary": "Tri-Apothecary"
+            "Toxic Affinity": "Tri-Apothecary",
+            "Apothecary": "Unknown"
           }
         },
         {
@@ -9116,11 +9088,10 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Toxic Farewell",
+            "Tri-Phytologist",
             "Tri-Apothecary"
           ],
           "traitMapping": {
-            "Toxic Farewell": "Toxic Farewell",
             "Tri-Apothecary": "Tri-Apothecary"
           }
         }
@@ -9139,7 +9110,7 @@
           "Apothecary"
         ],
         "traitMapping": {
-          "Toxic Affinity": "Toxic Farewell",
+          "Toxic Affinity": "Tri-Phytologist",
           "Apothecary": "Tri-Apothecary"
         }
       },
@@ -9149,11 +9120,11 @@
       "level": 22,
       "trading": false,
       "traits": [
-        "Toxic Farewell",
+        "Tri-Phytologist",
         "Tri-Apothecary"
       ],
       "traitMapping": {
-        "Toxic Farewell": "Toxic Farewell",
+        "Tri-Phytologist": "Tri-Phytologist",
         "Tri-Apothecary": "Tri-Apothecary"
       }
     },
@@ -10233,6 +10204,11 @@
         "name": "Charcoal Wall",
         "source": "Levelling",
         "levels": 94
+      },
+      {
+        "name": "Knockback",
+        "source": "Levelling",
+        "levels": 0
       },
       {
         "name": "Rend",
@@ -12334,8 +12310,7 @@
       "total": 465
     },
     "traits": [
-      "Scavenger",
-      "Determined"
+      "Scavenger"
     ],
     "details": {
       "height": {
@@ -12832,7 +12807,7 @@
         "levels": 19
       },
       {
-        "name": "Boomerang",
+        "name": "Feather Gatling",
         "source": "Levelling",
         "levels": 29
       },
@@ -13367,11 +13342,6 @@
         "name": "Ninja Jutsu",
         "source": "Levelling",
         "levels": 70
-      },
-      {
-        "name": "Helicopter Kick",
-        "source": "Levelling",
-        "levels": 81
       },
       {
         "name": "Awful Song",
@@ -15414,6 +15384,11 @@
         "name": "Meteor Swarm",
         "source": "Levelling",
         "levels": 90
+      },
+      {
+        "name": "Embers",
+        "source": "Levelling",
+        "levels": 0
       },
       {
         "name": "Magma Cannon",
