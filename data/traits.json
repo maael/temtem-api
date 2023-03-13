@@ -122,8 +122,8 @@
   {
     "name": "Bully",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Bully",
-    "description": "While allies outnumber rivals, techniques inflict +30% Damage.",
-    "effect": "Bully increases the damage of the holder's Techniques by an additional 30% while the number of conscious Temtem in the holder's squad outnumber the number of conscious Temtem in the rival's squad."
+    "description": "When the holder uses a technique on a Temtem with a Status Condition, the damage of the technique is multiplied by 25%.",
+    "effect": "Bully increases the damage of the holder's Techniques by an additional 25% while the target is affected by a Status Condition."
   },
   {
     "name": "Burglar",
@@ -224,8 +224,8 @@
   {
     "name": "Deceit Aura",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Deceit_Aura",
-    "description": "Techniques order is inverted during the first 4 turns the Temtem is on the battlefield. And while HP is full, when entering the battlefield, loses 50%.",
-    "effect": "Deceit Aura causes the order of all Techniques used by all combatants on the battlefield to be reversed for the first four turns the holder is on the battlefield and causes the holder to lose 50% of their maximum HP if they were at 100% HP. Temtem swapping still occurs prior to techniques being used but the order of swapping is reversed and Item usage is unaffected."
+    "description": "Techniques order is inverted during the first 4 turns the Temtem is on the battlefield. At the start of the turn, the holder loses 15% of their max HP.",
+    "effect": "Deceit Aura causes the order of all Techniques used by all combatants on the battlefield to be reversed for the first four turns the holder is on the battlefield and causes the holder to lose 15% of their maximum HP at the start of the turn. Temtem swapping still occurs prior to techniques being used but the order of swapping is reversed and Item usage is unaffected. The HP loss effect will no longer activate once the effect of Deceit Aura ends."
   },
   {
     "name": "Defuser",
@@ -476,8 +476,8 @@
   {
     "name": "Infectious",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Infectious",
-    "description": "Invalidates the regenerating effect on rivals.",
-    "effect": "Infectious prevents the effects of the Regenerated Condition on the rival team. The condition will not be removed nor be prevented from being gifted, but will not have any effects. Infectious does not affect rival combatants not on the battlefield."
+    "description": "Prevents the Regenerating Status Condition from being applied on the Rivals and removes that same Status on the Rival upon entering the battlefield.",
+    "effect": "Infectious prevents the Regenerated Condition from being applied on the rivals and it removes that same Status on the rival upon entering the battlefield."
   },
   {
     "name": "Inhibiter",
@@ -692,8 +692,8 @@
   {
     "name": "Rejuvenate",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Rejuvenate",
-    "description": "After attacking with a special technique, restores 8% of max HP.",
-    "effect": "Rejuvenate restores 8% of the holder's maximum HP after using a Special Technique."
+    "description": "After attacking with a special technique, restores 10% of max HP.",
+    "effect": "Rejuvenate restores 10% of the holder's maximum HP after using a Special Technique."
   },
   {
     "name": "Relaxed",
@@ -818,8 +818,8 @@
   {
     "name": "Soft Touch",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Soft_Touch",
-    "description": "When attacking an asleep target, damage done is increased by 20% and the target won't wake up.",
-    "effect": "Soft Touch increases the damage the holder does to targets affected by the Asleep Condition by 20% and stops the holder from curing them of the Asleep Condition with any damage-dealing Techniques."
+    "description": "When attacking an asleep target, damage done is increased by 12% and the target won't wake up.",
+    "effect": "Soft Touch increases the damage the holder does to targets affected by the Asleep Condition by 12% and stops the holder from curing them of the Asleep Condition with any damage-dealing Techniques."
   },
   {
     "name": "Solidifier",
@@ -854,7 +854,7 @@
   {
     "name": "Splitter",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Splitter",
-    "description": "When attacked with a physical or special technique, prevents all negative status conditions.",
+    "description": "When attacked with a physical or special technique, prevents all negative status conditions and will gift the user invigorated for 2 turns.",
     "effect": "Splitter protects the holder from being inflicted with the Poisoned, Burned, Asleep, Cold, Exhausted, Isolated, Seized, or Trapped Conditions after being hit with a Physical or Special Technique. For example: Embers won't inflict Burned and Toxic Ink won't inflict Poisoned."
   },
   {
@@ -878,8 +878,8 @@
   {
     "name": "Striking Transmog",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Striking_Transmog",
-    "description": "When attacking an individual Temtem with a physical technique, Mimit transforms into the target.",
-    "effect": "Striking Transmog causes Mimit to transform into the Temtem the holder hits with Physical Techniques that has single target or single other target as their targeting. It will use the same Base Stats, Techniques, Trait, and Typing of the target but will keep its own Level, SVs and TVs. It also won't copy any Status Conditions or Stat Stage Changes which are currently applied on the target."
+    "description": "Once per battle, when attacking an individual Temtem with a physical technique, Mimit transforms into the target.",
+    "effect": "Once per battle, Striking Transmog causes Mimit to transform into the Temtem the holder hits with Physical Techniques that has single target or single other target as their targeting and will multiply MMimit's DEF and SPDEF stat by 50% for the rest of the current turn. It will use the same Base Stats, Techniques, Trait, and Typing of the target but will keep its own Level, SVs and TVs. It also won't copy any Status Conditions or Stat Stage Changes which are currently applied on the target."
   },
   {
     "name": "Strong Liver",
@@ -1028,8 +1028,8 @@
   {
     "name": "Voodoo",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Voodoo",
-    "description": "When attacking an ally, 75% of the damage is replicated to each rival.",
-    "effect": "Voodoo deals 75% of the damage the holder inflicts onto their ally with damage-dealing Techniques onto their rivals."
+    "description": "When the holder applies a negative Status Condition or Stage change to a rival, the effects of those are applied to the rival’s partner too.",
+    "effect": "When the holder of Voodoo applies a negative Status Condition or Stage change to a rival, the effects of those are applied to the rival’s partner too."
   },
   {
     "name": "Warm Gift",
