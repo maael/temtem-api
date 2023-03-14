@@ -5658,6 +5658,25 @@
     "effects": []
   },
   {
+    "name": "Transient Echo",
+    "wikiUrl": "https://temtem.wiki.gg/wiki/Transient_Echo",
+    "type": "Mental",
+    "class": "Physical",
+    "classIcon": "/images/icons/technique/Physical.png",
+    "damage": 80,
+    "staminaCost": 20,
+    "hold": 1,
+    "priority": "high",
+    "priorityIcon": "/images/icons/priority/high.png",
+    "synergy": "None",
+    "synergyEffects": [],
+    "targets": "Single Other Target",
+    "description": "There and back again! This technique deals medium damage and gives -1 Hold.",
+    "effectText": "Transient Echo deals damage to a single other target and gifts the user -1 Hold to all Techniques.",
+    "synergyText": "",
+    "effects": []
+  },
+  {
     "name": "Tsunami",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tsunami",
     "type": "Water",

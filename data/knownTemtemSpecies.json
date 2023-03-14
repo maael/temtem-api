@@ -2600,7 +2600,7 @@
           ],
           "traitMapping": {
             "Shared Pain": "Botanist",
-            "Mithridatism": "Unknown"
+            "Mithridatism": "Backhanded"
           }
         },
         {
@@ -2615,7 +2615,8 @@
             "Backhanded"
           ],
           "traitMapping": {
-            "Botanist": "Botanist"
+            "Botanist": "Botanist",
+            "Backhanded": "Backhanded"
           }
         }
       ],
@@ -2731,7 +2732,8 @@
       "total": 485
     },
     "traits": [
-      "Botanist"
+      "Botanist",
+      "Backhanded"
     ],
     "details": {
       "height": {
@@ -2859,7 +2861,7 @@
           ],
           "traitMapping": {
             "Shared Pain": "Botanist",
-            "Mithridatism": "Unknown"
+            "Mithridatism": "Backhanded"
           }
         },
         {
@@ -2874,7 +2876,8 @@
             "Backhanded"
           ],
           "traitMapping": {
-            "Botanist": "Botanist"
+            "Botanist": "Botanist",
+            "Backhanded": "Backhanded"
           }
         }
       ],
@@ -8829,8 +8832,8 @@
             "Apothecary"
           ],
           "traitMapping": {
-            "Toxic Affinity": "Tri-Apothecary",
-            "Apothecary": "Unknown"
+            "Toxic Affinity": "Tri-Phytologist",
+            "Apothecary": "Tri-Apothecary"
           }
         },
         {
@@ -8845,6 +8848,7 @@
             "Tri-Apothecary"
           ],
           "traitMapping": {
+            "Tri-Phytologist": "Tri-Phytologist",
             "Tri-Apothecary": "Tri-Apothecary"
           }
         }
@@ -8961,6 +8965,7 @@
       "total": 445
     },
     "traits": [
+      "Tri-Phytologist",
       "Tri-Apothecary"
     ],
     "details": {
@@ -9076,8 +9081,8 @@
             "Apothecary"
           ],
           "traitMapping": {
-            "Toxic Affinity": "Tri-Apothecary",
-            "Apothecary": "Unknown"
+            "Toxic Affinity": "Tri-Phytologist",
+            "Apothecary": "Tri-Apothecary"
           }
         },
         {
@@ -9092,6 +9097,7 @@
             "Tri-Apothecary"
           ],
           "traitMapping": {
+            "Tri-Phytologist": "Tri-Phytologist",
             "Tri-Apothecary": "Tri-Apothecary"
           }
         }
@@ -12310,7 +12316,8 @@
       "total": 465
     },
     "traits": [
-      "Scavenger"
+      "Scavenger",
+      "Jack of all Trades"
     ],
     "details": {
       "height": {
@@ -12561,7 +12568,7 @@
         "source": "Breeding"
       },
       {
-        "name": "Hook Kick",
+        "name": "Oshi-Dashi",
         "source": "Breeding"
       },
       {
@@ -12869,7 +12876,7 @@
         "source": "Breeding"
       },
       {
-        "name": "Hook Kick",
+        "name": "Oshi-Dashi",
         "source": "Breeding"
       },
       {
@@ -13117,7 +13124,7 @@
         "source": "Breeding"
       },
       {
-        "name": "Hook Kick",
+        "name": "Oshi-Dashi",
         "source": "Breeding"
       },
       {
@@ -23261,14 +23268,14 @@
         "levels": 72
       },
       {
+        "name": "Transient Echo",
+        "source": "Levelling",
+        "levels": 83
+      },
+      {
         "name": "Matter Teleport",
         "source": "Levelling",
         "levels": 94
-      },
-      {
-        "name": "Transient Echo",
-        "source": "Levelling",
-        "levels": 0
       },
       {
         "name": "Awful Song",
@@ -31612,7 +31619,7 @@
       {
         "name": "Reset",
         "source": "Levelling",
-        "levels": 0
+        "levels": 88
       },
       {
         "name": "Noxious Bomb",
@@ -35989,6 +35996,11 @@
         "levels": 45
       },
       {
+        "name": "Transient Echo",
+        "source": "Levelling",
+        "levels": 52
+      },
+      {
         "name": "Double Gash",
         "source": "Levelling",
         "levels": 60
@@ -36007,11 +36019,6 @@
         "name": "Depress",
         "source": "Levelling",
         "levels": 90
-      },
-      {
-        "name": "Transient Echo",
-        "source": "Levelling",
-        "levels": 0
       },
       {
         "name": "Wake Up",
@@ -36640,6 +36647,11 @@
         "levels": 62
       },
       {
+        "name": "Psy Wave",
+        "source": "Levelling",
+        "levels": 66
+      },
+      {
         "name": "Unseen Blow",
         "source": "Levelling",
         "levels": 71
@@ -36658,11 +36670,6 @@
         "name": "Beta Burst",
         "source": "Levelling",
         "levels": 97
-      },
-      {
-        "name": "Psy Wave",
-        "source": "Levelling",
-        "levels": 0
       },
       {
         "name": "Base Jump",
