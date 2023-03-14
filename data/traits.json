@@ -230,8 +230,8 @@
   {
     "name": "Defuser",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Defuser",
-    "description": "When attacking with a physical technique, the target gets seized for 3 turns.",
-    "effect": "Defuser causes all of the holder's Physical Techniques to also inflict the Seized Condition for 3 turns."
+    "description": "When attacking with a physical technique, the target gets seized for 2 turns.",
+    "effect": "Defuser causes all of the holder's Physical Techniques to also inflict the Seized Condition for 2 turns."
   },
   {
     "name": "Demoralize",
@@ -266,8 +266,8 @@
   {
     "name": "Dreaded Alarm",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Dreaded_Alarm",
-    "description": "When a rival rests, they lose 25% of max HP.",
-    "effect": "Dreaded Alarm causes all rivals to lose 25% of their maximum HP when they rest."
+    "description": "Every time a rival gets the Alert Status, they lose 8% of their max HP.",
+    "effect": "Every time a rival gets the Alert Status, they lose 8% of their max HP."
   },
   {
     "name": "Earthbound",
@@ -356,14 +356,14 @@
   {
     "name": "Friendship",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Friendship",
-    "description": "Immune to ally's offensive techniques.",
-    "effect": "Friendship protects the holder from being affected by any damage-dealing Techniques from their ally."
+    "description": "When the holder and the ally attack the same rival with an offensive technique, the damage of the second technique is increased by 15%.",
+    "effect": "{When the holder with Friendship and the ally attack the same rival with an offensive technique, the damage of the second technique is increased by 15%. The second technique has not to be executed by the holder of Friendship."
   },
   {
     "name": "Frightening",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Frightening",
-    "description": "Gears from the rival and the ally don't have any effect during the first 5 turns the Temtem is on the battlefield.",
-    "effect": "Frightening prevents the Gears of the rival team and the holder's ally from having any effects for the first 5 turns the holder is on the battlefield."
+    "description": "Gears from the rival and the ally don't have any effect during the first 3 turns the Temtem is on the battlefield.",
+    "effect": "Frightening prevents the Gears of the rival team and the holder's ally from having any effects for the first 3 turns the holder is on the battlefield."
   },
   {
     "name": "Furor",
@@ -494,8 +494,8 @@
   {
     "name": "Intimidator",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Intimidator",
-    "description": "Traits from the rivals and the ally don't have any effect during the first 5 turns the Temtem is on the battlefield.",
-    "effect": "Intimidator prevents the Traits of the rival team and the holder's ally from having any effects for the first 5 turns the holder is on the battlefield."
+    "description": "Traits from the rivals and the ally don't have any effect during the first 3 turns the Temtem is on the battlefield.",
+    "effect": "Intimidator prevents the Traits of the rival team and the holder's ally from having any effects for the first 3 turns the holder is on the battlefield."
   },
   {
     "name": "Iridescence",
@@ -578,8 +578,8 @@
   {
     "name": "Neurotoxins",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Neurotoxins",
-    "description": "Instead of applying poison, the target gets doomed for 4 turns instead.",
-    "effect": "Neurotoxins causes all of the holder's Techniques that can inflict the Poisoned Condition to instead inflict a 4 turn countdown of the Doomed Condition. Neurotoxins will inflict the Doomed Condition on Toxic targets but will fail to inflict targets that have Mithridatism or Immunity as their Trait."
+    "description": "Once per battle, instead of applying poison, the target gets doomed for 3 turns instead.",
+    "effect": "Once per battle, Neurotoxins causes all of the holder's Techniques that can inflict the Poisoned Condition to instead inflict a 3 turn countdown of the Doomed Condition. Neurotoxins will inflict the Doomed Condition on Toxic targets but will fail to inflict targets that have Mithridatism or Immunity as their Trait. Neurotoxins will not be consumed if the Doomed Condition is not applied."
   },
   {
     "name": "Neutrality",
@@ -644,8 +644,8 @@
   {
     "name": "Protective Crystal",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Protective_Crystal",
-    "description": "When an ally is damaged by an Electric, Mental, or Fire technique, damage is reduced by 20%.",
-    "effect": "Protective Crystal decreases the damage the holder's ally takes from Electric, Mental and Fire Technique by 20%."
+    "description": "When an ally is damaged by an offensive technique, damage is reduced by 10%. When allies are damaged by an Electric, Mental, or Fire technique, damage is reduced by 20%.",
+    "effect": "Protective Crystal decreases the damage the holder's team takes from Electric, Mental and Fire Technique by 20%. The holder's ally has an additional 10% base damage reduction off every offensive Technique received, whatever its type."
   },
   {
     "name": "Protector",
@@ -812,8 +812,8 @@
   {
     "name": "Snowstorm",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Snowstorm",
-    "description": "Once per battle, when entering the battlefield, rivals and the ally get cold for 3 turns if they aren't cold already.",
-    "effect": "Snowstorm inflicts both rivals and the holder's ally with the Cold Condition for 3 turns if they aren't already inflicted with the Cold Condition when the holder enters the battlefield once per battle."
+    "description": "Once per battle, when entering the battlefield, rivals and the ally get cold for 2 turns if they aren't cold already.",
+    "effect": "Snowstorm inflicts both rivals and the holder's ally with the Cold Condition for 2 turns if they aren't already inflicted with the Cold Condition when the holder enters the battlefield once per battle."
   },
   {
     "name": "Soft Touch",
@@ -969,7 +969,7 @@
     "name": "Toxic Skin",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxic_Skin",
     "description": "After being attacked with a physical technique, the attacker gets poisoned for 2 turns.",
-    "effect": "Toxic Skin inflicts the Poisoned Condition for 2 turns onto any attacker that hits the holder with a Physical Technique."
+    "effect": "Toxic Skin inflicts the Poisoned Condition for 1 turn onto any attacker that hits the holder with a Technique."
   },
   {
     "name": "Toxin Crusher",
@@ -1022,8 +1022,8 @@
   {
     "name": "Voltaic Charge",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Voltaic_Charge",
-    "description": "When attacked with a single-target technique, the attacker gets 10% knockback damage.",
-    "effect": "Voltaic Charge inflicts 10% of the damage the holder takes from Techniques that have single target or single other target as their targeting to the attacker."
+    "description": "The caster heals 15% of the damage it has done with any offensive technique.",
+    "effect": "Voltaic Charge restores 15% of the damage the holder inflicts to the target as HP."
   },
   {
     "name": "Voodoo",
