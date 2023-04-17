@@ -1,5 +1,30 @@
 [
   {
+    "name": "Patch 1.3.1",
+    "version": "1.3.1",
+    "url": "https://crema.gg/temtem/patch-1-3-1/",
+    "date": "2023-4-17",
+    "patchInfo": {
+      "fixes": [],
+      "improvements": [
+        "We’ve changed the message you get when trying to capture a Temtem once you’d surpassed the capture limit in Nuzlocke and Randomlocke modes. It’s now a new message created specifically for the Challenge Modes.",
+        "The Anahir given to the player during the story will now be full HP in the Nuzlocke Mode, and the random Temtem given instead of Anahir will follow suit in the Randomlocke Mode.",
+        "We’ve improved and clarified the process of choosing a name for your character. It should now be more clear when the name you’ve picked is already in use or otherwise not fit to be picked.",
+        "The Trait and Technique textbox is now scaled based on the description text."
+      ],
+      "features": [
+        "👥We’ve added an indicator for the Nuzlocke and Randomlocke modes that will show you the number of captures left for the zone you’re currently in. It’s located next to the Minimap.",
+        "👥We’ve added an Species Clause to the Nuzlocke and Randomlocke modes:When running into a Temtem they have already tamed before as the first encounter on any given zone, the player can defeat it or run away without wasting one of their allowed encounters.If the player decides to capture that Tem despite already having it, it will count as a valid encounter and it’ll consume one of the allowed encounters.The game will check for the entire evolutive line, so if you have a Granpah in your squad and encounter a Paharo, you will be able to defeat it without using one of your allotted encounters.",
+        "When running into a Temtem they have already tamed before as the first encounter on any given zone, the player can defeat it or run away without wasting one of their allowed encounters.",
+        "If the player decides to capture that Tem despite already having it, it will count as a valid encounter and it’ll consume one of the allowed encounters.",
+        "The game will check for the entire evolutive line, so if you have a Granpah in your squad and encounter a Paharo, you will be able to defeat it without using one of your allotted encounters.",
+        "We’ve added new internal rules to the Techniques of starter Temtem to prevent insta-failed runs in the Randomlocke mode.Starters must now have at least one Technique that fulfills all of these requisites: Damage greater than 1, Hold 0 and STA Cost less than 20.",
+        "Starters must now have at least one Technique that fulfills all of these requisites: Damage greater than 1, Hold 0 and STA Cost less than 20."
+      ],
+      "balance": []
+    }
+  },
+  {
     "name": "Patch 1.3",
     "version": "1.3",
     "url": "https://crema.gg/temtem/patch-1-3/",
