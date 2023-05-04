@@ -1,5 +1,17 @@
 [
   {
+    "name": "Patch 1.3.2",
+    "version": "1.3.2",
+    "url": "https://crema.gg/temtem/patch-1-3-2/",
+    "date": "2023-5-4",
+    "patchInfo": {
+      "fixes": [],
+      "improvements": [],
+      "features": [],
+      "balance": []
+    }
+  },
+  {
     "name": "Patch 1.3.1",
     "version": "1.3.1",
     "url": "https://crema.gg/temtem/patch-1-3-1/",
@@ -14,10 +26,12 @@
       ],
       "features": [
         "👥We’ve added an indicator for the Nuzlocke and Randomlocke modes that will show you the number of captures left for the zone you’re currently in. It’s located next to the Minimap.",
-        "👥We’ve added an Species Clause to the Nuzlocke and Randomlocke modes:When running into a Temtem they have already tamed before as the first encounter on any given zone, the player can defeat it or run away without wasting one of their allowed encounters.If the player decides to capture that Tem despite already having it, it will count as a valid encounter and it’ll consume one of the allowed encounters.The game will check for the entire evolutive line, so if you have a Granpah in your squad and encounter a Paharo, you will be able to defeat it without using one of your allotted encounters.",
+        "👥We’ve added an Species Clause to the Nuzlocke and Randomlocke modes:When running into a Temtem they have already tamed before as the first encounter on any given zone, the player can defeat it or run away without wasting one of their allowed encounters.However, if any given Temtem has already fainted in that Tamer’s run, defeating it will count as an encounter still.If the player decides to capture that Tem despite already having it, it will count as a valid encounter and it’ll consume one of the allowed encounters.The game will check for the previous evolutions, so if you have a Granpah in your squad and encounter a Paharo, you will be able to defeat it without using one of your allotted encounters.If you defeat the evolved version of a Tem without first having tamed it, it will count as an encounter still.",
         "When running into a Temtem they have already tamed before as the first encounter on any given zone, the player can defeat it or run away without wasting one of their allowed encounters.",
+        "However, if any given Temtem has already fainted in that Tamer’s run, defeating it will count as an encounter still.",
         "If the player decides to capture that Tem despite already having it, it will count as a valid encounter and it’ll consume one of the allowed encounters.",
-        "The game will check for the entire evolutive line, so if you have a Granpah in your squad and encounter a Paharo, you will be able to defeat it without using one of your allotted encounters.",
+        "The game will check for the previous evolutions, so if you have a Granpah in your squad and encounter a Paharo, you will be able to defeat it without using one of your allotted encounters.",
+        "If you defeat the evolved version of a Tem without first having tamed it, it will count as an encounter still.",
         "We’ve added new internal rules to the Techniques of starter Temtem to prevent insta-failed runs in the Randomlocke mode.Starters must now have at least one Technique that fulfills all of these requisites: Damage greater than 1, Hold 0 and STA Cost less than 20.",
         "Starters must now have at least one Technique that fulfills all of these requisites: Damage greater than 1, Hold 0 and STA Cost less than 20."
       ],
