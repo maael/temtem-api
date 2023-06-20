@@ -2629,17 +2629,23 @@
     "type": "Neutral",
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 97,
+    "damage": 78,
     "staminaCost": 23,
     "hold": 0,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "None",
-    "synergyEffects": [],
+    "synergy": "Crystal",
+    "synergyEffects": [
+      {
+        "effect": "DEF  2 Turns  Isolated",
+        "type": "condition",
+        "damage": 0
+      }
+    ],
     "targets": "Single Other Target",
     "description": "A bruised ego hurts more than a wounded body. This is just the thing! DEF .",
     "effectText": "Humiliating Slap deals damage to a single other target and inflicts them with DEF .",
-    "synergyText": "",
+    "synergyText": "If used with a Crystal ally, Humiliating Slap inflicts DEF and the Isolated Condition for 2 turns.",
     "effects": []
   },
   {
