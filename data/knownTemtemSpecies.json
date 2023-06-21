@@ -1507,7 +1507,7 @@
         "levels": 45
       },
       {
-        "name": "Execution",
+        "name": "Firewall",
         "source": "Levelling",
         "levels": 55
       },
@@ -1995,15 +1995,6 @@
         "levels": 34
       },
       {
-        "name": "Paralyzing Poison",
-        "source": "Levelling",
-        "levels": 40
-      },
-      {
-        "name": "Misogi",
-        "source": "TechniqueCourses"
-      },
-      {
         "name": "Noxious Bomb",
         "source": "TechniqueCourses"
       },
@@ -2288,11 +2279,6 @@
         "levels": 34
       },
       {
-        "name": "Paralyzing Poison",
-        "source": "Levelling",
-        "levels": 40
-      },
-      {
         "name": "Toxin Shower",
         "source": "Levelling",
         "levels": 58
@@ -2306,10 +2292,6 @@
         "name": "Rotten Goo",
         "source": "Levelling",
         "levels": 84
-      },
-      {
-        "name": "Misogi",
-        "source": "TechniqueCourses"
       },
       {
         "name": "Noxious Bomb",
@@ -5838,8 +5820,8 @@
             "Botanist"
           ],
           "traitMapping": {
-            "Electric Synthesize": "Toxic Farewell",
-            "Botanist": "Resilient"
+            "Electric Synthesize": "Safe Retreat",
+            "Botanist": "Natural Conversion"
           }
         },
         {
@@ -5850,12 +5832,12 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Toxic Farewell",
-            "Resilient"
+            "Safe Retreat",
+            "Natural Conversion"
           ],
           "traitMapping": {
-            "Toxic Farewell": "Toxic Farewell",
-            "Resilient": "Resilient"
+            "Safe Retreat": "Safe Retreat",
+            "Natural Conversion": "Natural Conversion"
           }
         }
       ],
@@ -5870,12 +5852,12 @@
         "type": "levels",
         "trading": false,
         "traits": [
-          "Toxic Farewell",
-          "Resilient"
+          "Safe Retreat",
+          "Natural Conversion"
         ],
         "traitMapping": {
-          "Toxic Farewell": "Toxic Farewell",
-          "Resilient": "Resilient"
+          "Safe Retreat": "Safe Retreat",
+          "Natural Conversion": "Natural Conversion"
         }
       },
       "number": 23,
@@ -5887,8 +5869,8 @@
         "Botanist"
       ],
       "traitMapping": {
-        "Electric Synthesize": "Toxic Farewell",
-        "Botanist": "Resilient"
+        "Electric Synthesize": "Safe Retreat",
+        "Botanist": "Natural Conversion"
       }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -5984,8 +5966,8 @@
       "total": 467
     },
     "traits": [
-      "Toxic Farewell",
-      "Resilient"
+      "Safe Retreat",
+      "Natural Conversion"
     ],
     "details": {
       "height": {
@@ -6044,11 +6026,6 @@
         "levels": 48
       },
       {
-        "name": "Chain Heal",
-        "source": "Levelling",
-        "levels": 58
-      },
-      {
         "name": "Knockback",
         "source": "Levelling",
         "levels": 74
@@ -6092,10 +6069,6 @@
         "source": "TechniqueCourses"
       },
       {
-        "name": "Restore",
-        "source": "TechniqueCourses"
-      },
-      {
         "name": "Hypoxia",
         "source": "Breeding"
       },
@@ -6132,8 +6105,8 @@
             "Botanist"
           ],
           "traitMapping": {
-            "Electric Synthesize": "Toxic Farewell",
-            "Botanist": "Resilient"
+            "Electric Synthesize": "Safe Retreat",
+            "Botanist": "Natural Conversion"
           }
         },
         {
@@ -6144,12 +6117,12 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Toxic Farewell",
-            "Resilient"
+            "Safe Retreat",
+            "Natural Conversion"
           ],
           "traitMapping": {
-            "Toxic Farewell": "Toxic Farewell",
-            "Resilient": "Resilient"
+            "Safe Retreat": "Safe Retreat",
+            "Natural Conversion": "Natural Conversion"
           }
         }
       ],
@@ -6167,8 +6140,8 @@
           "Botanist"
         ],
         "traitMapping": {
-          "Electric Synthesize": "Toxic Farewell",
-          "Botanist": "Resilient"
+          "Electric Synthesize": "Safe Retreat",
+          "Botanist": "Natural Conversion"
         }
       },
       "to": null,
@@ -6177,12 +6150,12 @@
       "level": 15,
       "trading": false,
       "traits": [
-        "Toxic Farewell",
-        "Resilient"
+        "Safe Retreat",
+        "Natural Conversion"
       ],
       "traitMapping": {
-        "Toxic Farewell": "Toxic Farewell",
-        "Resilient": "Resilient"
+        "Safe Retreat": "Safe Retreat",
+        "Natural Conversion": "Natural Conversion"
       }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -16651,7 +16624,7 @@
     },
     "traits": [
       "Amphibian",
-      "Toxic Affinity"
+      "Shinobi Tactics"
     ],
     "details": {
       "height": {
@@ -16730,11 +16703,12 @@
         "levels": 84
       },
       {
-        "name": "Tsunami",
-        "source": "TechniqueCourses"
+        "name": "Nito Seiho",
+        "source": "Levelling",
+        "levels": 92
       },
       {
-        "name": "Misogi",
+        "name": "Tsunami",
         "source": "TechniqueCourses"
       },
       {
