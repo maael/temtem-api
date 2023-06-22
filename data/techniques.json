@@ -163,11 +163,11 @@
     "type": "Digital",
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 125,
+    "damage": 130,
     "staminaCost": 0,
     "hold": 3,
-    "priority": "high",
-    "priorityIcon": "/images/icons/priority/high.png",
+    "priority": "veryhigh",
+    "priorityIcon": "/images/icons/priority/veryhigh.png",
     "synergy": "None",
     "synergyEffects": [],
     "targets": "All Other Temtem",
@@ -2976,22 +2976,22 @@
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
     "damage": 100,
-    "staminaCost": 17,
+    "staminaCost": 25,
     "hold": 2,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Electric",
     "synergyEffects": [
       {
-        "effect": "Restore 10% of the user's maximum HP",
+        "effect": "Removes positive Stat Stage changes from the target.",
         "type": "unknown",
         "damage": 0
       }
     ],
     "targets": "Single Other Target",
-    "description": "Look, nobody likes doing laundry, but it has to be done, OK? It cleans all statuses, naturally! (And does some damage to boot.).",
+    "description": "Look, nobody likes doing laundry, but it has to be done, OK? It cleans all statuses, naturally! (And does some damage to boot.).Used in combination with an ally, Laundry washes away all positive stage modifications on rivals.",
     "effectText": "Laundry deals damage to a single target and cures/removes all of their Status Conditions.",
-    "synergyText": "If used with an Electric ally, its priority increases to High and also heals 10% of user's maximum HP.",
+    "synergyText": "If used with an Electric ally, its priority increases to High and removes positive Stat Stage changes from the target.",
     "effects": []
   },
   {
@@ -3023,25 +3023,19 @@
     "name": "Leech",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Leech",
     "type": "Nature",
-    "class": "Status",
-    "classIcon": "/images/icons/technique/Status.png",
-    "damage": 0,
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 95,
     "staminaCost": 33,
     "hold": 1,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Water",
-    "synergyEffects": [
-      {
-        "damage": 0,
-        "type": "buff",
-        "effect": "20 STA Cost"
-      }
-    ],
+    "synergyEffects": [],
     "targets": "Single Other Target",
-    "description": "Normally Taifu prefer cookies... but if there's nothing else available, they'll inflict 25% damage and heal themselves 25%, without even waking up the target.",
-    "effectText": "Leech causes a single other target to lose 25% of their maximum HP and restores 25% of the user's maximum HP. It will not remove the Asleep Condition from afflicted targets.",
-    "synergyText": "If used with a Water ally, its STA Cost decreases to 20 and priority increases to High.",
+    "description": "Normally Taifu prefer cookies... but if there's nothing else available, they'll strike and heal themselves 40% of the damage dealt.When paired with a Water Temtem, Taifu strike harder and heal themselves for 50% of the damage dealt.",
+    "effectText": "Leech damages a single other target and restores 40% of the damage dealt to the user.",
+    "synergyText": "If used with a Water ally, its priority increases to High and the user is healed for 50% of the damage dealt.",
     "effects": []
   },
   {
