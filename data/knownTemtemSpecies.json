@@ -28116,7 +28116,7 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Mithridatism",
+            "Marathonist",
             "Camouflage"
           ],
           "traitMapping": {
@@ -28139,7 +28139,7 @@
           "Coward's Rest"
         ],
         "traitMapping": {
-          "Immunity": "Mithridatism",
+          "Immunity": "Marathonist",
           "Coward's Rest": "Camouflage"
         }
       },
@@ -28149,11 +28149,11 @@
       "level": 10,
       "trading": false,
       "traits": [
-        "Mithridatism",
+        "Marathonist",
         "Camouflage"
       ],
       "traitMapping": {
-        "Mithridatism": "Mithridatism",
+        "Marathonist": "Marathonist",
         "Camouflage": "Camouflage"
       }
     },
@@ -29614,7 +29614,7 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Toxic Skin",
+            "Toxic Farewell",
             "Mucous"
           ],
           "traitMapping": {
@@ -29637,7 +29637,7 @@
           "Hydrologist"
         ],
         "traitMapping": {
-          "Mithridatism": "Toxic Skin",
+          "Mithridatism": "Toxic Farewell",
           "Hydrologist": "Mucous"
         }
       },
@@ -29647,11 +29647,11 @@
       "level": 18,
       "trading": false,
       "traits": [
-        "Toxic Skin",
+        "Toxic Farewell",
         "Mucous"
       ],
       "traitMapping": {
-        "Toxic Skin": "Toxic Skin",
+        "Toxic Farewell": "Toxic Farewell",
         "Mucous": "Mucous"
       }
     },
@@ -34205,9 +34205,9 @@
         "levels": 55
       },
       {
-        "name": "Toxic Slime",
+        "name": "Binary Flood",
         "source": "Levelling",
-        "levels": 63
+        "levels": 66
       },
       {
         "name": "Reset",
@@ -34215,14 +34215,14 @@
         "levels": 75
       },
       {
+        "name": "Toxic Slime",
+        "source": "Levelling",
+        "levels": 83
+      },
+      {
         "name": "Swarm Aid",
         "source": "Levelling",
         "levels": 91
-      },
-      {
-        "name": "Binary Flood",
-        "source": "Levelling",
-        "levels": 0
       },
       {
         "name": "Data Corruption",
