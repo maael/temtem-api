@@ -314,8 +314,8 @@
   {
     "name": "Energy Reserves",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Energy_Reserves",
-    "description": "Once per battle, if the Temtem is attacked and HP is below 40%, gets ATK and invigorated for 2 turns.",
-    "effect": "Energy Reserves gifts the holder with ATK and the Invigorated Condition for 2 turns as soon as the holder's HP drops below 40% once per battle."
+    "description": "Once per battle, if the Temtem is attacked and HP is below 45%, gets ATK and invigorated for 2 turns.",
+    "effect": "Energy Reserves gifts the holder with ATK and the Invigorated Condition for 2 turns as soon as the holder's HP drops below 45% once per battle."
   },
   {
     "name": "Enraged",
@@ -573,7 +573,7 @@
     "name": "Mithridatism",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Mithridatism",
     "description": "Prevents the poisoned status condition and reduces damage taken from Toxic Techniques by 22%.",
-    "effect": "Mithridatism protects the holder from being inflicted with the Poisoned Condition, decreases damage taken from Toxic Techniques by 22% and gifts the Regenerated Condition for 1 turn."
+    "effect": "Mithridatism protects the holder from being inflicted with the Poisoned Condition, decreases damage taken from Toxic Techniques by 22%."
   },
   {
     "name": "Motivator",
@@ -806,8 +806,8 @@
   {
     "name": "Settling",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Settling",
-    "description": "Increases ATK by 8% for each turn the Temtem stays on the battlefield.",
-    "effect": "Settling increases the holder's ATK by 8% for each turn they are on the battlefield. If the holder leaves the battlefield at any point, the cumulative bonus is reset."
+    "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK when a new turn starts.",
+    "effect": "Settling gifts the holder with ATK for each 2 consecutive turns they are on the battlefield."
   },
   {
     "name": "Shaolin",
@@ -944,8 +944,8 @@
   {
     "name": "Tactical Strike",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tactical_Strike",
-    "description": "Damage done with Hold techniques is increased by 20%.",
-    "effect": "Tactical Strike increases the damage of the holder's Techniques that have any amount of Hold by 20%."
+    "description": "Damage done with Hold techniques is increased by 16%.",
+    "effect": "Tactical Strike increases the damage of the holder's Techniques that have any amount of Hold by 16%."
   },
   {
     "name": "Tag Team",
@@ -998,8 +998,8 @@
   {
     "name": "Toxic Skin",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxic_Skin",
-    "description": "When attacked, the attacker gets poisoned for 1 turn.",
-    "effect": "Toxic Skin inflicts the Poisoned Condition for 1 turn onto any attacker that hits the holder with a Technique."
+    "description": "Once per turn, when attacked, the attacker gets poisoned for 1 turn.",
+    "effect": "Once per turn, Toxic Skin inflicts the Poisoned Condition for 1 turn onto any attacker that hits the holder with a Technique."
   },
   {
     "name": "Toxin Crusher",
@@ -1088,8 +1088,8 @@
   {
     "name": "Water Custodian",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Water_Custodian",
-    "description": "Water techniques targeting the ally will target the Temtem instead and deal 15% less damage.",
-    "effect": "Water Custodian causes all incoming Water Techniques targeting the holder's ally to hit the holder instead and reduces the damage taken from them by 15%."
+    "description": "Water techniques targeting the ally will target the Temtem instead and it will get SPATK .",
+    "effect": "Water Custodian causes all incoming Water Techniques targeting the holder's ally to hit the holder instead and if the technique was successfully redirected the user will get SPATK ."
   },
   {
     "name": "Water Synthesizer",
@@ -1100,8 +1100,8 @@
   {
     "name": "Wax Bath",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Wax_Bath",
-    "description": "When an ally rests, they get SPDEF .",
-    "effect": "Wax Bath gifts the holder's ally with SPDEF whenever they Rest."
+    "description": "Wax Bath decreases the damage the holder takes from Fire Techniques by 25% and invalidates the effects of the Burn Status Condition.",
+    "effect": "Wax Bath decreases the damage the holder takes from Fire Techniques by 25% and protects them from being inflicted with the Burned Condition."
   },
   {
     "name": "Welcomer",
