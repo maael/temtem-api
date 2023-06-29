@@ -26567,6 +26567,11 @@
         "levels": 45
       },
       {
+        "name": "Hurricane",
+        "source": "Levelling",
+        "levels": 56
+      },
+      {
         "name": "Tornado",
         "source": "Levelling",
         "levels": 67
@@ -26575,11 +26580,6 @@
         "name": "Blizzard",
         "source": "Levelling",
         "levels": 85
-      },
-      {
-        "name": "Hurricane",
-        "source": "Levelling",
-        "levels": 0
       },
       {
         "name": "Turbo Choreography",
@@ -37885,8 +37885,7 @@
       },
       {
         "name": "Restore",
-        "source": "Levelling",
-        "levels": 0
+        "source": "TechniqueCourses"
       }
     ],
     "trivia": [
