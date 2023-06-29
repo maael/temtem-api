@@ -15798,22 +15798,6 @@
       "evolutionTree": [
         {
           "stage": 0,
-          "number": 66,
-          "name": "Osuchi",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Caffeinated",
-            "Brawny"
-          ],
-          "traitMapping": {
-            "Caffeinated": "Furor",
-            "Brawny": "Parrier"
-          }
-        },
-        {
-          "stage": 1,
           "number": 67,
           "name": "Osukan",
           "level": 12,
@@ -15829,7 +15813,7 @@
           }
         },
         {
-          "stage": 2,
+          "stage": 1,
           "number": 68,
           "name": "Osukai",
           "level": 14,
@@ -15850,31 +15834,31 @@
       "from": null,
       "to": {
         "stage": 1,
-        "number": 67,
-        "name": "Osukan",
-        "level": 12,
+        "number": 68,
+        "name": "Osukai",
+        "level": 14,
         "type": "levels",
         "trading": false,
         "traits": [
-          "Furor",
-          "Parrier"
+          "Sensei",
+          "Body Stretch"
         ],
         "traitMapping": {
-          "Furor": "Sensei",
-          "Parrier": "Body Stretch"
+          "Sensei": "Sensei",
+          "Body Stretch": "Body Stretch"
         }
       },
-      "number": 66,
-      "name": "Osuchi",
-      "level": 0,
+      "number": 67,
+      "name": "Osukan",
+      "level": 12,
       "trading": false,
       "traits": [
-        "Caffeinated",
-        "Brawny"
+        "Furor",
+        "Parrier"
       ],
       "traitMapping": {
-        "Caffeinated": "Furor",
-        "Brawny": "Parrier"
+        "Furor": "Sensei",
+        "Parrier": "Body Stretch"
       }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -16038,26 +16022,10 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 1,
+      "stage": 0,
       "evolutionTree": [
         {
           "stage": 0,
-          "number": 66,
-          "name": "Osuchi",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Caffeinated",
-            "Brawny"
-          ],
-          "traitMapping": {
-            "Caffeinated": "Furor",
-            "Brawny": "Parrier"
-          }
-        },
-        {
-          "stage": 1,
           "number": 67,
           "name": "Osukan",
           "level": 12,
@@ -16073,7 +16041,7 @@
           }
         },
         {
-          "stage": 2,
+          "stage": 1,
           "number": 68,
           "name": "Osukai",
           "level": 14,
@@ -16091,24 +16059,9 @@
       ],
       "evolves": true,
       "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 66,
-        "name": "Osuchi",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Caffeinated",
-          "Brawny"
-        ],
-        "traitMapping": {
-          "Caffeinated": "Furor",
-          "Brawny": "Parrier"
-        }
-      },
+      "from": null,
       "to": {
-        "stage": 2,
+        "stage": 1,
         "number": 68,
         "name": "Osukai",
         "level": 14,
@@ -16318,26 +16271,10 @@
       "Osukai was first shown on the printed sticker pack in the Kickstarter physical rewards status and progress update."
     ],
     "evolution": {
-      "stage": 2,
+      "stage": 1,
       "evolutionTree": [
         {
           "stage": 0,
-          "number": 66,
-          "name": "Osuchi",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Caffeinated",
-            "Brawny"
-          ],
-          "traitMapping": {
-            "Caffeinated": "Furor",
-            "Brawny": "Parrier"
-          }
-        },
-        {
-          "stage": 1,
           "number": 67,
           "name": "Osukan",
           "level": 12,
@@ -16353,7 +16290,7 @@
           }
         },
         {
-          "stage": 2,
+          "stage": 1,
           "number": 68,
           "name": "Osukai",
           "level": 14,
@@ -16372,7 +16309,7 @@
       "evolves": true,
       "type": "levels",
       "from": {
-        "stage": 1,
+        "stage": 0,
         "number": 67,
         "name": "Osukan",
         "level": 12,
@@ -17547,11 +17484,6 @@
         "levels": 14
       },
       {
-        "name": "Crystallize",
-        "source": "Levelling",
-        "levels": 17
-      },
-      {
         "name": "Crystal Spikes",
         "source": "Levelling",
         "levels": 27
@@ -17782,11 +17714,6 @@
         "name": "Head Ram",
         "source": "Levelling",
         "levels": 14
-      },
-      {
-        "name": "Crystallize",
-        "source": "Levelling",
-        "levels": 17
       },
       {
         "name": "Crystal Spikes",
@@ -21511,7 +21438,7 @@
       {
         "name": "Composure",
         "source": "Levelling",
-        "levels": 0
+        "levels": 95
       },
       {
         "name": "Cage",
@@ -25205,7 +25132,7 @@
       {
         "name": "Venom Spread",
         "source": "Levelling",
-        "levels": 0
+        "levels": 60
       },
       {
         "name": "Antitoxins",
@@ -25659,6 +25586,11 @@
         "levels": 62
       },
       {
+        "name": "Wind Burst",
+        "source": "Levelling",
+        "levels": 73
+      },
+      {
         "name": "Virulent Gust",
         "source": "Levelling",
         "levels": 88
@@ -25667,11 +25599,6 @@
         "name": "Venom Spread",
         "source": "Levelling",
         "levels": 95
-      },
-      {
-        "name": "Wind Burst",
-        "source": "Levelling",
-        "levels": 0
       },
       {
         "name": "Noxious Bomb",
@@ -26087,6 +26014,11 @@
         "levels": 28
       },
       {
+        "name": "Tesla Prison",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
         "name": "Petrify",
         "source": "Levelling",
         "levels": 36
@@ -26119,12 +26051,7 @@
       {
         "name": "Dust Vortex",
         "source": "Levelling",
-        "levels": 0
-      },
-      {
-        "name": "Tesla Prison",
-        "source": "Levelling",
-        "levels": 0
+        "levels": 96
       },
       {
         "name": "Stone Wall",
@@ -29254,11 +29181,6 @@
         "levels": 20
       },
       {
-        "name": "Humiliating Slap",
-        "source": "Levelling",
-        "levels": 30
-      },
-      {
         "name": "Tsunami",
         "source": "TechniqueCourses"
       },
@@ -29534,11 +29456,6 @@
         "name": "High-pressure Water",
         "source": "Levelling",
         "levels": 20
-      },
-      {
-        "name": "Humiliating Slap",
-        "source": "Levelling",
-        "levels": 30
       },
       {
         "name": "Flood",
@@ -32586,6 +32503,11 @@
         "levels": 41
       },
       {
+        "name": "Debris Typhoon",
+        "source": "Levelling",
+        "levels": 60
+      },
+      {
         "name": "Turbine",
         "source": "Levelling",
         "levels": 81
@@ -32594,11 +32516,6 @@
         "name": "Divine Inspiration",
         "source": "Levelling",
         "levels": 92
-      },
-      {
-        "name": "Debris Typhoon",
-        "source": "Levelling",
-        "levels": 0
       },
       {
         "name": "Stone Wall",
@@ -34402,11 +34319,6 @@
         "levels": 10
       },
       {
-        "name": "Spores",
-        "source": "Levelling",
-        "levels": 15
-      },
-      {
         "name": "Revitalize",
         "source": "Levelling",
         "levels": 21
@@ -34425,7 +34337,7 @@
         "source": "Breeding"
       },
       {
-        "name": "Shy Shield",
+        "name": "Spores",
         "source": "Breeding"
       }
     ],
@@ -34596,11 +34508,6 @@
         "levels": 10
       },
       {
-        "name": "Spores",
-        "source": "Levelling",
-        "levels": 15
-      },
-      {
         "name": "Revitalize",
         "source": "Levelling",
         "levels": 21
@@ -34656,7 +34563,7 @@
         "source": "Breeding"
       },
       {
-        "name": "Shy Shield",
+        "name": "Spores",
         "source": "Breeding"
       }
     ],
@@ -37272,6 +37179,11 @@
         "levels": 47
       },
       {
+        "name": "Warm Cuddle",
+        "source": "Levelling",
+        "levels": 56
+      },
+      {
         "name": "Mineral Hail",
         "source": "Levelling",
         "levels": 65
@@ -37280,11 +37192,6 @@
         "name": "Chain Heal",
         "source": "Levelling",
         "levels": 72
-      },
-      {
-        "name": "Warm Cuddle",
-        "source": "Levelling",
-        "levels": 0
       },
       {
         "name": "Quartz Dirt",
@@ -37489,6 +37396,11 @@
         "levels": 47
       },
       {
+        "name": "Warm Cuddle",
+        "source": "Levelling",
+        "levels": 56
+      },
+      {
         "name": "Mineral Hail",
         "source": "Levelling",
         "levels": 65
@@ -37497,11 +37409,6 @@
         "name": "Chain Heal",
         "source": "Levelling",
         "levels": 72
-      },
-      {
-        "name": "Warm Cuddle",
-        "source": "Levelling",
-        "levels": 0
       },
       {
         "name": "Flaming Meteorite",
