@@ -15798,6 +15798,22 @@
       "evolutionTree": [
         {
           "stage": 0,
+          "number": 66,
+          "name": "Osuchi",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Caffeinated",
+            "Brawny"
+          ],
+          "traitMapping": {
+            "Caffeinated": "Furor",
+            "Brawny": "Parrier"
+          }
+        },
+        {
+          "stage": 1,
           "number": 67,
           "name": "Osukan",
           "level": 12,
@@ -15813,7 +15829,7 @@
           }
         },
         {
-          "stage": 1,
+          "stage": 2,
           "number": 68,
           "name": "Osukai",
           "level": 14,
@@ -15834,31 +15850,31 @@
       "from": null,
       "to": {
         "stage": 1,
-        "number": 68,
-        "name": "Osukai",
-        "level": 14,
+        "number": 67,
+        "name": "Osukan",
+        "level": 12,
         "type": "levels",
         "trading": false,
         "traits": [
-          "Sensei",
-          "Body Stretch"
+          "Furor",
+          "Parrier"
         ],
         "traitMapping": {
-          "Sensei": "Sensei",
-          "Body Stretch": "Body Stretch"
+          "Furor": "Sensei",
+          "Parrier": "Body Stretch"
         }
       },
-      "number": 67,
-      "name": "Osukan",
-      "level": 12,
+      "number": 66,
+      "name": "Osuchi",
+      "level": 0,
       "trading": false,
       "traits": [
-        "Furor",
-        "Parrier"
+        "Caffeinated",
+        "Brawny"
       ],
       "traitMapping": {
-        "Furor": "Sensei",
-        "Parrier": "Body Stretch"
+        "Caffeinated": "Furor",
+        "Brawny": "Parrier"
       }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -16022,10 +16038,26 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 0,
+      "stage": 1,
       "evolutionTree": [
         {
           "stage": 0,
+          "number": 66,
+          "name": "Osuchi",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Caffeinated",
+            "Brawny"
+          ],
+          "traitMapping": {
+            "Caffeinated": "Furor",
+            "Brawny": "Parrier"
+          }
+        },
+        {
+          "stage": 1,
           "number": 67,
           "name": "Osukan",
           "level": 12,
@@ -16041,7 +16073,7 @@
           }
         },
         {
-          "stage": 1,
+          "stage": 2,
           "number": 68,
           "name": "Osukai",
           "level": 14,
@@ -16059,9 +16091,24 @@
       ],
       "evolves": true,
       "type": "levels",
-      "from": null,
+      "from": {
+        "stage": 0,
+        "number": 66,
+        "name": "Osuchi",
+        "level": 0,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Caffeinated",
+          "Brawny"
+        ],
+        "traitMapping": {
+          "Caffeinated": "Furor",
+          "Brawny": "Parrier"
+        }
+      },
       "to": {
-        "stage": 1,
+        "stage": 2,
         "number": 68,
         "name": "Osukai",
         "level": 14,
@@ -16271,10 +16318,26 @@
       "Osukai was first shown on the printed sticker pack in the Kickstarter physical rewards status and progress update."
     ],
     "evolution": {
-      "stage": 1,
+      "stage": 2,
       "evolutionTree": [
         {
           "stage": 0,
+          "number": 66,
+          "name": "Osuchi",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Caffeinated",
+            "Brawny"
+          ],
+          "traitMapping": {
+            "Caffeinated": "Furor",
+            "Brawny": "Parrier"
+          }
+        },
+        {
+          "stage": 1,
           "number": 67,
           "name": "Osukan",
           "level": 12,
@@ -16290,7 +16353,7 @@
           }
         },
         {
-          "stage": 1,
+          "stage": 2,
           "number": 68,
           "name": "Osukai",
           "level": 14,
@@ -16309,7 +16372,7 @@
       "evolves": true,
       "type": "levels",
       "from": {
-        "stage": 0,
+        "stage": 1,
         "number": 67,
         "name": "Osukan",
         "level": 12,
