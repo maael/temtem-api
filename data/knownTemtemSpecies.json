@@ -1716,6 +1716,11 @@
         "levels": 18
       },
       {
+        "name": "Toxic Slime",
+        "source": "Levelling",
+        "levels": 19
+      },
+      {
         "name": "Antitoxins",
         "source": "Breeding"
       },
@@ -1988,6 +1993,11 @@
         "name": "Toxic Fang",
         "source": "Levelling",
         "levels": 18
+      },
+      {
+        "name": "Toxic Slime",
+        "source": "Levelling",
+        "levels": 19
       },
       {
         "name": "Tsunami",
@@ -2274,6 +2284,11 @@
         "levels": 18
       },
       {
+        "name": "Toxic Slime",
+        "source": "Levelling",
+        "levels": 19
+      },
+      {
         "name": "Tsunami",
         "source": "Levelling",
         "levels": 34
@@ -2512,12 +2527,12 @@
         "levels": 2
       },
       {
-        "name": "Urushiol",
+        "name": "Toxic Spores",
         "source": "Levelling",
         "levels": 5
       },
       {
-        "name": "Toxic Spores",
+        "name": "Urushiol",
         "source": "Levelling",
         "levels": 14
       },
@@ -2735,7 +2750,7 @@
         "levels": 2
       },
       {
-        "name": "Urushiol",
+        "name": "Toxic Spores",
         "source": "Levelling",
         "levels": 5
       },
@@ -2745,7 +2760,7 @@
         "levels": 11
       },
       {
-        "name": "Toxic Spores",
+        "name": "Urushiol",
         "source": "Levelling",
         "levels": 14
       },
@@ -5753,7 +5768,7 @@
         "source": "Breeding"
       },
       {
-        "name": "Lullaby",
+        "name": "Intimidation",
         "source": "Breeding"
       },
       {
@@ -5981,6 +5996,11 @@
         "levels": 48
       },
       {
+        "name": "Lullaby",
+        "source": "Levelling",
+        "levels": 60
+      },
+      {
         "name": "Knockback",
         "source": "Levelling",
         "levels": 74
@@ -6024,7 +6044,7 @@
         "source": "Breeding"
       },
       {
-        "name": "Lullaby",
+        "name": "Intimidation",
         "source": "Breeding"
       },
       {
@@ -11474,11 +11494,6 @@
         "levels": 84
       },
       {
-        "name": "Blue Screen",
-        "source": "Levelling",
-        "levels": 95
-      },
-      {
         "name": "Double Edge",
         "source": "TechniqueCourses"
       },
@@ -11650,14 +11665,14 @@
         "levels": 1
       },
       {
-        "name": "Nimble",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
         "name": "Urushiol",
         "source": "Levelling",
-        "levels": 8
+        "levels": 4
+      },
+      {
+        "name": "Nimble",
+        "source": "Levelling",
+        "levels": 7
       },
       {
         "name": "Sharp Leaf",
@@ -11916,14 +11931,14 @@
         "levels": 1
       },
       {
-        "name": "Nimble",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
         "name": "Urushiol",
         "source": "Levelling",
-        "levels": 8
+        "levels": 4
+      },
+      {
+        "name": "Nimble",
+        "source": "Levelling",
+        "levels": 7
       },
       {
         "name": "Sharp Leaf",
@@ -17100,6 +17115,11 @@
         "levels": 76
       },
       {
+        "name": "Toughen",
+        "source": "Levelling",
+        "levels": 83
+      },
+      {
         "name": "Charcoal Wall",
         "source": "Levelling",
         "levels": 90
@@ -18611,6 +18631,11 @@
         "name": "Slime",
         "source": "Levelling",
         "levels": 44
+      },
+      {
+        "name": "Wastewater",
+        "source": "Levelling",
+        "levels": 52
       },
       {
         "name": "Venom Spread",
@@ -24809,6 +24834,11 @@
         "levels": 66
       },
       {
+        "name": "Horror",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
         "name": "Turbo Choreography",
         "source": "TechniqueCourses"
       },
@@ -24822,10 +24852,6 @@
       },
       {
         "name": "Brace",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Horror",
         "source": "TechniqueCourses"
       },
       {
@@ -25198,15 +25224,16 @@
         "levels": 60
       },
       {
+        "name": "Madness Buff",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
         "name": "Antitoxins",
         "source": "TechniqueCourses"
       },
       {
         "name": "Confiscate",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Madness Buff",
         "source": "TechniqueCourses"
       },
       {
@@ -27339,6 +27366,11 @@
         "name": "Rockfall",
         "source": "Levelling",
         "levels": 78
+      },
+      {
+        "name": "Chain Heal",
+        "source": "Levelling",
+        "levels": 85
       },
       {
         "name": "Antitoxins",
@@ -32324,6 +32356,11 @@
         "levels": 66
       },
       {
+        "name": "Roar",
+        "source": "Levelling",
+        "levels": 75
+      },
+      {
         "name": "Sand Storm",
         "source": "Levelling",
         "levels": 84
@@ -37034,19 +37071,14 @@
         "levels": 64
       },
       {
-        "name": "Blue Screen",
-        "source": "Levelling",
-        "levels": 75
-      },
-      {
         "name": "Soul Shout",
         "source": "Levelling",
-        "levels": 91
+        "levels": 77
       },
       {
         "name": "Reset",
         "source": "Levelling",
-        "levels": 100
+        "levels": 89
       },
       {
         "name": "Rend",
