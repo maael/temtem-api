@@ -5754,9 +5754,32 @@
       {
         "name": "Antitoxins",
         "source": "TechniqueCourses"
+      },
+      {
+        "name": "Cage",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Bark Shield",
+        "source": "Breeding"
+      },
+      {
+        "name": "Hypoxia",
+        "source": "Breeding"
+      },
+      {
+        "name": "Intimidation",
+        "source": "Breeding"
+      },
+      {
+        "name": "Spores",
+        "source": "Breeding"
       }
     ],
-    "trivia": [],
+    "trivia": [
+      "Hidody was first revealed via Twitter.",
+      "Hidody has an emote on the official Temtem Discord."
+    ],
     "evolution": {
       "stage": 0,
       "evolutionTree": [
@@ -5827,7 +5850,50 @@
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "The Canopath",
+        "place": "The Canopath",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "40%",
+        "level": "14-17",
+        "freetem": {
+          "minLevel": 14,
+          "maxLevel": 17,
+          "minPansuns": 41,
+          "maxPansuns": 46
+        }
+      },
+      {
+        "location": "The Glassyway",
+        "place": "The Glassyway",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "50%",
+        "level": "19-22",
+        "freetem": {
+          "minLevel": 19,
+          "maxLevel": 22,
+          "minPansuns": 49,
+          "maxPansuns": 53
+        }
+      },
+      {
+        "location": "Giant Banyan",
+        "place": "Giant Banyan",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "40%",
+        "level": "23-26",
+        "freetem": {
+          "minLevel": 23,
+          "maxLevel": 26,
+          "minPansuns": 55,
+          "maxPansuns": 59
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Hidody.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Hidody.png",
     "genderRatio": {
@@ -5847,13 +5913,13 @@
     },
     "gameDescription": "This cutie is an adept climber, thanks to the little suckers located in each of its eight stubby legs. For the same reason, Omninesian children quickly learn to hide their cookies instead of putting them on the higher shelf...",
     "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/6/6a/Hidody_full_render.png",
-    "wikiRenderAnimatedUrl": "",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/9/92/Hidody_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/0/02/LumaHidody_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/c/c1/LumaHidody_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Hidody.png",
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Hidody.png",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "renderAnimatedImage": "/images/renders/temtem/animated/Hidody.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Hidody.gif"
   },
   {
     "number": 24,
@@ -23238,7 +23304,7 @@
       "spatk": 0,
       "spdef": 0
     },
-    "gameDescription": "While some Temtemologist point to the primeval forests of Arbury and Cipanku as possible origin of this species, there is plenty of archaeological proof of their early domestication around Lake Moyo.",
+    "gameDescription": "While some Temtemologists point to the primeval forests of Arbury and Cipanku as possible origin of this species, there is plenty of archaeological proof of their early domestication around Lake Moyo.",
     "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/2/27/Momo_full_render.png",
     "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/a/ad/Momo_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/2/2f/LumaMomo_full_render.png",
