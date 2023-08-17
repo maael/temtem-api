@@ -596,8 +596,8 @@
   {
     "name": "Neurotoxins",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Neurotoxins",
-    "description": "Once per battle, instead of applying poison, the target gets doomed for 3 turns instead.",
-    "effect": "Once per battle, Neurotoxins causes all of the holder's Techniques that can inflict the Poisoned Condition to instead inflict a 3 turn countdown of the Doomed Condition. Neurotoxins will inflict the Doomed Condition on Toxic targets but will fail to inflict targets that have Mithridatism or Immunity as their Trait. Neurotoxins will not be consumed if the Doomed Condition is not applied."
+    "description": "Once per battle, instead of applying poison, the target gets doomed for 4 turns instead.",
+    "effect": "Once per battle, Neurotoxins causes all of the holder's Techniques that can inflict the Poisoned Condition to instead inflict a 4 turn countdown of the Doomed Condition. Neurotoxins will inflict the Doomed Condition on Toxic targets but will fail to inflict targets that have Mithridatism or Immunity as their Trait. Neurotoxins will not be consumed if the Doomed Condition is not applied."
   },
   {
     "name": "Neutrality",
@@ -686,8 +686,8 @@
   {
     "name": "Puppet Master",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Puppet_Master",
-    "description": "While HP is below 40%, received rival techniques get redirected to the ally.",
-    "effect": "Puppet Master causes all incoming rival, single target Techniques aimed at the holder to be redirected to their ally while the holder is below 40% of their maximum HP."
+    "description": "While HP is below 45%, received rival techniques get redirected to the ally.",
+    "effect": "Puppet Master causes all incoming rival, single target Techniques aimed at the holder to be redirected to their ally while the holder is below 45% of their maximum HP."
   },
   {
     "name": "Pyromaniac",
@@ -704,8 +704,8 @@
   {
     "name": "Refurbished",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Refurbished",
-    "description": "Once per battle, regenerating for 4 turns after 3 consecutive turns on the battlefield.",
-    "effect": "Refurbished gifts the holder with the Regenerated Condition for 4 turns after the holder has been on the battlefield for 3 turns in a row once per battle."
+    "description": "Once per battle, regenerating for 3 turns after 3 consecutive turns on the battlefield.",
+    "effect": "Refurbished gifts the holder with the Regenerated Condition for 3 turns after the holder has been on the battlefield for 3 turns in a row once per battle."
   },
   {
     "name": "Rejuvenate",
@@ -764,8 +764,8 @@
   {
     "name": "Scavenger",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Scavenger",
-    "description": "Restores 17% of max HP if another Temtem is knocked-out.",
-    "effect": "Scavenger restores 17% of the holder's maximum HP when either their ally or a rival is knocked-out."
+    "description": "Restores 20% of max HP if another Temtem is knocked-out.",
+    "effect": "Scavenger restores 20% of the holder's maximum HP when either their ally or a rival is knocked-out."
   },
   {
     "name": "Seismic",
@@ -909,7 +909,7 @@
     "name": "Striking Transmog",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Striking_Transmog",
     "description": "Once per battle, when attacking an individual Temtem with a physical technique, Mimit transforms into the target.",
-    "effect": "Once per battle, Striking Transmog causes Mimit to transform into the Temtem the holder hits with Physical Techniques that has single target or single other target as their targeting and will multiply MMimit's DEF and SPDEF stat by 50% for the rest of the current turn. It will use the same Base Stats, Techniques, Trait, and Typing of the target but will keep its own Level, SVs and TVs. It also won't copy any Status Conditions or Stat Stage Changes which are currently applied on the target."
+    "effect": "Once per battle, Striking Transmog causes Mimit to transform into the Temtem the holder hits with Physical Techniques that has single target or single other target as their targeting and will multiply MMimit's DEF and SPDEF stat by 30% for the rest of the current turn. It will use the same Base Stats, Techniques, Trait, and Typing of the target but will keep its own Level, SVs and TVs. It also won't copy any Status Conditions or Stat Stage Changes which are currently applied on the target."
   },
   {
     "name": "Strong Liver",
@@ -944,8 +944,8 @@
   {
     "name": "Tactical Strike",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tactical_Strike",
-    "description": "Damage done with Hold techniques is increased by 16%.",
-    "effect": "Tactical Strike increases the damage of the holder's Techniques that have any amount of Hold by 16%."
+    "description": "Damage done with Hold techniques is increased by 12%.",
+    "effect": "Tactical Strike increases the damage of the holder's Techniques that have any amount of Hold by 12%."
   },
   {
     "name": "Tag Team",
@@ -968,8 +968,8 @@
   {
     "name": "Team Elusive",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Team_Elusive",
-    "description": "Prevents multi-target offensive techniques.",
-    "effect": "Team Elusive protects the holder from being affected by Techniques from both their ally and the rivals that have single team, rival team or the user's ally, all other Temtem, or all as their targeting. If Puppet Master would cause a holder to be the target of a Technique, it will."
+    "description": "Prevents multi-target damaging techniques.",
+    "effect": "Team Elusive protects the holder from being affected by damaging Techniques from both their ally and the rivals that have single team, rival team or the user's ally, all other Temtem, or all as their targeting. If Puppet Master would cause a holder to be the target of a Technique, it will."
   },
   {
     "name": "Thick Skin",

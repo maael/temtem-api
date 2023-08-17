@@ -1721,6 +1721,15 @@
         "levels": 19
       },
       {
+        "name": "Tsunami",
+        "source": "Levelling",
+        "levels": 34
+      },
+      {
+        "name": "Noxious Bomb",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Antitoxins",
         "source": "Breeding"
       },
@@ -2003,6 +2012,11 @@
         "name": "Tsunami",
         "source": "Levelling",
         "levels": 34
+      },
+      {
+        "name": "Toxin Shower",
+        "source": "Levelling",
+        "levels": 58
       },
       {
         "name": "Noxious Bomb",
@@ -2527,12 +2541,12 @@
         "levels": 2
       },
       {
-        "name": "Urushiol",
+        "name": "Toxic Spores",
         "source": "Levelling",
         "levels": 5
       },
       {
-        "name": "Toxic Spores",
+        "name": "Urushiol",
         "source": "Levelling",
         "levels": 14
       },
@@ -2547,12 +2561,12 @@
         "levels": 25
       },
       {
-        "name": "Bark Shield",
+        "name": "Allergic Spread",
         "source": "Levelling",
         "levels": 35
       },
       {
-        "name": "Allergic Spread",
+        "name": "Bark Shield",
         "source": "Levelling",
         "levels": 44
       },
@@ -3339,19 +3353,14 @@
         "levels": 1
       },
       {
-        "name": "Clay Ball",
+        "name": "Voltopuncture",
         "source": "Levelling",
         "levels": 5
       },
       {
-        "name": "Voltopuncture",
-        "source": "Levelling",
-        "levels": 10
-      },
-      {
         "name": "Tesla Prison",
         "source": "Levelling",
-        "levels": 15
+        "levels": 12
       },
       {
         "name": "Venomous Claws",
@@ -5262,7 +5271,25 @@
         "levels": 22
       },
       {
+        "name": "Crystal Deluge",
+        "source": "Levelling",
+        "levels": 45
+      },
+      {
+        "name": "Stone Ball",
+        "source": "Levelling",
+        "levels": 56
+      },
+      {
         "name": "Sharpening",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Quartz Dirt",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Soil Steam",
         "source": "TechniqueCourses"
       },
       {
@@ -5746,6 +5773,16 @@
         "name": "Gaia",
         "source": "Levelling",
         "levels": 24
+      },
+      {
+        "name": "Dust Vortex",
+        "source": "Levelling",
+        "levels": 37
+      },
+      {
+        "name": "Frond Whip",
+        "source": "Levelling",
+        "levels": 48
       },
       {
         "name": "Wake Up",
@@ -6503,17 +6540,17 @@
         "levels": 27
       },
       {
-        "name": "Tornado",
+        "name": "Water Cannon",
         "source": "Levelling",
         "levels": 42
       },
       {
-        "name": "Hibernate",
+        "name": "Gust",
         "source": "Levelling",
         "levels": 57
       },
       {
-        "name": "Gust",
+        "name": "Tornado",
         "source": "Levelling",
         "levels": 73
       },
@@ -6523,7 +6560,7 @@
         "levels": 90
       },
       {
-        "name": "Water Cannon",
+        "name": "Hibernate",
         "source": "Levelling",
         "levels": 100
       },
@@ -6781,6 +6818,16 @@
         "name": "Haito Uchi",
         "source": "Levelling",
         "levels": 24
+      },
+      {
+        "name": "Ninja Jutsu",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Savage Suplex",
+        "source": "Levelling",
+        "levels": 42
       },
       {
         "name": "Stone Wall",
@@ -7057,24 +7104,24 @@
         "levels": 24
       },
       {
-        "name": "Inner Spirit",
+        "name": "Ninja Jutsu",
         "source": "Levelling",
         "levels": 32
       },
       {
-        "name": "Ninja Jutsu",
+        "name": "Savage Suplex",
         "source": "Levelling",
         "levels": 42
       },
       {
-        "name": "Savage Suplex",
+        "name": "Inner Spirit",
         "source": "Levelling",
         "levels": 56
       },
       {
         "name": "Wrenching Massage",
         "source": "Levelling",
-        "levels": 80
+        "levels": 73
       },
       {
         "name": "Stone Wall",
@@ -7369,6 +7416,24 @@
         "name": "Pickpocket",
         "source": "Levelling",
         "levels": 36
+      },
+      {
+        "name": "Goring",
+        "source": "Levelling",
+        "levels": 48
+      },
+      {
+        "name": "Execution",
+        "source": "Levelling",
+        "levels": 57
+      },
+      {
+        "name": "Held Anger",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Base Jump",
+        "source": "TechniqueCourses"
       },
       {
         "name": "Bestial Charge",
@@ -9629,7 +9694,16 @@
         "levels": 15
       },
       {
+        "name": "Crystal Bite",
+        "source": "Levelling",
+        "levels": 24
+      },
+      {
         "name": "Footwork",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Sharpening",
         "source": "TechniqueCourses"
       },
       {
@@ -10090,12 +10164,12 @@
         "levels": 15
       },
       {
-        "name": "Madness Buff",
+        "name": "Crystal Bite",
         "source": "Levelling",
         "levels": 24
       },
       {
-        "name": "Crystal Bite",
+        "name": "Madness Buff",
         "source": "Levelling",
         "levels": 37
       },
@@ -10347,7 +10421,20 @@
         "levels": 37
       },
       {
+        "name": "Fire Flame",
+        "source": "Levelling",
+        "levels": 45
+      },
+      {
         "name": "Look out",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Quetza-leño",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Horror",
         "source": "TechniqueCourses"
       },
       {
@@ -10742,6 +10829,21 @@
         "levels": 24
       },
       {
+        "name": "Iced Stalactite",
+        "source": "Levelling",
+        "levels": 31
+      },
+      {
+        "name": "Aqua Stone",
+        "source": "Levelling",
+        "levels": 40
+      },
+      {
+        "name": "Harmful Lick",
+        "source": "Levelling",
+        "levels": 48
+      },
+      {
         "name": "Wake Up",
         "source": "TechniqueCourses"
       },
@@ -10751,6 +10853,10 @@
       },
       {
         "name": "Antitoxins",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Laundry",
         "source": "TechniqueCourses"
       },
       {
@@ -11266,6 +11372,16 @@
         "levels": 33
       },
       {
+        "name": "Cooperation",
+        "source": "Levelling",
+        "levels": 45
+      },
+      {
+        "name": "Electric Storm",
+        "source": "Levelling",
+        "levels": 58
+      },
+      {
         "name": "Double Edge",
         "source": "TechniqueCourses"
       },
@@ -11665,12 +11781,12 @@
         "levels": 1
       },
       {
-        "name": "Nimble",
+        "name": "Urushiol",
         "source": "Levelling",
-        "levels": 6
+        "levels": 4
       },
       {
-        "name": "Urushiol",
+        "name": "Nimble",
         "source": "Levelling",
         "levels": 7
       },
@@ -11698,6 +11814,21 @@
         "name": "Allergic Spread",
         "source": "Levelling",
         "levels": 30
+      },
+      {
+        "name": "Humiliating Slap",
+        "source": "Levelling",
+        "levels": 39
+      },
+      {
+        "name": "Turbine",
+        "source": "Levelling",
+        "levels": 51
+      },
+      {
+        "name": "Frond Whip",
+        "source": "Levelling",
+        "levels": 65
       },
       {
         "name": "Wake Up",
@@ -11931,12 +12062,12 @@
         "levels": 1
       },
       {
-        "name": "Nimble",
+        "name": "Urushiol",
         "source": "Levelling",
-        "levels": 6
+        "levels": 4
       },
       {
-        "name": "Urushiol",
+        "name": "Nimble",
         "source": "Levelling",
         "levels": 7
       },
@@ -14983,6 +15114,20 @@
         "name": "Thunder Strike",
         "source": "Levelling",
         "levels": 30
+      },
+      {
+        "name": "Defibrillate",
+        "source": "Levelling",
+        "levels": 38
+      },
+      {
+        "name": "Earthbreaker",
+        "source": "Levelling",
+        "levels": 48
+      },
+      {
+        "name": "Drought",
+        "source": "TechniqueCourses"
       },
       {
         "name": "Shelter",
@@ -27128,6 +27273,25 @@
         "levels": 22
       },
       {
+        "name": "Iced Stalactite",
+        "source": "Levelling",
+        "levels": 34
+      },
+      {
+        "name": "Flood",
+        "source": "Levelling",
+        "levels": 40
+      },
+      {
+        "name": "Rockfall",
+        "source": "Levelling",
+        "levels": 50
+      },
+      {
+        "name": "Soil Steam",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Waterjet",
         "source": "Breeding"
       }
@@ -27370,9 +27534,14 @@
         "levels": 40
       },
       {
-        "name": "Earthbreaker",
+        "name": "Rockfall",
         "source": "Levelling",
         "levels": 50
+      },
+      {
+        "name": "Earthbreaker",
+        "source": "Levelling",
+        "levels": 78
       },
       {
         "name": "Cold Geyser",
@@ -27380,7 +27549,7 @@
         "levels": 61
       },
       {
-        "name": "Rockfall",
+        "name": "Earthbreaker",
         "source": "Levelling",
         "levels": 78
       },
@@ -28312,11 +28481,6 @@
         "levels": 45
       },
       {
-        "name": "Crystal Deluge",
-        "source": "Levelling",
-        "levels": 51
-      },
-      {
         "name": "Fluid Barrier",
         "source": "Levelling",
         "levels": 62
@@ -28332,6 +28496,10 @@
       },
       {
         "name": "Confiscate",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Relax",
         "source": "TechniqueCourses"
       },
       {
@@ -29303,6 +29471,10 @@
       },
       {
         "name": "Wake Up",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Laundry",
         "source": "TechniqueCourses"
       },
       {
@@ -34451,6 +34623,16 @@
         "levels": 34
       },
       {
+        "name": "Resin Trap",
+        "source": "Levelling",
+        "levels": 45
+      },
+      {
+        "name": "Plasma Beam",
+        "source": "Levelling",
+        "levels": 55
+      },
+      {
         "name": "Digithreat",
         "source": "Breeding"
       },
@@ -35241,6 +35423,11 @@
         "levels": 55
       },
       {
+        "name": "Backhole",
+        "source": "Levelling",
+        "levels": 68
+      },
+      {
         "name": "Madness Buff",
         "source": "TechniqueCourses"
       },
@@ -35465,7 +35652,7 @@
         "levels": 55
       },
       {
-        "name": "Piezoelectric Blow",
+        "name": "Blackhole",
         "source": "Levelling",
         "levels": 68
       },
@@ -35475,7 +35662,7 @@
         "levels": 80
       },
       {
-        "name": "Blackhole",
+        "name": "Piezoelectric Blow",
         "source": "Levelling",
         "levels": 94
       },
