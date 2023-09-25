@@ -74,8 +74,8 @@
   {
     "name": "Backhanded",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Backhanded",
-    "description": "When attacking with a status technique, gets invigorated for 2 turns.",
-    "effect": "Backhanded gifts the holder the Invigorated Condition for 2 turns if a Status Technique is used."
+    "description": "When using a Status Condition Technique, this Temtem receives 1 turn of Regenerating.",
+    "effect": "Backhanded gifts the holder the UnknownType Condition for 1 turn if a Status Technique is used."
   },
   {
     "name": "Benefactor",
@@ -194,8 +194,8 @@
   {
     "name": "Common Factor",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Common_Factor",
-    "description": "When entering the battlefield, all Temtem get nullified for 2 turns.",
-    "effect": "Common Factor gives all combatants on the battlefield the Nullified Condition for 2 turns upon the holder entering the battlefield."
+    "description": "When entering the battlefield, all Temtem get nullified for 1 turn.",
+    "effect": "Common Factor gives all combatants on the battlefield the Nullified Condition for 1 turn upon the holder entering the battlefield."
   },
   {
     "name": "Confident",
@@ -230,8 +230,8 @@
   {
     "name": "Deceit Aura",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Deceit_Aura",
-    "description": "Techniques order is inverted during the first 4 turns the Temtem is on the battlefield. At the start of the turn, the holder loses 15% of their max HP.",
-    "effect": "Deceit Aura causes the order of all Techniques used by all combatants on the battlefield to be reversed for the first four turns the holder is on the battlefield and causes the holder to lose 15% of their maximum HP at the start of the turn. Temtem swapping still occurs prior to techniques being used but the order of swapping is reversed and Item usage is unaffected. The HP loss effect will no longer activate once the effect of Deceit Aura ends."
+    "description": "From Very Low to Very High, the priority of the techniques used during a turn is inverted.",
+    "effect": "Deceit Aura causes the priority of all Techniques to invert based on their priority level with the exception of Ultra . The results of this effect are listed below:"
   },
   {
     "name": "Defuser",
@@ -452,8 +452,8 @@
   {
     "name": "Hypnotist",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Hypnotist",
-    "description": "Once per battle, when entering the battlefield, rivals and the ally get asleep for 1 turn.",
-    "effect": "Hypnotist inflicts both rivals and the holder's ally with the Asleep Condition for 1 turn upon the holder entering the battlefield once per battle."
+    "description": "Once per battle, after the Temtem spent 2 turns on the battlefield, rivals and the ally get asleep for 1 turn.",
+    "effect": "Once per battle, after the Temtem spent 2 turns on the battlefield, Hypnotist inflicts both rivals and the holder's ally with the Asleep Condition for 1 turn."
   },
   {
     "name": "Ignis Fatuus",
@@ -506,8 +506,8 @@
   {
     "name": "Iridescence",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Iridescence",
-    "description": "Type resistances for the Temtem are reversed.",
-    "effect": "Iridescence causes the holder to have inverted type effectiveness. For example: if the holder is Water and is attacked by a Fire Technique, they will take Effective damage rather than Ineffective damage."
+    "description": "When receiving a technique, the type of the technique is ignored, but it deals 12.5% more damage to Koish.",
+    "effect": "Iridescence causes the holder to receive 12.5% more damage from Techniques but the type of the Technique is ignored."
   },
   {
     "name": "Jack of all Trades",
@@ -518,8 +518,8 @@
   {
     "name": "Kinetic Transfer",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Kinetic_Transfer",
-    "description": "When attacked, restores 10% of max STA and the attacker loses 10% of max STA.",
-    "effect": "Kinetic Transfer causes the holder to restore 10% of their maximum STA and their attacker to lose 10% of their maximum STA when the holder is hit by a damage-dealing Technique."
+    "description": "When attacking a Temtem, the user recovers 15% of the damage done as STA.",
+    "effect": "Kinetic Transfer causes the holder to restore 15% of the inflicted Damage as STA."
   },
   {
     "name": "Landing Transmog",
@@ -530,8 +530,8 @@
   {
     "name": "Last Rush",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Last_Rush",
-    "description": "While rivals outnumber allies, techniques inflict +40% Damage.",
-    "effect": "Last Rush increases the damage of the holder's Techniques by an additional 40% while the number of conscious combatants on the rival's squad outnumber the number of conscious combatants on the holder's squad."
+    "description": "While rivals outnumber allies, techniques inflict +33% Damage.",
+    "effect": "Last Rush increases the damage of the holder's Techniques by an additional 33% while the number of conscious combatants on the rival's squad outnumber the number of conscious combatants on the holder's squad."
   },
   {
     "name": "Loneliness",
@@ -632,8 +632,8 @@
   {
     "name": "Pigment Inverter",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Pigment_Inverter",
-    "description": "When attacking, type resistances for the target Temtem are reversed.",
-    "effect": "Pigment Inverter causes the holder's target to have inverted Type effectiveness. For example: if the holder uses a Fire Technique on a Water target, they will take Effective damage rather than Ineffective damage."
+    "description": "When attacking a Temtem with an ineffective technique, the target receives 3 turns of Nullified.",
+    "effect": "Pigment Inverter causes the holder's target to receive the Nullified Condition for 3 turns if the Technique used was ineffective."
   },
   {
     "name": "Plethoric",
@@ -806,8 +806,8 @@
   {
     "name": "Settling",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Settling",
-    "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK when a new turn starts.",
-    "effect": "Settling gifts the holder with ATK for each 2 consecutive turns they are on the battlefield."
+    "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK and SPATK when a new turn starts.",
+    "effect": "Settling gifts the holder with ATK and SPATK for each 2 consecutive turns they are on the battlefield."
   },
   {
     "name": "Shaolin",
@@ -836,8 +836,8 @@
   {
     "name": "Skull Helmet",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Skull_Helmet",
-    "description": "Damage taken from Mental or Melee techniques is reduced by 25%.",
-    "effect": "Skull Helmet decreases the damage the holder takes from Mental and Melee Techniques by 25%."
+    "description": "Damage taken from Mental or Melee techniques is reduced by 25% and the Temtem is immune to the Exhausted status condition.",
+    "effect": "Skull Helmet decreases the damage the holder takes from Mental and Melee Techniques by 25%. The holder is also immnue to the Exhausted Condition."
   },
   {
     "name": "Snowstorm",
@@ -938,8 +938,8 @@
   {
     "name": "Synertyper",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Synertyper",
-    "description": "Damage done with techniques is increased by 30% if both allies share a type.",
-    "effect": "Synertyper increases the damage of the holder's Techniques by 30% if both the holder and their ally share a Type."
+    "description": "Damage done with techniques is increased by 25% if both allies share a type.",
+    "effect": "Synertyper increases the damage of the holder's Techniques by 25% if both the holder and their ally share a Type."
   },
   {
     "name": "Tactical Strike",
@@ -992,8 +992,8 @@
   {
     "name": "Toxic Farewell",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxic_Farewell",
-    "description": "When knocked-out, the attacker loses 10% of max HP and gets poisoned for 3 turns.",
-    "effect": "Toxic Farewell inflicts the attacker that knocked-out the holder with the Poisoned Condition for 3 turns and they lose 10% of their maximum HP."
+    "description": "When knocked-out, the attacking team loses 7% of max HP and gets poisoned for 1 turn.",
+    "effect": "Toxic Farewell inflicts the attacking team that knocked-out the holder with the Poisoned Condition for 1 turn and they lose 7% of their maximum HP."
   },
   {
     "name": "Toxic Skin",
@@ -1034,8 +1034,8 @@
   {
     "name": "Tri-Phytologist",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tri-Phytologist",
-    "description": "When attacking with a physical technique, the target gets exhausted for 1 turn if it's a rival or invigorated for 2 turns if it's an ally or itself.",
-    "effect": "When the holder attacks a target with a Physical Technique, Tri-Phytologist inflicts the target with the Exhausted Status Condition for 1 turn if the target is a rival or the Invigorated Status Condition for 2 turns if the target is the holder itself or its ally."
+    "description": "When attacking with a physical technique, the target gets exhausted for 2 turns if it's a rival or invigorated for 2 turns if it's an ally or itself.",
+    "effect": "When the holder attacks a target with a Physical Technique, Tri-Phytologist inflicts the target with the Exhausted Status Condition for 2 turns if the target is a rival or the Invigorated Status Condition for 2 turns if the target is the holder itself or its ally."
   },
   {
     "name": "Unnoticed",
