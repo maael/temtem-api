@@ -681,7 +681,7 @@
     "name": "Protostar",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Protostar",
     "description": "When entering the battlefield, gets doomed for 5 turns. When knocked-out due to doom, rivals lose 40% of Galios' remaining HP, revives and Protostar changes to Supernova.",
-    "effect": "Protostar revives the holder and restores 40% of their maximum HP after being knocked-out by the Doomed Condition and changes the Trait to Supernova. Protostar inflicts the holder with the Doomed Condition for 5 turns upon entering the battlefield."
+    "effect": "After being knocked-out by the Doomed Condition, Protostar revives the holder with 100% of max HP and depletes HP of the enemy team based on 40% of the holder's remaining HP and changes the Trait to Supernova."
   },
   {
     "name": "Provident",
@@ -939,7 +939,7 @@
     "name": "Supernova",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Supernova",
     "description": "When entering the battlefield, gets doomed for 5 turns. When knocked-out due to doom, rivals lose 40% of Galios' lost HP, revives and Supernova changes to Protostar.",
-    "effect": "Supernova revives the holder and depletes 40% maximum HP of the enemy team after being knocked-out by the Doomed Condition and changes the Trait to Protostar. Supernova inflicts the holder with the Doomed Condition for 5 turns upon entering the battlefield."
+    "effect": "After being knocked-out by the Doomed Condition, Supernova revives the holder with 100% of max HP and depletes HP of the enemy team based on 40% of the holder's missing HP and changes the Trait to Protostar. The damage dealt is calculated as follows:"
   },
   {
     "name": "Synergy Adept",
