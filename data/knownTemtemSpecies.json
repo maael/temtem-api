@@ -3923,8 +3923,8 @@
             "Camaraderie"
           ],
           "traitMapping": {
-            "Caffeinated": "Bully",
-            "Camaraderie": "Unknown"
+            "Caffeinated": "Bird Season",
+            "Camaraderie": "Bully"
           }
         },
         {
@@ -3939,6 +3939,7 @@
             "Bully"
           ],
           "traitMapping": {
+            "Bird Season": "Bird Season",
             "Bully": "Bully"
           }
         }
@@ -4184,8 +4185,8 @@
             "Camaraderie"
           ],
           "traitMapping": {
-            "Caffeinated": "Bully",
-            "Camaraderie": "Unknown"
+            "Caffeinated": "Bird Season",
+            "Camaraderie": "Bully"
           }
         },
         {
@@ -4200,6 +4201,7 @@
             "Bully"
           ],
           "traitMapping": {
+            "Bird Season": "Bird Season",
             "Bully": "Bully"
           }
         }
@@ -4456,6 +4458,7 @@
       "total": 450
     },
     "traits": [
+      "Bird Season",
       "Bully"
     ],
     "details": {
@@ -4597,8 +4600,8 @@
             "Camaraderie"
           ],
           "traitMapping": {
-            "Caffeinated": "Bully",
-            "Camaraderie": "Unknown"
+            "Caffeinated": "Bird Season",
+            "Camaraderie": "Bully"
           }
         },
         {
@@ -4613,6 +4616,7 @@
             "Bully"
           ],
           "traitMapping": {
+            "Bird Season": "Bird Season",
             "Bully": "Bully"
           }
         }
@@ -36716,7 +36720,7 @@
       {
         "name": "Undermine",
         "source": "Levelling",
-        "levels": 0
+        "levels": 100
       },
       {
         "name": "Base Jump",
