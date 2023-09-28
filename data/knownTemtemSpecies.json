@@ -9691,12 +9691,13 @@
           "number": 41,
           "name": "Zenoreth",
           "level": 0,
-          "type": "trade",
-          "trading": true,
+          "type": "special",
+          "trading": false,
           "traits": [
             "Channeler",
             "Wrecked Farewell"
           ],
+          "description": "Trade or Minimonolith",
           "traitMapping": {
             "Channeler": "Channeler",
             "Wrecked Farewell": "Wrecked Farewell"
@@ -9937,12 +9938,13 @@
           "number": 41,
           "name": "Zenoreth",
           "level": 0,
-          "type": "trade",
-          "trading": true,
+          "type": "special",
+          "trading": false,
           "traits": [
             "Channeler",
             "Wrecked Farewell"
           ],
+          "description": "Trade or Minimonolith",
           "traitMapping": {
             "Channeler": "Channeler",
             "Wrecked Farewell": "Wrecked Farewell"
@@ -9972,12 +9974,13 @@
         "number": 41,
         "name": "Zenoreth",
         "level": 0,
-        "type": "trade",
-        "trading": true,
+        "type": "special",
+        "trading": false,
         "traits": [
           "Channeler",
           "Wrecked Farewell"
         ],
+        "description": "Trade or Minimonolith",
         "traitMapping": {
           "Channeler": "Channeler",
           "Wrecked Farewell": "Wrecked Farewell"
@@ -10204,12 +10207,13 @@
           "number": 41,
           "name": "Zenoreth",
           "level": 0,
-          "type": "trade",
-          "trading": true,
+          "type": "special",
+          "trading": false,
           "traits": [
             "Channeler",
             "Wrecked Farewell"
           ],
+          "description": "Trade or Minimonolith",
           "traitMapping": {
             "Channeler": "Channeler",
             "Wrecked Farewell": "Wrecked Farewell"
@@ -10217,7 +10221,7 @@
         }
       ],
       "evolves": true,
-      "type": "trade",
+      "type": "special",
       "from": {
         "stage": 1,
         "number": 40,
@@ -10238,11 +10242,12 @@
       "number": 41,
       "name": "Zenoreth",
       "level": 0,
-      "trading": true,
+      "trading": false,
       "traits": [
         "Channeler",
         "Wrecked Farewell"
       ],
+      "description": "Trade or Minimonolith",
       "traitMapping": {
         "Channeler": "Channeler",
         "Wrecked Farewell": "Wrecked Farewell"
