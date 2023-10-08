@@ -84,6 +84,12 @@
     "effect": "Benefactor restores 8% of the holder's ally's maximum HP whenever they take damage from a Technique. The targeting of the technique doesn't matter and the effect has no minimum value, meaning it can restore the ally for more HP than they lost due to getting attacked. Benefactor will only trigger if the holder's ally takes damage from a technique, so damage from other traits like Mirroring or from Status Conditions like the Poisoned Condition will not cause it to activate."
   },
   {
+    "name": "Bird Season",
+    "wikiUrl": "https://temtem.wiki.gg/wiki/Bird_Season",
+    "description": "Damage dealt with Wind techniques is increased by 50% on targets with the Wind Type.",
+    "effect": "Bird Season increases the damage of the holder's Wind Techniques by 50% if their target is part Wind."
+  },
+  {
     "name": "Body Stretch",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Body_Stretch",
     "description": "When resting, restores 10% of max HP and gets regenerating for 1 turn.",
@@ -672,6 +678,12 @@
     "effect": "Protector gifts the holder's ally with DEF and SPDEF upon the holder entering the battlefield once per battle."
   },
   {
+    "name": "Protostar",
+    "wikiUrl": "https://temtem.wiki.gg/wiki/Protostar",
+    "description": "When entering the battlefield, gets doomed for 5 turns. When knocked-out due to doom, rivals lose 40% of Galios' remaining HP, revives and Protostar changes to Supernova.",
+    "effect": "After being knocked-out by the Doomed Condition, Protostar revives the holder with 100% of max HP and depletes HP of the enemy team based on 40% of the holder's remaining HP and changes the Trait to Supernova."
+  },
+  {
     "name": "Provident",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Provident",
     "description": "After being attacked with a Fire, Earth or Melee technique, gets SPDEF .",
@@ -922,6 +934,12 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Superconductivity",
     "description": "When an ally uses a technique, the temtem counts as all types for its synergy.",
     "effect": "Superconductivity causes all of the holder's ally's Techniques that have a Synergy to activate that Synergy's effect even if the holder doesn't match the Synergy's Type."
+  },
+  {
+    "name": "Supernova",
+    "wikiUrl": "https://temtem.wiki.gg/wiki/Supernova",
+    "description": "When entering the battlefield, gets doomed for 5 turns. When knocked-out due to doom, rivals lose 40% of Galios' lost HP, revives and Supernova changes to Protostar.",
+    "effect": "After being knocked-out by the Doomed Condition, Supernova revives the holder with 100% of max HP and depletes HP of the enemy team based on 40% of the holder's missing HP and changes the Trait to Protostar. The damage dealt is calculated as follows:"
   },
   {
     "name": "Synergy Adept",
