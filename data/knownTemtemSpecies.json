@@ -6780,72 +6780,7 @@
       "Skail has an emote on the official Temtem Discord."
     ],
     "evolution": {
-      "stage": 0,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 27,
-          "name": "Skail",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Furor",
-            "Scavenger"
-          ],
-          "traitMapping": {
-            "Furor": "Brawny",
-            "Scavenger": "Bully"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 28,
-          "name": "Skunch",
-          "level": 17,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Brawny",
-            "Bully"
-          ],
-          "traitMapping": {
-            "Brawny": "Brawny",
-            "Bully": "Bully"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": null,
-      "to": {
-        "stage": 1,
-        "number": 28,
-        "name": "Skunch",
-        "level": 17,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Brawny",
-          "Bully"
-        ],
-        "traitMapping": {
-          "Brawny": "Brawny",
-          "Bully": "Bully"
-        }
-      },
-      "number": 27,
-      "name": "Skail",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Furor",
-        "Scavenger"
-      ],
-      "traitMapping": {
-        "Furor": "Brawny",
-        "Scavenger": "Bully"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -7081,72 +7016,7 @@
       "Skunch was first revealed via Twitch in iPokeNinja's Stream on 08/08/2018."
     ],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 27,
-          "name": "Skail",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Furor",
-            "Scavenger"
-          ],
-          "traitMapping": {
-            "Furor": "Brawny",
-            "Scavenger": "Bully"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 28,
-          "name": "Skunch",
-          "level": 17,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Brawny",
-            "Bully"
-          ],
-          "traitMapping": {
-            "Brawny": "Brawny",
-            "Bully": "Bully"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 27,
-        "name": "Skail",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Furor",
-          "Scavenger"
-        ],
-        "traitMapping": {
-          "Furor": "Brawny",
-          "Scavenger": "Bully"
-        }
-      },
-      "to": null,
-      "number": 28,
-      "name": "Skunch",
-      "level": 17,
-      "trading": false,
-      "traits": [
-        "Brawny",
-        "Bully"
-      ],
-      "traitMapping": {
-        "Brawny": "Brawny",
-        "Bully": "Bully"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -22778,8 +22648,8 @@
       "spdef": 0
     },
     "gameDescription": "One of the most remarkable inhabitants of the Kisiwan savanna, the powerful Zizare are the biggest creeping Temtem. Proud and territorial, they make for staunch friends.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/9/97/Zizare_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/c/c0/Zizare_idle_animation.gif",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/c/c1/UmbraZizare_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/8/8c/UmbraZizare_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/d/d2/LumaZizare_full_render.png",
     "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/a/a5/LumaZizare_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Zizare.png",
