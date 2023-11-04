@@ -6798,7 +6798,70 @@
       "Skunch was first revealed via Twitch in iPokeNinja's Stream on 08/08/2018."
     ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "name": "Skail",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Furor",
+            "Scavenger"
+          ],
+          "traitMapping": {
+            "Furor": "Brawny",
+            "Scavenger": "Bully"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 28,
+          "name": "Skunch",
+          "level": 17,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Brawny",
+            "Bully"
+          ],
+          "traitMapping": {
+            "Brawny": "Brawny",
+            "Bully": "Bully"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": {
+        "stage": 0,
+        "name": "Skail",
+        "level": 0,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Furor",
+          "Scavenger"
+        ],
+        "traitMapping": {
+          "Furor": "Brawny",
+          "Scavenger": "Bully"
+        }
+      },
+      "to": null,
+      "number": 28,
+      "name": "Skunch",
+      "level": 17,
+      "trading": false,
+      "traits": [
+        "Brawny",
+        "Bully"
+      ],
+      "traitMapping": {
+        "Brawny": "Brawny",
+        "Bully": "Bully"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
