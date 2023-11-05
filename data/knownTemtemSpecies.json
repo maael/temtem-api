@@ -6680,6 +6680,289 @@
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Wiplump.gif"
   },
   {
+    "number": 27,
+    "name": "Skail",
+    "types": [
+      "Neutral"
+    ],
+    "portraitWikiUrl": "https://temtem.wiki.gg/images/thumb/7/77/Skail.png/55px-Skail.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.wiki.gg/wiki/Skail",
+    "stats": {
+      "hp": 57,
+      "sta": 43,
+      "spd": 60,
+      "atk": 45,
+      "def": 50,
+      "spatk": 32,
+      "spdef": 41,
+      "total": 328
+    },
+    "traits": [
+      "Furor",
+      "Scavenger"
+    ],
+    "details": {
+      "height": {
+        "cm": 80,
+        "inches": 31
+      },
+      "weight": {
+        "kg": 26,
+        "lbs": 57
+      }
+    },
+    "techniques": [
+      {
+        "name": "Tail Strike",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Scratch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Sand Splatter",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Held Anger",
+        "source": "Levelling",
+        "levels": 9
+      },
+      {
+        "name": "Martial Strike",
+        "source": "Levelling",
+        "levels": 14
+      },
+      {
+        "name": "Fierce Claw",
+        "source": "Levelling",
+        "levels": 18
+      },
+      {
+        "name": "Haito Uchi",
+        "source": "Levelling",
+        "levels": 24
+      },
+      {
+        "name": "Ninja Jutsu",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Savage Suplex",
+        "source": "Levelling",
+        "levels": 42
+      },
+      {
+        "name": "Stone Wall",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Wake Up",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Oshi-Dashi",
+        "source": "Breeding"
+      },
+      {
+        "name": "Perfect Jab",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [
+      "Skail was first revealed via Twitter.",
+      "Skail has an emote on the official Temtem Discord."
+    ],
+    "evolution": {
+      "stage": 0,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 27,
+          "name": "Skail",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Furor",
+            "Scavenger"
+          ],
+          "traitMapping": {
+            "Furor": "Brawny",
+            "Scavenger": "Bully"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 28,
+          "name": "Skunch",
+          "level": 17,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Brawny",
+            "Bully"
+          ],
+          "traitMapping": {
+            "Brawny": "Brawny",
+            "Bully": "Bully"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": null,
+      "to": {
+        "stage": 1,
+        "number": 28,
+        "name": "Skunch",
+        "level": 17,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Brawny",
+          "Bully"
+        ],
+        "traitMapping": {
+          "Brawny": "Brawny",
+          "Bully": "Bully"
+        }
+      },
+      "number": 27,
+      "name": "Skail",
+      "level": 0,
+      "trading": false,
+      "traits": [
+        "Furor",
+        "Scavenger"
+      ],
+      "traitMapping": {
+        "Furor": "Brawny",
+        "Scavenger": "Bully"
+      }
+    },
+    "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
+    "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
+    "locations": [
+      {
+        "location": "Prasine Coast",
+        "place": "Prasine Coast",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "5%",
+        "level": "4 - 6",
+        "freetem": {
+          "minLevel": 4,
+          "maxLevel": 6,
+          "minPansuns": 29,
+          "maxPansuns": 34
+        }
+      },
+      {
+        "location": "Thalassian Cliffs",
+        "place": "Thalassian Cliffs",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "30% - 80%",
+        "level": "4 - 9",
+        "freetem": {
+          "minLevel": 4,
+          "maxLevel": 9,
+          "minPansuns": 29,
+          "maxPansuns": 41
+        }
+      },
+      {
+        "location": "Gifted Bridges",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "30%",
+        "level": "7 - 9",
+        "freetem": {
+          "minLevel": 7,
+          "maxLevel": 9,
+          "minPansuns": 36,
+          "maxPansuns": 41
+        }
+      },
+      {
+        "location": "Windward Fort",
+        "place": "Windward Fort",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "50% - 80%",
+        "level": "9 - 14",
+        "freetem": {
+          "minLevel": 9,
+          "maxLevel": 14,
+          "minPansuns": 41,
+          "maxPansuns": 52
+        }
+      },
+      {
+        "location": "Aguamarina Caves",
+        "place": "Aguamarina Caves",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "30% - 65%",
+        "level": "14 - 18",
+        "freetem": {
+          "minLevel": 14,
+          "maxLevel": 18,
+          "minPansuns": 52,
+          "maxPansuns": 61
+        }
+      },
+      {
+        "location": "Saipark",
+        "place": "Saipark",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "50%",
+        "level": "38 - 41",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 41,
+          "minPansuns": 106,
+          "maxPansuns": 113
+        }
+      }
+    ],
+    "icon": "/images/portraits/temtem/large/Skail.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Skail.png",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 120,
+    "hatchMins": 21,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 1,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "This species of Temtem is notoriously bad-tempered, and tamers need all their skills to handle them. Once tamed, these muscular creatures can deliver powerful tail blows in battle.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/3/39/Skail_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/0/0a/Skail_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/5/5f/LumaSkail_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/1/1b/LumaSkail_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Skail.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Skail.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Skail.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Skail.gif"
+  },
+  {
     "number": 28,
     "name": "Skunch",
     "types": [
@@ -6802,6 +7085,7 @@
       "evolutionTree": [
         {
           "stage": 0,
+          "number": 27,
           "name": "Skail",
           "level": 0,
           "type": "levels",
@@ -6836,6 +7120,7 @@
       "type": "levels",
       "from": {
         "stage": 0,
+        "number": 27,
         "name": "Skail",
         "level": 0,
         "type": "levels",
