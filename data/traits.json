@@ -86,8 +86,8 @@
   {
     "name": "Bird Season",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Bird_Season",
-    "description": "Damage dealt with Wind techniques is increased by 50% on targets with the Wind Type.",
-    "effect": "Bird Season increases the damage of the holder's Wind Techniques by 50% if their target is part Wind."
+    "description": "Damage dealt with Wind techniques is increased by 66% on targets with the Wind Type.",
+    "effect": "Bird Season increases the damage of the holder's Wind Techniques by 66% if their target is part Wind."
   },
   {
     "name": "Body Stretch",
@@ -116,8 +116,8 @@
   {
     "name": "Brawny",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Brawny",
-    "description": "Damage done with physical techniques is increased by 15%.",
-    "effect": "Brawny increases the damage of the holder's Physical Techniques by 15%."
+    "description": "Damage done with physical techniques is increased by 20%.",
+    "effect": "Brawny increases the damage of the holder's Physical Techniques by 20%."
   },
   {
     "name": "Bruiser",
@@ -236,7 +236,7 @@
   {
     "name": "Deceit Aura",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Deceit_Aura",
-    "description": "From Very Low to Very High, the priority of the techniques used during a turn is inverted.",
+    "description": "The priority of the techniques from Very Low to Very High is inverted, with Very Low being the fastest.",
     "effect": "Deceit Aura causes the priority of all Techniques to invert based on their priority level with the exception of Ultra . The results of this effect are listed below:"
   },
   {
@@ -512,8 +512,8 @@
   {
     "name": "Iridescence",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Iridescence",
-    "description": "When receiving a technique, the type of the technique is ignored, but it deals 12.5% more damage to Koish.",
-    "effect": "Iridescence causes the holder to receive 12.5% more damage from Techniques but the type of the Technique is ignored."
+    "description": "Ignores all type resistances while in battle: all techniques deal x1 damage to this Temtem, but in exchange all techniques will cause 10% more damage.",
+    "effect": "Iridescence causes the holder to receive 10% more damage from Techniques but the type of the Technique is ignored."
   },
   {
     "name": "Jack of all Trades",
@@ -908,8 +908,8 @@
   {
     "name": "Spreader",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Spreader",
-    "description": "If there are multiple rivals, single-target special techniques become multi-target and damage done with them is reduced by 20%.",
-    "effect": "Spreader causes all of the holder's Special Techniques that have single target or single other target as their targeting to hit both rivals but reduces the damage of these Techniques by 20% if there are multiple rivals on the battlefield."
+    "description": "If there are multiple rivals, single-target special techniques become multi-target and damage done with them is reduced by 15%.",
+    "effect": "Spreader causes all of the holder's Special Techniques that have single target or single other target as their targeting to hit both rivals but reduces the damage of these Techniques by 15% if there are multiple rivals on the battlefield."
   },
   {
     "name": "Stabmaster",
@@ -1016,8 +1016,8 @@
   {
     "name": "Toxic Skin",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxic_Skin",
-    "description": "Once per turn, when attacked, the attacker gets poisoned for 1 turn.",
-    "effect": "Once per turn, Toxic Skin inflicts the Poisoned Condition for 1 turn onto any attacker that hits the holder with a Technique."
+    "description": "Once per battle, when attacked, the attacker gets poisoned for 2 turns.",
+    "effect": "Once per battle, Toxic Skin inflicts the Poisoned Condition for 2 turns onto any attacker that hits the holder with a Technique."
   },
   {
     "name": "Toxin Crusher",
@@ -1076,8 +1076,8 @@
   {
     "name": "Voltaic Charge",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Voltaic_Charge",
-    "description": "The caster heals 15% of the damage it has done with any offensive technique.",
-    "effect": "Voltaic Charge restores 15% of the damage the holder inflicts to the target as HP."
+    "description": "The caster heals 20% of the damage it has done with any offensive technique.",
+    "effect": "Voltaic Charge restores 20% of the damage the holder inflicts to the target as HP."
   },
   {
     "name": "Voodoo",
