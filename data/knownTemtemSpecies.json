@@ -11561,6 +11561,10 @@
         "source": "TechniqueCourses"
       },
       {
+        "name": "Look out",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Data Corruption",
         "source": "TechniqueCourses"
       },
@@ -15530,7 +15534,7 @@
         "levels": 22
       },
       {
-        "name": "Binary Flood",
+        "name": "Token",
         "source": "Levelling",
         "levels": 33
       },
@@ -16166,6 +16170,16 @@
         "name": "Rockfall",
         "source": "Levelling",
         "levels": 51
+      },
+      {
+        "name": "Dim Mak",
+        "source": "Levelling",
+        "levels": 58
+      },
+      {
+        "name": "Hook",
+        "source": "Levelling",
+        "levels": 66
       },
       {
         "name": "Base Jump",
@@ -19606,6 +19620,16 @@
         "levels": 38
       },
       {
+        "name": "Uppercut",
+        "source": "Levelling",
+        "levels": 44
+      },
+      {
+        "name": "Hasty Lunge",
+        "source": "Levelling",
+        "levels": 48
+      },
+      {
         "name": "Cage",
         "source": "TechniqueCourses"
       },
@@ -19883,7 +19907,7 @@
         "levels": 44
       },
       {
-        "name": "Oshi-Dashi",
+        "name": "Hasty Lunge",
         "source": "Levelling",
         "levels": 48
       },
@@ -19893,12 +19917,12 @@
         "levels": 55
       },
       {
-        "name": "Defibrillate",
+        "name": "Oshi-Dashi",
         "source": "Levelling",
         "levels": 66
       },
       {
-        "name": "Hasty Lunge",
+        "name": "Defibrillate",
         "source": "Levelling",
         "levels": 84
       },
@@ -21961,7 +21985,7 @@
           ],
           "traitMapping": {
             "Fever Rush": "Brawny",
-            "Friendship": "Warm-Blooded"
+            "Friendship": "Cold-Blooded"
           }
         },
         {
@@ -21973,11 +21997,11 @@
           "trading": false,
           "traits": [
             "Brawny",
-            "Warm-Blooded"
+            "Cold-Blooded"
           ],
           "traitMapping": {
             "Brawny": "Self-Esteem",
-            "Warm-Blooded": "Earthbound"
+            "Cold-Blooded": "Earthbound"
           }
         },
         {
@@ -22009,11 +22033,11 @@
         "trading": false,
         "traits": [
           "Brawny",
-          "Warm-Blooded"
+          "Cold-Blooded"
         ],
         "traitMapping": {
           "Brawny": "Self-Esteem",
-          "Warm-Blooded": "Earthbound"
+          "Cold-Blooded": "Earthbound"
         }
       },
       "number": 92,
@@ -22026,7 +22050,7 @@
       ],
       "traitMapping": {
         "Fever Rush": "Brawny",
-        "Friendship": "Warm-Blooded"
+        "Friendship": "Cold-Blooded"
       }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -22095,7 +22119,7 @@
     },
     "traits": [
       "Brawny",
-      "Warm-Blooded"
+      "Cold-Blooded"
     ],
     "details": {
       "height": {
@@ -22197,7 +22221,7 @@
           ],
           "traitMapping": {
             "Fever Rush": "Brawny",
-            "Friendship": "Warm-Blooded"
+            "Friendship": "Cold-Blooded"
           }
         },
         {
@@ -22209,11 +22233,11 @@
           "trading": false,
           "traits": [
             "Brawny",
-            "Warm-Blooded"
+            "Cold-Blooded"
           ],
           "traitMapping": {
             "Brawny": "Self-Esteem",
-            "Warm-Blooded": "Earthbound"
+            "Cold-Blooded": "Earthbound"
           }
         },
         {
@@ -22248,7 +22272,7 @@
         ],
         "traitMapping": {
           "Fever Rush": "Brawny",
-          "Friendship": "Warm-Blooded"
+          "Friendship": "Cold-Blooded"
         }
       },
       "to": {
@@ -22273,11 +22297,11 @@
       "trading": false,
       "traits": [
         "Brawny",
-        "Warm-Blooded"
+        "Cold-Blooded"
       ],
       "traitMapping": {
         "Brawny": "Self-Esteem",
-        "Warm-Blooded": "Earthbound"
+        "Cold-Blooded": "Earthbound"
       }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -22460,7 +22484,7 @@
           ],
           "traitMapping": {
             "Fever Rush": "Brawny",
-            "Friendship": "Warm-Blooded"
+            "Friendship": "Cold-Blooded"
           }
         },
         {
@@ -22472,11 +22496,11 @@
           "trading": false,
           "traits": [
             "Brawny",
-            "Warm-Blooded"
+            "Cold-Blooded"
           ],
           "traitMapping": {
             "Brawny": "Self-Esteem",
-            "Warm-Blooded": "Earthbound"
+            "Cold-Blooded": "Earthbound"
           }
         },
         {
@@ -22507,11 +22531,11 @@
         "trading": false,
         "traits": [
           "Brawny",
-          "Warm-Blooded"
+          "Cold-Blooded"
         ],
         "traitMapping": {
           "Brawny": "Self-Esteem",
-          "Warm-Blooded": "Earthbound"
+          "Cold-Blooded": "Earthbound"
         }
       },
       "to": null,
@@ -34225,7 +34249,7 @@
         "levels": 18
       },
       {
-        "name": "Bush",
+        "name": "Petal Dagger",
         "source": "Levelling",
         "levels": 31
       },
@@ -34262,7 +34286,7 @@
         "source": "TechniqueCourses"
       },
       {
-        "name": "Sludge Gift",
+        "name": "Bush",
         "source": "Breeding"
       }
     ],
