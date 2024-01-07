@@ -1,14 +1,99 @@
 [
   {
-    "name": "File:UI-jo",
-    "wikiUrl": "https://temtem.wiki.gg/index.php?title=Special:Upload&wpDestFile=UI-jo",
+    "name": "Arissola Dojo",
+    "wikiUrl": "https://temtem.wiki.gg/wiki/Arissola_Dojo",
+    "types": [
+      "Wind",
+      "Water"
+    ],
+    "leader": {
+      "name": "Sophia",
+      "temtem": []
+    }
+  },
+  {
+    "name": "Mokupuni Dojo",
+    "wikiUrl": "https://temtem.wiki.gg/wiki/Mokupuni_Dojo",
     "types": [
       "Nature",
       "Fire"
     ],
     "leader": {
       "name": "Rawiri",
-      "temtem": []
+      "temtem": [
+        {
+          "name": "Deendre",
+          "level": 24,
+          "trait": "Mithridatism",
+          "techniques": [
+            "Double Kick",
+            "Allergic Spread",
+            "Sharp Leaf",
+            "Roots"
+          ],
+          "number": 103
+        },
+        {
+          "name": "Tateru",
+          "level": 24,
+          "trait": "Soft Touch",
+          "techniques": [
+            "Rage",
+            "Sand Splatter",
+            "Heavy Blow",
+            "Nibble"
+          ],
+          "number": 12
+        },
+        {
+          "name": "Taifu",
+          "level": 29,
+          "trait": "Toxic Farewell",
+          "techniques": [
+            "Bark Shield",
+            "Gaia",
+            "Allergic Spread",
+            "Cheer Up"
+          ],
+          "number": 24
+        },
+        {
+          "name": "Magmis",
+          "level": 22,
+          "trait": "Thick Skin",
+          "techniques": [
+            "Rage",
+            "Jaw Strike",
+            "Fire Flame",
+            "Tenderness"
+          ],
+          "number": 86
+        },
+        {
+          "name": "Banapi",
+          "level": 18,
+          "trait": "Pyromaniac",
+          "techniques": [
+            "Embers",
+            "Head Ram",
+            "Sand Splatter",
+            "Warm Cuddle"
+          ],
+          "number": 37
+        },
+        {
+          "name": "Raize",
+          "level": 28,
+          "trait": "Demoralize",
+          "techniques": [
+            "Fire Tornado",
+            "Embers",
+            "Fierce Claw",
+            "Roar"
+          ],
+          "number": 58
+        }
+      ]
     }
   },
   {
