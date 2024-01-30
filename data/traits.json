@@ -596,8 +596,8 @@
   {
     "name": "Mucous",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Mucous",
-    "description": "Damage taken from Electric or Toxic techniques is reduced by 30% and prevents the cold and burned status condition.",
-    "effect": "Mucous decreases the damage the holder takes from Electric and Toxic Techniques by 30% and protects them from being inflicted with the Cold and Burned Conditions."
+    "description": "Damage taken from Electric or Toxic techniques is reduced by 30% and prevents the cold, frozen and burned status condition.",
+    "effect": "Mucous decreases the damage the holder takes from Electric and Toxic Techniques by 30% and protects them from being inflicted with the Cold, Frozen and Burned Conditions."
   },
   {
     "name": "Natural Conversion",
@@ -620,8 +620,8 @@
   {
     "name": "Parrier",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Parrier",
-    "description": "Damage taken from physical techniques is reduced by 20%.",
-    "effect": "Parrier decreases the damage the holder takes from Physical Techniques by 20%."
+    "description": "Damage taken from physical techniques is reduced by 25%.",
+    "effect": "Parrier decreases the damage the holder takes from Physical Techniques by 25%."
   },
   {
     "name": "Patient",
@@ -686,7 +686,7 @@
   {
     "name": "Protostar",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Protostar",
-    "description": "When entering the battlefield, gets doomed for 5 turns. When knocked-out due to doom, rivals lose 40% of Galios' remaining HP, revives and Protostar changes to Supernova.",
+    "description": "When entering the battlefield, gets doomed for 6 turns. When knocked-out due to doom, rivals lose 40% of Galios' remaining HP, revives and Protostar changes to Supernova.",
     "effect": "After being knocked-out by the Doomed Condition, Protostar revives the holder with 100% of max HP and depletes HP of the enemy team based on 40% of the holder's remaining HP and changes the Trait to Supernova."
   },
   {
@@ -944,7 +944,7 @@
   {
     "name": "Supernova",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Supernova",
-    "description": "When entering the battlefield, gets doomed for 5 turns. When knocked-out due to doom, rivals lose 40% of Galios' lost HP, revives and Supernova changes to Protostar.",
+    "description": "When entering the battlefield, gets doomed for 6 turns. When knocked-out due to doom, rivals lose 40% of Galios' lost HP, revives and Supernova changes to Protostar.",
     "effect": "After being knocked-out by the Doomed Condition, Supernova revives the holder with 100% of max HP and depletes HP of the enemy team based on 40% of the holder's missing HP and changes the Trait to Protostar. The damage dealt is calculated as follows:"
   },
   {
