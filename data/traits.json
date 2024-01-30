@@ -458,7 +458,7 @@
   {
     "name": "Hypnotist",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Hypnotist",
-    "description": "Once per battle, after the Temtem spent 2 turns on the battlefield, rivals get asleep for 2 turns.",
+    "description": "Once per battle, after the Temtem spent 2 turns on the battlefield, rivals get asleep for 1 turn.",
     "effect": "Once per battle, after the Temtem spent 2 turns on the battlefield, Hypnotist inflicts both rivals with the Asleep Condition for 2 turns."
   },
   {
@@ -488,8 +488,8 @@
   {
     "name": "Infectious",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Infectious",
-    "description": "Prevents the Regenerating Status Condition from being applied on the Rivals and removes that same Status on the Rival upon entering the battlefield.",
-    "effect": "Infectious prevents the Regenerated Condition from being applied on the rivals and it removes that same Status on the rival upon entering the battlefield."
+    "description": "All healing is negated while the Temtem is in the battlefield.",
+    "effect": "Infectious negates all healing is negated while the Temtem is in the battlefield."
   },
   {
     "name": "Inhibiter",
@@ -999,7 +999,7 @@
     "name": "Tireless",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tireless",
     "description": "When overexerted, prevents the turn penalization and gets ATK .",
-    "effect": "Tireless gifts the holder with ATK and prevents the turn penalty from Overexerting whenever the holder Overexerts."
+    "effect": "Tireless gifts the holder with ATK , prevents the turn penalty from Overexerting, and reduces self-damage from Overexerting by 50% whenever the holder Overexerts."
   },
   {
     "name": "Toxic Affinity",
@@ -1125,7 +1125,7 @@
     "name": "Welcomer",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Welcomer",
     "description": "Once per battle, when an ally enters the battlefield, the ally gets evading for 1 turn.",
-    "effect": "Welcomer gifts the holder's ally with the Evading Condition for 1 turn when they enter the battlefield once per battle."
+    "effect": "Welcomer gifts the holder's ally with the Evading Condition for 1 turn when they enter the battlefield once per battle when the Temtem has spent 1 turn on the battlefield."
   },
   {
     "name": "Withdrawal",

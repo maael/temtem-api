@@ -1673,8 +1673,8 @@
             "Amphibian"
           ],
           "traitMapping": {
-            "Toxic Affinity": "Resistant",
-            "Amphibian": "Resilient"
+            "Toxic Affinity": "Toxifier",
+            "Amphibian": "Toxic Farewell"
           }
         },
         {
@@ -1685,12 +1685,12 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Resistant",
-            "Resilient"
+            "Toxifier",
+            "Toxic Farewell"
           ],
           "traitMapping": {
-            "Resistant": "Zen",
-            "Resilient": "Determined"
+            "Toxifier": "Zen",
+            "Toxic Farewell": "Determined"
           }
         },
         {
@@ -1721,12 +1721,12 @@
         "type": "levels",
         "trading": false,
         "traits": [
-          "Resistant",
-          "Resilient"
+          "Toxifier",
+          "Toxic Farewell"
         ],
         "traitMapping": {
-          "Resistant": "Zen",
-          "Resilient": "Determined"
+          "Toxifier": "Zen",
+          "Toxic Farewell": "Determined"
         }
       },
       "number": 7,
@@ -1738,8 +1738,8 @@
         "Amphibian"
       ],
       "traitMapping": {
-        "Toxic Affinity": "Resistant",
-        "Amphibian": "Resilient"
+        "Toxic Affinity": "Toxifier",
+        "Amphibian": "Toxic Farewell"
       }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -1864,8 +1864,8 @@
       "total": 404
     },
     "traits": [
-      "Resistant",
-      "Resilient"
+      "Toxifier",
+      "Toxic Farewell"
     ],
     "details": {
       "height": {
@@ -1980,8 +1980,8 @@
             "Amphibian"
           ],
           "traitMapping": {
-            "Toxic Affinity": "Resistant",
-            "Amphibian": "Resilient"
+            "Toxic Affinity": "Toxifier",
+            "Amphibian": "Toxic Farewell"
           }
         },
         {
@@ -1992,12 +1992,12 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Resistant",
-            "Resilient"
+            "Toxifier",
+            "Toxic Farewell"
           ],
           "traitMapping": {
-            "Resistant": "Zen",
-            "Resilient": "Determined"
+            "Toxifier": "Zen",
+            "Toxic Farewell": "Determined"
           }
         },
         {
@@ -2031,8 +2031,8 @@
           "Amphibian"
         ],
         "traitMapping": {
-          "Toxic Affinity": "Resistant",
-          "Amphibian": "Resilient"
+          "Toxic Affinity": "Toxifier",
+          "Amphibian": "Toxic Farewell"
         }
       },
       "to": {
@@ -2056,12 +2056,12 @@
       "level": 20,
       "trading": false,
       "traits": [
-        "Resistant",
-        "Resilient"
+        "Toxifier",
+        "Toxic Farewell"
       ],
       "traitMapping": {
-        "Resistant": "Zen",
-        "Resilient": "Determined"
+        "Toxifier": "Zen",
+        "Toxic Farewell": "Determined"
       }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -2287,8 +2287,8 @@
             "Amphibian"
           ],
           "traitMapping": {
-            "Toxic Affinity": "Resistant",
-            "Amphibian": "Resilient"
+            "Toxic Affinity": "Toxifier",
+            "Amphibian": "Toxic Farewell"
           }
         },
         {
@@ -2299,12 +2299,12 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Resistant",
-            "Resilient"
+            "Toxifier",
+            "Toxic Farewell"
           ],
           "traitMapping": {
-            "Resistant": "Zen",
-            "Resilient": "Determined"
+            "Toxifier": "Zen",
+            "Toxic Farewell": "Determined"
           }
         },
         {
@@ -2334,12 +2334,12 @@
         "type": "levels",
         "trading": false,
         "traits": [
-          "Resistant",
-          "Resilient"
+          "Toxifier",
+          "Toxic Farewell"
         ],
         "traitMapping": {
-          "Resistant": "Zen",
-          "Resilient": "Determined"
+          "Toxifier": "Zen",
+          "Toxic Farewell": "Determined"
         }
       },
       "to": null,
@@ -9194,7 +9194,7 @@
           ],
           "traitMapping": {
             "Pyromaniac": "Last Rush",
-            "Settling": "Resilient"
+            "Settling": "Ignite Protection"
           }
         },
         {
@@ -9206,11 +9206,11 @@
           "trading": false,
           "traits": [
             "Last Rush",
-            "Resilient"
+            "Ignite Protection"
           ],
           "traitMapping": {
             "Last Rush": "Last Rush",
-            "Resilient": "Resilient"
+            "Ignite Protection": "Ignite Protection"
           }
         }
       ],
@@ -9226,11 +9226,11 @@
         "trading": false,
         "traits": [
           "Last Rush",
-          "Resilient"
+          "Ignite Protection"
         ],
         "traitMapping": {
           "Last Rush": "Last Rush",
-          "Resilient": "Resilient"
+          "Ignite Protection": "Ignite Protection"
         }
       },
       "number": 37,
@@ -9243,7 +9243,7 @@
       ],
       "traitMapping": {
         "Pyromaniac": "Last Rush",
-        "Settling": "Resilient"
+        "Settling": "Ignite Protection"
       }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -9340,7 +9340,7 @@
     },
     "traits": [
       "Last Rush",
-      "Resilient"
+      "Ignite Protection"
     ],
     "details": {
       "height": {
@@ -9460,7 +9460,7 @@
           ],
           "traitMapping": {
             "Pyromaniac": "Last Rush",
-            "Settling": "Resilient"
+            "Settling": "Ignite Protection"
           }
         },
         {
@@ -9472,11 +9472,11 @@
           "trading": false,
           "traits": [
             "Last Rush",
-            "Resilient"
+            "Ignite Protection"
           ],
           "traitMapping": {
             "Last Rush": "Last Rush",
-            "Resilient": "Resilient"
+            "Ignite Protection": "Ignite Protection"
           }
         }
       ],
@@ -9495,7 +9495,7 @@
         ],
         "traitMapping": {
           "Pyromaniac": "Last Rush",
-          "Settling": "Resilient"
+          "Settling": "Ignite Protection"
         }
       },
       "to": null,
@@ -9505,11 +9505,11 @@
       "trading": false,
       "traits": [
         "Last Rush",
-        "Resilient"
+        "Ignite Protection"
       ],
       "traitMapping": {
         "Last Rush": "Last Rush",
-        "Resilient": "Resilient"
+        "Ignite Protection": "Ignite Protection"
       }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -13914,7 +13914,7 @@
             "Rested"
           ],
           "traitMapping": {
-            "Camaraderie": "Furor",
+            "Camaraderie": "Ignite Protection",
             "Rested": "Demoralize"
           }
         },
@@ -13926,11 +13926,11 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Furor",
+            "Ignite Protection",
             "Demoralize"
           ],
           "traitMapping": {
-            "Furor": "Prideful",
+            "Ignite Protection": "Prideful",
             "Demoralize": "Motivator"
           }
         },
@@ -13962,11 +13962,11 @@
         "type": "levels",
         "trading": false,
         "traits": [
-          "Furor",
+          "Ignite Protection",
           "Demoralize"
         ],
         "traitMapping": {
-          "Furor": "Prideful",
+          "Ignite Protection": "Prideful",
           "Demoralize": "Motivator"
         }
       },
@@ -13979,7 +13979,7 @@
         "Rested"
       ],
       "traitMapping": {
-        "Camaraderie": "Furor",
+        "Camaraderie": "Ignite Protection",
         "Rested": "Demoralize"
       }
     },
@@ -14062,7 +14062,7 @@
       "total": 384
     },
     "traits": [
-      "Furor",
+      "Ignite Protection",
       "Demoralize"
     ],
     "details": {
@@ -14135,7 +14135,7 @@
             "Rested"
           ],
           "traitMapping": {
-            "Camaraderie": "Furor",
+            "Camaraderie": "Ignite Protection",
             "Rested": "Demoralize"
           }
         },
@@ -14147,11 +14147,11 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Furor",
+            "Ignite Protection",
             "Demoralize"
           ],
           "traitMapping": {
-            "Furor": "Prideful",
+            "Ignite Protection": "Prideful",
             "Demoralize": "Motivator"
           }
         },
@@ -14186,7 +14186,7 @@
           "Rested"
         ],
         "traitMapping": {
-          "Camaraderie": "Furor",
+          "Camaraderie": "Ignite Protection",
           "Rested": "Demoralize"
         }
       },
@@ -14211,11 +14211,11 @@
       "level": 15,
       "trading": false,
       "traits": [
-        "Furor",
+        "Ignite Protection",
         "Demoralize"
       ],
       "traitMapping": {
-        "Furor": "Prideful",
+        "Ignite Protection": "Prideful",
         "Demoralize": "Motivator"
       }
     },
@@ -14398,7 +14398,7 @@
             "Rested"
           ],
           "traitMapping": {
-            "Camaraderie": "Furor",
+            "Camaraderie": "Ignite Protection",
             "Rested": "Demoralize"
           }
         },
@@ -14410,11 +14410,11 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Furor",
+            "Ignite Protection",
             "Demoralize"
           ],
           "traitMapping": {
-            "Furor": "Prideful",
+            "Ignite Protection": "Prideful",
             "Demoralize": "Motivator"
           }
         },
@@ -14445,11 +14445,11 @@
         "type": "levels",
         "trading": false,
         "traits": [
-          "Furor",
+          "Ignite Protection",
           "Demoralize"
         ],
         "traitMapping": {
-          "Furor": "Prideful",
+          "Ignite Protection": "Prideful",
           "Demoralize": "Motivator"
         }
       },
@@ -25320,7 +25320,7 @@
             "Bully"
           ],
           "traitMapping": {
-            "Toxic Skin": "Strong Liver",
+            "Toxic Skin": "Infectious",
             "Bully": "Punch Bag"
           }
         },
@@ -25332,11 +25332,11 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Strong Liver",
+            "Infectious",
             "Punch Bag"
           ],
           "traitMapping": {
-            "Strong Liver": "Strong Liver",
+            "Infectious": "Infectious",
             "Punch Bag": "Punch Bag"
           }
         }
@@ -25352,11 +25352,11 @@
         "type": "levels",
         "trading": false,
         "traits": [
-          "Strong Liver",
+          "Infectious",
           "Punch Bag"
         ],
         "traitMapping": {
-          "Strong Liver": "Strong Liver",
+          "Infectious": "Infectious",
           "Punch Bag": "Punch Bag"
         }
       },
@@ -25369,7 +25369,7 @@
         "Bully"
       ],
       "traitMapping": {
-        "Toxic Skin": "Strong Liver",
+        "Toxic Skin": "Infectious",
         "Bully": "Punch Bag"
       }
     },
@@ -25438,7 +25438,7 @@
       "total": 461
     },
     "traits": [
-      "Strong Liver",
+      "Infectious",
       "Punch Bag"
     ],
     "details": {
@@ -25545,7 +25545,7 @@
             "Bully"
           ],
           "traitMapping": {
-            "Toxic Skin": "Strong Liver",
+            "Toxic Skin": "Infectious",
             "Bully": "Punch Bag"
           }
         },
@@ -25557,11 +25557,11 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Strong Liver",
+            "Infectious",
             "Punch Bag"
           ],
           "traitMapping": {
-            "Strong Liver": "Strong Liver",
+            "Infectious": "Infectious",
             "Punch Bag": "Punch Bag"
           }
         }
@@ -25580,7 +25580,7 @@
           "Bully"
         ],
         "traitMapping": {
-          "Toxic Skin": "Strong Liver",
+          "Toxic Skin": "Infectious",
           "Bully": "Punch Bag"
         }
       },
@@ -25590,11 +25590,11 @@
       "level": 25,
       "trading": false,
       "traits": [
-        "Strong Liver",
+        "Infectious",
         "Punch Bag"
       ],
       "traitMapping": {
-        "Strong Liver": "Strong Liver",
+        "Infectious": "Infectious",
         "Punch Bag": "Punch Bag"
       }
     },
@@ -36101,10 +36101,6 @@
         "source": "TechniqueCourses"
       },
       {
-        "name": "Zen Meditation",
-        "source": "TechniqueCourses"
-      },
-      {
         "name": "Rush",
         "source": "TechniqueCourses"
       },
@@ -36957,7 +36953,7 @@
       {
         "name": "Crystal Plume Gatling",
         "source": "Levelling",
-        "levels": 96
+        "levels": 90
       },
       {
         "name": "Confiscate",
