@@ -119,7 +119,7 @@
     "type": "Water",
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 80,
+    "damage": 105,
     "staminaCost": 20,
     "hold": 1,
     "priority": "normal",
@@ -127,15 +127,15 @@
     "synergy": "Earth",
     "synergyEffects": [
       {
-        "damage": 104,
+        "damage": 135,
         "type": "damage",
-        "effect": "+104 Damage"
+        "effect": "+135 Damage"
       }
     ],
     "targets": "Single Other Target",
     "description": "\"An ingenious application of hydraulic pressure for ballistic purposes\" - Sophia d'Arissola.",
     "effectText": "Aqua Stone deals damage to a single other target.",
-    "synergyText": "If used with an Earth ally, its damage increases to 104.",
+    "synergyText": "If used with an Earth ally, its damage increases to 135.",
     "effects": []
   },
   {
@@ -209,14 +209,14 @@
     "classIcon": "/images/icons/technique/Status.png",
     "damage": 0,
     "staminaCost": 15,
-    "hold": 1,
+    "hold": 0,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Target",
     "description": "Give'em the old razzle dazzle! The target evades for 2 turns.",
-    "effectText": "Bamboozle gifts a single target with the Evading Condition for 2 turns.",
+    "effectText": "Bamboozle gifts a single target with the Evading Condition for 2 turns. After using this technique for the first time in battle, it will have hold 1 for the rest of the match.",
     "synergyText": "",
     "effects": []
   },
@@ -4618,7 +4618,7 @@
     "classIcon": "/images/icons/technique/Physical.png",
     "damage": 0,
     "staminaCost": 15,
-    "hold": 1,
+    "hold": 0,
     "priority": "ultra",
     "priorityIcon": "/images/icons/priority/ultra.png",
     "synergy": "None",
@@ -4800,7 +4800,7 @@
     "class": "Special",
     "classIcon": "/images/icons/technique/Special.png",
     "damage": 100,
-    "staminaCost": 30,
+    "staminaCost": 35,
     "hold": 2,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
@@ -5411,7 +5411,7 @@
     "class": "Special",
     "classIcon": "/images/icons/technique/Special.png",
     "damage": 70,
-    "staminaCost": 14,
+    "staminaCost": 19,
     "hold": 0,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",

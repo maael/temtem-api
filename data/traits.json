@@ -260,8 +260,8 @@
   {
     "name": "Digi-Protection",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Digi-Protection",
-    "description": "Damage taken from Digital techniques is reduced by 75%.",
-    "effect": "Digi-Protection decreases the damage the holder takes from Digital Techniques by 75%."
+    "description": "When an ally is damaged by a Digital technique, damage is reduced by 30%. When the Temtem is damaged by a Digital technique, damage is reduced by 75%.",
+    "effect": "Digi-Protection decreases Ally's damage from Digital Techniques by 30%. Also decreases the damage the holder takes from Digital Techniques by 75%."
   },
   {
     "name": "Disgrace",
@@ -466,12 +466,6 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Ignis_Fatuus",
     "description": "When another Temtem is knocked-out, gets evading for 1 turn.",
     "effect": "Ignis Fatuus gifts the holder with the Evading Condition for 1 turn whenever another combatant is knocked-out."
-  },
-  {
-    "name": "Ignite Protection",
-    "wikiUrl": "https://temtem.wiki.gg/wiki/Ignite_Protection",
-    "description": "Once per battle, when attacked, the attacker gets burned for 2 turns.",
-    "effect": "Once per battle, Ignite Protection inflicts the Burned Condition for 2 turns onto any attacker that hits the holder with a Technique."
   },
   {
     "name": "Immunity",
@@ -740,8 +734,8 @@
   {
     "name": "Resilient",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Resilient",
-    "description": "Once per battle, when knocked-out due to overexertion, prevents getting knocked-out, removes the overexertion turn penalization and gets SPD .",
-    "effect": "Resilient protects the holder from being knocked-out due to overexertion by leaving them with 1 HP, gifts them with SPD and negates the overexertion turn penalty once per battle."
+    "description": "Once per battle, when knocked-out due to technique damage, prevents getting knocked-out, gets doom for 1 turn and SPD .",
+    "effect": "Resilient protects the holder from being knocked-out due to technique damage, and gifts them with SPD and applies Doomed for 1 turn."
   },
   {
     "name": "Resistant",
@@ -1024,12 +1018,6 @@
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxic_Skin",
     "description": "Once per battle, when attacked, the attacker gets poisoned for 2 turns.",
     "effect": "Once per battle, Toxic Skin inflicts the Poisoned Condition for 2 turns onto any attacker that hits the holder with a Technique."
-  },
-  {
-    "name": "Toxifier",
-    "wikiUrl": "https://temtem.wiki.gg/wiki/Toxifier",
-    "description": "When attacking with a Physical Toxic technique, uses SPATK and increases its damage by 10%.",
-    "effect": "Toxifier causes the holder to use their SPATK instead of their ATK and increases Technique damage by 10% when using a a Physical Toxic technique."
   },
   {
     "name": "Toxin Crusher",
