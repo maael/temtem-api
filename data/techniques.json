@@ -5764,6 +5764,25 @@
     "effects": []
   },
   {
+    "name": "Trample",
+    "wikiUrl": "https://temtem.wiki.gg/wiki/Trample",
+    "type": "Melee",
+    "class": "Special",
+    "classIcon": "/images/icons/technique/Special.png",
+    "damage": 120,
+    "staminaCost": 14,
+    "hold": 4,
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
+    "synergy": "Melee",
+    "synergyEffects": [],
+    "targets": "Other Team or Ally",
+    "description": "",
+    "effectText": "Trample inflicts damage to the rival team or the user's ally. If this technique knocks an opponent out, the user gets ATK and SPATK .",
+    "synergyText": "If used with a Melee ally, it changes from a Special to a Physical technique.",
+    "effects": []
+  },
+  {
     "name": "Transient Echo",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Transient_Echo",
     "type": "Mental",
