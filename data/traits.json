@@ -2,8 +2,8 @@
   {
     "name": "Adaptive",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Adaptive",
-    "description": "Once per battle, after being attacked, changes the Temtem's second type to the type of the received technique and gets SPATK .",
-    "effect": "Adaptive changes the holder's secondary type to the type of the first technique that hits them and gifts them with SPATK once per battle."
+    "description": "Once per battle, before being attacked, changes the Temtem’s secondary typing to the type of the incoming technique and gets SPATK .",
+    "effect": "Adaptive changes the holder's secondary type to the type of the first technique that targets them and gifts them with SPATK once per battle."
   },
   {
     "name": "Aerobic",
@@ -141,7 +141,7 @@
     "name": "Burglar",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Burglar",
     "description": "When attacking an asleep or exhausted Temtem, disables its gear.",
-    "effect": "Burglar causes all of the holder's Techniques to disable the target's gear for the rest of the battle if they're afflicted with the Asleep or Exhausted Conditions. This will also work if the holder is applying the Asleep or Exhausted Conditions with an own Technique."
+    "effect": "Burglar causes all of the holder's Techniques to disable the target's gear for the rest of the battle if they're afflicted with the Asleep or Exhausted Conditions."
   },
   {
     "name": "Caffeinated",
@@ -992,8 +992,8 @@
   {
     "name": "Team Elusive",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Team_Elusive",
-    "description": "Prevents multi-target damaging techniques.",
-    "effect": "Team Elusive protects the holder from being affected by damaging Techniques from both their ally and the rivals that have single team, rival team or the user's ally, all other Temtem, or all as their targeting. If Puppet Master would cause a holder to be the target of a Technique, it will."
+    "description": "Prevents any offensive multi-target technique.",
+    "effect": "Team Elusive protects the holder from being affected by damaging or negative effect-inflicting Techniques from both their ally and the rivals that have single team, rival team or the user's ally, all other Temtem, or all as their targeting. If Puppet Master would cause a holder to be the target of a Technique, it will."
   },
   {
     "name": "Thick Skin",

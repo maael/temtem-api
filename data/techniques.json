@@ -425,8 +425,8 @@
     "damage": 0,
     "staminaCost": 21,
     "hold": 3,
-    "priority": "normal",
-    "priorityIcon": "/images/icons/priority/normal.png",
+    "priority": "low",
+    "priorityIcon": "/images/icons/priority/low.png",
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Team",
@@ -897,8 +897,8 @@
     "class": "Special",
     "classIcon": "/images/icons/technique/Special.png",
     "damage": 100,
-    "staminaCost": 29,
-    "hold": 1,
+    "staminaCost": 25,
+    "hold": 2,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Mental",
@@ -2353,7 +2353,7 @@
     "hold": 0,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
-    "synergy": "Electric",
+    "synergy": "Fire",
     "synergyEffects": [
       {
         "damage": 95,
@@ -2369,7 +2369,7 @@
     "targets": "Single Target",
     "description": "Make your enemies feel like reheated coffee does! This technique inflicts moderate damage.",
     "effectText": "Harmful Microwaves deals damage to a single target.",
-    "synergyText": "If used with an Electric ally, its STA Cost decreases to 18 and priority increases to High.",
+    "synergyText": "If used with a Fire ally, its STA Cost decreases to 18 and priority increases to High.",
     "effects": []
   },
   {
