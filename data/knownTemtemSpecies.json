@@ -5146,7 +5146,7 @@
     },
     "traits": [
       "Caffeinated",
-      "Resilient"
+      "Camaraderie"
     ],
     "details": {
       "height": {
@@ -5240,11 +5240,11 @@
           "trading": false,
           "traits": [
             "Caffeinated",
-            "Resilient"
+            "Camaraderie"
           ],
           "traitMapping": {
             "Caffeinated": "Receptive",
-            "Resilient": "Resistant"
+            "Camaraderie": "Resistant"
           }
         },
         {
@@ -5289,11 +5289,11 @@
       "trading": false,
       "traits": [
         "Caffeinated",
-        "Resilient"
+        "Camaraderie"
       ],
       "traitMapping": {
         "Caffeinated": "Receptive",
-        "Resilient": "Resistant"
+        "Camaraderie": "Resistant"
       }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -5505,11 +5505,11 @@
           "trading": false,
           "traits": [
             "Caffeinated",
-            "Resilient"
+            "Camaraderie"
           ],
           "traitMapping": {
             "Caffeinated": "Receptive",
-            "Resilient": "Resistant"
+            "Camaraderie": "Resistant"
           }
         },
         {
@@ -5540,11 +5540,11 @@
         "trading": false,
         "traits": [
           "Caffeinated",
-          "Resilient"
+          "Camaraderie"
         ],
         "traitMapping": {
           "Caffeinated": "Receptive",
-          "Resilient": "Resistant"
+          "Camaraderie": "Resistant"
         }
       },
       "to": null,
@@ -12568,7 +12568,7 @@
             "Tag Team"
           ],
           "traitMapping": {
-            "Hypnotist": "Furor",
+            "Hypnotist": "Sentinel",
             "Tag Team": "Bruiser"
           }
         },
@@ -12580,11 +12580,11 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Furor",
+            "Sentinel",
             "Bruiser"
           ],
           "traitMapping": {
-            "Furor": "Hypnotist",
+            "Sentinel": "Hypnotist",
             "Bruiser": "Tag Team"
           }
         },
@@ -12631,11 +12631,11 @@
         "type": "levels",
         "trading": false,
         "traits": [
-          "Furor",
+          "Sentinel",
           "Bruiser"
         ],
         "traitMapping": {
-          "Furor": "Hypnotist",
+          "Sentinel": "Hypnotist",
           "Bruiser": "Tag Team"
         }
       },
@@ -12748,7 +12748,7 @@
       "total": 460
     },
     "traits": [
-      "Furor",
+      "Sentinel",
       "Bruiser"
     ],
     "details": {
@@ -12878,7 +12878,7 @@
             "Tag Team"
           ],
           "traitMapping": {
-            "Hypnotist": "Furor",
+            "Hypnotist": "Sentinel",
             "Tag Team": "Bruiser"
           }
         },
@@ -12890,11 +12890,11 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Furor",
+            "Sentinel",
             "Bruiser"
           ],
           "traitMapping": {
-            "Furor": "Furor",
+            "Sentinel": "Sentinel",
             "Bruiser": "Bruiser"
           }
         }
@@ -12913,7 +12913,7 @@
           "Tag Team"
         ],
         "traitMapping": {
-          "Hypnotist": "Furor",
+          "Hypnotist": "Sentinel",
           "Tag Team": "Bruiser"
         }
       },
@@ -12923,11 +12923,11 @@
       "level": 10,
       "trading": false,
       "traits": [
-        "Furor",
+        "Sentinel",
         "Bruiser"
       ],
       "traitMapping": {
-        "Furor": "Furor",
+        "Sentinel": "Sentinel",
         "Bruiser": "Bruiser"
       }
     },
@@ -20159,7 +20159,7 @@
     },
     "traits": [
       "Resistant",
-      "Resilient"
+      "Receptive"
     ],
     "details": {
       "height": {
@@ -20223,11 +20223,11 @@
           "trading": false,
           "traits": [
             "Resistant",
-            "Resilient"
+            "Receptive"
           ],
           "traitMapping": {
             "Resistant": "Parrier",
-            "Resilient": "Tireless"
+            "Receptive": "Tireless"
           }
         },
         {
@@ -20272,11 +20272,11 @@
       "trading": false,
       "traits": [
         "Resistant",
-        "Resilient"
+        "Receptive"
       ],
       "traitMapping": {
         "Resistant": "Parrier",
-        "Resilient": "Tireless"
+        "Receptive": "Tireless"
       }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -20479,11 +20479,11 @@
           "trading": false,
           "traits": [
             "Resistant",
-            "Resilient"
+            "Receptive"
           ],
           "traitMapping": {
             "Resistant": "Parrier",
-            "Resilient": "Tireless"
+            "Receptive": "Tireless"
           }
         },
         {
@@ -20514,11 +20514,11 @@
         "trading": false,
         "traits": [
           "Resistant",
-          "Resilient"
+          "Receptive"
         ],
         "traitMapping": {
           "Resistant": "Parrier",
-          "Resilient": "Tireless"
+          "Receptive": "Tireless"
         }
       },
       "to": null,
@@ -26933,12 +26933,12 @@
         "levels": 56
       },
       {
-        "name": "Tornado",
+        "name": "Blizzard",
         "source": "Levelling",
         "levels": 67
       },
       {
-        "name": "Blizzard",
+        "name": "Electromagnetism",
         "source": "Levelling",
         "levels": 85
       },
@@ -26948,10 +26948,6 @@
       },
       {
         "name": "Noxious Bomb",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Cage",
         "source": "TechniqueCourses"
       },
       {
@@ -30329,7 +30325,7 @@
     },
     "traits": [
       "Spoilsport",
-      "Resilient"
+      "Air Specialist"
     ],
     "details": {
       "height": {
@@ -30400,11 +30396,11 @@
           "trading": false,
           "traits": [
             "Spoilsport",
-            "Resilient"
+            "Air Specialist"
           ],
           "traitMapping": {
             "Spoilsport": "Spreader",
-            "Resilient": "Hydrologist"
+            "Air Specialist": "Hydrologist"
           }
         },
         {
@@ -30421,7 +30417,7 @@
           "description": "Shrine at Dabmis' Rest",
           "traitMapping": {
             "Spreader": "Spoilsport",
-            "Hydrologist": "Resilient"
+            "Hydrologist": "Air Specialist"
           }
         },
         {
@@ -30433,12 +30429,12 @@
           "trading": false,
           "traits": [
             "Spoilsport",
-            "Resilient"
+            "Air Specialist"
           ],
           "description": "Shrine at Dabmis' Rest",
           "traitMapping": {
             "Spoilsport": "Heater",
-            "Resilient": "Pyromaniac"
+            "Air Specialist": "Pyromaniac"
           }
         },
         {
@@ -30455,7 +30451,7 @@
           "description": "Shrine at Altar of the Inner Flame",
           "traitMapping": {
             "Heater": "Spoilsport",
-            "Pyromaniac": "Resilient"
+            "Pyromaniac": "Air Specialist"
           }
         },
         {
@@ -30467,12 +30463,12 @@
           "trading": false,
           "traits": [
             "Spoilsport",
-            "Resilient"
+            "Air Specialist"
           ],
           "description": "Shrine at Altar of the Inner Flame",
           "traitMapping": {
             "Spoilsport": "Receptive",
-            "Resilient": "Determined"
+            "Air Specialist": "Determined"
           }
         },
         {
@@ -30489,7 +30485,7 @@
           "description": "Shrine at Sons of Crystal",
           "traitMapping": {
             "Receptive": "Spoilsport",
-            "Determined": "Resilient"
+            "Determined": "Air Specialist"
           }
         },
         {
@@ -30501,12 +30497,12 @@
           "trading": false,
           "traits": [
             "Spoilsport",
-            "Resilient"
+            "Air Specialist"
           ],
           "description": "Shrine at Sons of Crystal",
           "traitMapping": {
             "Spoilsport": "Escapist",
-            "Resilient": "Tactical Strike"
+            "Air Specialist": "Tactical Strike"
           }
         },
         {
@@ -30523,7 +30519,7 @@
           "description": "Shrine at Aisha's Hearth",
           "traitMapping": {
             "Escapist": "Spoilsport",
-            "Tactical Strike": "Resilient"
+            "Tactical Strike": "Air Specialist"
           }
         },
         {
@@ -30535,12 +30531,12 @@
           "trading": false,
           "traits": [
             "Spoilsport",
-            "Resilient"
+            "Air Specialist"
           ],
           "description": "Shrine at Aisha's Hearth",
           "traitMapping": {
             "Spoilsport": "Splitter",
-            "Resilient": "Common Factor"
+            "Air Specialist": "Common Factor"
           }
         },
         {
@@ -30557,7 +30553,7 @@
           "description": "Shrine at Digital Kami Shrine",
           "traitMapping": {
             "Splitter": "Spoilsport",
-            "Common Factor": "Resilient"
+            "Common Factor": "Air Specialist"
           }
         },
         {
@@ -30569,12 +30565,12 @@
           "trading": false,
           "traits": [
             "Spoilsport",
-            "Resilient"
+            "Air Specialist"
           ],
           "description": "Shrine at Digital Kami Shrine",
           "traitMapping": {
             "Spoilsport": "Tag Team",
-            "Resilient": "Contemplation"
+            "Air Specialist": "Contemplation"
           }
         },
         {
@@ -30611,7 +30607,7 @@
         "description": "Shrine at Digital Kami Shrine",
         "traitMapping": {
           "Splitter": "Spoilsport",
-          "Common Factor": "Resilient"
+          "Common Factor": "Air Specialist"
         }
       },
       "to": {
@@ -30637,12 +30633,12 @@
       "trading": false,
       "traits": [
         "Spoilsport",
-        "Resilient"
+        "Air Specialist"
       ],
       "description": "Shrine at Digital Kami Shrine",
       "traitMapping": {
         "Spoilsport": "Tag Team",
-        "Resilient": "Contemplation"
+        "Air Specialist": "Contemplation"
       }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -30892,11 +30888,11 @@
           "trading": false,
           "traits": [
             "Spoilsport",
-            "Resilient"
+            "Air Specialist"
           ],
           "traitMapping": {
             "Spoilsport": "Spreader",
-            "Resilient": "Hydrologist"
+            "Air Specialist": "Hydrologist"
           }
         },
         {
@@ -30928,11 +30924,11 @@
         "trading": false,
         "traits": [
           "Spoilsport",
-          "Resilient"
+          "Air Specialist"
         ],
         "traitMapping": {
           "Spoilsport": "Spreader",
-          "Resilient": "Hydrologist"
+          "Air Specialist": "Hydrologist"
         }
       },
       "to": null,
@@ -31084,11 +31080,11 @@
           "trading": false,
           "traits": [
             "Spoilsport",
-            "Resilient"
+            "Air Specialist"
           ],
           "traitMapping": {
             "Spoilsport": "Heater",
-            "Resilient": "Pyromaniac"
+            "Air Specialist": "Pyromaniac"
           }
         },
         {
@@ -31120,11 +31116,11 @@
         "trading": false,
         "traits": [
           "Spoilsport",
-          "Resilient"
+          "Air Specialist"
         ],
         "traitMapping": {
           "Spoilsport": "Heater",
-          "Resilient": "Pyromaniac"
+          "Air Specialist": "Pyromaniac"
         }
       },
       "to": null,
@@ -31281,11 +31277,11 @@
           "trading": false,
           "traits": [
             "Spoilsport",
-            "Resilient"
+            "Air Specialist"
           ],
           "traitMapping": {
             "Spoilsport": "Receptive",
-            "Resilient": "Determined"
+            "Air Specialist": "Determined"
           }
         },
         {
@@ -31317,11 +31313,11 @@
         "trading": false,
         "traits": [
           "Spoilsport",
-          "Resilient"
+          "Air Specialist"
         ],
         "traitMapping": {
           "Spoilsport": "Receptive",
-          "Resilient": "Determined"
+          "Air Specialist": "Determined"
         }
       },
       "to": null,
@@ -31479,11 +31475,11 @@
           "trading": false,
           "traits": [
             "Spoilsport",
-            "Resilient"
+            "Air Specialist"
           ],
           "traitMapping": {
             "Spoilsport": "Escapist",
-            "Resilient": "Tactical Strike"
+            "Air Specialist": "Tactical Strike"
           }
         },
         {
@@ -31515,11 +31511,11 @@
         "trading": false,
         "traits": [
           "Spoilsport",
-          "Resilient"
+          "Air Specialist"
         ],
         "traitMapping": {
           "Spoilsport": "Escapist",
-          "Resilient": "Tactical Strike"
+          "Air Specialist": "Tactical Strike"
         }
       },
       "to": null,
@@ -31690,11 +31686,11 @@
           "trading": false,
           "traits": [
             "Spoilsport",
-            "Resilient"
+            "Air Specialist"
           ],
           "traitMapping": {
             "Spoilsport": "Splitter",
-            "Resilient": "Common Factor"
+            "Air Specialist": "Common Factor"
           }
         },
         {
@@ -31726,11 +31722,11 @@
         "trading": false,
         "traits": [
           "Spoilsport",
-          "Resilient"
+          "Air Specialist"
         ],
         "traitMapping": {
           "Spoilsport": "Splitter",
-          "Resilient": "Common Factor"
+          "Air Specialist": "Common Factor"
         }
       },
       "to": null,
@@ -31893,11 +31889,11 @@
           "trading": false,
           "traits": [
             "Spoilsport",
-            "Resilient"
+            "Air Specialist"
           ],
           "traitMapping": {
             "Spoilsport": "Tag Team",
-            "Resilient": "Contemplation"
+            "Air Specialist": "Contemplation"
           }
         },
         {
@@ -31929,11 +31925,11 @@
         "trading": false,
         "traits": [
           "Spoilsport",
-          "Resilient"
+          "Air Specialist"
         ],
         "traitMapping": {
           "Spoilsport": "Tag Team",
-          "Resilient": "Contemplation"
+          "Air Specialist": "Contemplation"
         }
       },
       "to": null,
@@ -32240,7 +32236,7 @@
           ],
           "traitMapping": {
             "Camaraderie": "Pyromaniac",
-            "Caffeinated": "Individualist"
+            "Caffeinated": "Resilient"
           }
         },
         {
@@ -32252,11 +32248,11 @@
           "trading": false,
           "traits": [
             "Pyromaniac",
-            "Individualist"
+            "Resilient"
           ],
           "traitMapping": {
             "Pyromaniac": "Receptive",
-            "Individualist": "Vigorous"
+            "Resilient": "Vigorous"
           }
         },
         {
@@ -32288,11 +32284,11 @@
         "trading": false,
         "traits": [
           "Pyromaniac",
-          "Individualist"
+          "Resilient"
         ],
         "traitMapping": {
           "Pyromaniac": "Receptive",
-          "Individualist": "Vigorous"
+          "Resilient": "Vigorous"
         }
       },
       "number": 138,
@@ -32305,7 +32301,7 @@
       ],
       "traitMapping": {
         "Camaraderie": "Pyromaniac",
-        "Caffeinated": "Individualist"
+        "Caffeinated": "Resilient"
       }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -32375,7 +32371,7 @@
     },
     "traits": [
       "Pyromaniac",
-      "Individualist"
+      "Resilient"
     ],
     "details": {
       "height": {
@@ -32487,7 +32483,7 @@
           ],
           "traitMapping": {
             "Camaraderie": "Pyromaniac",
-            "Caffeinated": "Individualist"
+            "Caffeinated": "Resilient"
           }
         },
         {
@@ -32499,11 +32495,11 @@
           "trading": false,
           "traits": [
             "Pyromaniac",
-            "Individualist"
+            "Resilient"
           ],
           "traitMapping": {
             "Pyromaniac": "Receptive",
-            "Individualist": "Vigorous"
+            "Resilient": "Vigorous"
           }
         },
         {
@@ -32538,7 +32534,7 @@
         ],
         "traitMapping": {
           "Camaraderie": "Pyromaniac",
-          "Caffeinated": "Individualist"
+          "Caffeinated": "Resilient"
         }
       },
       "to": {
@@ -32563,11 +32559,11 @@
       "trading": false,
       "traits": [
         "Pyromaniac",
-        "Individualist"
+        "Resilient"
       ],
       "traitMapping": {
         "Pyromaniac": "Receptive",
-        "Individualist": "Vigorous"
+        "Resilient": "Vigorous"
       }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -32803,7 +32799,7 @@
           ],
           "traitMapping": {
             "Camaraderie": "Pyromaniac",
-            "Caffeinated": "Individualist"
+            "Caffeinated": "Resilient"
           }
         },
         {
@@ -32815,11 +32811,11 @@
           "trading": false,
           "traits": [
             "Pyromaniac",
-            "Individualist"
+            "Resilient"
           ],
           "traitMapping": {
             "Pyromaniac": "Receptive",
-            "Individualist": "Vigorous"
+            "Resilient": "Vigorous"
           }
         },
         {
@@ -32850,11 +32846,11 @@
         "trading": false,
         "traits": [
           "Pyromaniac",
-          "Individualist"
+          "Resilient"
         ],
         "traitMapping": {
           "Pyromaniac": "Receptive",
-          "Individualist": "Vigorous"
+          "Resilient": "Vigorous"
         }
       },
       "to": null,
@@ -35486,7 +35482,7 @@
             "Relaxed"
           ],
           "traitMapping": {
-            "Withdrawal": "Body Stretch",
+            "Withdrawal": "Resilient",
             "Relaxed": "Unnoticed"
           }
         },
@@ -35498,11 +35494,11 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Body Stretch",
+            "Resilient",
             "Unnoticed"
           ],
           "traitMapping": {
-            "Body Stretch": "Ruminant",
+            "Resilient": "Ruminant",
             "Unnoticed": "Rusher"
           }
         },
@@ -35534,11 +35530,11 @@
         "type": "levels",
         "trading": false,
         "traits": [
-          "Body Stretch",
+          "Resilient",
           "Unnoticed"
         ],
         "traitMapping": {
-          "Body Stretch": "Ruminant",
+          "Resilient": "Ruminant",
           "Unnoticed": "Rusher"
         }
       },
@@ -35551,7 +35547,7 @@
         "Relaxed"
       ],
       "traitMapping": {
-        "Withdrawal": "Body Stretch",
+        "Withdrawal": "Resilient",
         "Relaxed": "Unnoticed"
       }
     },
@@ -35621,7 +35617,7 @@
       "total": 384
     },
     "traits": [
-      "Body Stretch",
+      "Resilient",
       "Unnoticed"
     ],
     "details": {
@@ -35720,7 +35716,7 @@
             "Relaxed"
           ],
           "traitMapping": {
-            "Withdrawal": "Body Stretch",
+            "Withdrawal": "Resilient",
             "Relaxed": "Unnoticed"
           }
         },
@@ -35736,7 +35732,7 @@
             "Unnoticed"
           ],
           "traitMapping": {
-            "Body Stretch": "Ruminant",
+            "Resilient": "Ruminant",
             "Unnoticed": "Rusher"
           }
         },
@@ -35961,7 +35957,7 @@
             "Relaxed"
           ],
           "traitMapping": {
-            "Withdrawal": "Body Stretch",
+            "Withdrawal": "Resilient",
             "Relaxed": "Unnoticed"
           }
         },
@@ -35977,7 +35973,7 @@
             "Unnoticed"
           ],
           "traitMapping": {
-            "Body Stretch": "Ruminant",
+            "Resilient": "Ruminant",
             "Unnoticed": "Rusher"
           }
         },
