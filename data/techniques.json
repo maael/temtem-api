@@ -173,7 +173,7 @@
     "targets": "All Other Temtem",
     "description": "Let's press the big red button with the danger signs! The Digital attacker inflicts massive damage and self-destructs in the process.",
     "effectText": "Autodestruction's damage formula is close, but not exactly equal to, the combination of the damage it would deal based on ATK and the damage it would deal based on DEF. The exact formula is intended to be:",
-    "synergyText": "",
+    "synergyText": "R e g u l a r D a m a g e = ( L e v e l 200 × 130 × A T K D D E F ) × M o d i f i e r {\\displaystyle RegularDamage={\\bigl (}{\\tfrac {Level}{200}}\\times 130\\times {\\tfrac {ATK}{DDEF}}{\\bigr )}\\times Modifier}",
     "effects": []
   },
   {
@@ -1813,7 +1813,7 @@
     "targets": "Single Other Target",
     "description": "A simple truth about Temtem fighting - the stronger you are, the harder you hit. This Neutral technique inflicts variable damage depending on the launcher's STA.",
     "effectText": "Extra Energy Slam deals damage to a single other target with its damage varying based on the user's current STA.",
-    "synergyText": "The following formula applies:",
+    "synergyText": "The following formula applies: D a m a g e = ( 7 + L e v e l 200 × 90 × ( A T K D E F + C S T A D E F ) × M o d i f i e r {\\displaystyle Damage={\\bigl (}7+{\\tfrac {Level}{200}}\\times 90\\times ({\\tfrac {ATK}{DEF}}+{\\tfrac {CSTA}{DEF}}{\\bigr )}\\times Modifier}",
     "effects": []
   },
   {
