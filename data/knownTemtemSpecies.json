@@ -9185,7 +9185,9 @@
         "source": "Breeding"
       }
     ],
-    "trivia": [],
+    "trivia": [
+      "Banapi has an emote on the official Temtem Discord."
+    ],
     "evolution": {
       "stage": 0,
       "evolutionTree": [
@@ -9256,7 +9258,50 @@
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "The Hangroad",
+        "place": "The Hangroad",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "65%",
+        "level": "14 - 19",
+        "freetem": {
+          "minLevel": 14,
+          "maxLevel": 19,
+          "minPansuns": 46,
+          "maxPansuns": 55
+        }
+      },
+      {
+        "location": "The Glassyway",
+        "place": "The Glassyway",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "30%",
+        "level": "20 - 22",
+        "freetem": {
+          "minLevel": 20,
+          "maxLevel": 22,
+          "minPansuns": 56,
+          "maxPansuns": 60
+        }
+      },
+      {
+        "location": "Anak Volcano",
+        "place": "Anak Volcano",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "10% - 50%",
+        "level": "22 - 24",
+        "freetem": {
+          "minLevel": 22,
+          "maxLevel": 24,
+          "minPansuns": 60,
+          "maxPansuns": 64
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Banapi.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Banapi.png",
     "genderRatio": {
@@ -9275,14 +9320,14 @@
       "spdef": 0
     },
     "gameDescription": "Capricious and stubborn, these Temtem roam the side of the Anak volcano, grazing on burning coals instead of grass. Notably difficult to tame, they set the right expectations for prospective Fire Temtem tamers...",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg",
-    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/3/34/Banapi_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/b/b0/Banapi_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/1/15/LumaBanapi_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/8/8e/LumaBanapi_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Banapi.png",
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Banapi.png",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "renderAnimatedImage": "/images/renders/temtem/animated/Banapi.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Banapi.gif"
   },
   {
     "number": 38,
@@ -34634,9 +34679,40 @@
         "name": "Toxic Slime",
         "source": "Levelling",
         "levels": 83
+      },
+      {
+        "name": "Swarm Aid",
+        "source": "Levelling",
+        "levels": 91
+      },
+      {
+        "name": "Data Corruption",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Quartz Dirt",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Blue Screen",
+        "source": "Breeding"
+      },
+      {
+        "name": "Plasma Beam",
+        "source": "Breeding"
+      },
+      {
+        "name": "Crystal Deluge",
+        "source": "Breeding"
+      },
+      {
+        "name": "Hologram",
+        "source": "Breeding"
       }
     ],
-    "trivia": [],
+    "trivia": [
+      "Waspeen is one of four Temtem that change one of the types their pre-evolved form has upon evolving. In this case, swapping Wind for Crystal. The others are Owlhe, Barnshe, and Loatle."
+    ],
     "evolution": {
       "stage": 1,
       "evolutionTree": [
@@ -34726,14 +34802,14 @@
       "spdef": 0
     },
     "gameDescription": "Not even Professor Konstantinos could guess this evolutionary stage - while Waspeen loses its predecessors' flight, it develops powerful crystal spikes.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg",
-    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/6/62/Waspeen_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/b/b1/Waspeen_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/0/01/LumaWaspeen_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/5/57/LumaWaspeen_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Waspeen.png",
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Waspeen.png",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "renderAnimatedImage": "/images/renders/temtem/animated/Waspeen.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Waspeen.gif"
   },
   {
     "number": 147,
