@@ -6221,9 +6221,33 @@
       {
         "name": "Noxious Bomb",
         "source": "TechniqueCourses"
+      },
+      {
+        "name": "Awful Song",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Hyperkinetic Strike",
+        "source": "Breeding"
+      },
+      {
+        "name": "Ice Shuriken",
+        "source": "Breeding"
+      },
+      {
+        "name": "Lullaby",
+        "source": "Breeding"
+      },
+      {
+        "name": "Sharp Rain",
+        "source": "Breeding"
       }
     ],
-    "trivia": [],
+    "trivia": [
+      "Due to its first appearance as a cropped picture in the competitive set-up screen (top left, under the player avatar), users in the official Discord attempted to draw out the rest of the creature. Among the drawings, a bird with human-like legs became popular, and thus the name \"Legbird\" was coined.",
+      "Fomu was the first Temtem that appeared in the initial concepts that ended up making onto the roster.",
+      "Fomu has an emote on the official Temtem Discord."
+    ],
     "evolution": {
       "stage": 0,
       "evolutionTree": [
@@ -6294,7 +6318,64 @@
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Windward Fort",
+        "place": "Windward Fort",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "10% - 100%",
+        "level": "9 - 14",
+        "freetem": {
+          "minLevel": 9,
+          "maxLevel": 14,
+          "minPansuns": 37,
+          "maxPansuns": 46
+        }
+      },
+      {
+        "location": "Gifted Bridges",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "80%",
+        "level": "12 - 15",
+        "freetem": {
+          "minLevel": 12,
+          "maxLevel": 15,
+          "minPansuns": 42,
+          "maxPansuns": 47
+        }
+      },
+      {
+        "location": "Sillaro River",
+        "place": "Sillaro River",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "50% - 100%",
+        "level": "13 - 15",
+        "freetem": {
+          "minLevel": 13,
+          "maxLevel": 15,
+          "minPansuns": 44,
+          "maxPansuns": 47
+        }
+      },
+      {
+        "location": "Sea-Queen's Aquarium",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "10%",
+        "level": "15 - 20",
+        "freetem": {
+          "minLevel": 15,
+          "maxLevel": 20,
+          "minPansuns": 47,
+          "maxPansuns": 56
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Fomu.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Fomu.png",
     "genderRatio": {
@@ -6314,13 +6395,13 @@
     },
     "gameDescription": "These Temtem are known for their capacity to generate vapor, like charming little steam engines. Since that means losing a lot of moisture, this species prefers to remain in the water and use steam jets for propulsion rather than its short legs.",
     "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/8/8d/UmbraFomu_full_render.png",
-    "wikiRenderAnimatedUrl": "",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/0/01/UmbraFomu_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/c/ca/LumaFomu_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/6/6e/LumaFomu_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Fomu.png",
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Fomu.png",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "renderAnimatedImage": "/images/renders/temtem/animated/Fomu.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Fomu.gif"
   },
   {
     "number": 26,
@@ -26422,6 +26503,22 @@
       {
         "name": "Double Edge",
         "source": "TechniqueCourses"
+      },
+      {
+        "name": "Drought",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Horror",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Goring",
+        "source": "Breeding"
+      },
+      {
+        "name": "Sludge Gift",
+        "source": "Breeding"
       }
     ],
     "trivia": [],
@@ -26495,7 +26592,22 @@
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "The Highbelow?",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "20%",
+        "level": "55 - 65",
+        "freetem": {
+          "minLevel": 55,
+          "maxLevel": 65,
+          "minPansuns": 177,
+          "maxPansuns": 205
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Grumper.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Grumper.png",
     "genderRatio": {
@@ -26514,14 +26626,14 @@
       "spdef": 0
     },
     "gameDescription": "Often the butt of Dojo jokes, Grumper are an evolutive mystery. While some Temtemologists claim they are just Grumvel with overdeveloped horns, some others claim it's a completely different genus.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg",
-    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/7/7d/Grumper_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/b/b3/Grumper_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/a/a6/LumaGrumper_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/b/b9/LumaGrumper_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Grumper.png",
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Grumper.png",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "renderAnimatedImage": "/images/renders/temtem/animated/Grumper.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Grumper.gif"
   },
   {
     "number": 113,
@@ -32637,6 +32749,38 @@
         "name": "Rockfall",
         "source": "Levelling",
         "levels": 95
+      },
+      {
+        "name": "Wake Up",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Magma Cannon",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Rend",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Major Slash",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Soil Steam",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Earth Wave",
+        "source": "Breeding"
+      },
+      {
+        "name": "Extinction",
+        "source": "Breeding"
+      },
+      {
+        "name": "Hook",
+        "source": "Breeding"
       }
     ],
     "trivia": [],
@@ -32726,7 +32870,22 @@
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Mines of Mictlan",
+        "place": "Mines of Mictlan",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "Gift",
+        "level": "33",
+        "freetem": {
+          "minLevel": 33,
+          "maxLevel": 33,
+          "minPansuns": null,
+          "maxPansuns": null
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Vulcrane.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Vulcrane.png",
     "genderRatio": {
@@ -32746,13 +32905,13 @@
     },
     "gameDescription": "Vulcrane are sometimes described as \"Anak on two legs\". If a variety of draconic-looking Temtem ever existed, they couldn't have been much fiercer than this advanced, flaming beast.",
     "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/f/f9/UmbraVulcrane_full_render.png",
-    "wikiRenderAnimatedUrl": "",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/5/53/UmbraVulcrane_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/9/93/LumaVulcrane_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/e/e4/LumaVulcrane_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Vulcrane.png",
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Vulcrane.png",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "renderAnimatedImage": "/images/renders/temtem/animated/Vulcrane.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Vulcrane.gif"
   },
   {
     "number": 141,
