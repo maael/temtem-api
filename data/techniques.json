@@ -145,7 +145,7 @@
     "class": "Special",
     "classIcon": "/images/icons/technique/Special.png",
     "damage": 130,
-    "staminaCost": 34,
+    "staminaCost": 30,
     "hold": 1,
     "priority": "high",
     "priorityIcon": "/images/icons/priority/high.png",
@@ -1893,14 +1893,19 @@
     "damage": 95,
     "staminaCost": 25,
     "hold": 1,
-    "priority": "low",
-    "priorityIcon": "/images/icons/priority/low.png",
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Wind",
     "synergyEffects": [
       {
         "effect": "+1 SPD",
         "type": "unknown",
         "damage": 0
+      },
+      {
+        "damage": 110,
+        "type": "damage",
+        "effect": "+110 Damage"
       }
     ],
     "targets": "Single Target",
@@ -5550,7 +5555,7 @@
     "class": "Special",
     "classIcon": "/images/icons/technique/Special.png",
     "damage": 125,
-    "staminaCost": 36,
+    "staminaCost": 28,
     "hold": 1,
     "priority": "high",
     "priorityIcon": "/images/icons/priority/high.png",
