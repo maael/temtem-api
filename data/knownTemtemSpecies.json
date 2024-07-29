@@ -2749,7 +2749,7 @@
         "source": "TechniqueCourses"
       },
       {
-        "name": "Hypoxia",
+        "name": "Hurricane",
         "source": "Breeding"
       },
       {
@@ -4971,6 +4971,11 @@
         "levels": 28
       },
       {
+        "name": "Electric Storm",
+        "source": "Levelling",
+        "levels": 36
+      },
+      {
         "name": "Turbo Charge",
         "source": "Levelling",
         "levels": 44
@@ -4999,11 +5004,6 @@
         "name": "Resin Trap",
         "source": "Levelling",
         "levels": 96
-      },
-      {
-        "name": "Electric Storm",
-        "source": "Levelling",
-        "levels": 0
       },
       {
         "name": "Held Anger",
@@ -5460,9 +5460,18 @@
         "levels": 60
       },
       {
+        "name": "Sand Storm",
+        "source": "Levelling",
+        "levels": 72
+      },
+      {
         "name": "Diamond Fort",
         "source": "Levelling",
         "levels": 84
+      },
+      {
+        "name": "Turbo Choreography",
+        "source": "TechniqueCourses"
       },
       {
         "name": "Rend",
@@ -5967,7 +5976,7 @@
         "levels": 60
       },
       {
-        "name": "Knockback",
+        "name": "Unseen Blow",
         "source": "Levelling",
         "levels": 74
       },
@@ -9470,6 +9479,10 @@
         "source": "TechniqueCourses"
       },
       {
+        "name": "Fiery Ballad",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Roar",
         "source": "Breeding"
       },
@@ -11623,10 +11636,6 @@
         "source": "TechniqueCourses"
       },
       {
-        "name": "Harmful Microwaves",
-        "source": "TechniqueCourses"
-      },
-      {
         "name": "Bush",
         "source": "Breeding"
       },
@@ -12092,39 +12101,39 @@
         "levels": 18
       },
       {
-        "name": "Boomerang",
+        "name": "Allergic Spread",
         "source": "Levelling",
         "levels": 25
       },
       {
-        "name": "Allergic Spread",
+        "name": "Humiliating Slap",
         "source": "Levelling",
         "levels": 30
       },
       {
-        "name": "Humiliating Slap",
-        "source": "Levelling",
-        "levels": 39
-      },
-      {
         "name": "Turbine",
         "source": "Levelling",
-        "levels": 51
+        "levels": 43
       },
       {
         "name": "Frond Whip",
         "source": "Levelling",
-        "levels": 65
+        "levels": 55
       },
       {
         "name": "Refreshing Breeze",
         "source": "Levelling",
-        "levels": 80
+        "levels": 67
       },
       {
         "name": "Gaia",
         "source": "Levelling",
-        "levels": 96
+        "levels": 80
+      },
+      {
+        "name": "Hypoxia",
+        "source": "Levelling",
+        "levels": 91
       },
       {
         "name": "Wake Up",
@@ -13767,10 +13776,6 @@
       },
       {
         "name": "Refresh",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Quartz Dirt",
         "source": "TechniqueCourses"
       },
       {
@@ -15782,10 +15787,6 @@
       }
     },
     "techniques": [
-      {
-        "name": "Magma Cannon",
-        "source": "TechniqueCourses"
-      },
       {
         "name": "Footwork",
         "source": "TechniqueCourses"
@@ -18064,7 +18065,7 @@
         "levels": 66
       },
       {
-        "name": "Crystal Deluge",
+        "name": "Toxic Gas",
         "source": "Levelling",
         "levels": 80
       },
@@ -18089,11 +18090,11 @@
         "source": "Breeding"
       },
       {
-        "name": "Quartz Shield",
+        "name": "Crystal Deluge",
         "source": "Breeding"
       },
       {
-        "name": "Rotten Goo",
+        "name": "Quartz Shield",
         "source": "Breeding"
       }
     ],
@@ -18263,14 +18264,9 @@
         "levels": 6
       },
       {
-        "name": "DC Beam",
+        "name": "Chain Lightning",
         "source": "Levelling",
-        "levels": 12
-      },
-      {
-        "name": "Glass Blade",
-        "source": "Levelling",
-        "levels": 16
+        "levels": 14
       },
       {
         "name": "Sparkling Bullet",
@@ -21359,6 +21355,10 @@
         "source": "TechniqueCourses"
       },
       {
+        "name": "Turbo Choreography",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Major Slash",
         "source": "TechniqueCourses"
       },
@@ -21816,10 +21816,6 @@
         "name": "Composure",
         "source": "Levelling",
         "levels": 95
-      },
-      {
-        "name": "Cage",
-        "source": "TechniqueCourses"
       },
       {
         "name": "Held Anger",
@@ -22697,6 +22693,11 @@
         "levels": 12
       },
       {
+        "name": "Tenderness",
+        "source": "Levelling",
+        "levels": 17
+      },
+      {
         "name": "Clinch",
         "source": "Levelling",
         "levels": 22
@@ -22732,6 +22733,10 @@
       },
       {
         "name": "Quicksand",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Drought",
         "source": "TechniqueCourses"
       },
       {
@@ -22931,6 +22936,11 @@
         "levels": 17
       },
       {
+        "name": "Rush",
+        "source": "Levelling",
+        "levels": 22
+      },
+      {
         "name": "Bestial Charge",
         "source": "Levelling",
         "levels": 27
@@ -22951,12 +22961,12 @@
         "levels": 64
       },
       {
-        "name": "Rush",
+        "name": "Wrenching Massage",
         "source": "Levelling",
         "levels": 78
       },
       {
-        "name": "Wrenching Massage",
+        "name": "Held Anger",
         "source": "Levelling",
         "levels": 85
       },
@@ -26455,6 +26465,11 @@
         "levels": 1
       },
       {
+        "name": "Tenderness",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
         "name": "Head Ram",
         "source": "Levelling",
         "levels": 20
@@ -27709,7 +27724,7 @@
         "levels": 7
       },
       {
-        "name": "Clay Ball",
+        "name": "Sand Splatter",
         "source": "Levelling",
         "levels": 15
       },
@@ -28411,6 +28426,11 @@
         "levels": 32
       },
       {
+        "name": "Revitalize",
+        "source": "Levelling",
+        "levels": 40
+      },
+      {
         "name": "Double Gash",
         "source": "Levelling",
         "levels": 50
@@ -28431,7 +28451,7 @@
         "levels": 75
       },
       {
-        "name": "Plague",
+        "name": "Allergic Spread",
         "source": "Levelling",
         "levels": 86
       },
