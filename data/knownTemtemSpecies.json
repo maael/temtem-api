@@ -29450,7 +29450,7 @@
         "levels": 8
       },
       {
-        "name": "Roots",
+        "name": "Confiscate",
         "source": "Levelling",
         "levels": 13
       },
@@ -30214,6 +30214,11 @@
         "name": "Sacrifice",
         "source": "Levelling",
         "levels": 48
+      },
+      {
+        "name": "Psy Surge",
+        "source": "Levelling",
+        "levels": 55
       },
       {
         "name": "Toxic Gas",
@@ -31094,7 +31099,7 @@
         "levels": 62
       },
       {
-        "name": "Fiery Soul",
+        "name": "Magma Cannon",
         "source": "Levelling",
         "levels": 70
       }
@@ -31291,7 +31296,7 @@
         "levels": 79
       },
       {
-        "name": "Turbine",
+        "name": "Mineral Hail",
         "source": "Levelling",
         "levels": 90
       }
@@ -31473,22 +31478,22 @@
         "levels": 40
       },
       {
-        "name": "Stone Ball",
+        "name": "Rockfall",
         "source": "Levelling",
         "levels": 52
       },
       {
-        "name": "Rockfall",
+        "name": "Turbine",
         "source": "Levelling",
         "levels": 68
       },
       {
-        "name": "Turbine",
+        "name": "Earth Wave",
         "source": "Levelling",
-        "levels": 90
+        "levels": 80
       },
       {
-        "name": "Soil Steam",
+        "name": "Drought",
         "source": "TechniqueCourses"
       }
     ],
@@ -31676,7 +31681,7 @@
         "levels": 45
       },
       {
-        "name": "Turbo Attack",
+        "name": "Cyberclaw",
         "source": "Levelling",
         "levels": 59
       },
@@ -31887,7 +31892,7 @@
         "levels": 45
       },
       {
-        "name": "Wrenching Massage",
+        "name": "Head Charge",
         "source": "Levelling",
         "levels": 62
       },
@@ -32802,6 +32807,10 @@
         "source": "TechniqueCourses"
       },
       {
+        "name": "Fiery Ballad",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Earth Wave",
         "source": "Breeding"
       },
@@ -33256,7 +33265,7 @@
         "levels": 69
       },
       {
-        "name": "Rotten Goo",
+        "name": "Paralyzing Poison",
         "source": "Levelling",
         "levels": 80
       },
@@ -34712,9 +34721,19 @@
         "levels": 83
       },
       {
+        "name": "Paralyzing Poison",
+        "source": "Levelling",
+        "levels": 85
+      },
+      {
         "name": "Swarm Aid",
         "source": "Levelling",
         "levels": 91
+      },
+      {
+        "name": "Firewall",
+        "source": "Levelling",
+        "levels": 100
       },
       {
         "name": "Data Corruption",
@@ -34729,15 +34748,15 @@
         "source": "Breeding"
       },
       {
-        "name": "Plasma Beam",
-        "source": "Breeding"
-      },
-      {
-        "name": "Crystal Deluge",
-        "source": "Breeding"
-      },
-      {
         "name": "Hologram",
+        "source": "Breeding"
+      },
+      {
+        "name": "Metabolize",
+        "source": "Breeding"
+      },
+      {
+        "name": "Plasma Beam",
         "source": "Breeding"
       }
     ],
@@ -38316,11 +38335,6 @@
         "name": "DC Beam",
         "source": "Levelling",
         "levels": 1
-      },
-      {
-        "name": "Strangle",
-        "source": "Levelling",
-        "levels": 4
       },
       {
         "name": "Stare",
