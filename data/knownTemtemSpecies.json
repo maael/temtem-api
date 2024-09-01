@@ -5253,8 +5253,8 @@
             "Camaraderie"
           ],
           "traitMapping": {
-            "Caffeinated": "Resistant",
-            "Camaraderie": "Unknown"
+            "Caffeinated": "Dispersion",
+            "Camaraderie": "Resistant"
           }
         },
         {
@@ -5269,6 +5269,7 @@
             "Resistant"
           ],
           "traitMapping": {
+            "Dispersion": "Dispersion",
             "Resistant": "Resistant"
           }
         }
@@ -5399,6 +5400,7 @@
       "total": 472
     },
     "traits": [
+      "Dispersion",
       "Resistant"
     ],
     "details": {
@@ -5525,8 +5527,8 @@
             "Camaraderie"
           ],
           "traitMapping": {
-            "Caffeinated": "Resistant",
-            "Camaraderie": "Unknown"
+            "Caffeinated": "Dispersion",
+            "Camaraderie": "Resistant"
           }
         },
         {
@@ -5537,10 +5539,11 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Receptive",
+            "Dispersion",
             "Resistant"
           ],
           "traitMapping": {
+            "Dispersion": "Dispersion",
             "Resistant": "Resistant"
           }
         }
@@ -5559,7 +5562,7 @@
           "Camaraderie"
         ],
         "traitMapping": {
-          "Caffeinated": "Receptive",
+          "Caffeinated": "Dispersion",
           "Camaraderie": "Resistant"
         }
       },
@@ -5569,11 +5572,11 @@
       "level": 20,
       "trading": false,
       "traits": [
-        "Receptive",
+        "Dispersion",
         "Resistant"
       ],
       "traitMapping": {
-        "Receptive": "Receptive",
+        "Dispersion": "Dispersion",
         "Resistant": "Resistant"
       }
     },
