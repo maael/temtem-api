@@ -4953,7 +4953,7 @@
       {
         "name": "Kick",
         "source": "Levelling",
-        "levels": 2
+        "levels": 4
       },
       {
         "name": "Sparks",
@@ -5253,8 +5253,8 @@
             "Camaraderie"
           ],
           "traitMapping": {
-            "Caffeinated": "Receptive",
-            "Camaraderie": "Resistant"
+            "Caffeinated": "Resistant",
+            "Camaraderie": "Unknown"
           }
         },
         {
@@ -5269,7 +5269,6 @@
             "Resistant"
           ],
           "traitMapping": {
-            "Receptive": "Receptive",
             "Resistant": "Resistant"
           }
         }
@@ -5400,7 +5399,6 @@
       "total": 472
     },
     "traits": [
-      "Receptive",
       "Resistant"
     ],
     "details": {
@@ -5527,8 +5525,8 @@
             "Camaraderie"
           ],
           "traitMapping": {
-            "Caffeinated": "Receptive",
-            "Camaraderie": "Resistant"
+            "Caffeinated": "Resistant",
+            "Camaraderie": "Unknown"
           }
         },
         {
@@ -5543,7 +5541,6 @@
             "Resistant"
           ],
           "traitMapping": {
-            "Receptive": "Receptive",
             "Resistant": "Resistant"
           }
         }
@@ -8680,14 +8677,19 @@
         "levels": 1
       },
       {
-        "name": "Hypnosis",
+        "name": "Jaw Strike",
         "source": "Levelling",
         "levels": 6
       },
       {
-        "name": "Toxic Fang",
+        "name": "Toxic Spores",
         "source": "Levelling",
         "levels": 8
+      },
+      {
+        "name": "Toxic Fang",
+        "source": "Levelling",
+        "levels": 10
       },
       {
         "name": "Spores",
@@ -8700,19 +8702,29 @@
         "levels": 16
       },
       {
-        "name": "Roots",
-        "source": "Levelling",
-        "levels": 22
-      },
-      {
         "name": "Toxic Ink",
         "source": "Levelling",
-        "levels": 27
+        "levels": 18
+      },
+      {
+        "name": "Look out",
+        "source": "Levelling",
+        "levels": 25
+      },
+      {
+        "name": "Untangle",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Roots",
+        "source": "Levelling",
+        "levels": 38
       },
       {
         "name": "Allergic Spread",
         "source": "Levelling",
-        "levels": 36
+        "levels": 48
       },
       {
         "name": "Wake Up",
@@ -11409,10 +11421,6 @@
         "source": "TechniqueCourses"
       },
       {
-        "name": "Harmful Microwaves",
-        "source": "TechniqueCourses"
-      },
-      {
         "name": "Bush",
         "source": "Breeding"
       },
@@ -11825,29 +11833,24 @@
         "levels": 18
       },
       {
-        "name": "Boomerang",
+        "name": "Allergic Spread",
         "source": "Levelling",
         "levels": 25
       },
       {
-        "name": "Allergic Spread",
+        "name": "Humiliating Slap",
         "source": "Levelling",
         "levels": 30
       },
       {
-        "name": "Humiliating Slap",
-        "source": "Levelling",
-        "levels": 39
-      },
-      {
         "name": "Turbine",
         "source": "Levelling",
-        "levels": 51
+        "levels": 43
       },
       {
         "name": "Frond Whip",
         "source": "Levelling",
-        "levels": 65
+        "levels": 55
       },
       {
         "name": "Wake Up",
@@ -15619,10 +15622,6 @@
         "levels": 46
       },
       {
-        "name": "Magma Cannon",
-        "source": "TechniqueCourses"
-      },
-      {
         "name": "Footwork",
         "source": "TechniqueCourses"
       },
@@ -17585,11 +17584,11 @@
         "source": "Breeding"
       },
       {
-        "name": "Quartz Shield",
+        "name": "Crystal Deluge",
         "source": "Breeding"
       },
       {
-        "name": "Rotten Goo",
+        "name": "Quartz Shield",
         "source": "Breeding"
       }
     ],
@@ -17810,7 +17809,7 @@
       {
         "name": "Head Ram",
         "source": "Levelling",
-        "levels": 14
+        "levels": 16
       },
       {
         "name": "Crystal Spikes",
@@ -17844,11 +17843,11 @@
         "source": "Breeding"
       },
       {
-        "name": "Quartz Shield",
+        "name": "Crystal Deluge",
         "source": "Breeding"
       },
       {
-        "name": "Rotten Goo",
+        "name": "Quartz Shield",
         "source": "Breeding"
       }
     ],
@@ -18042,7 +18041,7 @@
       {
         "name": "Head Ram",
         "source": "Levelling",
-        "levels": 14
+        "levels": 16
       },
       {
         "name": "Crystal Spikes",
@@ -21577,10 +21576,6 @@
         "name": "Electropunch",
         "source": "Levelling",
         "levels": 40
-      },
-      {
-        "name": "Cage",
-        "source": "TechniqueCourses"
       },
       {
         "name": "Held Anger",
@@ -26262,7 +26257,7 @@
         "levels": 1
       },
       {
-        "name": "Mud Shower",
+        "name": "Tenderness",
         "source": "Levelling",
         "levels": 6
       },
@@ -26472,7 +26467,7 @@
       {
         "name": "Tenderness",
         "source": "Levelling",
-        "levels": 5
+        "levels": 6
       },
       {
         "name": "Head Ram",
@@ -27478,7 +27473,7 @@
         "levels": 7
       },
       {
-        "name": "Clay Ball",
+        "name": "Sand Splatter",
         "source": "Levelling",
         "levels": 15
       },
@@ -28199,6 +28194,11 @@
         "name": "Bush",
         "source": "Levelling",
         "levels": 32
+      },
+      {
+        "name": "Revitalize",
+        "source": "Levelling",
+        "levels": 40
       },
       {
         "name": "Double Gash",
@@ -29252,7 +29252,7 @@
         "levels": 8
       },
       {
-        "name": "Roots",
+        "name": "Confiscate",
         "source": "Levelling",
         "levels": 13
       },
@@ -34509,15 +34509,15 @@
         "source": "Breeding"
       },
       {
-        "name": "Plasma Beam",
-        "source": "Breeding"
-      },
-      {
-        "name": "Crystal Deluge",
-        "source": "Breeding"
-      },
-      {
         "name": "Hologram",
+        "source": "Breeding"
+      },
+      {
+        "name": "Metabolize",
+        "source": "Breeding"
+      },
+      {
+        "name": "Plasma Beam",
         "source": "Breeding"
       }
     ],

@@ -212,8 +212,8 @@
   {
     "name": "Confined",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Confined",
-    "description": "When getting an trapped status condition, gets DEF and SPDEF if the attacker is itself.",
-    "effect": "Confined gifts the holder with DEF and SPDEF when the holder inflicts themselves with the Trapped Condition."
+    "description": "When getting the Trapped status condition, gets DEF and SPDEF .",
+    "effect": "Confined gifts the holder with DEF and SPDEF when the holder gets the Trapped Condition."
   },
   {
     "name": "Contagious",
@@ -422,8 +422,8 @@
   {
     "name": "Heat Discharge",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Heat_Discharge",
-    "description": "When knocked-out, the attacker gets burned for 3 turns.",
-    "effect": "Heat Discharge inflicts the attacker that knocked-out the holder with the Burned Condition for 3 turns."
+    "description": "When knocked-out, both rivals gets burned for 2 turns.",
+    "effect": "Heat Discharge inflicts both rivals with the Burned Condition for 2 turns."
   },
   {
     "name": "Heater",
@@ -590,8 +590,8 @@
   {
     "name": "Motivator",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Motivator",
-    "description": "At the start of the turn, allies restore 10% of max STA.",
-    "effect": "Motivator restores 10% of both the holder's and their ally's maximum STA at the start of each turn."
+    "description": "At the start of the turn, allies restore 15% of max STA.",
+    "effect": "Motivator restores 15% of both the holder's and their ally's maximum STA at the start of each turn."
   },
   {
     "name": "Mucous",
@@ -602,8 +602,8 @@
   {
     "name": "Natural Conversion",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Natural_Conversion",
-    "description": "Offensive Nature type techniques deal 10% less damage, while using any other non-Nature technique deals 25% more damage.",
-    "effect": "Natural Conversion decreases damage dealt of the holder's Nature Techniques by 10%, but also increases the damage of all non-Nature Nature Techniques."
+    "description": "While using any other non-Nature type technique, deal 25% more damage.",
+    "effect": "Natural Conversion increases the damage of all non-Nature Techniques."
   },
   {
     "name": "Neurotoxins",
@@ -764,8 +764,8 @@
   {
     "name": "Ruminant",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Ruminant",
-    "description": "When any Temtem uses a Nature technique, restores 20% max STA.",
-    "effect": "Ruminant restores 20% of the holder's maximum STA if any temtem uses a Nature technique."
+    "description": "When hit by an enemy Nature technique, damage is reduced by 50% and receives ATK .",
+    "effect": "When hit by an enemy Nature technique, damage is reduced by 50% and receives ATK ."
   },
   {
     "name": "Rusher",
@@ -776,8 +776,8 @@
   {
     "name": "Safe Retreat",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Safe_Retreat",
-    "description": "Once per battle, when leaving the battlefield, the Temtem receives 2 turns of regenerating.",
-    "effect": "Safe Retreat grants the holder the Regenerated Condition for 2 turns when leaving the battlefield once per battle."
+    "description": "When leaving the battlefield, the Temtem receives 1 turns of regenerating.",
+    "effect": "Safe Retreat grants the holder the Regenerated Condition for 1 turn when leaving the battlefield."
   },
   {
     "name": "Scavenger",
@@ -788,8 +788,8 @@
   {
     "name": "Seismic",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Seismic",
-    "description": "When entering the battlefield, rivals lose 7% of their max HP. This effect cannot knock out Temtem.",
-    "effect": "Seismic causes all rival combatants on the battlefield to lose 7% of their maximum HP whenever the user enters the battlefield. Seismic can't reduce their HP below 1."
+    "description": "When entering the battlefield, rivals lose 10% of their max HP. This effect cannot knock out Temtem.",
+    "effect": "Seismic causes all rival combatants on the battlefield to lose 10% of their maximum HP whenever the user enters the battlefield. Seismic can't reduce their HP below 1."
   },
   {
     "name": "Self-Care",
