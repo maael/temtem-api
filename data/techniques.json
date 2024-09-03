@@ -2809,11 +2809,11 @@
     "type": "Water",
     "class": "Physical",
     "classIcon": "/images/icons/technique/Physical.png",
-    "damage": 54,
+    "damage": 60,
     "staminaCost": 15,
     "hold": 0,
-    "priority": "high",
-    "priorityIcon": "/images/icons/priority/high.png",
+    "priority": "normal",
+    "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Wind",
     "synergyEffects": [
       {
@@ -2822,7 +2822,12 @@
         "damage": 0
       },
       {
-        "damage": 0,
+        "damage": 70,
+        "type": "damage",
+        "effect": "+70 Damage"
+      },
+      {
+        "damage": 70,
         "type": "buff",
         "effect": "9 STA Cost"
       }
@@ -2830,7 +2835,7 @@
     "targets": "Single Other Target",
     "description": "An extreme version of the ice water bucket challenge that does real damage.Used in combination with a Wind ally, produces Cold for 1 turn.",
     "effectText": "Ice Cubes deals damage to a single other target.",
-    "synergyText": "If used with a Wind ally, its STA Cost decreases to 9 and inflicts them with the Cold Condition for 1 turn.",
+    "synergyText": "If used with a Wind ally, its STA Cost decreases to 9, Damage increases to 70, and Priority changes to Very High while inflicting them with the Cold Condition for 1 turn.",
     "effects": []
   },
   {
