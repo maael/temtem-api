@@ -531,8 +531,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Self",
-    "description": "\"In a hole in the ground there lived a Temtem...\" which allowed it to evade for 4 turns.",
-    "effectText": "Burrow gifts the user with the Evading Condition for 4 turns.",
+    "description": "\"In a hole in the ground there lived a Temtem...\" which allowed it to evade for 4 turns and remove negative stages.",
+    "effectText": "Burrow gifts the user with the Evading Condition for 4 turns and removes negative Stat Stage Changes.",
     "synergyText": "",
     "effects": []
   },
@@ -898,21 +898,21 @@
     "classIcon": "/images/icons/technique/Special.png",
     "damage": 100,
     "staminaCost": 25,
-    "hold": 2,
+    "hold": 1,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "Mental",
     "synergyEffects": [
       {
-        "effect": "2 Turns  Asleep",
+        "effect": "1 Turns  Asleep",
         "type": "condition",
         "damage": 0
       }
     ],
     "targets": "Single Target",
-    "description": "It's raining 'Tems, hallelujah! This special Crystal technique inflicts moderate damage and isolates it for 3 turns.Used in combination with a Mental ally, Crystal Deluge makes you asleep for 2 turns and increases priority.",
+    "description": "It's raining 'Tems, hallelujah! This special Crystal technique inflicts moderate damage and isolates it for 3 turns.Used in combination with a Mental ally, Crystal Deluge makes you asleep for 1 turns and increases priority.",
     "effectText": "Crystal Deluge deals damage to a single target and inflicts them with the Isolated Condition for 3 turns.",
-    "synergyText": "If used with a Mental ally, its priority increases to High and also inflicts the Asleep Condition for 2 turns.",
+    "synergyText": "If used with a Mental ally, its priority increases to High and also inflicts the Asleep Condition for 1 turns.",
     "effects": []
   },
   {
@@ -4374,13 +4374,13 @@
     "class": "Status",
     "classIcon": "/images/icons/technique/Status.png",
     "damage": 0,
-    "staminaCost": 15,
-    "hold": 1,
+    "staminaCost": 21,
+    "hold": 2,
     "priority": "normal",
     "priorityIcon": "/images/icons/priority/normal.png",
     "synergy": "None",
     "synergyEffects": [],
-    "targets": "Self",
+    "targets": "Single Team",
     "description": "En garde! This technique makes you immune for 3 turns and makes you evade attacks for 1 turn.",
     "effectText": "Rainbow Guard gifts the user with the Immune Condition for 3 turns and the Evading Condition for 1 turn.",
     "synergyText": "",
