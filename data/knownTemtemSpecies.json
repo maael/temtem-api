@@ -5288,7 +5288,7 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Receptive",
+            "Dispersion",
             "Resistant"
           ],
           "traitMapping": {
@@ -5308,11 +5308,11 @@
         "type": "levels",
         "trading": false,
         "traits": [
-          "Receptive",
+          "Dispersion",
           "Resistant"
         ],
         "traitMapping": {
-          "Receptive": "Receptive",
+          "Dispersion": "Dispersion",
           "Resistant": "Resistant"
         }
       },
@@ -5325,7 +5325,7 @@
         "Camaraderie"
       ],
       "traitMapping": {
-        "Caffeinated": "Receptive",
+        "Caffeinated": "Dispersion",
         "Camaraderie": "Resistant"
       }
     },
