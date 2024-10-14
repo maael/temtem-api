@@ -1,5 +1,23 @@
 [
   {
+    "name": "Patch 1.8.1",
+    "version": "1.8.1",
+    "url": "https://crema.gg/temtem/patch-1-8-1/",
+    "date": "2024-10-14",
+    "patchInfo": {
+      "fixes": [],
+      "improvements": [
+        "We’ve removed the decimals on the 100.00% Luma chance in Digilair, as it was displaying incorrectly.",
+        "We’ve made it so the Temtem you receive from defeating NPCs will all be level 100 with all their SVs at 50.This applies to both Mythical Lairs and DigiLairs (although DigiLairs already provided all Tems with SVs at 50).",
+        "This applies to both Mythical Lairs and DigiLairs (although DigiLairs already provided all Tems with SVs at 50)."
+      ],
+      "features": [
+        "We’ve added a visual indicator on the Saipark UI that lets you know when you’ve done your weekly Luma capture. This way it’ll be easier for players to know once they’ve filled their weekly limit."
+      ],
+      "balance": []
+    }
+  },
+  {
     "name": "Patch 1.8",
     "version": "1.8",
     "url": "https://crema.gg/temtem/patch-1-8/",
