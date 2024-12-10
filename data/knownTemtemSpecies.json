@@ -2481,7 +2481,7 @@
       {
         "name": "Allergic Spread",
         "source": "Levelling",
-        "levels": 35
+        "levels": 27
       },
       {
         "name": "Bark Shield",
@@ -2702,14 +2702,14 @@
         "levels": 19
       },
       {
-        "name": "Photosynthesis",
+        "name": "Blizzard",
         "source": "Levelling",
         "levels": 25
       },
       {
-        "name": "Blizzard",
+        "name": "Photosynthesis",
         "source": "Levelling",
-        "levels": 25
+        "levels": 35
       },
       {
         "name": "Allergic Spread",
@@ -2722,9 +2722,9 @@
         "levels": 44
       },
       {
-        "name": "Resin Trap",
+        "name": "Plague",
         "source": "Levelling",
-        "levels": 55
+        "levels": 49
       },
       {
         "name": "Chain Heal",
@@ -2737,7 +2737,7 @@
         "levels": 77
       },
       {
-        "name": "Plague",
+        "name": "Resin Trap",
         "source": "Levelling",
         "levels": 94
       },
@@ -12170,6 +12170,11 @@
         "levels": 67
       },
       {
+        "name": "Bark Shield",
+        "source": "Levelling",
+        "levels": 73
+      },
+      {
         "name": "Gaia",
         "source": "Levelling",
         "levels": 80
@@ -12430,11 +12435,6 @@
         "levels": 61
       },
       {
-        "name": "Undermine",
-        "source": "Levelling",
-        "levels": 72
-      },
-      {
         "name": "Rampage",
         "source": "Levelling",
         "levels": 84
@@ -12457,6 +12457,10 @@
       },
       {
         "name": "Base Jump",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Double Edge",
         "source": "TechniqueCourses"
       },
       {
@@ -22868,6 +22872,11 @@
         "levels": 55
       },
       {
+        "name": "Narcoleptic Hit",
+        "source": "Levelling",
+        "levels": 68
+      },
+      {
         "name": "Nightmare Feed",
         "source": "Levelling",
         "levels": 80
@@ -25757,6 +25766,11 @@
         "levels": 91
       },
       {
+        "name": "Paralyzing Poison",
+        "source": "Levelling",
+        "levels": 96
+      },
+      {
         "name": "Antitoxins",
         "source": "TechniqueCourses"
       },
@@ -28201,7 +28215,7 @@
             "Coward's Rest"
           ],
           "traitMapping": {
-            "Immunity": "Marathonist",
+            "Immunity": "Strong Liver",
             "Coward's Rest": "Camouflage"
           }
         },
@@ -28217,7 +28231,7 @@
             "Camouflage"
           ],
           "traitMapping": {
-            "Marathonist": "Marathonist",
+            "Strong Liver": "Strong Liver",
             "Camouflage": "Camouflage"
           }
         }
@@ -28436,7 +28450,7 @@
             "Coward's Rest"
           ],
           "traitMapping": {
-            "Immunity": "Marathonist",
+            "Immunity": "Strong Liver",
             "Coward's Rest": "Camouflage"
           }
         },
@@ -28452,7 +28466,7 @@
             "Camouflage"
           ],
           "traitMapping": {
-            "Marathonist": "Marathonist",
+            "Strong Liver": "Strong Liver",
             "Camouflage": "Camouflage"
           }
         }
@@ -28555,7 +28569,7 @@
       "total": 478
     },
     "traits": [
-      "Marathonist",
+      "Strong Liver",
       "Camouflage"
     ],
     "details": {
@@ -28696,7 +28710,7 @@
             "Coward's Rest"
           ],
           "traitMapping": {
-            "Immunity": "Marathonist",
+            "Immunity": "Strong Liver",
             "Coward's Rest": "Camouflage"
           }
         },
@@ -28712,7 +28726,7 @@
             "Camouflage"
           ],
           "traitMapping": {
-            "Marathonist": "Marathonist",
+            "Strong Liver": "Strong Liver",
             "Camouflage": "Camouflage"
           }
         }
