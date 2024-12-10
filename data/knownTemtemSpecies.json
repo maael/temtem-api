@@ -37653,7 +37653,7 @@
             "Mental Alliance"
           ],
           "traitMapping": {
-            "Zen": "Meditation",
+            "Zen": "Unnoticed",
             "Mental Alliance": "Shaolin"
           }
         },
@@ -37669,7 +37669,7 @@
             "Shaolin"
           ],
           "traitMapping": {
-            "Meditation": "Meditation",
+            "Unnoticed": "Unnoticed",
             "Shaolin": "Shaolin"
           }
         }
@@ -37772,7 +37772,7 @@
       "total": 444
     },
     "traits": [
-      "Meditation",
+      "Unnoticed",
       "Shaolin"
     ],
     "details": {
@@ -37881,7 +37881,7 @@
             "Mental Alliance"
           ],
           "traitMapping": {
-            "Zen": "Meditation",
+            "Zen": "Unnoticed",
             "Mental Alliance": "Shaolin"
           }
         },
@@ -37897,7 +37897,7 @@
             "Shaolin"
           ],
           "traitMapping": {
-            "Meditation": "Meditation",
+            "Unnoticed": "Unnoticed",
             "Shaolin": "Shaolin"
           }
         }
@@ -38282,6 +38282,10 @@
         "levels": 91
       },
       {
+        "name": "Cage",
+        "source": "TechniqueCourses"
+      },
+      {
         "name": "Rend",
         "source": "TechniqueCourses"
       },
@@ -38636,7 +38640,7 @@
         "levels": 70
       },
       {
-        "name": "Inner Spirit",
+        "name": "Sparks",
         "source": "Levelling",
         "levels": 81
       },

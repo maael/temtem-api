@@ -708,8 +708,8 @@
     "synergy": "None",
     "synergyEffects": [],
     "targets": "Single Target",
-    "description": "Lifts the spirits of the target and gives -1 Hold.",
-    "effectText": "Cheer Up decreases the Hold of all the techniques of a single target by 1.",
+    "description": "Lifts the spirits of the target and gives -1 Hold and SPATK",
+    "effectText": "Cheer Up decreases the Hold of all the techniques of a single target by 1 and gives the target SPATK",
     "synergyText": "",
     "effects": []
   },
@@ -2348,15 +2348,15 @@
     "synergy": "Mental",
     "synergyEffects": [
       {
-        "damage": 100,
+        "damage": 85,
         "type": "damage",
-        "effect": "+100 Damage"
+        "effect": "+85 Damage"
       }
     ],
     "targets": "Single Other Target",
-    "description": "Suggestive and Toxic visions that exhaust the mind and tire and trap the target for 2 turns.Used in combination with a Mental ally, the Hallucination does Special damage.",
-    "effectText": "Hallucination inflicts a single other target with the Exhausted Condition and the Trapped Condition for 2 turns.",
-    "synergyText": "If used with a Mental ally, its class becomes Special with 100 damage.",
+    "description": "Suggestive and Toxic visions that exhaust the mind and tire for 1 turn and trap the target for 2 turns.Used in combination with a Mental ally, the Hallucination does Special damage.",
+    "effectText": "Hallucination inflicts a single other target with the Exhausted Condition for 1 turn and the Trapped Condition for 2 turns.",
+    "synergyText": "If used with a Mental ally, its class becomes Special with 85 damage.",
     "effects": []
   },
   {
@@ -5810,7 +5810,7 @@
     "type": "Melee",
     "class": "Special",
     "classIcon": "/images/icons/technique/Special.png",
-    "damage": 120,
+    "damage": 110,
     "staminaCost": 14,
     "hold": 3,
     "priority": "low",
