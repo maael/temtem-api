@@ -37665,7 +37665,7 @@
           "type": "levels",
           "trading": false,
           "traits": [
-            "Meditation",
+            "Unnoticed",
             "Shaolin"
           ],
           "traitMapping": {
@@ -37685,11 +37685,11 @@
         "type": "levels",
         "trading": false,
         "traits": [
-          "Meditation",
+          "Unnoticed",
           "Shaolin"
         ],
         "traitMapping": {
-          "Meditation": "Meditation",
+          "Unnoticed": "Unnoticed",
           "Shaolin": "Shaolin"
         }
       },
@@ -37702,7 +37702,7 @@
         "Mental Alliance"
       ],
       "traitMapping": {
-        "Zen": "Meditation",
+        "Zen": "Unnoticed",
         "Mental Alliance": "Shaolin"
       }
     },
