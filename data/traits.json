@@ -1040,8 +1040,8 @@
   {
     "name": "Toxin Crusher",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxin_Crusher",
-    "description": "",
-    "effect": ""
+    "description": "Damage done to Toxic Temtem is increased by 50%.",
+    "effect": "Toxin Crusher increases the damage of all the holder's Techniques by 50% if their target is part Toxic."
   },
   {
     "name": "Traits",
@@ -1052,56 +1052,56 @@
   {
     "name": "Trance",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Trance",
-    "description": "",
-    "effect": ""
+    "description": "Once per battle, if the Temtem is attacked and HP is below 30%, gets asleep for 2 turns and regenerating for 3 turns, SPATK and SPDEF .",
+    "effect": "Trance gifts the holder with SPATK , SPDEF , and the Regenerated Condition for 3 turns but also inflicts the Asleep Condition for 2 turns when the holder's is below 30% of their maximum HP and is the target of a Technique once per battle."
   },
   {
     "name": "Trauma",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Trauma",
-    "description": "",
-    "effect": ""
+    "description": "After being attacked if hit by a Physical technique gets DEF ; if hit by a Special technique, SPDEF .",
+    "effect": "Trauma inflicts the holder with DEF after they're hit with a Physical Technique and inflicts the holder with SPDEF after they're hit with a Special Technique."
   },
   {
     "name": "Tri-Apothecary",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tri-Apothecary",
-    "description": "",
-    "effect": ""
+    "description": "After attacking with a special technique, the target gets poisoned for 3 turns if it's a rival or regenerating for 3 turns if it's an ally or itself.",
+    "effect": "Tri-Apothecary causes all of the holder's Special Techniques to inflict the Poisoned Condition for 3 turns if the target was a rival or gift the Regenerated Condition for 3 turns if the target is the holder or their ally."
   },
   {
     "name": "Tri-Phytologist",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tri-Phytologist",
-    "description": "",
-    "effect": ""
+    "description": "When attacking with a physical technique, the target gets exhausted for 2 turns if it's a rival or invigorated for 2 turns if it's an ally or itself.",
+    "effect": "When the holder attacks a target with a Physical Technique, Tri-Phytologist inflicts the target with the Exhausted Status Condition for 2 turns if the target is a rival or the Invigorated Status Condition for 2 turns if the target is the holder itself or its ally."
   },
   {
     "name": "Unnoticed",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Unnoticed",
-    "description": "",
-    "effect": ""
+    "description": "Gets SPD after not receiving any rival attacks during the turn.",
+    "effect": "Unnoticed gifts the holder with SPD so long as the holder does not take any damage from Techniques from the rival team while being present on the battlefield."
   },
   {
     "name": "Vigorous",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Vigorous",
-    "description": "",
-    "effect": ""
+    "description": "Damage done when overexerting is increased by 50%.",
+    "effect": "Vigorous increases the damage of the holder's Techniques by 50% when the holder Overexerts."
   },
   {
     "name": "Viral Combustion",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Viral_Combustion",
-    "description": "",
-    "effect": ""
+    "description": "When getting a poison status condition, the attacker gets burned for 4 turns.",
+    "effect": "Viral Combustion inflicts the Burned Condition for 4 turns onto any attacker that inflicts the Poisoned Condition onto the holder."
   },
   {
     "name": "Voltaic Charge",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Voltaic_Charge",
-    "description": "",
-    "effect": ""
+    "description": "The caster heals 20% of the damage it has done with any offensive technique.",
+    "effect": "Voltaic Charge restores 20% of the damage the holder inflicts to the target as HP."
   },
   {
     "name": "Voodoo",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Voodoo",
-    "description": "",
-    "effect": ""
+    "description": "When the holder applies a negative Status Condition or Stage change to a rival, the effects of those are applied to the rival’s partner too.",
+    "effect": "When the holder of Voodoo applies a negative Status Condition or Stage change to a rival, the effects of those are applied to the rival’s partner too."
   },
   {
     "name": "Warm Gift",
