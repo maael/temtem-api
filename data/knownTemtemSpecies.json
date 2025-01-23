@@ -15136,217 +15136,43 @@
       "spdef": 61,
       "total": 302
     },
-    "traits": [
-      "Immunity",
-      "Strong Liver"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 40,
-        "inches": 15
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 98,
-        "lbs": 216
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "DC Beam",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Voltopuncture",
-        "source": "Levelling",
-        "levels": 5
-      },
-      {
-        "name": "Burrow",
-        "source": "Levelling",
-        "levels": 8
-      },
-      {
-        "name": "Cheer Up",
-        "source": "Levelling",
-        "levels": 15
-      },
-      {
-        "name": "Charge",
-        "source": "Levelling",
-        "levels": 21
-      },
-      {
-        "name": "Thunder Strike",
-        "source": "Levelling",
-        "levels": 30
-      },
-      {
-        "name": "Defibrillate",
-        "source": "Levelling",
-        "levels": 38
-      },
-      {
-        "name": "Earthbreaker",
-        "source": "Levelling",
-        "levels": 48
-      },
-      {
-        "name": "Drought",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Shelter",
-        "source": "Breeding"
-      },
-      {
-        "name": "Toughen",
-        "source": "Breeding"
-      }
-    ],
-    "trivia": [
-      "Scarawatt is the only Temtem with an absolute type immunity, due to both of its Traits preventing damage from Toxic Techniques."
-    ],
+    "techniques": [],
+    "trivia": [],
     "evolution": {
-      "stage": 0,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 62,
-          "name": "Scarawatt",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Immunity",
-            "Strong Liver"
-          ],
-          "traitMapping": {
-            "Immunity": "Half Full",
-            "Strong Liver": "Good Friend"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 63,
-          "name": "Scaravolt",
-          "level": 12,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Half Full",
-            "Good Friend"
-          ],
-          "traitMapping": {
-            "Half Full": "Half Full",
-            "Good Friend": "Good Friend"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": null,
-      "to": {
-        "stage": 1,
-        "number": 63,
-        "name": "Scaravolt",
-        "level": 12,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Half Full",
-          "Good Friend"
-        ],
-        "traitMapping": {
-          "Half Full": "Half Full",
-          "Good Friend": "Good Friend"
-        }
-      },
-      "number": 62,
-      "name": "Scarawatt",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Immunity",
-        "Strong Liver"
-      ],
-      "traitMapping": {
-        "Immunity": "Half Full",
-        "Strong Liver": "Good Friend"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [
-      {
-        "location": "Windward Fort",
-        "place": "Windward Fort",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "30%",
-        "level": "11 - 13",
-        "freetem": {
-          "minLevel": 11,
-          "maxLevel": 13,
-          "minPansuns": 40,
-          "maxPansuns": 44
-        }
-      },
-      {
-        "location": "Iwaba",
-        "place": "",
-        "note": "",
-        "island": "Cipanku",
-        "frequency": "20% - 100%",
-        "level": "40 - 50",
-        "freetem": {
-          "minLevel": 40,
-          "maxLevel": 50,
-          "minPansuns": 92,
-          "maxPansuns": 110
-        }
-      },
-      {
-        "location": "Pillars of Highabove",
-        "place": "",
-        "note": "",
-        "island": "Cipanku",
-        "frequency": "25%",
-        "level": "38 - 52",
-        "freetem": {
-          "minLevel": 38,
-          "maxLevel": 52,
-          "minPansuns": 89,
-          "maxPansuns": 114
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Scarawatt.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Scarawatt.png",
     "genderRatio": {
-      "male": 75,
-      "female": 25
+      "male": 50,
+      "female": 50
     },
-    "catchRate": 150,
-    "hatchMins": 15,
-    "tvYields": {
-      "hp": 2,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0
-    },
-    "gameDescription": "As the old joke goes, \"when you're a tamer in Cipanku, it's not so much a matter of Scarawatt but of Scarawhen\". This variety is an old staple of the Neoedo Dojo, where every generation rediscovers this industrious and friendly 'Tem.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/7/72/Scarawatt_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/4/42/Scarawatt_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/0/01/LumaScarawatt_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/4/46/LumaScarawatt_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Scarawatt.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Scarawatt.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Scarawatt.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Scarawatt.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 63,
@@ -15368,171 +15194,21 @@
       "spdef": 77,
       "total": 449
     },
-    "traits": [
-      "Half Full",
-      "Good Friend"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 150,
-        "inches": 59
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 390,
-        "lbs": 859
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "DC Beam",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Voltopuncture",
-        "source": "Levelling",
-        "levels": 5
-      },
-      {
-        "name": "Burrow",
-        "source": "Levelling",
-        "levels": 8
-      },
-      {
-        "name": "Cheer Up",
-        "source": "Levelling",
-        "levels": 15
-      },
-      {
-        "name": "Charge",
-        "source": "Levelling",
-        "levels": 21
-      },
-      {
-        "name": "Smoldering Kiss",
-        "source": "Levelling",
-        "levels": 25
-      },
-      {
-        "name": "Thunder Strike",
-        "source": "Levelling",
-        "levels": 30
-      },
-      {
-        "name": "Defibrillate",
-        "source": "Levelling",
-        "levels": 38
-      },
-      {
-        "name": "Earthbreaker",
-        "source": "Levelling",
-        "levels": 48
-      },
-      {
-        "name": "Fire Tornado",
-        "source": "Levelling",
-        "levels": 54
-      },
-      {
-        "name": "Electric Storm",
-        "source": "Levelling",
-        "levels": 66
-      },
-      {
-        "name": "Embers",
-        "source": "Levelling",
-        "levels": 75
-      },
-      {
-        "name": "Meteor Swarm",
-        "source": "Levelling",
-        "levels": 90
-      },
-      {
-        "name": "Drought",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Untangle",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Shelter",
-        "source": "Breeding"
-      },
-      {
-        "name": "Toughen",
-        "source": "Breeding"
-      }
-    ],
+    "techniques": [],
     "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 62,
-          "name": "Scarawatt",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Immunity",
-            "Strong Liver"
-          ],
-          "traitMapping": {
-            "Immunity": "Half Full",
-            "Strong Liver": "Good Friend"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 63,
-          "name": "Scaravolt",
-          "level": 12,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Half Full",
-            "Good Friend"
-          ],
-          "traitMapping": {
-            "Half Full": "Half Full",
-            "Good Friend": "Good Friend"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 62,
-        "name": "Scarawatt",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Immunity",
-          "Strong Liver"
-        ],
-        "traitMapping": {
-          "Immunity": "Half Full",
-          "Strong Liver": "Good Friend"
-        }
-      },
-      "to": null,
-      "number": 63,
-      "name": "Scaravolt",
-      "level": 12,
-      "trading": false,
-      "traits": [
-        "Half Full",
-        "Good Friend"
-      ],
-      "traitMapping": {
-        "Half Full": "Half Full",
-        "Good Friend": "Good Friend"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -15540,29 +15216,21 @@
     "icon": "/images/portraits/temtem/large/Scaravolt.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Scaravolt.png",
     "genderRatio": {
-      "male": 75,
-      "female": 25
+      "male": 50,
+      "female": 50
     },
-    "catchRate": 100,
-    "hatchMins": 25,
-    "tvYields": {
-      "hp": 3,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0
-    },
-    "gameDescription": "Initially mistaken as a minor mutation of Scarawatt, Scaravolt is strongly associated with Miyako and the bonfires the yamabushi would light on the mountaintops on cold nights. On such an occasion, a sighting of this Temtem was considered a good omen.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/a/a6/Scaravolt_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/f/f5/Scaravolt_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/e/e9/LumaScaravolt_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/4/48/LumaScaravolt_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Scaravolt.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Scaravolt.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Scaravolt.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Scaravolt.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 64,
@@ -15584,190 +15252,43 @@
       "spdef": 55,
       "total": 383
     },
-    "traits": [
-      "Gotta Go Fast",
-      "Fast Charge"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 85,
-        "inches": 33
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 50,
-        "lbs": 110
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Nibble",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Fire Flame",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Cyberclaw",
-        "source": "Levelling",
-        "levels": 11
-      },
-      {
-        "name": "Generify",
-        "source": "Levelling",
-        "levels": 16
-      },
-      {
-        "name": "Plasma Beam",
-        "source": "Levelling",
-        "levels": 22
-      },
-      {
-        "name": "Token",
-        "source": "Levelling",
-        "levels": 33
-      },
-      {
-        "name": "Fire Tornado",
-        "source": "Levelling",
-        "levels": 46
-      },
-      {
-        "name": "Footwork",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Zen Meditation",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Hellfire",
-        "source": "Breeding"
-      },
-      {
-        "name": "Hook",
-        "source": "Breeding"
-      },
-      {
-        "name": "Rampage",
-        "source": "Breeding"
-      }
-    ],
+    "techniques": [],
     "trivia": [],
     "evolution": {
-      "stage": 0,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 64,
-          "name": "Hoglip",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Gotta Go Fast",
-            "Fast Charge"
-          ],
-          "traitMapping": {
-            "Gotta Go Fast": "Gotta Go Fast",
-            "Fast Charge": "Going Away Gift"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 65,
-          "name": "Hedgine",
-          "level": 13,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Gotta Go Fast",
-            "Going Away Gift"
-          ],
-          "traitMapping": {
-            "Gotta Go Fast": "Gotta Go Fast",
-            "Going Away Gift": "Going Away Gift"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": null,
-      "to": {
-        "stage": 1,
-        "number": 65,
-        "name": "Hedgine",
-        "level": 13,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Gotta Go Fast",
-          "Going Away Gift"
-        ],
-        "traitMapping": {
-          "Gotta Go Fast": "Gotta Go Fast",
-          "Going Away Gift": "Going Away Gift"
-        }
-      },
-      "number": 64,
-      "name": "Hoglip",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Gotta Go Fast",
-        "Fast Charge"
-      ],
-      "traitMapping": {
-        "Gotta Go Fast": "Gotta Go Fast",
-        "Fast Charge": "Going Away Gift"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [
-      {
-        "location": "Pillars of Highabove",
-        "place": "",
-        "note": "",
-        "island": "Cipanku",
-        "frequency": "60%",
-        "level": "40 - 50",
-        "freetem": {
-          "minLevel": 40,
-          "maxLevel": 50,
-          "minPansuns": 155,
-          "maxPansuns": 189
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Hoglip.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Hoglip.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 80,
-    "hatchMins": 29,
-    "tvYields": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 1,
-      "atk": 0,
-      "def": 0,
-      "spatk": 1,
-      "spdef": 0
-    },
-    "gameDescription": "Some of the first Digital Temtem were prone to accidentally catching fire. Hoglip is the answer to this problem, a little friend who is totally at home in a blaze. Given that feature, it's often used for rescue by fire crews.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/1/1a/Hoglip_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/2/2c/Hoglip_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/7/70/LumaHoglip_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/3/32/LumaHoglip_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Hoglip.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Hoglip.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Hoglip.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Hoglip.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 65,
@@ -15789,176 +15310,21 @@
       "spdef": 64,
       "total": 442
     },
-    "traits": [
-      "Gotta Go Fast",
-      "Going Away Gift"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 145,
-        "inches": 57
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 90,
-        "lbs": 198
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Nibble",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Fire Flame",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Cyberclaw",
-        "source": "Levelling",
-        "levels": 11
-      },
-      {
-        "name": "Generify",
-        "source": "Levelling",
-        "levels": 16
-      },
-      {
-        "name": "Plasma Beam",
-        "source": "Levelling",
-        "levels": 22
-      },
-      {
-        "name": "Token",
-        "source": "Levelling",
-        "levels": 33
-      },
-      {
-        "name": "Fire Tornado",
-        "source": "Levelling",
-        "levels": 46
-      },
-      {
-        "name": "Overclock",
-        "source": "Levelling",
-        "levels": 55
-      },
-      {
-        "name": "Electromagnetism",
-        "source": "Levelling",
-        "levels": 64
-      },
-      {
-        "name": "Charcoal Wall",
-        "source": "Levelling",
-        "levels": 80
-      },
-      {
-        "name": "Rend",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Footwork",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Look out",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Zen Meditation",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Harmful Microwaves",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Rush",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Hellfire",
-        "source": "Breeding"
-      },
-      {
-        "name": "Hook",
-        "source": "Breeding"
-      },
-      {
-        "name": "Rampage",
-        "source": "Breeding"
-      }
-    ],
+    "techniques": [],
     "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 64,
-          "name": "Hoglip",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Gotta Go Fast",
-            "Fast Charge"
-          ],
-          "traitMapping": {
-            "Gotta Go Fast": "Gotta Go Fast",
-            "Fast Charge": "Going Away Gift"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 65,
-          "name": "Hedgine",
-          "level": 13,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Gotta Go Fast",
-            "Going Away Gift"
-          ],
-          "traitMapping": {
-            "Gotta Go Fast": "Gotta Go Fast",
-            "Going Away Gift": "Going Away Gift"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 64,
-        "name": "Hoglip",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Gotta Go Fast",
-          "Fast Charge"
-        ],
-        "traitMapping": {
-          "Gotta Go Fast": "Gotta Go Fast",
-          "Fast Charge": "Going Away Gift"
-        }
-      },
-      "to": null,
-      "number": 65,
-      "name": "Hedgine",
-      "level": 13,
-      "trading": false,
-      "traits": [
-        "Gotta Go Fast",
-        "Going Away Gift"
-      ],
-      "traitMapping": {
-        "Gotta Go Fast": "Gotta Go Fast",
-        "Going Away Gift": "Going Away Gift"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -15969,26 +15335,18 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 70,
-    "hatchMins": 31,
-    "tvYields": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 2,
-      "atk": 0,
-      "def": 0,
-      "spatk": 2,
-      "spdef": 0
-    },
-    "gameDescription": "Mischievous but sweet, Hedgine are so kawaii tamers are regularly reminded to don fireproof gloves before petting them, to avoid getting first-degree burns. They are also instructed to keep them supervised in wooden areas.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/2/29/Hedgine_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/1/1d/Hedgine_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/e/e7/LumaHedgine_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/d/d8/LumaHedgine_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Hedgine.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Hedgine.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Hedgine.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Hedgine.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 66,
@@ -16009,229 +15367,43 @@
       "spdef": 25,
       "total": 292
     },
-    "traits": [
-      "Caffeinated",
-      "Brawny"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 125,
-        "inches": 49
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 45,
-        "lbs": 99
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Novice Punch",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Meditation",
-        "source": "Levelling",
-        "levels": 5
-      },
-      {
-        "name": "Clay Ball",
-        "source": "Levelling",
-        "levels": 9
-      },
-      {
-        "name": "Toughen",
-        "source": "Levelling",
-        "levels": 14
-      },
-      {
-        "name": "Nito Seiho",
-        "source": "Levelling",
-        "levels": 23
-      },
-      {
-        "name": "Uppercut",
-        "source": "Levelling",
-        "levels": 31
-      },
-      {
-        "name": "Quicksand",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Dust Vortex",
-        "source": "Breeding"
-      },
-      {
-        "name": "Footwork",
-        "source": "Breeding"
-      },
-      {
-        "name": "Jinxed Whisper",
-        "source": "Breeding"
-      },
-      {
-        "name": "Martial Strike",
-        "source": "Breeding"
-      }
-    ],
+    "techniques": [],
     "trivia": [],
     "evolution": {
-      "stage": 0,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 66,
-          "name": "Osuchi",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Caffeinated",
-            "Brawny"
-          ],
-          "traitMapping": {
-            "Caffeinated": "Furor",
-            "Brawny": "Parrier"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 67,
-          "name": "Osukan",
-          "level": 12,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Furor",
-            "Parrier"
-          ],
-          "traitMapping": {
-            "Furor": "Sensei",
-            "Parrier": "Body Stretch"
-          }
-        },
-        {
-          "stage": 2,
-          "number": 68,
-          "name": "Osukai",
-          "level": 14,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Sensei",
-            "Body Stretch"
-          ],
-          "traitMapping": {
-            "Sensei": "Sensei",
-            "Body Stretch": "Body Stretch"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": null,
-      "to": {
-        "stage": 1,
-        "number": 67,
-        "name": "Osukan",
-        "level": 12,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Furor",
-          "Parrier"
-        ],
-        "traitMapping": {
-          "Furor": "Sensei",
-          "Parrier": "Body Stretch"
-        }
-      },
-      "number": 66,
-      "name": "Osuchi",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Caffeinated",
-        "Brawny"
-      ],
-      "traitMapping": {
-        "Caffeinated": "Furor",
-        "Brawny": "Parrier"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [
-      {
-        "location": "Mawingu Islets",
-        "place": "Mawingu Islets",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "75%",
-        "level": "31 - 36",
-        "freetem": {
-          "minLevel": 31,
-          "maxLevel": 36,
-          "minPansuns": 80,
-          "maxPansuns": 90
-        }
-      },
-      {
-        "location": "Jino Gap",
-        "place": "Jino Gap",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "40%",
-        "level": "35 - 36",
-        "freetem": {
-          "minLevel": 35,
-          "maxLevel": 36,
-          "minPansuns": 88,
-          "maxPansuns": 90
-        }
-      },
-      {
-        "location": "Matope Road",
-        "place": "Matope Road",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "50%",
-        "level": "37 - 41",
-        "freetem": {
-          "minLevel": 37,
-          "maxLevel": 41,
-          "minPansuns": 92,
-          "maxPansuns": 100
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Osuchi.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Osuchi.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 140,
-    "hatchMins": 17,
-    "tvYields": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 1,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0
-    },
-    "gameDescription": "Shy and unassuming, Osuchi are generally considered benevolent, steadfast friends. Often confused with rock outcroppings by the untrained eye, they are at home in the Jino Gap.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/e/ec/UmbraOsuchi_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/0/02/UmbraOsuchi_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/4/4e/LumaOsuchi_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/a/a5/LumaOsuchi_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Osuchi.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Osuchi.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Osuchi.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Osuchi.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 67,
@@ -16253,240 +15425,43 @@
       "spdef": 35,
       "total": 358
     },
-    "traits": [
-      "Furor",
-      "Parrier"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 171,
-        "inches": 67
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 90,
-        "lbs": 198
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Novice Punch",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Meditation",
-        "source": "Levelling",
-        "levels": 5
-      },
-      {
-        "name": "Clay Ball",
-        "source": "Levelling",
-        "levels": 9
-      },
-      {
-        "name": "Toughen",
-        "source": "Levelling",
-        "levels": 14
-      },
-      {
-        "name": "Nito Seiho",
-        "source": "Levelling",
-        "levels": 23
-      },
-      {
-        "name": "Uppercut",
-        "source": "Levelling",
-        "levels": 31
-      },
-      {
-        "name": "Petrify",
-        "source": "Levelling",
-        "levels": 40
-      },
-      {
-        "name": "Rockfall",
-        "source": "Levelling",
-        "levels": 51
-      },
-      {
-        "name": "Dim Mak",
-        "source": "Levelling",
-        "levels": 58
-      },
-      {
-        "name": "Hook",
-        "source": "Levelling",
-        "levels": 66
-      },
-      {
-        "name": "Base Jump",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Quicksand",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Dust Vortex",
-        "source": "Breeding"
-      },
-      {
-        "name": "Footwork",
-        "source": "Breeding"
-      },
-      {
-        "name": "Jinxed Whisper",
-        "source": "Breeding"
-      },
-      {
-        "name": "Martial Strike",
-        "source": "Breeding"
-      }
-    ],
+    "techniques": [],
     "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 66,
-          "name": "Osuchi",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Caffeinated",
-            "Brawny"
-          ],
-          "traitMapping": {
-            "Caffeinated": "Furor",
-            "Brawny": "Parrier"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 67,
-          "name": "Osukan",
-          "level": 12,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Furor",
-            "Parrier"
-          ],
-          "traitMapping": {
-            "Furor": "Sensei",
-            "Parrier": "Body Stretch"
-          }
-        },
-        {
-          "stage": 2,
-          "number": 68,
-          "name": "Osukai",
-          "level": 14,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Sensei",
-            "Body Stretch"
-          ],
-          "traitMapping": {
-            "Sensei": "Sensei",
-            "Body Stretch": "Body Stretch"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 66,
-        "name": "Osuchi",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Caffeinated",
-          "Brawny"
-        ],
-        "traitMapping": {
-          "Caffeinated": "Furor",
-          "Brawny": "Parrier"
-        }
-      },
-      "to": {
-        "stage": 2,
-        "number": 68,
-        "name": "Osukai",
-        "level": 14,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Sensei",
-          "Body Stretch"
-        ],
-        "traitMapping": {
-          "Sensei": "Sensei",
-          "Body Stretch": "Body Stretch"
-        }
-      },
-      "number": 67,
-      "name": "Osukan",
-      "level": 12,
-      "trading": false,
-      "traits": [
-        "Furor",
-        "Parrier"
-      ],
-      "traitMapping": {
-        "Furor": "Sensei",
-        "Parrier": "Body Stretch"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [
-      {
-        "location": "Kilima Peaks",
-        "place": "Kilima Peaks",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "20% - 35%",
-        "level": "40 - 45",
-        "freetem": {
-          "minLevel": 40,
-          "maxLevel": 45,
-          "minPansuns": 119,
-          "maxPansuns": 131
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Osukan.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Osukan.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 110,
-    "hatchMins": 23,
-    "tvYields": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 3,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0
-    },
-    "gameDescription": "Osukan are the perfect embodiment of the endurance and grit of the best Temtem fighters. They are sturdy, obstinate creatures that love nothing better than to show their prowess in a hard, honest battle against a worthy rival.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/9/97/UmbraOsukan_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/d/dd/UmbraOsukan_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/4/48/LumaOsukan_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/b/bb/LumaOsukan_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Osukan.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Osukan.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Osukan.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Osukan.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 68,
@@ -16508,251 +15483,43 @@
       "spdef": 53,
       "total": 454
     },
-    "traits": [
-      "Sensei",
-      "Body Stretch"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 235,
-        "inches": 92
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 195,
-        "lbs": 429
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Novice Punch",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Meditation",
-        "source": "Levelling",
-        "levels": 5
-      },
-      {
-        "name": "Clay Ball",
-        "source": "Levelling",
-        "levels": 9
-      },
-      {
-        "name": "Toughen",
-        "source": "Levelling",
-        "levels": 14
-      },
-      {
-        "name": "Nito Seiho",
-        "source": "Levelling",
-        "levels": 23
-      },
-      {
-        "name": "Uppercut",
-        "source": "Levelling",
-        "levels": 31
-      },
-      {
-        "name": "Petrify",
-        "source": "Levelling",
-        "levels": 40
-      },
-      {
-        "name": "Rockfall",
-        "source": "Levelling",
-        "levels": 51
-      },
-      {
-        "name": "Dim Mak",
-        "source": "Levelling",
-        "levels": 58
-      },
-      {
-        "name": "Hook",
-        "source": "Levelling",
-        "levels": 66
-      },
-      {
-        "name": "Wrenching Massage",
-        "source": "Levelling",
-        "levels": 80
-      },
-      {
-        "name": "Earthbreaker",
-        "source": "Levelling",
-        "levels": 95
-      },
-      {
-        "name": "Inner Spirit",
-        "source": "Levelling",
-        "levels": 100
-      },
-      {
-        "name": "Base Jump",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Quicksand",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Darkness",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "5PPEH",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Dust Vortex",
-        "source": "Breeding"
-      },
-      {
-        "name": "Footwork",
-        "source": "Breeding"
-      },
-      {
-        "name": "Jinxed Whisper",
-        "source": "Breeding"
-      },
-      {
-        "name": "Martial Strike",
-        "source": "Breeding"
-      }
-    ],
-    "trivia": [
-      "The name Osukai was revealed in the official Discord on the 13th of July 2020.",
-      "Osukai was first shown on the printed sticker pack in the Kickstarter physical rewards status and progress update."
-    ],
+    "techniques": [],
+    "trivia": [],
     "evolution": {
-      "stage": 2,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 66,
-          "name": "Osuchi",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Caffeinated",
-            "Brawny"
-          ],
-          "traitMapping": {
-            "Caffeinated": "Furor",
-            "Brawny": "Parrier"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 67,
-          "name": "Osukan",
-          "level": 12,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Furor",
-            "Parrier"
-          ],
-          "traitMapping": {
-            "Furor": "Sensei",
-            "Parrier": "Body Stretch"
-          }
-        },
-        {
-          "stage": 2,
-          "number": 68,
-          "name": "Osukai",
-          "level": 14,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Sensei",
-            "Body Stretch"
-          ],
-          "traitMapping": {
-            "Sensei": "Sensei",
-            "Body Stretch": "Body Stretch"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 1,
-        "number": 67,
-        "name": "Osukan",
-        "level": 12,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Furor",
-          "Parrier"
-        ],
-        "traitMapping": {
-          "Furor": "Sensei",
-          "Parrier": "Body Stretch"
-        }
-      },
-      "to": null,
-      "number": 68,
-      "name": "Osukai",
-      "level": 14,
-      "trading": false,
-      "traits": [
-        "Sensei",
-        "Body Stretch"
-      ],
-      "traitMapping": {
-        "Sensei": "Sensei",
-        "Body Stretch": "Body Stretch"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [
-      {
-        "location": "Aisha's Hearth",
-        "place": "",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "95%",
-        "level": "67",
-        "freetem": {
-          "minLevel": 67,
-          "maxLevel": 67,
-          "minPansuns": null,
-          "maxPansuns": null
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Osukai.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Osukai.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 0,
-    "hatchMins": 45,
-    "tvYields": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 4,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0
-    },
-    "gameDescription": "Massive, four-armed Osukai are as hard as granite. They are credited with much of the boring heavy-lifting during the construction of the tunnels under the Kilima Range.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/d/d9/UmbraOsukai_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/7/72/UmbraOsukai_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/5/55/LumaOsukai_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/9/9d/LumaOsukai_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Osukai.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Osukai.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Osukai.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Osukai.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 69,
@@ -16774,348 +15541,43 @@
       "spdef": 61,
       "total": 476
     },
-    "traits": [
-      "Amphibian",
-      "Shinobi Tactics"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 100,
-        "inches": 39
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 50,
-        "lbs": 110
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Water Blade",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Martial Strike",
-        "source": "Levelling",
-        "levels": 4
-      },
-      {
-        "name": "Rage",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Stare",
-        "source": "Levelling",
-        "levels": 10
-      },
-      {
-        "name": "Venomous Claws",
-        "source": "Levelling",
-        "levels": 14
-      },
-      {
-        "name": "High-pressure Water",
-        "source": "Levelling",
-        "levels": 19
-      },
-      {
-        "name": "Held Anger",
-        "source": "Levelling",
-        "levels": 25
-      },
-      {
-        "name": "Iced Stalactite",
-        "source": "Levelling",
-        "levels": 31
-      },
-      {
-        "name": "Nicho Sai",
-        "source": "Levelling",
-        "levels": 38
-      },
-      {
-        "name": "Waterjet",
-        "source": "Levelling",
-        "levels": 44
-      },
-      {
-        "name": "Ninja Jutsu",
-        "source": "Levelling",
-        "levels": 58
-      },
-      {
-        "name": "Clinch",
-        "source": "Levelling",
-        "levels": 69
-      },
-      {
-        "name": "Wrenching Massage",
-        "source": "Levelling",
-        "levels": 84
-      },
-      {
-        "name": "Nito Seiho",
-        "source": "Levelling",
-        "levels": 92
-      },
-      {
-        "name": "Tsunami",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Noxious Bomb",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Sanative Rain",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "5PPEH",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Kesa Gatame",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Laundry",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Ice Cubes",
-        "source": "Breeding"
-      },
-      {
-        "name": "Ice Shuriken",
-        "source": "Breeding"
-      },
-      {
-        "name": "Toxic Ink",
-        "source": "Breeding"
-      }
-    ],
-    "trivia": [
-      "Saipat first appeared as small pieces of an image that were slowly revealed in the official Temtem Discord, until fans guessed its design while creating fan art.",
-      "Purple paint is traditionally made from the discarded shells of growing Saipat. They are carefully collected from where the young adult Saipat discard them, then crushed into a fine powder.",
-      "Saipat has an emote on the official Temtem Discord."
-    ],
+    "techniques": [],
+    "trivia": [],
     "evolution": {
       "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [
-      {
-        "location": "Prasine Coast",
-        "place": "Prasine Coast",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "20% - 50%",
-        "level": "2 - 5",
-        "freetem": {
-          "minLevel": 2,
-          "maxLevel": 5,
-          "minPansuns": 24,
-          "maxPansuns": 30
-        }
-      },
-      {
-        "location": "Thalassian Cliffs",
-        "place": "Thalassian Cliffs",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "5%",
-        "level": "6 - 8",
-        "freetem": {
-          "minLevel": 6,
-          "maxLevel": 8,
-          "minPansuns": 32,
-          "maxPansuns": 36
-        }
-      },
-      {
-        "location": "Gifted Bridges",
-        "place": "",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "15% - 100%",
-        "level": "8 - 14",
-        "freetem": {
-          "minLevel": 8,
-          "maxLevel": 14,
-          "minPansuns": 36,
-          "maxPansuns": 47
-        }
-      },
-      {
-        "location": "Windward Fort",
-        "place": "Windward Fort",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "20% - 50%",
-        "level": "9 - 15",
-        "freetem": {
-          "minLevel": 9,
-          "maxLevel": 15,
-          "minPansuns": 38,
-          "maxPansuns": 49
-        }
-      },
-      {
-        "location": "Arissola Dojo",
-        "place": "Arissola Dojo",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "35%",
-        "level": "15 - 17",
-        "freetem": {
-          "minLevel": 15,
-          "maxLevel": 17,
-          "minPansuns": 49,
-          "maxPansuns": 53
-        }
-      },
-      {
-        "location": "Sillaro River",
-        "place": "Sillaro River",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "45% - 100%",
-        "level": "13 - 16",
-        "freetem": {
-          "minLevel": 13,
-          "maxLevel": 16,
-          "minPansuns": 46,
-          "maxPansuns": 51
-        }
-      },
-      {
-        "location": "Sea-Queen's Aquarium",
-        "place": "",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "10%",
-        "level": "15 - 20",
-        "freetem": {
-          "minLevel": 15,
-          "maxLevel": 20,
-          "minPansuns": 49,
-          "maxPansuns": 59
-        }
-      },
-      {
-        "location": "Aguamarina Caves",
-        "place": "Aguamarina Caves",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "20% - 40%",
-        "level": "15 - 20",
-        "freetem": {
-          "minLevel": 15,
-          "maxLevel": 20,
-          "minPansuns": 49,
-          "maxPansuns": 59
-        }
-      },
-      {
-        "location": "Saipark",
-        "place": "Saipark",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "50%",
-        "level": "38 - 41",
-        "freetem": {
-          "minLevel": 38,
-          "maxLevel": 41,
-          "minPansuns": 94,
-          "maxPansuns": 100
-        }
-      },
-      {
-        "location": "Xolot Reservoir",
-        "place": "Xolot Reservoir",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "30% - 40%",
-        "level": "30 - 33",
-        "freetem": {
-          "minLevel": 30,
-          "maxLevel": 33,
-          "minPansuns": 78,
-          "maxPansuns": 84
-        }
-      },
-      {
-        "location": "Rice Fields",
-        "place": "",
-        "note": "",
-        "island": "Cipanku",
-        "frequency": "35%",
-        "level": "48 - 52",
-        "freetem": {
-          "minLevel": 48,
-          "maxLevel": 52,
-          "minPansuns": 113,
-          "maxPansuns": 121
-        }
-      },
-      {
-        "location": "Loch Aduar",
-        "place": "",
-        "note": "",
-        "island": "Arbury",
-        "frequency": "60%",
-        "level": "58 - 62",
-        "freetem": {
-          "minLevel": 58,
-          "maxLevel": 62,
-          "minPansuns": 132,
-          "maxPansuns": 140
-        }
-      },
-      {
-        "location": "Meadowdale",
-        "place": "Meadowdale",
-        "note": "",
-        "island": "Arbury",
-        "frequency": "20% - 50%",
-        "level": "55 - 65",
-        "freetem": {
-          "minLevel": 55,
-          "maxLevel": 65,
-          "minPansuns": 127,
-          "maxPansuns": 146
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Saipat.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Saipat.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 140,
-    "hatchMins": 17,
-    "tvYields": {
-      "hp": 3,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0
-    },
-    "gameDescription": "Nothing says 'amateur' like making fun of Saipat. Sure, they might look comical at first sight, but nobody who has faced a totally focused Saipat, sturdy coral sai in hand, takes them anything but seriously.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/a/ab/UmbraSaipat_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/4/47/UmbraSaipat_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/6/60/LumaSaipat_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/5/5c/LumaSaipat_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Saipat.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Saipat.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Saipat.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Saipat.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 70,
@@ -17137,204 +15599,43 @@
       "spdef": 41,
       "total": 320
     },
-    "traits": [
-      "Furor",
-      "Tireless"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 42,
-        "inches": 16
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 14,
-        "lbs": 30
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Scratch",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Tenderness",
-        "source": "Levelling",
-        "levels": 5
-      },
-      {
-        "name": "Smoldering Kiss",
-        "source": "Levelling",
-        "levels": 10
-      },
-      {
-        "name": "Burrow",
-        "source": "Levelling",
-        "levels": 15
-      },
-      {
-        "name": "Heat Up",
-        "source": "Levelling",
-        "levels": 24
-      },
-      {
-        "name": "Sand Storm",
-        "source": "Levelling",
-        "levels": 35
-      },
-      {
-        "name": "Fiery Soul",
-        "source": "Levelling",
-        "levels": 42
-      },
-      {
-        "name": "Magma Cannon",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Brace",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Drought",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Untangle",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Mud Shower",
-        "source": "Breeding"
-      }
-    ],
+    "techniques": [],
     "trivia": [],
     "evolution": {
-      "stage": 0,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 70,
-          "name": "Pycko",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Furor",
-            "Tireless"
-          ],
-          "traitMapping": {
-            "Furor": "Heat Discharge",
-            "Tireless": "Sentinel"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 71,
-          "name": "Drakash",
-          "level": 14,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Heat Discharge",
-            "Sentinel"
-          ],
-          "traitMapping": {
-            "Heat Discharge": "Heat Discharge",
-            "Sentinel": "Sentinel"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": null,
-      "to": {
-        "stage": 1,
-        "number": 71,
-        "name": "Drakash",
-        "level": 14,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Heat Discharge",
-          "Sentinel"
-        ],
-        "traitMapping": {
-          "Heat Discharge": "Heat Discharge",
-          "Sentinel": "Sentinel"
-        }
-      },
-      "number": 70,
-      "name": "Pycko",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Furor",
-        "Tireless"
-      ],
-      "traitMapping": {
-        "Furor": "Heat Discharge",
-        "Tireless": "Sentinel"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [
-      {
-        "location": "Chini Grotto",
-        "place": "Chini Grotto",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "5%",
-        "level": "40 - 44",
-        "freetem": {
-          "minLevel": 40,
-          "maxLevel": 44,
-          "minPansuns": 92,
-          "maxPansuns": 100
-        }
-      },
-      {
-        "location": "Tasa Desert",
-        "place": "Tasa Desert",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "15% - 40%",
-        "level": "37 - 44",
-        "freetem": {
-          "minLevel": 37,
-          "maxLevel": 44,
-          "minPansuns": 87,
-          "maxPansuns": 100
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Pycko.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Pycko.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 150,
-    "hatchMins": 15,
-    "tvYields": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 1,
-      "spdef": 0
-    },
-    "gameDescription": "Bubbly and cheerful, this Temtem is the protagonist of an animation series aimed at warning children of the dangers of fire. It has been a lifelong friend to many first-time tamers.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/0/0b/UmbraPycko_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/7/72/UmbraPycko_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/7/77/LumaPycko_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/b/bf/LumaPycko_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Pycko.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Pycko.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Pycko.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Pycko.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 71,
@@ -17356,222 +15657,43 @@
       "spdef": 72,
       "total": 469
     },
-    "traits": [
-      "Heat Discharge",
-      "Sentinel"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 165,
-        "inches": 64
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 70,
-        "lbs": 154
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Scratch",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Tenderness",
-        "source": "Levelling",
-        "levels": 5
-      },
-      {
-        "name": "Smoldering Kiss",
-        "source": "Levelling",
-        "levels": 10
-      },
-      {
-        "name": "Burrow",
-        "source": "Levelling",
-        "levels": 15
-      },
-      {
-        "name": "Heat Up",
-        "source": "Levelling",
-        "levels": 24
-      },
-      {
-        "name": "Sand Storm",
-        "source": "Levelling",
-        "levels": 35
-      },
-      {
-        "name": "Fiery Soul",
-        "source": "Levelling",
-        "levels": 42
-      },
-      {
-        "name": "Fire Tornado",
-        "source": "Levelling",
-        "levels": 50
-      },
-      {
-        "name": "Flaming Meteorite",
-        "source": "Levelling",
-        "levels": 58
-      },
-      {
-        "name": "Hellfire",
-        "source": "Levelling",
-        "levels": 76
-      },
-      {
-        "name": "Toughen",
-        "source": "Levelling",
-        "levels": 83
-      },
-      {
-        "name": "Charcoal Wall",
-        "source": "Levelling",
-        "levels": 90
-      },
-      {
-        "name": "Dust Vortex",
-        "source": "Levelling",
-        "levels": 100
-      },
-      {
-        "name": "Magma Cannon",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Brace",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Drought",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Untangle",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Mud Shower",
-        "source": "Breeding"
-      }
-    ],
-    "trivia": [
-      "Despite Drakash's Tempedia entry suggesting that its bipedalism is the result of human intervention, all Drakash found in the wild (such as through radars) still use the same bipedal posture."
-    ],
+    "techniques": [],
+    "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 70,
-          "name": "Pycko",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Furor",
-            "Tireless"
-          ],
-          "traitMapping": {
-            "Furor": "Heat Discharge",
-            "Tireless": "Sentinel"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 71,
-          "name": "Drakash",
-          "level": 14,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Heat Discharge",
-            "Sentinel"
-          ],
-          "traitMapping": {
-            "Heat Discharge": "Heat Discharge",
-            "Sentinel": "Sentinel"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 70,
-        "name": "Pycko",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Furor",
-          "Tireless"
-        ],
-        "traitMapping": {
-          "Furor": "Heat Discharge",
-          "Tireless": "Sentinel"
-        }
-      },
-      "to": null,
-      "number": 71,
-      "name": "Drakash",
-      "level": 14,
-      "trading": false,
-      "traits": [
-        "Heat Discharge",
-        "Sentinel"
-      ],
-      "traitMapping": {
-        "Heat Discharge": "Heat Discharge",
-        "Sentinel": "Sentinel"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [
-      {
-        "location": "Anak Volcano",
-        "place": "Anak Volcano",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "30%",
-        "level": "45 - 50",
-        "freetem": {
-          "minLevel": 45,
-          "maxLevel": 50,
-          "minPansuns": 142,
-          "maxPansuns": 155
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Drakash.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Drakash.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 100,
-    "hatchMins": 25,
-    "tvYields": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 3,
-      "spdef": 0
-    },
-    "gameDescription": "Selective breeding for bipedalism meant this variety of Temtem is faster and more suited for human tasks than its predecessors. Often given as a New Year's gift between Kisiwans and Tucmani.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/3/37/UmbraDrakash_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/e/e9/UmbraDrakash_idle_animation.gif",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/a/a2/LumaDrakash_full_render.png",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/e/eb/LumaDrakash_idle_animation.gif",
-    "renderStaticImage": "/images/renders/temtem/static/Drakash.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Drakash.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Drakash.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Drakash.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 72,
