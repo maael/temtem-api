@@ -10734,72 +10734,7 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 42,
-          "name": "Reval",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Heat Discharge",
-            "Enraged"
-          ],
-          "traitMapping": {
-            "Heat Discharge": "Warm Gift",
-            "Enraged": "Ignis Fatuus"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 43,
-          "name": "Aohi",
-          "level": 15,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Warm Gift",
-            "Ignis Fatuus"
-          ],
-          "traitMapping": {
-            "Warm Gift": "Warm Gift",
-            "Ignis Fatuus": "Ignis Fatuus"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 42,
-        "name": "Reval",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Heat Discharge",
-          "Enraged"
-        ],
-        "traitMapping": {
-          "Heat Discharge": "Warm Gift",
-          "Enraged": "Ignis Fatuus"
-        }
-      },
-      "to": null,
-      "number": 43,
-      "name": "Aohi",
-      "level": 15,
-      "trading": false,
-      "traits": [
-        "Warm Gift",
-        "Ignis Fatuus"
-      ],
-      "traitMapping": {
-        "Warm Gift": "Warm Gift",
-        "Ignis Fatuus": "Ignis Fatuus"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -26941,72 +26876,7 @@
       "Ganki has 2 emotes on the official Temtem Discord."
     ],
     "evolution": {
-      "stage": 0,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 113,
-          "name": "Ganki",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Resistant",
-            "Inductor"
-          ],
-          "traitMapping": {
-            "Resistant": "Receptive",
-            "Inductor": "Fast Charge"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 114,
-          "name": "Gazuma",
-          "level": 27,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Receptive",
-            "Fast Charge"
-          ],
-          "traitMapping": {
-            "Receptive": "Receptive",
-            "Fast Charge": "Fast Charge"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": null,
-      "to": {
-        "stage": 1,
-        "number": 114,
-        "name": "Gazuma",
-        "level": 27,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Receptive",
-          "Fast Charge"
-        ],
-        "traitMapping": {
-          "Receptive": "Receptive",
-          "Fast Charge": "Fast Charge"
-        }
-      },
-      "number": 113,
-      "name": "Ganki",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Resistant",
-        "Inductor"
-      ],
-      "traitMapping": {
-        "Resistant": "Receptive",
-        "Inductor": "Fast Charge"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -30610,7 +30480,7 @@
       "Tuwai is 1 of only 6 temtem with a sticker on the official Temtem Discord that didn't have to go through a sticker poll."
     ],
     "evolution": {
-      "stage": 10,
+      "stage": 9,
       "evolutionTree": [
         {
           "stage": 0,
@@ -30692,29 +30562,12 @@
           ],
           "description": "Shrine at Altar of the Inner Flame",
           "traitMapping": {
-            "Spoilsport": "Receptive",
-            "Air Specialist": "Determined"
+            "Spoilsport": "Spoilsport",
+            "Air Specialist": "Air Specialist"
           }
         },
         {
           "stage": 5,
-          "number": 133,
-          "name": "Tuvine",
-          "level": 0,
-          "type": "special",
-          "trading": false,
-          "traits": [
-            "Receptive",
-            "Determined"
-          ],
-          "description": "Shrine at Sons of Crystal",
-          "traitMapping": {
-            "Receptive": "Spoilsport",
-            "Determined": "Air Specialist"
-          }
-        },
-        {
-          "stage": 6,
           "number": 130,
           "name": "Tuwai",
           "level": 0,
@@ -30731,7 +30584,7 @@
           }
         },
         {
-          "stage": 7,
+          "stage": 6,
           "number": 134,
           "name": "Turoc",
           "level": 0,
@@ -30748,7 +30601,7 @@
           }
         },
         {
-          "stage": 8,
+          "stage": 7,
           "number": 130,
           "name": "Tuwai",
           "level": 0,
@@ -30765,7 +30618,7 @@
           }
         },
         {
-          "stage": 9,
+          "stage": 8,
           "number": 135,
           "name": "Tuwire",
           "level": 0,
@@ -30782,7 +30635,7 @@
           }
         },
         {
-          "stage": 10,
+          "stage": 9,
           "number": 130,
           "name": "Tuwai",
           "level": 0,
@@ -30799,7 +30652,7 @@
           }
         },
         {
-          "stage": 11,
+          "stage": 10,
           "number": 136,
           "name": "Tutsu",
           "level": 0,
@@ -30819,7 +30672,7 @@
       "evolves": true,
       "type": "special",
       "from": {
-        "stage": 9,
+        "stage": 8,
         "number": 135,
         "name": "Tuwire",
         "level": 0,
@@ -30836,7 +30689,7 @@
         }
       },
       "to": {
-        "stage": 11,
+        "stage": 10,
         "number": 136,
         "name": "Tutsu",
         "level": 0,
@@ -33017,26 +32870,10 @@
     ],
     "trivia": [],
     "evolution": {
-      "stage": 2,
+      "stage": 1,
       "evolutionTree": [
         {
           "stage": 0,
-          "number": 138,
-          "name": "Vulvir",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Camaraderie",
-            "Caffeinated"
-          ],
-          "traitMapping": {
-            "Camaraderie": "Pyromaniac",
-            "Caffeinated": "Resilient"
-          }
-        },
-        {
-          "stage": 1,
           "number": 139,
           "name": "Vulor",
           "level": 14,
@@ -33052,7 +32889,7 @@
           }
         },
         {
-          "stage": 2,
+          "stage": 1,
           "number": 140,
           "name": "Vulcrane",
           "level": 28,
@@ -33071,7 +32908,7 @@
       "evolves": true,
       "type": "levels",
       "from": {
-        "stage": 1,
+        "stage": 0,
         "number": 139,
         "name": "Vulor",
         "level": 14,
@@ -38195,9 +38032,9 @@
       "hp": 62,
       "sta": 48,
       "spd": 32,
-      "atk": 50,
+      "atk": 55,
       "def": 103,
-      "spatk": 50,
+      "spatk": 45,
       "spdef": 103,
       "total": 448
     },
