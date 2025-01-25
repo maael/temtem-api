@@ -7576,8 +7576,8 @@
       "spdef": 0
     },
     "gameDescription": "Voted Best Temtem every year by Neutral enthusiasts, Goty is as effective as it is cute. This little crowd-pleaser is particularly popular among casual Kisiwan tamers.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/2/20/Goty_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/f/ff/Goty_idle_animation.gif",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/a/aa/UmbraGoty_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/7/7b/UmbraGoty_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/9/93/LumaGoty_full_render.png",
     "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/d/d8/LumaGoty_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Goty.png",
@@ -7796,8 +7796,8 @@
       "spdef": 0
     },
     "gameDescription": "With their imposing horns, grazing Mouflank herds used to be serious natural hazards of the Kisiwan plains. The tribes soon learned how to tame them to avoid dangerous stampedes.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/9/99/Mouflank_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/8/8d/Mouflank_idle_animation.gif",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/e/ea/UmbraMouflank_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/c/cd/UmbraMouflank_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/7/74/LumaMouflank_full_render.png",
     "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/5/5a/LumaMouflank_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Mouflank.png",
@@ -10608,8 +10608,8 @@
       "spdef": 0
     },
     "gameDescription": "Related to diverse (now extinct) subspecies of Cipanki 'vulpes mentalis', Reval used to be hunted by the Counts of House Braeside. Nowadays, they are protected and thrive in the forests of eastern Arbury.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/d/d2/Reval_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/2/21/Reval_idle_animation.gif",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/0/04/UmbraReval_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/0/0a/UmbraReval_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/f/fd/LumaReval_full_render.png",
     "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/6/6c/LumaReval_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Reval.png",
@@ -10734,7 +10734,72 @@
     ],
     "trivia": [],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 42,
+          "name": "Reval",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Heat Discharge",
+            "Enraged"
+          ],
+          "traitMapping": {
+            "Heat Discharge": "Warm Gift",
+            "Enraged": "Ignis Fatuus"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 43,
+          "name": "Aohi",
+          "level": 15,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Warm Gift",
+            "Ignis Fatuus"
+          ],
+          "traitMapping": {
+            "Warm Gift": "Warm Gift",
+            "Ignis Fatuus": "Ignis Fatuus"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": {
+        "stage": 0,
+        "number": 42,
+        "name": "Reval",
+        "level": 0,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Heat Discharge",
+          "Enraged"
+        ],
+        "traitMapping": {
+          "Heat Discharge": "Warm Gift",
+          "Enraged": "Ignis Fatuus"
+        }
+      },
+      "to": null,
+      "number": 43,
+      "name": "Aohi",
+      "level": 15,
+      "trading": false,
+      "traits": [
+        "Warm Gift",
+        "Ignis Fatuus"
+      ],
+      "traitMapping": {
+        "Warm Gift": "Warm Gift",
+        "Ignis Fatuus": "Ignis Fatuus"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -10757,8 +10822,8 @@
       "spdef": 1
     },
     "gameDescription": "Fast and sinuous like wildfire, Aohi are cunning and sly creatures who routinely outsmart all but the most seasoned of tamers. Even in the wild, they delight in tricking the more gullible Reval.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/1/16/Aohi_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/a/a8/Aohi_idle_animation.gif",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/8/8f/UmbraAohi_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/9/91/UmbraAohi_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/c/c6/LumaAohi_full_render.png",
     "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/d/d3/LumaAohi_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Aohi.png",
@@ -10965,8 +11030,8 @@
       "spdef": 0
     },
     "gameDescription": "If there's an easily underestimated Temtem, that's Bigu. Comically ill-tempered, many tamers have found to their cost that these gastropods compensate their slow pace with outstanding tenacity in battle.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/a/a1/Bigu_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/b/b8/Bigu_idle_animation.gif",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/b/b5/UmbraBigu_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/6/6d/UmbraBigu_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/2/2e/LumaBigu_full_render.png",
     "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/d/d4/LumaBigu_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Bigu.png",
@@ -13659,8 +13724,8 @@
       "spdef": 1
     },
     "gameDescription": "Despite its creepy appearance, Occlura are mineral-eaters that never pose any danger to humans. Their tame nature and their appetite for raw rock make them valuable assets for mining purposes, as the Tucmani know very well.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/e/e7/Occlura_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/3/36/Occlura_idle_animation.gif",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/6/6a/UmbraOcclura_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/4/40/UmbraOcclura_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/d/d1/LumaOcclura_full_render.png",
     "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/2/25/LumaOcclura_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Occlura.png",
@@ -13883,8 +13948,8 @@
       "spdef": 0
     },
     "gameDescription": "The oldest written records in Tucma indicate religious awe of Myx, considered to be embodiments of the \"dark spirits\". Some were considered to be celestial emissaries of Highabove, some evil messengers of Downbelow... but all were feared. With good reason.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/f/f7/Myx_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/0/06/Myx_idle_animation.gif",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/9/9f/UmbraMyx_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/1/1c/UmbraMyx_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/1/1b/LumaMyx_full_render.png",
     "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/1/11/LumaMyx_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Myx.png",
@@ -15760,8 +15825,8 @@
       "spdef": 0
     },
     "gameDescription": "Some of the first Digital Temtem were prone to accidentally catching fire. Hoglip is the answer to this problem, a little friend who is totally at home in a blaze. Given that feature, it's often used for rescue by fire crews.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/1/1a/Hoglip_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/2/2c/Hoglip_idle_animation.gif",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/5/57/UmbraHoglip_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/1/11/UmbraHoglip_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/7/70/LumaHoglip_full_render.png",
     "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/3/32/LumaHoglip_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Hoglip.png",
@@ -15981,8 +16046,8 @@
       "spdef": 0
     },
     "gameDescription": "Mischievous but sweet, Hedgine are so kawaii tamers are regularly reminded to don fireproof gloves before petting them, to avoid getting first-degree burns. They are also instructed to keep them supervised in wooden areas.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/2/29/Hedgine_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/1/1d/Hedgine_idle_animation.gif",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/c/c4/UmbraHedgine_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/5/57/UmbraHedgine_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/e/e7/LumaHedgine_full_render.png",
     "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/d/d8/LumaHedgine_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Hedgine.png",
@@ -17810,8 +17875,8 @@
       "spdef": 0
     },
     "gameDescription": "Native to Tucma, Crystle are akin to smaragdine turtles, but they are actually closer to minerals than to fauna. Cute but tough, they are an excellent introductory Crystal Temtem for rookie tamers.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/b/b7/Crystle_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/8/8e/Crystle_idle_animation.gif",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/8/81/UmbraCrystle_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/c/c6/UmbraCrystle_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/8/8f/LumaCrystle_full_render.png",
     "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/6/69/LumaCrystle_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Crystle.png",
@@ -18041,8 +18106,8 @@
       "spdef": 0
     },
     "gameDescription": "Sherald are known to evolve from Crystle- in the wild, as a result of exposure to the harsh environmental conditions of Tucma. They extract nutrients from the chemical interactions of metamorphic rocks and volcanic ashes.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/0/00/Sherald_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/6/67/Sherald_idle_animation.gif",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/1/14/UmbraSherald_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/f/f9/UmbraSherald_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/b/b2/LumaSherald_full_render.png",
     "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/c/c4/LumaSherald_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Sherald.png",
@@ -26533,8 +26598,8 @@
       "spdef": 0
     },
     "gameDescription": "\"Sulky as a Grumvel\" is a common Uhurian idiom, usually addressed at comically malcontent little kids.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/d/d0/Grumvel_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/5/51/Grumvel_idle_animation.gif",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/9/92/UmbraGrumvel_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/d/d5/UmbraGrumvel_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/0/0a/LumaGrumvel_full_render.png",
     "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/4/4a/LumaGrumvel_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Grumvel.png",
@@ -26775,8 +26840,8 @@
       "spdef": 0
     },
     "gameDescription": "Often the butt of Dojo jokes, Grumper are an evolutive mystery. While some Temtemologists claim they are just Grumvel with overdeveloped horns, some others claim it's a completely different genus.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/7/7d/Grumper_full_render.png",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/b/b3/Grumper_idle_animation.gif",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/8/81/UmbraGrumper_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/3/37/UmbraGrumper_idle_animation.gif",
     "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/a/a6/LumaGrumper_full_render.png",
     "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/b/b9/LumaGrumper_idle_animation.gif",
     "renderStaticImage": "/images/renders/temtem/static/Grumper.png",
