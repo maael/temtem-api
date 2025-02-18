@@ -30692,12 +30692,13 @@
           ],
           "description": "Shrine at Altar of the Inner Flame",
           "traitMapping": {
-            "Spoilsport": "Spoilsport",
-            "Air Specialist": "Air Specialist"
+            "Spoilsport": "Receptive",
+            "Air Specialist": "Determined"
           }
         },
         {
           "stage": 5,
+          "number": 133,
           "name": "Tuvine",
           "level": 0,
           "type": "special",
@@ -31395,6 +31396,203 @@
     "renderStaticLumaImage": "/images/renders/temtem/luma/static/Tulcan.png",
     "renderAnimatedImage": "/images/renders/temtem/animated/Tulcan.gif",
     "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tulcan.gif"
+  },
+  {
+    "number": 133,
+    "name": "Tuvine",
+    "types": [
+      "Wind",
+      "Crystal"
+    ],
+    "portraitWikiUrl": "https://temtem.wiki.gg/images/thumb/7/7e/Tuvine.png/55px-Tuvine.png",
+    "lumaPortraitWikiUrl": "",
+    "wikiUrl": "https://temtem.wiki.gg/wiki/Tuvine",
+    "stats": {
+      "hp": 58,
+      "sta": 60,
+      "spd": 65,
+      "atk": 78,
+      "def": 111,
+      "spatk": 60,
+      "spdef": 50,
+      "total": 482
+    },
+    "traits": [
+      "Receptive",
+      "Determined"
+    ],
+    "details": {
+      "height": {
+        "cm": 172,
+        "inches": 67
+      },
+      "weight": {
+        "kg": 87,
+        "lbs": 191
+      }
+    },
+    "techniques": [
+      {
+        "name": "Peck",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Wind Blade",
+        "source": "Levelling",
+        "levels": 4
+      },
+      {
+        "name": "Shrill Voice",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Feather Gatling",
+        "source": "Levelling",
+        "levels": 10
+      },
+      {
+        "name": "Wind Burst",
+        "source": "Levelling",
+        "levels": 14
+      },
+      {
+        "name": "Humiliating Slap",
+        "source": "Levelling",
+        "levels": 19
+      },
+      {
+        "name": "Multiple Pecks",
+        "source": "Levelling",
+        "levels": 23
+      },
+      {
+        "name": "Tornado",
+        "source": "Levelling",
+        "levels": 40
+      },
+      {
+        "name": "Crystal Plume Gatling",
+        "source": "Levelling",
+        "levels": 43
+      },
+      {
+        "name": "Diamond Fort",
+        "source": "Levelling",
+        "levels": 48
+      },
+      {
+        "name": "Mirror Shell",
+        "source": "Levelling",
+        "levels": 79
+      },
+      {
+        "name": "Mineral Hail",
+        "source": "Levelling",
+        "levels": 90
+      }
+    ],
+    "trivia": [],
+    "evolution": {
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 130,
+          "name": "Tuwai",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Spoilsport",
+            "Air Specialist"
+          ],
+          "traitMapping": {
+            "Spoilsport": "Receptive",
+            "Air Specialist": "Determined"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 133,
+          "name": "Tuvine",
+          "level": 0,
+          "type": "special",
+          "trading": false,
+          "traits": [
+            "Receptive",
+            "Determined"
+          ],
+          "description": "Shrine at Sons of Crystal",
+          "traitMapping": {
+            "Receptive": "Receptive",
+            "Determined": "Determined"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "special",
+      "from": {
+        "stage": 0,
+        "number": 130,
+        "name": "Tuwai",
+        "level": 0,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Spoilsport",
+          "Air Specialist"
+        ],
+        "traitMapping": {
+          "Spoilsport": "Receptive",
+          "Air Specialist": "Determined"
+        }
+      },
+      "to": null,
+      "number": 133,
+      "name": "Tuvine",
+      "level": 0,
+      "trading": false,
+      "traits": [
+        "Receptive",
+        "Determined"
+      ],
+      "description": "Shrine at Sons of Crystal",
+      "traitMapping": {
+        "Receptive": "Receptive",
+        "Determined": "Determined"
+      }
+    },
+    "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
+    "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
+    "locations": [],
+    "icon": "/images/portraits/temtem/large/Tuvine.png",
+    "lumaIcon": "/images/portraits/temtem/luma/large/Tuvine.png",
+    "genderRatio": {
+      "male": 50,
+      "female": 50
+    },
+    "catchRate": 0,
+    "hatchMins": 45,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "Just how a Crystal Temtem manages to fly effectively is still a mystery to most Temtemologists. Some theorize its flight is aided by magnetic repulsion generated by mineral organs... but most tamers just enjoy their emerald majesty without asking too many questions.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/5/5e/UmbraTuvine_full_render.png",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/d/d4/UmbraTuvine_idle_animation.gif",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/8/89/LumaTuvine_full_render.png",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/4/42/LumaTuvine_idle_animation.gif",
+    "renderStaticImage": "/images/renders/temtem/static/Tuvine.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Tuvine.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Tuvine.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tuvine.gif"
   },
   {
     "number": 134,
