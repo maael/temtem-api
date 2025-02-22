@@ -1118,49 +1118,49 @@
   {
     "name": "Water Affinity",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Water_Affinity",
-    "description": "",
-    "effect": ""
+    "description": "Water techniques get type damage boost.",
+    "effect": "Water Affinity increases the damage of the holder's Water Techniques by 50%, as if they had STAB. This boost stacks with actual STAB if the holder is part Water."
   },
   {
     "name": "Water Custodian",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Water_Custodian",
-    "description": "",
-    "effect": ""
+    "description": "Water techniques targeting the ally will target the Temtem instead and it will get SPATK .",
+    "effect": "Water Custodian causes all incoming Water Techniques targeting the holder's ally to hit the holder instead and if the technique was successfully redirected the user will get SPATK ."
   },
   {
     "name": "Water Synthesizer",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Water_Synthesizer",
-    "description": "",
-    "effect": ""
+    "description": "When attacked with a Water technique, restores HP instead of receiving damage.",
+    "effect": "Water Synthesizer protects the holder from taking damage from Water Techniques and restores their HP equal to the amount of damage they would've taken."
   },
   {
     "name": "Wax Bath",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Wax_Bath",
-    "description": "",
-    "effect": ""
+    "description": "Wax Bath decreases the damage the holder takes from Fire Techniques by 25% and invalidates the effects of the Burn Status Condition.",
+    "effect": "Wax Bath decreases the damage the holder takes from Fire Techniques by 25% and protects them from being inflicted with the Burned Condition."
   },
   {
     "name": "Welcomer",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Welcomer",
-    "description": "",
-    "effect": ""
+    "description": "Once per battle, when the holder spends 1 turn the battlefield, the ally gets evading for 1 turn.",
+    "effect": "Once per battle, Welcomer gifts the holder's ally with the Evading Condition for 1 turn when the holder has spent 1 turn on the battlefield."
   },
   {
     "name": "Withdrawal",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Withdrawal",
-    "description": "",
-    "effect": ""
+    "description": "When resting, restores 20% of max HP and removes asleep and poisoned status conditions.",
+    "effect": "Withdrawal restores 20% of the holder's maximum HP and cures them of the Asleep and Poisoned Conditions whenever they Rest."
   },
   {
     "name": "Wrecked Farewell",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Wrecked_Farewell",
-    "description": "",
-    "effect": ""
+    "description": "The rival loses 10% of its max STA and gets ATK and SPATK when it knocks the holder out. In case the holder is self knocked-out, both rivals receive the effects of Wrecked Farewell.",
+    "effect": "Wrecked Farewell causes the rival to lose 10% of their maximum STA, ATK -2 stages and SPATK -2 when they knocked out the holder. If the holder knocks themself out, the effects are applied to all rivals."
   },
   {
     "name": "Zen",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Zen",
-    "description": "",
-    "effect": ""
+    "description": "When getting an asleep status condition, gets DEF and SPDEF .",
+    "effect": "Zen gifts the holder with DEF and SPDEF upon being inflicted with the Asleep Condition."
   }
 ]
