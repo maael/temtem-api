@@ -422,62 +422,62 @@
   {
     "name": "Half Full",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Half_Full",
-    "description": "Once per battle and while HP is full, when entering the battlefield, loses 50% of max HP and gets ATK , DEF , SPATK , and SPDEF .",
-    "effect": "Half Full gifts the holder with ATK , DEF , SPATK , and SPDEF but also causes them to lose 50% of their maximum HP upon entering the battlefield with full HP once per battle."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Heat Discharge",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Heat_Discharge",
-    "description": "When knocked-out, both rivals gets burned for 2 turns.",
-    "effect": "Heat Discharge inflicts both rivals with the Burned Condition for 2 turns."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Heater",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Heater",
-    "description": "Once per battle, when entering the battlefield, all other Temtem get burned for 1 turn.",
-    "effect": "Heater inflicts all other Temtem with the Burned Condition for 1 turn upon the holder entering the battlefield once per battle."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Hostile",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Hostile",
-    "description": "Once per battle, when entering the battlefield, gets ATK and SPATK .",
-    "effect": "Hostile gifts the holder with ATK and SPATK upon entering the battlefield once per battle."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Hover",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Hover",
-    "description": "Damage taken from Earth techniques is reduced by 50%.",
-    "effect": "Hover decreases the damage the holder takes from Earth Techniques by 50%."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Hurry-wart",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Hurry-wart",
-    "description": "When entering the battlefield, the Temtem gets -1 Hold.",
-    "effect": "Hurry-wart decreases the Hold of all the holder's Techniques by 1 upon entering the battlefield."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Hydrologist",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Hydrologist",
-    "description": "Damage done with Water techniques is increased by 15%.",
-    "effect": "Hydrologist increases the damage of the holder's Water Techniques by 15%."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Hypnotist",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Hypnotist",
-    "description": "Once per battle, after the Temtem spent 2 turns on the battlefield, rivals get asleep for 1 turn.",
-    "effect": "Once per battle, after the Temtem spent 2 turns on the battlefield, Hypnotist inflicts both rivals with the Asleep Condition for 1 turns."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Ignis Fatuus",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Ignis_Fatuus",
-    "description": "When another Temtem is knocked-out, gets evading for 1 turn.",
-    "effect": "Ignis Fatuus gifts the holder with the Evading Condition for 1 turn whenever another combatant is knocked-out."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Ignite Protection",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Ignite_Protection",
-    "description": "Once per battle, when attacked, the attacker gets burned for 2 turns.",
-    "effect": "Once per battle, Ignite Protection inflicts the Burned Condition for 2 turns onto any attacker that hits the holder with a Technique."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Immunity",
@@ -530,8 +530,8 @@
   {
     "name": "Jack of all Trades",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Jack_of_all_Trades",
-    "description": "When attacking with a physical technique, gets SPATK , and when attacking with a special technique, gets ATK .",
-    "effect": "Jack of all Trades gifts the holder with SPATK when a Physical Technique is used and ATK when a Special Technique is used."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Kinetic Transfer",
@@ -548,8 +548,8 @@
   {
     "name": "Last Rush",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Last_Rush",
-    "description": "While rivals outnumber allies, techniques inflict +33% Damage.",
-    "effect": "Last Rush increases the damage of the holder's Techniques by an additional 33% while the number of conscious combatants on the rival's squad outnumber the number of conscious combatants on the holder's squad."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Loneliness",
@@ -638,8 +638,8 @@
   {
     "name": "Physgulp",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Physgulp",
-    "description": "",
-    "effect": ""
+    "description": "When attacked with a physical technique, restores 8% of max HP.",
+    "effect": "Physgulp restores 8% of the holder's maximum HP whenever they are attacked by a Physical Technique."
   },
   {
     "name": "Physmaster",
@@ -650,8 +650,8 @@
   {
     "name": "Pigment Inverter",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Pigment_Inverter",
-    "description": "",
-    "effect": ""
+    "description": "When attacking a Temtem with an ineffective technique, the target receives 3 turns of Nullified.",
+    "effect": "Pigment Inverter causes the holder's target to receive the Nullified Condition for 3 turns if the Technique used was ineffective."
   },
   {
     "name": "Plethoric",
@@ -662,14 +662,14 @@
   {
     "name": "Power Nap",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Power_Nap",
-    "description": "",
-    "effect": ""
+    "description": "At the start of the turn, restores 15% of max HP of an Asleep Temtem.",
+    "effect": "Power Nap restores 15% of the holder's maximum HP at the start of each turn if they're afflicted with the Asleep Condition."
   },
   {
     "name": "Predatory",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Predatory",
-    "description": "",
-    "effect": ""
+    "description": "Restores HP by 30% upon knocking out a Temtem.",
+    "effect": "Predatory restores 30% of the holder's maximum HP when they knock-out a target."
   },
   {
     "name": "Prideful",
@@ -680,8 +680,8 @@
   {
     "name": "Protective Crystal",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Protective_Crystal",
-    "description": "",
-    "effect": ""
+    "description": "When an ally is damaged by an offensive technique, damage is reduced by 10%. When allies are damaged by an Electric, Mental, or Fire technique, damage is reduced by 20%.",
+    "effect": "Protective Crystal decreases the damage the holder's team takes from Electric, Mental and Fire Technique by 20%. The holder's ally has an additional 10% base damage reduction off every offensive Technique received, whatever its type."
   },
   {
     "name": "Protector",
@@ -692,8 +692,8 @@
   {
     "name": "Protostar",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Protostar",
-    "description": "",
-    "effect": ""
+    "description": "When entering the battlefield, gets doomed for 6 turns. When knocked-out due to doom, rivals lose 40% of Galios' remaining HP, revives and Protostar changes to Supernova.",
+    "effect": "After being knocked-out by the Doomed Condition, Protostar revives the holder with 100% of max HP and depletes HP of the enemy team based on 40% of the holder's remaining HP and changes the Trait to Supernova."
   },
   {
     "name": "Provident",
@@ -716,8 +716,8 @@
   {
     "name": "Pyromaniac",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Pyromaniac",
-    "description": "",
-    "effect": ""
+    "description": "Damage done with Fire techniques is increased by 15%.",
+    "effect": "Pyromaniac increases the damage of the holder's Fire Techniques by 15%."
   },
   {
     "name": "Receptive",
@@ -728,8 +728,8 @@
   {
     "name": "Refurbished",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Refurbished",
-    "description": "",
-    "effect": ""
+    "description": "Once per battle, regenerating for 3 turns after 3 consecutive turns on the battlefield.",
+    "effect": "Refurbished gifts the holder with the Regenerated Condition for 3 turns after the holder has been on the battlefield for 3 turns in a row once per battle."
   },
   {
     "name": "Rejuvenate",
@@ -770,14 +770,14 @@
   {
     "name": "Ruminant",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Ruminant",
-    "description": "",
-    "effect": ""
+    "description": "When hit by an enemy Nature technique, damage is reduced by 50% and receives ATK .",
+    "effect": "When hit by an enemy Nature technique, damage is reduced by 50% and receives ATK ."
   },
   {
     "name": "Rusher",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Rusher",
-    "description": "",
-    "effect": ""
+    "description": "When the Temtem exits the battlefield, gets SPD , and when a rival enters the battlefield, gets SPD .",
+    "effect": "Rusher gifts the holder with SPD whenever a rival combatant enters the battlefield but inflicts the holder with SPD whenever the holder leaves the battlefield."
   },
   {
     "name": "Safe Retreat",
@@ -812,14 +812,14 @@
   {
     "name": "Sensei",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Sensei",
-    "description": "",
-    "effect": ""
+    "description": "When attacking with a Physical technique, uses SPATK, and when attacking with a Special technique, uses the ATK.",
+    "effect": "Sensei causes the holder to use their SPATK instead of their ATK when using a Physical Technique and use their ATK instead of their SPATK when using a Special Technique."
   },
   {
     "name": "Sentinel",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Sentinel",
-    "description": "",
-    "effect": ""
+    "description": "When entering the battlefield, removes the asleep status condition on the ally and prevents the asleep status condition on the ally and itself.",
+    "effect": "Sentinel protects the holder and their ally from the Asleep Condition and cures their ally of the Asleep Condition when the holder enters the battlefield."
   },
   {
     "name": "Seppuku",
@@ -842,20 +842,20 @@
   {
     "name": "Shared Pain",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Shared_Pain",
-    "description": "After receiving a rival attack, the next one during the same turn gets redirected to the ally.",
-    "effect": "Shared Pain protects the holder from receiving damage from a second attack from the rival team that turn by redirecting it to their ally."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Shinobi Tactics",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Shinobi_Tactics",
-    "description": "High priority techniques deal 10% more damage.",
-    "effect": "Shinobi Tactics increases the damage of the holder's High Priority Techniques by 10%."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Short Circuit",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Short_Circuit",
-    "description": "Prevents all stat changes on all Temtem.",
-    "effect": "Short Circuit prevents all Stat Stage Changes from being gifted/inflicted to all combatants on the battlefield as long as the holder is on the battlefield."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Skull Helmet",
@@ -866,8 +866,8 @@
   {
     "name": "Snowstorm",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Snowstorm",
-    "description": "Once per battle, when entering the battlefield, rivals and the ally get cold for 2 turns if they aren't cold already.",
-    "effect": "Snowstorm inflicts both rivals and the holder's ally with the Cold Condition for 2 turns if they aren't already inflicted with the Cold Condition when the holder enters the battlefield once per battle."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Soft Touch",
@@ -878,20 +878,20 @@
   {
     "name": "Solidifier",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Solidifier",
-    "description": "When attacking with a Water Special technique, uses the ATK.",
-    "effect": "Solidifier causes the holder to use their ATK instead of their SPATK when using a Special Water Technique."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Source Replicator",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Source_Replicator",
-    "description": "",
-    "effect": ""
+    "description": "When getting a positive status condition, adds the change to the ally too.",
+    "effect": "Source Replicator copies any Alerted, Regenerated, Evading, Immune, or Invigorated Conditions the holder is gifted with and gifts them to their ally for the same duration."
   },
   {
     "name": "Specgulp",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Specgulp",
-    "description": "",
-    "effect": ""
+    "description": "When attacked with a special technique, restores 8% of max HP.",
+    "effect": "Specgulp restores 8% of the holder's maximum HP whenever they are attacked by a Special Technique."
   },
   {
     "name": "Specmaster",
@@ -908,8 +908,8 @@
   {
     "name": "Splitter",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Splitter",
-    "description": "",
-    "effect": ""
+    "description": "Prevents getting a negative status condition and gets Invigorated for 2 turns.",
+    "effect": "Splitter protects the holder from being inflicted with the Poisoned, Burned, Asleep, Cold, Frozen, Exhausted, Isolated, Seized, or Trapped Conditions. For example: Embers won't inflict Burned, Hypnosis won't inflict Asleep, and Toxic Ink won't inflict Poisoned."
   },
   {
     "name": "Spoilsport",
@@ -920,8 +920,8 @@
   {
     "name": "Spreader",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Spreader",
-    "description": "",
-    "effect": ""
+    "description": "If there are multiple rivals, single-target special techniques become multi-target and damage done with them is reduced by 15%.",
+    "effect": "Spreader causes all of the holder's Special Techniques that have single target or single other target as their targeting to hit both rivals but reduces the damage of these Techniques by 15% if there are multiple rivals on the battlefield."
   },
   {
     "name": "Stabmaster",
@@ -932,14 +932,14 @@
   {
     "name": "Striking Transmog",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Striking_Transmog",
-    "description": "",
-    "effect": ""
+    "description": "Once per battle, when attacking an individual Temtem with a physical technique, Mimit transforms into the target.",
+    "effect": "Once per battle, Striking Transmog causes Mimit to transform into the Temtem the holder hits with Physical Techniques that has single target or single other target as their targeting and will multiply Mimit's DEF and SPDEF stat by 30% for the rest of the current turn. It will use the same Base Stats, Techniques, Trait, and Typing of the target but will keep its own Level, SVs and TVs. It also won't copy any Status Conditions or Stat Stage Changes which are currently applied on the target."
   },
   {
     "name": "Strong Liver",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Strong_Liver",
-    "description": "",
-    "effect": ""
+    "description": "When attacked with a Toxic technique, restores HP instead of receiving damage.",
+    "effect": "Strong Liver protects the holder from taking damage from Toxic Techniques and restores their HP equal to the amount of damage they would've taken."
   },
   {
     "name": "Superconductivity",
@@ -950,20 +950,20 @@
   {
     "name": "Supernova",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Supernova",
-    "description": "",
-    "effect": ""
+    "description": "When entering the battlefield, gets doomed for 6 turns. When knocked-out due to doom, rivals lose 40% of Galios' lost HP, revives and Supernova changes to Protostar.",
+    "effect": "After being knocked-out by the Doomed Condition, Supernova revives the holder with 100% of max HP and depletes HP of the enemy team based on 40% of the holder's missing HP and changes the Trait to Protostar. The damage dealt is calculated as follows:"
   },
   {
     "name": "Synergy Adept",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Synergy_Adept",
-    "description": "",
-    "effect": ""
+    "description": "Damage done with synergy techniques is increased by 15% while the Temtem participate in the synergy.",
+    "effect": "Synergy Adept increases the damage of the holder's and their allies' Synergy Techniques by 15% when the Synergy activates."
   },
   {
     "name": "Synergy Master",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Synergy_Master",
-    "description": "",
-    "effect": ""
+    "description": "Damage done with synergy techniques is increased by 25% while the Temtem participate in the synergy.",
+    "effect": "Synergy Master increases the damage of the holder's and their allies' Synergy Techniques by 25% when the Synergy activates."
   },
   {
     "name": "Synertyper",
@@ -980,20 +980,20 @@
   {
     "name": "Tag Team",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tag_Team",
-    "description": "",
-    "effect": ""
+    "description": "Damage taken from techniques is reduced by 15% if both allies share a type.",
+    "effect": "Tag Team decreases the damage the holder takes from Techniques by 15% if both the holder and their ally share a Type."
   },
   {
     "name": "Tardy Rush",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tardy_Rush",
-    "description": "",
-    "effect": ""
+    "description": "Increases SPD by 85% and ATK by 10% after 3 consecutive turns on the battlefield.",
+    "effect": "Tardy Rush increases the holder's SPD by 85% and ATK by 10% after being on the battlefield for 3 turns in a row and lasts until the holder leaves the battlefield. If the holder is swapped in, the turn they enter the battlefield counts as turn 1."
   },
   {
     "name": "Target Replicator",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Target_Replicator",
-    "description": "",
-    "effect": ""
+    "description": "When the ally gets a positive status condition, adds the change to the Temtem too.",
+    "effect": "Target Replicator copies any Alerted, Regenerated, Evading, Immune, or Invigorated Conditions the ally is gifted with and gifts them to the holder for the same duration."
   },
   {
     "name": "Team Elusive",
@@ -1022,20 +1022,20 @@
   {
     "name": "Toxic Farewell",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxic_Farewell",
-    "description": "",
-    "effect": ""
+    "description": "When knocked-out, the attacking team loses 7% of max HP and gets poisoned for 1 turn.",
+    "effect": "Toxic Farewell inflicts the attacking team that knocked-out the holder with the Poisoned Condition for 1 turn and they lose 7% of their maximum HP."
   },
   {
     "name": "Toxic Skin",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxic_Skin",
-    "description": "",
-    "effect": ""
+    "description": "Once per battle, when attacked, the attacker gets poisoned for 2 turns.",
+    "effect": "Once per battle, Toxic Skin inflicts the Poisoned Condition for 2 turns onto any attacker that hits the holder with a Technique."
   },
   {
     "name": "Toxifier",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxifier",
-    "description": "",
-    "effect": ""
+    "description": "When attacking with a Physical Toxic technique, uses SPATK and increases its damage by 10%.",
+    "effect": "Toxifier causes the holder to use their SPATK instead of their ATK and increases Technique damage by 10% when using a a Physical Toxic technique."
   },
   {
     "name": "Toxin Crusher",
@@ -1058,20 +1058,20 @@
   {
     "name": "Trauma",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Trauma",
-    "description": "",
-    "effect": ""
+    "description": "After being attacked if hit by a Physical technique gets DEF ; if hit by a Special technique, SPDEF .",
+    "effect": "Trauma inflicts the holder with DEF after they're hit with a Physical Technique and inflicts the holder with SPDEF after they're hit with a Special Technique."
   },
   {
     "name": "Tri-Apothecary",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tri-Apothecary",
-    "description": "",
-    "effect": ""
+    "description": "After attacking with a special technique, the target gets poisoned for 3 turns if it's a rival or regenerating for 3 turns if it's an ally or itself.",
+    "effect": "Tri-Apothecary causes all of the holder's Special Techniques to inflict the Poisoned Condition for 3 turns if the target was a rival or gift the Regenerated Condition for 3 turns if the target is the holder or their ally."
   },
   {
     "name": "Tri-Phytologist",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tri-Phytologist",
-    "description": "",
-    "effect": ""
+    "description": "When attacking with a physical technique, the target gets exhausted for 2 turns if it's a rival or invigorated for 2 turns if it's an ally or itself.",
+    "effect": "When the holder attacks a target with a Physical Technique, Tri-Phytologist inflicts the target with the Exhausted Status Condition for 2 turns if the target is a rival or the Invigorated Status Condition for 2 turns if the target is the holder itself or its ally."
   },
   {
     "name": "Unnoticed",
@@ -1082,26 +1082,26 @@
   {
     "name": "Vigorous",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Vigorous",
-    "description": "",
-    "effect": ""
+    "description": "Damage done when overexerting is increased by 50%.",
+    "effect": "Vigorous increases the damage of the holder's Techniques by 50% when the holder Overexerts."
   },
   {
     "name": "Viral Combustion",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Viral_Combustion",
-    "description": "",
-    "effect": ""
+    "description": "When getting a poison status condition, the attacker gets burned for 4 turns.",
+    "effect": "Viral Combustion inflicts the Burned Condition for 4 turns onto any attacker that inflicts the Poisoned Condition onto the holder."
   },
   {
     "name": "Voltaic Charge",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Voltaic_Charge",
-    "description": "",
-    "effect": ""
+    "description": "The caster heals 20% of the damage it has done with any offensive technique.",
+    "effect": "Voltaic Charge restores 20% of the damage the holder inflicts to the target as HP."
   },
   {
     "name": "Voodoo",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Voodoo",
-    "description": "",
-    "effect": ""
+    "description": "When the holder applies a negative Status Condition or Stage change to a rival, the effects of those are applied to the rival’s partner too.",
+    "effect": "When the holder of Voodoo applies a negative Status Condition or Stage change to a rival, the effects of those are applied to the rival’s partner too."
   },
   {
     "name": "Warm Gift",
@@ -1112,20 +1112,20 @@
   {
     "name": "Warm-Blooded",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Warm-Blooded",
-    "description": "",
-    "effect": ""
+    "description": "Prevents the Cold and Frozen status condition.",
+    "effect": "Warm-Blooded protects the holder from being inflicted with the Cold and Frozen Conditions."
   },
   {
     "name": "Water Affinity",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Water_Affinity",
-    "description": "",
-    "effect": ""
+    "description": "Water techniques get type damage boost.",
+    "effect": "Water Affinity increases the damage of the holder's Water Techniques by 50%, as if they had STAB. This boost stacks with actual STAB if the holder is part Water."
   },
   {
     "name": "Water Custodian",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Water_Custodian",
-    "description": "",
-    "effect": ""
+    "description": "Water techniques targeting the ally will target the Temtem instead and it will get SPATK .",
+    "effect": "Water Custodian causes all incoming Water Techniques targeting the holder's ally to hit the holder instead and if the technique was successfully redirected the user will get SPATK ."
   },
   {
     "name": "Water Synthesizer",
@@ -1148,8 +1148,8 @@
   {
     "name": "Withdrawal",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Withdrawal",
-    "description": "",
-    "effect": ""
+    "description": "When resting, restores 20% of max HP and removes asleep and poisoned status conditions.",
+    "effect": "Withdrawal restores 20% of the holder's maximum HP and cures them of the Asleep and Poisoned Conditions whenever they Rest."
   },
   {
     "name": "Wrecked Farewell",
