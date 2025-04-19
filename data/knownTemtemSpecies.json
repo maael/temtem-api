@@ -29825,43 +29825,261 @@
       "spdef": 44,
       "total": 321
     },
-    "traits": [],
+    "traits": [
+      "Mithridatism",
+      "Hydrologist"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 114,
+        "inches": 44
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 52,
+        "lbs": 115
       }
     },
-    "techniques": [],
-    "trivia": [],
+    "techniques": [
+      {
+        "name": "Bubbles",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Tentacle Whip",
+        "source": "Levelling",
+        "levels": 4
+      },
+      {
+        "name": "Water Blade",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Strangle",
+        "source": "Levelling",
+        "levels": 8
+      },
+      {
+        "name": "Aqua Stone",
+        "source": "Levelling",
+        "levels": 14
+      },
+      {
+        "name": "High-pressure Water",
+        "source": "Levelling",
+        "levels": 20
+      },
+      {
+        "name": "Tsunami",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Wake Up",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Laundry",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Clinch",
+        "source": "Breeding"
+      },
+      {
+        "name": "Iced Stalactite",
+        "source": "Breeding"
+      },
+      {
+        "name": "Humiliating Slap",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [
+      "Kalazu was revealed to the public on Kickstarter update #13."
+    ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 127,
+          "name": "Kalazu",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Mithridatism",
+            "Hydrologist"
+          ],
+          "traitMapping": {
+            "Mithridatism": "Toxic Farewell",
+            "Hydrologist": "Mucous"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 128,
+          "name": "Kalabyss",
+          "level": 18,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Toxic Farewell",
+            "Mucous"
+          ],
+          "traitMapping": {
+            "Toxic Farewell": "Toxic Farewell",
+            "Mucous": "Mucous"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": null,
+      "to": {
+        "stage": 1,
+        "number": 128,
+        "name": "Kalabyss",
+        "level": 18,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Toxic Farewell",
+          "Mucous"
+        ],
+        "traitMapping": {
+          "Toxic Farewell": "Toxic Farewell",
+          "Mucous": "Mucous"
+        }
+      },
+      "number": 127,
+      "name": "Kalazu",
+      "level": 0,
+      "trading": false,
+      "traits": [
+        "Mithridatism",
+        "Hydrologist"
+      ],
+      "traitMapping": {
+        "Mithridatism": "Toxic Farewell",
+        "Hydrologist": "Mucous"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Thalassian Cliffs",
+        "place": "Thalassian Cliffs",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "35%",
+        "level": "18 - 20",
+        "freetem": {
+          "minLevel": 18,
+          "maxLevel": 20,
+          "minPansuns": 55,
+          "maxPansuns": 59
+        }
+      },
+      {
+        "location": "Sillaro River",
+        "place": "Sillaro River",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "30%",
+        "level": "13 - 15",
+        "freetem": {
+          "minLevel": 13,
+          "maxLevel": 15,
+          "minPansuns": 46,
+          "maxPansuns": 49
+        }
+      },
+      {
+        "location": "Aguamarina Caves",
+        "place": "Aguamarina Caves",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "65% - 100%",
+        "level": "15 - 22",
+        "freetem": {
+          "minLevel": 15,
+          "maxLevel": 22,
+          "minPansuns": 49,
+          "maxPansuns": 63
+        }
+      },
+      {
+        "location": "Corrupted Badlands",
+        "place": "Corrupted Badlands",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "50%",
+        "level": "28 - 30",
+        "freetem": {
+          "minLevel": 28,
+          "maxLevel": 30,
+          "minPansuns": 74,
+          "maxPansuns": 78
+        }
+      },
+      {
+        "location": "Xolot Reservoir",
+        "place": "Xolot Reservoir",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "40%",
+        "level": "29 - 33",
+        "freetem": {
+          "minLevel": 29,
+          "maxLevel": 33,
+          "minPansuns": 76,
+          "maxPansuns": 84
+        }
+      },
+      {
+        "location": "Arissola Dojo",
+        "place": "Arissola Dojo",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "65%",
+        "level": "15 - 18",
+        "freetem": {
+          "minLevel": 15,
+          "maxLevel": 18,
+          "minPansuns": 49,
+          "maxPansuns": 55
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Kalazu.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Kalazu.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 140,
+    "hatchMins": 17,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 1,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "Kalazu show remarkable fine motor skills with each of their tentacles. \"Send Kalazu!\" is a common expression of woe in Deniz. When you face a hard task, you might need a hand - when you need eight hands... well, you're in trouble.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/9/93/UmbraKalazu_full_render.png?d772a2",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/b/b8/UmbraKalazu_idle_animation.gif?397abd",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/3/31/LumaKalazu_full_render.png?43c2df",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/7/79/LumaKalazu_idle_animation.gif?8ac784",
+    "renderStaticImage": "/images/renders/temtem/static/Kalazu.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Kalazu.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Kalazu.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Kalazu.gif"
   },
   {
     "number": 128,
@@ -29998,7 +30216,10 @@
             "Mithridatism",
             "Hydrologist"
           ],
-          "traitMapping": {}
+          "traitMapping": {
+            "Mithridatism": "Toxic Farewell",
+            "Hydrologist": "Mucous"
+          }
         },
         {
           "stage": 1,
