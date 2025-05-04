@@ -272,8 +272,8 @@
   {
     "name": "Dispersion",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Dispersion",
-    "description": "Damage done with multi-target techniques is increased by 20%.",
-    "effect": "Dispersion increases the damage of the holder's multi-target Techniques by 20%."
+    "description": "When using multi-target techniques, damage gets boosted by 20% and targets get inflicted with SPDEF .",
+    "effect": "Dispersion increases the damage of the holder's multi-target Techniques by 20% and inflicts SPDEF ."
   },
   {
     "name": "Dozing Hit",
@@ -416,8 +416,8 @@
   {
     "name": "Haka",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Haka",
-    "description": "Once per battle, when entering the battlefield, the ally gets ATK and SPATK .",
-    "effect": "Haka gifts the holder's ally with ATK and SPATK upon the holder entering the battlefield once per battle."
+    "description": "When an enemy is knocked out, both Maoala and its ally gain ATK and SPATK .",
+    "effect": "Haka gifts both Maoala and its ally with ATK and SPATK when an enemy is knocked out."
   },
   {
     "name": "Half Full",
@@ -692,8 +692,8 @@
   {
     "name": "Protostar",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Protostar",
-    "description": "When entering the battlefield, gets doomed for 6 turns. When knocked-out due to doom, rivals lose 40% of Galios' remaining HP, revives and Protostar changes to Supernova.",
-    "effect": "After being knocked-out by the Doomed Condition, Protostar revives the holder with 100% of max HP and depletes HP of the enemy team based on 40% of the holder's remaining HP and changes the Trait to Supernova."
+    "description": "When entering the battlefield, gets doomed for 5 turns. When knocked-out due to doom, rivals lose 30% of Galios' remaining HP, revives and Protostar changes to Supernova.",
+    "effect": "After being knocked-out by the Doomed Condition, Protostar revives the holder with 100% of max HP and depletes HP of the enemy team based on 30% of the holder's remaining HP and changes the Trait to Supernova."
   },
   {
     "name": "Provident",
@@ -950,8 +950,8 @@
   {
     "name": "Supernova",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Supernova",
-    "description": "When entering the battlefield, gets doomed for 6 turns. When knocked-out due to doom, rivals lose 40% of Galios' lost HP, revives and Supernova changes to Protostar.",
-    "effect": "After being knocked-out by the Doomed Condition, Supernova revives the holder with 100% of max HP and depletes HP of the enemy team based on 40% of the holder's missing HP and changes the Trait to Protostar. The damage dealt is calculated as follows:"
+    "description": "When entering the battlefield, gets doomed for 5 turns. When knocked-out due to doom, rivals lose 30% of Galios' lost HP, revives and Supernova changes to Protostar.",
+    "effect": "After being knocked-out by the Doomed Condition, Supernova revives the holder with 100% of max HP and depletes HP of the enemy team based on 30% of the holder's missing HP and changes the Trait to Protostar. The damage dealt is calculated as follows:"
   },
   {
     "name": "Synergy Adept",
