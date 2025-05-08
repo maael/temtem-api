@@ -20845,8 +20845,8 @@
             "Thick Skin"
           ],
           "traitMapping": {
-            "Caffeinated": "Unknown",
-            "Thick Skin": "Unknown"
+            "Caffeinated": "Solidifier",
+            "Thick Skin": "Pyromaniac"
           }
         },
         {
@@ -20860,7 +20860,10 @@
             "Solidifier",
             "Pyromaniac"
           ],
-          "traitMapping": {}
+          "traitMapping": {
+            "Solidifier": "Solidifier",
+            "Pyromaniac": "Pyromaniac"
+          }
         }
       ],
       "evolves": true,
@@ -20960,43 +20963,263 @@
       "spdef": 52,
       "total": 468
     },
-    "traits": [],
+    "traits": [
+      "Solidifier",
+      "Pyromaniac"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 240,
+        "inches": 94
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 180,
+        "lbs": 396
       }
     },
-    "techniques": [],
-    "trivia": [],
+    "techniques": [
+      {
+        "name": "Fire Flame",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Tenderness",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Jaw Strike",
+        "source": "Levelling",
+        "levels": 9
+      },
+      {
+        "name": "Water Blade",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Rage",
+        "source": "Levelling",
+        "levels": 16
+      },
+      {
+        "name": "Warm Cuddle",
+        "source": "Levelling",
+        "levels": 20
+      },
+      {
+        "name": "Embers",
+        "source": "Levelling",
+        "levels": 26
+      },
+      {
+        "name": "Sharp Rain",
+        "source": "Levelling",
+        "levels": 31
+      },
+      {
+        "name": "Meteor Swarm",
+        "source": "Levelling",
+        "levels": 37
+      },
+      {
+        "name": "Flaming Meteorite",
+        "source": "Levelling",
+        "levels": 52
+      },
+      {
+        "name": "Lava Wave",
+        "source": "Levelling",
+        "levels": 64
+      },
+      {
+        "name": "Aqua Stone",
+        "source": "Levelling",
+        "levels": 72
+      },
+      {
+        "name": "Charcoal Wall",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "High-pressure Water",
+        "source": "Levelling",
+        "levels": 100
+      },
+      {
+        "name": "Tsunami",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Magma Cannon",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Cage",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Rend",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Block",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Footwork",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Major Slash",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Sanative Rain",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Horror",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Laundry",
+        "source": "TechniqueCourses"
+      }
+    ],
+    "trivia": [
+      "Mastione was first revealed via Twitter.",
+      "Mastione was the first Temtem confirmed with a pre-evolution.",
+      "Mastione has an emote on the official Temtem Discord."
+    ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 86,
+          "name": "Magmis",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Caffeinated",
+            "Thick Skin"
+          ],
+          "traitMapping": {
+            "Caffeinated": "Solidifier",
+            "Thick Skin": "Pyromaniac"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 87,
+          "name": "Mastione",
+          "level": 16,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Solidifier",
+            "Pyromaniac"
+          ],
+          "traitMapping": {
+            "Solidifier": "Solidifier",
+            "Pyromaniac": "Pyromaniac"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": {
+        "stage": 0,
+        "number": 86,
+        "name": "Magmis",
+        "level": 0,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Caffeinated",
+          "Thick Skin"
+        ],
+        "traitMapping": {
+          "Caffeinated": "Solidifier",
+          "Thick Skin": "Pyromaniac"
+        }
+      },
+      "to": null,
+      "number": 87,
+      "name": "Mastione",
+      "level": 16,
+      "trading": false,
+      "traits": [
+        "Solidifier",
+        "Pyromaniac"
+      ],
+      "traitMapping": {
+        "Solidifier": "Solidifier",
+        "Pyromaniac": "Pyromaniac"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Anak Caldera",
+        "place": "Anak Caldera",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "25%",
+        "level": "33 - 38",
+        "freetem": {
+          "minLevel": 33,
+          "maxLevel": 38,
+          "minPansuns": 110,
+          "maxPansuns": 123
+        }
+      },
+      {
+        "location": "Anak Volcano",
+        "place": "Anak Volcano",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "25% - 35%",
+        "level": "45 - 55",
+        "freetem": {
+          "minLevel": 45,
+          "maxLevel": 55,
+          "minPansuns": 142,
+          "maxPansuns": 169
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Mastione.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Mastione.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 100,
+    "hatchMins": 25,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 3,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "Mastione are fire-loving Temtem, at home in the fiercest of blazes. They can be found grazing in woods devoured by wildfire. The tamed varieties learn to rein in their destructive tendencies - but even then, trainers should exercise care.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/b/b2/UmbraMastione_full_render.png?29cc17",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/8/89/UmbraMastione_idle_animation.gif?e9337b",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/f/ff/LumaMastione_full_render.png?59a771",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/8/87/LumaMastione_idle_animation.gif?97f2c9",
+    "renderStaticImage": "/images/renders/temtem/static/Mastione.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Mastione.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Mastione.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Mastione.gif"
   },
   {
     "number": 88,
@@ -21017,43 +21240,194 @@
       "spdef": 45,
       "total": 370
     },
-    "traits": [],
+    "traits": [
+      "Shared Pain",
+      "Caffeinated"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 95,
+        "inches": 37
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 21,
+        "lbs": 47
       }
     },
-    "techniques": [],
-    "trivia": [],
+    "techniques": [
+      {
+        "name": "Finbeat",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Aqua Bullet Hell",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Nimble",
+        "source": "Levelling",
+        "levels": 7
+      },
+      {
+        "name": "Cooperation",
+        "source": "Levelling",
+        "levels": 10
+      },
+      {
+        "name": "Water Cannon",
+        "source": "Levelling",
+        "levels": 14
+      },
+      {
+        "name": "Sharp Rain",
+        "source": "Levelling",
+        "levels": 17
+      },
+      {
+        "name": "Aquatic Whirlwind",
+        "source": "Levelling",
+        "levels": 37
+      },
+      {
+        "name": "Tsunami",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Flood",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [
+      "Umishi was first seen in iNinjaHero's Twitch stream on 08/08/2018."
+    ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 88,
+          "name": "Umishi",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Shared Pain",
+            "Caffeinated"
+          ],
+          "traitMapping": {
+            "Shared Pain": "Hydrologist",
+            "Caffeinated": "Plethoric"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 89,
+          "name": "Ukama",
+          "level": 14,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Hydrologist",
+            "Plethoric"
+          ],
+          "traitMapping": {
+            "Hydrologist": "Hydrologist",
+            "Plethoric": "Plethoric"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": null,
+      "to": {
+        "stage": 1,
+        "number": 89,
+        "name": "Ukama",
+        "level": 14,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Hydrologist",
+          "Plethoric"
+        ],
+        "traitMapping": {
+          "Hydrologist": "Hydrologist",
+          "Plethoric": "Plethoric"
+        }
+      },
+      "number": 88,
+      "name": "Umishi",
+      "level": 0,
+      "trading": false,
+      "traits": [
+        "Shared Pain",
+        "Caffeinated"
+      ],
+      "traitMapping": {
+        "Shared Pain": "Hydrologist",
+        "Caffeinated": "Plethoric"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Thalassian Cliffs",
+        "place": "Thalassian Cliffs",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "50% - 90%",
+        "level": "17 - 20",
+        "freetem": {
+          "minLevel": 17,
+          "maxLevel": 20,
+          "minPansuns": 71,
+          "maxPansuns": 80
+        }
+      },
+      {
+        "location": "Sillaro River",
+        "place": "Sillaro River",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "30%",
+        "level": "13 - 15",
+        "freetem": {
+          "minLevel": 13,
+          "maxLevel": 15,
+          "minPansuns": 59,
+          "maxPansuns": 65
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Umishi.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Umishi.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 90,
+    "hatchMins": 27,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 1,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "The Umishi feature in many Denizan tales, usually saving drowning sailors and helping them get to shore. These so-called \"sea-angels\" are dependable friends, and the Riverine Fellowship recommends every member keep at least one in their squad.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/2/29/UmbraUmishi_full_render.png?8c3234",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/3/3f/UmbraUmishi_idle_animation.gif?48acec",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/7/7d/LumaUmishi_full_render.png?3c00c6",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/3/35/LumaUmishi_idle_animation.gif?bcefc8",
+    "renderStaticImage": "/images/renders/temtem/static/Umishi.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Umishi.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Umishi.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Umishi.gif"
   },
   {
     "number": 89,
@@ -21074,43 +21448,214 @@
       "spdef": 54,
       "total": 469
     },
-    "traits": [],
+    "traits": [
+      "Hydrologist",
+      "Plethoric"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 140,
+        "inches": 55
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 27,
+        "lbs": 59
       }
     },
-    "techniques": [],
-    "trivia": [],
+    "techniques": [
+      {
+        "name": "Finbeat",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Nimble",
+        "source": "Levelling",
+        "levels": 7
+      },
+      {
+        "name": "Cooperation",
+        "source": "Levelling",
+        "levels": 10
+      },
+      {
+        "name": "Water Cannon",
+        "source": "Levelling",
+        "levels": 14
+      },
+      {
+        "name": "Sharp Rain",
+        "source": "Levelling",
+        "levels": 17
+      },
+      {
+        "name": "Aqua Bullet Hell",
+        "source": "Levelling",
+        "levels": 26
+      },
+      {
+        "name": "Aquatic Whirlwind",
+        "source": "Levelling",
+        "levels": 37
+      },
+      {
+        "name": "Blizzard",
+        "source": "Levelling",
+        "levels": 48
+      },
+      {
+        "name": "Denigrate",
+        "source": "Levelling",
+        "levels": 73
+      },
+      {
+        "name": "Tsunami",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Turbo Choreography",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Major Slash",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Flood",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [
+      "During alpha testing, Ukama was known for a bug in the first phase that hard-locked tamers in battle sequences with it. This bug was fixed after a bit of difficulty.",
+      "Ukama Lover, an NPC in the residential area of Mokupuni, wants to trade his Taifu for a Ukama.\nThe Taifu traded has the same Gender, Level, SVs and remaining Fertility.",
+      "The Taifu traded has the same Gender, Level, SVs and remaining Fertility."
+    ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 88,
+          "name": "Umishi",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Shared Pain",
+            "Caffeinated"
+          ],
+          "traitMapping": {
+            "Shared Pain": "Hydrologist",
+            "Caffeinated": "Plethoric"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 89,
+          "name": "Ukama",
+          "level": 14,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Hydrologist",
+            "Plethoric"
+          ],
+          "traitMapping": {
+            "Hydrologist": "Hydrologist",
+            "Plethoric": "Plethoric"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": {
+        "stage": 0,
+        "number": 88,
+        "name": "Umishi",
+        "level": 0,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Shared Pain",
+          "Caffeinated"
+        ],
+        "traitMapping": {
+          "Shared Pain": "Hydrologist",
+          "Caffeinated": "Plethoric"
+        }
+      },
+      "to": null,
+      "number": 89,
+      "name": "Ukama",
+      "level": 14,
+      "trading": false,
+      "traits": [
+        "Hydrologist",
+        "Plethoric"
+      ],
+      "traitMapping": {
+        "Hydrologist": "Hydrologist",
+        "Plethoric": "Plethoric"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Sea-Queen's Aquarium",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "10%",
+        "level": "15 - 20",
+        "freetem": {
+          "minLevel": 15,
+          "maxLevel": 20,
+          "minPansuns": 78,
+          "maxPansuns": 98
+        }
+      },
+      {
+        "location": "Kakama Cenote",
+        "place": "Kakama Cenote",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "55%",
+        "level": "38 - 40",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 40,
+          "minPansuns": 167,
+          "maxPansuns": 175
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Ukama.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Ukama.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 70,
+    "hatchMins": 31,
+    "tvYields": {
+      "hp": 0,
+      "sta": 1,
+      "spd": 2,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "Ukama, also known in Turquesa as \"sea-sickles\", are one of the fastest waterborne Temtem. They can easily outrun the sleekest sailboat, even swimming against the Sillaro current, so tamers have to use charm and guile to approach them.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/6/64/UmbraUkama_full_render.png?88f0a3",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/e/e1/UmbraUkama_idle_animation.gif?c28555",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/7/72/LumaUkama_full_render.png?9644f2",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/f/f8/LumaUkama_idle_animation.gif?69d4b9",
+    "renderStaticImage": "/images/renders/temtem/static/Ukama.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Ukama.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Ukama.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Ukama.gif"
   },
   {
     "number": 90,
@@ -21131,43 +21676,201 @@
       "spdef": 43,
       "total": 377
     },
-    "traits": [],
+    "traits": [
+      "Efficient",
+      "Inductor"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 103,
+        "inches": 40
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 55,
+        "lbs": 121
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Novice Punch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Sparks",
+        "source": "Levelling",
+        "levels": 2
+      },
+      {
+        "name": "DC Beam",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Sparkling Bullet",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Tesla Prison",
+        "source": "Levelling",
+        "levels": 18
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 25
+      },
+      {
+        "name": "Perfect Jab",
+        "source": "Levelling",
+        "levels": 31
+      },
+      {
+        "name": "Electropunch",
+        "source": "Levelling",
+        "levels": 40
+      },
+      {
+        "name": "Held Anger",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Piezoelectric Blow",
+        "source": "Breeding"
+      },
+      {
+        "name": "Turbine",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 90,
+          "name": "Galvanid",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Efficient",
+            "Inductor"
+          ],
+          "traitMapping": {
+            "Efficient": "Kinetic Transfer",
+            "Inductor": "Electric Custodian"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 91,
+          "name": "Raignet",
+          "level": 16,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Kinetic Transfer",
+            "Electric Custodian"
+          ],
+          "traitMapping": {
+            "Kinetic Transfer": "Kinetic Transfer",
+            "Electric Custodian": "Electric Custodian"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": null,
+      "to": {
+        "stage": 1,
+        "number": 91,
+        "name": "Raignet",
+        "level": 16,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Kinetic Transfer",
+          "Electric Custodian"
+        ],
+        "traitMapping": {
+          "Kinetic Transfer": "Kinetic Transfer",
+          "Electric Custodian": "Electric Custodian"
+        }
+      },
+      "number": 90,
+      "name": "Galvanid",
+      "level": 0,
+      "trading": false,
+      "traits": [
+        "Efficient",
+        "Inductor"
+      ],
+      "traitMapping": {
+        "Efficient": "Kinetic Transfer",
+        "Inductor": "Electric Custodian"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Iwaba",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "20%",
+        "level": "40 - 50",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 50,
+          "minPansuns": 92,
+          "maxPansuns": 110
+        }
+      },
+      {
+        "location": "Pillars of Highabove",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "30%",
+        "level": "40 - 50",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 50,
+          "minPansuns": 92,
+          "maxPansuns": 110
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Galvanid.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Galvanid.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 150,
+    "hatchMins": 15,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "Often paired for comedic effect, Galvanid is the downer counterpart to Sparzy's manic persona. Given its usually serious expression, this 'Tem is the perfect butt of all jokes... which conceals a very effective range of attacks.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/1/1c/UmbraGalvanid_full_render.png?389767",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/a/ac/UmbraGalvanid_idle_animation.gif?d89dc0",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/b/b1/LumaGalvanid_full_render.png?99f932",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/a/a5/LumaGalvanid_idle_animation.gif?e2763d",
+    "renderStaticImage": "/images/renders/temtem/static/Galvanid.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Galvanid.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Galvanid.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Galvanid.gif"
   },
   {
     "number": 91,
@@ -21188,21 +21891,169 @@
       "spdef": 57,
       "total": 456
     },
-    "traits": [],
+    "traits": [
+      "Kinetic Transfer",
+      "Electric Custodian"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 170,
+        "inches": 66
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 110,
+        "lbs": 242
       }
     },
-    "techniques": [],
-    "trivia": [],
+    "techniques": [
+      {
+        "name": "Novice Punch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Sparks",
+        "source": "Levelling",
+        "levels": 2
+      },
+      {
+        "name": "DC Beam",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Sparkling Bullet",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Tesla Prison",
+        "source": "Levelling",
+        "levels": 18
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 25
+      },
+      {
+        "name": "Perfect Jab",
+        "source": "Levelling",
+        "levels": 31
+      },
+      {
+        "name": "Electropunch",
+        "source": "Levelling",
+        "levels": 40
+      },
+      {
+        "name": "Thunder Strike",
+        "source": "Levelling",
+        "levels": 48
+      },
+      {
+        "name": "Electromagnetism",
+        "source": "Levelling",
+        "levels": 56
+      },
+      {
+        "name": "Charged Iron Filings",
+        "source": "Levelling",
+        "levels": 65
+      },
+      {
+        "name": "Ultrasound",
+        "source": "Levelling",
+        "levels": 84
+      },
+      {
+        "name": "Composure",
+        "source": "Levelling",
+        "levels": 95
+      },
+      {
+        "name": "Held Anger",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Piezoelectric Blow",
+        "source": "Breeding"
+      },
+      {
+        "name": "Turbine",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [
+      "Raignet was first revealed via Twitter."
+    ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 90,
+          "name": "Galvanid",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Efficient",
+            "Inductor"
+          ],
+          "traitMapping": {
+            "Efficient": "Kinetic Transfer",
+            "Inductor": "Electric Custodian"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 91,
+          "name": "Raignet",
+          "level": 16,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Kinetic Transfer",
+            "Electric Custodian"
+          ],
+          "traitMapping": {
+            "Kinetic Transfer": "Kinetic Transfer",
+            "Electric Custodian": "Electric Custodian"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": {
+        "stage": 0,
+        "number": 90,
+        "name": "Galvanid",
+        "level": 0,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Efficient",
+          "Inductor"
+        ],
+        "traitMapping": {
+          "Efficient": "Kinetic Transfer",
+          "Inductor": "Electric Custodian"
+        }
+      },
+      "to": null,
+      "number": 91,
+      "name": "Raignet",
+      "level": 16,
+      "trading": false,
+      "traits": [
+        "Kinetic Transfer",
+        "Electric Custodian"
+      ],
+      "traitMapping": {
+        "Kinetic Transfer": "Kinetic Transfer",
+        "Electric Custodian": "Electric Custodian"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -21213,18 +22064,26 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 90,
+    "hatchMins": 27,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "When suddenly all the cutlery in your kitchen flies out of the window, you know this Temtem is nearby. In fact, it uses its magnetic power to move its own heavy, metallic body. The Cipanki always keep them away from their fridges.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/0/09/UmbraRaignet_full_render.png?811b44",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/4/49/UmbraRaignet_idle_animation.gif?38ae8a",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/4/46/LumaRaignet_full_render.png?f852c4",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/7/7f/LumaRaignet_idle_animation.gif?adcbb9",
+    "renderStaticImage": "/images/renders/temtem/static/Raignet.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Raignet.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Raignet.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Raignet.gif"
   },
   {
     "number": 92,
@@ -21245,43 +22104,214 @@
       "spdef": 37,
       "total": 357
     },
-    "traits": [],
+    "traits": [
+      "Fever Rush",
+      "Friendship"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 96,
+        "inches": 37
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 24,
+        "lbs": 54
       }
     },
-    "techniques": [],
-    "trivia": [],
+    "techniques": [
+      {
+        "name": "Kick",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Martial Strike",
+        "source": "Levelling",
+        "levels": 4
+      },
+      {
+        "name": "Tail Strike",
+        "source": "Levelling",
+        "levels": 8
+      },
+      {
+        "name": "Sand Splatter",
+        "source": "Levelling",
+        "levels": 10
+      },
+      {
+        "name": "Show Off",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Uppercut",
+        "source": "Levelling",
+        "levels": 16
+      },
+      {
+        "name": "Intimidation",
+        "source": "Levelling",
+        "levels": 19
+      },
+      {
+        "name": "Perfect Jab",
+        "source": "Levelling",
+        "levels": 26
+      },
+      {
+        "name": "Heat Up",
+        "source": "Levelling",
+        "levels": 30
+      },
+      {
+        "name": "Stone Wall",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Dim Mak",
+        "source": "Breeding"
+      },
+      {
+        "name": "Earth Wave",
+        "source": "Breeding"
+      },
+      {
+        "name": "Hook",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [
+      "Smazee has an emote on the official Temtem Discord."
+    ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 92,
+          "name": "Smazee",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Fever Rush",
+            "Friendship"
+          ],
+          "traitMapping": {
+            "Fever Rush": "Brawny",
+            "Friendship": "Cold-Blooded"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 93,
+          "name": "Baboong",
+          "level": 29,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Brawny",
+            "Cold-Blooded"
+          ],
+          "traitMapping": {
+            "Brawny": "Self-Esteem",
+            "Cold-Blooded": "Earthbound"
+          }
+        },
+        {
+          "stage": 2,
+          "number": 94,
+          "name": "Seismunch",
+          "level": 23,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Self-Esteem",
+            "Earthbound"
+          ],
+          "traitMapping": {
+            "Self-Esteem": "Self-Esteem",
+            "Earthbound": "Earthbound"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": null,
+      "to": {
+        "stage": 1,
+        "number": 93,
+        "name": "Baboong",
+        "level": 29,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Brawny",
+          "Cold-Blooded"
+        ],
+        "traitMapping": {
+          "Brawny": "Self-Esteem",
+          "Cold-Blooded": "Earthbound"
+        }
+      },
+      "number": 92,
+      "name": "Smazee",
+      "level": 0,
+      "trading": false,
+      "traits": [
+        "Fever Rush",
+        "Friendship"
+      ],
+      "traitMapping": {
+        "Fever Rush": "Brawny",
+        "Friendship": "Cold-Blooded"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Greenglen Forest",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "5%",
+        "level": "30 - 40",
+        "freetem": {
+          "minLevel": 30,
+          "maxLevel": 40,
+          "minPansuns": 155,
+          "maxPansuns": 200
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Smazee.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Smazee.png",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 65,
+      "female": 35
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 60,
+    "hatchMins": 33,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "These little darlings have been bred for generations as playmates and babysitters for children - although capable fighters, Smazee are naturally cheerful and love playing and monkeying around.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/9/9c/UmbraSmazee_full_render.png?2ad380",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/2/28/UmbraSmazee_idle_animation.gif?517b3d",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/d/d2/LumaSmazee_full_render.png?a85a37",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/a/a2/LumaSmazee_idle_animation.gif?c3b0e7",
+    "renderStaticImage": "/images/renders/temtem/static/Smazee.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Smazee.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Smazee.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Smazee.gif"
   },
   {
     "number": 93,
@@ -21404,7 +22434,10 @@
             "Fever Rush",
             "Friendship"
           ],
-          "traitMapping": {}
+          "traitMapping": {
+            "Fever Rush": "Brawny",
+            "Friendship": "Cold-Blooded"
+          }
         },
         {
           "stage": 1,
@@ -21418,8 +22451,8 @@
             "Cold-Blooded"
           ],
           "traitMapping": {
-            "Brawny": "Unknown",
-            "Cold-Blooded": "Unknown"
+            "Brawny": "Self-Esteem",
+            "Cold-Blooded": "Earthbound"
           }
         },
         {
@@ -21433,7 +22466,10 @@
             "Self-Esteem",
             "Earthbound"
           ],
-          "traitMapping": {}
+          "traitMapping": {
+            "Self-Esteem": "Self-Esteem",
+            "Earthbound": "Earthbound"
+          }
         }
       ],
       "evolves": true,
@@ -21533,21 +22569,203 @@
       "spdef": 54,
       "total": 454
     },
-    "traits": [],
+    "traits": [
+      "Self-Esteem",
+      "Earthbound"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 195,
+        "inches": 76
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 90,
+        "lbs": 198
       }
     },
-    "techniques": [],
-    "trivia": [],
+    "techniques": [
+      {
+        "name": "Kick",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Martial Strike",
+        "source": "Levelling",
+        "levels": 4
+      },
+      {
+        "name": "Tail Strike",
+        "source": "Levelling",
+        "levels": 8
+      },
+      {
+        "name": "Sand Splatter",
+        "source": "Levelling",
+        "levels": 10
+      },
+      {
+        "name": "Show Off",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Uppercut",
+        "source": "Levelling",
+        "levels": 16
+      },
+      {
+        "name": "Intimidation",
+        "source": "Levelling",
+        "levels": 19
+      },
+      {
+        "name": "Perfect Jab",
+        "source": "Levelling",
+        "levels": 26
+      },
+      {
+        "name": "Heat Up",
+        "source": "Levelling",
+        "levels": 30
+      },
+      {
+        "name": "Inner Spirit",
+        "source": "Levelling",
+        "levels": 40
+      },
+      {
+        "name": "Footwork",
+        "source": "Levelling",
+        "levels": 48
+      },
+      {
+        "name": "Seismunch's Wreck",
+        "source": "Levelling",
+        "levels": 58
+      },
+      {
+        "name": "Helicopter Kick",
+        "source": "Levelling",
+        "levels": 73
+      },
+      {
+        "name": "Wrenching Massage",
+        "source": "Levelling",
+        "levels": 89
+      },
+      {
+        "name": "Stone Wall",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Quicksand",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "5PPEH",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Dim Mak",
+        "source": "Breeding"
+      },
+      {
+        "name": "Earth Wave",
+        "source": "Breeding"
+      },
+      {
+        "name": "Hook",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [
+      "Seismunch could be loosely based on Sun Wukong, the monkey king born of stone from the book Journey to the West.",
+      "Despite Seismunch's Tempedia entry referring to it as an ape, Seismunch has a tail, which great apes do not have."
+    ],
     "evolution": {
-      "evolves": false
+      "stage": 2,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 92,
+          "name": "Smazee",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Fever Rush",
+            "Friendship"
+          ],
+          "traitMapping": {
+            "Fever Rush": "Brawny",
+            "Friendship": "Cold-Blooded"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 93,
+          "name": "Baboong",
+          "level": 29,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Brawny",
+            "Cold-Blooded"
+          ],
+          "traitMapping": {
+            "Brawny": "Self-Esteem",
+            "Cold-Blooded": "Earthbound"
+          }
+        },
+        {
+          "stage": 2,
+          "number": 94,
+          "name": "Seismunch",
+          "level": 23,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Self-Esteem",
+            "Earthbound"
+          ],
+          "traitMapping": {
+            "Self-Esteem": "Self-Esteem",
+            "Earthbound": "Earthbound"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": {
+        "stage": 1,
+        "number": 93,
+        "name": "Baboong",
+        "level": 29,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Brawny",
+          "Cold-Blooded"
+        ],
+        "traitMapping": {
+          "Brawny": "Self-Esteem",
+          "Cold-Blooded": "Earthbound"
+        }
+      },
+      "to": null,
+      "number": 94,
+      "name": "Seismunch",
+      "level": 23,
+      "trading": false,
+      "traits": [
+        "Self-Esteem",
+        "Earthbound"
+      ],
+      "traitMapping": {
+        "Self-Esteem": "Self-Esteem",
+        "Earthbound": "Earthbound"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -21555,21 +22773,29 @@
     "icon": "/images/portraits/temtem/large/Seismunch.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Seismunch.png",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 65,
+      "female": 35
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 0,
+    "hatchMins": 45,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 2,
+      "atk": 3,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "Seismunch are great apes, genetically close to humans and much more sophisticated than their lesser brethren. Highly imitative of human behavior, some are said to be nearing proto-human cognition.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/e/e4/UmbraSeismunch_full_render.png?a32ec1",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/b/b9/UmbraSeismunch_idle_animation.gif?89561f",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/3/36/LumaSeismunch_full_render.png?91f309",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/4/4c/LumaSeismunch_idle_animation.gif?ec3fb7",
+    "renderStaticImage": "/images/renders/temtem/static/Seismunch.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Seismunch.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Seismunch.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Seismunch.gif"
   },
   {
     "number": 95,
@@ -21833,43 +23059,137 @@
       "spdef": 64,
       "total": 433
     },
-    "traits": [],
+    "traits": [
+      "Seismic",
+      "Tireless"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 180,
+        "inches": 70
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 232,
+        "lbs": 511
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Novice Punch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Stare",
+        "source": "Levelling",
+        "levels": 4
+      },
+      {
+        "name": "Uppercut",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Show Off",
+        "source": "Levelling",
+        "levels": 17
+      },
+      {
+        "name": "Rush",
+        "source": "Levelling",
+        "levels": 22
+      },
+      {
+        "name": "Bestial Charge",
+        "source": "Levelling",
+        "levels": 27
+      },
+      {
+        "name": "Hook Kick",
+        "source": "Levelling",
+        "levels": 37
+      },
+      {
+        "name": "Intimidation",
+        "source": "Levelling",
+        "levels": 49
+      },
+      {
+        "name": "Helicopter Kick",
+        "source": "Levelling",
+        "levels": 64
+      },
+      {
+        "name": "Wrenching Massage",
+        "source": "Levelling",
+        "levels": 78
+      },
+      {
+        "name": "Held Anger",
+        "source": "Levelling",
+        "levels": 85
+      },
+      {
+        "name": "Block",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Kesa Gatame",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Meditation",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
       "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Greenglen Forest",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "65% - 80%",
+        "level": "65 - 70",
+        "freetem": {
+          "minLevel": 65,
+          "maxLevel": 70,
+          "minPansuns": 318,
+          "maxPansuns": 341
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Gorong.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Gorong.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 59,
+    "hatchMins": 33.2,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 4,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "Angry and with a red nose, Gorong attracts many jokes about how much it looks like a Lochburg pub patron. Usually a couple of assaults are enough to put an end to such taunts for good.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/9/91/UmbraGorong_full_render.png?5013fc",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/6/6f/UmbraGorong_idle_animation.gif?bcffeb",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/b/bd/LumaGorong_full_render.png?1f6671",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/9/90/LumaGorong_idle_animation.gif?e4ab31",
+    "renderStaticImage": "/images/renders/temtem/static/Gorong.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Gorong.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Gorong.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Gorong.gif"
   },
   {
     "number": 97,
@@ -24174,43 +25494,182 @@
       "spdef": 54,
       "total": 346
     },
-    "traits": [],
+    "traits": [
+      "Toxic Skin",
+      "Bully"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 178,
+        "inches": 70
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 180,
+        "lbs": 396
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Nibble",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Novice Punch",
+        "source": "Levelling",
+        "levels": 2
+      },
+      {
+        "name": "Shy Shield",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Heavy Blow",
+        "source": "Levelling",
+        "levels": 10
+      },
+      {
+        "name": "Toxic Ink",
+        "source": "Levelling",
+        "levels": 20
+      },
+      {
+        "name": "Bamboozle",
+        "source": "Levelling",
+        "levels": 28
+      },
+      {
+        "name": "Pollution",
+        "source": "Levelling",
+        "levels": 37
+      },
+      {
+        "name": "Beef Up",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Metabolize",
+        "source": "Breeding"
+      },
+      {
+        "name": "Rotten Goo",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 107,
+          "name": "Blooze",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Toxic Skin",
+            "Bully"
+          ],
+          "traitMapping": {
+            "Toxic Skin": "Infectious",
+            "Bully": "Punch Bag"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 108,
+          "name": "Goolder",
+          "level": 25,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Infectious",
+            "Punch Bag"
+          ],
+          "traitMapping": {
+            "Infectious": "Infectious",
+            "Punch Bag": "Punch Bag"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": null,
+      "to": {
+        "stage": 1,
+        "number": 108,
+        "name": "Goolder",
+        "level": 25,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Infectious",
+          "Punch Bag"
+        ],
+        "traitMapping": {
+          "Infectious": "Infectious",
+          "Punch Bag": "Punch Bag"
+        }
+      },
+      "number": 107,
+      "name": "Blooze",
+      "level": 0,
+      "trading": false,
+      "traits": [
+        "Toxic Skin",
+        "Bully"
+      ],
+      "traitMapping": {
+        "Toxic Skin": "Infectious",
+        "Bully": "Punch Bag"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Corrupted Badlands",
+        "place": "Corrupted Badlands",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "10% - 50%",
+        "level": "24 - 30",
+        "freetem": {
+          "minLevel": 24,
+          "maxLevel": 30,
+          "minPansuns": 85,
+          "maxPansuns": 101
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Blooze.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Blooze.png",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 65,
+      "female": 35
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 100,
+    "hatchMins": 25,
+    "tvYields": {
+      "hp": 2,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "Blooze represent the opposite evolutionary path as compared to Toxolotl - blobby and bipedal, they are probably the oldest lifeform of Xolot, an atavic variety still largely unexplained by science.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/0/02/UmbraBlooze_full_render.png?ee7370",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/6/6f/UmbraBlooze_idle_animation.gif?5b2842",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/3/36/LumaBlooze_full_render.png?bfaaca",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/b/b5/LumaBlooze_idle_animation.gif?b04d61",
+    "renderStaticImage": "/images/renders/temtem/static/Blooze.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Blooze.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Blooze.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Blooze.gif"
   },
   {
     "number": 108,
@@ -24231,21 +25690,181 @@
       "spdef": 62,
       "total": 461
     },
-    "traits": [],
+    "traits": [
+      "Infectious",
+      "Punch Bag"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 222,
+        "inches": 87
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 1700,
+        "lbs": 3748
       }
     },
-    "techniques": [],
-    "trivia": [],
+    "techniques": [
+      {
+        "name": "Nibble",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Novice Punch",
+        "source": "Levelling",
+        "levels": 2
+      },
+      {
+        "name": "Shy Shield",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Heavy Blow",
+        "source": "Levelling",
+        "levels": 10
+      },
+      {
+        "name": "Toxic Ink",
+        "source": "Levelling",
+        "levels": 20
+      },
+      {
+        "name": "Bamboozle",
+        "source": "Levelling",
+        "levels": 28
+      },
+      {
+        "name": "Pollution",
+        "source": "Levelling",
+        "levels": 37
+      },
+      {
+        "name": "Harmful Lick",
+        "source": "Levelling",
+        "levels": 48
+      },
+      {
+        "name": "Venom Spread",
+        "source": "Levelling",
+        "levels": 60
+      },
+      {
+        "name": "Hallucination",
+        "source": "Levelling",
+        "levels": 70
+      },
+      {
+        "name": "Madness Buff",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Slime",
+        "source": "Levelling",
+        "levels": 91
+      },
+      {
+        "name": "Paralyzing Poison",
+        "source": "Levelling",
+        "levels": 96
+      },
+      {
+        "name": "Antitoxins",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Confiscate",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Beef Up",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Restore",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Metabolize",
+        "source": "Breeding"
+      },
+      {
+        "name": "Rotten Goo",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [
+      "Goolder has an emote on the official Temtem Discord."
+    ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 107,
+          "name": "Blooze",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Toxic Skin",
+            "Bully"
+          ],
+          "traitMapping": {
+            "Toxic Skin": "Infectious",
+            "Bully": "Punch Bag"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 108,
+          "name": "Goolder",
+          "level": 25,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Infectious",
+            "Punch Bag"
+          ],
+          "traitMapping": {
+            "Infectious": "Infectious",
+            "Punch Bag": "Punch Bag"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": {
+        "stage": 0,
+        "number": 107,
+        "name": "Blooze",
+        "level": 0,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Toxic Skin",
+          "Bully"
+        ],
+        "traitMapping": {
+          "Toxic Skin": "Infectious",
+          "Bully": "Punch Bag"
+        }
+      },
+      "to": null,
+      "number": 108,
+      "name": "Goolder",
+      "level": 25,
+      "trading": false,
+      "traits": [
+        "Infectious",
+        "Punch Bag"
+      ],
+      "traitMapping": {
+        "Infectious": "Infectious",
+        "Punch Bag": "Punch Bag"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -24253,21 +25872,29 @@
     "icon": "/images/portraits/temtem/large/Goolder.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Goolder.png",
     "genderRatio": {
-      "male": 50,
-      "female": 50
+      "male": 65,
+      "female": 35
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 100,
+    "hatchMins": 25,
+    "tvYields": {
+      "hp": 4,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "Not many agree to classify Goolder as an \"evolution\", for many of its traits seem to be vestigial features of a more complex organism, devolved to a more primitive or atrophied state. Its lack of legs is usually cited as an example... but its haphazard appearance conceals great strength.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/f/f2/UmbraGoolder_full_render.png?5abd30",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/b/b3/UmbraGoolder_idle_animation.gif?edf562",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/8/85/LumaGoolder_full_render.png?58aeab",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/4/4b/LumaGoolder_idle_animation.gif?2bf2a7",
+    "renderStaticImage": "/images/renders/temtem/static/Goolder.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Goolder.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Goolder.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Goolder.gif"
   },
   {
     "number": 109,
@@ -24366,8 +25993,8 @@
             "Air Specialist"
           ],
           "traitMapping": {
-            "Toxic Affinity": "Unknown",
-            "Air Specialist": "Unknown"
+            "Toxic Affinity": "Aerobic",
+            "Air Specialist": "Anaerobic"
           }
         },
         {
@@ -24381,7 +26008,10 @@
             "Aerobic",
             "Anaerobic"
           ],
-          "traitMapping": {}
+          "traitMapping": {
+            "Aerobic": "Aerobic",
+            "Anaerobic": "Anaerobic"
+          }
         }
       ],
       "evolves": true,
@@ -24537,43 +26167,238 @@
       "spdef": 92,
       "total": 457
     },
-    "traits": [],
+    "traits": [
+      "Aerobic",
+      "Anaerobic"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 205,
+        "inches": 80
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 92,
+        "lbs": 203
       }
     },
-    "techniques": [],
-    "trivia": [],
+    "techniques": [
+      {
+        "name": "Scratch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Wind Blade",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Venomous Claws",
+        "source": "Levelling",
+        "levels": 10
+      },
+      {
+        "name": "Toxic Spores",
+        "source": "Levelling",
+        "levels": 16
+      },
+      {
+        "name": "Blizzard",
+        "source": "Levelling",
+        "levels": 25
+      },
+      {
+        "name": "Multiple Pecks",
+        "source": "Levelling",
+        "levels": 38
+      },
+      {
+        "name": "Toxic Plume",
+        "source": "Levelling",
+        "levels": 51
+      },
+      {
+        "name": "Hyperkinetic Strike",
+        "source": "Levelling",
+        "levels": 62
+      },
+      {
+        "name": "Wind Burst",
+        "source": "Levelling",
+        "levels": 73
+      },
+      {
+        "name": "Virulent Gust",
+        "source": "Levelling",
+        "levels": 88
+      },
+      {
+        "name": "Venom Spread",
+        "source": "Levelling",
+        "levels": 95
+      },
+      {
+        "name": "Noxious Bomb",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Beef Up",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Feather Gatling",
+        "source": "Breeding"
+      },
+      {
+        "name": "Gust",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [
+      "Volarend was originally referred to by the community as \"Zabirdo\", a variation on \"the bird\".",
+      "Volarend is a Breeder Tier Temtem by Soma Ghost, who pledged $6000 to the Kickstarter. The design process for Zephyruff and Volarend was originally shown on the \"Presenting our first Breeder Temtem\" Kickstarter update.",
+      "According to the artbook, it was based off Archaeopteryx and was originally meant to have a phoenix-like \"majestic\" apparence, before settling on a \"fierce\" design."
+    ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 109,
+          "name": "Zephyruff",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Toxic Affinity",
+            "Air Specialist"
+          ],
+          "traitMapping": {
+            "Toxic Affinity": "Aerobic",
+            "Air Specialist": "Anaerobic"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 110,
+          "name": "Volarend",
+          "level": 22,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Aerobic",
+            "Anaerobic"
+          ],
+          "traitMapping": {
+            "Aerobic": "Aerobic",
+            "Anaerobic": "Anaerobic"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": {
+        "stage": 0,
+        "number": 109,
+        "name": "Zephyruff",
+        "level": 0,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Toxic Affinity",
+          "Air Specialist"
+        ],
+        "traitMapping": {
+          "Toxic Affinity": "Aerobic",
+          "Air Specialist": "Anaerobic"
+        }
+      },
+      "to": null,
+      "number": 110,
+      "name": "Volarend",
+      "level": 22,
+      "trading": false,
+      "traits": [
+        "Aerobic",
+        "Anaerobic"
+      ],
+      "traitMapping": {
+        "Aerobic": "Aerobic",
+        "Anaerobic": "Anaerobic"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Kupeleleza",
+        "place": "Kupeleleza",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "5%",
+        "level": "38 - 40",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 40,
+          "minPansuns": 125,
+          "maxPansuns": 131
+        }
+      },
+      {
+        "location": "Mawingu Islets",
+        "place": "Mawingu Islets",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "25%",
+        "level": "38 - 43",
+        "freetem": {
+          "minLevel": 38,
+          "maxLevel": 43,
+          "minPansuns": 125,
+          "maxPansuns": 139
+        }
+      },
+      {
+        "location": "Kilima Peaks",
+        "place": "Kilima Peaks",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "30%",
+        "level": "42 - 44",
+        "freetem": {
+          "minLevel": 42,
+          "maxLevel": 44,
+          "minPansuns": 136,
+          "maxPansuns": 142
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Volarend.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Volarend.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 98,
+    "hatchMins": 25.4,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 3
+    },
+    "gameDescription": "Volarend are impressive avians of great wingspan, strong enough to carry humans in flight. However, they are temperamental and picky mounts, and tamers are well-advised to treat them kindly, lest they are given a one-way ticket to the Downbelow...",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/1/12/UmbraVolarend_full_render.png?ab18ca",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/1/15/UmbraVolarend_idle_animation.gif?edfec5",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/1/1c/LumaVolarend_full_render.png?29cb9c",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/3/30/LumaVolarend_idle_animation.gif?234751",
+    "renderStaticImage": "/images/renders/temtem/static/Volarend.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Volarend.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Volarend.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Volarend.gif"
   },
   {
     "number": 111,
@@ -24594,43 +26419,193 @@
       "spdef": 60,
       "total": 384
     },
-    "traits": [],
+    "traits": [
+      "Energy Reserves",
+      "Settling"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 120,
+        "inches": 47
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 90,
+        "lbs": 198
       }
     },
-    "techniques": [],
-    "trivia": [],
+    "techniques": [
+      {
+        "name": "Sand Splatter",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Tenderness",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Head Ram",
+        "source": "Levelling",
+        "levels": 20
+      },
+      {
+        "name": "Petrify",
+        "source": "Levelling",
+        "levels": 36
+      },
+      {
+        "name": "Sparks",
+        "source": "Levelling",
+        "levels": 43
+      },
+      {
+        "name": "Dust Vortex",
+        "source": "Levelling",
+        "levels": 50
+      },
+      {
+        "name": "Stone Wall",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Goring",
+        "source": "Breeding"
+      },
+      {
+        "name": "Sludge Gift",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [
+      "Grumvel has 2 emotes on the official Temtem Discord."
+    ],
     "evolution": {
-      "evolves": false
+      "stage": 0,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 111,
+          "name": "Grumvel",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Energy Reserves",
+            "Settling"
+          ],
+          "traitMapping": {
+            "Energy Reserves": "Inductor",
+            "Settling": "Coward's Rest"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 112,
+          "name": "Grumper",
+          "level": 16,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Inductor",
+            "Coward's Rest"
+          ],
+          "traitMapping": {
+            "Inductor": "Inductor",
+            "Coward's Rest": "Coward's Rest"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": null,
+      "to": {
+        "stage": 1,
+        "number": 112,
+        "name": "Grumper",
+        "level": 16,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Inductor",
+          "Coward's Rest"
+        ],
+        "traitMapping": {
+          "Inductor": "Inductor",
+          "Coward's Rest": "Coward's Rest"
+        }
+      },
+      "number": 111,
+      "name": "Grumvel",
+      "level": 0,
+      "trading": false,
+      "traits": [
+        "Energy Reserves",
+        "Settling"
+      ],
+      "traitMapping": {
+        "Energy Reserves": "Inductor",
+        "Settling": "Coward's Rest"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Juu Tunnel",
+        "place": "Juu Tunnel",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "80%",
+        "level": "34 - 44",
+        "freetem": {
+          "minLevel": 34,
+          "maxLevel": 44,
+          "minPansuns": 100,
+          "maxPansuns": 124
+        }
+      },
+      {
+        "location": "Chini Grotto",
+        "place": "Chini Grotto",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "60% - 90%",
+        "level": "40 - 45",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 45,
+          "minPansuns": 114,
+          "maxPansuns": 126
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Grumvel.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Grumvel.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 115,
+    "hatchMins": 22,
+    "tvYields": {
+      "hp": 1,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "\"Sulky as a Grumvel\" is a common Uhurian idiom, usually addressed at comically malcontent little kids.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/9/92/UmbraGrumvel_full_render.png?1daa5d",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/d/d5/UmbraGrumvel_idle_animation.gif?766e97",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/0/0a/LumaGrumvel_full_render.png?4882bf",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/4/4a/LumaGrumvel_idle_animation.gif?5b4a50",
+    "renderStaticImage": "/images/renders/temtem/static/Grumvel.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Grumvel.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Grumvel.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Grumvel.gif"
   },
   {
     "number": 112,
@@ -24652,43 +26627,227 @@
       "spdef": 69,
       "total": 461
     },
-    "traits": [],
+    "traits": [
+      "Inductor",
+      "Coward's Rest"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 200,
+        "inches": 78
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 170,
+        "lbs": 374
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Sand Splatter",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Tenderness",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Head Ram",
+        "source": "Levelling",
+        "levels": 20
+      },
+      {
+        "name": "Thunder Strike",
+        "source": "Levelling",
+        "levels": 28
+      },
+      {
+        "name": "Tesla Prison",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Petrify",
+        "source": "Levelling",
+        "levels": 36
+      },
+      {
+        "name": "Sparks",
+        "source": "Levelling",
+        "levels": 43
+      },
+      {
+        "name": "Dust Vortex",
+        "source": "Levelling",
+        "levels": 50
+      },
+      {
+        "name": "Electric Storm",
+        "source": "Levelling",
+        "levels": 63
+      },
+      {
+        "name": "Chain Lightning",
+        "source": "Levelling",
+        "levels": 75
+      },
+      {
+        "name": "Slow Down",
+        "source": "Levelling",
+        "levels": 89
+      },
+      {
+        "name": "Earthbreaker",
+        "source": "Levelling",
+        "levels": 96
+      },
+      {
+        "name": "Stone Wall",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Confiscate",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Relax",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Double Edge",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Drought",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Horror",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Goring",
+        "source": "Breeding"
+      },
+      {
+        "name": "Sludge Gift",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 111,
+          "name": "Grumvel",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Energy Reserves",
+            "Settling"
+          ],
+          "traitMapping": {
+            "Energy Reserves": "Inductor",
+            "Settling": "Coward's Rest"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 112,
+          "name": "Grumper",
+          "level": 16,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Inductor",
+            "Coward's Rest"
+          ],
+          "traitMapping": {
+            "Inductor": "Inductor",
+            "Coward's Rest": "Coward's Rest"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": {
+        "stage": 0,
+        "number": 111,
+        "name": "Grumvel",
+        "level": 0,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Energy Reserves",
+          "Settling"
+        ],
+        "traitMapping": {
+          "Energy Reserves": "Inductor",
+          "Settling": "Coward's Rest"
+        }
+      },
+      "to": null,
+      "number": 112,
+      "name": "Grumper",
+      "level": 16,
+      "trading": false,
+      "traits": [
+        "Inductor",
+        "Coward's Rest"
+      ],
+      "traitMapping": {
+        "Inductor": "Inductor",
+        "Coward's Rest": "Coward's Rest"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "The Highbelow?",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "20%",
+        "level": "55 - 65",
+        "freetem": {
+          "minLevel": 55,
+          "maxLevel": 65,
+          "minPansuns": 177,
+          "maxPansuns": 205
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Grumper.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Grumper.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 95,
+    "hatchMins": 26,
+    "tvYields": {
+      "hp": 1,
+      "sta": 0,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 2,
+      "spdef": 0
+    },
+    "gameDescription": "Often the butt of Dojo jokes, Grumper are an evolutive mystery. While some Temtemologists claim they are just Grumvel with overdeveloped horns, some others claim it's a completely different genus.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/8/81/UmbraGrumper_full_render.png?c89957",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/3/37/UmbraGrumper_idle_animation.gif?aa9dc2",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/a/a6/LumaGrumper_full_render.png?e7c307",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/b/b9/LumaGrumper_idle_animation.gif?943bbb",
+    "renderStaticImage": "/images/renders/temtem/static/Grumper.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Grumper.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Grumper.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Grumper.gif"
   },
   {
     "number": 113,
@@ -31399,943 +33558,43 @@
       "spdef": 58,
       "total": 456
     },
-    "traits": [
-      "Synergy Adept",
-      "Iridescence"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 110,
-        "inches": 43
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 63,
-        "lbs": 138
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Finbeat",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Ice Cubes",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Hypnosis",
-        "source": "Levelling",
-        "levels": 12
-      },
-      {
-        "name": "Rainbow Guard",
-        "source": "Levelling",
-        "levels": 21
-      },
-      {
-        "name": "Waterjet",
-        "source": "Levelling",
-        "levels": 32
-      },
-      {
-        "name": "Water Stream",
-        "source": "Levelling",
-        "levels": 42
-      },
-      {
-        "name": "Cold Geyser",
-        "source": "Levelling",
-        "levels": 52
-      },
-      {
-        "name": "Fluid Barrier",
-        "source": "Levelling",
-        "levels": 60
-      },
-      {
-        "name": "Flood",
-        "source": "Levelling",
-        "levels": 69
-      },
-      {
-        "name": "Laundry",
-        "source": "Levelling",
-        "levels": 80
-      },
-      {
-        "name": "Aqua Stone",
-        "source": "Levelling",
-        "levels": 92
-      },
-      {
-        "name": "Sanative Rain",
-        "source": "Levelling",
-        "levels": 100
-      },
-      {
-        "name": "Finbeat",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Ice Cubes",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Hypnosis",
-        "source": "Levelling",
-        "levels": 12
-      },
-      {
-        "name": "Rainbow Guard",
-        "source": "Levelling",
-        "levels": 21
-      },
-      {
-        "name": "Waterjet",
-        "source": "Levelling",
-        "levels": 32
-      },
-      {
-        "name": "Neutral Stream",
-        "source": "Levelling",
-        "levels": 42
-      },
-      {
-        "name": "Cooperation",
-        "source": "Levelling",
-        "levels": 69
-      },
-      {
-        "name": "Stampede",
-        "source": "Levelling",
-        "levels": 80
-      },
-      {
-        "name": "Late Torment",
-        "source": "Levelling",
-        "levels": 92
-      },
-      {
-        "name": "Held Anger",
-        "source": "Levelling",
-        "levels": 100
-      },
-      {
-        "name": "Finbeat",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Ice Cubes",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Hypnosis",
-        "source": "Levelling",
-        "levels": 12
-      },
-      {
-        "name": "Rainbow Guard",
-        "source": "Levelling",
-        "levels": 21
-      },
-      {
-        "name": "Waterjet",
-        "source": "Levelling",
-        "levels": 32
-      },
-      {
-        "name": "Wind Stream",
-        "source": "Levelling",
-        "levels": 42
-      },
-      {
-        "name": "Turbine",
-        "source": "Levelling",
-        "levels": 52
-      },
-      {
-        "name": "Refreshing Breeze",
-        "source": "Levelling",
-        "levels": 69
-      },
-      {
-        "name": "Debris Typhoon",
-        "source": "Levelling",
-        "levels": 80
-      },
-      {
-        "name": "Finbeat",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Ice Cubes",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Hypnosis",
-        "source": "Levelling",
-        "levels": 12
-      },
-      {
-        "name": "Rainbow Guard",
-        "source": "Levelling",
-        "levels": 21
-      },
-      {
-        "name": "Waterjet",
-        "source": "Levelling",
-        "levels": 32
-      },
-      {
-        "name": "Earth Stream",
-        "source": "Levelling",
-        "levels": 42
-      },
-      {
-        "name": "Rockfall",
-        "source": "Levelling",
-        "levels": 52
-      },
-      {
-        "name": "Stone Wall",
-        "source": "Levelling",
-        "levels": 60
-      },
-      {
-        "name": "Quicksand",
-        "source": "Levelling",
-        "levels": 69
-      },
-      {
-        "name": "Earthbreaker",
-        "source": "Levelling",
-        "levels": 80
-      },
-      {
-        "name": "Stone Ball",
-        "source": "Levelling",
-        "levels": 91
-      },
-      {
-        "name": "Finbeat",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Ice Cubes",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Hypnosis",
-        "source": "Levelling",
-        "levels": 12
-      },
-      {
-        "name": "Rainbow Guard",
-        "source": "Levelling",
-        "levels": 21
-      },
-      {
-        "name": "Waterjet",
-        "source": "Levelling",
-        "levels": 32
-      },
-      {
-        "name": "Fire Stream",
-        "source": "Levelling",
-        "levels": 42
-      },
-      {
-        "name": "Quetza-leño",
-        "source": "Levelling",
-        "levels": 52
-      },
-      {
-        "name": "Meteor Swarm",
-        "source": "Levelling",
-        "levels": 80
-      },
-      {
-        "name": "Finbeat",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Ice Cubes",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Hypnosis",
-        "source": "Levelling",
-        "levels": 12
-      },
-      {
-        "name": "Rainbow Guard",
-        "source": "Levelling",
-        "levels": 21
-      },
-      {
-        "name": "Waterjet",
-        "source": "Levelling",
-        "levels": 32
-      },
-      {
-        "name": "Nature Stream",
-        "source": "Levelling",
-        "levels": 42
-      },
-      {
-        "name": "Water Cutting Lily",
-        "source": "Levelling",
-        "levels": 52
-      },
-      {
-        "name": "Roots",
-        "source": "Levelling",
-        "levels": 69
-      },
-      {
-        "name": "Revitalize",
-        "source": "Levelling",
-        "levels": 80
-      },
-      {
-        "name": "Photosynthesis",
-        "source": "Levelling",
-        "levels": 100
-      },
-      {
-        "name": "Finbeat",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Ice Cubes",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Hypnosis",
-        "source": "Levelling",
-        "levels": 12
-      },
-      {
-        "name": "Rainbow Guard",
-        "source": "Levelling",
-        "levels": 21
-      },
-      {
-        "name": "Waterjet",
-        "source": "Levelling",
-        "levels": 32
-      },
-      {
-        "name": "Electric Stream",
-        "source": "Levelling",
-        "levels": 42
-      },
-      {
-        "name": "Electropunch",
-        "source": "Levelling",
-        "levels": 52
-      },
-      {
-        "name": "Electromagnetism",
-        "source": "Levelling",
-        "levels": 69
-      },
-      {
-        "name": "Charged Iron Filings",
-        "source": "Levelling",
-        "levels": 80
-      },
-      {
-        "name": "Sparkling Bullet",
-        "source": "Levelling",
-        "levels": 100
-      },
-      {
-        "name": "Finbeat",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Ice Cubes",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Hypnosis",
-        "source": "Levelling",
-        "levels": 12
-      },
-      {
-        "name": "Rainbow Guard",
-        "source": "Levelling",
-        "levels": 21
-      },
-      {
-        "name": "Waterjet",
-        "source": "Levelling",
-        "levels": 32
-      },
-      {
-        "name": "Mental Stream",
-        "source": "Levelling",
-        "levels": 42
-      },
-      {
-        "name": "Matter Teleport",
-        "source": "Levelling",
-        "levels": 52
-      },
-      {
-        "name": "Ultrasound",
-        "source": "Levelling",
-        "levels": 69
-      },
-      {
-        "name": "Blackhole",
-        "source": "Levelling",
-        "levels": 80
-      },
-      {
-        "name": "Transient Echo",
-        "source": "Levelling",
-        "levels": 100
-      },
-      {
-        "name": "Finbeat",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Ice Cubes",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Hypnosis",
-        "source": "Levelling",
-        "levels": 12
-      },
-      {
-        "name": "Rainbow Guard",
-        "source": "Levelling",
-        "levels": 21
-      },
-      {
-        "name": "Waterjet",
-        "source": "Levelling",
-        "levels": 32
-      },
-      {
-        "name": "Digital Stream",
-        "source": "Levelling",
-        "levels": 42
-      },
-      {
-        "name": "Cyberclaw",
-        "source": "Levelling",
-        "levels": 52
-      },
-      {
-        "name": "Generify",
-        "source": "Levelling",
-        "levels": 69
-      },
-      {
-        "name": "Faraday Cage",
-        "source": "Levelling",
-        "levels": 80
-      },
-      {
-        "name": "Finbeat",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Ice Cubes",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Hypnosis",
-        "source": "Levelling",
-        "levels": 12
-      },
-      {
-        "name": "Rainbow Guard",
-        "source": "Levelling",
-        "levels": 21
-      },
-      {
-        "name": "Waterjet",
-        "source": "Levelling",
-        "levels": 32
-      },
-      {
-        "name": "Melee Stream",
-        "source": "Levelling",
-        "levels": 42
-      },
-      {
-        "name": "Helicopter Kick",
-        "source": "Levelling",
-        "levels": 52
-      },
-      {
-        "name": "Show Off",
-        "source": "Levelling",
-        "levels": 65
-      },
-      {
-        "name": "Wrenching Massage",
-        "source": "Levelling",
-        "levels": 80
-      },
-      {
-        "name": "Haito Uchi",
-        "source": "Levelling",
-        "levels": 92
-      },
-      {
-        "name": "Finbeat",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Ice Cubes",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Hypnosis",
-        "source": "Levelling",
-        "levels": 12
-      },
-      {
-        "name": "Rainbow Guard",
-        "source": "Levelling",
-        "levels": 21
-      },
-      {
-        "name": "Waterjet",
-        "source": "Levelling",
-        "levels": 32
-      },
-      {
-        "name": "Crystal Stream",
-        "source": "Levelling",
-        "levels": 42
-      },
-      {
-        "name": "Glass Blade",
-        "source": "Levelling",
-        "levels": 52
-      },
-      {
-        "name": "Sharp Stabs",
-        "source": "Levelling",
-        "levels": 69
-      },
-      {
-        "name": "Sharpening",
-        "source": "Levelling",
-        "levels": 80
-      },
-      {
-        "name": "Mineral Hail",
-        "source": "Levelling",
-        "levels": 90
-      },
-      {
-        "name": "Finbeat",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Ice Cubes",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Hypnosis",
-        "source": "Levelling",
-        "levels": 12
-      },
-      {
-        "name": "Rainbow Guard",
-        "source": "Levelling",
-        "levels": 21
-      },
-      {
-        "name": "Waterjet",
-        "source": "Levelling",
-        "levels": 32
-      },
-      {
-        "name": "Toxic Stream",
-        "source": "Levelling",
-        "levels": 42
-      },
-      {
-        "name": "Venomous Claws",
-        "source": "Levelling",
-        "levels": 52
-      },
-      {
-        "name": "Metabolize",
-        "source": "Levelling",
-        "levels": 69
-      },
-      {
-        "name": "Urushiol",
-        "source": "Levelling",
-        "levels": 80
-      },
-      {
-        "name": "Noxious Bomb",
-        "source": "Levelling",
-        "levels": 100
-      },
-      {
-        "name": "Misogi",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Zen Meditation",
-        "source": "TechniqueCourses"
-      }
-    ],
-    "trivia": [
-      "Prior to Patch 1.5, Koish's exclusive Iridescence trait inverted type matchups against it. This meant that Mental Koish were the only Temtem weak to Neutral attacks, and Mental, Digital, or Melee Koish were the only Temtem resistant to Digital attacks.",
-      "Koish has 2 possible whisker lengths, 2 possible fin sizes, 6 possible colors for each of its 3 tail stripes, and 12 type combinations (each with a different pool of tail colors). This results in 864 variations of each Koish type and 10,368 variations total, not including Lumas.",
-      "Koish, along with Chromeon, are the only Temtem with a subspecies for each type."
-    ],
+    "techniques": [],
+    "trivia": [],
     "evolution": {
       "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [
-      {
-        "location": "Sillaro River",
-        "place": "Sillaro River",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "20%",
-        "level": "13 - 14 Water",
-        "freetem": {
-          "minLevel": 13,
-          "maxLevel": 14,
-          "minPansuns": 56,
-          "maxPansuns": 58
-        }
-      },
-      {
-        "location": "Sea-Queen's Aquarium",
-        "place": "",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "10%",
-        "level": "15 - 20 Random",
-        "freetem": {
-          "minLevel": 15,
-          "maxLevel": 20,
-          "minPansuns": 61,
-          "maxPansuns": 74
-        }
-      },
-      {
-        "location": "Thalassian Cliffs",
-        "place": "Thalassian Cliffs",
-        "note": "",
-        "island": "Deniz",
-        "frequency": "30%",
-        "level": "18 - 20 Wind",
-        "freetem": {
-          "minLevel": 18,
-          "maxLevel": 20,
-          "minPansuns": 69,
-          "maxPansuns": 74
-        }
-      },
-      {
-        "location": "The Flywalk",
-        "place": "The Flywalk",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "15%",
-        "level": "19 - 21 Nature",
-        "freetem": {
-          "minLevel": 19,
-          "maxLevel": 21,
-          "minPansuns": 72,
-          "maxPansuns": 77
-        }
-      },
-      {
-        "location": "The Hangroad",
-        "place": "The Hangroad",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "15%",
-        "level": "18 - 21 Fire",
-        "freetem": {
-          "minLevel": 18,
-          "maxLevel": 21,
-          "minPansuns": 69,
-          "maxPansuns": 77
-        }
-      },
-      {
-        "location": "Corrupted Badlands",
-        "place": "Corrupted Badlands",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "20%",
-        "level": "27 - 30 Toxic",
-        "freetem": {
-          "minLevel": 27,
-          "maxLevel": 30,
-          "minPansuns": 93,
-          "maxPansuns": 101
-        }
-      },
-      {
-        "location": "Xolot Reservoir",
-        "place": "Xolot Reservoir",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "10%",
-        "level": "29 - 33 Toxic",
-        "freetem": {
-          "minLevel": 29,
-          "maxLevel": 33,
-          "minPansuns": 99,
-          "maxPansuns": 110
-        }
-      },
-      {
-        "location": "Mines of Mictlan",
-        "place": "Mines of Mictlan",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "15%",
-        "level": "33 - 39 Crystal",
-        "freetem": {
-          "minLevel": 33,
-          "maxLevel": 39,
-          "minPansuns": 110,
-          "maxPansuns": 126
-        }
-      },
-      {
-        "location": "Gardens of Aztlan",
-        "place": "",
-        "note": "",
-        "island": "Tucma",
-        "frequency": "20%",
-        "level": "28 - 35 Crystal",
-        "freetem": {
-          "minLevel": 28,
-          "maxLevel": 35,
-          "minPansuns": 96,
-          "maxPansuns": 115
-        }
-      },
-      {
-        "location": "Mawingu Islets",
-        "place": "Mawingu Islets",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "20%",
-        "level": "32 - 39 Earth",
-        "freetem": {
-          "minLevel": 32,
-          "maxLevel": 39,
-          "minPansuns": 107,
-          "maxPansuns": 126
-        }
-      },
-      {
-        "location": "Nuru Lodge",
-        "place": "Nuru Lodge",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "100%",
-        "level": "44 - 50 Weekly",
-        "freetem": {
-          "minLevel": 44,
-          "maxLevel": 50,
-          "minPansuns": 139,
-          "maxPansuns": 155
-        }
-      },
-      {
-        "location": "Moyo Lake",
-        "place": "Moyo Lake",
-        "note": "",
-        "island": "Kisiwa",
-        "frequency": "25%",
-        "level": "44 - 48 Neutral",
-        "freetem": {
-          "minLevel": 44,
-          "maxLevel": 48,
-          "minPansuns": 139,
-          "maxPansuns": 150
-        }
-      },
-      {
-        "location": "Sacred Lake",
-        "place": "",
-        "note": "",
-        "island": "Cipanku",
-        "frequency": "15%",
-        "level": "55 - 65 Electric",
-        "freetem": {
-          "minLevel": 55,
-          "maxLevel": 65,
-          "minPansuns": 169,
-          "maxPansuns": 196
-        }
-      },
-      {
-        "location": "Sacred Lake",
-        "place": "",
-        "note": "",
-        "island": "Cipanku",
-        "frequency": "15%",
-        "level": "55 - 65 Digital",
-        "freetem": {
-          "minLevel": 55,
-          "maxLevel": 65,
-          "minPansuns": 169,
-          "maxPansuns": 196
-        }
-      },
-      {
-        "location": "Loch Aduar",
-        "place": "",
-        "note": "",
-        "island": "Arbury",
-        "frequency": "20%",
-        "level": "58 - 62 Melee",
-        "freetem": {
-          "minLevel": 58,
-          "maxLevel": 62,
-          "minPansuns": 177,
-          "maxPansuns": 188
-        }
-      },
-      {
-        "location": "Loch Aduar",
-        "place": "",
-        "note": "",
-        "island": "Arbury",
-        "frequency": "20%",
-        "level": "58 - 62 Mental",
-        "freetem": {
-          "minLevel": 58,
-          "maxLevel": 62,
-          "minPansuns": 177,
-          "maxPansuns": 188
-        }
-      },
-      {
-        "location": "Meadowdale",
-        "place": "Meadowdale",
-        "note": "",
-        "island": "Arbury",
-        "frequency": "20%",
-        "level": "57 - 62 Melee",
-        "freetem": {
-          "minLevel": 57,
-          "maxLevel": 62,
-          "minPansuns": 174,
-          "maxPansuns": 188
-        }
-      },
-      {
-        "location": "Meadowdale",
-        "place": "Meadowdale",
-        "note": "",
-        "island": "Arbury",
-        "frequency": "20%",
-        "level": "57 - 62 Mental",
-        "freetem": {
-          "minLevel": 57,
-          "maxLevel": 62,
-          "minPansuns": 174,
-          "maxPansuns": 188
-        }
-      },
-      {
-        "location": "Greenglen Forest",
-        "place": "",
-        "note": "",
-        "island": "Arbury",
-        "frequency": "20%",
-        "level": "62 - 70 Melee",
-        "freetem": {
-          "minLevel": 62,
-          "maxLevel": 70,
-          "minPansuns": 188,
-          "maxPansuns": 209
-        }
-      },
-      {
-        "location": "Greenglen Forest",
-        "place": "",
-        "note": "",
-        "island": "Arbury",
-        "frequency": "20%",
-        "level": "62 - 70 Mental",
-        "freetem": {
-          "minLevel": 62,
-          "maxLevel": 70,
-          "minPansuns": 188,
-          "maxPansuns": 209
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Koish.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Koish.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 100,
-    "hatchMins": 25,
-    "tvYields": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 2,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 0
-    },
-    "gameDescription": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/c/c7/Koish_full_render.png?2aea14",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/3/32/Koish_idle_animation.gif?d2fa85",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/a/ac/LumaKoish_full_render.png?662f03",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/d/d3/LumaKoish_idle_animation.gif?22a329",
-    "renderStaticImage": "/images/renders/temtem/static/Koish.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Koish.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Koish.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Koish.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 144,
@@ -35411,186 +36670,43 @@
       "spdef": 41,
       "total": 350
     },
-    "traits": [
-      "Zen",
-      "Mental Alliance"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 68,
-        "inches": 26
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 20,
-        "lbs": 44
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Scratch",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Nibble",
-        "source": "Levelling",
-        "levels": 3
-      },
-      {
-        "name": "Martial Strike",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Token",
-        "source": "Levelling",
-        "levels": 9
-      },
-      {
-        "name": "Hook",
-        "source": "Levelling",
-        "levels": 14
-      },
-      {
-        "name": "Double Gash",
-        "source": "Levelling",
-        "levels": 20
-      },
-      {
-        "name": "Cheer Up",
-        "source": "Levelling",
-        "levels": 24
-      },
-      {
-        "name": "Plasma Beam",
-        "source": "Levelling",
-        "levels": 34
-      },
-      {
-        "name": "Dim Mak",
-        "source": "Levelling",
-        "levels": 49
-      },
-      {
-        "name": "Unseen Blow",
-        "source": "Breeding"
-      }
-    ],
-    "trivia": [
-      "Thaiko has a sticker on the official Temtem Discord, beating Chubee by 26 votes, out of the total 358 votes, in the 5th sticker poll."
-    ],
+    "techniques": [],
+    "trivia": [],
     "evolution": {
-      "stage": 0,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 159,
-          "name": "Thaiko",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Zen",
-            "Mental Alliance"
-          ],
-          "traitMapping": {
-            "Zen": "Unnoticed",
-            "Mental Alliance": "Shaolin"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 160,
-          "name": "Monkko",
-          "level": 20,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Unnoticed",
-            "Shaolin"
-          ],
-          "traitMapping": {
-            "Unnoticed": "Unnoticed",
-            "Shaolin": "Shaolin"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": null,
-      "to": {
-        "stage": 1,
-        "number": 160,
-        "name": "Monkko",
-        "level": 20,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Unnoticed",
-          "Shaolin"
-        ],
-        "traitMapping": {
-          "Unnoticed": "Unnoticed",
-          "Shaolin": "Shaolin"
-        }
-      },
-      "number": 159,
-      "name": "Thaiko",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Zen",
-        "Mental Alliance"
-      ],
-      "traitMapping": {
-        "Zen": "Unnoticed",
-        "Mental Alliance": "Shaolin"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [
-      {
-        "location": "Meadowdale",
-        "place": "Meadowdale",
-        "note": "",
-        "island": "Arbury",
-        "frequency": "20%",
-        "level": "55 - 60",
-        "freetem": {
-          "minLevel": 55,
-          "maxLevel": 60,
-          "minPansuns": 144,
-          "maxPansuns": 155
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Thaiko.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Thaiko.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 120,
-    "hatchMins": 21,
-    "tvYields": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 2,
-      "spdef": 0
-    },
-    "gameDescription": "Developed as a joint project between Lochburg and Neoedo, this little furry bruiser combines feline breeding savoir-faire with cutting edge technology. A hotfix to prevent hairballs is expected any time now.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/1/13/UmbraThaiko_full_render.png?f3d60c",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/c/c0/UmbraThaiko_idle_animation.gif?c50540",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/7/77/LumaThaiko_full_render.png?570e56",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/b/be/LumaThaiko_idle_animation.gif?479b68",
-    "renderStaticImage": "/images/renders/temtem/static/Thaiko.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Thaiko.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Thaiko.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Thaiko.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 160,
@@ -35612,168 +36728,21 @@
       "spdef": 48,
       "total": 444
     },
-    "traits": [
-      "Unnoticed",
-      "Shaolin"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 158,
-        "inches": 62
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 66,
-        "lbs": 145
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Scratch",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Nibble",
-        "source": "Levelling",
-        "levels": 3
-      },
-      {
-        "name": "Martial Strike",
-        "source": "Levelling",
-        "levels": 6
-      },
-      {
-        "name": "Token",
-        "source": "Levelling",
-        "levels": 9
-      },
-      {
-        "name": "Hook",
-        "source": "Levelling",
-        "levels": 14
-      },
-      {
-        "name": "Double Gash",
-        "source": "Levelling",
-        "levels": 20
-      },
-      {
-        "name": "Cheer Up",
-        "source": "Levelling",
-        "levels": 24
-      },
-      {
-        "name": "Plasma Beam",
-        "source": "Levelling",
-        "levels": 34
-      },
-      {
-        "name": "Dim Mak",
-        "source": "Levelling",
-        "levels": 49
-      },
-      {
-        "name": "Ninja Jutsu",
-        "source": "Levelling",
-        "levels": 64
-      },
-      {
-        "name": "Soul Shout",
-        "source": "Levelling",
-        "levels": 77
-      },
-      {
-        "name": "Reset",
-        "source": "Levelling",
-        "levels": 89
-      },
-      {
-        "name": "Rend",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Zen Meditation",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Harmful Microwaves",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Unseen Blow",
-        "source": "Breeding"
-      }
-    ],
-    "trivia": [
-      "Monkko has an emote on the official Temtem Discord."
-    ],
+    "techniques": [],
+    "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 159,
-          "name": "Thaiko",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Zen",
-            "Mental Alliance"
-          ],
-          "traitMapping": {
-            "Zen": "Unnoticed",
-            "Mental Alliance": "Shaolin"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 160,
-          "name": "Monkko",
-          "level": 20,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Unnoticed",
-            "Shaolin"
-          ],
-          "traitMapping": {
-            "Unnoticed": "Unnoticed",
-            "Shaolin": "Shaolin"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 159,
-        "name": "Thaiko",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Zen",
-          "Mental Alliance"
-        ],
-        "traitMapping": {
-          "Zen": "Unnoticed",
-          "Mental Alliance": "Shaolin"
-        }
-      },
-      "to": null,
-      "number": 160,
-      "name": "Monkko",
-      "level": 20,
-      "trading": false,
-      "traits": [
-        "Unnoticed",
-        "Shaolin"
-      ],
-      "traitMapping": {
-        "Unnoticed": "Unnoticed",
-        "Shaolin": "Shaolin"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -35784,26 +36753,18 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 70,
-    "hatchMins": 31,
-    "tvYields": {
-      "hp": 2,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 2,
-      "spdef": 0
-    },
-    "gameDescription": "Advanced martial arts training after breeding ensures that this Temtem is a cut above its less educated predecessors. Although the priests of Miyako frown at new Temtem species, Monkko's kung-fu is based on their techniques.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/8/8a/UmbraMonkko_full_render.png?23b181",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/f/f5/UmbraMonkko_idle_animation.gif?c82209",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/7/75/LumaMonkko_full_render.png?d9c7c7",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/8/82/LumaMonkko_idle_animation.gif?ad971a",
-    "renderStaticImage": "/images/renders/temtem/static/Monkko.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Monkko.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Monkko.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Monkko.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 161,
@@ -35825,202 +36786,43 @@
       "spdef": 101,
       "total": 423
     },
-    "traits": [
-      "Trauma",
-      "Flawed Crystal"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 152,
-        "inches": 59
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 172,
-        "lbs": 379
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Glass Blade",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Fire Flame",
-        "source": "Levelling",
-        "levels": 4
-      },
-      {
-        "name": "Head Charge",
-        "source": "Levelling",
-        "levels": 9
-      },
-      {
-        "name": "Chains Hit",
-        "source": "Levelling",
-        "levels": 15
-      },
-      {
-        "name": "Meteor Swarm",
-        "source": "Levelling",
-        "levels": 27
-      },
-      {
-        "name": "Rampage",
-        "source": "Levelling",
-        "levels": 31
-      },
-      {
-        "name": "Heat Up",
-        "source": "Levelling",
-        "levels": 36
-      },
-      {
-        "name": "Crystal Bite",
-        "source": "Levelling",
-        "levels": 47
-      },
-      {
-        "name": "Warm Cuddle",
-        "source": "Levelling",
-        "levels": 56
-      },
-      {
-        "name": "Mineral Hail",
-        "source": "Levelling",
-        "levels": 65
-      },
-      {
-        "name": "Chain Heal",
-        "source": "Levelling",
-        "levels": 72
-      },
-      {
-        "name": "Quartz Dirt",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Fiery Heist",
-        "source": "Breeding"
-      }
-    ],
-    "trivia": [
-      "Anahir is a Temtem which can only be obtained once per player. This makes its limited fertility very valuable.",
-      "The Anahir you obtain during the quest Adventure in the Myrisles will always have 50 SVs in both DEF and SPDEF stats.",
-      "The Crystal Temtem that was subjected to intense heat to create Anahir is not a reference to any specific Temtem."
-    ],
+    "techniques": [],
+    "trivia": [],
     "evolution": {
-      "stage": 0,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 161,
-          "name": "Anahir",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Trauma",
-            "Flawed Crystal"
-          ],
-          "traitMapping": {
-            "Trauma": "Self-Care",
-            "Flawed Crystal": "Protective Crystal"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 162,
-          "name": "Anatan",
-          "level": 1000,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Self-Care",
-            "Protective Crystal"
-          ],
-          "traitMapping": {
-            "Self-Care": "Self-Care",
-            "Protective Crystal": "Protective Crystal"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": null,
-      "to": {
-        "stage": 1,
-        "number": 162,
-        "name": "Anatan",
-        "level": 1000,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Self-Care",
-          "Protective Crystal"
-        ],
-        "traitMapping": {
-          "Self-Care": "Self-Care",
-          "Protective Crystal": "Protective Crystal"
-        }
-      },
-      "number": 161,
-      "name": "Anahir",
-      "level": 0,
-      "trading": false,
-      "traits": [
-        "Trauma",
-        "Flawed Crystal"
-      ],
-      "traitMapping": {
-        "Trauma": "Self-Care",
-        "Flawed Crystal": "Protective Crystal"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [
-      {
-        "location": "Anak Volcano",
-        "place": "Anak Volcano",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "Gift",
-        "level": "20",
-        "freetem": {
-          "minLevel": 20,
-          "maxLevel": 20,
-          "minPansuns": null,
-          "maxPansuns": null
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Anahir.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Anahir.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 0,
-    "hatchMins": 45,
-    "tvYields": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 2,
-      "spatk": 0,
-      "spdef": 2
-    },
-    "gameDescription": "This tortured creature is the result of Dr. Hamijo's attempts at creating a new \"Diamond\" variety. By picking the sturdiest variety of Crystal Temtem and submitting it to the harshest Fire environment of Anak, he has achieved something unique... and uniquely cruel.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/0/0c/UmbraAnahir_full_render.png?acee7a",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/4/4d/UmbraAnahir_idle_animation.gif?32ec1f",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/b/be/LumaAnahir_full_render.png?1f98bc",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/9/9c/LumaAnahir_idle_animation.gif?2126e7",
-    "renderStaticImage": "/images/renders/temtem/static/Anahir.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Anahir.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Anahir.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Anahir.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 162,
@@ -36042,175 +36844,21 @@
       "spdef": 103,
       "total": 448
     },
-    "traits": [
-      "Self-Care",
-      "Protective Crystal"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 220,
-        "inches": 86
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 279,
-        "lbs": 615
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Glass Blade",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Fire Flame",
-        "source": "Levelling",
-        "levels": 4
-      },
-      {
-        "name": "Head Charge",
-        "source": "Levelling",
-        "levels": 9
-      },
-      {
-        "name": "Chains Hit",
-        "source": "Levelling",
-        "levels": 15
-      },
-      {
-        "name": "Meteor Swarm",
-        "source": "Levelling",
-        "levels": 27
-      },
-      {
-        "name": "Rampage",
-        "source": "Levelling",
-        "levels": 31
-      },
-      {
-        "name": "Heat Up",
-        "source": "Levelling",
-        "levels": 36
-      },
-      {
-        "name": "Crystal Bite",
-        "source": "Levelling",
-        "levels": 47
-      },
-      {
-        "name": "Warm Cuddle",
-        "source": "Levelling",
-        "levels": 56
-      },
-      {
-        "name": "Mineral Hail",
-        "source": "Levelling",
-        "levels": 65
-      },
-      {
-        "name": "Chain Heal",
-        "source": "Levelling",
-        "levels": 72
-      },
-      {
-        "name": "Diamond Fort",
-        "source": "Levelling",
-        "levels": 80
-      },
-      {
-        "name": "Flaming Meteorite",
-        "source": "Levelling",
-        "levels": 91
-      },
-      {
-        "name": "Cage",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Rend",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Quartz Dirt",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Restore",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Fiery Heist",
-        "source": "Breeding"
-      }
-    ],
+    "techniques": [],
     "trivia": [],
     "evolution": {
-      "stage": 1,
-      "evolutionTree": [
-        {
-          "stage": 0,
-          "number": 161,
-          "name": "Anahir",
-          "level": 0,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Trauma",
-            "Flawed Crystal"
-          ],
-          "traitMapping": {
-            "Trauma": "Self-Care",
-            "Flawed Crystal": "Protective Crystal"
-          }
-        },
-        {
-          "stage": 1,
-          "number": 162,
-          "name": "Anatan",
-          "level": 1000,
-          "type": "levels",
-          "trading": false,
-          "traits": [
-            "Self-Care",
-            "Protective Crystal"
-          ],
-          "traitMapping": {
-            "Self-Care": "Self-Care",
-            "Protective Crystal": "Protective Crystal"
-          }
-        }
-      ],
-      "evolves": true,
-      "type": "levels",
-      "from": {
-        "stage": 0,
-        "number": 161,
-        "name": "Anahir",
-        "level": 0,
-        "type": "levels",
-        "trading": false,
-        "traits": [
-          "Trauma",
-          "Flawed Crystal"
-        ],
-        "traitMapping": {
-          "Trauma": "Self-Care",
-          "Flawed Crystal": "Protective Crystal"
-        }
-      },
-      "to": null,
-      "number": 162,
-      "name": "Anatan",
-      "level": 1000,
-      "trading": false,
-      "traits": [
-        "Self-Care",
-        "Protective Crystal"
-      ],
-      "traitMapping": {
-        "Self-Care": "Self-Care",
-        "Protective Crystal": "Protective Crystal"
-      }
+      "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
@@ -36221,26 +36869,18 @@
       "male": 50,
       "female": 50
     },
-    "catchRate": 0,
-    "hatchMins": 45,
-    "tvYields": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 3,
-      "spatk": 0,
-      "spdef": 2
-    },
-    "gameDescription": "Through the care and kindness of its tamer, Anahir overcame its traumatic origins. This happy Anatan stands as living proof of the healing power of love.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/3/3d/UmbraAnatan_full_render.png?68c5b1",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/9/93/UmbraAnatan_idle_animation.gif?75ed23",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/2/26/LumaAnatan_full_render.png?5f25a1",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/c/cd/LumaAnatan_idle_animation.gif?9e7cbc",
-    "renderStaticImage": "/images/renders/temtem/static/Anatan.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Anatan.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Anatan.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Anatan.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 163,
@@ -36262,138 +36902,43 @@
       "spdef": 72,
       "total": 439
     },
-    "traits": [
-      "Intimidator",
-      "Frightening"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 420,
-        "inches": 165
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 4600,
-        "lbs": 10143
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Smoldering Kiss",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Roar",
-        "source": "Levelling",
-        "levels": 4
-      },
-      {
-        "name": "Sharp Leaf",
-        "source": "Levelling",
-        "levels": 9
-      },
-      {
-        "name": "Roots",
-        "source": "Levelling",
-        "levels": 10
-      },
-      {
-        "name": "Jaw Strike",
-        "source": "Levelling",
-        "levels": 13
-      },
-      {
-        "name": "Embers",
-        "source": "Levelling",
-        "levels": 26
-      },
-      {
-        "name": "Plague",
-        "source": "Levelling",
-        "levels": 32
-      },
-      {
-        "name": "Bark Shield",
-        "source": "Levelling",
-        "levels": 46
-      },
-      {
-        "name": "Extinction",
-        "source": "Levelling",
-        "levels": 52
-      },
-      {
-        "name": "Stampede",
-        "source": "Levelling",
-        "levels": 55
-      },
-      {
-        "name": "Flaming Meteorite",
-        "source": "Levelling",
-        "levels": 66
-      },
-      {
-        "name": "Meteor Swarm",
-        "source": "Levelling",
-        "levels": 85
-      },
-      {
-        "name": "Outgrowth",
-        "source": "Levelling",
-        "levels": 100
-      }
-    ],
-    "trivia": [
-      "The first Luma Tyranak was hatched by The Jingles (IGN) on January 6, 2022, with a 1/10,000 Luma chance.",
-      "Tyranak has a sticker on the official Temtem Discord, beating Volgon by 60 votes, out of the total 344 votes, in the 1st sticker poll."
-    ],
+    "techniques": [],
+    "trivia": [],
     "evolution": {
       "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [
-      {
-        "location": "Anak Volcano",
-        "place": "Anak Volcano",
-        "note": "",
-        "island": "Omninesia",
-        "frequency": "Reward",
-        "level": "1 (Egg)",
-        "freetem": {
-          "minLevel": 1,
-          "maxLevel": 1,
-          "minPansuns": null,
-          "maxPansuns": null
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Tyranak.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Tyranak.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 0,
-    "hatchMins": 45,
-    "tvYields": {
-      "hp": 1,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 0,
-      "spdef": 1
-    },
-    "gameDescription": "Probably the last living relic from a distant pre-human past, when MegaTem roamed the unbroken Paninsula. Most Temtemologists considered it to be cryptofauna until... well, until now.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/9/9c/UmbraTyranak_full_render.png?74075b",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/2/2b/UmbraTyranak_idle_animation.gif?e79a38",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/6/67/LumaTyranak_full_render.png?6299c0",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/5/55/LumaTyranak_idle_animation.gif?cc4a96",
-    "renderStaticImage": "/images/renders/temtem/static/Tyranak.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Tyranak.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Tyranak.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Tyranak.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 164,
@@ -36414,146 +36959,43 @@
       "spdef": 58,
       "total": 449
     },
-    "traits": [
-      "Short Circuit",
-      "Superconductivity"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 1200,
-        "inches": 472
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 6200,
-        "lbs": 13671
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "DC Beam",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Stare",
-        "source": "Levelling",
-        "levels": 7
-      },
-      {
-        "name": "Willpower Drain",
-        "source": "Levelling",
-        "levels": 12
-      },
-      {
-        "name": "Beef Up",
-        "source": "Levelling",
-        "levels": 16
-      },
-      {
-        "name": "Sharp Rain",
-        "source": "Levelling",
-        "levels": 21
-      },
-      {
-        "name": "Rend",
-        "source": "Levelling",
-        "levels": 30
-      },
-      {
-        "name": "Cage",
-        "source": "Levelling",
-        "levels": 35
-      },
-      {
-        "name": "Hypoxia",
-        "source": "Levelling",
-        "levels": 42
-      },
-      {
-        "name": "Electric Storm",
-        "source": "Levelling",
-        "levels": 56
-      },
-      {
-        "name": "Thunder Strike",
-        "source": "Levelling",
-        "levels": 70
-      },
-      {
-        "name": "Sparks",
-        "source": "Levelling",
-        "levels": 81
-      },
-      {
-        "name": "Undermine",
-        "source": "Levelling",
-        "levels": 90
-      },
-      {
-        "name": "Blizzard",
-        "source": "Levelling",
-        "levels": 95
-      },
-      {
-        "name": "Ampere Outburst",
-        "source": "Levelling",
-        "levels": 100
-      },
-      {
-        "name": "Restore",
-        "source": "TechniqueCourses"
-      }
-    ],
-    "trivia": [
-      "The first Luma Volgon, and the first Luma Mythical, was hatched by A Cheeky Greek (IGN) on September 5, 2021 with a 1/10,000 Luma chance."
-    ],
+    "techniques": [],
+    "trivia": [],
     "evolution": {
       "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [
-      {
-        "location": "Sacred Lake",
-        "place": "",
-        "note": "",
-        "island": "Cipanku",
-        "frequency": "Reward",
-        "level": "1 (Egg)",
-        "freetem": {
-          "minLevel": 1,
-          "maxLevel": 1,
-          "minPansuns": null,
-          "maxPansuns": null
-        }
-      }
-    ],
+    "locations": [],
     "icon": "/images/portraits/temtem/large/Volgon.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Volgon.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 0,
-    "hatchMins": 45,
-    "tvYields": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 4,
-      "spdef": 0
-    },
-    "gameDescription": "In Cipanki lore, dragons are born of lightning to roam the vast reaches of heaven. Sometimes, a curious member of their race will visit the Archipelago and befriend a human. They are never considered \"tamed\" - they merely consent to accompanying a tamer for a few years or even decades.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/3/37/UmbraVolgon_full_render.png?822733",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/e/e8/UmbraVolgon_idle_animation.gif?5082c0",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/1/10/LumaVolgon_full_render.png?41a66d",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/1/13/LumaVolgon_idle_animation.gif?931003",
-    "renderStaticImage": "/images/renders/temtem/static/Volgon.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Volgon.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Volgon.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Volgon.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   },
   {
     "number": 165,
@@ -36575,140 +37017,42 @@
       "spdef": 70,
       "total": 464
     },
-    "traits": [
-      "Protostar",
-      "Supernova"
-    ],
+    "traits": [],
     "details": {
       "height": {
-        "cm": 290,
-        "inches": 114
+        "cm": 0,
+        "inches": 0
       },
       "weight": {
-        "kg": 10800,
-        "lbs": 23814
+        "kg": 0,
+        "lbs": 0
       }
     },
-    "techniques": [
-      {
-        "name": "Clay Ball",
-        "source": "Levelling",
-        "levels": 1
-      },
-      {
-        "name": "Mud Shower",
-        "source": "Levelling",
-        "levels": 7
-      },
-      {
-        "name": "Energy Manipulation",
-        "source": "Levelling",
-        "levels": 12
-      },
-      {
-        "name": "Jinxed Whisper",
-        "source": "Levelling",
-        "levels": 20
-      },
-      {
-        "name": "Nightmare Feed",
-        "source": "Levelling",
-        "levels": 33
-      },
-      {
-        "name": "Denigrate",
-        "source": "Levelling",
-        "levels": 41
-      },
-      {
-        "name": "Dust Vortex",
-        "source": "Levelling",
-        "levels": 54
-      },
-      {
-        "name": "Depress",
-        "source": "Levelling",
-        "levels": 66
-      },
-      {
-        "name": "Beta Burst",
-        "source": "Levelling",
-        "levels": 75
-      },
-      {
-        "name": "Blackhole",
-        "source": "Levelling",
-        "levels": 89
-      },
-      {
-        "name": "Selfless Ruination",
-        "source": "Levelling",
-        "levels": 96
-      },
-      {
-        "name": "Double Edge",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Darkness",
-        "source": "TechniqueCourses"
-      },
-      {
-        "name": "Untangle",
-        "source": "TechniqueCourses"
-      }
-    ],
-    "trivia": [
-      "Galios is the only Temtem to be released after version 1.0.",
-      "According to a scientist of the first Umbra expedition, in Omninesia, there is a legend that Galios is the Master of  Umbra and a counterbalance to the Goddess of Anak Volcano",
-      "Pansolar cultists name Galios as the \"Lord of the Flaming Orb\""
-    ],
+    "techniques": [],
+    "trivia": [],
     "evolution": {
       "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [
-      {
-        "location": "Pansun Outer Crust",
-        "place": "",
-        "note": "",
-        "island": "Pansun",
-        "frequency": "Reward",
-        "level": "1 (Egg)",
-        "freetem": {
-          "minLevel": 1,
-          "maxLevel": 1,
-          "minPansuns": null,
-          "maxPansuns": null
-        }
-      }
-    ],
+    "locations": [],
     "icon": "",
     "lumaIcon": "",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 0,
-    "hatchMins": 45,
-    "tvYields": {
-      "hp": 0,
-      "sta": 0,
-      "spd": 0,
-      "atk": 0,
-      "def": 0,
-      "spatk": 4,
-      "spdef": 0
-    },
-    "gameDescription": "By far the most enigmatic Temtem, an extremophile that thrives where life should be impossible: the inner core of the Pansun. Its origins and its link with the enigmatic Umbra remain a complete mystery.",
-    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/d/d2/UmbraGalios_full_render.png?7d7d30",
-    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/3/34/UmbraGalios_idle_animation.gif?de38f2",
-    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/6/6c/LumaGalios_full_render.png?8d25bf",
-    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/a/af/LumaGalios_idle_animation.gif?fcbfc7",
-    "renderStaticImage": "/images/renders/temtem/static/Galios.png",
-    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Galios.png",
-    "renderAnimatedImage": "/images/renders/temtem/animated/Galios.gif",
-    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Galios.gif"
+    "catchRate": 200,
+    "hatchMins": 5,
+    "tvYields": {},
+    "gameDescription": "N/A",
+    "wikiRenderStaticUrl": "",
+    "wikiRenderAnimatedUrl": "",
+    "wikiRenderStaticLumaUrl": "",
+    "wikiRenderAnimatedLumaUrl": "",
+    "renderStaticImage": "",
+    "renderStaticLumaImage": "",
+    "renderAnimatedImage": "",
+    "renderAnimatedLumaImage": ""
   }
 ]
