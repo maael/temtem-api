@@ -356,8 +356,8 @@
   {
     "name": "Fever Rush",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Fever_Rush",
-    "description": "",
-    "effect": ""
+    "description": "When getting a status condition, gets ATK .",
+    "effect": "Fever Rush gifts the holder with ATK whenever they get a Status Condition with the exception of the Alerted Condition."
   },
   {
     "name": "Final Stand",
@@ -374,8 +374,8 @@
   {
     "name": "Friendship",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Friendship",
-    "description": "",
-    "effect": ""
+    "description": "When the holder and the ally attack the same rival with an offensive technique, the damage of the second technique is increased by 15%.",
+    "effect": "When the holder with Friendship and the ally attack the same rival with an offensive technique, the damage of the second technique is increased by 15%. The second technique does not have to be executed by the holder of Friendship."
   },
   {
     "name": "Frightening",
@@ -386,26 +386,26 @@
   {
     "name": "Furor",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Furor",
-    "description": "",
-    "effect": ""
+    "description": "When HP is below 33%, techniques do 33% more damage.",
+    "effect": "Furor increases the damage of holder's Techniques by 33% while they're below 33% of their maximum HP."
   },
   {
     "name": "Going Away Gift",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Going_Away_Gift",
-    "description": "",
-    "effect": ""
+    "description": "When knocked-out, adds the Temtem positive stat stage changes to the ally.",
+    "effect": "Going Away Gift gifts all the holder's positive stat stage changes to their ally upon the holder being knocked-out."
   },
   {
     "name": "Good Friend",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Good_Friend",
-    "description": "",
-    "effect": ""
+    "description": "After the ally receives a rival attack, the next one during the same turn gets redirected to the Temtem.",
+    "effect": "Good Friend causes a second incoming rival Technique that's directed at the holder's ally to be redirected to the holder."
   },
   {
     "name": "Gotta Go Fast",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Gotta_Go_Fast",
-    "description": "",
-    "effect": ""
+    "description": "Changes the Temtem's very low, low and normal priority techniques to high priority.",
+    "effect": "Gotta Go Fast causes all of the holders Techniques that have Very Low, Low, and Normal priority to be increased to High priority."
   },
   {
     "name": "Guardian",
@@ -494,98 +494,98 @@
   {
     "name": "Inductor",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Inductor",
-    "description": "After attacking with a Electric technique, restores 8% of max HP.",
-    "effect": "Inductor restores 8% of the holder's maximum HP every time an Electric Technique is sucessfully used by any combatant on the battlefield."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Infectious",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Infectious",
-    "description": "All healing is negated while the Temtem is in the battlefield.",
-    "effect": "Infectious negates all healing while the Temtem is in the battlefield."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Inhibiter",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Inhibiter",
-    "description": "Once per battle, when attacking a Temtem, disables its trait.",
-    "effect": "Inhibiter prevents the Trait of a single combatant from having any effect for rest of the battle after being attacked by the holder once per battle."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Inner Shield",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Inner_Shield",
-    "description": "Prevents Rival status techniques.",
-    "effect": "Inner Shield causes the holder to not be affected by any Status Techniques used by the rival team."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Intimidator",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Intimidator",
-    "description": "Traits from the rivals and the ally don't have any effect during the first 3 turns the Temtem is on the battlefield.",
-    "effect": "Intimidator prevents the Traits of the rival team and the holder's ally from having any effects for the first 3 turns the holder is on the battlefield."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Iridescence",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Iridescence",
-    "description": "Ignores all type resistances while in battle: all techniques deal x1 damage to this Temtem, but in exchange all techniques will cause 10% more damage.",
-    "effect": "Iridescence causes the holder to receive 10% more damage from Techniques but the type of the Technique is ignored."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Jack of all Trades",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Jack_of_all_Trades",
-    "description": "When attacking with a physical technique, gets SPATK , and when attacking with a special technique, gets ATK .",
-    "effect": "Jack of all Trades gifts the holder with SPATK when a Physical Technique is used and ATK when a Special Technique is used."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Kinetic Transfer",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Kinetic_Transfer",
-    "description": "When attacking a Temtem, the user recovers 15% of the damage done as STA.",
-    "effect": "Kinetic Transfer causes the holder to restore 15% of the inflicted Damage as STA."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Landing Transmog",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Landing_Transmog",
-    "description": "When entering the battlefield, Mimit transforms into the next Temtem in clockwise order.",
-    "effect": "Landing Transmog causes Mimit to transform into the next Temtem in clockwise order upon entering the battlefield. It will use the same Base Stats, Techniques, Trait and Typing of the target but will keep its own Level, SVs and TVs. It also won't copy any Status Conditions or Stat Stage Changes which are currently applied on the target. If the next Temtem is a Mimit, then the transforming Mimit will skip to the next Temtem of a different species. If already transformed, swapped out, and sent back in, so long as the next Temtem in a different species than what is currently copied, Mimit will change when entering the battlefield."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Last Rush",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Last_Rush",
-    "description": "While rivals outnumber allies, techniques inflict +33% Damage.",
-    "effect": "Last Rush increases the damage of the holder's Techniques by an additional 33% while the number of conscious combatants on the rival's squad outnumber the number of conscious combatants on the holder's squad."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Loneliness",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Loneliness",
-    "description": "Synergies won't work on both allies.",
-    "effect": "Loneliness causes the holder and their ally to be unable to use synergies."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Marathonist",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Marathonist",
-    "description": "When attacking, gets SPD , and STA cost is reduced by 50%.",
-    "effect": "Marathonist decreases the STA Cost of the holder's Techniques by 50% but also inflicts them with SPD whenever they use a Technique."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Meditation (Trait)",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Meditation_(Trait)",
-    "description": "When resting, heals all negative status conditions, and gets regenerating for 1 turn.",
-    "effect": "Meditation gifts the holder with the Regenerated Condition for 1 turn and cures them of all negative status conditions whenever they Rest."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Mental Alliance",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Mental_Alliance",
-    "description": "Increases SPATK by 15% if ally is Mental.",
-    "effect": "Mental Alliance increases the holder's SPATK by 15% if their ally is part Mental."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Mineral Crusher",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Mineral_Crusher",
-    "description": "Damage done to Earth or Crystal Temtem is increased by 25%.",
-    "effect": "Mineral Crusher increases the damage of all the holder's Techniques by 25% if their target is part Earth or Crystal."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Mirroring",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Mirroring",
-    "description": "When attacked with a Special technique, the attacker gets 25% knockback damage.",
-    "effect": "Mirroring inflicts 25% of the damage the holder takes from Special Techniques to the attacker."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Mithridatism",
@@ -818,122 +818,122 @@
   {
     "name": "Sentinel",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Sentinel",
-    "description": "",
-    "effect": ""
+    "description": "When entering the battlefield, removes the asleep status condition on the ally and prevents the asleep status condition on the ally and itself.",
+    "effect": "Sentinel protects the holder and their ally from the Asleep Condition and cures their ally of the Asleep Condition when the holder enters the battlefield."
   },
   {
     "name": "Seppuku",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Seppuku",
-    "description": "",
-    "effect": ""
+    "description": "When the holder faints due to recoil damage or Overexertion, it applies 4 turns of Doom to the rival Tems.",
+    "effect": "Seppuku inflicts the rival team with the Doomed Status Condition for 4 turns if the holder is knocked-out due to Overexertion or self-damaging moves like Autodestruction."
   },
   {
     "name": "Settling",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Settling",
-    "description": "",
-    "effect": ""
+    "description": "At the end of the turn, after each 2 consecutive turns in battle, the holder gets ATK and SPATK when a new turn starts.",
+    "effect": "Settling gifts the holder with ATK and SPATK for each 2 consecutive turns they are on the battlefield."
   },
   {
     "name": "Shaolin",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Shaolin",
-    "description": "",
-    "effect": ""
+    "description": "Damage done with special techniques is increased by 10%.",
+    "effect": "All damage done by this Temtem's Special Techniques is increased by 10%."
   },
   {
     "name": "Shared Pain",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Shared_Pain",
-    "description": "",
-    "effect": ""
+    "description": "After receiving a rival attack, the next one during the same turn gets redirected to the ally.",
+    "effect": "Shared Pain protects the holder from receiving damage from a second attack from the rival team that turn by redirecting it to their ally."
   },
   {
     "name": "Shinobi Tactics",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Shinobi_Tactics",
-    "description": "",
-    "effect": ""
+    "description": "High priority techniques deal 10% more damage.",
+    "effect": "Shinobi Tactics increases the damage of the holder's High Priority Techniques by 10%."
   },
   {
     "name": "Short Circuit",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Short_Circuit",
-    "description": "",
-    "effect": ""
+    "description": "Prevents all stat changes on all Temtem.",
+    "effect": "Short Circuit prevents all Stat Stage Changes from being gifted/inflicted to all combatants on the battlefield as long as the holder is on the battlefield."
   },
   {
     "name": "Skull Helmet",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Skull_Helmet",
-    "description": "",
-    "effect": ""
+    "description": "Damage taken from Mental or Melee techniques is reduced by 25% and the Temtem is immune to the Exhausted status condition.",
+    "effect": "Skull Helmet decreases the damage the holder takes from Mental and Melee Techniques by 25%. The holder is also immnue to the Exhausted Condition."
   },
   {
     "name": "Snowstorm",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Snowstorm",
-    "description": "",
-    "effect": ""
+    "description": "Once per battle, when entering the battlefield, rivals and the ally get cold for 2 turns if they aren't cold already.",
+    "effect": "Snowstorm inflicts both rivals and the holder's ally with the Cold Condition for 2 turns if they aren't already inflicted with the Cold Condition when the holder enters the battlefield once per battle."
   },
   {
     "name": "Soft Touch",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Soft_Touch",
-    "description": "",
-    "effect": ""
+    "description": "When attacking an asleep target, damage done is increased by 12% and the target won't wake up.",
+    "effect": "Soft Touch increases the damage the holder does to targets affected by the Asleep Condition by 12% and stops the holder from curing them of the Asleep Condition with any damage-dealing Techniques."
   },
   {
     "name": "Solidifier",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Solidifier",
-    "description": "",
-    "effect": ""
+    "description": "When attacking with a Water Special technique, uses the ATK.",
+    "effect": "Solidifier causes the holder to use their ATK instead of their SPATK when using a Special Water Technique."
   },
   {
     "name": "Source Replicator",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Source_Replicator",
-    "description": "",
-    "effect": ""
+    "description": "When getting a positive status condition, adds the change to the ally too.",
+    "effect": "Source Replicator copies any Alerted, Regenerated, Evading, Immune, or Invigorated Conditions the holder is gifted with and gifts them to their ally for the same duration."
   },
   {
     "name": "Specgulp",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Specgulp",
-    "description": "",
-    "effect": ""
+    "description": "When attacked with a special technique, restores 8% of max HP.",
+    "effect": "Specgulp restores 8% of the holder's maximum HP whenever they are attacked by a Special Technique."
   },
   {
     "name": "Specmaster",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Specmaster",
-    "description": "",
-    "effect": ""
+    "description": "Damage done with special techniques is increased by 50%",
+    "effect": "Specmaster increases the damage of the holder's Special Techniques by 50%."
   },
   {
     "name": "Spiritual",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Spiritual",
-    "description": "",
-    "effect": ""
+    "description": "When entering the battlefield, gets SPATK and SPDEF .",
+    "effect": "Spiritual gifts the holder with SPATK but also inflicts them with SPDEF whenever they enter the battlefield."
   },
   {
     "name": "Splitter",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Splitter",
-    "description": "",
-    "effect": ""
+    "description": "Prevents getting a negative status condition and gets Invigorated for 2 turns.",
+    "effect": "Splitter protects the holder from being inflicted with the Poisoned, Burned, Asleep, Cold, Frozen, Exhausted, Isolated, Seized, or Trapped Conditions. For example: Embers won't inflict Burned, Hypnosis won't inflict Asleep, and Toxic Ink won't inflict Poisoned."
   },
   {
     "name": "Spoilsport",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Spoilsport",
-    "description": "",
-    "effect": ""
+    "description": "Damage done with multi-target techniques is increased by 25%.",
+    "effect": "Spoilsport increases the damage of the holder's Techniques that target the rival team or the user's ally by 25%."
   },
   {
     "name": "Spreader",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Spreader",
-    "description": "",
-    "effect": ""
+    "description": "If there are multiple rivals, single-target special techniques become multi-target and damage done with them is reduced by 15%.",
+    "effect": "Spreader causes all of the holder's Special Techniques that have single target or single other target as their targeting to hit both rivals but reduces the damage of these Techniques by 15% if there are multiple rivals on the battlefield."
   },
   {
     "name": "Stabmaster",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Stabmaster",
-    "description": "",
-    "effect": ""
+    "description": "Damage done with matching type techniques is increased by 35%.",
+    "effect": "Stabmaster increases the damage of the holders Techniques that are the same Type as the holder by 35%. This boost stacks with STAB."
   },
   {
     "name": "Striking Transmog",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Striking_Transmog",
-    "description": "",
-    "effect": ""
+    "description": "Once per battle, when attacking an individual Temtem with a physical technique, Mimit transforms into the target.",
+    "effect": "Once per battle, Striking Transmog causes Mimit to transform into the Temtem the holder hits with Physical Techniques that has single target or single other target as their targeting and will multiply Mimit's DEF and SPDEF stat by 30% for the rest of the current turn. It will use the same Base Stats, Techniques, Trait, and Typing of the target but will keep its own Level, SVs and TVs. It also won't copy any Status Conditions or Stat Stage Changes which are currently applied on the target."
   },
   {
     "name": "Strong Liver",
@@ -980,14 +980,14 @@
   {
     "name": "Tag Team",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tag_Team",
-    "description": "Damage taken from techniques is reduced by 15% if both allies share a type.",
-    "effect": "Tag Team decreases the damage the holder takes from Techniques by 15% if both the holder and their ally share a Type."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Tardy Rush",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tardy_Rush",
-    "description": "Increases SPD by 85% and ATK by 10% after 3 consecutive turns on the battlefield.",
-    "effect": "Tardy Rush increases the holder's SPD by 85% and ATK by 10% after being on the battlefield for 3 turns in a row and lasts until the holder leaves the battlefield. If the holder is swapped in, the turn they enter the battlefield counts as turn 1."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Target Replicator",
@@ -998,50 +998,50 @@
   {
     "name": "Team Elusive",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Team_Elusive",
-    "description": "Prevents any offensive multi-target technique.",
-    "effect": "Team Elusive protects the holder from being affected by damaging Techniques from both their ally and the rivals that have single team, rival team or the user's ally, all other Temtem, or all as their targeting. If Puppet Master would cause a holder to be the target of a Technique, it will."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Thick Skin",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Thick_Skin",
-    "description": "Damage taken by Wind techniques is reduced by 50%.",
-    "effect": "Thick Skin decreases the damage the holder takes from Wind Techniques by 50%."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Tireless",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Tireless",
-    "description": "When overexerted, prevents the turn penalization and gets ATK .",
-    "effect": "Tireless gifts the holder with ATK , prevents the turn penalty from Overexerting, and reduces self-damage from Overexerting by 50% whenever the holder Overexerts."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Toxic Affinity",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxic_Affinity",
-    "description": "Toxic techniques get type damage boost.",
-    "effect": "Toxic Affinity increases the damage of the holder's Toxic Techniques by 50%, as if they had STAB. This boost stacks with actual STAB if the holder is part Toxic."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Toxic Farewell",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxic_Farewell",
-    "description": "When knocked-out, the attacking team loses 7% of max HP and gets poisoned for 1 turn.",
-    "effect": "Toxic Farewell inflicts the attacking team that knocked-out the holder with the Poisoned Condition for 1 turn and they lose 7% of their maximum HP."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Toxic Skin",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxic_Skin",
-    "description": "Once per battle, when attacked, the attacker gets poisoned for 2 turns.",
-    "effect": "Once per battle, Toxic Skin inflicts the Poisoned Condition for 2 turns onto any attacker that hits the holder with a Technique."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Toxifier",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxifier",
-    "description": "When attacking with a Physical Toxic technique, uses SPATK and increases its damage by 10%.",
-    "effect": "Toxifier causes the holder to use their SPATK instead of their ATK and increases Technique damage by 10% when using a a Physical Toxic technique."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Toxin Crusher",
     "wikiUrl": "https://temtem.wiki.gg/wiki/Toxin_Crusher",
-    "description": "Damage done to Toxic Temtem is increased by 50%.",
-    "effect": "Toxin Crusher increases the damage of all the holder's Techniques by 50% if their target is part Toxic."
+    "description": "",
+    "effect": ""
   },
   {
     "name": "Traits",
