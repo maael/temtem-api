@@ -33558,43 +33558,943 @@
       "spdef": 58,
       "total": 456
     },
-    "traits": [],
+    "traits": [
+      "Synergy Adept",
+      "Iridescence"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 110,
+        "inches": 43
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 63,
+        "lbs": 138
       }
     },
-    "techniques": [],
-    "trivia": [],
+    "techniques": [
+      {
+        "name": "Finbeat",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Ice Cubes",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Rainbow Guard",
+        "source": "Levelling",
+        "levels": 21
+      },
+      {
+        "name": "Waterjet",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Water Stream",
+        "source": "Levelling",
+        "levels": 42
+      },
+      {
+        "name": "Cold Geyser",
+        "source": "Levelling",
+        "levels": 52
+      },
+      {
+        "name": "Fluid Barrier",
+        "source": "Levelling",
+        "levels": 60
+      },
+      {
+        "name": "Flood",
+        "source": "Levelling",
+        "levels": 69
+      },
+      {
+        "name": "Laundry",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Aqua Stone",
+        "source": "Levelling",
+        "levels": 92
+      },
+      {
+        "name": "Sanative Rain",
+        "source": "Levelling",
+        "levels": 100
+      },
+      {
+        "name": "Finbeat",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Ice Cubes",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Rainbow Guard",
+        "source": "Levelling",
+        "levels": 21
+      },
+      {
+        "name": "Waterjet",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Neutral Stream",
+        "source": "Levelling",
+        "levels": 42
+      },
+      {
+        "name": "Cooperation",
+        "source": "Levelling",
+        "levels": 69
+      },
+      {
+        "name": "Stampede",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Late Torment",
+        "source": "Levelling",
+        "levels": 92
+      },
+      {
+        "name": "Held Anger",
+        "source": "Levelling",
+        "levels": 100
+      },
+      {
+        "name": "Finbeat",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Ice Cubes",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Rainbow Guard",
+        "source": "Levelling",
+        "levels": 21
+      },
+      {
+        "name": "Waterjet",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Wind Stream",
+        "source": "Levelling",
+        "levels": 42
+      },
+      {
+        "name": "Turbine",
+        "source": "Levelling",
+        "levels": 52
+      },
+      {
+        "name": "Refreshing Breeze",
+        "source": "Levelling",
+        "levels": 69
+      },
+      {
+        "name": "Debris Typhoon",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Finbeat",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Ice Cubes",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Rainbow Guard",
+        "source": "Levelling",
+        "levels": 21
+      },
+      {
+        "name": "Waterjet",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Earth Stream",
+        "source": "Levelling",
+        "levels": 42
+      },
+      {
+        "name": "Rockfall",
+        "source": "Levelling",
+        "levels": 52
+      },
+      {
+        "name": "Stone Wall",
+        "source": "Levelling",
+        "levels": 60
+      },
+      {
+        "name": "Quicksand",
+        "source": "Levelling",
+        "levels": 69
+      },
+      {
+        "name": "Earthbreaker",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Stone Ball",
+        "source": "Levelling",
+        "levels": 91
+      },
+      {
+        "name": "Finbeat",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Ice Cubes",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Rainbow Guard",
+        "source": "Levelling",
+        "levels": 21
+      },
+      {
+        "name": "Waterjet",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Fire Stream",
+        "source": "Levelling",
+        "levels": 42
+      },
+      {
+        "name": "Quetza-leño",
+        "source": "Levelling",
+        "levels": 52
+      },
+      {
+        "name": "Meteor Swarm",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Finbeat",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Ice Cubes",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Rainbow Guard",
+        "source": "Levelling",
+        "levels": 21
+      },
+      {
+        "name": "Waterjet",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Nature Stream",
+        "source": "Levelling",
+        "levels": 42
+      },
+      {
+        "name": "Water Cutting Lily",
+        "source": "Levelling",
+        "levels": 52
+      },
+      {
+        "name": "Roots",
+        "source": "Levelling",
+        "levels": 69
+      },
+      {
+        "name": "Revitalize",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Photosynthesis",
+        "source": "Levelling",
+        "levels": 100
+      },
+      {
+        "name": "Finbeat",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Ice Cubes",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Rainbow Guard",
+        "source": "Levelling",
+        "levels": 21
+      },
+      {
+        "name": "Waterjet",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Electric Stream",
+        "source": "Levelling",
+        "levels": 42
+      },
+      {
+        "name": "Electropunch",
+        "source": "Levelling",
+        "levels": 52
+      },
+      {
+        "name": "Electromagnetism",
+        "source": "Levelling",
+        "levels": 69
+      },
+      {
+        "name": "Charged Iron Filings",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Sparkling Bullet",
+        "source": "Levelling",
+        "levels": 100
+      },
+      {
+        "name": "Finbeat",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Ice Cubes",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Rainbow Guard",
+        "source": "Levelling",
+        "levels": 21
+      },
+      {
+        "name": "Waterjet",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Mental Stream",
+        "source": "Levelling",
+        "levels": 42
+      },
+      {
+        "name": "Matter Teleport",
+        "source": "Levelling",
+        "levels": 52
+      },
+      {
+        "name": "Ultrasound",
+        "source": "Levelling",
+        "levels": 69
+      },
+      {
+        "name": "Blackhole",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Transient Echo",
+        "source": "Levelling",
+        "levels": 100
+      },
+      {
+        "name": "Finbeat",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Ice Cubes",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Rainbow Guard",
+        "source": "Levelling",
+        "levels": 21
+      },
+      {
+        "name": "Waterjet",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Digital Stream",
+        "source": "Levelling",
+        "levels": 42
+      },
+      {
+        "name": "Cyberclaw",
+        "source": "Levelling",
+        "levels": 52
+      },
+      {
+        "name": "Generify",
+        "source": "Levelling",
+        "levels": 69
+      },
+      {
+        "name": "Faraday Cage",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Finbeat",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Ice Cubes",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Rainbow Guard",
+        "source": "Levelling",
+        "levels": 21
+      },
+      {
+        "name": "Waterjet",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Melee Stream",
+        "source": "Levelling",
+        "levels": 42
+      },
+      {
+        "name": "Helicopter Kick",
+        "source": "Levelling",
+        "levels": 52
+      },
+      {
+        "name": "Show Off",
+        "source": "Levelling",
+        "levels": 65
+      },
+      {
+        "name": "Wrenching Massage",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Haito Uchi",
+        "source": "Levelling",
+        "levels": 92
+      },
+      {
+        "name": "Finbeat",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Ice Cubes",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Rainbow Guard",
+        "source": "Levelling",
+        "levels": 21
+      },
+      {
+        "name": "Waterjet",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Crystal Stream",
+        "source": "Levelling",
+        "levels": 42
+      },
+      {
+        "name": "Glass Blade",
+        "source": "Levelling",
+        "levels": 52
+      },
+      {
+        "name": "Sharp Stabs",
+        "source": "Levelling",
+        "levels": 69
+      },
+      {
+        "name": "Sharpening",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Mineral Hail",
+        "source": "Levelling",
+        "levels": 90
+      },
+      {
+        "name": "Finbeat",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Ice Cubes",
+        "source": "Levelling",
+        "levels": 6
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Rainbow Guard",
+        "source": "Levelling",
+        "levels": 21
+      },
+      {
+        "name": "Waterjet",
+        "source": "Levelling",
+        "levels": 32
+      },
+      {
+        "name": "Toxic Stream",
+        "source": "Levelling",
+        "levels": 42
+      },
+      {
+        "name": "Venomous Claws",
+        "source": "Levelling",
+        "levels": 52
+      },
+      {
+        "name": "Metabolize",
+        "source": "Levelling",
+        "levels": 69
+      },
+      {
+        "name": "Urushiol",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Noxious Bomb",
+        "source": "Levelling",
+        "levels": 100
+      },
+      {
+        "name": "Misogi",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Zen Meditation",
+        "source": "TechniqueCourses"
+      }
+    ],
+    "trivia": [
+      "Prior to Patch 1.5, Koish's exclusive Iridescence trait inverted type matchups against it. This meant that Mental Koish were the only Temtem weak to Neutral attacks, and Mental, Digital, or Melee Koish were the only Temtem resistant to Digital attacks.",
+      "Koish has 2 possible whisker lengths, 2 possible fin sizes, 6 possible colors for each of its 3 tail stripes, and 12 type combinations (each with a different pool of tail colors). This results in 864 variations of each Koish type and 10,368 variations total, not including Lumas.",
+      "Koish, along with Chromeon, are the only Temtem with a subspecies for each type."
+    ],
     "evolution": {
       "evolves": false
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Sillaro River",
+        "place": "Sillaro River",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "20%",
+        "level": "13 - 14 Water",
+        "freetem": {
+          "minLevel": 13,
+          "maxLevel": 14,
+          "minPansuns": 56,
+          "maxPansuns": 58
+        }
+      },
+      {
+        "location": "Sea-Queen's Aquarium",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "10%",
+        "level": "15 - 20 Random",
+        "freetem": {
+          "minLevel": 15,
+          "maxLevel": 20,
+          "minPansuns": 61,
+          "maxPansuns": 74
+        }
+      },
+      {
+        "location": "Thalassian Cliffs",
+        "place": "Thalassian Cliffs",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "30%",
+        "level": "18 - 20 Wind",
+        "freetem": {
+          "minLevel": 18,
+          "maxLevel": 20,
+          "minPansuns": 69,
+          "maxPansuns": 74
+        }
+      },
+      {
+        "location": "The Flywalk",
+        "place": "The Flywalk",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "15%",
+        "level": "19 - 21 Nature",
+        "freetem": {
+          "minLevel": 19,
+          "maxLevel": 21,
+          "minPansuns": 72,
+          "maxPansuns": 77
+        }
+      },
+      {
+        "location": "The Hangroad",
+        "place": "The Hangroad",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "15%",
+        "level": "18 - 21 Fire",
+        "freetem": {
+          "minLevel": 18,
+          "maxLevel": 21,
+          "minPansuns": 69,
+          "maxPansuns": 77
+        }
+      },
+      {
+        "location": "Corrupted Badlands",
+        "place": "Corrupted Badlands",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "20%",
+        "level": "27 - 30 Toxic",
+        "freetem": {
+          "minLevel": 27,
+          "maxLevel": 30,
+          "minPansuns": 93,
+          "maxPansuns": 101
+        }
+      },
+      {
+        "location": "Xolot Reservoir",
+        "place": "Xolot Reservoir",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "10%",
+        "level": "29 - 33 Toxic",
+        "freetem": {
+          "minLevel": 29,
+          "maxLevel": 33,
+          "minPansuns": 99,
+          "maxPansuns": 110
+        }
+      },
+      {
+        "location": "Mines of Mictlan",
+        "place": "Mines of Mictlan",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "15%",
+        "level": "33 - 39 Crystal",
+        "freetem": {
+          "minLevel": 33,
+          "maxLevel": 39,
+          "minPansuns": 110,
+          "maxPansuns": 126
+        }
+      },
+      {
+        "location": "Gardens of Aztlan",
+        "place": "",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "20%",
+        "level": "28 - 35 Crystal",
+        "freetem": {
+          "minLevel": 28,
+          "maxLevel": 35,
+          "minPansuns": 96,
+          "maxPansuns": 115
+        }
+      },
+      {
+        "location": "Mawingu Islets",
+        "place": "Mawingu Islets",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "20%",
+        "level": "32 - 39 Earth",
+        "freetem": {
+          "minLevel": 32,
+          "maxLevel": 39,
+          "minPansuns": 107,
+          "maxPansuns": 126
+        }
+      },
+      {
+        "location": "Nuru Lodge",
+        "place": "Nuru Lodge",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "100%",
+        "level": "44 - 50 Weekly",
+        "freetem": {
+          "minLevel": 44,
+          "maxLevel": 50,
+          "minPansuns": 139,
+          "maxPansuns": 155
+        }
+      },
+      {
+        "location": "Moyo Lake",
+        "place": "Moyo Lake",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "25%",
+        "level": "44 - 48 Neutral",
+        "freetem": {
+          "minLevel": 44,
+          "maxLevel": 48,
+          "minPansuns": 139,
+          "maxPansuns": 150
+        }
+      },
+      {
+        "location": "Sacred Lake",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "15%",
+        "level": "55 - 65 Electric",
+        "freetem": {
+          "minLevel": 55,
+          "maxLevel": 65,
+          "minPansuns": 169,
+          "maxPansuns": 196
+        }
+      },
+      {
+        "location": "Sacred Lake",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "15%",
+        "level": "55 - 65 Digital",
+        "freetem": {
+          "minLevel": 55,
+          "maxLevel": 65,
+          "minPansuns": 169,
+          "maxPansuns": 196
+        }
+      },
+      {
+        "location": "Loch Aduar",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "20%",
+        "level": "58 - 62 Melee",
+        "freetem": {
+          "minLevel": 58,
+          "maxLevel": 62,
+          "minPansuns": 177,
+          "maxPansuns": 188
+        }
+      },
+      {
+        "location": "Loch Aduar",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "20%",
+        "level": "58 - 62 Mental",
+        "freetem": {
+          "minLevel": 58,
+          "maxLevel": 62,
+          "minPansuns": 177,
+          "maxPansuns": 188
+        }
+      },
+      {
+        "location": "Meadowdale",
+        "place": "Meadowdale",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "20%",
+        "level": "57 - 62 Melee",
+        "freetem": {
+          "minLevel": 57,
+          "maxLevel": 62,
+          "minPansuns": 174,
+          "maxPansuns": 188
+        }
+      },
+      {
+        "location": "Meadowdale",
+        "place": "Meadowdale",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "20%",
+        "level": "57 - 62 Mental",
+        "freetem": {
+          "minLevel": 57,
+          "maxLevel": 62,
+          "minPansuns": 174,
+          "maxPansuns": 188
+        }
+      },
+      {
+        "location": "Greenglen Forest",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "20%",
+        "level": "62 - 70 Melee",
+        "freetem": {
+          "minLevel": 62,
+          "maxLevel": 70,
+          "minPansuns": 188,
+          "maxPansuns": 209
+        }
+      },
+      {
+        "location": "Greenglen Forest",
+        "place": "",
+        "note": "",
+        "island": "Arbury",
+        "frequency": "20%",
+        "level": "62 - 70 Mental",
+        "freetem": {
+          "minLevel": 62,
+          "maxLevel": 70,
+          "minPansuns": 188,
+          "maxPansuns": 209
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Koish.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Koish.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 100,
+    "hatchMins": 25,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 0,
+      "atk": 2,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "Unique amongst all Temtem, Koish sub-species are known to span all Temtem types. This extreme range of diversity is attributed to early mutations in the Xolotic-Moyoan-Sillarin ocean of prehistoric Paninsula.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/c/c7/Koish_full_render.png?2aea14",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/3/32/Koish_idle_animation.gif?d2fa85",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/a/ac/LumaKoish_full_render.png?662f03",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/d/d3/LumaKoish_idle_animation.gif?22a329",
+    "renderStaticImage": "/images/renders/temtem/static/Koish.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Koish.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Koish.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Koish.gif"
   },
   {
     "number": 144,
