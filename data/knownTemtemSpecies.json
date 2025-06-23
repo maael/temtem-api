@@ -3936,8 +3936,8 @@
             "Friendship"
           ],
           "traitMapping": {
-            "Hover": "Unknown",
-            "Friendship": "Unknown"
+            "Hover": "Caffeinated",
+            "Friendship": "Camaraderie"
           }
         },
         {
@@ -3951,7 +3951,10 @@
             "Caffeinated",
             "Camaraderie"
           ],
-          "traitMapping": {}
+          "traitMapping": {
+            "Caffeinated": "Bird Season",
+            "Camaraderie": "Bully"
+          }
         },
         {
           "stage": 2,
@@ -4094,43 +4097,375 @@
       "spdef": 60,
       "total": 394
     },
-    "traits": [],
+    "traits": [
+      "Caffeinated",
+      "Camaraderie"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 125,
+        "inches": 49
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 24,
+        "lbs": 52
       }
     },
-    "techniques": [],
-    "trivia": [],
+    "techniques": [
+      {
+        "name": "Peck",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Stare",
+        "source": "Levelling",
+        "levels": 2
+      },
+      {
+        "name": "Wind Blade",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Wind Burst",
+        "source": "Levelling",
+        "levels": 7
+      },
+      {
+        "name": "Hypnosis",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Cheer Up",
+        "source": "Levelling",
+        "levels": 14
+      },
+      {
+        "name": "Feather Gatling",
+        "source": "Levelling",
+        "levels": 19
+      },
+      {
+        "name": "Refresh",
+        "source": "Levelling",
+        "levels": 41
+      },
+      {
+        "name": "Willpower Drain",
+        "source": "Levelling",
+        "levels": 52
+      },
+      {
+        "name": "Turbo Choreography",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Wake Up",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Misogi",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Humiliating Slap",
+        "source": "Breeding"
+      },
+      {
+        "name": "Tornado",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [
+      "There's a home in Arissola where a Luma Paharac sits near the other end of the home.",
+      "Paharac was first seen on Twitter.",
+      "Paharac was first revealed on the 13th June 2018, during a Twitch interview hosted by PokéNinja and the CEO of Crema, Enrique Paños."
+    ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 16,
+          "name": "Paharo",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Hover",
+            "Friendship"
+          ],
+          "traitMapping": {
+            "Hover": "Caffeinated",
+            "Friendship": "Camaraderie"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 17,
+          "name": "Paharac",
+          "level": 7,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Caffeinated",
+            "Camaraderie"
+          ],
+          "traitMapping": {
+            "Caffeinated": "Bird Season",
+            "Camaraderie": "Bully"
+          }
+        },
+        {
+          "stage": 2,
+          "number": 18,
+          "name": "Granpah",
+          "level": 16,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Bird Season",
+            "Bully"
+          ],
+          "traitMapping": {
+            "Bird Season": "Bird Season",
+            "Bully": "Bully"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": {
+        "stage": 0,
+        "number": 16,
+        "name": "Paharo",
+        "level": 0,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Hover",
+          "Friendship"
+        ],
+        "traitMapping": {
+          "Hover": "Caffeinated",
+          "Friendship": "Camaraderie"
+        }
+      },
+      "to": {
+        "stage": 2,
+        "number": 18,
+        "name": "Granpah",
+        "level": 16,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Bird Season",
+          "Bully"
+        ],
+        "traitMapping": {
+          "Bird Season": "Bird Season",
+          "Bully": "Bully"
+        }
+      },
+      "number": 17,
+      "name": "Paharac",
+      "level": 7,
+      "trading": false,
+      "traits": [
+        "Caffeinated",
+        "Camaraderie"
+      ],
+      "traitMapping": {
+        "Caffeinated": "Bird Season",
+        "Camaraderie": "Bully"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Prasine Coast",
+        "place": "Prasine Coast",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "15%",
+        "level": "40 - 45",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 45,
+          "minPansuns": 107,
+          "maxPansuns": 118
+        }
+      },
+      {
+        "location": "Saipark",
+        "place": "Saipark",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "50%",
+        "level": "37 - 40",
+        "freetem": {
+          "minLevel": 37,
+          "maxLevel": 40,
+          "minPansuns": 100,
+          "maxPansuns": 107
+        }
+      },
+      {
+        "location": "Thalassian Cliffs",
+        "place": "Thalassian Cliffs",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "20%",
+        "level": "16 - 17",
+        "freetem": {
+          "minLevel": 16,
+          "maxLevel": 17,
+          "minPansuns": 55,
+          "maxPansuns": 57
+        }
+      },
+      {
+        "location": "Gifted Bridges",
+        "place": "",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "5% - 95%",
+        "level": "8 - 40",
+        "freetem": {
+          "minLevel": 8,
+          "maxLevel": 40,
+          "minPansuns": 38,
+          "maxPansuns": 107
+        }
+      },
+      {
+        "location": "The Canopath",
+        "place": "The Canopath",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "20%",
+        "level": "16 - 18",
+        "freetem": {
+          "minLevel": 16,
+          "maxLevel": 18,
+          "minPansuns": 55,
+          "maxPansuns": 59
+        }
+      },
+      {
+        "location": "The Flywalk",
+        "place": "The Flywalk",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "20%",
+        "level": "18-21",
+        "freetem": {
+          "minLevel": 18,
+          "maxLevel": 21,
+          "minPansuns": 59,
+          "maxPansuns": 66
+        }
+      },
+      {
+        "location": "The Glassyway",
+        "place": "The Glassyway",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "20%",
+        "level": "20 - 22",
+        "freetem": {
+          "minLevel": 20,
+          "maxLevel": 22,
+          "minPansuns": 64,
+          "maxPansuns": 68
+        }
+      },
+      {
+        "location": "Jino Gap",
+        "place": "Jino Gap",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "40%",
+        "level": "22 - 32",
+        "freetem": {
+          "minLevel": 22,
+          "maxLevel": 32,
+          "minPansuns": 68,
+          "maxPansuns": 90
+        }
+      },
+      {
+        "location": "Kwea Uplands",
+        "place": "Kwea Uplands",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "70%",
+        "level": "40 - 43",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 43,
+          "minPansuns": 107,
+          "maxPansuns": 113
+        }
+      },
+      {
+        "location": "Iwaba",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "15%",
+        "level": "46 - 52",
+        "freetem": {
+          "minLevel": 46,
+          "maxLevel": 52,
+          "minPansuns": 120,
+          "maxPansuns": 133
+        }
+      },
+      {
+        "location": "Pillars of Highabove",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "10%",
+        "level": "50 - 60",
+        "freetem": {
+          "minLevel": 50,
+          "maxLevel": 60,
+          "minPansuns": 128,
+          "maxPansuns": 150
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Paharac.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Paharac.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 125,
+    "hatchMins": 20,
+    "tvYields": {
+      "hp": 1,
+      "sta": 0,
+      "spd": 1,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "Due to their bigger size and stronger physique, Paharac doesn’t actually need camouflage, but they still love to flaunt their turquoise facial feathers with great pride.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/1/12/UmbraPaharac_full_render.png?795c42",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/1/1a/UmbraPaharac_idle_animation.gif?ab00dd",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/e/ed/LumaPaharac_full_render.png?f74405",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/6/6f/LumaPaharac_idle_animation.gif?8bffe0",
+    "renderStaticImage": "/images/renders/temtem/static/Paharac.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Paharac.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Paharac.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Paharac.gif"
   },
   {
     "number": 18,
@@ -4278,8 +4613,8 @@
             "Friendship"
           ],
           "traitMapping": {
-            "Hover": "Unknown",
-            "Friendship": "Unknown"
+            "Hover": "Caffeinated",
+            "Friendship": "Camaraderie"
           }
         },
         {
@@ -4293,7 +4628,10 @@
             "Caffeinated",
             "Camaraderie"
           ],
-          "traitMapping": {}
+          "traitMapping": {
+            "Caffeinated": "Bird Season",
+            "Camaraderie": "Bully"
+          }
         },
         {
           "stage": 2,
@@ -4934,8 +5272,8 @@
             "Camaraderie"
           ],
           "traitMapping": {
-            "Caffeinated": "Unknown",
-            "Camaraderie": "Unknown"
+            "Caffeinated": "Dispersion",
+            "Camaraderie": "Resistant"
           }
         },
         {
@@ -4949,7 +5287,10 @@
             "Dispersion",
             "Resistant"
           ],
-          "traitMapping": {}
+          "traitMapping": {
+            "Dispersion": "Dispersion",
+            "Resistant": "Resistant"
+          }
         }
       ],
       "evolves": true,
@@ -5077,43 +5418,259 @@
       "spdef": 52,
       "total": 472
     },
-    "traits": [],
+    "traits": [
+      "Dispersion",
+      "Resistant"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 150,
+        "inches": 59
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 75,
+        "lbs": 165
       }
     },
-    "techniques": [],
+    "techniques": [
+      {
+        "name": "Scratch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Nibble",
+        "source": "Levelling",
+        "levels": 3
+      },
+      {
+        "name": "Tenderness",
+        "source": "Levelling",
+        "levels": 5
+      },
+      {
+        "name": "Crystal Dust",
+        "source": "Levelling",
+        "levels": 7
+      },
+      {
+        "name": "Sand Splatter",
+        "source": "Levelling",
+        "levels": 10
+      },
+      {
+        "name": "Mud Shower",
+        "source": "Levelling",
+        "levels": 15
+      },
+      {
+        "name": "Head Ram",
+        "source": "Levelling",
+        "levels": 22
+      },
+      {
+        "name": "Crystal Deluge",
+        "source": "Levelling",
+        "levels": 45
+      },
+      {
+        "name": "Stone Ball",
+        "source": "Levelling",
+        "levels": 56
+      },
+      {
+        "name": "Earth Wave",
+        "source": "Levelling",
+        "levels": 60
+      },
+      {
+        "name": "Sand Storm",
+        "source": "Levelling",
+        "levels": 72
+      },
+      {
+        "name": "Diamond Fort",
+        "source": "Levelling",
+        "levels": 84
+      },
+      {
+        "name": "Turbo Choreography",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Rend",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Footwork",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Refresh",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Sharpening",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Quartz Dirt",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Soil Steam",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Crystal Bite",
+        "source": "Breeding"
+      },
+      {
+        "name": "Dust Vortex",
+        "source": "Breeding"
+      }
+    ],
     "trivia": [],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 21,
+          "name": "Bunbun",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Caffeinated",
+            "Camaraderie"
+          ],
+          "traitMapping": {
+            "Caffeinated": "Dispersion",
+            "Camaraderie": "Resistant"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 22,
+          "name": "Mudrid",
+          "level": 20,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Dispersion",
+            "Resistant"
+          ],
+          "traitMapping": {
+            "Dispersion": "Dispersion",
+            "Resistant": "Resistant"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": {
+        "stage": 0,
+        "number": 21,
+        "name": "Bunbun",
+        "level": 0,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Caffeinated",
+          "Camaraderie"
+        ],
+        "traitMapping": {
+          "Caffeinated": "Dispersion",
+          "Camaraderie": "Resistant"
+        }
+      },
+      "to": null,
+      "number": 22,
+      "name": "Mudrid",
+      "level": 20,
+      "trading": false,
+      "traits": [
+        "Dispersion",
+        "Resistant"
+      ],
+      "traitMapping": {
+        "Dispersion": "Dispersion",
+        "Resistant": "Resistant"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "Mines of Mictlan",
+        "place": "Mines of Mictlan",
+        "note": "",
+        "island": "Tucma",
+        "frequency": "5%",
+        "level": "33 - 37",
+        "freetem": {
+          "minLevel": 33,
+          "maxLevel": 37,
+          "minPansuns": 119,
+          "maxPansuns": 131
+        }
+      },
+      {
+        "location": "Barafu Glacier",
+        "place": "Barafu Glacier",
+        "note": "",
+        "island": "Kisiwa",
+        "frequency": "15%",
+        "level": "42 - 45",
+        "freetem": {
+          "minLevel": 42,
+          "maxLevel": 45,
+          "minPansuns": 146,
+          "maxPansuns": 155
+        }
+      },
+      {
+        "location": "Pillars of Highabove",
+        "place": "",
+        "note": "",
+        "island": "Cipanku",
+        "frequency": "35%",
+        "level": "50 - 55",
+        "freetem": {
+          "minLevel": 50,
+          "maxLevel": 55,
+          "minPansuns": 170,
+          "maxPansuns": 185
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Mudrid.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Mudrid.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 90,
+    "hatchMins": 27,
+    "tvYields": {
+      "hp": 0,
+      "sta": 0,
+      "spd": 3,
+      "atk": 0,
+      "def": 0,
+      "spatk": 0,
+      "spdef": 0
+    },
+    "gameDescription": "Bigger and more resilient than Bunbun, Mudrid are hardy Temtem, used to extreme weather conditions. Their extremely fine sense of hearing makes them very valuable scouting Temtem once tamed... but also harder to catch in the wild.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/a/a5/UmbraMudrid_full_render.png?c37cf4",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/3/3f/UmbraMudrid_idle_animation.gif?3a9193",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/1/11/LumaMudrid_full_render.png?73b878",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/2/2d/LumaMudrid_idle_animation.gif?d7a6d3",
+    "renderStaticImage": "/images/renders/temtem/static/Mudrid.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Mudrid.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Mudrid.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Mudrid.gif"
   },
   {
     "number": 23,
@@ -5237,8 +5794,8 @@
             "Botanist"
           ],
           "traitMapping": {
-            "Electric Synthesize": "Unknown",
-            "Botanist": "Unknown"
+            "Electric Synthesize": "Safe Retreat",
+            "Botanist": "Natural Conversion"
           }
         },
         {
@@ -5252,7 +5809,10 @@
             "Safe Retreat",
             "Natural Conversion"
           ],
-          "traitMapping": {}
+          "traitMapping": {
+            "Safe Retreat": "Safe Retreat",
+            "Natural Conversion": "Natural Conversion"
+          }
         }
       ],
       "evolves": true,
@@ -5379,43 +5939,249 @@
       "spdef": 89,
       "total": 473
     },
-    "traits": [],
+    "traits": [
+      "Safe Retreat",
+      "Natural Conversion"
+    ],
     "details": {
       "height": {
-        "cm": 0,
-        "inches": 0
+        "cm": 180,
+        "inches": 70
       },
       "weight": {
-        "kg": 0,
-        "lbs": 0
+        "kg": 72,
+        "lbs": 158
       }
     },
-    "techniques": [],
-    "trivia": [],
+    "techniques": [
+      {
+        "name": "Scratch",
+        "source": "Levelling",
+        "levels": 1
+      },
+      {
+        "name": "Sand Splatter",
+        "source": "Levelling",
+        "levels": 4
+      },
+      {
+        "name": "Sharp Leaf",
+        "source": "Levelling",
+        "levels": 7
+      },
+      {
+        "name": "Cheer Up",
+        "source": "Levelling",
+        "levels": 12
+      },
+      {
+        "name": "Allergic Spread",
+        "source": "Levelling",
+        "levels": 19
+      },
+      {
+        "name": "Gaia",
+        "source": "Levelling",
+        "levels": 24
+      },
+      {
+        "name": "Dust Vortex",
+        "source": "Levelling",
+        "levels": 37
+      },
+      {
+        "name": "Frond Whip",
+        "source": "Levelling",
+        "levels": 48
+      },
+      {
+        "name": "Lullaby",
+        "source": "Levelling",
+        "levels": 60
+      },
+      {
+        "name": "Unseen Blow",
+        "source": "Levelling",
+        "levels": 74
+      },
+      {
+        "name": "Extra Energy Slam",
+        "source": "Levelling",
+        "levels": 80
+      },
+      {
+        "name": "Leech",
+        "source": "Levelling",
+        "levels": 94
+      },
+      {
+        "name": "Wake Up",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Antitoxins",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Cage",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Major Slash",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Laundry",
+        "source": "TechniqueCourses"
+      },
+      {
+        "name": "Bark Shield",
+        "source": "Breeding"
+      },
+      {
+        "name": "Hypoxia",
+        "source": "Breeding"
+      },
+      {
+        "name": "Intimidation",
+        "source": "Breeding"
+      },
+      {
+        "name": "Spores",
+        "source": "Breeding"
+      }
+    ],
+    "trivia": [
+      "Taifu was first revealed via Twitter.",
+      "Ukama Lover, an NPC in the residential area of Mokupuni, wants to trade his Taifu for a Ukama.\nThe Taifu traded has the same Gender, Level, SVs and remaining Fertility.",
+      "The Taifu traded has the same Gender, Level, SVs and remaining Fertility."
+    ],
     "evolution": {
-      "evolves": false
+      "stage": 1,
+      "evolutionTree": [
+        {
+          "stage": 0,
+          "number": 23,
+          "name": "Hidody",
+          "level": 0,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Electric Synthesize",
+            "Botanist"
+          ],
+          "traitMapping": {
+            "Electric Synthesize": "Safe Retreat",
+            "Botanist": "Natural Conversion"
+          }
+        },
+        {
+          "stage": 1,
+          "number": 24,
+          "name": "Taifu",
+          "level": 15,
+          "type": "levels",
+          "trading": false,
+          "traits": [
+            "Safe Retreat",
+            "Natural Conversion"
+          ],
+          "traitMapping": {
+            "Safe Retreat": "Safe Retreat",
+            "Natural Conversion": "Natural Conversion"
+          }
+        }
+      ],
+      "evolves": true,
+      "type": "levels",
+      "from": {
+        "stage": 0,
+        "number": 23,
+        "name": "Hidody",
+        "level": 0,
+        "type": "levels",
+        "trading": false,
+        "traits": [
+          "Electric Synthesize",
+          "Botanist"
+        ],
+        "traitMapping": {
+          "Electric Synthesize": "Safe Retreat",
+          "Botanist": "Natural Conversion"
+        }
+      },
+      "to": null,
+      "number": 24,
+      "name": "Taifu",
+      "level": 15,
+      "trading": false,
+      "traits": [
+        "Safe Retreat",
+        "Natural Conversion"
+      ],
+      "traitMapping": {
+        "Safe Retreat": "Safe Retreat",
+        "Natural Conversion": "Natural Conversion"
+      }
     },
     "wikiPortraitUrlLarge": "https://temtem.wiki.gg",
     "lumaWikiPortraitUrlLarge": "https://temtem.wiki.gg",
-    "locations": [],
+    "locations": [
+      {
+        "location": "The Glassyway",
+        "place": "The Glassyway",
+        "note": "",
+        "island": "Omninesia",
+        "frequency": "25%",
+        "level": "19 - 22",
+        "freetem": {
+          "minLevel": 19,
+          "maxLevel": 22,
+          "minPansuns": 62,
+          "maxPansuns": 68
+        }
+      },
+      {
+        "location": "Prasine Coast",
+        "place": "Prasine Coast",
+        "note": "",
+        "island": "Deniz",
+        "frequency": "85%",
+        "level": "40 - 45",
+        "freetem": {
+          "minLevel": 40,
+          "maxLevel": 45,
+          "minPansuns": 107,
+          "maxPansuns": 118
+        }
+      }
+    ],
     "icon": "/images/portraits/temtem/large/Taifu.png",
     "lumaIcon": "/images/portraits/temtem/luma/large/Taifu.png",
     "genderRatio": {
       "male": 50,
       "female": 50
     },
-    "catchRate": 200,
-    "hatchMins": 5,
-    "tvYields": {},
-    "gameDescription": "N/A",
-    "wikiRenderStaticUrl": "",
-    "wikiRenderAnimatedUrl": "",
-    "wikiRenderStaticLumaUrl": "",
-    "wikiRenderAnimatedLumaUrl": "",
-    "renderStaticImage": "",
-    "renderStaticLumaImage": "",
-    "renderAnimatedImage": "",
-    "renderAnimatedLumaImage": ""
+    "catchRate": 125,
+    "hatchMins": 20,
+    "tvYields": {
+      "hp": 0,
+      "sta": 2,
+      "spd": 0,
+      "atk": 0,
+      "def": 0,
+      "spatk": 1,
+      "spdef": 0
+    },
+    "gameDescription": "Brought up on a steady diet of stolen cookies, Hidody evolves into the more agile Taifu. They are naughty but cute creatures, naturally given to light-hearted mischief... but very serious opponents in battle.",
+    "wikiRenderStaticUrl": "https://temtem.wiki.gg/images/5/5a/UmbraTaifu_full_render.png?f1b3a6",
+    "wikiRenderAnimatedUrl": "https://temtem.wiki.gg/images/5/57/UmbraTaifu_idle_animation.gif?6543f3",
+    "wikiRenderStaticLumaUrl": "https://temtem.wiki.gg/images/d/d5/LumaTaifu_full_render.png?d8e624",
+    "wikiRenderAnimatedLumaUrl": "https://temtem.wiki.gg/images/c/c2/LumaTaifu_idle_animation.gif?c9954d",
+    "renderStaticImage": "/images/renders/temtem/static/Taifu.png",
+    "renderStaticLumaImage": "/images/renders/temtem/luma/static/Taifu.png",
+    "renderAnimatedImage": "/images/renders/temtem/animated/Taifu.gif",
+    "renderAnimatedLumaImage": "/images/renders/temtem/luma/animated/Taifu.gif"
   },
   {
     "number": 25,
